@@ -16,25 +16,37 @@
 | :--- | :--- | :--- | :--- |
 | `chunk_id` | String | **Bắt buộc** | Mã định danh duy nhất của chunk (Dùng để truy xuất ngược hoặc link với GraphDB sau này). |
 | `text_chunk` | Dense & Sparse Vector | **Bắt buộc** | Payload nhúng dưới 2 định dạng: Dense Vector (Ngữ nghĩa) và Sparse Vector / BM25 (Từ khóa) để chạy Hybrid Search. |
+| `domain_features` (JSON Lồng nhau) | JSON Object | **Tùy chọn** | Gom nhóm các đặc trưng của từng bài toán (VD: `{"country": "VN", "domain": "Luật"}`). VectorDB hỗ trợ đánh Index thẳng vào các key con bên trong JSON này (VD: `domain_features.country`). |
 | `source` | String | **Bắt buộc** | Nguồn tài liệu (Tên báo, link văn bản). Dùng để trích dẫn nguồn khi sinh câu trả lời. |
 | `start_time` | Timestamp / ISO Date | **Bắt buộc** | Thời điểm thông tin bắt đầu đúng. Dùng để tính khoảng cách thời gian (Time Decay) và chặn thông tin tương lai. |
 | `end_time` | Timestamp / ISO Date | Mặc định `NULL` | Thời điểm thông tin kết thúc. Dùng để chốt khoảng `[start_time, end_time]`. Nếu chưa kết thúc, cứ để `NULL`. |
 | `invalidated_at`| Timestamp / ISO Date | Mặc định `NULL` | Cờ đánh dấu tin giả. Cơ chế 1 sẽ filter cứng để **loại bỏ hoàn toàn** các chunk có trường này khác `NULL`. |
+
+> ⚠️ **Chiến lược đánh Index (Payload Indexing Strategy):**
+> Việc lạm dụng đánh index quá nhiều trường (>10 trường) sẽ gây bùng nổ RAM và làm chậm quá trình Ingestion (do DB phải liên tục cập nhật các cây B-Tree). 
+> **Dự kiến cấu hình chuẩn cho đồ án này chỉ đánh Index đúng 4 trường sau:**
+> 1. `start_time` (Để chặn tương lai)
+> 2. `invalidated_at` (Để lọc tin giả)
+> 3. `domain_features.domain` (Phân loại lĩnh vực)
+> 4. `domain_features.country` (Phân loại quốc gia)
+> Các trường như `source`, `chunk_id`, `end_time` tuyệt đối KHÔNG đánh index để tiết kiệm tài nguyên.
 
 ---
 
 ## 3. Luồng xử lý chi tiết (Workflow)
 
 ### Bước 1: Time Extraction (Phân tích câu hỏi & Quy đổi thời gian)
-Routing Agent đọc câu hỏi của người dùng và trích xuất ra 2 thông tin:
-- `Semantic_Query`: Chủ đề cần tìm (VD: "Quy định luật xây dựng").
+Routing Agent đọc câu hỏi của người dùng và trích xuất ra 3 thông tin:
+- `Semantic_Query`: Ý định chính của câu hỏi (VD: "Quy định cấp sổ hồng").
 - `T_req` (Requested Time): Mốc thời gian tuyệt đối (VD: "2020-01-01").
+- `Metadata_Filters`: Một đối tượng JSON chứa các trường phân loại (VD: `{"country": "VN", "domain": "Luật Nhà ở"}`). Hệ thống cung cấp sẵn các keys/values hợp lệ trong Prompt để LLM mapping nhanh chóng, giúp thu hẹp không gian tìm kiếm.
 > 💡 **Xử lý Thời gian tương đối (Relative Time Resolution):** Rất nhiều trường hợp người dùng sẽ hỏi theo ngữ cảnh mốc thời gian động (Ví dụ: *"tuần trước", "tháng ngoái", "hiện tại"*). Để giải quyết, **Hệ thống bắt buộc phải tiêm thời gian thực tế của server (System Clock - `T_now`) vào System Prompt** của Agent. Nhờ có `T_now` làm điểm neo, LLM mới có thể tự động tính toán và quy đổi "tuần trước" thành một mốc `T_req` tuyệt đối (Ví dụ: `2023-10-15`) trước khi gọi DB.
 
 ### Bước 2: Truy xuất và Lọc thô (Hybrid Search + Hard Filter)
 Hệ thống truy vấn VectorDB để lấy ra Top-N tài liệu sử dụng **Hybrid Search** (kết hợp Dense Vector để hiểu ngữ nghĩa và Sparse Vector / BM25 để bắt chính xác từ khóa), kèm theo **Hard Filter**:
 - **Loại bỏ thông tin sai lệch / đính chính:** `invalidated_at IS NULL` (Vì Cơ chế 1 chỉ nhắm đến việc trả lời sự thật khách quan (Factual query), hệ thống bắt buộc phải gạt bỏ mọi chunk đã bị đánh dấu là tin giả hoặc bị lật đổ để tránh LLM bị ảo giác. Bất cứ chunk nào có cờ `invalidated_at != NULL` đều bị drop ngay từ vòng này).
 - **Chặn tương lai:** `start_time <= T_req` (Tuyệt đối không lấy chunk có ngày bắt đầu lớn hơn ngày người dùng hỏi).
+- **Lọc đa chiều (Faceted Pre-filtering):** Kích hoạt điều kiện `AND` cho các Index được bóc tách từ `Metadata_Filters`. (Dùng các cây B-Tree Index độc lập để thu hẹp không gian tìm kiếm từ vài triệu chunks xuống chỉ còn vài trăm chunks trước khi đi tính toán Vector. Giúp tăng tốc độ (Low Latency) và giảm nhiễu chéo giữa các văn bản khác miền).
 
 ### Bước 3: Phân loại và Re-ranking (Xử lý 2 Trường hợp)
 Trong số N tài liệu lấy ra ở Bước 2, hệ thống chia làm 2 trường hợp để tính điểm `Temporal_Score`:
@@ -116,24 +128,37 @@ Dưới đây là mã giả (Pseudo-code) bằng Python minh họa cho **Bước
 ```python
 from qdrant_client.http import models
 
-def build_temporal_filter(t_req_timestamp: int):
+def build_temporal_and_faceted_filter(t_req_timestamp: int, metadata_filters: dict):
     """
     Tạo bộ lọc để:
-    1. Loại bỏ tin giả (invalidated_at IS NULL).
-    2. Loại bỏ thông tin tương lai (start_time <= T_req).
+    1. Pre-filtering đa chiều (Faceted Filtering) dựa trên dict đầu vào.
+    2. Loại bỏ tin giả (invalidated_at IS NULL).
+    3. Loại bỏ thông tin tương lai (start_time <= T_req).
     """
-    return models.Filter(
-        must=[
-            # Điều kiện 1: invalidated_at phải là NULL (không tồn tại cờ tin giả)
-            models.IsEmptyCondition(
-                is_empty=models.PayloadField(key="invalidated_at")
-            ),
-            # Điều kiện 2: start_time <= T_req (Chặn tương lai)
+    must_conditions = []
+    
+    # Điều kiện 1: Pre-filtering B-Tree (Khoanh vùng đa chiều)
+    # Ví dụ metadata_filters = {"country": "VN", "domain": "Luật Nhà ở"}
+    for key, value in metadata_filters.items():
+        must_conditions.append(
             models.FieldCondition(
-                key="start_time",
-                range=models.Range(lte=t_req_timestamp)
+                key=key,
+                match=models.MatchValue(value=value)
             )
-        ]
+        )
+        
+    # Điều kiện 2 & 3: Lọc thời gian và độ chân thực
+    must_conditions.extend([
+        models.IsEmptyCondition(
+            is_empty=models.PayloadField(key="invalidated_at")
+        ),
+        models.FieldCondition(
+            key="start_time",
+            range=models.Range(lte=t_req_timestamp)
+        )
+    ])
+    
+    return models.Filter(must=must_conditions)
     )
 ```
 

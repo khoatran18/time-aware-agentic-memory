@@ -90,6 +90,7 @@ Mỗi đoạn văn bản khi lưu vào VectorDB bắt buộc phải đi kèm met
 - **Payload (Dữ liệu nhúng):** `text_chunk` (Nội dung văn bản thô được nhúng dưới 2 dạng: **Dense Vector** cho Semantic Search và **Sparse Vector / BM25** cho Keyword Search, phục vụ Hybrid Retrieval).
 - **Metadata (Dữ liệu đi kèm để filter/re-rank):**
   - `chunk_id` (String): Mã định danh duy nhất (dùng để GraphDB trỏ ngược về bằng Boomerang Pointer).
+  - `category` (String / Keyword): Nhãn phân loại chủ đề (VD: "Luật Nhà ở", "Thể thao", "Kinh tế"). *Bắt buộc phải đánh Payload Index trên DB để tăng tốc Pre-filtering.*
   - `source` (String): Nguồn tài liệu (ví dụ: Tên báo, đường link).
   - `credibility_score` (Float 0.0 - 1.0): Điểm uy tín của nguồn tin.
   - `start_time` (Timestamp / ISO Date): Thời điểm bắt đầu sự kiện hoặc bắt đầu có hiệu lực (Ví dụ: 01-01-2019).
