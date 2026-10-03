@@ -12,28 +12,49 @@ Các hệ thống AI (đặc biệt là LLM + RAG) thường xử lý thông tin
 
 **Mục tiêu đề tài:** xây dựng cơ chế giúp AI "nhận thức được thời gian" — biết đâu là thông tin còn hiệu lực, đâu là thông tin đã cũ, và tự tổng hợp được diễn biến của một sự kiện/thực thể theo đúng trình tự thời gian.
 
-## 2. Ba cơ chế nghiên cứu (không bắt buộc làm cả 3)
+### Các loại truy vấn/xử lý hệ thống cần giải quyết
+Để đáp ứng mục tiêu trên, hệ thống cần xử lý tốt 3 tình huống/loại câu hỏi chính:
+1. **Truy xuất thông tin tại một mốc thời gian cụ thể:** Lấy đúng thông tin tại thời điểm được hỏi (Ví dụ: "Hiện tại ai là Tổng thống Mỹ?", hoặc "Năm 2005 ai là Thủ tướng Anh?").
+2. **Tóm tắt sự kiện theo dòng thời gian:** Tổng hợp thông tin từ nhiều mốc thời gian để vẽ nên một bức tranh toàn cảnh (Ví dụ: "Tóm tắt quá trình phát triển sự nghiệp của nhân vật X").
+3. **Xử lý xung đột dữ liệu & Cập nhật luồng tin (Streaming Updates & Belief Revision):** Khi có thông tin mâu thuẫn, hệ thống không chỉ áp dụng luật "mới nhất là đúng nhất". Nó phải biết cách xử lý linh hoạt:
+   - **Xung đột đa nguồn:** Ưu tiên thông tin từ các nguồn uy tín hơn (Credibility) khi 2 nguồn đưa tin khác nhau cùng lúc.
+   - **Cập nhật tin tức phá vỡ (Breaking News / Amendments):** Nhận diện được tính "ghi đè" của tin mới lên tin cũ (ví dụ: ngày 1 A là nghi phạm, ngày 2 A là thủ phạm, ngày 3 B bị oan) và dùng thuật toán (như Re-ranking bằng khoảng cách thời gian) để truy xuất chính xác trạng thái sự việc tại bất kỳ mốc thời gian nào người dùng yêu cầu.
 
-> **Lưu ý phạm vi:** Đây là 3 hướng tiếp cận được liệt kê trong tổng quan nghiên cứu, không phải 3 yêu cầu bắt buộc phải hoàn thành hết. Với nhóm 2 người và thời lượng đồ án, nên **chọn 1 (hoặc 1 chính + 1 phụ)** để đi sâu, thay vì dàn trải cả 3.
+## 2. Phân tách rạch ròi 3 Cơ chế cốt lõi (Scope Boundaries)
 
-### A. Timeline Summarization (Tóm tắt theo dòng thời gian)
-- **Ý tưởng:** thay vì lưu thông tin rời rạc, hệ thống tự trích xuất sự kiện + gắn nhãn thời gian, rồi dựng thành 1 chuỗi thời gian liên tục cho mỗi thực thể/chủ đề.
-- **Input điển hình:** văn bản thô (không có sẵn timestamp tách riêng) → AI phải tự đọc và suy luận ra mốc thời gian từ câu chữ.
-- **Output:** chuỗi các trạng thái theo thời gian, ví dụ: `[1997–2009: MP] → [2009–2013: journalist] → ...`
-- **Lợi ích:** khi hỏi "hiện tại ra sao?", AI nhìn vào điểm cuối dòng thời gian thay vì bị nhiễu bởi thông tin cũ nằm rải rác trong văn bản.
+Đây là phần định nghĩa ranh giới cực kỳ quan trọng để tránh nhầm lẫn về mặt khái niệm khi thiết kế kiến trúc hệ thống và bảo vệ trước hội đồng. Đồ án sẽ tập trung vào 3 cơ chế sau (có thể chọn 2/3 để đi sâu):
 
-### B. Longitudinal Event Tracing (Truy vết sự kiện theo chiều dọc)
-- **Horizontal (ngang):** tổng hợp nhiều tin/nguồn trong cùng 1 thời điểm (VD: tất cả tin trong ngày hôm nay về 1 chủ đề).
-- **Longitudinal (dọc):** nối các mốc thông tin về cùng 1 chủ đề qua nhiều tháng/năm để thấy được sự thay đổi (VD: dự thảo luật → luật chính thức).
-- Đây là cơ chế mở rộng của A, thêm khả năng nhìn xuyên nhiều nguồn/thời điểm chứ không chỉ 1 timeline đơn lẻ.
+### Cơ chế 1: Temporal Retrieval (Truy xuất dựa trên Thời gian)
+- **Định nghĩa:** Khả năng hệ thống hiểu được mốc thời gian NGẦM Ý trong câu hỏi để tìm ra đúng tài liệu.
+- **Bản chất:** Câu hỏi thường chứa các từ như *"gần đây", "mới nhất", "hiện tại", "năm ngoái"*.
+- **Ví dụ:** *"Quy định xây dựng hiện tại là gì?"* -> Hệ thống phải biết tự lấy năm 2024 làm mốc.
+- **Công nghệ đề xuất:** Time-aware Query Rewriting (Agent tự phân tích prompt để nhét thêm timestamp) + Metadata Filtering.
 
-### C. Streaming RAG & Conflict Resolution (RAG dạng luồng + xử lý mâu thuẫn)
-Có **2 dạng "conflict"** cần phân biệt rõ (điểm dễ hiểu nhầm ban đầu):
+### Cơ chế 2: Timeline Summarization (Tóm tắt Dòng thời gian)
+- **Định nghĩa:** Việc hệ thống tổng hợp một loạt các sự kiện thay đổi theo thời gian của một Thực thể/Vấn đề cụ thể. 
+- **Lưu ý ranh giới (Sự tiến hóa - Evolution):** *"Năm 2005 ông A làm Giám đốc, năm 2007 ông A làm Chủ tịch"*. **ĐÂY KHÔNG PHẢI LÀ XUNG ĐỘT (CONFLICT).** Đây là một tiến trình logic hợp lý, con người lớn lên và thay đổi. Nhiệm vụ của hệ thống ở đây là nhặt đủ các mảng ký ức đó và xếp nó thành một sợi dây liền mạch.
+- **Ví dụ:** *"Tóm tắt sự nghiệp của ông A từ 2005 đến nay"*. Hoặc *"Diễn biến vụ án X"*.
+- **Công nghệ đề xuất:** TA-RAG (Băm Bucket trên VectorDB) hoặc Đồ thị TG-RAG (Nếu muốn mở rộng).
 
-1. **Temporal conflict (đơn nguồn, khác thời điểm)** — cùng 1 nguồn dữ liệu, nhưng thông tin về 1 thực thể thay đổi qua các giai đoạn khác nhau (VD: Ian Gibson là "MP" giai đoạn 1997–2009, rồi là "journalist" giai đoạn 2009–2013). Nếu RAG retrieval không phân biệt được câu hỏi đang hỏi về giai đoạn nào, nó dễ trộn lẫn 2 thông tin này lại. → **Không cần dữ liệu đa nguồn để test dạng conflict này.**
-2. **Multi-source conflict (đa nguồn, cùng thời điểm)** — 2 nguồn tin khác nhau nói khác nhau về cùng 1 sự kiện tại cùng 1 thời điểm (VD: báo A nói 5 người chết, báo B nói 8 người chết). Cần cơ chế ưu tiên timestamp mới nhất + độ uy tín nguồn.
+### Cơ chế 3: Conflict Resolution (Giải quyết Xung đột / Mâu thuẫn)
+Đây là phần dễ bị nhầm lẫn nhất với Cơ chế 2. Cần phân định rạch ròi: **Có Timestamp KHÔNG đồng nghĩa với việc hết xung đột!**
+Xung đột xảy ra khi tồn tại một lượng thông tin mâu thuẫn nhau về cùng một Vấn đề/Sự kiện. Có 3 nguyên nhân cốt lõi gây ra xung đột mà hệ thống phải xử lý:
 
-- **Cơ chế đề xuất:** coi dữ liệu như dòng chảy liên tục (streaming), có bộ lọc ưu tiên timestamp mới nhất và nguồn uy tín cao hơn khi có mâu thuẫn, lọc bớt nhiễu (heavy-hitter filter).
+1. **Sự thiên vị của VectorDB (Semantic Bias):**
+   - Luật năm 2020: *"Cho phép xây nhà 5 tầng ở phố X"* (VectorDB chấm Semantic = 0.9 vì wording cực giống câu hỏi).
+   - Luật năm 2024: *"Quy hoạch mới cấm xây nhà 5 tầng"* (VectorDB chấm = 0.6 vì dùng từ vựng khác).
+   - *Kết quả:* Vector lôi quy định 2020 ra làm top 1. Nếu không có thuật toán đánh trọng số (Half-life Decay), LLM sẽ trả lời sai thực tại.
+2. **Nhiễu loạn Nguồn tin (Cùng 1 Timestamp):**
+   - Báo A (15/10/2023): *"Ông X bị bắt"*.
+   - Báo B (15/10/2023): *"Ông X chỉ bị triệu tập"*.
+   - *Kết quả:* Cùng một mốc thời gian, nhưng 2 nguồn nói khác nhau. Không thể dùng bộ lọc Timestamp thông thường. Agent phải dùng khả năng suy luận để đối chiếu điểm uy tín (Credibility Score) của Nguồn tin.
+3. **Sự thay thế không rõ ràng (Implicit Supersede / Knowledge Drift):**
+   - Nhiều quy định/sự kiện mới sinh ra không hề có câu *"Quy định này bãi bỏ quy định cũ"*, mà nó chỉ âm thầm phủ định. LLM đọc cả 2 sẽ bị lú lẫn không biết dùng cái nào.
+   - *Giải pháp đề xuất:* Dùng Đồ thị Tiến hóa Sự kiện (Chronos Event Evolution Graph) để dán nhãn rạch ròi: `[Sự thật 2024] --(Lật đổ/Thay thế)--> [Sự thật 2020]`.
+
+**=> Tóm tắt ranh giới:**
+- **Cơ chế 2 (Timeline):** *"Cho tôi xem quá trình thay đổi"*. (Giữ lại tất cả).
+- **Cơ chế 3 (Conflict):** *"Có 2 thông tin đang đập nhau, hãy nói cho tôi biết hiện tại cái nào mới là sự thật"*. (Lọc bỏ cái sai/cái cũ).
 
 ## 3. Ứng dụng thực tế minh họa (không bắt buộc làm cả 2)
 

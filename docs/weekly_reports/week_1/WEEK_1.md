@@ -12,18 +12,19 @@ Trong tuần đầu tiên, nhóm đã tiến hành khảo sát và tổng hợp 
    - **Parent-Child Retrieval:** Tìm kiếm trên các chunk nhỏ để tăng độ chính xác (match), nhưng khi đưa vào LLM thì trả về nguyên đoạn văn lớn bao quanh nó (Parent) để giữ trọn vẹn ngữ cảnh.
    - **Contextual Retrieval:** Sử dụng LLM để viết thêm một đoạn ngữ cảnh giới thiệu ngắn (ví dụ: "Đoạn văn này nói về...") và gắn vào đầu mỗi chunk trước khi đưa vào lưu trữ, giúp chunk đứng độc lập không bị tối nghĩa.
 
-3. **Hybrid Retrieval & Re-ranking (Tiêu chuẩn hiện nay):**
+3. **Hybrid Retrieval & Re-ranking:**
    - **Hybrid Search:** Kết hợp song song tìm kiếm theo Ngữ nghĩa (Dense Vector) và tìm kiếm theo Từ khóa chính xác (Sparse/BM25). Cực kỳ hiệu quả cho dữ liệu chứa nhiều tên riêng, mã số.
    - **Cross-Encoder Reranking:** Đưa top kết quả thô qua một mô hình đánh giá lại (Reranker) để tinh chỉnh thứ hạng ưu tiên trước khi đưa cho LLM tổng hợp.
 
 4. **Query Transformation (Tối ưu câu hỏi đầu vào):**
    - Dùng các kỹ thuật như **HyDE** (LLM sinh trước một câu trả lời giả định) hoặc **RAG-Fusion** (LLM tách câu hỏi ban đầu thành nhiều biến thể khác nhau) để dùng chính những biến thể/giả định này đem đi tìm kiếm, giúp mở rộng phạm vi và tăng tỷ lệ tìm thấy tài liệu liên quan.
 
-5. **Adaptive & Self-Correcting RAG:**
-   - **Adaptive RAG:** Phân loại tự động xem câu hỏi đang hỏi là dễ hay khó. Nếu dễ thì gọi thẳng LLM trả lời, nếu khó thì mới kích hoạt cơ chế tra cứu đa bước.
-   - **CRAG / Self-RAG:** Cung cấp cho LLM khả năng tự chấm điểm tài liệu tìm được. Nếu tài liệu bị sai, cũ, hoặc không liên quan, LLM có thể tự động bỏ qua và kích hoạt chế độ Web Search để lấy thông tin mới.
+[//]: # (5. **Adaptive & Self-Correcting RAG:**)
+[//]: # (   - **Adaptive RAG:** Phân loại tự động xem câu hỏi đang hỏi là dễ hay khó. Nếu dễ thì gọi thẳng LLM trả lời, nếu khó thì mới kích hoạt cơ chế tra cứu đa bước.)
 
-6. **GraphRAG & Agentic RAG:**
+[//]: # (   - **CRAG / Self-RAG:** Cung cấp cho LLM khả năng tự chấm điểm tài liệu tìm được. Nếu tài liệu bị sai, cũ, hoặc không liên quan, LLM có thể tự động bỏ qua và kích hoạt chế độ Web Search để lấy thông tin mới.)
+
+5. **GraphRAG & Agentic RAG:**
    - **GraphRAG:** Xây dựng một đồ thị tri thức (Knowledge Graph) toàn diện bằng LLM. Siêu việt trong việc trả lời các câu hỏi mang tính khái quát cao (cần phải tóm tắt thông tin trên toàn bộ hệ thống tài liệu).
    - **Agentic RAG:** Tác tử AI tự động lập kế hoạch, truy vấn từng phần qua nhiều công cụ khác nhau (VectorDB, APIs) một cách tuần tự để hoàn thiện một báo cáo phức tạp. Cực mạnh nhưng vô cùng đắt đỏ.
 
