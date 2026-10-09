@@ -137,7 +137,6 @@ Hai điểm này **khác thang đo nên không cộng thẳng được**. Vì v�
 
 2. **Min-max về [0, 1] trên Top-N:** `Semantic_Score = (RRF − min) / (max − min)`. Bước này cần vì điểm RRF rất nhỏ (tối đa ≈ 0.033 với 2 nhánh), nếu nhân `W1` thẳng thì thành phần thời gian sẽ lấn át. Ở ví dụ trên: A = 1.0, C ≈ 0.97, B = 0.
 
-> Phương án thay thế: min-max từng nhánh rồi cộng có trọng số `α·dense + (1−α)·bm25`. Chỉnh được `α` nhưng nhạy với outlier, nên chọn RRF làm mặc định.
 
 **b) `Temporal_Score` – chunk có "đúng thời điểm" cần hỏi không?**
 Là điểm thể hiện mức độ khớp về thời gian giữa chunk và `T_req`, nằm trong khoảng (0, 1]. Cách tính phụ thuộc kết quả phân loại ở Bước 3:
