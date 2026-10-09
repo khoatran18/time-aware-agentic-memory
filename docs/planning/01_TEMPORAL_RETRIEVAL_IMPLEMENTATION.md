@@ -73,7 +73,7 @@ time-aware-agentic-memory/
 │   │   └── plain_rag.py      #   PlainRagRetriever: dense-only, không filter, không temporal score
 │   └── evaluation/
 │       ├── timeqa_loader.py  #   bộ local 25 câu / bộ thật 300 câu (seed cố định, theo EVAL_PLAN)
-│       ├── metrics.py        #   EM, F1, accuracy theo time slice
+│       ├── metrics_temporal.py #  CC1: Hit@k, MRR, leakage (sau: metrics_timeline.py, metrics_conflict.py); EM/F1, time slice thêm sau
 │       └── runner.py         #   chạy hệ thống + baseline trên cùng bộ câu
 ├── scripts/                  # ingest.py, ask.py, evaluate.py: mỏng, chỉ gọi vào tam.*
 ├── tests/

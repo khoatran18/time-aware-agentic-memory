@@ -94,5 +94,5 @@ Các phiên bản của cùng một văn bản gần hòa về ngữ nghĩa; min
 
 1. Giữ min-max theo design; đưa "min-max vs chia cho max lý thuyết" vào ablation khi có eval.
 2. `query/profiler.py` + prompt tiêm `T_now`. Cùng lần gọi LLM đó, cho `semantic_query` ra dạng sạch (bỏ từ đệm kiểu "cho tôi biết", sửa lỗi gõ rõ ràng, giữ nguyên tên riêng) để nhánh BM25 không bị nhiễu. Thêm test: lỗi gõ, từ đệm, tên riêng.
-3. `evaluation/metrics.py`: Hit@1/3/5, MRR và leakage rate (kỳ vọng 0%) theo `chunk_id`, không gọi LLM; chạy trước trên corpus 11 case, rồi TimeQA (nhãn = chunk chứa vị trí đáp án). Prompt generation phải đưa `start_time`/`end_time` của từng chunk vào context.
+3. `evaluation/metrics_temporal.py`: Hit@1/3/5, MRR và leakage rate (kỳ vọng 0%) theo `chunk_id`, không gọi LLM; chạy trước trên corpus 11 case, rồi TimeQA (nhãn = chunk chứa vị trí đáp án). Prompt generation phải đưa `start_time`/`end_time` của từng chunk vào context.
 4. Ingestion TimeQA bộ local, rồi `generation`, LangGraph nấc A.
