@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tam"
+version = "0.1.0"
+description = "Time-Aware Agentic Memory (đồ án tốt nghiệp HUST)"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.5",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "qdrant-client>=1.10",
+    "fastembed>=0.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["qdrant: cần Qdrant chạy thật (docker compose up -d qdrant)"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
