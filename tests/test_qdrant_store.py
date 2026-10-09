@@ -127,3 +127,18 @@ def test_pre_1970_roundtrip(store):
     hits = store.search("thoi xua", VectorFilter(t_req=utc(1900)), top_n=10)
     assert ids(hits.dense) == {"old"}
     assert hits.dense[0].chunk.start_time == utc(1850)
+
+
+def test_very_old_start_times_are_filtered_correctly(store):
+    """TimeQA có mốc từ năm 1136 và 346/830 câu trước 1970: datetime âm epoch phải lọc đúng trong Qdrant."""
+    store.upsert([
+        Chunk(chunk_id="y1136", text="king ruled", source="a", start_time=utc(1136)),
+        Chunk(chunk_id="y1955", text="king ruled", source="a", start_time=utc(1955, 6, 15)),
+        Chunk(chunk_id="y1969", text="king ruled", source="a", start_time=utc(1969, 12, 31)),
+        Chunk(chunk_id="y1971", text="king ruled", source="a", start_time=utc(1971)),
+    ])
+    got = store.search("king ruled", VectorFilter(t_req=utc(1969, 12, 31)), top_n=10)
+    assert ids(got.dense) == ids(got.sparse) == {"y1136", "y1955", "y1969"}
+    got = store.search("king ruled", VectorFilter(t_req=utc(1500)), top_n=10)
+    assert ids(got.dense) == {"y1136"}
+    assert {h.chunk.start_time for h in got.dense} == {utc(1136)}
