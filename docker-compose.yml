@@ -7,10 +7,24 @@ services:
       - "6334:6334"
     networks:
       - agent-network
-    restart: unless-stopped
+    restart: always
     volumes:
       - ./docker/qdrant/qdrant_data:/qdrant/storage
 
+  neo4j:
+    image: neo4j:5.26.31-community-ubi10
+    container_name: neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    networks:
+      - agent-network
+    restart: always
+    volumes:
+      - ./docker/neo4j/neo4j_logs:/logs
+      - ./docker/neo4j/neo4j_conf:/conf
+      - ./docker/neo4j/neo4j_data:/data
+      - ./docker/neo4j/neo4j_plugins:/plugins
 
 networks:
   agent-network:
