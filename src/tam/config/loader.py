@@ -13,8 +13,9 @@ if __name__ == "__main__":
 
 import logging
 import re
+from collections.abc import Iterator
 from functools import lru_cache
-from typing import Any, Iterator
+from typing import Any
 
 import yaml
 from dotenv import load_dotenv

@@ -9,9 +9,9 @@ from __future__ import annotations
 from typing import Any
 
 from tam.config.loader import Config
-from tam.embeddings import providers as _providers  # noqa: F401  (nạp provider để chúng tự đăng ký)
-from tam.embeddings.base import DenseEmbedder, Embedder, SparseEmbedder, SparseVec
-from tam.embeddings.registry import DENSE_PROVIDERS, SPARSE_PROVIDERS
+from tam.embedding import providers as _providers  # noqa: F401  (nạp provider để chúng tự đăng ký)
+from tam.embedding.base import DenseEmbedder, Embedder, SparseEmbedder, SparseVec
+from tam.embedding.registry import DENSE_PROVIDERS, SPARSE_PROVIDERS
 
 
 class HybridEmbedder(Embedder):

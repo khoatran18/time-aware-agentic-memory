@@ -13,6 +13,10 @@ dependencies = [
     "python-dotenv>=1.0",
     "qdrant-client>=1.10",
     "fastembed>=0.5",
+    "langchain-core>=0.3",
+    "langchain-anthropic>=0.3",
+    "langchain-openai>=0.3",
+    "langchain-ollama>=0.2",
 ]
 
 [tool.setuptools.packages.find]

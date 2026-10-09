@@ -28,6 +28,12 @@ llm:
       provider: "ollama"
       model_id: "<điền model id>"
       base_url: "${OLLAMA_URL:-http://localhost:11434}"
+    9router:                           # proxy tương thích OpenAI, dùng provider "openai" + base_url
+      provider: "openai"
+      model_id: "<điền model id hoặc tên combo trong dashboard 9router>"
+      api_key: "${NINE_ROUTER_API_KEY:-}"
+      base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"   # cổng mặc định chưa kiểm chứng, xem dashboard 9router
+      temperature: 0
   # mỗi chỗ gọi LLM trỏ tới một tên profile ở trên
   roles:
     time_extractor: "claude_haiku"

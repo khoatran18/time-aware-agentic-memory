@@ -4,8 +4,8 @@ from __future__ import annotations
 from typing import Any
 
 from tam.config.logging import get_logger
-from tam.embeddings.base import DenseEmbedder, SparseEmbedder, SparseVec
-from tam.embeddings.registry import register_dense, register_sparse
+from tam.embedding.base import DenseEmbedder, SparseEmbedder, SparseVec
+from tam.embedding.registry import register_dense, register_sparse
 
 logger = get_logger(__name__)
 

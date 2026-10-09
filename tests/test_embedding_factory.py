@@ -1,9 +1,9 @@
 import pytest
 
 from tam.config.loader import Config
-from tam.embeddings import registry
-from tam.embeddings.base import DenseEmbedder, SparseEmbedder, SparseVec
-from tam.embeddings.factory import HybridEmbedder, get_embedder
+from tam.embedding import registry
+from tam.embedding.base import DenseEmbedder, SparseEmbedder, SparseVec
+from tam.embedding.factory import HybridEmbedder, get_embedder
 
 
 class StubDense(DenseEmbedder):

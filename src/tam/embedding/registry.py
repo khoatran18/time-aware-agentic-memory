@@ -16,7 +16,7 @@ Vì vậy providers/__init__.py phải import từng file provider; nếu không
 """
 from __future__ import annotations
 
-from tam.embeddings.base import DenseEmbedder, SparseEmbedder
+from tam.embedding.base import DenseEmbedder, SparseEmbedder
 
 # tên provider (khớp `provider:` trong yaml) -> CLASS (chưa phải đối tượng)
 DENSE_PROVIDERS: dict[str, type[DenseEmbedder]] = {}

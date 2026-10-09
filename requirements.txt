@@ -8,11 +8,11 @@ fastembed>=0.5             # dense embedding và sparse Qdrant/bm25
 #
 ## --- Orchestration + LLM ---
 #langgraph>=0.2
-#langchain-core>=0.3
-#langchain-anthropic>=0.3   # profile claude_* trong configs/
-#langchain-openai>=0.3      # profile gpt_*
-#langchain-ollama>=0.2      # profile local_*; bỏ dòng này nếu không chạy model local
+langchain-core>=0.3
+langchain-anthropic>=0.3   # profile claude_* trong configs/
+langchain-openai>=0.3      # profile gpt_*
+langchain-ollama>=0.2      # profile local_*; bỏ dòng này nếu không chạy model local
 #
 ## --- Tiện ích ---
-#python-dateutil>=2.8       # xử lý ngày tháng, chuẩn hóa mốc thời gian
-#tqdm>=4.66                 # thanh tiến độ khi ingestion / eval
+python-dateutil>=2.8       # xử lý ngày tháng, chuẩn hóa mốc thời gian
+tqdm>=4.66                 # thanh tiến độ khi ingestion / eval

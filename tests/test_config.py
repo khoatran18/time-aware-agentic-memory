@@ -49,7 +49,7 @@ def test_attribute_and_item_access_and_missing_key(tmp_path):
     cfg = load_config("dev", write_cfg(tmp_path, "retrieval: {top_k: 5}"))
     assert cfg.retrieval.top_k == cfg["retrieval"]["top_k"] == 5
     with pytest.raises(AttributeError, match="retrieval.top_kk"):
-        cfg.retrieval.top_kk
+        _ = cfg.retrieval.top_kk  # truy cập khóa sai phải ném lỗi
 
 
 def test_secrets_masked(tmp_path, monkeypatch):

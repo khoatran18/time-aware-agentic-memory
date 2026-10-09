@@ -8,7 +8,7 @@ from qdrant_client import QdrantClient, models
 
 from tam.config.loader import Config
 from tam.config.logging import get_logger
-from tam.embeddings.base import Embedder
+from tam.embedding.base import Embedder
 from tam.schemas.chunk import Chunk
 from tam.stores.vector.base import BranchHits, SearchHit, VectorFilter
 
@@ -49,7 +49,7 @@ class QdrantStore:
         self._embedder = embedder
 
     @classmethod
-    def from_config(cls, cfg: Config, embedder: Embedder) -> "QdrantStore":
+    def from_config(cls, cfg: Config, embedder: Embedder) -> QdrantStore:
         vs = cfg.vector_store
         client = QdrantClient(url=vs.url, api_key=vs.get("api_key"))
         return cls(client, vs.collection, embedder)

@@ -27,7 +27,7 @@ class Chunk(BaseModel):
         return None if value is None else _to_utc(value)
 
     @model_validator(mode="after")
-    def _check_range(self) -> "Chunk":
+    def _check_range(self) -> Chunk:
         if self.end_time is not None and self.end_time < self.start_time:
             raise ValueError(f"end_time {self.end_time} nhỏ hơn start_time {self.start_time} (chunk {self.chunk_id})")
         return self

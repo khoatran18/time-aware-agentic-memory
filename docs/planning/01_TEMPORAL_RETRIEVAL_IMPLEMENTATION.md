@@ -39,10 +39,11 @@ time-aware-agentic-memory/
 │   │   ├── query.py          #   ProfiledQuery: semantic_query, t_req, filters, mechanism
 │   │   └── result.py         #   ScoredChunk, RetrievalResult (dùng chung cho cả 3 cơ chế)
 │   ├── llm/
-│   │   ├── factory.py        #   PROVIDERS = {"anthropic": ..., "openai": ...}; get_llm(name) / get_llm_for_role(role)
+│   │   ├── registry.py       #   LLM_PROVIDERS = {}; decorator @register_llm("openai")
+│   │   ├── factory.py        #   get_llm(cfg, name) / get_llm_for_role(cfg, role): tra profile -> provider -> chat model
 │   │   ├── providers/        #   openai.py, anthropic.py, ollama.py...: mỗi file một hàm build(profile)
 │   │   └── prompts/          #   time_extractor.md, ingestion_time.md, time_cot.md
-│   ├── embeddings/           #   factory tương tự llm/, đổi embedding độc lập với LLM
+│   ├── embedding/            #   base (ABC), registry, factory, providers/; profiles dense/sparse; đổi độc lập với LLM
 │   ├── stores/
 │   │   ├── vector/           #   base.py (Protocol VectorStore), qdrant_store.py
 │   │   └── graph/            #   (trống; Neo4j ở CC2/3, cùng kiểu Protocol)
@@ -241,14 +242,14 @@ get_llm("claude_haiku")           -> chat model theo profile (gọi nhanh theo t
 get_llm_for_role("generation")    -> tra roles -> profile -> chat model
 ```
 
-Nội bộ: `factory` tra profile, lấy `provider`, tìm trong dict `PROVIDERS` (viết thẳng trong `factory.py`, tên provider → hàm `build(profile)`) rồi gọi hàm đó. **Thêm provider mới = thêm một file trong `llm/providers/` và một dòng vào `PROVIDERS`**. Không dùng registry/decorator tự đăng ký vì khó lần (phụ thuộc hiệu ứng phụ của import) mà không tiết kiệm được công sức; `embeddings/` đã làm theo cách dict thẳng này.
+Nội bộ: `factory` tra profile, lấy `provider`, tìm trong `LLM_PROVIDERS` (registry) rồi gọi hàm `build(profile)` của provider đó. **Thêm provider mới = thêm một file trong `llm/providers/` có hàm `build` dán `@register_llm("tên")`, và một dòng import trong `providers/__init__.py`**, không sửa `factory.py`. `embedding/` làm cùng kiểu (đăng ký class thay vì hàm). Đã cài: [`../process/02_CORE_COMPONENTS.md`](../process/02_CORE_COMPONENTS.md).
 
 Hai nguyên tắc để dùng nhiều LLM gọn:
 
 - **Tiêm phụ thuộc:** `profiler`, `generation`, `time_extraction` nhận LLM qua tham số hoặc constructor, không tự gọi factory bên trong. Nơi duy nhất gọi `get_llm_for_role` là chỗ lắp ráp (`pipeline/builder.py`, `scripts/*`). Khi test chỉ truyền LLM giả.
 - Kiểu trả về là chat model của `langchain-core`, nên `with_structured_output` và `bind_tools` dùng được bất kể provider.
 
-`embeddings/` làm tương tự, vì embedding có thể đổi độc lập với LLM.
+`embedding/` làm tương tự, vì embedding có thể đổi độc lập với LLM.
 
 ### 4.3 Logging và thư mục output
 
@@ -320,7 +321,7 @@ Chọn Qdrant vì design 02 đã dùng cú pháp Qdrant, hỗ trợ dense + spar
 |---|---|---|
 | 1 | Khung thư mục, `pyproject`, `config` + `configs/config.*.yaml`, `config/logging.py`, `schemas`, docker-compose, `qdrant_store` (schema + 4 index) | #1 |
 | 2 | `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật 2015/2018/2021 (hỏi 2020 phải ra 2018). **Làm trước, chưa cần LLM** | #3, #4, #5 |
-| 3 | `llm/` (factory với dict provider, 1–2 provider) + `profiler` + prompt tiêm `T_now`, test bằng đồng hồ giả ("tuần trước", "năm ngoái", "hiện tại") | #2 |
+| 3 | `llm/` (registry, factory, 1–2 provider) + `profiler` + prompt tiêm `T_now`, test bằng đồng hồ giả ("tuần trước", "năm ngoái", "hiện tại") | #2 |
 | 4 | Ingestion TimeQA bộ local (21 trang) → hybrid search end-to-end → `time_cot` → LangGraph | — |
 | 5 | `plain_rag` baseline + `runner` + `metrics`; chạy bộ local; nếu kịp, bộ thật 300 câu | — |
 

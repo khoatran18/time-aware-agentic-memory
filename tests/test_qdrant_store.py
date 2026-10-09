@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import pytest
 from qdrant_client import QdrantClient
 
-from tam.embeddings.base import SparseVec
+from tam.embedding.base import SparseVec
 from tam.schemas.chunk import Chunk
 from tam.stores.vector.base import VectorFilter
 from tam.stores.vector.qdrant_store import PAYLOAD_INDEXES, QdrantStore

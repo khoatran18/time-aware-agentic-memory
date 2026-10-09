@@ -1,6 +1,6 @@
-# Nhật ký triển khai 02: Schemas, embedding và Qdrant store
+# Nhật ký triển khai 02: Các thành phần lõi (schemas, embedding, Qdrant store, LLM)
 
-Tiếp nối [`01_BASE_SETUP_CONFIG_LOGGING.md`](01_BASE_SETUP_CONFIG_LOGGING.md). Kế hoạch: [`../planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`](../planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md) mục 5, bước 1. **Chưa có** scoring/fusion/filters, LLM, profiler.
+Tiếp nối [`01_BASE_SETUP_CONFIG_LOGGING.md`](01_BASE_SETUP_CONFIG_LOGGING.md). Kế hoạch: [`../planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`](../planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md) mục 5, bước 1. **Chưa có** scoring/fusion/filters, profiler.
 
 ---
 
@@ -10,9 +10,10 @@ Tiếp nối [`01_BASE_SETUP_CONFIG_LOGGING.md`](01_BASE_SETUP_CONFIG_LOGGING.md
 |---|---|---|
 | Đóng gói | `pyproject.toml`, `requirements-dev.txt` | `pip install -e .`; pytest `pythonpath=src`, marker `qdrant` |
 | Schemas | `src/tam/schemas/{chunk,query,result}.py` | pydantic, không logic |
-| Embedding | `src/tam/embeddings/{base,registry,factory}.py`, `providers/fastembed.py` | ABC + registry + factory theo provider, dense và sparse tách riêng |
+| Embedding | `src/tam/embedding/{base,registry,factory}.py`, `providers/fastembed.py` | ABC + registry + factory theo provider, dense và sparse tách riêng |
 | Vector store | `src/tam/stores/vector/{base,qdrant_store}.py` | Protocol + Qdrant |
-| Test | `tests/test_config.py`, `test_schemas.py`, `test_qdrant_store.py` | 19 test xanh |
+| LLM | `src/tam/llm/{registry,factory}.py`, `providers/{anthropic,openai,ollama}.py` | registry + factory theo profile và role |
+| Test | `tests/test_config.py`, `test_schemas.py`, `test_qdrant_store.py`, `test_embedding_factory.py`, `test_llm_factory.py` | 37 test xanh |
 
 ## 2. Quyết định thiết kế
 
@@ -49,6 +50,22 @@ embedder = get_embedder(cfg)          # HybridEmbedder, đưa thẳng vào Qdran
 - `factory.py`: `get_embedder` lấy profile theo tên, tra registry theo `provider`, gọi `Class.from_profile(profile)`, rồi ghép bằng `HybridEmbedder`. Không có danh sách provider trong factory.
 - **Thêm provider mới** (ví dụ OpenAI): viết class kế thừa `DenseEmbedder` trong `providers/openai.py` và dán `@register_dense("openai")`; thêm một dòng import vào `providers/__init__.py` (import là lúc decorator chạy); thêm profile vào `embedding.profiles.dense`; đổi `embedding.dense` sang tên profile mới. Không sửa `factory.py` hay `QdrantStore`. Đổi model dense làm đổi số chiều nên phải tạo lại collection (`ensure_collection(recreate=True)`).
 
+### LLM: registry + factory theo profile và role
+
+Config có sẵn từ process 01: `llm.profiles` (tên → `provider`, `model_id`, `api_key`, `temperature`, `base_url`) và `llm.roles` (chỗ dùng → tên profile).
+
+```python
+llm = get_llm(cfg, "claude_haiku")          # theo tên profile
+llm = get_llm_for_role(cfg, "generation")   # tra roles -> profile -> chat model
+```
+
+- `registry.py`: dict `LLM_PROVIDERS` (tên provider → **hàm** `build(profile)`) và decorator `@register_llm("tên")`. Khác embedding ở chỗ đăng ký hàm chứ không phải class, vì không cần lớp riêng: kết quả hàm đã là `BaseChatModel` của langchain-core, nên `with_structured_output`, `bind_tools` dùng được bất kể provider.
+- `providers/{anthropic,openai,ollama}.py`: mỗi file một hàm `build` dán `@register_llm`. `providers/_common.py` có `require` (thiếu hoặc rỗng thì báo lỗi) và `model_id` (từ chối giá trị mẫu `<điền model id>`).
+- `factory.py`: tra profile theo tên, tra registry theo `provider`, gọi hàm build. Mọi lỗi cấu hình đều có tiền tố `llm.profiles.<tên>`; lỗi chỉ báo khi profile **thực sự được dùng**, nên chỉ có key của một provider vẫn chạy được.
+- **Thêm provider mới:** viết `providers/<tên>.py` với hàm `build` dán `@register_llm("<tên>")`, thêm một dòng import vào `providers/__init__.py`, thêm profile vào yaml.
+- **Tiêm phụ thuộc:** `profiler`, `generation`, `time_extraction` nhận LLM qua tham số; chỉ chỗ lắp ráp (`pipeline/builder.py`, `scripts/*`) gọi `get_llm_for_role`. Hàm nhận `cfg` tường minh, không đọc config toàn cục.
+- **Chưa làm:** log mỗi lệnh gọi LLM (role, profile, độ trễ, số token) theo kế hoạch §4.3; sẽ bọc bằng callback khi có chỗ gọi LLM thật. Chưa gọi API thật nào (không cần key để chạy test).
+
 ## 3. Đã kiểm chứng
 
 Chạy trên Qdrant thật (docker, v1.19.2) với embedder giả tất định (không tải model):
@@ -58,12 +75,14 @@ Chạy trên Qdrant thật (docker, v1.19.2) với embedder giả tất định 
 - `exclude_invalidated=False` trả lại chunk bị vô hiệu;
 - facet `country` thu hẹp đúng; mốc năm 1850 đi vòng đúng.
 
-`FastEmbedEmbedder` đã chạy thật với `BAAI/bge-small-en-v1.5` (dim 384) và `Qdrant/bm25`. Test Qdrant tự bỏ qua (skip) nếu không có Qdrant ở `localhost:6333`.
+`get_embedder` đã chạy thật với `BAAI/bge-small-en-v1.5` (dim 384) và `Qdrant/bm25`. Test Qdrant tự bỏ qua (skip) nếu không có Qdrant ở `localhost:6333`.
 
-**Chưa kiểm chứng:** hybrid search với embedding thật trên dữ liệu TimeQA; hiệu năng.
+**LLM:** test dùng provider giả (`FakeListChatModel`) cho logic factory; ba provider thật được tạo thành công với key giả (không gọi mạng). Với config dev thật: thiếu key báo `llm.profiles.claude_sonnet: thiếu 'api_key' (đặt ANTHROPIC_API_KEY trong .env)`, có key thì ra `ChatAnthropic`.
+
+**Chưa kiểm chứng:** gọi LLM thật qua API; hybrid search với embedding thật trên dữ liệu TimeQA; hiệu năng.
 
 ## 4. Việc tiếp theo
 
 1. `retrieval/temporal/`: `scoring.py`, `fusion.py`, `filters.py` + test với fixture `tests/fixtures/laws_2015_2018_2021.json` (hỏi 2020 → bản 2018).
-2. `llm/` factory + `query/profiler.py`.
+2. `query/profiler.py` (Time Extractor, dùng `get_llm_for_role(cfg, "time_extractor")`).
 3. Ingestion TimeQA bộ local.

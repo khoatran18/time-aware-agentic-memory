@@ -153,5 +153,5 @@ Theo kế hoạch ở `docs/planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`, m
 1. `schemas/` (`Chunk`, `ProfiledQuery`, `RetrievalResult`, `ScoredChunk`).
 2. `stores/vector/` (Protocol + `qdrant_store.py` với đúng 4 payload index).
 3. `retrieval/temporal/`: `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật. Làm trước khi đụng LLM.
-4. `llm/` (factory theo profile và role, dict provider viết thẳng như `embeddings/`), `query/profiler.py`.
+4. `llm/` (registry, factory theo profile và role; đã xong, xem process 02), `query/profiler.py`.
 5. Bật dần các dòng đang comment trong `requirements.txt` khi cần; thêm `requirements-dev.txt` (pytest, ruff) và `tests/test_config.py` để biến các kiểm tra ở mục 5 thành test tự động.
