@@ -38,9 +38,24 @@ llm:
 # Embedding
 # ================================================================
 embedding:
-  provider: "fastembed"
-  dense_model_id: "BAAI/bge-small-en-v1.5"
-  sparse_model_id: "Qdrant/bm25"
+  # profiles: tên dễ nhớ -> provider + model_id, chia theo loại
+  profiles:
+    dense:                              # vector ngữ nghĩa
+      bge_small_en:                     # 384 chiều, tiếng Anh, nhẹ
+        provider: "fastembed"
+        model_id: "BAAI/bge-small-en-v1.5"
+        # cache_dir: "data/models"      # mặc định fastembed dùng thư mục tạm của hệ thống
+      bge_base_en:                      # 768 chiều, tốt hơn nhưng chậm hơn
+        provider: "fastembed"
+        model_id: "BAAI/bge-base-en-v1.5"
+    sparse:                             # vector từ khóa
+      bm25:
+        provider: "fastembed"
+        model_id: "Qdrant/bm25"
+  # chọn profile đang dùng (tên nằm trong profiles.dense / profiles.sparse).
+  # Đổi dense -> số chiều đổi -> phải tạo lại collection
+  dense: "bge_small_en"
+  sparse: "bm25"
 
 # ================================================================
 # Qdrant

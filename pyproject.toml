@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tam"
 version = "0.1.0"
-description = "Time-Aware Agentic Memory (đồ án tốt nghiệp HUST)"
+description = "Time-Aware Agentic Memory"
 requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2.5",

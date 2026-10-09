@@ -8,7 +8,7 @@ from qdrant_client import QdrantClient, models
 
 from tam.config.loader import Config
 from tam.config.logging import get_logger
-from tam.embeddings.fastembed_embedder import Embedder
+from tam.embeddings.base import Embedder
 from tam.schemas.chunk import Chunk
 from tam.stores.vector.base import BranchHits, SearchHit, VectorFilter
 

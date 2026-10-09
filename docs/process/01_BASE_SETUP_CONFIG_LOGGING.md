@@ -58,7 +58,7 @@ Gốc project là thư mục tổ tiên đầu tiên có chứa `configs/` (đ�
 | `app` | tên, `env`, phiên bản; `env` lệch với `APP_ENV` thì cảnh báo |
 | `llm.profiles` | tên dễ nhớ → `provider`, `model_id`, `api_key`, `base_url`, `temperature` (`claude_haiku`, `claude_sonnet`, `gpt_mini`, `local_llama`) |
 | `llm.roles` | mỗi chỗ gọi LLM trỏ tới một tên profile (`time_extractor`, `ingestion_time`, `router`, `generation`, `judge`) |
-| `embedding` | provider, `dense_model_id`, `sparse_model_id` |
+| `embedding` | `profiles.dense` / `profiles.sparse` (tên → `provider`, `model_id`) và hai khóa `dense`, `sparse` chọn profile theo tên (xem process 02) |
 | `vector_store` | `url`, `api_key`, `collection` |
 | `retrieval` | `w1`, `w2`, `decay_lambda`, `rrf_k`, `top_n`, `top_k` |
 | `evaluation` | `subset` (`local` hoặc `real`) |
@@ -153,5 +153,5 @@ Theo kế hoạch ở `docs/planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`, m
 1. `schemas/` (`Chunk`, `ProfiledQuery`, `RetrievalResult`, `ScoredChunk`).
 2. `stores/vector/` (Protocol + `qdrant_store.py` với đúng 4 payload index).
 3. `retrieval/temporal/`: `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật. Làm trước khi đụng LLM.
-4. `llm/` (registry, factory theo profile và role), `query/profiler.py`.
+4. `llm/` (factory theo profile và role, dict provider viết thẳng như `embeddings/`), `query/profiler.py`.
 5. Bật dần các dòng đang comment trong `requirements.txt` khi cần; thêm `requirements-dev.txt` (pytest, ruff) và `tests/test_config.py` để biến các kiểm tra ở mục 5 thành test tự động.
