@@ -19,6 +19,8 @@ class VectorFilter:
 
 @dataclass(frozen=True)
 class SearchHit:
+    """Một kết quả của một nhánh tìm kiếm: chunk và điểm gốc (cosine hoặc BM25)."""
+
     chunk: Chunk
     score: float  # điểm gốc của nhánh (cosine hoặc BM25); chưa chuẩn hóa
 
@@ -32,7 +34,20 @@ class BranchHits:
 
 
 class VectorStore(Protocol):
-    def ensure_collection(self, *, recreate: bool = False) -> None: ...
-    def upsert(self, chunks: list[Chunk]) -> int: ...
-    def search(self, query_text: str, flt: VectorFilter, top_n: int) -> BranchHits: ...
-    def count(self) -> int: ...
+    """Hợp đồng kho vector; chỉ qdrant_store.py biết cú pháp Qdrant."""
+
+    def ensure_collection(self, *, recreate: bool = False) -> None:
+        """Tạo collection và các payload index nếu chưa có; `recreate=True` thì xóa rồi tạo lại."""
+        ...
+
+    def upsert(self, chunks: list[Chunk]) -> int:
+        """Embed và ghi các chunk; trả về số chunk đã ghi."""
+        ...
+
+    def search(self, query_text: str, flt: VectorFilter, top_n: int) -> BranchHits:
+        """Tìm theo hai nhánh dense và BM25, mỗi nhánh đã áp hard filter; trả về hai danh sách xếp hạng riêng."""
+        ...
+
+    def count(self) -> int:
+        """Số chunk trong collection."""
+        ...

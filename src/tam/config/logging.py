@@ -36,12 +36,16 @@ class _QueryIdFilter(logging.Filter):
     """Gắn query_id hiện tại vào mọi bản ghi log."""
 
     def filter(self, record: logging.LogRecord) -> bool:
+        """Gắn query_id hiện tại vào bản ghi; luôn cho qua."""
         record.query_id = _query_id.get()
         return True
 
 
 class _JsonFormatter(logging.Formatter):
+    """Định dạng mỗi bản ghi log thành một dòng JSON."""
+
     def format(self, record: logging.LogRecord) -> str:
+        """Trả về bản ghi dưới dạng chuỗi JSON (kèm traceback nếu có lỗi)."""
         payload = {
             "ts": self.formatTime(record, "%Y-%m-%dT%H:%M:%S"),
             "level": record.levelname,
@@ -77,6 +81,7 @@ def get_run_dir() -> Path:
 
 
 def _create_run_dir(base: Path) -> Path:
+    """Tạo `output/<YYYYMMDD_HHMMSS>/` (thêm hậu tố _2, _3 nếu trùng giây) và trả về đường dẫn."""
     base.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     candidate, n = base / stamp, 1

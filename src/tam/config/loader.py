@@ -39,15 +39,18 @@ class Config:
     """Bọc dict lồng nhau, đọc bằng cfg.retrieval.top_k hoặc cfg["retrieval"]["top_k"]."""
 
     def __init__(self, data: dict[str, Any], path: str = "") -> None:
+        """`data`: dict đã thay biến; `path`: đường dẫn khóa hiện tại, dùng để báo lỗi."""
         self._data = data
         self._path = path
 
     def _wrap(self, name: str, value: Any) -> Any:
+        """Bọc dict con thành Config để đọc tiếp bằng dấu chấm; giá trị khác giữ nguyên."""
         if isinstance(value, dict):
             return Config(value, f"{self._path}.{name}" if self._path else name)
         return value
 
     def __getattr__(self, name: str) -> Any:
+        """`cfg.a.b`; thiếu khóa thì báo lỗi kèm đường dẫn và các khóa hiện có."""
         if name.startswith("_"):
             raise AttributeError(name)
         try:
@@ -57,21 +60,27 @@ class Config:
             raise AttributeError(f"Thiếu khóa cấu hình '{where}'; khóa hiện có: {sorted(self._data)}") from None
 
     def __getitem__(self, name: str) -> Any:
+        """`cfg["a"]["b"]`; thiếu khóa thì KeyError."""
         return self._wrap(name, self._data[name])
 
     def get(self, name: str, default: Any = None) -> Any:
+        """Giống dict.get."""
         return self._wrap(name, self._data[name]) if name in self._data else default
 
     def __contains__(self, name: object) -> bool:
+        """`'a' in cfg`."""
         return name in self._data
 
     def __iter__(self) -> Iterator[str]:
+        """Duyệt các khóa ở cấp này."""
         return iter(self._data)
 
     def keys(self):
+        """Các khóa ở cấp này."""
         return self._data.keys()
 
     def items(self):
+        """Cặp (khóa, giá trị); giá trị là dict thì được bọc thành Config."""
         return ((k, self._wrap(k, v)) for k, v in self._data.items())
 
     def to_dict(self, masked: bool = True) -> dict[str, Any]:
@@ -79,10 +88,12 @@ class Config:
         return _mask(self._data) if masked else _copy(self._data)
 
     def __repr__(self) -> str:
+        """In cấu hình đã che bí mật."""
         return f"Config({self.to_dict(masked=True)!r})"
 
 
 def _copy(node: Any) -> Any:
+    """Sao chép sâu dict/list, không che gì."""
     if isinstance(node, dict):
         return {k: _copy(v) for k, v in node.items()}
     if isinstance(node, list):
@@ -91,6 +102,7 @@ def _copy(node: Any) -> Any:
 
 
 def _mask(node: Any, key: str = "") -> Any:
+    """Sao chép sâu, thay giá trị của khóa tên key/secret/token/password bằng '********'."""
     if isinstance(node, dict):
         return {k: _mask(v, str(k)) for k, v in node.items()}
     if isinstance(node, list):
@@ -120,6 +132,7 @@ def _expand_env(node: Any, path: str, missing: list[str]) -> Any:
     if isinstance(node, str) and _ENV_PATTERN.search(node):
 
         def _sub(match: re.Match[str]) -> str:
+            """Thay một `${VAR}` hoặc `${VAR:-mặc_định}`; biến bắt buộc mà thiếu thì ghi vào `missing`."""
             name, default = match.group(1), match.group(2)
             value = os.getenv(name)
             if value is not None and value != "":

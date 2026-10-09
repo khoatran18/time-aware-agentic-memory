@@ -8,6 +8,8 @@ from tam.schemas.query import Mechanism
 
 
 class ScoredChunk(BaseModel):
+    """Một chunk cùng ba điểm: semantic, temporal và final."""
+
     chunk: Chunk = Field(description="Chunk gốc được chấm điểm")
     semantic_score: float = Field(
         default=0.0,
@@ -25,5 +27,7 @@ class ScoredChunk(BaseModel):
 
 
 class RetrievalResult(BaseModel):
+    """Kết quả của một Retriever: các chunk đã xếp hạng, kèm cơ chế đã dùng."""
+
     mechanism: Mechanism
     chunks: list[ScoredChunk] = Field(default_factory=list)

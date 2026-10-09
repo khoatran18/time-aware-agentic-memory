@@ -38,6 +38,7 @@ def _register(table: dict, name: str):
     def deco(cls):
         # `cls` = CHÍNH CLASS nằm ngay dưới dòng `@` (một class, không phải hàm, không phải đối tượng).
         # Tên "cls" chỉ là quy ước cho tham số kiểu class; Python gán giá trị vào khi gọi ở bước 3.
+        """Ghi class vào `table` rồi trả lại nguyên class."""
         if name in table:
             raise ValueError(f"Provider embedding {name!r} đã được đăng ký")
         table[name] = cls  # đăng ký: chỉ ghi class vào dict, chưa tạo đối tượng

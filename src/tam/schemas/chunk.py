@@ -13,6 +13,8 @@ def _to_utc(value: datetime) -> datetime:
 
 
 class Chunk(BaseModel):
+    """Một đoạn văn bản kèm mốc thời gian hiệu lực; đơn vị lưu trong VectorDB."""
+
     chunk_id: str = Field(description="Mã duy nhất; cũng là con trỏ Boomerang từ GraphDB về sau")
     text: str = Field(description="Nội dung chunk (đơn vị cấu trúc, vd một điều luật); được embed dense + BM25")
     source: str = Field(description="Nguồn tài liệu (tên báo, link văn bản), dùng để trích dẫn khi sinh đáp án")
@@ -24,10 +26,12 @@ class Chunk(BaseModel):
     @field_validator("start_time", "end_time", "invalidated_at")
     @classmethod
     def _utc(cls, value: datetime | None) -> datetime | None:
+        """Quy datetime về UTC (không có múi giờ thì coi là UTC)."""
         return None if value is None else _to_utc(value)
 
     @model_validator(mode="after")
     def _check_range(self) -> Chunk:
+        """end_time không được nhỏ hơn start_time."""
         if self.end_time is not None and self.end_time < self.start_time:
             raise ValueError(f"end_time {self.end_time} nhỏ hơn start_time {self.start_time} (chunk {self.chunk_id})")
         return self

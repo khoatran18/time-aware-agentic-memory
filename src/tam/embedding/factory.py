@@ -18,6 +18,7 @@ class HybridEmbedder(Embedder):
     """Ghép một dense và một sparse thành `Embedder` mà QdrantStore dùng. Chỉ chuyển tiếp lời gọi."""
 
     def __init__(self, dense: DenseEmbedder, sparse: SparseEmbedder) -> None:
+        """`dense`, `sparse`: hai embedder đã tạo; `dense_dim` lấy từ `dense.dim`."""
         self._dense = dense
         self._sparse = sparse
         self.dense_dim = dense.dim

@@ -24,6 +24,18 @@ class FastEmbedDense(DenseEmbedder):
 
     @classmethod
     def from_profile(cls, profile: dict[str, Any]) -> FastEmbedDense:
+        """Tạo từ MỘT KHỐI dưới `embedding.profiles.dense` trong configs/config.*.yaml (đã đổi sang dict), ví dụ:
+
+            embedding:
+              profiles:
+                dense:
+                  bge_small_en:                  # <- tên profile
+                    provider: "fastembed"
+                    model_id: "BAAI/bge-small-en-v1.5"
+                    # cache_dir: "data/models"   (tùy chọn)
+
+        Khóa dùng ở đây: `model_id`, `cache_dir`. Tên profile không nằm trong dict; factory dùng nó để chọn khối.
+        """
         return cls(profile["model_id"], profile.get("cache_dir"))
 
     def embed(self, texts: list[str]) -> list[list[float]]:
@@ -48,6 +60,18 @@ class FastEmbedSparse(SparseEmbedder):
 
     @classmethod
     def from_profile(cls, profile: dict[str, Any]) -> FastEmbedSparse:
+        """Tạo từ MỘT KHỐI dưới `embedding.profiles.sparse` trong configs/config.*.yaml (đã đổi sang dict), ví dụ:
+
+            embedding:
+              profiles:
+                sparse:
+                  bm25:                  # <- tên profile
+                    provider: "fastembed"
+                    model_id: "Qdrant/bm25"
+                    # cache_dir: "data/models"   (tùy chọn)
+
+        Khóa dùng ở đây: `model_id`, `cache_dir`. Tên profile không nằm trong dict; factory dùng nó để chọn khối.
+        """
         return cls(profile["model_id"], profile.get("cache_dir"))
 
     def embed(self, texts: list[str]) -> list[SparseVec]:

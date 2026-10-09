@@ -56,7 +56,7 @@ Gốc project là thư mục tổ tiên đầu tiên có chứa `configs/` (đ�
 | Nhóm | Ý nghĩa |
 |---|---|
 | `app` | tên, `env`, phiên bản; `env` lệch với `APP_ENV` thì cảnh báo |
-| `llm.profiles` | tên dễ nhớ → `provider`, `model_id`, `api_key`, `base_url`, `temperature` (`claude_haiku`, `claude_sonnet`, `gpt_mini`, `local_llama`) |
+| `llm.profiles` | tên dễ nhớ → `provider`, `model_id`, `api_key`, `base_url`, `temperature` (`claude_haiku`, `claude_sonnet`, `gpt_mini`, `local_llama`, `9router`) |
 | `llm.roles` | mỗi chỗ gọi LLM trỏ tới một tên profile (`time_extractor`, `ingestion_time`, `router`, `generation`, `judge`) |
 | `embedding` | `profiles.dense` / `profiles.sparse` (tên → `provider`, `model_id`) và hai khóa `dense`, `sparse` chọn profile theo tên (xem process 02) |
 | `vector_store` | `url`, `api_key`, `collection` |
@@ -93,6 +93,7 @@ In ra cấu hình đã nạp và vài ví dụ truy cập. Tên env không tồn
 | `APP_ENV` | chọn `dev` hay `prod` |
 | `ANTHROPIC_API_KEY`, `OPENAI_API_KEY` | key của provider nào dùng thì điền |
 | `OLLAMA_URL` | tùy chọn, mặc định `http://localhost:11434` |
+| `NINE_ROUTER_API_KEY`, `NINE_ROUTER_URL` | profile `9router` (proxy tương thích OpenAI); URL mặc định `http://localhost:20128/v1` (chưa kiểm chứng). Tên biến không được bắt đầu bằng chữ số nên không đặt `9ROUTER_*` |
 | `QDRANT_URL`, `QDRANT_API_KEY` | Qdrant; URL mặc định `http://localhost:6333` |
 | `TAM_CONFIG_DIR`, `TAM_OUTPUT_DIR`, `TAM_PROJECT_ROOT` | tùy chọn, đổi chỗ đặt thư mục |
 
@@ -154,4 +155,4 @@ Theo kế hoạch ở `docs/planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`, m
 2. `stores/vector/` (Protocol + `qdrant_store.py` với đúng 4 payload index).
 3. `retrieval/temporal/`: `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật. Làm trước khi đụng LLM.
 4. `llm/` (registry, factory theo profile và role; đã xong, xem process 02), `query/profiler.py`.
-5. Bật dần các dòng đang comment trong `requirements.txt` khi cần; thêm `requirements-dev.txt` (pytest, ruff) và `tests/test_config.py` để biến các kiểm tra ở mục 5 thành test tự động.
+5. ~~Thêm `requirements-dev.txt` và `tests/test_config.py`~~ (đã xong, xem process 02). Còn lại: bật nốt `langgraph`, `python-dateutil`, `tqdm` trong `requirements.txt` khi code tới.

@@ -30,6 +30,7 @@ def register_llm(name: str):
     """
 
     def deco(build):
+        """Ghi hàm build vào LLM_PROVIDERS rồi trả lại nguyên hàm."""
         if name in LLM_PROVIDERS:
             raise ValueError(f"Provider LLM {name!r} đã được đăng ký")
         LLM_PROVIDERS[name] = build  # chỉ ghi hàm vào dict, chưa gọi
