@@ -10,7 +10,7 @@ from tam.config.loader import Config
 from tam.config.logging import get_logger
 from tam.embedding.base import Embedder
 from tam.schemas.chunk import Chunk
-from tam.stores.vector.base import BranchHits, SearchHit, VectorFilter
+from tam.stores.vector.base import BranchHits, SearchHit, VectorFilter, VectorStore
 
 logger = get_logger(__name__)
 
@@ -44,7 +44,7 @@ def build_filter(flt: VectorFilter) -> models.Filter:
     return models.Filter(must=must)
 
 
-class QdrantStore:
+class QdrantStore(VectorStore):
     """Cài VectorStore bằng Qdrant: một collection, hai vector (dense và BM25)."""
 
     def __init__(self, client: QdrantClient, collection: str, embedder: Embedder) -> None:

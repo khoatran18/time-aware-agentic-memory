@@ -121,7 +121,7 @@ Dữ liệu: bộ local 25 câu chỉ để kiểm tra chạy được (không s
 
 | Vấn đề | Hướng xử lý |
 |---|---|
-| Stack chưa chốt (VectorDB/GraphDB) | Mặc định Qdrant + Neo4j; truy cập qua Protocol nên đổi chỉ sửa 1 file store |
+| Stack chưa chốt (VectorDB/GraphDB) | Mặc định Qdrant + Neo4j; truy cập qua ABC nên đổi chỉ sửa 1 file store |
 | Chi phí LLM khi ingestion (trích `start_time` mỗi chunk) | Chạy bộ local trước; cache kết quả trích xuất vào `data/processed/` |
 | Mốc thời gian chỉ-năm, trước 1970 trong TimeQA | Chuẩn hóa `YYYY-01-01`, dùng kiểu datetime hỗ trợ giá trị âm |
 | Dữ liệu đa nguồn cho CC3 hiếm | Chốt 2/3 sau tuần 4; có thể tự tạo bộ từ lịch sử chỉnh sửa Wikipedia |

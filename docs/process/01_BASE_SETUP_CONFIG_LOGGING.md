@@ -152,7 +152,7 @@ Kiểm chứng bằng script tạm chạy ngoài repo, trong venv tạm (chỉ c
 Theo kế hoạch ở `docs/planning/01_TEMPORAL_RETRIEVAL_IMPLEMENTATION.md`, mục 5:
 
 1. `schemas/` (`Chunk`, `ProfiledQuery`, `RetrievalResult`, `ScoredChunk`).
-2. `stores/vector/` (Protocol + `qdrant_store.py` với đúng 4 payload index).
+2. `stores/vector/` (ABC + `qdrant_store.py` với đúng 4 payload index).
 3. `retrieval/temporal/`: `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật. Làm trước khi đụng LLM.
 4. `llm/` (registry, factory theo profile và role; đã xong, xem process 02), `query/profiler.py`.
 5. ~~Thêm `requirements-dev.txt` và `tests/test_config.py`~~ (đã xong, xem process 02). Còn lại: bật nốt `langgraph`, `python-dateutil`, `tqdm` trong `requirements.txt` khi code tới.

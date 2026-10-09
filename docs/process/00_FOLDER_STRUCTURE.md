@@ -29,15 +29,24 @@ time-aware-agentic-memory/
 │   │       ├── anthropic.py
 │   │       ├── openai.py
 │   │       └── ollama.py
+│   ├── retrieval/
+│   │   ├── base.py              #     ABC Retriever (hợp đồng chung 3 cơ chế)
+│   │   └── temporal/            #     Cơ chế 1, thuần Python, không import langchain
+│   │       ├── scoring.py       #       Temporal_Score (TH1/TH2), Final_Score
+│   │       ├── fusion.py        #       RRF + min-max -> Semantic_Score
+│   │       ├── filters.py       #       ProfiledQuery -> VectorFilter, passes_hard_filter
+│   │       └── retriever.py     #       TemporalRetriever
 │   └── stores/
 │       └── vector/
-│           ├── base.py          #     Protocol VectorStore, VectorFilter, SearchHit, BranchHits
+│           ├── base.py          #     ABC VectorStore, VectorFilter, SearchHit, BranchHits
 │           └── qdrant_store.py  #     QdrantStore (collection dense + BM25, 4 payload index)
 ├── tests/                       # Pytest; test Qdrant đánh dấu `qdrant`, tự skip nếu không có server
 │   ├── conftest.py
 │   ├── test_config.py, test_schemas.py
 │   ├── test_embedding_factory.py, test_llm_factory.py
-│   └── test_qdrant_store.py
+│   ├── test_qdrant_store.py
+│   ├── test_scoring.py, test_fusion.py, test_filters.py, test_temporal_retriever.py
+│   └── fixtures/temporal_corpus.json   # 15 chunk, 5 lĩnh vực, 11 case; FakeVectorStore trong conftest.py
 ├── docs/
 │   ├── scope/                   # Phạm vi đồ án
 │   ├── design/                  # Thiết kế hệ thống (đóng góp của đồ án)
@@ -66,4 +75,4 @@ embedding  <-  stores/vector/qdrant_store   (store chỉ biết ABC `Embedder`, 
 
 ## Chưa có (theo kế hoạch)
 
-`retrieval/temporal/` (scoring, fusion, filters), `query/profiler.py`, `ingestion/`, `generation/`, `pipeline/`, `agents/`, `tools/`, `baselines/`, `evaluation/`, `scripts/`.
+`query/profiler.py`, `ingestion/`, `generation/`, `pipeline/`, `agents/`, `tools/`, `baselines/`, `evaluation/`, `scripts/`.

@@ -11,7 +11,7 @@ Tiếp nối [`01_BASE_SETUP_CONFIG_LOGGING.md`](01_BASE_SETUP_CONFIG_LOGGING.md
 | Đóng gói | `pyproject.toml`, `requirements-dev.txt` | `pip install -e .`; pytest `pythonpath=src`, marker `qdrant` |
 | Schemas | `src/tam/schemas/{chunk,query,result}.py` | pydantic, không logic |
 | Embedding | `src/tam/embedding/{base,registry,factory}.py`, `providers/fastembed.py` | ABC + registry + factory theo provider, dense và sparse tách riêng |
-| Vector store | `src/tam/stores/vector/{base,qdrant_store}.py` | Protocol + Qdrant |
+| Vector store | `src/tam/stores/vector/{base,qdrant_store}.py` | ABC + Qdrant |
 | LLM | `src/tam/llm/{registry,factory}.py`, `providers/{anthropic,openai,ollama}.py` | registry + factory theo profile và role |
 | Cấu hình | `configs/config.*.yaml`, `.example.env`, `.env` | thêm `embedding.profiles`, profile LLM `9router`, biến `NINE_ROUTER_*`; sửa `.example.env` (dòng `ANTHROPIC_API_KEY=t` có ký tự thừa) |
 | Dependency | `requirements.txt`, `pyproject.toml` | bật `qdrant-client`, `fastembed`, `langchain-core`, `langchain-anthropic`, `langchain-openai`, `langchain-ollama` |
@@ -98,6 +98,6 @@ Chạy trên Qdrant thật (docker, v1.19.2) với embedder giả tất định 
 
 ## 4. Việc tiếp theo
 
-1. `retrieval/temporal/`: `scoring.py`, `fusion.py`, `filters.py` + test với fixture `tests/fixtures/laws_2015_2018_2021.json` (hỏi 2020 → bản 2018).
+1. `retrieval/temporal/`: `scoring.py`, `fusion.py`, `filters.py` + test với fixture `tests/fixtures/temporal_corpus.json`.
 2. `query/profiler.py` (Time Extractor, dùng `get_llm_for_role(cfg, "time_extractor")`).
 3. Ingestion TimeQA bộ local.

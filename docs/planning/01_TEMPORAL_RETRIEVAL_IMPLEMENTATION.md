@@ -45,8 +45,8 @@ time-aware-agentic-memory/
 │   │   └── prompts/          #   time_extractor.md, ingestion_time.md, time_cot.md
 │   ├── embedding/            #   base (ABC), registry, factory, providers/; profiles dense/sparse; đổi độc lập với LLM
 │   ├── stores/
-│   │   ├── vector/           #   base.py (Protocol VectorStore), qdrant_store.py
-│   │   └── graph/            #   (trống; Neo4j ở CC2/3, cùng kiểu Protocol)
+│   │   ├── vector/           #   base.py (ABC VectorStore), qdrant_store.py
+│   │   └── graph/            #   (trống; Neo4j ở CC2/3, cùng kiểu ABC)
 │   ├── ingestion/
 │   │   ├── loaders/          #   timeqa.py, json_laws.py (fixture 3 bộ luật)
 │   │   ├── chunking.py       #   structural chunking + content hash
@@ -55,7 +55,7 @@ time-aware-agentic-memory/
 │   ├── query/
 │   │   └── profiler.py       #   Time Extractor: câu hỏi + T_now + llm -> ProfiledQuery
 │   ├── retrieval/
-│   │   ├── base.py           #   Protocol Retriever (hợp đồng chung)
+│   │   ├── base.py           #   ABC Retriever (hợp đồng chung)
 │   │   ├── temporal/         #   filters.py, scoring.py, fusion.py, retriever.py   <- CC1
 │   │   ├── timeline/         #   (sau) CC2
 │   │   └── conflict/         #   (sau) CC3
@@ -77,8 +77,8 @@ time-aware-agentic-memory/
 │       └── runner.py         #   chạy hệ thống + baseline trên cùng bộ câu
 ├── scripts/                  # ingest.py, ask.py, evaluate.py: mỏng, chỉ gọi vào tam.*
 ├── tests/
-│   ├── fixtures/laws_2015_2018_2021.json
-│   └── test_scoring.py, test_filters.py, test_fusion.py, test_profiler.py, test_config.py
+│   ├── fixtures/temporal_corpus.json   # nhiều chủ đề (luật, chức vụ, thể thao, chính trị) + các case mong đợi
+│   └── test_scoring.py, test_filters.py, test_fusion.py, test_temporal_retriever.py, test_profiler.py, test_config.py
 ├── output/                   # tự tạo, gitignore: mỗi lần chạy một thư mục theo timestamp (log + kết quả)
 └── data/                     # gitignore: qdrant_storage/, processed/
 ```
@@ -94,7 +94,7 @@ time-aware-agentic-memory/
 - `retrieval/base.py`: hợp đồng chung, gần như không có logic:
 
   ```python
-  class Retriever(Protocol):
+  class Retriever(ABC):
       mechanism: str  # "temporal" | "timeline" | "conflict"
       def retrieve(self, query: ProfiledQuery) -> RetrievalResult: ...
   ```
@@ -435,7 +435,7 @@ flowchart TD
 
 **Thêm mới** (không sửa file cũ):
 
-1. `stores/graph/base.py` + `neo4j_store.py` (Protocol `GraphStore`).
+1. `stores/graph/base.py` + `neo4j_store.py` (ABC `GraphStore`).
 2. `ingestion/`: thêm `GraphSink` vào chuỗi sink trong `pipeline.py` (ghi triplet + `pointer_chunk_id`).
 3. `retrieval/timeline/retriever.py` (VectorDB tìm node vào → graph traversal → triplets → Boomerang qua `chunk_id`).
 4. `tools/timeline_tool.py`.

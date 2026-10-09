@@ -1,9 +1,10 @@
-"""Hợp đồng VectorStore: chỉ qdrant_store.py biết cú pháp Qdrant."""
+"""Hợp đồng VectorStore (ABC): chỉ qdrant_store.py biết cú pháp Qdrant."""
 from __future__ import annotations
 
+from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Any, Protocol
+from typing import Any
 
 from tam.schemas.chunk import Chunk
 
@@ -33,21 +34,25 @@ class BranchHits:
     sparse: list[SearchHit]
 
 
-class VectorStore(Protocol):
+class VectorStore(ABC):
     """Hợp đồng kho vector; chỉ qdrant_store.py biết cú pháp Qdrant."""
 
+    @abstractmethod
     def ensure_collection(self, *, recreate: bool = False) -> None:
         """Tạo collection và các payload index nếu chưa có; `recreate=True` thì xóa rồi tạo lại."""
-        ...
+        raise NotImplementedError
 
+    @abstractmethod
     def upsert(self, chunks: list[Chunk]) -> int:
         """Embed và ghi các chunk; trả về số chunk đã ghi."""
-        ...
+        raise NotImplementedError
 
+    @abstractmethod
     def search(self, query_text: str, flt: VectorFilter, top_n: int) -> BranchHits:
         """Tìm theo hai nhánh dense và BM25, mỗi nhánh đã áp hard filter; trả về hai danh sách xếp hạng riêng."""
-        ...
+        raise NotImplementedError
 
+    @abstractmethod
     def count(self) -> int:
         """Số chunk trong collection."""
-        ...
+        raise NotImplementedError
