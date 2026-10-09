@@ -52,7 +52,9 @@ Số liệu mỗi ô là số câu của một mức (easy hoặc hard). 61 ch�
 
 ## 2. Cơ chế 1 — Temporal Information Retrieval
 
-Mục tiêu: hiểu mốc thời gian (tường minh hoặc ngầm) trong câu hỏi để truy xuất **đúng tài liệu tại đúng thời điểm**. Nghiên cứu ở `docs/research/02_TEMPORAL_INFO_RETRIEVAL.md`, thiết kế ở `docs/design/02_TEMPORAL_RETRIEVAL_DESIGN.md`.
+Mục tiêu: hiểu mốc thời gian (tường minh hoặc ngầm) trong câu hỏi để truy xuất **đúng tài liệu tại đúng thời điểm**. 
+
+**Xem chi tiết thiết kế tại:** [`docs/design/02_TEMPORAL_RETRIEVAL_DESIGN.md`](../../design/02_TEMPORAL_RETRIEVAL_DESIGN.md)
 
 ### 2.1 Schema trong VectorDB (cho Cơ chế 1)
 
