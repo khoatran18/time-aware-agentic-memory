@@ -1,0 +1,80 @@
+app:
+  name: "Time-Aware Agentic Memory"
+  env: "prod"
+  version: "0.1.0"
+
+# ================================================================
+# LLM - profiles: tên dễ nhớ -> provider + model_id
+# ================================================================
+llm:
+  profiles:
+    claude_haiku:
+      provider: "anthropic"
+      model_id: "claude-haiku-5-5"
+      api_key: "${ANTHROPIC_API_KEY:-}"
+      temperature: 0
+    claude_sonnet:
+      provider: "anthropic"
+      model_id: "claude-sonnet-5-5"
+      api_key: "${ANTHROPIC_API_KEY:-}"
+      temperature: 0
+    gpt_mini:
+      provider: "openai"
+      model_id: "<điền model id>"
+      api_key: "${OPENAI_API_KEY:-}"
+      temperature: 0
+    local_llama:
+      provider: "ollama"
+      model_id: "<điền model id>"
+      base_url: "${OLLAMA_URL:-http://localhost:11434}"
+  roles:
+    time_extractor: "claude_sonnet"
+    ingestion_time: "claude_sonnet"
+    router: "claude_haiku"
+    generation: "claude_sonnet"
+    judge: "claude_sonnet"
+
+# ================================================================
+# Embedding
+# ================================================================
+embedding:
+  provider: "fastembed"
+  dense_model_id: "BAAI/bge-small-en-v1.5"
+  sparse_model_id: "Qdrant/bm25"
+
+# ================================================================
+# Qdrant
+# ================================================================
+vector_store:
+  url: "${QDRANT_URL:-http://localhost:6333}"
+  api_key: "${QDRANT_API_KEY:-}"
+  collection: "tam_chunks"
+
+# ================================================================
+# Retrieval (Cơ chế 1)
+# ================================================================
+retrieval:
+  w1: 0.7
+  w2: 0.3
+  decay_lambda: 0.5
+  rrf_k: 60
+  top_n: 50
+  top_k: 5
+
+# ================================================================
+# Evaluation
+# ================================================================
+evaluation:
+  subset: "real"
+
+# ================================================================
+# Logging
+# ================================================================
+logging:
+  level: "INFO"
+  format: "json"
+  log_dir: "output"
+  file_name: "run.log"
+  module_levels:
+    httpx: "WARNING"
+    qdrant_client: "WARNING"

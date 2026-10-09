@@ -222,3 +222,7 @@ local/
 # Claude Code
 .claude/
 CLAUDE.md
+
+# Output của từng lần chạy (log, kết quả eval) và dữ liệu cục bộ
+output/
+data/
