@@ -14,8 +14,8 @@ def _to_utc(value: datetime) -> datetime:
 
 class Chunk(BaseModel):
     chunk_id: str = Field(description="Mã duy nhất; cũng là con trỏ Boomerang từ GraphDB về sau")
-    text: str
-    source: str
+    text: str = Field(description="Nội dung chunk (đơn vị cấu trúc, vd một điều luật); được embed dense + BM25")
+    source: str = Field(description="Nguồn tài liệu (tên báo, link văn bản), dùng để trích dẫn khi sinh đáp án")
     start_time: datetime = Field(description="Thời điểm thông tin bắt đầu đúng; mốc chỉ-năm chuẩn hóa YYYY-01-01")
     end_time: datetime | None = Field(default=None, description="None = còn hiệu lực")
     invalidated_at: datetime | None = Field(default=None, description="Khác None = sai từ gốc (Falsehood), CC1 loại hẳn")
