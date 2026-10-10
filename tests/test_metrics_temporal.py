@@ -3,7 +3,13 @@ from datetime import datetime, timezone
 import pytest
 
 from tam.evaluation.metrics_temporal import (
-    EvalCase, cases_from_corpus, evaluate_retrieval, hit_at_k, is_future_leak, is_invalidated, reciprocal_rank,
+    EvalCase,
+    cases_from_corpus,
+    evaluate_retrieval,
+    hit_at_k,
+    is_future_leak,
+    is_invalidated,
+    reciprocal_rank,
 )
 from tam.retrieval.base import Retriever
 from tam.retrieval.temporal.retriever import TemporalRetriever

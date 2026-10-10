@@ -9,7 +9,7 @@ from tam.schemas.result import RetrievalResult, ScoredChunk
 
 
 def mk(**kw):
-    base = dict(chunk_id="c1", text="t", source="s", start_time=datetime(1985, 1, 1))
+    base = {"chunk_id": "c1", "text": "t", "source": "s", "start_time": datetime(1985, 1, 1)}
     base.update(kw)
     return Chunk(**base)
 
@@ -42,3 +42,9 @@ def test_profiled_query_utc_and_default_mechanism():
 def test_result_roundtrip():
     r = RetrievalResult(mechanism="temporal", chunks=[ScoredChunk(chunk=mk(), final_score=0.5)])
     assert RetrievalResult.model_validate(r.model_dump(mode="json")) == r
+
+
+def test_chunk_doc_id_is_optional_and_independent_of_source():
+    assert Chunk(chunk_id="c", text="t", source="Wikipedia", start_time=datetime(2020, 1, 1)).doc_id is None
+    c = Chunk(chunk_id="/wiki/A#1", text="t", source="Wikipedia", doc_id="/wiki/A", start_time=datetime(2020, 1, 1))
+    assert c.source == "Wikipedia" and c.doc_id == "/wiki/A"

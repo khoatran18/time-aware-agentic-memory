@@ -30,3 +30,7 @@ markers = ["qdrant: cần Qdrant chạy thật (docker compose up -d qdrant)"]
 [tool.ruff]
 line-length = 120
 src = ["src", "tests"]
+
+[tool.ruff.lint.per-file-ignores]
+# Test cố ý dùng datetime không múi giờ để kiểm tra rằng Chunk/ProfiledQuery coi nó là UTC
+"tests/*" = ["DTZ001"]

@@ -54,7 +54,8 @@ flowchart TD
 ## Chi tiết từng kiểu
 
 ### `Chunk` (đơn vị lưu trong VectorDB)
-`chunk_id`, `text`, `source`, `start_time`, `end_time`, `invalidated_at`, `domain_features`.
+`chunk_id`, `text`, `source`, `doc_id`, `start_time`, `end_time`, `invalidated_at`, `domain_features`.
+- `source` = nơi phát hành (Wikipedia, tên báo), khóa tra credibility ở CC3; `doc_id` = tài liệu cụ thể trong nguồn đó (tùy chọn, không index). Loader quyết định `source` (vd `load_pages(..., source=...)`), không fix cứng trong pipeline.
 - `end_time = None` nghĩa là còn hiệu lực; `invalidated_at != None` nghĩa là **sai từ gốc** (Falsehood), Cơ chế 1 lọc hẳn. Đây là chỗ thể hiện bất biến *Evolution ≠ Falsehood*.
 - Validator: datetime không múi giờ coi là UTC (quy hết về UTC); `end_time >= start_time`, vi phạm thì `ValueError`.
 - `chunk_id` cũng là con trỏ Boomerang từ GraphDB (Cơ chế 2/3) về sau.

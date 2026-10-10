@@ -72,7 +72,7 @@ Dữ liệu qua các bước chính (ví dụ trang Knox Cunningham):
 
 | Bước | Vào | Ra |
 |---|---|---|
-| 2-4 | dòng `pages.jsonl`: `page_id`, `paragraphs=[{title,text}]` | `RawDoc(doc_id="/wiki/Knox_Cunningham", title, source="Wikipedia: ...", sections)`; trang không có đoạn bị bỏ |
+| 2-4 | dòng `pages.jsonl`: `page_id`, `paragraphs=[{title,text}]` | `RawDoc(doc_id="/wiki/Knox_Cunningham", title, source="Wikipedia" (tham số của loader), sections)`; trang không có đoạn bị bỏ |
 | 6-8 | `RawDoc` | `RawChunk`, `chunk_id="<doc_id>#<chỉ số section>"` (ổn định, chạy lại là ghi đè); text có header `"Tiêu đề \| Tên mục\n<nội dung>"`; section rỗng bị bỏ |
 | 9 | `RawChunk` | chỉ giữ chunk có hash chưa gặp **trong cùng lần chạy** |
 | 11-19 | tiêu đề + chunk | `TimeResult`: `TimeSpan(start, end)` hoặc `reason` (`no_time` / `invalid_time`) |

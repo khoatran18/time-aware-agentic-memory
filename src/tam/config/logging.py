@@ -83,7 +83,7 @@ def get_run_dir() -> Path:
 def _create_run_dir(base: Path) -> Path:
     """Tạo `output/<YYYYMMDD_HHMMSS>/` (thêm hậu tố _2, _3 nếu trùng giây) và trả về đường dẫn."""
     base.mkdir(parents=True, exist_ok=True)
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    stamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
     candidate, n = base / stamp, 1
     while True:
         try:

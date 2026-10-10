@@ -2,13 +2,13 @@ import json
 from datetime import datetime, timezone
 
 import pytest
+from tests.conftest import FakeVectorStore
 
 from tam.ingestion.chunking import chunk_document, content_hash
 from tam.ingestion.loaders.timeqa import load_pages, page_title
 from tam.ingestion.pipeline import IngestionPipeline, Sink, VectorSink
 from tam.ingestion.time_extraction import BatchTimes, ChunkTime, TimeExtractor, parse_partial_date, to_span
 from tam.ingestion.types import RawDoc, Section
-from tests.conftest import FakeVectorStore
 
 
 def utc(*a):
@@ -16,7 +16,7 @@ def utc(*a):
 
 
 def make_doc(sections, doc_id="/wiki/Knox_Cunningham"):
-    return RawDoc(doc_id=doc_id, title=page_title(doc_id), source="Wikipedia: x", sections=tuple(Section(*s) for s in sections))
+    return RawDoc(doc_id=doc_id, title=page_title(doc_id), source="Wikipedia", sections=tuple(Section(*s) for s in sections))
 
 
 # ---- parse_partial_date / to_span ----
@@ -77,7 +77,8 @@ def test_load_pages_filters_and_skips_empty(tmp_path):
     p.write_text("\n".join(json.dumps(r) for r in rows), encoding="utf-8")
     assert [d.doc_id for d in load_pages(p)] == ["/wiki/A_B", "/wiki/C"]
     docs = list(load_pages(p, page_ids={"/wiki/A_B"}))
-    assert len(docs) == 1 and docs[0].title == "A B" and docs[0].source == "Wikipedia: A B"
+    assert len(docs) == 1 and docs[0].title == "A B" and docs[0].source == "Wikipedia" and docs[0].doc_id == "/wiki/A_B"
+    assert all(d.source == "Báo A" for d in load_pages(p, source="Báo A"))  # không fix cứng Wikipedia
 
 
 # ---- TimeExtractor ----
@@ -162,7 +163,7 @@ def test_pipeline_counts_drops_and_dedups():
     assert set(by_id) == {"/wiki/Knox_Cunningham#0", "/wiki/Knox_Cunningham#3"}
     assert by_id["/wiki/Knox_Cunningham#0"].end_time == utc(1976, 12, 31)
     assert by_id["/wiki/Knox_Cunningham#3"].end_time is None  # còn hiệu lực
-    assert all(c.source == "Wikipedia: x" for c in written)
+    assert all(c.source == "Wikipedia" and c.doc_id == "/wiki/Knox_Cunningham" for c in written)
 
 
 def test_pipeline_no_sink_write_when_nothing_survives():

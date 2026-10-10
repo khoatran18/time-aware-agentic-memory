@@ -13,8 +13,14 @@ def page_title(page_id: str) -> str:
     return page_id.removeprefix("/wiki/").replace("_", " ")
 
 
-def load_pages(path: str | Path, page_ids: Collection[str] | None = None) -> Iterator[RawDoc]:
-    """Đọc từng trang; nếu có `page_ids` thì chỉ trả các trang đó. Trang không có đoạn nào bị bỏ qua."""
+def load_pages(
+    path: str | Path, page_ids: Collection[str] | None = None, *, source: str = "Wikipedia"
+) -> Iterator[RawDoc]:
+    """Đọc từng trang; nếu có `page_ids` thì chỉ trả các trang đó. Trang không có đoạn nào bị bỏ qua.
+
+    `source` là nơi phát hành gắn cho mọi trang của file này (mặc định Wikipedia, vì TimeQA là Wikipedia); loader cho
+    nguồn khác truyền giá trị riêng. Tài liệu cụ thể nằm ở `RawDoc.doc_id`, không trộn vào `source`.
+    """
     wanted = set(page_ids) if page_ids is not None else None
     with open(path, encoding="utf-8") as f:
         for line in f:
@@ -25,4 +31,4 @@ def load_pages(path: str | Path, page_ids: Collection[str] | None = None) -> Ite
             if not sections:
                 continue
             title = page_title(page["page_id"])
-            yield RawDoc(doc_id=page["page_id"], title=title, source=f"Wikipedia: {title}", sections=sections)
+            yield RawDoc(doc_id=page["page_id"], title=title, source=source, sections=sections)

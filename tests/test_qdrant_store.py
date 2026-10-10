@@ -62,7 +62,7 @@ def store():
     client = QdrantClient(url="http://localhost:6333")
     try:
         client.get_collections()
-    except Exception:
+    except Exception:  # noqa: BLE001  (mọi lỗi kết nối đều nghĩa là không có server)
         pytest.skip("Qdrant không chạy ở localhost:6333")
     name = f"tam_test_{uuid.uuid4().hex[:8]}"
     s = QdrantStore(client, name, FakeEmbedder())

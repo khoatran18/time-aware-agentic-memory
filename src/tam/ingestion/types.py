@@ -18,9 +18,9 @@ class Section:
 class RawDoc:
     """Tài liệu thô do loader trả về, chưa có mốc thời gian."""
 
-    doc_id: str
+    doc_id: str  # tài liệu cụ thể trong source (vd /wiki/Knox_Cunningham)
     title: str
-    source: str
+    source: str  # nơi phát hành (vd Wikipedia, tên báo); do loader quyết định
     sections: tuple[Section, ...]
     domain_features: dict[str, Any] = field(default_factory=dict)
 

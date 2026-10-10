@@ -13,7 +13,8 @@
 | `chunk_id` | String | **Bắt buộc** | Mã định danh duy nhất của chunk (Dùng để truy xuất ngược hoặc link với GraphDB sau này). |
 | `text_chunk` | Dense & Sparse Vector | **Bắt buộc** | Payload nhúng dưới 2 định dạng: Dense Vector (Ngữ nghĩa) và Sparse Vector / BM25 (Từ khóa) để chạy Hybrid Search. |
 | `domain_features` (JSON Lồng nhau) | JSON Object | **Tùy chọn** | Gom nhóm các đặc trưng của từng bài toán (VD: `{"country": "VN", "domain": "Luật"}`). VectorDB hỗ trợ đánh Index thẳng vào các key con bên trong JSON này (VD: `domain_features.country`). |
-| `source` | String | **Bắt buộc** | Nguồn tài liệu (Tên báo, link văn bản). Dùng để trích dẫn nguồn khi sinh câu trả lời. |
+| `source` | String | **Bắt buộc** | Nơi phát hành (Wikipedia, tên báo). Dùng để trích dẫn nguồn khi sinh câu trả lời và là khóa tra độ tin cậy ở Cơ chế 3. |
+| `doc_id` | String | Tùy chọn (mặc định `NULL`) | Tài liệu cụ thể trong `source` (VD `/wiki/Knox_Cunningham`, URL bài báo). Tách khỏi `source` để gom chunk theo nguồn và theo tài liệu độc lập. Không index. |
 | `start_time` | Timestamp / ISO Date | **Bắt buộc** | Thời điểm thông tin bắt đầu đúng. Dùng để tính khoảng cách thời gian (Time Decay) và chặn thông tin tương lai. |
 | `end_time` | Timestamp / ISO Date | Mặc định `NULL` | Thời điểm thông tin kết thúc. Dùng để chốt khoảng `[start_time, end_time]`. Nếu chưa kết thúc, cứ để `NULL`. |
 | `invalidated_at`| Timestamp / ISO Date | Mặc định `NULL` | Cờ đánh dấu tin giả. Cơ chế 1 sẽ filter cứng để **loại bỏ hoàn toàn** các chunk có trường này khác `NULL`. |

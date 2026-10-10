@@ -90,7 +90,7 @@ class IngestionPipeline:
                         stats.skipped_no_time += 1
                     continue
                 out.append(Chunk(
-                    chunk_id=rc.chunk_id, text=rc.text, source=doc.source,
+                    chunk_id=rc.chunk_id, text=rc.text, source=doc.source, doc_id=doc.doc_id,
                     start_time=res.span.start, end_time=res.span.end, domain_features=dict(doc.domain_features),
                 ))
             if out:

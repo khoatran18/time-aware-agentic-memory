@@ -10,7 +10,7 @@ from tam.stores.vector.qdrant_store import PAYLOAD_INDEXES
 
 
 def mk(**kw):
-    base = dict(chunk_id="c", text="t", source="s", start_time=datetime(2018, 1, 1), domain_features={"country": "VN"})
+    base = {"chunk_id": "c", "text": "t", "source": "s", "start_time": datetime(2018, 1, 1), "domain_features": {"country": "VN"}}
     base.update(kw)
     return Chunk(**base)
 
