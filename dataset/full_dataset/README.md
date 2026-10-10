@@ -9,6 +9,7 @@ pages.jsonl                              # 1 dòng / trang, 4,815 trang
 demo_page.json                           # 1 phần tử của pages.jsonl, thụt lề
 RELATIONS.md                              # số câu theo từng chủ đề (relation)
 EVAL_PLAN.md                              # kế hoạch bộ đánh giá (local và thật), cách chấm, chi phí
+TOPICS.md                                 # relation là gì, gộp thành họ chủ đề, đề xuất domain của chunk
 ```
 
 Tất cả `.jsonl` là JSON Lines: mỗi file có nhiều dòng, mỗi dòng là một câu hỏi. Tổng 39,262 dòng. Xem một dòng cho dễ đọc: `head -n1 C/test.hard.jsonl | python3 -m json.tool`.
