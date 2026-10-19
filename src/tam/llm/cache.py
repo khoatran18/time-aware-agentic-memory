@@ -1,7 +1,7 @@
 """Cache kết quả LLM trên đĩa: cùng (schema, model, nội dung prompt) thì dùng lại, không gọi LLM nữa.
 
 Khóa gồm tên schema, định danh model được cấu hình và toàn bộ messages (đã gồm prompt hệ thống), nên đổi prompt hoặc đổi model
-trong config thì tự trượt cache. Giới hạn: `model` ở đây là tên trong config (vd combo `basic-gemini-3.1-flash-lite` của 9router);
+trong config thì tự trượt cache. Giới hạn: `model` ở đây là tên trong config (vd combo `basic-gemini-3.5-flash-lite` của 9router);
 combo có thể đổi model phía sau, muốn buộc gọi lại dùng `refresh=True`.
 
 Hai nơi lưu song song, cùng giao diện `CacheStore`:

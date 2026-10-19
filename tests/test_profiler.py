@@ -84,3 +84,20 @@ def test_future_t_req_warns_but_passes(caplog):
     with caplog.at_level("WARNING"):
         q, _ = profile(Extraction(semantic_query="x", t_req="2030-01-01"))
     assert q.t_req.year == 2030 and "sau T_now" in caplog.text
+
+
+def test_cache_skips_use_t_now_and_empty_t_req(tmp_path):
+    from tam.llm.cache import open_cache
+    cache = open_cache(tmp_path)
+    fixed = Extraction(semantic_query="x", t_req="1968-08-01", use_t_now=False)
+    Profiler(FakeLLM(fixed), cache=cache).profile("Who ran it in Aug 1968?", T_NOW)
+    assert cache._primary.count() == 1
+    relative = Extraction(semantic_query="x", t_req="2022-10-10", use_t_now=True)
+    Profiler(FakeLLM(relative), cache=cache).profile("Who ran it last year?", T_NOW)
+    Profiler(FakeLLM(Extraction(semantic_query="x", t_req=None)), cache=cache).profile("Who ran it?", T_NOW)  # t_req rỗng
+    assert cache._primary.count() == 1
+    # khóa không chứa ngày: ngày khác vẫn trúng
+    llm2 = FakeLLM(fixed)
+    Profiler(llm2, cache=cache).profile("Who ran it in Aug 1968?", datetime(2031, 1, 1, tzinfo=timezone.utc))
+    assert llm2.messages is None
+    cache.close()

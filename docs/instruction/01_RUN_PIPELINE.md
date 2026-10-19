@@ -5,7 +5,7 @@ Mọi lệnh chạy ở thư mục gốc của repo. Python 3.10, đã `pip inst
 ## 0. Chuẩn bị
 
 1. `.env` (copy từ `.env.example`): `APP_ENV=dev`, key của LLM đang dùng (`NINE_ROUTER_API_KEY`, `NINE_ROUTER_URL`; hoặc `ANTHROPIC_API_KEY`), `QDRANT_URL`.
-2. Chọn LLM trong `configs/config.dev.yaml`, mục `llm.roles`: `ingestion_time` (gán mốc và domain cho chunk), `time_extractor` (Profiler). Hiện hai role đều trỏ `9router`, combo `basic-gemini-3.1-flash-lite` (chỉ chứa một model Gemini, nên không còn đổi model ngầm; combo lỗi thì chờ tối đa 32 giây rồi dừng, xem mục "Khi LLM lỗi giữa chừng"). Các lần chạy ngày 2026-10-19 trong `docs/eval/` dùng combo cũ `basic-llm`.
+2. Chọn LLM trong `configs/config.dev.yaml`, mục `llm.roles`: `ingestion_time` (gán mốc và domain cho chunk), `time_extractor` (Profiler). Hiện hai role đều trỏ `9router`, combo `basic-gemini-3.5-flash-lite` (chỉ chứa một model Gemini, nên không còn đổi model ngầm; combo lỗi thì chờ tối đa 32 giây rồi dừng, xem mục "Khi LLM lỗi giữa chừng"). Các lần chạy ngày 2026-10-19 trong `docs/eval/` dùng combo cũ `basic-llm`.
 3. Bật Qdrant: `docker compose up -d qdrant` (kiểm tra: `curl localhost:6333/collections` trả 200).
 
 ## 1. Sơ đồ các bước
@@ -55,6 +55,9 @@ Mỗi trang Wikipedia tách thành chunk theo đoạn của dataset, mỗi trang
 ```
 python scripts/profile_eval.py                 # câu hỏi mức hard
 python scripts/profile_eval.py --level easy
+# Cache Profiler: khóa không chứa ngày (prompt chưa thay {t_now}), nên câu có thời gian tuyệt đối trúng cache qua các ngày.
+# Câu phụ thuộc "bây giờ" (LLM đặt use_t_now = true: tương đối, now/current/latest, hoặc không nhắc thời gian; hoặc t_req rỗng) thì không cache.
+# Mỗi dòng profiler.jsonl ghi thêm `t_now` (ngày chạy) để biết "hiện tại" được hiểu là ngày nào.
 ```
 
 Với mỗi câu hỏi, LLM tách `semantic_query`, `t_req` (mốc tuyệt đối), `filters`. Đầu ra: `output/<timestamp>/profiler.jsonl`. Không cần Qdrant.
@@ -110,7 +113,7 @@ Bước 3 và 4 lưu kết quả LLM vào hai file song song trong `data/llm_cac
 
 - Đổi prompt hay đổi `model_id` trong config thì khóa cache đổi, tự gọi lại.
 - `--no-cache`: không dùng cache. `--refresh-cache`: bỏ cache cũ, gọi lại và ghi đè. Xóa hẳn: `rm data/llm_cache/cache.sqlite* data/llm_cache/cache.json` (hai thư mục con hai ký tự `17/`, `b1/` là cache định dạng cũ, bỏ được).
-- **Lưu ý model drift:** khóa cache dùng tên model trong config (vd combo `basic-gemini-3.1-flash-lite`), không phải model thật phía sau. Combo của 9router có thể đổi model giữa các ngày; cache giữ kết quả cũ. Muốn đo với model hiện tại thì `--refresh-cache`.
+- **Lưu ý model drift:** khóa cache dùng tên model trong config (vd combo `basic-gemini-3.5-flash-lite`), không phải model thật phía sau. Combo của 9router có thể đổi model giữa các ngày; cache giữ kết quả cũ. Muốn đo với model hiện tại thì `--refresh-cache`.
 - Chỉ kết quả hợp lệ được ghi cache; lần gọi lỗi định dạng không bị lưu.
 - Phân tích bằng SQL, ví dụ số mục theo model: `SELECT model, schema, COUNT(*) FROM cache GROUP BY 1, 2;` (mở `cache.sqlite` bằng tab Database của PyCharm hoặc `sqlite3`).
 

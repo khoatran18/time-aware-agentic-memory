@@ -6,20 +6,20 @@ Mỗi đợt giữ cấu hình tốt nhất của đợt trước làm nền, ch
 
 | Đợt | Hỏi gì | Biến đổi | Trạng thái |
 |---|---|---|---|
-| 0 | Pipeline chạy thông, không rò rỉ? | 5 cấu hình ban đầu | **Xong** ([`02`](02_RETRIEVAL_LOCAL.md)); chạy lại khi có kho mới |
-| 1 | Hệ có hơn plain RAG không, mỗi thành phần đóng góp bao nhiêu? | dense, BM25, hybrid, + lọc thời gian, + điểm thời gian | Code xong, chưa chạy |
-| 2 | Lỗi nằm ở bước nào? | Không đổi cấu hình; đọc số đo từng bước | Code xong, chưa chạy |
-| 3 | Cách chấm `end` nào tốt nhất? | `end_mode` A / B / C | Code xong, chưa chạy |
-| 3b | Mở rộng chunk liền kề cứu được bao nhiêu, tốn bao nhiêu? | `--neighbors` 0 / 1 / 2 | Code xong, chưa chạy |
-| 3c | Câu cần 2 chunk trở lên có bị đánh giá cao không? | Chỉ số `multi_*` | Code xong; bộ local chỉ có 1/40 câu |
-| 4 | Có nên giữ chunk không mốc, `T_unknown` bao nhiêu? | `--t-unknown` | Code xong, chưa chạy |
-| 5 | Domain cộng điểm có không tệ hơn lọc cứng? | `--facets`, `--w3` | Code xong, chưa chạy |
+| 0 | Pipeline chạy thông, không rò rỉ? | 5 cấu hình ban đầu | Đã chạy lại trên kho mới, xem [`04`](04_TEST_RESULTS.md) |
+| 1 | Hệ có hơn plain RAG không, mỗi thành phần đóng góp bao nhiêu? | dense, BM25, hybrid, + lọc thời gian, + điểm thời gian | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
+| 2 | Lỗi nằm ở bước nào? | Không đổi cấu hình; đọc số đo từng bước | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
+| 3 | Cách chấm `end` nào tốt nhất? | `end_mode` A / B / C | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
+| 3b | Mở rộng chunk liền kề cứu được bao nhiêu, tốn bao nhiêu? | `--neighbors` 0 / 1 / 2 | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
+| 3c | Câu cần 2 chunk trở lên có bị đánh giá cao không? | Chỉ số `multi_*` | Đã chạy; bộ local chỉ có 1/40 câu, chưa có ý nghĩa |
+| 4 | Có nên giữ chunk không mốc, `T_unknown` bao nhiêu? | `--t-unknown` | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
+| 5 | Domain cộng điểm có không tệ hơn lọc cứng? | `--facets`, `--w3` | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 6 | Tham số tốt nhất (`λ`, `W1/W2`)? | Quét trên `D/train` | **Chưa code**, để sau |
 | 7 | Số đưa vào luận văn | Cấu hình đã chọn, trên bộ thật | **Chưa**, cần bộ thật |
 
 ## Chuẩn bị chung (một lần)
 
-1. 9router chạy với combo `basic-gemini-3.1-flash-lite` (một model Gemini; lỗi thì code tự chờ 1 đến 32 giây rồi dừng, chạy lại đúng lệnh cũ).
+1. 9router chạy với combo `basic-gemini-3.5-flash-lite` (một model Gemini; lỗi thì code tự chờ 1 đến 32 giây rồi dừng, chạy lại đúng lệnh cũ).
 2. Nạp kho: `python scripts/ingest.py --recreate --keep-undated`. Gọi LLM thật cho 37 trang (cache gần như trống); lần sau đọc từ cache. Ghi lại thư mục `output/<ts>/` của lần nạp: gọi nó là `$E`.
 3. Profiler đã có sẵn ở `output/20261019_115213/profiler.jsonl` (gọi là `$P`). Chỉ chạy lại `scripts/profile_eval.py` nếu muốn Profiler chạy bằng combo mới.
 4. Kho có chunk không mốc nhưng `t_unknown` mặc định `null`, nên chúng không bao giờ được trả về ở đợt 0 đến 3 và các đợt này vẫn so được với lần 4.

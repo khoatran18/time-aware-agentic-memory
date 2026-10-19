@@ -1,6 +1,6 @@
 # Nhật ký thay đổi prompt
 
-Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được (nếu có). Quyết định lớn có file riêng ở thư mục này; đây chỉ là sổ ghi để biết kết quả ở `docs/eval/` ứng với phiên bản prompt nào. Từ 2026-10-19 (sau lần 4) config dùng combo `basic-gemini-3.1-flash-lite` chỉ chứa một model, nên các lần chạy sau không còn bị đổi model ngầm; các lần trước dùng `basic-llm`. Số liệu so sánh nhiều lần chạy phải kèm lưu ý: model phía sau combo `basic-llm` của 9router **thay đổi theo thời gian** (ngày 2026-10-19 một model bị ngừng và combo chuyển sang `gemini-3.1-flash-lite`), nên khác biệt giữa hai lần chạy không hoàn toàn do prompt.
+Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được (nếu có). Quyết định lớn có file riêng ở thư mục này; đây chỉ là sổ ghi để biết kết quả ở `docs/eval/` ứng với phiên bản prompt nào. Từ 2026-10-19 (sau lần 4) config dùng combo `basic-gemini-3.5-flash-lite` chỉ chứa một model, nên các lần chạy sau không còn bị đổi model ngầm; các lần trước dùng `basic-llm`. Số liệu so sánh nhiều lần chạy phải kèm lưu ý: model phía sau combo `basic-llm` của 9router **thay đổi theo thời gian** (ngày 2026-10-19 một model bị ngừng và combo chuyển sang `gemini-3.1-flash-lite`), nên khác biệt giữa hai lần chạy không hoàn toàn do prompt.
 
 ## `src/tam/llm/prompts/ingestion_time.md` (gán mốc và domain cho chunk)
 

@@ -40,7 +40,7 @@ def main() -> None:
             question = case[f"question_{args.level}"]
             try:
                 q = profiler.profile(question, t_now)
-                row = {"idx": case["idx"], "question": question, "semantic_query": q.semantic_query,
+                row = {"idx": case["idx"], "question": question, "t_now": t_now.date().isoformat(), "semantic_query": q.semantic_query,
                        "t_req": q.t_req.isoformat(), "filters": q.filters, "error": None}
             except ValueError as exc:  # t_req rác: ghi lại chứ không dừng cả lượt
                 logger.error("Profile lỗi (%s): %s", case["idx"], exc)

@@ -30,7 +30,7 @@ llm:
       base_url: "${OLLAMA_URL:-http://localhost:11434}"
     9router:                           # proxy tương thích OpenAI, dùng provider "openai" + base_url
       provider: "openai"
-      model_id: "basic-gemini-3.1-flash-lite"   # combo 9router chỉ chứa một model Gemini; lỗi thì chờ 1 đến 32 giây (tam/llm/structured.py)
+      model_id: "basic-gemini-3.5-flash-lite"   # combo 9router chỉ chứa một model Gemini; lỗi thì chờ 1 đến 32 giây (tam/llm/structured.py)
       api_key: "${NINE_ROUTER_API_KEY:-}"
       base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"   # cổng mặc định chưa kiểm chứng, xem dashboard 9router
       temperature: 0

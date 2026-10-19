@@ -24,6 +24,10 @@ class Extraction(BaseModel):
 
     semantic_query: str = Field(description="What to search for, without the time expression and filler words")
     t_req: str | None = Field(default=None, description="Absolute point in time as ISO YYYY-MM-DD; null if the question mentions no time")
+    use_t_now: bool = Field(
+        default=False,
+        description="True if the answer to the question depends on today's date (T_now): relative time ('yesterday', 'last year', "
+                    "'3 years ago'), 'now'/'current'/'latest', or no time mentioned at all. False if the question fixes the date itself.")
     domain: str | None = Field(default=None, description="Lowercase English domain word, only if the question states it explicitly")
     country: str | None = Field(default=None, description="ISO 3166-1 alpha-2 country code, only if the question states it explicitly")
 
@@ -49,8 +53,11 @@ class Profiler:
         if t_now.tzinfo is None:
             t_now = t_now.replace(tzinfo=timezone.utc)
         system = self._prompt.replace("{t_now}", t_now.date().isoformat())
+        # Khóa cache dùng prompt chưa thay {t_now} để câu có thời gian tuyệt đối trúng cache qua các ngày. Câu phụ thuộc
+        # T_now (`use_t_now`, hoặc `t_req` rỗng nên mặc định là T_now) thì kết quả đổi theo ngày: không ghi cache.
         out = invoke_structured(self._llm, self._chain, Extraction, [("system", system), ("human", question)],
-                                cache=self._cache)
+                                cache=self._cache, key_messages=[("system", self._prompt), ("human", question)],
+                                cacheable=lambda e: not e.use_t_now and bool(e.t_req))
         if out is None:
             raise ValueError(f"LLM không trả JSON hợp lệ cho câu hỏi: {question!r}")
 

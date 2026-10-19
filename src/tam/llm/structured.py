@@ -90,14 +90,17 @@ def _preview(messages: list[tuple[str, str]]) -> str:
 def invoke_structured(
     llm: BaseChatModel, chain: Any, schema: type[T], messages: list[tuple[str, str]], *, max_attempts: int = 3,
     cache: CacheStore | None = None, sleep: Callable[[float], None] = time.sleep,
+    key_messages: list[tuple[str, str]] | None = None, cacheable: Callable[[T], bool] | None = None,
 ) -> T | None:
     """Trả `schema` hoặc None nếu mọi lần thử đều lỗi định dạng. `chain` = `llm.with_structured_output(schema)`.
 
     Có `cache` thì tra trước và chỉ gọi LLM khi chưa có; chỉ kết quả hợp lệ mới được ghi.
+    `key_messages`: nội dung dùng để tính khóa thay cho `messages` (vd bỏ phần phụ thuộc ngày hiện tại).
+    `cacheable`: nhận kết quả, trả False thì không ghi vào cache.
     """
     key = None
     if cache is not None:
-        key = cache.key(schema.__name__, _model_id(llm), json.dumps(messages, ensure_ascii=False))
+        key = cache.key(schema.__name__, _model_id(llm), json.dumps(key_messages or messages, ensure_ascii=False))
         cached = cache.get(key)
         if cached is not None:
             return schema.model_validate(cached)
@@ -114,7 +117,7 @@ def invoke_structured(
                 logger.warning("Structured output lỗi (%s), thử đọc JSON từ văn bản", type(exc).__name__)
                 out = parse_json_text(_call_with_backoff(lambda: llm.invoke(fallback_messages), sleep), schema)
             result = schema.model_validate(out) if isinstance(out, dict) else out
-            if cache is not None and key is not None:
+            if cache is not None and key is not None and (cacheable is None or cacheable(result)):
                 cache.put(key, result.model_dump(mode="json"), meta={
                     "schema": schema.__name__, "model": _model_id(llm), "preview": _preview(messages)})
             return result
