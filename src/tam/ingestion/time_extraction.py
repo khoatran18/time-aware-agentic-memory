@@ -28,6 +28,11 @@ class ChunkTime(BaseModel):
 
     index: int = Field(description="Index of the chunk this item refers to")
     start: str | None = Field(default=None, description="Earliest date: YYYY, YYYY-MM or YYYY-MM-DD; null if none")
+    reason_end_date: str = Field(
+        default="",
+        description="One short sentence: why `end` and `ongoing` have these values (which words or chunk show the "
+                    "situation stopped or continues, or that nothing says so). Write it BEFORE deciding end/ongoing",
+    )
     end: str | None = Field(default=None, description="Latest date, same format; null if ongoing or none")
     ongoing: bool = Field(default=False, description="True if the situation continues to the present")
 
@@ -100,4 +105,7 @@ class TimeExtractor:
         if isinstance(out, dict):
             out = BatchTimes.model_validate(out)
         by_index = {item.index: item for item in out.items}
+        for item in out.items:
+            logger.debug("Mốc chunk %d: start=%s end=%s ongoing=%s | %s", item.index, item.start, item.end, item.ongoing,
+                         item.reason_end_date)
         return [to_span(by_index[i]) if i in by_index else TimeResult(None, "no_time") for i in range(len(batch))]

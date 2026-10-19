@@ -229,3 +229,6 @@ data/
 
 docker/neo4j
 docker/qdrant
+
+# IDE (PyCharm)
+.idea/

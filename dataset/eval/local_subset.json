@@ -1,0 +1,439 @@
+{
+  "split": "D/test",
+  "seed": 42,
+  "relations": [
+    "P54",
+    "P39",
+    "P26",
+    "P108",
+    "P69"
+  ],
+  "per_relation": 5,
+  "n_cases": 25,
+  "page_ids": [
+    "/wiki/André_Schembri",
+    "/wiki/Arnulf_Øverland",
+    "/wiki/Bengt_Holmström",
+    "/wiki/Cheryl_Tiegs",
+    "/wiki/Eliot_Engel",
+    "/wiki/Helen_Clark",
+    "/wiki/Jeff_Goldblum",
+    "/wiki/John_Campbell_Brown",
+    "/wiki/Laurette_Onkelinx",
+    "/wiki/Lee_Nogan",
+    "/wiki/Monir_Shahroudy_Farmanfarmaian",
+    "/wiki/Nik_Stauskas",
+    "/wiki/Pinchas_Zukerman",
+    "/wiki/Roma_Mitchell",
+    "/wiki/Rui_Vitória",
+    "/wiki/Ruud_Lubbers",
+    "/wiki/Sarah_Bond",
+    "/wiki/Steve_Sidwell",
+    "/wiki/Tomer_Hemed"
+  ],
+  "cases": [
+    {
+      "idx": "/wiki/André_Schembri#P54#1",
+      "page_id": "/wiki/André_Schembri",
+      "relation": "P54",
+      "question_hard": "Maltese footballer André Schembri was on what team between Dec 2005 and Sep 2006?",
+      "question_easy": "Maltese footballer André Schembri was on what team from 2005 to 2007?",
+      "targets": [
+        "Marsaxlokk"
+      ],
+      "time_start": "2005",
+      "time_end": "2007",
+      "gold_chunk_ids": [
+        "/wiki/André_Schembri#1"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/André_Schembri#P54#7",
+      "page_id": "/wiki/André_Schembri",
+      "relation": "P54",
+      "question_hard": "Maltese footballer André Schembri was on what team between Mar 2013 and Nov 2013?",
+      "question_easy": "Maltese footballer André Schembri was on what team from 2012 to 2014?",
+      "targets": [
+        "Omonia"
+      ],
+      "time_start": "2012",
+      "time_end": "2014",
+      "gold_chunk_ids": [
+        "/wiki/André_Schembri#2"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Arnulf_Øverland#P26#1",
+      "page_id": "/wiki/Arnulf_Øverland",
+      "relation": "P26",
+      "question_hard": "Who was the life partner of Norwegian artist Øverland between Sep 1943 and May 1944?",
+      "question_easy": "Who was the life partner of Norwegian artist Øverland from Feb 1940 to 1945?",
+      "targets": [
+        "Bartholine Eufemia Leganger"
+      ],
+      "time_start": "Feb 1940",
+      "time_end": "1945",
+      "gold_chunk_ids": [
+        "/wiki/Arnulf_Øverland#6"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Arnulf_Øverland#P26#2",
+      "page_id": "/wiki/Arnulf_Øverland",
+      "relation": "P26",
+      "question_hard": "Which Norwegian resistance member was the wife of Norwegian artist Øverland between Jan 1957 and May 1967?",
+      "question_easy": "Which Norwegian resistance member was the wife of Norwegian artist Øverland from Jun 1945 to 1968?",
+      "targets": [
+        "Margrete Aamot Øverland"
+      ],
+      "time_start": "Jun 1945",
+      "time_end": "1968",
+      "gold_chunk_ids": [
+        "/wiki/Arnulf_Øverland#6"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Bengt_Holmström#P108#2",
+      "page_id": "/wiki/Bengt_Holmström",
+      "relation": "P108",
+      "question_hard": "Which university employed Finnish economist Holmström between Oct 1979 and Feb 1981?",
+      "question_easy": "Which university employed Finnish economist Holmström from 1979 to 1983?",
+      "targets": [
+        "Northwestern University"
+      ],
+      "time_start": "1979",
+      "time_end": "1983",
+      "gold_chunk_ids": [
+        "/wiki/Bengt_Holmström#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Cheryl_Tiegs#P26#2",
+      "page_id": "/wiki/Cheryl_Tiegs",
+      "relation": "P26",
+      "question_hard": "Who was Cheryl Tiegs married to after Dec 1998?",
+      "question_easy": "Who was Cheryl Tiegs married to from 1998 to 2001?",
+      "targets": [
+        "Rod Stryker"
+      ],
+      "time_start": "1998",
+      "time_end": "2001",
+      "gold_chunk_ids": [
+        "/wiki/Cheryl_Tiegs#15"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Eliot_Engel#P69#0",
+      "page_id": "/wiki/Eliot_Engel",
+      "relation": "P69",
+      "question_hard": "Where did the politician Eliot Engel receive education in Apr 1968?",
+      "question_easy": "Where did the politician Eliot Engel receive education from 1968 to 1969?",
+      "targets": [
+        "Hunter-Lehman College of the City University of New York"
+      ],
+      "time_start": "1968",
+      "time_end": "1969",
+      "gold_chunk_ids": [
+        "/wiki/Eliot_Engel#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Eliot_Engel#P69#1",
+      "page_id": "/wiki/Eliot_Engel",
+      "relation": "P69",
+      "question_hard": "between Aug 1972 and Oct 1972, at what college did U.S. Representative Eliot Engel study at?",
+      "question_easy": "from 1969 to 1973, at what college did U.S. Representative Eliot Engel study at?",
+      "targets": [
+        "Lehman College"
+      ],
+      "time_start": "1969",
+      "time_end": "1973",
+      "gold_chunk_ids": [
+        "/wiki/Eliot_Engel#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Helen_Clark#P39#2",
+      "page_id": "/wiki/Helen_Clark",
+      "relation": "P39",
+      "question_hard": "In the period of time between Jul 1995 and Mar 1998, what was New Zealand politician Clark's governmental position?",
+      "question_easy": "In the period of time from Dec 1993 to Dec 1999, what was New Zealand politician Clark's governmental position?",
+      "targets": [
+        "Leader of the Opposition"
+      ],
+      "time_start": "Dec 1993",
+      "time_end": "Dec 1999",
+      "gold_chunk_ids": [
+        "/wiki/Helen_Clark#2"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Helen_Clark#P39#4",
+      "page_id": "/wiki/Helen_Clark",
+      "relation": "P39",
+      "question_hard": "What role did New Zealand's fifth-longest-serving prime minister take after Dec 2009?",
+      "question_easy": "What role did New Zealand's fifth-longest-serving prime minister take from Apr 2009 to Apr 2010?",
+      "targets": [
+        "Administrator of the United Nations Development Programme"
+      ],
+      "time_start": "Apr 2009",
+      "time_end": "Apr 2010",
+      "gold_chunk_ids": [
+        "/wiki/Helen_Clark#0"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Jeff_Goldblum#P26#0",
+      "page_id": "/wiki/Jeff_Goldblum",
+      "relation": "P26",
+      "question_hard": "American actor Jeff Goldblum had which wife before Feb 1989?",
+      "question_easy": "American actor Jeff Goldblum had which wife from Nov 1987 to Oct 1990?",
+      "targets": [
+        "Geena Davis"
+      ],
+      "time_start": "Nov 1987",
+      "time_end": "Oct 1990",
+      "gold_chunk_ids": [
+        "/wiki/Jeff_Goldblum#20"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/John_Campbell_Brown#P108#2",
+      "page_id": "/wiki/John_Campbell_Brown",
+      "relation": "P108",
+      "question_hard": "For wgich university did ohn campbell brown work as an employer during the year 1998 to 2019?",
+      "question_easy": "For wgich university did ohn campbell brown work as an employer during the year 1998 to 2019?",
+      "targets": [
+        "University of Aberdeen"
+      ],
+      "time_start": "1998",
+      "time_end": "2019",
+      "gold_chunk_ids": [
+        "/wiki/John_Campbell_Brown#6"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Laurette_Onkelinx#P39#1",
+      "page_id": "/wiki/Laurette_Onkelinx",
+      "relation": "P39",
+      "question_hard": "Belgian politician Laurette Onkelinx had which political role in Oct 2007?",
+      "question_easy": "Belgian politician Laurette Onkelinx had which political role from Jul 2003 to Dec 2007?",
+      "targets": [
+        "Deputy Prime Minister and Minister of Justice ( July 2003 – December 2007 )"
+      ],
+      "time_start": "Jul 2003",
+      "time_end": "Dec 2007",
+      "gold_chunk_ids": [
+        "/wiki/Laurette_Onkelinx#15"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Laurette_Onkelinx#P39#2",
+      "page_id": "/wiki/Laurette_Onkelinx",
+      "relation": "P39",
+      "question_hard": "Belgian politician Laurette Onkelinx occupied which political role in early 2010s?",
+      "question_easy": "Belgian politician Laurette Onkelinx occupied which political role from Dec 2007 to Oct 2014?",
+      "targets": [
+        "Minister of Social Affairs and Public Health ( December 2007 – October 2014 )"
+      ],
+      "time_start": "Dec 2007",
+      "time_end": "Oct 2014",
+      "gold_chunk_ids": [
+        "/wiki/Laurette_Onkelinx#15"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Lee_Nogan#P54#1",
+      "page_id": "/wiki/Lee_Nogan",
+      "relation": "P54",
+      "question_hard": "Lee Nogan played for what football team in Nov 1993?",
+      "question_easy": "Lee Nogan played for what football team from 1991 to 1995?",
+      "targets": [
+        "Watford"
+      ],
+      "time_start": "1991",
+      "time_end": "1995",
+      "gold_chunk_ids": [
+        "/wiki/Lee_Nogan#7"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Monir_Shahroudy_Farmanfarmaian#P69#0",
+      "page_id": "/wiki/Monir_Shahroudy_Farmanfarmaian",
+      "relation": "P69",
+      "question_hard": "Which university did monir shahroudy farmanfarmaian an iranian artist attend in Mar 1945?",
+      "question_easy": "Which university did monir shahroudy farmanfarmaian an iranian artist attend from 1944 to 1946?",
+      "targets": [
+        "University of Tehran at the Faculty of Fine Art"
+      ],
+      "time_start": "1944",
+      "time_end": "1946",
+      "gold_chunk_ids": [
+        "/wiki/Monir_Shahroudy_Farmanfarmaian#2"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Nik_Stauskas#P69#0",
+      "page_id": "/wiki/Nik_Stauskas",
+      "relation": "P69",
+      "question_hard": "Which secondary school did Canadian pro basketballer Nik Stauskas attend in Jan 2008?",
+      "question_easy": "Which secondary school did Canadian pro basketballer Nik Stauskas attend from 2008 to 2009?",
+      "targets": [
+        "Loyola Catholic Secondary School"
+      ],
+      "time_start": "2008",
+      "time_end": "2009",
+      "gold_chunk_ids": [
+        "/wiki/Nik_Stauskas#2"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Nik_Stauskas#P69#3",
+      "page_id": "/wiki/Nik_Stauskas",
+      "relation": "P69",
+      "question_hard": "What college did basketballer Nik Stauskas go to between Jan 2013 and Sep 2013?",
+      "question_easy": "What college did basketballer Nik Stauskas go to from 2012 to 2014?",
+      "targets": [
+        "Michigan"
+      ],
+      "time_start": "2012",
+      "time_end": "2014",
+      "gold_chunk_ids": [
+        "/wiki/Nik_Stauskas#0"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Pinchas_Zukerman#P26#1",
+      "page_id": "/wiki/Pinchas_Zukerman",
+      "relation": "P26",
+      "question_hard": "Israeli-American violinist Pinchas Zukerman was married to what wife between Oct 1993 and Jun 1994?",
+      "question_easy": "Israeli-American violinist Pinchas Zukerman was married to what wife from 1985 to 1998?",
+      "targets": [
+        "Tuesday Weld"
+      ],
+      "time_start": "1985",
+      "time_end": "1998",
+      "gold_chunk_ids": [
+        "/wiki/Pinchas_Zukerman#7"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Roma_Mitchell#P39#2",
+      "page_id": "/wiki/Roma_Mitchell",
+      "relation": "P39",
+      "question_hard": "Roma Mitchell had what job in Apr 1996?",
+      "question_easy": "Roma Mitchell had what job from Feb 1991 to Jul 1996?",
+      "targets": [
+        "Governor of South Australia"
+      ],
+      "time_start": "Feb 1991",
+      "time_end": "Jul 1996",
+      "gold_chunk_ids": [
+        "/wiki/Roma_Mitchell#5"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Rui_Vitória#P108#4",
+      "page_id": "/wiki/Rui_Vitória",
+      "relation": "P108",
+      "question_hard": "Portuguese Rui Vitória was employed where between Jul 2013 and Apr 2014?",
+      "question_easy": "Portuguese Rui Vitória was employed where from 2011 to 2015?",
+      "targets": [
+        "Vitória de Guimarães"
+      ],
+      "time_start": "2011",
+      "time_end": "2015",
+      "gold_chunk_ids": [
+        "/wiki/Rui_Vitória#4"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Ruud_Lubbers#P108#1",
+      "page_id": "/wiki/Ruud_Lubbers",
+      "relation": "P108",
+      "question_hard": "between Jan 1998 and Apr 2000, who did Dutch politician Lubbers work for?",
+      "question_easy": "from 1995 to 2001, who did Dutch politician Lubbers work for?",
+      "targets": [
+        "Tilburg University",
+        "Harvard University"
+      ],
+      "time_start": "1995",
+      "time_end": "2001",
+      "gold_chunk_ids": [
+        "/wiki/Ruud_Lubbers#5"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Sarah_Bond#P108#2",
+      "page_id": "/wiki/Sarah_Bond",
+      "relation": "P108",
+      "question_hard": "Sarah Bond was employed by who in May 2014?",
+      "question_easy": "Sarah Bond was employed by who from 2014 to 2015?",
+      "targets": [
+        "University of Iowa"
+      ],
+      "time_start": "2014",
+      "time_end": "2015",
+      "gold_chunk_ids": [
+        "/wiki/Sarah_Bond#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Steve_Sidwell#P54#5",
+      "page_id": "/wiki/Steve_Sidwell",
+      "relation": "P54",
+      "question_hard": "English footballer Steve Sidwell was part of what team in Jan 2013?",
+      "question_easy": "English footballer Steve Sidwell was part of what team from 2011 to 2014?",
+      "targets": [
+        "Fulham"
+      ],
+      "time_start": "2011",
+      "time_end": "2014",
+      "gold_chunk_ids": [
+        "/wiki/Steve_Sidwell#21"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Tomer_Hemed#P54#5",
+      "page_id": "/wiki/Tomer_Hemed",
+      "relation": "P54",
+      "question_hard": "What team was Israeli footballer Tomer Hemed part of between Feb 2014 and Nov 2014?",
+      "question_easy": "What team was Israeli footballer Tomer Hemed part of from 2014 to 2015?",
+      "targets": [
+        "Almería"
+      ],
+      "time_start": "2014",
+      "time_end": "2015",
+      "gold_chunk_ids": [
+        "/wiki/Tomer_Hemed#7"
+      ],
+      "flags": [
+        "answer_in_heading"
+      ]
+    }
+  ]
+}

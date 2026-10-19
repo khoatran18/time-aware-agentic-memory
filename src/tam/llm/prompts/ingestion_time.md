@@ -5,6 +5,7 @@ Document title: {doc_title}
 You will receive numbered chunks of the SAME document, in reading order. You see all of them, so you may use the other chunks to understand one chunk. For EACH chunk return one item with the same index and these fields:
 
 - `start`: the earliest date of the facts the chunk states (events, positions held, stints, life dates).
+- `reason_end_date`: ONE short sentence saying why `end` and `ongoing` get the values you return: quote the words that show the situation stopped ("left in 2007"), continues ("since 2010"), or say that nothing tells either way. Name the chunk if the evidence comes from another one. Write it first, then set `end` and `ongoing` to agree with it.
 - `end`: the date the situation stopped, or the latest date of the facts the chunk states.
 - `ongoing`: true when the situation continues up to the present ("since 2010", "currently", "to date", "incumbent", "present", or a later chunk says it still continues). Then set `end` to null.
 
@@ -41,6 +42,8 @@ Chunk: "Cunningham was from an Ulster family . His father was Samuel Cunningham 
 -> start null, end null, ongoing false
 
 ## Examples using the other chunks
+
+The text in parentheses is the kind of sentence to put in `reason_end_date`.
 
 Document title: Sam Rivera
 [0] Rivera joined Rovers in 2001 and became their captain .
