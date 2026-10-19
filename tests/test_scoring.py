@@ -85,3 +85,47 @@ def test_final_score_weighted_sum_and_design_example():
 def test_final_score_rejects_negative_weight():
     with pytest.raises(ValueError):
         final_score(1, 1, -0.1, 0.3)
+
+
+# ---- end_mode, domain_score, w3 ----
+
+from tam.retrieval.temporal.scoring import domain_score
+
+
+def _chunk(status, end, domains=None):
+    return Chunk(
+        chunk_id="d#1", text="t", source="s", start_time=datetime(2000, 1, 1, tzinfo=timezone.utc),
+        end_time=end, end_status=status, domain_features={"domain": domains} if domains else {},
+    )
+
+
+T = datetime(2010, 1, 1, tzinfo=timezone.utc)
+
+
+def test_end_modes_for_unknown_and_ongoing():
+    unknown = _chunk("unknown", datetime(2000, 12, 31, tzinfo=timezone.utc))
+    ongoing = _chunk("ongoing", None)
+    assert temporal_score(unknown, T, 0.5) < 0.05                       # stored (C): hết kỳ start, TH2
+    assert temporal_score(unknown, T, 0.5, end_mode="open") == 1.0      # A
+    b = temporal_score(unknown, T, 0.5, end_mode="decay", open_decay=0.1)
+    assert 0.3 < b < 1.0                                                # B: giảm nhẹ
+    assert temporal_score(ongoing, T, 0.5) == 1.0 and temporal_score(ongoing, T, 0.5, end_mode="decay") < 1.0
+
+
+def test_known_and_legacy_chunks_ignore_end_mode():
+    known = _chunk("known", datetime(2001, 12, 31, tzinfo=timezone.utc))
+    legacy = _chunk(None, datetime(2001, 12, 31, tzinfo=timezone.utc))
+    for mode in ("stored", "open", "decay"):
+        assert temporal_score(known, T, 0.5, end_mode=mode) == temporal_score(legacy, T, 0.5, end_mode=mode) < 0.05
+
+
+def test_bad_end_mode_rejected():
+    with pytest.raises(ValueError):
+        temporal_score(_chunk("known", None), T, 0.5, end_mode="x")
+
+
+def test_domain_score_and_w3():
+    assert domain_score(_chunk(None, None, ["sports", "career"]), ["career"]) == 1.0
+    assert domain_score(_chunk(None, None, ["sports"]), ["career"]) == 0.0
+    assert domain_score(_chunk(None, None), ["career"]) == 0.0
+    assert final_score(0.5, 1.0, 0.7, 0.3, 1.0, 0.1) == pytest.approx(0.35 + 0.3 + 0.1)

@@ -30,8 +30,8 @@ def load_extractions(path: str | Path) -> dict[str, dict[str, Any]]:
 
 
 def alive_chunk_ids(rows: dict[str, dict[str, Any]]) -> set[str]:
-    """Chunk đã vào kho: có `start` (không bị bỏ vì không mốc hay mốc sai)."""
-    return {cid for cid, r in rows.items() if r.get("start")}
+    """Chunk đã vào kho: có `start`, hoặc không mốc nhưng được giữ lại (`undated`, ingest --keep-undated)."""
+    return {cid for cid, r in rows.items() if r.get("start") or r.get("undated")}
 
 
 def ingestion_report(subset: dict[str, Any], rows: dict[str, dict[str, Any]]) -> dict[str, Any]:
@@ -40,6 +40,7 @@ def ingestion_report(subset: dict[str, Any], rows: dict[str, dict[str, Any]]) ->
     skipped = Counter(r["skipped"] for r in rows.values() if r.get("skipped"))
     domain_sizes = Counter(len(r.get("domain", [])) for r in rows.values())
 
+    gold_undated = 0
     gold_total = gold_alive = domain_hit = start_ok = end_ok = covers = overlaps = 0
     dropped: list[dict[str, str]] = []
     for case in subset["cases"]:
@@ -47,6 +48,10 @@ def ingestion_report(subset: dict[str, Any], rows: dict[str, dict[str, Any]]) ->
         for gid in case["gold_chunk_ids"]:
             gold_total += 1
             r = loaded.get(gid)
+            if r is None and (rows.get(gid) or {}).get("undated"):
+                gold_alive += 1
+                gold_undated += 1
+                continue
             if r is None:
                 dropped.append({"chunk_id": gid, "reason": (rows.get(gid) or {}).get("skipped") or "missing"})
                 continue
@@ -68,6 +73,8 @@ def ingestion_report(subset: dict[str, Any], rows: dict[str, dict[str, Any]]) ->
         "domain_label_counts": {n: domain_sizes.get(n, 0) for n in range(4)},
         "gold_total": gold_total,
         "gold_alive": gold_alive,
+        "gold_alive_undated": gold_undated,
+        "chunks_undated_kept": sum(bool(r.get("undated")) for r in rows.values()),
         "gold_dropped": dropped,
         "domain_match": domain_hit,
         "start_year_equals_label": start_ok,

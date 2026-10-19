@@ -18,7 +18,10 @@ def to_vector_filter(query: ProfiledQuery, *, exclude_invalidated: bool = True) 
 
 def passes_hard_filter(chunk: Chunk, flt: VectorFilter) -> bool:
     """Kiểm tra bằng Python cùng điều kiện mà store áp ở DB; dùng làm chốt chặn cuối và cho store giả khi test."""
-    if chunk.start_time > flt.t_req:
+    if flt.undated:
+        if chunk.start_time is not None:
+            return False
+    elif flt.apply_time and (chunk.start_time is None or chunk.start_time > flt.t_req):
         return False
     if flt.exclude_invalidated and chunk.invalidated_at is not None:
         return False

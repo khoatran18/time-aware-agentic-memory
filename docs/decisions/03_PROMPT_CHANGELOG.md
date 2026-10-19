@@ -1,6 +1,6 @@
 # Nhật ký thay đổi prompt
 
-Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được (nếu có). Quyết định lớn có file riêng ở thư mục này; đây chỉ là sổ ghi để biết kết quả ở `docs/eval/` ứng với phiên bản prompt nào. Số liệu so sánh nhiều lần chạy phải kèm lưu ý: model phía sau combo `basic-llm` của 9router **thay đổi theo thời gian** (ngày 2026-10-19 một model bị ngừng và combo chuyển sang `gemini-3.1-flash-lite`), nên khác biệt giữa hai lần chạy không hoàn toàn do prompt.
+Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được (nếu có). Quyết định lớn có file riêng ở thư mục này; đây chỉ là sổ ghi để biết kết quả ở `docs/eval/` ứng với phiên bản prompt nào. Từ 2026-10-19 (sau lần 4) config dùng combo `basic-gemini-3.1-flash-lite` chỉ chứa một model, nên các lần chạy sau không còn bị đổi model ngầm; các lần trước dùng `basic-llm`. Số liệu so sánh nhiều lần chạy phải kèm lưu ý: model phía sau combo `basic-llm` của 9router **thay đổi theo thời gian** (ngày 2026-10-19 một model bị ngừng và combo chuyển sang `gemini-3.1-flash-lite`), nên khác biệt giữa hai lần chạy không hoàn toàn do prompt.
 
 ## `src/tam/llm/prompts/ingestion_time.md` (gán mốc và domain cho chunk)
 
@@ -12,7 +12,7 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 | 2026-10-19 | Thêm `reason_domain` (trước `domain`) | Truy lại vì sao lệch nhãn | Cho thấy 7 ca lệch đều theo nội dung chunk; lệch nằm ở thước đo P→domain |
 | 2026-10-19 | Thêm `ongoing_evidence` và siết quy tắc `ongoing` ("thiếu ngày kết thúc không phải bằng chứng") | `basic-llm` đặt `ongoing` bừa (decisions/02) | `ongoing` trên chunk đã nạp 170 → 35 |
 | 2026-10-19 | Thử "bằng chứng nằm trong chính chunk", **đã gỡ** | Nghi `Casus_Belli` mượn câu của chunk khác; điều tra lại thì suy luận chéo chunk là đúng | Không áp dụng (xem decisions/02) |
-| 2026-10-19 | Mốc trước Công nguyên: từ "coi như không có mốc" thành "viết năm âm"; parser chặn mọi năm < 1 về `0001-01-01` | 3 chunk `Zambia` bị `invalid_time` vì LLM trả `-2000`, `-300000`, `-150000` | Chưa chạy lại; mất thứ tự giữa các mốc trước Công nguyên |
+| 2026-10-19 | Thử cho LLM viết năm âm cho mốc trước Công nguyên rồi **gỡ**; giữ "trước Công nguyên = không có mốc" | 3 chunk `Zambia` bị `invalid_time` | Không áp dụng (decisions/05: loại) |
 
 ### Dự kiến, chưa làm
 - ~~Quy tắc ưu tiên "lĩnh vực của chủ thể hơn khía cạnh"~~ **bỏ** (2026-10-19): domain chỉ cộng điểm và gắn theo khía cạnh được hỏi, chunk được mang tới 3 nhãn gồm cả hai loại, nên không cần chọn một. Xem docs/eval/01 mục 3.

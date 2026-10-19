@@ -1,6 +1,6 @@
 # Quyết định 02: `end_time` / `ongoing` bị LLM gán sai
 
-**Ngày:** 2026-10-19. **Trạng thái:** phần ingestion (bằng chứng + kiểm tra) đã code; phần chấm điểm và lưu `end_status` **chưa code**.
+**Ngày:** 2026-10-19. **Trạng thái:** ingestion (bằng chứng + kiểm tra), lưu `end_status` và ba cách chấm A/B/C đã code (`end_mode`), **chưa chạy so sánh**. `end_time` vẫn được lưu như cũ; `end_status` là trường thêm, không thay `end_time`.
 
 ## Bối cảnh
 
@@ -21,7 +21,7 @@ Ba bước nối tiếp nhau. Bốn tên `end`, `ongoing`, `end_time`, `end_stat
 | `end` | Ngày kết thúc LLM trả (có thể rỗng) | Có |
 | `ongoing` | LLM khẳng định sự việc còn tiếp diễn | Có |
 | `end_time` | Giá trị lưu trong kho, suy từ hai trường trên. `None` có nghĩa "còn hiệu lực" | Có |
-| `end_status` | Nhãn `known` / `ongoing` / `unknown` suy từ `end` và `ongoing` (`known`: có `end`; `ongoing`: `ongoing` đúng; `unknown`: không `end`, không `ongoing`) | **Chưa** |
+| `end_status` | Nhãn `known` / `ongoing` / `unknown` suy từ `end` và `ongoing` (`known`: có `end`; `ongoing`: `ongoing` đúng; `unknown`: không `end`, không `ongoing`). Lưu trong payload, không index | Có (`Chunk.end_status`, `to_span`) |
 
 Vấn đề: sau bước 2 hai trường hợp `ongoing` và `unknown` khác nhau về ý nghĩa nhưng bước chấm điểm (3) không phân biệt được vì `unknown` đã bị đổi thành cuối kỳ của `start`. `end_status` bổ sung thông tin này để bước 3 có thể chọn cách chấm (mục Quyết định).
 

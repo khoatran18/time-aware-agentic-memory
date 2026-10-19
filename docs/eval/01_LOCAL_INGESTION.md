@@ -165,3 +165,14 @@ Từ `output/20261019_115213/profiler.jsonl`: 0/40 lỗi; `t_req` nằm trong kh
 - Chưa có cache kết quả LLM: chạy lại là gọi LLM lại cho cả 37 trang.
 - Chưa chạy Profiler trên 40 câu để đo khả năng khớp `domain`.
 - Chưa chạy retrieval/eval (Hit@k, MRR) trên bộ local.
+
+## 10. Chunk chưa bao trọn khoảng nhãn: xử lý chung
+
+Hai tình huống khác nhau, cùng biểu hiện "khoảng chunk nhỏ hơn khoảng nhãn":
+
+| Tình huống | Ví dụ | Cách xử lý |
+|---|---|---|
+| Sự việc được nói tiếp ở **chunk khác của cùng trang** | Chức vụ 2008 đến 2020, chunk A ghi "2008 đến 2012", chunk B ghi "2012 đến 2020" | Hệ thống tìm theo `t_req`, chunk phủ `t_req` thắng (TH1); không cần bao trọn nhãn ở từng chunk. Với `t_req` ngoài khoảng của chunk, chunk anh em được chọn nhờ chính điểm thời gian. Khi sinh câu trả lời, mở rộng sang chunk lân cận cùng trang (đã dự kiến, chưa code) để lấy phần còn lại |
+| Chunk là **nguồn duy nhất** | Chỉ một đoạn nhắc sự việc, và đoạn đó chỉ ghi một nửa thời gian | Không có gì để bổ sung. `Temporal_Score` rơi vào TH2 với `t_req` ngoài khoảng (giảm `exp(-λ·Δ)`); chunk vẫn có thể được chọn nếu điểm ngữ nghĩa cao, vì điểm thời gian chỉ chiếm `W2 = 0.3`. Không sửa mốc của chunk bằng cách đoán |
+
+Quy tắc chung: **không kéo dài mốc của chunk cho vừa nhãn** (mốc sai hại hơn mốc thiếu, xem `decisions/04`). Thay vào đó (1) để điểm thời gian mềm (TH2 không loại cứng), (2) mở rộng chunk lân cận lúc sinh câu trả lời, (3) đo số chunk đáp án rơi vào trường hợp này (nhãn bao chunk nhưng chunk không bao nhãn) để biết quy mô, chưa làm.

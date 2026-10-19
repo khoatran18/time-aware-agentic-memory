@@ -15,6 +15,8 @@ class VectorFilter:
 
     t_req: datetime  # start_time <= t_req (chặn tương lai)
     exclude_invalidated: bool = True  # invalidated_at IS NULL
+    apply_time: bool = True  # False: không lọc thời gian (chỉ dùng cho baseline plain RAG)
+    undated: bool = False  # True: chỉ lấy chunk không có mốc (start_time IS NULL), thay cho lọc thời gian
     facets: dict[str, Any] = field(default_factory=dict)  # khóa con của domain_features, VD {"country": "VN"}
 
 
@@ -52,7 +54,19 @@ class VectorStore(ABC):
         """Tìm theo hai nhánh dense và BM25, mỗi nhánh đã áp hard filter; trả về hai danh sách xếp hạng riêng."""
         raise NotImplementedError
 
+    def get_chunks(self, chunk_ids: list[str]) -> list[Chunk]:
+        """Lấy chunk theo `chunk_id` (không tìm kiếm, không lọc); id không có trong kho thì bỏ qua. Dùng mở rộng chunk liền kề."""
+        raise NotImplementedError
+
     @abstractmethod
     def count(self) -> int:
         """Số chunk trong collection."""
         raise NotImplementedError
+
+
+def merge_branches(a: BranchHits, b: BranchHits, top_n: int) -> BranchHits:
+    """Gộp hai kết quả của cùng loại nhánh (vd nhánh có mốc và nhánh không mốc) theo điểm gốc giảm dần, giữ `top_n` mỗi nhánh."""
+    def merged(x: list[SearchHit], y: list[SearchHit]) -> list[SearchHit]:
+        return sorted([*x, *y], key=lambda h: -h.score)[:top_n]
+
+    return BranchHits(dense=merged(a.dense, b.dense), sparse=merged(a.sparse, b.sparse))

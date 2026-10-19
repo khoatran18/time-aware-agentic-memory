@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, Field, field_validator, model_validator
 
@@ -19,8 +19,16 @@ class Chunk(BaseModel):
     text: str = Field(description="Nội dung chunk (đơn vị cấu trúc, vd một điều luật); được embed dense + BM25")
     source: str = Field(description="Nơi phát hành (vd Wikipedia, tên báo); trích dẫn khi sinh đáp án, khóa tra độ tin cậy ở CC3")
     doc_id: str | None = Field(default=None, description="Tài liệu cụ thể trong source (vd /wiki/Knox_Cunningham, URL bài báo); không index")
-    start_time: datetime = Field(description="Thời điểm thông tin bắt đầu đúng; mốc chỉ-năm chuẩn hóa YYYY-01-01")
+    start_time: datetime | None = Field(
+        default=None,
+        description="Thời điểm thông tin bắt đầu đúng; mốc chỉ-năm chuẩn hóa YYYY-01-01. None = chunk không có mốc (nhánh riêng, decisions/04)",
+    )
     end_time: datetime | None = Field(default=None, description="None = còn hiệu lực")
+    end_status: Literal["known", "ongoing", "unknown"] | None = Field(
+        default=None,
+        description="Nguồn gốc của end_time: known (có ngày kết thúc), ongoing (còn tiếp diễn, end_time rỗng), unknown (không rõ, "
+        "end_time = hết kỳ của start). None = chunk nạp trước khi có trường này. Không index",
+    )
     invalidated_at: datetime | None = Field(default=None, description="Khác None = sai từ gốc (Falsehood), CC1 loại hẳn")
     domain_features: dict[str, Any] = Field(default_factory=dict, description='VD {"domain": "Luật", "country": "VN"}')
 
@@ -33,6 +41,8 @@ class Chunk(BaseModel):
     @model_validator(mode="after")
     def _check_range(self) -> Chunk:
         """end_time không được nhỏ hơn start_time."""
+        if self.end_time is not None and self.start_time is None:
+            raise ValueError(f"chunk {self.chunk_id} có end_time nhưng không có start_time")
         if self.end_time is not None and self.end_time < self.start_time:
             raise ValueError(f"end_time {self.end_time} nhỏ hơn start_time {self.start_time} (chunk {self.chunk_id})")
         return self

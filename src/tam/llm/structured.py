@@ -2,22 +2,57 @@
 
 Thứ tự: structured output của langchain -> nếu lỗi định dạng thì gọi thường, kèm schema JSON, rồi đọc JSON từ văn bản
 (bỏ hàng rào markdown, hạ chữ thường tên khóa) -> thử lại tối đa `max_attempts` lần. Chỉ bắt lỗi định dạng (ValueError,
-gồm JSONDecodeError và ValidationError); lỗi mạng hay xác thực vẫn ném ra.
+gồm JSONDecodeError và ValidationError); lỗi xác thực ném ra ngay; lỗi tạm thời (mạng, 429, 5xx, 410) chờ 1 đến 32 giây rồi ném `LlmUnavailable`.
 """
 from __future__ import annotations
 
 import json
+import time
+from collections.abc import Callable
 from typing import Any, TypeVar
 
 from langchain_core.language_models.chat_models import BaseChatModel
 from pydantic import BaseModel
 
 from tam.config.logging import get_logger
-from tam.llm.cache import JsonCache
+from tam.llm.cache import PREVIEW_CHARS, CacheStore
 
 logger = get_logger(__name__)
 
 T = TypeVar("T", bound=BaseModel)
+
+
+BACKOFF_SECONDS = (1, 2, 4, 8, 16, 32)
+_RETRYABLE_STATUS = frozenset({408, 409, 410, 425, 429})
+
+
+class LlmUnavailable(RuntimeError):
+    """LLM không phản hồi sau mọi lần chờ. Chạy lại sau; các lô đã xong nằm trong cache nên không gọi lại."""
+
+
+def _is_transient(exc: Exception) -> bool:
+    """Lỗi tạm thời đáng chờ: mạng, quá tải, 5xx, 429, model bị ngừng (410) ở combo. Không gồm 401/403/400."""
+    status = getattr(exc, "status_code", None)
+    if isinstance(status, int):
+        return status in _RETRYABLE_STATUS or status >= 500
+    name = type(exc).__name__
+    return isinstance(exc, (ConnectionError, TimeoutError)) or "Connection" in name or "Timeout" in name
+
+
+def _call_with_backoff(fn: Callable[[], Any], sleep: Callable[[float], None]) -> Any:
+    """Gọi `fn`; lỗi tạm thời thì chờ 1, 2, 4, 8, 16, 32 giây rồi thử lại; hết lần thì ném `LlmUnavailable`."""
+    for wait in (*BACKOFF_SECONDS, None):
+        try:
+            return fn()
+        except ValueError:
+            raise
+        except Exception as exc:
+            if not _is_transient(exc):
+                raise
+            if wait is None:
+                raise LlmUnavailable(f"LLM lỗi sau {len(BACKOFF_SECONDS)} lần chờ: {exc}") from exc
+            logger.warning("LLM lỗi tạm thời (%s), chờ %ds rồi thử lại", type(exc).__name__, wait)
+            sleep(wait)
 
 
 def _lower_keys(node: Any) -> Any:
@@ -46,9 +81,15 @@ def _model_id(llm: Any) -> str:
     return str(getattr(llm, "model_name", None) or getattr(llm, "model", None) or type(llm).__name__)
 
 
+def _preview(messages: list[tuple[str, str]]) -> str:
+    """Đầu nội dung người dùng gửi (không gồm prompt hệ thống), để nhận ra mục cache khi đọc file."""
+    human = next((text for role, text in reversed(messages) if role == "human"), "")
+    return human[:PREVIEW_CHARS].replace("\n", " ")
+
+
 def invoke_structured(
     llm: BaseChatModel, chain: Any, schema: type[T], messages: list[tuple[str, str]], *, max_attempts: int = 3,
-    cache: JsonCache | None = None,
+    cache: CacheStore | None = None, sleep: Callable[[float], None] = time.sleep,
 ) -> T | None:
     """Trả `schema` hoặc None nếu mọi lần thử đều lỗi định dạng. `chain` = `llm.with_structured_output(schema)`.
 
@@ -68,13 +109,14 @@ def invoke_structured(
     for attempt in range(1, max_attempts + 1):
         try:
             try:
-                out = chain.invoke(messages)
+                out = _call_with_backoff(lambda: chain.invoke(messages), sleep)
             except ValueError as exc:  # proxy bỏ qua structured output, trả văn bản/JSON trong khối markdown
                 logger.warning("Structured output lỗi (%s), thử đọc JSON từ văn bản", type(exc).__name__)
-                out = parse_json_text(llm.invoke(fallback_messages), schema)
+                out = parse_json_text(_call_with_backoff(lambda: llm.invoke(fallback_messages), sleep), schema)
             result = schema.model_validate(out) if isinstance(out, dict) else out
             if cache is not None and key is not None:
-                cache.put(key, result.model_dump(mode="json"))
+                cache.put(key, result.model_dump(mode="json"), meta={
+                    "schema": schema.__name__, "model": _model_id(llm), "preview": _preview(messages)})
             return result
         except ValueError as exc:
             logger.warning("LLM trả JSON không hợp lệ (lần %d/%d): %s", attempt, max_attempts, str(exc)[:200])

@@ -15,6 +15,9 @@ class ProfiledQuery(BaseModel):
     semantic_query: str = Field(description="Nội dung cần tìm, đã bỏ phần thời gian")
     t_req: datetime = Field(description="Mốc thời gian tuyệt đối (đã quy đổi từ thời gian tương đối bằng T_now)")
     filters: dict[str, Any] = Field(default_factory=dict, description='Metadata_Filters, VD {"country": "VN"}')
+    domains: list[str] = Field(
+        default_factory=list, description="Domain gợi ý để cộng điểm (không lọc): chunk có nhãn trùng được W3·Domain_Match"
+    )
     mechanism: Mechanism = "temporal"
 
     @field_validator("t_req")

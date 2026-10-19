@@ -40,6 +40,11 @@ class FakeVectorStore(VectorStore):
         self.chunks.extend(chunks)
         return len(chunks)
 
+    def get_chunks(self, chunk_ids: list[str]) -> list[Chunk]:
+        """Tra theo chunk_id, giữ thứ tự yêu cầu."""
+        by_id = {c.chunk_id: c for c in self.chunks}
+        return [by_id[i] for i in chunk_ids if i in by_id]
+
     def count(self) -> int:
         """Số chunk đang có."""
         return len(self.chunks)

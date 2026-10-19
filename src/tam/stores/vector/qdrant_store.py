@@ -33,10 +33,12 @@ def point_id(chunk_id: str) -> str:
 
 
 def build_filter(flt: VectorFilter) -> models.Filter:
-    """Dịch VectorFilter sang filter Qdrant: `start_time <= t_req`, `invalidated_at` rỗng, và facet theo `domain_features`."""
-    must: list[models.Condition] = [
-        models.FieldCondition(key="start_time", range=models.DatetimeRange(lte=flt.t_req)),
-    ]
+    """Dịch VectorFilter sang filter Qdrant: `start_time <= t_req` (hoặc `start_time` rỗng ở nhánh không mốc), `invalidated_at` rỗng, và facet theo `domain_features`."""
+    must: list[models.Condition] = []
+    if flt.undated:
+        must.append(models.IsNullCondition(is_null=models.PayloadField(key="start_time")))
+    elif flt.apply_time:
+        must.append(models.FieldCondition(key="start_time", range=models.DatetimeRange(lte=flt.t_req)))
     if flt.exclude_invalidated:
         must.append(models.IsNullCondition(is_null=models.PayloadField(key="invalidated_at")))
     for key, value in flt.facets.items():
@@ -132,6 +134,13 @@ class QdrantStore(VectorStore):
         hits = BranchHits(dense=_to_hits(dense.points), sparse=_to_hits(sparse.points))
         logger.debug("search %r: dense=%d sparse=%d ứng viên sau hard filter", query_text, len(hits.dense), len(hits.sparse))
         return hits
+
+    def get_chunks(self, chunk_ids: list[str]) -> list[Chunk]:
+        """Lấy chunk theo `chunk_id`; id không có trong kho thì bỏ qua."""
+        if not chunk_ids:
+            return []
+        points = self._client.retrieve(self._collection, ids=[point_id(i) for i in chunk_ids], with_payload=True)
+        return [Chunk.model_validate(p.payload) for p in points]
 
     def count(self) -> int:
         """Số điểm trong collection."""

@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from tam.config.loader import load_config
 from tam.config.logging import get_logger, get_run_dir, setup_logging
-from tam.llm.cache import JsonCache
+from tam.llm.cache import open_cache
 from tam.llm.factory import get_llm_for_role
 from tam.query.profiler import Profiler
 
@@ -30,7 +30,7 @@ def main() -> None:
     setup_logging(cfg)
     logger = get_logger("profile_eval")
     subset = json.loads((ROOT / "dataset" / "eval" / f"{args.subset}_subset.json").read_text(encoding="utf-8"))
-    cache = None if args.no_cache else JsonCache(ROOT / "data" / "llm_cache", refresh=args.refresh_cache)
+    cache = None if args.no_cache else open_cache(ROOT / "data" / "llm_cache", refresh=args.refresh_cache)
     profiler = Profiler(get_llm_for_role(cfg, "time_extractor"), cache=cache)
     t_now = datetime.now(timezone.utc)
 
@@ -49,6 +49,7 @@ def main() -> None:
     print(f"Ghi {out_path} ({len(subset['cases'])} câu)")
     if cache is not None:
         print(f"Cache LLM: {cache.hits} lần dùng lại, {cache.misses} lần gọi LLM")
+        cache.close()
 
 
 if __name__ == "__main__":

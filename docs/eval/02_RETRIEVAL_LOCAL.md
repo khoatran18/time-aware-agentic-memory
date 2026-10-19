@@ -5,7 +5,7 @@ Chạy 2026-10-19 bằng `scripts/evaluate.py` trên kho Qdrant nạp từ lần
 ## Cách đo
 
 - **Truy xuất:** hai nhánh độc lập (dense cosine và BM25) cùng áp lọc cứng `start_time <= t_req` và `invalidated_at` rỗng, gộp bằng RRF (`k=60`), min-max, rồi `Final = W1·Semantic + W2·Temporal`. Hit@k xét trên `top_k=5` chunk.
-- **Chế độ `oracle`:** `t_req` là điểm giữa khoảng nhãn (`time_start` đến `time_end`, tính theo năm). Đây là quy ước của em, không phải mốc người hỏi nói. `semantic_query` lấy từ Profiler để hai chế độ chỉ khác nhau ở `t_req`.
+- **Chế độ `oracle`:** bỏ qua bước Profiler ở phần thời gian: `t_req` là điểm giữa khoảng nhãn (`time_start` đến `time_end`, tính theo năm), tức giả định trích thời gian từ câu hỏi luôn đúng. Điểm giữa là quy ước của em, không phải mốc người hỏi nói. `semantic_query` vẫn lấy từ Profiler để hai chế độ chỉ khác nhau ở `t_req`. Oracle là **cận trên của bước trích thời gian**, không phải đáp án tuyệt đối: không ép retrieval tốt hơn, chỉ cho biết nếu Profiler hoàn hảo thì còn bao nhiêu lỗi nằm ở chỗ khác.
 - **Chế độ `e2e`:** `t_req` và `semantic_query` do Profiler tạo (`output/20261019_115213/profiler.jsonl`).
 - **Hit@k (cột "chỉ chunk còn sống")**: chỉ tính trên 37 câu có ít nhất một chunk đáp án đã vào kho; 3 câu còn lại có chunk đáp án bị bỏ lúc ingestion nên không thể trúng. **Hit@k (cột "mọi chunk đáp án")**: tính trên cả 40 câu, chunk bị bỏ vẫn tính là trượt.
 - `--no-temporal` đặt `W1=1, W2=0` (bỏ điểm thời gian; lọc cứng thời gian vẫn bật). `--facets domain` lọc cứng theo domain Profiler điền.
@@ -31,6 +31,25 @@ Rò rỉ tương lai (`leakage_rate`) và chunk đã vô hiệu (`invalidated_ra
 - **Profiler và oracle gần nhau** (Hit@5 0.73 so 0.78), nhưng `t_req` của Profiler đã nằm trong khoảng nhãn ở 40/40 câu, nên bản thân `t_req` không phải điểm nghẽn.
 - **Hit@1 chỉ khoảng 0.27** dù kho nhỏ: mỗi trang có tới vài chục chunk cùng chủ đề (cùng một người, cùng một đội), nên phân biệt đúng chunk trong trang mới là khó khăn chính, không phải tìm đúng trang.
 - Trần của ingestion: 3/40 câu có chunk đáp án bị bỏ lúc nạp, nên Hit@k tối đa khoảng 0.925 trên toàn bộ 40 câu.
+
+## Kiểm từng bước lúc truy xuất (chưa code)
+
+`evaluate.py` hiện chỉ báo kết quả cuối (Hit@k, MRR, leakage) và so có/không điểm thời gian. Chưa có số đo từng bước nên khi kết quả xấu chưa biết lỗi ở đâu. Cần thêm "phễu" cho mỗi câu:
+
+| Bước | Hỏi | Đo |
+|---|---|---|
+| Profiler | `t_req` có đúng không | sai lệch năm so với nhãn (hiện mới biết "nằm trong khoảng nhãn": 40/40); domain khớp chunk hay không |
+| Ứng viên | Chunk đáp án có lọt top-N của dense / BM25 không | có/không và hạng, theo từng nhánh |
+| Lọc cứng | Có bị lọc nhầm không (`start_time > t_req`) | chunk đáp án còn sau lọc? |
+| Sau RRF, trước điểm thời gian | Hạng chunk đáp án | hạng R1 |
+| Sau điểm thời gian | Hạng chunk đáp án | hạng R2; so R1 và R2 cho biết điểm thời gian cứu hay hại chunk đáp án |
+| Top-k | Hit@k, MRR | như hiện nay |
+
+Cấu hình "bỏ điểm thời gian" hiện chỉ cho tổng thể, không cho từng câu nên không biết câu nào được cứu hay bị hại.
+
+## Cấu hình giữ để so sánh
+
+Cấu hình 5 (e2e, lọc cứng domain) **giữ nguyên** làm điểm so với domain cộng điểm khi `W3·Domain_Match` được code. Thứ tự các đợt test: [`03_TEST_ROUNDS.md`](03_TEST_ROUNDS.md).
 
 ## Chưa làm
 

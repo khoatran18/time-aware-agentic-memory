@@ -16,11 +16,14 @@ sys.path.insert(0, str(ROOT / "src"))
 from tam.config.loader import load_config
 from tam.config.logging import get_run_dir, setup_logging
 from tam.embedding.factory import get_embedder
+from tam.evaluation.funnel import profiler_stage
 from tam.evaluation.ingestion_report import alive_chunk_ids, load_extractions
 from tam.evaluation.metrics_temporal import evaluate_retrieval, hit_at_k, reciprocal_rank
 from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
+from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.retriever import TemporalRetriever
+from tam.retrieval.temporal.scoring import END_MODES
 from tam.stores.vector.qdrant_store import QdrantStore
 
 KS = (1, 3, 5)
@@ -33,8 +36,16 @@ def main() -> None:
     ap.add_argument("--mode", choices=["oracle", "e2e"], default="oracle")
     ap.add_argument("--profiler", help="profiler.jsonl (bắt buộc với e2e; với oracle thì dùng semantic_query của nó)")
     ap.add_argument("--extractions", help="extractions.jsonl của lần nạp hiện tại, để biết chunk đáp án nào còn sống")
-    ap.add_argument("--facets", choices=["none", "domain"], default="none", help="lọc cứng domain của Profiler (chỉ e2e)")
+    ap.add_argument("--facets", choices=["none", "domain", "boost"], default="none",
+                    help="domain của Profiler: domain = lọc cứng, boost = cộng điểm W3 (cần --w3 > 0); chỉ e2e")
     ap.add_argument("--no-temporal", action="store_true", help="W1=1, W2=0: bỏ điểm thời gian")
+    ap.add_argument("--method", choices=["temporal", *METHODS], default="temporal",
+                    help="temporal = Cơ chế 1; dense | bm25 | hybrid = baseline plain RAG (không lọc, không điểm thời gian)")
+    ap.add_argument("--t-unknown", type=float, help="bật nhánh chunk không mốc với điểm thời gian cố định này (kho phải nạp bằng --keep-undated)")
+    ap.add_argument("--w3", type=float, help="ghi đè retrieval.w3 (trọng số Domain_Match)")
+    ap.add_argument("--end-mode", choices=list(END_MODES), help="ghi đè retrieval.end_mode: stored (C) | open (A) | decay (B)")
+    ap.add_argument("--open-decay", type=float, help="ghi đè retrieval.open_decay (chỉ với --end-mode decay)")
+    ap.add_argument("--neighbors", type=int, help="ghi đè retrieval.neighbor_window: số chunk liền kề mỗi phía lấy làm ngữ cảnh")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
     if args.mode == "e2e" and not args.profiler:
@@ -47,14 +58,27 @@ def main() -> None:
     alive = alive_chunk_ids(load_extractions(args.extractions)) if args.extractions else None
 
     store = QdrantStore.from_config(cfg, get_embedder(cfg))
-    retriever = TemporalRetriever.from_config(cfg, store)
-    if args.no_temporal:
-        r = cfg.retrieval
-        retriever = TemporalRetriever(store, w1=1.0, w2=0.0, decay_lambda=r.decay_lambda, rrf_k=r.rrf_k,
-                                      top_n=r.top_n, top_k=r.top_k)
+    r = cfg.retrieval
+    settings = {
+        "w1": 1.0 if args.no_temporal else r.w1, "w2": 0.0 if args.no_temporal else r.w2,
+        "w3": r.get("w3", 0.0) if args.w3 is None else args.w3,
+        "decay_lambda": r.decay_lambda, "rrf_k": r.rrf_k, "top_n": r.top_n, "top_k": r.top_k,
+        "end_mode": args.end_mode or r.get("end_mode", "stored"),
+        "open_decay": r.get("open_decay", 0.1) if args.open_decay is None else args.open_decay,
+        "neighbor_window": r.get("neighbor_window", 0) if args.neighbors is None else args.neighbors,
+        "t_unknown": r.get("t_unknown", None) if args.t_unknown is None else args.t_unknown,
+    }
+    if args.method == "temporal":
+        retriever = TemporalRetriever(store, **settings)
+    else:
+        retriever = PlainRetriever(store, method=args.method, top_n=settings["top_n"], top_k=settings["top_k"], rrf_k=settings["rrf_k"])
+    if args.facets == "boost" and settings["w3"] <= 0:
+        ap.error("--facets boost cần --w3 > 0")
 
     cases = build_cases(subset, mode=args.mode, profiled=profiled, alive_ids=alive, facets=args.facets, level=args.level)
-    result = evaluate_retrieval(retriever, cases, KS)
+    result = evaluate_retrieval(retriever, cases, KS, store=store)
+    if args.mode == "e2e":
+        result["summary"].update(profiler_stage(subset, profiled, store))
 
     # Hit@k tính trên MỌI câu theo nhãn gốc (chunk đáp án bị bỏ lúc ingestion vẫn tính là trượt) để thấy trần của ingestion
     gold_all = {c["idx"]: set(c["gold_chunk_ids"]) for c in subset["cases"]}
@@ -62,7 +86,7 @@ def main() -> None:
     for k in KS:
         result["summary"][f"hit@{k}_all_gold"] = sum(hit_at_k(r["ranked_ids"], gold_all[r["id"]], k) for r in rows) / len(rows)
     result["summary"]["mrr_all_gold"] = sum(reciprocal_rank(r["ranked_ids"], gold_all[r["id"]]) for r in rows) / len(rows)
-    result["summary"]["config"] = {"mode": args.mode, "facets": args.facets, "no_temporal": args.no_temporal,
+    result["summary"]["config"] = {"mode": args.mode, "facets": args.facets, "method": args.method, "no_temporal": args.no_temporal, "retrieval": settings,
                                    "level": args.level, "n_cases_run": len(cases)}
 
     run_dir = get_run_dir()

@@ -81,7 +81,7 @@ Hiện `scripts/make_eval_subset.py --subset real` vẫn là kế hoạch cũ (1
 | `src/tam/evaluation/profiler_report.py` | Báo cáo Profiler (`t_req` trong nhãn, domain khớp chunk) |
 | `src/tam/evaluation/retrieval_eval.py` | Dựng `EvalCase` (oracle hoặc e2e) cho `evaluate_retrieval` |
 | `scripts/profile_eval.py`, `scripts/ingestion_report.py`, `scripts/evaluate.py` | Điểm vào dòng lệnh |
-| `src/tam/llm/cache.py` | Cache kết quả LLM trên đĩa (`data/llm_cache/`), dùng trong `invoke_structured`; cờ `--no-cache`, `--refresh-cache` ở `ingest.py` và `profile_eval.py` |
+| `src/tam/llm/cache.py` | Cache kết quả LLM trên đĩa (`data/llm_cache/cache.sqlite` làm nguồn sự thật, `cache.json` để xem), dùng trong `invoke_structured`; cờ `--no-cache`, `--refresh-cache` ở `ingest.py` và `profile_eval.py` |
 | `tests/test_eval_reports.py`, `tests/test_llm_cache.py` | Test các báo cáo và cache trên dữ liệu giả |
 
 Hướng dẫn chạy lại từng bước: [`../instruction/01_RUN_PIPELINE.md`](../instruction/01_RUN_PIPELINE.md).

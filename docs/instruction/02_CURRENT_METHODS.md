@@ -10,8 +10,8 @@ Bảng tra nhanh, dùng khi cần trả lời "đồ án đã có gì, chưa có
 | LLM gán `start`, `end`, `ongoing`, `domain` (tối đa 3 nhãn) kèm lý do; kiểm tra bằng chứng `ongoing` | **Có** | `time_extraction.py`, prompt `src/tam/llm/prompts/ingestion_time.md` |
 | Ghi Qdrant (dense + BM25, 4 chỉ mục payload) | **Có** (`VectorSink`) | `pipeline.py`, `src/tam/stores/vector/qdrant_store.py` |
 | Chọn LLM, cache kết quả LLM | **Có** | `configs/config.dev.yaml` mục `llm.roles`; `src/tam/llm/cache.py` |
-| Chunk không có `start` | Hiện bị **bỏ** | Đề xuất giữ lại: [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md), chưa quyết |
-| Lưu `end_status` (known, ongoing, unknown) | Chưa | [`decisions/02`](../decisions/02_END_TIME_ONGOING.md) |
+| Chunk không có `start` | Mặc định **bỏ**; `--keep-undated` giữ chunk có nội dung (nhãn domain khác rỗng) với `start_time` rỗng | [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md) |
+| Lưu `end_status` (known, ongoing, unknown) | **Đã code, chưa chạy thật** (cần nạp lại Qdrant, tức gọi lại LLM cho 37 trang vì cache lần 4 không còn: cache chỉ được thêm sau lần chạy đó) | [`decisions/02`](../decisions/02_END_TIME_ONGOING.md) |
 | Ghi đồ thị (`GraphSink`, Neo4j) | Chưa | Cơ chế 2 và 3 |
 | Mốc ở mức sự việc (không phải mức chunk) | Chưa | Cần đồ thị |
 
@@ -23,9 +23,14 @@ Bảng tra nhanh, dùng khi cần trả lời "đồ án đã có gì, chưa có
 |---|---|---|
 | **Cơ chế 1** `TemporalRetriever`: dense + BM25, lọc cứng thời gian, RRF, `W1·Semantic + W2·Temporal` | **Có** (1 bộ truy xuất) | `src/tam/retrieval/temporal/` (`filters`, `scoring`, `fusion`, `retriever`); tham số trong `configs/*.yaml` mục `retrieval` |
 | Lọc cứng theo `domain` (facet) | **Có**, chỉ dùng khi đo (`--facets domain`) | `filters.py` |
-| Cộng điểm `domain` (`W3·Domain_Match`) | Chưa | [`decisions/01`](../decisions/01_DOMAIN_AS_SOFT_BOOST.md) |
+| Cộng điểm `domain` (`W3·Domain_Match`) | **Đã code, mặc định tắt** (`retrieval.w3 = 0`; `evaluate.py --facets boost --w3 0.1`) | [`decisions/01`](../decisions/01_DOMAIN_AS_SOFT_BOOST.md) |
+| Cách chấm `end` A / B / C | **Đã code, mặc định C** (`retrieval.end_mode`: `open` = A, `decay` = B, `stored` = C; cần `end_status` trong kho) | [`decisions/02`](../decisions/02_END_TIME_ONGOING.md) |
+| Mở rộng chunk liền kề (trước, sau) | **Đã code, mặc định tắt** (`retrieval.neighbor_window`; `evaluate.py --neighbors 1`). Kết quả ở `RetrievalResult.neighbors`, không xếp hạng, vẫn qua hard filter | `eval/01` mục 10 |
+| Baseline plain RAG (`dense`, `bm25`, `hybrid`) | **Đã code** (`src/tam/retrieval/baseline.py`, `evaluate.py --method`) | `eval/03` đợt 1 |
+| Số đo từng bước (ứng viên, lọc cứng, trước/sau điểm thời gian, Profiler) | **Đã code** (`src/tam/evaluation/funnel.py`, trong `metrics.json`) | `eval/03` đợt 2 |
+| Nhánh chunk không mốc, `T_unknown` | **Đã code, mặc định tắt** (`ingest.py --keep-undated`, `retrieval.t_unknown`) | [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md) |
+| Metric câu cần nhiều chunk và ngữ cảnh | **Đã code**: `recall@k`, `multi_all_hit@k`, `multi_recall@k`, `ctx_hit`, `ctx_recall`, `ctx_multi_all_hit`, `ctx_size_mean`, `rescued_by_neighbors` | `src/tam/evaluation/metrics_temporal.py` |
 | Điểm thời gian cho khoảng câu hỏi (`t_req_start`, giao khoảng) | Chưa | `process/05` mục 4 |
-| Nhánh chunk không mốc, `T_unknown` | Chưa | [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md) |
 | Cơ chế 2 (Timeline), Cơ chế 3 (Conflict), router chọn cơ chế | Chưa | `docs/planning/00_OVERALL_PLAN.md` |
 
 ## Query và sinh đáp án

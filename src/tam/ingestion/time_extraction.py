@@ -17,14 +17,14 @@ from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
 from tam.ingestion.types import RawChunk, TimeResult, TimeSpan
-from tam.llm.cache import JsonCache
+from tam.llm.cache import CacheStore
 from tam.llm.structured import invoke_structured
 from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize_domains
 
 logger = get_logger(__name__)
 
 PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / "ingestion_time.md"
-_PARTIAL_DATE = re.compile(r"^(-?)(\d{1,9})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
+_PARTIAL_DATE = re.compile(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
 # Dấu hiệu "còn hiệu lực" mà câu bằng chứng của `ongoing` phải chứa (heuristic cho tiếng Anh, docs/decisions/02)
 _ONGOING_CUES = re.compile(
     r"\b(since|present|current|currently|still|remains?|remaining|continues?|continuing|to date|this day|today|now|ongoing|"
@@ -65,26 +65,20 @@ class BatchTimes(BaseModel):
     items: list[ChunkTime]
 
 
-_BEFORE_COMMON_ERA = datetime(1, 1, 1, tzinfo=timezone.utc)
-
-
 def parse_partial_date(raw: str, *, end: bool) -> datetime:
     """'1985' / '1985-06' / '1985-06-15' -> datetime UTC. Mốc đầu lấy ngày đầu kỳ, mốc cuối lấy ngày cuối kỳ (bao gồm).
 
     Chỉ-năm: start -> YYYY-01-01, end -> YYYY-12-31. Chỉ-tháng: ngày 1 hoặc ngày cuối tháng.
 
-    Năm trước Công nguyên viết dạng âm ('-44', '-300000') hoặc '0'. `datetime` không biểu diễn được năm < 1 nên mọi mốc
-    đó bị chặn về `0001-01-01` (mất thứ tự giữa các mốc trước Công nguyên, nhưng vẫn đứng trước mọi `t_req` thực tế).
+    Năm < 1 (trước Công nguyên) bị từ chối: đồ án loại các mốc này (decisions/05).
     """
     m = _PARTIAL_DATE.match(raw.strip())
     if not m:
         raise ValueError(f"không phải ngày dạng YYYY[-MM[-DD]]: {raw!r}")
-    year = -int(m.group(2)) if m.group(1) else int(m.group(2))
-    month = int(m.group(3)) if m.group(3) else None
-    day = int(m.group(4)) if m.group(4) else None
+    year = int(m.group(1))
+    month = int(m.group(2)) if m.group(2) else None
+    day = int(m.group(3)) if m.group(3) else None
     if year < 1:
-        return _BEFORE_COMMON_ERA
-    if year > 9999:
         raise ValueError(f"năm không hỗ trợ: {raw!r}")
     if month is None:
         month, day = (12, 31) if end else (1, 1)
@@ -110,8 +104,10 @@ def to_span(item: ChunkTime) -> TimeResult:
     if end is not None and end < start:
         logger.warning("end < start (index=%s): start=%s end=%s", item.index, item.start, item.end)
         return TimeResult(None, "invalid_time", item.ongoing, note, domains, item.reason_domain, item.ongoing_evidence)
+    status = "ongoing" if item.ongoing else ("known" if item.end else "unknown")
     return TimeResult(
-        TimeSpan(start, end), None, item.ongoing, note, domains, item.reason_domain, item.ongoing_evidence)
+        TimeSpan(start, end), None, item.ongoing, note, domains, item.reason_domain, item.ongoing_evidence,
+        end_status=status)
 
 
 def _norm(text: str) -> str:
@@ -136,7 +132,7 @@ class TimeExtractor:
 
     def __init__(
         self, llm: BaseChatModel, *, prompt: str | None = None, batch_size: int = 30, max_attempts: int = 3,
-        cache: JsonCache | None = None,
+        cache: CacheStore | None = None,
     ) -> None:
         """`llm`: chat model (role ingestion_time). `batch_size`: số chunk tối đa trong một lệnh gọi."""
         self._llm = llm

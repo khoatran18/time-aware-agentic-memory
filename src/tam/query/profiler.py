@@ -9,7 +9,7 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
-from tam.llm.cache import JsonCache
+from tam.llm.cache import CacheStore
 from tam.llm.structured import invoke_structured
 from tam.retrieval.temporal.filters import FACET_KEYS
 from tam.schemas.query import ProfiledQuery
@@ -37,7 +37,7 @@ def parse_t_req(raw: str) -> datetime:
 class Profiler:
     """Biến câu hỏi thô thành ProfiledQuery. LLM và đồng hồ đều được tiêm vào, không đọc gì từ bên ngoài."""
 
-    def __init__(self, llm: BaseChatModel, *, prompt: str | None = None, cache: JsonCache | None = None) -> None:
+    def __init__(self, llm: BaseChatModel, *, prompt: str | None = None, cache: CacheStore | None = None) -> None:
         """`llm`: chat model (role time_extractor). `prompt`: mẫu có chỗ {t_now}; mặc định đọc time_extractor.md."""
         self._llm = llm
         self._cache = cache

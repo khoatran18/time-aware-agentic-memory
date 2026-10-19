@@ -8,3 +8,4 @@ Mỗi file ghi **một** quyết định: bối cảnh, các phương án, chọ
 | [`02_END_TIME_ONGOING.md`](02_END_TIME_ONGOING.md) | Xử lý `end_time` / `ongoing` bị LLM gán sai | Đã quyết; ingestion đã code, scoring chưa |
 | [`03_PROMPT_CHANGELOG.md`](03_PROMPT_CHANGELOG.md) | Sổ thay đổi prompt kèm hiệu quả | Cập nhật liên tục |
 | [`04_UNDATED_CHUNKS.md`](04_UNDATED_CHUNKS.md) | Chunk không có `start` và câu hỏi không nêu thời gian | **Đề xuất, chưa quyết** |
+| [`05_EXCLUDE_BEFORE_COMMON_ERA.md`](05_EXCLUDE_BEFORE_COMMON_ERA.md) | Loại chunk và câu hỏi có mốc trước Công nguyên | Đã quyết |

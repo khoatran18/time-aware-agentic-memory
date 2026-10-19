@@ -30,7 +30,7 @@ llm:
       base_url: "${OLLAMA_URL:-http://localhost:11434}"
     9router:                           # proxy tương thích OpenAI, dùng provider "openai" + base_url
       provider: "openai"
-      model_id: "basic-llm"                # tên combo trong dashboard 9router
+      model_id: "basic-gemini-3.1-flash-lite"   # combo 9router chỉ chứa một model Gemini; lỗi thì chờ 1 đến 32 giây (tam/llm/structured.py)
       api_key: "${NINE_ROUTER_API_KEY:-}"
       base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"   # cổng mặc định chưa kiểm chứng, xem dashboard 9router
       temperature: 0
@@ -83,6 +83,11 @@ retrieval:
   rrf_k: 60
   top_n: 50
   top_k: 5
+  w3: 0.0                # trọng số Domain_Match (cộng điểm); 0 = tắt
+  end_mode: "stored"     # cách chấm chunk ongoing/unknown: stored (C) | open (A) | decay (B); xem decisions/02
+  open_decay: 0.1        # chỉ dùng khi end_mode = decay
+  t_unknown: null        # điểm thời gian của chunk không mốc (vd 0.5); null = tắt nhánh này (decisions/04)
+  neighbor_window: 0     # số chunk liền kề mỗi phía lấy làm ngữ cảnh; 0 = tắt
 
 # ================================================================
 # Evaluation

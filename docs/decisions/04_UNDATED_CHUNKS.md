@@ -1,6 +1,6 @@
 # Quyết định 04: chunk không có mốc `start` và câu hỏi không nêu thời gian
 
-**Ngày:** 2026-10-19. **Trạng thái:** **đề xuất, chưa quyết, chưa code.** Hiện chunk không có `start` bị bỏ lúc nạp (`skipped_no_time`). Bản phác cũ: [`../process/05_TIME_SEMANTICS_AND_CHUNKING.md`](../process/05_TIME_SEMANTICS_AND_CHUNKING.md) mục 3.4.
+**Ngày:** 2026-10-19. **Trạng thái:** đã chọn làm thử và **đã code (mặc định tắt)**, chưa đo; quyết giữ hay bỏ sau đợt 4 của `eval/03`. Mặc định chunk không có `start` vẫn bị bỏ lúc nạp (`skipped_no_time`). Bản phác cũ: [`../process/05_TIME_SEMANTICS_AND_CHUNKING.md`](../process/05_TIME_SEMANTICS_AND_CHUNKING.md) mục 3.4.
 
 ## Hai trục khác nhau (hay bị gộp)
 
@@ -35,13 +35,9 @@ Cách chấm **không phụ thuộc** câu hỏi có năm hay không; chỉ `t_r
 - Câu hỏi có năm: chunk có mốc đúng lúc thắng, chunk không mốc lên top khi nội dung (Semantic) khớp rõ hơn hoặc không có chunk có mốc phù hợp.
 - Câu hỏi không có năm (`T_now`): chunk còn hiệu lực hiện tại (1.0) thắng; chunk ổn định không mốc vẫn đủ điểm nếu khớp nội dung; chunk hết hiệu lực xa thấp hơn.
 
-## Ý tưởng bổ sung: chunk không mốc như "sự thật không đổi"
+## Đã cân nhắc và bỏ: tách chunk không mốc thành "đúng mọi lúc" và "không rõ"
 
-Chunk không mốc thường là sự việc ổn định ("Pskov là thành phố ở Nga"), đúng ở mọi thời điểm, nhưng cũng có thể là sự việc có thời hạn mà văn bản không ghi. Hai loại này nên tách bằng một nhãn LLM gán: `undated_kind` = `timeless` (ổn định, đúng mọi lúc) hoặc `unknown` (không rõ). Chấm điểm:
-- `timeless` có thể được điểm thời gian cố định cao hơn (gần 1.0), vì không bao giờ "hết hiệu lực";
-- `unknown` dùng `T_unknown` thấp hơn.
-
-Cả hai vẫn nằm ở nhánh riêng (xét riêng, không trộn vào TH1 và TH2). Chưa nằm ở file nào khác ngoài đây; chưa quyết. Nếu làm thì thêm `T_timeless` vào ablation (xem dưới).
+Chunk không mốc chỉ có một loại: **chưa biết khi nào**. Không gán thêm nhãn "sự thật không đổi", vì hầu hết sự thật ổn định vẫn có mốc bắt đầu (Washington là thủ đô của Mỹ từ năm 1800, không phải mọi thời gian), chỉ là văn bản không ghi. Gán nhãn đó là khẳng định LLM không có cơ sở, và điểm cao cho nó có thể đưa chunk đã hết hiệu lực lên đầu. Mọi chunk không mốc dùng chung `T_unknown`.
 
 ## Rủi ro và điều phải đo
 
@@ -53,3 +49,11 @@ Cả hai vẫn nằm ở nhánh riêng (xét riêng, không trộn vào TH1 và 
 ## Việc nếu chấp nhận
 
 `Chunk.start_time` thành tùy chọn; ingestion giữ chunk không mốc; `qdrant_store` thêm truy vấn `IsNull(start_time)`; `TemporalRetriever` thêm nhánh và `T_unknown` (config `retrieval.t_unknown`); sửa bất biến trong `design/02` và `CLAUDE.md` ("không có mốc thì không vào kho" thành "không vào nhánh time-aware").
+
+## Đã code (khác với đề xuất ở chỗ nào)
+
+- `Chunk.start_time` có thể rỗng; chunk có `end_time` mà không có `start_time` bị từ chối.
+- `ingest.py --keep-undated`: giữ chunk `no_time` **nếu LLM gán được ít nhất một nhãn domain** (dùng nhãn domain làm dấu hiệu "có nội dung" để loại dòng tham khảo, mảnh vụn; ở lần 2 cả 24 chunk không domain đều là loại này). `invalid_time` (vd trước Công nguyên, [`05`](05_EXCLUDE_BEFORE_COMMON_ERA.md)) vẫn bị bỏ.
+- Truy xuất: nhánh thứ ba lọc `start_time IS NULL` (dense và BM25), gộp với nhánh có mốc theo điểm gốc từng nhánh, rồi RRF như cũ. Bật bằng `retrieval.t_unknown` (vd 0.5) hoặc `evaluate.py --t-unknown 0.5`; `null` = tắt. Chunk không mốc nhận `Temporal_Score = t_unknown`.
+- **Chưa làm:** sửa bất biến ở `design/02` và `CLAUDE.md` (chờ quyết sau khi đo).
+- Chưa kiểm với Qdrant thật: điều kiện `IsNull(start_time)` cần chạy thử trên kho nạp bằng `--keep-undated`.

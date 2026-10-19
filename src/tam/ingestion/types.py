@@ -55,4 +55,5 @@ class TimeResult:
     domains: tuple[str, ...] = ()  # nhãn chủ đề đã chuẩn hóa (tối đa 3), xem schemas/domains.py
     domain_note: str = ""          # `reason_domain` của LLM (chỉ để quan sát)
     ongoing_evidence: str = ""     # câu trích nguyên văn LLM đưa ra khi nói `ongoing` (chỉ để quan sát)
+    end_status: str = "unknown"  # "known" (LLM trả `end`) | "ongoing" | "unknown"; tổng hợp từ `end` và `ongoing`, lưu cùng `end_time`
     ongoing_downgraded: bool = False  # LLM nói `ongoing` nhưng bằng chứng không đạt kiểm tra nên bị hạ về "không biết"

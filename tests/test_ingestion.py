@@ -28,15 +28,12 @@ def make_doc(sections, doc_id="/wiki/Knox_Cunningham"):
     ("1984-02", True, utc(1984, 2, 29)),
     ("1136-05-04", False, utc(1136, 5, 4)),
     ("950", False, utc(950, 1, 1)),
-    ("-44", False, utc(1, 1, 1)),
-    ("-300000", True, utc(1, 1, 1)),
-    ("0", False, utc(1, 1, 1)),
 ])
 def test_parse_partial_date(raw, end, expected):
     assert parse_partial_date(raw, end=end) == expected
 
 
-@pytest.mark.parametrize("raw", ["", "abc", "1985-13", "1985-02-30", "2005 BC", "12345"])
+@pytest.mark.parametrize("raw", ["", "abc", "0", "-44", "1985-13", "1985-02-30", "2005 BC"])
 def test_parse_partial_date_rejects(raw):
     with pytest.raises(ValueError):
         parse_partial_date(raw, end=False)
@@ -160,7 +157,7 @@ def test_pipeline_counts_drops_and_dedups():
     doc2 = make_doc([("Knox Cunningham", "born 1909 died 1976")], doc_id="/wiki/Knox_Cunningham")  # trùng hash với doc1 #0
     table = {"born 1909": ("1909", "1976", False), "garbage": ("2010", "2005", False), "since 2012": ("2012", None, True)}
     stats, written = run([doc1, doc2], table)
-    assert stats.to_dict() == {"docs": 2, "chunks_total": 5, "ingested": 2, "skipped_no_time": 1,
+    assert stats.to_dict() == {"docs": 2, "chunks_total": 5, "ingested": 2, "ingested_undated": 0, "skipped_no_time": 1,
                                "skipped_invalid_time": 1, "skipped_llm_error": 0, "skipped_duplicate": 1}
     by_id = {c.chunk_id: c for c in written}
     assert set(by_id) == {"/wiki/Knox_Cunningham#0", "/wiki/Knox_Cunningham#3"}

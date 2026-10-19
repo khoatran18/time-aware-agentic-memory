@@ -1,6 +1,6 @@
 # Quyết định 01: `domain` chỉ cộng điểm, không lọc cứng
 
-**Ngày:** 2026-10-19. **Trạng thái:** đã quyết; ingestion gán `domain` đã code; phần cộng điểm ở retrieval **chưa code**.
+**Ngày:** 2026-10-19. **Trạng thái:** đã quyết; ingestion gán `domain` đã code; phần cộng điểm ở retrieval đã code (`w3`, `ProfiledQuery.domains`, mặc định tắt), **chưa chạy so sánh**.
 
 ## Bối cảnh
 

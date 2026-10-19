@@ -46,6 +46,7 @@ class IngestStats:
     docs: int = 0
     chunks_total: int = 0
     ingested: int = 0
+    ingested_undated: int = 0  # chunk không mốc được giữ lại (keep_undated), đã tính trong `ingested`
     skipped_no_time: int = 0
     skipped_invalid_time: int = 0
     skipped_llm_error: int = 0
@@ -61,12 +62,21 @@ class IngestionPipeline:
 
     def __init__(
         self, extractor: TimeExtractor, sinks: Sequence[Sink],
-        on_result: Callable[[RawChunk, TimeResult], None] | None = None,
+        on_result: Callable[[RawChunk, TimeResult], None] | None = None, *, keep_undated: bool = False,
     ) -> None:
-        """`sinks`: ghi lần lượt theo thứ tự. `on_result`: gọi sau khi LLM trích mốc cho từng chunk (để ghi vết)."""
+        """`sinks`: ghi lần lượt theo thứ tự. `on_result`: gọi sau khi LLM trích mốc cho từng chunk (để ghi vết).
+
+        `keep_undated`: chunk không có `start` nhưng LLM gán được domain (tức có nội dung) vẫn được nạp với `start_time` rỗng
+        (decisions/04); chunk rỗng nội dung (dòng tham khảo...) vẫn bị bỏ.
+        """
         self._extractor = extractor
         self._sinks = list(sinks)
         self._on_result = on_result
+        self._keep_undated = keep_undated
+
+    def keeps_undated(self, res: TimeResult) -> bool:
+        """Chunk `no_time` này có được giữ lại không (có nội dung theo nhãn domain của LLM)."""
+        return self._keep_undated and res.reason == "no_time" and bool(res.domains)
 
     def run(self, docs: Iterable[RawDoc]) -> IngestStats:
         """Nạp toàn bộ `docs`; hash trùng trong cùng lần chạy chỉ nạp bản đầu tiên."""
@@ -90,6 +100,12 @@ class IngestionPipeline:
             for rc, res in zip(fresh, results):
                 if self._on_result:
                     self._on_result(rc, res)
+                if res.span is None and self.keeps_undated(res):
+                    features = dict(doc.domain_features)
+                    features["domain"] = list(res.domains)
+                    out.append(Chunk(chunk_id=rc.chunk_id, text=rc.text, source=doc.source, doc_id=doc.doc_id, domain_features=features))
+                    stats.ingested_undated += 1
+                    continue
                 if res.span is None:
                     if res.reason == "invalid_time":
                         stats.skipped_invalid_time += 1
@@ -103,7 +119,7 @@ class IngestionPipeline:
                     features["domain"] = list(res.domains)
                 out.append(Chunk(
                     chunk_id=rc.chunk_id, text=rc.text, source=doc.source, doc_id=doc.doc_id,
-                    start_time=res.span.start, end_time=res.span.end, domain_features=features,
+                    start_time=res.span.start, end_time=res.span.end, end_status=res.end_status, domain_features=features,
                 ))
             if out:
                 for sink in self._sinks:

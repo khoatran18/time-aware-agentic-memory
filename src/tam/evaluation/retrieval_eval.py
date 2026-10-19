@@ -27,7 +27,8 @@ def build_cases(
     """EvalCase cho mỗi câu. `mode`: "oracle" (t_req từ nhãn, semantic_query của Profiler nếu có) hoặc "e2e" (t_req và domain từ Profiler).
 
     `alive_ids`: nếu có, `gold_ids` chỉ giữ chunk đã vào kho, nên câu mà chunk đúng bị bỏ lúc ingestion có `gold_ids` rỗng
-    (không tính vào Hit@k, MRR). `facets`: "none" không lọc facet; "domain" lọc cứng theo domain của Profiler (chỉ e2e).
+    (không tính vào Hit@k, MRR). `facets`: "none" không dùng domain; "domain" lọc cứng theo domain của Profiler; "boost" chỉ cộng điểm
+    (cần `w3` > 0 ở retriever). Cả hai chỉ dùng được với e2e.
     Facet `country` không bao giờ được dùng: chunk TimeQA không có `country` nên lọc theo nó làm kết quả rỗng.
     """
     if mode not in ("oracle", "e2e"):
@@ -40,11 +41,13 @@ def build_cases(
         if mode == "oracle":
             # cùng semantic_query với e2e (nếu có Profiler) để hai chế độ chỉ khác nhau ở t_req
             t_req, query, filters = oracle_t_req(c), row["semantic_query"] if usable else c[f"question_{level}"], {}
+            boost = ()
         else:
             if not usable:
                 continue  # Profiler lỗi: không có t_req để truy xuất
             t_req, query = datetime.fromisoformat(row["t_req"]), row["semantic_query"]
             domain = (row.get("filters") or {}).get("domain")
             filters = {"domain": domain} if facets == "domain" and domain else {}
-        cases.append(EvalCase(id=c["idx"], query=query, t_req=t_req, gold_ids=gold, filters=filters))
+            boost = (domain,) if facets == "boost" and domain else ()
+        cases.append(EvalCase(id=c["idx"], query=query, t_req=t_req, gold_ids=gold, filters=filters, domains=boost))
     return cases
