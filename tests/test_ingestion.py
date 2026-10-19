@@ -28,12 +28,15 @@ def make_doc(sections, doc_id="/wiki/Knox_Cunningham"):
     ("1984-02", True, utc(1984, 2, 29)),
     ("1136-05-04", False, utc(1136, 5, 4)),
     ("950", False, utc(950, 1, 1)),
+    ("-44", False, utc(1, 1, 1)),
+    ("-300000", True, utc(1, 1, 1)),
+    ("0", False, utc(1, 1, 1)),
 ])
 def test_parse_partial_date(raw, end, expected):
     assert parse_partial_date(raw, end=end) == expected
 
 
-@pytest.mark.parametrize("raw", ["", "abc", "0", "-44", "1985-13", "1985-02-30", "2005 BC"])
+@pytest.mark.parametrize("raw", ["", "abc", "1985-13", "1985-02-30", "2005 BC", "12345"])
 def test_parse_partial_date_rejects(raw):
     with pytest.raises(ValueError):
         parse_partial_date(raw, end=False)

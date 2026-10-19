@@ -42,6 +42,10 @@ Phần lớn là nhãn LLM hợp lý theo nội dung (chunk nói về đội bó
 
 Nhãn gồm hai kiểu không cùng loại: **lĩnh vực của chủ thể** (`sports`, `military`, `business`, `politics`, `media_arts`, `place`) và **khía cạnh được nói tới** (`career`, `person`). Chunk về một huấn luyện viên vừa là `career` vừa là `sports`, prompt chưa có quy tắc chọn nên LLM chọn theo nội dung (đúng cả hai). Thước P→domain thì suy từ *khía cạnh được hỏi* (P108 employer → career) nên lệch với nhãn theo lĩnh vực. Ca đáng ngờ duy nhất là CEU (lịch sử trường đại học bị gán `business`). Hướng sửa dự kiến (chưa làm, chờ đo khớp Profiler với chunk): thêm quy tắc "ưu tiên lĩnh vực của chủ thể hơn khía cạnh" kèm 2 ví dụ, dùng chung cho ingestion và Profiler. Xem [`../decisions/03_PROMPT_CHANGELOG.md`](../decisions/03_PROMPT_CHANGELOG.md).
 
+**Cập nhật hướng (theo quyết định domain chỉ cộng điểm, [`../decisions/01_DOMAIN_AS_SOFT_BOOST.md`](../decisions/01_DOMAIN_AS_SOFT_BOOST.md)):** domain gắn theo **khía cạnh được hỏi**, cả lúc ingestion lẫn lúc người dùng hỏi. Chunk được phép mang tới 3 nhãn gồm cả lĩnh vực chủ thể lẫn khía cạnh (vd huấn luyện viên: `sports` và `career`), nên 8 ca lệch ở trên phần lớn là LLM đúng; vì domain chỉ cộng điểm nên lệch không làm mất chunk. Quy tắc "ưu tiên lĩnh vực chủ thể hơn khía cạnh" nêu trên **không cần nữa**, thay bằng giữ nhãn đa trị.
+
+**Chunk không có nhãn domain (23 ở lần 1, 24 ở lần 2, 32 ở lần 4):** đều là chunk `no_time` và gần như không có nội dung: dòng tham khảo ("Hugh Scott | References..."), "External links", mảnh vụn như "96 ." hoặc "Early political career\n.". LLM trả `domain` rỗng đúng với lý do ghi ("a citation line with no real content"). Không có chunk có mốc nào thiếu domain, và các chunk này không vào kho nên không ảnh hưởng truy xuất.
+
 ### Rủi ro thật cho retrieval
 
 Điều quan trọng không phải domain suy từ P, mà là **nhãn Profiler gán cho câu hỏi lúc truy vấn có khớp nhãn của chunk hay không**. `domain` là hard filter, nên nếu Profiler gán `place` mà chunk đáp án chỉ có `["media_arts"]` thì chunk bị loại và không có cách cứu. Chưa đo được vì Profiler chưa chạy trên 40 câu này, và Profiler hiện còn trả `domain` chuỗi tự do. Hướng giảm rủi ro (chưa làm):
@@ -81,6 +85,11 @@ Thay đổi: thêm `reason_domain` và `ongoing_evidence` (câu trích nguyên v
 ## 7. Độ chính xác của mốc so với nhãn dataset
 
 **Phép đo.** Mỗi câu có `time_start`/`time_end` (nhãn dataset): khoảng hiệu lực của *sự việc trả lời câu hỏi*. So với `[start, end]` LLM gán cho chunk đáp án (39 chunk còn sống, so theo năm). Script đo: so `local_subset.json` với `extractions.jsonl`.
+
+**Đọc các số này thế nào.** Hai khoảng được so: khoảng **nhãn** `[ls, le]` (từ câu hỏi dataset, tức thời gian sự việc đáp án có hiệu lực; chunk của dataset tự nó không có `end`) và khoảng **chunk** `[cs, ce]` do LLM gán. "`end` đúng năm nhãn" là năm của `ce` bằng năm của `le`, so để biết LLM đoán mốc kết thúc có giống nhãn không.
+- **Phủ**: `cs ≤ ls` và `ce ≥ le` (hoặc `ongoing`). Quan trọng cho `Temporal_Score`: `t_req` của câu hỏi luôn nằm trong khoảng nhãn (40/40), nên nếu chunk phủ nhãn thì mọi `t_req` hợp lệ đều rơi vào TH1 và chunk đáp án được điểm 1.0. **Cao hơn thì chunk đáp án ít bị phạt hơn, nhưng không phải càng cao càng tốt**: khoảng quá rộng (vd `ongoing` bừa) cũng phủ nhãn mà làm chunk khác cũng được 1.0, mất khả năng phân biệt chunk mới hơn. Đọc cùng số chunk `ongoing`.
+- **Giao**: hai khoảng có phần chung. Điều kiện yếu hơn phủ: chunk giao nhưng không phủ thì một số `t_req` vẫn rơi vào TH2 (bị phạt `exp(-λ·Δ)`).
+- Hai khoảng càng gần nhau càng tốt, nhưng phép đo là gián tiếp (xem giới hạn dưới).
 
 **Giới hạn của phép đo (đọc kỹ trước khi dùng số):** nhãn là mức *sự việc*, còn mốc của chunk là mức *chunk* = hợp các mốc của mọi sự việc trong đoạn. Ví dụ chunk `Alliance_of_Small_Island_States#24` liệt kê chủ tịch từ 1991 đến nay; nhãn câu hỏi là 2002 đến 2005 (một dòng trong danh sách) nhưng mốc chunk đúng là 1991 đến present. Nên "không khớp nhãn" không đồng nghĩa LLM sai.
 
@@ -132,13 +141,17 @@ Báo cáo tự động: `python scripts/ingestion_report.py lan1=output/20261019
 - **Bị bỏ vì không có mốc (`no_time`):** LLM không gán được `start` cho chunk, nên chunk không vào Qdrant (bất biến của đồ án).
 - **`ongoing` bị code đổi về "không biết":** LLM nói chunk "còn tiếp diễn" (`ongoing = true`) và phải trích một câu làm bằng chứng. Nếu câu đó không có trong trang, hoặc không chứa từ báo hiệu còn hiệu lực (`since`, `present`, `currently`, `still`...), code đổi nhãn về "không biết" (`end` = hết năm của `start`). Trong báo cáo cũ em viết tắt là "bị hạ".
 - **Năm `start`/`end` đúng nhãn:** nhãn của dataset (`time_start`, `time_end`) là khoảng thời gian sự việc đáp án có hiệu lực. Đếm số chunk đáp án mà năm LLM gán trùng năm trong nhãn. Chỉ là phép đo gián tiếp vì chunk có thể chứa nhiều sự việc (xem mục 7).
-- **Bao trọn / giao:** khoảng `[start, end]` của chunk chứa hết khoảng nhãn / có phần chung với nó.
+- **Bao trọn / giao:** khoảng `[start, end]` của chunk chứa hết khoảng nhãn / có phần chung với nó (bao trọn = "phủ" ở mục 7; cao hơn thì chunk đáp án dễ được TH1, nhưng không phải lúc nào cũng tốt, xem mục 7).
+- **`invalid_time`:** LLM có trả `start`, nhưng code không dùng được. Ở các lần chạy này: ngày trước Công nguyên hoặc thời tiền sử mà `parse_partial_date` không đọc (`-2000`, `-300000`, `-150000`, chunk `Zambia#7, #8, #12`), tháng ngoài 1 đến 12, hoặc `end < start`. Khác `no_time` (LLM không gán được `start`). Cả hai đều bị bỏ khỏi kho; `invalid_time` là chunk có mốc nhưng ngoài phạm vi biểu diễn, hiếm (1 đến 5 chunk).
+- **Số nhãn domain trung bình mỗi chunk** (chunk đã nạp): lần 2 là 1.34, lần 4 là 1.43. Nhãn nhiều hơn thì dễ chứa domain suy từ P hơn, nên "khớp domain" tăng 32 lên 34 chưa chắc là nhãn tốt hơn.
 
 ### Vì sao lần 4 có vẻ kém hơn lần 2
 
 Nguyên nhân chính nhìn thấy được là số chunk **không có mốc** tăng từ 243 lên 321 (93 chunk có mốc ở lần 2 mất mốc ở lần 4, 15 chunk ngược lại). Đã kiểm tra:
 - Đây **không** phải lỗi định dạng hay LLM bỏ sót chunk: chỉ 1 chunk bị sót, 0 lô lỗi, không có lần thử lại thất bại.
 - Phần lớn chunk mất mốc là chunk **không có năm trong chính văn bản** (ví dụ `Charles_Holden#1`: "After working and training in Bolton and Manchester, Holden moved to London..."). Ở lần 2 LLM gán cho chúng mốc kế thừa từ chunk lân cận; ở lần 4 nó để trống. Chỉ khoảng 15 chunk `no_time` có sẵn một năm trong 300 ký tự đầu (và cả lần 2 lẫn lần 4 đều có số này).
+- **Lần 2 không chắc làm tốt hơn, chỉ giữ được nhiều chunk hơn.** Ở lần 2 LLM suy mốc từ lân cận (vd `Charles_Holden#1` nhận 1891 đến 1960, lý do "up to his death", tức gần như cả đời người, mốc rất rộng nên chunk dễ được TH1 với nhiều `t_req`). Số "năm `start` đúng nhãn" của hai lần đều là 12, nên chưa có bằng chứng mốc kế thừa chính xác hơn; chỉ thấy độ phủ của kho cao hơn (1029 so với 949 chunk).
+- **Prompt có đổi giữa lần 2 và lần 4 không?** File `ingestion_time.md` có thời gian sửa 11:48, sau lần 2 (11:17) và trước lần 4 (12:00), nhưng `03_PROMPT_CHANGELOG.md` không ghi thay đổi nào ở khoảng đó và em không dựng lại được nội dung. Vì vậy các chênh lệch domain (32 lên 34), `end` (3 lên 6) và `ongoing` (35 lên 51) giữa hai lần chỉ là 2 đến 16 chunk trên mẫu nhỏ, chưa kết luận do prompt, do model, hay do ngẫu nhiên.
 - Giữa hai lần, model phía sau combo `basic-llm` đã đổi (lần 2 là model khác, lần 4 là `gemini-3.1-flash-lite`), nên em không tách được phần do model và phần do prompt/code. **Chưa chứng minh được đây là suy giảm do code.** Mốc kế thừa ở lần 2 có đúng hay không cũng chưa kiểm tra: số "năm `start` đúng nhãn" của hai lần bằng nhau (12), nên chưa thấy lợi ích rõ của việc kế thừa.
 - Hệ quả thực tế: chunk không có mốc không vào kho và retriever không tìm thấy được (mất thêm chunk đáp án `Rui_Vitória#2`). Đây là lý do nhánh "chunk không có mốc" (`process/05` mục 3.4, chưa quyết) đáng cân nhắc.
 

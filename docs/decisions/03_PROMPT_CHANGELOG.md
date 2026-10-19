@@ -12,9 +12,11 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 | 2026-10-19 | Thêm `reason_domain` (trước `domain`) | Truy lại vì sao lệch nhãn | Cho thấy 7 ca lệch đều theo nội dung chunk; lệch nằm ở thước đo P→domain |
 | 2026-10-19 | Thêm `ongoing_evidence` và siết quy tắc `ongoing` ("thiếu ngày kết thúc không phải bằng chứng") | `basic-llm` đặt `ongoing` bừa (decisions/02) | `ongoing` trên chunk đã nạp 170 → 35 |
 | 2026-10-19 | Thử "bằng chứng nằm trong chính chunk", **đã gỡ** | Nghi `Casus_Belli` mượn câu của chunk khác; điều tra lại thì suy luận chéo chunk là đúng | Không áp dụng (xem decisions/02) |
+| 2026-10-19 | Mốc trước Công nguyên: từ "coi như không có mốc" thành "viết năm âm"; parser chặn mọi năm < 1 về `0001-01-01` | 3 chunk `Zambia` bị `invalid_time` vì LLM trả `-2000`, `-300000`, `-150000` | Chưa chạy lại; mất thứ tự giữa các mốc trước Công nguyên |
 
 ### Dự kiến, chưa làm
-- Quy tắc ưu tiên "lĩnh vực của chủ thể hơn khía cạnh" cho `domain`, dùng chung với Profiler. Chờ đo mức khớp nhãn Profiler với nhãn chunk (docs/eval/01).
+- ~~Quy tắc ưu tiên "lĩnh vực của chủ thể hơn khía cạnh"~~ **bỏ** (2026-10-19): domain chỉ cộng điểm và gắn theo khía cạnh được hỏi, chunk được mang tới 3 nhãn gồm cả hai loại, nên không cần chọn một. Xem docs/eval/01 mục 3.
+- Ghi nhận: `ingestion_time.md` có thời gian sửa 11:48 giữa lần 2 và lần 4 mà sổ này không có dòng tương ứng; nội dung thay đổi chưa dựng lại được. Từ nay mỗi lần đổi prompt phải ghi dòng ở đây trước khi chạy.
 
 ## `src/tam/llm/prompts/time_extractor.md` (Profiler)
 

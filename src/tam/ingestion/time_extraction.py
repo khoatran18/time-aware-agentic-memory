@@ -24,7 +24,7 @@ from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize
 logger = get_logger(__name__)
 
 PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / "ingestion_time.md"
-_PARTIAL_DATE = re.compile(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
+_PARTIAL_DATE = re.compile(r"^(-?)(\d{1,9})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
 # Dấu hiệu "còn hiệu lực" mà câu bằng chứng của `ongoing` phải chứa (heuristic cho tiếng Anh, docs/decisions/02)
 _ONGOING_CUES = re.compile(
     r"\b(since|present|current|currently|still|remains?|remaining|continues?|continuing|to date|this day|today|now|ongoing|"
@@ -65,18 +65,26 @@ class BatchTimes(BaseModel):
     items: list[ChunkTime]
 
 
+_BEFORE_COMMON_ERA = datetime(1, 1, 1, tzinfo=timezone.utc)
+
+
 def parse_partial_date(raw: str, *, end: bool) -> datetime:
     """'1985' / '1985-06' / '1985-06-15' -> datetime UTC. Mốc đầu lấy ngày đầu kỳ, mốc cuối lấy ngày cuối kỳ (bao gồm).
 
-    Chỉ-năm: start -> YYYY-01-01, end -> YYYY-12-31. Chỉ-tháng: ngày 1 hoặc ngày cuối tháng. Năm < 1 bị từ chối.
+    Chỉ-năm: start -> YYYY-01-01, end -> YYYY-12-31. Chỉ-tháng: ngày 1 hoặc ngày cuối tháng.
+
+    Năm trước Công nguyên viết dạng âm ('-44', '-300000') hoặc '0'. `datetime` không biểu diễn được năm < 1 nên mọi mốc
+    đó bị chặn về `0001-01-01` (mất thứ tự giữa các mốc trước Công nguyên, nhưng vẫn đứng trước mọi `t_req` thực tế).
     """
     m = _PARTIAL_DATE.match(raw.strip())
     if not m:
         raise ValueError(f"không phải ngày dạng YYYY[-MM[-DD]]: {raw!r}")
-    year = int(m.group(1))
-    month = int(m.group(2)) if m.group(2) else None
-    day = int(m.group(3)) if m.group(3) else None
+    year = -int(m.group(2)) if m.group(1) else int(m.group(2))
+    month = int(m.group(3)) if m.group(3) else None
+    day = int(m.group(4)) if m.group(4) else None
     if year < 1:
+        return _BEFORE_COMMON_ERA
+    if year > 9999:
         raise ValueError(f"năm không hỗ trợ: {raw!r}")
     if month is None:
         month, day = (12, 31) if end else (1, 1)

@@ -35,9 +35,17 @@ Cách chấm **không phụ thuộc** câu hỏi có năm hay không; chỉ `t_r
 - Câu hỏi có năm: chunk có mốc đúng lúc thắng, chunk không mốc lên top khi nội dung (Semantic) khớp rõ hơn hoặc không có chunk có mốc phù hợp.
 - Câu hỏi không có năm (`T_now`): chunk còn hiệu lực hiện tại (1.0) thắng; chunk ổn định không mốc vẫn đủ điểm nếu khớp nội dung; chunk hết hiệu lực xa thấp hơn.
 
+## Ý tưởng bổ sung: chunk không mốc như "sự thật không đổi"
+
+Chunk không mốc thường là sự việc ổn định ("Pskov là thành phố ở Nga"), đúng ở mọi thời điểm, nhưng cũng có thể là sự việc có thời hạn mà văn bản không ghi. Hai loại này nên tách bằng một nhãn LLM gán: `undated_kind` = `timeless` (ổn định, đúng mọi lúc) hoặc `unknown` (không rõ). Chấm điểm:
+- `timeless` có thể được điểm thời gian cố định cao hơn (gần 1.0), vì không bao giờ "hết hiệu lực";
+- `unknown` dùng `T_unknown` thấp hơn.
+
+Cả hai vẫn nằm ở nhánh riêng (xét riêng, không trộn vào TH1 và TH2). Chưa nằm ở file nào khác ngoài đây; chưa quyết. Nếu làm thì thêm `T_timeless` vào ablation (xem dưới).
+
 ## Rủi ro và điều phải đo
 
-1. `T_unknown` là con số tự chọn: cao thì chunk không mốc lấn chunk đúng thời điểm, thấp thì không bao giờ được chọn. Cần ablation (ví dụ 0.3 / 0.5 / 0.7, và chế độ chỉ dùng nhánh không mốc khi kết quả ít).
+1. `T_unknown` là con số tự chọn: cao thì chunk không mốc lấn chunk đúng thời điểm, thấp thì không bao giờ được chọn. Cần ablation (ví dụ 0.3 / 0.5 / 0.7, và chế độ chỉ dùng nhánh không mốc khi kết quả ít). Vậy kịch bản đánh giá tổng thể thêm một tham số cần quét, cùng loại với `λ`, `W1/W2`; nên quét trên tập tinh chỉnh (`D/train`), không trên tập báo cáo.
 2. Chunk không mốc có thể mô tả sự việc **sau** `t_req` mà hệ không biết (rò rỉ tương lai không phát hiện được). Giảm nhẹ: Time-CoT bắt buộc ghi "thông tin này không xác định được thời điểm" khi dùng chúng.
 3. So sánh với plain RAG phải ghi rõ tỉ lệ câu chỉ trả lời được nhờ nhóm này (plain RAG thì mọi chunk đều dùng được).
 4. Cần đo: Hit@k và MRR có và không có nhánh không mốc, trên các câu mà chunk đáp án không mốc (ở bộ local: 3 chunk).

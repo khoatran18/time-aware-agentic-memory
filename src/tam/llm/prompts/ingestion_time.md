@@ -28,7 +28,7 @@ You will receive numbered chunks of the SAME document, in reading order. You see
 - End of a situation: set `end` only when the text shows it stopped ("left", "moved to", "was replaced by", "resigned", "until", "retired", "divorced", "died"). A later event ends an earlier one only when the two cannot hold at the same time (one team, one office, one spouse at a time). Facts that can overlap (several employers, several memberships, several awards) are not ended by a later one: use state 3.
 - If the situation lasted until the person's death and the document gives the death date, `end` = the death date.
 - Ignore dates that do not describe the facts themselves, such as years of cited books or articles.
-- Dates before year 1 (BC/BCE) -> treat as no date.
+- Dates before year 1 (BC/BCE): write the year as a negative number (e.g. "-44", "-2000"); prehistoric dates the same way.
 - If no date can be derived even from the other chunks, return `start` = null, `end` = null, `ongoing` = false.
 
 ## Examples

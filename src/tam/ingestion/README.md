@@ -79,7 +79,7 @@ Dữ liệu qua các bước chính (ví dụ trang Knox Cunningham):
 | 20-22 | `RawChunk` + `TimeResult` | `Chunk(start_time, end_time, domain_features, ...)` ghi vào kho (embed dense + BM25) |
 | 23 | | `IngestStats(docs, chunks_total, ingested, skipped_no_time, skipped_invalid_time, skipped_duplicate)` |
 
-Chuẩn hóa mốc (bước 15-16, `parse_partial_date`): start chỉ-năm → `YYYY-01-01`, **end** chỉ-năm → `YYYY-12-31` (để "2004 đến 2005" phủ hết 2005 và vẫn là TH1); chỉ-tháng → ngày 1 hoặc ngày cuối tháng; `ongoing` → `end=None`; không có `end` → hết kỳ của `start`; năm < 1 hoặc `end < start` → `invalid_time`.
+Chuẩn hóa mốc (bước 15-16, `parse_partial_date`): start chỉ-năm → `YYYY-01-01`, **end** chỉ-năm → `YYYY-12-31` (để "2004 đến 2005" phủ hết 2005 và vẫn là TH1); chỉ-tháng → ngày 1 hoặc ngày cuối tháng; `ongoing` → `end=None`; không có `end` → hết kỳ của `start`; năm < 1 (trước Công nguyên, viết số âm) bị chặn về `0001-01-01`; `end < start` hoặc tháng/ngày sai → `invalid_time`.
 
 ## Pattern
 

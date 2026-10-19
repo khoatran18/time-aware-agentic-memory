@@ -6,15 +6,24 @@
 
 Chạy bộ local (`docs/eval/01_LOCAL_INGESTION.md`): `basic-llm` đặt `ongoing = true` ở 177/1058 chunk, trong đó 42 chunk có `reason_end_date` tự nói "không có ngày kết thúc". Trái quy tắc prompt (không biết thì `ongoing = false`). Hệ quả: `end_time = None`, chunk được `Temporal_Score = 1.0` (TH1) với mọi `t_req` sau `start`; hai chunk của cùng một sự việc ở hai thời điểm cùng được 1.0 nên thời gian không phân biệt được chunk mới hơn.
 
-## Ba chỗ khác nhau (đừng nhầm)
+## Các trường liên quan và bước tạo ra chúng
 
-| Chỗ | Việc | Khi nào |
+Ba bước nối tiếp nhau. Bốn tên `end`, `ongoing`, `end_time`, `end_status` không phải bốn thứ độc lập: hai cái đầu là **đầu ra thô của LLM**, hai cái sau là **giá trị code suy ra**.
+
+| Bước | Ai làm | Khi nào | Tạo ra |
+|---|---|---|---|
+| 1. Gán nhãn | LLM (`ingestion_time.md`) | Ingestion | `end` (chuỗi ngày hoặc rỗng), `ongoing` (đúng/sai), kèm `reason_end_date`, `ongoing_evidence` |
+| 2. Chuẩn hóa và lưu | Code (`to_span` trong `time_extraction.py`) | Ingestion | `end_time` lưu trong Qdrant: nếu `ongoing` thì `None`; nếu có `end` thì cuối kỳ của `end`; nếu rỗng thì cuối kỳ của `start`. Đồng thời kiểm tra `ongoing_evidence` |
+| 3. Chấm điểm | Code (`TemporalRetriever`) | Truy vấn | `Temporal_Score` từ `[start_time, end_time]` và `t_req` |
+
+| Tên | Là gì | Đã code? |
 |---|---|---|
-| Gán nhãn | LLM quyết `end` / `ongoing` cho chunk | Ingestion |
-| Lưu | Kho giữ `end_time` (`ongoing` chỉ còn là `end_time = None`); **chưa** lưu phân biệt "ongoing" với "không biết" | Ingestion |
-| Chấm điểm | Cách đổi `[start_time, end_time]` thành `Temporal_Score` | Truy vấn |
+| `end` | Ngày kết thúc LLM trả (có thể rỗng) | Có |
+| `ongoing` | LLM khẳng định sự việc còn tiếp diễn | Có |
+| `end_time` | Giá trị lưu trong kho, suy từ hai trường trên. `None` có nghĩa "còn hiệu lực" | Có |
+| `end_status` | Nhãn `known` / `ongoing` / `unknown` suy từ `end` và `ongoing` (`known`: có `end`; `ongoing`: `ongoing` đúng; `unknown`: không `end`, không `ongoing`) | **Chưa** |
 
-"Ba cách chấm" bên dưới thuộc dòng thứ ba, nhưng chỉ thực hiện được nếu dòng thứ hai lưu đủ thông tin (`end_status`).
+Vấn đề: sau bước 2 hai trường hợp `ongoing` và `unknown` khác nhau về ý nghĩa nhưng bước chấm điểm (3) không phân biệt được vì `unknown` đã bị đổi thành cuối kỳ của `start`. `end_status` bổ sung thông tin này để bước 3 có thể chọn cách chấm (mục Quyết định).
 
 ## Quyết định
 
@@ -38,3 +47,14 @@ Phần lớn chunk `ongoing` đáng ngờ hóa ra **đúng** (`Volvo_9700#29` "A
 2. **Chọn nhầm câu bằng chứng.** `Casus_Belli`: LLM trích "Since 2020" thay vì "since 2011" nhưng kết luận `ongoing` vẫn đúng. Kiểm tra chỉ chặn được bằng chứng bịa hoặc không có dấu hiệu, không đánh giá được câu có phải câu tốt nhất.
 
 Chưa kiểm tay đủ 35 chunk. Số liệu theo lần chạy: `docs/eval/01_LOCAL_INGESTION.md`.
+
+### Đề xuất sửa cho hai nguyên nhân trên (chưa làm)
+
+| Nguyên nhân | Hướng | Đánh giá |
+|---|---|---|
+| Chunk nhiều sự việc, một khoảng thời gian | (a) Chấm điểm cách B (`ongoing` giảm nhẹ theo khoảng cách `start` tới `t_req`) để chunk `ongoing` quá rộng không thắng mọi chunk khác | Rẻ, chỉ cần lưu `end_status`; không làm mốc chunk đúng hơn |
+| | (b) Mốc theo sự việc (Cơ chế 2, đồ thị): mỗi sự việc một `[start, end]` riêng | Đúng gốc nhưng ngoài phạm vi Cơ chế 1 |
+| | (c) Cho LLM trả danh sách mốc cho từng sự việc trong chunk, lưu nhiều khoảng cho một chunk | Tốn thay đổi schema Qdrant, chưa cân nhắc kỹ |
+| Chọn nhầm câu bằng chứng | Không cần sửa: kết luận vẫn đúng. Có thể ghi thêm "câu đầu tiên có dấu hiệu" vào prompt nhưng lợi ích nhỏ | Bỏ qua |
+
+Khuyến nghị: làm (a) trước vì rẻ và đo được bằng ablation; (b), (c) chỉ khi (a) cho thấy lỗi `ongoing` thực sự làm tụt hạng chunk đáp án.
