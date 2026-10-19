@@ -49,4 +49,10 @@ class TimeResult:
     """Kết quả trích mốc thời gian của một chunk: có `span`, hoặc `reason` giải thích vì sao không có."""
 
     span: TimeSpan | None
-    reason: str | None = None  # "no_time" | "invalid_time"
+    reason: str | None = None  # "no_time" | "invalid_time" | "llm_error"
+    ongoing: bool = False      # LLM nói còn hiệu lực (chỉ để quan sát; kho chỉ lưu end_time)
+    note: str = ""             # `reason_end_date` của LLM (chỉ để quan sát)
+    domains: tuple[str, ...] = ()  # nhãn chủ đề đã chuẩn hóa (tối đa 3), xem schemas/domains.py
+    domain_note: str = ""          # `reason_domain` của LLM (chỉ để quan sát)
+    ongoing_evidence: str = ""     # câu trích nguyên văn LLM đưa ra khi nói `ongoing` (chỉ để quan sát)
+    ongoing_downgraded: bool = False  # LLM nói `ongoing` nhưng bằng chứng không đạt kiểm tra nên bị hạ về "không biết"

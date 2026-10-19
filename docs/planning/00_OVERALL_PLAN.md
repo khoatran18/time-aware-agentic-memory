@@ -115,7 +115,7 @@ So hệ time-aware với **plain RAG** (`tam.baselines.plain_rag`, cùng embeddi
 - **Temporal Freshness**: phục hồi sau khi có thông tin cập nhật (CC3).
 - **Coverage** (CC2) và **Token efficiency**: context RAG đầy đủ vs triplets <1K token.
 
-Dữ liệu: bộ local 25 câu chỉ để kiểm tra chạy được (không so điểm); bộ thật 300 câu từ `D/test`, seed cố định (xem `dataset/full_dataset/EVAL_PLAN.md`).
+Dữ liệu: bộ local 40 câu (8 domain × 5, 37 trang) chỉ để kiểm tra chạy được (không so điểm); bộ thật hiện có quyết định tạm 8 domain × 50 câu từ `D/test` (bù từ `D/train`), chưa code, kế hoạch cũ là 300 câu (xem `dataset/full_dataset/EVAL_PLAN.md` và `docs/process/06_EVAL_SUBSET.md`).
 
 ## 7. Rủi ro và quyết định còn mở
 

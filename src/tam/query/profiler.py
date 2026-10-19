@@ -9,6 +9,8 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
+from tam.llm.cache import JsonCache
+from tam.llm.structured import invoke_structured
 from tam.retrieval.temporal.filters import FACET_KEYS
 from tam.schemas.query import ProfiledQuery
 
@@ -35,8 +37,10 @@ def parse_t_req(raw: str) -> datetime:
 class Profiler:
     """Biến câu hỏi thô thành ProfiledQuery. LLM và đồng hồ đều được tiêm vào, không đọc gì từ bên ngoài."""
 
-    def __init__(self, llm: BaseChatModel, *, prompt: str | None = None) -> None:
+    def __init__(self, llm: BaseChatModel, *, prompt: str | None = None, cache: JsonCache | None = None) -> None:
         """`llm`: chat model (role time_extractor). `prompt`: mẫu có chỗ {t_now}; mặc định đọc time_extractor.md."""
+        self._llm = llm
+        self._cache = cache
         self._chain = llm.with_structured_output(Extraction)
         self._prompt = prompt if prompt is not None else PROMPT_PATH.read_text(encoding="utf-8")
 
@@ -45,9 +49,10 @@ class Profiler:
         if t_now.tzinfo is None:
             t_now = t_now.replace(tzinfo=timezone.utc)
         system = self._prompt.replace("{t_now}", t_now.date().isoformat())
-        out = self._chain.invoke([("system", system), ("human", question)])
-        if isinstance(out, dict):
-            out = Extraction.model_validate(out)
+        out = invoke_structured(self._llm, self._chain, Extraction, [("system", system), ("human", question)],
+                                cache=self._cache)
+        if out is None:
+            raise ValueError(f"LLM không trả JSON hợp lệ cho câu hỏi: {question!r}")
 
         if out.t_req:
             try:

@@ -25,3 +25,10 @@ def test_sample_is_deterministic_and_balanced():
     a = sample_cases(rows, ["P1", "P2"], 3, seed=7)
     assert a == sample_cases(list(reversed(rows)), ["P1", "P2"], 3, seed=7)
     assert [r["relation"] for r in a].count("P1") == 3
+
+
+def test_sample_by_domain():
+    rows = [{"idx": f"{r}#{i}", "relation": r} for r in ("P54", "P39", "P26") for i in range(6)]  # sports, politics, person
+    a = sample_cases(rows, ["sports", "politics"], 4, seed=1, group_by="domain")
+    assert [r["relation"] for r in a].count("P54") == 4 and [r["relation"] for r in a].count("P39") == 4
+    assert not any(r["relation"] == "P26" for r in a)

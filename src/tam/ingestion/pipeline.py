@@ -5,13 +5,13 @@ Hiện chỉ có VectorSink; CC2/3 sẽ thêm GraphSink vào cùng danh sách `s
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from collections.abc import Iterable, Sequence
+from collections.abc import Callable, Iterable, Sequence
 from dataclasses import asdict, dataclass
 
 from tam.config.logging import get_logger
 from tam.ingestion.chunking import chunk_document
 from tam.ingestion.time_extraction import TimeExtractor
-from tam.ingestion.types import RawDoc
+from tam.ingestion.types import RawChunk, RawDoc, TimeResult
 from tam.schemas.chunk import Chunk
 from tam.stores.vector.base import VectorStore
 
@@ -48,6 +48,7 @@ class IngestStats:
     ingested: int = 0
     skipped_no_time: int = 0
     skipped_invalid_time: int = 0
+    skipped_llm_error: int = 0
     skipped_duplicate: int = 0
 
     def to_dict(self) -> dict[str, int]:
@@ -58,10 +59,14 @@ class IngestStats:
 class IngestionPipeline:
     """Chạy ingestion; chunker là hàm thuần, LLM nằm trong `extractor`, kho nằm trong `sinks`."""
 
-    def __init__(self, extractor: TimeExtractor, sinks: Sequence[Sink]) -> None:
-        """`sinks`: ghi lần lượt theo thứ tự."""
+    def __init__(
+        self, extractor: TimeExtractor, sinks: Sequence[Sink],
+        on_result: Callable[[RawChunk, TimeResult], None] | None = None,
+    ) -> None:
+        """`sinks`: ghi lần lượt theo thứ tự. `on_result`: gọi sau khi LLM trích mốc cho từng chunk (để ghi vết)."""
         self._extractor = extractor
         self._sinks = list(sinks)
+        self._on_result = on_result
 
     def run(self, docs: Iterable[RawDoc]) -> IngestStats:
         """Nạp toàn bộ `docs`; hash trùng trong cùng lần chạy chỉ nạp bản đầu tiên."""
@@ -83,15 +88,22 @@ class IngestionPipeline:
             results = self._extractor.extract(doc.title, fresh) if fresh else []
             out: list[Chunk] = []
             for rc, res in zip(fresh, results):
+                if self._on_result:
+                    self._on_result(rc, res)
                 if res.span is None:
                     if res.reason == "invalid_time":
                         stats.skipped_invalid_time += 1
+                    elif res.reason == "llm_error":
+                        stats.skipped_llm_error += 1
                     else:
                         stats.skipped_no_time += 1
                     continue
+                features = dict(doc.domain_features)
+                if res.domains:
+                    features["domain"] = list(res.domains)
                 out.append(Chunk(
                     chunk_id=rc.chunk_id, text=rc.text, source=doc.source, doc_id=doc.doc_id,
-                    start_time=res.span.start, end_time=res.span.end, domain_features=dict(doc.domain_features),
+                    start_time=res.span.start, end_time=res.span.end, domain_features=features,
                 ))
             if out:
                 for sink in self._sinks:

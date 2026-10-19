@@ -5,15 +5,19 @@ Document title: {doc_title}
 You will receive numbered chunks of the SAME document, in reading order. You see all of them, so you may use the other chunks to understand one chunk. For EACH chunk return one item with the same index and these fields:
 
 - `start`: the earliest date of the facts the chunk states (events, positions held, stints, life dates).
+- `reason_domain`: ONE short sentence naming the words or facts in the chunk that make you choose these labels. Write it before `domain`.
+- `domain`: 0 to 3 topic labels for what the chunk is about, dominant topic first, ONLY from this closed list (add a second or third label only if the chunk really covers that topic; a chunk with no real content, such as a citation line, gets an empty list):
+{domains}
 - `reason_end_date`: ONE short sentence saying why `end` and `ongoing` get the values you return: quote the words that show the situation stopped ("left in 2007"), continues ("since 2010"), or say that nothing tells either way. Name the chunk if the evidence comes from another one. Write it first, then set `end` and `ongoing` to agree with it.
 - `end`: the date the situation stopped, or the latest date of the facts the chunk states.
-- `ongoing`: true when the situation continues up to the present ("since 2010", "currently", "to date", "incumbent", "present", or a later chunk says it still continues). Then set `end` to null.
+- `ongoing_evidence`: ONLY when `ongoing` is true: copy, word for word, the phrase from the chunks that shows the situation still continues ("since 2012", "is still at the club", "to date"). It must appear exactly in the text above. It may come from another chunk of this document, but only if that chunk is about the SAME fact or episode as this one. If you cannot copy such a phrase, `ongoing` is false and this field is empty.
+- `ongoing`: true ONLY when the text itself says the situation continues up to the present ("since 2010", "currently", "to date", "incumbent", "present", "still", or a later chunk says it still continues). A missing end date is NOT evidence of continuing. Then set `end` to null.
 
 ## The three states of `end`
 
 1. Known: the situation stopped on a known date. Set `end` to that date.
 2. Ongoing: it still continues. Set `end` = null and `ongoing` = true.
-3. Unknown: nothing says when it stopped and nothing says it continues. Set `end` = null and `ongoing` = false. Do NOT guess, and do NOT mark it ongoing just because no end is given.
+3. Unknown: nothing says when it stopped and nothing says it continues. Set `end` = null, `ongoing` = false and `ongoing_evidence` empty. Do NOT guess, and do NOT mark it ongoing just because no end is given or because the thing probably still exists today. This is the most common case for a chunk that only says what happened on some date: choose it whenever you cannot copy a continuation phrase.
 
 ## Rules
 
@@ -78,3 +82,42 @@ Document title: Riverside FC
 [1] Its mascot is a lion called Leo .
 -> [0] start null, end null, ongoing false
 -> [1] start null, end null, ongoing false
+
+## Output format
+
+Return one item per chunk, in this JSON shape (`domain` is a list of 0 to 3 labels):
+
+```json
+{"items": [
+  {"index": 0, "start": "2001",
+   "reason_domain": "Mentions captain and club, so it is about sport.", "domain": ["sports"],
+   "reason_end_date": "'moved to United' in chunk 1 ends the Rovers stint (one club at a time).",
+   "ongoing_evidence": "", "end": "2005", "ongoing": false},
+  {"index": 1, "start": "2012",
+   "reason_domain": "Company and political office are both named.", "domain": ["business", "politics"],
+   "reason_end_date": "'since 2012' with no end date, so it still continues.",
+   "ongoing_evidence": "since 2012", "end": null, "ongoing": true},
+  {"index": 2, "start": "2003",
+   "reason_domain": "Only a family event is described.", "domain": ["person"],
+   "reason_end_date": "Says what happened in 2003; nothing says whether it stopped or continues.",
+   "ongoing_evidence": "", "end": null, "ongoing": false},
+  {"index": 3, "start": null,
+   "reason_domain": "A citation line with no real content.", "domain": [],
+   "reason_end_date": "No date anywhere in the document for this fact.",
+   "ongoing_evidence": "", "end": null, "ongoing": false}
+]}
+```
+
+## Examples of assigning `domain` (invented chunks, only to show the judgement)
+
+- "He scored 12 goals for the club in the 2004 season." -> `["sports"]`
+- "She was elected to the national assembly in 1998 as a member of the Green Party." -> `["politics"]`
+- "He studied law at a university and then worked for a firm in the city for six years." -> `["career"]`
+- "He married a nurse in 1985 and they had two children; the family lived in a village near the coast." -> `["person"]`
+- "The company was founded in 1950, is owned by a holding group and is headed by a new chief executive." -> `["business"]`
+- "He served as a captain in the army, commanding an infantry battalion, and later entered parliament." -> `["military", "politics"]` (dominant topic first)
+- "The bridge crosses the river and connects the two districts; it opened in 1932." -> `["place"]`
+- "The band signed to a record label and released its first album, which was broadcast on national radio." -> `["media_arts"]`
+- "References: Smith, J. (2001). A History of the Region. Oxford Press." -> `[]` (citation line, no real content)
+- A chunk about an event that fits none of the labels, for example a lawsuit over an unrelated matter -> `["other"]`
+- A chunk that mentions a team only in passing while mostly describing family life -> `["person"]`, not `sports`: label what the chunk is mainly about.

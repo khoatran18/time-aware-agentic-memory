@@ -14,13 +14,15 @@ Ghi lại các quyết định khi dựng bộ hỏi đáp về thời gian đ�
 | | Bộ local | Bộ thật |
 |---|---|---|
 | Mục đích | Kiểm tra phương pháp chạy được, sửa lỗi code/prompt | So sánh các phương pháp |
-| Chủ đề × câu mỗi chủ đề | 5 × 5 | 15 × 20 |
-| Số câu hỏi | 25 | 300 |
-| Số dòng (× easy và hard) | 50 | 600 |
-| Số trang | 21 | 130 |
-| Chủ đề | P54, P39, P26, P108, P69 | P54, P488, P39, P108, P127, P26, P1448, P937, P102, P137, P551, P463, P4791, P27, P69 |
+| Chủ đề × câu mỗi chủ đề | 8 domain × 5 (đã đổi, xem ghi chú dưới bảng) | 15 × 20 (kế hoạch cũ; quyết định tạm mới: 8 domain × 50, xem ghi chú) |
+| Số câu hỏi | 40 | 300 (kế hoạch cũ) |
+| Số dòng (× easy và hard) | 80 | 600 (kế hoạch cũ) |
+| Số trang | 37 (seed 42) | khoảng 130 (kế hoạch cũ) |
+| Chủ đề | business, sports, career, person, politics, place, media_arts, military (domain suy từ relation theo `TOPICS.md`) | P54, P488, P39, P108, P127, P26, P1448, P937, P102, P137, P551, P463, P4791, P27, P69 |
 
-Các chủ đề của bộ thật đều có ít nhất 20 câu trong `D/test`. Tôi không lấy cả hai chủ đề huấn luyện viên (P6087, P286) vì gần giống chủ đề thể thao.
+> **Cập nhật 2026-10-19.** Bộ local đã đổi từ 5 relation × 5 sang 8 domain × 5 để kiểm chứng đủ 8 nhãn domain: 40 câu, 80 dòng, 37 trang, dựng bằng `scripts/make_eval_subset.py` (xem `docs/process/06_EVAL_SUBSET.md`). Bộ thật: 15 relation chỉ phủ 6/8 domain và lệch tỉ lệ nên đang có quyết định tạm chuyển sang 8 domain × 50 câu, bù `military` và `media_arts` từ `D/train` (chưa code; chi tiết ở `docs/process/06_EVAL_SUBSET.md`). Cột "Bộ thật" ở trên và hai bảng chi phí bên dưới là số của kế hoạch cũ, chưa tính lại.
+
+Các chủ đề của bộ thật (kế hoạch cũ) đều có ít nhất 20 câu trong `D/test`. Tôi không lấy cả hai chủ đề huấn luyện viên (P6087, P286) vì gần giống chủ đề thể thao.
 
 Ý nghĩa: P54 member of sports team, P488 chairperson, P39 position held, P108 employer, P127 owned by, P26 spouse, P1448 official name, P937 work location, P102 member of political party, P137 operator, P551 residence, P463 member of, P4791 commanded by, P27 country of citizenship, P69 educated at.
 
@@ -73,7 +75,7 @@ Phạm vi: **2 phương pháp**, mỗi phương pháp chạy **3 lần** (tổng
 
 | Bộ | Số dòng | Token đầu vào (M) | Trung bình mỗi dòng (token) |
 |---|---:|---:|---:|
-| Local (25 câu × easy+hard) | 50 | 0.169 | 3,388 |
+| Local cũ (25 câu × easy+hard; nay là 40 câu, 80 dòng, chưa tính lại) | 50 | 0.169 | 3,388 |
 | Thật, chỉ hard (300 câu) | 300 | 0.782 | 2,607 |
 | Thật, hard + easy (300 câu × 2 mức) | 600 | 1.564 | 2,607 |
 
@@ -92,7 +94,7 @@ Giả định đầu ra: **60 token mỗi câu** (trả lời ngắn) hoặc **8
 
 | Bộ | Số dòng | Đầu ra mỗi câu | haiku-5-5 | DeepSeek V4 Flash |
 |---|---:|---|---:|---:|
-| Local (25 câu × easy+hard) | 50 | 60 token | 0.02 | 0.02 |
+| Local cũ (25 câu × easy+hard; chưa tính lại) | 50 | 60 token | 0.02 | 0.02 |
 |  |  | 800 token | 0.04 | 0.03 |
 | Thật, chỉ hard | 300 | 60 token | 0.09 | 0.11 |
 |  |  | 800 token | 0.20 | 0.18 |

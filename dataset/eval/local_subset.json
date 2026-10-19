@@ -1,439 +1,746 @@
 {
   "split": "D/test",
   "seed": 42,
-  "relations": [
-    "P54",
-    "P39",
-    "P26",
-    "P108",
-    "P69"
+  "group_by": "domain",
+  "groups": [
+    "business",
+    "sports",
+    "career",
+    "person",
+    "politics",
+    "place",
+    "media_arts",
+    "military"
   ],
-  "per_relation": 5,
-  "n_cases": 25,
+  "per_group": 5,
+  "n_cases": 40,
   "page_ids": [
+    "/wiki/1_Hanover_Square",
+    "/wiki/Air_Armament_Center",
+    "/wiki/Alliance_of_Small_Island_States",
     "/wiki/André_Schembri",
-    "/wiki/Arnulf_Øverland",
-    "/wiki/Bengt_Holmström",
-    "/wiki/Cheryl_Tiegs",
-    "/wiki/Eliot_Engel",
-    "/wiki/Helen_Clark",
-    "/wiki/Jeff_Goldblum",
-    "/wiki/John_Campbell_Brown",
-    "/wiki/Laurette_Onkelinx",
-    "/wiki/Lee_Nogan",
-    "/wiki/Monir_Shahroudy_Farmanfarmaian",
-    "/wiki/Nik_Stauskas",
-    "/wiki/Pinchas_Zukerman",
-    "/wiki/Roma_Mitchell",
+    "/wiki/Atlético_Madrid",
+    "/wiki/Attaphol_Buspakom",
+    "/wiki/Beugró",
+    "/wiki/Casus_Belli_(magazine)",
+    "/wiki/Central_European_University",
+    "/wiki/Charles_Holden",
+    "/wiki/Chicago_Stadium",
+    "/wiki/Condor_(airline)",
+    "/wiki/David_Morgan_(art_historian)",
+    "/wiki/FC_Flora",
+    "/wiki/First_Air_Group",
+    "/wiki/Frederick_Ralph_Sharp",
+    "/wiki/Garnidelia",
+    "/wiki/Gerhard_Schröder",
+    "/wiki/Ghaziabad",
+    "/wiki/Hugh_Scott",
+    "/wiki/Humongous_Entertainment",
+    "/wiki/International_Mathematical_Union",
+    "/wiki/Jean_Lassalle",
+    "/wiki/Lisa_Marie_Presley",
+    "/wiki/Lotte_Reiniger",
+    "/wiki/New_Orleans_Baby_Cakes",
+    "/wiki/Phil_Twyford",
+    "/wiki/Pskov",
     "/wiki/Rui_Vitória",
-    "/wiki/Ruud_Lubbers",
-    "/wiki/Sarah_Bond",
-    "/wiki/Steve_Sidwell",
-    "/wiki/Tomer_Hemed"
+    "/wiki/Southern_Military_District_(Milo_S)",
+    "/wiki/Steele_Hall",
+    "/wiki/The_News_Quiz",
+    "/wiki/Tomer_Hemed",
+    "/wiki/Vista_House",
+    "/wiki/Volvo_9700",
+    "/wiki/William_B._Umstead",
+    "/wiki/Zambia"
   ],
   "cases": [
     {
-      "idx": "/wiki/André_Schembri#P54#1",
+      "idx": "/wiki/1_Hanover_Square#P1435#0",
+      "page_id": "/wiki/1_Hanover_Square",
+      "relation": "P1435",
+      "domain": "place",
+      "question_hard": "1 Hanover Square had what as its designated heritage spot before Aug 1968?",
+      "question_easy": "1 Hanover Square had what as its designated heritage spot from Dec 1965 to 1972?",
+      "targets": [
+        "a city landmark by the New York City Landmarks Preservation Commission ( LPC )"
+      ],
+      "time_start": "Dec 1965",
+      "time_end": "Jan 1972",
+      "gold_chunk_ids": [
+        "/wiki/1_Hanover_Square#5"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Air_Armament_Center#P1448#1",
+      "page_id": "/wiki/Air_Armament_Center",
+      "relation": "P1448",
+      "domain": "person",
+      "question_hard": "The Air Armament Center had been officially named what in Oct 1944?",
+      "question_easy": "The Air Armament Center had been officially named what from Oct 1943 to Jun 1945?",
+      "targets": [
+        "Army Air Forces Tactical Center"
+      ],
+      "time_start": "Oct 1943",
+      "time_end": "Jun 1945",
+      "gold_chunk_ids": [
+        "/wiki/Air_Armament_Center#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Alliance_of_Small_Island_States#P488#2",
+      "page_id": "/wiki/Alliance_of_Small_Island_States",
+      "relation": "P488",
+      "domain": "business",
+      "question_hard": "The intergovernmental Alliance of Small Island States had which person chairing it in Jun 2003?",
+      "question_easy": "The intergovernmental Alliance of Small Island States had which person chairing it from 2002 to 2005?",
+      "targets": [
+        "Jagdish Koonjul"
+      ],
+      "time_start": "2002",
+      "time_end": "2005",
+      "gold_chunk_ids": [
+        "/wiki/Alliance_of_Small_Island_States#24"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/André_Schembri#P54#5",
       "page_id": "/wiki/André_Schembri",
       "relation": "P54",
-      "question_hard": "Maltese footballer André Schembri was on what team between Dec 2005 and Sep 2006?",
-      "question_easy": "Maltese footballer André Schembri was on what team from 2005 to 2007?",
+      "domain": "sports",
+      "question_hard": "What team had Maltese footballer André Schembri on it between Mar 2010 and Aug 2010?",
+      "question_easy": "What team had Maltese footballer André Schembri on it from 2010 to 2011?",
       "targets": [
-        "Marsaxlokk"
+        "Ferencváros"
       ],
-      "time_start": "2005",
-      "time_end": "2007",
+      "time_start": "2010",
+      "time_end": "2011",
       "gold_chunk_ids": [
         "/wiki/André_Schembri#1"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/André_Schembri#P54#7",
-      "page_id": "/wiki/André_Schembri",
+      "idx": "/wiki/Atlético_Madrid#P286#2",
+      "page_id": "/wiki/Atlético_Madrid",
+      "relation": "P286",
+      "domain": "sports",
+      "question_hard": "Who was football team Atletico Madrid's coach in Sep 1998?",
+      "question_easy": "Who was football team Atletico Madrid's coach from Jul 1998 to Feb 1999?",
+      "targets": [
+        "Arrigo Sacchi"
+      ],
+      "time_start": "Jul 1998",
+      "time_end": "Feb 1999",
+      "gold_chunk_ids": [
+        "/wiki/Atlético_Madrid#38"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Attaphol_Buspakom#P54#3",
+      "page_id": "/wiki/Attaphol_Buspakom",
       "relation": "P54",
-      "question_hard": "Maltese footballer André Schembri was on what team between Mar 2013 and Nov 2013?",
-      "question_easy": "Maltese footballer André Schembri was on what team from 2012 to 2014?",
+      "domain": "sports",
+      "question_hard": "Buspakom was a member of what sports team between Mar 1994 and Nov 1994?",
+      "question_easy": "Buspakom was a member of what sports team from 1994 to 1996?",
       "targets": [
-        "Omonia"
+        "Pahang FA",
+        "Thailand national football team"
       ],
-      "time_start": "2012",
-      "time_end": "2014",
+      "time_start": "1994",
+      "time_end": "1996",
       "gold_chunk_ids": [
-        "/wiki/André_Schembri#2"
+        "/wiki/Attaphol_Buspakom#0",
+        "/wiki/Attaphol_Buspakom#1"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Arnulf_Øverland#P26#1",
-      "page_id": "/wiki/Arnulf_Øverland",
-      "relation": "P26",
-      "question_hard": "Who was the life partner of Norwegian artist Øverland between Sep 1943 and May 1944?",
-      "question_easy": "Who was the life partner of Norwegian artist Øverland from Feb 1940 to 1945?",
+      "idx": "/wiki/Beugró#P449#4",
+      "page_id": "/wiki/Beugró",
+      "relation": "P449",
+      "domain": "media_arts",
+      "question_hard": "Hungarian comedy show Beugró was shown on what channel in Jun 2018?",
+      "question_easy": "Hungarian comedy show Beugró was shown on what channel from Oct 2017 to Oct 2018?",
       "targets": [
-        "Bartholine Eufemia Leganger"
+        "RTL II"
       ],
-      "time_start": "Feb 1940",
-      "time_end": "1945",
+      "time_start": "Oct 2017",
+      "time_end": "Oct 2018",
       "gold_chunk_ids": [
-        "/wiki/Arnulf_Øverland#6"
+        "/wiki/Beugró#1"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Arnulf_Øverland#P26#2",
-      "page_id": "/wiki/Arnulf_Øverland",
-      "relation": "P26",
-      "question_hard": "Which Norwegian resistance member was the wife of Norwegian artist Øverland between Jan 1957 and May 1967?",
-      "question_easy": "Which Norwegian resistance member was the wife of Norwegian artist Øverland from Jun 1945 to 1968?",
+      "idx": "/wiki/Casus_Belli_(magazine)#P123#0",
+      "page_id": "/wiki/Casus_Belli_(magazine)",
+      "relation": "P123",
+      "domain": "media_arts",
+      "question_hard": "The magazine named Casus Belli was published by which company between Sep 1988 and Apr 1996?",
+      "question_easy": "The magazine named Casus Belli was published by which company from 1982 to 1999?",
       "targets": [
-        "Margrete Aamot Øverland"
+        "Excelsior Publications"
       ],
-      "time_start": "Jun 1945",
-      "time_end": "1968",
+      "time_start": "1982",
+      "time_end": "1999",
       "gold_chunk_ids": [
-        "/wiki/Arnulf_Øverland#6"
+        "/wiki/Casus_Belli_(magazine)#0"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Bengt_Holmström#P108#2",
-      "page_id": "/wiki/Bengt_Holmström",
-      "relation": "P108",
-      "question_hard": "Which university employed Finnish economist Holmström between Oct 1979 and Feb 1981?",
-      "question_easy": "Which university employed Finnish economist Holmström from 1979 to 1983?",
+      "idx": "/wiki/Central_European_University#P1075#0",
+      "page_id": "/wiki/Central_European_University",
+      "relation": "P1075",
+      "domain": "career",
+      "question_hard": "Austria's private research Central European University had what rector before Nov 1992?",
+      "question_easy": "Austria's private research Central European University had what rector from 1991 to 1993?",
       "targets": [
-        "Northwestern University"
-      ],
-      "time_start": "1979",
-      "time_end": "1983",
-      "gold_chunk_ids": [
-        "/wiki/Bengt_Holmström#3"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Cheryl_Tiegs#P26#2",
-      "page_id": "/wiki/Cheryl_Tiegs",
-      "relation": "P26",
-      "question_hard": "Who was Cheryl Tiegs married to after Dec 1998?",
-      "question_easy": "Who was Cheryl Tiegs married to from 1998 to 2001?",
-      "targets": [
-        "Rod Stryker"
-      ],
-      "time_start": "1998",
-      "time_end": "2001",
-      "gold_chunk_ids": [
-        "/wiki/Cheryl_Tiegs#15"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Eliot_Engel#P69#0",
-      "page_id": "/wiki/Eliot_Engel",
-      "relation": "P69",
-      "question_hard": "Where did the politician Eliot Engel receive education in Apr 1968?",
-      "question_easy": "Where did the politician Eliot Engel receive education from 1968 to 1969?",
-      "targets": [
-        "Hunter-Lehman College of the City University of New York"
-      ],
-      "time_start": "1968",
-      "time_end": "1969",
-      "gold_chunk_ids": [
-        "/wiki/Eliot_Engel#3"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Eliot_Engel#P69#1",
-      "page_id": "/wiki/Eliot_Engel",
-      "relation": "P69",
-      "question_hard": "between Aug 1972 and Oct 1972, at what college did U.S. Representative Eliot Engel study at?",
-      "question_easy": "from 1969 to 1973, at what college did U.S. Representative Eliot Engel study at?",
-      "targets": [
-        "Lehman College"
-      ],
-      "time_start": "1969",
-      "time_end": "1973",
-      "gold_chunk_ids": [
-        "/wiki/Eliot_Engel#3"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Helen_Clark#P39#2",
-      "page_id": "/wiki/Helen_Clark",
-      "relation": "P39",
-      "question_hard": "In the period of time between Jul 1995 and Mar 1998, what was New Zealand politician Clark's governmental position?",
-      "question_easy": "In the period of time from Dec 1993 to Dec 1999, what was New Zealand politician Clark's governmental position?",
-      "targets": [
-        "Leader of the Opposition"
-      ],
-      "time_start": "Dec 1993",
-      "time_end": "Dec 1999",
-      "gold_chunk_ids": [
-        "/wiki/Helen_Clark#2"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Helen_Clark#P39#4",
-      "page_id": "/wiki/Helen_Clark",
-      "relation": "P39",
-      "question_hard": "What role did New Zealand's fifth-longest-serving prime minister take after Dec 2009?",
-      "question_easy": "What role did New Zealand's fifth-longest-serving prime minister take from Apr 2009 to Apr 2010?",
-      "targets": [
-        "Administrator of the United Nations Development Programme"
-      ],
-      "time_start": "Apr 2009",
-      "time_end": "Apr 2010",
-      "gold_chunk_ids": [
-        "/wiki/Helen_Clark#0"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Jeff_Goldblum#P26#0",
-      "page_id": "/wiki/Jeff_Goldblum",
-      "relation": "P26",
-      "question_hard": "American actor Jeff Goldblum had which wife before Feb 1989?",
-      "question_easy": "American actor Jeff Goldblum had which wife from Nov 1987 to Oct 1990?",
-      "targets": [
-        "Geena Davis"
-      ],
-      "time_start": "Nov 1987",
-      "time_end": "Oct 1990",
-      "gold_chunk_ids": [
-        "/wiki/Jeff_Goldblum#20"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/John_Campbell_Brown#P108#2",
-      "page_id": "/wiki/John_Campbell_Brown",
-      "relation": "P108",
-      "question_hard": "For wgich university did ohn campbell brown work as an employer during the year 1998 to 2019?",
-      "question_easy": "For wgich university did ohn campbell brown work as an employer during the year 1998 to 2019?",
-      "targets": [
-        "University of Aberdeen"
-      ],
-      "time_start": "1998",
-      "time_end": "2019",
-      "gold_chunk_ids": [
-        "/wiki/John_Campbell_Brown#6"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Laurette_Onkelinx#P39#1",
-      "page_id": "/wiki/Laurette_Onkelinx",
-      "relation": "P39",
-      "question_hard": "Belgian politician Laurette Onkelinx had which political role in Oct 2007?",
-      "question_easy": "Belgian politician Laurette Onkelinx had which political role from Jul 2003 to Dec 2007?",
-      "targets": [
-        "Deputy Prime Minister and Minister of Justice ( July 2003 – December 2007 )"
-      ],
-      "time_start": "Jul 2003",
-      "time_end": "Dec 2007",
-      "gold_chunk_ids": [
-        "/wiki/Laurette_Onkelinx#15"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Laurette_Onkelinx#P39#2",
-      "page_id": "/wiki/Laurette_Onkelinx",
-      "relation": "P39",
-      "question_hard": "Belgian politician Laurette Onkelinx occupied which political role in early 2010s?",
-      "question_easy": "Belgian politician Laurette Onkelinx occupied which political role from Dec 2007 to Oct 2014?",
-      "targets": [
-        "Minister of Social Affairs and Public Health ( December 2007 – October 2014 )"
-      ],
-      "time_start": "Dec 2007",
-      "time_end": "Oct 2014",
-      "gold_chunk_ids": [
-        "/wiki/Laurette_Onkelinx#15"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Lee_Nogan#P54#1",
-      "page_id": "/wiki/Lee_Nogan",
-      "relation": "P54",
-      "question_hard": "Lee Nogan played for what football team in Nov 1993?",
-      "question_easy": "Lee Nogan played for what football team from 1991 to 1995?",
-      "targets": [
-        "Watford"
+        "William Newton-Smith"
       ],
       "time_start": "1991",
-      "time_end": "1995",
+      "time_end": "1993",
       "gold_chunk_ids": [
-        "/wiki/Lee_Nogan#7"
+        "/wiki/Central_European_University#6"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Monir_Shahroudy_Farmanfarmaian#P69#0",
-      "page_id": "/wiki/Monir_Shahroudy_Farmanfarmaian",
-      "relation": "P69",
-      "question_hard": "Which university did monir shahroudy farmanfarmaian an iranian artist attend in Mar 1945?",
-      "question_easy": "Which university did monir shahroudy farmanfarmaian an iranian artist attend from 1944 to 1946?",
+      "idx": "/wiki/Central_European_University#P1075#1",
+      "page_id": "/wiki/Central_European_University",
+      "relation": "P1075",
+      "domain": "career",
+      "question_hard": "Austria's private research Central European University had which rector in Oct 1995?",
+      "question_easy": "Austria's private research Central European University had which rector from 1993 to 1996?",
       "targets": [
-        "University of Tehran at the Faculty of Fine Art"
+        "Monica Macovei"
       ],
-      "time_start": "1944",
-      "time_end": "1946",
+      "time_start": "1993",
+      "time_end": "1996",
       "gold_chunk_ids": [
-        "/wiki/Monir_Shahroudy_Farmanfarmaian#2"
+        "/wiki/Central_European_University#62"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Nik_Stauskas#P69#0",
-      "page_id": "/wiki/Nik_Stauskas",
-      "relation": "P69",
-      "question_hard": "Which secondary school did Canadian pro basketballer Nik Stauskas attend in Jan 2008?",
-      "question_easy": "Which secondary school did Canadian pro basketballer Nik Stauskas attend from 2008 to 2009?",
+      "idx": "/wiki/Charles_Holden#P800#4",
+      "page_id": "/wiki/Charles_Holden",
+      "relation": "P800",
+      "domain": "media_arts",
+      "question_hard": "Which station did the architect Holden design between Dec 1931 and Dec 1931?",
+      "question_easy": "Which station did the architect Holden design from 1931 to 1932?",
       "targets": [
-        "Loyola Catholic Secondary School"
+        "Arnos Grove station"
       ],
-      "time_start": "2008",
-      "time_end": "2009",
+      "time_start": "1931",
+      "time_end": "1932",
       "gold_chunk_ids": [
-        "/wiki/Nik_Stauskas#2"
+        "/wiki/Charles_Holden#45"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Nik_Stauskas#P69#3",
-      "page_id": "/wiki/Nik_Stauskas",
-      "relation": "P69",
-      "question_hard": "What college did basketballer Nik Stauskas go to between Jan 2013 and Sep 2013?",
-      "question_easy": "What college did basketballer Nik Stauskas go to from 2012 to 2014?",
+      "idx": "/wiki/Chicago_Stadium#P466#2",
+      "page_id": "/wiki/Chicago_Stadium",
+      "relation": "P466",
+      "domain": "place",
+      "question_hard": "The Illinois indoor arena known as Chicago Stadium let which team or teams use it after Aug 1979?",
+      "question_easy": "The Illinois indoor arena known as Chicago Stadium let which team or teams use it from 1967 to 1988?",
       "targets": [
-        "Michigan"
+        "Chicago Bulls",
+        "Chicago Blackhawks"
       ],
-      "time_start": "2012",
-      "time_end": "2014",
+      "time_start": "1967",
+      "time_end": "1988",
       "gold_chunk_ids": [
-        "/wiki/Nik_Stauskas#0"
+        "/wiki/Chicago_Stadium#1"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Pinchas_Zukerman#P26#1",
-      "page_id": "/wiki/Pinchas_Zukerman",
+      "idx": "/wiki/Condor_(airline)#P749#1",
+      "page_id": "/wiki/Condor_(airline)",
+      "relation": "P749",
+      "domain": "business",
+      "question_hard": "The German charter airline Condor had who as its owner in Jan 2018?",
+      "question_easy": "The German charter airline Condor had who as its owner from 2006 to 2020?",
+      "targets": [
+        "Thomas Cook AG",
+        "Thomas Cook Group"
+      ],
+      "time_start": "2006",
+      "time_end": "2020",
+      "gold_chunk_ids": [
+        "/wiki/Condor_(airline)#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/David_Morgan_(art_historian)#P69#1",
+      "page_id": "/wiki/David_Morgan_(art_historian)",
+      "relation": "P69",
+      "domain": "career",
+      "question_hard": "David Morgan studied at which school between Nov 1981 and Jun 1988?",
+      "question_easy": "David Morgan studied at which school from 1980 to 1990?",
+      "targets": [
+        "University of Chicago"
+      ],
+      "time_start": "1980",
+      "time_end": "1990",
+      "gold_chunk_ids": [
+        "/wiki/David_Morgan_(art_historian)#1"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/FC_Flora#P286#2",
+      "page_id": "/wiki/FC_Flora",
+      "relation": "P286",
+      "domain": "sports",
+      "question_hard": "The Estonian team of Flora Tallinn had which coach between Aug 2019 and Aug 2019?",
+      "question_easy": "The Estonian team of Flora Tallinn had which coach from Aug 2018 to Aug 2019?",
+      "targets": [
+        "Jürgen Henn"
+      ],
+      "time_start": "Aug 2018",
+      "time_end": "Aug 2019",
+      "gold_chunk_ids": [
+        "/wiki/FC_Flora#14"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/First_Air_Group#P4791#2",
+      "page_id": "/wiki/First_Air_Group",
+      "relation": "P4791",
+      "domain": "military",
+      "question_hard": "The First Air Group had what man commanding it in early 1960s?",
+      "question_easy": "The First Air Group had what man commanding it from 1952 to 1964?",
+      "targets": [
+        "Björn Bjuggren"
+      ],
+      "time_start": "1952",
+      "time_end": "1964",
+      "gold_chunk_ids": [
+        "/wiki/First_Air_Group#11"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/First_Air_Group#P4791#3",
+      "page_id": "/wiki/First_Air_Group",
+      "relation": "P4791",
+      "domain": "military",
+      "question_hard": "The First Air Group had what man commanding it between Apr 1965 and Nov 1965?",
+      "question_easy": "The First Air Group had what man commanding it from 1964 to 1966?",
+      "targets": [
+        "Stig Norén"
+      ],
+      "time_start": "1964",
+      "time_end": "1966",
+      "gold_chunk_ids": [
+        "/wiki/First_Air_Group#11"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Frederick_Ralph_Sharp#P410#2",
+      "page_id": "/wiki/Frederick_Ralph_Sharp",
+      "relation": "P410",
+      "domain": "military",
+      "question_hard": "Frederick Ralph Sharp enjoyed the rank of what in the military between Dec 1969 and 1970?",
+      "question_easy": "Frederick Ralph Sharp enjoyed the rank of what in the military from 1969 to 1970?",
+      "targets": [
+        "General"
+      ],
+      "time_start": "1969",
+      "time_end": "1970",
+      "gold_chunk_ids": [
+        "/wiki/Frederick_Ralph_Sharp#8"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Garnidelia#P264#2",
+      "page_id": "/wiki/Garnidelia",
+      "relation": "P264",
+      "domain": "media_arts",
+      "question_hard": "The Japanese pop rock duo Garnidelia were part of what record label in Mar 2017?",
+      "question_easy": "The Japanese pop rock duo Garnidelia were part of what record label from 2017 to 2018?",
+      "targets": [
+        "Sacra Music"
+      ],
+      "time_start": "2017",
+      "time_end": "2018",
+      "gold_chunk_ids": [
+        "/wiki/Garnidelia#6"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Gerhard_Schröder#P26#0",
+      "page_id": "/wiki/Gerhard_Schröder",
       "relation": "P26",
-      "question_hard": "Israeli-American violinist Pinchas Zukerman was married to what wife between Oct 1993 and Jun 1994?",
-      "question_easy": "Israeli-American violinist Pinchas Zukerman was married to what wife from 1985 to 1998?",
+      "domain": "person",
+      "question_hard": "What was the name of Schröder's first wife, to whom he was married froms 1968 to 1972?",
+      "question_easy": "What was the name of Schröder's first wife, to whom he was married froms 1968 to 1972?",
       "targets": [
-        "Tuesday Weld"
+        "Eva Schubach"
+      ],
+      "time_start": "1968",
+      "time_end": "1972",
+      "gold_chunk_ids": [
+        "/wiki/Gerhard_Schröder#78"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Ghaziabad#P17#1",
+      "page_id": "/wiki/Ghaziabad",
+      "relation": "P17",
+      "domain": "place",
+      "question_hard": "The city of Ghaziabad was ruled by who between Apr 1940 and Jul 1947?",
+      "question_easy": "The city of Ghaziabad was ruled by who from Jun 1858 to Aug 1947?",
+      "targets": [
+        "British Raj"
+      ],
+      "time_start": "Jun 1858",
+      "time_end": "Aug 1947",
+      "gold_chunk_ids": [
+        "/wiki/Ghaziabad#4"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Hugh_Scott#P106#1",
+      "page_id": "/wiki/Hugh_Scott",
+      "relation": "P106",
+      "domain": "career",
+      "question_hard": "The American Hugh Doggett Scott Jr. worked as what in late 1920s?",
+      "question_easy": "The American Hugh Doggett Scott Jr. worked as what from 1926 to 1938?",
+      "targets": [
+        "assistant district attorney"
+      ],
+      "time_start": "1926",
+      "time_end": "1938",
+      "gold_chunk_ids": [
+        "/wiki/Hugh_Scott#9"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Humongous_Entertainment#P749#2",
+      "page_id": "/wiki/Humongous_Entertainment",
+      "relation": "P749",
+      "domain": "business",
+      "question_hard": "Who was in charge of Humongous Entertainment in Sep 2013?",
+      "question_easy": "Who was in charge of Humongous Entertainment from Jul 2013 to Jul 2014?",
+      "targets": [
+        "Tommo"
+      ],
+      "time_start": "Jul 2013",
+      "time_end": "Jul 2014",
+      "gold_chunk_ids": [
+        "/wiki/Humongous_Entertainment#10"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/International_Mathematical_Union#P488#7",
+      "page_id": "/wiki/International_Mathematical_Union",
+      "relation": "P488",
+      "domain": "business",
+      "question_hard": "The IMU was chaired by which person after Nov 1983?",
+      "question_easy": "The IMU was chaired by which person from 1983 to 1986?",
+      "targets": [
+        "Jürgen Moser"
+      ],
+      "time_start": "1983",
+      "time_end": "1986",
+      "gold_chunk_ids": [
+        "/wiki/International_Mathematical_Union#25"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Jean_Lassalle#P102#2",
+      "page_id": "/wiki/Jean_Lassalle",
+      "relation": "P102",
+      "domain": "politics",
+      "question_hard": "The French politician Jean Lassalle was a member of what party after Feb 2017?",
+      "question_easy": "The French politician Jean Lassalle was a member of what party from Aug 2016 to Aug 2017?",
+      "targets": [
+        "Résistons"
+      ],
+      "time_start": "Aug 2016",
+      "time_end": "Aug 2017",
+      "gold_chunk_ids": [
+        "/wiki/Jean_Lassalle#0"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Lisa_Marie_Presley#P26#0",
+      "page_id": "/wiki/Lisa_Marie_Presley",
+      "relation": "P26",
+      "domain": "person",
+      "question_hard": "Lisa Marie Presley was married to which man in early 1990s?",
+      "question_easy": "Lisa Marie Presley was married to which man from Oct 1988 to May 1994?",
+      "targets": [
+        "Danny Keough"
+      ],
+      "time_start": "Oct 1988",
+      "time_end": "May 1994",
+      "gold_chunk_ids": [
+        "/wiki/Lisa_Marie_Presley#43"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Lotte_Reiniger#P551#3",
+      "page_id": "/wiki/Lotte_Reiniger",
+      "relation": "P551",
+      "domain": "person",
+      "question_hard": "Film director Lotte Reiniger resided in which location between Feb 1970 and Nov 1972?",
+      "question_easy": "Film director Lotte Reiniger resided in which location from 1948 to 1980?",
+      "targets": [
+        "London"
+      ],
+      "time_start": "1948",
+      "time_end": "1980",
+      "gold_chunk_ids": [
+        "/wiki/Lotte_Reiniger#21"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/New_Orleans_Baby_Cakes#P1448#2",
+      "page_id": "/wiki/New_Orleans_Baby_Cakes",
+      "relation": "P1448",
+      "domain": "person",
+      "question_hard": "When most of the Baby Cakes were being made in New Orleans, what was their official name in late 1980s?",
+      "question_easy": "When most of the Baby Cakes were being made in New Orleans, what was their official name from 1985 to 1992?",
+      "targets": [
+        "Denver Zephyrs"
       ],
       "time_start": "1985",
-      "time_end": "1998",
+      "time_end": "1992",
       "gold_chunk_ids": [
-        "/wiki/Pinchas_Zukerman#7"
+        "/wiki/New_Orleans_Baby_Cakes#1"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Roma_Mitchell#P39#2",
-      "page_id": "/wiki/Roma_Mitchell",
+      "idx": "/wiki/Phil_Twyford#P39#0",
+      "page_id": "/wiki/Phil_Twyford",
       "relation": "P39",
-      "question_hard": "Roma Mitchell had what job in Apr 1996?",
-      "question_easy": "Roma Mitchell had what job from Feb 1991 to Jul 1996?",
+      "domain": "politics",
+      "question_hard": "Which political role was Phil Twyford chosen to take in Jul 2017?",
+      "question_easy": "Which political role was Phil Twyford chosen to take from Oct 2014 to Aug 2017?",
       "targets": [
-        "Governor of South Australia"
+        "Labour Spokesperson for Housing and Auckland Issues , and Associate Spokesperson for the Environment"
       ],
-      "time_start": "Feb 1991",
-      "time_end": "Jul 1996",
+      "time_start": "Oct 2014",
+      "time_end": "Aug 2017",
       "gold_chunk_ids": [
-        "/wiki/Roma_Mitchell#5"
+        "/wiki/Phil_Twyford#6"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Rui_Vitória#P108#4",
+      "idx": "/wiki/Pskov#P17#3",
+      "page_id": "/wiki/Pskov",
+      "relation": "P17",
+      "domain": "place",
+      "question_hard": "Name the country that the capital of the Pskov Republic called as Pskov has been belonged to after May 1990?",
+      "question_easy": "Name the country that the capital of the Pskov Republic called as Pskov has been belonged to from Mar 1918 to Dec 1992?",
+      "targets": [
+        "Russia"
+      ],
+      "time_start": "Mar 1918",
+      "time_end": "Dec 1992",
+      "gold_chunk_ids": [
+        "/wiki/Pskov#0"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Rui_Vitória#P108#2",
       "page_id": "/wiki/Rui_Vitória",
       "relation": "P108",
-      "question_hard": "Portuguese Rui Vitória was employed where between Jul 2013 and Apr 2014?",
-      "question_easy": "Portuguese Rui Vitória was employed where from 2011 to 2015?",
+      "domain": "career",
+      "question_hard": "Portuguese Rui Vitória was employed where in late 2000s?",
+      "question_easy": "Portuguese Rui Vitória was employed where from 2006 to 2010?",
       "targets": [
-        "Vitória de Guimarães"
+        "Fátima"
       ],
-      "time_start": "2011",
-      "time_end": "2015",
+      "time_start": "2006",
+      "time_end": "2010",
       "gold_chunk_ids": [
-        "/wiki/Rui_Vitória#4"
+        "/wiki/Rui_Vitória#2"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Ruud_Lubbers#P108#1",
-      "page_id": "/wiki/Ruud_Lubbers",
-      "relation": "P108",
-      "question_hard": "between Jan 1998 and Apr 2000, who did Dutch politician Lubbers work for?",
-      "question_easy": "from 1995 to 2001, who did Dutch politician Lubbers work for?",
+      "idx": "/wiki/Southern_Military_District_(Milo_S)#P4791#2",
+      "page_id": "/wiki/Southern_Military_District_(Milo_S)",
+      "relation": "P4791",
+      "domain": "military",
+      "question_hard": "The Milo S Southern Military District had which person commanding it between Sep 1948 and Aug 1951?",
+      "question_easy": "The Milo S Southern Military District had which person commanding it from 1948 to 1953?",
       "targets": [
-        "Tilburg University",
-        "Harvard University"
+        "Samuel Åkerhielm"
       ],
-      "time_start": "1995",
-      "time_end": "2001",
+      "time_start": "1948",
+      "time_end": "1953",
       "gold_chunk_ids": [
-        "/wiki/Ruud_Lubbers#5"
+        "/wiki/Southern_Military_District_(Milo_S)#22"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Sarah_Bond#P108#2",
-      "page_id": "/wiki/Sarah_Bond",
-      "relation": "P108",
-      "question_hard": "Sarah Bond was employed by who in May 2014?",
-      "question_easy": "Sarah Bond was employed by who from 2014 to 2015?",
+      "idx": "/wiki/Southern_Military_District_(Milo_S)#P4791#5",
+      "page_id": "/wiki/Southern_Military_District_(Milo_S)",
+      "relation": "P4791",
+      "domain": "military",
+      "question_hard": "The Milo S Southern Military District had which person commanding it in Jun 1964?",
+      "question_easy": "The Milo S Southern Military District had which person commanding it from 1963 to 1966?",
       "targets": [
-        "University of Iowa"
+        "Tage Olihn"
       ],
-      "time_start": "2014",
-      "time_end": "2015",
+      "time_start": "1963",
+      "time_end": "1966",
       "gold_chunk_ids": [
-        "/wiki/Sarah_Bond#3"
+        "/wiki/Southern_Military_District_(Milo_S)#22"
       ],
       "flags": []
     },
     {
-      "idx": "/wiki/Steve_Sidwell#P54#5",
-      "page_id": "/wiki/Steve_Sidwell",
+      "idx": "/wiki/Steele_Hall#P102#1",
+      "page_id": "/wiki/Steele_Hall",
+      "relation": "P102",
+      "domain": "politics",
+      "question_hard": "Steele Hall had membership in what political party between Sep 1976 and Oct 1976?",
+      "question_easy": "Steele Hall had membership in what political party from 1976 to 1977?",
+      "targets": [
+        "Liberal Party"
+      ],
+      "time_start": "1976",
+      "time_end": "1977",
+      "gold_chunk_ids": [
+        "/wiki/Steele_Hall#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/The_News_Quiz#P371#1",
+      "page_id": "/wiki/The_News_Quiz",
+      "relation": "P371",
+      "domain": "media_arts",
+      "question_hard": "The News Quiz game had which person or people presenting it in Oct 1991?",
+      "question_easy": "The News Quiz game had which person or people presenting it from 1977 to 1995?",
+      "targets": [
+        "Barry Norman",
+        "Barry Took",
+        "Simon Hoggart"
+      ],
+      "time_start": "1977",
+      "time_end": "1995",
+      "gold_chunk_ids": [
+        "/wiki/The_News_Quiz#1"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Tomer_Hemed#P54#4",
+      "page_id": "/wiki/Tomer_Hemed",
       "relation": "P54",
-      "question_hard": "English footballer Steve Sidwell was part of what team in Jan 2013?",
-      "question_easy": "English footballer Steve Sidwell was part of what team from 2011 to 2014?",
+      "domain": "sports",
+      "question_hard": "Israeli footballer Tomer Hemed was part of what team in Jan 2012?",
+      "question_easy": "Israeli footballer Tomer Hemed was part of what team from 2011 to 2014?",
       "targets": [
-        "Fulham"
+        "Mallorca"
       ],
       "time_start": "2011",
       "time_end": "2014",
       "gold_chunk_ids": [
-        "/wiki/Steve_Sidwell#21"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/Tomer_Hemed#P54#5",
-      "page_id": "/wiki/Tomer_Hemed",
-      "relation": "P54",
-      "question_hard": "What team was Israeli footballer Tomer Hemed part of between Feb 2014 and Nov 2014?",
-      "question_easy": "What team was Israeli footballer Tomer Hemed part of from 2014 to 2015?",
-      "targets": [
-        "Almería"
-      ],
-      "time_start": "2014",
-      "time_end": "2015",
-      "gold_chunk_ids": [
-        "/wiki/Tomer_Hemed#7"
+        "/wiki/Tomer_Hemed#5"
       ],
       "flags": [
         "answer_in_heading"
       ]
+    },
+    {
+      "idx": "/wiki/Vista_House#P1435#0",
+      "page_id": "/wiki/Vista_House",
+      "relation": "P1435",
+      "domain": "place",
+      "question_hard": "The Vista House museum had what as its designated heritage spot between Mar 1979 and Jan 1982?",
+      "question_easy": "The Vista House museum had what as its designated heritage spot from Nov 1974 to Dec 1983?",
+      "targets": [
+        "the National Register of Historic Places"
+      ],
+      "time_start": "Nov 1974",
+      "time_end": "Dec 1983",
+      "gold_chunk_ids": [
+        "/wiki/Vista_House#10"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Volvo_9700#P176#3",
+      "page_id": "/wiki/Volvo_9700",
+      "relation": "P176",
+      "domain": "business",
+      "question_hard": "Which company made Volvo 9700s after Dec 2008?",
+      "question_easy": "Which company made Volvo 9700s from Sep 2008 to Sep 2009?",
+      "targets": [
+        "Volvo Polska"
+      ],
+      "time_start": "Sep 2008",
+      "time_end": "Sep 2009",
+      "gold_chunk_ids": [
+        "/wiki/Volvo_9700#3"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/William_B._Umstead#P39#2",
+      "page_id": "/wiki/William_B._Umstead",
+      "relation": "P39",
+      "domain": "politics",
+      "question_hard": "What become the placement of William B. Umstead between Mar 1938 and Aug 1938?",
+      "question_easy": "What become the placement of William B. Umstead from Mar 1933 to 1939?",
+      "targets": [
+        "United States House of Representatives"
+      ],
+      "time_start": "Mar 1933",
+      "time_end": "Jan 1939",
+      "gold_chunk_ids": [
+        "/wiki/William_B._Umstead#4"
+      ],
+      "flags": []
+    },
+    {
+      "idx": "/wiki/Zambia#P35#4",
+      "page_id": "/wiki/Zambia",
+      "relation": "P35",
+      "domain": "politics",
+      "question_hard": "Which politican became acting president of the land-locked Zambia in Oct 2014?",
+      "question_easy": "Which politican became acting president of the land-locked Zambia in Oct 2014?",
+      "targets": [
+        "Guy Scott"
+      ],
+      "time_start": "Oct 2014",
+      "time_end": "Jan 2015",
+      "gold_chunk_ids": [
+        "/wiki/Zambia#71"
+      ],
+      "flags": []
     }
   ]
 }

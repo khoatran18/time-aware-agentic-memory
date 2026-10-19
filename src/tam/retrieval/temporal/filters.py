@@ -22,4 +22,9 @@ def passes_hard_filter(chunk: Chunk, flt: VectorFilter) -> bool:
         return False
     if flt.exclude_invalidated and chunk.invalidated_at is not None:
         return False
-    return all(chunk.domain_features.get(key) == value for key, value in flt.facets.items())
+    return all(_facet_matches(chunk.domain_features.get(key), value) for key, value in flt.facets.items())
+
+
+def _facet_matches(have: object, want: str) -> bool:
+    """Facet của chunk có thể là một giá trị hoặc danh sách (domain có tới 3 nhãn): danh sách thì `want` nằm trong nó."""
+    return want in have if isinstance(have, list) else have == want

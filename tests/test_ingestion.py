@@ -108,7 +108,7 @@ def by_text(table):
             idx = int(block[1:block.index("]")])
             for key, (s, e, on) in table.items():
                 if key in block:
-                    items.append(ChunkTime(index=idx, start=s, end=e, ongoing=on))
+                    items.append(ChunkTime(index=idx, start=s, end=e, ongoing=on, ongoing_evidence=key if on else ""))
         return BatchTimes(items=items)
     return fn
 
@@ -158,7 +158,7 @@ def test_pipeline_counts_drops_and_dedups():
     table = {"born 1909": ("1909", "1976", False), "garbage": ("2010", "2005", False), "since 2012": ("2012", None, True)}
     stats, written = run([doc1, doc2], table)
     assert stats.to_dict() == {"docs": 2, "chunks_total": 5, "ingested": 2, "skipped_no_time": 1,
-                               "skipped_invalid_time": 1, "skipped_duplicate": 1}
+                               "skipped_invalid_time": 1, "skipped_llm_error": 0, "skipped_duplicate": 1}
     by_id = {c.chunk_id: c for c in written}
     assert set(by_id) == {"/wiki/Knox_Cunningham#0", "/wiki/Knox_Cunningham#3"}
     assert by_id["/wiki/Knox_Cunningham#0"].end_time == utc(1976, 12, 31)
@@ -178,3 +178,97 @@ def test_vector_sink_feeds_store_and_retrieval_sees_pre_1970():
     stats, _ = run([doc], {"prime minister": ("1955", "1957", False)}, sinks=[VectorSink(store)])
     assert stats.ingested == 1 and store.count() == 1
     assert store.chunks[0].start_time == utc(1955, 1, 1)
+
+
+def test_domain_labels_are_normalized_and_stored():
+    from tam.schemas.domains import normalize_domains
+
+    assert normalize_domains(["Sports", "sports", "weird", "career", "person", "politics"]) == ["sports", "career", "person"]
+    res = to_span(ChunkTime(index=0, start="2004", domain=["Politics", "x"]))
+    assert res.domains == ("politics",)
+
+
+def test_facet_matches_list_valued_domain():
+    from datetime import datetime, timezone
+
+    from tam.retrieval.temporal.filters import passes_hard_filter
+    from tam.schemas.chunk import Chunk
+    from tam.stores.vector.base import VectorFilter
+
+    t = datetime(2020, 1, 1, tzinfo=timezone.utc)
+    c = Chunk(chunk_id="a#0", text="x", source="s", start_time=t, domain_features={"domain": ["career", "person"]})
+    assert passes_hard_filter(c, VectorFilter(t_req=t, facets={"domain": "person"}))
+    assert not passes_hard_filter(c, VectorFilter(t_req=t, facets={"domain": "sports"}))
+
+
+def test_extractor_falls_back_to_text_json_with_markdown_fence():
+    class Msg:
+        content = '```json\n{"items": [{"index": 0, "start": "1999", "domain": ["sports"], "end": "2001"}]}\n```'
+
+    class BrokenChain:
+        def invoke(self, messages):
+            BatchTimes.model_validate_json("```json")  # ValidationError, như lỗi parse của proxy
+
+    class Llm:
+        def with_structured_output(self, schema):
+            return BrokenChain()
+
+        def invoke(self, messages):
+            return Msg()
+
+    doc = make_doc([("A", "x")])
+    res = TimeExtractor(Llm()).extract(doc.title, chunk_document(doc))
+    assert res[0].span is not None and res[0].domains == ("sports",)
+
+
+def test_parse_text_lowercases_keys():
+    from tam.llm.structured import parse_json_text
+
+    out = parse_json_text('{"items": [{"Index": 0, "start": "2000"}]}', BatchTimes)
+    assert out.items[0].index == 0
+
+
+def test_extractor_retries_then_marks_llm_error():
+    class Llm:
+        calls = 0
+
+        def with_structured_output(self, schema):
+            return self
+
+        def invoke(self, messages):
+            Llm.calls += 1
+            raise ValueError("bad json")
+
+    doc = make_doc([("A", "x")])
+    res = TimeExtractor(Llm(), max_attempts=2).extract(doc.title, chunk_document(doc))
+    assert res[0].reason == "llm_error" and Llm.calls == 4  # mỗi lần thử: structured + văn bản
+
+
+def test_ongoing_evidence_check():
+    from tam.ingestion.time_extraction import _norm, ongoing_evidence_ok
+
+    corpus = _norm("She has served as chair since 2012 , after joining in 2008 .")  # văn bản của chính chunk
+    assert ongoing_evidence_ok("since 2012", corpus)
+    assert ongoing_evidence_ok('"Since  2012"', corpus)          # khác hoa thường, khoảng trắng, dấu nháy
+    assert not ongoing_evidence_ok("", corpus)                   # không có bằng chứng
+    assert not ongoing_evidence_ok("until 2020", corpus)         # không nằm trong văn bản
+    assert not ongoing_evidence_ok("joining in 2008", corpus)    # có trong văn bản nhưng không phải dấu hiệu còn hiệu lực
+
+
+def test_extractor_downgrades_ongoing_without_evidence():
+    doc = make_doc([("A", "He joined the club in 2001 ."), ("B", "He is still at the club .")])
+    llm = FakeLLM(lambda m: BatchTimes(items=[
+        ChunkTime(index=0, start="2001", ongoing=True, ongoing_evidence="", reason_end_date="No end date mentioned"),
+        ChunkTime(index=1, start="2001", ongoing=True, ongoing_evidence="still at the club")]))
+    r0, r1 = TimeExtractor(llm).extract(doc.title, chunk_document(doc))
+    assert r0.ongoing_downgraded and not r0.ongoing
+    assert r0.span.end is not None  # về trạng thái "không biết": cuối kỳ của start, không phải NULL
+    assert r1.ongoing and not r1.ongoing_downgraded and r1.span.end is None
+    # bằng chứng lấy từ chunk khác của cùng trang vẫn được chấp nhận
+    llm2 = FakeLLM(lambda m: BatchTimes(items=[
+        ChunkTime(index=0, start="2001", ongoing=True, ongoing_evidence="still at the club")]))
+    assert not TimeExtractor(llm2).extract(doc.title, chunk_document(doc))[0].ongoing_downgraded
+    # bằng chứng không có ở đâu trong trang thì bị hạ
+    llm3 = FakeLLM(lambda m: BatchTimes(items=[
+        ChunkTime(index=0, start="2001", ongoing=True, ongoing_evidence="since 1999")]))
+    assert TimeExtractor(llm3).extract(doc.title, chunk_document(doc))[0].ongoing_downgraded

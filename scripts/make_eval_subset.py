@@ -12,10 +12,11 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from tam.evaluation.subset import build_subset
 
+# (nhóm theo, danh sách nhóm, số câu mỗi nhóm). local: 8 domain × 5 (bỏ `other`, chỉ 5 câu trên cả D/test); real: 15 relation × 20
 PRESETS = {
-    "local": (["P54", "P39", "P26", "P108", "P69"], 5),
-    "real": (["P54", "P488", "P39", "P108", "P127", "P26", "P1448", "P937", "P102", "P137", "P551", "P463", "P4791",
-              "P27", "P69"], 20),
+    "local": ("domain", ["business", "sports", "career", "person", "politics", "place", "media_arts", "military"], 5),
+    "real": ("relation", ["P54", "P488", "P39", "P108", "P127", "P26", "P1448", "P937", "P102", "P137", "P551", "P463",
+                          "P4791", "P27", "P69"], 20),
 }
 
 
@@ -28,8 +29,8 @@ def main() -> None:
     ap.add_argument("--out", default=None, help="mặc định dataset/eval/<subset>_subset.json")
     args = ap.parse_args()
 
-    relations, per_rel = PRESETS[args.subset]
-    data = build_subset(args.dataset_dir, relations=relations, per_relation=per_rel, seed=args.seed)
+    group_by, groups, per_group = PRESETS[args.subset]
+    data = build_subset(args.dataset_dir, group_by=group_by, groups=groups, per_group=per_group, seed=args.seed)
     out = Path(args.out) if args.out else ROOT / "dataset" / "eval" / f"{args.subset}_subset.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

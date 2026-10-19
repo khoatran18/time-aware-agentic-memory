@@ -144,7 +144,7 @@ Chunk bị bỏ ở bước 2 hoặc 5 **không bao giờ vào Qdrant** (bất b
 
 ## 6. Việc tiếp theo
 
-1. Script `scripts/ingest.py` và chạy thử ingestion + profiler với LLM thật trên bộ local (21 trang); xem tỉ lệ chunk bị bỏ vì không có mốc, sửa few-shot nếu sai.
+1. Script `scripts/ingest.py` và chạy thử ingestion + profiler với LLM thật trên bộ local (nay 37 trang, xem `06_EVAL_SUBSET.md`); xem tỉ lệ chunk bị bỏ vì không có mốc, sửa few-shot nếu sai.
 2. Chỉ số "tỉ lệ chunk đáp án còn sống sau ingestion": nhãn chunk đúng lấy từ `from`/`end` (vị trí ký tự trên `context`), cần ánh xạ sang đoạn của `paragraphs`.
 3. `generation/time_cot.py` (đưa `start_time`/`end_time` của chunk vào context), rồi LangGraph nấc A; chỗ lấy `T_now` (`datetime.now(timezone.utc)`) nằm ở node `profile` và `scripts/ask.py`.
 4. `baselines/plain_rag.py`, `runner`, EM/F1; chạy bộ local. Tinh chỉnh λ, W1/W2 trên mẫu `D/train`, tách khỏi `D/test` dùng báo cáo.

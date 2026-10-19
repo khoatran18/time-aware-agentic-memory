@@ -121,7 +121,7 @@ Có 4 ví dụ cũ (một chunk) và 5 ví dụ mới (nhiều chunk, cùng mộ
 4. Time-CoT phải ghi rõ "thông tin này không xác định được thời điểm".
 5. Báo cáo: tỉ lệ chunk đáp án còn trong kho time-aware, và tỉ lệ câu chỉ trả lời được nhờ nhóm không có mốc. Với plain RAG mọi chunk đều trả lời được nên so sánh công bằng cần ghi rõ phần coverage này.
 
-Cần sửa design: `Chunk.start_time` thành tùy chọn; bất biến "không có mốc thì không vào kho" thành "không vào nhánh time-aware". **Chưa quyết, chưa sửa.**
+Cần sửa design: `Chunk.start_time` thành tùy chọn; bất biến "không có mốc thì không vào kho" thành "không vào nhánh time-aware". **Chưa quyết, chưa sửa.** Đề xuất chi tiết hơn (nhánh `start_time = NULL`, điểm `T_unknown`): [`../decisions/04_UNDATED_CHUNKS.md`](../decisions/04_UNDATED_CHUNKS.md).
 
 ## 4. `Temporal_Score = 1` khi nào, và câu hỏi theo khoảng thời gian
 
@@ -253,7 +253,7 @@ Chi tiết ở `TOPICS.md`. Tóm tắt các quyết định:
 
 ## 7. Việc tiếp theo
 
-1. Chạy thử ingestion với LLM thật trên bộ local (21 trang): xem số chunk `no_time` sau khi sửa prompt, độ đúng của mốc suy luận (đã dặn ở process 04 mục 6, chưa làm).
+1. Chạy thử ingestion với LLM thật trên bộ local (nay 37 trang, xem `06_EVAL_SUBSET.md`): xem số chunk `no_time` sau khi sửa prompt, độ đúng của mốc suy luận (đã dặn ở process 04 mục 6, chưa làm).
 2. Script tạo nhãn `gold_chunk_ids` cho từng `idx` của bộ local và bộ thật (mục 2.4), kèm chỉ số "tỉ lệ chunk đáp án còn sống".
 3. Chốt mục 4 (khoảng thời gian) vì ảnh hưởng đến Profiler, scoring, metric và design.
 4. Chốt danh sách `domain`, rồi thêm `topics` vào `ChunkTime`, Profiler và `passes_hard_filter`.

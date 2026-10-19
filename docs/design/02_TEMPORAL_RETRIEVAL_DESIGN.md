@@ -96,6 +96,8 @@ VectorDB chạy **Hybrid Search** (Dense Vector cho ngữ nghĩa + Sparse/BM25 c
 
 1. **Loại tin giả:** `invalidated_at IS NULL`. Cơ chế 1 chỉ trả lời sự thật khách quan, nên chunk đã bị đánh dấu sai/bị lật đổ (`invalidated_at != NULL`) bị drop để LLM không bị ảo giác.
 2. **Chặn tương lai:** `start_time <= T_req`. Không lấy chunk bắt đầu sau thời điểm được hỏi.
+> ⚠️ **Cập nhật 2026-10-19 (xem [`../decisions/01_DOMAIN_AS_SOFT_BOOST.md`](../decisions/01_DOMAIN_AS_SOFT_BOOST.md)):** `domain` do LLM gán nên **không còn là lọc cứng**, chỉ cộng điểm ở bước 4. Mục 3 dưới đây là thiết kế cũ, còn dùng cho `country` và cho chế độ lọc cứng trong ablation. Chưa code.
+
 3. **Lọc đa chiều (Faceted Pre-filtering):** `AND` thêm các điều kiện từ `Metadata_Filters` (dựa trên index của `domain_features.domain`, `domain_features.country`). Bước này thu hẹp từ hàng triệu chunk xuống vài trăm **trước** khi tính vector, giúp nhanh hơn và tránh nhiễu từ văn bản khác lĩnh vực.
 
 #### Bước 3: Phân loại thời gian – Chunk nào đang có hiệu lực tại `T_req`?
@@ -112,6 +114,8 @@ Với mỗi chunk còn lại, kiểm tra `T_req` có nằm trong `[start_time, e
 Chunk của cả TH1 và TH2 được gộp lại và chấm điểm cuối bằng 2 thành phần:
 
 `Final_Score = W1 · Semantic_Score + W2 · Temporal_Score`
+
+> Cập nhật 2026-10-19 (chưa code): thêm `+ W3 · Domain_Match` (1 nếu nhãn `domain` của câu hỏi nằm trong nhãn chunk, ngược lại 0). Xem quyết định 01.
 
 **a) `Semantic_Score` – chunk có liên quan đến nội dung câu hỏi không?**
 Hybrid Search ở Bước 2 chạy 2 nhánh độc lập (Hard Filter được áp trong từng nhánh), mỗi nhánh trả về một danh sách chunk:

@@ -72,7 +72,7 @@ time-aware-agentic-memory/
 │   ├── baselines/
 │   │   └── plain_rag.py      #   PlainRagRetriever: dense-only, không filter, không temporal score
 │   └── evaluation/
-│       ├── timeqa_loader.py  #   bộ local 25 câu / bộ thật 300 câu (seed cố định, theo EVAL_PLAN)
+│       ├── timeqa_loader.py  #   bộ local 40 câu / bộ thật (kế hoạch cũ 300 câu, xem process/06) (seed cố định, theo EVAL_PLAN)
 │       ├── metrics_temporal.py #  CC1: Hit@k, MRR, leakage (sau: metrics_timeline.py, metrics_conflict.py); EM/F1, time slice thêm sau
 │       └── runner.py         #   chạy hệ thống + baseline trên cùng bộ câu
 ├── scripts/                  # ingest.py, ask.py, evaluate.py: mỏng, chỉ gọi vào tam.*
@@ -322,7 +322,7 @@ Chọn Qdrant vì design 02 đã dùng cú pháp Qdrant, hỗ trợ dense + spar
 | 1 | Khung thư mục, `pyproject`, `config` + `configs/config.*.yaml`, `config/logging.py`, `schemas`, docker-compose, `qdrant_store` (schema + 4 index) | #1 |
 | 2 | `scoring`, `fusion`, `filters` + unit test với fixture 3 bộ luật 2015/2018/2021 (hỏi 2020 phải ra 2018). **Làm trước, chưa cần LLM** | #3, #4, #5 |
 | 3 | `llm/` (registry, factory, 1–2 provider) + `profiler` + prompt tiêm `T_now`, test bằng đồng hồ giả ("tuần trước", "năm ngoái", "hiện tại") | #2 |
-| 4 | Ingestion TimeQA bộ local (21 trang) → hybrid search end-to-end → `time_cot` → LangGraph | — |
+| 4 | Ingestion TimeQA bộ local (37 trang) → hybrid search end-to-end → `time_cot` → LangGraph | — |
 | 5 | `plain_rag` baseline + `runner` + `metrics`; chạy bộ local; nếu kịp, bộ thật 300 câu | — |
 
 ## 6. Kiểm chứng và chiến lược test
@@ -331,7 +331,7 @@ Chọn Qdrant vì design 02 đã dùng cú pháp Qdrant, hỗ trợ dense + spar
 
 - `docker compose up -d qdrant`
 - `pytest tests/` xanh.
-- `python scripts/ingest.py --subset local` nạp 21 trang, in số chunk nạp / bỏ (không có mốc thời gian) / bỏ (hash trùng).
+- `python scripts/ingest.py --subset local` nạp 37 trang, in số chunk nạp / bỏ (không có mốc thời gian) / bỏ (hash trùng).
 - `python scripts/ask.py "Luật năm 2020 quy định gì?"` trả bản 2018 (TH2), không trả bản 2021 (chặn tương lai).
 - `python scripts/evaluate.py --subset local` in EM/F1 của hệ time-aware và baseline; log và kết quả nằm trong `output/<timestamp>/`.
 
