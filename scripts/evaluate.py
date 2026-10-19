@@ -46,6 +46,7 @@ def main() -> None:
     ap.add_argument("--w3", type=float, help="ghi đè retrieval.w3 (trọng số Domain_Match)")
     ap.add_argument("--end-mode", choices=list(END_MODES), help="ghi đè retrieval.end_mode: stored (C) | open (A) | decay (B)")
     ap.add_argument("--open-decay", type=float, help="ghi đè retrieval.open_decay (chỉ với --end-mode decay)")
+    ap.add_argument("--sparse-weight", type=float, help="ghi đè retrieval.sparse_weight: trọng số BM25 trong RRF (1 = thường, 0 = bỏ BM25, chỉ dense)")
     ap.add_argument("--neighbors", type=int, help="ghi đè retrieval.neighbor_window: số chunk liền kề mỗi phía lấy làm ngữ cảnh")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
@@ -68,6 +69,7 @@ def main() -> None:
         "open_decay": r.get("open_decay", 0.1) if args.open_decay is None else args.open_decay,
         "neighbor_window": r.get("neighbor_window", 0) if args.neighbors is None else args.neighbors,
         "t_unknown": r.get("t_unknown", None) if args.t_unknown is None else args.t_unknown,
+        "sparse_weight": r.get("sparse_weight", 1.0) if args.sparse_weight is None else args.sparse_weight,
     }
     if args.method == "temporal":
         retriever = TemporalRetriever(store, **settings)

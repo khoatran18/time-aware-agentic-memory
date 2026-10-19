@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1560" width="1240" height="1560" role="img" aria-label="Xếp hạng toàn bộ 78 nhóm cấu hình theo mrr (bộ local, 40 câu)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12">
+<title>Xếp hạng toàn bộ 78 nhóm cấu hình theo mrr (bộ local, 40 câu)</title>
+<rect width="1240" height="1560" rx="10" fill="#fcfcfb"/>
+<text x="24.0" y="28.0" fill="#0b0b0b" text-anchor="start" font-size="15" font-weight="600">Xếp hạng theo mrr: toàn bộ 78 nhóm cấu hình (bộ local, 40 câu), cùng thứ tự với bảng bên dưới</text>
+<rect x="24" y="46" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="42.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">Cơ chế 1 + nhánh chunk không mốc (t_unknown)</text>
+<rect x="340" y="46" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="358.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">Cơ chế 1, không nhánh chunk không mốc</text>
+<rect x="640" y="46" width="12" height="12" rx="2" fill="#9b9a93"/>
+<text x="658.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">Plain RAG (không lọc thời gian)</text>
+<text x="24.0" y="76.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">Oracle (t_req lấy từ nhãn, không xếp hạng) vẽ cột rỗng. Mỗi dòng: hạng · tên · cột mrr · mrr, hit@5. Chỉ khác t_unknown mà kết quả y hệt thì gộp (vd 0.2 / 0.3).</text>
+<line x1="560.0" y1="90" x2="560.0" y2="1516" stroke="#e3e2dd" stroke-width="1"/>
+<text x="560.0" y="1532.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.0</text>
+<line x1="736.7" y1="90" x2="736.7" y2="1516" stroke="#e3e2dd" stroke-width="1"/>
+<text x="736.7" y="1532.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.2</text>
+<line x1="913.3" y1="90" x2="913.3" y2="1516" stroke="#e3e2dd" stroke-width="1"/>
+<text x="913.3" y="1532.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.4</text>
+<line x1="1090.0" y1="90" x2="1090.0" y2="1516" stroke="#e3e2dd" stroke-width="1"/>
+<text x="1090.0" y="1532.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.6</text>
+<text x="825.0" y="1550.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">mrr (càng cao càng tốt)</text>
+<line x1="860.7" y1="90" x2="860.7" y2="1516" stroke="#52514e" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="865.7" y="84.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">plain RAG (dense) 0.340</text>
+<text x="24.0" y="109.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">1</text>
+<text x="550.0" y="109.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.1</text>
+<path d="M560 99 H1037.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.1: mrr 0.544, hit@5 0.800</title></path>
+<text x="1048.7" y="109.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.544 · 0.800</text>
+<text x="24.0" y="127.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">2</text>
+<text x="550.0" y="127.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.1</text>
+<path d="M560 117 H1036.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.1: mrr 0.542, hit@5 0.800</title></path>
+<text x="1047.2" y="127.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.542 · 0.800</text>
+<text x="24.0" y="145.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">3</text>
+<text x="550.0" y="145.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.2</text>
+<path d="M560 135 H1035.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.2: mrr 0.541, hit@5 0.800</title></path>
+<text x="1046.1" y="145.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.541 · 0.800</text>
+<text x="24.0" y="163.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">4</text>
+<text x="550.0" y="163.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.2 / 0.3</text>
+<path d="M560 153 H1034.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.2 / 0.3: mrr 0.540, hit@5 0.775</title></path>
+<text x="1045.4" y="163.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.540 · 0.775</text>
+<text x="24.0" y="181.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">5</text>
+<text x="550.0" y="181.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.3</text>
+<path d="M560 171 H1030.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.3: mrr 0.536, hit@5 0.775</title></path>
+<text x="1041.7" y="181.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.536 · 0.775</text>
+<text x="24.0" y="199.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">6</text>
+<text x="550.0" y="199.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.4</text>
+<path d="M560 189 H1028.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.4: mrr 0.534, hit@5 0.775</title></path>
+<text x="1039.8" y="199.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.534 · 0.775</text>
+<text x="24.0" y="217.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">7</text>
+<text x="550.0" y="217.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.0</text>
+<path d="M560 207 H1026.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.0: mrr 0.531, hit@5 0.800</title></path>
+<text x="1037.3" y="217.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.531 · 0.800</text>
+<text x="24.0" y="235.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">8</text>
+<text x="550.0" y="235.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.2</text>
+<path d="M560 225 H1025.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.2: mrr 0.530, hit@5 0.750</title></path>
+<text x="1036.2" y="235.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.530 · 0.750</text>
+<text x="24.0" y="253.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">9</text>
+<text x="550.0" y="253.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.0</text>
+<path d="M560 243 H1024.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.0: mrr 0.529, hit@5 0.800</title></path>
+<text x="1035.1" y="253.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.529 · 0.800</text>
+<text x="24.0" y="271.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">9</text>
+<text x="550.0" y="271.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.3 / 0.4</text>
+<path d="M560 261 H1024.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.3 / 0.4: mrr 0.529, hit@5 0.750</title></path>
+<text x="1035.1" y="271.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.529 · 0.750</text>
+<text x="24.0" y="289.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">11</text>
+<text x="550.0" y="289.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.0</text>
+<path d="M560 279 H1022.6 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.0: mrr 0.527, hit@5 0.725</title></path>
+<text x="1033.6" y="289.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.527 · 0.725</text>
+<text x="24.0" y="307.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">12</text>
+<text x="550.0" y="307.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.1</text>
+<path d="M560 297 H1020.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.1: mrr 0.525, hit@5 0.725</title></path>
+<text x="1031.8" y="307.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.525 · 0.725</text>
+<text x="24.0" y="325.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">13</text>
+<text x="550.0" y="325.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.1</text>
+<path d="M560 315 H1017.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.1: mrr 0.522, hit@5 0.725</title></path>
+<text x="1028.8" y="325.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.522 · 0.725</text>
+<text x="24.0" y="343.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">14</text>
+<text x="550.0" y="343.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · không t_unknown</text>
+<path d="M560 333 H1015.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc tắt: mrr 0.519, hit@5 0.700</title></path>
+<text x="1026.2" y="343.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.519 · 0.700</text>
+<text x="24.0" y="361.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">15</text>
+<text x="550.0" y="361.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.4</text>
+<path d="M560 351 H1014.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.4: mrr 0.517, hit@5 0.775</title></path>
+<text x="1025.1" y="361.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.517 · 0.775</text>
+<text x="24.0" y="379.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">15</text>
+<text x="550.0" y="379.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.2</text>
+<path d="M560 369 H1014.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.2: mrr 0.517, hit@5 0.725</title></path>
+<text x="1025.1" y="379.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.517 · 0.725</text>
+<text x="24.0" y="397.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">17</text>
+<text x="550.0" y="397.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.5</text>
+<path d="M560 387 H1011.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.5: mrr 0.515, hit@5 0.775</title></path>
+<text x="1022.9" y="397.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.515 · 0.775</text>
+<text x="24.0" y="415.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">17</text>
+<text x="550.0" y="415.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.0</text>
+<path d="M560 405 H1012.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.0: mrr 0.515, hit@5 0.750</title></path>
+<text x="1023.3" y="415.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.515 · 0.750</text>
+<text x="24.0" y="433.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">17</text>
+<text x="550.0" y="433.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.3</text>
+<path d="M560 423 H1012.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.3: mrr 0.515, hit@5 0.725</title></path>
+<text x="1023.3" y="433.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.515 · 0.725</text>
+<text x="24.0" y="451.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">20</text>
+<text x="550.0" y="451.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.4 / 0.5</text>
+<path d="M560 441 H1011.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.4 / 0.5: mrr 0.514, hit@5 0.725</title></path>
+<text x="1022.2" y="451.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.514 · 0.725</text>
+<text x="24.0" y="469.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">21</text>
+<text x="550.0" y="469.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end open · không t_unknown</text>
+<path d="M560 459 H1010.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc tắt: mrr 0.513, hit@5 0.750</title></path>
+<text x="1021.1" y="469.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.513 · 0.750</text>
+<text x="24.0" y="487.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">22</text>
+<text x="550.0" y="487.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end open · t_unknown 0.0 / 0.1 / 0.2 / 0.3 / 0.4</text>
+<path d="M560 477 H1008.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.0 / 0.1 / 0.2 / 0.3 / 0.4: mrr 0.511, hit@5 0.750</title></path>
+<text x="1019.2" y="487.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.511 · 0.750</text>
+<text x="24.0" y="505.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">23</text>
+<text x="550.0" y="505.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.5</text>
+<path d="M560 495 H1007.5 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.5: mrr 0.510, hit@5 0.775</title></path>
+<text x="1018.5" y="505.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.510 · 0.775</text>
+<text x="24.0" y="523.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">24</text>
+<text x="550.0" y="523.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · không t_unknown</text>
+<path d="M560 513 H1004.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc tắt: mrr 0.507, hit@5 0.725</title></path>
+<text x="1015.9" y="523.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.507 · 0.725</text>
+<text x="24.0" y="541.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">25</text>
+<text x="550.0" y="541.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end stored · t_unknown 0.7</text>
+<path d="M560 531 H1002.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.7: mrr 0.504, hit@5 0.725</title></path>
+<text x="1013.0" y="541.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.504 · 0.725</text>
+<text x="24.0" y="559.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">26</text>
+<text x="550.0" y="559.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end open · t_unknown 0.5</text>
+<path d="M560 549 H999.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.5: mrr 0.501, hit@5 0.775</title></path>
+<text x="1010.8" y="559.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.501 · 0.775</text>
+<text x="24.0" y="577.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">27</text>
+<text x="550.0" y="577.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.25 · end open · t_unknown 0.7</text>
+<path d="M560 567 H994.6 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.7: mrr 0.495, hit@5 0.750</title></path>
+<text x="1005.6" y="577.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.495 · 0.750</text>
+<text x="24.0" y="595.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">28</text>
+<text x="550.0" y="595.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end open · t_unknown 0.7</text>
+<path d="M560 585 H993.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.7: mrr 0.494, hit@5 0.725</title></path>
+<text x="1004.1" y="595.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.494 · 0.725</text>
+<text x="24.0" y="613.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">28</text>
+<text x="550.0" y="613.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · không t_unknown</text>
+<path d="M560 603 H993.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc tắt: mrr 0.494, hit@5 0.675</title></path>
+<text x="1004.1" y="613.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.494 · 0.675</text>
+<text x="24.0" y="631.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">28</text>
+<text x="550.0" y="631.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · cộng điểm domain W3 0.1 · không t_unknown</text>
+<path d="M560 621 H993.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm dense · end stored · cộng điểm domain W3 0.1 · chunk không mốc tắt: mrr 0.494, hit@5 0.675</title></path>
+<text x="1004.1" y="631.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.494 · 0.675</text>
+<text x="24.0" y="649.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">31</text>
+<text x="550.0" y="649.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end stored · t_unknown 0.7</text>
+<path d="M560 639 H992.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.7: mrr 0.492, hit@5 0.725</title></path>
+<text x="1003.0" y="649.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.492 · 0.725</text>
+<text x="24.0" y="667.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">32</text>
+<text x="550.0" y="667.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · t_unknown 0.1</text>
+<path d="M560 657 H989.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.1: mrr 0.489, hit@5 0.725</title></path>
+<text x="1000.1" y="667.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.489 · 0.725</text>
+<text x="24.0" y="685.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">33</text>
+<text x="550.0" y="685.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · t_unknown 0.2</text>
+<path d="M560 675 H979.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.2: mrr 0.479, hit@5 0.700</title></path>
+<text x="990.9" y="685.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.479 · 0.700</text>
+<text x="24.0" y="703.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">34</text>
+<text x="550.0" y="703.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.5</text>
+<path d="M560 693 H979.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.5: mrr 0.478, hit@5 0.775</title></path>
+<text x="990.2" y="703.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.478 · 0.775</text>
+<text x="24.0" y="721.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">35</text>
+<text x="550.0" y="721.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · t_unknown 0.0</text>
+<path d="M560 711 H978.1 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.0: mrr 0.477, hit@5 0.725</title></path>
+<text x="989.1" y="721.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.477 · 0.725</text>
+<text x="24.0" y="739.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">36</text>
+<text x="550.0" y="739.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · t_unknown 0.3 / 0.4 / 0.5</text>
+<path d="M560 729 H977.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.3 / 0.4 / 0.5: mrr 0.475, hit@5 0.700</title></path>
+<text x="988.0" y="739.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.475 · 0.700</text>
+<text x="24.0" y="757.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">37</text>
+<text x="550.0" y="757.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · không t_unknown</text>
+<path d="M560 747 H975.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc tắt: mrr 0.474, hit@5 0.725</title></path>
+<text x="986.8" y="757.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.474 · 0.725</text>
+<text x="24.0" y="775.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">37</text>
+<text x="550.0" y="775.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">BM25 0.5 · end stored · t_unknown 0.7</text>
+<path d="M560 765 H975.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.7: mrr 0.474, hit@5 0.700</title></path>
+<text x="986.8" y="775.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.474 · 0.700</text>
+<text x="24.0" y="793.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">39</text>
+<text x="550.0" y="793.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · không t_unknown</text>
+<path d="M560 783 H972.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc tắt: mrr 0.471, hit@5 0.700</title></path>
+<text x="983.9" y="793.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.471 · 0.700</text>
+<text x="24.0" y="811.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">40</text>
+<text x="550.0" y="811.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · t_unknown 0.1</text>
+<path d="M560 801 H962.6 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.1: mrr 0.459, hit@5 0.675</title></path>
+<text x="973.6" y="811.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.459 · 0.675</text>
+<text x="24.0" y="829.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">41</text>
+<text x="550.0" y="829.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · t_unknown 0.2</text>
+<path d="M560 819 H958.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.2: mrr 0.455, hit@5 0.675</title></path>
+<text x="969.9" y="829.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.455 · 0.675</text>
+<text x="24.0" y="847.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">42</text>
+<text x="550.0" y="847.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · t_unknown 0.3 / 0.4 / 0.5 / 0.7</text>
+<path d="M560 837 H956.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.3 / 0.4 / 0.5 / 0.7: mrr 0.452, hit@5 0.675</title></path>
+<text x="967.0" y="847.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.452 · 0.675</text>
+<text x="24.0" y="865.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">43</text>
+<text x="550.0" y="865.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · t_unknown 0.0</text>
+<path d="M560 855 H951.6 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.0: mrr 0.447, hit@5 0.675</title></path>
+<text x="962.6" y="865.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.447 · 0.675</text>
+<text x="24.0" y="883.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">44</text>
+<text x="550.0" y="883.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">dense · end decay 0.1 · t_unknown 0.7</text>
+<path d="M560 873 H951.2 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.7: mrr 0.446, hit@5 0.750</title></path>
+<text x="962.2" y="883.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.446 · 0.750</text>
+<text x="24.0" y="901.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">45</text>
+<text x="550.0" y="901.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · t_unknown 0.1</text>
+<path d="M560 891 H945.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.1: mrr 0.440, hit@5 0.725</title></path>
+<text x="956.7" y="901.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.440 · 0.725</text>
+<text x="24.0" y="919.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">46</text>
+<text x="550.0" y="919.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · t_unknown 0.2</text>
+<path d="M560 909 H936.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.2: mrr 0.430, hit@5 0.675</title></path>
+<text x="947.8" y="919.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.430 · 0.675</text>
+<text x="24.0" y="937.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">47</text>
+<text x="550.0" y="937.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · t_unknown 0.0</text>
+<path d="M560 927 H935.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.0: mrr 0.429, hit@5 0.725</title></path>
+<text x="946.7" y="937.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.429 · 0.725</text>
+<text x="24.0" y="955.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">47</text>
+<text x="550.0" y="955.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end open · t_unknown 0.7</text>
+<path d="M560 945 H935.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.7: mrr 0.429, hit@5 0.675</title></path>
+<text x="946.7" y="955.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.429 · 0.675</text>
+<text x="24.0" y="973.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">49</text>
+<text x="550.0" y="973.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Chỉ lọc thời gian · dense</text>
+<path d="M560 963 H935.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm dense: mrr 0.428, hit@5 0.600</title></path>
+<text x="946.0" y="973.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.428 · 0.600</text>
+<text x="24.0" y="991.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">50</text>
+<text x="550.0" y="991.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end open · t_unknown 0.0 / 0.1 / 0.5</text>
+<path d="M560 981 H932.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.0 / 0.1 / 0.5: mrr 0.425, hit@5 0.675</title></path>
+<text x="943.0" y="991.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.425 · 0.675</text>
+<text x="24.0" y="1009.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">51</text>
+<text x="550.0" y="1009.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · t_unknown 0.2</text>
+<path d="M560 999 H931.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.2: mrr 0.424, hit@5 0.675</title></path>
+<text x="942.7" y="1009.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.424 · 0.675</text>
+<text x="24.0" y="1027.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">51</text>
+<text x="550.0" y="1027.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · t_unknown 0.3 / 0.4 / 0.5</text>
+<path d="M560 1017 H931.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.3 / 0.4 / 0.5: mrr 0.424, hit@5 0.650</title></path>
+<text x="942.3" y="1027.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.424 · 0.650</text>
+<text x="24.0" y="1045.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">53</text>
+<text x="550.0" y="1045.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end open · t_unknown 0.2 / 0.3</text>
+<path d="M560 1035 H930.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.2 / 0.3: mrr 0.423, hit@5 0.675</title></path>
+<text x="941.9" y="1045.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.423 · 0.675</text>
+<text x="24.0" y="1063.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1063.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.1 · t_unknown 0.0</text>
+<path d="M560 1053 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.0: mrr 0.420, hit@5 0.700</title></path>
+<text x="939.4" y="1063.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.700</text>
+<text x="24.0" y="1081.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1081.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · t_unknown 0.7</text>
+<path d="M560 1071 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.7: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1081.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1099.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1099.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.1 · t_unknown 0.1 / 0.2 / 0.3 / 0.4</text>
+<path d="M560 1089 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.1 / 0.2 / 0.3 / 0.4: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1099.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1117.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1117.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · t_unknown 0.1</text>
+<path d="M560 1107 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.1: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1117.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1135.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1135.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · không t_unknown</text>
+<path d="M560 1125 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc tắt: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1135.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1153.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1153.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · cộng điểm domain W3 0.05 · không t_unknown</text>
+<path d="M560 1143 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.05 · chunk không mốc tắt: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1153.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1171.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1171.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · cộng điểm domain W3 0.1 · không t_unknown</text>
+<path d="M560 1161 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.1 · chunk không mốc tắt: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1171.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1189.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1189.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · cộng điểm domain W3 0.2 · không t_unknown</text>
+<path d="M560 1179 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.2 · chunk không mốc tắt: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1189.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1207.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">54</text>
+<text x="550.0" y="1207.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end stored · lọc cứng domain · không t_unknown</text>
+<path d="M560 1197 H928.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · lọc cứng domain · chunk không mốc tắt: mrr 0.420, hit@5 0.650</title></path>
+<text x="939.4" y="1207.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.420 · 0.650</text>
+<text x="24.0" y="1225.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">63</text>
+<text x="550.0" y="1225.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end open · không t_unknown</text>
+<path d="M560 1215 H926.5 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc tắt: mrr 0.418, hit@5 0.675</title></path>
+<text x="937.5" y="1225.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.418 · 0.675</text>
+<text x="24.0" y="1243.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">63</text>
+<text x="550.0" y="1243.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end open · t_unknown 0.4</text>
+<path d="M560 1233 H926.5 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.4: mrr 0.418, hit@5 0.650</title></path>
+<text x="937.5" y="1243.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.418 · 0.650</text>
+<text x="24.0" y="1261.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">65</text>
+<text x="550.0" y="1261.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.1 · t_unknown 0.5</text>
+<path d="M560 1251 H920.6 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.5: mrr 0.412, hit@5 0.675</title></path>
+<text x="931.6" y="1261.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.412 · 0.675</text>
+<text x="24.0" y="1279.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">66</text>
+<text x="550.0" y="1279.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.05 · không t_unknown</text>
+<path d="M560 1269 H917.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc tắt: mrr 0.408, hit@5 0.700</title></path>
+<text x="928.3" y="1279.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.408 · 0.700</text>
+<text x="24.0" y="1297.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">66</text>
+<text x="550.0" y="1297.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · t_unknown 0.0 / 0.3</text>
+<path d="M560 1287 H917.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.0 / 0.3: mrr 0.408, hit@5 0.650</title></path>
+<text x="928.3" y="1297.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.408 · 0.650</text>
+<text x="24.0" y="1315.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">68</text>
+<text x="550.0" y="1315.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.1 · không t_unknown</text>
+<path d="M560 1305 H911.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc tắt: mrr 0.402, hit@5 0.700</title></path>
+<text x="922.8" y="1315.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.402 · 0.700</text>
+<text x="24.0" y="1333.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">68</text>
+<text x="550.0" y="1333.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.1 · t_unknown 0.7</text>
+<path d="M560 1323 H911.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.7: mrr 0.402, hit@5 0.650</title></path>
+<text x="922.8" y="1333.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.402 · 0.650</text>
+<text x="24.0" y="1351.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">68</text>
+<text x="550.0" y="1351.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · t_unknown 0.4 / 0.5</text>
+<path d="M560 1341 H911.8 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.4 / 0.5: mrr 0.402, hit@5 0.650</title></path>
+<text x="922.8" y="1351.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.402 · 0.650</text>
+<text x="24.0" y="1369.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">71</text>
+<text x="550.0" y="1369.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · t_unknown 0.7</text>
+<path d="M560 1359 H907.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#eb6834"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.7: mrr 0.397, hit@5 0.625</title></path>
+<text x="918.4" y="1369.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.397 · 0.625</text>
+<text x="24.0" y="1387.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">72</text>
+<text x="550.0" y="1387.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">hybrid · end decay 0.2 · không t_unknown</text>
+<path d="M560 1377 H901.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc tắt: mrr 0.390, hit@5 0.650</title></path>
+<text x="912.9" y="1387.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.390 · 0.650</text>
+<text x="24.0" y="1405.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">73</text>
+<text x="550.0" y="1405.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Plain RAG · dense</text>
+<path d="M560 1395 H857.7 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#9b9a93"><title>Plain RAG · dense: mrr 0.340, hit@5 0.500</title></path>
+<text x="868.7" y="1405.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.340 · 0.500</text>
+<text x="24.0" y="1423.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">74</text>
+<text x="550.0" y="1423.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Chỉ lọc thời gian · hybrid</text>
+<path d="M560 1413 H841.9 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#2a78d6"><title>Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm hybrid: mrr 0.323, hit@5 0.575</title></path>
+<text x="852.9" y="1423.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.323 · 0.575</text>
+<text x="24.0" y="1441.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">75</text>
+<text x="550.0" y="1441.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Plain RAG · hybrid</text>
+<path d="M560 1431 H773.0 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#9b9a93"><title>Plain RAG · hybrid: mrr 0.245, hit@5 0.475</title></path>
+<text x="784.0" y="1441.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.245 · 0.475</text>
+<text x="24.0" y="1459.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">76</text>
+<text x="550.0" y="1459.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Plain RAG · BM25</text>
+<path d="M560 1449 H715.3 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="#9b9a93"><title>Plain RAG · BM25: mrr 0.179, hit@5 0.250</title></path>
+<text x="726.3" y="1459.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.179 · 0.250</text>
+<text x="24.0" y="1477.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">—</text>
+<text x="550.0" y="1477.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Oracle · hybrid · end stored · không t_unknown</text>
+<path d="M560 1467 H961.5 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="none" stroke="#52514e" stroke-width="1.5"><title>Oracle (t_req từ nhãn) · Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc tắt: mrr 0.458, hit@5 0.700</title></path>
+<text x="972.5" y="1477.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.458 · 0.700</text>
+<text x="24.0" y="1495.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">—</text>
+<text x="550.0" y="1495.0" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal">Oracle · Chỉ lọc thời gian · hybrid</text>
+<path d="M560 1485 H868.4 a3 3 0 0 1 3 3 v6 a3 3 0 0 1 -3 3 H560 Z" fill="none" stroke="#52514e" stroke-width="1.5"><title>Oracle (t_req từ nhãn) · Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm hybrid: mrr 0.353, hit@5 0.625</title></path>
+<text x="879.4" y="1495.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="600" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">0.353 · 0.625</text>
+</svg>

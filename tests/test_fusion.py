@@ -70,3 +70,17 @@ def test_fuse_truncates_to_top_n_then_normalizes_on_that_set():
 def test_fuse_empty_and_single():
     assert fuse(BranchHits(dense=[], sparse=[]), 60, 10) == []
     assert [s for _, s in fuse(BranchHits(dense=[hit("a")], sparse=[]), 60, 10)] == [1.0]
+
+
+def test_rrf_weights_and_zero_weight_drops_branch():
+    scores = rrf([["a", "b"], ["c", "a"]], k=60, weights=[1.0, 0.5])
+    assert scores["a"] == pytest.approx(1 / 61 + 0.5 / 62) and scores["c"] == pytest.approx(0.5 / 61)
+    assert "c" not in rrf([["a"], ["c"]], k=60, weights=[1.0, 0.0])  # nhánh trọng số 0 bị bỏ hẳn
+    with pytest.raises(ValueError):
+        rrf([["a"]], weights=[1.0, 1.0])
+
+
+def test_fuse_sparse_weight_zero_equals_dense_order():
+    hits = BranchHits(dense=[hit("x"), hit("y")], sparse=[hit("y"), hit("z")])
+    out = [c.chunk_id for c, _ in fuse(hits, 60, 10, sparse_weight=0.0)]
+    assert out == ["x", "y"]

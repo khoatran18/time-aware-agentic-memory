@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" width="960" height="450" role="img" aria-label="mrr theo t_unknown cho từng nền tìm kiếm (bộ local)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12">
+<title>mrr theo t_unknown cho từng nền tìm kiếm (bộ local)</title>
+<rect width="960" height="450" rx="10" fill="#fcfcfb"/>
+<text x="24.0" y="28.0" fill="#0b0b0b" text-anchor="start" font-size="15" font-weight="600">mrr theo t_unknown, từng nền tìm kiếm (bộ local, 40 câu)</text>
+<line x1="24" y1="52" x2="40" y2="52" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="32.0" cy="52.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored</title></circle>
+<text x="48.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">hybrid · end stored</text>
+<line x1="207" y1="52" x2="223" y2="52" stroke="#eb6834" stroke-width="2"/>
+<rect x="210.0" y="47.0" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored</title></rect>
+<text x="231.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">dense · end stored</text>
+<line x1="383" y1="52" x2="399" y2="52" stroke="#1baf7a" stroke-width="2"/>
+<path d="M391.0 46.0 L397.0 52.0 L391.0 58.0 L385.0 52.0 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored</title></path>
+<text x="407.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">BM25 0.25 · end stored</text>
+<line x1="587" y1="52" x2="603" y2="52" stroke="#eda100" stroke-width="2"/>
+<path d="M595.0 46.0 L601.0 57.0 L589.0 57.0 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open</title></path>
+<text x="611.0" y="56.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">dense · end open</text>
+<line x1="24" y1="72" x2="40" y2="72" stroke="#e87ba4" stroke-width="2"/>
+<path d="M27.0 67.0 L37.0 77.0 M37.0 67.0 L27.0 77.0" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open</title></path>
+<text x="48.0" y="76.0" fill="#52514e" text-anchor="start" font-size="12" font-weight="normal">BM25 0.25 · end open</text>
+<line x1="70" y1="380.0" x2="920" y2="380.0" stroke="#e3e2dd" stroke-width="1"/>
+<text x="62.0" y="384.0" fill="#52514e" text-anchor="end" font-size="12" font-weight="normal">0.40</text>
+<line x1="70" y1="311.5" x2="920" y2="311.5" stroke="#e3e2dd" stroke-width="1"/>
+<text x="62.0" y="315.5" fill="#52514e" text-anchor="end" font-size="12" font-weight="normal">0.44</text>
+<line x1="70" y1="243.0" x2="920" y2="243.0" stroke="#e3e2dd" stroke-width="1"/>
+<text x="62.0" y="247.0" fill="#52514e" text-anchor="end" font-size="12" font-weight="normal">0.48</text>
+<line x1="70" y1="174.5" x2="920" y2="174.5" stroke="#e3e2dd" stroke-width="1"/>
+<text x="62.0" y="178.5" fill="#52514e" text-anchor="end" font-size="12" font-weight="normal">0.52</text>
+<line x1="70" y1="106.0" x2="920" y2="106.0" stroke="#e3e2dd" stroke-width="1"/>
+<text x="62.0" y="110.0" fill="#52514e" text-anchor="end" font-size="12" font-weight="normal">0.56</text>
+<line x1="117.0" y1="106" x2="117.0" y2="380" stroke="#52514e" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="82.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">tắt</text>
+<text x="140.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.0</text>
+<text x="270.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.1</text>
+<text x="400.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.2</text>
+<text x="530.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.3</text>
+<text x="660.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.4</text>
+<text x="790.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.5</text>
+<text x="920.0" y="410.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">0.7</text>
+<text x="495.0" y="438.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">t_unknown (các mốc cách đều nhau, không theo tỉ lệ; &quot;tắt&quot; = không bật nhánh chunk không mốc)</text>
+<text x="18.0" y="243.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">mrr</text>
+<path d="M82.0 345.0 L140.0 300.1 L270.0 278.7 L400.0 285.8 L530.0 291.5 L660.0 291.5 L790.0 291.5 L920.0 291.5" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="345.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown tắt: mrr 0.420</title></circle>
+<circle cx="140.0" cy="300.1" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.0: mrr 0.447</title></circle>
+<circle cx="270.0" cy="278.7" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.1: mrr 0.459</title></circle>
+<circle cx="400.0" cy="285.8" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.2: mrr 0.455</title></circle>
+<circle cx="530.0" cy="291.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.3: mrr 0.452</title></circle>
+<circle cx="660.0" cy="291.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.4: mrr 0.452</title></circle>
+<circle cx="790.0" cy="291.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.5: mrr 0.452</title></circle>
+<circle cx="920.0" cy="291.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored, t_unknown 0.7: mrr 0.452</title></circle>
+<path d="M82.0 219.5 L140.0 155.2 L270.0 136.0 L400.0 138.1 L530.0 146.7 L660.0 150.2 L790.0 191.6 L920.0 221.6" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round"/>
+<rect x="77.0" y="214.5" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown tắt: mrr 0.494</title></rect>
+<rect x="135.0" y="150.2" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.0: mrr 0.531</title></rect>
+<rect x="265.0" y="131.0" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.1: mrr 0.542</title></rect>
+<rect x="395.0" y="133.1" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.2: mrr 0.541</title></rect>
+<rect x="525.0" y="141.7" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.3: mrr 0.536</title></rect>
+<rect x="655.0" y="145.2" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.4: mrr 0.534</title></rect>
+<rect x="785.0" y="186.6" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.5: mrr 0.510</title></rect>
+<rect x="915.0" y="216.6" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored, t_unknown 0.7: mrr 0.492</title></rect>
+<path d="M82.0 196.6 L140.0 182.3 L270.0 171.6 L400.0 178.8 L530.0 182.3 L660.0 184.5 L790.0 184.5 L920.0 202.3" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round"/>
+<path d="M82.0 190.6 L88.0 196.6 L82.0 202.6 L76.0 196.6 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown tắt: mrr 0.507</title></path>
+<path d="M140.0 176.3 L146.0 182.3 L140.0 188.3 L134.0 182.3 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.0: mrr 0.515</title></path>
+<path d="M270.0 165.6 L276.0 171.6 L270.0 177.6 L264.0 171.6 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.1: mrr 0.522</title></path>
+<path d="M400.0 172.8 L406.0 178.8 L400.0 184.8 L394.0 178.8 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.2: mrr 0.517</title></path>
+<path d="M530.0 176.3 L536.0 182.3 L530.0 188.3 L524.0 182.3 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.3: mrr 0.515</title></path>
+<path d="M660.0 178.5 L666.0 184.5 L660.0 190.5 L654.0 184.5 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.4: mrr 0.514</title></path>
+<path d="M790.0 178.5 L796.0 184.5 L790.0 190.5 L784.0 184.5 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.5: mrr 0.514</title></path>
+<path d="M920.0 196.3 L926.0 202.3 L920.0 208.3 L914.0 202.3 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored, t_unknown 0.7: mrr 0.504</title></path>
+<path d="M82.0 176.6 L140.0 162.4 L270.0 165.9 L400.0 157.4 L530.0 159.5 L660.0 159.5 L790.0 183.1 L920.0 219.5" fill="none" stroke="#eda100" stroke-width="2" stroke-linejoin="round"/>
+<path d="M82.0 170.6 L88.0 181.6 L76.0 181.6 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown tắt: mrr 0.519</title></path>
+<path d="M140.0 156.4 L146.0 167.4 L134.0 167.4 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.0: mrr 0.527</title></path>
+<path d="M270.0 159.9 L276.0 170.9 L264.0 170.9 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.1: mrr 0.525</title></path>
+<path d="M400.0 151.4 L406.0 162.4 L394.0 162.4 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.2: mrr 0.530</title></path>
+<path d="M530.0 153.5 L536.0 164.5 L524.0 164.5 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.3: mrr 0.529</title></path>
+<path d="M660.0 153.5 L666.0 164.5 L654.0 164.5 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.4: mrr 0.529</title></path>
+<path d="M790.0 177.1 L796.0 188.1 L784.0 188.1 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.5: mrr 0.515</title></path>
+<path d="M920.0 213.5 L926.0 224.5 L914.0 224.5 Z" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>dense · end open, t_unknown 0.7: mrr 0.494</title></path>
+<path d="M82.0 186.6 L140.0 190.2 L270.0 190.2 L400.0 190.2 L530.0 190.2 L660.0 190.2 L790.0 206.6 L920.0 216.6" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linejoin="round"/>
+<path d="M77.0 181.6 L87.0 191.6 M87.0 181.6 L77.0 191.6" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown tắt: mrr 0.513</title></path>
+<path d="M135.0 185.2 L145.0 195.2 M145.0 185.2 L135.0 195.2" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.0: mrr 0.511</title></path>
+<path d="M265.0 185.2 L275.0 195.2 M275.0 185.2 L265.0 195.2" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.1: mrr 0.511</title></path>
+<path d="M395.0 185.2 L405.0 195.2 M405.0 185.2 L395.0 195.2" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.2: mrr 0.511</title></path>
+<path d="M525.0 185.2 L535.0 195.2 M535.0 185.2 L525.0 195.2" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.3: mrr 0.511</title></path>
+<path d="M655.0 185.2 L665.0 195.2 M665.0 185.2 L655.0 195.2" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.4: mrr 0.511</title></path>
+<path d="M785.0 201.6 L795.0 211.6 M795.0 201.6 L785.0 211.6" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.5: mrr 0.501</title></path>
+<path d="M915.0 211.6 L925.0 221.6 M925.0 211.6 L915.0 221.6" stroke="#e87ba4" stroke-width="3" fill="none"><title>BM25 0.25 · end open, t_unknown 0.7: mrr 0.495</title></path>
+<text x="270.0" y="266.7" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">hybrid: 0.459</text>
+<text x="270.0" y="124.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">dense: 0.542</text>
+</svg>

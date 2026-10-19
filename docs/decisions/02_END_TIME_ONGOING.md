@@ -58,3 +58,9 @@ Chưa kiểm tay đủ 35 chunk. Số liệu theo lần chạy: `docs/eval/01_LO
 | Chọn nhầm câu bằng chứng | Không cần sửa: kết luận vẫn đúng. Có thể ghi thêm "câu đầu tiên có dấu hiệu" vào prompt nhưng lợi ích nhỏ | Bỏ qua |
 
 Khuyến nghị: làm (a) trước vì rẻ và đo được bằng ablation; (b), (c) chỉ khi (a) cho thấy lỗi `ongoing` thực sự làm tụt hạng chunk đáp án.
+
+## Kết quả đo (bộ local, 2026-10-19)
+
+Ba cách chấm đã code (`end_mode`) và chạy so ở [`../eval/04_TEST_RESULTS.md`](../eval/04_TEST_RESULTS.md) đợt 3: `stored` (C) `mrr` 0.420, `open` (A) 0.418, `decay` (B) 0.390 đến 0.408. **Không cách nào hơn rõ** (chênh dưới 1 câu), nên giữ `stored` (mặc định). Trên nền tìm kiếm dense kết quả cũng tương tự (`open` 0.519 so với `stored` 0.494, nhưng 3 câu lên, 5 xuống).
+
+Phân tích câu sai cho thấy `end_status = unknown` là nguyên nhân của 5/9 câu còn sai ở cấu hình tốt nhất: chunk `unknown` bị coi hết hiệu lực cuối năm `start`, nhưng sự việc còn đúng ở `t_req`. Ba cách chấm không phân biệt được chunk `unknown` còn đúng với chunk đã hết hạn thật; cần thông tin từ ingestion hoặc từ thứ tự chunk. Các hướng đề xuất: [`06_END_UNKNOWN_REMEDIES.md`](06_END_UNKNOWN_REMEDIES.md).

@@ -84,6 +84,8 @@ Bộ local seed 42 không dính hai câu vắt đoạn.
 
 Hướng dẫn chạy lại từng bước: [`../instruction/01_RUN_PIPELINE.md`](../instruction/01_RUN_PIPELINE.md).
 
+Tiếp theo: [`07_EVAL_ROUNDS_AND_ABLATIONS.md`](07_EVAL_ROUNDS_AND_ABLATIONS.md).
+
 Kết quả: [`../eval/01_LOCAL_INGESTION.md`](../eval/01_LOCAL_INGESTION.md), [`../eval/02_RETRIEVAL_LOCAL.md`](../eval/02_RETRIEVAL_LOCAL.md).
 
 ## Quyết định liên quan

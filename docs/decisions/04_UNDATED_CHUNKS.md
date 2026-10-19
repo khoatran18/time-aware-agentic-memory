@@ -1,6 +1,6 @@
 # Quyết định 04: chunk không có mốc `start` và câu hỏi không nêu thời gian
 
-**Ngày:** 2026-10-19. **Trạng thái:** đã chọn làm thử và **đã code (mặc định tắt)**, chưa đo; quyết giữ hay bỏ sau đợt 4 của `eval/03`. Mặc định chunk không có `start` vẫn bị bỏ lúc nạp (`skipped_no_time`). Bản phác cũ: [`../process/05_TIME_SEMANTICS_AND_CHUNKING.md`](../process/05_TIME_SEMANTICS_AND_CHUNKING.md) mục 3.4.
+**Ngày:** 2026-10-19. **Trạng thái:** đã code (mặc định tắt) và **đã đo ở local**: có lợi nhất quán (xem mục "Kết quả đo"), quyết bật mặc định sau khi xác nhận trên bộ thật. Mặc định chunk không có `start` vẫn bị bỏ lúc nạp (`skipped_no_time`). Bản phác cũ: [`../process/05_TIME_SEMANTICS_AND_CHUNKING.md`](../process/05_TIME_SEMANTICS_AND_CHUNKING.md) mục 3.4.
 
 ## Hai trục khác nhau (hay bị gộp)
 
@@ -57,3 +57,12 @@ Chunk không mốc chỉ có một loại: **chưa biết khi nào**. Không gá
 - Truy xuất: nhánh thứ ba lọc `start_time IS NULL` (dense và BM25), gộp với nhánh có mốc theo điểm gốc từng nhánh, rồi RRF như cũ. Bật bằng `retrieval.t_unknown` (vd 0.5) hoặc `evaluate.py --t-unknown 0.5`; `null` = tắt. Chunk không mốc nhận `Temporal_Score = t_unknown`.
 - **Chưa làm:** sửa bất biến ở `design/02` và `CLAUDE.md` (chờ quyết sau khi đo).
 - Chưa kiểm với Qdrant thật: điều kiện `IsNull(start_time)` cần chạy thử trên kho nạp bằng `--keep-undated`.
+
+## Kết quả đo (bộ local, 2026-10-19)
+
+Chi tiết: [`../eval/04_TEST_RESULTS.md`](../eval/04_TEST_RESULTS.md) đợt 4 và 4b. Kho có 309/1259 chunk không mốc.
+- Bật nhánh không mốc làm `mrr` tăng ở mọi nền thử: tìm kiếm dense 0.494 → 0.531 đến 0.542; tìm kiếm hybrid 0.420 → 0.447 đến 0.459.
+- Lợi ích chủ yếu đến từ việc **đưa chunk không mốc vào ứng viên**, không phải từ điểm `T_unknown`: `T_unknown` = 0.0 đã cho 5 câu lên, 0 xuống (nền dense). Đường `mrr` là cao nguyên từ 0.0 đến 0.4, giảm từ 0.5 (0.510) đến 0.7 (0.492). Đề xuất `T_unknown` = 0.2.
+- Không cần thử trên 0.7: `T_unknown` gần 1.0 làm chunk không mốc ngang chunk đúng thời điểm (TH1 = 1.0), trái nguyên tắc "không biết khi nào" phải thấp hơn "biết đúng".
+- Mặt trái: chunk không mốc có mặt trong top 5 ở 50% đến 72% câu (tùy `T_unknown`); một số câu bị chen (`Vista_House`, `Central_European_University#P1075#0`). Rò rỉ tương lai không phát hiện được vẫn là rủi ro lý thuyết (mục "Rủi ro và điều phải đo"); chưa có cách đo.
+- Cảnh báo: chọn sau khi thử nhiều giá trị trên 40 câu, cần xác nhận ở bộ thật.

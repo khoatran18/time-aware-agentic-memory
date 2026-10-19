@@ -38,11 +38,13 @@ class TemporalRetriever(Retriever):
         open_decay: float = 0.1,
         neighbor_window: int = 0,
         t_unknown: float | None = None,
+        sparse_weight: float = 1.0,
     ) -> None:
         """`top_n`: số ứng viên mỗi nhánh lấy từ store; `top_k`: số chunk trả về sau re-rank.
 
         `w3`: trọng số Domain_Match (0 = tắt). `end_mode`/`open_decay`: cách chấm chunk `ongoing`/`unknown` (scoring.py).
         `t_unknown`: nếu đặt (vd 0.5) thì thêm nhánh chunk không mốc với điểm thời gian cố định này (decisions/04); None = tắt.
+        `sparse_weight`: trọng số nhánh BM25 trong RRF (dense luôn 1); 1 = RRF thường, 0 = chỉ dense (bỏ BM25).
         `neighbor_window`: số chunk liền kề mỗi phía của Top-K đưa vào `RetrievalResult.neighbors` (0 = tắt).
         """
         if top_k < 1 or top_n < top_k:
@@ -52,7 +54,9 @@ class TemporalRetriever(Retriever):
         self._rrf_k, self._top_n, self._top_k = rrf_k, top_n, top_k
         if neighbor_window < 0:
             raise ValueError(f"neighbor_window phải >= 0, nhận {neighbor_window}")
-        self._t_unknown = t_unknown
+        if sparse_weight < 0:
+            raise ValueError(f"sparse_weight phải >= 0, nhận {sparse_weight}")
+        self._t_unknown, self._sparse_weight = t_unknown, sparse_weight
         self._w3, self._end_mode, self._open_decay, self._window = w3, end_mode, open_decay, neighbor_window
 
     @classmethod
@@ -72,6 +76,7 @@ class TemporalRetriever(Retriever):
             open_decay=r.get("open_decay", 0.1),
             neighbor_window=r.get("neighbor_window", 0),
             t_unknown=r.get("t_unknown", None),
+            sparse_weight=r.get("sparse_weight", 1.0),
         )
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
@@ -82,7 +87,7 @@ class TemporalRetriever(Retriever):
             und_flt = replace(flt, undated=True)
             und = _guard(self._store.search(query.semantic_query, und_flt, self._top_n), und_flt)
             hits = merge_branches(hits, und, self._top_n)
-        fused = fuse(hits, self._rrf_k, self._top_n)
+        fused = fuse(hits, self._rrf_k, self._top_n, self._sparse_weight)
 
         scored = [self._score(chunk, sem, query) for chunk, sem in fused]
         # Hòa điểm: ưu tiên chunk đúng thời điểm hơn, rồi chunk_id để kết quả tái lập được

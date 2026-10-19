@@ -246,7 +246,7 @@ Chi tiết ở `TOPICS.md`. Tóm tắt các quyết định:
 | Chunk không có `start_time`: giữ ở nhánh không có mốc | Chưa quyết |
 | Câu hỏi theo khoảng thời gian: `t_req_start`, TH1 theo giao khoảng | Chưa quyết |
 | Bỏ hoặc gộp mảnh nhỏ | Chưa quyết |
-| Lưu `end_status` (`known`, `ongoing`, `unknown`) vào chunk (mục 3.2) | Đề xuất, chưa quyết, chưa thêm |
+| Lưu `end_status` (`known`, `ongoing`, `unknown`) vào chunk (mục 3.2) | **Đã code** (`Chunk.end_status`, `to_span`); 3 cách chấm `end_mode`; xem [`decisions/02`](../decisions/02_END_TIME_ONGOING.md) và [`06`](../decisions/06_END_UNKNOWN_REMEDIES.md) |
 | Lưu `start_precision`, `end_precision` (mục 4.6) | Đề xuất, chưa quyết, chưa thêm |
 | Ghi nguồn gốc mốc (nêu rõ / kế thừa / suy từ trang) vào chunk để ablation | Chưa quyết, chưa thêm |
 | "before X": một điểm `b = X` (ngày đầu kỳ X, tính cả X) | Đề xuất có số liệu (mục 4.5), chưa code |
