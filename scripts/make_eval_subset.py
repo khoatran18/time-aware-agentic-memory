@@ -10,14 +10,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from tam.evaluation.subset import build_subset
+from tam.evaluation.subset import build_subset, build_topup_subset
 
-# (nhóm theo, danh sách nhóm, số câu mỗi nhóm). local: 8 domain × 5 (bỏ `other`, chỉ 5 câu trên cả D/test); real: 15 relation × 20
-PRESETS = {
-    "local": ("domain", ["business", "sports", "career", "person", "politics", "place", "media_arts", "military"], 5),
-    "real": ("relation", ["P54", "P488", "P39", "P108", "P127", "P26", "P1448", "P937", "P102", "P137", "P551", "P463",
-                          "P4791", "P27", "P69"], 20),
-}
+# (nhóm theo, danh sách nhóm, số câu mỗi nhóm). Cả hai: 8 domain (bỏ `other`, chỉ 5 câu trên cả D/test).
+# local: 5 câu mỗi domain, chỉ D/test. real: 50 câu mỗi domain, ưu tiên D/test, thiếu thì mượn D/train, bỏ câu trước Công nguyên.
+DOMAINS = ["business", "sports", "career", "person", "politics", "place", "media_arts", "military"]
+PRESETS = {"local": ("domain", DOMAINS, 5), "real": ("domain", DOMAINS, 50)}
 
 
 def main() -> None:
@@ -30,7 +28,10 @@ def main() -> None:
     args = ap.parse_args()
 
     group_by, groups, per_group = PRESETS[args.subset]
-    data = build_subset(args.dataset_dir, group_by=group_by, groups=groups, per_group=per_group, seed=args.seed)
+    if args.subset == "real":
+        data = build_topup_subset(args.dataset_dir, groups=groups, per_group=per_group, seed=args.seed)
+    else:
+        data = build_subset(args.dataset_dir, group_by=group_by, groups=groups, per_group=per_group, seed=args.seed)
     out = Path(args.out) if args.out else ROOT / "dataset" / "eval" / f"{args.subset}_subset.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -39,6 +40,10 @@ def main() -> None:
     multi = sum(len(c["gold_chunk_ids"]) > 1 for c in data["cases"])
     print(f"Ghi {out}: {data['n_cases']} câu, {len(data['page_ids'])} trang, seed={args.seed}")
     print(f"Câu có nhiều chunk đúng: {multi}; cờ: {dict(flags) or 'không'}")
+    if args.subset == "real":
+        per_domain = Counter(c["domain"] for c in data["cases"])
+        borrowed = Counter(c["domain"] for c in data["cases"] if c["split"] != "D/test")
+        print(f"Theo domain: {dict(per_domain)}; mượn từ D/train: {dict(borrowed) or 'không'}; bỏ vì trước Công nguyên: {data['dropped_bce']}; bỏ vì không xác định đáp án: {data['dropped_unmapped']}")
 
 
 if __name__ == "__main__":

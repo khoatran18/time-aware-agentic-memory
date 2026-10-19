@@ -24,7 +24,7 @@ from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.retriever import TemporalRetriever
 from tam.retrieval.temporal.scoring import END_MODES
-from tam.stores.vector.qdrant_store import QdrantStore
+from tam.stores.vector.qdrant_store import QdrantStore, collection_for
 
 KS = (1, 3, 5)
 
@@ -32,6 +32,7 @@ KS = (1, 3, 5)
 def main() -> None:
     """Dựng retriever từ config, chạy các case, in và ghi metric."""
     ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--collection", help="tên collection Qdrant; mặc định: tên trong config với bộ local, <tên>_<subset> với bộ khác")
     ap.add_argument("--subset", default="local")
     ap.add_argument("--mode", choices=["oracle", "e2e"], default="oracle")
     ap.add_argument("--profiler", help="profiler.jsonl (bắt buộc với e2e; với oracle thì dùng semantic_query của nó)")
@@ -57,7 +58,7 @@ def main() -> None:
     profiled = load_profiled(args.profiler) if args.profiler else None
     alive = alive_chunk_ids(load_extractions(args.extractions)) if args.extractions else None
 
-    store = QdrantStore.from_config(cfg, get_embedder(cfg))
+    store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset, args.collection))
     r = cfg.retrieval
     settings = {
         "w1": 1.0 if args.no_temporal else r.w1, "w2": 0.0 if args.no_temporal else r.w2,
@@ -86,7 +87,7 @@ def main() -> None:
     for k in KS:
         result["summary"][f"hit@{k}_all_gold"] = sum(hit_at_k(r["ranked_ids"], gold_all[r["id"]], k) for r in rows) / len(rows)
     result["summary"]["mrr_all_gold"] = sum(reciprocal_rank(r["ranked_ids"], gold_all[r["id"]]) for r in rows) / len(rows)
-    result["summary"]["config"] = {"mode": args.mode, "facets": args.facets, "method": args.method, "no_temporal": args.no_temporal, "retrieval": settings,
+    result["summary"]["config"] = {"subset": args.subset, "collection": collection_for(cfg, args.subset, args.collection), "mode": args.mode, "facets": args.facets, "method": args.method, "no_temporal": args.no_temporal, "retrieval": settings,
                                    "level": args.level, "n_cases_run": len(cases)}
 
     run_dir = get_run_dir()

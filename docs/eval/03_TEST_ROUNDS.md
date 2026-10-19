@@ -100,7 +100,7 @@ Lệnh: nền của đợt 3 thêm `--t-unknown 0.3` / `0.5` / `0.7`, so với k
 ## Đợt 6 và 7 (để sau)
 
 - Đợt 6: quét `λ`, `W1/W2` (cùng `T_unknown`, `W3`, `end_mode` đã chọn) trên mẫu `D/train`. Cần code lấy mẫu train và dựng bộ con từ train (chưa có).
-- Đợt 7: cấu hình đã chọn và baseline (đợt 1) trên bộ thật (8 domain × 50 câu `D/test`), kèm Hit@k, MRR, theo lát thời gian, rò rỉ, chi phí token. Cần bộ thật (chưa dựng) và ingestion cho bộ đó.
+- Đợt 7: cấu hình đã chọn và baseline (đợt 1) trên bộ thật (8 domain × 50 câu, `dataset/eval/real_subset.json`, **đã dựng**; mượn 34 câu từ `D/train`, xem [`process/06`](../process/06_EVAL_SUBSET.md)), kèm Hit@k, MRR, theo lát thời gian, rò rỉ, chi phí token. Cần Profiler và ingestion cho bộ này (chưa chạy): `profile_eval.py --subset real`, `ingest.py --subset real --recreate --keep-undated` (ghi vào collection `<config>_real`), rồi `evaluate.py --subset real ...`.
 
 ## Lưu ý về độ tin cậy
 

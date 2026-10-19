@@ -56,11 +56,11 @@ class QdrantStore(VectorStore):
         self._embedder = embedder
 
     @classmethod
-    def from_config(cls, cfg: Config, embedder: Embedder) -> QdrantStore:
-        """Tạo từ khối `vector_store` trong config; `embedder` do bên ngoài đưa vào."""
+    def from_config(cls, cfg: Config, embedder: Embedder, collection: str | None = None) -> QdrantStore:
+        """Tạo từ khối `vector_store` trong config; `embedder` do bên ngoài đưa vào. `collection` ghi đè tên trong config."""
         vs = cfg.vector_store
         client = QdrantClient(url=vs.url, api_key=vs.get("api_key"))  # api_key rỗng (None) khi Qdrant local không bật khóa
-        return cls(client, vs.collection, embedder)
+        return cls(client, collection or vs.collection, embedder)
 
     def ensure_collection(self, *, recreate: bool = False) -> None:
         """Tạo collection và đúng 4 payload index nếu chưa có; `recreate=True` thì xóa rồi tạo lại."""
@@ -150,3 +150,9 @@ class QdrantStore(VectorStore):
 def _to_hits(points: list[Any]) -> list[SearchHit]:
     """Đổi các điểm Qdrant thành SearchHit (dựng lại Chunk từ payload)."""
     return [SearchHit(chunk=Chunk.model_validate(p.payload), score=float(p.score)) for p in points]
+
+
+def collection_for(cfg, subset: str, override: str | None = None) -> str:
+    """Tên collection cho bộ `subset`: `--collection` nếu có; bộ local dùng tên trong config; bộ khác thêm hậu tố để không đè kho local."""
+    base = cfg.vector_store.collection
+    return override or (base if subset == "local" else f"{base}_{subset}")

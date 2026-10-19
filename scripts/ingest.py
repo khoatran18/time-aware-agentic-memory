@@ -25,6 +25,7 @@ from tam.llm.structured import LlmUnavailable
 def main() -> None:
     """Nạp các trang của bộ con; in IngestStats."""
     ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--collection", help="tên collection Qdrant; mặc định: tên trong config với bộ local, <tên>_<subset> với bộ khác")
     ap.add_argument("--subset", default="local", help="đọc dataset/eval/<subset>_subset.json")
     ap.add_argument("--dry-run", action="store_true", help="chỉ gọi LLM và ghi extractions.jsonl, không ghi Qdrant")
     ap.add_argument("--recreate", action="store_true", help="xóa và tạo lại collection trước khi nạp")
@@ -46,9 +47,9 @@ def main() -> None:
     sinks = []
     if not args.dry_run:
         from tam.embedding.factory import get_embedder
-        from tam.stores.vector.qdrant_store import QdrantStore
+        from tam.stores.vector.qdrant_store import QdrantStore, collection_for
 
-        store = QdrantStore.from_config(cfg, get_embedder(cfg))
+        store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset, args.collection))
         store.ensure_collection(recreate=args.recreate)
         sinks.append(VectorSink(store))
 

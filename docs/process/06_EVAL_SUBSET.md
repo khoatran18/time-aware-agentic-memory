@@ -55,18 +55,16 @@ Bộ local seed 42 không dính hai câu vắt đoạn.
 
 **Vấn đề thấy được:** `basic-llm` hay đặt `ongoing = true` khi văn bản không nói gì về lúc kết thúc, trái quy tắc "trạng thái 3: `end` null, `ongoing` false". Ví dụ lý do viết "No end date is mentioned" nhưng vẫn `ongoing = true`. Hậu quả: `end_time = None`, chunk đó được `Temporal_Score = 1.0` với mọi `t_req` sau `start`. Chưa sửa; cần siết prompt hoặc thêm bước kiểm tra, rồi so lại số liệu trên.
 
-## Bộ thật: quyết định tạm, chưa code
+## Bộ thật: đã dựng (`dataset/eval/real_subset.json`)
 
-Hiện `scripts/make_eval_subset.py --subset real` vẫn là kế hoạch cũ (15 relation × 20 câu, `D/test`). Kế hoạch đó **không cân bằng domain**: 15 relation chỉ phủ 6/8 domain (career 27%, person 27%, business 20%, politics 13%, sports 7%, military 7%; thiếu `place`, `media_arts`) vì `EVAL_PLAN.md` chọn relation theo số câu, chưa tính domain, và cố ý bỏ P6087, P286 nên `sports` chỉ còn P54.
+`python scripts/make_eval_subset.py --subset real` (seed 42, không gọi LLM): **8 domain × 50 câu = 400 câu, 204 trang**. Mã: `build_topup_subset` trong `src/tam/evaluation/subset.py`.
 
-**Quyết định tạm (để sau, chưa code, chưa sửa `EVAL_PLAN.md`):** bộ thật chia theo domain, **8 domain × 50 câu = 400 câu**, cân bằng domain là ưu tiên, cân bằng P trong domain làm được đến đâu thì làm.
-
-- Số câu trên `D/test.hard` theo domain: business 178, sports 158, career 136, person 117, politics 91, place 79, media_arts 34, military 32. Hai domain nhỏ **không đủ 50**.
-- Bù từ `D/train.hard` (military còn 52, media_arts 98): mượn 18 câu cho military, 16 câu cho media_arts. Phần `D/train` còn lại vẫn đủ để tinh chỉnh.
-- Phải **loại các câu mượn khỏi mẫu tinh chỉnh**, để không dùng chung câu giữa tune và test.
-- Cân bằng P trong domain: lấy xoay vòng qua các P, mỗi P tối đa một phần chia đều, phần dư chuyển sang P còn nhiều câu. Quỹ P bị hạn chế: military chỉ có P4791 (21) và P410 (11); media_arts có P371 (17), P123 (6), P449 (5), P800 (4), P264 (2).
-- Phương án thay thế đã cân nhắc: 8 × 32 = 256 câu chỉ từ `D/test` (đơn giản, không đụng `D/train`, sai số khoảng ±6%).
-- Local và bộ thật cùng lấy từ `D/test` nên có thể trùng câu; chấp nhận được vì local chỉ để kiểm tra chạy được, không chấm điểm.
+- Ưu tiên `D/test.hard`; domain nào thiếu thì mượn `D/train.hard`: military 18, media_arts 16 (34 câu, ghi trong `borrowed_from_train`; mỗi câu có trường `split`). **Phải loại các câu mượn khỏi mẫu tinh chỉnh** (đợt 6) để không dùng chung câu giữa tune và test.
+- Trong mỗi domain, lấy **xoay vòng qua các relation** (`sample_balanced`) để relation lớn không lấn hết. Quỹ relation của hai domain nhỏ vẫn hẹp: military chỉ có P4791 (27), P410 (17), P241 (6).
+- **Bỏ câu trước Công nguyên** ([`decisions/05`](../decisions/05_EXCLUDE_BEFORE_COMMON_ERA.md)): bỏ nếu câu hỏi, nhãn thời gian, đáp án hoặc đoạn chứa đáp án có dấu hiệu `BC`/`BCE`/`B.C.` (`mentions_bce`). Kết quả: `D/test` 0 câu, `D/train` 2 câu. Chỉ bắt dấu hiệu viết ra bằng chữ; năm BC chỉ hiện ở chỗ khác trong trang thì ingestion vẫn tự bỏ chunk đó (`invalid_time`).
+- Bỏ câu không xác định được chunk đáp án (`unmapped`): `D/test` 2, `D/train` 4. Trong 400 câu còn 12 câu có đáp án ở tiêu đề mục (`answer_in_heading`) và 12 câu có nhiều chunk đúng.
+- 25/400 câu trùng với bộ local (cùng lấy từ `D/test`); chấp nhận vì local chỉ để kiểm tra chạy được.
+- Kho riêng: `ingest.py` và `evaluate.py` mặc định ghi/đọc collection `<tên trong config>_<subset>` (vd `tam_chunks_dev_real`) với bộ không phải local, nên không xóa kho local. Đổi bằng `--collection`.
 
 ## Tinh chỉnh tham số: chưa có code
 

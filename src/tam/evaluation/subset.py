@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 from collections import defaultdict
 from collections.abc import Sequence
 from pathlib import Path
@@ -112,4 +113,85 @@ def build_subset(
     return {
         "split": split, "seed": seed, "group_by": group_by, "groups": list(groups), "per_group": per_group,
         "n_cases": len(cases), "page_ids": sorted(pages), "cases": cases,
+    }
+
+
+# Dấu hiệu năm trước Công nguyên trong văn bản tiếng Anh ("500 BC", "44 B.C.", "BCE"); xem decisions/05.
+BCE_PATTERN = re.compile(r"\b(?:BC|BCE|B\.C\.(?:E\.)?)(?![A-Za-z])")
+
+
+def mentions_bce(*texts: str) -> bool:
+    """True nếu một trong các văn bản có dấu hiệu năm trước Công nguyên."""
+    return any(BCE_PATTERN.search(t) for t in texts if t)
+
+
+def sample_balanced(pool: Sequence[dict[str, Any]], n: int, rng: random.Random) -> list[dict[str, Any]]:
+    """Lấy tối đa `n` câu, xoay vòng qua các relation (mỗi lượt một câu ngẫu nhiên của mỗi relation còn câu), để không
+    relation lớn lấn hết domain. Pool nhỏ hơn `n` thì lấy hết."""
+    by_rel: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in sorted(pool, key=lambda r: r["idx"]):
+        by_rel[row["relation"]].append(row)
+    for rows in by_rel.values():
+        rng.shuffle(rows)
+    picked: list[dict[str, Any]] = []
+    while len(picked) < n and any(by_rel.values()):
+        for rel in sorted(by_rel):
+            if by_rel[rel] and len(picked) < n:
+                picked.append(by_rel[rel].pop())
+    return picked
+
+
+def build_topup_subset(
+    dataset_dir: str | Path, *, groups: Sequence[str], per_group: int, seed: int,
+    primary: str = "D/test", reserve: str = "D/train",
+) -> dict[str, Any]:
+    """Bộ thật: mỗi domain `per_group` câu, ưu tiên `primary`, thiếu thì mượn từ `reserve`; bỏ câu trước Công nguyên.
+
+    Câu không xác định được chunk đáp án cũng bị bỏ. Câu bị bỏ vì BC nếu câu hỏi, nhãn thời gian, đáp án hoặc đoạn chứa đáp án có dấu hiệu BC (`mentions_bce`, decisions/05).
+    Câu mượn từ `reserve` có `split` = "D/train" và nằm trong `borrowed_from_train`: phải loại khỏi mẫu tinh chỉnh.
+    """
+    root = Path(dataset_dir)
+    pages = {p["page_id"]: p for p in read_jsonl(root / "pages.jsonl")}
+    rng = random.Random(seed)
+    cases: list[dict[str, Any]] = []
+    dropped_bce = {primary: 0, reserve: 0}
+    dropped_unmapped = {primary: 0, reserve: 0}
+    pools: dict[str, dict[str, list[dict[str, Any]]]] = {}
+    easy: dict[str, str] = {}
+    for split in (primary, reserve):
+        easy.update({r["idx"]: r["question"] for r in read_jsonl(root / f"{split}.easy.jsonl")})
+        by_domain: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for row in read_jsonl(root / f"{split}.hard.jsonl"):
+            page = pages[row["page_id"]]
+            spans = paragraph_spans(page["context"], page["paragraphs"])
+            idxs, flags = gold_paragraph_indices(spans, row["from"], row["end"])
+            if not idxs:  # không xác định được chunk đáp án: không chấm được
+                dropped_unmapped[split] += 1
+                continue
+            gold_text = " ".join(page["paragraphs"][i]["text"] for i in idxs)
+            if mentions_bce(row["question"], str(row["time_start"]), str(row["time_end"]), " ".join(row["targets"]), gold_text):
+                dropped_bce[split] += 1
+                continue
+            row = {**row, "_gold": idxs, "_flags": flags, "_split": split}
+            by_domain[relation_domain(row["relation"])].append(row)
+        pools[split] = by_domain
+    for g in groups:
+        chosen = sample_balanced(pools[primary].get(g, []), per_group, rng)
+        if len(chosen) < per_group:
+            chosen += sample_balanced(pools[reserve].get(g, []), per_group - len(chosen), rng)
+        if len(chosen) < per_group:
+            raise ValueError(f"{g} chỉ có {len(chosen)} câu hợp lệ, cần {per_group}")
+        cases.extend(chosen)
+    cases.sort(key=lambda r: r["idx"])
+    out = [{
+        "idx": r["idx"], "page_id": r["page_id"], "relation": r["relation"], "domain": relation_domain(r["relation"]),
+        "split": r["_split"], "question_hard": r["question"], "question_easy": easy[r["idx"]],
+        "targets": r["targets"], "time_start": r["time_start"], "time_end": r["time_end"],
+        "gold_chunk_ids": [f"{r['page_id']}#{i}" for i in r["_gold"]], "flags": r["_flags"],
+    } for r in cases]
+    return {
+        "split": f"{primary}+{reserve}", "seed": seed, "group_by": "domain", "groups": list(groups), "per_group": per_group,
+        "n_cases": len(out), "page_ids": sorted({c["page_id"] for c in out}),
+        "borrowed_from_train": [c["idx"] for c in out if c["split"] == reserve], "dropped_bce": dropped_bce,
+        "dropped_unmapped": dropped_unmapped, "cases": out,
     }
