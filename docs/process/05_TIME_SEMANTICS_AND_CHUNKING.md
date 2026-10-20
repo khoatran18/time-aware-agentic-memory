@@ -14,7 +14,7 @@ Số liệu lấy từ các tập `hard` của `D/test` (830 câu) và `D/train`
 | Sửa lint | `pyproject.toml`, `config/logging.py`, vài test | `ruff` 0.16.10 sạch. `DTZ001` bỏ qua trong `tests/*` vì test cố ý dùng datetime không múi giờ |
 | README từng module | `src/tam/*/README.md` | Sơ đồ thứ tự vận hành: mỗi khối một file, node là `Class.hàm`, mũi tên đánh số |
 | Phân tích chủ đề | `dataset/full_dataset/TOPICS.md` | `relation` là gì, vì sao không dùng làm filter, đề xuất 8 domain + `other`, tối đa 3 nhãn mỗi chunk |
-| Prompt ingestion | `src/tam/llm/prompts/ingestion_time.md` | Cho phép suy mốc từ các chunk khác cùng tài liệu; ba trạng thái của `end`; 5 ví dụ mới (xem mục 3) |
+| Prompt ingestion | `src/tam/llm/prompts/ingestion_time_v1.md` | Cho phép suy mốc từ các chunk khác cùng tài liệu; ba trạng thái của `end`; 5 ví dụ mới (xem mục 3) |
 | Test | toàn bộ | 121 xanh, 4 xfail cũ, chạy với Qdrant thật (docker) |
 
 **Không đổi code logic ingestion** (`to_span`, `TimeExtractor`): chỉ prompt. `ChunkTime` chưa có trường nhãn chủ đề.
@@ -97,7 +97,7 @@ Coi "không biết" là có thể còn hiệu lực (hướng "xét cả ongoing
 
 Ví dụ trên: A = 2001 đến 2005, B = 2005 đến 2010, C = 2010 đến `NULL` (nếu nói "still at the club"). Cách này cũng khớp bất biến *Timeline ≠ Conflict*: sự kiện sau chỉ đóng sự kiện trước khi văn bản nói rõ (hoặc chúng loại trừ nhau), không đóng tự động.
 
-### 3.3. Ví dụ few-shot đã thêm (`ingestion_time.md`)
+### 3.3. Ví dụ few-shot đã thêm (`ingestion_time_v1.md`)
 
 Có 4 ví dụ cũ (một chunk) và 5 ví dụ mới (nhiều chunk, cùng một tài liệu):
 
@@ -131,7 +131,7 @@ Cần sửa design: `Chunk.start_time` thành tùy chọn; bất biến "không 
 
 TH1 **vẫn được xếp hạng**: `Final = W1·Semantic + W2·1.0`. Khi nhiều chunk cùng TH1, phần thời gian bằng nhau và `semantic_score` quyết định; hòa hoàn toàn thì xét `temporal_score` rồi `chunk_id`.
 
-Profiler quy khoảng thời gian về một điểm bằng cách **lấy mốc cuối khoảng** ("during the 1990s" thành `1999-01-01`, "before X" thành X). Chưa có quy tắc cho "after X" hay "since X" trong `time_extractor.md`.
+Profiler quy khoảng thời gian về một điểm bằng cách **lấy mốc cuối khoảng** ("during the 1990s" thành `1999-01-01`, "before X" thành X). Chưa có quy tắc cho "after X" hay "since X" trong `time_extractor_v1.md`.
 
 ### 4.2. Vấn đề: người dùng hỏi theo khoảng
 
@@ -171,7 +171,7 @@ Gọi khoảng của câu hỏi là `[a, b]`. Profiler trả `t_req = b` (như h
 | Điểm (năm hoặc tháng) | "in 2005", "in Dec 2004" | cả kỳ: `[2005-01-01, 2005-12-31]`, `[2004-12-01, 2004-12-31]` | Xem lỗi về độ chính xác ngay dưới bảng |
 | between X and Y | "between Apr 1987 and Nov 1988" | `[1987-04-01, 1988-11-30]` | TH1 cho chunk bất kỳ giao với khoảng |
 | before X | "before Apr 2004" | `a = b = 2004-04-01` (ngày đầu của kỳ X, **tính cả X**) | Một điểm: cần chunk đang hiệu lực khi X sắp đến, không phải mọi chunk cũ hơn. Chunk không chứa điểm đó thì TH2, ưu tiên chunk gần nhất. Xem 4.5 về dữ liệu |
-| after, since X | "after Jul 2018" | `[2018-07-01, T_now]` | Nhiều chunk có thể giao với khoảng này, nên `semantic_score` quyết định phần lớn. Quy tắc chưa có trong `time_extractor.md`; cần ablation xem nên ưu tiên chunk bắt đầu sớm nhất sau X hay không |
+| after, since X | "after Jul 2018" | `[2018-07-01, T_now]` | Nhiều chunk có thể giao với khoảng này, nên `semantic_score` quyết định phần lớn. Quy tắc chưa có trong `time_extractor_v1.md`; cần ablation xem nên ưu tiên chunk bắt đầu sớm nhất sau X hay không |
 | early, mid, late; thập niên | "late 1990s", "the 1990s" | chia ba phần của thập niên: early `1990` đến `1993`, mid `1994` đến `1996`, late `1997` đến `1999`; "the 1990s" là `[1990-01-01, 1999-12-31]` | Giao khoảng nên chunk ở bất kỳ chỗ nào trong khoảng đều TH1 |
 
 **Lỗi độ chính xác hiện có (đã tồn tại, không chỉ ở đề xuất này):** Profiler đổi "in 2005" thành `2005-01-01`, rồi hard filter `start_time <= 2005-01-01` loại mất chunk bắt đầu giữa năm 2005 (vd 2005-07) dù nó có hiệu lực trong năm 2005. Lấy `b` là **cuối kỳ** của mốc được nhắc (`2005-12-31`) thì không còn loại sai. Việc này nên sửa dù có làm `t_req_start` hay không. **Chưa sửa.**

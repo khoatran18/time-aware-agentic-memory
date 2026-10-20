@@ -144,3 +144,27 @@ def test_domain_score_and_w3():
     assert domain_score(_chunk(None, None, ["sports"]), ["career"]) == 0.0
     assert domain_score(_chunk(None, None), ["career"]) == 0.0
     assert final_score(0.5, 1.0, 0.7, 0.3, 1.0, 0.1) == pytest.approx(0.35 + 0.3 + 0.1)
+
+
+def test_decay_from_end_penalises_long_chunk_by_time_since_end():
+    long_ended = mk(utc(1727), utc(1944, 12, 31))
+    t_req = utc(1945, 7, 1)
+    from_start = temporal_score(long_ended, t_req, 0.5)
+    from_end = temporal_score(long_ended, t_req, 0.5, decay_from="end")
+    assert from_start < 1e-40  # coi như chunk cổ
+    assert from_end == pytest.approx(math.exp(-0.5 * delta_years(t_req, utc(1944, 12, 31))))
+    assert 0.7 < from_end < 0.9
+
+
+def test_decay_from_only_changes_ended_chunks():
+    t_req = utc(2020)
+    inside, ongoing = mk(utc(2018), utc(2021)), mk(utc(2018))
+    for c in (inside, ongoing):
+        assert temporal_score(c, t_req, 0.5, decay_from="end") == temporal_score(c, t_req, 0.5) == 1.0
+    assert temporal_score(mk(utc(2010)), t_req, 0.5, end_mode="unknown_decay", decay_from="end") == pytest.approx(
+        temporal_score(mk(utc(2010)), t_req, 0.5, end_mode="unknown_decay"))  # chunk không có end_time: giữ theo start
+
+
+def test_decay_from_rejects_unknown_value():
+    with pytest.raises(ValueError, match="decay_from"):
+        temporal_score(mk(utc(2018)), utc(2020), 0.5, decay_from="middle")

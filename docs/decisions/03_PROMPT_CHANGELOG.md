@@ -2,7 +2,19 @@
 
 Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được (nếu có). Quyết định lớn có file riêng ở thư mục này; đây chỉ là sổ ghi để biết kết quả ở `docs/eval/` ứng với phiên bản prompt nào. Từ 2026-10-19 (sau lần 4) config dùng combo `basic-gemini-3.5-flash-lite` chỉ chứa một model, nên các lần chạy sau không còn bị đổi model ngầm; các lần trước dùng `basic-llm`. Số liệu so sánh nhiều lần chạy phải kèm lưu ý: model phía sau combo `basic-llm` của 9router **thay đổi theo thời gian** (ngày 2026-10-19 một model bị ngừng và combo chuyển sang `gemini-3.1-flash-lite`), nên khác biệt giữa hai lần chạy không hoàn toàn do prompt.
 
-## `src/tam/llm/prompts/ingestion_time.md` (gán mốc và domain cho chunk)
+## Quy ước phiên bản (từ 2026-10-20)
+
+- Mỗi prompt là một file `<tên>_v<N>.md`. **Sửa nội dung thì tạo file mới `_v<N+1>`, không ghi đè bản cũ**: các lần chạy benchmark cũ vẫn cần đọc lại đúng prompt đã dùng. Mọi prompt có sẵn trước ngày này là `v1`.
+- Code giữ hằng `PROMPT_VERSION` cạnh `PROMPT_PATH` (`query/profiler.py`, `query/range_profiler.py`, `ingestion/time_extraction.py`); `profile_eval.py` ghi `prompt_version` vào từng dòng `profiler.jsonl`.
+- Cache LLM khóa theo tên schema, model và **nội dung** prompt (`llm/cache.py`), không theo tên file: đổi tên file mà nội dung giữ nguyên thì cache cũ vẫn trúng (đã kiểm: 330/330 lô ingestion và 399/400 câu Profiler v1 vẫn từ cache sau khi đổi tên); prompt mới thì khóa mới, cache cũ nằm yên và còn dùng được cho lần chạy cũ.
+
+| Prompt | Phiên bản | Ghi chú |
+|---|---|---|
+| `ingestion_time` | `v1` | Bản đang dùng |
+| `time_extractor` (Profiler) | `v1` | Trả một điểm `t_req` (`Profiler`, schema `Extraction`); dùng ở mọi kết quả đến 2026-10-20 |
+| `time_extractor` (Profiler) | `v2` | Trả khoảng `t_start`/`t_end` ở độ mịn câu hỏi + `bound` (exact/after/before/none) (`RangeProfiler`, schema `RangeExtraction`); decisions/07 đề xuất 1. Khác schema nên là lớp riêng, `v1` không đổi |
+
+## `src/tam/llm/prompts/ingestion_time_v1.md` (gán mốc và domain cho chunk)
 
 | Ngày | Đổi gì | Vì sao | Hiệu quả |
 |---|---|---|---|
@@ -16,8 +28,8 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 
 ### Dự kiến, chưa làm
 - ~~Quy tắc ưu tiên "lĩnh vực của chủ thể hơn khía cạnh"~~ **bỏ** (2026-10-19): domain chỉ cộng điểm và gắn theo khía cạnh được hỏi, chunk được mang tới 3 nhãn gồm cả hai loại, nên không cần chọn một. Xem docs/eval/01 mục 3.
-- Ghi nhận: `ingestion_time.md` có thời gian sửa 11:48 giữa lần 2 và lần 4 mà sổ này không có dòng tương ứng; nội dung thay đổi chưa dựng lại được. Từ nay mỗi lần đổi prompt phải ghi dòng ở đây trước khi chạy.
+- Ghi nhận: `ingestion_time_v1.md` có thời gian sửa 11:48 giữa lần 2 và lần 4 mà sổ này không có dòng tương ứng; nội dung thay đổi chưa dựng lại được. Từ nay mỗi lần đổi prompt phải ghi dòng ở đây trước khi chạy.
 
-## `src/tam/llm/prompts/time_extractor.md` (Profiler)
+## `src/tam/llm/prompts/time_extractor_v1.md` (Profiler)
 
 Chưa đổi prompt. Phát hiện 2026-10-19: với `basic-llm`, các ví dụ dạng `semantic_query: ... | t_req: ...` khiến combo trả văn bản tự do thay vì JSON (40/40 câu lỗi). Xử lý bằng code (`tam/llm/structured.py`: đọc JSON từ văn bản, thử lại), không đổi prompt. Sau đó 0/40 lỗi.

@@ -8,7 +8,7 @@
 |---|---|
 | `profiler.py` | `Profiler(llm).profile(question, t_now) -> ProfiledQuery`; kiểu `Extraction` (đầu ra có cấu trúc của LLM); `parse_t_req(raw)` |
 
-Prompt dùng: `llm/prompts/time_extractor.md`.
+Prompt dùng: `llm/prompts/time_extractor_v1.md`.
 
 ## Thứ tự vận hành (`profile`)
 
@@ -23,7 +23,7 @@ flowchart TD
         P2["Profiler.profile"]
         P3["parse_t_req"]
     end
-    MD["3. llm/prompts/time_extractor.md"]
+    MD["3. llm/prompts/time_extractor_v1.md"]
     LLM["4. BaseChatModel (with_structured_output Extraction)"]
     FK["5. retrieval.temporal.filters: FACET_KEYS"]
     NODE["node profile / scripts.ask"]

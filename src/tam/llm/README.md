@@ -11,8 +11,8 @@
 | `providers/__init__.py` | Import `anthropic, ollama, openai` để decorator chạy |
 | `providers/anthropic.py`, `openai.py`, `ollama.py` | Mỗi file một hàm `build` → `ChatAnthropic` / `ChatOpenAI` / `ChatOllama` |
 | `providers/_common.py` | `require(profile, key, hint)` (thiếu/rỗng thì báo lỗi), `model_id(profile)` (từ chối giá trị mẫu `<điền ...>`) |
-| `prompts/time_extractor.md` | System prompt của Time Extractor; chỗ `{t_now}`; few-shot 8 ví dụ |
-| `prompts/ingestion_time.md` | System prompt trích mốc lúc ingestion; chỗ `{doc_title}`; few-shot 4 ví dụ |
+| `prompts/time_extractor_v1.md` | System prompt của Time Extractor; chỗ `{t_now}`; few-shot 8 ví dụ |
+| `prompts/ingestion_time_v1.md` | System prompt trích mốc lúc ingestion; chỗ `{doc_title}`; few-shot 4 ví dụ |
 
 ## Thứ tự vận hành
 
@@ -77,7 +77,7 @@ flowchart TD
 |---|---|---|
 | `get_llm(cfg, name)` | `Config`, tên profile | `BaseChatModel` |
 | `get_llm_for_role(cfg, role)` | `Config`, tên role (`time_extractor`, `ingestion_time`, `router`, `generation`, `judge`) | `BaseChatModel` |
-| Prompt `time_extractor.md` | `{t_now}` = ngày `T_now` | system message cho Profiler |
-| Prompt `ingestion_time.md` | `{doc_title}` | system message cho TimeExtractor |
+| Prompt `time_extractor_v1.md` | `{t_now}` = ngày `T_now` | system message cho Profiler |
+| Prompt `ingestion_time_v1.md` | `{doc_title}` | system message cho TimeExtractor |
 
 **Chưa làm:** log mỗi lệnh gọi LLM (role, profile, độ trễ, token). Chi tiết: `docs/process/02_CORE_COMPONENTS.md` mục 2.

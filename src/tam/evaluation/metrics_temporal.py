@@ -11,6 +11,7 @@ from datetime import datetime
 from typing import Any
 
 from tam.config.logging import get_logger
+from tam.evaluation.answer_match import answer_hits
 from tam.evaluation.funnel import gold_filter_status, stage_ranks, summarize_stages
 from tam.retrieval.base import Retriever
 from tam.schemas.chunk import Chunk
@@ -31,6 +32,7 @@ class EvalCase:
     forbidden_ids: frozenset[str] = frozenset() # chunk tuyệt đối không được xuất hiện (tương lai, tin giả, sai facet)
     filters: dict[str, Any] = field(default_factory=dict)
     domains: tuple[str, ...] = ()               # domain gợi ý để cộng điểm (W3), không lọc
+    answers: tuple[str, ...] = ()               # các chuỗi đáp án chấp nhận được; rỗng = không tính chỉ số theo chuỗi đáp án
 
 
 def cases_from_corpus(data: dict) -> list[EvalCase]:
@@ -94,6 +96,9 @@ def evaluate_retrieval(
         query = ProfiledQuery(semantic_query=case.query, t_req=case.t_req, filters=case.filters, domains=list(case.domains))
         result = retriever.retrieve(query)
         ids = [s.chunk.chunk_id for s in result.chunks]
+        ans_hit, ans_valid_hit = (
+            answer_hits(case.answers, [s.chunk for s in result.chunks], query.t_req, ks) if case.answers else (None, None)
+        )
         rows.append({
             "id": case.id,
             "ranked_ids": ids,
@@ -108,6 +113,8 @@ def evaluate_retrieval(
             "ctx_all_hit": all_hit_at_k(ids + [c.chunk_id for c in result.neighbors], case.gold_ids, len(ids) + len(result.neighbors)),
             "ctx_size": len(ids) + len(result.neighbors),
             "rr": reciprocal_rank(ids, case.gold_ids),
+            "ans_hit": ans_hit,
+            "ans_valid_hit": ans_valid_hit,
             "future_leak": any(is_future_leak(s.chunk, query.t_req) for s in result.chunks),
             "invalidated": any(is_invalidated(s.chunk) for s in result.chunks),
             "forbidden": any(i in case.forbidden_ids for i in ids),
@@ -129,6 +136,9 @@ def evaluate_retrieval(
         "n_answerable": len(answerable),
         **{f"hit@{k}": mean([r["hit"][k] for r in answerable]) for k in ks},
         "mrr": mean([r["rr"] for r in answerable]),
+        # theo chuỗi đáp án (answer_match.py): bổ sung cho Hit@k theo chunk_id, không thay thế
+        **{f"ans_hit@{k}": mean([r["ans_hit"][k] for r in answerable if r["ans_hit"]]) for k in ks},
+        **{f"ans_valid_hit@{k}": mean([r["ans_valid_hit"][k] for r in answerable if r["ans_valid_hit"]]) for k in ks},
         **{f"recall@{k}": mean([r["recall"][k] for r in answerable]) for k in ks},
         # câu cần từ 2 chunk trở lên: Hit@k (một chunk) dễ đánh giá quá cao, nên đo thêm all_hit (đủ chunk) và recall
         "n_multi_gold": len(multi),

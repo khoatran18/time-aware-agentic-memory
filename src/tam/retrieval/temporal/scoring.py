@@ -22,6 +22,8 @@ SECONDS_PER_YEAR = 365.25 * 24 * 3600  # năm Julian
 
 EndMode = Literal["stored", "open", "decay", "unknown_decay"]
 END_MODES: tuple[str, ...] = ("stored", "open", "decay", "unknown_decay")
+DecayFrom = Literal["start", "end"]
+DECAY_FROMS: tuple[str, ...] = ("start", "end")
 
 
 def delta_years(t_req: datetime, start_time: datetime) -> float:
@@ -36,9 +38,10 @@ def is_exact_match(chunk: Chunk, t_req: datetime) -> bool:
 
 def temporal_score(
     chunk: Chunk, t_req: datetime, decay_lambda: float, *, end_mode: EndMode = "stored", open_decay: float = 0.1,
-    t_unknown: float | None = None,
+    t_unknown: float | None = None, decay_from: DecayFrom = "start",
 ) -> float:
-    """TH1 trả 1.0; TH2 trả `exp(-λ·Δyears)` với Δ tính từ `start_time`; `end_mode` xem docstring module.
+    """TH1 trả 1.0; TH2 trả `exp(-λ·Δyears)` với Δ tính từ `start_time` (mặc định) hoặc từ `end_time` (`decay_from="end"`,
+    decisions/07 đề xuất 3: chunk sống lâu vừa hết hạn không bị phạt như chunk cổ); `end_mode` xem docstring module.
 
     Chunk có `start_time > t_req` là rò rỉ tương lai; hard filter đã loại, nên gặp ở đây là lỗi và báo ngay
     thay vì chấm điểm im lặng.
@@ -51,6 +54,8 @@ def temporal_score(
         raise ValueError(f"decay_lambda và open_decay phải >= 0, nhận {decay_lambda}, {open_decay}")
     if end_mode not in END_MODES:
         raise ValueError(f"end_mode không hợp lệ: {end_mode!r}; cho phép {END_MODES}")
+    if decay_from not in DECAY_FROMS:
+        raise ValueError(f"decay_from không hợp lệ: {decay_from!r}; cho phép {DECAY_FROMS}")
     if chunk.start_time > t_req:
         raise ValueError(
             f"Rò rỉ tương lai: chunk {chunk.chunk_id} có start_time {chunk.start_time} > t_req {t_req}"
@@ -64,7 +69,8 @@ def temporal_score(
         return math.exp(-open_decay * delta_years(t_req, chunk.start_time))
     if is_exact_match(chunk, t_req):
         return 1.0
-    return math.exp(-decay_lambda * delta_years(t_req, chunk.start_time))
+    anchor = chunk.end_time if decay_from == "end" and chunk.end_time is not None else chunk.start_time
+    return math.exp(-decay_lambda * delta_years(t_req, anchor))
 
 
 def domain_score(chunk: Chunk, query_domains: list[str]) -> float:

@@ -23,7 +23,7 @@ from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.retriever import TemporalRetriever
-from tam.retrieval.temporal.scoring import END_MODES
+from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES
 from tam.stores.vector.qdrant_store import QdrantStore, collection_for
 
 KS = (1, 3, 5)
@@ -47,6 +47,7 @@ def main() -> None:
     ap.add_argument("--end-mode", choices=list(END_MODES), help="ghi đè retrieval.end_mode: stored (C) | open (A) | decay (B) | unknown_decay (chỉ unknown giảm dần, ongoing giữ 1.0)")
     ap.add_argument("--open-decay", type=float, help="ghi đè retrieval.open_decay (với --end-mode decay hoặc unknown_decay)")
     ap.add_argument("--sparse-weight", type=float, help="ghi đè retrieval.sparse_weight: trọng số BM25 trong RRF (1 = thường, 0 = bỏ BM25, chỉ dense)")
+    ap.add_argument("--decay-from", choices=list(DECAY_FROMS), help="ghi đè retrieval.decay_from: mốc tính khoảng cách của chunk đã hết hạn (TH2): start (mặc định) | end")
     ap.add_argument("--neighbors", type=int, help="ghi đè retrieval.neighbor_window: số chunk liền kề mỗi phía lấy làm ngữ cảnh")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
@@ -70,6 +71,7 @@ def main() -> None:
         "neighbor_window": r.get("neighbor_window", 0) if args.neighbors is None else args.neighbors,
         "t_unknown": r.get("t_unknown", None) if args.t_unknown is None else args.t_unknown,
         "sparse_weight": r.get("sparse_weight", 1.0) if args.sparse_weight is None else args.sparse_weight,
+        "decay_from": args.decay_from or r.get("decay_from", "start"),
     }
     if args.method == "temporal":
         retriever = TemporalRetriever(store, **settings)

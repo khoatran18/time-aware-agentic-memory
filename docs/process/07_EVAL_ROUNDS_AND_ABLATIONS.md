@@ -12,7 +12,7 @@ Tiếp nối [`06_EVAL_SUBSET.md`](06_EVAL_SUBSET.md). Giai đoạn 2026-10-19: 
 | | `retrieval/temporal/expansion.py`, `stores/vector/*` | Lấy chunk liền kề (`get_chunks`), điều kiện `IsNull(start_time)` |
 | Ingestion | `ingestion/time_extraction.py`, `pipeline.py` | `end_status`, `--keep-undated`, bỏ chunk trước Công nguyên |
 | LLM | `llm/structured.py`, `llm/cache.py` | Chờ 1 đến 32 giây khi LLM lỗi tạm thời; cache SQLite (nguồn sự thật) cộng JSON (xem nhanh) |
-| Profiler | `query/profiler.py`, `prompts/time_extractor.md` | Trường `use_t_now`: câu phụ thuộc "bây giờ" không cache; khóa cache không chứa ngày; `profiler.jsonl` ghi thêm `t_now` |
+| Profiler | `query/profiler.py`, `prompts/time_extractor_v1.md` | Trường `use_t_now`: câu phụ thuộc "bây giờ" không cache; khóa cache không chứa ngày; `profiler.jsonl` ghi thêm `t_now` |
 | Đánh giá | `evaluation/funnel.py`, `metrics_temporal.py` | Số đo từng bước (ứng viên, lọc, điểm thời gian, Profiler), multi-gold, ngữ cảnh chunk liền kề |
 | | `scripts/evaluate.py` | Cờ `--method`, `--t-unknown`, `--w3`, `--end-mode`, `--open-decay`, `--neighbors`, `--sparse-weight`, `--facets`, `--collection` |
 | | `scripts/summarize_runs.py`, `scripts/plot_results.py`, `dataset/eval/results_local.csv`, `docs/eval/figures/*.svg` | Gom `metrics.json` nhiều lần chạy thành bảng xếp hạng (CSV + markdown) và vẽ biểu đồ SVG (cột ngang xếp hạng, bảng màu và đường theo `t_unknown`), không cần thư viện vẽ |

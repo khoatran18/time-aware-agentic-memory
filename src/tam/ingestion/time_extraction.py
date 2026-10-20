@@ -23,7 +23,8 @@ from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize
 
 logger = get_logger(__name__)
 
-PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / "ingestion_time.md"
+PROMPT_VERSION = "v1"  # prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
+PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"ingestion_time_{PROMPT_VERSION}.md"
 _PARTIAL_DATE = re.compile(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
 # Dấu hiệu "còn hiệu lực" mà câu bằng chứng của `ongoing` phải chứa (heuristic cho tiếng Anh, docs/decisions/02)
 _ONGOING_CUES = re.compile(

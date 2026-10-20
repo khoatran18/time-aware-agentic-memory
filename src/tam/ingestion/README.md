@@ -9,7 +9,7 @@
 | `types.py` | Kiểu trung gian (dataclass bất biến): `Section`, `RawDoc`, `RawChunk`, `TimeSpan`, `TimeResult` | (không) |
 | `loaders/timeqa.py` | `load_pages(path, page_ids=None)`: đọc `pages.jsonl` của TimeQA, mỗi dòng một trang Wikipedia → `RawDoc` | `types` |
 | `chunking.py` | `chunk_document(doc)`: mỗi section một chunk; `content_hash(text)` | `types` |
-| `time_extraction.py` | `TimeExtractor.extract(title, chunks)`: LLM trích khoảng hiệu lực theo lô; `to_span`, `parse_partial_date` | LLM (tiêm vào), prompt `ingestion_time.md` |
+| `time_extraction.py` | `TimeExtractor.extract(title, chunks)`: LLM trích khoảng hiệu lực theo lô; `to_span`, `parse_partial_date` | LLM (tiêm vào), prompt `ingestion_time_v1.md` |
 | `pipeline.py` | `IngestionPipeline.run(docs)`: **nơi duy nhất gọi các file còn lại**; `Sink` (ABC), `VectorSink`, `IngestStats` | `chunking`, `time_extraction`, `Sink` |
 
 `chunking.py`, `time_extraction.py` và loader **không gọi nhau**; chỉ `pipeline.py` nối chúng.
@@ -40,7 +40,7 @@ flowchart TD
         T3["to_span"]
         T4["parse_partial_date"]
     end
-    LLM["5. BaseChatModel + prompts/ingestion_time.md"]
+    LLM["5. BaseChatModel + prompts/ingestion_time_v1.md"]
     UP["6. stores.vector: VectorStore.upsert"]
 
     FILE -->|"1. đường dẫn, page_ids"| L1

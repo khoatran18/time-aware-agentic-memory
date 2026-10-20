@@ -104,6 +104,7 @@ retrieval:
   w3: 0.0                # trọng số Domain_Match (cộng điểm); 0 = tắt
   end_mode: "stored"     # cách chấm chunk ongoing/unknown: stored (C) | open (A) | decay (B) | unknown_decay (chỉ unknown giảm dần); xem decisions/02, 06
   open_decay: 0.1        # chỉ dùng khi end_mode = decay hoặc unknown_decay
+  decay_from: "start"     # mốc tính khoảng cách của chunk đã hết hạn (TH2): start (design 02) | end (decisions/07, đang thử)
   t_unknown: null        # điểm thời gian của chunk không mốc (vd 0.5); null = tắt nhánh này (decisions/04)
   sparse_weight: 1.0     # trọng số nhánh BM25 trong RRF (dense luôn 1); 0 = bỏ BM25 (docs/eval/04, đợt 1b)
   neighbor_window: 0     # số chunk liền kề mỗi phía lấy làm ngữ cảnh; 0 = tắt

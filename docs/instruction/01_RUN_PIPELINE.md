@@ -102,8 +102,8 @@ Thứ tự các bước luôn như trên. Kịch bản khác nhau ở **bước 
 | Bạn đổi | Chạy lại |
 |---|---|
 | `W1, W2, λ, top_n, top_k, rrf_k` (config) hoặc cờ của bước 5 | Chỉ bước 5 (và 6 nếu cần) |
-| Prompt hoặc LLM của Profiler (`time_extractor.md`, role `time_extractor`) | Bước 4, 5 |
-| Prompt hoặc LLM gán mốc (`ingestion_time.md`, role `ingestion_time`), danh sách domain | Bước 3 (`--recreate`), 4 nếu muốn, 5, 6 |
+| Prompt hoặc LLM của Profiler (`time_extractor_v1.md`, role `time_extractor`) | Bước 4, 5 |
+| Prompt hoặc LLM gán mốc (`ingestion_time_v1.md`, role `ingestion_time`), danh sách domain | Bước 3 (`--recreate`), 4 nếu muốn, 5, 6 |
 | Model embedding | Bước 3 với `--recreate` (đổi số chiều vector), rồi 5 |
 | Bộ câu hỏi (seed, số câu, cách nhóm) | Bước 2, rồi 3 trở đi |
 

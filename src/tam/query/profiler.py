@@ -16,7 +16,8 @@ from tam.schemas.query import ProfiledQuery
 
 logger = get_logger(__name__)
 
-PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / "time_extractor.md"
+PROMPT_VERSION = "v1"  # prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
+PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"time_extractor_{PROMPT_VERSION}.md"
 
 
 class Extraction(BaseModel):
@@ -42,7 +43,7 @@ class Profiler:
     """Biến câu hỏi thô thành ProfiledQuery. LLM và đồng hồ đều được tiêm vào, không đọc gì từ bên ngoài."""
 
     def __init__(self, llm: BaseChatModel, *, prompt: str | None = None, cache: CacheStore | None = None) -> None:
-        """`llm`: chat model (role time_extractor). `prompt`: mẫu có chỗ {t_now}; mặc định đọc time_extractor.md."""
+        """`llm`: chat model (role time_extractor). `prompt`: mẫu có chỗ {t_now}; mặc định đọc time_extractor_v1.md."""
         self._llm = llm
         self._cache = cache
         self._chain = llm.with_structured_output(Extraction)

@@ -7,7 +7,7 @@ Bảng tra nhanh, dùng khi cần trả lời "đồ án đã có gì, chưa có
 | | Trạng thái | Ở đâu |
 |---|---|---|
 | Chia chunk theo đoạn của dataset, header "Tên bài \| Tên mục", khử trùng bằng hash | **Có** (1 cách) | `src/tam/ingestion/chunking.py` |
-| LLM gán `start`, `end`, `ongoing`, `domain` (tối đa 3 nhãn) kèm lý do; kiểm tra bằng chứng `ongoing` | **Có** | `time_extraction.py`, prompt `src/tam/llm/prompts/ingestion_time.md` |
+| LLM gán `start`, `end`, `ongoing`, `domain` (tối đa 3 nhãn) kèm lý do; kiểm tra bằng chứng `ongoing` | **Có** | `time_extraction.py`, prompt `src/tam/llm/prompts/ingestion_time_v1.md` |
 | Ghi Qdrant (dense + BM25, 4 chỉ mục payload) | **Có** (`VectorSink`) | `pipeline.py`, `src/tam/stores/vector/qdrant_store.py` |
 | Chọn LLM, cache kết quả LLM | **Có** | `configs/config.dev.yaml` mục `llm.roles`; `src/tam/llm/cache.py` |
 | Chunk không có `start` | Mặc định **bỏ**; `--keep-undated` giữ chunk có nội dung (nhãn domain khác rỗng) với `start_time` rỗng | [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md) |
@@ -37,7 +37,7 @@ Bảng tra nhanh, dùng khi cần trả lời "đồ án đã có gì, chưa có
 
 | | Trạng thái | Ở đâu |
 |---|---|---|
-| Profiler: câu hỏi và `T_now` → `semantic_query`, `t_req`, `filters` | **Có** | `src/tam/query/profiler.py`, prompt `time_extractor.md`; scripts `profile_eval.py` |
+| Profiler: câu hỏi và `T_now` → `semantic_query`, `t_req`, `filters` | **Có** | `src/tam/query/profiler.py`, prompt `time_extractor_v1.md`; scripts `profile_eval.py` |
 | Sinh đáp án (Time-CoT), LangGraph, baseline plain RAG, EM/F1 | Chưa | `docs/planning/01` mục 5 |
 
 ## Đo và đánh giá

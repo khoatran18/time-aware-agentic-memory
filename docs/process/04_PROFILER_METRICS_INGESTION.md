@@ -9,17 +9,17 @@ Tiếp nối [`03_TEMPORAL_RETRIEVAL_CORE.md`](03_TEMPORAL_RETRIEVAL_CORE.md) m�
 | Hạng mục | File | Ghi chú |
 |---|---|---|
 | Profiler | `src/tam/query/profiler.py` | `Profiler(llm).profile(question, t_now) -> ProfiledQuery` |
-| Prompt | `src/tam/llm/prompts/time_extractor.md` | Tiếng Anh, few-shot 8 ví dụ, có chỗ `{t_now}` |
+| Prompt | `src/tam/llm/prompts/time_extractor_v1.md` | Tiếng Anh, few-shot 8 ví dụ, có chỗ `{t_now}` |
 | Metric CC1 | `src/tam/evaluation/metrics_temporal.py` | Hit@k, MRR, leakage, invalidated, forbidden |
 | Ingestion | `src/tam/ingestion/` (`types`, `loaders/timeqa`, `chunking`, `time_extraction`, `pipeline`) | Xem mục 6 |
-| Prompt ingestion | `src/tam/llm/prompts/ingestion_time.md` | Tiếng Anh, few-shot 4 ví dụ, có chỗ `{doc_title}` |
+| Prompt ingestion | `src/tam/llm/prompts/ingestion_time_v1.md` | Tiếng Anh, few-shot 4 ví dụ, có chỗ `{doc_title}` |
 | Test | `tests/test_profiler.py`, `tests/test_metrics_temporal.py`, `tests/test_ingestion.py`, thêm 1 test vào `tests/test_qdrant_store.py` | Toàn bộ: 119 xanh, 4 xfail cũ (+ test Qdrant thật xanh) |
 
 ## 2. Profiler
 
 ### 2.1 Luồng một lần `profile(question, t_now)`
 
-1. Đọc `time_extractor.md`, thay `{t_now}` bằng `t_now.date().isoformat()`, gửi làm system message. Câu hỏi là human message.
+1. Đọc `time_extractor_v1.md`, thay `{t_now}` bằng `t_now.date().isoformat()`, gửi làm system message. Câu hỏi là human message.
 2. LLM trả structured output `Extraction` (`llm.with_structured_output(Extraction)`): `semantic_query`, `t_req` (chuỗi ISO hoặc `null`), `domain`, `country`.
 3. Chuẩn hóa trong code (không tin hoàn toàn vào LLM):
    - `t_req` đọc bằng `dateutil.isoparse`, chấp nhận `2020`, `2020-03`, `2020-03-01`, có hoặc không giờ; quy về UTC. Không đọc được thì ném `ValueError` kèm câu hỏi.
@@ -85,7 +85,7 @@ flowchart TD
         SK["pipeline.py<br/>VectorSink"]
         TY["types.py<br/>RawDoc, Section, RawChunk, TimeSpan, TimeResult"]
     end
-    PR["llm/prompts/ingestion_time.md<br/>chỗ {doc_title}"]
+    PR["llm/prompts/ingestion_time_v1.md<br/>chỗ {doc_title}"]
     LLM["Chat model<br/>role ingestion_time"]
     SCH["schemas/chunk.py<br/>Chunk"]
     ST["stores/vector<br/>VectorStore.upsert()"]
@@ -116,7 +116,7 @@ Nét liền = dữ liệu đi qua. Nét đứt = tài nguyên phụ. `pipeline.p
 | 0 | `load_pages(path, page_ids)` | Một dòng `pages.jsonl`: `page_id`, `paragraphs=[{title, text}]` | `RawDoc(doc_id="/wiki/Knox_Cunningham", title="Knox Cunningham", source="Wikipedia: Knox Cunningham", sections)`. Lọc theo `page_ids` nếu có; trang không có đoạn thì bỏ |
 | 1 | `chunk_document(doc)` | `RawDoc` | `list[RawChunk]`, mỗi section một chunk, `chunk_id="/wiki/Knox_Cunningham#<chỉ số section>"`. Text có header: `"Knox Cunningham \| Early career\n<nội dung>"`. Section rỗng bị bỏ. `content_hash` = SHA-256 của text đã gộp khoảng trắng và chữ thường |
 | 2 | `IngestionPipeline.run` | `RawChunk` | Bỏ chunk có hash đã gặp **trong cùng lần chạy** (đếm `skipped_duplicate`); còn lại là `fresh` |
-| 3 | `TimeExtractor.extract(title, fresh)` | `fresh` | Cắt lô 30 chunk. Mỗi lô một lệnh gọi LLM: system = `ingestion_time.md` với `{doc_title}` thay bằng tên bài; human = `[0] <text>\n\n[1] <text>...`. LLM trả `BatchTimes(items=[ChunkTime(index, start, end, ongoing)])` |
+| 3 | `TimeExtractor.extract(title, fresh)` | `fresh` | Cắt lô 30 chunk. Mỗi lô một lệnh gọi LLM: system = `ingestion_time_v1.md` với `{doc_title}` thay bằng tên bài; human = `[0] <text>\n\n[1] <text>...`. LLM trả `BatchTimes(items=[ChunkTime(index, start, end, ongoing)])` |
 | 4 | `to_span(item)` | `ChunkTime` | `TimeResult`: có `TimeSpan(start, end)` hoặc `reason`. Chuẩn hóa: start chỉ-năm thành `YYYY-01-01`, end chỉ-năm thành `YYYY-12-31`, chỉ-tháng thành ngày 1 hoặc ngày cuối tháng; `ongoing` thì `end=None`; không có `end` thì `end` = hết kỳ của `start`. `reason="no_time"`: không có `start`, hoặc LLM bỏ sót chunk. `reason="invalid_time"`: không đọc được ngày, năm < 1, hoặc `end < start` |
 | 5 | `IngestionPipeline.run` | `RawChunk` + `TimeResult` | Có `span` thì dựng `Chunk(chunk_id, text, source, start_time, end_time, domain_features)`. Không có thì bỏ và đếm `skipped_no_time` hoặc `skipped_invalid_time` |
 | 6 | `VectorSink.write(chunks)` | `list[Chunk]` | `VectorStore.upsert`: embed dense + BM25 rồi ghi vào Qdrant, chỉ 4 trường được index (`start_time`, `invalidated_at`, `domain_features.domain`, `domain_features.country`). `chunk_id` ổn định nên chạy lại là ghi đè, không nhân đôi |

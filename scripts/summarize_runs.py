@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ["config", "kind", "base", "end_mode", "neighbors", "t_unknown", "facets", "only_filter", "mode", "hit@1", "hit@3", "hit@5",
-          "mrr", "ctx_hit", "leakage_rate", "undated_in_results_rate", "dir"]
+          "mrr", "ans_hit@5", "ans_valid_hit@5", "ctx_hit", "leakage_rate", "undated_in_results_rate", "dir"]
 METHOD_NAMES = {"dense": "dense", "bm25": "BM25", "hybrid": "hybrid"}
 METRICS = ("hit@1", "hit@3", "hit@5", "mrr", "ctx_hit", "leakage_rate")
 
@@ -50,6 +50,8 @@ def describe(cfg: dict) -> dict:
         stem = f"Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm {base}"
     else:
         stem = f"Cơ chế 1 · tìm kiếm {base} · end {end_txt}"
+    if r.get("decay_from", "start") == "end":
+        stem += " · phạt từ end"
     if nb:
         stem += f" · lấy thêm {nb} chunk liền kề"
     if facets == "domain":
@@ -89,7 +91,8 @@ def load_rows(runs_tsv: Path) -> list[dict]:
         info["config"] = full_name(info["stem"], info["has_tu_part"], [info["t_unknown"]])
         seen[key] = {
             **info, "mode": m["config"].get("mode", "e2e"), "hit@1": m["hit@1"], "hit@3": m["hit@3"], "hit@5": m["hit@5"],
-            "mrr": m["mrr"], "ctx_hit": m["ctx_hit"], "leakage_rate": m["leakage_rate"],
+            "mrr": m["mrr"], "ans_hit@5": m.get("ans_hit@5"), "ans_valid_hit@5": m.get("ans_valid_hit@5"),
+            "ctx_hit": m["ctx_hit"], "leakage_rate": m["leakage_rate"],
             "undated_in_results_rate": m["undated_in_results_rate"], "dir": Path(d).name,
         }
     return list(seen.values())
@@ -120,12 +123,19 @@ def group_rows(rows: list[dict]) -> list[dict]:
     return groups
 
 
+def fmt(value: float | None) -> str:
+    """Số 3 chữ số thập phân, hoặc "—" khi lần chạy cũ chưa có chỉ số này."""
+    return "—" if value is None else f"{value:.3f}"
+
+
 def markdown(groups: list[dict]) -> str:
     """Bảng markdown xếp hạng (mỗi nhóm một dòng)."""
-    out = ["| Hạng | Cấu hình | `hit@1` | `hit@3` | `hit@5` | `mrr` | `ctx_hit` | `leakage_rate` | Thư mục |", "|---|---|---|---|---|---|---|---|---|"]
+    out = ["| Hạng | Cấu hình | `hit@1` | `hit@3` | `hit@5` | `mrr` | `ans@5` | `ans_valid@5` | `ctx_hit` | `leakage_rate` | Thư mục |",
+           "|---|---|---|---|---|---|---|---|---|---|---|"]
     for g in groups:
         out.append(f"| {g['rank']} | {g['config']} | {g['hit@1']:.3f} | {g['hit@3']:.3f} | {g['hit@5']:.3f} | **{g['mrr']:.3f}** | "
-                   f"{g['ctx_hit']:.3f} | {g['leakage_rate']:.3f} | {g['dir'].replace('`', '')} |")
+                   f"{fmt(g.get('ans_hit@5'))} | {fmt(g.get('ans_valid_hit@5'))} | {g['ctx_hit']:.3f} | {g['leakage_rate']:.3f} | "
+                   f"{g['dir'].replace('`', '')} |")
     return "\n".join(out)
 
 

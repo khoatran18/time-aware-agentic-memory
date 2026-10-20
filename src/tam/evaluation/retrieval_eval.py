@@ -49,5 +49,6 @@ def build_cases(
             domain = (row.get("filters") or {}).get("domain")
             filters = {"domain": domain} if facets == "domain" and domain else {}
             boost = (domain,) if facets == "boost" and domain else ()
-        cases.append(EvalCase(id=c["idx"], query=query, t_req=t_req, gold_ids=gold, filters=filters, domains=boost))
+        cases.append(EvalCase(id=c["idx"], query=query, t_req=t_req, gold_ids=gold, filters=filters, domains=boost,
+                              answers=tuple(c.get("targets") or ())))
     return cases

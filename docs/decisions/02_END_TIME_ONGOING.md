@@ -12,7 +12,7 @@ Ba bước nối tiếp nhau. Bốn tên `end`, `ongoing`, `end_time`, `end_stat
 
 | Bước | Ai làm | Khi nào | Tạo ra |
 |---|---|---|---|
-| 1. Gán nhãn | LLM (`ingestion_time.md`) | Ingestion | `end` (chuỗi ngày hoặc rỗng), `ongoing` (đúng/sai), kèm `reason_end_date`, `ongoing_evidence` |
+| 1. Gán nhãn | LLM (`ingestion_time_v1.md`) | Ingestion | `end` (chuỗi ngày hoặc rỗng), `ongoing` (đúng/sai), kèm `reason_end_date`, `ongoing_evidence` |
 | 2. Chuẩn hóa và lưu | Code (`to_span` trong `time_extraction.py`) | Ingestion | `end_time` lưu trong Qdrant: nếu `ongoing` thì `None`; nếu có `end` thì cuối kỳ của `end`; nếu rỗng thì cuối kỳ của `start`. Đồng thời kiểm tra `ongoing_evidence` |
 | 3. Chấm điểm | Code (`TemporalRetriever`) | Truy vấn | `Temporal_Score` từ `[start_time, end_time]` và `t_req` |
 

@@ -42,7 +42,7 @@ time-aware-agentic-memory/
 │   │   ├── registry.py       #   LLM_PROVIDERS = {}; decorator @register_llm("openai")
 │   │   ├── factory.py        #   get_llm(cfg, name) / get_llm_for_role(cfg, role): tra profile -> provider -> chat model
 │   │   ├── providers/        #   openai.py, anthropic.py, ollama.py...: mỗi file một hàm build(profile)
-│   │   └── prompts/          #   time_extractor.md, ingestion_time.md, time_cot.md
+│   │   └── prompts/          #   time_extractor_v1.md, ingestion_time_v1.md, time_cot.md
 │   ├── embedding/            #   base (ABC), registry, factory, providers/; profiles dense/sparse; đổi độc lập với LLM
 │   ├── stores/
 │   │   ├── vector/           #   base.py (ABC VectorStore), qdrant_store.py
