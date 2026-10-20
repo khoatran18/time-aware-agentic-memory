@@ -4,6 +4,8 @@ Cách xử lý chunk có `end_status` `ongoing`/`unknown` (decisions/02), chọn
 - `stored` (C, mặc định): theo `end_time` đã lưu (`ongoing` = rỗng, TH1 mãi; `unknown` = hết kỳ của `start`).
 - `open` (A): `ongoing` và `unknown` đều coi là còn hiệu lực, TH1 = 1.0 mãi.
 - `decay` (B): `ongoing` và `unknown` giảm nhẹ theo khoảng cách `start` tới `t_req`: `exp(-open_decay·Δyears)`.
+- `unknown_decay` (mới, decisions/06): chỉ `unknown` giảm theo `exp(-open_decay·Δyears)`; `ongoing` giữ như `stored` (TH1 = 1.0 mãi,
+  vì có câu trích làm bằng chứng). Ba chế độ trên giữ nguyên hành vi.
 Chunk `known` hoặc không có `end_status` luôn theo `end_time`.
 
 Chunk không có mốc (`start_time` rỗng, decisions/04) nhận điểm cố định `t_unknown`, không có TH1 hay TH2.
@@ -18,8 +20,8 @@ from tam.schemas.chunk import Chunk
 
 SECONDS_PER_YEAR = 365.25 * 24 * 3600  # năm Julian
 
-EndMode = Literal["stored", "open", "decay"]
-END_MODES: tuple[str, ...] = ("stored", "open", "decay")
+EndMode = Literal["stored", "open", "decay", "unknown_decay"]
+END_MODES: tuple[str, ...] = ("stored", "open", "decay", "unknown_decay")
 
 
 def delta_years(t_req: datetime, start_time: datetime) -> float:
@@ -53,7 +55,10 @@ def temporal_score(
         raise ValueError(
             f"Rò rỉ tương lai: chunk {chunk.chunk_id} có start_time {chunk.start_time} > t_req {t_req}"
         )
-    if end_mode != "stored" and chunk.end_status in ("ongoing", "unknown"):
+    if end_mode == "unknown_decay":
+        if chunk.end_status == "unknown":
+            return math.exp(-open_decay * delta_years(t_req, chunk.start_time))
+    elif end_mode != "stored" and chunk.end_status in ("ongoing", "unknown"):
         if end_mode == "open":
             return 1.0
         return math.exp(-open_decay * delta_years(t_req, chunk.start_time))

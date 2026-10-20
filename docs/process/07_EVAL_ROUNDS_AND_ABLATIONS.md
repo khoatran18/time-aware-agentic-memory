@@ -6,7 +6,7 @@ Tiếp nối [`06_EVAL_SUBSET.md`](06_EVAL_SUBSET.md). Giai đoạn 2026-10-19: 
 
 | Nhóm | File | Việc |
 |---|---|---|
-| Chấm điểm và truy xuất | `retrieval/temporal/scoring.py`, `retriever.py` | `end_mode` (`stored`/`open`/`decay`), `W3·Domain_Match`, nhánh chunk không mốc (`t_unknown`), `neighbor_window`, `sparse_weight` |
+| Chấm điểm và truy xuất | `retrieval/temporal/scoring.py`, `retriever.py` | `end_mode` (`stored`/`open`/`decay`/`unknown_decay`), `W3·Domain_Match`, nhánh chunk không mốc (`t_unknown`), `neighbor_window`, `sparse_weight` |
 | | `retrieval/temporal/fusion.py` | RRF có trọng số từng nhánh (`weights`); `sparse_weight = 0` bỏ hẳn BM25 |
 | | `retrieval/baseline.py` | `PlainRetriever`: dense, BM25, hybrid, không lọc thời gian (baseline plain RAG) |
 | | `retrieval/temporal/expansion.py`, `stores/vector/*` | Lấy chunk liền kề (`get_chunks`), điều kiện `IsNull(start_time)` |
@@ -32,5 +32,5 @@ Tiếp nối [`06_EVAL_SUBSET.md`](06_EVAL_SUBSET.md). Giai đoạn 2026-10-19: 
 
 - Bộ thật: Profiler (`profile_eval.py --subset real`) và nạp kho (`ingest.py --subset real`) chưa chạy; đợt 7.
 - Đợt 6: quét `λ`, `W1/W2` trên mẫu `D/train` (chưa có code lấy mẫu); nhớ loại 34 câu mượn.
-- Sửa ingestion mốc `unknown` và `start` sai: chỉ mới đề xuất ([`decisions/06`](../decisions/06_END_UNKNOWN_REMEDIES.md)).
+- Đề xuất 2 đến 5 ở [`decisions/06`](../decisions/06_END_UNKNOWN_REMEDIES.md) (LLM ghi loại sự việc, một chunk nhiều khoảng, reranker): chưa làm. Đề xuất 1 (tách `ongoing`/`unknown`, `end_mode: unknown_decay`) đã code và đo (`eval/04` đợt 3d).
 - Chưa đổi mặc định trong `config.*.yaml` theo kết quả local (`sparse_weight` 0, `t_unknown` 0.2, `neighbor_window` 1) chờ xác nhận ở bộ thật.

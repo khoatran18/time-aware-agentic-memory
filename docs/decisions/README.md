@@ -9,4 +9,4 @@ Mỗi file ghi **một** quyết định: bối cảnh, các phương án, chọ
 | [`03_PROMPT_CHANGELOG.md`](03_PROMPT_CHANGELOG.md) | Sổ thay đổi prompt kèm hiệu quả | Cập nhật liên tục |
 | [`04_UNDATED_CHUNKS.md`](04_UNDATED_CHUNKS.md) | Chunk không có `start` và câu hỏi không nêu thời gian | Đã code; đo ở local cho thấy có lợi (`eval/04` đợt 4b), chờ xác nhận ở bộ thật |
 | [`05_EXCLUDE_BEFORE_COMMON_ERA.md`](05_EXCLUDE_BEFORE_COMMON_ERA.md) | Loại chunk và câu hỏi có mốc trước Công nguyên | Đã quyết |
-| [`06_END_UNKNOWN_REMEDIES.md`](06_END_UNKNOWN_REMEDIES.md) | Chunk `end_status = unknown` và mốc `start` sai (nguyên nhân chính của câu sai còn lại) | **Đề xuất, chưa quyết, chưa code** |
+| [`06_END_UNKNOWN_REMEDIES.md`](06_END_UNKNOWN_REMEDIES.md) | Nhóm câu còn sai ở cấu hình tốt nhất và cách xử lý chunk `end_status = unknown` (tách `ongoing`/`unknown`) | Đề xuất 1 đã code và đo (`mrr` 0.580), chờ xác nhận ở bộ thật; còn lại chưa quyết |

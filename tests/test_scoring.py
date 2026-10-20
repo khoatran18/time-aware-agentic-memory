@@ -112,10 +112,25 @@ def test_end_modes_for_unknown_and_ongoing():
     assert temporal_score(ongoing, T, 0.5) == 1.0 and temporal_score(ongoing, T, 0.5, end_mode="decay") < 1.0
 
 
+def test_unknown_decay_changes_only_unknown():
+    unknown = _chunk("unknown", datetime(2000, 12, 31, tzinfo=timezone.utc))
+    ongoing = _chunk("ongoing", None)
+    known = _chunk("known", datetime(2001, 12, 31, tzinfo=timezone.utc))
+    legacy = _chunk(None, datetime(2001, 12, 31, tzinfo=timezone.utc))
+    u = temporal_score(unknown, T, 0.5, end_mode="unknown_decay", open_decay=0.1)
+    assert u == pytest.approx(math.exp(-0.1 * delta_years(T, unknown.start_time)))           # unknown giảm dần
+    assert u == temporal_score(unknown, T, 0.5, end_mode="decay", open_decay=0.1)             # cùng công thức decay
+    assert temporal_score(ongoing, T, 0.5, end_mode="unknown_decay", open_decay=0.1) == 1.0   # ongoing giữ 1.0
+    for other in (known, legacy):                                                            # known và cũ không đổi
+        assert temporal_score(other, T, 0.5, end_mode="unknown_decay") == temporal_score(other, T, 0.5)
+    # ba chế độ cũ giữ nguyên hành vi
+    assert temporal_score(unknown, T, 0.5) < 0.05 and temporal_score(unknown, T, 0.5, end_mode="open") == 1.0
+
+
 def test_known_and_legacy_chunks_ignore_end_mode():
     known = _chunk("known", datetime(2001, 12, 31, tzinfo=timezone.utc))
     legacy = _chunk(None, datetime(2001, 12, 31, tzinfo=timezone.utc))
-    for mode in ("stored", "open", "decay"):
+    for mode in ("stored", "open", "decay", "unknown_decay"):
         assert temporal_score(known, T, 0.5, end_mode=mode) == temporal_score(legacy, T, 0.5, end_mode=mode) < 0.05
 
 

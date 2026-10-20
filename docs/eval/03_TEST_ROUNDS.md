@@ -14,6 +14,7 @@ Mỗi đợt giữ cấu hình tốt nhất của đợt trước làm nền, ch
 | 3 | Cách chấm `end` nào tốt nhất? | `end_mode` A / B / C | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 3b | Mở rộng chunk liền kề cứu được bao nhiêu, tốn bao nhiêu? | `--neighbors` 0 / 1 / 2 | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 3c | Câu cần 2 chunk trở lên có bị đánh giá cao không? | Chỉ số `multi_*` | Đã chạy; bộ local chỉ có 1/40 câu, chưa có ý nghĩa |
+| 3d | Tách `ongoing`/`unknown`: chỉ `unknown` giảm dần có tốt hơn không? | `--end-mode unknown_decay --open-decay d` (cạnh `stored`/`open`/`decay`) | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 4 | Có nên giữ chunk không mốc, `T_unknown` bao nhiêu? | `--t-unknown` 0.0 đến 0.7 trên nhiều nền | Đã chạy (đợt 4 và 4b), xem [`04`](04_TEST_RESULTS.md) |
 | 5 | Domain cộng điểm có không tệ hơn lọc cứng? | `--facets`, `--w3` | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 6 | Tham số tốt nhất (`λ`, `W1/W2`)? | Quét trên `D/train` | **Chưa code**, để sau |
@@ -92,6 +93,10 @@ Lệnh: nền của đợt 3 thêm `--neighbors 0` / `1` / `2`.
 ### 3c. Câu cần nhiều chunk
 
 Không cần lệnh: đọc `n_multi_gold`, `multi_all_hit@k`, `multi_recall@k`, `ctx_multi_all_hit` trong cùng các lần chạy. Bộ local chỉ có 1/40 câu loại này nên đợt này chủ yếu có nghĩa ở bộ thật; ở local chỉ kiểm tra code chạy đúng.
+
+### 3d. Tách `ongoing` và `unknown`
+
+Lệnh: nền đợt 3 (dense) thêm `--end-mode unknown_decay --open-decay d` với `d` = 0.05, 0.1, 0.2, 0.3, mỗi `d` quét `t_unknown` tắt, 0.0 đến 0.7. Ba cách cũ (`stored`, `open`, `decay`) giữ nguyên để so. Đọc: `mrr`, `hit@5`; hạng chunk đáp án của 5 câu lỗi end ([`decisions/06`](../decisions/06_END_UNKNOWN_REMEDIES.md)); so từng câu với `stored` và `decay`. Quy tắc: nếu `mrr` tăng và không câu nào mới hỏng quá 1 thì giữ; không thì ghi "không có lợi" và tính đề xuất 2 của `decisions/06` (LLM ghi loại sự việc).
 
 ## Đợt 4. Chunk không mốc
 

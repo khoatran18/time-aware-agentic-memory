@@ -63,8 +63,9 @@ def text(x: float, y: float, s: str, *, fill: str = INK, anchor: str = "start", 
 
 TUS = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7]
 FAMILIES = [("hybrid", "stored"), ("hybrid", "open"), ("hybrid", "decay 0.05"), ("hybrid", "decay 0.1"), ("hybrid", "decay 0.2"),
-            ("dense", "stored"), ("dense", "open"), ("dense", "decay 0.1"), ("BM25 0.25", "stored"), ("BM25 0.25", "open"),
-            ("BM25 0.5", "stored")]
+            ("dense", "stored"), ("dense", "open"), ("dense", "decay 0.1"), ("dense", "unknown decay 0.05"),
+            ("dense", "unknown decay 0.1"), ("dense", "unknown decay 0.2"), ("dense", "unknown decay 0.3"), ("BM25 0.25", "stored"),
+            ("BM25 0.25", "open"), ("BM25 0.5", "stored")]
 
 
 def pick(rows: list[dict], base: str, end: str, tu: float | None) -> dict | None:
@@ -194,7 +195,7 @@ def curve_svg(rows: list[dict]) -> str:
     series = [("hybrid · end stored", {'base': 'hybrid', 'end_mode': 'stored'}, BLUE), ("dense · end stored", {'base': 'dense', 'end_mode': 'stored'}, ORANGE),
               ("BM25 0.25 · end stored", {'base': 'BM25 0.25', 'end_mode': 'stored'}, AQUA),
               ("dense · end open", {'base': 'dense', 'end_mode': 'open'}, YELLOW),
-              ("BM25 0.25 · end open", {'base': 'BM25 0.25', 'end_mode': 'open'}, PINK)]
+              ("dense · end unknown decay 0.1", {'base': 'dense', 'end_mode': 'unknown decay 0.1'}, PINK)]
 
     def val(kw, tu):
         pool = [r for r in rows if r["mode"] == "e2e" and not r["neighbors"] and r["facets"] == "none" and r["only_filter"] != "yes"
@@ -203,7 +204,7 @@ def curve_svg(rows: list[dict]) -> str:
 
     w, h, left, right, top, bottom = 960, 450, 70, 40, 106, 70
     plot_w, plot_h = w - left - right, h - top - bottom
-    lo, hi = 0.40, 0.56
+    lo, hi = 0.40, 0.60
     xs = [left + 70 + i * (plot_w - 70) / (len(tus) - 1) for i in range(len(tus))]  # 70px đầu dành cho "tắt"
     x_off = left + 12
     y = lambda v: top + (hi - v) / (hi - lo) * plot_h
@@ -218,7 +219,7 @@ def curve_svg(rows: list[dict]) -> str:
         out.append(marker(MARKERS[i], lx + 8, ly, color, name))
         out.append(text(lx + 24, ly + 4, name, fill=INK2))
         lx += width
-    for v in (0.40, 0.44, 0.48, 0.52, 0.56):
+    for v in (0.40, 0.44, 0.48, 0.52, 0.56, 0.60):
         out.append(f'<line x1="{left}" y1="{y(v):.1f}" x2="{w - right}" y2="{y(v):.1f}" stroke="{GRID}" stroke-width="1"/>')
         out.append(text(left - 8, y(v) + 4, f"{v:.2f}", fill=INK2, anchor="end"))
     div = (x_off + xs[0]) / 2 + 6
@@ -241,10 +242,11 @@ def curve_svg(rows: list[dict]) -> str:
             out.append(marker(MARKERS[i], px, y(v), color, f"{name}, t_unknown {tu_txt}: mrr {v:.3f}"))
         peak = max(pts, key=lambda p: p[1])
         peaks.append((name, peak))
-    # nhãn trực tiếp cho hai đường chính
+    # nhãn trực tiếp cho ba đường chính (điểm đỉnh)
+    short = {"hybrid · end stored": "hybrid · stored", "dense · end stored": "dense · stored", "dense · end unknown decay 0.1": "dense · unknown decay 0.1"}
     for name, (px, v) in peaks:
-        if name in ("dense · end stored", "hybrid · end stored"):
-            out.append(text(px, y(v) - 12, f"{name.split(' · ')[0]}: {v:.3f}", fill=INK, anchor="middle", weight="600"))
+        if name in short:
+            out.append(text(px, y(v) - 12, f"{short[name]}: {v:.3f}", fill=INK, anchor="middle", weight="600"))
     out.append("</svg>")
     return "\n".join(out)
 

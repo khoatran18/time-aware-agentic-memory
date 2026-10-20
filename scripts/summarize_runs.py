@@ -43,7 +43,8 @@ def describe(cfg: dict) -> dict:
     base = base_name(r.get("sparse_weight", 1.0))
     only_filter = bool(cfg.get("no_temporal"))
     end = r.get("end_mode", "stored")
-    end_txt = {"stored": "stored", "open": "open", "decay": f"decay {r.get('open_decay', 0.1):g}"}[end]
+    d = r.get("open_decay", 0.1)
+    end_txt = {"stored": "stored", "open": "open", "decay": f"decay {d:g}", "unknown_decay": f"unknown decay {d:g}"}[end]
     nb, tu, facets = r.get("neighbor_window", 0), r.get("t_unknown"), cfg.get("facets", "none")
     if only_filter:
         stem = f"Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm {base}"
