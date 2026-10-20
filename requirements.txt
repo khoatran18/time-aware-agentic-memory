@@ -10,7 +10,8 @@ fastembed>=0.5             # dense embedding và sparse Qdrant/bm25
 #langgraph>=0.2
 langchain-core>=0.3
 langchain-anthropic>=0.3   # profile claude_* trong configs/
-langchain-openai>=0.3      # profile gpt_*
+langchain-openai>=0.3      # profile gpt_* và 9router*
+langchain-google-genai>=2.0  # profile google_* (Gemini gọi thẳng API Google)
 langchain-ollama>=0.2      # profile local_*; bỏ dòng này nếu không chạy model local
 #
 ## --- Tiện ích ---

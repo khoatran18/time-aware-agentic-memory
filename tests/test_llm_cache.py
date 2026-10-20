@@ -128,3 +128,31 @@ def test_auth_error_not_retried():
     with pytest.raises(RuntimeError):
         invoke_structured(None, chain, _Schema, [("human", "q")], sleep=waits.append)
     assert waits == [] and chain.calls == 1
+
+
+def test_structured_output_false_skips_structured_call():
+    class Plain(BaseModel):
+        answer: str
+
+    class Llm2:
+        model_name = "fake"
+
+        def __init__(self):
+            self.metadata = {"structured_output": False}
+            self.structured_calls = self.text_calls = 0
+
+        def structured(self, messages):
+            self.structured_calls += 1
+            raise ValueError("không ép khuôn được")
+
+        def invoke(self, messages):
+            self.text_calls += 1
+            return '```json\n{"Answer": "ok"}\n```'
+
+    llm = Llm2()
+    chain = type("C", (), {"invoke": lambda self, m: llm.structured(m)})()
+    assert invoke_structured(llm, chain, Plain, MSG).answer == "ok"
+    assert (llm.structured_calls, llm.text_calls) == (0, 1)  # không tốn request structured
+    llm.metadata = {}
+    assert invoke_structured(llm, chain, Plain, MSG).answer == "ok"
+    assert (llm.structured_calls, llm.text_calls) == (1, 2)  # mặc định vẫn thử structured trước

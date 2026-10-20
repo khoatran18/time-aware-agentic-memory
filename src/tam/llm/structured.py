@@ -1,6 +1,7 @@
 """Gọi LLM lấy đầu ra có cấu trúc, chịu được proxy/model bỏ qua structured output (vd combo 9router `basic-llm`).
 
-Thứ tự: structured output của langchain -> nếu lỗi định dạng thì gọi thường, kèm schema JSON, rồi đọc JSON từ văn bản
+Thứ tự: structured output của langchain (bỏ qua nếu profile đặt `structured_output: false`, đi thẳng bước sau)
+-> nếu lỗi định dạng thì gọi thường, kèm schema JSON, rồi đọc JSON từ văn bản
 (bỏ hàng rào markdown, hạ chữ thường tên khóa) -> thử lại tối đa `max_attempts` lần. Chỉ bắt lỗi định dạng (ValueError,
 gồm JSONDecodeError và ValidationError); lỗi xác thực ném ra ngay; lỗi tạm thời (mạng, 429, 5xx, 410) chờ 1 đến 32 giây rồi ném `LlmUnavailable`.
 """
@@ -37,6 +38,10 @@ def _is_transient(exc: Exception) -> bool:
         return status in _RETRYABLE_STATUS or status >= 500
     name = type(exc).__name__
     return isinstance(exc, (ConnectionError, TimeoutError)) or "Connection" in name or "Timeout" in name
+
+
+class _SkipStructured(Exception):
+    """Nội bộ: báo bỏ bước structured output (profile `structured_output: false`)."""
 
 
 def _call_with_backoff(fn: Callable[[], Any], sleep: Callable[[float], None]) -> Any:
@@ -77,8 +82,16 @@ def parse_json_text(reply: object, schema: type[T]) -> T:
 
 
 def _model_id(llm: Any) -> str:
-    """Định danh model để làm khóa cache: tên model trong config nếu có, không thì tên lớp."""
+    """Định danh model để làm khóa cache: `cache_model` của profile nếu có, không thì tên model trong config, không thì tên lớp."""
+    alias = (getattr(llm, "metadata", None) or {}).get("cache_model")
+    if alias:
+        return str(alias)
     return str(getattr(llm, "model_name", None) or getattr(llm, "model", None) or type(llm).__name__)
+
+
+def _uses_structured_output(llm: Any) -> bool:
+    """False khi profile đặt `structured_output: false` (factory ghi vào `metadata`): bỏ bước structured output, đi thẳng đường văn bản."""
+    return (getattr(llm, "metadata", None) or {}).get("structured_output", True) is not False
 
 
 def _preview(messages: list[tuple[str, str]]) -> str:
@@ -109,12 +122,16 @@ def invoke_structured(
         + json.dumps(schema.model_json_schema())
     )
     fallback_messages = [*messages, ("human", schema_note)]
+    use_structured = _uses_structured_output(llm)
     for attempt in range(1, max_attempts + 1):
         try:
             try:
+                if not use_structured:
+                    raise _SkipStructured
                 out = _call_with_backoff(lambda: chain.invoke(messages), sleep)
-            except ValueError as exc:  # proxy bỏ qua structured output, trả văn bản/JSON trong khối markdown
-                logger.warning("Structured output lỗi (%s), thử đọc JSON từ văn bản", type(exc).__name__)
+            except (ValueError, _SkipStructured) as exc:  # proxy bỏ qua structured output, trả văn bản/JSON trong khối markdown
+                if use_structured:
+                    logger.warning("Structured output lỗi (%s), thử đọc JSON từ văn bản", type(exc).__name__)
                 out = parse_json_text(_call_with_backoff(lambda: llm.invoke(fallback_messages), sleep), schema)
             result = schema.model_validate(out) if isinstance(out, dict) else out
             if cache is not None and key is not None and (cacheable is None or cacheable(result)):

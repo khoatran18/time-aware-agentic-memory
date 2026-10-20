@@ -26,6 +26,11 @@ def get_llm(cfg: Config, profile_name: str) -> BaseChatModel:
 
     Lỗi cấu hình (thiếu api_key, model_id chưa điền, ...) chỉ báo ở đây, tức khi profile đó thực sự được dùng,
     và thông điệp luôn nêu tên profile.
+
+    `cache_model` (tùy chọn, mọi provider): tên model dùng làm khóa cache LLM thay cho `model_id`. Đặt giống `model_id` của
+    một profile khác (vd combo 9router) khi biết chắc hai bên là cùng một model, để dùng lại cache; mặc định khóa theo `model_id`.
+    `structured_output` (tùy chọn, mặc định true): false thì `invoke_structured` bỏ bước structured output của API, gọi thường kèm schema
+    trong prompt rồi đọc JSON từ văn bản. Dùng cho proxy/model không ép khuôn được (tránh một request đầu bị bỏ phí); khóa cache không đổi.
     """
     profiles = cfg.llm.profiles
     if profile_name not in profiles:
@@ -39,6 +44,13 @@ def get_llm(cfg: Config, profile_name: str) -> BaseChatModel:
         model = LLM_PROVIDERS[provider](profile)
     except ValueError as exc:
         raise ValueError(f"llm.profiles.{profile_name}: {exc}") from exc
+    extra = {}
+    if profile.get("cache_model"):  # tên model dùng làm khóa cache (tam/llm/structured.py `_model_id`)
+        extra["cache_model"] = str(profile["cache_model"])
+    if profile.get("structured_output") is False:  # bỏ bước structured output (tam/llm/structured.py)
+        extra["structured_output"] = False
+    if extra:
+        model.metadata = {**(model.metadata or {}), **extra}
     logger.info("Tạo LLM profile=%s provider=%s model_id=%s", profile_name, provider, profile.get("model_id"))
     return model
 

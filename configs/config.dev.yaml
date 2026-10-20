@@ -34,9 +34,27 @@ llm:
       api_key: "${NINE_ROUTER_API_KEY:-}"
       base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"   # cổng mặc định chưa kiểm chứng, xem dashboard 9router
       temperature: 0
+    9router_31:                        # combo 9router chứa Gemini 3.1 flash-lite (quota ngày riêng, tách với 3.5)
+      provider: "openai"
+      model_id: "basic-gemini-3.1-flash-lite"
+      api_key: "${NINE_ROUTER_API_KEY:-}"
+      base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"
+      temperature: 0
+    google_35:                         # Gemini 3.5 gọi thẳng API Google (structured output do Google ép khuôn); đổi role sang đây để dùng
+      provider: "google"
+      model_id: "gemini-3.5-flash-lite"
+      api_key: "${GOOGLE_API_KEY:-}"
+      temperature: 0
+      cache_model: "basic-gemini-3.5-flash-lite"   # cùng model với profile 9router: dùng lại cache; bỏ dòng này nếu muốn tách cache
+    google_31:                         # Gemini 3.1 gọi thẳng
+      provider: "google"
+      model_id: "gemini-3.1-flash-lite"
+      api_key: "${GOOGLE_API_KEY:-}"
+      temperature: 0
+      cache_model: "basic-gemini-3.1-flash-lite"
   # mỗi chỗ gọi LLM trỏ tới một tên profile ở trên
   roles:
-    time_extractor: "9router"
+    time_extractor: "9router_31"       # Profiler dùng Gemini 3.1 (quota riêng); nạp kho giữ 3.5 cho nhất quán với bộ local
     ingestion_time: "9router"
     router: "claude_haiku"
     generation: "claude_sonnet"

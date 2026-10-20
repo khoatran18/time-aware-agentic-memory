@@ -72,3 +72,23 @@ def test_real_configs_are_consistent():
             assert profile in c.llm.profiles, f"{env}: role {role} -> {profile}"
         for name, p in c.llm.profiles.items():
             assert p.provider in registry.LLM_PROVIDERS, f"{env}: profile {name}"
+
+
+def test_google_provider_builds_without_network():
+    llm = get_llm(cfg(p={"provider": "google", "model_id": "gemini-x", "api_key": "k"}), "p")
+    assert type(llm).__name__ == "ChatGoogleGenerativeAI"
+
+
+def test_cache_model_overrides_cache_key_only(stub):
+    from tam.llm.structured import _model_id
+    plain = get_llm(cfg(p={"provider": "stub", "model_id": "m1"}), "p")
+    aliased = get_llm(cfg(p={"provider": "stub", "model_id": "m1", "cache_model": "combo-m1"}), "p")
+    assert _model_id(plain) != "combo-m1"
+    assert _model_id(aliased) == "combo-m1"
+
+
+def test_structured_output_false_goes_to_metadata(stub):
+    on = get_llm(cfg(p={"provider": "stub", "model_id": "m"}), "p")
+    off = get_llm(cfg(p={"provider": "stub", "model_id": "m", "structured_output": False}), "p")
+    assert (on.metadata or {}).get("structured_output", True) is True
+    assert off.metadata["structured_output"] is False
