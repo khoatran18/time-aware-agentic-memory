@@ -23,7 +23,7 @@ from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.retriever import TemporalRetriever
-from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES
+from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES, OVERLAPS, TIME_MODES
 from tam.stores.vector.qdrant_store import QdrantStore, collection_for
 
 KS = (1, 3, 5)
@@ -48,6 +48,8 @@ def main() -> None:
     ap.add_argument("--open-decay", type=float, help="ghi đè retrieval.open_decay (với --end-mode decay hoặc unknown_decay)")
     ap.add_argument("--sparse-weight", type=float, help="ghi đè retrieval.sparse_weight: trọng số BM25 trong RRF (1 = thường, 0 = bỏ BM25, chỉ dense)")
     ap.add_argument("--decay-from", choices=list(DECAY_FROMS), help="ghi đè retrieval.decay_from: mốc tính khoảng cách của chunk đã hết hạn (TH2): start (mặc định) | end")
+    ap.add_argument("--time-mode", choices=list(TIME_MODES), help="ghi đè retrieval.time_mode: point (mặc định, một điểm t_req) | range (khoảng [t_req, t_end], cần profiler.jsonl chạy bằng profile_eval.py --ranges)")
+    ap.add_argument("--overlap", choices=list(OVERLAPS), help="ghi đè retrieval.overlap (chỉ với --time-mode range): binary | coverage (độ phủ |C ∩ Q| / |Q|)")
     ap.add_argument("--neighbors", type=int, help="ghi đè retrieval.neighbor_window: số chunk liền kề mỗi phía lấy làm ngữ cảnh")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
@@ -72,7 +74,11 @@ def main() -> None:
         "t_unknown": r.get("t_unknown", None) if args.t_unknown is None else args.t_unknown,
         "sparse_weight": r.get("sparse_weight", 1.0) if args.sparse_weight is None else args.sparse_weight,
         "decay_from": args.decay_from or r.get("decay_from", "start"),
+        "time_mode": args.time_mode or r.get("time_mode", "point"),
+        "overlap": args.overlap or r.get("overlap", "binary"),
     }
+    if settings["time_mode"] == "range" and args.mode != "e2e":
+        ap.error("--time-mode range chỉ dùng với --mode e2e")
     if args.method == "temporal":
         retriever = TemporalRetriever(store, **settings)
     else:
@@ -80,7 +86,8 @@ def main() -> None:
     if args.facets == "boost" and settings["w3"] <= 0:
         ap.error("--facets boost cần --w3 > 0")
 
-    cases = build_cases(subset, mode=args.mode, profiled=profiled, alive_ids=alive, facets=args.facets, level=args.level)
+    cases = build_cases(subset, mode=args.mode, profiled=profiled, alive_ids=alive, facets=args.facets, level=args.level,
+                        use_range=settings["time_mode"] == "range")
     result = evaluate_retrieval(retriever, cases, KS, store=store)
     if args.mode == "e2e":
         result["summary"].update(profiler_stage(subset, profiled, store))

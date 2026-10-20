@@ -30,7 +30,7 @@ Tiếp nối [`06_EVAL_SUBSET.md`](06_EVAL_SUBSET.md). Giai đoạn 2026-10-19: 
 
 ## Chưa làm
 
-- Bộ thật: Profiler (`profile_eval.py --subset real`) và nạp kho (`ingest.py --subset real`) chưa chạy; đợt 7.
+- ~~Bộ thật: Profiler và nạp kho chưa chạy~~ **đã chạy xong** (2026-10-20), xem [`08`](08_RANGE_PROFILER_AND_ANSWER_METRICS.md) và [`eval/05`](../eval/05_REAL_RESULTS.md).
 - Đợt 6: quét `λ`, `W1/W2` trên mẫu `D/train` (chưa có code lấy mẫu); nhớ loại 35 câu mượn.
 - Đề xuất 2 đến 5 ở [`decisions/06`](../decisions/06_END_UNKNOWN_REMEDIES.md) (LLM ghi loại sự việc, một chunk nhiều khoảng, reranker): chưa làm. Đề xuất 1 (tách `ongoing`/`unknown`, `end_mode: unknown_decay`) đã code và đo (`eval/04` đợt 3d).
 - Chưa đổi mặc định trong `config.*.yaml` theo kết quả local (`sparse_weight` 0, `t_unknown` 0.2, `neighbor_window` 1). Bộ thật ([`05`](../eval/05_REAL_RESULTS.md)) xác nhận `sparse_weight` 0 và `t_unknown` 0.1; `unknown_decay` không hơn `stored`. Chờ bạn chốt rồi mới đổi.

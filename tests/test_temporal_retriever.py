@@ -101,3 +101,27 @@ def test_minmax_turns_semantic_tie_into_gap(fake_store):
     old, right = res["housing_2015"], res["housing_2018"]  # 2018 là bản đúng (TH1)
     assert right.temporal_score == 1.0 and old.temporal_score < 0.2
     assert abs(old.semantic_score - right.semantic_score) == 1.0  # chênh tối đa dù nội dung gần như y hệt
+
+
+def test_range_mode_keeps_chunk_starting_inside_interval_but_point_mode_filters_it(fake_store):
+    """Câu hỏi khoảng: chunk bắt đầu sau `t_req` nhưng trong `[t_req, t_end]` chỉ vào kết quả ở chế độ range."""
+    q = ProfiledQuery(semantic_query="thời hạn cấp giấy chứng nhận quyền sở hữu nhà ở", t_req="2020-01-01", t_end="2021-12-31")
+    point = TemporalRetriever(fake_store, time_mode="point").retrieve(q)
+    ranged = TemporalRetriever(fake_store, time_mode="range").retrieve(q)
+    assert "housing_2021" not in [s.chunk.chunk_id for s in point.chunks]
+    assert "housing_2021" in [s.chunk.chunk_id for s in ranged.chunks]
+    assert all(s.chunk.start_time is None or s.chunk.start_time <= q.t_end for s in ranged.chunks)
+
+
+def test_range_mode_without_t_end_matches_point_mode(fake_store):
+    q = ProfiledQuery(semantic_query="chief executive officer of Acme Corp", t_req="2026-10-09")
+    a = [s.chunk.chunk_id for s in TemporalRetriever(fake_store, time_mode="point").retrieve(q).chunks]
+    b = [s.chunk.chunk_id for s in TemporalRetriever(fake_store, time_mode="range").retrieve(q).chunks]
+    assert a == b
+
+
+def test_retriever_rejects_unknown_time_mode_and_overlap(fake_store):
+    with pytest.raises(ValueError, match="time_mode"):
+        TemporalRetriever(fake_store, time_mode="interval")
+    with pytest.raises(ValueError, match="overlap"):
+        TemporalRetriever(fake_store, overlap="half")

@@ -267,6 +267,51 @@ Tùy chọn mới `retrieval.decay_from` (mặc định `start`, không đổi h
 
 `mrr` tăng ở 28/28 cặp so được (bộ thật +0.004 đến +0.010, trung bình +0.007; local +0.013). Ghép cặp từng câu ở cấu hình tốt nhất: +0.009 ± 0.009, 15 câu tăng và 14 giảm: mức tăng nhỏ, khoảng 95% chạm 0. Lợi ích có nhưng không phải nguyên nhân chính của các câu xếp sau top-5.
 
+### 6.9 Chế độ khoảng và Profiler khoảng (decisions/07 đề xuất 1)
+
+Lưới 140 kịch bản mỗi bộ dùng Profiler khoảng (prompt v2): nền {dense, hybrid} × cách chấm `end` {stored, open, decay 0.1, unknown decay 0.05/0.1/0.2} × `t_unknown` {tắt, 0.1}, cộng quét `t_unknown` cho hai cấu hình dense; mỗi cấu hình chạy 5 biến thể `(time_mode, overlap, decay_from)`. Biến thể gốc để so là `(point, binary, start)` với Profiler v2 (một điểm `qs`, phạt từ `start`), nên tách được tác dụng của Profiler khỏi tác dụng của retriever. Dữ liệu: [`results_real_range.csv`](../../dataset/eval/results_real_range.csv), [`results_local_range.csv`](../../dataset/eval/results_local_range.csv).
+
+**Chênh trung bình so với biến thể gốc** (24 cấu hình mỗi biến thể):
+
+| Biến thể | `mrr` bộ thật | `hit@5` | `ans_valid@5` | `mrr` local | số cấu hình `mrr` tăng/giảm (thật) |
+|---|---|---|---|---|---|
+| `point, binary, end` | +0.0047 | +0.012 | −0.001 | +0.016 | 23/0 |
+| `range, binary, end` | +0.0052 | +0.017 | +0.008 | +0.013 | 21/3 |
+| `range, binary, start` | +0.0006 | +0.005 | +0.009 | −0.004 | 14/7 |
+| `range, coverage, end` | −0.0013 | +0.007 | −0.011 | +0.017 | 7/14 |
+
+**Cấu hình dense · unknown decay 0.1 · `t_unknown` 0.1 (bộ thật, 399 câu)**
+
+| Biến thể | `mrr` | `hit@5` | `ans_valid@5` | số câu bị lọc cứng chặn |
+|---|---|---|---|---|
+| gốc cũ (Profiler v1, một điểm, phạt từ `start`) | 0.444 | 0.687 | 0.627 | 74 |
+| `point, binary, start` (Profiler v2) | 0.448 | 0.677 | 0.637 | 78 |
+| `point, binary, end` | 0.454 | 0.692 | 0.637 | 78 |
+| `range, binary, start` | 0.449 | 0.679 | 0.644 | 68 |
+| **`range, binary, end`** | **0.456** | **0.699** | 0.644 | **68** |
+| `range, coverage, end` | 0.449 | 0.684 | 0.627 | 68 |
+
+Cao nhất mọi cấu hình: `mrr` **0.464** (dense, unknown decay 0.05, `t_unknown` 0.1, `range, binary, end`; `hit@5` 0.699), so với 0.452 trước đây.
+
+**So sánh ghép cặp từng câu** (bộ thật, cấu hình trên, khoảng 95%):
+
+| So sánh | `Δmrr` | `hit@5` thêm / mất |
+|---|---|---|
+| Profiler v2 (một điểm) so với v1 | +0.005 ± 0.015 | +10 / −14 |
+| `range` so với `point` (cùng Profiler v2, phạt từ `end`) | +0.002 ± 0.014 | +8 / −5 |
+| `range` so với `point` (phạt từ `start`) | +0.001 ± 0.014 | +8 / −7 |
+| `decay_from end` so với `start` (một điểm) | +0.006 ± 0.008 | +9 / −3 |
+| `coverage` so với `binary` (range, `end`) | −0.006 ± 0.012 | +3 / −9 |
+| Tốt nhất mới (`range, binary, end`) so với gốc cũ | +0.012 ± 0.018 | +21 / −16 |
+
+**Nhận định**
+1. **Chế độ khoảng** giảm số câu bị lọc cứng từ 78 xuống 68 (cứu 10 chunk đúng), nhưng `mrr` gần như không đổi (+0.002 ± 0.014): không cải thiện đáng kể so với `point` cùng Profiler.
+2. **Phạt từ `end`** vẫn là phần cho lợi ích nhất quán nhỏ (+0.005 đến +0.006; 23/24 cấu hình tăng), nhưng khoảng 95% của riêng nó chạm 0.
+3. **Độ phủ (`coverage`) không tốt hơn nhị phân**: `mrr` thấp hơn 0.006 ở bộ thật và `ans_valid@5` thấp hơn; không nên dùng làm mặc định. Đã chạy thêm `range, coverage, start` (24 cấu hình mỗi bộ, 2026-10-20): so với `range, binary, start` thì `mrr` bộ thật −0.005 (tăng 4, giảm 20), local +0.004 (tăng 13, giảm 10); so với `range, binary, end` thì −0.010 (thật) và −0.013 (local). Không biến thể độ phủ nào hơn nhị phân.
+4. **Số câu bị lọc cứng chặn** (`gold_blocked_by_filter`, đo bằng bộ lọc chặt) là 78 ở `point` và 68 ở `range`; trong đó 37 là chunk **không có mốc** (chỉ bị chặn khi `t_unknown` tắt) và còn lại là chunk có `start` sau cận trên của thời gian hỏi: 41 ở `point`, 31 ở `range`. Tức `range` cứu được 10 chunk, còn 31 chunk có `start` sau cả `qe` (đoạn nói về thời kỳ muộn hơn câu hỏi, xem mục 7).
+5. **Profiler v2** (một điểm = đầu khoảng) cho ra `mrr` ngang v1 (+0.005 ± 0.015): đổi từ điểm cuối khoảng sang điểm đầu không làm tệ.
+6. Cả bốn thay đổi cộng lại cho +0.012 ± 0.018 so với cấu hình gốc: cùng chiều tăng ở cả hai bộ nhưng **không vượt sai số ở 400 câu**; không nên coi là cải thiện đã được xác nhận. Chênh lệch này nhỏ hơn mức phát hiện được (khoảng 0.013) của một tập 400 câu (`decisions/08`).
+
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
 - **Bộ vẫn đủ 400 câu**, trong đó 399 câu có chunk đáp án trong kho (1 câu có chunk đáp án bị bỏ lúc nạp kho). Không câu nào bị loại khỏi mẫu đánh giá vì lọc nhầm; 37 câu chỉ là các câu hệ **không thể trả đúng** khi còn dùng bộ lọc cứng.

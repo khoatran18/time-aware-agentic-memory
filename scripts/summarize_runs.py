@@ -52,6 +52,8 @@ def describe(cfg: dict) -> dict:
         stem = f"Cơ chế 1 · tìm kiếm {base} · end {end_txt}"
     if r.get("decay_from", "start") == "end":
         stem += " · phạt từ end"
+    if r.get("time_mode", "point") == "range":
+        stem += " · khoảng thời gian" + (" (độ phủ)" if r.get("overlap") == "coverage" else "")
     if nb:
         stem += f" · lấy thêm {nb} chunk liền kề"
     if facets == "domain":

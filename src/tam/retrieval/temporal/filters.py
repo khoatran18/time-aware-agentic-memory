@@ -8,12 +8,15 @@ from tam.stores.vector.base import VectorFilter
 # Khóa con của domain_features được index (design 02, mục 2); lọc theo khóa khác sẽ quét toàn bộ nên bị từ chối
 FACET_KEYS = frozenset({"domain", "country"})
 
-def to_vector_filter(query: ProfiledQuery, *, exclude_invalidated: bool = True) -> VectorFilter:
-    """Dựng VectorFilter từ ProfiledQuery; `query.filters` chỉ được chứa khóa trong FACET_KEYS."""
+def to_vector_filter(query: ProfiledQuery, *, exclude_invalidated: bool = True, use_range: bool = False) -> VectorFilter:
+    """Dựng VectorFilter từ ProfiledQuery; `query.filters` chỉ được chứa khóa trong FACET_KEYS.
+
+    `use_range=True` (chế độ khoảng, decisions/07): cận trên của `start_time` là `qe` (`query.t_end`, thiếu thì `t_req`) thay vì `t_req`."""
     unknown = set(query.filters) - FACET_KEYS
     if unknown:
         raise ValueError(f"Metadata_Filters chứa khóa không được index: {sorted(unknown)}; cho phép: {sorted(FACET_KEYS)}")
-    return VectorFilter(t_req=query.t_req, exclude_invalidated=exclude_invalidated, facets=dict(query.filters))
+    upper = query.t_end if use_range and query.t_end is not None else query.t_req
+    return VectorFilter(t_req=upper, exclude_invalidated=exclude_invalidated, facets=dict(query.filters))
 
 
 def passes_hard_filter(chunk: Chunk, flt: VectorFilter) -> bool:

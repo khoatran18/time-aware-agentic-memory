@@ -168,3 +168,51 @@ def test_decay_from_only_changes_ended_chunks():
 def test_decay_from_rejects_unknown_value():
     with pytest.raises(ValueError, match="decay_from"):
         temporal_score(mk(utc(2018)), utc(2020), 0.5, decay_from="middle")
+
+
+def test_range_score_degenerates_to_point_for_equal_ends():
+    from tam.retrieval.temporal.scoring import temporal_score_range
+
+    for c in (mk(utc(2018), utc(2020, 12, 31)), mk(utc(2010), utc(2015)), mk(utc(2019))):
+        t = utc(2020)
+        assert temporal_score_range(c, t, t, 0.5) == pytest.approx(temporal_score(c, t, 0.5))
+        assert temporal_score_range(c, t, t, 0.5, decay_from="end") == pytest.approx(temporal_score(c, t, 0.5, decay_from="end"))
+
+
+def test_range_chunk_starting_inside_interval_scores_one_and_ended_chunk_decays():
+    from tam.retrieval.temporal.scoring import temporal_score_range
+
+    qs, qe = utc(1990), utc(1990, 12, 31)
+    assert temporal_score_range(mk(utc(1990, 2, 6), utc(2004)), qs, qe, 0.5) == 1.0  # "in 1990": chunk bắt đầu giữa năm
+    ended = mk(utc(1980), utc(1985))
+    assert temporal_score_range(ended, qs, qe, 0.5) == pytest.approx(math.exp(-0.5 * delta_years(qs, utc(1980))))
+    assert temporal_score_range(ended, qs, qe, 0.5, decay_from="end") == pytest.approx(math.exp(-0.5 * delta_years(qs, utc(1985))))
+
+
+def test_range_unknown_decay_never_exceeds_one_for_chunk_starting_inside():
+    from tam.retrieval.temporal.scoring import temporal_score_range
+
+    c = Chunk(chunk_id="u", text="t", source="s", start_time=utc(1990, 6), end_status="unknown")
+    assert temporal_score_range(c, utc(1990), utc(1990, 12, 31), 0.5, end_mode="unknown_decay") == 1.0
+
+
+def test_range_coverage_is_fraction_of_query_covered_by_chunk():
+    from tam.retrieval.temporal.scoring import temporal_score_range
+
+    qs, qe = utc(2000), utc(2000, 12, 31)  # 366 ngày
+    half = mk(utc(2000, 7, 1), utc(2001, 6, 30))  # phủ 184 ngày
+    score = temporal_score_range(half, qs, qe, 0.5, overlap="coverage")
+    assert score == pytest.approx(184 / 366)
+    assert temporal_score_range(mk(utc(1990), utc(2005)), qs, qe, 0.5, overlap="coverage") == 1.0
+    assert temporal_score_range(half, qs, qe, 0.5) == 1.0  # binary
+
+
+def test_range_rejects_future_leak_and_bad_arguments():
+    from tam.retrieval.temporal.scoring import temporal_score_range
+
+    with pytest.raises(ValueError, match="Rò rỉ"):
+        temporal_score_range(mk(utc(2021)), utc(2019), utc(2020), 0.5)
+    with pytest.raises(ValueError, match="ngược"):
+        temporal_score_range(mk(utc(2010)), utc(2020), utc(2019), 0.5)
+    with pytest.raises(ValueError, match="overlap"):
+        temporal_score_range(mk(utc(2010)), utc(2019), utc(2020), 0.5, overlap="half")

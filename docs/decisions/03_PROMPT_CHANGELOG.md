@@ -13,6 +13,7 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 | `ingestion_time` | `v1` | Bản đang dùng |
 | `time_extractor` (Profiler) | `v1` | Trả một điểm `t_req` (`Profiler`, schema `Extraction`); dùng ở mọi kết quả đến 2026-10-20 |
 | `time_extractor` (Profiler) | `v2` | Trả khoảng `t_start`/`t_end` ở độ mịn câu hỏi + `bound` (exact/after/before/none) (`RangeProfiler`, schema `RangeExtraction`); decisions/07 đề xuất 1. Khác schema nên là lớp riêng, `v1` không đổi |
+| `time_extractor` (Profiler) | `v3` | **Dự kiến, chưa viết** (xem mục dưới) |
 
 ## `src/tam/llm/prompts/ingestion_time_v1.md` (gán mốc và domain cho chunk)
 
@@ -33,3 +34,14 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 ## `src/tam/llm/prompts/time_extractor_v1.md` (Profiler)
 
 Chưa đổi prompt. Phát hiện 2026-10-19: với `basic-llm`, các ví dụ dạng `semantic_query: ... | t_req: ...` khiến combo trả văn bản tự do thay vì JSON (40/40 câu lỗi). Xử lý bằng code (`tam/llm/structured.py`: đọc JSON từ văn bản, thử lại), không đổi prompt. Sau đó 0/40 lỗi.
+
+## Dự kiến `time_extractor_v3` (chưa viết, 2026-10-20)
+
+**Lỗi phát hiện ở `v2`** (chạy 400 câu bộ thật, `output/20261020_173521/profiler.jsonl`): 2 câu có cụm "late 1900s" (Alexander Imich `#P27#0`, John Francis Charles) bị đọc thành `t_start 1997`, `t_end 1999`, tức thập niên 1990, trong khi nhãn của bộ dữ liệu là 1903–1918 và 1906–1911 (thập niên 1900). Cả hai câu cùng mất khoảng thời gian đúng, nên Profiler `v2` giao khoảng nhãn ở 395/400 câu chứ không phải 400/400. Cùng lỗi ở `v1` (`t_req` 1999-12-31).
+
+**Cách sửa dự kiến**: không thêm một ví dụ riêng cho "1900s" (sẽ khớp lỗi này nhưng dễ vấp lỗi kế cận). Viết một quy tắc chung cho các cách nêu thập niên và thế kỷ, kèm **vài ví dụ khác nhau** để mô hình hiểu nguyên tắc, như:
+- "the Ns" (N chia hết cho 10) là mười năm `N` đến `N+9` **trong đúng thế kỷ được viết**, không bao giờ đổi sang thế kỷ khác (ví dụ khác nhau: 1850s, 1920s, 1960s, 2010s, 1900s đều xử lý cùng một cách).
+- "early/mid/late" cộng thập niên: nửa đầu, giữa, nửa cuối của thập niên đó (không phải của thế kỷ).
+- Thế kỷ viết bằng chữ ("the 19th century", "early 20th century") có quy tắc riêng, nêu rõ quy ước chọn (ví dụ thế kỷ 20 = 1900–1999).
+- Khi một cụm có thể hiểu theo hai cách, chọn cách thứ tự gần với **chữ được viết** nhất.
+Sau khi viết, kiểm trên hai câu lỗi ở trên và một mẫu câu có thập niên khác; không sửa `v1`/`v2`.

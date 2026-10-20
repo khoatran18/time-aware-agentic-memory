@@ -11,3 +11,4 @@ Mỗi file ghi **một** quyết định: bối cảnh, các phương án, chọ
 | [`05_EXCLUDE_BEFORE_COMMON_ERA.md`](05_EXCLUDE_BEFORE_COMMON_ERA.md) | Loại chunk và câu hỏi có mốc trước Công nguyên | Đã quyết |
 | [`06_END_UNKNOWN_REMEDIES.md`](06_END_UNKNOWN_REMEDIES.md) | Nhóm câu còn sai ở cấu hình tốt nhất và cách xử lý chunk `end_status = unknown` (tách `ongoing`/`unknown`) | Đề xuất 1 đã code và đo (`mrr` 0.580), chờ xác nhận ở bộ thật; còn lại chưa quyết |
 | [`07_RANKING_AND_TIME_RANGE_PROPOSALS.md`](07_RANKING_AND_TIME_RANGE_PROPOSALS.md) | Nâng thứ hạng sau bộ thật: Profiler trích khoảng thời gian + độ chồng lấn, phạt `end` từ `end`, reranker, chỉ số chuỗi đáp án | Đề xuất, chưa code, chưa thử |
+| [`08_TRAIN_VALID_TEST_SPLIT.md`](08_TRAIN_VALID_TEST_SPLIT.md) | Tách train/valid/test cân bằng domain, cỡ mẫu, chi phí | Kế hoạch, chưa làm (hoãn vì hạn mức API miễn phí) |

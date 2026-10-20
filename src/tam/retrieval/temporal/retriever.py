@@ -9,7 +9,19 @@ from tam.retrieval.base import Retriever
 from tam.retrieval.temporal.expansion import neighbor_ids
 from tam.retrieval.temporal.filters import passes_hard_filter, to_vector_filter
 from tam.retrieval.temporal.fusion import fuse
-from tam.retrieval.temporal.scoring import DecayFrom, EndMode, domain_score, final_score, is_exact_match, temporal_score
+from tam.retrieval.temporal.scoring import (
+    OVERLAPS,
+    TIME_MODES,
+    DecayFrom,
+    EndMode,
+    Overlap,
+    TimeMode,
+    domain_score,
+    final_score,
+    is_exact_match,
+    temporal_score,
+    temporal_score_range,
+)
 from tam.schemas.chunk import Chunk
 from tam.schemas.query import ProfiledQuery
 from tam.schemas.result import RetrievalResult, RetrievalTrace, ScoredChunk
@@ -40,6 +52,8 @@ class TemporalRetriever(Retriever):
         t_unknown: float | None = None,
         sparse_weight: float = 1.0,
         decay_from: DecayFrom = "start",
+        time_mode: TimeMode = "point",
+        overlap: Overlap = "binary",
     ) -> None:
         """`top_n`: số ứng viên mỗi nhánh lấy từ store; `top_k`: số chunk trả về sau re-rank.
 
@@ -47,6 +61,8 @@ class TemporalRetriever(Retriever):
         `t_unknown`: nếu đặt (vd 0.5) thì thêm nhánh chunk không mốc với điểm thời gian cố định này (decisions/04); None = tắt.
         `sparse_weight`: trọng số nhánh BM25 trong RRF (dense luôn 1); 1 = RRF thường, 0 = chỉ dense (bỏ BM25).
         `decay_from`: mốc tính khoảng cách của TH2 (chunk đã hết hạn): `start` (mặc định, như design 02) hoặc `end` (decisions/07).
+        `time_mode`: `point` (mặc định) dùng một điểm `t_req`; `range` dùng khoảng `[t_req, t_end]` của ProfiledQuery (lọc `start <= t_end`, điểm
+        chồng lấn; decisions/07 đề xuất 1). Thiếu `t_end` thì khoảng suy biến về một điểm. `overlap`: `binary` hoặc `coverage` (chỉ chế độ range).
         `neighbor_window`: số chunk liền kề mỗi phía của Top-K đưa vào `RetrievalResult.neighbors` (0 = tắt).
         """
         if top_k < 1 or top_n < top_k:
@@ -61,6 +77,11 @@ class TemporalRetriever(Retriever):
         self._t_unknown, self._sparse_weight = t_unknown, sparse_weight
         self._w3, self._end_mode, self._open_decay, self._window = w3, end_mode, open_decay, neighbor_window
         self._decay_from = decay_from
+        if time_mode not in TIME_MODES:
+            raise ValueError(f"time_mode không hợp lệ: {time_mode!r}; cho phép {TIME_MODES}")
+        if overlap not in OVERLAPS:
+            raise ValueError(f"overlap không hợp lệ: {overlap!r}; cho phép {OVERLAPS}")
+        self._time_mode, self._overlap = time_mode, overlap
 
     @classmethod
     def from_config(cls, cfg: Config, store: VectorStore) -> TemporalRetriever:
@@ -81,11 +102,13 @@ class TemporalRetriever(Retriever):
             t_unknown=r.get("t_unknown", None),
             sparse_weight=r.get("sparse_weight", 1.0),
             decay_from=r.get("decay_from", "start"),
+            time_mode=r.get("time_mode", "point"),
+            overlap=r.get("overlap", "binary"),
         )
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
         """Trả Top-K chunk theo `Final = W1·Semantic + W2·Temporal`, đã loại tin giả và thông tin tương lai."""
-        flt = to_vector_filter(query)
+        flt = to_vector_filter(query, use_range=self._time_mode == "range")
         hits = _guard(self._store.search(query.semantic_query, flt, self._top_n), flt)  # chốt chặn: store lỗi cũng không để lọt tương lai/tin giả
         if self._t_unknown is not None:  # nhánh chunk không mốc, gộp vào cùng danh sách ứng viên của từng nhánh
             und_flt = replace(flt, undated=True)
@@ -118,13 +141,19 @@ class TemporalRetriever(Retriever):
         if self._window == 0 or not top:
             return []
         ids = neighbor_ids([s.chunk.chunk_id for s in top], self._window)
-        flt = VectorFilter(t_req=query.t_req)
+        upper = query.t_end if self._time_mode == "range" and query.t_end is not None else query.t_req
+        flt = VectorFilter(t_req=upper)
         return [c for c in self._store.get_chunks(ids) if passes_hard_filter(c, flt)]
 
     def _score(self, chunk: Chunk, semantic: float, query: ProfiledQuery) -> ScoredChunk:
         """Chấm Temporal_Score và Final_Score cho một chunk đã có Semantic_Score."""
-        temporal = temporal_score(chunk, query.t_req, self._lambda, end_mode=self._end_mode, open_decay=self._open_decay,
-                                  t_unknown=self._t_unknown, decay_from=self._decay_from)
+        if self._time_mode == "range":
+            temporal = temporal_score_range(chunk, query.t_req, query.t_end or query.t_req, self._lambda, end_mode=self._end_mode,
+                                            open_decay=self._open_decay, t_unknown=self._t_unknown, decay_from=self._decay_from,
+                                            overlap=self._overlap)
+        else:
+            temporal = temporal_score(chunk, query.t_req, self._lambda, end_mode=self._end_mode, open_decay=self._open_decay,
+                                      t_unknown=self._t_unknown, decay_from=self._decay_from)
         domain = domain_score(chunk, query.domains) if self._w3 else 0.0
         return ScoredChunk(
             chunk=chunk,

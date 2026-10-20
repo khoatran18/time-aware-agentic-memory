@@ -24,6 +24,10 @@ EndMode = Literal["stored", "open", "decay", "unknown_decay"]
 END_MODES: tuple[str, ...] = ("stored", "open", "decay", "unknown_decay")
 DecayFrom = Literal["start", "end"]
 DECAY_FROMS: tuple[str, ...] = ("start", "end")
+TimeMode = Literal["point", "range"]  # point: một điểm t_req (design 02); range: khoảng [qs, qe] (decisions/07 đề xuất 1)
+TIME_MODES: tuple[str, ...] = ("point", "range")
+Overlap = Literal["binary", "coverage"]  # chế độ range: giao nhau = 1.0, hay độ phủ |C ∩ Q| / |Q|
+OVERLAPS: tuple[str, ...] = ("binary", "coverage")
 
 
 def delta_years(t_req: datetime, start_time: datetime) -> float:
@@ -71,6 +75,55 @@ def temporal_score(
         return 1.0
     anchor = chunk.end_time if decay_from == "end" and chunk.end_time is not None else chunk.start_time
     return math.exp(-decay_lambda * delta_years(t_req, anchor))
+
+
+def temporal_score_range(
+    chunk: Chunk, qs: datetime, qe: datetime, decay_lambda: float, *, end_mode: EndMode = "stored", open_decay: float = 0.1,
+    t_unknown: float | None = None, decay_from: DecayFrom = "start", overlap: Overlap = "binary",
+) -> float:
+    """Điểm thời gian của chunk với KHOẢNG hỏi `[qs, qe]` (decisions/07 đề xuất 1); `qs == qe` thì giống `temporal_score`.
+
+    - Chunk giao khoảng hỏi (`start <= qe` do hard filter, và `end` rỗng hoặc `end >= qs`): 1.0 (`overlap="binary"`), hoặc độ phủ
+      `|C ∩ Q| / |Q|` tính theo ngày đóng hai đầu (`overlap="coverage"`, ít nhất một ngày nên luôn > 0).
+    - Chunk đã hết hạn trước `qs`: `exp(-λ·Δyears)`, Δ từ `start` (mặc định) hoặc từ `end` (`decay_from="end"`) đến `qs`.
+    - `ongoing`/`unknown` theo `end_mode` như `temporal_score`, Δ tính đến `qs` và không âm (chunk bắt đầu trong khoảng hỏi: Δ = 0).
+    - Chunk không mốc: `t_unknown`.
+    Chunk có `start_time > qe` là rò rỉ tương lai (hard filter đã loại): báo lỗi thay vì chấm im lặng.
+    """
+    if qe < qs:
+        raise ValueError(f"Khoảng hỏi ngược: qs {qs} > qe {qe}")
+    if chunk.start_time is None:
+        if t_unknown is None:
+            raise ValueError(f"Chunk {chunk.chunk_id} không có mốc nhưng t_unknown chưa được đặt")
+        return t_unknown
+    if decay_lambda < 0 or open_decay < 0:
+        raise ValueError(f"decay_lambda và open_decay phải >= 0, nhận {decay_lambda}, {open_decay}")
+    if end_mode not in END_MODES:
+        raise ValueError(f"end_mode không hợp lệ: {end_mode!r}; cho phép {END_MODES}")
+    if decay_from not in DECAY_FROMS:
+        raise ValueError(f"decay_from không hợp lệ: {decay_from!r}; cho phép {DECAY_FROMS}")
+    if overlap not in OVERLAPS:
+        raise ValueError(f"overlap không hợp lệ: {overlap!r}; cho phép {OVERLAPS}")
+    if chunk.start_time > qe:
+        raise ValueError(f"Rò rỉ tương lai: chunk {chunk.chunk_id} có start_time {chunk.start_time} > qe {qe}")
+
+    def years_to_qs(anchor: datetime) -> float:
+        return max(0.0, delta_years(qs, anchor))
+
+    if end_mode == "unknown_decay":
+        if chunk.end_status == "unknown":
+            return math.exp(-open_decay * years_to_qs(chunk.start_time))
+    elif end_mode != "stored" and chunk.end_status in ("ongoing", "unknown"):
+        if end_mode == "open":
+            return 1.0
+        return math.exp(-open_decay * years_to_qs(chunk.start_time))
+    if chunk.end_time is None or chunk.end_time >= qs:
+        if overlap == "coverage":
+            lo, hi = max(chunk.start_time, qs), min(chunk.end_time or qe, qe)
+            return max(0.0, ((hi - lo).days + 1) / ((qe - qs).days + 1))
+        return 1.0
+    anchor = chunk.end_time if decay_from == "end" else chunk.start_time
+    return math.exp(-decay_lambda * years_to_qs(anchor))
 
 
 def domain_score(chunk: Chunk, query_domains: list[str]) -> float:

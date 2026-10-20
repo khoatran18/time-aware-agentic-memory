@@ -33,6 +33,7 @@ class EvalCase:
     filters: dict[str, Any] = field(default_factory=dict)
     domains: tuple[str, ...] = ()               # domain gợi ý để cộng điểm (W3), không lọc
     answers: tuple[str, ...] = ()               # các chuỗi đáp án chấp nhận được; rỗng = không tính chỉ số theo chuỗi đáp án
+    t_end: datetime | str | None = None         # điểm cuối khoảng hỏi (chế độ range); None = câu hỏi một điểm
 
 
 def cases_from_corpus(data: dict) -> list[EvalCase]:
@@ -93,11 +94,12 @@ def evaluate_retrieval(
     """
     rows = []
     for case in cases:
-        query = ProfiledQuery(semantic_query=case.query, t_req=case.t_req, filters=case.filters, domains=list(case.domains))
+        query = ProfiledQuery(semantic_query=case.query, t_req=case.t_req, t_end=case.t_end, filters=case.filters, domains=list(case.domains))
+        upper = query.t_end if query.t_end is not None else query.t_req  # cận trên của start_time hợp lệ
         result = retriever.retrieve(query)
         ids = [s.chunk.chunk_id for s in result.chunks]
         ans_hit, ans_valid_hit = (
-            answer_hits(case.answers, [s.chunk for s in result.chunks], query.t_req, ks) if case.answers else (None, None)
+            answer_hits(case.answers, [s.chunk for s in result.chunks], query.t_req, ks, query.t_end) if case.answers else (None, None)
         )
         rows.append({
             "id": case.id,
@@ -115,13 +117,13 @@ def evaluate_retrieval(
             "rr": reciprocal_rank(ids, case.gold_ids),
             "ans_hit": ans_hit,
             "ans_valid_hit": ans_valid_hit,
-            "future_leak": any(is_future_leak(s.chunk, query.t_req) for s in result.chunks),
+            "future_leak": any(is_future_leak(s.chunk, upper) for s in result.chunks),
             "invalidated": any(is_invalidated(s.chunk) for s in result.chunks),
             "forbidden": any(i in case.forbidden_ids for i in ids),
             "undated_in_results": any(s.chunk.start_time is None for s in result.chunks),
             "stages": stage_ranks(result.trace, case.gold_ids) if result.trace else None,
             "gold_pass_filter": (
-                gold_filter_status(store, case.gold_ids, VectorFilter(t_req=query.t_req)) if store and case.gold_ids else None
+                gold_filter_status(store, case.gold_ids, VectorFilter(t_req=upper)) if store and case.gold_ids else None
             ),
         })
 
