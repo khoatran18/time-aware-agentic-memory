@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" role="img" aria-label="hit@5 ở bộ local so với bộ thật" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12">
+<title>hit@5 ở bộ local so với bộ thật</title>
+<rect width="640" height="560" rx="10" fill="#fcfcfb"/>
+<text x="64.0" y="26.0" fill="#0b0b0b" text-anchor="start" font-size="14" font-weight="600">hit@5: bộ local (x) so với bộ thật (y), mỗi điểm một cấu hình</text>
+<line x1="64.0" y1="496.0" x2="64.0" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="496.0" x2="576.0" y2="496.0" stroke="#e3e2dd"/>
+<text x="64.0" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.35</text>
+<text x="56.0" y="500.0" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.35</text>
+<line x1="157.1" y1="496.0" x2="157.1" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="417.5" x2="576.0" y2="417.5" stroke="#e3e2dd"/>
+<text x="157.1" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.45</text>
+<text x="56.0" y="421.5" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.45</text>
+<line x1="250.2" y1="496.0" x2="250.2" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="338.9" x2="576.0" y2="338.9" stroke="#e3e2dd"/>
+<text x="250.2" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.55</text>
+<text x="56.0" y="342.9" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.55</text>
+<line x1="343.3" y1="496.0" x2="343.3" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="260.4" x2="576.0" y2="260.4" stroke="#e3e2dd"/>
+<text x="343.3" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.65</text>
+<text x="56.0" y="264.4" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.65</text>
+<line x1="436.4" y1="496.0" x2="436.4" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="181.8" x2="576.0" y2="181.8" stroke="#e3e2dd"/>
+<text x="436.4" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.75</text>
+<text x="56.0" y="185.8" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.75</text>
+<line x1="529.5" y1="496.0" x2="529.5" y2="64.0" stroke="#e3e2dd"/>
+<line x1="64.0" y1="103.3" x2="576.0" y2="103.3" stroke="#e3e2dd"/>
+<text x="529.5" y="514.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">0.85</text>
+<text x="56.0" y="107.3" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">0.85</text>
+<line x1="64.0" y1="496.0" x2="576.0" y2="64.0" stroke="#52514e" stroke-dasharray="5 4"/>
+<text x="572.0" y="78.0" fill="#52514e" text-anchor="end" font-size="11" font-weight="normal">y = x</text>
+<text x="320.0" y="546.0" fill="#52514e" text-anchor="middle" font-size="12" font-weight="normal">hit@5 bộ local (40 câu)</text>
+<text transform="translate(16 280) rotate(-90)" fill="#52514e" text-anchor="middle">hit@5 bộ thật (400 câu)</text>
+<circle cx="506.2" cy="227.6" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.1: local 0.825, thật 0.692</title></circle>
+<circle cx="506.2" cy="231.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.1: local 0.825, thật 0.687</title></circle>
+<circle cx="482.9" cy="231.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.2: local 0.800, thật 0.687</title></circle>
+<circle cx="482.9" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.3: local 0.800, thật 0.679</title></circle>
+<circle cx="482.9" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.1: local 0.800, thật 0.679</title></circle>
+<circle cx="482.9" cy="247.3" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.3: local 0.800, thật 0.667</title></circle>
+<circle cx="482.9" cy="249.2" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.4: local 0.800, thật 0.664</title></circle>
+<circle cx="482.9" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.2: local 0.800, thật 0.679</title></circle>
+<circle cx="482.9" cy="247.3" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.4: local 0.800, thật 0.667</title></circle>
+<circle cx="506.2" cy="233.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.0: local 0.825, thật 0.684</title></circle>
+<circle cx="506.2" cy="229.6" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.0: local 0.825, thật 0.689</title></circle>
+<circle cx="482.9" cy="235.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.0: local 0.800, thật 0.682</title></circle>
+<circle cx="506.2" cy="229.6" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.1: local 0.825, thật 0.689</title></circle>
+<circle cx="482.9" cy="235.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.2: local 0.800, thật 0.682</title></circle>
+<circle cx="482.9" cy="253.2" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.5: local 0.800, thật 0.659</title></circle>
+<circle cx="482.9" cy="241.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.3: local 0.800, thật 0.674</title></circle>
+<circle cx="482.9" cy="255.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.4: local 0.800, thật 0.657</title></circle>
+<circle cx="482.9" cy="233.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.1: local 0.800, thật 0.684</title></circle>
+<circle cx="482.9" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.1: local 0.800, thật 0.679</title></circle>
+<circle cx="482.9" cy="239.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.2: local 0.800, thật 0.677</title></circle>
+<circle cx="506.2" cy="227.6" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.0: local 0.825, thật 0.692</title></circle>
+<circle cx="482.9" cy="239.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.2: local 0.800, thật 0.677</title></circle>
+<circle cx="482.9" cy="245.3" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.3: local 0.800, thật 0.669</title></circle>
+<circle cx="459.6" cy="231.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.2: local 0.775, thật 0.687</title></circle>
+<circle cx="459.6" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.3: local 0.775, thật 0.679</title></circle>
+<circle cx="459.6" cy="245.3" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.3: local 0.775, thật 0.669</title></circle>
+<circle cx="459.6" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.4: local 0.775, thật 0.644</title></circle>
+<circle cx="459.6" cy="257.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.4: local 0.775, thật 0.654</title></circle>
+<circle cx="482.9" cy="233.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.0: local 0.800, thật 0.684</title></circle>
+<circle cx="436.4" cy="257.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.2: local 0.750, thật 0.654</title></circle>
+<circle cx="482.9" cy="231.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.0: local 0.800, thật 0.687</title></circle>
+<circle cx="436.4" cy="261.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.3: local 0.750, thật 0.649</title></circle>
+<circle cx="436.4" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.4: local 0.750, thật 0.644</title></circle>
+<circle cx="413.1" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.0: local 0.725, thật 0.644</title></circle>
+<circle cx="482.9" cy="259.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.5: local 0.800, thật 0.652</title></circle>
+<circle cx="413.1" cy="263.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.1: local 0.725, thật 0.647</title></circle>
+<circle cx="413.1" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc tắt: local 0.725, thật 0.632</title></circle>
+<circle cx="413.1" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc tắt: local 0.725, thật 0.632</title></circle>
+<circle cx="413.1" cy="235.5" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.1: local 0.725, thật 0.682</title></circle>
+<circle cx="413.1" cy="268.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc tắt: local 0.725, thật 0.639</title></circle>
+<circle cx="389.8" cy="294.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc tắt: local 0.700, thật 0.607</title></circle>
+<circle cx="482.9" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.5: local 0.800, thật 0.644</title></circle>
+<circle cx="459.6" cy="249.2" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.4: local 0.775, thật 0.664</title></circle>
+<circle cx="413.1" cy="233.5" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.2: local 0.725, thật 0.684</title></circle>
+<circle cx="459.6" cy="268.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.5: local 0.775, thật 0.639</title></circle>
+<circle cx="436.4" cy="231.5" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.0: local 0.750, thật 0.687</title></circle>
+<circle cx="413.1" cy="237.4" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.3: local 0.725, thật 0.679</title></circle>
+<circle cx="413.1" cy="251.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.4: local 0.725, thật 0.662</title></circle>
+<circle cx="413.1" cy="255.1" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.5: local 0.725, thật 0.657</title></circle>
+<circle cx="436.4" cy="270.9" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc tắt: local 0.750, thật 0.637</title></circle>
+<circle cx="436.4" cy="249.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.0: local 0.750, thật 0.664</title></circle>
+<circle cx="436.4" cy="251.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.1: local 0.750, thật 0.662</title></circle>
+<circle cx="436.4" cy="245.3" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.2: local 0.750, thật 0.669</title></circle>
+<circle cx="436.4" cy="243.3" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.3: local 0.750, thật 0.672</title></circle>
+<circle cx="436.4" cy="245.3" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.4: local 0.750, thật 0.669</title></circle>
+<circle cx="459.6" cy="272.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.5: local 0.775, thật 0.634</title></circle>
+<circle cx="459.6" cy="263.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.05 · chunk không mốc t_unknown 0.7: local 0.775, thật 0.647</title></circle>
+<circle cx="459.6" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.5: local 0.775, thật 0.644</title></circle>
+<circle cx="413.1" cy="253.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc tắt: local 0.725, thật 0.659</title></circle>
+<circle cx="459.6" cy="270.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.1 · chunk không mốc t_unknown 0.7: local 0.775, thật 0.637</title></circle>
+<circle cx="413.1" cy="268.9" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end stored · chunk không mốc t_unknown 0.7: local 0.725, thật 0.639</title></circle>
+<circle cx="459.6" cy="245.3" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.5: local 0.775, thật 0.669</title></circle>
+<circle cx="389.8" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc tắt: local 0.700, thật 0.632</title></circle>
+<circle cx="436.4" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.2 · chunk không mốc t_unknown 0.7: local 0.750, thật 0.632</title></circle>
+<circle cx="436.4" cy="255.1" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.25 · end open · chunk không mốc t_unknown 0.7: local 0.750, thật 0.657</title></circle>
+<circle cx="413.1" cy="268.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end open · chunk không mốc t_unknown 0.7: local 0.725, thật 0.639</title></circle>
+<circle cx="366.5" cy="282.7" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc tắt: local 0.675, thật 0.622</title></circle>
+<circle cx="366.5" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · cộng điểm domain W3 0.1 · chunk không mốc tắt: local 0.675, thật 0.632</title></circle>
+<circle cx="413.1" cy="280.7" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · chunk không mốc t_unknown 0.7: local 0.725, thật 0.624</title></circle>
+<circle cx="413.1" cy="274.8" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end unknown decay 0.3 · chunk không mốc t_unknown 0.7: local 0.725, thật 0.632</title></circle>
+<circle cx="413.1" cy="247.3" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.1: local 0.725, thật 0.667</title></circle>
+<circle cx="389.8" cy="251.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.2: local 0.700, thật 0.662</title></circle>
+<circle cx="459.6" cy="261.1" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.5: local 0.775, thật 0.649</title></circle>
+<circle cx="413.1" cy="239.4" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.0: local 0.725, thật 0.677</title></circle>
+<circle cx="389.8" cy="251.2" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.3: local 0.700, thật 0.662</title></circle>
+<circle cx="389.8" cy="261.1" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.4: local 0.700, thật 0.649</title></circle>
+<circle cx="389.8" cy="263.0" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.5: local 0.700, thật 0.647</title></circle>
+<circle cx="413.1" cy="261.1" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc tắt: local 0.725, thật 0.649</title></circle>
+<circle cx="389.8" cy="274.8" r="4.5" fill="#1baf7a" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm BM25 0.5 · end stored · chunk không mốc t_unknown 0.7: local 0.700, thật 0.632</title></circle>
+<circle cx="389.8" cy="272.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc tắt: local 0.700, thật 0.634</title></circle>
+<circle cx="366.5" cy="261.1" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.1: local 0.675, thật 0.649</title></circle>
+<circle cx="366.5" cy="267.0" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.2: local 0.675, thật 0.642</title></circle>
+<circle cx="366.5" cy="270.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.3: local 0.675, thật 0.637</title></circle>
+<circle cx="366.5" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.4: local 0.675, thật 0.629</title></circle>
+<circle cx="366.5" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.5: local 0.675, thật 0.629</title></circle>
+<circle cx="366.5" cy="290.6" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.7: local 0.675, thật 0.612</title></circle>
+<circle cx="366.5" cy="255.1" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc t_unknown 0.0: local 0.675, thật 0.657</title></circle>
+<circle cx="436.4" cy="270.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end decay 0.1 · chunk không mốc t_unknown 0.7: local 0.750, thật 0.637</title></circle>
+<circle cx="413.1" cy="257.1" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.1: local 0.725, thật 0.654</title></circle>
+<circle cx="366.5" cy="268.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.2: local 0.675, thật 0.639</title></circle>
+<circle cx="413.1" cy="251.2" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.0: local 0.725, thật 0.662</title></circle>
+<circle cx="366.5" cy="282.7" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.7: local 0.675, thật 0.622</title></circle>
+<circle cx="296.7" cy="294.5" r="4.5" fill="#e87ba4" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm dense: local 0.600, thật 0.607</title></circle>
+<circle cx="366.5" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.0: local 0.675, thật 0.629</title></circle>
+<circle cx="366.5" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.1: local 0.675, thật 0.629</title></circle>
+<circle cx="366.5" cy="270.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.5: local 0.675, thật 0.637</title></circle>
+<circle cx="366.5" cy="274.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.2: local 0.675, thật 0.632</title></circle>
+<circle cx="343.3" cy="268.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.3: local 0.650, thật 0.639</title></circle>
+<circle cx="343.3" cy="270.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.4: local 0.650, thật 0.637</title></circle>
+<circle cx="343.3" cy="274.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.5: local 0.650, thật 0.632</title></circle>
+<circle cx="366.5" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.2: local 0.675, thật 0.627</title></circle>
+<circle cx="366.5" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.3: local 0.675, thật 0.627</title></circle>
+<circle cx="389.8" cy="261.1" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.0: local 0.700, thật 0.649</title></circle>
+<circle cx="343.3" cy="286.6" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc t_unknown 0.7: local 0.650, thật 0.617</title></circle>
+<circle cx="343.3" cy="265.0" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.1: local 0.650, thật 0.644</title></circle>
+<circle cx="343.3" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.2: local 0.650, thật 0.629</title></circle>
+<circle cx="343.3" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.3: local 0.650, thật 0.629</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.4: local 0.650, thật 0.627</title></circle>
+<circle cx="343.3" cy="268.9" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.1: local 0.650, thật 0.639</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · chunk không mốc tắt: local 0.650, thật 0.627</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.05 · chunk không mốc tắt: local 0.650, thật 0.627</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.1 · chunk không mốc tắt: local 0.650, thật 0.627</title></circle>
+<circle cx="343.3" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · cộng điểm domain W3 0.2 · chunk không mốc tắt: local 0.650, thật 0.629</title></circle>
+<circle cx="343.3" cy="292.5" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · lọc cứng domain · chunk không mốc tắt: local 0.650, thật 0.609</title></circle>
+<circle cx="366.5" cy="308.3" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc tắt: local 0.675, thật 0.589</title></circle>
+<circle cx="343.3" cy="276.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end open · chunk không mốc t_unknown 0.4: local 0.650, thật 0.629</title></circle>
+<circle cx="366.5" cy="282.7" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.5: local 0.675, thật 0.622</title></circle>
+<circle cx="389.8" cy="290.6" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.05 · chunk không mốc tắt: local 0.700, thật 0.612</title></circle>
+<circle cx="343.3" cy="263.0" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.0: local 0.650, thật 0.647</title></circle>
+<circle cx="343.3" cy="280.7" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.3: local 0.650, thật 0.624</title></circle>
+<circle cx="389.8" cy="294.5" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc tắt: local 0.700, thật 0.607</title></circle>
+<circle cx="343.3" cy="294.5" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.1 · chunk không mốc t_unknown 0.7: local 0.650, thật 0.607</title></circle>
+<circle cx="343.3" cy="282.7" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.4: local 0.650, thật 0.622</title></circle>
+<circle cx="343.3" cy="290.6" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.5: local 0.650, thật 0.612</title></circle>
+<circle cx="320.0" cy="302.4" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc t_unknown 0.7: local 0.625, thật 0.596</title></circle>
+<circle cx="343.3" cy="292.5" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end decay 0.2 · chunk không mốc tắt: local 0.650, thật 0.609</title></circle>
+<circle cx="203.6" cy="339.8" r="4.5" fill="#9b9a93" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Plain RAG · dense: local 0.500, thật 0.549</title></circle>
+<circle cx="273.5" cy="335.9" r="4.5" fill="#e87ba4" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Chỉ lọc thời gian (bỏ điểm thời gian) · tìm kiếm hybrid: local 0.575, thật 0.554</title></circle>
+<circle cx="180.4" cy="371.3" r="4.5" fill="#9b9a93" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Plain RAG · hybrid: local 0.475, thật 0.509</title></circle>
+<circle cx="-29.1" cy="438.2" r="4.5" fill="#9b9a93" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Plain RAG · BM25: local 0.250, thật 0.424</title></circle>
+<circle cx="482.9" cy="237.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.1: local 0.800, thật 0.679</title></circle>
+<circle cx="482.9" cy="239.4" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.2: local 0.800, thật 0.677</title></circle>
+<circle cx="459.6" cy="245.3" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.3: local 0.775, thật 0.669</title></circle>
+<circle cx="459.6" cy="265.0" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.4: local 0.775, thật 0.644</title></circle>
+<circle cx="482.9" cy="233.5" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.0: local 0.800, thật 0.684</title></circle>
+<circle cx="459.6" cy="272.9" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.5: local 0.775, thật 0.634</title></circle>
+<circle cx="366.5" cy="282.7" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc tắt: local 0.675, thật 0.622</title></circle>
+<circle cx="413.1" cy="280.7" r="4.5" fill="#eb6834" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm dense · end stored · lấy thêm 1 chunk liền kề · chunk không mốc t_unknown 0.7: local 0.725, thật 0.624</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · lấy thêm 1 chunk liền kề · chunk không mốc tắt: local 0.650, thật 0.627</title></circle>
+<circle cx="343.3" cy="278.8" r="4.5" fill="#2a78d6" fill-opacity="0.8" stroke="#fcfcfb" stroke-width="1"><title>Cơ chế 1 · tìm kiếm hybrid · end stored · lấy thêm 2 chunk liền kề · chunk không mốc tắt: local 0.650, thật 0.627</title></circle>
+<circle cx="506.2" cy="227.6" r="8" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<line x1="506.2" y1="227.6" x2="496.2" y2="249.6" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="494.2" y="253.6" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">tốt nhất ở local</text>
+<circle cx="506.2" cy="227.6" r="8" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<line x1="506.2" y1="227.6" x2="496.2" y2="201.6" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="494.2" y="205.6" fill="#0b0b0b" text-anchor="end" font-size="11" font-weight="normal" paint-order="stroke" stroke="#fcfcfb" stroke-width="4" stroke-linejoin="round">tốt nhất ở bộ thật</text>
+<circle cx="78" cy="62" r="5" fill="#9b9a93"/>
+<text x="90.0" y="66.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">Plain RAG</text>
+<circle cx="78" cy="82" r="5" fill="#e87ba4"/>
+<text x="90.0" y="86.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">Chỉ lọc thời gian</text>
+<circle cx="78" cy="102" r="5" fill="#2a78d6"/>
+<text x="90.0" y="106.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">Cơ chế 1 · hybrid</text>
+<circle cx="78" cy="122" r="5" fill="#eb6834"/>
+<text x="90.0" y="126.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">Cơ chế 1 · dense</text>
+<circle cx="78" cy="142" r="5" fill="#1baf7a"/>
+<text x="90.0" y="146.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">Cơ chế 1 · BM25 một phần</text>
+</svg>

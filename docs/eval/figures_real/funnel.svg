@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" role="img" aria-label="Chunk đúng rơi ở đâu trong phễu" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12">
+<title>Chunk đúng rơi ở đâu trong phễu</title>
+<rect width="960" height="400" rx="10" fill="#fcfcfb"/>
+<text x="20.0" y="26.0" fill="#0b0b0b" text-anchor="start" font-size="14" font-weight="600">Mỗi câu rơi vào đúng một nhóm: chunk đúng ở đâu trong phễu (bộ thật, 399 câu có đáp án)</text>
+<rect x="20" y="42" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="38.0" y="53.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">trúng top-5</text>
+<rect x="205" y="42" width="12" height="12" rx="2" fill="#9b9a93"/>
+<text x="223.0" y="53.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">không vào ứng viên</text>
+<rect x="390" y="42" width="12" height="12" rx="2" fill="#eda100"/>
+<text x="408.0" y="53.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">lọc: chunk đúng không mốc</text>
+<rect x="575" y="42" width="12" height="12" rx="2" fill="#e87ba4"/>
+<text x="593.0" y="53.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">lọc: start sau t_req</text>
+<rect x="760" y="42" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="778.0" y="53.0" fill="#0b0b0b" text-anchor="start" font-size="11" font-weight="normal">xếp sau top-5</text>
+<text x="370.0" y="104.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">Plain RAG · dense</text>
+<rect x="380.0" y="80" width="307.4" height="34" fill="#2a78d6"><title>Plain RAG · dense · trúng top-5: 219 câu (54.9%)</title></rect>
+<text x="533.7" y="102.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">219</text>
+<rect x="687.4" y="80" width="14.0" height="34" fill="#9b9a93"><title>Plain RAG · dense · không vào ứng viên: 10 câu (2.5%)</title></rect>
+<rect x="701.4" y="80" width="238.6" height="34" fill="#eb6834"><title>Plain RAG · dense · xếp sau top-5: 170 câu (42.6%)</title></rect>
+<text x="820.7" y="102.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">170</text>
+<text x="370.0" y="158.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">Cơ chế 1 · hybrid · stored · tắt</text>
+<rect x="380.0" y="134" width="350.9" height="34" fill="#2a78d6"><title>Cơ chế 1 · hybrid · stored · tắt · trúng top-5: 250 câu (62.7%)</title></rect>
+<text x="555.4" y="156.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">250</text>
+<rect x="730.9" y="134" width="2.8" height="34" fill="#9b9a93"><title>Cơ chế 1 · hybrid · stored · tắt · không vào ứng viên: 2 câu (0.5%)</title></rect>
+<rect x="733.7" y="134" width="51.9" height="34" fill="#eda100"><title>Cơ chế 1 · hybrid · stored · tắt · bị lọc: chunk đúng không có mốc: 37 câu (9.3%)</title></rect>
+<text x="759.6" y="156.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="785.6" y="134" width="51.9" height="34" fill="#e87ba4"><title>Cơ chế 1 · hybrid · stored · tắt · bị lọc: start sau t_req: 37 câu (9.3%)</title></rect>
+<text x="811.6" y="156.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="837.5" y="134" width="102.5" height="34" fill="#eb6834"><title>Cơ chế 1 · hybrid · stored · tắt · xếp sau top-5: 73 câu (18.3%)</title></rect>
+<text x="888.8" y="156.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">73</text>
+<text x="370.0" y="212.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">Cơ chế 1 · dense · stored · tắt</text>
+<rect x="380.0" y="188" width="348.1" height="34" fill="#2a78d6"><title>Cơ chế 1 · dense · stored · tắt · trúng top-5: 248 câu (62.2%)</title></rect>
+<text x="554.0" y="210.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">248</text>
+<rect x="728.1" y="188" width="2.8" height="34" fill="#9b9a93"><title>Cơ chế 1 · dense · stored · tắt · không vào ứng viên: 2 câu (0.5%)</title></rect>
+<rect x="730.9" y="188" width="51.9" height="34" fill="#eda100"><title>Cơ chế 1 · dense · stored · tắt · bị lọc: chunk đúng không có mốc: 37 câu (9.3%)</title></rect>
+<text x="756.8" y="210.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="782.8" y="188" width="51.9" height="34" fill="#e87ba4"><title>Cơ chế 1 · dense · stored · tắt · bị lọc: start sau t_req: 37 câu (9.3%)</title></rect>
+<text x="808.8" y="210.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="834.7" y="188" width="105.3" height="34" fill="#eb6834"><title>Cơ chế 1 · dense · stored · tắt · xếp sau top-5: 75 câu (18.8%)</title></rect>
+<text x="887.4" y="210.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">75</text>
+<text x="370.0" y="266.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">Cơ chế 1 · dense · stored · t_unknown 0.1</text>
+<rect x="380.0" y="242" width="380.4" height="34" fill="#2a78d6"><title>Cơ chế 1 · dense · stored · t_unknown 0.1 · trúng top-5: 271 câu (67.9%)</title></rect>
+<text x="570.2" y="264.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">271</text>
+<rect x="760.4" y="242" width="4.2" height="34" fill="#9b9a93"><title>Cơ chế 1 · dense · stored · t_unknown 0.1 · không vào ứng viên: 3 câu (0.8%)</title></rect>
+<rect x="764.6" y="242" width="51.9" height="34" fill="#e87ba4"><title>Cơ chế 1 · dense · stored · t_unknown 0.1 · bị lọc: start sau t_req: 37 câu (9.3%)</title></rect>
+<text x="790.5" y="264.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="816.5" y="242" width="123.5" height="34" fill="#eb6834"><title>Cơ chế 1 · dense · stored · t_unknown 0.1 · xếp sau top-5: 88 câu (22.1%)</title></rect>
+<text x="878.2" y="264.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">88</text>
+<text x="370.0" y="320.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1</text>
+<rect x="380.0" y="296" width="384.6" height="34" fill="#2a78d6"><title>Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1 · trúng top-5: 274 câu (68.7%)</title></rect>
+<text x="572.3" y="318.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">274</text>
+<rect x="764.6" y="296" width="4.2" height="34" fill="#9b9a93"><title>Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1 · không vào ứng viên: 3 câu (0.8%)</title></rect>
+<rect x="768.8" y="296" width="51.9" height="34" fill="#e87ba4"><title>Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1 · bị lọc: start sau t_req: 37 câu (9.3%)</title></rect>
+<text x="794.7" y="318.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">37</text>
+<rect x="820.7" y="296" width="119.3" height="34" fill="#eb6834"><title>Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1 · xếp sau top-5: 85 câu (21.3%)</title></rect>
+<text x="880.4" y="318.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">85</text>
+</svg>

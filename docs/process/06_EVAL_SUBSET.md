@@ -57,13 +57,26 @@ Bộ local seed 42 không dính hai câu vắt đoạn.
 
 ## Bộ thật: đã dựng (`dataset/eval/real_subset.json`)
 
-`python scripts/make_eval_subset.py --subset real` (seed 42, không gọi LLM): **8 domain × 50 câu = 400 câu, 204 trang**. Mã: `build_topup_subset` trong `src/tam/evaluation/subset.py`.
+`python scripts/make_eval_subset.py --subset real` (seed 42, không gọi LLM): **8 domain × 50 câu = 400 câu, 204 trang** (sau khi thay 1 câu, xem bên dưới). Mã: `build_topup_subset` trong `src/tam/evaluation/subset.py`.
 
-- Ưu tiên `D/test.hard`; domain nào thiếu thì mượn `D/train.hard`: military 18, media_arts 16 (34 câu, ghi trong `borrowed_from_train`; mỗi câu có trường `split`). **Phải loại các câu mượn khỏi mẫu tinh chỉnh** (đợt 6) để không dùng chung câu giữa tune và test.
+- Ưu tiên `D/test.hard`; domain nào thiếu thì mượn `D/train.hard`: military 18, media_arts 16, business 1 (35 câu, ghi trong `borrowed_from_train`; mỗi câu có trường `split`). **Phải loại các câu mượn khỏi mẫu tinh chỉnh** (đợt 6) để không dùng chung câu giữa tune và test.
 - Trong mỗi domain, lấy **xoay vòng qua các relation** (`sample_balanced`) để relation lớn không lấn hết. Quỹ relation của hai domain nhỏ vẫn hẹp: military chỉ có P4791 (27), P410 (17), P241 (6).
 - **Bỏ câu trước Công nguyên** ([`decisions/05`](../decisions/05_EXCLUDE_BEFORE_COMMON_ERA.md)): bỏ nếu câu hỏi, nhãn thời gian, đáp án hoặc đoạn chứa đáp án có dấu hiệu `BC`/`BCE`/`B.C.` (`mentions_bce`). Kết quả: `D/test` 0 câu, `D/train` 2 câu. Chỉ bắt dấu hiệu viết ra bằng chữ; năm BC chỉ hiện ở chỗ khác trong trang thì ingestion vẫn tự bỏ chunk đó (`invalid_time`).
 - Bỏ câu không xác định được chunk đáp án (`unmapped`): `D/test` 2, `D/train` 4. Trong 400 câu còn 12 câu có đáp án ở tiêu đề mục (`answer_in_heading`) và 12 câu có nhiều chunk đúng.
-- 25/400 câu trùng với bộ local (cùng lấy từ `D/test`); chấp nhận vì local chỉ để kiểm tra chạy được.
+- 23/400 câu trùng với bộ local (cùng lấy từ `D/test`); chấp nhận vì local chỉ để kiểm tra chạy được. (Bản ghi trước ghi nhầm 25.)
+- **Đã thay 1 câu sau khi nạp kho** (2026-10-20): trang `Young_Girl_with_a_Flower_Basket` (21 chunk, tranh của Picasso có tên "Fillette nue") bị Google chặn `PROHIBITED_CONTENT` ở mọi lần gọi, nên không nạp được vào kho và câu `Young_Girl_with_a_Flower_Basket#P127#2` (`D/test`, business) không chấm được. Thay bằng `Villa_del_Balbianello#P127#2` (`D/train`, business), chọn ngẫu nhiên (seed 42) trong 133 câu business hợp lệ của `D/train` (loại câu BC, `unmapped`, trang quá 40 đoạn). Chỉ đổi đúng một dòng, 399 câu còn lại giữ nguyên; `real_subset.json` ghi lý do ở trường `replaced`. Số câu mượn từ `D/train` thành 35. Không dựng lại bằng `make_eval_subset.py` được nữa: chạy lại sẽ cho lại câu cũ.
+
+### Danh sách câu của bộ thật
+
+- Toàn bộ 400 câu: [`dataset/eval/real_subset_cases.csv`](../../dataset/eval/real_subset_cases.csv) (cột `idx`, `domain`, `relation`, `split`, `borrowed_from_train`, `in_local_subset`, `page_id`, `gold_chunk_ids`, `flags`).
+- Mượn từ `D/train` (35 câu): military 18, media_arts 16, business 1 (câu thay thế); lọc cột `borrowed_from_train = yes`.
+- Câu bị loại và lý do: [`dataset/eval/real_subset_dropped.csv`](../../dataset/eval/real_subset_dropped.csv), 9 câu.
+
+| Loại | Số câu | Lý do |
+|---|---|---|
+| `unmapped` | 6 (`D/test` 2, `D/train` 4) | Không xác định được chunk đáp án nên không chấm được |
+| `bce` | 2 (`D/train` 2, cả hai thuộc `Han_dynasty`) | Mốc trước Công nguyên, kho không lưu được ([`decisions/05`](../decisions/05_EXCLUDE_BEFORE_COMMON_ERA.md)) |
+| `blocked` | 1 (`D/test` 1) | Google chặn nội dung trang khi nạp kho; đã thay như trên |
 - Kho riêng: `ingest.py` và `evaluate.py` mặc định ghi/đọc collection `<tên trong config>_<subset>` (vd `tam_chunks_dev_real`) với bộ không phải local, nên không xóa kho local. Đổi bằng `--collection`.
 
 ## Tinh chỉnh tham số: chưa có code

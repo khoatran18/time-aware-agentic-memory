@@ -102,7 +102,9 @@ So với `stored` (0.0001 ở ví dụ này) và `open` (1.0).
 
 **Cách đã đổi mã.** Thay vì tách `end_mode` thành hai lựa chọn độc lập, làm bản nhỏ nhất: thêm **một giá trị mới** `end_mode: unknown_decay` (cờ `--end-mode unknown_decay --open-decay d`) trong `scoring.py`: `ongoing` như `stored` (1.0 mãi), `unknown` `exp(-d·Δ)`, `known` như cũ. Ba chế độ cũ (`stored`, `open`, `decay`) **không đổi hành vi** (có test kiểm tra). Việc tách hẳn thành `ongoing_mode`/`unknown_mode` độc lập chưa cần.
 
-**Kết quả đo** ([`../eval/04_TEST_RESULTS.md`](../eval/04_TEST_RESULTS.md) đợt 3d, nền dense, quét `d` 0.05 đến 0.3 × `t_unknown` tắt, 0.0 đến 0.7, 32 lần chạy):
+**Kết quả đo trên bộ thật (400 câu, 2026-10-20):** `unknown_decay` 0.1 hơn `stored` 19 câu, kém 17, chênh `mrr` +0.003 ± 0.010, tức không phân biệt được ([`../eval/05_REAL_RESULTS.md`](../eval/05_REAL_RESULTS.md)). Lợi thế ở local là do mẫu nhỏ; đề xuất 1 giữ lại vì đơn giản và không hại, nhưng không còn là lý do đổi mặc định.
+
+**Kết quả đo ở local** ([`../eval/04_TEST_RESULTS.md`](../eval/04_TEST_RESULTS.md) đợt 3d, nền dense, quét `d` 0.05 đến 0.3 × `t_unknown` tắt, 0.0 đến 0.7, 32 lần chạy):
 
 | `end` | `mrr` / `hit@5` (`t_unknown` tắt) | `mrr` / `hit@5` (`t_unknown` 0.1) |
 |---|---|---|

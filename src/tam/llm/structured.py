@@ -37,7 +37,9 @@ def _is_transient(exc: Exception) -> bool:
     if isinstance(status, int):
         return status in _RETRYABLE_STATUS or status >= 500
     name = type(exc).__name__
-    return isinstance(exc, (ConnectionError, TimeoutError)) or "Connection" in name or "Timeout" in name
+    bases = {c.__name__ for c in type(exc).__mro__}  # lỗi của langchain-google-genai không có status_code: nhận qua tên lớp cha
+    return (isinstance(exc, (ConnectionError, TimeoutError)) or "Connection" in name or "Timeout" in name
+            or bool(bases & {"ModelRateLimitError", "ServerError"}))
 
 
 class _SkipStructured(Exception):

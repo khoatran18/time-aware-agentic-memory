@@ -1,7 +1,7 @@
 """Gom `metrics.json` của nhiều lần `evaluate.py` thành một bảng: CSV (dữ liệu) và bảng markdown xếp hạng theo `mrr`.
 
 Đầu vào: file TSV hai cột `<nhãn>\t<thư mục output>` (mỗi dòng một lần chạy). Các lần chạy cùng cấu hình (cùng tham số) chỉ giữ một; các cấu hình chỉ khác `t_unknown` mà kết quả y hệt được gộp thành một dòng trong bảng markdown (CSV vẫn đủ từng lần chạy).
-Dùng: python scripts/summarize_runs.py runs.tsv --csv docs/eval/results_local.csv > bang.md
+Dùng: python scripts/summarize_runs.py runs.tsv --csv dataset/eval/results_local.csv > bang.md
 """
 from __future__ import annotations
 

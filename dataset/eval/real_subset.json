@@ -200,6 +200,7 @@
     "/wiki/VP-42",
     "/wiki/Vasudeva_Nanayakkara",
     "/wiki/Veliky_Novgorod",
+    "/wiki/Villa_del_Balbianello",
     "/wiki/Vladimir_Bukovsky",
     "/wiki/Volvo_9700",
     "/wiki/Vuk_Drašković",
@@ -215,7 +216,6 @@
     "/wiki/William_Enyart",
     "/wiki/William_Keith_(artist)",
     "/wiki/Y_Combinator",
-    "/wiki/Young_Girl_with_a_Flower_Basket",
     "/wiki/Young_Union",
     "/wiki/Zambia",
     "/wiki/Zhansaya_Abdumalik"
@@ -251,6 +251,7 @@
     "/wiki/The_Allegory_of_Faith#P195#0",
     "/wiki/The_Allegory_of_Faith#P195#2",
     "/wiki/Tommy_Flowers#P800#1",
+    "/wiki/Villa_del_Balbianello#P127#2",
     "/wiki/Werner_Hartenstein#P410#0",
     "/wiki/Werner_Hartenstein#P410#1",
     "/wiki/Wheel_of_Fortune_(American_game_show)#P371#0",
@@ -6806,6 +6807,24 @@
       "flags": []
     },
     {
+      "idx": "/wiki/Villa_del_Balbianello#P127#2",
+      "page_id": "/wiki/Villa_del_Balbianello",
+      "relation": "P127",
+      "domain": "business",
+      "split": "D/train",
+      "question_hard": "Who acquired the Villa del Balbianello for one year in 1988?",
+      "question_easy": "Who acquired the Villa del Balbianello for one year in 1988?",
+      "targets": [
+        "Fondo Ambiente Italiano"
+      ],
+      "time_start": "1988",
+      "time_end": "1989",
+      "gold_chunk_ids": [
+        "/wiki/Villa_del_Balbianello#7"
+      ],
+      "flags": []
+    },
+    {
       "idx": "/wiki/Vladimir_Bukovsky#P27#1",
       "page_id": "/wiki/Vladimir_Bukovsky",
       "relation": "P27",
@@ -7356,25 +7375,6 @@
       "flags": []
     },
     {
-      "idx": "/wiki/Young_Girl_with_a_Flower_Basket#P127#2",
-      "page_id": "/wiki/Young_Girl_with_a_Flower_Basket",
-      "relation": "P127",
-      "domain": "business",
-      "split": "D/test",
-      "question_hard": "The painting of Young Girl with a Flower Basket had what person or organisation owning it after Dec 1998?",
-      "question_easy": "The painting of Young Girl with a Flower Basket had what person or organisation owning it from 1968 to 2017?",
-      "targets": [
-        "Syndicate of the Museum of Modern Art",
-        "David Rockefeller and Peggy Rockefeller"
-      ],
-      "time_start": "1968",
-      "time_end": "2017",
-      "gold_chunk_ids": [
-        "/wiki/Young_Girl_with_a_Flower_Basket#20"
-      ],
-      "flags": []
-    },
-    {
       "idx": "/wiki/Young_Union#P488#0",
       "page_id": "/wiki/Young_Union",
       "relation": "P488",
@@ -7536,5 +7536,11 @@
       ],
       "flags": []
     }
-  ]
+  ],
+  "replaced": {
+    "/wiki/Young_Girl_with_a_Flower_Basket#P127#2": {
+      "by": "/wiki/Villa_del_Balbianello#P127#2",
+      "reason": "Google chặn trang (PROHIBITED_CONTENT) khi nạp kho"
+    }
+  }
 }

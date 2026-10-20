@@ -1,10 +1,10 @@
-"""Vẽ hai biểu đồ SVG cho `docs/eval/04_TEST_RESULTS.md` từ `docs/eval/results_local.csv` (không cần thư viện vẽ).
+"""Vẽ hai biểu đồ SVG cho `docs/eval/04_TEST_RESULTS.md` từ `dataset/eval/results_local.csv` (không cần thư viện vẽ).
 
 1. `ranking.svg`: cột ngang, mỗi họ cấu hình lấy lần chạy `mrr` cao nhất, sắp theo `mrr`.
 2. `t_unknown_grid.svg`: bảng màu có ghi số, hàng = họ cấu hình, cột = `t_unknown` (đủ mọi giá trị đã đo).
 3. `t_unknown_curve.svg`: `mrr` theo `t_unknown` cho từng nền (đường nhạy cảm của đợt 4b).
 
-Dùng: python scripts/plot_results.py [--csv docs/eval/results_local.csv] [--out docs/eval/figures]
+Dùng: python scripts/plot_results.py [--csv dataset/eval/results_local.csv] [--out docs/eval/figures]
 """
 from __future__ import annotations
 
@@ -251,10 +251,101 @@ def curve_svg(rows: list[dict]) -> str:
     return "\n".join(out)
 
 
+def family_of(r: dict) -> str:
+    """Nhóm màu của một dòng: Plain RAG, chỉ lọc, hybrid, dense, hoặc trộn BM25 một phần."""
+    if r["kind"] == "baseline":
+        return "Plain RAG"
+    if r["only_filter"] == "yes":
+        return "Chỉ lọc thời gian"
+    return {"hybrid": "Cơ chế 1 · hybrid", "dense": "Cơ chế 1 · dense"}.get(r["base"], "Cơ chế 1 · BM25 một phần")
+
+
+FAMILY_COLORS = {"Plain RAG": GRAY, "Chỉ lọc thời gian": PINK, "Cơ chế 1 · hybrid": BLUE, "Cơ chế 1 · dense": ORANGE,
+                 "Cơ chế 1 · BM25 một phần": AQUA}
+
+
+def compare_svg(local: list[dict], real: list[dict], metric: str = "mrr") -> str:
+    """Điểm = một cấu hình: x = `metric` ở local, y = ở bộ thật. Đường chéo y = x; điểm dưới đường chéo là thấp hơn ở bộ thật."""
+    by_real = {r["config"]: r for r in real if r["mode"] == "e2e"}
+    pts = [(r, by_real[r["config"]]) for r in local if r["mode"] == "e2e" and r["config"] in by_real]
+    lo, hi = (0.35, 0.9) if metric == "hit@5" else (0.15, 0.62)
+    w, h, m = 640, 560, 64
+    px = lambda v: m + (v - lo) / (hi - lo) * (w - 2 * m)
+    py = lambda v: h - m - (v - lo) / (hi - lo) * (h - 2 * m)
+    out = svg_open(w, h, f"{metric} ở bộ local so với bộ thật")
+    out.append(text(m, 26, f"{metric}: bộ local (x) so với bộ thật (y), mỗi điểm một cấu hình", size=14, weight="600"))
+    step = 0.05 if metric == "mrr" else 0.1
+    t = lo
+    while t <= hi + 1e-9:
+        out.append(f'<line x1="{px(t):.1f}" y1="{py(lo):.1f}" x2="{px(t):.1f}" y2="{py(hi):.1f}" stroke="{GRID}"/>')
+        out.append(f'<line x1="{px(lo):.1f}" y1="{py(t):.1f}" x2="{px(hi):.1f}" y2="{py(t):.1f}" stroke="{GRID}"/>')
+        out.append(text(px(t), h - m + 18, f"{t:.2f}", fill=INK2, anchor="middle", size=11))
+        out.append(text(m - 8, py(t) + 4, f"{t:.2f}", fill=INK2, anchor="end", size=11))
+        t += step
+    out.append(f'<line x1="{px(lo):.1f}" y1="{py(lo):.1f}" x2="{px(hi):.1f}" y2="{py(hi):.1f}" stroke="{INK2}" stroke-dasharray="5 4"/>')
+    out.append(text(px(hi) - 4, py(hi) + 14, "y = x", fill=INK2, anchor="end", size=11))
+    out.append(text((w) / 2, h - 14, f"{metric} bộ local (40 câu)", fill=INK2, anchor="middle"))
+    out.append(f'<text transform="translate(16 {h / 2:.0f}) rotate(-90)" fill="{INK2}" text-anchor="middle">{metric} bộ thật (400 câu)</text>')
+    for a, b in pts:
+        fam = family_of(a)
+        out.append(f'<circle cx="{px(a[metric]):.1f}" cy="{py(b[metric]):.1f}" r="4.5" fill="{FAMILY_COLORS[fam]}" fill-opacity="0.8" '
+                   f'stroke="{SURFACE}" stroke-width="1"><title>{escape(a["config"])}: local {a[metric]:.3f}, thật {b[metric]:.3f}</title></circle>')
+    bl = max(pts, key=lambda p: p[0][metric])
+    br = max(pts, key=lambda p: p[1][metric])
+    for (a, b), label in ((bl, "tốt nhất ở local"), (br, "tốt nhất ở bộ thật")):
+        out.append(f'<circle cx="{px(a[metric]):.1f}" cy="{py(b[metric]):.1f}" r="8" fill="none" stroke="{INK}" stroke-width="1.5"/>')
+        dy = 26 if label.endswith("local") else -22  # tốt nhất ở local: nhãn phía dưới; ở bộ thật: nhãn phía trên
+        out.append(f'<line x1="{px(a[metric]):.1f}" y1="{py(b[metric]):.1f}" x2="{px(a[metric]) - 10:.1f}" y2="{py(b[metric]) + dy - 4:.1f}" stroke="{INK}" stroke-width="0.8"/>')
+        out.append(text(px(a[metric]) - 12, py(b[metric]) + dy, label, anchor="end", size=11, halo=True))
+    lx, ly = m + 8, 62  # góc trái trên: vùng trống phía trên đường chéo
+    for i, (fam, color) in enumerate(FAMILY_COLORS.items()):
+        out.append(f'<circle cx="{lx + 6}" cy="{ly + 20 * i}" r="5" fill="{color}"/>')
+        out.append(text(lx + 18, ly + 20 * i + 4, fam, size=11))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+FUNNEL_COLORS = [BLUE, GRAY, YELLOW, PINK, ORANGE]
+
+
+def funnel_svg(path: Path) -> str:
+    """Thanh chồng ngang: mỗi câu có chunk đúng rơi vào một nhóm (trúng top-5, không vào ứng viên, bị lọc, xếp sau top-5)."""
+    with open(path, encoding="utf-8") as f:
+        data = list(csv.DictReader(f))
+    groups = [k for k in data[0] if k not in ("config", "n", "dir")]
+    w, row_h, left, right = 960, 54, 380, 20
+    h = 90 + row_h * len(data) + 40
+    out = svg_open(w, h, "Chunk đúng rơi ở đâu trong phễu")
+    out.append(text(20, 26, "Mỗi câu rơi vào đúng một nhóm: chunk đúng ở đâu trong phễu (bộ thật, 399 câu có đáp án)", size=14, weight="600"))
+    for i, g in enumerate(groups):
+        x = 20 + i * 185
+        out.append(f'<rect x="{x}" y="42" width="12" height="12" rx="2" fill="{FUNNEL_COLORS[i]}"/>')
+        out.append(text(x + 18, 53, g.replace("bị lọc: chunk đúng không có mốc", "lọc: chunk đúng không mốc").replace("bị lọc: ", "lọc: "), size=11))
+    scale = (w - left - right) / max(int(r["n"]) for r in data)
+    for j, r in enumerate(data):
+        y = 80 + j * row_h
+        out.append(text(left - 10, y + 24, r["config"], anchor="end", size=12))
+        x = left
+        for i, g in enumerate(groups):
+            v = int(r[g])
+            bw = v * scale
+            if v:
+                out.append(f'<rect x="{x:.1f}" y="{y}" width="{bw:.1f}" height="34" fill="{FUNNEL_COLORS[i]}">'
+                           f'<title>{escape(r["config"])} · {escape(g)}: {v} câu ({v / int(r["n"]):.1%})</title></rect>')
+                if bw > 34:
+                    fg = "#ffffff" if FUNNEL_COLORS[i] in (BLUE, PINK, ORANGE) else INK
+                    out.append(text(x + bw / 2, y + 22, str(v), fill=fg, anchor="middle", size=12, weight="600"))
+            x += bw
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--csv", default=str(ROOT / "docs" / "eval" / "results_local.csv"))
+    ap.add_argument("--csv", default=str(ROOT / "dataset" / "eval" / "results_local.csv"))
     ap.add_argument("--out", default=str(ROOT / "docs" / "eval" / "figures"))
+    ap.add_argument("--compare-with", help="CSV của bộ local khi --csv là bộ thật: vẽ thêm compare_mrr.svg, compare_hit5.svg (x = local, y = bộ thật)")
+    ap.add_argument("--funnel", help="CSV từ scripts/funnel_real.py: vẽ thêm funnel.svg")
     args = ap.parse_args()
     rows = load(Path(args.csv))
     out = Path(args.out)
@@ -262,6 +353,12 @@ def main() -> None:
     (out / "ranking.svg").write_text(ranking_svg(rows), encoding="utf-8")
     (out / "t_unknown_grid.svg").write_text(grid_svg(rows), encoding="utf-8")
     (out / "t_unknown_curve.svg").write_text(curve_svg(rows), encoding="utf-8")
+    if args.compare_with:
+        local = load(Path(args.compare_with))
+        (out / "compare_mrr.svg").write_text(compare_svg(local, rows, "mrr"), encoding="utf-8")
+        (out / "compare_hit5.svg").write_text(compare_svg(local, rows, "hit@5"), encoding="utf-8")
+    if args.funnel:
+        (out / "funnel.svg").write_text(funnel_svg(Path(args.funnel)), encoding="utf-8")
     print(f"Ghi {out}/ranking.svg, {out}/t_unknown_grid.svg và {out}/t_unknown_curve.svg")
 
 

@@ -18,7 +18,7 @@ Mỗi đợt giữ cấu hình tốt nhất của đợt trước làm nền, ch
 | 4 | Có nên giữ chunk không mốc, `T_unknown` bao nhiêu? | `--t-unknown` 0.0 đến 0.7 trên nhiều nền | Đã chạy (đợt 4 và 4b), xem [`04`](04_TEST_RESULTS.md) |
 | 5 | Domain cộng điểm có không tệ hơn lọc cứng? | `--facets`, `--w3` | Đã chạy, xem [`04`](04_TEST_RESULTS.md) |
 | 6 | Tham số tốt nhất (`λ`, `W1/W2`)? | Quét trên `D/train` | **Chưa code**, để sau |
-| 7 | Số đưa vào luận văn | Cấu hình đã chọn, trên bộ thật | **Chưa**, cần bộ thật |
+| 7 | Số đưa vào luận văn | Cấu hình đã chọn, trên bộ thật | Đã chạy lại **toàn bộ 142 kịch bản đợt 0 đến 5** trên bộ thật (400 câu), xem [`05`](05_REAL_RESULTS.md); còn chốt cấu hình sau đợt 6 |
 
 ## Chuẩn bị chung (một lần)
 
@@ -117,7 +117,7 @@ Lệnh: nền của đợt 3 thêm `--t-unknown X`, so với không bật. Dãy 
 ## Đợt 6 và 7 (để sau)
 
 - Đợt 6: quét `λ`, `W1/W2` (cùng `T_unknown`, `W3`, `end_mode` đã chọn) trên mẫu `D/train`. Cần code lấy mẫu train và dựng bộ con từ train (chưa có).
-- Đợt 7: cấu hình đã chọn và baseline (đợt 1) trên bộ thật (8 domain × 50 câu, `dataset/eval/real_subset.json`, **đã dựng**; mượn 34 câu từ `D/train`, xem [`process/06`](../process/06_EVAL_SUBSET.md)), kèm Hit@k, MRR, theo lát thời gian, rò rỉ, chi phí token. Cần Profiler và ingestion cho bộ này (chưa chạy): `profile_eval.py --subset real`, `ingest.py --subset real --recreate --keep-undated` (ghi vào collection `<config>_real`), rồi `evaluate.py --subset real ...`.
+- Đợt 7: cấu hình đã chọn và baseline (đợt 1) trên bộ thật (8 domain × 50 câu, `dataset/eval/real_subset.json`, **đã dựng**; mượn 35 câu từ `D/train`, xem [`process/06`](../process/06_EVAL_SUBSET.md)), kèm Hit@k, MRR, theo lát thời gian, rò rỉ, chi phí token. Cần Profiler và ingestion cho bộ này (chưa chạy): `profile_eval.py --subset real`, `ingest.py --subset real --recreate --keep-undated` (ghi vào collection `<config>_real`), rồi `evaluate.py --subset real ...`.
 
 ## Lưu ý về độ tin cậy
 

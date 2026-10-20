@@ -156,3 +156,16 @@ def test_structured_output_false_skips_structured_call():
     llm.metadata = {}
     assert invoke_structured(llm, chain, Plain, MSG).answer == "ok"
     assert (llm.structured_calls, llm.text_calls) == (1, 2)  # mặc định vẫn thử structured trước
+
+
+def test_provider_rate_limit_error_without_status_code_is_transient():
+    from tam.llm.structured import _is_transient
+
+    class ModelRateLimitError(Exception):
+        pass
+
+    class GoogleRateLimitError(ModelRateLimitError):
+        pass
+
+    assert _is_transient(GoogleRateLimitError("429 RESOURCE_EXHAUSTED"))
+    assert not _is_transient(ValueError("x")) and not _is_transient(RuntimeError("401"))

@@ -54,8 +54,8 @@ llm:
       cache_model: "basic-gemini-3.1-flash-lite"
   # mỗi chỗ gọi LLM trỏ tới một tên profile ở trên
   roles:
-    time_extractor: "9router_31"       # Profiler dùng Gemini 3.1 (quota riêng); nạp kho giữ 3.5 cho nhất quán với bộ local
-    ingestion_time: "9router"
+    time_extractor: "google_31"        # Profiler dùng Gemini 3.1 gọi thẳng Google; nạp kho giữ 3.5 qua 9router cho nhất quán với bộ local
+    ingestion_time: "google_35"        # nạp kho dùng Gemini 3.5 gọi thẳng Google; cache_model giữ cache cũ của combo 9router
     router: "claude_haiku"
     generation: "claude_sonnet"
     judge: "claude_sonnet"

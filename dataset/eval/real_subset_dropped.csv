@@ -1,0 +1,10 @@
+idx,split,domain,relation,reason,detail,question
+/wiki/Lana_Turner#P26#3,D/test,person,P26,unmapped,Không xác định được chunk đáp án (không chấm được),"Julia Jean Turner, better known as Lana Turner, was married to which man between Feb 1969 and Jan 1971?"
+/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#P159#5,D/test,business,P159,unmapped,Không xác định được chunk đáp án (không chấm được),USAFE-AFAFRICA had which location as its headquarters after Dec 1973?
+/wiki/Siemens#P169#0,D/train,business,P169,unmapped,Không xác định được chunk đáp án (không chấm được),Who served as the chief executive officer of Siemens between Jan 1983 and Feb 1985?
+/wiki/Siemens#P169#3,D/train,business,P169,unmapped,Không xác định được chunk đáp án (không chấm được),Who served as the chief executive officer of Siemens between Aug 2006 and Sep 2006?
+/wiki/Siemens#P169#5,D/train,business,P169,unmapped,Không xác định được chunk đáp án (không chấm được),Who served as the CEO of Siemens in Apr 2014?
+/wiki/Los_Angeles_Rams#P115#2,D/train,sports,P115,unmapped,Không xác định được chunk đáp án (không chấm được),"In 1994 the Rams left California and relocated to St Louis, MO. What stadium did they play in between Jul 2007 and Jan 2012?"
+/wiki/Han_dynasty#P36#0,D/train,place,P36,bce,Mốc trước Công nguyên (decisions/05),"In the stretch of years in Mar 8, what was the capital city of the second imperial dynasty of China?"
+/wiki/Han_dynasty#P36#2,D/train,place,P36,bce,Mốc trước Công nguyên (decisions/05),"in Dec 192, what was the major city of the dynasty established by Liu Bang?"
+/wiki/Young_Girl_with_a_Flower_Basket#P127#2,D/test,business,P127,blocked,Google chặn trang khi nạp kho (PROHIBITED_CONTENT); thay bằng /wiki/Villa_del_Balbianello#P127#2,

@@ -1,5 +1,7 @@
 # Kết quả các đợt test (bộ local)
 
+> Đã chạy lại toàn bộ 142 kịch bản này trên bộ thật 400 câu: xem [`05_REAL_RESULTS.md`](05_REAL_RESULTS.md). Ở bộ thật `unknown_decay` không còn hơn `stored` (+0.003 ± 0.010), nên đề xuất ở mục "Cấu hình đề xuất" bên dưới (viết khi mới có local) được xem lại ở `05`.
+
 Kế hoạch và lệnh chạy: [`03_TEST_ROUNDS.md`](03_TEST_ROUNDS.md). Mọi số dưới đây từ **một lần ingestion** và **một lần Profiler**, 40 câu mức `hard`, ngày chạy 2026-10-19.
 
 | Thứ | Giá trị |
@@ -176,7 +178,7 @@ Giống cấu hình gốc về `hit@k` và `mrr`; khác ở `ctx_hit` (tỉ lệ
 | Cơ chế 1 · tìm kiếm hybrid · end stored · lấy thêm 1 chunk liền kề · chunk không mốc tắt | 0.650 | **0.725** | 0.420 | 20261019_224241_3 |
 | Cơ chế 1 · tìm kiếm hybrid · end stored · lấy thêm 2 chunk liền kề · chunk không mốc tắt | 0.650 | **0.725** | 0.420 | 20261019_224241_2 |
 
-Dữ liệu thô: [`results_local.csv`](results_local.csv) (sinh bằng `scripts/summarize_runs.py`); biểu đồ sinh bằng `scripts/plot_results.py`.
+Dữ liệu thô: [`results_local.csv`](../../dataset/eval/results_local.csv) (sinh bằng `scripts/summarize_runs.py`); biểu đồ sinh bằng `scripts/plot_results.py`.
 
 **Đọc nhanh:**
 - Cơ chế 1 (tìm kiếm dense) hơn plain RAG (dense thuần): `mrr` 0.494 so 0.340. So từng câu: **15 câu lên, 3 câu xuống**, và không rò rỉ. Đây là kết quả mạnh nhất về Cơ chế 1.
@@ -576,6 +578,8 @@ Ba cách chấm `end` hiện có cho 5 câu lỗi end (hạng cuối của chunk
 So từng câu với "không dùng": thứ hạng đổi ở 2 đến 5 câu nhưng chunk đáp án không đổi hạng ở câu nào (các thay đổi nằm ở hạng 4 đến 5). **Không phân biệt được**: Profiler chỉ điền domain cho 13/40 câu (đúng cả 13), nên có tối đa 13 câu bị ảnh hưởng. Cộng điểm không tệ hơn lọc cứng (đúng quy tắc) nhưng cũng không hơn không dùng. Không đổi `retrieval.w3` (giữ 0.0). Cần xem lại trên bộ thật (8 domain, 50 câu mỗi domain), nơi domain sai có thể làm lọc cứng chặn mất chunk đúng.
 
 ## Cấu hình đề xuất sau local (chưa phải kết luận cuối)
+
+> Cập nhật 2026-10-20: bộ thật ([`05`](05_REAL_RESULTS.md)) xác nhận `sparse_weight: 0` và `t_unknown: 0.1` (cả hai khoảng 95% dương), nhưng `end_mode: unknown_decay` không hơn `stored`. Đoạn dưới là đề xuất gốc sau local.
 
 `sparse_weight: 0` (bỏ BM25), `end_mode: unknown_decay` với `open_decay: 0.1`, `t_unknown: 0.1`, `neighbor_window: 1`, `w3: 0.0`, `decay_lambda: 0.5`, `w1/w2: 0.7/0.3` (chưa quét: đợt 6). Cấu hình này có `mrr` 0.580, `hit@5` 0.825 ở local, nhưng chọn sau khi xem nhiều cấu hình trên 40 câu nên là cận trên; cần chạy lại cạnh tìm kiếm hybrid, `end_mode: stored` và các baseline trên bộ thật (đợt 7). Các thành phần chưa chắc chắn từng câu (so với `decay` và `stored`): `unknown_decay`, `t_unknown`, bỏ BM25. Chưa sửa mặc định trong `config.*.yaml` (vẫn `sparse_weight` 1, `end_mode` stored, `t_unknown` null).
 

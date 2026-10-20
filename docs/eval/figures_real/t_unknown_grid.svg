@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 616" width="900" height="616" role="img" aria-label="mrr theo họ cấu hình và giá trị t_unknown (bảng màu)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12">
+<title>mrr theo họ cấu hình và giá trị t_unknown (bảng màu)</title>
+<rect width="900" height="616" rx="10" fill="#fcfcfb"/>
+<text x="24.0" y="28.0" fill="#0b0b0b" text-anchor="start" font-size="15" font-weight="600">mrr theo họ cấu hình (hàng) và t_unknown (cột), bộ local 40 câu</text>
+<text x="24.0" y="48.0" fill="#52514e" text-anchor="start" font-size="11" font-weight="normal">Màu càng đậm mrr càng cao; ô viền đen = giá trị cao nhất của hàng; &quot;tắt&quot; = không bật nhánh chunk không mốc.</text>
+<text x="270.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">tắt</text>
+<text x="350.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.0</text>
+<text x="430.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.1</text>
+<text x="510.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.2</text>
+<text x="590.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.3</text>
+<text x="670.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.4</text>
+<text x="750.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.5</text>
+<text x="830.0" y="86.0" fill="#52514e" text-anchor="middle" font-size="11" font-weight="normal">t_unknown 0.7</text>
+<text x="220.0" y="115.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end unknown decay 0.05</text>
+<rect x="231" y="97" width="78" height="28" rx="3" fill="#658eca" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · tắt: mrr 0.421</title></rect>
+<text x="270.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.421</text>
+<rect x="311" y="97" width="78" height="28" rx="3" fill="#1f5bb0" stroke="#0b0b0b" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.0: mrr 0.452</title></rect>
+<text x="350.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.452</text>
+<rect x="391" y="97" width="78" height="28" rx="3" fill="#205cb0" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.1: mrr 0.451</title></rect>
+<text x="430.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.451</text>
+<rect x="471" y="97" width="78" height="28" rx="3" fill="#205cb0" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.2: mrr 0.451</title></rect>
+<text x="510.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.451</text>
+<rect x="551" y="97" width="78" height="28" rx="3" fill="#2660b3" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.3: mrr 0.448</title></rect>
+<text x="590.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.448</text>
+<rect x="631" y="97" width="78" height="28" rx="3" fill="#2a63b4" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.4: mrr 0.447</title></rect>
+<text x="670.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.447</text>
+<rect x="711" y="97" width="78" height="28" rx="3" fill="#3a6fba" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.5: mrr 0.440</title></rect>
+<text x="750.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.440</text>
+<rect x="791" y="97" width="78" height="28" rx="3" fill="#5e89c8" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.05 · t_unknown 0.7: mrr 0.424</title></rect>
+<text x="830.0" y="115.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.424</text>
+<text x="220.0" y="145.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end unknown decay 0.2</text>
+<rect x="231" y="127" width="78" height="28" rx="3" fill="#5c88c7" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · tắt: mrr 0.425</title></rect>
+<text x="270.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.425</text>
+<rect x="311" y="127" width="78" height="28" rx="3" fill="#2c64b5" stroke="#0b0b0b" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.0: mrr 0.446</title></rect>
+<text x="350.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.446</text>
+<rect x="391" y="127" width="78" height="28" rx="3" fill="#2c65b5" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.1: mrr 0.446</title></rect>
+<text x="430.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.446</text>
+<rect x="471" y="127" width="78" height="28" rx="3" fill="#3269b7" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.2: mrr 0.443</title></rect>
+<text x="510.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.443</text>
+<rect x="551" y="127" width="78" height="28" rx="3" fill="#366cb9" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.3: mrr 0.441</title></rect>
+<text x="590.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.441</text>
+<rect x="631" y="127" width="78" height="28" rx="3" fill="#4073bc" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.4: mrr 0.437</title></rect>
+<text x="670.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.437</text>
+<rect x="711" y="127" width="78" height="28" rx="3" fill="#5381c4" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.5: mrr 0.429</title></rect>
+<text x="750.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.429</text>
+<rect x="791" y="127" width="78" height="28" rx="3" fill="#6b93cd" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.2 · t_unknown 0.7: mrr 0.418</title></rect>
+<text x="830.0" y="145.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.418</text>
+<text x="220.0" y="175.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end unknown decay 0.3</text>
+<rect x="231" y="157" width="78" height="28" rx="3" fill="#6891cb" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · tắt: mrr 0.420</title></rect>
+<text x="270.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.420</text>
+<rect x="311" y="157" width="78" height="28" rx="3" fill="#2c65b5" stroke="#0b0b0b" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.0: mrr 0.446</title></rect>
+<text x="350.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.446</text>
+<rect x="391" y="157" width="78" height="28" rx="3" fill="#2f67b6" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.1: mrr 0.444</title></rect>
+<text x="430.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.444</text>
+<rect x="471" y="157" width="78" height="28" rx="3" fill="#366cb9" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.2: mrr 0.441</title></rect>
+<text x="510.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.441</text>
+<rect x="551" y="157" width="78" height="28" rx="3" fill="#386eba" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.3: mrr 0.440</title></rect>
+<text x="590.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.440</text>
+<rect x="631" y="157" width="78" height="28" rx="3" fill="#4174bd" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.4: mrr 0.437</title></rect>
+<text x="670.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.437</text>
+<rect x="711" y="157" width="78" height="28" rx="3" fill="#5885c6" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.5: mrr 0.426</title></rect>
+<text x="750.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.426</text>
+<rect x="791" y="157" width="78" height="28" rx="3" fill="#7197cf" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.3 · t_unknown 0.7: mrr 0.416</title></rect>
+<text x="830.0" y="175.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.416</text>
+<text x="220.0" y="205.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end unknown decay 0.1</text>
+<rect x="231" y="187" width="78" height="28" rx="3" fill="#668fcb" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · tắt: mrr 0.420</title></rect>
+<text x="270.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.420</text>
+<rect x="311" y="187" width="78" height="28" rx="3" fill="#3269b7" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.0: mrr 0.443</title></rect>
+<text x="350.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.443</text>
+<rect x="391" y="187" width="78" height="28" rx="3" fill="#3168b7" stroke="#0b0b0b" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.1: mrr 0.444</title></rect>
+<text x="430.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.444</text>
+<rect x="471" y="187" width="78" height="28" rx="3" fill="#3269b7" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.2: mrr 0.443</title></rect>
+<text x="510.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.443</text>
+<rect x="551" y="187" width="78" height="28" rx="3" fill="#356cb8" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.3: mrr 0.442</title></rect>
+<text x="590.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.442</text>
+<rect x="631" y="187" width="78" height="28" rx="3" fill="#3f73bc" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.4: mrr 0.437</title></rect>
+<text x="670.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.437</text>
+<rect x="711" y="187" width="78" height="28" rx="3" fill="#5382c4" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.5: mrr 0.429</title></rect>
+<text x="750.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.429</text>
+<rect x="791" y="187" width="78" height="28" rx="3" fill="#6a93cc" stroke="#fcfcfb" stroke-width="2"><title>dense · end unknown decay 0.1 · t_unknown 0.7: mrr 0.418</title></rect>
+<text x="830.0" y="205.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.418</text>
+<text x="220.0" y="235.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end stored</text>
+<rect x="231" y="217" width="78" height="28" rx="3" fill="#6c94cd" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · tắt: mrr 0.418</title></rect>
+<text x="270.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.418</text>
+<rect x="311" y="217" width="78" height="28" rx="3" fill="#346bb8" stroke="#0b0b0b" stroke-width="2"><title>dense · end stored · t_unknown 0.0: mrr 0.442</title></rect>
+<text x="350.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.442</text>
+<rect x="391" y="217" width="78" height="28" rx="3" fill="#386db9" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.1: mrr 0.441</title></rect>
+<text x="430.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.441</text>
+<rect x="471" y="217" width="78" height="28" rx="3" fill="#3a6fba" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.2: mrr 0.440</title></rect>
+<text x="510.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.440</text>
+<rect x="551" y="217" width="78" height="28" rx="3" fill="#3e72bc" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.3: mrr 0.438</title></rect>
+<text x="590.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.438</text>
+<rect x="631" y="217" width="78" height="28" rx="3" fill="#4c7cc1" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.4: mrr 0.432</title></rect>
+<text x="670.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.432</text>
+<rect x="711" y="217" width="78" height="28" rx="3" fill="#5b87c7" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.5: mrr 0.425</title></rect>
+<text x="750.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.425</text>
+<rect x="791" y="217" width="78" height="28" rx="3" fill="#779cd1" stroke="#fcfcfb" stroke-width="2"><title>dense · end stored · t_unknown 0.7: mrr 0.413</title></rect>
+<text x="830.0" y="235.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.413</text>
+<text x="220.0" y="265.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end decay 0.1</text>
+<rect x="231" y="247" width="78" height="28" rx="3" fill="#7ca0d3" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · tắt: mrr 0.411</title></rect>
+<text x="270.0" y="265.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.411</text>
+<rect x="311" y="247" width="78" height="28" rx="3" fill="#3b70bb" stroke="#0b0b0b" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.0: mrr 0.439</title></rect>
+<text x="350.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.439</text>
+<rect x="391" y="247" width="78" height="28" rx="3" fill="#3d71bb" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.1: mrr 0.438</title></rect>
+<text x="430.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.438</text>
+<rect x="471" y="247" width="78" height="28" rx="3" fill="#3d71bb" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.2: mrr 0.438</title></rect>
+<text x="510.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.438</text>
+<rect x="551" y="247" width="78" height="28" rx="3" fill="#4a7bc0" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.3: mrr 0.433</title></rect>
+<text x="590.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.433</text>
+<rect x="631" y="247" width="78" height="28" rx="3" fill="#5a87c6" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.4: mrr 0.426</title></rect>
+<text x="670.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.426</text>
+<rect x="711" y="247" width="78" height="28" rx="3" fill="#7198cf" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.5: mrr 0.415</title></rect>
+<text x="750.0" y="265.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.415</text>
+<rect x="791" y="247" width="78" height="28" rx="3" fill="#87a8d7" stroke="#fcfcfb" stroke-width="2"><title>dense · end decay 0.1 · t_unknown 0.7: mrr 0.406</title></rect>
+<text x="830.0" y="265.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.406</text>
+<text x="220.0" y="295.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">BM25 0.25 · end stored</text>
+<rect x="231" y="277" width="78" height="28" rx="3" fill="#6c94cd" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · tắt: mrr 0.418</title></rect>
+<text x="270.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.418</text>
+<rect x="311" y="277" width="78" height="28" rx="3" fill="#4376be" stroke="#0b0b0b" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.0: mrr 0.436</title></rect>
+<text x="350.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.436</text>
+<rect x="391" y="277" width="78" height="28" rx="3" fill="#4778bf" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.1: mrr 0.434</title></rect>
+<text x="430.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.434</text>
+<rect x="471" y="277" width="78" height="28" rx="3" fill="#4b7cc1" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.2: mrr 0.432</title></rect>
+<text x="510.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.432</text>
+<rect x="551" y="277" width="78" height="28" rx="3" fill="#5784c5" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.3: mrr 0.427</title></rect>
+<text x="590.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.427</text>
+<rect x="631" y="277" width="78" height="28" rx="3" fill="#638dca" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.4: mrr 0.421</title></rect>
+<text x="670.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.421</text>
+<rect x="711" y="277" width="78" height="28" rx="3" fill="#6a92cc" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.5: mrr 0.419</title></rect>
+<text x="750.0" y="295.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.419</text>
+<rect x="791" y="277" width="78" height="28" rx="3" fill="#88a9d8" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end stored · t_unknown 0.7: mrr 0.405</title></rect>
+<text x="830.0" y="295.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.405</text>
+<text x="220.0" y="325.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">dense · end open</text>
+<rect x="231" y="307" width="78" height="28" rx="3" fill="#769bd1" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · tắt: mrr 0.413</title></rect>
+<text x="270.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.413</text>
+<rect x="311" y="307" width="78" height="28" rx="3" fill="#507fc2" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.0: mrr 0.430</title></rect>
+<text x="350.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.430</text>
+<rect x="391" y="307" width="78" height="28" rx="3" fill="#4f7ec2" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.1: mrr 0.430</title></rect>
+<text x="430.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.430</text>
+<rect x="471" y="307" width="78" height="28" rx="3" fill="#4b7cc1" stroke="#0b0b0b" stroke-width="2"><title>dense · end open · t_unknown 0.2: mrr 0.432</title></rect>
+<text x="510.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.432</text>
+<rect x="551" y="307" width="78" height="28" rx="3" fill="#4f7ec2" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.3: mrr 0.430</title></rect>
+<text x="590.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.430</text>
+<rect x="631" y="307" width="78" height="28" rx="3" fill="#5280c3" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.4: mrr 0.429</title></rect>
+<text x="670.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.429</text>
+<rect x="711" y="307" width="78" height="28" rx="3" fill="#5986c6" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.5: mrr 0.426</title></rect>
+<text x="750.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.426</text>
+<rect x="791" y="307" width="78" height="28" rx="3" fill="#6b93cd" stroke="#fcfcfb" stroke-width="2"><title>dense · end open · t_unknown 0.7: mrr 0.418</title></rect>
+<text x="830.0" y="325.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.418</text>
+<text x="220.0" y="355.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">BM25 0.5 · end stored</text>
+<rect x="231" y="337" width="78" height="28" rx="3" fill="#85a7d7" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · tắt: mrr 0.406</title></rect>
+<text x="270.0" y="355.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.406</text>
+<rect x="311" y="337" width="78" height="28" rx="3" fill="#5684c5" stroke="#0b0b0b" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.0: mrr 0.427</title></rect>
+<text x="350.0" y="355.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.427</text>
+<rect x="391" y="337" width="78" height="28" rx="3" fill="#608bc9" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.1: mrr 0.423</title></rect>
+<text x="430.0" y="355.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.423</text>
+<rect x="471" y="337" width="78" height="28" rx="3" fill="#628dc9" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.2: mrr 0.422</title></rect>
+<text x="510.0" y="355.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.422</text>
+<rect x="551" y="337" width="78" height="28" rx="3" fill="#6e95ce" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.3: mrr 0.417</title></rect>
+<text x="590.0" y="355.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.417</text>
+<rect x="631" y="337" width="78" height="28" rx="3" fill="#779cd1" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.4: mrr 0.413</title></rect>
+<text x="670.0" y="355.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.413</text>
+<rect x="711" y="337" width="78" height="28" rx="3" fill="#7a9ed2" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.5: mrr 0.411</title></rect>
+<text x="750.0" y="355.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.411</text>
+<rect x="791" y="337" width="78" height="28" rx="3" fill="#8eadda" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.5 · end stored · t_unknown 0.7: mrr 0.403</title></rect>
+<text x="830.0" y="355.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.403</text>
+<text x="220.0" y="385.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">BM25 0.25 · end open</text>
+<rect x="231" y="367" width="78" height="28" rx="3" fill="#80a3d5" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · tắt: mrr 0.409</title></rect>
+<text x="270.0" y="385.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.409</text>
+<rect x="311" y="367" width="78" height="28" rx="3" fill="#648eca" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.0: mrr 0.421</title></rect>
+<text x="350.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.421</text>
+<rect x="391" y="367" width="78" height="28" rx="3" fill="#638eca" stroke="#0b0b0b" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.1: mrr 0.421</title></rect>
+<text x="430.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="600">0.421</text>
+<rect x="471" y="367" width="78" height="28" rx="3" fill="#648eca" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.2: mrr 0.421</title></rect>
+<text x="510.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.421</text>
+<rect x="551" y="367" width="78" height="28" rx="3" fill="#668fcb" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.3: mrr 0.420</title></rect>
+<text x="590.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.420</text>
+<rect x="631" y="367" width="78" height="28" rx="3" fill="#6891cb" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.4: mrr 0.420</title></rect>
+<text x="670.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.420</text>
+<rect x="711" y="367" width="78" height="28" rx="3" fill="#6991cc" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.5: mrr 0.419</title></rect>
+<text x="750.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.419</text>
+<rect x="791" y="367" width="78" height="28" rx="3" fill="#789dd2" stroke="#fcfcfb" stroke-width="2"><title>BM25 0.25 · end open · t_unknown 0.7: mrr 0.412</title></rect>
+<text x="830.0" y="385.0" fill="#ffffff" text-anchor="middle" font-size="12" font-weight="normal">0.412</text>
+<text x="220.0" y="415.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">hybrid · end stored</text>
+<rect x="231" y="397" width="78" height="28" rx="3" fill="#b4c9e8" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · tắt: mrr 0.386</title></rect>
+<text x="270.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.386</text>
+<rect x="311" y="397" width="78" height="28" rx="3" fill="#8babd9" stroke="#0b0b0b" stroke-width="2"><title>hybrid · end stored · t_unknown 0.0: mrr 0.404</title></rect>
+<text x="350.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">0.404</text>
+<rect x="391" y="397" width="78" height="28" rx="3" fill="#91afdb" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.1: mrr 0.401</title></rect>
+<text x="430.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.401</text>
+<rect x="471" y="397" width="78" height="28" rx="3" fill="#94b2dc" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.2: mrr 0.400</title></rect>
+<text x="510.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.400</text>
+<rect x="551" y="397" width="78" height="28" rx="3" fill="#a2bbe1" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.3: mrr 0.394</title></rect>
+<text x="590.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.394</text>
+<rect x="631" y="397" width="78" height="28" rx="3" fill="#a8c0e4" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.4: mrr 0.391</title></rect>
+<text x="670.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.391</text>
+<rect x="711" y="397" width="78" height="28" rx="3" fill="#aac2e4" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.5: mrr 0.390</title></rect>
+<text x="750.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.390</text>
+<rect x="791" y="397" width="78" height="28" rx="3" fill="#bacdea" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end stored · t_unknown 0.7: mrr 0.383</title></rect>
+<text x="830.0" y="415.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.383</text>
+<text x="220.0" y="445.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">hybrid · end decay 0.05</text>
+<rect x="231" y="427" width="78" height="28" rx="3" fill="#bfd1ec" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · tắt: mrr 0.381</title></rect>
+<text x="270.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.381</text>
+<rect x="311" y="427" width="78" height="28" rx="3" fill="#8dacda" stroke="#0b0b0b" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.0: mrr 0.403</title></rect>
+<text x="350.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">0.403</text>
+<rect x="391" y="427" width="78" height="28" rx="3" fill="#90aedb" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.1: mrr 0.402</title></rect>
+<text x="430.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.402</text>
+<rect x="471" y="427" width="78" height="28" rx="3" fill="#95b2dc" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.2: mrr 0.400</title></rect>
+<text x="510.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.400</text>
+<rect x="551" y="427" width="78" height="28" rx="3" fill="#98b4de" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.3: mrr 0.398</title></rect>
+<text x="590.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.398</text>
+<rect x="631" y="427" width="78" height="28" rx="3" fill="#99b5de" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.4: mrr 0.398</title></rect>
+<text x="670.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.398</text>
+<rect x="711" y="427" width="78" height="28" rx="3" fill="#a1bbe1" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.5: mrr 0.394</title></rect>
+<text x="750.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.394</text>
+<rect x="791" y="427" width="78" height="28" rx="3" fill="#b5cae9" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.05 · t_unknown 0.7: mrr 0.385</title></rect>
+<text x="830.0" y="445.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.385</text>
+<text x="220.0" y="475.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">hybrid · end decay 0.2</text>
+<rect x="231" y="457" width="78" height="28" rx="3" fill="#cad9f0" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · tắt: mrr 0.376</title></rect>
+<text x="270.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.376</text>
+<rect x="311" y="457" width="78" height="28" rx="3" fill="#9cb8df" stroke="#0b0b0b" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.0: mrr 0.396</title></rect>
+<text x="350.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">0.396</text>
+<rect x="391" y="457" width="78" height="28" rx="3" fill="#a0bae1" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.1: mrr 0.395</title></rect>
+<text x="430.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.395</text>
+<rect x="471" y="457" width="78" height="28" rx="3" fill="#a7bfe3" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.2: mrr 0.392</title></rect>
+<text x="510.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.392</text>
+<rect x="551" y="457" width="78" height="28" rx="3" fill="#b1c7e7" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.3: mrr 0.387</title></rect>
+<text x="590.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.387</text>
+<rect x="631" y="457" width="78" height="28" rx="3" fill="#b5cae9" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.4: mrr 0.385</title></rect>
+<text x="670.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.385</text>
+<rect x="711" y="457" width="78" height="28" rx="3" fill="#c0d2ed" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.5: mrr 0.381</title></rect>
+<text x="750.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.381</text>
+<rect x="791" y="457" width="78" height="28" rx="3" fill="#d0def3" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.2 · t_unknown 0.7: mrr 0.374</title></rect>
+<text x="830.0" y="475.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.374</text>
+<text x="220.0" y="505.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">hybrid · end decay 0.1</text>
+<rect x="231" y="487" width="78" height="28" rx="3" fill="#c4d5ee" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · tắt: mrr 0.379</title></rect>
+<text x="270.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.379</text>
+<rect x="311" y="487" width="78" height="28" rx="3" fill="#9db8df" stroke="#0b0b0b" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.0: mrr 0.396</title></rect>
+<text x="350.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">0.396</text>
+<rect x="391" y="487" width="78" height="28" rx="3" fill="#9db8e0" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.1: mrr 0.396</title></rect>
+<text x="430.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.396</text>
+<rect x="471" y="487" width="78" height="28" rx="3" fill="#a1bbe1" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.2: mrr 0.394</title></rect>
+<text x="510.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.394</text>
+<rect x="551" y="487" width="78" height="28" rx="3" fill="#a5bee2" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.3: mrr 0.393</title></rect>
+<text x="590.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.393</text>
+<rect x="631" y="487" width="78" height="28" rx="3" fill="#a7bfe3" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.4: mrr 0.392</title></rect>
+<text x="670.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.392</text>
+<rect x="711" y="487" width="78" height="28" rx="3" fill="#b2c7e7" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.5: mrr 0.387</title></rect>
+<text x="750.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.387</text>
+<rect x="791" y="487" width="78" height="28" rx="3" fill="#c6d6ef" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end decay 0.1 · t_unknown 0.7: mrr 0.378</title></rect>
+<text x="830.0" y="505.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.378</text>
+<text x="220.0" y="535.0" fill="#0b0b0b" text-anchor="end" font-size="12" font-weight="normal">hybrid · end open</text>
+<rect x="231" y="517" width="78" height="28" rx="3" fill="#e6eefb" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · tắt: mrr 0.364</title></rect>
+<text x="270.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.364</text>
+<rect x="311" y="517" width="78" height="28" rx="3" fill="#b8ccea" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.0: mrr 0.384</title></rect>
+<text x="350.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.384</text>
+<rect x="391" y="517" width="78" height="28" rx="3" fill="#b4c9e8" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.1: mrr 0.386</title></rect>
+<text x="430.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.386</text>
+<rect x="471" y="517" width="78" height="28" rx="3" fill="#b2c8e7" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.2: mrr 0.387</title></rect>
+<text x="510.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.387</text>
+<rect x="551" y="517" width="78" height="28" rx="3" fill="#b5cae9" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.3: mrr 0.386</title></rect>
+<text x="590.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.386</text>
+<rect x="631" y="517" width="78" height="28" rx="3" fill="#b4c9e8" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.4: mrr 0.386</title></rect>
+<text x="670.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.386</text>
+<rect x="711" y="517" width="78" height="28" rx="3" fill="#b1c6e7" stroke="#0b0b0b" stroke-width="2"><title>hybrid · end open · t_unknown 0.5: mrr 0.388</title></rect>
+<text x="750.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="600">0.388</text>
+<rect x="791" y="517" width="78" height="28" rx="3" fill="#b5cae9" stroke="#fcfcfb" stroke-width="2"><title>hybrid · end open · t_unknown 0.7: mrr 0.386</title></rect>
+<text x="830.0" y="535.0" fill="#0b0b0b" text-anchor="middle" font-size="12" font-weight="normal">0.386</text>
+</svg>

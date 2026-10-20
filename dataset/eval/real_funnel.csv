@@ -1,0 +1,6 @@
+config,n,trúng top-5,không vào ứng viên,bị lọc: chunk đúng không có mốc,bị lọc: start sau t_req,xếp sau top-5,dir
+Plain RAG · dense,399,219,10,0,0,170,20261020_150622
+Cơ chế 1 · hybrid · stored · tắt,399,250,2,37,37,73,20261020_150414
+Cơ chế 1 · dense · stored · tắt,399,248,2,37,37,75,20261020_145545
+Cơ chế 1 · dense · stored · t_unknown 0.1,399,271,3,0,37,88,20261020_144726_2
+Cơ chế 1 · dense · unknown decay 0.1 · t_unknown 0.1,399,274,3,0,37,85,20261020_144433_3
