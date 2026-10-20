@@ -145,3 +145,44 @@ def test_pipeline_keeps_undated_only_with_content():
         stats = IngestionPipeline(TimeExtractor(_Llm()), [sink], keep_undated=keep).run([doc])
         assert stats.ingested_undated == expect and len(sink.written) == expect
         assert all(c.start_time is None for c in sink.written)
+
+
+def test_top_pages_and_page_candidates():
+    from tam.retrieval.temporal.expansion import page_candidate_ids, top_pages
+    ranked = ["A#5", "B#0", "A#9", "C#1", "D#2"]
+    assert top_pages(ranked, 3) == {"A": [5, 9], "B": [0], "C": [1]}  # D bị cắt; A#9 vẫn thuộc trang A
+    ids = page_candidate_ids(["A#5", "A#9"], 1)["A"]
+    assert len(ids) == 98 and "A#5" not in ids and "A#9" not in ids
+    assert ids[:4] == ["A#4", "A#6", "A#8", "A#10"]  # gần chunk của Top-K trước, hòa thì chỉ số nhỏ trước
+
+
+def _page_store():
+    end = lambda c, y: c.model_copy(update={"end_time": utc(y)})
+    return FakeVectorStore([
+        mk("p#0", "zebra rare unique keyword", 2000),
+        end(mk("p#1", "expired section", 1990), 1995),                # hết hạn trước t_req
+        mk("p#2", "valid section later", 2005),                       # hợp lệ tại 2010
+        mk("p#3", "future section", 2030),                            # tương lai
+        Chunk(chunk_id="p#4", text="no date", source="s"),            # không mốc
+        mk("q#0", "other page", 2001),
+    ])
+
+
+def test_page_expand_time_vs_page():
+    q = ProfiledQuery(semantic_query="zebra rare unique keyword", t_req="2010-01-01")
+    base = TemporalRetriever(_page_store(), top_k=1).retrieve(q)
+    assert base.neighbors == []
+    timed = TemporalRetriever(_page_store(), top_k=1, page_expand="time", page_per=5).retrieve(q)
+    assert [c.chunk_id for c in timed.neighbors] == ["p#2"]   # p#1 hết hạn, p#3 tương lai, p#4 không mốc, q#0 khác trang
+    page = TemporalRetriever(_page_store(), top_k=1, page_expand="page", page_per=5).retrieve(q)
+    assert [c.chunk_id for c in page.neighbors] == ["p#1", "p#2"]  # đối chứng: chỉ hard filter (hết hạn vẫn lấy; tương lai, không mốc bị loại)
+    capped = TemporalRetriever(_page_store(), top_k=1, page_expand="page", page_per=1).retrieve(q)
+    assert [c.chunk_id for c in capped.neighbors] == ["p#1"]
+
+
+def test_page_expand_validation():
+    import pytest
+    with pytest.raises(ValueError):
+        TemporalRetriever(_page_store(), page_expand="bad")
+    with pytest.raises(ValueError):
+        TemporalRetriever(_page_store(), page_expand="time", page_per=0)

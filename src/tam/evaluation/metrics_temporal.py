@@ -82,6 +82,12 @@ def is_invalidated(chunk: Chunk) -> bool:
     return chunk.invalidated_at is not None
 
 
+def _percentile(values: list[int], q: float) -> float | None:
+    """Phân vị q (0..1) kiểu hạng gần nhất; None nếu rỗng."""
+    ordered = sorted(values)
+    return float(ordered[min(len(ordered) - 1, int(q * len(ordered)))]) if ordered else None
+
+
 def evaluate_retrieval(
     retriever: Retriever, cases: Sequence[EvalCase], ks: Sequence[int] = (1, 3, 5), store: VectorStore | None = None
 ) -> dict[str, Any]:
@@ -151,6 +157,8 @@ def evaluate_retrieval(
         "ctx_recall": mean([r["ctx_recall"] for r in answerable]),
         "ctx_multi_all_hit": mean([r["ctx_all_hit"] for r in multi]),
         "ctx_size_mean": mean([float(r["ctx_size"]) for r in rows]),
+        "ctx_size_p90": _percentile([r["ctx_size"] for r in rows], 0.9),
+        "ctx_size_max": max((r["ctx_size"] for r in rows), default=None),
         "rescued_by_neighbors": sum(
             1 for r in answerable if r["ctx_hit"] and not any(r["hit"][k] for k in ks[-1:])
         ),

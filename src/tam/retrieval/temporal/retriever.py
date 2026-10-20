@@ -2,11 +2,12 @@
 from __future__ import annotations
 
 from dataclasses import replace
+from datetime import datetime
 
 from tam.config.loader import Config
 from tam.config.logging import get_logger
 from tam.retrieval.base import Retriever
-from tam.retrieval.temporal.expansion import neighbor_ids
+from tam.retrieval.temporal.expansion import PAGE_EXPANDS, neighbor_ids, page_candidate_ids
 from tam.retrieval.temporal.filters import passes_hard_filter, to_vector_filter
 from tam.retrieval.temporal.fusion import fuse
 from tam.retrieval.temporal.scoring import (
@@ -54,6 +55,9 @@ class TemporalRetriever(Retriever):
         decay_from: DecayFrom = "start",
         time_mode: TimeMode = "point",
         overlap: Overlap = "binary",
+        page_expand: str = "none",
+        page_top: int = 3,
+        page_per: int = 2,
     ) -> None:
         """`top_n`: số ứng viên mỗi nhánh lấy từ store; `top_k`: số chunk trả về sau re-rank.
 
@@ -64,6 +68,9 @@ class TemporalRetriever(Retriever):
         `time_mode`: `point` (mặc định) dùng một điểm `t_req`; `range` dùng khoảng `[t_req, t_end]` của ProfiledQuery (lọc `start <= t_end`, điểm
         chồng lấn; decisions/07 đề xuất 1). Thiếu `t_end` thì khoảng suy biến về một điểm. `overlap`: `binary` hoặc `coverage` (chỉ chế độ range).
         `neighbor_window`: số chunk liền kề mỗi phía của Top-K đưa vào `RetrievalResult.neighbors` (0 = tắt).
+        `page_expand` (decisions/07 đề xuất 7; chỉ dùng khi `neighbor_window` = 0): `none` (tắt) | `time` (lấy `page_top` trang đầu của Top-K, mỗi trang
+        thêm tối đa `page_per` chunk cùng trang còn hợp lệ tại `t_req` (point) hoặc giao `[t_req, t_end]` (range), gần chunk của Top-K nhất trước)
+        | `page` (như `time` nhưng chỉ qua hard filter, không đòi hợp lệ theo thời gian: đối chứng).
         """
         if top_k < 1 or top_n < top_k:
             raise ValueError(f"Cần 1 <= top_k <= top_n, nhận top_k={top_k}, top_n={top_n}")
@@ -82,6 +89,11 @@ class TemporalRetriever(Retriever):
         if overlap not in OVERLAPS:
             raise ValueError(f"overlap không hợp lệ: {overlap!r}; cho phép {OVERLAPS}")
         self._time_mode, self._overlap = time_mode, overlap
+        if page_expand not in PAGE_EXPANDS:
+            raise ValueError(f"page_expand không hợp lệ: {page_expand!r}; cho phép {PAGE_EXPANDS}")
+        if page_top < 1 or page_per < 1:
+            raise ValueError(f"Cần page_top >= 1 và page_per >= 1, nhận {page_top}, {page_per}")
+        self._page_expand, self._page_top, self._page_per = page_expand, page_top, page_per
 
     @classmethod
     def from_config(cls, cfg: Config, store: VectorStore) -> TemporalRetriever:
@@ -104,6 +116,9 @@ class TemporalRetriever(Retriever):
             decay_from=r.get("decay_from", "start"),
             time_mode=r.get("time_mode", "point"),
             overlap=r.get("overlap", "binary"),
+            page_expand=r.get("page_expand", "none"),
+            page_top=r.get("page_top", 3),
+            page_per=r.get("page_per", 2),
         )
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
@@ -138,12 +153,26 @@ class TemporalRetriever(Retriever):
 
     def _neighbors(self, top: list[ScoredChunk], query: ProfiledQuery) -> list[Chunk]:
         """Chunk liền kề của Top-K, vẫn qua hard filter (không tương lai, không tin giả) nhưng không lọc facet domain."""
-        if self._window == 0 or not top:
+        if not top:
             return []
+        if self._window == 0:
+            return self._page_neighbors(top, query) if self._page_expand != "none" else []
         ids = neighbor_ids([s.chunk.chunk_id for s in top], self._window)
         upper = query.t_end if self._time_mode == "range" and query.t_end is not None else query.t_req
         flt = VectorFilter(t_req=upper)
         return [c for c in self._store.get_chunks(ids) if passes_hard_filter(c, flt)]
+
+    def _page_neighbors(self, top: list[ScoredChunk], query: ProfiledQuery) -> list[Chunk]:
+        """Chunk cùng trang với Top-K (đề xuất 7): mỗi trang trong `page_top` trang đầu lấy tối đa `page_per` chunk, gần chunk của Top-K nhất trước."""
+        upper = query.t_end if self._time_mode == "range" and query.t_end is not None else query.t_req
+        flt = VectorFilter(t_req=upper)
+        out: list[Chunk] = []
+        for ids in page_candidate_ids([s.chunk.chunk_id for s in top], self._page_top).values():
+            by_id = {c.chunk_id: c for c in self._store.get_chunks(ids)}
+            ok = [c for cid in ids if (c := by_id.get(cid)) is not None and passes_hard_filter(c, flt)
+                  and (self._page_expand == "page" or _covers(c, query.t_req))]
+            out.extend(ok[: self._page_per])
+        return out
 
     def _score(self, chunk: Chunk, semantic: float, query: ProfiledQuery) -> ScoredChunk:
         """Chấm Temporal_Score và Final_Score cho một chunk đã có Semantic_Score."""
@@ -162,6 +191,11 @@ class TemporalRetriever(Retriever):
             domain_score=domain,
             final_score=final_score(semantic, temporal, self._w1, self._w2, domain, self._w3),
         )
+
+
+def _covers(chunk: Chunk, t_req: datetime) -> bool:
+    """Chunk có mốc và còn hiệu lực tại `t_req` (`end_time` rỗng là còn hiệu lực); cận trên `start_time` đã do hard filter kiểm (point: `t_req`, range: `qe`)."""
+    return chunk.start_time is not None and (chunk.end_time is None or t_req <= chunk.end_time)
 
 
 def _guard(hits: BranchHits, flt: VectorFilter) -> BranchHits:

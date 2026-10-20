@@ -22,6 +22,7 @@ from tam.evaluation.metrics_temporal import evaluate_retrieval, hit_at_k, recipr
 from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
+from tam.retrieval.temporal.expansion import PAGE_EXPANDS
 from tam.retrieval.temporal.retriever import TemporalRetriever
 from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES, OVERLAPS, TIME_MODES
 from tam.stores.vector.qdrant_store import QdrantStore, collection_for
@@ -51,6 +52,9 @@ def main() -> None:
     ap.add_argument("--time-mode", choices=list(TIME_MODES), help="ghi đè retrieval.time_mode: point (mặc định, một điểm t_req) | range (khoảng [t_req, t_end], cần profiler.jsonl chạy bằng profile_eval.py --ranges)")
     ap.add_argument("--overlap", choices=list(OVERLAPS), help="ghi đè retrieval.overlap (chỉ với --time-mode range): binary | coverage (độ phủ |C ∩ Q| / |Q|)")
     ap.add_argument("--neighbors", type=int, help="ghi đè retrieval.neighbor_window: số chunk liền kề mỗi phía lấy làm ngữ cảnh")
+    ap.add_argument("--page-expand", choices=list(PAGE_EXPANDS), help="ghi đè retrieval.page_expand: none | time (chunk cùng trang còn hợp lệ theo thời gian) | page (cùng trang, không lọc thời gian; đối chứng)")
+    ap.add_argument("--page-top", type=int, help="ghi đè retrieval.page_top: số trang (xếp theo Top-K) được mở rộng")
+    ap.add_argument("--page-per", type=int, help="ghi đè retrieval.page_per: số chunk thêm tối đa mỗi trang")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
     if args.mode == "e2e" and not args.profiler:
@@ -76,6 +80,9 @@ def main() -> None:
         "decay_from": args.decay_from or r.get("decay_from", "start"),
         "time_mode": args.time_mode or r.get("time_mode", "point"),
         "overlap": args.overlap or r.get("overlap", "binary"),
+        "page_expand": args.page_expand or r.get("page_expand", "none"),
+        "page_top": args.page_top or r.get("page_top", 3),
+        "page_per": args.page_per or r.get("page_per", 2),
     }
     if settings["time_mode"] == "range" and args.mode != "e2e":
         ap.error("--time-mode range chỉ dùng với --mode e2e")

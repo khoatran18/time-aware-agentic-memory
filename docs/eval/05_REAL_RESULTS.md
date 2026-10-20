@@ -312,6 +312,44 @@ Cao nhất mọi cấu hình: `mrr` **0.464** (dense, unknown decay 0.05, `t_unk
 5. **Profiler v2** (một điểm = đầu khoảng) cho ra `mrr` ngang v1 (+0.005 ± 0.015): đổi từ điểm cuối khoảng sang điểm đầu không làm tệ.
 6. Cả bốn thay đổi cộng lại cho +0.012 ± 0.018 so với cấu hình gốc: cùng chiều tăng ở cả hai bộ nhưng **không vượt sai số ở 400 câu**; không nên coi là cải thiện đã được xác nhận. Chênh lệch này nhỏ hơn mức phát hiện được (khoảng 0.013) của một tập 400 câu (`decisions/08`).
 
+### 6.10 Mỗi bản cập nhật đổi chỉ số thế nào (tổng hợp)
+
+Tích lũy từng thay đổi, cùng nền dense và `t_unknown` 0.1 (trừ bước 0–2). Bước 1 đến 3 dùng Profiler v1 (`t_req` là điểm cuối khoảng); từ bước 4 dùng Profiler khoảng v2. Số liệu từ `results_{real,local}.csv` và `results_{real,local}_range.csv`; mọi biến thể trong bảng là một lần chạy, nên khác biệt dưới khoảng 0.013 (bộ thật, 400 câu) không phân biệt được.
+
+**Bộ thật (399 câu có đáp án)**
+
+| Bước | `hit@1` | `hit@5` | `mrr` (Δ so với bước trước) | `ans@5` | `ans_valid@5` |
+|---|---|---|---|---|---|
+| 0. Plain RAG dense (baseline, không lọc thời gian) | 0.226 | 0.549 | **0.339** | 0.664 | 0.409 |
+| 1. Cơ chế 1: hybrid, `stored`, chunk không mốc tắt (cấu hình đầu tiên) | 0.241 | 0.627 | **0.386** | 0.739 | 0.624 |
+| 2. + bỏ BM25 (dense) | 0.288 | 0.622 | **0.418** (+0.032) | 0.757 | 0.644 |
+| 3. + bật `t_unknown` 0.1 | 0.298 | 0.679 | **0.441** (+0.023) | 0.810 | 0.637 |
+| 4. + Profiler khoảng v2 (một điểm `qs`) | 0.303 | 0.679 | **0.445** (+0.004) | 0.805 | 0.639 |
+| 5. + `decay_from: end` | 0.303 | 0.699 | **0.451** (+0.006) | 0.822 | 0.639 |
+| 6. + chế độ khoảng `range` | 0.306 | 0.697 | **0.452** (+0.001) | 0.810 | 0.644 |
+| 7. đổi sang `unknown_decay` 0.05 (từ bước 5, một điểm) | 0.326 | 0.692 | **0.463** (+0.012) | 0.822 | 0.632 |
+| 8. + chế độ khoảng `range` | 0.323 | 0.699 | **0.464** (+0.002) | 0.820 | 0.642 |
+
+**Bộ local (40 câu)**
+
+| Bước | `hit@1` | `hit@5` | `mrr` (Δ so với bước trước) | `ans@5` | `ans_valid@5` |
+|---|---|---|---|---|---|
+| 0. Plain RAG dense (baseline, không lọc thời gian) | 0.225 | 0.500 | **0.340** | 0.600 | 0.475 |
+| 1. Cơ chế 1: hybrid, `stored`, chunk không mốc tắt (cấu hình đầu tiên) | 0.275 | 0.650 | **0.420** | 0.750 | 0.675 |
+| 2. + bỏ BM25 (dense) | 0.350 | 0.675 | **0.494** (+0.073) | 0.750 | 0.725 |
+| 3. + bật `t_unknown` 0.1 | 0.375 | 0.800 | **0.542** (+0.049) | 0.850 | 0.725 |
+| 4. + Profiler khoảng v2 (một điểm `qs`) | 0.400 | 0.800 | **0.555** (+0.012) | 0.875 | 0.775 |
+| 5. + `decay_from: end` | 0.400 | 0.825 | **0.568** (+0.013) | 0.900 | 0.775 |
+| 6. + chế độ khoảng `range` | 0.400 | 0.825 | **0.563** (-0.004) | 0.900 | 0.775 |
+| 7. đổi sang `unknown_decay` 0.05 (từ bước 5, một điểm) | 0.475 | 0.825 | **0.610** (+0.042) | 0.900 | 0.775 |
+| 8. + chế độ khoảng `range` | 0.475 | 0.825 | **0.606** (-0.004) | 0.900 | 0.775 |
+
+Đọc bảng:
+- Phần lớn mức tăng đến từ **lọc thời gian và bỏ BM25** (bước 0 đến 3: `mrr` +0.102 ở bộ thật, +0.202 ở local); đây là các thay đổi có ý nghĩa thống kê.
+- Các cập nhật sau (Profiler khoảng, `decay_from end`, `range`) mỗi cái chỉ +0.000 đến +0.006 ở bộ thật; riêng `decay_from end` nhất quán nhất. `range` gần như không đổi `mrr` (+0.001 và −0.005 ở local).
+- `unknown_decay` 0.05 thêm +0.012 (bộ thật) và +0.042 (local) so với `stored`; chưa kiểm tra ghép cặp, và do chọn trong hơn 140 cấu hình nên là cận trên.
+- `ans_valid@5` (đúng thời kỳ theo nhãn của ingestion) ít đổi ở các bước sau (0.63 đến 0.64), tức các cập nhật chủ yếu xếp lại thứ hạng chứ không đưa thêm chunk đúng thời kỳ vào top-5.
+
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
 - **Bộ vẫn đủ 400 câu**, trong đó 399 câu có chunk đáp án trong kho (1 câu có chunk đáp án bị bỏ lúc nạp kho). Không câu nào bị loại khỏi mẫu đánh giá vì lọc nhầm; 37 câu chỉ là các câu hệ **không thể trả đúng** khi còn dùng bộ lọc cứng.
