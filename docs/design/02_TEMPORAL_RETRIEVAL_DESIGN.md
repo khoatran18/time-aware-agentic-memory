@@ -1,5 +1,7 @@
 # Cơ chế 1: Temporal Retrieval (Truy xuất dựa trên Mốc thời gian)
 
+> ⚠️ **Bản gốc (thiết kế ban đầu).** Thiết kế hiện hành, gồm ingestion mở rộng, các công thức `Temporal_Score` và giá trị tham số chọn theo kết quả đo, nằm ở [`03_TEMPORAL_RETRIEVAL_DESIGN_V2.md`](03_TEMPORAL_RETRIEVAL_DESIGN_V2.md).
+
 ## 1. Tổng quan (Overview)
 **Mục tiêu:** Trả lời các câu hỏi yêu cầu tính chính xác về mặt thời điểm (Point-in-time Query). Ví dụ: *"Luật xây dựng năm 2020 quy định thế nào?"* hoặc *"Tháng 5/2023, chức vụ của ông A là gì?"*.
 
