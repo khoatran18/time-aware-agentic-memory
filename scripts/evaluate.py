@@ -23,6 +23,7 @@ from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.expansion import PAGE_EXPANDS
+from tam.retrieval.temporal.rerank import RERANK_MODES, RERANK_POOLS, CrossEncoderReranker
 from tam.retrieval.temporal.retriever import TemporalRetriever
 from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES, OVERLAPS, TIME_MODES
 from tam.stores.vector.qdrant_store import QdrantStore, collection_for
@@ -55,6 +56,14 @@ def main() -> None:
     ap.add_argument("--page-expand", choices=list(PAGE_EXPANDS), help="ghi đè retrieval.page_expand: none | time (chunk cùng trang còn hợp lệ theo thời gian) | page (cùng trang, không lọc thời gian; đối chứng)")
     ap.add_argument("--page-top", type=int, help="ghi đè retrieval.page_top: số trang (xếp theo Top-K) được mở rộng")
     ap.add_argument("--page-per", type=int, help="ghi đè retrieval.page_per: số chunk thêm tối đa mỗi trang")
+    ap.add_argument("--rerank", help="bật cross-encoder rerank (decisions/07 đề xuất 4): tên model fastembed, vd Xenova/ms-marco-MiniLM-L-6-v2")
+    ap.add_argument("--rerank-top", type=int, help="ghi đè retrieval.rerank_top: số ứng viên đầu được chấm lại")
+    ap.add_argument("--rerank-mode", choices=list(RERANK_MODES), help="ghi đè retrieval.rerank_mode: replace | mix")
+    ap.add_argument("--rerank-alpha", type=float, help="ghi đè retrieval.rerank_alpha (chỉ mix): trọng số Semantic cũ")
+    ap.add_argument("--rerank-pool", choices=list(RERANK_POOLS), help="ghi đè retrieval.rerank_pool: nhóm được chấm lại theo final | semantic")
+    ap.add_argument("--rerank-time", action="store_true", help="ghép khoảng hiệu lực của chunk vào văn bản đưa cho cross-encoder")
+    ap.add_argument("--inferred-factor", type=float, help="ghi đè retrieval.inferred_factor: hệ số (0,1] cho điểm thời gian của chunk có mốc suy luận")
+    ap.add_argument("--top-k", type=int, help="ghi đè retrieval.top_k: số chunk trả về (Plain RAG cũng dùng; để vẽ đường cong ngữ cảnh)")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
     if args.mode == "e2e" and not args.profiler:
@@ -71,7 +80,7 @@ def main() -> None:
     settings = {
         "w1": 1.0 if args.no_temporal else r.w1, "w2": 0.0 if args.no_temporal else r.w2,
         "w3": r.get("w3", 0.0) if args.w3 is None else args.w3,
-        "decay_lambda": r.decay_lambda, "rrf_k": r.rrf_k, "top_n": r.top_n, "top_k": r.top_k,
+        "decay_lambda": r.decay_lambda, "rrf_k": r.rrf_k, "top_n": r.top_n, "top_k": args.top_k or r.top_k,
         "end_mode": args.end_mode or r.get("end_mode", "stored"),
         "open_decay": r.get("open_decay", 0.1) if args.open_decay is None else args.open_decay,
         "neighbor_window": r.get("neighbor_window", 0) if args.neighbors is None else args.neighbors,
@@ -83,13 +92,24 @@ def main() -> None:
         "page_expand": args.page_expand or r.get("page_expand", "none"),
         "page_top": args.page_top or r.get("page_top", 3),
         "page_per": args.page_per or r.get("page_per", 2),
+        "rerank_top": args.rerank_top or r.get("rerank_top", 20),
+        "rerank_mode": args.rerank_mode or r.get("rerank_mode", "replace"),
+        "rerank_alpha": r.get("rerank_alpha", 0.5) if args.rerank_alpha is None else args.rerank_alpha,
+        "rerank_pool": args.rerank_pool or r.get("rerank_pool", "final"),
+        "rerank_time": args.rerank_time or r.get("rerank_time", False),
+        "inferred_factor": r.get("inferred_factor", 1.0) if args.inferred_factor is None else args.inferred_factor,
     }
+    rerank_model = args.rerank or r.get("rerank")
     if settings["time_mode"] == "range" and args.mode != "e2e":
         ap.error("--time-mode range chỉ dùng với --mode e2e")
     if args.method == "temporal":
-        retriever = TemporalRetriever(store, **settings)
+        reranker = CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=r.get("rerank_score_cache")) if rerank_model else None
+        retriever = TemporalRetriever(store, reranker=reranker, **settings)
     else:
-        retriever = PlainRetriever(store, method=args.method, top_n=settings["top_n"], top_k=settings["top_k"], rrf_k=settings["rrf_k"])
+        retriever = PlainRetriever(store, method=args.method, top_n=settings["top_n"], top_k=settings["top_k"], rrf_k=settings["rrf_k"],
+                                   neighbor_window=settings["neighbor_window"],
+                                   reranker=CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=r.get("rerank_score_cache")) if rerank_model else None,
+                                   rerank_top=settings["rerank_top"], rerank_mode=settings["rerank_mode"], rerank_alpha=settings["rerank_alpha"])
     if args.facets == "boost" and settings["w3"] <= 0:
         ap.error("--facets boost cần --w3 > 0")
 
@@ -105,7 +125,7 @@ def main() -> None:
     for k in KS:
         result["summary"][f"hit@{k}_all_gold"] = sum(hit_at_k(r["ranked_ids"], gold_all[r["id"]], k) for r in rows) / len(rows)
     result["summary"]["mrr_all_gold"] = sum(reciprocal_rank(r["ranked_ids"], gold_all[r["id"]]) for r in rows) / len(rows)
-    result["summary"]["config"] = {"subset": args.subset, "collection": collection_for(cfg, args.subset, args.collection), "mode": args.mode, "facets": args.facets, "method": args.method, "no_temporal": args.no_temporal, "retrieval": settings,
+    result["summary"]["config"] = {"subset": args.subset, "collection": collection_for(cfg, args.subset, args.collection), "mode": args.mode, "facets": args.facets, "method": args.method, "no_temporal": args.no_temporal, "retrieval": {**settings, "rerank": rerank_model},
                                    "level": args.level, "n_cases_run": len(cases)}
 
     run_dir = get_run_dir()

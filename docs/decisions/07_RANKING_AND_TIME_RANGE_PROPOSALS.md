@@ -7,16 +7,16 @@
 | # | Đề xuất | Code | Đã đo | Ghi chú |
 |---|---|---|---|---|
 | 1 | Khoảng `[qs, qe]` + lọc/chấm chồng lấn | **Đã code phần Profiler** (`query/range_profiler.py`, `query/time_range.py`, prompt `time_extractor_v2.md`, `ProfiledQuery.t_end`, `profile_eval.py --ranges`, 11 test). **Đã code phần retriever dạng tùy chọn** (`retrieval.time_mode: point | range`, `retrieval.overlap: binary | coverage`; `scoring.temporal_score_range`, `filters.to_vector_filter(use_range=...)`, cờ `--time-mode`/`--overlap` của `evaluate.py`; mặc định `point` giữ nguyên hành vi cũ; 8 test mới). Lọc `start <= qe`, điểm chồng lấn (hoặc độ phủ), điểm lùi từ `start` hoặc `end` | **Đã đo** lưới 140 kịch bản mỗi bộ (`eval/05` mục 6.9): `range` so với `point` +0.002 ± 0.014 (giảm số câu bị lọc cứng 78 xuống 68), `coverage` kém `binary`; không vượt sai số. **Profiler khoảng đã chạy xong 400/400 câu** (Gemini 3.1, 0 lỗi; `output/20261020_173521/profiler.jsonl`, `prompt_version` v2); retriever chưa dùng khoảng | Đã đọc tay 37 câu bị lọc: cứu được tối đa 6 câu. `Profiler` cũ giữ nguyên, không bị thay |
-| 2 | Dung sai cố định của lọc | **Chưa code** | Chưa | Dự định bỏ nếu làm đề xuất 1 |
+| 2 | Dung sai cố định của lọc | **Bỏ** (2026-10-21) | — | — | Bỏ: không có căn cứ chung (chênh `start` − `t_req` ở 37 câu bị lọc cứng có trung vị 4 năm, tùy ý, xem `eval/05` mục 6.14); `range` (đề xuất 1) làm theo độ mịn của câu hỏi và chỉ +0.002 ± 0.014 |
 | 3 | Phạt chunk hết hạn từ `end` (`decay_from`) | **Đã code**, dạng tùy chọn, mặc định `start` (`scoring.py`, `retriever.py`, `evaluate.py`, `config.*.yaml`, 3 test) | **Đã đo**: `mrr` +0.007 ở bộ thật (28/28 cặp tăng, nhỏ), +0.013 ở local | Chưa đổi mặc định |
 | 4 | Reranker cross-encoder / LLM | **Chưa code** | Chưa | `fastembed` có sẵn `TextCrossEncoder`; đã thử tải `Xenova/ms-marco-MiniLM-L-6-v2` (13 giây, chấm 20 cặp ~0.01 giây). **Việc tiếp theo** |
 | 5 | Chỉ số chuỗi đáp án và chỉ số hợp lệ về thời gian | **Đã code** (`evaluation/answer_match.py`, `metrics_temporal.py`, `retrieval_eval.py`, `summarize_runs.py`; 6 test). Metrics: `ans_hit@k`, `ans_valid_hit@k`; `hit@k` theo chunk id giữ nguyên | **Đã đo**: `results_{real,local}.csv` có cột `ans_hit@5`, `ans_valid_hit@5` (`eval/05` mục 6.10) | Khớp theo ranh giới từ (0.810 so với 0.812 ở khớp chuỗi con) |
 | 6 | Quét `λ`, `W1/W2` trên D/train | **Chưa code** | Chưa | |
 | 7 | Gom chunk cùng trang theo thời gian | **Đã code** dạng tùy chọn (`page_expand` none/time/page, `page_top`, `page_per`; `expansion.py`, `retriever.py`, cờ `--page-expand/--page-top/--page-per`, config dev/prod, chỉ số `ctx_size_p90/max`; 3 test) | **Đã đo** lưới 34 kịch bản mỗi bộ (`eval/05` mục 6.11): lọc thời gian **không tốt hơn** chunk liền kề; kém cả "cùng trang không lọc" (`ctx_hit` 0.719 so với 0.774 ở 3×5) | Kết quả âm; không đổi mặc định. Cần commit |
-| 8 | Một chunk nhiều khoảng | **Chưa code** | Chưa | Thêm ở bản này, gắn với `decisions/06` đề xuất 3 |
+| 8 | Một chunk nhiều khoảng | **Chưa code** | Chưa | Thêm ở bản này, gắn với `decisions/06` đề xuất 3 Hoãn sang Cơ chế 2 (2026-10-21): đồ thị sự kiện cho mỗi sự việc một `[start, end]` riêng và có con trỏ `Chunk_ID`; làm đề xuất 8 ở VectorDB sẽ trùng việc; tinh chỉnh một thể khi làm Cơ chế 2 |
 | 9 | Ingestion: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Đã code**: `ingestion_time_v2.md`, `ingestion_time_v3.md`, `TimeExtractor(prompt_version=...)`, cờ `ingest.py --prompt-version` (mặc định `v1`; 1 test). Script chạy song song `local/warm_ingest_cache.py` nằm ngoài repo | **Đã đo** trên cả bộ thật (kho `tam_chunks_dev_real_v2`, `eval/05` mục 6.13): `ans_valid@5` +0.063 ± 0.042, `hit@5` +0.033 ± 0.036, `mrr` +0.016 ± 0.029 (chưa vượt sai số); 34 câu được thêm, 21 mất | Sai nhỏ: khoảng bị kéo dài và chunk mở đầu người còn sống thành `unknown`. Cần tập valid/test; chưa đổi mặc định |
 | 10 | `min_validity`: coi chunk còn hợp lệ ít nhất `start + L` năm (làm mềm `end`) | **Chưa code** | Chưa | Không cần LLM; dự định quét L ∈ {1, 5, 10, ∞} trên tập local/valid; rủi ro dương tính giả |
-| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật |
+| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật Mở rộng (2026-10-21): suy luận cả `start`, `end` từ chunk liền kề, không chỉ chunk không mốc; xem bảng tóm tắt |
 | 12 | Không mở rộng lọc cứng cho `start` > `t_req` | Không làm | — | Vi phạm bất biến không rò rỉ tương lai; chỉ cứu thêm ~14 câu lệch ≤ 2 năm. Ghi lại để khỏi đề xuất lại |
 
 Đã code ngoài các đề xuất: `scripts/funnel_real.py` (phễu), `scripts/plot_results.py` (thêm `compare_*.svg`, `funnel.svg`), provider Google, `invoke_structured` chịu lỗi giới hạn tốc độ của Google.
@@ -27,20 +27,21 @@ Bảng chi tiết ở trên; bảng này chỉ để nhìn nhanh. "Test" là tes
 
 | # | Đề xuất | Code | Test | Đã đo | Kết quả một dòng |
 |---|---|---|---|---|---|
-| 1 | Khoảng `[qs, qe]` | Có (Profiler + retriever tùy chọn) | Có (19 test) | Có | `range` so với `point` +0.002 ± 0.014 |
-| 2 | Dung sai cố định của lọc | Không | Không | Không | Dự định bỏ nếu có 1; xem ghi chú dưới bảng |
+| 1 | Khoảng `[qs, qe]` | Có (Profiler + retriever tùy chọn) | Có (19 test) | Có (kho v1 và v3, `eval/05` mục 6.15) | `range` so với `point` +0.002 ± 0.014 (v1); tốt nhất +0.003 ± 0.007 ở kho v3 (28 cấu hình): không hơn |
+| 2 | Dung sai cố định của lọc | **Bỏ** (2026-10-21) | — | — | Bỏ: không có căn cứ chung (`start` − `t_req` ở 37 câu bị lọc cứng trung vị 4 năm, tùy ý, `eval/05` mục 6.14); `range` (đề xuất 1) làm theo độ mịn của câu hỏi, +0.002 ± 0.014 |
 | 3 | Phạt từ `end` (`decay_from`) | Có | Có (3) | Có | +0.006 ± 0.008 |
-| 4 | Cross-encoder rerank | **Chưa** | **Chưa** | **Chưa** | Việc tiếp theo; `fastembed` có `TextCrossEncoder` |
+| 4 | Cross-encoder rerank | **Có** (`rerank.py`, tùy chọn, mặc định tắt) | Có (cả Plain RAG và cache điểm) | **Có** (`eval/05` mục 6.18) | **Cải thiện lớn nhất**: bge-v2-m3 `mrr` 0.478 → 0.566 (+0.088 ± 0.015), `hit@1` 0.338 → 0.415; MiniLM-L12 +0.052 ± 0.012. Plain RAG + cùng cross-encoder cũng tăng, nên phần riêng của Cơ chế 1 là +0.09 đến +0.10 `mrr`, +0.14 đến +0.16 `ans_valid@5`, rò rỉ 0 (so với 66% đến 70%). `ans_valid@5` gần như không đổi (0.70 đến 0.72). Cận trên; chưa quét `w2`, `end_mode`, BM25 |
 | 5 | Chỉ số `ans_hit`, `ans_valid_hit` | Có | Có (6) | Có | `ans_valid@5` làm chỉ số chẩn đoán |
 | 6 | Quét `λ`, `W1/W2` | Chưa | Chưa | Chưa | Cần tập train/valid |
 | 7 | Gom chunk cùng trang theo thời gian | Có (`page_expand`) | Có (3) | Có (mục 6.11) | **Kết quả âm**: lọc thời gian kém "cùng trang không lọc" và kém chunk liền kề |
-| 8 | Một chunk nhiều khoảng | Chưa | Chưa | Chưa | Nạp lại kho; làm sau cùng |
+| 8 | Một chunk nhiều khoảng | Chưa | Chưa | Chưa | Nạp lại kho; làm sau cùng Hoãn sang Cơ chế 2 (2026-10-21): đồ thị sự kiện cho mỗi sự việc một `[start, end]` riêng và có con trỏ `Chunk_ID`; làm đề xuất 8 ở VectorDB sẽ trùng việc; tinh chỉnh một thể khi làm Cơ chế 2 |
 | 9 | Ingestion: sự kiện khác trạng thái (prompt v2, v3) | Có (`ingestion_time_v2/v3.md`, `--prompt-version`) | Có (1, chỉ nạp file) | Có (mục 6.13) | `ans_valid@5` +0.063 ± 0.042; `hit@5` +0.033 ± 0.036 và `mrr` +0.016 ± 0.029 chưa vượt sai số |
-| 10 | `min_validity`: hiệu lực tối thiểu `start + L` | **Chưa** | **Chưa** | **Chưa** | Không cần LLM; nhắm nhóm chunk "hết hạn" (30 câu sai ở kho v3) |
-| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất | **Chưa** | **Chưa** | **Chưa** | 4 câu sai còn lại ở v3 (v1: 15); đánh dấu là mốc suy ra |
+| 10 | `min_validity`: hiệu lực tối thiểu `start + L` | **Chưa** | **Chưa** | **Chưa** | Không cần LLM; nhắm nhóm chunk "hết hạn" (30 câu sai ở kho v3) Hạ ưu tiên (2026-10-21): L là tham số chọn từ dữ liệu và v3 đã sửa nhãn trạng thái tại gốc |
+| 11 | Suy luận thời gian từ chunk liền kề khi chunk thiếu `start`, `end` hoặc chưa rõ trạng thái (không gọi LLM, bước hậu xử lý sau ingestion) | **Có** (`infer_time.py`, `scripts/infer_neighbor_time.py`, `time_inferred`, `inferred_factor`) | Có | **Có** (`eval/05` mục 6.16, 9 collection × 3 hệ số × 3 `end_mode`) | **Không bật**: suy `start` không đổi `hit@5`/`mrr`; suy `end` làm `ans_valid@5` +0.037 ± 0.010 nhưng `mrr` −0.008 ± 0.006. Quy tắc dự kiến ban đầu: Quy tắc dự kiến: `start` thiếu thì lấy mốc `end` (hoặc `start`) của chunk trước có mốc; `end` rỗng hoặc `unknown` thì lấy mốc `start` của chunk sau cùng mạch; `ongoing` không suy (giữ chính sách cần cụm nguyên văn). Mốc suy ra phải đánh dấu (`time_inferred`) và điểm thấp hơn mốc thật. Dựa trên tính chất trang tiểu sử/lịch sử viết theo thứ tự thời gian (xem `eval/05` mục 6.14); giả thuyết, chưa đo. Nhắm: chunk không mốc (4 câu sai ở v3), mốc lệch 1 đến 4 năm (10 câu) |
 | 12 | Không nới lọc cứng `start` > `t_req` | Không làm | — | — | Quyết định không làm (vi phạm bất biến không rò rỉ tương lai) |
-| 13 | Chặn `end` bị kéo dài quá mức (mốc tử trận, cuối trang) và/hoặc phân biệt thứ hạng giữa các chunk cùng điểm 1.0 | **Chưa** | **Chưa** | **Chưa** | Từ v3: 8 câu mất vì khoảng quá dài (Erich Topp `end` 2005, No. 73 Sqn `end` 1969). Hướng: luật trong prompt cho nguồn của `end`, và/hoặc ưu tiên chunk có `start` gần `t_req` khi hòa điểm 1.0 |
-| 14 | Chunk mở đầu về người còn sống bị `unknown` từ năm sinh | **Chưa** | **Chưa** | **Chưa** | Từ v3: 6 câu mất (Helen Clark `1950` thay vì `1950–2017`). Hướng: quy tắc riêng cho chunk mở đầu (giữ chính sách `ongoing`), hoặc không giảm điểm `unknown` của chunk mở đầu |
+| 13 | Chặn `end` bị kéo dài quá mức bằng luật nguồn của `end` trong prompt (mốc tử trận, cuối trang không được làm `end` của chunk không nói tới) | **Chưa** | **Chưa** | **Chưa** | Từ v3: 8 câu mất vì khoảng quá dài (Erich Topp `end` 2005, No. 73 Sqn `end` 1969). Cần LLM (prompt v4 + nạp lại). **Đã rút phần tie-break theo `start` gần `t_req`** (2026-10-21): đó là heuristic phụ thuộc thời điểm hỏi, không phải tính chất chung của dữ liệu; chế độ `decay` cũng không tốt hơn `stored` (0.446 so với 0.450); khi nhiều chunk cùng hợp lệ nên phân biệt bằng ngữ nghĩa (đề xuất 4) |
+| 14 | Chunk mở đầu về người còn sống bị `unknown` từ năm sinh | **Bỏ** (2026-10-21) | — | — | Bỏ: ban đầu rút từ vài ca mất; đo riêng 165 chunk mở đầu thì `unknown` 36 → 45 và 15 câu có chunk đúng là chunk mở đầu cho `hit@5` 7 → 9 (tốt hơn), `mrr` 0.417 → 0.378: không phải lỗi chung |
+| 15 | Nhúng chunk kèm ngữ cảnh lân cận để cải thiện xếp hạng: (a) nối vài câu của chunk trước chỉ khi tính embedding, (b) nhúng cửa sổ hai đoạn, (c) làm mượt vector `v_i' = α·v_i + (1−α)·(v_{i−1} + v_{i+1})/2` từ vector có sẵn trong Qdrant | **Chưa** | **Chưa** | **Chưa** | **Ghi lại, chưa làm** (2026-10-21). Không gọi LLM; (a),(b) tính lại embedding ~4 phút, (c) không cần nhúng lại văn bản. Cơ sở: 52% câu sai ở kho v3 có chunk đúng cách chunk top-5 không quá 2 đoạn (`eval/05` mục 6.14). Khác mở rộng ngữ cảnh cuối chuỗi ở chỗ này đổi cả thứ hạng. Rủi ro: các đoạn kề nhau cạnh tranh nhau nhiều hơn, làm mờ tên riêng và năm; phải áp dụng giống nhau cho Plain RAG khi so sánh; α chọn trên valid |
 
 Ghi chú về đề xuất 2 (nới `start` theo độ mịn; chưa đo riêng, `range` ở đề xuất 1 là cách làm theo độ mịn của câu hỏi): phân tích 37 câu bị lọc cứng ở kho v3: `start` − `t_req` trung vị 4.0 năm; 10 câu trong 1 năm, 13 câu trong 2 năm. Ít nhất 3 câu (Luftflotte, Janet Frame, Nana Okada) là lệch độ mịn thật sự (câu hỏi cả năm hoặc tháng, `t_req` là ngày đầu kỳ, chunk bắt đầu giữa kỳ); các câu còn lại là nhãn lệch năm.
 
@@ -81,10 +82,10 @@ Nguyên nhân khác nhau tùy nhóm và **chưa tách hết**:
 | 5 | Chỉ số chuỗi đáp án và tách 37 câu có chunk đáp án nằm sau thời điểm hỏi | Đánh giá | Chunk đáp án theo nhãn lệch thời kỳ | Không |
 | 6 | Quét `λ`, `W1/W2` trên D/train | Tham số | Chưa chốt bằng dữ liệu | Không |
 | 7 | Mở rộng ngữ cảnh bằng chunk **cùng trang giao khoảng hỏi** (ngoài chunk liền kề theo chỉ số) | Sau xếp hạng | Đúng trang nhưng nhầm thời kỳ; câu nhiều chunk đúng | Không |
-| 8 | Một chunk nhiều khoảng (LLM liệt kê từng sự việc có ngày; lọc theo mốc sớm nhất, chấm theo khoảng tốt nhất) | Ingestion, điểm | Đoạn nhiều thời kỳ chỉ gán một khoảng (khoảng 3–6 trong 37 câu bị lọc) | Có (nạp lại kho khoảng 330 lô) |
+| 8 | Một chunk nhiều khoảng (LLM liệt kê từng sự việc có ngày; lọc theo mốc sớm nhất, chấm theo khoảng tốt nhất) | Ingestion, điểm | Đoạn nhiều thời kỳ chỉ gán một khoảng (khoảng 3–6 trong 37 câu bị lọc) | Có (nạp lại kho khoảng 330 lô) Hoãn sang Cơ chế 2 (2026-10-21): đồ thị sự kiện cho mỗi sự việc một `[start, end]` riêng và có con trỏ `Chunk_ID`; làm đề xuất 8 ở VectorDB sẽ trùng việc; tinh chỉnh một thể khi làm Cơ chế 2 |
 | 9 | Ingestion v3: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Chưa code** | Chưa | Từ phân tích câu sai (`eval/05` 6.12): chunk đúng hết hạn 51/123 câu; cần LLM + nạp lại kho; gắn với `time_extractor_v3` (hoãn vì quota) |
 | 10 | `min_validity`: coi chunk còn hợp lệ ít nhất `start + L` năm (làm mềm `end`) | **Chưa code** | Chưa | Không cần LLM; dự định quét L ∈ {1, 5, 10, ∞} trên tập local/valid; rủi ro dương tính giả |
-| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật |
+| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật Mở rộng (2026-10-21): suy luận cả `start`, `end` từ chunk liền kề, không chỉ chunk không mốc; xem bảng tóm tắt |
 | 12 | Không mở rộng lọc cứng cho `start` > `t_req` | Không làm | — | Vi phạm bất biến không rò rỉ tương lai; chỉ cứu thêm ~14 câu lệch ≤ 2 năm. Ghi lại để khỏi đề xuất lại |
 
 ## Đề xuất
@@ -164,7 +165,10 @@ Với câu hỏi một thời điểm cụ thể (một ngày) thì `qs = qe = t
 | Câu hỏi sự kiện ("who *became* PM in 1990") so với trạng thái ("who *was* PM") | Chunk trạng thái giao cả năm, chunk sự kiện chỉ giao đúng ngày | Chưa có cách; đây là loại câu hỏi khác, nằm ngoài phạm vi hiện nay |
 | Khoảng mở "after X" | Gần như mọi chunk sau X giao | Chấp nhận; điểm quyết định là ngữ nghĩa; có thể thêm ưu tiên gần X |
 
-### Đề xuất 2: dung sai của bộ lọc cứng (đơn giản hơn, tạm thay đề xuất 1)
+### Đề xuất 2: dung sai của bộ lọc cứng (đã bỏ, 2026-10-21)
+
+**Đã bỏ:** δ cố định không có căn cứ chung; δ theo độ mịn của câu hỏi chính là đề xuất 1 (`range`, đã đo, hiệu quả nhỏ). Nội dung gốc giữ lại bên dưới.
+
 
 - `start <= T_req + δ`. **δ phụ thuộc bộ câu hỏi nếu để cố định** (1 năm hợp với câu hỏi cấp năm của TimeQA nhưng quá lỏng với câu hỏi cấp ngày). Nên gắn δ với độ mịn của câu hỏi (tháng: 1 tháng, năm: 1 năm), tức thực chất là đề xuất 1.
 - Nếu chỉ thử nhanh: δ cố định 365 ngày; kỳ vọng cứu được nhóm A (7 câu) và một phần 13 câu bị lọc dưới 1 năm; cũng phải chấp nhận nhóm B và C (30 câu) vẫn bị lọc vì chunk đáp án nằm sau thời điểm hỏi. **Nguy cơ**: nới lọc làm mất tính chặn rò rỉ tương lai về mặt nguyên tắc; ghi rõ δ là dung sai độ mịn, không phải cho phép dùng thông tin tương lai.
@@ -325,6 +329,19 @@ Quét `λ`, `W1/W2` trên mẫu `D/train` (loại 35 câu mượn). Kỳ vọng 
 3. **Bước 3 (gom chunk cùng trang) sau bước 2** vì nó dùng chung phép chồng lấn.
 4. **Reranker ở bước 4, không phải đầu tiên** dù rẻ: nếu đặt trước, nó học trên một công thức thời gian còn lỗi, nên dư địa đo được bị lẫn với lỗi thời gian. Cross-encoder cũng không hiểu thời gian, nên chỉ có nghĩa khi phần chọn thời kỳ đã ổn.
 5. **Quét tham số cuối cùng** vì `λ` và `W1/W2` phụ thuộc cấu trúc điểm; quét trước rồi đổi cấu trúc thì phải quét lại.
+
+## Dự định tiếp theo (ghi 2026-10-21, sau lưới cross-encoder đầu tiên)
+
+Lưới cross-encoder đầu tiên chỉ chạy trên MỘT cấu hình thời gian nền (`w1` 0.7, `w2` 0.3, `unknown_decay` 0.05, `decay_from end`, `t_unknown` 0.1, `point`, kho v3, nhóm `final` top-20). Cần làm sau khi lưới hiện tại và lưới Plain RAG + cross-encoder xong:
+
+1. **Bỏ bớt điểm thời gian có được không?** Với cross-encoder tốt nhất, quét `w2` ∈ {0, 0.15, 0.3, 0.5} (`w1 = 1 - w2`). `w2` = 0 nghĩa là chỉ còn lọc cứng + cross-encoder. Nếu bằng `w2` = 0.3 thì điểm `Temporal` thừa.
+2. **Cấu hình thời gian kết hợp với cross-encoder:** 3 `end_mode` (`stored`, `unknown_decay` 0.05, `decay` 0.1) × `decay_from` (`start`, `end`).
+3. **Nhãn ingest:** kho v1 so với v3 (và mốc suy luận `se_pe_ns`, `e_ns`) khi có cross-encoder, vì lọc cứng và điểm thời gian vẫn phụ thuộc chất lượng nhãn.
+4. **Thang điểm:** thử chuẩn hóa điểm cross-encoder khác min-max (softmax, hoặc logit thô) vì chuẩn hóa min-max trên 20 ứng viên khuếch đại chênh lệch nhỏ.
+5. **Độ trễ:** đo thời gian rerank cho từng model (L6, L12, bge-base, bge-v2-m3) để chọn model cho agent thật.
+6. **Chọn cấu hình trên tập valid/test sạch** (decisions/08) trước khi báo cáo; số hiện tại là cận trên.
+7. **BM25 khi có cross-encoder:** `sparse_weight` ∈ {0.25, 0.5, 1.0} với cross-encoder tốt nhất, thêm nhóm chấm lại top-30/50. Độ phủ ứng viên top-50: dense 0.900, BM25 0.8675, gộp 0.900, nên dự đoán ít giúp.
+8. **Đo đầu-cuối EM/F1** với bộ sinh cố định, so Plain RAG + cross-encoder và Cơ chế 1 + cross-encoder (cần LLM).
 
 ## Chưa biết / cần kiểm tra
 

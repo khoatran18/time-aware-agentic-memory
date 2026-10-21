@@ -29,6 +29,11 @@ class Chunk(BaseModel):
         description="Nguồn gốc của end_time: known (có ngày kết thúc), ongoing (còn tiếp diễn, end_time rỗng), unknown (không rõ, "
         "end_time = hết kỳ của start). None = chunk nạp trước khi có trường này. Không index",
     )
+    time_inferred: Literal["start", "end"] | None = Field(
+        default=None,
+        description="Mốc thời gian do hậu xử lý suy từ chunk liền kề (decisions/07 đề xuất 11), không phải LLM đọc từ chính chunk: "
+        "start (cả start và end), end (chỉ end). None = mốc gốc. Không index",
+    )
     invalidated_at: datetime | None = Field(default=None, description="Khác None = sai từ gốc (Falsehood), CC1 loại hẳn")
     domain_features: dict[str, Any] = Field(default_factory=dict, description='VD {"domain": "Luật", "country": "VN"}')
 

@@ -416,10 +416,10 @@ Cấu hình `stored` (mặc định) cũng tăng: 0.450 → 0.474 `mrr`. Tốt n
 | Được thêm: hết hạn → hết hạn | 7 | Đổi `known` thành `unknown` nên điểm giảm chậm từ `start` thay vì giảm nhanh từ `end` (Zhansaya) |
 | Mất: hợp lệ → hợp lệ | 5 | Khoảng bị kéo quá dài (Erich Topp `end` 2005, mốc tử trận), nhiều chunk cùng được 1.0 nên mất khả năng phân biệt |
 | Mất: hết hạn → hợp lệ | 3 | Cùng nguyên nhân (No. 73 Squadron `end` 1969 cho nhiều chunk) |
-| Mất: hợp lệ → hết hạn / tương lai / không mốc | 6 | Chunk mở đầu về người còn sống bị gán `unknown` từ năm sinh (Helen Clark `1950` thay vì `1950–2017`), điểm tụt dần theo `exp(−0.05·Δ)`: đúng điểm yếu đã dự đoán |
+| Mất: hợp lệ → hết hạn / tương lai / không mốc | 6 | Nhãn chunk đúng xấu đi: Helen Clark (chunk mở đầu) `1950–2017` thành `1950` unknown, John Francis Charles (chunk sự nghiệp) `1877–1894` thành `1877` unknown. Chỉ một phần là chunk mở đầu: đo riêng 15 câu có chunk đúng là chunk mở đầu cho `hit@5` 7 → 9 và `mrr` 0.417 → 0.378, nên **chưa đủ bằng chứng** để coi chunk mở đầu là lỗi chung |
 | Mất: hết hạn → hết hạn | 5 | `unknown` thành `known` nên điểm giảm nhanh từ `end` hơn (Pierre Gasly, Jimmy Lai) |
 
-Nhận xét: v3 sửa được loại lỗi nhắm tới (trạng thái bị chốt sớm, chunk không mốc) nhưng cái giá là (a) khoảng quá dài làm điểm thời gian mất tính phân biệt, (b) chunk mở đầu người còn sống bị `unknown`.
+Nhận xét: v3 sửa được loại lỗi nhắm tới (trạng thái bị chốt sớm, chunk không mốc) nhưng cái giá là (a) khoảng quá dài làm điểm thời gian mất tính phân biệt (8 câu), (b) một số chunk bị đổi sang `unknown` (6 câu, không riêng chunk mở đầu).
 
 **Câu sai còn lại ở kho v3: 111/400 (`hit@5` 0.722);** chi tiết `dataset/eval/failures_real_v3.csv`; 90 câu sai cả ở v1, 21 câu mới sai.
 
@@ -431,6 +431,136 @@ Nhận xét: v3 sửa được loại lỗi nhắm tới (trạng thái bị ch�
 | Điểm thời gian đẩy chunk đúng ra khỏi top-5 | 16 | 14% |
 | Chunk đúng không mốc xếp sau top-5 | 4 | 4% |
 | Không vào ứng viên | 3 | 3% |
+
+### 6.14 Tính chất của dữ liệu: chunk đúng thường liền kề vùng đã truy xuất, và mốc viết trong chunk không phải mốc của sự việc
+
+Phân tích 111 câu sai của kho v3 (cấu hình nền; `dataset/eval/failures_real_v3.csv`, các số liệu dưới đây tính trên 111 câu đó, không phải trên cả 400 câu).
+
+**(a) Hệ thống tìm đúng trang và gần đúng vùng, chunk đúng nằm sát.** Chỉ 1/111 câu sai có chunk đúng ở trang khác. Khoảng cách chỉ số giữa chunk đúng và chunk top-5 gần nhất cùng trang:
+
+| Khoảng cách chỉ số | ≤ 1 | ≤ 2 | ≤ 3 | ≤ 5 | ≤ 10 |
+|---|---|---|---|---|---|
+| Số câu (trên 111) | 33 | 58 | 73 | 83 | 94 |
+
+Tức 52% câu sai có chunk đúng cách chunk top-5 không quá 2 đoạn, 75% trong 5 đoạn. Khớp với mục 6.11: chunk liền kề ±5 cứu được 51/123 câu sai ở kho cũ (hơn nhiều so với "cùng trang có lọc thời gian"). Mình gọi đây là tính chất của dữ liệu và cách dựng bộ đánh giá (gán chunk đáp án theo vị trí chuỗi đáp án trong trang), không phải nhiễu ngẫu nhiên: nội dung liên quan nằm ở các đoạn kề nhau của cùng một trang, còn mốc thời gian được viết trong từng đoạn thì không luôn khớp với thời điểm của sự việc trả lời câu hỏi. Chưa kiểm chứng cách bộ dữ liệu gốc gán đáp án.
+
+**(b) Khoảng cách nhãn 2, 3, 4 năm không phải lệch độ mịn.** Trong 37 câu bị lọc cứng, 10 câu có `start` của chunk đúng cách `t_req` 1 đến 5 năm. Nguyên nhân chung: chunk nói về một sự việc sớm hơn mọi ngày được viết trong chunk, nên `start` (ngày viết sớm nhất) muộn hơn sự việc thật. Độ lớn của khoảng cách tùy ý (1.6 đến 4.0 năm), nên không dung sai cố định nào đúng. Ví dụ:
+
+| Câu hỏi | Chunk đúng (nhãn) | Vì sao lệch |
+|---|---|---|
+| Chồng trước 9/1973 của Nora Ephron | `1976 → 2012` | Chunk liệt kê ba cuộc hôn nhân; cuộc đầu ("Dan Greenburg") không ghi năm, nên mốc sớm nhất là 1976 |
+| Nik Stauskas học trường nào, 1/2008 | `2012` | Chunk nhắc các trường trung học, chỉ ghi mùa 2012 |
+| Tommy Flowers, 6/1948 | `1950 → 1964` | Chunk về Colossus thời chiến, ngày đầu tiên được viết là 1950 |
+| Rio Grande K-28, 2/1942 | `1944` | Chunk nói việc mua trong chiến tranh (không ngày) rồi rút khỏi dịch vụ 1944 |
+
+**(c) Vì sao chunk đúng bị tụt hạng ngoài top-5 (71 câu chunk đúng đã vào ứng viên nhưng xếp sau top-5).** Hai lực:
+- *Ngữ nghĩa:* hạng ngữ nghĩa (trước điểm thời gian) của chunk đúng có trung vị 9; chỉ 16 câu nằm trong top-5, 25 câu hạng 6–10, 30 câu hạng > 10. Câu hỏi ("ai là chồng của X") giống nhiều đoạn của trang hơn là đoạn chứa tên người chồng.
+- *Điểm thời gian không phân biệt được:* top-5 của các câu này chứa trung bình 3.0 chunk hợp lệ tại `t_req`; 31/71 câu có ít nhất 4 chunk hợp lệ, tức nhiều chunk cùng được 1.0 và thứ hạng do ngữ nghĩa quyết. 16 câu thì điểm thời gian đẩy chunk đúng (đã ở top-5 theo ngữ nghĩa) ra ngoài vì chunk đúng hết hạn hoặc `unknown` bị giảm điểm.
+
+Hệ quả cho thiết kế: mở rộng ngữ cảnh bằng chunk liền kề theo chỉ số (không lọc thời gian) có lợi ở bước sinh câu trả lời; lọc theo thời gian lúc truy xuất đã làm hết phần việc của nó.
+
+### 6.15 Chế độ khoảng (`range`) đo lại trên kho v3
+
+Cùng kho v3 (`tam_chunks_dev_real_v2`) và Profiler khoảng v2. Lưới 28 cấu hình: 7 kiểu `end_mode` (`stored`, `open`, `decay`, `unknown_decay` 0.02/0.05/0.1/0.2) × `decay_from` (`start`, `end`) × `overlap` (`binary`, `coverage`) (`local/run_v3_range.py`, không gọi LLM). Chênh lệch ghép cặp so với cấu hình nền `point` (`unknown_decay` 0.05, `decay_from end`, `mrr` 0.478):
+
+| Cấu hình `range` (đứng đầu) | `mrr` | Δ `mrr` | Δ `hit@5` | Δ `ans_valid@5` |
+|---|---|---|---|---|
+| `stored` · `end` · `coverage` | 0.481 | +0.003 ± 0.007 | −0.003 ± 0.013 | +0.000 ± 0.008 |
+| `unknown_decay` 0.05 · `end` · `coverage` | 0.481 | +0.003 ± 0.007 | +0.003 ± 0.010 | −0.005 ± 0.008 |
+| `unknown_decay` 0.05 · `end` · `binary` | 0.480 | +0.002 ± 0.007 | +0.005 ± 0.009 | +0.010 ± 0.007 |
+
+Không cấu hình `range` nào hơn `point` vượt sai số (tốt nhất +0.003 ± 0.007); `decay_from end` vẫn tốt hơn `start` (khoảng +0.01) và `open`/`decay` vẫn kém rõ (−0.02 đến −0.05). **Kết luận cũ ở mục 6.9 vẫn đúng ở nhãn v3:** `range` không đáng giá, giữ làm tùy chọn mặc định tắt.
+
+### 6.16 Mốc thời gian suy từ chunk liền kề (decisions/07 đề xuất 11)
+
+Hậu xử lý không gọi LLM (`src/tam/ingestion/infer_time.py`, `scripts/infer_neighbor_time.py`): sao chép vector từ kho v3 sang 9 collection mới (`tam_chunks_dev_real_inf_*`), chỉ đổi nhãn thời gian và thêm `time_inferred`. `ongoing` không suy. Quy tắc:
+
+| Tên | Quy tắc | Số chunk được suy |
+|---|---|---|
+| `s_pe` | chunk không mốc lấy `end` (nếu `known`, không thì `start`) của chunk dated gần nhất đứng trước | 938 `start` |
+| `s_ps` | như trên nhưng lấy `start` của chunk trước | 938 |
+| `s_pc` | lấy `end` của chunk trước nếu khoảng của nó ≤ 10 năm, không thì `start` | 938 |
+| `e_ns` | chunk `unknown` lấy `end` = `start` của chunk dated kế tiếp và muộn hơn | 816 `end` |
+| `e_ns10`, `e_ns5` | như `e_ns` nhưng bỏ nếu cách xa hơn 10/5 năm | 482 / 392 |
+| `se_pe_ns`, `se_pc_ns10`, `se_ps_ns10` | kết hợp | 938 + 816 / 938 + 482 / 938 + 482 |
+
+Lưới: 9 collection × hệ số giảm điểm thời gian của chunk có mốc suy luận (`inferred_factor` 1.0/0.8/0.5) × 3 `end_mode` (`unknown_decay` 0.05, `stored`, `decay` 0.1) = 84 lượt (`local/run_inferred.py`). Nền: kho v3 cùng `end_mode`. Ghép cặp, `unknown_decay` 0.05:
+
+| Collection | Δ `mrr` | Δ `hit@5` | Δ `ans_valid@5` |
+|---|---|---|---|
+| `s_pe` (suy `start`) | −0.005 ± 0.004 | +0.000 ± 0.009 | +0.007 ± 0.004 |
+| `e_ns` (suy `end`) | −0.008 ± 0.006 | −0.005 ± 0.008 | **+0.037 ± 0.010** |
+| `e_ns5` | +0.002 ± 0.002 | +0.000 ± 0.004 | +0.007 ± 0.004 |
+| `se_pe_ns` (cả hai) | −0.014 ± 0.007 | −0.013 ± 0.011 | **+0.043 ± 0.011** |
+
+Nhận xét:
+- Suy `start` không cải thiện `hit@5` hay `mrr` (chỉ 4 câu sai do chunk không mốc); suy `end` không giới hạn khoảng cách làm `ans_valid@5` tăng đáng kể (+0.037 đến +0.043) nhưng `mrr` và `hit@5` không tăng, hơi giảm.
+- `ans_valid@5` tăng có thể chỉ vì khoảng hiệu lực bị kéo dài nên nhiều chunk "hợp lệ" hơn theo nhãn, không vì chunk đúng lên hạng (giải thích, chưa kiểm chứng riêng).
+- Hệ số 0.8 hoặc 0.5 chỉ bù phần mất `mrr` về gần nền, không vượt nền. Giới hạn khoảng cách (`e_ns5`) cho kết quả trung tính.
+- **Kết luận: không bật.** Giữ ở dạng tùy chọn tắt (`inferred_factor` 1.0 mặc định, collection riêng).
+
+### 6.17 Plain RAG và chunk liền kề cùng kích thước ngữ cảnh
+
+`PlainRetriever` nhận `neighbor_window` (lấy cả chunk tương lai vì không lọc thời gian) và `evaluate.py --top-k`. Lưới (`local/run_plain_neighbors.py`): Plain dense/hybrid và Cơ chế 1 (cấu hình nền), `w` 0 đến 3, `top-k` 5 đến 20, trên kho v1 và v3. `ctx_hit` = chunk đúng có trong ngữ cảnh (top-k cộng chunk liền kề). Kho v3, không cross-encoder:
+
+| Số chunk (xấp xỉ) | Cơ chế 1 `ctx_hit` | Plain dense `ctx_hit` | `leakage_rate` Plain |
+|---|---|---|---|
+| 5 (top-5) | 0.723 | 0.547 | 0.700 |
+| 8 | 0.800 (top-8) | 0.695 (top-8) | 0.825 |
+| 10 | 0.828 (top-10) | 0.765 (top-10) | 0.845 |
+| 15 | 0.860 (top-15) | 0.863 (top-15) | 0.920 |
+| 20 | 0.882 (top-20) | 0.900 (top-20) | 0.940 |
+| chunk liền kề ±1 | 0.765 (8.4 chunk) | 0.720 (10.9 chunk) | 0.700 |
+| ±3 | 0.838 (12.5) | 0.855 (17.9) | 0.700 |
+
+Cơ chế 1 hơn rõ khi ngữ cảnh nhỏ (5 đến 12 chunk); từ khoảng 15 chunk hai bên bằng nhau và Plain RAG nhỉnh hơn ở 20 chunk. Plain RAG rò rỉ tương lai ở 70% đến 94% câu (Cơ chế 1 là 0). **`ctx_hit` không phải thước đo công bằng cho cơ chế thời gian ở ngữ cảnh lớn** (cả hai cùng chứa chunk đúng, nhưng Plain còn chứa nhiều chunk sai thời điểm); phép đo cuối nên là EM/F1 đầu-cuối ở cùng ngân sách token. Mở rộng ngữ cảnh là kỹ thuật chung, áp dụng cho cả Plain RAG, không tính vào đóng góp của cơ chế thời gian.
+
+### 6.18 Cross-encoder rerank (decisions/07 đề xuất 4)
+
+Tính năng tùy chọn, mặc định tắt: `src/tam/retrieval/temporal/rerank.py` (`CrossEncoderReranker` bọc `fastembed.TextCrossEncoder`, cache điểm sqlite chỉ để chạy thí nghiệm nhanh), tham số `rerank*` trong `TemporalRetriever`, `PlainRetriever` và `retrieval` của config; cờ `evaluate.py --rerank <model> --rerank-top --rerank-mode --rerank-alpha --rerank-pool --rerank-time`.
+
+**Luồng:** dense top-50 (đã lọc cứng thời gian) → `Final = W1·Semantic + W2·Temporal` → lấy `rerank_top` chunk đầu (nhóm `final`, hoặc `semantic`) → cross-encoder chấm lại cặp (câu hỏi, chữ của chunk) → `replace` (Semantic mới = min-max điểm cross-encoder) hoặc `mix` (α·Semantic cũ + (1−α)·min-max) → tính lại `Final` với `Temporal` cũ → top-5. Ứng viên ngoài nhóm giữ nguyên, xếp sau. `leakage_rate` vẫn 0.
+
+**Lưới** (`local/run_rerank.py`, `run_rerank_bge.py`): 5 model × cấu hình (đầy đủ cho 3 model nhỏ: `replace`/`mix` 0.3/0.5/0.7 × nhóm × top 10/20/30 × có/không ghép khoảng thời gian vào văn bản; 5 cấu hình đại diện cho 2 model lớn) trên kho v3, cấu hình thời gian nền. Chọn model và cấu hình theo cùng bộ 400 câu nên **là cận trên**. Ghép cặp, so nền (`hit@1` 0.338, `hit@5` 0.723, `mrr` 0.478, `ans_valid@5` 0.693):
+
+| Model | Cấu hình tốt nhất | `hit@1` | `hit@5` | `mrr` (Δ) | `ans_valid@5` | Độ trễ (20 chunk) |
+|---|---|---|---|---|---|---|
+| bge-reranker-v2-m3 (int8) | `replace`, top-20, ghép thời gian | 0.415 | 0.795 | **0.566 (+0.088 ± 0.015)** | 0.710 | ~980 ms |
+| MiniLM-L12 | `mix` 0.3, top-20 | 0.375 | 0.785 | 0.530 (+0.052 ± 0.012) | 0.713 | ~160 ms |
+| MiniLM-L6 | `replace`, top-20, ghép thời gian | 0.360 | 0.795 | 0.524 (+0.046 ± 0.015) | 0.710 | ~70 ms |
+| bge-reranker-base | `replace`, top-20, ghép thời gian | 0.338 | 0.782 | 0.508 (+0.030 ± 0.016) | 0.700 | ~770 ms |
+| jina-reranker-v1-turbo-en | `mix` 0.7, top-20, ghép thời gian | 0.343 | 0.765 | 0.502 (+0.024 ± 0.009) | 0.710 | ~120 ms |
+
+Độ trễ đo trên CPU laptop khi máy rảnh (20 chunk dài khoảng 300 ký tự, 1 câu hỏi); chưa đo trên GPU hoặc dưới tải.
+
+- Cả bốn model tốt nhất tăng `mrr` và `hit@5` vượt sai số; bge-v2-m3 tăng chủ yếu ở thứ hạng đầu (`hit@1` 0.338 → 0.415) chứ `hit@5` ngang MiniLM (~0.79). Kích cỡ model không quyết định riêng: bge-reranker-base yếu hơn MiniLM.
+- Nhóm `final` top-20 ổn định nhất; nhóm `semantic` top-10 kém rõ (`ans_valid@5` giảm 0.03 đến 0.05, kéo lên chunk đúng nội dung nhưng hết hạn). Ghép khoảng thời gian vào văn bản gần như không đổi `mrr`. `replace` và `mix` 0.3 ngang nhau trong sai số.
+- **`ans_valid@5` gần như không đổi giữa các model (0.70 đến 0.72):** cross-encoder đọc nội dung, không biết thời gian; điểm yếu còn lại là nhãn thời gian lệch.
+- Chưa đo: đổi `w1`/`w2`, bỏ `Temporal`, các `end_mode` khác, nhãn v1, BM25 (`sparse_weight` > 0) khi có cross-encoder; ghi ở `decisions/07` mục "Dự định tiếp theo".
+
+**Đối chứng công bằng: Plain RAG + cùng cross-encoder** (`local/run_plain_rerank.py`, `run_plain_bge.py`; `replace`, top-20; Plain xếp theo vector, không lọc, không `Temporal`). Cơ chế 1 + cross-encoder so với Plain + cross-encoder (ngữ cảnh 5 chunk):
+
+| Cặp (cross-encoder) | Plain `hit@5` / `mrr` / `ans_valid@5` / rò rỉ | Cơ chế 1 `hit@5` / `mrr` / `ans_valid@5` / rò rỉ |
+|---|---|---|
+| Không | 0.547 / 0.330 / 0.443 / 0.700 | 0.723 / 0.478 / 0.693 / 0 |
+| MiniLM-L12 | 0.688 / 0.425 / 0.545 / 0.665 | 0.800 / 0.528 / 0.705 / 0 |
+| bge-v2-m3 | 0.735 / 0.471 / 0.573 / 0.695 | 0.787 / 0.560 / 0.710 / 0 |
+
+Cross-encoder nâng cả Plain RAG (một phần mức tăng không thuộc về cơ chế thời gian). Phần riêng của Cơ chế 1 khi cả hai có cross-encoder: L12 +0.10 `mrr`, +0.11 `hit@5`, +0.16 `ans_valid@5`; bge-v2-m3 +0.09 `mrr`, +0.05 `hit@5`, +0.14 `ans_valid@5`. **`hit@5` của Plain + bge-v2-m3 (0.735) ngang Cơ chế 1 không cross-encoder (0.723)**, nên với model mạnh, khoảng cách `hit@5` thu hẹp; ưu thế của Cơ chế 1 còn lại chủ yếu ở thứ hạng đầu, `ans_valid@5` và không rò rỉ.
+
+**Cùng kích thước ngữ cảnh (`ctx_hit`):**
+
+| Chunk | L12: Cơ chế 1 / Plain | bge-v2-m3: Cơ chế 1 / Plain |
+|---|---|---|
+| 5 | 0.800 / 0.688 | 0.787 / 0.735 |
+| 8 (top-8) | 0.840 / 0.797 | 0.840 / 0.815 |
+| 10 (top-10) | 0.863 / 0.848 | 0.868 / 0.860 |
+| 12 | 0.873 / 0.873 | 0.868 / 0.890 |
+| 15 | 0.880 / 0.890 | 0.875 / 0.897 |
+
+Khoảng cách thu hẹp khi ngữ cảnh lớn và đảo chiều từ khoảng 12 chunk. **Chunk liền kề ±1 cộng thêm** `ctx_hit` +0.038 (L12: 0.800 → 0.8375, 7.9 chunk), ±2 +0.058, ±3 +0.068 (11.2 chunk).
+
+**Giới hạn:** (a) số trên bộ thật là cận trên; (b) các lượt đối chứng Plain dùng đúng cấu hình cross-encoder của Cơ chế 1 (có thể không tối ưu cho Plain); (c) `ctx_hit` bỏ qua việc Plain chứa nhiều chunk sai thời điểm, cần EM/F1 đầu-cuối.
 
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
@@ -479,6 +609,7 @@ Nhận xét: v3 sửa được loại lỗi nhắm tới (trạng thái bị ch�
 
 ## 9. Việc còn lại
 
+0. (cập nhật 2026-10-21) Cross-encoder (mục 6.18) là cải thiện lớn nhất hiện có; việc tiếp theo là quét `w1`/`w2` và `end_mode` với cross-encoder, BM25, chọn cấu hình trên tập valid sạch, đo độ trễ dưới tải và EM/F1 đầu-cuối. Xem `decisions/07` mục "Dự định tiếp theo".
 1. Phân loại 37 câu `start` sau `t_req` (nhãn tháng, chunk nhiều sự việc, mốc đăng) để biết cần sửa ingestion hay chấp nhận; đây là trần 9.3% của mọi cấu hình.
 2. Hạng đầu `mrr` ở bộ thật chỉ hơn cấu hình mặc định hiện tại khoảng 0.01–0.02, nên **chọn mặc định theo độ đơn giản**: dense + `t_unknown` 0.1 + `end_mode: stored`. Chưa đổi `config.*.yaml`; chờ bạn chốt (cùng quyết định đổi tên `t_unknown`).
 3. Quét `decay_lambda`, `W1`/`W2` bằng D/train (đợt 6), loại 35 câu mượn khỏi mẫu tinh chỉnh. Hiện λ = 0.5, `W1`/`W2` = 0.7/0.3 là giá trị cố định chưa được tinh chỉnh.

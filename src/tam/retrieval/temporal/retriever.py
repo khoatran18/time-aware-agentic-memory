@@ -10,6 +10,14 @@ from tam.retrieval.base import Retriever
 from tam.retrieval.temporal.expansion import PAGE_EXPANDS, neighbor_ids, page_candidate_ids
 from tam.retrieval.temporal.filters import passes_hard_filter, to_vector_filter
 from tam.retrieval.temporal.fusion import fuse
+from tam.retrieval.temporal.rerank import (
+    RERANK_MODES,
+    RERANK_POOLS,
+    CrossEncoderReranker,
+    Reranker,
+    mix_scores,
+    rerank_text,
+)
 from tam.retrieval.temporal.scoring import (
     OVERLAPS,
     TIME_MODES,
@@ -58,6 +66,13 @@ class TemporalRetriever(Retriever):
         page_expand: str = "none",
         page_top: int = 3,
         page_per: int = 2,
+        reranker: Reranker | None = None,
+        rerank_top: int = 20,
+        rerank_mode: str = "replace",
+        rerank_alpha: float = 0.5,
+        rerank_pool: str = "final",
+        rerank_time: bool = False,
+        inferred_factor: float = 1.0,
     ) -> None:
         """`top_n`: số ứng viên mỗi nhánh lấy từ store; `top_k`: số chunk trả về sau re-rank.
 
@@ -71,6 +86,11 @@ class TemporalRetriever(Retriever):
         `page_expand` (decisions/07 đề xuất 7; chỉ dùng khi `neighbor_window` = 0): `none` (tắt) | `time` (lấy `page_top` trang đầu của Top-K, mỗi trang
         thêm tối đa `page_per` chunk cùng trang còn hợp lệ tại `t_req` (point) hoặc giao `[t_req, t_end]` (range), gần chunk của Top-K nhất trước)
         | `page` (như `time` nhưng chỉ qua hard filter, không đòi hợp lệ theo thời gian: đối chứng).
+        `reranker` (decisions/07 đề xuất 4; None = tắt): cross-encoder chấm lại `rerank_top` ứng viên đầu (chọn theo `rerank_pool`: `final` = hạng cuối
+        hiện tại, `semantic` = hạng Semantic) rồi tính lại Final; `rerank_mode`: `replace` (Semantic mới = min-max điểm CE) | `mix`
+        (`rerank_alpha·Semantic cũ + (1-rerank_alpha)·min-max CE`); `rerank_time`: ghép khoảng hiệu lực của chunk vào văn bản đưa cho CE.
+        Ứng viên ngoài nhóm rerank giữ thứ tự cũ, xếp sau nhóm rerank.
+        `inferred_factor` (đề xuất 11): hệ số (0, 1] nhân điểm thời gian của chunk có mốc suy từ chunk liền kề; 1.0 = như mốc thật.
         """
         if top_k < 1 or top_n < top_k:
             raise ValueError(f"Cần 1 <= top_k <= top_n, nhận top_k={top_k}, top_n={top_n}")
@@ -94,6 +114,14 @@ class TemporalRetriever(Retriever):
         if page_top < 1 or page_per < 1:
             raise ValueError(f"Cần page_top >= 1 và page_per >= 1, nhận {page_top}, {page_per}")
         self._page_expand, self._page_top, self._page_per = page_expand, page_top, page_per
+        if rerank_mode not in RERANK_MODES or rerank_pool not in RERANK_POOLS:
+            raise ValueError(f"rerank_mode {RERANK_MODES}, rerank_pool {RERANK_POOLS}; nhận {rerank_mode!r}, {rerank_pool!r}")
+        if rerank_top < 1 or not 0 <= rerank_alpha <= 1:
+            raise ValueError(f"Cần rerank_top >= 1 và 0 <= rerank_alpha <= 1, nhận {rerank_top}, {rerank_alpha}")
+        if not 0 < inferred_factor <= 1:
+            raise ValueError(f"inferred_factor phải thuộc (0, 1], nhận {inferred_factor}")
+        self._reranker, self._rerank_top, self._rerank_mode, self._rerank_alpha = reranker, rerank_top, rerank_mode, rerank_alpha
+        self._rerank_pool, self._rerank_time, self._inferred_factor = rerank_pool, rerank_time, inferred_factor
 
     @classmethod
     def from_config(cls, cfg: Config, store: VectorStore) -> TemporalRetriever:
@@ -119,6 +147,13 @@ class TemporalRetriever(Retriever):
             page_expand=r.get("page_expand", "none"),
             page_top=r.get("page_top", 3),
             page_per=r.get("page_per", 2),
+            reranker=CrossEncoderReranker(r.get("rerank"), cache_dir=r.get("rerank_cache_dir"), score_cache=r.get("rerank_score_cache")) if r.get("rerank") else None,
+            rerank_top=r.get("rerank_top", 20),
+            rerank_mode=r.get("rerank_mode", "replace"),
+            rerank_alpha=r.get("rerank_alpha", 0.5),
+            rerank_pool=r.get("rerank_pool", "final"),
+            rerank_time=r.get("rerank_time", False),
+            inferred_factor=r.get("inferred_factor", 1.0),
         )
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
@@ -133,7 +168,9 @@ class TemporalRetriever(Retriever):
 
         scored = [self._score(chunk, sem, query) for chunk, sem in fused]
         # Hòa điểm: ưu tiên chunk đúng thời điểm hơn, rồi chunk_id để kết quả tái lập được
-        scored.sort(key=lambda s: (-s.final_score, -s.temporal_score, s.chunk.chunk_id))
+        scored.sort(key=_rank_key)
+        if self._reranker is not None:
+            scored = self._rerank(query, scored)
         top = scored[: self._top_k]
         trace = RetrievalTrace(
             dense_ids=[h.chunk.chunk_id for h in hits.dense], sparse_ids=[h.chunk.chunk_id for h in hits.sparse],
@@ -150,6 +187,17 @@ class TemporalRetriever(Retriever):
                 "  %s sem=%.3f temp=%.3f final=%.3f", s.chunk.chunk_id, s.semantic_score, s.temporal_score, s.final_score
             )
         return RetrievalResult(mechanism=self.mechanism, chunks=top, neighbors=self._neighbors(top, query), trace=trace)
+
+    def _rerank(self, query: ProfiledQuery, scored: list[ScoredChunk]) -> list[ScoredChunk]:
+        """Cross-encoder chấm lại nhóm đầu của `scored` (đã xếp theo Final), tính lại Final, xếp lại nhóm đó; phần còn lại giữ nguyên phía sau."""
+        pool = scored if self._rerank_pool == "final" else sorted(scored, key=lambda s: (-s.semantic_score, s.chunk.chunk_id))
+        head, head_ids = pool[: self._rerank_top], {s.chunk.chunk_id for s in pool[: self._rerank_top]}
+        ce = self._reranker.score(query.semantic_query, [rerank_text(s.chunk, with_time=self._rerank_time) for s in head])
+        sem = mix_scores([s.semantic_score for s in head], ce, self._rerank_mode, self._rerank_alpha)
+        redone = sorted(
+            (s.model_copy(update={"semantic_score": v, "final_score": final_score(v, s.temporal_score, self._w1, self._w2, s.domain_score, self._w3)})
+             for s, v in zip(head, sem, strict=True)), key=_rank_key)
+        return redone + [s for s in scored if s.chunk.chunk_id not in head_ids]
 
     def _neighbors(self, top: list[ScoredChunk], query: ProfiledQuery) -> list[Chunk]:
         """Chunk liền kề của Top-K, vẫn qua hard filter (không tương lai, không tin giả) nhưng không lọc facet domain."""
@@ -179,10 +227,10 @@ class TemporalRetriever(Retriever):
         if self._time_mode == "range":
             temporal = temporal_score_range(chunk, query.t_req, query.t_end or query.t_req, self._lambda, end_mode=self._end_mode,
                                             open_decay=self._open_decay, t_unknown=self._t_unknown, decay_from=self._decay_from,
-                                            overlap=self._overlap)
+                                            overlap=self._overlap, inferred_factor=self._inferred_factor)
         else:
             temporal = temporal_score(chunk, query.t_req, self._lambda, end_mode=self._end_mode, open_decay=self._open_decay,
-                                      t_unknown=self._t_unknown, decay_from=self._decay_from)
+                                      t_unknown=self._t_unknown, decay_from=self._decay_from, inferred_factor=self._inferred_factor)
         domain = domain_score(chunk, query.domains) if self._w3 else 0.0
         return ScoredChunk(
             chunk=chunk,
@@ -191,6 +239,11 @@ class TemporalRetriever(Retriever):
             domain_score=domain,
             final_score=final_score(semantic, temporal, self._w1, self._w2, domain, self._w3),
         )
+
+
+def _rank_key(s: ScoredChunk) -> tuple[float, float, str]:
+    """Hòa điểm: ưu tiên chunk đúng thời điểm hơn, rồi chunk_id để kết quả tái lập được."""
+    return (-s.final_score, -s.temporal_score, s.chunk.chunk_id)
 
 
 def _covers(chunk: Chunk, t_req: datetime) -> bool:

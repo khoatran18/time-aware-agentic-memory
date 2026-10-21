@@ -114,6 +114,15 @@ retrieval:
   page_expand: "none"    # mở rộng cùng trang (decisions/07 đề xuất 7): none | time (còn hợp lệ theo thời gian) | page (đối chứng, không lọc thời gian)
   page_top: 3            # số trang (theo Top-K) được mở rộng
   page_per: 2            # số chunk thêm tối đa mỗi trang
+  rerank: null           # cross-encoder rerank (decisions/07 đề xuất 4): tên model fastembed, vd Xenova/ms-marco-MiniLM-L-6-v2; null = tắt
+  rerank_cache_dir: "data/model/reranker/fastembed"
+  rerank_score_cache: "data/model/reranker/score_cache.sqlite"   # lưu điểm cross-encoder theo (model, câu hỏi, văn bản); chỉ thêm, không xóa
+  rerank_top: 20         # số ứng viên đầu được chấm lại
+  rerank_mode: "replace" # replace (Semantic mới = min-max điểm CE) | mix (alpha·Semantic cũ + (1-alpha)·CE)
+  rerank_alpha: 0.5      # chỉ với mix
+  rerank_pool: "final"   # nhóm được chấm lại: final (top theo Final) | semantic (top theo Semantic)
+  rerank_time: false     # ghép khoảng hiệu lực của chunk vào văn bản đưa cho cross-encoder
+  inferred_factor: 1.0   # hệ số (0,1] nhân điểm thời gian của chunk có mốc suy từ chunk liền kề (đề xuất 11); 1.0 = như mốc thật
 
 # ================================================================
 # Evaluation

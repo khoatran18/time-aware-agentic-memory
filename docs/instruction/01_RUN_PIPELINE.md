@@ -83,6 +83,9 @@ Thêm tùy chọn để chạy các cấu hình khác:
 | `--method dense\|bm25\|hybrid` | Baseline plain RAG: không lọc thời gian, không điểm thời gian, không loại tin giả (`leakage_rate` đo mức rò rỉ); mặc định `temporal` = Cơ chế 1 |
 | `--t-unknown 0.5` | Bật nhánh chunk không mốc với điểm thời gian cố định; kho phải nạp bằng `ingest.py --keep-undated` |
 | `--neighbors 1` | Lấy thêm 1 chunk liền kề mỗi phía của Top-K làm ngữ cảnh; `metrics.json` báo `ctx_*`, `rescued_by_neighbors`, `ctx_size_mean` |
+| `--top-k 10` | Số chunk trả về (cả Plain RAG); dùng để so cùng kích thước ngữ cảnh |
+| `--rerank Xenova/ms-marco-MiniLM-L-12-v2` | Bật cross-encoder rerank (cả `--method dense\|hybrid`); kèm `--rerank-top 20`, `--rerank-mode replace\|mix`, `--rerank-alpha 0.3`, `--rerank-pool final\|semantic`, `--rerank-time`; model lưu ở `data/model/reranker/fastembed`; xem `eval/05` mục 6.18 |
+| `--inferred-factor 0.8` | Hệ số (0,1] cho điểm thời gian của chunk có mốc suy từ chunk liền kề (collection tạo bằng `scripts/infer_neighbor_time.py`) |
 | `--level easy` | Dùng câu hỏi mức easy |
 
 `metrics.json` còn có số đo từng bước (`stage_*`, `cand_recall_*`, `hit@k_pre`, `mrr_pre`/`mrr_post`, `temporal_helped/hurt/same`, `gold_blocked_by_filter`) và, ở chế độ e2e, chất lượng Profiler (`t_req_abs_error_years_mean`, `t_req_in_label_range`, `domain_in_gold_chunk`). `metrics.json` còn có `recall@k`, `n_multi_gold`, `multi_all_hit@k`, `multi_recall@k` cho câu cần từ 2 chunk trở lên (bộ local có 1/40 câu như vậy). `--extractions` giúp Hit@k chỉ tính trên các câu mà chunk đáp án còn trong kho. Đầu ra: `output/<timestamp>/metrics.json` và `predictions.jsonl` (chunk nào được trả về cho từng câu). Hit@k, MRR là gì: xem [`../eval/02_RETRIEVAL_LOCAL.md`](../eval/02_RETRIEVAL_LOCAL.md).

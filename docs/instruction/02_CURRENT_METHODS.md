@@ -26,6 +26,8 @@ Bảng tra nhanh, dùng khi cần trả lời "đồ án đã có gì, chưa có
 | Cộng điểm `domain` (`W3·Domain_Match`) | **Đã code, mặc định tắt** (`retrieval.w3 = 0`; `evaluate.py --facets boost --w3 0.1`) | [`decisions/01`](../decisions/01_DOMAIN_AS_SOFT_BOOST.md) |
 | Cách chấm `end` A / B / C | **Đã code, mặc định C** (`retrieval.end_mode`: `open` = A, `decay` = B, `stored` = C; cần `end_status` trong kho) | [`decisions/02`](../decisions/02_END_TIME_ONGOING.md) |
 | Mở rộng chunk liền kề (trước, sau) | **Đã code, mặc định tắt** (`retrieval.neighbor_window`; `evaluate.py --neighbors 1`). Kết quả ở `RetrievalResult.neighbors`, không xếp hạng, vẫn qua hard filter | `eval/01` mục 10 |
+| Cross-encoder rerank (top-20 sau `Final`, `replace` hoặc `mix`) | **Đã code, mặc định tắt** (`retrieval.rerank`, `src/tam/retrieval/temporal/rerank.py`; `evaluate.py --rerank`). Cải thiện lớn nhất đã đo, mục 6.18 | [`decisions/07`](../decisions/07_RANKING_AND_TIME_RANGE_PROPOSALS.md) đề xuất 4 |
+| Mốc thời gian suy từ chunk liền kề | **Đã code, không bật** (`scripts/infer_neighbor_time.py`, `retrieval.inferred_factor`); kết quả trung tính | `decisions/07` đề xuất 11 |
 | Baseline plain RAG (`dense`, `bm25`, `hybrid`) | **Đã code** (`src/tam/retrieval/baseline.py`, `evaluate.py --method`) | `eval/03` đợt 1 |
 | Số đo từng bước (ứng viên, lọc cứng, trước/sau điểm thời gian, Profiler) | **Đã code** (`src/tam/evaluation/funnel.py`, trong `metrics.json`) | `eval/03` đợt 2 |
 | Nhánh chunk không mốc, `T_unknown` | **Đã code, mặc định tắt** (`ingest.py --keep-undated`, `retrieval.t_unknown`) | [`decisions/04`](../decisions/04_UNDATED_CHUNKS.md) |

@@ -40,7 +40,7 @@ def is_exact_match(chunk: Chunk, t_req: datetime) -> bool:
     return chunk.start_time is not None and (chunk.end_time is None or chunk.end_time >= t_req)
 
 
-def temporal_score(
+def _temporal_score(
     chunk: Chunk, t_req: datetime, decay_lambda: float, *, end_mode: EndMode = "stored", open_decay: float = 0.1,
     t_unknown: float | None = None, decay_from: DecayFrom = "start",
 ) -> float:
@@ -77,7 +77,7 @@ def temporal_score(
     return math.exp(-decay_lambda * delta_years(t_req, anchor))
 
 
-def temporal_score_range(
+def _temporal_score_range(
     chunk: Chunk, qs: datetime, qe: datetime, decay_lambda: float, *, end_mode: EndMode = "stored", open_decay: float = 0.1,
     t_unknown: float | None = None, decay_from: DecayFrom = "start", overlap: Overlap = "binary",
 ) -> float:
@@ -124,6 +124,23 @@ def temporal_score_range(
         return 1.0
     anchor = chunk.end_time if decay_from == "end" else chunk.start_time
     return math.exp(-decay_lambda * years_to_qs(anchor))
+
+
+def temporal_score(chunk: Chunk, t_req: datetime, decay_lambda: float, *, inferred_factor: float = 1.0, **kwargs) -> float:
+    """Điểm thời gian với một điểm `t_req` (xem `_temporal_score`); chunk có mốc SUY LUẬN (`time_inferred`, decisions/07 đề xuất 11) nhân thêm
+    `inferred_factor` (<= 1 để mốc suy ra điểm thấp hơn mốc thật; mặc định 1.0 = không đổi). Chunk không mốc không bị nhân."""
+    return _scaled(chunk, _temporal_score(chunk, t_req, decay_lambda, **kwargs), inferred_factor)
+
+
+def temporal_score_range(chunk: Chunk, qs: datetime, qe: datetime, decay_lambda: float, *, inferred_factor: float = 1.0, **kwargs) -> float:
+    """Điểm thời gian với khoảng hỏi `[qs, qe]` (xem `_temporal_score_range`), cùng quy tắc `inferred_factor` như `temporal_score`."""
+    return _scaled(chunk, _temporal_score_range(chunk, qs, qe, decay_lambda, **kwargs), inferred_factor)
+
+
+def _scaled(chunk: Chunk, score: float, inferred_factor: float) -> float:
+    if not 0 < inferred_factor <= 1:
+        raise ValueError(f"inferred_factor phải thuộc (0, 1], nhận {inferred_factor}")
+    return score * inferred_factor if chunk.time_inferred else score
 
 
 def domain_score(chunk: Chunk, query_domains: list[str]) -> float:
