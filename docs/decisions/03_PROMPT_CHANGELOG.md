@@ -11,7 +11,7 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 | Prompt | Phiên bản | Ghi chú |
 |---|---|---|
 | `ingestion_time` | `v1` | Bản mặc định, dùng ở mọi kết quả đến 2026-10-20 |
-| `ingestion_time` | `v3` | **Bản thảo, mới thử 3 trang** (2026-10-20): v2 + phân biệt "các giai đoạn riêng" với "một nhiệm kỳ đang diễn ra" khi chunk có nhiều mốc. Chọn bằng `--prompt-version v3` |
+| `ingestion_time` | `v3` | **Đã chạy cả bộ thật** (2026-10-21; kết quả `eval/05` mục 6.13): v2 + phân biệt "các giai đoạn riêng" với "một nhiệm kỳ đang diễn ra" khi chunk có nhiều mốc. Chọn bằng `--prompt-version v3` |
 | `ingestion_time` | `v2` | **Thử nghiệm** (2026-10-20): sự việc một lần khác sự việc mở trạng thái; chunk nhiều mốc lấy mốc sớm nhất và muộn nhất; chunk mở đầu về chủ thể. Chọn bằng `scripts/ingest.py --prompt-version v2` (mặc định `v1`); nạp vào collection riêng `tam_chunks_dev_real_v2` |
 | `time_extractor` (Profiler) | `v1` | Trả một điểm `t_req` (`Profiler`, schema `Extraction`); dùng ở mọi kết quả đến 2026-10-20 |
 | `time_extractor` (Profiler) | `v2` | Trả khoảng `t_start`/`t_end` ở độ mịn câu hỏi + `bound` (exact/after/before/none) (`RangeProfiler`, schema `RangeExtraction`); decisions/07 đề xuất 1. Khác schema nên là lớp riêng, `v1` không đổi |
@@ -82,3 +82,5 @@ Chưa đổi prompt. Phát hiện 2026-10-19: với `basic-llm`, các ví dụ d
 - Thế kỷ viết bằng chữ ("the 19th century", "early 20th century") có quy tắc riêng, nêu rõ quy ước chọn (ví dụ thế kỷ 20 = 1900–1999).
 - Khi một cụm có thể hiểu theo hai cách, chọn cách thứ tự gần với **chữ được viết** nhất.
 Sau khi viết, kiểm trên hai câu lỗi ở trên và một mẫu câu có thập niên khác; không sửa `v1`/`v2`.
+
+**Kết quả v3 trên cả bộ thật (2026-10-21):** `known` 3974 → 4596, `unknown` 1238 → 924 (ngược với 3 trang thử). Truy xuất ghép cặp so với v1: `ans_valid@5` +0.063 ± 0.042, `hit@5` +0.033 ± 0.036, `mrr` +0.016 ± 0.029. v2 (bản b) chưa được nạp cả bộ (ngừng sau 5 trang vì quá chậm), nên chưa có so sánh v2 và v3 đầy đủ.

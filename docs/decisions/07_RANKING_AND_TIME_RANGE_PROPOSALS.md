@@ -1,6 +1,6 @@
 # Quyết định 07: đề xuất nâng thứ hạng sau khi chạy bộ thật (khoảng thời gian của câu hỏi, cách phạt `end`, reranker)
 
-**Ngày:** 2026-10-20. **Trạng thái:** **đề xuất, chưa code, chưa thử.** Ghi lại để chọn việc làm tiếp; mọi con số "kỳ vọng" dưới đây là suy luận, chưa đo.
+**Ngày:** 2026-10-20 (cập nhật 2026-10-21). **Trạng thái:** đề xuất; trạng thái code, test và đo của từng đề xuất ở hai bảng bên dưới. Các con số "kỳ vọng" trong phần mô tả đề xuất là suy luận, trừ chỗ có ghi "đã đo".
 
 ## Trạng thái triển khai (cập nhật 2026-10-20)
 
@@ -14,12 +14,36 @@
 | 6 | Quét `λ`, `W1/W2` trên D/train | **Chưa code** | Chưa | |
 | 7 | Gom chunk cùng trang theo thời gian | **Đã code** dạng tùy chọn (`page_expand` none/time/page, `page_top`, `page_per`; `expansion.py`, `retriever.py`, cờ `--page-expand/--page-top/--page-per`, config dev/prod, chỉ số `ctx_size_p90/max`; 3 test) | **Đã đo** lưới 34 kịch bản mỗi bộ (`eval/05` mục 6.11): lọc thời gian **không tốt hơn** chunk liền kề; kém cả "cùng trang không lọc" (`ctx_hit` 0.719 so với 0.774 ở 3×5) | Kết quả âm; không đổi mặc định. Cần commit |
 | 8 | Một chunk nhiều khoảng | **Chưa code** | Chưa | Thêm ở bản này, gắn với `decisions/06` đề xuất 3 |
-| 9 | Ingestion v3: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Chưa code** | Chưa | Từ phân tích câu sai (`eval/05` 6.12): chunk đúng hết hạn 51/123 câu; cần LLM + nạp lại kho; gắn với `time_extractor_v3` (hoãn vì quota) |
+| 9 | Ingestion: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Đã code**: `ingestion_time_v2.md`, `ingestion_time_v3.md`, `TimeExtractor(prompt_version=...)`, cờ `ingest.py --prompt-version` (mặc định `v1`; 1 test). Script chạy song song `local/warm_ingest_cache.py` nằm ngoài repo | **Đã đo** trên cả bộ thật (kho `tam_chunks_dev_real_v2`, `eval/05` mục 6.13): `ans_valid@5` +0.063 ± 0.042, `hit@5` +0.033 ± 0.036, `mrr` +0.016 ± 0.029 (chưa vượt sai số); 34 câu được thêm, 21 mất | Sai nhỏ: khoảng bị kéo dài và chunk mở đầu người còn sống thành `unknown`. Cần tập valid/test; chưa đổi mặc định |
 | 10 | `min_validity`: coi chunk còn hợp lệ ít nhất `start + L` năm (làm mềm `end`) | **Chưa code** | Chưa | Không cần LLM; dự định quét L ∈ {1, 5, 10, ∞} trên tập local/valid; rủi ro dương tính giả |
 | 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật |
 | 12 | Không mở rộng lọc cứng cho `start` > `t_req` | Không làm | — | Vi phạm bất biến không rò rỉ tương lai; chỉ cứu thêm ~14 câu lệch ≤ 2 năm. Ghi lại để khỏi đề xuất lại |
 
 Đã code ngoài các đề xuất: `scripts/funnel_real.py` (phễu), `scripts/plot_results.py` (thêm `compare_*.svg`, `funnel.svg`), provider Google, `invoke_structured` chịu lỗi giới hạn tốc độ của Google.
+
+### Tóm tắt trạng thái (cập nhật 2026-10-21): Code / Test / Đã đo
+
+Bảng chi tiết ở trên; bảng này chỉ để nhìn nhanh. "Test" là test tự động (`pytest`); prompt thì không có test hành vi LLM, chỉ có test nạp file và lần chạy thật. "Đã đo" nghĩa là đã chạy bộ thật (`eval/05`) với kết quả ghi lại.
+
+| # | Đề xuất | Code | Test | Đã đo | Kết quả một dòng |
+|---|---|---|---|---|---|
+| 1 | Khoảng `[qs, qe]` | Có (Profiler + retriever tùy chọn) | Có (19 test) | Có | `range` so với `point` +0.002 ± 0.014 |
+| 2 | Dung sai cố định của lọc | Không | Không | Không | Dự định bỏ nếu có 1; xem ghi chú dưới bảng |
+| 3 | Phạt từ `end` (`decay_from`) | Có | Có (3) | Có | +0.006 ± 0.008 |
+| 4 | Cross-encoder rerank | **Chưa** | **Chưa** | **Chưa** | Việc tiếp theo; `fastembed` có `TextCrossEncoder` |
+| 5 | Chỉ số `ans_hit`, `ans_valid_hit` | Có | Có (6) | Có | `ans_valid@5` làm chỉ số chẩn đoán |
+| 6 | Quét `λ`, `W1/W2` | Chưa | Chưa | Chưa | Cần tập train/valid |
+| 7 | Gom chunk cùng trang theo thời gian | Có (`page_expand`) | Có (3) | Có (mục 6.11) | **Kết quả âm**: lọc thời gian kém "cùng trang không lọc" và kém chunk liền kề |
+| 8 | Một chunk nhiều khoảng | Chưa | Chưa | Chưa | Nạp lại kho; làm sau cùng |
+| 9 | Ingestion: sự kiện khác trạng thái (prompt v2, v3) | Có (`ingestion_time_v2/v3.md`, `--prompt-version`) | Có (1, chỉ nạp file) | Có (mục 6.13) | `ans_valid@5` +0.063 ± 0.042; `hit@5` +0.033 ± 0.036 và `mrr` +0.016 ± 0.029 chưa vượt sai số |
+| 10 | `min_validity`: hiệu lực tối thiểu `start + L` | **Chưa** | **Chưa** | **Chưa** | Không cần LLM; nhắm nhóm chunk "hết hạn" (30 câu sai ở kho v3) |
+| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất | **Chưa** | **Chưa** | **Chưa** | 4 câu sai còn lại ở v3 (v1: 15); đánh dấu là mốc suy ra |
+| 12 | Không nới lọc cứng `start` > `t_req` | Không làm | — | — | Quyết định không làm (vi phạm bất biến không rò rỉ tương lai) |
+| 13 | Chặn `end` bị kéo dài quá mức (mốc tử trận, cuối trang) và/hoặc phân biệt thứ hạng giữa các chunk cùng điểm 1.0 | **Chưa** | **Chưa** | **Chưa** | Từ v3: 8 câu mất vì khoảng quá dài (Erich Topp `end` 2005, No. 73 Sqn `end` 1969). Hướng: luật trong prompt cho nguồn của `end`, và/hoặc ưu tiên chunk có `start` gần `t_req` khi hòa điểm 1.0 |
+| 14 | Chunk mở đầu về người còn sống bị `unknown` từ năm sinh | **Chưa** | **Chưa** | **Chưa** | Từ v3: 6 câu mất (Helen Clark `1950` thay vì `1950–2017`). Hướng: quy tắc riêng cho chunk mở đầu (giữ chính sách `ongoing`), hoặc không giảm điểm `unknown` của chunk mở đầu |
+
+Ghi chú về đề xuất 2 (nới `start` theo độ mịn; chưa đo riêng, `range` ở đề xuất 1 là cách làm theo độ mịn của câu hỏi): phân tích 37 câu bị lọc cứng ở kho v3: `start` − `t_req` trung vị 4.0 năm; 10 câu trong 1 năm, 13 câu trong 2 năm. Ít nhất 3 câu (Luftflotte, Janet Frame, Nana Okada) là lệch độ mịn thật sự (câu hỏi cả năm hoặc tháng, `t_req` là ngày đầu kỳ, chunk bắt đầu giữa kỳ); các câu còn lại là nhãn lệch năm.
+
 
 ## Bối cảnh
 

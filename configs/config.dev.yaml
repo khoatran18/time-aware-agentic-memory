@@ -70,7 +70,7 @@ embedding:
       bge_small_en:                     # 384 chiều, tiếng Anh, nhẹ
         provider: "fastembed"
         model_id: "BAAI/bge-small-en-v1.5"
-        # cache_dir: "data/models"      # mặc định fastembed dùng thư mục tạm của hệ thống
+        cache_dir: "data/model/embedding/fastembed/BAAI/bge-small-en-v1.5"   # lưu model tại chỗ: <nguồn>/<model_id> (data/ nằm trong .gitignore); bỏ dòng này thì fastembed dùng thư mục tạm, hay bị dọn và phải tải lại
       bge_base_en:                      # 768 chiều, tốt hơn nhưng chậm hơn
         provider: "fastembed"
         model_id: "BAAI/bge-base-en-v1.5"
@@ -78,6 +78,7 @@ embedding:
       bm25:
         provider: "fastembed"
         model_id: "Qdrant/bm25"
+        cache_dir: "data/model/embedding/fastembed/Qdrant/bm25"
   # chọn profile đang dùng (tên nằm trong profiles.dense / profiles.sparse).
   # Đổi dense -> số chiều đổi -> phải tạo lại collection
   dense: "bge_small_en"

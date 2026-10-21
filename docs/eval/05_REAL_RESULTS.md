@@ -388,6 +388,50 @@ Kết luận: **lọc theo thời gian không tốt hơn** chunk liền kề the
 - Đọc tay 12 mẫu: (1) sự kiện bị gán như trạng thái đã kết thúc ("Sam Selvon chuyển tới London năm 1950" gán `start=end=1950`; hỏi tháng 1/1975 thì đáp án vẫn London); (2) chunk nhắc mốc đời sau ("Nik Stauskas học trung học", chunk nhắc mùa 2012, hỏi 2008); (3) đoạn không có mốc thật; (4) nhãn dữ liệu lệch (vd "current director" gán 2014). Từ đó sinh đề xuất 9–12 ở `decisions/07`.
 - Trần ước lượng nếu sửa hoàn hảo nhãn sự kiện/trạng thái và chunk không mốc: `hit@5` khoảng 0.85 (suy luận từ bảng, chưa đo).
 
+### 6.13 Kho nạp lại bằng prompt ingestion v3 (decisions/07 đề xuất 9)
+
+Nạp lại cả bộ thật (204 trang, 6880 chunk, `google_35`, 330 lô) bằng `ingestion_time_v3.md` vào collection riêng `tam_chunks_dev_real_v2` (6752 điểm; kho v1 6737). Extractions: `output/20261021_174115/extractions.jsonl`. Cùng Profiler v2 (point), dense, `t_unknown` 0.1; lưới 14 cấu hình `end_mode` × `decay_from` (`local/run_v3_eval.py`, không gọi LLM). Prompt v1, v2, v3 và ba lần thử nhỏ: `decisions/03`.
+
+**Nhãn toàn bộ 6880 chunk (v1 → v3):** `known` 3974 → 4596, `unknown` 1238 → 924, `ongoing` 167 → 172, không mốc 1501 → 1188, `invalid_time` 41 → 29. Giống hệt v1 ở 3735 chunk (54%).
+
+**Truy xuất, cấu hình nền (`unknown_decay` 0.05, `decay_from end`), v1 → v3, ghép cặp 399 câu:**
+
+| Chỉ số | v1 | v3 | Chênh lệch ghép cặp |
+|---|---|---|---|
+| `hit@1` | 0.326 | 0.338 | |
+| `hit@5` | 0.692 | 0.723 | +0.033 ± 0.036 (cứu 34, hỏng 21) |
+| `mrr` | 0.463 | 0.478 | +0.016 ± 0.029 (tăng 69, giảm 71) |
+| `ans_valid@5` | 0.632 | 0.693 | **+0.063 ± 0.042** |
+| chunk đúng bị lọc cứng | 78 | 57 | |
+
+Cấu hình `stored` (mặc định) cũng tăng: 0.450 → 0.474 `mrr`. Tốt nhất trong 14 cấu hình trên kho v3 vẫn là `unknown_decay` 0.05 với `decay_from end` (0.478). **Chỉ `ans_valid@5` vượt sai số**; `hit@5` và `mrr` chưa. Prompt v3 được sửa sau khi đã đọc 123 câu sai của bộ này, nên các con số là cận trên; cần tập valid/test.
+
+**34 câu được thêm / 21 mất ở `hit@5` (trạng thái nhãn chunk đúng tại `t_req`, v1 → v3):**
+
+| Nhóm | Số câu | Giải thích |
+|---|---|---|
+| Được thêm: không mốc → hợp lệ | 12 | Chunk v1 để trống nay có khoảng bao `t_req` (Leahy 1917–1921; New Orleans Baby Cakes 1993–2019) |
+| Được thêm: hết hạn → hợp lệ | 7 | Sửa đúng lỗi nhắm tới: trạng thái không bị chốt ở năm bắt đầu (Sam Selvon `1950–1994`, Allsång `1935–2020`) |
+| Được thêm: tương lai → hợp lệ | 5 | `start` lùi về sớm hơn (Wheel of Fortune 1975, Goryachkina 1998) |
+| Được thêm: hết hạn → hết hạn | 7 | Đổi `known` thành `unknown` nên điểm giảm chậm từ `start` thay vì giảm nhanh từ `end` (Zhansaya) |
+| Mất: hợp lệ → hợp lệ | 5 | Khoảng bị kéo quá dài (Erich Topp `end` 2005, mốc tử trận), nhiều chunk cùng được 1.0 nên mất khả năng phân biệt |
+| Mất: hết hạn → hợp lệ | 3 | Cùng nguyên nhân (No. 73 Squadron `end` 1969 cho nhiều chunk) |
+| Mất: hợp lệ → hết hạn / tương lai / không mốc | 6 | Chunk mở đầu về người còn sống bị gán `unknown` từ năm sinh (Helen Clark `1950` thay vì `1950–2017`), điểm tụt dần theo `exp(−0.05·Δ)`: đúng điểm yếu đã dự đoán |
+| Mất: hết hạn → hết hạn | 5 | `unknown` thành `known` nên điểm giảm nhanh từ `end` hơn (Pierre Gasly, Jimmy Lai) |
+
+Nhận xét: v3 sửa được loại lỗi nhắm tới (trạng thái bị chốt sớm, chunk không mốc) nhưng cái giá là (a) khoảng quá dài làm điểm thời gian mất tính phân biệt, (b) chunk mở đầu người còn sống bị `unknown`.
+
+**Câu sai còn lại ở kho v3: 111/400 (`hit@5` 0.722);** chi tiết `dataset/eval/failures_real_v3.csv`; 90 câu sai cả ở v1, 21 câu mới sai.
+
+| Nguyên nhân | Số câu | % |
+|---|---|---|
+| Bị lọc cứng: `start` sau `t_req` | 37 | 33% |
+| Xếp sau top-5; chunk đúng đã hết hạn | 30 | 27% |
+| Xếp sau top-5; chunk đúng hợp lệ về thời gian (lỗi ngữ nghĩa) | 21 | 19% |
+| Điểm thời gian đẩy chunk đúng ra khỏi top-5 | 16 | 14% |
+| Chunk đúng không mốc xếp sau top-5 | 4 | 4% |
+| Không vào ứng viên | 3 | 3% |
+
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
 - **Bộ vẫn đủ 400 câu**, trong đó 399 câu có chunk đáp án trong kho (1 câu có chunk đáp án bị bỏ lúc nạp kho). Không câu nào bị loại khỏi mẫu đánh giá vì lọc nhầm; 37 câu chỉ là các câu hệ **không thể trả đúng** khi còn dùng bộ lọc cứng.
