@@ -562,6 +562,43 @@ Khoảng cách thu hẹp khi ngữ cảnh lớn và đảo chiều từ khoảng
 
 **Giới hạn:** (a) số trên bộ thật là cận trên; (b) các lượt đối chứng Plain dùng đúng cấu hình cross-encoder của Cơ chế 1 (có thể không tối ưu cho Plain); (c) `ctx_hit` bỏ qua việc Plain chứa nhiều chunk sai thời điểm, cần EM/F1 đầu-cuối.
 
+### 6.19 Khảo sát cross-encoder: BM25, nhóm chấm lại lớn hơn, nhãn v1, thang chuẩn hóa (chẩn đoán)
+
+**Chỉ để chẩn đoán trên bộ thật 400 câu (đã dùng để chọn cấu hình), không dùng chọn cấu hình cuối.** 3 model (MiniLM-L6, MiniLM-L12, bge-v2-m3 int8) với cấu hình nền của khảo sát: `replace`, nhóm `final`, top-20, ghép khoảng thời gian vào văn bản (`local/run_remaining.py`, 30 lượt). Chênh lệch ghép cặp theo câu so với nền của chính model đó (`mrr` nền: L6 0.524, L12 0.529, bge-v2-m3 0.566):
+
+| Thay đổi | L6 Δ `mrr` | L12 Δ `mrr` | bge-v2-m3 Δ `mrr` | Kết luận |
+|---|---|---|---|---|
+| BM25 `sparse_weight` 0.25 / 0.5 / 1.0 | −0.003 / −0.010 / −0.006 | −0.001 / −0.005 / −0.005 | −0.005 / −0.009 / −0.003 | Không giúp, hơi hại; giữ dense |
+| Nhóm chấm lại top-30 / top-50 | −0.003 / −0.001 | 0.000 / 0.000 | −0.002 / −0.001 | Không giúp; top-20 đủ |
+| Nhãn ingestion v1 (thay v3) | **−0.038 ± 0.013** | **−0.031 ± 0.012** | **−0.031 ± 0.013** | Lợi ích của prompt v3 vẫn còn khi có cross-encoder (`ans_valid@5` −0.07) |
+| Chuẩn hóa `sigmoid` | −0.008 | −0.016 | −0.001 | Không hơn min-max |
+| Chuẩn hóa `zscore` | −0.005 | −0.011 | −0.009 | Không hơn min-max |
+| Chuẩn hóa `softmax` | −0.032 | −0.032 | −0.052 | Kém rõ (quá nhọn, `hit@5` −0.06 đến −0.07) |
+
+Các chênh lệch của BM25, top-30/50, `sigmoid`, `zscore` đều nằm trong khoảng sai số (±0.003 đến 0.008). Hai chênh lệch vượt sai số: nhãn v1 kém và `softmax` kém. Kết luận cho cấu hình cross-encoder: **dense (không BM25), nhóm `final` top-20, chuẩn hóa min-max** vẫn là lựa chọn đơn giản nhất. `leakage_rate` vẫn 0.
+
+**Quét `w2` và `end_mode` với bge-v2-m3 (dở dang, chẩn đoán).** Lưới 28 lượt bị dừng ở 12 lượt (`local/w2end_real.tsv`): `w2` ∈ {0, 0.15, 0.3} × `end_mode` ∈ {`unknown_decay` 0.05, `stored`, `unknown_decay` 0.1, `decay` 0.1}, `decay_from end`, cấu hình rerank tốt nhất (`replace`, `final`, top-20, ghép thời gian). `w2` quyết định cả bước chọn nhóm lẫn bước cuối (`w1` = 1 − `w2`):
+
+| `w2` | `mrr` (bốn `end_mode`) | `ans_valid@5` |
+|---|---|---|
+| 0 (không thời gian) | 0.499 (cả bốn bằng nhau vì không dùng `Temporal`) | 0.642 |
+| 0.15 | 0.544 đến 0.550 | 0.690 đến 0.695 |
+| 0.3 (hiện tại) | 0.556 đến 0.566 | 0.705 đến 0.715 |
+
+`mrr` tăng đều theo `w2` đến 0.3 và `end_mode` không phân biệt được trong sai số (`unknown_decay` 0.05 cao nhất 0.566, `stored`/`decay` 0.556). Chưa đo `w2` > 0.3 (0.5 chưa chạy) nên chưa biết đỉnh; giá trị cuối cần chọn trên valid, không chọn trên bộ này.
+
+**Bỏ `Temporal` ở bước xếp cuối (`--rerank-no-temporal`, chẩn đoán).** Sau khi cross-encoder chấm, nhóm top-20 xếp chỉ theo điểm cross-encoder (không cộng `Temporal` lần hai). 12 lượt (`local/run_notemporal.py`): 3 model × nhóm (`final`, `semantic`) × ghép thời gian vào văn bản (có, không), `replace`, top-20; so với cấu hình có `Temporal` lần hai (nền của khảo sát trên):
+
+| Model | Nền (có `Temporal`) `mrr` / `ans_valid@5` | Bỏ `Temporal`, nhóm `final` | Bỏ `Temporal`, nhóm `semantic` |
+|---|---|---|---|
+| MiniLM-L6 | 0.524 / 0.710 | 0.459 / 0.618 (Δ`mrr` −0.066 ± 0.016) | 0.455 / 0.610 (−0.069 ± 0.016) |
+| MiniLM-L12 | 0.529 / 0.708 | 0.467 / 0.625 (−0.062 ± 0.015) | 0.462 / 0.623 (−0.067 ± 0.015) |
+| bge-v2-m3 | 0.566 / 0.710 | 0.503 / 0.652 (−0.062 ± 0.014) | 0.503 / 0.655 (−0.063 ± 0.014) |
+
+- Bỏ `Temporal` ở bước cuối làm `mrr` giảm 0.06 đến 0.07 và `ans_valid@5` giảm 0.06 đến 0.09 ở cả ba model, vượt sai số xa (4 đến 5 lần). Cross-encoder đọc nội dung nên không thay được điểm thời gian.
+- Chọn nhóm `final` hay `semantic` gần như không khác nhau khi bỏ `Temporal` bước cuối (chênh 0.00 đến 0.005): thời gian ở bước chọn nhóm không đủ cứu khi bước cuối không còn thời gian. Ghép khoảng thời gian vào văn bản cũng không bù được (`hit@5` còn giảm thêm ở bge-v2-m3).
+- Kết luận: giữ `Temporal` ở bước xếp cuối (cấu hình hiện tại). Trùng hướng với lưới `w2` dở dang (bge-v2-m3, `w2` = 0 → `mrr` 0.499).
+
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
 - **Bộ vẫn đủ 400 câu**, trong đó 399 câu có chunk đáp án trong kho (1 câu có chunk đáp án bị bỏ lúc nạp kho). Không câu nào bị loại khỏi mẫu đánh giá vì lọc nhầm; 37 câu chỉ là các câu hệ **không thể trả đúng** khi còn dùng bộ lọc cứng.

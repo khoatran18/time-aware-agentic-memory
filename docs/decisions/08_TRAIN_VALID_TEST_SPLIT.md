@@ -1,6 +1,6 @@
 # Quyết định 08: tách tập train, valid, test cho bộ đánh giá
 
-**Ngày:** 2026-10-20. **Trạng thái:** **kế hoạch, chưa làm** (hoãn vì hạn mức API Gemini miễn phí chưa đủ để nạp kho và chạy Profiler cho hai tập mới). Chưa có code lấy mẫu.
+**Ngày:** 2026-10-20. **Trạng thái:** **đã tạo các bộ con (2026-10-21), chưa nạp kho và chưa chạy Profiler** (hoãn vì hạn mức API Gemini miễn phí chưa đủ). Code lấy mẫu: `src/tam/evaluation/splits.py`, `scripts/make_splits.py` (3 test).
 
 ## Bối cảnh
 
@@ -62,9 +62,35 @@ Sai số chuẩn của `mrr` khoảng 0.02 ở 400 câu. So ghép cặp hai cấ
 - Test sạch: 67 trang chưa nạp (khoảng 120 lô) cộng 441 request Profiler.
 - Hạn mức Gemini miễn phí: 500 request/ngày mỗi model và 15 request/phút. Có thể chia hai model, nhưng với thất bại và gọi lại thì cần 2–3 ngày. **Đây là lý do hoãn.**
 
+## Đã tạo (2026-10-21, chế độ `pooled`)
+
+`python scripts/make_splits.py` (seed 42, không gọi LLM, không nạp kho) ghi `dataset/eval/{tune,valid,test_clean}_subset.json` và CSV danh sách câu. **Chia lại theo quyết định của người dùng:** D/train và D/test cùng một phân phối (câu do người viết; xem số liệu so sánh trong lịch sử trao đổi: kiểu câu, độ dài, domain gần nhau, hơn nhau ở số relation), nên gộp lại làm một kho D rồi chia; chỉ loại các `idx` đã nằm trong `real`/`local`, **không loại trang**.
+
+| Tập | Câu | Trang | Chunk | Nguồn câu | Domain |
+|---|---:|---:|---:|---|---|
+| `test_clean` | 400 | 186 | ~5,680 | D/test 266, D/train 117, C 17 | 50 mỗi domain (military: 33 câu D + 17 câu C chọn theo độ khó tương xứng) |
+| `valid` | 400 | 167 | ~5,060 | D/train 302, D/test 98 | sports 93, business 81, career 70, person 61, politics 43, place 27, media_arts 25; không military |
+| `tune` | 400 | 140 | ~4,040 | D/train 237, D/test 30, C 133 | 50 mỗi domain (military và media_arts bù từ C) |
+
+- **`test_clean` phủ đủ 8 domain, cân bằng hoàn toàn (50 mỗi domain):** lấy D/test trước, thiếu thì bù D/train (media_arts và military không có trong D/test); military vẫn thiếu 17 câu D nên bù 17 câu C (`pick_similar`), chọn tham lam sao cho phân bố đặc trưng thay cho độ khó gần phân bố của 34 câu D military: relation, kiểu nêu thời gian, khoảng hay mốc, số chunk đáp án, cỡ trang, độ dài câu hỏi, vị trí chunk đáp án. Kết quả khớp tốt ở relation (P241 26/24%, P410 24/24%, P4791 50/53%), kiểu nêu thời gian (between 44/47%, in 38/35%, after 12/12%), cỡ trang, vị trí; **chưa khớp độ dài câu hỏi** (D có 38% câu trên 16 từ, C không có câu nào: câu mẫu ngắn hơn). Đây chỉ là đặc trưng bề ngoài, không phải thước đo độ khó thật; độ khó thật chỉ biết sau khi nạp kho và chạy truy xuất. Báo cáo của `test_clean` ghi nguồn C (17 câu, 4%) để loại ra khi cần kiểm tra. Chi tiết phân bố lưu trong `test_clean_subset.json`, khóa `bu_tu_C`.
+- **`valid` = 400 câu D lấy từ phần còn lại (chặn trên 400 bằng `--valid-size` để giữ chi phí Profiler), bám phân bố relation của test**; sau cả ba tập còn thừa 337 câu D (290 câu ở trang chưa đụng tập nào; business 112, sports 72, person 44, place 32, career 23, politics 22, other 26, media_arts 5, military 1), có thể thêm vào valid nếu cần: phủ 25 trong 32 relation của test (các relation chưa phủ vì quá ít câu: P4791 16, P175 13, P241 9, P410 8, P608 4, P195 2, P800 2 đã vào test hết), domain không cân bằng. Thứ tự ưu tiên khi chia: test, rồi valid, rồi tune.
+- Không trùng `idx` và không trùng `page_id` giữa ba tập (script kiểm tra bằng `assert`); cả ba được chung trang với `real`/`local`. Quy tắc cũ "loại trang của `real`/`local`" bỏ trong chế độ này.
+- Hai chế độ cũ vẫn dùng được: `--valid-mode match-test` (valid chỉ D/train, test sạch 446 câu D/test không cân bằng), `--valid-mode balanced` (tune và valid cân bằng, bù C).
+- Chi phí LLM nếu nạp hết (số lô tính đúng theo cách cắt lô 30 chunk mỗi lô, mỗi trang tối đa 100 đoạn; công thức tái hiện chính xác bộ `real`: 330 lô cho 6,880 chunk). Tái dùng các trang đã có trong kho `tam_chunks_dev_real_v2`: `tune` 185 lô (127 trang mới), `valid` 192 lô (136 trang mới), `test_clean` 111 lô (82 trang mới) = **488 lô**; Profiler 1 request mỗi câu: 400 + 400 + 400 = **1,200**. Tổng khoảng 1,690 request, 2 đến 3 ngày với hạn mức Gemini miễn phí (500 request mỗi ngày mỗi model, hai model song song). Nạp lại cả các trang đã có trong `real` thì 730 lô.
+- **Tiến độ nạp kho và Profiler (cuối ngày 2026-10-21, prompt v3, google_35, `--keep-undated`):**
+
+| Tập | Nạp kho | Profiler khoảng (google_31) |
+|---|---|---|
+| `valid` | **xong** `tam_chunks_dev_valid`: 4,884 điểm / 5,063 chunk; 21 chunk bị Gemini chặn `PROHIBITED_CONTENT` (1 trang, `Young Girl with a Flower Basket`), ảnh hưởng 1 câu | **dở**: 54/400 câu (file dở `output/20261021_230717/profiler.jsonl`), đã dừng tay |
+| `test_clean` | **xong** `tam_chunks_dev_test_clean`: 5,572 điểm / 5,682 chunk; **0 chunk bị chặn**, nên không phải thay câu nào từ `valid` | chưa |
+| `tune` | **chưa**: dừng ở khoảng 35/203 lô vì google_35 báo `429 RESOURCE_EXHAUSTED` (hết hạn mức ngày 500; reset khoảng 14:00 giờ VN ngày 2026-10-22) | chưa |
+
+  Quy tắc xử lý lô bị chặn nội dung: câu có mọi chunk đáp án nằm trong lô bị chặn thì bỏ khỏi tập; ở `test_clean` thay bằng câu D cùng domain từ `valid`, `valid` bù từ phần D còn thừa (337 câu); mỗi tập phải còn ít nhất 400 câu dùng được (hiện `valid` 399, `test_clean` 400).
+- Cách báo cáo vẫn như trước: kết luận chính bằng so sánh ghép cặp; số tuyệt đối báo micro và macro kèm bootstrap; military có n nhỏ (33) chỉ mô tả.
+
 ## Việc cần làm khi tiếp tục
 
-1. Viết bộ lấy mẫu (mở rộng `evaluation/subset.py`): trả hai bộ con `tune`, `valid` theo bảng trên, kiểm tra không trùng `idx` và `page_id`, ghi `dataset/eval/{tune,valid}_subset.json` và CSV danh sách câu.
+1. ~~Viết bộ lấy mẫu~~ **Xong** (xem mục trên).
 2. Nạp kho vào collection riêng (`tam_chunks_dev_tune`, `..._valid`), chạy `profile_eval.py --ranges` (prompt `v2` hoặc `v3` nếu đã có) cho từng tập.
 3. Quét tham số trên train; xác nhận trên valid bằng so sánh ghép cặp (chỉ nhận khi vượt khoảng 95%); khóa cấu hình, ghi vào `configs/`.
 4. Chạy test sạch **một lần**; báo cáo cùng cấu hình đã chọn từ local trước (không phải cấu hình đứng đầu bộ `real`).

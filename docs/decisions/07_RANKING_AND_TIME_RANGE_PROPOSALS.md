@@ -334,13 +334,13 @@ Quét `λ`, `W1/W2` trên mẫu `D/train` (loại 35 câu mượn). Kỳ vọng 
 
 Lưới cross-encoder đầu tiên chỉ chạy trên MỘT cấu hình thời gian nền (`w1` 0.7, `w2` 0.3, `unknown_decay` 0.05, `decay_from end`, `t_unknown` 0.1, `point`, kho v3, nhóm `final` top-20). Cần làm sau khi lưới hiện tại và lưới Plain RAG + cross-encoder xong:
 
-1. **Bỏ bớt điểm thời gian có được không?** Với cross-encoder tốt nhất, quét `w2` ∈ {0, 0.15, 0.3, 0.5} (`w1 = 1 - w2`). `w2` = 0 nghĩa là chỉ còn lọc cứng + cross-encoder. Nếu bằng `w2` = 0.3 thì điểm `Temporal` thừa.
+1. ~~**Bỏ bớt điểm thời gian có được không?**~~ **Đo một phần (chẩn đoán, `eval/05` mục 6.19):** bỏ `Temporal` ở bước cuối làm `mrr` giảm 0.06 đến 0.07 ở cả 3 model; `w2` = 0 giảm 0.067 `mrr`; chưa đo `w2` = 0.5. Dự định gốc: Với cross-encoder tốt nhất, quét `w2` ∈ {0, 0.15, 0.3, 0.5} (`w1 = 1 - w2`). `w2` = 0 nghĩa là chỉ còn lọc cứng + cross-encoder. Nếu bằng `w2` = 0.3 thì điểm `Temporal` thừa.
 2. **Cấu hình thời gian kết hợp với cross-encoder:** 3 `end_mode` (`stored`, `unknown_decay` 0.05, `decay` 0.1) × `decay_from` (`start`, `end`).
 3. **Nhãn ingest:** kho v1 so với v3 (và mốc suy luận `se_pe_ns`, `e_ns`) khi có cross-encoder, vì lọc cứng và điểm thời gian vẫn phụ thuộc chất lượng nhãn.
 4. **Thang điểm:** thử chuẩn hóa điểm cross-encoder khác min-max (softmax, hoặc logit thô) vì chuẩn hóa min-max trên 20 ứng viên khuếch đại chênh lệch nhỏ.
 5. **Độ trễ:** đo thời gian rerank cho từng model (L6, L12, bge-base, bge-v2-m3) để chọn model cho agent thật.
 6. **Chọn cấu hình trên tập valid/test sạch** (decisions/08) trước khi báo cáo; số hiện tại là cận trên.
-7. **BM25 khi có cross-encoder:** `sparse_weight` ∈ {0.25, 0.5, 1.0} với cross-encoder tốt nhất, thêm nhóm chấm lại top-30/50. Độ phủ ứng viên top-50: dense 0.900, BM25 0.8675, gộp 0.900, nên dự đoán ít giúp.
+7. ~~**BM25 khi có cross-encoder:**~~ **Đã khảo sát** (`eval/05` mục 6.19, chẩn đoán trên bộ thật): BM25, top-30/50 và các thang chuẩn hóa khác không giúp; nhãn v1 kém hơn v3 khi có cross-encoder. Dự định gốc: `sparse_weight` ∈ {0.25, 0.5, 1.0} với cross-encoder tốt nhất, thêm nhóm chấm lại top-30/50. Độ phủ ứng viên top-50: dense 0.900, BM25 0.8675, gộp 0.900, nên dự đoán ít giúp.
 8. **Đo đầu-cuối EM/F1** với bộ sinh cố định, so Plain RAG + cross-encoder và Cơ chế 1 + cross-encoder (cần LLM).
 
 ## Chưa biết / cần kiểm tra
