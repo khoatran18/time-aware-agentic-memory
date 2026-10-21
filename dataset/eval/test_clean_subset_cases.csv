@@ -1,0 +1,401 @@
+idx,domain,relation,source,question_hard,targets,time_start,time_end,gold_chunk_ids
+/wiki/1._FC_Köln#P286#0,sports,P286,D/test,Who was the trainer of the team 1. FC Koln between Sep 2018 and Oct 2018?,Markus Anfang,Jul 2018,Apr 2019,/wiki/1._FC_Köln#26
+/wiki/1._FC_Köln#P286#3,sports,P286,D/test,Who was the head trainer of the team 1.FC Koln in Jan 2020?,Markus Gisdol,Nov 2019,Nov 2020,/wiki/1._FC_Köln#27
+/wiki/1_Hanover_Square#P1435#1,place,P1435,D/test,1 Hanover Square had what as its designated heritage spot between Jul 1977 and Sep 1977?,National Register of Historic Places ( NRHP ),Jan 1972,Dec 1977,/wiki/1_Hanover_Square#5
+/wiki/1_Hanover_Square#P1435#2,place,P1435,D/test,1 Hanover Square had what as its designated heritage spot after Aug 1978?,National Historic Landmark,Dec 1977,Dec 1978,/wiki/1_Hanover_Square#5
+/wiki/1st_Royal_Bavarian_Division#P4791#1,military,P4791,D/train,Who was the commander of the Royal Bavarian Army unit known as the 1st Royal Bavarian Division between Feb 1887 and Mar 1887?,Prince Leopold of Bavaria,Jun 1881,Mar 1887,/wiki/1st_Royal_Bavarian_Division#20
+/wiki/1st_Royal_Bavarian_Division#P4791#3,military,P4791,D/train,Which crown prince led the Royal Bavarian Army's 1st Royal Bavarian Division between Mar 1904 and Mar 1906?,"Rupprecht , Crown Prince of Bavaria",Jan 1904,Apr 1906,/wiki/1st_Royal_Bavarian_Division#20
+/wiki/2/17th_Battalion_(Australia)#P4791#0,military,P4791,C/dev,Who was the commander of 2/17th Battalion (Australia) in Feb 1941?,John Crawford,Apr 1940,Jan 1942,/wiki/2/17th_Battalion_(Australia)#37
+/wiki/6th_Combined_Arms_Army#P17#0,place,P17,D/test,Which nation did the military formation 6th Combined Arms Army belong to between Nov 1960 and Nov 1963?,Soviet,1939,1991,/wiki/6th_Combined_Arms_Army#1
+/wiki/6th_Combined_Arms_Army#P17#1,place,P17,D/test,Which homeland commanded the field army 6th Combined Arms Army in Aug 1997?,Russian,Dec 1991,1998,/wiki/6th_Combined_Arms_Army#0
+/wiki/6th_Combined_Arms_Army#P17#2,place,P17,D/test,Which territory owned the army force 6th Combined Arms Army after Oct 2010?,Russian,2010,2011,/wiki/6th_Combined_Arms_Army#0
+/wiki/Adolf_Piening#P241#0,military,P241,D/train,Which military branch did Kapitänleutnant Adolf Piening serve in between Oct 1933 and Apr 1935?,Reichsmarine,Apr 1930,May 1935,/wiki/Adolf_Piening#1
+/wiki/Agvan_Dorzhiev#P27#0,person,P27,D/test,What citizenship did agvan dorzhiev hold after the russian revolution ?,Russian,1916,1917,/wiki/Agvan_Dorzhiev#0
+/wiki/Agvan_Dorzhiev#P27#1,person,P27,D/test,Where was Agvan Dorzhiev in Oct 1921 ?,Russian,1918,1923,/wiki/Agvan_Dorzhiev#0
+/wiki/Air_Staff_(Sweden)#P4791#1,military,P4791,D/train,The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief in Dec 1942?,Axel Ljungdahl,1942,1947,/wiki/Air_Staff_(Sweden)#14
+/wiki/Air_Staff_(Sweden)#P4791#2,military,P4791,D/train,The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief in late 1940s?,Gustaf Adolf Westring,1947,1957,/wiki/Air_Staff_(Sweden)#14
+/wiki/Air_Staff_(Sweden)#P4791#3,military,P4791,D/train,The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief between Mar 1958 and Jul 1958?,Lennart Peyron,1957,1960,/wiki/Air_Staff_(Sweden)#14
+/wiki/Air_Staff_(Sweden)#P4791#5,military,P4791,D/train,The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief between Jul 1965 and Dec 1965?,Gösta Odqvist,1964,1966,/wiki/Air_Staff_(Sweden)#14
+/wiki/Air_Staff_(Sweden)#P4791#6,military,P4791,D/train,The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief in Dec 1967?,Claës-Henrik Nordenskiöld,1966,1970,/wiki/Air_Staff_(Sweden)#15
+/wiki/Ajit_Rudra#P241#2,military,P241,C/train,What was the military branch of Ajit Rudra in late 1940s?,Indian Army,Aug 1947,1959,/wiki/Ajit_Rudra#8
+/wiki/Alexander_Prokhorov#P463#1,career,P463,D/test,Which academy did Australian-born physicist Alexander Prokhorov join in Jun 1960?,Russian Academy of Sciences,Jun 1960,Jun 1960,/wiki/Alexander_Prokhorov#8
+/wiki/Alfonso_Carlos_Comín#P102#0,politics,P102,D/test,Which popular front of the secular Palestinian Marxist–Leninist political group did the Spanish industrial engineer & politician belong to before Feb 1960?,Popular Liberation Front,1956,1962,/wiki/Alfonso_Carlos_Comín#1
+/wiki/All_Nippon_Airways#P121#3,place,P121,D/test,What had control of the operation of All Nippon Airways between Oct 2002 and Oct 2004?,777-300ER,1995,2005,/wiki/All_Nippon_Airways#21
+/wiki/All_Nippon_Airways#P121#5,place,P121,D/test,What had control of the operation of All Nippon Airways between May 2012 and Dec 2013?,Boeing 787-10s,2011,2014,/wiki/All_Nippon_Airways#44
+/wiki/All_Nippon_Airways#P121#6,place,P121,D/test,What had control of the operation of All Nippon Airways in 2014?,Boeing 747 | 777-300ER,2014,2014,/wiki/All_Nippon_Airways#14 /wiki/All_Nippon_Airways#21
+/wiki/André_Schembri#P54#0,sports,P54,D/test,What team had Maltese footballer André Schembri on it before Oct 2004?,Hibernians,2002,2005,/wiki/André_Schembri#1
+/wiki/André_Schembri#P54#1,sports,P54,D/test,Maltese footballer André Schembri was on what team between Dec 2005 and Sep 2006?,Marsaxlokk,2005,2007,/wiki/André_Schembri#1
+/wiki/André_Schembri#P54#2,sports,P54,D/test,Maltese footballer André Schembri was on what team in Jul 2007?,Eintracht Braunschweig,2007,2008,/wiki/André_Schembri#1
+/wiki/André_Schembri#P54#3,sports,P54,D/test,Maltese footballer André Schembri was on what team between Oct 2008 and Nov 2008?,Carl Zeiss Jena,2008,2009,/wiki/André_Schembri#1
+/wiki/André_Schembri#P54#4,sports,P54,D/test,What team had Maltese footballer André Schembri on it between Sep 2009 and Oct 2009?,Austria Kärnten,2009,2010,/wiki/André_Schembri#1
+/wiki/Archives_station#P1448#0,person,P1448,D/test,The station in Northwest Washington at 7th Street between Pennsylvania and Indiana Avenues was called what between Jul 1995 and Aug 2003?,Archives–Navy Memorial–Penn,1983,Jan 2004,/wiki/Archives_station#3
+/wiki/Archives_station#P1448#1,person,P1448,D/test,What name did the former Archives–Navy Memorial station have between Dec 2006 and Jul 2012?,Archives–Navy Memorial–Penn Quarter,Jan 2004,2013,/wiki/Archives_station#3
+/wiki/Arnulf_Øverland#P26#0,person,P26,D/test,Who was married to Norwegian poet Øverland between Jun 1923 and Aug 1934?,Hildur Arntzen,1918,1939,/wiki/Arnulf_Øverland#6
+/wiki/Arnulf_Øverland#P26#1,person,P26,D/test,Who was the life partner of Norwegian artist Øverland between Sep 1943 and May 1944?,Bartholine Eufemia Leganger,Feb 1940,1945,/wiki/Arnulf_Øverland#6
+/wiki/Arnulf_Øverland#P26#2,person,P26,D/test,Which Norwegian resistance member was the wife of Norwegian artist Øverland between Jan 1957 and May 1967?,Margrete Aamot Øverland,Jun 1945,1968,/wiki/Arnulf_Øverland#6
+/wiki/Arseny_Mironov#P27#0,person,P27,D/test,Arseny Mironov possessed which citizenship in Jul 1921?,Russian,1921,1922,/wiki/Arseny_Mironov#0
+/wiki/Arseny_Mironov#P27#1,person,P27,D/test,Arseny Mironov possessed which citizenship between Oct 1945 and Jul 1952?,USSR,1922,1991,/wiki/Arseny_Mironov#3
+/wiki/Audie_Murphy#P241#1,military,P241,D/train,What branch of the armed service did Audie Murphy serve in between Apr 1955 and Nov 1959?,Texas Army National Guard,1950,1966,/wiki/Audie_Murphy#44
+/wiki/Auditorium_Building_(Chicago)#P1435#0,place,P1435,D/test,Which website used to be the heritage designation of Auditorium Building (Chicago) before Jan 1972?,National Register of Historic Places,Apr 1970,May 1975,/wiki/Auditorium_Building_(Chicago)#2
+/wiki/Bank_of_America_Plaza_(Atlanta)#P127#0,business,P127,D/test,What entity owned Bank of American Plaza (Atlanta) in Oct 1991?,NationsBanks,1991,1992,/wiki/Bank_of_America_Plaza_(Atlanta)#1
+/wiki/Bank_of_America_Plaza_(Atlanta)#P127#1,business,P127,D/test,"In the period of time in Jan 2001, the Bank of American Plaza in Atlanta was purchased by what corporation?",Cousins Properties,1992,2006,/wiki/Bank_of_America_Plaza_(Atlanta)#11
+/wiki/Bank_of_America_Plaza_(Atlanta)#P127#2,business,P127,D/test,"in Apr 2016, who possessed the skyscraper Bank of America Plaza in Georgia?",Shorenstein Properties,2016,2017,/wiki/Bank_of_America_Plaza_(Atlanta)#11
+/wiki/Bengt_Holmström#P108#2,career,P108,D/test,Which university employed Finnish economist Holmström between Oct 1979 and Feb 1981?,Northwestern University,1979,1983,/wiki/Bengt_Holmström#3
+/wiki/Bengt_Holmström#P108#4,career,P108,D/test,What school was economist Bengt Holmström employed by in Feb 1994?,M.I.T | Sloan School of Management,1994,1995,/wiki/Bengt_Holmström#4
+/wiki/Berga_Naval_Base#P466#0,place,P466,D/test,Berga Naval Base had what located in it in early 1950s?,Berga Naval Training Schools,1946,1958,/wiki/Berga_Naval_Base#6
+/wiki/Bingolotto#P449#0,media_arts,P449,D/train,Which channel broadcasted Bingolotto between Mar 1996 and Apr 1996?,TV4,Oct 1991,2007,/wiki/Bingolotto#0
+/wiki/Bingolotto#P449#1,media_arts,P449,D/train,between Jan 2014 and Mar 2014 which channel could Bingolotto be watched on?,TV4 Plus,2008,2015,/wiki/Bingolotto#10
+/wiki/Black_Tiger_(professional_wrestling)#P175#0,media_arts,P175,D/train,Who was first to assume the persona of Black Tiger (professional wrestling) before Jul 1988?,Mark Rocco,1982,1990,/wiki/Black_Tiger_(professional_wrestling)#8
+/wiki/Black_Tiger_(professional_wrestling)#P175#1,media_arts,P175,D/train,Who returned to perform the Black Tiger (professional wrestling) persona in Aug 1993?,Eddie Guerrero,1993,1994,/wiki/Black_Tiger_(professional_wrestling)#5
+/wiki/Black_Tiger_(professional_wrestling)#P175#2,media_arts,P175,D/train,Who had a less than successful attempt at performing as Black Tiger (professional wrestling) between Jul 2003 and Aug 2004?,César Cuauhtémoc González,2001,2005,/wiki/Black_Tiger_(professional_wrestling)#6
+/wiki/Black_Tiger_(professional_wrestling)#P175#3,media_arts,P175,D/train,Who had a successful run at Black Tiger (professional wrestling) between Dec 2005 and Jun 2007?,Rocky Romero,2005,Apr 2009,/wiki/Black_Tiger_(professional_wrestling)#8
+/wiki/Black_Tiger_(professional_wrestling)#P175#4,media_arts,P175,D/train,Who had the shortest run in 2011 under the mask of Black Tiger (professional wrestling)?,Tomohiro Ishii,Jan 2011,Feb 2011,/wiki/Black_Tiger_(professional_wrestling)#12
+/wiki/Blue_Coat_Systems#P127#0,business,P127,D/test,"Who was the possessor of a company that provided hardware, software and cybersecurity, Blue Coat System in Jul 2013?",Thoma Bravo,2011,2015,/wiki/Blue_Coat_Systems#34
+/wiki/Boris_Nemtsov#P102#0,politics,P102,D/train,Nemtsov was a member of which political group in Mar 1998?,Young Russia,1998,1999,/wiki/Boris_Nemtsov#4
+/wiki/Boris_Nemtsov#P102#1,politics,P102,D/train,Boris Nemtsov had membership with which parties in Jun 1999?,Union of Right Forces | Young Russia,1999,2001,/wiki/Boris_Nemtsov#4
+/wiki/Boris_Nemtsov#P102#2,politics,P102,D/train,What political group did Boris Nemtsov have membership in between Jun 2012 and Jun 2012?,Solidarnost,Dec 2008,Jun 2012,/wiki/Boris_Nemtsov#6
+/wiki/Boris_Nemtsov#P102#3,politics,P102,D/train,The politician Nemtsov was a part of which party after Sep 2012?,Peoples Freedom Party,Jun 2012,Jun 2013,/wiki/Boris_Nemtsov#6
+/wiki/British_Vogue#P98#0,media_arts,P98,D/train,Who had edited British Vogue before Apr 1921?,Champcommunal,1916,1922,/wiki/British_Vogue#4
+/wiki/British_Vogue#P98#1,media_arts,P98,D/train,Who edited the British Vogue in Nov 1923?,Dorothy Todd,1923,1926,/wiki/British_Vogue#5
+/wiki/British_Vogue#P98#2,media_arts,P98,D/train,Whom edited British Vogue between Jun 1931 and Dec 1931?,Alison Settle,1926,1935,/wiki/British_Vogue#6
+/wiki/British_Vogue#P98#4,media_arts,P98,D/train,British Vogue had edited by whom in Mar 1946,Audrey Withers,1940,1960,/wiki/British_Vogue#7
+/wiki/British_Vogue#P98#6,media_arts,P98,D/train,British Vogue had edited by whom in Feb 1986?,Dame Anna Wintour,1985,1987,/wiki/British_Vogue#7
+/wiki/Calcio_Catania#P286#1,sports,P286,D/test,The Italian football club Calcio Catania had what person head coaching it between Oct 2008 and Dec 2008?,Walter Zenga,Apr 2008,Jun 2009,/wiki/Calcio_Catania#29
+/wiki/Calcio_Catania#P286#2,sports,P286,D/test,The Italian football club Calcio Catania had which person lead coaching it between Apr 2010 and May 2010?,Siniša Mihajlović,Dec 2009,May 2010,/wiki/Calcio_Catania#32
+/wiki/Calcio_Catania#P286#3,sports,P286,D/test,The Italian football club Calcio Catania had what person lead coaching it in Jun 2010?,Marco Giampaolo,May 2010,Jan 2011,/wiki/Calcio_Catania#32
+/wiki/Calcio_Catania#P286#4,sports,P286,D/test,The Italian football club Calcio Catania had which person head coaching it in Apr 2011?,Diego Simeone,Jan 2011,Jun 2011,/wiki/Calcio_Catania#33
+/wiki/Chase_Koch#P108#0,career,P108,D/test,Charles Chase Koch was employed by what company or companies before Mar 2005?,Koch Industries,2003,2006,/wiki/Chase_Koch#5
+/wiki/Chase_Koch#P108#2,career,P108,D/test,Charles Chase Koch was employed by what company or companies after Feb 2018?,Koch Disruptive Technologies,Nov 2017,Nov 2018,/wiki/Chase_Koch#7
+/wiki/Cheryl_Tiegs#P26#0,person,P26,D/test,Who was Cheryl Tiegs married to in Sep 1973?,Stan Dragoti,1970,1979,/wiki/Cheryl_Tiegs#15
+/wiki/Cheryl_Tiegs#P26#2,person,P26,D/test,Who was Cheryl Tiegs married to after Dec 1998?,Rod Stryker,1998,2001,/wiki/Cheryl_Tiegs#15
+/wiki/Chicago_Stadium#P466#1,place,P466,D/test,The Illinois indoor arena known as Chicago Stadium had what team or teams using it in Jul 1961?,Chicago Blackhawks,1961,1963,/wiki/Chicago_Stadium#1
+/wiki/Cho_Yoon-sun#P69#2,career,P69,D/test,"In the period of time after Feb 2004, Miss Cho Yoon-Sun studied at which educational institution?",Columbia Law School,1988,2011,/wiki/Cho_Yoon-sun#1
+/wiki/Clarence_Cannon#P106#3,career,P106,D/test,The Missourian Clarence Andrew Cannon worked as what between Oct 1922 and Dec 1923?,parliamentarian of the Democratic National Convention,1920,1935,/wiki/Clarence_Cannon#7
+/wiki/Clarice_Phelps#P69#0,career,P69,D/test,Where did nuclear scientist Clarice Phelps study at before Oct 2001?,Tennessee State University,1999,2003,/wiki/Clarice_Phelps#2
+/wiki/Cueva_de_las_Manos#P1435#1,place,P1435,D/test,Which site held the heritage location of Cave of Hands in May 2005?,World Heritage Site,1999,Jan 2018,/wiki/Cueva_de_las_Manos#33
+/wiki/Cutty_Sark#P127#0,business,P127,D/test,The vessel the Cutty Sark was ordered and then possessed between Jun 1885 and Jan 1894 by which company?,Jock Willis Shipping Line,Feb 1870,Jul 1895,/wiki/Cutty_Sark#0
+/wiki/Cutty_Sark#P127#1,business,P127,D/test,The owner of the ship the Cutty Sark between May 1912 and Jan 1915 was who?,Joaquim Antunes Ferreira,Jul 1895,1922,/wiki/Cutty_Sark#42
+/wiki/Cutty_Sark#P127#3,business,P127,D/test,Which college was in possession of the Cutty Sark in Apr 1944?,Thames Nautical Training College,1938,1953,/wiki/Cutty_Sark#2
+/wiki/Cutty_Sark#P127#4,business,P127,D/test,The clipper ship Cutty Sark was the property of which society after Jul 1953?,Cutty Sark Preservation Society,1953,1954,/wiki/Cutty_Sark#51
+/wiki/DRB_Class_50#P137#0,business,P137,D/test,The German locomotive DRB Class 50 was operated by who in Aug 1940?,Deutsche Reichsbahn,1939,1945,/wiki/DRB_Class_50#0
+/wiki/DRB_Class_50#P137#1,business,P137,D/test,The 2 to 10-0 locomotive DRB Class 50 operated under who in Aug 1975?,Deutsche Bundesbahn,1945,1977,/wiki/DRB_Class_50#3
+/wiki/Daniel_Cottier#P937#0,career,P937,D/test,"Where were the working locations for famed designer, daniel cottier prior to his expansion to london, new york and australia?",Glasgow,1864,1867,/wiki/Daniel_Cottier#25
+/wiki/Daniel_Cottier#P937#1,career,P937,D/test,"Where did the ""harbinger of aestheticism"" work upon expanding to australia?",Sydney,1867,1873,/wiki/Daniel_Cottier#22
+/wiki/Dom-2#P371#0,media_arts,P371,D/train,Who hosted the Russian TV show Dom-2 between Nov 2008 and Dec 2008?,Kseniya Borodina | Kseniya Sobchak,2004,Dec 2008,/wiki/Dom-2#1
+/wiki/Dom-2#P371#1,media_arts,P371,D/train,Who hosted the Russian TV show Dom-2 between Jul 2011 and Aug 2011?,Olga Buzova | Kseniya Sobchak,Dec 2008,2012,/wiki/Dom-2#1 /wiki/Dom-2#25
+/wiki/Edgley_Optica#P176#0,business,P176,D/test,Which company made Edgley Optica planes before Apr 1975?,Edgley Aircraft Limited,1974,1985,/wiki/Edgley_Optica#1
+/wiki/Elgin_and_Winter_Garden_Theatres#P1435#1,place,P1435,D/test,What special status was the Elgin and Winter Garden Theatres granted in Oct 1982?,Ontario Heritage Foundation,Dec 1981,Jun 1983,/wiki/Elgin_and_Winter_Garden_Theatres#5
+"/wiki/Embassy_of_Canada,_Washington,_D.C.#P1037#1",business,P1037,D/test,Who managed Canada's main diplomatic mission to the U.S. in Jul 2016?,David MacNaughton,Mar 2016,2019,"/wiki/Embassy_of_Canada,_Washington,_D.C.#18"
+/wiki/Emiliano_Aguirre#P108#0,career,P108,D/test,The Spanish paleontologist Emiliano Aguirre worked where in Jul 1965?,Escuela Técnica Superior de Caminos,1965,1966,/wiki/Emiliano_Aguirre#3
+/wiki/Emiliano_Aguirre#P108#1,career,P108,D/test,The Spanish paleontologist Emiliano Aguirre worked where in Oct 1971?,Universidad Complutense de Madrid,1971,1974,/wiki/Emiliano_Aguirre#3
+/wiki/Emiliano_Aguirre#P108#2,career,P108,D/test,The Spanish paleontologist Emiliano Aguirre worked where in 1977?,Universidad Complutense de Madrid,1977,1979,/wiki/Emiliano_Aguirre#3
+/wiki/Emiliano_Aguirre#P108#3,career,P108,D/test,The Spanish paleontologist Emiliano Aguirre worked where in Dec 1982?,Complutense de Madrid Universities,1982,1984,/wiki/Emiliano_Aguirre#3
+/wiki/Emirate_of_Diriyah#P35#0,politics,P35,D/train,Who was the Emir of the Emirate of Diriyah between Dec 1754 and Mar 1761?,Muhammad bin Saud,1744,1765,/wiki/Emirate_of_Diriyah#0
+/wiki/Endre_Süli#P463#0,career,P463,D/test,The association of what had Süli join it in 2009?,Serbian Academy of Sciences and Arts,2009,2009,/wiki/Endre_Süli#1
+/wiki/Endre_Süli#P463#2,career,P463,D/test,The association of what had Süli join it in 2007?,Fellow of the Institute of Mathematics and its Applications,2007,2007,/wiki/Endre_Süli#2
+/wiki/Endre_Süli#P463#3,career,P463,D/test,Süli became part of what org. in 2016?,SIAM,2016,2016,/wiki/Endre_Süli#2
+/wiki/Engelbert_Endrass#P410#1,military,P410,D/train,The German who began his naval career in April 1935 held what position between Jul 1937 and Aug 1938 ?,Leutnant zur See,Apr 1937,Apr 1939,/wiki/Engelbert_Endrass#2
+/wiki/Erich_Topp#P1416#3,career,P1416,D/test,Erich Topp was made a part of which unit in Sep 1942?,7th U-boat Flotilla,Sep 1942,Nov 1942,/wiki/Erich_Topp#17
+/wiki/FCI_Levadia_Tallinn#P286#0,sports,P286,D/test,"In the period of time between Jan 2015 and Mar 2015, who was the man who was appointed to lead the strategy and management of the FCI Levadia Tellinn team during games?",Marko Kristal,2012,Nov 2015,/wiki/FCI_Levadia_Tallinn#9
+/wiki/FCI_Levadia_Tallinn#P286#1,sports,P286,D/test,In what position did the FCI Levadia Tallinn team finish in the standings in Oct 2017,Igor Prins,Jul 2016,Nov 2017,/wiki/FCI_Levadia_Tallinn#10
+/wiki/FCI_Levadia_Tallinn#P286#2,sports,P286,D/test,Which former Estonia coach came to lead the FCI Levadia Tallinn in Jul 2020?,Martin Reim,Nov 2019,Nov 2020,/wiki/FCI_Levadia_Tallinn#10
+/wiki/Fellbach#P6#1,politics,P6,D/test,The German town of Fellbach was controlled by which person in May 1988?,Friedrich-Wilhelm Kiel,1976,2000,/wiki/Fellbach#18
+/wiki/Fellbach#P6#2,politics,P6,D/test,The German town of Fellbach was controlled by which person in late 2000s?,Christoph Palm,2000,2016,/wiki/Fellbach#18
+/wiki/Frank_Robert_Miller#P410#2,military,P410,C/train,What was the military rank of Frank Robert Miller between Oct 1939 and Dec 1939?,squadron leader,Apr 1939,1940,/wiki/Frank_Robert_Miller#2
+/wiki/Frank_Robert_Miller#P410#3,military,P410,C/train,What was the military rank of Frank Robert Miller between Nov 1940 and Jan 1941?,group captain,1940,1943,/wiki/Frank_Robert_Miller#3
+/wiki/Fred_Hoiberg#P6087#2,sports,P6087,D/test,"What basketball team was coached by ""The Mayor"" Hoiberg between Mar 2020 and Mar 2020?",Nebraska Cornhuskers,Mar 2019,Mar 2020,/wiki/Fred_Hoiberg#17
+/wiki/Frederica_Wilson#P69#1,career,P69,D/test,"Which University did the current U.S House representative of Florida, Frederica Wilson went to in Jan 1968?",University of Miami,1963,1972,/wiki/Frederica_Wilson#3
+/wiki/Friedrich_Guggenberger#P241#1,military,P241,C/dev,Which military brach did Friedrich Guggenberger belong to in late 1930s?,Kriegsmarine,Jun 1935,1956,/wiki/Friedrich_Guggenberger#9
+"/wiki/Gary_Mills_(footballer,_born_1961)#P6087#0",sports,P6087,D/test,The footballer born in 1961 named Mills coached what team before Aug 1997?,Grantham Town,1996,1998,"/wiki/Gary_Mills_(footballer,_born_1961)#4"
+"/wiki/Gary_Mills_(footballer,_born_1961)#P6087#1",sports,P6087,D/test,"in 1998, what team got coached by the man named Gary Mills who was born in 1961?",Kings Lynn,1998,2000,"/wiki/Gary_Mills_(footballer,_born_1961)#4"
+"/wiki/Gary_Mills_(footballer,_born_1961)#P6087#2",sports,P6087,D/test,What team was coached by the English Football Manager Gary Mills in Dec 2001?,Tamworth,2001,2002,"/wiki/Gary_Mills_(footballer,_born_1961)#38"
+"/wiki/Gary_Mills_(footballer,_born_1961)#P6087#3",sports,P6087,D/test,"between Mar 2005 and Jun 2006, what team received coaching from previous pro footballer Gary Mills?",Alfreton Town,2005,2007,"/wiki/Gary_Mills_(footballer,_born_1961)#5"
+"/wiki/Gary_Mills_(footballer,_born_1961)#P6087#4",sports,P6087,D/test,What team was led by ex-footballer Gary mills in late 2000s?,Tamworth,2007,2010,"/wiki/Gary_Mills_(footballer,_born_1961)#38"
+/wiki/George_A._White#P241#2,military,P241,C/dev,What was the military branch of George A. White in Apr 1918?,National Guard,Sep 1917,Jul 1919,/wiki/George_A._White#4
+/wiki/Georges_Pompidou#P39#0,politics,P39,D/test,French politician Georges Jean Raymond Pompidou held what position in Aug 1963?,Prime Minister of France,Apr 1962,Apr 1967,/wiki/Georges_Pompidou#0
+/wiki/Georges_Pompidou#P39#1,politics,P39,D/test,The French politician Pompidou held what role in Apr 1967?,Prime Minister,Apr 1967,May 1967,/wiki/Georges_Pompidou#4
+/wiki/Georges_Pompidou#P39#3,politics,P39,D/test,What office did French politician Georges Pompidou hold in early 1970s?,president of France,Jul 1968,Apr 1974,/wiki/Georges_Pompidou#9
+/wiki/Gerard_Bilders#P937#0,career,P937,D/test,Gerard Bilders had a job in what place in Oct 1842?,Oosterbeek,1841,1845,/wiki/Gerard_Bilders#1
+/wiki/Gerard_Bilders#P937#3,career,P937,D/test,Gerard Bilders had a job in what place in Sep 1857?,Oosterbeek,1857,1859,/wiki/Gerard_Bilders#1
+/wiki/Gerard_Bilders#P937#4,career,P937,D/test,Gerard Bilders had a job in what place between Nov 1861 and Feb 1863?,Amsterdam,1859,1865,/wiki/Gerard_Bilders#8
+/wiki/Germaine_of_Foix#P26#0,person,P26,D/test,Who was king ferdinand ii of aragon's second spouse?,King Ferdinand II of Aragon,1506,1516,/wiki/Germaine_of_Foix#0
+/wiki/German_submarine_U-101_(1940)#P4791#5,military,P4791,C/dev,Who was the commander of German submarine U-101 (1940) after Sep 1942?,Ernst von Witzendorff,Mar 1942,Oct 1942,/wiki/German_submarine_U-101_(1940)#24
+/wiki/German_submarine_U-120_(1940)#P4791#0,military,P4791,D/train,Who commanded the U-120 before Jun 1940?,Ernst Bauer,Apr 1940,Nov 1940,/wiki/German_submarine_U-120_(1940)#0
+/wiki/German_submarine_U-120_(1940)#P4791#1,military,P4791,D/train,Who commanded the U-120 between Mar 1941 and Apr 1941?,Wolfgang Heyda,Nov 1940,May 1941,/wiki/German_submarine_U-120_(1940)#9
+/wiki/German_submarine_U-120_(1940)#P4791#4,military,P4791,D/train,Who commanded the U-120 after Jan 1945?,Rolf Rüdiger Bensel,Sep 1944,May 1945,/wiki/German_submarine_U-120_(1940)#9
+/wiki/German_submarine_U-123_(1940)#P4791#0,military,P4791,C/dev,Who was the commander of German submarine U-123 (1940) between Sep 1940 and Dec 1940?,Karl-Heinz Moehle,May 1940,May 1941,/wiki/German_submarine_U-123_(1940)#1
+/wiki/German_submarine_U-155_(1941)#P4791#2,military,P4791,C/train,Who commanded German submarine U-155 (1941) between Sep 1944 and Mar 1945?,Erwin Witte,1944,Apr 1945,/wiki/German_submarine_U-155_(1941)#4
+/wiki/German_submarine_U-35_(1936)#P4791#2,military,P4791,C/dev,Who was the commander of German submarine U-35 (1936) between Aug 1939 and Sep 1939?,Werner Lott,Aug 1937,Nov 1939,/wiki/German_submarine_U-35_(1936)#7
+/wiki/German_submarine_U-38_(1938)#P4791#0,military,P4791,D/train,Who commanded the U-38 before Jun 1941?,Heinrich Liebe,Oct 1938,Jul 1941,/wiki/German_submarine_U-38_(1938)#0
+/wiki/German_submarine_U-38_(1938)#P4791#1,military,P4791,D/train,Who commanded the U-38 in Sep 1941?,Heinrich Schuch,Jul 1941,Jan 1942,/wiki/German_submarine_U-38_(1938)#32
+/wiki/German_submarine_U-66_(1940)#P4791#1,military,P4791,D/train,"The submarine that was sunk on May 6, 1944 during her ninth patrol was commanded by what man in Sep 1942?",Kapitänleutnant Friedrich Markworth,Jun 1942,Sep 1943,/wiki/German_submarine_U-66_(1940)#17
+/wiki/Ghaziabad#P17#0,place,P17,D/test,The city of Ghaziabad was under control of which empire in Apr 1842?,Mughal,1740,Jun 1858,/wiki/Ghaziabad#2
+/wiki/Guy_Aldred#P102#0,politics,P102,D/test,To which political party was the British anarchist communist Guy Aldred a member in Jun 1905?,Social Democratic Federation,1905,1906,/wiki/Guy_Aldred#13
+/wiki/Guy_Aldred#P102#2,politics,P102,D/test,To which political organization was the British communist Guy Aldred a member between Oct 1934 and Dec 1934?,United Socialist Movement,1934,1935,/wiki/Guy_Aldred#14
+/wiki/Guy_Gabaldon#P551#2,person,P551,D/test,Guy Gabaldon lived where after Feb 2004?,"Old Town , Florida",2003,Aug 2006,/wiki/Guy_Gabaldon#23
+/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#P6#1,politics,P6,D/train,Who was the Mayor of Kafjord in May 2018?,Svein O . Leiros,2015,2019,/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10
+/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#P6#2,politics,P6,D/train,Who was the Mayor of Kafjord after Dec 2019?,Bernt Eirik Isaksen Lyngstad,2019,2020,/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10
+/wiki/HMAS_Wollongong_(J172)#P137#1,business,P137,D/test,Who operated the warship HMAS Wollongong between Mar 1946 and May 1948?,Royal Netherlands Navy,Feb 1946,1950,/wiki/HMAS_Wollongong_(J172)#10
+/wiki/HMAS_Wollongong_(J172)#P137#2,business,P137,D/test,Which Navy operated the warship HMAS Wollongong between Apr 1950 and Jun 1950?,Indonesian Navy,1950,1951,/wiki/HMAS_Wollongong_(J172)#11
+/wiki/Headhunterz#P264#0,media_arts,P264,D/train,Which record labels was Willem Rebergen signed to in Aug 2006?,Scantraxx Special | Scantraxx Reloaded,2006,2012,/wiki/Headhunterz#9 /wiki/Headhunterz#16
+/wiki/Headhunterz#P264#1,media_arts,P264,D/train,Which record labels did Dutch DJ Headhunterz release music under in Nov 2012?,Scantraxx Reloaded | Ultra Records | HARDwithSTYLE Records,2012,2017,/wiki/Headhunterz#27 /wiki/Headhunterz#29 /wiki/Headhunterz#39
+/wiki/Headhunterz#P264#2,media_arts,P264,D/train,Which record label did Dutch music producer Headhunterz release music under after Sep 2018?,Art of Creation,2018,2019,/wiki/Headhunterz#50
+/wiki/Helen_Clark#P39#0,politics,P39,D/test,What governmental role did Helen Elizabeth Clark assume between Jan 1989 and Apr 1989?,Minister of Health,Jan 1989,Aug 1989,/wiki/Helen_Clark#2
+/wiki/Helen_Clark#P39#3,politics,P39,D/test,"in May 2007, Mrs. Clark of the New Zealand Labour Party was elected to which office?",Prime Minister of New Zealand,Dec 1999,Nov 2008,/wiki/Helen_Clark#0
+/wiki/Herbert_Schultze#P241#1,military,P241,C/train,What was the military branch of Herbert Schultze in Jul 1935?,Kriegsmarine,Jun 1935,May 1945,/wiki/Herbert_Schultze#30
+/wiki/Hermann_Fegelein#P410#4,military,P410,C/train,What was the military rank of Hermann Fegelein between Oct 1938 and Jan 1939?,SS-Standartenführer,Jul 1937,May 1943,/wiki/Hermann_Fegelein#11
+/wiki/Ilya_Ponomarev#P27#1,person,P27,D/test,Tech entrepreneur and politician Ilya Ponomarev had what type of citizenship after Sep 2019?,Ukraine,2019,2020,/wiki/Ilya_Ponomarev#0
+/wiki/Indianapolis_Indians#P118#0,sports,P118,D/test,Which baseball League did the Indians play for in late 1900s?,American Association,1902,1962,/wiki/Indianapolis_Indians#1
+/wiki/Indianapolis_Indians#P118#1,sports,P118,D/test,"in Jun 1965, the Indians played for which league?",Pacific Coast League,1964,1968,/wiki/Indianapolis_Indians#11
+/wiki/Inter_Milan#P286#0,sports,P286,D/test,Who used to be the head educate of the crew Inter Milan between Feb 1979 and Mar 1980?,Johan Cruyffs,Jul 1977,Jun 1982,/wiki/Inter_Milan#15
+/wiki/Inter_Milan#P286#5,sports,P286,D/test,Who was the pinnacle educate of the group inter milan between Nov 2011 and Dec 2011?,Claudio Ranieri,Aug 2011,Feb 2012,/wiki/Inter_Milan#36
+/wiki/Inter_Milan#P286#7,sports,P286,D/test,Who become the head teach of the crew inter milan between Jun 2015 and Aug 2015?,Roberto Mancini,Nov 2014,Aug 2016,/wiki/Inter_Milan#26
+/wiki/Internet_Architecture_Board#P488#0,business,P488,D/test,The IAB was led by who between Apr 1983 and Mar 1985?,David D . Clark,1981,1989,/wiki/Internet_Architecture_Board#35
+/wiki/Internet_Architecture_Board#P488#1,business,P488,D/test,"in Aug 1989, who was the head of the committee known as Internet Architecture Board?",Vint Cerfs,1989,1991,/wiki/Internet_Architecture_Board#5
+/wiki/Internet_Architecture_Board#P488#2,business,P488,D/test,Who was the leader of the advisory body Internet Architecture Board between Feb 1993 and Dec 1994?,Christian Huitema,1993,1995,/wiki/Internet_Architecture_Board#35
+/wiki/Internet_Architecture_Board#P488#3,business,P488,D/test,Who held the chair of the previously known as Internet Configuration Control Board in late 1990s?,Brian Carpenter,1995,2000,/wiki/Internet_Architecture_Board#35
+/wiki/Internet_Architecture_Board#P488#4,business,P488,D/test,"between Feb 2001 and Oct 2001, which person was the chairman of the entity known as IAB?",John Klensin,2000,2002,/wiki/Internet_Architecture_Board#35
+/wiki/Ivan_Kozhedub#P410#1,military,P410,D/train,"What rank did the Soviet Ace, Ivan Kozhedub, hold between Aug 1942 and Oct 1943",Senior Sergeant,Feb 1942,Nov 1943,/wiki/Ivan_Kozhedub#4
+/wiki/Ivan_Kozhedub#P410#5,military,P410,D/train,"What rank did the Soviet Ace, Ivan Kozhedub, hold after Aug 1952",colonel,Jan 1951,Aug 1953,/wiki/Ivan_Kozhedub#9
+/wiki/Izmail#P1376#1,place,P1376,D/train,What region was Izmail the capital of in early 1950s?,Izmail Oblast,Dec 1940,Feb 1954,/wiki/Izmail#12
+/wiki/James_Robert_Dickson#P39#2,politics,P39,D/test,Australian businessman and politician Sir Dickson took what role between May 1900 and Jul 1900?,Premier,Oct 1898,1901,/wiki/James_Robert_Dickson#4
+/wiki/James_Robert_Dickson#P39#3,politics,P39,D/test,What governmental office did the Australian politician James Dickson hold in 1901?,Minister for Defence,1901,Jan 1901,/wiki/James_Robert_Dickson#6
+/wiki/Jeff_Goldblum#P26#2,person,P26,D/test,The American actor Jeff Goldblum had which woman as his wife after Apr 2014?,Emilie Livingston,2014,2015,/wiki/Jeff_Goldblum#21
+/wiki/Jim_Prentice#P102#0,politics,P102,D/test,The Canadian politician Peter Eric James Prentice had membership in what political party between Aug 1988 and Jan 1996?,Progressive Conservative Party of Canada,1975,Dec 2003,/wiki/Jim_Prentice#10
+/wiki/Jim_Prentice#P102#1,politics,P102,D/test,The Canadian politician Peter Eric James Prentice had membership in what political party and what political roles after Oct 2006?,candidate of the Conservative Party of Canada | 16th Premier of Alberta | Minister of Industry,Dec 2003,Oct 2016,/wiki/Jim_Prentice#0 /wiki/Jim_Prentice#27
+/wiki/Jiminy_Cricket#P175#0,media_arts,P175,D/train,"J. Crick, aka Jiminy Cricket, had what person doing its voice in Jan 1939?",Clarence Nash,1939,1940,/wiki/Jiminy_Cricket#7
+/wiki/Jiminy_Cricket#P175#2,media_arts,P175,D/train,Which person did the voice of fictional character Jiminity Cricket between Aug 1972 and Sep 1972?,Clarence Nash,1971,1973,/wiki/Jiminy_Cricket#7
+/wiki/Jiminy_Cricket#P175#3,media_arts,P175,D/train,"Young Crickey, aka Jiminy Cricket, had what person doing its voice between Jul 1990 and Jan 1993?",Eddie Carroll,1973,2010,/wiki/Jiminy_Cricket#7
+/wiki/Jiminy_Cricket#P175#4,media_arts,P175,D/train,"Young Crickey, aka Jiminy Cricket, had what person doing its voice between May 2011 and Jul 2013?",Phil Snyder,2010,2014,/wiki/Jiminy_Cricket#8
+/wiki/Jiminy_Cricket#P175#5,media_arts,P175,D/train,Which person did the voice of the fictional Jiminity Cricket after Jan 2014?,Joe Ochman,2014,2015,/wiki/Jiminy_Cricket#8
+/wiki/Joachim_Löw#P6087#1,sports,P6087,D/test,Which team got coaching from the man Joachim Low between Sep 1995 and Nov 1995?,FC Frauenfeld,1995,1996,/wiki/Joachim_Löw#4
+/wiki/Joachim_Löw#P6087#2,sports,P6087,D/test,"between Nov 1996 and Aug 1997, which team received coaching from the coach Joachim Low?",VfB Stuttgart,1996,1998,/wiki/Joachim_Löw#5
+/wiki/Joachim_Löw#P6087#3,sports,P6087,D/test,Coach Joachim Low worked with what team in Nov 1998?,Fenerbahçe,1998,1999,/wiki/Joachim_Löw#9
+/wiki/Joachim_Löw#P6087#4,sports,P6087,D/test,"between May 1999 and Jun 1999, what football team was coached by the german joachim low?",Karlsruher SC,1999,2000,/wiki/Joachim_Löw#10
+/wiki/Joachim_Löw#P6087#5,sports,P6087,D/test,The German man Joachim Low was the coach of who in Feb 2000?,Adanaspor,2000,2001,/wiki/Joachim_Löw#12
+/wiki/John_Conyers#P241#0,military,P241,D/train,John James Conyers Jr.'s military branch in Feb 1949 was what?,Michigan National Guard,1948,1950,/wiki/John_Conyers#5
+/wiki/John_Conyers#P241#1,military,P241,D/train,Will you find out the military branch in Jan 1953 of John James Conyers Jr.?,U.S . Army,1950,1954,/wiki/John_Conyers#5
+/wiki/John_Conyers#P241#2,military,P241,D/train,Can you name the military branch in that John James Conyers Jr. was served after Feb 1955?,U.S . Army Reserves,1954,1957,/wiki/John_Conyers#5
+"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#P551#0",person,P551,D/test,"The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city between Mar 1891 and May 1891?",Brussels,1888,1892,"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2"
+"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#P551#2",person,P551,D/test,"The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city in Apr 1895?",Cairo,1894,1897,"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2"
+"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#P551#5",person,P551,D/test,"The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city between Jan 1905 and Feb 1905?",Athens,1901,1906,"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3"
+"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#P551#7",person,P551,D/test,"The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city between Nov 1913 and Jan 1914?",Cettinjé,1911,1916,"/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4"
+/wiki/Katherine_Maher#P108#1,career,P108,D/test,Katherine Maher had a role at which workplace in May 2010?,National Democratic Institute,2010,2011,/wiki/Katherine_Maher#5
+/wiki/Katherine_Maher#P108#2,career,P108,D/test,Katherine Maher had a role at which workplace in Dec 2013?,Access Now,2013,2014,/wiki/Katherine_Maher#7
+/wiki/Kirishsky_District#P36#0,place,P36,D/train,"in early 1940s, where was the capital of Kirishsky District in Russia located?",Kirishi,Sep 1931,Feb 1944,/wiki/Kirishsky_District#8
+/wiki/Kirishsky_District#P36#1,place,P36,D/train,"The capital locality of Kirishsky District, located in Leningrad Oblast, was where between May 1947 and Feb 1962?",Budogoshch,Feb 1944,Feb 1963,/wiki/Kirishsky_District#8
+/wiki/Kirishsky_District#P36#2,place,P36,D/train,"In the period of time between Apr 1965 and May 1965, where was the capital of the district of Kirishsky found?",Kirishi,Jan 1965,Jan 1966,/wiki/Kirishsky_District#8
+"/wiki/Klamath_County,_California#P36#0",place,P36,D/train,"What was the first capital of the now disestablished county of Klamath, California that lasted before Nov 1852?",Trinidad,1851,1854,"/wiki/Klamath_County,_California#2"
+"/wiki/Klamath_County,_California#P36#1",place,P36,D/train,"What was the name of the city in the disestablished county of Klamath, California that operated as its capital between Feb 1854 and Apr 1854?",Crescent City,1854,1856,"/wiki/Klamath_County,_California#2"
+"/wiki/Klamath_County,_California#P36#2",place,P36,D/train,"What was the capital of the now non-existent county of Klamath, California that lasted in Mar 1856 when the county was disestablished?",Orleans Bar,1856,1874,"/wiki/Klamath_County,_California#2"
+/wiki/Lana_Turner#P26#0,person,P26,D/test,"Julia Jean Turner, better known as Lana Turner, was married to which man between May 1939 and Sep 1939?",Artie Shaw,1939,1940,/wiki/Lana_Turner#28
+/wiki/Lana_Turner#P26#1,person,P26,D/test,"Julia Jean Turner, better known as Lana Turner, was married to which man in Apr 1942?",Joseph Stephen Steve Crane,1942,1943,/wiki/Lana_Turner#41
+/wiki/Lapland_Ranger_Regiment#P4791#1,military,P4791,D/train,Who was the head officer of the Swedish Lapland Ranger Regiment between Jan 1979 and Mar 1983?,Leif Nilsson,1979,1984,/wiki/Lapland_Ranger_Regiment#12
+/wiki/Lapland_Ranger_Regiment#P4791#2,military,P4791,D/train,Who was the head officer of the Swedish Lapland Ranger Regiment in Jun 1986?,Sören Jansson,1984,1989,/wiki/Lapland_Ranger_Regiment#12
+/wiki/Lapland_Ranger_Regiment#P4791#4,military,P4791,D/train,Who was the head officer of the Swedish Lapland Ranger Regiment in Sep 1997?,Håkan Hedström,1997,1998,/wiki/Lapland_Ranger_Regiment#12
+/wiki/Laurette_Onkelinx#P39#2,politics,P39,D/test,Belgian politician Laurette Onkelinx occupied which political role in early 2010s?,Minister of Social Affairs and Public Health ( December 2007 – October 2014 ),Dec 2007,Oct 2014,/wiki/Laurette_Onkelinx#15
+/wiki/Lega_Nord_Piemont#P488#0,business,P488,D/test,Who led the Lega Nord Piemont political party before Oct 1996?,Domenico Comino,1994,1997,/wiki/Lega_Nord_Piemont#3
+/wiki/Lega_Nord_Piemont#P488#1,business,P488,D/test,Who led the Lega Nord Piemont political party in Feb 2001?,Oreste Rossi,2001,2004,/wiki/Lega_Nord_Piemont#3
+/wiki/Lega_Nord_Piemont#P488#2,business,P488,D/test,Who led the Lega Nord Piemont political party in late 2000s?,Mario Borghezio,2004,2011,/wiki/Lega_Nord_Piemont#1
+/wiki/Lega_Nord_Piemont#P488#3,business,P488,D/test,Who led the Lega Nord Piemont political party in Feb 2012?,Gianna Gancia,2012,2016,/wiki/Lega_Nord_Piemont#12
+/wiki/Lega_Nord_Piemont#P488#4,business,P488,D/test,Who led the Lega Nord Piemont political party between Nov 2016 and Dec 2016?,Stefano Allasia,2016,2017,/wiki/Lega_Nord_Piemont#0
+/wiki/Li_Kwoh-ting#P27#1,person,P27,D/test,Li Kwoh-ting had citizenship of what type between Jan 1944 and Jan 1947?,Taiwanese,1912,1949,/wiki/Li_Kwoh-ting#0
+/wiki/Lisa_Marie_Presley#P26#1,person,P26,D/test,Lisa Marie Presley was married to which man in Oct 1995?,Michael Jackson,May 1994,1996,/wiki/Lisa_Marie_Presley#0
+/wiki/Lotte_Reiniger#P551#0,person,P551,D/test,Film director Lotte Reiniger resided in which location between Jan 1935 and Jul 1935?,Rome,1935,1936,/wiki/Lotte_Reiniger#18
+/wiki/Lotte_Reiniger#P551#1,person,P551,D/test,Film director Lotte Reiniger resided in which location in early 1940s?,Rome,1939,1944,/wiki/Lotte_Reiniger#19
+/wiki/Lotte_Reiniger#P551#2,person,P551,D/test,Film director Lotte Reiniger resided in which location in Oct 1945?,Berlin,1944,1948,/wiki/Lotte_Reiniger#19
+/wiki/Louis_Francis_Salzman#P551#1,person,P551,D/test,Louis Francis Salzman resided in what place after Sep 1953?,London,1934,Apr 1972,/wiki/Louis_Francis_Salzman#1
+/wiki/Love_(Indianapolis)#P608#0,media_arts,P608,D/train,Love (Indianapolis) was exhibited where between Jul 1970 and Sep 1970?,Indianapolis Museum of Art,1970,1971,/wiki/Love_(Indianapolis)#0
+"/wiki/Loveland,_Ohio#P6#0",politics,P6,D/test,The Ohio city of Loveland had which person as its chair before Feb 2016?,Mark Fitzgerald,Jan 2013,Aug 2017,"/wiki/Loveland,_Ohio#23"
+/wiki/Lucy_Wills#P69#0,career,P69,D/test,English haematologist Lucy Wills attended which school between Aug 1970 and Apr 1974?,Tanglewood,1902,1911,/wiki/Lucy_Wills#6
+/wiki/Lucy_Wills#P69#1,career,P69,D/test,Where did English haematologist Lucy Wills study at between Mar 1917 and Sep 1919?,the London ( Royal Free Hospital ) School of Medicine for Women,1915,1920,/wiki/Lucy_Wills#12
+/wiki/Lucy_Wills#P69#2,career,P69,D/test,Where was English haematologist Lucy Wills a student at after Jul 1920?,the Royal Free,1920,1921,/wiki/Lucy_Wills#14
+/wiki/Ludwig_Martens#P937#0,career,P937,D/test,What was the workplace locale of Russian Marxist Ludwig Christian Alexander Karl Martens between Sep 1915 and Dec 1915?,Great Britain,1906,1916,/wiki/Ludwig_Martens#3
+/wiki/Ludwig_Martens#P937#1,career,P937,D/test,What was the workplace locale of Russian Marxist Ludwig Christian Alexander Karl Martens between Jul 1916 and Nov 1916?,New York City,1916,1917,/wiki/Ludwig_Martens#5
+/wiki/Ludwig_Martens#P937#2,career,P937,D/test,What was the workplace locale of Russian Marxist Ludwig Christian Alexander Karl Martens after Jan 1919?,United States,1919,1921,/wiki/Ludwig_Martens#6
+/wiki/Luis_Eduardo_Aute#P264#0,media_arts,P264,D/train,Which label was Spanish composer Luis Gutiérrez signed to in Sep 1967?,RCA-Victor,1966,1968,/wiki/Luis_Eduardo_Aute#30
+/wiki/Luis_Eduardo_Aute#P264#1,media_arts,P264,D/train,What label was Spanish musician Luis Aute Gutiérrez recording under between Jan 1976 and Jun 1977?,Ariola,1973,1979,/wiki/Luis_Eduardo_Aute#25
+/wiki/Luis_Eduardo_Aute#P264#2,media_arts,P264,D/train,What label was Spanish singer Luis Aute Gutiérrez recording under in early 2000s?,Virgin | Ariola | BMG Ariola,1995,2003,/wiki/Luis_Eduardo_Aute#27 /wiki/Luis_Eduardo_Aute#29
+/wiki/M_(James_Bond)#P175#1,media_arts,P175,D/train,Which actor played M in the James Bond universe in Jan 1986?,Robert Brown,1983,1989,/wiki/M_(James_Bond)#0
+/wiki/M_(James_Bond)#P175#2,media_arts,P175,D/train,Who played M in the James Bond franchise between May 2008 and Nov 2011?,Dame Judi Dench,1995,2012,/wiki/M_(James_Bond)#24
+/wiki/M_(James_Bond)#P175#3,media_arts,P175,D/train,Who acted as M between Aug 2012 and Sep 2012 in James Bond films?,Ralph Fiennes,2012,2013,/wiki/M_(James_Bond)#0
+/wiki/Many_a_Slip_(radio_series)#P449#2,media_arts,P449,D/train,"What was the home station of the radio series, Many a Slip, between Sep 1970 and Nov 1973?",BBC Radio 4,Jul 1969,Dec 1979,/wiki/Many_a_Slip_(radio_series)#8
+/wiki/Marcus_Ericsson#P641#1,sports,P641,D/test,Marcus Ericsson played in which sport between Dec 2009 and 2010?,GP2 Asia,2009,2010,/wiki/Marcus_Ericsson#12
+/wiki/Marcus_Ericsson#P641#3,sports,P641,D/test,Marcus Ericsson played in which sport in Feb 2014?,Formula One,2014,2015,/wiki/Marcus_Ericsson#0
+/wiki/Mark_Levin#P106#1,career,P106,D/test,The main host of the Mark Levin Show worked as what between Dec 2015 and Oct 2016?,editor-in-chief of the Conservative Review,Sep 2015,Feb 2018,/wiki/Mark_Levin#1
+/wiki/Mbaye-Jacques_Diop#P102#0,politics,P102,D/test,Politician Mbaye-Jacques Diop had membership in what party between Oct 1968 and May 1972?,Senegalese Democratic Bloc,1953,2000,/wiki/Mbaye-Jacques_Diop#2
+/wiki/Michael_Cullen_(politician)#P39#0,politics,P39,D/test,What role did New Zealand politician Michael Cullen have before Aug 1989?,MP for the Dunedin electorate of St Kilda,1981,1996,/wiki/Michael_Cullen_(politician)#5
+/wiki/Michael_Cullen_(politician)#P39#3,politics,P39,D/test,New Zealand politician Michael Cullen had what role in Aug 2000?,Deputy Prime Minister,Aug 2002,Nov 2008,/wiki/Michael_Cullen_(politician)#13
+/wiki/Miller_M._Duris#P937#0,career,P937,D/test,Where did American politician Duris work in early 1950s?,Hillsboro,1949,1959,/wiki/Miller_M._Duris#2
+/wiki/Miller_M._Duris#P937#1,career,P937,D/test,In what state did American politician Duris work between Sep 1965 and Feb 1966?,Virginia,1959,1967,/wiki/Miller_M._Duris#2
+/wiki/Miller_M._Duris#P937#2,career,P937,D/test,The American politician Duris worked in which location after Dec 1967?,Hillsboro,1967,1968,/wiki/Miller_M._Duris#2
+/wiki/Minna_Canth#P551#0,person,P551,D/test,Canth lived where between Jan 1860 and Jan 1861?,Kuopio,1852,1863,/wiki/Minna_Canth#3
+/wiki/Minna_Canth#P551#1,person,P551,D/test,Canth lived where in late 1860s?,Jyväskylä,1863,1880,/wiki/Minna_Canth#4
+/wiki/Minna_Canth#P551#2,person,P551,D/test,Canth lived where between Jul 1880 and Oct 1880?,Kuopio,1880,1881,/wiki/Minna_Canth#3
+/wiki/Mission_San_Miguel_Arcángel#P1435#1,place,P1435,D/test,The Mission San Miguel Arcángel had where as its designated heritage spot in early 2000s?,National Register of Historic Places,Jul 1971,Mar 2006,/wiki/Mission_San_Miguel_Arcángel#2
+/wiki/Mission_San_Miguel_Arcángel#P1435#2,place,P1435,D/test,The Mission San Miguel Arcángel had where as its designated heritage spot between Jun 2006 and Dec 2006?,National Historic Landmark,Mar 2006,Mar 2007,/wiki/Mission_San_Miguel_Arcángel#2
+/wiki/Moeslim_Taher#P69#1,career,P69,D/test,Where was the founder of Jayabaya University studied in Jun 1964?,Padjadjaran University,1965,1968,/wiki/Moeslim_Taher#3
+/wiki/Mosby_Monroe_Parsons#P241#2,military,P241,D/train,Which branch of the armed forces did Mosby's Monroe Parsons serve in in Mar 1862?,Confederate States Army,1862,1865,/wiki/Mosby_Monroe_Parsons#4
+/wiki/Myles_Deering#P241#0,military,P241,D/train,Which Reserve branch did General Deering serve in between Feb 1971 and Dec 1972?,United States Army Reserve,1971,1974,/wiki/Myles_Deering#2
+/wiki/Myles_Deering#P241#1,military,P241,D/train,Which state National Guard did Myles Deering belong to in May 1975?,Texas Army National Guard,1974,1977,/wiki/Myles_Deering#2
+/wiki/National_Library_of_Serbia#P1037#0,business,P1037,D/test,Who was one of the managers of the oldest institutional library in Serbia between Sep 1864 and Sep 1865?,Filip Nikolić,1830,1867,/wiki/National_Library_of_Serbia#16
+/wiki/National_Library_of_Serbia#P1037#1,business,P1037,D/test,Which person was the director of the biggest library in Serbia in Apr 2015?,Laslo Blašković,2015,2016,/wiki/National_Library_of_Serbia#18
+/wiki/Nick_Saban#P6087#0,sports,P6087,D/test,American Nicholas Lou Saban Jr. had the coach job for what team between Jan 1995 and Feb 1998?,Michigan State,1995,1999,/wiki/Nick_Saban#13
+/wiki/Nick_Saban#P6087#1,sports,P6087,D/test,American Nicholas Lou Saban Jr. had the coach job for what team in Mar 2003?,LSU,2000,2004,/wiki/Nick_Saban#18
+/wiki/Nick_Saban#P6087#2,sports,P6087,D/test,What team did American Nicholas Lou Saban Jr. have the coach job for in May 2005?,Miami Dolphins,2005,2006,/wiki/Nick_Saban#25
+/wiki/Niigata_Prefecture#P6#0,politics,P6,D/train,Who governed the Niigata Prefecture between Oct 2008 and May 2016?,Hirohiko Izumida,Oct 2004,Oct 2016,/wiki/Niigata_Prefecture#14
+/wiki/Niigata_Prefecture#P6#1,politics,P6,D/train,Who governed the Niigata Prefecture in Apr 2018?,Ryuichi Yoneyama,Oct 2016,Apr 2018,/wiki/Niigata_Prefecture#15
+/wiki/Niigata_Prefecture#P6#2,politics,P6,D/train,Who governed the Niigata Prefecture after Nov 2018?,Hideyo Hanazumi,Jun 2018,Jun 2019,/wiki/Niigata_Prefecture#15
+/wiki/Nikolai_Kuznetsov_(admiral)#P410#1,military,P410,C/train,What military rank did Nikolai Kuznetsov (admiral) have after Jun 1953?,Admiral of the Fleet,May 1953,1956,/wiki/Nikolai_Kuznetsov_(admiral)#18
+/wiki/No._73_Squadron_RAF#P121#0,place,P121,D/test,What was controlling the No. 73 Squadron RAF between Aug 1919 and Sep 1926?,Sopwith Camels,Jul 1917,Mar 1937,/wiki/No._73_Squadron_RAF#10
+/wiki/No._73_Squadron_RAF#P121#5,place,P121,D/test,What was controlling the No. 73 Squadron RAF in Dec 1955?,de Havilland Vampire FB.9、Venom | 9、Venom FB.1s,Sep 1948,Mar 1957,/wiki/No._73_Squadron_RAF#19
+/wiki/Nora_Ephron#P26#2,person,P26,D/test,The American writer Nora Ephron married to who between May 1993 and Feb 2004?,Nicholas Pileggi,1987,2012,/wiki/Nora_Ephron#26
+/wiki/Nyuksensky_District#P36#0,place,P36,D/train,What city served as capital of the administrative Nyuksensky District in Jan 1925?,Nyuksenitsa,Apr 1924,Feb 1928,/wiki/Nyuksensky_District#0
+/wiki/Office_for_Foreign_Relations_and_Information#P6#0,politics,P6,D/test,The Office for Foreign Relations and Information had which person heading it in Jan 1998?,Oldřich Černý,Jul 1994,Aug 1998,/wiki/Office_for_Foreign_Relations_and_Information#7
+/wiki/Oliver_Bulleid#P108#1,career,P108,D/test,The British engineer Oliver Bulleid was an employee of where between Feb 1908 and Oct 1911?,Westinghouse Electric Corporation,1908,1912,/wiki/Oliver_Bulleid#2
+/wiki/Oliver_Bulleid#P108#2,career,P108,D/test,The British engineer Oliver Bulleid was an employee of where in Sep 1921?,GNR,1912,Dec 1922,/wiki/Oliver_Bulleid#3
+/wiki/Oliver_Bulleid#P108#3,career,P108,D/test,The British engineer Oliver Bulleid was an employee of where in early 1930s?,new London and North Eastern Railway,1923,1937,/wiki/Oliver_Bulleid#5
+/wiki/Oliver_Bulleid#P108#6,career,P108,D/test,The British engineer Oliver Bulleid was an employee of where in 1959?,Córas Iompair Éireann,1950,1958,/wiki/Oliver_Bulleid#17
+/wiki/Olivier_Bernard#P54#0,sports,P54,D/test,What football team was Olivier Bernard a member of in Jan 1999?,Olympique Lyonnais,1998,2000,/wiki/Olivier_Bernard#2
+/wiki/Olivier_Bernard#P54#1,sports,P54,D/test,What football team was Olivier Bernard a member of in Apr 2000?,Newcastle United,2000,2005,/wiki/Olivier_Bernard#3
+/wiki/Olivier_Bernard#P54#2,sports,P54,D/test,What football team was Olivier Bernard a member of between Jul 2005 and Nov 2005?,Rangers | Southampton,2005,2006,/wiki/Olivier_Bernard#5 /wiki/Olivier_Bernard#6
+/wiki/Olivier_Bernard#P54#3,sports,P54,D/test,What football team was Olivier Bernard a member of in Jan 2006?,Rangers | Newcastle United,2006,2007,/wiki/Olivier_Bernard#6
+/wiki/Ouagadougou#P17#0,place,P17,D/train,The city of Ouagadougou was located in what country between Jul 1580 and Aug 1848?,Mossi Kingdoms,1500,Sep 1896,/wiki/Ouagadougou#6
+/wiki/Ouagadougou#P17#2,place,P17,D/train,The city of Ouagadougou was located in what country in Jun 1929?,Upper Volta territory,Mar 1919,Sep 1932,/wiki/Ouagadougou#4
+/wiki/Ouagadougou#P17#4,place,P17,D/train,The city of Ouagadougou was located in what country between Nov 1953 and Feb 1955?,Upper Volta,Sep 1947,Dec 1958,/wiki/Ouagadougou#6
+/wiki/Pavel_Nakhimov#P410#0,military,P410,D/train,The Russian Pavel Stepanovich Nakhimov attained the rank of what in the military in late 1820s?,Captain First Rank M.P,Dec 1827,1852,/wiki/Pavel_Nakhimov#6
+/wiki/Pennsylvania_Railroad_class_E44#P137#0,business,P137,D/test,Which railway had favored the use of the Penn Railroad class E44 in Jul 1967?,The Pennsylvania,1960,Jan 1968,/wiki/Pennsylvania_Railroad_class_E44#9
+/wiki/Pennsylvania_Railroad_class_E44#P137#2,business,P137,D/test,Which railway had favored the use of the Penn Railroad class E44 in late 1970s?,Conrail,Apr 1976,1981,/wiki/Pennsylvania_Railroad_class_E44#15
+/wiki/Peter_Beattie#P39#0,politics,P39,D/test,The former Australian politician Peter Beattie held which position in Apr 1993?,Queensland Parliament as MP for Brisbane Central,Dec 1989,1996,/wiki/Peter_Beattie#11
+/wiki/Peter_Beattie#P39#2,politics,P39,D/test,"In feb 1998, what governmental title did the australian politician peter douglas beattie hold?",36th Premier of Queensland,Feb 1998,Feb 1998,/wiki/Peter_Beattie#0
+/wiki/Peter_Beattie#P39#4,politics,P39,D/test,Politician Peter Beattie held what Australian office between Dec 2005 and Jan 2006?,Queensland Parliament as MP for Brisbane Central | 36th Premier of Queensland,Jul 2005,Feb 2006,/wiki/Peter_Beattie#0 /wiki/Peter_Beattie#11
+/wiki/Phil_Twyford#P39#1,politics,P39,D/test,Phil Twyford was elected to what policital role in Mar 2018?,Minister of Housing and Urban Development and the Minister of Transport,Oct 2017,Nov 2018,/wiki/Phil_Twyford#7
+/wiki/Pierre_Gasly#P641#2,sports,P641,D/test,What game did Pierre Gasly take part between Jan 2017 and Jul 2017?,Formula One,2017,2018,/wiki/Pierre_Gasly#15
+/wiki/Pinchas_Zukerman#P26#0,person,P26,D/test,Israeli-American violinist Pinchas Zukerman had what wife in early 1980s?,Eugenia Rich,1968,1985,/wiki/Pinchas_Zukerman#7
+/wiki/Pinchas_Zukerman#P26#1,person,P26,D/test,Israeli-American violinist Pinchas Zukerman was married to what wife between Oct 1993 and Jun 1994?,Tuesday Weld,1985,1998,/wiki/Pinchas_Zukerman#7
+/wiki/Policy_Planning_Staff_(France)#P1037#0,business,P1037,D/test,France's Policy Planning Staff had which person as its manager or director between Mar 1976 and Oct 1977?,Thierry de Montbrial,1974,1978,/wiki/Policy_Planning_Staff_(France)#10
+/wiki/Policy_Planning_Staff_(France)#P1037#1,business,P1037,D/test,France's Policy Planning Staff had which person as its manager or director in early 1980s?,Jean-Louis Gergorin,1979,1984,/wiki/Policy_Planning_Staff_(France)#10
+/wiki/Policy_Planning_Staff_(France)#P1037#2,business,P1037,D/test,France's Policy Planning Staff had which person as its manager or director between Jun 1987 and Nov 1987?,Philippe Coste,1984,1989,/wiki/Policy_Planning_Staff_(France)#10
+/wiki/Policy_Planning_Staff_(France)#P1037#3,business,P1037,D/test,The directorship or managership of France's Policy Planning Staff was by whom between Dec 1989 and Jan 1991?,Jean-Marie Guéhenno,1989,1993,/wiki/Policy_Planning_Staff_(France)#10
+/wiki/Policy_Planning_Staff_(France)#P1037#4,business,P1037,D/test,France's Policy Planning Staff had which person as its manager or director between Oct 1993 and Aug 1994?,Bruno Racine,1993,1995,/wiki/Policy_Planning_Staff_(France)#10
+/wiki/Princess_Victoria_Melita_of_Saxe-Coburg_and_Gotha#P27#0,person,P27,D/test,"What nationality was Princess Victoria, the granddaughter of Queen Victoria of the United Kingdom, in Dec 1893?",British,1893,1894,/wiki/Princess_Victoria_Melita_of_Saxe-Coburg_and_Gotha#1
+/wiki/Province_of_Brandenburg#P17#1,place,P17,D/test,in late 1870s the province of brandenburg belonged to what country ?,Germany,1871,1918,/wiki/Province_of_Brandenburg#1
+/wiki/Pskov#P17#0,place,P17,D/test,Can you name the country did a city in northwestern Russia called Pskov was belonged to in Jul 1335?,Novgorod Republic,1136,1348,/wiki/Pskov#2
+/wiki/Pskov#P17#2,place,P17,D/test,Will you identify the country which was Pskov belong to in early 1910s?,Russian Empire,Oct 1721,Mar 1918,/wiki/Pskov#0
+/wiki/Příbram#P6#4,politics,P6,D/test,The Czech town of Příbram had which person as its chair after Apr 2020?,Jan Konvalinka,May 2019,May 2020,/wiki/Příbram#20
+/wiki/Quim_Torra#P39#0,politics,P39,D/test,Catalan Joaquim Torra i Pla had what titled job before Nov 2015?,OC president,Jul 2015,Dec 2015,/wiki/Quim_Torra#11
+/wiki/Quim_Torra#P39#2,politics,P39,D/test,Catalan Joaquim Torra i Pla had what titled job in Aug 2018?,President of Catalonia,May 2018,May 2019,/wiki/Quim_Torra#17
+/wiki/Reinhard_Scheer#P410#1,military,P410,D/train,What was Reinhard Scheer's title between Apr 1906 and Jul 1906?,Kapitän zur See,1905,1910,/wiki/Reinhard_Scheer#10
+/wiki/Reinhard_Scheer#P410#3,military,P410,D/train,What was Reinhard Scheer's title between Apr 1914 and Oct 1915?,Vizeadmiral,Dec 1913,1916,/wiki/Reinhard_Scheer#12
+/wiki/Reinhard_Scheer#P410#4,military,P410,D/train,What was Reinhard Scheer's title in Jun 1916?,Admiral,1916,1917,/wiki/Reinhard_Scheer#1
+/wiki/Rheidol_(locomotive)#P137#0,business,P137,D/test,The locomotive of Rheidol had which company controlling it between Jun 1897 and Dec 1897?,Plynlimon and Hafan Tramway,1897,1899,/wiki/Rheidol_(locomotive)#0
+/wiki/Rheidol_(locomotive)#P137#1,business,P137,D/test,The locomotive of Rheidol had which company controlling it in Mar 1901?,Vale of Rheidol Railway,1900,Jun 1913,/wiki/Rheidol_(locomotive)#1
+/wiki/Rheidol_(locomotive)#P137#2,business,P137,D/test,The locomotive of Rheidol had which company controlling it in late 1910s?,Vale of Rheidol Railway,Jul 1913,Dec 1921,/wiki/Rheidol_(locomotive)#1
+/wiki/Rheidol_(locomotive)#P137#3,business,P137,D/test,The locomotive of Rheidol had which company controlling it in May 1923?,Vale of Rheidol Railway,1922,1924,/wiki/Rheidol_(locomotive)#1
+/wiki/Richard_Sanderson_(MP)#P39#0,politics,P39,D/test,The MP Richard Sanderson held which political role between Sep 1834 and Oct 1834?,Member of Parliament ( MP ) for Colchester,Dec 1832,Dec 1834,/wiki/Richard_Sanderson_(MP)#6
+/wiki/Richard_Sanderson_(MP)#P39#1,politics,P39,D/test,The MP Richard Sanderson held which political role in Mar 1837?,Member of Parliament ( MP ) for Colchester,Jan 1835,Jul 1837,/wiki/Richard_Sanderson_(MP)#6
+/wiki/Richard_Sanderson_(MP)#P39#2,politics,P39,D/test,The MP Richard Sanderson held which political role after Jun 1843?,Member of Parliament ( MP ),Jul 1837,Jul 1847,/wiki/Richard_Sanderson_(MP)#6
+/wiki/Rio_Grande_class_K-28#P137#2,business,P137,D/test,The Denver and Rio Grande Western K-28 had who controlling it after Sep 1981?,Durango & Silverton,1981,1982,/wiki/Rio_Grande_class_K-28#5
+/wiki/Robert_B._Wilson#P69#1,career,P69,D/test,"between Jan 1962 and Jul 1962, where did wilson attend school?",Harvard Business School,1959,1963,/wiki/Robert_B._Wilson#2
+/wiki/Roger_Moore#P26#0,person,P26,D/test,Roger Moore had which wife between Apr 1946 and Mar 1947?,Doorn Van Steyn,1946,1953,/wiki/Roger_Moore#71
+/wiki/Roger_Moore#P26#1,person,P26,D/test,Roger Moore had which wife in Jul 1966?,Dorothy Squires,1953,1968,/wiki/Roger_Moore#72
+/wiki/Roger_Moore#P26#2,person,P26,D/test,Roger Moore had which wife between Nov 1975 and May 1983?,Luisa Mattioli,1969,1996,/wiki/Roger_Moore#76
+/wiki/Roma_Mitchell#P39#0,politics,P39,D/test,Roma Mitchell had what job between Jun 1981 and Nov 1981?,Justice of the Supreme Court of South Australia,Sep 1965,1983,/wiki/Roma_Mitchell#3
+/wiki/Roma_Mitchell#P39#1,politics,P39,D/test,Roma Mitchell had what job in late 1980s?,Chancellor of the University of Adelaide,1983,1990,/wiki/Roma_Mitchell#5
+/wiki/Rui_Vitória#P108#1,career,P108,D/test,Portuguese Rui Vitória was employed where between Jan 2004 and Oct 2005?,Benfica,2004,2006,/wiki/Rui_Vitória#2
+/wiki/Rui_Vitória#P108#3,career,P108,D/test,Portuguese Rui Vitória was employed where between Jun 2010 and Sep 2010?,Paços de Ferreira,2010,2011,/wiki/Rui_Vitória#3
+/wiki/Rui_Vitória#P108#4,career,P108,D/test,Portuguese Rui Vitória was employed where between Jul 2013 and Apr 2014?,Vitória de Guimarães,2011,2015,/wiki/Rui_Vitória#4
+/wiki/Rui_Vitória#P108#5,career,P108,D/test,Portuguese Rui Vitória was employed where between Oct 2018 and Dec 2018?,Benfica,Jun 2015,Jan 2019,/wiki/Rui_Vitória#5
+/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#P121#0,place,P121,D/train,What routes were run by the Swiss train network between Mar 1962 and May 1963?,Edelweiss | LOiseau Bleu,Jun 1957,May 1964,/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#6
+/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#P121#1,place,P121,D/train,What routes were run by the Swiss train network in Aug 1964?,Edelweiss | LOiseau Bleu,Aug 1964,Aug 1964,/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#6
+/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#P121#3,place,P121,D/train,What routes were run by the Swiss train network between Jan 1971 and Feb 1971?,Bavaria,Sep 1969,Feb 1971,/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#12
+/wiki/SMS_Cormoran_(1909)#P8047#1,business,P8047,D/test,The SMS Cormoran was a merchant raider for what country in Apr 1917?,Germany,Aug 1914,Apr 1917,/wiki/SMS_Cormoran_(1909)#9
+/wiki/Sabine_Hossenfelder#P937#0,career,P937,D/test,Which American higher learning institution did German physicist Sabine Hossenfelder work before Apr 2004?,"University of Arizona , Tucson",2004,2005,/wiki/Sabine_Hossenfelder#2
+/wiki/Sabine_Hossenfelder#P937#1,career,P937,D/test,At which California university did the author and physicist Sabine Hossenfelder work in 2005 to 2006?,"University of California , Santa Barbara",2005,2006,/wiki/Sabine_Hossenfelder#2
+/wiki/Sabine_Hossenfelder#P937#2,career,P937,D/test,"between Feb 2007 and Sep 2007, which Canadian institution employed Sabine Hossenfelder, a well known German physicist?","Perimeter Institute , Canada",2006,2009,/wiki/Sabine_Hossenfelder#2
+/wiki/Sarta#P17#0,place,P17,D/train,The town of Sarta was located in what country in early 1910s?,Palestine,1517,1917,/wiki/Sarta#3
+/wiki/Sarta#P17#1,place,P17,D/train,The town of Sarta was located in what country in Sep 1922?,British Mandate authorities,1917,1948,/wiki/Sarta#6
+/wiki/Sarta#P17#2,place,P17,D/train,The town of Sarta was located in what country between Nov 1948 and Sep 1956?,Jordanian,1948,1967,/wiki/Sarta#7
+/wiki/Sarta#P17#3,place,P17,D/train,The town of Sarta was located in what country between Apr 1979 and Oct 1992?,Israeli,1967,1994,/wiki/Sarta#8
+/wiki/Sarta#P17#4,place,P17,D/train,The town of Sarta was located in what country between Oct 1994 and Nov 1994?,Barkan,1994,1995,/wiki/Sarta#8
+/wiki/Shelter_Island_(Hong_Kong)#P17#1,place,P17,D/test,To which dependent territory of the British Empire did the known Cantonese island belong to between Jul 1911 and Aug 1928?,Colony of Hong Kong,1898,Jun 1997,/wiki/Shelter_Island_(Hong_Kong)#3
+/wiki/Sokołowsko#P17#0,place,P17,D/train,The village and traditional climatic health resort Sokolowsko belonged to which nation between Oct 1424 and Aug 1482?,Bohemian kingdom,1392,1525,/wiki/Sokołowsko#5
+/wiki/Sokołowsko#P17#1,place,P17,D/train,The traditional climatic health resort Sokolowsko was owned by what nation between Mar 1643 and Aug 1826?,Prussia,1526,1870,/wiki/Sokołowsko#5
+/wiki/Sokołowsko#P17#2,place,P17,D/train,What nation did the climatic health resort Sokolowsko belong to in late 1870s?,Germany,1871,May 1945,/wiki/Sokołowsko#0
+/wiki/Sokołowsko#P17#3,place,P17,D/train,What country owned the health resort Sokolowsko in Mar 1946?,Poland,May 1945,May 1946,/wiki/Sokołowsko#0
+/wiki/Sovremennik#P123#2,media_arts,P123,D/train,"Who became the third publisher of ""Sovremennik,"" a Russian literary, social and political magazine, after Oct 1851?",Nikolay Nekrasov,1846,1866,/wiki/Sovremennik#2
+"/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#P1435#1",place,P1435,D/test,St Bartholomew's Anglican Church and Cemetery had where as its heritage designated site between May 1999 and Oct 1999?,St Bartholomews Anglican Church and Cemetery,Apr 1999,Apr 2000,"/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#0"
+/wiki/Stephen_C._West#P463#0,career,P463,D/test,Which association or organisation did British biochemist Stephen C. West join in 1995?,Royal Society,1995,1995,/wiki/Stephen_C._West#17
+/wiki/Steve_Sidwell#P54#0,sports,P54,D/test,English footballer Steve Sidwell was part of what team between Nov 2001 and Dec 2001?,Brentford,2001,2002,/wiki/Steve_Sidwell#4
+/wiki/Steve_Sidwell#P54#1,sports,P54,D/test,What team had English footballer Steve Sidwell on it in Jul 2002?,Brighton & Hove Albion,2002,2003,/wiki/Steve_Sidwell#1
+/wiki/Steve_Sidwell#P54#2,sports,P54,D/test,English footballer Steve Sidwell was part of what team between Aug 2006 and Dec 2006?,Reading,2003,2007,/wiki/Steve_Sidwell#6
+/wiki/Steve_Sidwell#P54#3,sports,P54,D/test,English footballer Steve Sidwell was part of what team between Dec 2007 and 2008?,Chelsea,2007,2008,/wiki/Steve_Sidwell#12
+/wiki/Steve_Sidwell#P54#4,sports,P54,D/test,What team had English footballer Steve Sidwell on it in Feb 2009?,Aston Villa,2008,2011,/wiki/Steve_Sidwell#15
+/wiki/Svea_Air_Corps#P4791#0,military,P4791,C/dev,Who commanded Svea Air Corps before Mar 1940?,Georg Gärdin,1940,1941,/wiki/Svea_Air_Corps#11
+/wiki/Sven_Wollter#P26#2,person,P26,D/test,Which Swedish journalist was writer Sven Wollter married to between Dec 2003 and Dec 2003?,Lisa Wede,2003,2004,/wiki/Sven_Wollter#7
+/wiki/Svetogorsk#P17#2,place,P17,D/test,The industrial town of Svetogorsk was a part of what republic in Dec 1940?,Karelian Autonomous Soviet Socialist Republic,Mar 1940,Aug 1941,/wiki/Svetogorsk#4
+/wiki/Svetogorsk#P17#3,place,P17,D/test,The industrial town of Svetogorsk was a part of what nationality between Jun 1944 and Jul 1944?,Finns,Aug 1941,Sep 1944,/wiki/Svetogorsk#5
+/wiki/Sydney_Trains_C_set#P137#0,business,P137,D/test,The Sydney Trains C set had which depot or depots controlling it in late 1980s?,Mortdale Maintenance Depot | Hornsby Maintenance Depot | Punchbowl Maintenance Depot,Jul 1986,Dec 2003,/wiki/Sydney_Trains_C_set#5
+/wiki/The_Allegory_of_Faith#P195#1,media_arts,P195,D/train,Vermeer's painting of The Allegory of Faith had ownership by who or what between Jun 1923 and Nov 1926?,Museum Boijmans Van Beuningen,1923,1928,/wiki/The_Allegory_of_Faith#28
+/wiki/The_Allegory_of_Faith#P195#3,media_arts,P195,D/train,Johannes Vermeer's painting of The Allegory of Faith enjoyed ownership by who or what in Jul 1931?,Metropolitan Museum of Art,1931,1932,/wiki/The_Allegory_of_Faith#29
+/wiki/The_Athenaeum_(British_magazine)#P98#0,media_arts,P98,D/train,Who was the editor of the British literary magazine The Athenaeum before May 1868?,William Hepworth Dixon,1868,1869,/wiki/The_Athenaeum_(British_magazine)#2
+/wiki/The_Cycle_(talk_show)#P371#0,media_arts,P371,D/train,Who hosted the talk show The Cycle in Nov 2012?,Krystal Ball | Steve Kornacki | S . E . Cupp,Apr 2012,Apr 2013,/wiki/The_Cycle_(talk_show)#5
+/wiki/The_Cycle_(talk_show)#P371#1,media_arts,P371,D/train,Who hosted the talk show The Cycle in Apr 2013?,Krystal Ball | S . E . Cupp | Ari Melber,Apr 2013,Jun 2013,/wiki/The_Cycle_(talk_show)#5 /wiki/The_Cycle_(talk_show)#6
+/wiki/The_Cycle_(talk_show)#P371#2,media_arts,P371,D/train,Who hosted the talk show The Cycle from in Jun 2013?,Krystal Ball | Touré | Ari Melber,Jun 2013,Jun 2013,/wiki/The_Cycle_(talk_show)#5 /wiki/The_Cycle_(talk_show)#6
+/wiki/The_Cycle_(talk_show)#P371#3,media_arts,P371,D/train,Who hosted the talk show The Cycle after Jun 2014?,Abby Huntsman | Krystal Ball | Ari Melber,Jul 2013,Jul 2014,/wiki/The_Cycle_(talk_show)#5 /wiki/The_Cycle_(talk_show)#6 /wiki/The_Cycle_(talk_show)#8
+/wiki/The_Fifer#P127#0,business,P127,D/test,Manet's painting of The Fifer had which person in ownership of it in Jul 1872?,Durand-Ruell,1872,1873,/wiki/The_Fifer#5
+/wiki/The_Fifer#P127#1,business,P127,D/test,Édouard Manet's painting of The Fifer had what person in ownership of it in early 1890s?,Jean-Baptiste Faure,1873,1893,/wiki/The_Fifer#5
+/wiki/The_Fifer#P127#2,business,P127,D/test,Manet's painting of The Fifer had which person owning it in May 1893?,Durand-Ruell,1893,1894,/wiki/The_Fifer#5
+/wiki/The_Fifer#P127#3,business,P127,D/test,French artist's Édouard Manet's painting of The Fifer had what person in ownership of it between Dec 1905 and Jan 1908?,the Count Isaac de Camondo,1894,1911,/wiki/The_Fifer#6
+/wiki/The_Fifer#P127#4,business,P127,D/test,Édouard Manet's painting of The Fifer had which person in ownership of it after Mar 1911?,the French government,1911,1912,/wiki/The_Fifer#6
+/wiki/Tingmissartoq#P608#0,media_arts,P608,D/train,At which museum was the Lockheed Model 8 Sirius flown by Charles and Anne Morrow Lindbergh in the 1930s exhibited before Jan 1954?,American Museum of Natural History,1954,1955,/wiki/Tingmissartoq#12
+/wiki/Tingmissartoq#P608#1,media_arts,P608,D/train,At which museum was the Lockheed Model 8 Sirius flown by the Lindberghs shown in Dec 1957?,National Museum of the United States Air Force,1955,1959,/wiki/Tingmissartoq#12
+/wiki/Tingmissartoq#P608#2,media_arts,P608,D/train,At which museum was the Lockheed Model 8 Sirius flown by Charles and Anne Morrow Lindbergh in the 1930s on display in Apr 1959?,Smithsonian Institution,1959,1960,/wiki/Tingmissartoq#12
+/wiki/Tommy_Bolin#P463#0,career,P463,D/test,What musical group did Tommy Bolin join in 1975?,Deep Purple,1975,1975,/wiki/Tommy_Bolin#10
+/wiki/Tommy_Bolin#P463#1,career,P463,D/test,What was the name of the musical group that tommy bolin joined in 1969?,Zephyr,1969,1969,/wiki/Tommy_Bolin#3
+/wiki/Tommy_Flowers#P800#0,media_arts,P800,D/train,What was the best notable work by Tommy Flowers in Feb 1942?,Heath Robinson,1942,1943,/wiki/Tommy_Flowers#5
+/wiki/Tommy_Flowers#P800#2,media_arts,P800,D/train,Where was the work did by Tommy Flowers in Dec 1957?,ERNIE,1957,1958,/wiki/Tommy_Flowers#16
+/wiki/Twelfth_Air_Force#P4791#0,military,P4791,C/train,Who was the commander of Twelfth Air Force between Jan 1943 and Feb 1943?,Jimmy Doolittle,Sep 1942,Mar 1943,/wiki/Twelfth_Air_Force#18
+/wiki/Twelfth_Air_Force#P4791#4,military,P4791,C/train,Who was the commander of Twelfth Air Force between Jun 1945 and Aug 1945?,Charles T . Myers,May 1945,Aug 1945,/wiki/Twelfth_Air_Force#44
+/wiki/UD_Las_Palmas#P286#0,sports,P286,D/test,"The Spanish football team Unión Deportiva Las Palmas, S.A.D. was coached by whom between Jan 2014 and Apr 2014?",Paco Herrera,2014,2015,/wiki/UD_Las_Palmas#20
+/wiki/UD_Las_Palmas#P286#2,sports,P286,D/test,Which person was the coach of the Las Palmas team UD Las Palmas between Apr 2017 and May 2017?,Paco Jémez,2017,2018,/wiki/UD_Las_Palmas#18
+/wiki/UD_Las_Palmas#P286#3,sports,P286,D/test,"Which person was the top coach for the Spanish football team Unión Deportiva Las Palmas, S.A.D. between Nov 2018 and Nov 2018?",Manolo Jiménez,Jul 2018,Nov 2018,/wiki/UD_Las_Palmas#20
+/wiki/UD_Las_Palmas#P286#4,sports,P286,D/test,"Who was the top coach for the Spanish football team Unión Deportiva Las Palmas, S.A.D. in Jan 2019?",Paco Herrera,Nov 2018,Mar 2019,/wiki/UD_Las_Palmas#20
+/wiki/UD_Las_Palmas#P286#5,sports,P286,D/test,Who led the Spanish UD Las Palmas as coach between May 2019 and Sep 2019?,Pepe Mel,Mar 2019,Mar 2020,/wiki/UD_Las_Palmas#20
+/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#P159#0,business,P159,D/test,USAFE-AFAFRICA had which location as its headquarters in Jan 1942?,"Savannah Army Air Base , Georgia",Jan 1942,May 1942,/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#4
+/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#P159#2,business,P159,D/test,USAFE-AFAFRICA had which location as its headquarters between Sep 1942 and Jun 1944?,Bushy Park,Jun 1942,Sep 1944,/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#5
+/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#P159#3,business,P159,D/test,USAFE-AFAFRICA had which location as its headquarters in Feb 1945?,United States Strategic Air Forces in Europe,Sep 1944,Sep 1945,/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#2
+/wiki/VP-25#P1448#1,person,P1448,D/test,What was the U.S. Navy VP-25 officially called between Aug 1945 and Apr 1946?,Patrol Bombing Squadron 25 ( VPB-25 ),Oct 1944,May 1946,/wiki/VP-25#0
+/wiki/VP-25#P1448#2,person,P1448,D/test,What was the official title given to the U.S. Navy's VP-25 in Aug 1946?,VP-25,May 1946,Nov 1946,/wiki/VP-25#12
+/wiki/VP-29#P1448#1,person,P1448,D/test,Which name was officially given to the U.S. Navy's VP-29 in May 1938?,Patrol Squadron 14,Sep 1937,Jul 1939,/wiki/VP-29#0
+/wiki/VP-29#P1448#4,person,P1448,D/test,Which name was officially given to the U.S. Navy's VP-29 between Mar 1945 and May 1945?,Patrol Bombing Squadron 122,Oct 1944,May 1946,/wiki/VP-29#0
+/wiki/VP-29#P1448#5,person,P1448,D/test,Which name was officially given to the U.S. Navy's VP-29 in Jul 1946?,Patrol Squadron 122,May 1946,Nov 1946,/wiki/VP-29#0
+/wiki/VP-29#P1448#6,person,P1448,D/test,Which name was officially given to the U.S. Navy's VP-29 between Jun 1947 and Nov 1947?,Heavy Patrol Squadron ( Landplane ) 12,Nov 1946,Sep 1948,/wiki/VP-29#0
+/wiki/VP-42#P1448#0,person,P1448,D/test,What was the official name of the VP-42 Patrol Squadron in May 1944?,Patrol Squadron 22 ( VP-22,Apr 1944,Oct 1944,/wiki/VP-42#0
+/wiki/VP-42#P1448#2,person,P1448,D/test,What was the VP-42 Patrol Squadron officially named between Sep 1946 and Oct 1946?,Patrol Squadron 22 ( VP-22 ),May 1946,Nov 1946,/wiki/VP-42#0
+/wiki/VP-42#P1448#4,person,P1448,D/test,What was the VP-42 Patrol Squadron officially named between Jan 1952 and Mar 1969?,Patrol Squadron 42 ( VP-42 ),Sep 1948,Sep 1969,/wiki/VP-42#0
+/wiki/Vasudeva_Nanayakkara#P102#0,politics,P102,D/test,The politician Nanayakkara was a member of what party between Jan 1960 and Dec 1962?,Lanka Sama Samaja Party,1958,1977,/wiki/Vasudeva_Nanayakkara#1
+/wiki/Vasudeva_Nanayakkara#P102#3,politics,P102,D/test,"between Sep 1999 and Dec 1999, the member of Parliament Vasudeva Nanayakkara was part of which party?",Democratic Left Front,1999,2000,/wiki/Vasudeva_Nanayakkara#6
+/wiki/Vice_President_of_Afghanistan#P1308#1,politics,P1308,D/train,Who was Afghanistan's Vice President between Apr 2020 and Jun 2020?,Sarwar Danish,Feb 2020,Feb 2021,/wiki/Vice_President_of_Afghanistan#0
+/wiki/Vuk_Drašković#P102#1,politics,P102,D/test,Vuk Drašković is a member of which Serbian government group between Feb 1990 and Mar 1990?,Serbian National Renewal Party,Jan 1990,Mar 1990,/wiki/Vuk_Drašković#10 /wiki/Vuk_Drašković#11
+/wiki/Walt_Disney's_Comics_and_Stories#P123#0,media_arts,P123,D/train,The American anthology comic book by the name of Walt Disney's Comics and Stories had who publishing it between Sep 1950 and Jul 1952?,Dell Comics,1940,1962,/wiki/Walt_Disney's_Comics_and_Stories#2
+/wiki/Walt_Disney's_Comics_and_Stories#P123#1,media_arts,P123,D/train,The anthology comic book by the name of Walt Disney's Comics and Stories had what publishing it in late 1960s?,Gold Key Comics,1962,1984,/wiki/Walt_Disney's_Comics_and_Stories#2
+/wiki/Walt_Disney's_Comics_and_Stories#P123#2,media_arts,P123,D/train,The American comic book by the name of Walt Disney's Comics and Stories had who publishing it in late 1980s?,Gladstone Publishing,1986,1990,/wiki/Walt_Disney's_Comics_and_Stories#2
+/wiki/Walt_Disney's_Comics_and_Stories#P123#3,media_arts,P123,D/train,The American anthology of Walt Disney's Comics and Stories had who publishing it in Nov 1991?,Disney Comics,1990,1993,/wiki/Walt_Disney's_Comics_and_Stories#2
+/wiki/Walt_Disney's_Comics_and_Stories#P123#4,media_arts,P123,D/train,The American anthology of Walt Disney's Comics and Stories had what publishing it in Jan 1994?,Gladstone Publishing,1993,1999,/wiki/Walt_Disney's_Comics_and_Stories#2
+/wiki/Walter_Veltroni#P102#0,politics,P102,D/test,"Italian writer, film director, journalist, and politician Veltroni was a member of which party before Jul 1975?",Italian Communist Youth Federation,1975,1976,/wiki/Walter_Veltroni#2
+/wiki/Walter_Veltroni#P102#3,politics,P102,D/test,"in Feb 2005, Walter Veltroni OMRI was a part of which political party?",Democrats of the Left,Feb 1998,Oct 2007,/wiki/Walter_Veltroni#4
+"/wiki/Wellington,_Somerset#P17#2",place,P17,D/test,The Somerset town of Wellington was part of which country between Apr 1836 and Aug 1843?,United Kingdom,1801,Dec 1923,"/wiki/Wellington,_Somerset#28"
+/wiki/Werner_Hartenstein#P410#2,military,P410,D/train,What military rank did Werner Hartenstein hold between Jan 1930 and Oct 1931?,Fähnrich zur See,1930,Mar 1932,/wiki/Werner_Hartenstein#6
+/wiki/Western_Military_District_(Sweden)#P4791#3,military,P4791,C/train,Who commanded Western Military District (Sweden) in Feb 1954?,Sven Colliander,1951,1955,/wiki/Western_Military_District_(Sweden)#15
+/wiki/Wheel_of_Fortune_(American_game_show)#P371#1,media_arts,P371,D/train,"In dec 1981, who became the host of the wheel of fortune?",Pat Sajak,Dec 1981,Dec 1981,/wiki/Wheel_of_Fortune_(American_game_show)#0
+/wiki/Wheel_of_Fortune_(American_game_show)#P371#2,media_arts,P371,D/train,Who was the host and hostess on wheel of fortune during dec 1981?,Pat Sajak | Susan Stafford,Dec 1981,1982,/wiki/Wheel_of_Fortune_(American_game_show)#0 /wiki/Wheel_of_Fortune_(American_game_show)#2
+/wiki/William_B._Umstead#P39#1,politics,P39,D/test,What become the placement of William B. Umstead between Jan 1928 and Dec 1928?,solicitor,1927,1933,/wiki/William_B._Umstead#3
+/wiki/William_B._Umstead#P39#4,politics,P39,D/test,What become the placement of William B. Umstead after Jul 1954?,Governor of North Carolina,Jan 1953,Nov 1954,/wiki/William_B._Umstead#0
+/wiki/William_Enyart#P241#0,military,P241,D/train,William Enyart belong to what military branch between Nov 1970 and Jun 1972?,U.S . Air Force,1969,1973,/wiki/William_Enyart#3
+/wiki/World_Athletics#P1448#0,person,P1448,D/test,The international governing body called World Athletics had which title officially in Jun 1975?,the International Amateur Athletic Federation ( IAAF ),Jul 1912,2001,/wiki/World_Athletics#2
+/wiki/World_Athletics#P1448#1,person,P1448,D/test,The international governing body called World Athletics had which title officially in late 2000s?,the International Association of Athletics Federations,2001,2019,/wiki/World_Athletics#5
+/wiki/World_Athletics#P1448#2,person,P1448,D/test,The international governing body called World Athletics had which title officially between Sep 2019 and Nov 2019?,World Athletics,2019,2020,/wiki/World_Athletics#5
+/wiki/Writing-on-Stone_Provincial_Park#P1435#1,place,P1435,D/test,The Canadian Writing-on-Stone Provincial Park had what as its designated heritage spot in Aug 2019?,Writing-on-Stone,Jul 2019,Jul 2020,/wiki/Writing-on-Stone_Provincial_Park#1
+/wiki/Young_Union#P488#1,business,P488,D/test,The Junge Union Deutschlands was headed by what person in Dec 1968?,Egon Klepsch,1963,1969,/wiki/Young_Union#8
+/wiki/Young_Union#P488#2,business,P488,D/test,The Junge Union Deutschlands was chaired by what person between Dec 1969 and Oct 1970?,Jürgen Echternach,1969,1973,/wiki/Young_Union#8

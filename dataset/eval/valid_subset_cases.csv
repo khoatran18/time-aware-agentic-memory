@@ -1,0 +1,401 @@
+idx,domain,relation,source,question_hard,targets,time_start,time_end,gold_chunk_ids
+/wiki/ACES_Colombia#P121#0,place,P121,D/train,What kind of plane was flown by ACES Colombia in May 1992?,ATR 42 turbo-prop aircraft,Dec 1991,Nov 1997,/wiki/ACES_Colombia#4
+/wiki/ACES_Colombia#P121#2,place,P121,D/train,What kind of plane was flown by ACES Colombia in Mar 2001?,ATR 42-500,Feb 2000,Aug 2003,/wiki/ACES_Colombia#12
+/wiki/ACES_Colombia#P121#3,place,P121,D/train,What kind of plane was flown by ACES Colombia after Aug 2004?,42-500,Aug 2003,Jan 2005,/wiki/ACES_Colombia#12
+/wiki/Affari_tuoi#P371#0,media_arts,P371,D/train,"Who hosted the Italian game show, Affari tuoi, between Sep 2003 and Nov 2004?",Paolo Bonolis,2003,2005,/wiki/Affari_tuoi#1
+/wiki/Affari_tuoi#P371#1,media_arts,P371,D/train,"Who hosted the Italian game show, Affari tuoi, between Jun 2005 and Jul 2005?",Pupo,2005,2006,/wiki/Affari_tuoi#1
+/wiki/Affari_tuoi#P371#2,media_arts,P371,D/train,"Who hosted the Italian game show, Affari tuoi, between Mar 2006 and Apr 2006?",Flavio Insinna,2006,2008,/wiki/Affari_tuoi#1
+/wiki/Affari_tuoi#P371#3,media_arts,P371,D/train,"Who hosted the Italian game show, Affari tuoi, in Jan 2011?",Max Giusti,2008,2013,/wiki/Affari_tuoi#1
+/wiki/Air_Armament_Center#P1448#0,person,P1448,D/test,What official name did the Air Armament Center have in Nov 1942?,Army Air Forces School of Applied Tactics,Oct 1942,Oct 1943,/wiki/Air_Armament_Center#3
+/wiki/Air_Armament_Center#P1448#2,person,P1448,D/test,What official name did the Air Armament Center have in Oct 1945?,Army Air Forces Center,Jun 1945,Mar 1946,/wiki/Air_Armament_Center#3
+/wiki/Air_Armament_Center#P1448#4,person,P1448,D/test,The Air Armament Center had been officially named what between Feb 1947 and May 1947?,Air Proving Ground Command,Jul 1946,Jan 1948,/wiki/Air_Armament_Center#5
+/wiki/Air_Armament_Center#P1448#6,person,P1448,D/test,What official name did the Air Armament Center have in Oct 1952?,Air Proving Ground Command,Dec 1951,Dec 1957,/wiki/Air_Armament_Center#5
+/wiki/Air_Armament_Center#P1448#7,person,P1448,D/test,The Air Armament Center had been officially named what between Nov 1960 and Jul 1968?,Air Proving Ground Center,Dec 1957,Aug 1968,/wiki/Air_Armament_Center#10
+/wiki/Alan_Baró#P54#0,sports,P54,D/train,Which soccer club did Alan Baro Calabuig play for between Mar 2005 and Oct 2005?,CF Peralada,2005,2006,/wiki/Alan_Baró#1
+/wiki/Alan_Baró#P54#1,sports,P54,D/train,Which soccer club did Spanish soccer player Alan Baro play for in Oct 2006?,Alicante CF,2006,2009,/wiki/Alan_Baró#1
+/wiki/Alan_Baró#P54#2,sports,P54,D/train,Which professional soccer club did Alan Baro play for between Oct 2009 and Nov 2009?,their reserves,2009,2010,/wiki/Alan_Baró#2
+/wiki/Alan_Baró#P54#3,sports,P54,D/train,Which professional soccer club did Alan Baro Calabuig play for between Apr 2010 and Jun 2010?,Albacete Balompié,2010,2011,/wiki/Alan_Baró#4
+/wiki/Alan_Baró#P54#4,sports,P54,D/train,Did professional Spanish soccer Alan Baro Calbuid play for which soccer club in Sep 2011?,SD Ponferradina,2011,2012,/wiki/Alan_Baró#5
+/wiki/Alex_McLeish#P6087#0,sports,P6087,D/test,Scotland's Alex McLeish had the job of coach for what team between Sep 1994 and Aug 1996?,Motherwell,Jul 1994,Feb 1998,/wiki/Alex_McLeish#15
+/wiki/Alex_McLeish#P6087#1,sports,P6087,D/test,Scotland's Alex McLeish had the job of coach for what team between Nov 1999 and Nov 2000?,Hibernian,Feb 1998,Dec 2001,/wiki/Alex_McLeish#16
+/wiki/Alex_McLeish#P6087#2,sports,P6087,D/test,Scotland's Alex McLeish had the job of coach for what team between Feb 2003 and Jul 2005?,Rangers,Dec 2001,May 2006,/wiki/Alex_McLeish#19
+/wiki/Alex_McLeish#P6087#4,sports,P6087,D/test,Scotland's Alex McLeish had the job of coach for what team in Dec 2008?,Birmingham City,Nov 2007,Jun 2011,/wiki/Alex_McLeish#32
+/wiki/Alex_McLeish#P6087#6,sports,P6087,D/test,Scotland's Alex McLeish had the job of coach for what team in Dec 2012?,Nottingham Forest,Dec 2012,Feb 2013,/wiki/Alex_McLeish#43
+/wiki/Alexander_Imich#P27#2,person,P27,D/test,What country did the Polish-American zoologist Imich hold citizenship in in late 1950s?,United States,1952,2014,/wiki/Alexander_Imich#6
+/wiki/Alfred_Drury#P937#0,career,P937,D/train,What city did Alfred Drury work in in Aug 1882?,Paris,1881,1885,/wiki/Alfred_Drury#2
+/wiki/Alfred_Drury#P937#1,career,P937,D/train,What city did Alfred Drury work in between Oct 1911 and Feb 1933?,London,1885,1944,/wiki/Alfred_Drury#2
+/wiki/Alliance_of_Small_Island_States#P488#1,business,P488,D/test,The intergovernmental Alliance of Small Island States had which person chairing it between Aug 1999 and Apr 2001?,Tuiloma Neroni Slade,1997,2002,/wiki/Alliance_of_Small_Island_States#24
+/wiki/Amber_Diceless_Roleplaying_Game#P123#0,media_arts,P123,D/train,Name the company that published Amber Diceless Roleplaying Game before Nov 1992?,Phage Press,1991,1994,/wiki/Amber_Diceless_Roleplaying_Game#4
+/wiki/Amber_Diceless_Roleplaying_Game#P123#1,media_arts,P123,D/train,Who was the publisher of the Amber Dceless game between May 1994 and Jun 1994?,Jeux Descartes,1994,1995,/wiki/Amber_Diceless_Roleplaying_Game#8
+/wiki/Amber_Diceless_Roleplaying_Game#P123#2,media_arts,P123,D/train,The Amber Diceless Roleplaying Game was published by who between Sep 2004 and Aug 2005?,Guardians of Order,2004,2006,/wiki/Amber_Diceless_Roleplaying_Game#9
+/wiki/Anna_Karina#P26#1,person,P26,D/train,What was the name of Anna Karina's significant other between Mar 1968 and Nov 1968?,Pierre Fabre,1968,1974,/wiki/Anna_Karina#27
+/wiki/Anna_Karina#P26#2,person,P26,D/train,"in Aug 1979, what man was the husband of Anna Karina?",Daniel Duval,1978,1981,/wiki/Anna_Karina#27
+/wiki/Anna_Karina#P26#3,person,P26,D/train,Anna Karina had a spouse by what name in early 2010s?,Dennis Berry,1982,2019,/wiki/Anna_Karina#27
+/wiki/Anna_Ter-Avetikian#P27#0,person,P27,D/train,What cititzenship did Anna Tigranovna Ter-Avetikian hold in Feb 1912?,Russian Empire,Oct 1908,Nov 1920,/wiki/Anna_Ter-Avetikian#1
+/wiki/Anna_Ter-Avetikian#P27#1,person,P27,D/train,What was the nationality of Anna Tigranovna Ter-Avetikian between Apr 1929 and Aug 1981?,Armenian Soviet Socialist Republic,Nov 1920,Aug 1991,/wiki/Anna_Ter-Avetikian#9
+/wiki/Anna_Ter-Avetikian#P27#2,person,P27,D/train,What was the nationality of Anna Tigranovna Ter-Avetikian between Apr 2005 and Aug 2012?,Republic of Armenia,Aug 1991,Jan 2013,/wiki/Anna_Ter-Avetikian#9
+/wiki/Arnolfini_Portrait#P127#0,business,P127,D/test,Who owned the Portrait of Giovanni Arnolfini and his Wife between Jun 1515 and Oct 1515?,Diego de Guevara | Carlos II,1515,1516,/wiki/Arnolfini_Portrait#55 /wiki/Arnolfini_Portrait#60
+/wiki/Arnolfini_Portrait#P127#1,business,P127,D/test,Which Habsburg ruler owned The Arnolfini Marriage in Feb 1518?,Carlos II,1516,1530,/wiki/Arnolfini_Portrait#60
+/wiki/Arnolfini_Portrait#P127#2,business,P127,D/test,Which queen did the The Arnolfini Marriage belong to in early 1550s?,Mary of Hungary | Carlos II,1530,1558,/wiki/Arnolfini_Portrait#58 /wiki/Arnolfini_Portrait#60
+/wiki/Arnolfini_Portrait#P127#3,business,P127,D/test,Which ruler of the Spanish empire owned the oil painting The Arnolfini Portrait between May 1652 and May 1680?,Carlos II,1558,1700,/wiki/Arnolfini_Portrait#60
+/wiki/Arnolfini_Portrait#P127#4,business,P127,D/test,Which colonel did the oil painting The Arnolfini Portrait by Jan van Eyck belong to between Oct 1814 and Jan 1819?,Colonel James Hay,1813,1828,/wiki/Arnolfini_Portrait#61
+/wiki/Atlético_Madrid#P286#1,sports,P286,D/test,Who was football team Atletico Madrid's coach in early 1950s?,Helenio Herrera,Jul 1949,Jan 1953,/wiki/Atlético_Madrid#16
+/wiki/Atlético_Madrid#P286#3,sports,P286,D/test,Who was football team Atletico Madrid's coach between Oct 1999 and Mar 2000?,Radomir Antić,Jul 1999,Mar 2000,/wiki/Atlético_Madrid#35
+/wiki/Atlético_Madrid#P286#4,sports,P286,D/test,Who was football team Atletico Madrid's coach between Sep 2008 and Dec 2008?,Javier Aguirre,2006,2009,/wiki/Atlético_Madrid#44
+/wiki/Atlético_Madrid#P286#6,sports,P286,D/test,Who was football team Atletico Madrid's coach in Jan 2011?,Quique,Oct 2009,May 2011,/wiki/Atlético_Madrid#49
+/wiki/Atlético_Madrid#P286#7,sports,P286,D/test,Who was football team Atletico Madrid's coach between Aug 2011 and Oct 2011?,Gregorio Manzano,Jun 2011,Dec 2011,/wiki/Atlético_Madrid#53
+/wiki/Attaphol_Buspakom#P54#2,sports,P54,D/test,Buspakom was a member of what sports team in Dec 1992?,Port F.C | Thailand national football team,1991,1994,/wiki/Attaphol_Buspakom#0 /wiki/Attaphol_Buspakom#10
+/wiki/B.o.B#P264#0,media_arts,P264,D/train,Tell me B.o.B's record label between May 2006 and Aug 2006?,Rebel Rock,2006,2008,/wiki/B.o.B#0
+/wiki/B.o.B#P264#1,media_arts,P264,D/train,B.o.B's record label was what between Feb 2011 and Aug 2012?,Atlantic Records | Rebel Rock,2008,2014,/wiki/B.o.B#0
+/wiki/B.o.B#P264#2,media_arts,P264,D/train,Name the record label that B.o.B belong to between Jan 2014 and Dec 2014?,No Genre | Rebel Rock,2014,2015,/wiki/B.o.B#0 /wiki/B.o.B#25
+/wiki/B.o.B#P264#3,media_arts,P264,D/train,What record label did B.o.B was part of in 2015?,Atlantic Records | Rebel Rock,2015,2015,/wiki/B.o.B#0
+/wiki/B.o.B#P264#4,media_arts,P264,D/train,Can you name the record label that B.o.B was signed to after Apr 2015?,No Genre,2015,2016,/wiki/B.o.B#25
+/wiki/Bayerisches_Armeemuseum#P1037#0,business,P1037,D/train,Who was the director of the Military History Museum of Bavaria between Sep 1973 and Mar 1976?,Peter Jaeckel,1972,1979,/wiki/Bayerisches_Armeemuseum#4
+/wiki/Bayerisches_Armeemuseum#P1037#1,business,P1037,D/train,Who was the director of the Military History Museum of Bavaria in Jul 1999?,Ernst Aichner,1979,2010,/wiki/Bayerisches_Armeemuseum#5
+/wiki/Bayerisches_Armeemuseum#P1037#2,business,P1037,D/train,Who was the director of the Military History Museum of Bavaria between Mar 2010 and Jul 2010?,Ansgar Reiß,2010,2011,/wiki/Bayerisches_Armeemuseum#19
+/wiki/Big_Brother_(Swedish_TV_series)#P449#1,media_arts,P449,D/train,"What broadcaster aired the Swedish TV series ""Big Brother"" between Feb 2012 and May 2012?",TV11,Feb 2011,Jun 2012,/wiki/Big_Brother_(Swedish_TV_series)#1
+/wiki/Big_Brother_(Swedish_TV_series)#P449#3,media_arts,P449,D/train,"Who was the broadcaster for the hit Swedish TV series known as ""Big Brother"" in the Oct 2015 to Oct 2016 timeframe?",Kanal 11,Oct 2015,Oct 2016,/wiki/Big_Brother_(Swedish_TV_series)#1
+/wiki/Brad_Wenstrup#P69#0,career,P69,D/train,In which school did the U.S. Representative for Ohio's 2nd congressional district Wenstrup attend between Aug 1975 and Sep 1975?,St . Xavier High School in Cincinnati,1975,1976,/wiki/Brad_Wenstrup#3
+/wiki/Brad_Wenstrup#P69#1,career,P69,D/train,American Republican politician Mr. Wenstrup studied in which high school in 1976?,St . Xavier High School,1976,1976,/wiki/Brad_Wenstrup#3
+/wiki/Brad_Wenstrup#P69#2,career,P69,D/train,Which institution did podiatrist Dr. Wenstrup enroll in late 1970s?,Scholl College of Podiatric Medicine,1976,1985,/wiki/Brad_Wenstrup#3
+/wiki/British_Rail_Class_15#P176#1,business,P176,D/train,Which company developed and manufactured the British Railways Class 15 in Dec 1960?,Yorkshire Engine Company | Clayton Equipment Company,1959,1961,/wiki/British_Rail_Class_15#0
+/wiki/Carl_Eric_Almgren#P39#0,politics,P39,D/train,"In the period of time in Dec 1960, what role did captain Carl Almgren's son take?",commander of Jämtland Ranger Regiment,1960,1961,/wiki/Carl_Eric_Almgren#8
+/wiki/Carl_Eric_Almgren#P39#1,politics,P39,D/train,"Regarding the man who was appointed captain of Västernorrland Regiment (I 21) in 1949, what military position did he hold between Sep 1963 and Feb 1966?",Chief of the Defence Staff,1961,1967,/wiki/Carl_Eric_Almgren#9
+/wiki/Carl_Eric_Almgren#P39#2,politics,P39,D/train,"In the stretch of time between Apr 1967 and Oct 1967, what job did Lisa Salomonsson's husband take?",military commander of the Eastern Military District | Commandant General in Stockholm,1967,1969,/wiki/Carl_Eric_Almgren#9
+/wiki/Carl_Eric_Almgren#P39#3,politics,P39,D/train,What military rank did General Almgren of the Swedish Army assume between Jul 1970 and Aug 1972?,Chief of the Army,1969,1976,/wiki/Carl_Eric_Almgren#9
+/wiki/Carles_Puigdemont#P1416#0,career,P1416,D/train,Pro-Catalan-independence Carles Puigdemont led which electoral alliance before Sep 2015?,Junts pel Sí ( JxSí ) electoral alliance,Jul 2015,Nov 2017,/wiki/Carles_Puigdemont#18
+/wiki/Carrier_Air_Wing_Seven#P1448#0,person,P1448,D/train,Who was officially named Carrier Air Group Eighteen between Jan 1944 and May 1946?,Carrier Air Group Eighteen,Jul 1943,Nov 1946,/wiki/Carrier_Air_Wing_Seven#3
+/wiki/Carrier_Air_Wing_Seven#P1448#2,person,P1448,D/train,Who was officially named Carrier Air Group Seven between Dec 1963 and Dec 1963?,Carrier Air Group Seven,Sep 1948,Dec 1963,/wiki/Carrier_Air_Wing_Seven#4
+/wiki/Carrier_Air_Wing_Seven#P1448#3,person,P1448,D/train,Who was officially named Carrier Air Wing Seven after Jan 1964?,Carrier Air Wing Seven,Dec 1963,Dec 1964,/wiki/Carrier_Air_Wing_Seven#0
+/wiki/Chelyabinsk#P17#0,place,P17,D/train,What nation owned the city of Chelyabinsk between Oct 1900 and Aug 1910?,Russia,1736,Dec 1922,/wiki/Chelyabinsk#0
+/wiki/Chemnitz#P6#1,politics,P6,D/train,Which German writer was the leader of the city of Saxony in Eastern Germany between Aug 1976 and Mar 1986?,Dieter Noll,1990,1991,/wiki/Chemnitz#35
+/wiki/Chemnitz#P6#2,politics,P6,D/train,Who learned the trade of machine fitter before rising to the head of leadership in a city in Eastern Germany in Jun 1992?,Joachim Pilz,1991,1993,/wiki/Chemnitz#35
+/wiki/Chemnitz#P6#3,politics,P6,D/train,Who rules as the head of the parliamentary council in well known city in Eastern Germany in early 2000s?,Peter Seifert,1993,2006,/wiki/Chemnitz#35
+/wiki/Chemnitz#P6#4,politics,P6,D/train,Who was the female politician who would eventually become mayor of a city in Eastern Germany in Dec 2006?,Barbara Ludwig,2006,2007,/wiki/Chemnitz#35
+/wiki/Choi_Yoo-jung_(singer)#P463#2,career,P463,D/train,Can you name the organization or association that Choi Yoo-jung joined in 2018?,WJMK,2018,2018,/wiki/Choi_Yoo-jung_(singer)#9
+/wiki/City_of_Rocks_National_Reserve#P1435#0,place,P1435,D/train,"In the Silent City of Rocks, in May 1966, what area was the heritage designation?",Section 36 within City of Rocks,Jul 1964,Oct 1966,/wiki/City_of_Rocks_National_Reserve#17
+/wiki/City_of_Rocks_National_Reserve#P1435#1,place,P1435,D/train,"In the national reserve adjacent to Castle Rocks State Park, what site was designated a National Historic Landmark in Dec 1967?",Idaho Department of Parks and Recreation,Oct 1966,1974,/wiki/City_of_Rocks_National_Reserve#17
+/wiki/City_of_Rocks_National_Reserve#P1435#2,place,P1435,D/train,"after Nov 1974, which location marked the heritage designation in the state park in south-central Idaho that is known for granite rock formations and rock climbing?",National Natural Landmark,1974,1975,/wiki/City_of_Rocks_National_Reserve#17
+/wiki/Conrad_Theodor_van_Deventer#P551#0,person,P551,D/train,Where was van Deventer's residence between Sep 1896 and Dec 1896?,Dutch East Indies,1896,1897,/wiki/Conrad_Theodor_van_Deventer#9
+/wiki/Curt_von_François#P1416#0,career,P1416,D/train,What condition affected Curt von Francois before Nov 1067?,South West Africa,1889,Mar 1891,/wiki/Curt_von_François#4
+/wiki/DSB_class_D#P176#0,business,P176,D/train,What company produced the DSB class D train before Apr 1902?,Henschel | Sächsische Maschinenfabrik | Berliner Maschinenbau,1902,1906,/wiki/DSB_class_D#4
+/wiki/David_Jolly#P69#1,career,P69,D/train,What university did House of Representatives member Jolly learn at in 1990?,Emory University,1990,1990,/wiki/David_Jolly#2
+/wiki/David_Jolly#P69#2,career,P69,D/train,"In the stretch of time after Nov 1996, in which academic institution was Carrie Jolly's husband enrolled?",George Mason University School of Law,1994,2001,/wiki/David_Jolly#2
+/wiki/Dennis_Quaid#P26#0,person,P26,D/train,Deninis Quaid was married to who between Aug 1978 and May 1982?,P . J . Soles,1978,1983,/wiki/Dennis_Quaid#12
+/wiki/Dennis_Quaid#P26#1,person,P26,D/train,Dennis Quaid spouse is who between Dec 1991 and Feb 1995?,Meg Ryan,1991,2001,/wiki/Dennis_Quaid#13
+/wiki/Dennis_Quaid#P26#2,person,P26,D/train,Tell me the spouse of Dennis Quaid in early 2010s?,Kimberly Buffington,2004,2016,/wiki/Dennis_Quaid#14
+/wiki/Dixie_State_University#P1448#0,person,P1448,D/train,What was the formal name of Dixie State University in Dec 1911?,St . George Stake Academy,1911,1913,/wiki/Dixie_State_University#2
+/wiki/Dixie_State_University#P1448#2,person,P1448,D/train,What was the formal name of Dixie state university in May 1918,Dixie Normal College,1916,1923,/wiki/Dixie_State_University#6
+/wiki/Dixie_State_University#P1448#3,person,P1448,D/train,What was the formal name of Dixie State university in Jun 1927,Dixie Junior College,1923,1970,/wiki/Dixie_State_University#6
+/wiki/Dixie_State_University#P1448#4,person,P1448,D/train,What was the executive name of Dixie State university between May 1994 and Oct 1998?,Dixie College,1970,2000,/wiki/Dixie_State_University#2
+/wiki/Dixie_State_University#P1448#6,person,P1448,D/train,What was named as Dixie state university formally after Nov 2013?,Dixie State University,2013,2014,/wiki/Dixie_State_University#0
+/wiki/EMD_SDP40F#P137#0,business,P137,D/train,What train company ran model EMD SDP40F trains between Nov 1973 and Oct 1983?,Amtrak,1973,1985,/wiki/EMD_SDP40F#10
+/wiki/Edward_Adolf_Sonnenschein#P108#0,career,P108,D/train,Which classical scholar worked for W . Swan Sonnenschein & Allen between May 1878 and Dec 1878?,W . Swan Sonnenschein & Allen,1878,1881,/wiki/Edward_Adolf_Sonnenschein#6
+/wiki/Edward_Adolf_Sonnenschein#P108#1,career,P108,D/train,Which classical scholar worked for Mason College in late 1880s?,Mason College,1883,1890,/wiki/Edward_Adolf_Sonnenschein#1
+/wiki/Eleni_Theocharous#P102#1,politics,P102,D/train,Eleni Theocharous belonged to what political party in Nov 2016?,Solidarity Movement,Nov 2015,Nov 2016,/wiki/Eleni_Theocharous#4
+"/wiki/Engels,_Saratov_Oblast#P1376#2",place,P1376,D/train,"What was the name of the capital of Engels, Saratov Oblast after Oct 2005?",Engels,Dec 2004,Dec 2005,"/wiki/Engels,_Saratov_Oblast#0"
+/wiki/Escadron_de_Chasse_1/2_Cigognes#P121#1,place,P121,D/train,What type of planes were flown by Escadron de Chasse 1/2 Cigognes in Mar 1944?,Supermarine Spitfire,1944,1947,/wiki/Escadron_de_Chasse_1/2_Cigognes#8
+/wiki/Escadron_de_Chasse_1/2_Cigognes#P121#4,place,P121,D/train,What type of planes were flown by Escadron de Chasse 1/2 Cigognes in Nov 1955?,Dassault MD 450 Ouragan | Dassault Mystère IVAs,1953,1956,/wiki/Escadron_de_Chasse_1/2_Cigognes#9
+/wiki/Escadron_de_Chasse_1/2_Cigognes#P121#5,place,P121,D/train,What type of planes were flown by Escadron de Chasse 1/2 Cigognes between Nov 1959 and Nov 1960?,Dassault Mystère IVAs | Mirage IIIC,1956,1961,/wiki/Escadron_de_Chasse_1/2_Cigognes#9
+/wiki/Escadron_de_Chasse_1/2_Cigognes#P121#6,place,P121,D/train,What type of planes were flown by Escadron de Chasse 1/2 Cigognes between Dec 1965 and Nov 1967?,Mirage IIIC | Mirage IIIE,1961,1968,/wiki/Escadron_de_Chasse_1/2_Cigognes#9
+/wiki/Escadron_de_Chasse_1/2_Cigognes#P121#7,place,P121,D/train,What type of planes were flown by Escadron de Chasse 1/2 Cigognes in early 1980s?,Mirage IIIE | Dassault Mirage 2000C,1968,1984,/wiki/Escadron_de_Chasse_1/2_Cigognes#9 /wiki/Escadron_de_Chasse_1/2_Cigognes#10
+/wiki/Esther_Ayuso#P551#0,person,P551,D/train,Esther Ayuso had her home in which city in Aug 1970?,Belize City,1958,1980,/wiki/Esther_Ayuso#2
+/wiki/Esther_Ayuso#P551#1,person,P551,D/train,The architect Ayuso called which country home in Feb 1989?,Venezuela,1983,1992,/wiki/Esther_Ayuso#3
+/wiki/Esther_Ayuso#P551#2,person,P551,D/train,Ayuso was living in which country between Jan 1992 and Dec 1992?,Belize,1992,1993,/wiki/Esther_Ayuso#4
+/wiki/European_Central_Bank#P488#1,business,P488,D/test,Who headed the ECB central bank between Jun 2010 and Oct 2011?,Jean-Claude Trichet,Nov 2003,Oct 2011,/wiki/European_Central_Bank#9
+/wiki/Evandro_Brandão#P54#2,sports,P54,D/test,What team did the Angolan footballer Evandro Brandão play for between Oct 2013 and Nov 2013?,Tondela,2013,2014,/wiki/Evandro_Brandão#7
+/wiki/Exchange_and_Provost#P1435#1,place,P1435,D/train,What was The Exchange designed as between Aug 1974 and Nov 1974?,National Historic Landmark,Nov 1973,Nov 1974,/wiki/Exchange_and_Provost#0
+/wiki/Expobank_CZ#P127#3,business,P127,D/train,The financial institution within the Expobank Group had whom as its top stakeholder after Jan 2014?,Igor Kim,2014,2015,/wiki/Expobank_CZ#0
+/wiki/FC_BATE_Borisov#P286#0,sports,P286,D/train,Who was the first manager of FC BATE Borisov between Feb 1996 and Aug 1998 after the club was re-established?,Yuri Puntus,1996,2004,/wiki/FC_BATE_Borisov#10
+/wiki/FC_BATE_Borisov#P286#1,sports,P286,D/train,Who coached FC BATE Borisov team in Dec 2005 when they won their first domestic cup?,Igor Kriushenko,2004,Nov 2007,/wiki/FC_BATE_Borisov#10
+/wiki/FC_BATE_Borisov#P286#2,sports,P286,D/train,Who managed the professional Belarusian football team from the city of Barysaw in late 2000s?,Viktor Goncharenko,Nov 2007,2013,/wiki/FC_BATE_Borisov#10
+/wiki/FC_BATE_Borisov#P286#4,sports,P286,D/train,Who managed the FC BATE Borisov team between Jun 2018 and Jun 2018?,Oleg Dulub,2018,Jun 2018,/wiki/FC_BATE_Borisov#10
+/wiki/FC_BATE_Borisov#P286#5,sports,P286,D/train,What is the name of the person who managed the FC BATE Borisov team between Jul 2018 and Nov 2018?,Alyaksey Baha,Jun 2018,2019,/wiki/FC_BATE_Borisov#10
+/wiki/FC_Flora#P286#0,sports,P286,D/test,The Estonian team of Flora Tallinn had which coach before Mar 2013?,Marko Lelov,Oct 2012,Jul 2013,/wiki/FC_Flora#12
+/wiki/FC_Flora#P286#1,sports,P286,D/test,The Estonian team of Flora Tallinn had which head coach between Apr 2017 and Oct 2017?,Argo Arbeiter,Jan 2017,Dec 2017,/wiki/FC_Flora#13
+/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#P1308#0,politics,P1308,D/train,Germany's Federal Commissioner for Data Protection and Freedom of Information was held by what person between Dec 1979 and Nov 1982?,Hans Peter Bull,Feb 1978,May 1983,/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6
+/wiki/Federation_of_the_Greens#P488#0,business,P488,D/train,The Federation of the Greens had what chair between Sep 1995 and Dec 1996?,Franco Corleone,Apr 1993,Jan 1997,/wiki/Federation_of_the_Greens#3
+/wiki/Federation_of_the_Greens#P488#1,business,P488,D/train,What was the name of the chair of the Federation of the Greens in Jun 1997?,Massimo Scalia,Jan 1997,Jul 1999,/wiki/Federation_of_the_Greens#1
+/wiki/Federation_of_the_Greens#P488#2,business,P488,D/train,What was the name of the President of the Federation of the Greens between Nov 2000 and Apr 2001?,Grazia Francescato,Jul 1999,Dec 2001,/wiki/Federation_of_the_Greens#7 /wiki/Federation_of_the_Greens#8
+/wiki/Federation_of_the_Greens#P488#3,business,P488,D/train,What was the President of Federation of the Greens between Nov 2004 and Feb 2008?,Alfonso Pecoraro Scanio,Dec 2001,Jul 2008,/wiki/Federation_of_the_Greens#6
+/wiki/Federation_of_the_Greens#P488#4,business,P488,D/train,What was the name of the President of the Federation of the Greens between Jun 2010 and Oct 2010?,Angelo Bonelli,Oct 2009,Oct 2010,/wiki/Federation_of_the_Greens#0
+/wiki/Fergie_(singer)#P264#0,media_arts,P264,D/train,The American musician known as Fergie had signed onto which music company in Mar 2015?,Interscope Records,2008,2017,/wiki/Fergie_(singer)#25
+/wiki/Fernand_Braudel#P108#0,career,P108,D/test,"between Feb 1924 and Oct 1928, who was fernand braudel working for?",University of Algiers,1923,1932,/wiki/Fernand_Braudel#3
+/wiki/Flatiron_Building#P1435#0,place,P1435,D/train,What was the building originally known as the Fuller Building designated between Nov 1969 and Sep 1978?,National Historic Landmark,Sep 1966,Nov 1979,/wiki/Flatiron_Building#3
+/wiki/Flatiron_Building#P1435#1,place,P1435,D/train,Which national register was the building formerly known as the Fuller Building added to between May 1983 and Aug 1986?,National Register of Historic Places,Nov 1979,Jun 1989,/wiki/Flatiron_Building#2
+/wiki/Flatiron_Building#P1435#2,place,P1435,D/train,What was the Flatiron Building located in Manhattan designed as rin Apr 1990?,National Historic Landmark,Jun 1989,Jun 1990,/wiki/Flatiron_Building#3
+/wiki/Florence#P1376#4,place,P1376,D/train,The seat of government of Florence was located in where in Aug 1856?,Grand Dukes of Tuscany,1807,Mar 1860,/wiki/Florence#8 /wiki/Florence#9
+/wiki/Florida_Gators_women's_lacrosse#P118#2,sports,P118,D/train,The Gators team played for what league between Jun 2019 and Jul 2019?,American Athletic Conference,Jul 2018,Jul 2019,/wiki/Florida_Gators_women's_lacrosse#0
+/wiki/Francis_H._Case#P106#0,career,P106,D/train,"What job did Mr. Case hold at the Daily Journal in Rapid City, South Dakota before Nov 1924?",editor,1920,1925,/wiki/Francis_H._Case#2
+/wiki/GCR_Class_11E#P137#0,business,P137,D/train,which railway had favored the use of 4 to 4-0 steam locomotive GCR Class 11E between Nov 1913 and Oct 1922?,Great Central Railway,1913,Dec 1922,/wiki/GCR_Class_11E#0
+/wiki/GCR_Class_11E#P137#1,business,P137,D/train,which railway had favored the use of 4 to 4-0 steam locomotive GCR Class 11E in Jan 1933?,Great Central Railway,1923,Dec 1947,/wiki/GCR_Class_11E#0
+/wiki/GCR_Class_11E#P137#2,business,P137,D/train,which railway had favored the use of 4 to 4-0 steam locomotive GCR Class 11E in Nov 1953?,Great Central Railway,1948,1955,/wiki/GCR_Class_11E#0
+/wiki/GER_Class_S69#P137#0,business,P137,D/test,The Great Eastern Railway Class S69 had who operating it before Apr 1914?,The Great Eastern Railway,1911,Dec 1922,/wiki/GER_Class_S69#0
+"/wiki/GER_Classes_S46,_D56_and_H88#P137#1",business,P137,D/test,"The locomotives GER Classes S46, D56 and H88 had who operating them between Jan 1941 and Nov 1943?",London & North Eastern Railway,1922,Dec 1947,"/wiki/GER_Classes_S46,_D56_and_H88#16"
+/wiki/Galatasaray_S.K._(football)#P286#3,sports,P286,D/test,The football team Galatasaray S.K. were head coached by which person in Jun 1912?,Emin Bülent Serdaroğlu,1911,1914,/wiki/Galatasaray_S.K._(football)#8
+/wiki/Galatasaray_S.K._(football)#P286#4,sports,P286,D/test,The football team Galatasaray S.K. were head coached by which person in Aug 1916?,Ali Sami Yen,1916,1917,/wiki/Galatasaray_S.K._(football)#42
+/wiki/Gamvik#P6#2,politics,P6,D/train,Name the person in charged of the municipality of Gamvik between Sep 2019 and Dec 2019?,Alf Normann Hansen,2019,2020,/wiki/Gamvik#9
+/wiki/Georgetown_Car_Barn#P466#0,place,P466,D/train,What company had offices in Georgetown Car Barn before May 1902?,Capital Traction Company,1875,1933,/wiki/Georgetown_Car_Barn#0
+/wiki/Gerhard_Schröder#P26#1,person,P26,D/test,Who was the woman to whom the future German chancellor Gerhard Schröder married in Jun 1982?,Anne Taschenmacher,1972,1984,/wiki/Gerhard_Schröder#78
+/wiki/Gerhard_Schröder#P26#2,person,P26,D/test,"in Oct 1993, chairman of the SPD Hanover district Mr. Schröder was married to what woman?",Hiltrud Hampel,1984,1997,/wiki/Gerhard_Schröder#78
+/wiki/Gerhard_Schröder#P26#4,person,P26,D/test,The former Hannover 96 Supervisory Board Chairman was married to whom in Nov 2018?,Kim So-yeon,May 2018,May 2019,/wiki/Gerhard_Schröder#78
+/wiki/Gleaston_Castle#P127#3,business,P127,D/train,"What was the name of the English aristocrat, the fifth in his line, that owned Gleaston Castle in Jan 1453?","William Harington , 5th Baron Harington",1418,1458,/wiki/Gleaston_Castle#6
+/wiki/Gordon_W._McKay#P551#2,person,P551,D/train,"after Sep 1980, the Republican senator from Oregon Gordon W. McKay called what city his home?",Bend,1950,1990,/wiki/Gordon_W._McKay#9
+/wiki/Graham_Potter#P6087#0,sports,P6087,D/test,The English pro football manager Graham Potter coached what team before Aug 2010?,Östersund,2010,2018,/wiki/Graham_Potter#5
+/wiki/Graham_Potter#P6087#1,sports,P6087,D/test,The former footballer Graham Potter coached which team between Apr 2018 and Aug 2018?,Swansea City,2018,2019,/wiki/Graham_Potter#9
+/wiki/Graham_Potter#P6087#2,sports,P6087,D/test,The football manager Graham Stephen Potter was the coach of which team after May 2019?,Brighton & Hove Albion,2019,2020,/wiki/Graham_Potter#14
+/wiki/Guy_Whittingham#P54#2,sports,P54,D/train,The football player Guy Whittingham signed for which football club in Oct 1993?,Aston Villa,1993,1994,/wiki/Guy_Whittingham#1
+/wiki/HMAS_Cairns_(J183)#P137#0,business,P137,D/test,The corvette HMAS Cairns (J183) had who operating it in Sep 1945?,Royal Australian Navy,Jan 1945,Jan 1946,/wiki/HMAS_Cairns_(J183)#5
+/wiki/HMAS_Cairns_(J183)#P137#1,business,P137,D/test,The corvette HMAS Cairns (J183) had who operating it in late 1940s?,Royal Netherlands Navy,Jan 1946,Apr 1950,/wiki/HMAS_Cairns_(J183)#9
+/wiki/HMAS_Cairns_(J183)#P137#2,business,P137,D/test,The corvette HMAS Cairns (J183) had who operating it in Jan 1951?,Indonesian Navy,Apr 1950,Apr 1951,/wiki/HMAS_Cairns_(J183)#10
+/wiki/HMAS_Cairns_(J183)#P8047#1,business,P8047,D/train,"What was the country of registry for HMAS Cairns (J183), one of 60 Bathurst-class corvettes constructed during World War II, in Apr 1946?",Netherlands,Jan 1946,Apr 1950,/wiki/HMAS_Cairns_(J183)#9
+/wiki/Han_dynasty#P36#3,place,P36,D/train,"In the time period between Nov 214 and Sep 215, where was the capital in the dynasty that was briefly interrupted by the Xin Dynasty?",Xuchang,196,220,/wiki/Han_dynasty#66
+/wiki/Harry_Holtzman#P937#1,career,P937,D/test,Where did Harry Holtzman work in Jan 1948?,Institute for General Semantics,1947,1950,/wiki/Harry_Holtzman#15
+/wiki/Healy_Hall#P1435#0,place,P1435,D/train,What special status was Healy Hall granted between Mar 1971 and May 1971?,District of Columbia Inventory of Historic Sites,May 1967,May 1971,/wiki/Healy_Hall#12
+/wiki/Helmut_Lang_(fashion_brand)#P127#1,business,P127,D/train,"in Nov 1999, which 2 top fashion brands owned the Austrian fashion brand Helmut Lang?",Prada | Helmut Lang,1999,2004,/wiki/Helmut_Lang_(fashion_brand)#0 /wiki/Helmut_Lang_(fashion_brand)#3
+/wiki/Helsingin_Jalkapalloklubi#P286#0,sports,P286,D/train,Who primarily coached the Finnish football team Helsingin Jalkapalloklubi in Nov 2013?,Sixten Boström,2013,2014,/wiki/Helsingin_Jalkapalloklubi#51
+/wiki/Helsingin_Jalkapalloklubi#P286#1,sports,P286,D/train,Who primarily coached the Finnish football team Helsingin Jalkapalloklubi in Oct 2016?,Mika Lehkosuo,2014,2019,/wiki/Helsingin_Jalkapalloklubi#52
+/wiki/Helsingin_Jalkapalloklubi#P286#2,sports,P286,D/train,Who primarily coached the Finnish football team Helsingin Jalkapalloklubi between Nov 2019 and Dec 2019?,Toni Koskela,2019,2020,/wiki/Helsingin_Jalkapalloklubi#52
+/wiki/Helsingin_Sanomat#P98#0,media_arts,P98,D/train,Who was the editor for the largest subscription newspaper in Finland in May 2010?,Mikael Pentikäinen,2010,2013,/wiki/Helsingin_Sanomat#3
+/wiki/Helsingin_Sanomat#P98#1,media_arts,P98,D/train,The largest subscription newspaper in Finland employed who as its editor between Jan 2013 and Mar 2013?,Kaius Niemi,2013,May 2013,/wiki/Helsingin_Sanomat#3
+/wiki/Hildegarde_Naughton#P39#1,politics,P39,D/train,What was the position of Irish politician Hildegarde Naughton between Jul 2017 and Nov 2019?,Teachta Dála,Mar 2016,Jan 2020,/wiki/Hildegarde_Naughton#0
+/wiki/Hildegarde_Naughton#P39#2,politics,P39,D/train,What position did Irish Fine Gael politician Naughton assume after Jan 2021?,Minister of State,Feb 2020,Feb 2021,/wiki/Hildegarde_Naughton#0
+/wiki/Igor_Grabar#P937#0,career,P937,D/train,Igor Emmanuilovich Grabar was employed in what city in Jun 1889?,Saint Petersburg,1889,1896,/wiki/Igor_Grabar#11
+/wiki/Igor_Grabar#P937#1,career,P937,D/train,"In the time period in Nov 1899, where did Russian post-impressionist painter Grabar work?",Munich,1896,1901,/wiki/Igor_Grabar#15
+/wiki/Igor_Grabar#P937#2,career,P937,D/train,Russian historian of art Igor Grabar had a job after May 1906 in what city?,Moscow,1903,1960,/wiki/Igor_Grabar#22
+/wiki/Ingrid_Schaffner#P108#0,career,P108,D/train,Schaffner had which University job in Jun 2007?,Chief Curator at the Institute of Contemporary Art at the University of Pennsylvania,2000,2015,/wiki/Ingrid_Schaffner#2
+/wiki/International_Association_for_Political_Science_Students#P159#2,business,P159,D/train,Where was the headquarters of the IAPSS again relocated to after Jul 2013?,Nijmegen,May 2013,May 2014,/wiki/International_Association_for_Political_Science_Students#3
+/wiki/International_Mathematical_Union#P488#1,business,P488,D/test,The IMU was chaired by which person between Mar 1960 and Jan 1961?,Rolf Nevanlinna,1959,1962,/wiki/International_Mathematical_Union#8
+/wiki/International_Mathematical_Union#P488#2,business,P488,D/test,The IMU was chaired by which person in Jun 1964?,Georges de Rham,1963,1966,/wiki/International_Mathematical_Union#23
+/wiki/International_Mathematical_Union#P488#3,business,P488,D/test,The IMU was chaired by which person in Feb 1969?,Henri Cartan,1967,1970,/wiki/International_Mathematical_Union#23
+/wiki/International_Mathematical_Union#P488#4,business,P488,D/test,The IMU was chaired by which person between Mar 1973 and Dec 1973?,K . S . Chandrasekharan,1971,1974,/wiki/International_Mathematical_Union#24
+/wiki/International_Mathematical_Union#P488#5,business,P488,D/test,The IMU was chaired by which person in Aug 1975?,Deane Montgomery,1975,1978,/wiki/International_Mathematical_Union#23
+/wiki/James_Lanier#P551#0,person,P551,D/train,What was the place of residence of James Lanier in Apr 633?,"Beaufort County , North Carolina",18,1800,/wiki/James_Lanier#1
+/wiki/James_Lanier#P551#1,person,P551,D/train,James Lanier resided where in late 1800s?,"Beaufort County , North Carolina | Bourbon county Kentucky | Eaton Ohio",1800,1817,/wiki/James_Lanier#1
+/wiki/James_Lanier#P551#2,person,P551,D/train,Tell me the place where James Lanier resided between Oct 1826 and May 1839?,"Madison , Indiana | New York",1817,1851,/wiki/James_Lanier#1 /wiki/James_Lanier#7
+/wiki/James_Lanier#P551#3,person,P551,D/train,What city did James Lanier reside after Oct 1851?,New York,1851,1852,/wiki/James_Lanier#7
+/wiki/James_Marape#P102#0,politics,P102,D/train,James marape was part of what political part in Nov 2005?,Peoples Progress Party,2002,2007,/wiki/James_Marape#3
+/wiki/James_Marape#P102#2,politics,P102,D/train,James marape was a member of what political part in Jan 2016?,Peoples National Congress,2012,2019,/wiki/James_Marape#5
+/wiki/James_Marape#P102#3,politics,P102,D/train,James Marape was associated with which political party in 2019 until 2020?,Pangu Party,2019,2020,/wiki/James_Marape#10
+/wiki/James_Parmentier#P937#0,career,P937,D/train,Which famous French painter worked in London between Sep 1679 and Jan 1693?,London,1676,1695,/wiki/James_Parmentier#0
+/wiki/James_Parmentier#P937#2,career,P937,D/train,Which famous French painter worked in Hull between May 1720 and Nov 1720?,Hull,1701,1721,/wiki/James_Parmentier#3
+/wiki/James_Parmentier#P937#3,career,P937,D/train,Which famous French painter worked in the Netherlands between Jul 1721 and Oct 1723?,London,1721,1730,/wiki/James_Parmentier#0
+/wiki/Jan_Anthonie_Coxie#P937#0,career,P937,D/test,The Flemish man Jan Anthonie Coxie worked where in Jan 1702?,Amsterdam,1699,1703,/wiki/Jan_Anthonie_Coxie#4
+/wiki/Jan_Anthonie_Coxie#P937#1,career,P937,D/test,The painter named Jan Anthonie Coxie worked in what place in early 1700s?,Berlin,1705,1708,/wiki/Jan_Anthonie_Coxie#6
+/wiki/Jan_Anthonie_Coxie#P937#2,career,P937,D/test,Where did portrait painter jan anthonie coxie work in Feb 1719?,Milan | Lombardia,1713,1720,/wiki/Jan_Anthonie_Coxie#7
+/wiki/John_Campbell_Brown#P108#0,career,P108,D/test,From which university John Campbell Brown was an employee before Mar 1993 ?,University of Glasgow,1968,1996,/wiki/John_Campbell_Brown#5
+/wiki/John_Campbell_Brown#P108#1,career,P108,D/test,For which university did ohn campbell brown work during the year 1996 to 1998?,University of Edinburgh,1996,1998,/wiki/John_Campbell_Brown#5 /wiki/John_Campbell_Brown#6
+/wiki/John_Campbell_Brown#P108#2,career,P108,D/test,For wgich university did ohn campbell brown work as an employer during the year 1998 to 2019?,University of Aberdeen,1998,2019,/wiki/John_Campbell_Brown#6
+/wiki/John_J._Pettus#P39#0,politics,P39,D/train,What was John Pettus' job between Dec 1847 and Feb 1853?,represented Kemper County in the Mississippi House of Representatives,1844,Jan 1854,/wiki/John_J._Pettus#4
+/wiki/John_J._Pettus#P39#1,politics,P39,D/train,What was John Pettus' job in 1854?,Governor of Mississippi,Jan 1854,Jan 1854,/wiki/John_J._Pettus#0
+/wiki/John_J._Pettus#P39#2,politics,P39,D/train,What was John Pettus' job after Jul 1861?,Governor of Mississippi,Nov 1859,Nov 1863,/wiki/John_J._Pettus#0
+/wiki/John_Plumbe#P106#1,career,P106,D/train,Tell me John Plube's profession between May 1839 and Nov 1839?,advocate for a trans-contintental railroad,1836,1840,/wiki/John_Plumbe#2
+/wiki/Jon_Gruden#P69#1,career,P69,D/train,Which two schools did the 2002 to 2008 head coach of the Tampa Bay Buccaneers attend after Aug 1984?,Muskingum College | University of Dayton,1982,1985,/wiki/Jon_Gruden#3
+/wiki/Joseph_Chaikov#P937#4,career,P937,D/train,Will you find out the working location after Jul 1978 of Joseph Moisevich Chaikov?,Moscow,1923,1979,/wiki/Joseph_Chaikov#3
+/wiki/KF_Skënderbeu_Korçë#P286#0,sports,P286,D/train,Which person was the head coach of the Albanian professional football club KF Skënderbeu Korçë in Jun 2018?,Ilir Daja,2017,Jun 2018,/wiki/KF_Skënderbeu_Korçë#57
+/wiki/KF_Skënderbeu_Korçë#P286#1,sports,P286,D/train,Who was the head coach of the Korçë football club KF Skënderbeu Korçë in Dec 2018?,Orges Shehi,Jul 2018,2019,/wiki/KF_Skënderbeu_Korçë#57
+/wiki/KF_Skënderbeu_Korçë#P286#2,sports,P286,D/train,Which person who currently manages Partizani coached KF Skënderbeu Korçë in Mar 2019?,Ilir Daja,2019,2020,/wiki/KF_Skënderbeu_Korçë#57
+/wiki/Knox_Cunningham#P39#0,politics,P39,D/train,What political position did Knox Cunningham held onto between Feb 1956 and Mar 1956?,Ulster Unionist MP for South Antrim,May 1955,Apr 1956,/wiki/Knox_Cunningham#5
+/wiki/Knox_Cunningham#P39#1,politics,P39,D/train,Knox Cunningham held what political position between May 1956 and Sep 1956?,delegate to the Council of Europe and Western European Union Parliamentary Assembly,Apr 1956,Oct 1956,/wiki/Knox_Cunningham#5
+/wiki/Knox_Cunningham#P39#2,politics,P39,D/train,What political job did Knox Cunningham held to in Feb 1958?,delegate to the Council of Europe and Western European Union Parliamentary Assembly | Parliamentary Private Secretary to Jocelyn Simon,Apr 1957,Apr 1959,/wiki/Knox_Cunningham#5
+/wiki/Knox_Cunningham#P39#3,politics,P39,D/train,What was the position that Knox Cunningham held in Feb 1960?,Parliamentary Private Secretary,Oct 1959,Sep 1964,/wiki/Knox_Cunningham#6
+/wiki/LB&amp;SCR_E4_class#P137#0,business,P137,D/train,Who operated the LB&SCR E4 class before May 1914?,Brighton Works,1897,Dec 1922,/wiki/LB&amp;SCR_E4_class#4
+/wiki/LB&amp;SCR_E4_class#P137#1,business,P137,D/train,Name the railway operator of LB&SCR E4 class in late 1920s?,Southern Railway,1923,Dec 1947,/wiki/LB&amp;SCR_E4_class#4
+/wiki/LB&amp;SCR_E4_class#P137#2,business,P137,D/train,What railway operated the LB&SCR E4 class in May 1950?,British Railways,1948,1963,/wiki/LB&amp;SCR_E4_class#5
+/wiki/La_Fortaleza#P1435#0,place,P1435,D/train,what is the heritage name of La Fortaleza in Jan 1965,United States National Historic Landmark,Oct 1960,Oct 1966,/wiki/La_Fortaleza#10
+/wiki/La_Japonaise_(painting)#P127#0,business,P127,D/test,Which person had the ownership of Monet's oil painting of La Japonaise before Feb 1918?,Paul Rosenberg and Co,1918,1920,/wiki/La_Japonaise_(painting)#25
+/wiki/La_Japonaise_(painting)#P127#1,business,P127,D/test,The oil painting La Japonaise enjoyed ownership by which person in Sep 1920?,Philip Lehman,1920,1921,/wiki/La_Japonaise_(painting)#25
+/wiki/La_Japonaise_(painting)#P127#2,business,P127,D/test,Monet's oil painting of La Japonaise's ownership was in the hands of what person in Dec 1956?,Duveen to the MFA,Mar 1956,Mar 1957,/wiki/La_Japonaise_(painting)#27
+/wiki/Lee_Nogan#P54#4,sports,P54,D/test,Lee Nogan played for what football team in Aug 1999?,Darlington,1999,2000,/wiki/Lee_Nogan#14
+/wiki/Leeza_Gibbons#P26#0,person,P26,D/train,Who was Gibbons married to in Nov 1989?,Christopher Quinten,1989,1991,/wiki/Leeza_Gibbons#18
+/wiki/Leeza_Gibbons#P26#1,person,P26,D/train,Gibbons was married to whom in Jan 1994?,Stephen Meadows,1991,2005,/wiki/Leeza_Gibbons#18
+/wiki/Leeza_Gibbons#P26#2,person,P26,D/train,To whom was Gibbons married to in Apr 2012?,Steven Fenton,Apr 2011,Apr 2012,/wiki/Leeza_Gibbons#18
+/wiki/Leimen_(Baden)#P6#0,politics,P6,D/train,"Who chaired the town Leimen in north-west Baden-Württemberg, Germany in late 1970s?",Herbert Ehrbar,1976,2000,/wiki/Leimen_(Baden)#4
+/wiki/Leimen_(Baden)#P6#1,politics,P6,D/train,Who led the town of Leimen in Baden-Württemberg between Oct 2004 and Apr 2014?,Wolfgang Ernst,2000,2016,/wiki/Leimen_(Baden)#5
+/wiki/Liga_Veneta_Repubblica#P488#1,business,P488,D/test,Liga Veneta Repubblica had who chairing it in Jun 1999?,Donato Manfroi,1999,2000,/wiki/Liga_Veneta_Repubblica#29
+/wiki/Liina_Tennosaar#P108#0,career,P108,D/train,Which Tartu theatre hired Estonian actress Tennasaar before Sep 1986 following her graduation?,the Vanemuine theatre,1986,1988,/wiki/Liina_Tennosaar#3
+/wiki/Liina_Tennosaar#P108#1,career,P108,D/train,Which theater in Pärnu employed Liina Tennosaar in 1998?,Endla Theatre,1988,1993,/wiki/Liina_Tennosaar#3
+/wiki/Liina_Tennosaar#P108#2,career,P108,D/train,What is the name of the old town studio in Tallinn where Liina Tennosaar performed after Jan 1999?,the Vanalinnastuudio,1996,2001,/wiki/Liina_Tennosaar#3
+/wiki/Lou_Scheper-Berkenkamp#P937#0,career,P937,D/train,Where did the German painter Scheper-Berkenkamp work in Mar 1925?,Bauhaus Dessau,1925,1929,/wiki/Lou_Scheper-Berkenkamp#4
+/wiki/Lou_Scheper-Berkenkamp#P937#1,career,P937,D/train,In what city did German colour designer Scheper-Berkenkamp work out of in Nov 1930?,Moscow,1929,1931,/wiki/Lou_Scheper-Berkenkamp#7
+/wiki/Lou_Scheper-Berkenkamp#P937#2,career,P937,D/train,What German city did avant-garde author of children's books Lou Scheper-Berkenkamp work in in Jan 1932?,Berlin,1932,1933,/wiki/Lou_Scheper-Berkenkamp#9
+/wiki/Ludwig_Mond#P937#0,career,P937,D/test,Ludwig Mond had a job at which location between Feb 1863 and Oct 1863?,Great Britain,1862,1864,/wiki/Ludwig_Mond#7
+/wiki/Ludwig_Mond#P937#1,career,P937,D/test,Ludwig Mond had a job at which location between Sep 1865 and Oct 1865?,Utrecht,1864,1867,/wiki/Ludwig_Mond#1
+/wiki/Ludwig_Mond#P937#2,career,P937,D/test,Ludwig Mond had a job at which location in early 1900s?,Great Britain,1867,1909,/wiki/Ludwig_Mond#7
+/wiki/Lykkehjulet#P371#0,media_arts,P371,D/train,Who was the presenter on Danish TV show Lykkehjulet in early 1990s?,Bengt Burg,1989,1996,/wiki/Lykkehjulet#1
+/wiki/Lykkehjulet#P371#1,media_arts,P371,D/train,Who presented the Danish TV program Lykkehjulet in Jun 1996?,Bengt Burg | Keld Heick,1996,1997,/wiki/Lykkehjulet#1
+/wiki/Marcia_Bunge#P108#0,career,P108,D/train,Who did Marcia Bunge work for between Sep 1988 and May 1989?,Luther Seminary,1985,1990,/wiki/Marcia_Bunge#0
+/wiki/Marcia_Bunge#P108#1,career,P108,D/train,Who was Marcia Bunge employed by between Oct 1991 and Mar 1992?,Luther College,1990,1995,/wiki/Marcia_Bunge#0
+/wiki/Marcia_Bunge#P108#2,career,P108,D/train,Which employer did Professor Bunge work for in Jan 1996?,Gustavus Adolphus College,1995,1997,/wiki/Marcia_Bunge#0
+/wiki/Marcia_Bunge#P108#3,career,P108,D/train,Which university did Bunge work for in Feb 2011?,Valparaiso University,1997,2012,/wiki/Marcia_Bunge#1
+/wiki/Marcia_Bunge#P108#4,career,P108,D/train,What was the college called that Professor Bunge worked for after Apr 2013?,Gustavus Adolphus College,2013,2014,/wiki/Marcia_Bunge#0
+/wiki/Marriott_Corporation#P1448#0,person,P1448,D/train,What was the company now known as the Marriott Corporation called before Sep 1928?,The Hot Shoppe,May 1927,Jul 1929,/wiki/Marriott_Corporation#1
+/wiki/Marriott_Corporation#P1448#1,person,P1448,D/train,What was the company now known as the Marriott Corporation called in Jan 1960?,"Hot Shoppes , Inc",Jul 1929,Nov 1964,/wiki/Marriott_Corporation#0
+/wiki/Marriott_Corporation#P1448#2,person,P1448,D/train,What was the company now known as the Marriott Corporation called between Mar 1965 and Feb 1967?,"Marriott-Hot Shoppes , Inc",Nov 1964,Nov 1967,/wiki/Marriott_Corporation#4
+/wiki/Marriott_Corporation#P1448#3,person,P1448,D/train,What was the company now known as the Marriott Corporation called in late 1960s?,Marriott Corporation,Nov 1967,Oct 1993,/wiki/Marriott_Corporation#0
+/wiki/Master-General_of_the_Ordnance_(Sweden)#P1308#1,politics,P1308,D/train,The Swedish Master-General of the Ordnance had which person in its office in Jun 1691?,Per Larsson Sparre,1682,1692,/wiki/Master-General_of_the_Ordnance_(Sweden)#8
+/wiki/Matthias_Platzeck#P102#0,politics,P102,D/train,The person who was the Minister President of Brandenburg between May 2009 and Apr 2011 was in which political party between May 2009 and Apr 2011?,Liberal Democratic Party of Germany,1989,1990,/wiki/Matthias_Platzeck#3
+/wiki/Matthias_Platzeck#P102#1,politics,P102,D/train,"between Aug 1990 and Oct 1991, Matthias Platzeck was a member of which party?",oppositional radical Green Party,1990,1993,/wiki/Matthias_Platzeck#3
+/wiki/Matthias_Platzeck#P102#2,politics,P102,D/train,"In 1993, the person who was the leader of the social democratic party until april 10, 2006 was a member of what party?",Green Party,1993,1993,/wiki/Matthias_Platzeck#4
+/wiki/Matthias_Platzeck#P102#3,politics,P102,D/train,"In the years in Jul 1995, what political party did Matthias Platzeck belong to?",SPD,1995,1996,/wiki/Matthias_Platzeck#5
+/wiki/Maurizio_Sarri#P6087#0,sports,P6087,D/train,Which Serie D club side signed the Italian professional football manager Sarri as head coach between Jul 2001 and Aug 2001?,Sansovino,Jul 2000,Jun 2003,/wiki/Maurizio_Sarri#9
+/wiki/Maurizio_Sarri#P6087#1,sports,P6087,D/train,What club employed Italian professional football manager Sarri as club manager in the second tier in Jun 2007?,Avellino,Jun 2007,Jul 2007,/wiki/Maurizio_Sarri#11
+/wiki/Maurizio_Sarri#P6087#2,sports,P6087,D/train,What Club side fired Davide Pellegrini and replaced him with Italian professional football manager Sarri in Dec 2007?,Hellas Verona,Dec 2007,Jan 2008,/wiki/Maurizio_Sarri#11
+/wiki/Maurizio_Sarri#P6087#3,sports,P6087,D/train,Italian professional football manager Sarri beat Giovanni Pagliari to be come the manager of which club between Sep 2008 and Nov 2008?,Perugia,Aug 2008,Jan 2009,/wiki/Maurizio_Sarri#12
+/wiki/Maurizio_Sarri#P6087#7,sports,P6087,D/train,Which club side worked with Italian professional football manager Sarri as head coach after Dec 2013?,Empoli,May 2012,May 2015,/wiki/Maurizio_Sarri#14
+/wiki/Max_Planck_Institute_for_Astronomy#P1037#0,business,P1037,D/train,Which person directed the Max-Planck-Institut für Astronomie between Nov 1976 and Jun 1977?,Hans Elsässer,1968,1978,/wiki/Max_Planck_Institute_for_Astronomy#2
+/wiki/Max_Planck_Institute_for_Astronomy#P1037#1,business,P1037,D/train,"In the time period in early 1980s, who managed the MPIA?",Guido Münch,1978,1989,/wiki/Max_Planck_Institute_for_Astronomy#16
+/wiki/Max_Planck_Institute_for_Astronomy#P1037#2,business,P1037,D/train,"What was the name of the man who was in charge of the research institute that is located in Heidelberg, Baden-Württemberg, Germany, in May 1997?",Steven Beckwith,1991,1999,/wiki/Max_Planck_Institute_for_Astronomy#16
+/wiki/Max_Planck_Institute_for_Astronomy#P1037#3,business,P1037,D/train,"Regarding the institute founded by Hans Elsässer in 1969, what person managed it in Aug 1999?",Hans-Walter Rix,1999,2001,/wiki/Max_Planck_Institute_for_Astronomy#9
+/wiki/Max_Planck_Institute_for_Astronomy#P1037#4,business,P1037,D/train,Which person was the managing director of the MPIA between May 2001 and Aug 2001?,Thomas Henning,2001,2002,/wiki/Max_Planck_Institute_for_Astronomy#16
+/wiki/Max_Weber_(artist)#P937#0,career,P937,D/test,Where did the painter Max Weber work in Jul 1899?,Brooklyn,1891,1905,/wiki/Max_Weber_(artist)#1
+/wiki/Max_Weber_(artist)#P937#2,career,P937,D/test,"after Dec 1955, where did Cubist Max Weber work?",New York,1909,1961,/wiki/Max_Weber_(artist)#5
+/wiki/Meg_Whitman#P463#1,career,P463,D/train,Which association or organisation was joined by former politician Meg Whitman in Oct 2001?,Goldman Sachs,Oct 2001,Oct 2001,/wiki/Meg_Whitman#26
+/wiki/Meg_Whitman#P463#2,career,P463,D/train,The american business executive known as meg whitman became part of which association or organisation mar 2011?,Kleiner Perkins,Mar 2011,Mar 2011,/wiki/Meg_Whitman#26
+/wiki/Meg_Whitman#P463#3,career,P463,D/train,American business exec Meg Whitman became part of which association or organisation in 2011?,Hewlett-Packards,2011,2011,/wiki/Meg_Whitman#19
+/wiki/Michel_Zink#P108#0,career,P108,D/train,"For what company did Permanent Secretary of the Académie des Inscriptions et Belles-Lettres, Mr. Zink, work before Nov 1987?",Paris-Sorbonne University,1976,1994,/wiki/Michel_Zink#1
+/wiki/Michel_Zink#P108#1,career,P108,D/train,"For whom did the author of ""Le Tiers d'amour"" and ""Bérets noirs, bérets rouges"" work in early 2010s?",Collège de France,1995,2016,/wiki/Michel_Zink#2
+/wiki/Monica's_Gang#P123#1,media_arts,P123,D/train,Which publisher published Turma da Mônica in late 1980s?,Editora Globo,1987,2006,/wiki/Monica's_Gang#25
+/wiki/Moudud_Ahmed#P102#0,politics,P102,D/train,"before May 1978, which political party was Moudud Ahmed a member of?",Bangladesh Nationalist Party,1978,1984,/wiki/Moudud_Ahmed#6
+/wiki/Moudud_Ahmed#P102#1,politics,P102,D/train,"in late 1980s, Moudud Ahmed was apart of which political party?",Jatiyo Party,1984,1996,/wiki/Moudud_Ahmed#7
+/wiki/Moudud_Ahmed#P102#2,politics,P102,D/train,"after May 1996, moudud ahmed was a member of which political party?",Bangladesh Nationalist Party,1996,1997,/wiki/Moudud_Ahmed#6
+/wiki/Myanmar#P35#0,politics,P35,D/train,Which retired general was the president of Myanmar before Feb 2013?,Thein Sein,Mar 2011,Mar 2016,/wiki/Myanmar#76
+/wiki/Myanmar#P35#1,politics,P35,D/train,Who was the first non-military president of Myanmar between Oct 2016 and Jul 2017?,Htin Kyaw,Mar 2016,2018,/wiki/Myanmar#79
+/wiki/Nana_Okada#P463#0,career,P463,D/test,Which association or organisation had Japanese idol Nana Okada join it in 2012?,AKB48,2012,2012,/wiki/Nana_Okada#1
+/wiki/Nana_Okada#P463#2,career,P463,D/test,Which association or organisation did Japanese idol Nana Okada join in 2013?,Tentoumu Chu !,2013,2013,/wiki/Nana_Okada#2
+/wiki/Newton_D._Baker_House#P127#0,business,P127,D/train,define the name of the owner of Newton D. Baker House in early 1820s?,Maj . George Peter,1811,1827,/wiki/Newton_D._Baker_House#3
+/wiki/Newton_D._Baker_House#P127#1,business,P127,D/train,between Nov 1917 and Oct 1918 who is the CEO of Newton D. Baker House?,Col . William E . Pattison French,1916,1920,/wiki/Newton_D._Baker_House#5
+/wiki/Newton_D._Baker_House#P127#3,business,P127,D/train,in Oct 1972 Newton D. Baker House under worked by who?,Michael Whitney Straight,1965,1975,/wiki/Newton_D._Baker_House#9
+/wiki/Newton_D._Baker_House#P127#4,business,P127,D/train,what is the name of person who owned Newton D. Baker House after Jun 1988?,Yolande Bebeze Fox,1975,Feb 2016,/wiki/Newton_D._Baker_House#11
+/wiki/Newton_D._Baker_House#P466#0,place,P466,D/train,Who owned the Newton D. Baker House in Washington DC before Mar 1811?,George Peter,1811,1827,/wiki/Newton_D._Baker_House#13
+/wiki/Nico_Hülkenberg#P641#2,sports,P641,D/train,Nico Hulkenberg played which sport between Oct 2009 and Nov 2009?,GP2 Series,2009,2010,/wiki/Nico_Hülkenberg#11
+/wiki/Nik_Stauskas#P69#2,career,P69,D/test,What preparatory school did Canadian basketballer Nik Stauskas attend between Aug 2010 and Feb 2011?,St . Marks School,2010,2012,/wiki/Nik_Stauskas#2
+/wiki/Niva_(magazine)#P98#0,media_arts,P98,D/train,Which editor worked for Russian magazine Niva between Sep 1874 and Dec 1874?,Viktor Klyushnikov,1870,1875,/wiki/Niva_(magazine)#6
+/wiki/Niva_(magazine)#P98#1,media_arts,P98,D/train,Who was the editor of Niva magazine in Oct 1876?,Dmitry Stakheev,1875,1877,/wiki/Niva_(magazine)#6
+/wiki/Niva_(magazine)#P98#2,media_arts,P98,D/train,Who worked as editor of Niva (magazine) between Nov 1888 and Jul 1890?,Viktor Klyushnikov,1887,1892,/wiki/Niva_(magazine)#6
+/wiki/Niva_(magazine)#P98#4,media_arts,P98,D/train,Which editor of Russian magazine Niva worked in Feb 1897?,Rostislav Sementkovsky,1897,1898,/wiki/Niva_(magazine)#6
+/wiki/Numedal_Line#P127#0,business,P127,D/test,Who was the proprietor of Numedal Line in late 1920s?,Norwegian State Railways,Nov 1927,Dec 1995,/wiki/Numedal_Line#0
+/wiki/Otto_Modersohn#P26#0,person,P26,D/train,Friedrich Modersohn was married to who before Feb 1897?,Helene Schröder,1897,1900,/wiki/Otto_Modersohn#3
+/wiki/Otto_Modersohn#P26#1,person,P26,D/train,What was the name of Friedrich Otto Modersohn's wife between Mar 1902 and Jan 1903?,Paula Becker,1901,1907,/wiki/Otto_Modersohn#3
+/wiki/Otto_Modersohn#P26#2,person,P26,D/train,"What is an interesting fact about Louise, the wife of Otto Modersohn after Apr 1909?",daughter of the painter Heinrich Breling,1909,1910,/wiki/Otto_Modersohn#4
+/wiki/Oumar_Niasse#P54#0,sports,P54,D/test,What team had Senegalese footballer Oumar Niasse on it between Apr 2011 and May 2011?,US Ouakam,2007,Feb 2012,/wiki/Oumar_Niasse#1
+/wiki/Oumar_Niasse#P54#2,sports,P54,D/test,What team had Senegalese footballer Oumar Niasse on it between Apr 2013 and Oct 2013?,Turkish Süper Lig club,2013,2014,/wiki/Oumar_Niasse#3
+/wiki/Oumar_Niasse#P54#4,sports,P54,D/test,What team had Senegalese footballer Oumar Niasse on it in 2016?,Everton,2016,Feb 2016,/wiki/Oumar_Niasse#5
+/wiki/Oumar_Niasse#P54#5,sports,P54,D/test,What team had Senegalese footballer Oumar Niasse on it between Nov 2016 and Dec 2016?,Everton | Hull City,Feb 2016,Jan 2017,/wiki/Oumar_Niasse#5 /wiki/Oumar_Niasse#8
+/wiki/Oumar_Niasse#P54#6,sports,P54,D/test,What team had Senegalese footballer Oumar Niasse on it between May 2017 and May 2017?,Hull City,Jan 2017,May 2017,/wiki/Oumar_Niasse#8
+/wiki/PFC_Levski_Sofia#P286#0,sports,P286,D/train,Who was the former Bulgarian Football manager of the professional football league of Bulgaria between Feb 2015 and Nov 2015?,Stoycho Stoev,Dec 2014,May 2016,/wiki/PFC_Levski_Sofia#57
+/wiki/PFC_Levski_Sofia#P286#1,sports,P286,D/train,Who was the former Bulgarian football defender turned to assist the professional football league of Bulgaria in Feb 2017?,Elin Topuzakov,Oct 2016,Mar 2017,/wiki/PFC_Levski_Sofia#57
+/wiki/PFC_Levski_Sofia#P286#2,sports,P286,D/train,Who was the Slovenian professional football manager of the professional football league of Bulgaria in Oct 2018?,Slaviša Stojanovič,Jul 2018,Jul 2019,/wiki/PFC_Levski_Sofia#59
+/wiki/Pakistan_Football_Federation#P463#0,career,P463,D/train,Which conference did Pakistan Football Federation join in 1954?,Asian Football Confederation,1954,1954,/wiki/Pakistan_Football_Federation#3
+/wiki/Pat_Sullivan_(film_producer)#P551#3,person,P551,D/train,What city did movie producer Pat Sullivan reside in in Feb 1914?,New York City,1914,1915,/wiki/Pat_Sullivan_(film_producer)#7
+/wiki/Paul_Sturrock#P54#0,sports,P54,D/train,What football team did Paul Sturrock play for in Dec 1976?,Dundee United,1974,1977,/wiki/Paul_Sturrock#5
+/wiki/Penrhyn_Castle#P127#2,business,P127,D/train,"Which charity owned the Penrhym Castle in Llandygai, Bangor, Gwynedd, North Wales in Jun 1951?",National Trust,1951,1952,/wiki/Penrhyn_Castle#7
+/wiki/Philip_A._Kuhn#P108#0,career,P108,D/test,Philip A. Kuhn was employed by what in Aug 1956?,United States Army,1954,1958,/wiki/Philip_A._Kuhn#3
+/wiki/Philip_A._Kuhn#P108#1,career,P108,D/test,Philip A. Kuhn was employed by what between Nov 1968 and May 1970?,University of Chicago,1963,1978,/wiki/Philip_A._Kuhn#5
+/wiki/Philip_A._Kuhn#P108#2,career,P108,D/test,What place had Philip A. Kuhn working for it between Dec 1979 and 1980?,Harvard,1978,1980,/wiki/Philip_A._Kuhn#6
+/wiki/Preston_Smith_(governor)#P39#2,politics,P39,D/train,What political role did Preston Smith have in Jun 1965?,lieutenant governor,Jan 1963,Jan 1969,/wiki/Preston_Smith_(governor)#0
+/wiki/Preston_Smith_(governor)#P39#3,politics,P39,D/train,"After serving as Lieutenant Governor, what office did Preston Smith take between Sep 1972 and Dec 1972?",Governor of Texas,Jan 1969,Jan 1973,/wiki/Preston_Smith_(governor)#0
+/wiki/Rachel_Ruysch#P937#0,career,P937,D/train,Where did Rachel Ruysch live between Jan 1681 and May 1686?,Amsterdam,1675,1708,/wiki/Rachel_Ruysch#3
+/wiki/Rachel_Ruysch#P937#2,career,P937,D/train,Where did Rachel Ruysch live between Feb 1728 and Jun 1738?,Amsterdam,1716,1750,/wiki/Rachel_Ruysch#5
+/wiki/Richmond_Kickers#P118#0,sports,P118,D/train,American soccer pyramid league was home for Richmond Kickers before Apr 1997.,American soccer pyramid,1997,2004,/wiki/Richmond_Kickers#4
+/wiki/Rock_Crystal_(Fabergé_egg)#P127#2,business,P127,D/test,Who owned the Rock Crystal egg between Feb 1947 and Sep 1947 after the previous owner willed the egg them to upon her death?,Virginia Museum of Fine Arts,1947,1948,/wiki/Rock_Crystal_(Fabergé_egg)#12
+/wiki/Ruud_Lubbers#P108#0,career,P108,D/test,Who did dutch politician lubbers work for between Dec 1972 and 1973?,Christian Employers Association ( NCW ),1965,1973,/wiki/Ruud_Lubbers#1
+/wiki/Ruud_Lubbers#P108#1,career,P108,D/test,"between Jan 1998 and Apr 2000, who did Dutch politician Lubbers work for?",Tilburg University | Harvard University,1995,2001,/wiki/Ruud_Lubbers#5
+/wiki/Ruud_Lubbers#P108#2,career,P108,D/test,Dutch politician Lubbers worked for which which employer between Aug 2004 and Dec 2004?,UN High Commissioner for Refugees,2001,Feb 2005,/wiki/Ruud_Lubbers#17
+/wiki/SECR_N_class#P137#0,business,P137,D/train,"between Apr 1917 and May 1918, Richard Maunsell's ""mogul"" steam locomotive for mixed-traffic duty was operated by which railway committee?",South Eastern and Chatham Railway,1917,Dec 1922,/wiki/SECR_N_class#0
+/wiki/SECR_N_class#P137#1,business,P137,D/train,"between May 1937 and Sep 1945, Richard Maunsell's ""mogul"" steam locomotive for mixed-traffic duty was operated by which railway company?",Southern Railways Eastern section,1923,Dec 1947,/wiki/SECR_N_class#30
+/wiki/SECR_N_class#P137#2,business,P137,D/train,"between Jun 1964 and Sep 1965, Richard Maunsell's ""mogul"" steam locomotive for mixed-traffic duty was operated by which railway company?",British Railways,1948,1966,/wiki/SECR_N_class#57
+/wiki/SV_Darmstadt_98#P286#0,sports,P286,D/train,Who was the coach of sv damstadt 98 after the sacking of norbert maier after 5 december 2016?,Torsten Frings,Jan 2017,Dec 2017,/wiki/SV_Darmstadt_98#17
+/wiki/SV_Darmstadt_98#P286#1,sports,P286,D/train,"Who filled the vacant manager position after december 11, 2017?",Dirk Schuster,Dec 2017,Feb 2019,/wiki/SV_Darmstadt_98#17
+/wiki/SV_Darmstadt_98#P286#2,sports,P286,D/train,"After the season 2018/2019, who did sv darmstadt hired as the head coach?",Markus Anfang,Feb 2019,Feb 2020,/wiki/SV_Darmstadt_98#18
+/wiki/Saadat_Hasan_Manto#P27#0,person,P27,D/train,What country was Saadat Hasan Manto a citizen of before Mar 1923?,British India,Feb 1912,Aug 1947,/wiki/Saadat_Hasan_Manto#0
+/wiki/Saadat_Hasan_Manto#P27#1,person,P27,D/train,What country was Saadat Hasan Manto a citizen of in late 1940s?,Pakistan,Aug 1947,Jan 1955,/wiki/Saadat_Hasan_Manto#2
+/wiki/Sarah_Bond#P108#1,career,P108,D/test,Who did Sarah Bond work for in Aug 2012?,Marquette University,2012,2014,/wiki/Sarah_Bond#3
+/wiki/Sarah_Bond#P108#2,career,P108,D/test,Sarah Bond was employed by who in May 2014?,University of Iowa,2014,2015,/wiki/Sarah_Bond#3
+/wiki/Scottish_National_Party#P488#0,business,P488,D/train,Who was the head of the social-democratic political party in Scotland before Mar 1995?,Alex Salmond,Sep 1990,Sep 2000,/wiki/Scottish_National_Party#2
+/wiki/Scottish_National_Party#P488#1,business,P488,D/train,Who was in charge of the SNP between Sep 2003 and Nov 2003?,John Swinney,Sep 2000,Sep 2004,/wiki/Scottish_National_Party#18
+/wiki/Scottish_National_Party#P488#2,business,P488,D/train,Who lead the Scottish social-democratic political party between Mar 2011 and Jun 2012?,Alex Salmond,Sep 2004,Nov 2014,/wiki/Scottish_National_Party#2
+/wiki/Scottish_National_Party#P488#3,business,P488,D/train,Who was the leader of the regional Scottish nationalist and social-democratic political party between Sep 2015 and Oct 2015?,Nicola Sturgeon,Nov 2014,Nov 2015,/wiki/Scottish_National_Party#1
+/wiki/Security_Service_of_Ukraine#P488#2,business,P488,D/train,What was the name of the man was the head of Security Service of Ukraine in Jun 2005?,"Oleksandr Valentynovych Turchynov ,",Feb 2005,Sep 2005,/wiki/Security_Service_of_Ukraine#53
+/wiki/Security_Service_of_Ukraine#P488#3,business,P488,D/train,in Oct 2006 who was the head of Security Service of Ukraine?,Ihor Vasylovych Drizhchany,Sep 2005,Dec 2006,/wiki/Security_Service_of_Ukraine#54
+/wiki/Security_Service_of_Ukraine#P488#4,business,P488,D/train,Name the chair of Security Service of Ukraine between Jun 2007 and Dec 2008?,Valentyn Nalyvaichenko,Dec 2006,Mar 2010,/wiki/Security_Service_of_Ukraine#38
+/wiki/Security_Service_of_Ukraine#P488#5,business,P488,D/train,between Apr 2010 and Apr 2011 who was the head of Security Service of Ukraine?,Valeriy Ivanovych Khoroshkovsky,Mar 2010,Jan 2012,/wiki/Security_Service_of_Ukraine#55
+/wiki/Security_Service_of_Ukraine#P488#7,business,P488,D/train,who held the position of head of Security Service of Ukraine between Jul 2013 and Sep 2013?,Oleksandr Yakymenko,Jan 2013,Feb 2014,/wiki/Security_Service_of_Ukraine#38
+/wiki/Senate_of_the_Kingdom_of_Italy#P159#0,business,P159,D/train,The upper house of the bicameral parliament of the Kingdom of Italy was headquartered where in Apr 1864?,Palazzo Madama | Palazzo Vecchio,Mar 1861,1865,/wiki/Senate_of_the_Kingdom_of_Italy#1
+/wiki/Senate_of_the_Kingdom_of_Italy#P159#2,business,P159,D/train,Where was the Senate of Italy headquartered between Jan 1944 and Feb 1947?,Palazzo Madama,1871,Nov 1947,/wiki/Senate_of_the_Kingdom_of_Italy#1
+/wiki/Sergio_Pérez#P641#0,sports,P641,D/train,What racing sport did Sergio Perez play before Jan 2005?,Formula BMW,2005,2006,/wiki/Sergio_Pérez#15
+/wiki/Sergio_Pérez#P641#1,sports,P641,D/train,What racing sport did Sergio Perez play between Nov 2007 and Dec 2007?,A1 Grand Prix,2006,2008,/wiki/Sergio_Pérez#16
+/wiki/Sherif_Ashraf#P54#1,sports,P54,D/train,What football team did Sherif Ashraf play for in Jul 2007?,Zamalek SC,2007,2008,/wiki/Sherif_Ashraf#3
+/wiki/Sherif_Ashraf#P54#2,sports,P54,D/train,What football team did Sherif Ashraf play for between Oct 2010 and Nov 2011?,El Gouna FC,2010,2012,/wiki/Sherif_Ashraf#4
+/wiki/Sherif_Ashraf#P54#3,sports,P54,D/train,What football team did Sherif Ashraf play for between May 2012 and Dec 2012?,Haras El-Hodood,2012,2013,/wiki/Sherif_Ashraf#9
+/wiki/Sherif_Ashraf#P54#4,sports,P54,D/train,What football team did Sherif Ashraf play for between Oct 2013 and Nov 2013?,FC Biel-Bienne,2013,2014,/wiki/Sherif_Ashraf#10
+/wiki/Sherif_Ashraf#P54#5,sports,P54,D/train,What football team did Sherif Ashraf play for between Dec 2014 and 2015?,El-Gouna,2014,2015,/wiki/Sherif_Ashraf#11
+/wiki/Stefano_Pioli#P6087#0,sports,P6087,D/train,Stefano Pioli led what football team in Nov 2006?,Parmas,Jun 2006,Feb 2007,/wiki/Stefano_Pioli#5
+/wiki/Stefano_Pioli#P6087#1,sports,P6087,D/train,Stefano Pioli led what football team in Oct 2007?,Grosseto,Sep 2007,Jun 2008,/wiki/Stefano_Pioli#6
+/wiki/Stefano_Pioli#P6087#2,sports,P6087,D/train,Stefano Pioli led what football team in Feb 2009?,Piacenza,Jun 2008,Jun 2009,/wiki/Stefano_Pioli#6
+/wiki/Stefano_Pioli#P6087#3,sports,P6087,D/train,Stefano Pioli led what football team between Apr 2010 and May 2010?,Sassuolo,Jun 2009,Jun 2010,/wiki/Stefano_Pioli#6
+/wiki/Stefano_Pioli#P6087#4,sports,P6087,D/train,Stefano Pioli led what football team between Apr 2011 and May 2011?,Chievo,Jun 2010,Jun 2011,/wiki/Stefano_Pioli#7
+/wiki/Steven_Ozment#P69#0,career,P69,D/train,At what school was American historian of early modern and modern Germany Steven Ozment in attendance between Nov 1959 and Dec 1959?,Hendrix College,1959,1960,/wiki/Steven_Ozment#1
+/wiki/Stord#P6#2,politics,P6,D/train,Who were the members of stord in Oct 2017?,Gaute Straume Epland ( Ap ),2017,2018,/wiki/Stord#16
+/wiki/Sydney_Trains_K_set#P137#0,business,P137,D/test,The carriages of Sydney Trains K sets were being administered by what in early 2000s?,State Rail Authority,1981,Dec 2003,/wiki/Sydney_Trains_K_set#1
+/wiki/Sydney_Trains_K_set#P137#2,business,P137,D/test,The carriages of Sydney Trains K sets were being operated by what after Nov 2013?,Sydney Trains,Jul 2013,Jul 2014,/wiki/Sydney_Trains_K_set#0
+/wiki/Sérgio_Conceição#P6087#0,sports,P6087,D/train,Sergio Conceicao coached what football team in Jan 2012?,S.C . Olhanense,Jan 2012,Jan 2013,/wiki/Sérgio_Conceição#14
+/wiki/Sérgio_Conceição#P6087#1,sports,P6087,D/train,Sergio Conceicao coached what football team between Jul 2013 and Feb 2014?,Académica de Coimbra,Apr 2013,Jun 2014,/wiki/Sérgio_Conceição#15
+/wiki/Sérgio_Conceição#P6087#3,sports,P6087,D/train,Sergio Conceicao coached what football team in Nov 2015?,Vitória de Guimarães,Sep 2015,Jun 2016,/wiki/Sérgio_Conceição#18
+/wiki/Sérgio_Conceição#P6087#4,sports,P6087,D/train,Sergio Conceicao coached what football team in Jun 2017?,FC Nantes,Dec 2016,Jun 2017,/wiki/Sérgio_Conceição#19
+/wiki/Sérgio_Conceição#P6087#5,sports,P6087,D/train,Sergio Conceicao coached what football team after Feb 2018?,Porto,Jul 2017,Jul 2018,/wiki/Sérgio_Conceição#21
+/wiki/Teodor_Atanasiu#P39#0,politics,P39,D/train,which position had Teodor Atanasiu taken between Mar 2004 and Jun 2004?,president,2004,Dec 2004,/wiki/Teodor_Atanasiu#5
+/wiki/Teodor_Atanasiu#P39#1,politics,P39,D/train,which position did Teodor Atanasiu take in Feb 2005?,Minister of National Defence,Dec 2004,Oct 2006,/wiki/Teodor_Atanasiu#0
+/wiki/Teodor_Atanasiu#P39#2,politics,P39,D/train,What did Teodor Atanasiu the position in Apr 2008?,serve on the joint parliamentary committee,2008,2012,/wiki/Teodor_Atanasiu#12
+/wiki/The_Clitheroe_Kid#P449#0,media_arts,P449,D/train,What radio station hosted The Clitheroe Kid in Jul 1957?,BBC Home Service,Apr 1956,Sep 1957,/wiki/The_Clitheroe_Kid#11
+/wiki/Thierry_Audel#P54#5,sports,P54,D/train,What was the name of the football club that French player Thierry Audel played for after Jul 2014?,Lincoln City | Macclesfield Town,2014,2015,/wiki/Thierry_Audel#6
+/wiki/Thomas_Robert_Shannon_Broughton#P108#1,career,P108,D/train,Where did Thomas Robert Shannon Broughton work in Jun 1939?,"Amherst College , Bryn Mawr College",1927,1965,/wiki/Thomas_Robert_Shannon_Broughton#2
+/wiki/Thomas_Robert_Shannon_Broughton#P108#2,career,P108,D/train,Where was Thomas Robert Shannon Broughton employed after Jun 1966?,University of North Carolina at Chapel Hill,1965,1970,/wiki/Thomas_Robert_Shannon_Broughton#2
+/wiki/Tibbers_Castle#P127#1,business,P127,D/test,Which Earl owned the Scottish Tibbers Castle in Aug 1329?,"Thomas Randolph , 1st Earl of Moray",1313,Jul 1332,/wiki/Tibbers_Castle#6
+/wiki/Tibbers_Castle#P127#3,business,P127,D/test,What Earl was the owner of the centuries old Tibbers Castle between Feb 1356 and Mar 1360?,"Patrick , Earl of March",1346,1369,/wiki/Tibbers_Castle#6
+/wiki/Tomer_Hemed#P54#1,sports,P54,D/test,What team was Israeli footballer Tomer Hemed part of between Mar 2005 and Oct 2005?,Maccabi Haifa,2005,2006,/wiki/Tomer_Hemed#2
+/wiki/Tomer_Hemed#P54#2,sports,P54,D/test,What team was Israeli footballer Tomer Hemed part of between Aug 2008 and Sep 2008?,Maccabi Herzliya | Bnei Yehuda Tel Aviv,2008,2009,/wiki/Tomer_Hemed#4
+/wiki/Tomer_Hemed#P54#3,sports,P54,D/test,Israeli footballer Tomer Hemed was part of what team in Feb 2009?,Ahi Nazareth | Maccabi Haifa,2009,2010,/wiki/Tomer_Hemed#2 /wiki/Tomer_Hemed#4
+/wiki/Tomer_Hemed#P54#5,sports,P54,D/test,What team was Israeli footballer Tomer Hemed part of between Feb 2014 and Nov 2014?,Almería,2014,2015,/wiki/Tomer_Hemed#7
+/wiki/Tomer_Hemed#P54#6,sports,P54,D/test,Israeli footballer Tomer Hemed was part of what team in Apr 2015?,Brighton & Hove Albion,2015,2016,/wiki/Tomer_Hemed#9
+/wiki/Ty_Detmer#P54#1,sports,P54,D/test,The American football player Ty Detmer was on what team between Nov 1992 and Aug 1994?,Green Bay Packers,1992,1995,/wiki/Ty_Detmer#14
+/wiki/Ty_Detmer#P54#2,sports,P54,D/test,American football player Ty Detmer was on what team between Mar 1996 and Oct 1996?,Philadelphia Eagles,1996,1997,/wiki/Ty_Detmer#15
+/wiki/USCGC_Southwind#P137#0,business,P137,D/train,What operated the USCGC Southwind between Jul 1943 and Feb 1945?,United States Coast Guard,Mar 1943,Mar 1945,/wiki/USCGC_Southwind#0
+/wiki/USCGC_Southwind#P137#2,business,P137,D/train,in Dec 1966 what operated USCGC Southwind?,United States Coast Guard,Oct 1966,May 1974,/wiki/USCGC_Southwind#12
+/wiki/USS_Slater#P8047#0,business,P8047,D/train,"between Feb 1947 and May 1950, in what country was the USS Slater (DE-766) registered?",United States,Feb 1944,Mar 1951,/wiki/USS_Slater#0
+/wiki/VA-15_(U.S._Navy)#P1448#0,person,P1448,D/train,What official designation was given to the U.S. Navy's VA-15 before Jun 1945?,Torpedo Squadron 4 ( VT-4 ),Jan 1942,Nov 1946,/wiki/VA-15_(U.S._Navy)#0
+/wiki/VA-15_(U.S._Navy)#P1448#1,person,P1448,D/train,What was the official title of Attack Squadron 15 in Mar 1947?,VA-2A,Nov 1946,Aug 1948,/wiki/VA-15_(U.S._Navy)#0
+/wiki/VA-15_(U.S._Navy)#P1448#2,person,P1448,D/train,What was the U.S. Navy's Valions officially called between Dec 1958 and Feb 1959?,Attack Squadron 15 ( VA-15 ),Aug 1948,Jun 1969,/wiki/VA-15_(U.S._Navy)#0
+/wiki/VFA-94#P1448#0,person,P1448,D/train,"VFA-94 ""Mighty Shrikes"" was officially named what between Oct 1956 and Apr 1958?",Fighter Squadron 94,Mar 1952,Aug 1958,/wiki/VFA-94#6
+/wiki/VFA-94#P1448#1,person,P1448,D/train,"What was VFA- 94 ""Mighty Shrikes"" officially named in Sep 1972?",Attack Squadron 94,Aug 1958,Jun 1990,/wiki/VFA-94#8
+/wiki/VFA-94#P1448#2,person,P1448,D/train,"What was the official name of VFA-94 ""Mighty Shrikes"" between Nov 1990 and Jan 1991?",Strike Fighter Squadron 94,Jun 1990,Jun 1991,/wiki/VFA-94#19
+/wiki/Valladolid#P17#1,place,P17,D/train,Which nation had control of the city Valloadolid in early 1710s?,Castile and León,1230,1716,/wiki/Valladolid#0
+/wiki/Valladolid#P17#2,place,P17,D/train,What nation had reign over the city of Valladolid in Feb 1716?,Hispanic Monarchy,1716,1717,/wiki/Valladolid#20
+/wiki/Villa_del_Balbianello#P127#0,business,P127,D/train,Who purchased the Villa del Balbianello in 1787 and owned it until 1796?,Cardinal Angelo Maria Durini,1787,1796,/wiki/Villa_del_Balbianello#1
+/wiki/Villa_del_Balbianello#P127#1,business,P127,D/train,Who owned the Villa del Balbianello for 14 years beginning in 1974?,Count Guido Monzino,1974,1988,/wiki/Villa_del_Balbianello#5
+/wiki/Vladimir_Bukovsky#P27#3,person,P27,D/test,Writer Vladimir Konstantinovich Bukovsky had which type of citizenship between May 2014 and Jul 2014?,Bukovsky,2014,2015,/wiki/Vladimir_Bukovsky#0
+/wiki/Vologda_Governorate#P17#0,place,P17,D/train,Which country held power over the Vologda Governorate in Feb 1822?,Russian Empire,Dec 1796,Nov 1917,/wiki/Vologda_Governorate#0
+/wiki/Vologda_Governorate#P17#1,place,P17,D/train,Which country held power over the Vologda Governorate in Oct 1921?,Russian Soviet Federative Socialist Republic,Nov 1917,Dec 1922,/wiki/Vologda_Governorate#8
+/wiki/Walter_Mazzarri#P6087#0,sports,P6087,D/train,"in Mar 2002, which team was Coach Mazzarri in charge of?",Acireale,Jul 2001,Jun 2002,/wiki/Walter_Mazzarri#6
+/wiki/Walter_Mazzarri#P6087#2,sports,P6087,D/train,Mr Mazzarri coached which team in Jan 2004?,Livorno,Jul 2003,Jun 2004,/wiki/Walter_Mazzarri#6
+/wiki/Walter_Mazzarri#P6087#4,sports,P6087,D/train,Mr Mazzarri worked as the coach of which team between Jul 2008 and Oct 2008,Sampdoria,Jul 2007,Jun 2009,/wiki/Walter_Mazzarri#8
+/wiki/Walter_Mazzarri#P6087#6,sports,P6087,D/train,Which team was mangaed by Mazzarri between Oct 2013 and May 2014?,Inter,May 2013,Nov 2014,/wiki/Walter_Mazzarri#15
+/wiki/Walter_Mazzarri#P6087#7,sports,P6087,D/train,Which UK team was coached by Walter Mazzarri after Sep 2016?,Watford,Jul 2016,May 2017,/wiki/Walter_Mazzarri#16
+/wiki/Wilhelm_Külz#P102#0,politics,P102,D/train,To which political faction did Erna Freymond's husband belong in early 1940s?,German Democratic Party,1918,1945,/wiki/Wilhelm_Külz#5
+/wiki/Wilhelm_Külz#P102#1,politics,P102,D/train,"In the period of time between Nov 1945 and Dec 1945, to which political group did Helmut Külz's father belong?",Liberal Democratic Party of Germany,1945,1946,/wiki/Wilhelm_Külz#7
+/wiki/William_Duncan_(missionary)#P551#0,person,P551,D/train,William Duncan resided where between Oct 1860 and Mar 1861?,"Lax Kwalaams , British Columbia",1857,1862,/wiki/William_Duncan_(missionary)#4
+/wiki/William_Keith_(artist)#P937#1,career,P937,D/test,Where was the artist William Keith based at while working in Nov 1864?,San Francisco,1863,1870,/wiki/William_Keith_(artist)#2
+/wiki/Willy_Hernangómez#P54#0,sports,P54,D/test,Which reserve team did Willy Hernangómez play for before Oct 2012?,Real Madrid,2011,2013,/wiki/Willy_Hernangómez#1
+/wiki/Writers_Guild_of_America_West#P1448#0,person,P1448,D/train,Which organization named wgaw after apr 1933 to 1954?,Screen Writers Guild,Apr 1933,1954,/wiki/Writers_Guild_of_America_West#1
+/wiki/Writers_Guild_of_America_West#P1448#2,person,P1448,D/train,What was the official name of WGAw after Jun 2018?,Writers Guild of America West,Dec 2017,Dec 2018,/wiki/Writers_Guild_of_America_West#0
+/wiki/Y_Combinator#P488#0,business,P488,D/test,YC had which man as its top person in Nov 2013?,Paul Graham,2013,2014,/wiki/Y_Combinator#1
+/wiki/Y_Combinator#P488#1,business,P488,D/test,YC had which man as its top person between Jun 2017 and Jan 2018?,Sam Altman,2014,2019,/wiki/Y_Combinator#20
+/wiki/Young_Girl_with_a_Flower_Basket#P127#1,business,P127,D/test,The painting of Young Girl with a Flower Basket had which person or organisation in ownership of it in Mar 1922?,Gertrude Stein,1913,1946,/wiki/Young_Girl_with_a_Flower_Basket#18
+/wiki/Zerelda_James#P26#0,person,P26,D/train,Who was the mother of Frank and Jesse James married to between May 1843 and Dec 1844?,Robert Sallee James,Dec 1841,Sep 1852,/wiki/Zerelda_James#3
+/wiki/Zerelda_James#P26#1,person,P26,D/train,Who did the widow of Robert Sallee James wed between Sep 1856 and Sep 1856?,Benjamin Simms,Sep 1852,Sep 1855,/wiki/Zerelda_James#7
+/wiki/Zerelda_James#P26#2,person,P26,D/train,between May 1856 and Jul 1856 who was the third husband of the daughter of James and Sarah Lindsay Cole?,Reuben Samuel,Sep 1855,Sep 1856,/wiki/Zerelda_James#8
+"/wiki/Zé_Pedro_(footballer,_born_1978)#P54#0",sports,P54,D/train,For what football group did Zé Pedro play before Jan 1996?,C.D . Montijo,1996,1997,"/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+"/wiki/Zé_Pedro_(footballer,_born_1978)#P54#1",sports,P54,D/train,"In the stretch of time between Jun 1998 and Jul 2000, which football team did José Pedro Alves Salazar play on?",Barreirense,1997,2002,"/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+"/wiki/Zé_Pedro_(footballer,_born_1978)#P54#2",sports,P54,D/train,Zé Pedro competed on which football squad between Sep 2003 and Dec 2003?,Vitória Setúbal,2003,2004,"/wiki/Zé_Pedro_(footballer,_born_1978)#3"
+"/wiki/Zé_Pedro_(footballer,_born_1978)#P54#3",sports,P54,D/train,"In the years between Feb 2009 and Nov 2009, José Pedro played on what football squad?",Os Belenenses,2004,2010,"/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+"/wiki/Zé_Pedro_(footballer,_born_1978)#P54#4",sports,P54,D/train,The Portuguese attacking midfielder who was born in 1978 competed on which team in Aug 2010?,Vitória Setúbal,2010,2013,"/wiki/Zé_Pedro_(footballer,_born_1978)#3"
