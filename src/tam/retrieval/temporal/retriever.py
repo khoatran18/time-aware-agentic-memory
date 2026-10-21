@@ -12,6 +12,7 @@ from tam.retrieval.temporal.filters import passes_hard_filter, to_vector_filter
 from tam.retrieval.temporal.fusion import fuse
 from tam.retrieval.temporal.rerank import (
     RERANK_MODES,
+    RERANK_NORMS,
     RERANK_POOLS,
     CrossEncoderReranker,
     Reranker,
@@ -72,6 +73,8 @@ class TemporalRetriever(Retriever):
         rerank_alpha: float = 0.5,
         rerank_pool: str = "final",
         rerank_time: bool = False,
+        rerank_norm: str = "minmax",
+        rerank_temporal: bool = True,
         inferred_factor: float = 1.0,
     ) -> None:
         """`top_n`: số ứng viên mỗi nhánh lấy từ store; `top_k`: số chunk trả về sau re-rank.
@@ -88,7 +91,7 @@ class TemporalRetriever(Retriever):
         | `page` (như `time` nhưng chỉ qua hard filter, không đòi hợp lệ theo thời gian: đối chứng).
         `reranker` (decisions/07 đề xuất 4; None = tắt): cross-encoder chấm lại `rerank_top` ứng viên đầu (chọn theo `rerank_pool`: `final` = hạng cuối
         hiện tại, `semantic` = hạng Semantic) rồi tính lại Final; `rerank_mode`: `replace` (Semantic mới = min-max điểm CE) | `mix`
-        (`rerank_alpha·Semantic cũ + (1-rerank_alpha)·min-max CE`); `rerank_time`: ghép khoảng hiệu lực của chunk vào văn bản đưa cho CE.
+        (`rerank_alpha·Semantic cũ + (1-rerank_alpha)·min-max CE`); `rerank_time`: ghép khoảng hiệu lực của chunk vào văn bản đưa cho CE; `rerank_norm`: cách chuẩn hóa điểm CE (`minmax` | `sigmoid` | `softmax` | `zscore`); `rerank_temporal`: False thì sau khi chấm, nhóm được rerank xếp CHỈ theo điểm CE (không cộng `Temporal` lần hai; thời gian chỉ còn tác dụng ở bước chọn nhóm khi `rerank_pool` = final, hoặc ở văn bản ghép khi `rerank_time`).
         Ứng viên ngoài nhóm rerank giữ thứ tự cũ, xếp sau nhóm rerank.
         `inferred_factor` (đề xuất 11): hệ số (0, 1] nhân điểm thời gian của chunk có mốc suy từ chunk liền kề; 1.0 = như mốc thật.
         """
@@ -121,7 +124,10 @@ class TemporalRetriever(Retriever):
         if not 0 < inferred_factor <= 1:
             raise ValueError(f"inferred_factor phải thuộc (0, 1], nhận {inferred_factor}")
         self._reranker, self._rerank_top, self._rerank_mode, self._rerank_alpha = reranker, rerank_top, rerank_mode, rerank_alpha
+        if rerank_norm not in RERANK_NORMS:
+            raise ValueError(f"rerank_norm {RERANK_NORMS}; nhận {rerank_norm!r}")
         self._rerank_pool, self._rerank_time, self._inferred_factor = rerank_pool, rerank_time, inferred_factor
+        self._rerank_norm, self._rerank_temporal = rerank_norm, rerank_temporal
 
     @classmethod
     def from_config(cls, cfg: Config, store: VectorStore) -> TemporalRetriever:
@@ -153,6 +159,8 @@ class TemporalRetriever(Retriever):
             rerank_alpha=r.get("rerank_alpha", 0.5),
             rerank_pool=r.get("rerank_pool", "final"),
             rerank_time=r.get("rerank_time", False),
+            rerank_norm=r.get("rerank_norm", "minmax"),
+            rerank_temporal=r.get("rerank_temporal", True),
             inferred_factor=r.get("inferred_factor", 1.0),
         )
 
@@ -193,9 +201,10 @@ class TemporalRetriever(Retriever):
         pool = scored if self._rerank_pool == "final" else sorted(scored, key=lambda s: (-s.semantic_score, s.chunk.chunk_id))
         head, head_ids = pool[: self._rerank_top], {s.chunk.chunk_id for s in pool[: self._rerank_top]}
         ce = self._reranker.score(query.semantic_query, [rerank_text(s.chunk, with_time=self._rerank_time) for s in head])
-        sem = mix_scores([s.semantic_score for s in head], ce, self._rerank_mode, self._rerank_alpha)
+        sem = mix_scores([s.semantic_score for s in head], ce, self._rerank_mode, self._rerank_alpha, self._rerank_norm)
         redone = sorted(
-            (s.model_copy(update={"semantic_score": v, "final_score": final_score(v, s.temporal_score, self._w1, self._w2, s.domain_score, self._w3)})
+            (s.model_copy(update={"semantic_score": v, "final_score": final_score(v, s.temporal_score, self._w1, self._w2, s.domain_score, self._w3)
+                                  if self._rerank_temporal else v})
              for s, v in zip(head, sem, strict=True)), key=_rank_key)
         return redone + [s for s in scored if s.chunk.chunk_id not in head_ids]
 

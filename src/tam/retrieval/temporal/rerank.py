@@ -6,6 +6,7 @@ Bi-encoder nhúng câu hỏi và chunk riêng rồi so vector; cross-encoder đ�
 from __future__ import annotations
 
 import hashlib
+import math
 import os
 import sqlite3
 from collections.abc import Sequence
@@ -16,6 +17,7 @@ from tam.schemas.chunk import Chunk
 
 RERANK_MODES = ("replace", "mix")
 RERANK_POOLS = ("final", "semantic")
+RERANK_NORMS = ("minmax", "sigmoid", "softmax", "zscore")
 
 
 class Reranker(Protocol):
@@ -80,11 +82,32 @@ def minmax(values: Sequence[float]) -> list[float]:
     return [1.0] * len(values) if hi == lo else [(v - lo) / (hi - lo) for v in values]
 
 
-def mix_scores(old: Sequence[float], ce: Sequence[float], mode: str, alpha: float) -> list[float]:
-    """Semantic mới của các ứng viên: `replace` = min-max điểm CE; `mix` = `alpha·old + (1-alpha)·minmax(CE)` (old đã ở [0,1])."""
+def normalize(values: Sequence[float], kind: str = "minmax") -> list[float]:
+    """Đưa điểm cross-encoder về [0,1] để cộng với điểm thời gian: `minmax` (mặc định), `sigmoid` (logit -> xác suất, không phụ thuộc nhóm),
+    `softmax` (tổng 1 trên nhóm), `zscore` (chuẩn hóa rồi sigmoid)."""
+    if kind not in RERANK_NORMS:
+        raise ValueError(f"rerank_norm không hợp lệ: {kind!r}; cho phép {RERANK_NORMS}")
+    if not values:
+        return []
+    if kind == "minmax":
+        return minmax(values)
+    if kind == "sigmoid":
+        return [1 / (1 + math.exp(-max(-60.0, min(60.0, v)))) for v in values]
+    if kind == "softmax":
+        hi = max(values)
+        exps = [math.exp(v - hi) for v in values]
+        total = sum(exps)
+        return [e / total for e in exps]
+    mu = sum(values) / len(values)
+    sd = math.sqrt(sum((v - mu) ** 2 for v in values) / len(values))
+    return [0.5] * len(values) if sd == 0 else [1 / (1 + math.exp(-(v - mu) / sd)) for v in values]
+
+
+def mix_scores(old: Sequence[float], ce: Sequence[float], mode: str, alpha: float, norm_kind: str = "minmax") -> list[float]:
+    """Semantic mới của các ứng viên: `replace` = điểm CE đã chuẩn hóa (`norm_kind`); `mix` = `alpha·old + (1-alpha)·CE chuẩn hóa` (old đã ở [0,1])."""
     if mode not in RERANK_MODES:
         raise ValueError(f"rerank_mode không hợp lệ: {mode!r}; cho phép {RERANK_MODES}")
-    norm = minmax(ce)
+    norm = normalize(ce, norm_kind)
     if mode == "replace":
         return norm
     return [alpha * o + (1 - alpha) * c for o, c in zip(old, norm, strict=True)]

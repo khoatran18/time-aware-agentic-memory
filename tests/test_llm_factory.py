@@ -92,3 +92,10 @@ def test_structured_output_false_goes_to_metadata(stub):
     off = get_llm(cfg(p={"provider": "stub", "model_id": "m", "structured_output": False}), "p")
     assert (on.metadata or {}).get("structured_output", True) is True
     assert off.metadata["structured_output"] is False
+
+
+def test_google_profile_timeout_is_passed():
+    from tam.llm.providers.google import build
+    llm = build({"model_id": "gemini-3.5-flash-lite", "api_key": "x", "temperature": 0, "timeout": 90})
+    assert llm.timeout == 90
+    assert build({"model_id": "gemini-3.5-flash-lite", "api_key": "x"}).timeout is None

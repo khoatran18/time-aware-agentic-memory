@@ -101,6 +101,8 @@ retrieval:
   rerank_mode: "replace" # replace (Semantic mới = min-max điểm CE) | mix (alpha·Semantic cũ + (1-alpha)·CE)
   rerank_alpha: 0.5      # chỉ với mix
   rerank_pool: "final"   # nhóm được chấm lại: final (top theo Final) | semantic (top theo Semantic)
+  rerank_norm: "minmax"  # chuẩn hóa điểm cross-encoder: minmax | sigmoid | softmax | zscore
+  rerank_temporal: true  # false: sau khi chấm, xếp nhóm chỉ theo điểm cross-encoder (không cộng Temporal lần hai)
   rerank_time: false     # ghép khoảng hiệu lực của chunk vào văn bản đưa cho cross-encoder
   inferred_factor: 1.0   # hệ số (0,1] nhân điểm thời gian của chunk có mốc suy từ chunk liền kề (đề xuất 11); 1.0 = như mốc thật
 

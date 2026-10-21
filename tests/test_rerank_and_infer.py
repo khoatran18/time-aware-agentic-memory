@@ -174,3 +174,27 @@ def test_plain_retriever_rerank_changes_order():
     res = PlainRetriever(_store(), method="dense", top_k=4, reranker=FakeReranker("gamma"), rerank_top=4).retrieve(q)
     assert res.chunks[0].chunk.chunk_id == "a#1" != base.chunks[0].chunk.chunk_id
     assert res.trace.ranked_ids[0] == "a#1" and set(res.trace.ranked_ids) == set(base.trace.ranked_ids)
+
+
+def test_normalize_kinds():
+    from tam.retrieval.temporal.rerank import normalize
+    xs = [-2.0, 0.0, 3.0]
+    assert normalize(xs, "minmax") == [0.0, 0.4, 1.0]
+    sg = normalize(xs, "sigmoid")
+    assert sg == sorted(sg) and all(0 < v < 1 for v in sg) and normalize([100.0], "sigmoid") == [1.0]
+    assert abs(sum(normalize(xs, "softmax")) - 1) < 1e-9
+    z = normalize(xs, "zscore")
+    assert z == sorted(z) and normalize([1.0, 1.0], "zscore") == [0.5, 0.5]
+    with pytest.raises(ValueError):
+        normalize(xs, "bad")
+    with pytest.raises(ValueError):
+        TemporalRetriever(_store(), reranker=FakeReranker("x"), rerank_norm="bad")
+
+
+def test_rerank_without_temporal_orders_by_ce_only():
+    store = FakeVectorStore([mk("a#0", "alpha beta gamma", 1990, 1995), mk("a#1", "alpha beta", 2005)])
+    q = ProfiledQuery(semantic_query="alpha beta", t_req="2010-01-01")
+    with_t = TemporalRetriever(store, top_k=2, reranker=FakeReranker("gamma"), rerank_top=2, w1=0.1, w2=0.9).retrieve(q)
+    no_t = TemporalRetriever(store, top_k=2, reranker=FakeReranker("gamma"), rerank_top=2, w1=0.1, w2=0.9, rerank_temporal=False).retrieve(q)
+    assert with_t.chunks[0].chunk.chunk_id == "a#1"   # chunk còn hiệu lực thắng khi Temporal nặng
+    assert no_t.chunks[0].chunk.chunk_id == "a#0"     # bỏ Temporal ở lần hai: chỉ còn điểm cross-encoder

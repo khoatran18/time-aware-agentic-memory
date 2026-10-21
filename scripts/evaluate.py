@@ -23,7 +23,7 @@ from tam.evaluation.profiler_report import load_profiled
 from tam.evaluation.retrieval_eval import build_cases
 from tam.retrieval.baseline import METHODS, PlainRetriever
 from tam.retrieval.temporal.expansion import PAGE_EXPANDS
-from tam.retrieval.temporal.rerank import RERANK_MODES, RERANK_POOLS, CrossEncoderReranker
+from tam.retrieval.temporal.rerank import RERANK_MODES, RERANK_NORMS, RERANK_POOLS, CrossEncoderReranker
 from tam.retrieval.temporal.retriever import TemporalRetriever
 from tam.retrieval.temporal.scoring import DECAY_FROMS, END_MODES, OVERLAPS, TIME_MODES
 from tam.stores.vector.qdrant_store import QdrantStore, collection_for
@@ -41,6 +41,7 @@ def main() -> None:
     ap.add_argument("--extractions", help="extractions.jsonl của lần nạp hiện tại, để biết chunk đáp án nào còn sống")
     ap.add_argument("--facets", choices=["none", "domain", "boost"], default="none",
                     help="domain của Profiler: domain = lọc cứng, boost = cộng điểm W3 (cần --w3 > 0); chỉ e2e")
+    ap.add_argument("--w2", type=float, help="ghi đè retrieval.w2 (trọng số điểm thời gian); w1 = 1 - w2")
     ap.add_argument("--no-temporal", action="store_true", help="W1=1, W2=0: bỏ điểm thời gian")
     ap.add_argument("--method", choices=["temporal", *METHODS], default="temporal",
                     help="temporal = Cơ chế 1; dense | bm25 | hybrid = baseline plain RAG (không lọc, không điểm thời gian)")
@@ -61,6 +62,8 @@ def main() -> None:
     ap.add_argument("--rerank-mode", choices=list(RERANK_MODES), help="ghi đè retrieval.rerank_mode: replace | mix")
     ap.add_argument("--rerank-alpha", type=float, help="ghi đè retrieval.rerank_alpha (chỉ mix): trọng số Semantic cũ")
     ap.add_argument("--rerank-pool", choices=list(RERANK_POOLS), help="ghi đè retrieval.rerank_pool: nhóm được chấm lại theo final | semantic")
+    ap.add_argument("--rerank-norm", choices=list(RERANK_NORMS), help="ghi đè retrieval.rerank_norm: cách chuẩn hóa điểm cross-encoder (mặc định minmax)")
+    ap.add_argument("--rerank-no-temporal", action="store_true", help="sau khi cross-encoder chấm, xếp nhóm chỉ theo điểm cross-encoder (không cộng Temporal lần hai)")
     ap.add_argument("--rerank-time", action="store_true", help="ghép khoảng hiệu lực của chunk vào văn bản đưa cho cross-encoder")
     ap.add_argument("--inferred-factor", type=float, help="ghi đè retrieval.inferred_factor: hệ số (0,1] cho điểm thời gian của chunk có mốc suy luận")
     ap.add_argument("--top-k", type=int, help="ghi đè retrieval.top_k: số chunk trả về (Plain RAG cũng dùng; để vẽ đường cong ngữ cảnh)")
@@ -78,7 +81,8 @@ def main() -> None:
     store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset, args.collection))
     r = cfg.retrieval
     settings = {
-        "w1": 1.0 if args.no_temporal else r.w1, "w2": 0.0 if args.no_temporal else r.w2,
+        "w1": 1.0 if args.no_temporal else (r.w1 if args.w2 is None else 1.0 - args.w2),
+        "w2": 0.0 if args.no_temporal else (r.w2 if args.w2 is None else args.w2),
         "w3": r.get("w3", 0.0) if args.w3 is None else args.w3,
         "decay_lambda": r.decay_lambda, "rrf_k": r.rrf_k, "top_n": r.top_n, "top_k": args.top_k or r.top_k,
         "end_mode": args.end_mode or r.get("end_mode", "stored"),
@@ -97,6 +101,8 @@ def main() -> None:
         "rerank_alpha": r.get("rerank_alpha", 0.5) if args.rerank_alpha is None else args.rerank_alpha,
         "rerank_pool": args.rerank_pool or r.get("rerank_pool", "final"),
         "rerank_time": args.rerank_time or r.get("rerank_time", False),
+        "rerank_norm": args.rerank_norm or r.get("rerank_norm", "minmax"),
+        "rerank_temporal": False if args.rerank_no_temporal else r.get("rerank_temporal", True),
         "inferred_factor": r.get("inferred_factor", 1.0) if args.inferred_factor is None else args.inferred_factor,
     }
     rerank_model = args.rerank or r.get("rerank")

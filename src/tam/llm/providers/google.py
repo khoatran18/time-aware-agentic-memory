@@ -24,12 +24,14 @@ def build(profile: dict[str, Any]) -> BaseChatModel:
               temperature: 0
               cache_model: "basic-gemini-3.5-flash-lite"   # tùy chọn: dùng lại cache của profile khác, xem factory.get_llm
 
-    Các khóa dùng ở đây: `model_id`, `api_key`, `temperature`. Tên profile không nằm trong dict; factory dùng nó để chọn khối.
+    Các khóa dùng ở đây: `model_id`, `api_key`, `temperature`, `timeout` (tùy chọn, giây cho mỗi request; không đặt thì không giới hạn, một kết nối treo sẽ treo cả lượt chạy). Tên profile không nằm trong dict; factory dùng nó để chọn khối.
     """
     from langchain_google_genai import ChatGoogleGenerativeAI  # import trễ: nặng
 
+    extra = {"timeout": float(profile["timeout"])} if profile.get("timeout") else {}
     return ChatGoogleGenerativeAI(
         model=model_id(profile),
         google_api_key=require(profile, "api_key", "đặt GOOGLE_API_KEY trong .env"),
         temperature=profile.get("temperature", 0),
+        **extra,
     )
