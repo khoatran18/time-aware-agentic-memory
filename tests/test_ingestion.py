@@ -272,3 +272,16 @@ def test_extractor_downgrades_ongoing_without_evidence():
     llm3 = FakeLLM(lambda m: BatchTimes(items=[
         ChunkTime(index=0, start="2001", ongoing=True, ongoing_evidence="since 1999")]))
     assert TimeExtractor(llm3).extract(doc.title, chunk_document(doc))[0].ongoing_downgraded
+
+
+def test_prompt_version_selects_file():
+    import pytest
+
+    from tam.ingestion.time_extraction import prompt_path
+    assert prompt_path("v1").name == "ingestion_time_v1.md" and prompt_path("v3").name == "ingestion_time_v3.md"
+    for v in ("v1", "v2", "v3"):
+        text = prompt_path(v).read_text(encoding="utf-8")
+        assert text.count("{doc_title}") == 1 and text.count("{domains}") == 1
+    with pytest.raises(ValueError, match="phiên bản"):
+        prompt_path("v9")
+    assert TimeExtractor(FakeLLM(by_text({})), prompt_version="v2").prompt_version == "v2"

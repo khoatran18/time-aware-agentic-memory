@@ -9,11 +9,15 @@
 | 1 | Khoảng `[qs, qe]` + lọc/chấm chồng lấn | **Đã code phần Profiler** (`query/range_profiler.py`, `query/time_range.py`, prompt `time_extractor_v2.md`, `ProfiledQuery.t_end`, `profile_eval.py --ranges`, 11 test). **Đã code phần retriever dạng tùy chọn** (`retrieval.time_mode: point | range`, `retrieval.overlap: binary | coverage`; `scoring.temporal_score_range`, `filters.to_vector_filter(use_range=...)`, cờ `--time-mode`/`--overlap` của `evaluate.py`; mặc định `point` giữ nguyên hành vi cũ; 8 test mới). Lọc `start <= qe`, điểm chồng lấn (hoặc độ phủ), điểm lùi từ `start` hoặc `end` | **Đã đo** lưới 140 kịch bản mỗi bộ (`eval/05` mục 6.9): `range` so với `point` +0.002 ± 0.014 (giảm số câu bị lọc cứng 78 xuống 68), `coverage` kém `binary`; không vượt sai số. **Profiler khoảng đã chạy xong 400/400 câu** (Gemini 3.1, 0 lỗi; `output/20261020_173521/profiler.jsonl`, `prompt_version` v2); retriever chưa dùng khoảng | Đã đọc tay 37 câu bị lọc: cứu được tối đa 6 câu. `Profiler` cũ giữ nguyên, không bị thay |
 | 2 | Dung sai cố định của lọc | **Chưa code** | Chưa | Dự định bỏ nếu làm đề xuất 1 |
 | 3 | Phạt chunk hết hạn từ `end` (`decay_from`) | **Đã code**, dạng tùy chọn, mặc định `start` (`scoring.py`, `retriever.py`, `evaluate.py`, `config.*.yaml`, 3 test) | **Đã đo**: `mrr` +0.007 ở bộ thật (28/28 cặp tăng, nhỏ), +0.013 ở local | Chưa đổi mặc định |
-| 4 | Reranker cross-encoder / LLM | **Chưa code** | Chưa | `fastembed` có sẵn `TextCrossEncoder` |
-| 5 | Chỉ số chuỗi đáp án và chỉ số hợp lệ về thời gian | **Đã code** (`evaluation/answer_match.py`, `metrics_temporal.py`, `retrieval_eval.py`, `summarize_runs.py`; 6 test). Metrics: `ans_hit@k`, `ans_valid_hit@k`; `hit@k` theo chunk id giữ nguyên | Đang chạy lại các kịch bản để điền cột vào CSV | Khớp theo ranh giới từ (0.810 so với 0.812 ở khớp chuỗi con) |
+| 4 | Reranker cross-encoder / LLM | **Chưa code** | Chưa | `fastembed` có sẵn `TextCrossEncoder`; đã thử tải `Xenova/ms-marco-MiniLM-L-6-v2` (13 giây, chấm 20 cặp ~0.01 giây). **Việc tiếp theo** |
+| 5 | Chỉ số chuỗi đáp án và chỉ số hợp lệ về thời gian | **Đã code** (`evaluation/answer_match.py`, `metrics_temporal.py`, `retrieval_eval.py`, `summarize_runs.py`; 6 test). Metrics: `ans_hit@k`, `ans_valid_hit@k`; `hit@k` theo chunk id giữ nguyên | **Đã đo**: `results_{real,local}.csv` có cột `ans_hit@5`, `ans_valid_hit@5` (`eval/05` mục 6.10) | Khớp theo ranh giới từ (0.810 so với 0.812 ở khớp chuỗi con) |
 | 6 | Quét `λ`, `W1/W2` trên D/train | **Chưa code** | Chưa | |
-| 7 | Gom chunk cùng trang theo thời gian | **Chưa code** | Đã đo thời gian truy vấn thử (2–3 ms/trang); **chưa đo lợi ích** | Chunk liền kề theo chỉ số (cách A) **đã có** và đã đo (lưới 64 lần chạy, `eval/05` mục 6.5) |
+| 7 | Gom chunk cùng trang theo thời gian | **Đã code** dạng tùy chọn (`page_expand` none/time/page, `page_top`, `page_per`; `expansion.py`, `retriever.py`, cờ `--page-expand/--page-top/--page-per`, config dev/prod, chỉ số `ctx_size_p90/max`; 3 test) | **Đã đo** lưới 34 kịch bản mỗi bộ (`eval/05` mục 6.11): lọc thời gian **không tốt hơn** chunk liền kề; kém cả "cùng trang không lọc" (`ctx_hit` 0.719 so với 0.774 ở 3×5) | Kết quả âm; không đổi mặc định. Cần commit |
 | 8 | Một chunk nhiều khoảng | **Chưa code** | Chưa | Thêm ở bản này, gắn với `decisions/06` đề xuất 3 |
+| 9 | Ingestion v3: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Chưa code** | Chưa | Từ phân tích câu sai (`eval/05` 6.12): chunk đúng hết hạn 51/123 câu; cần LLM + nạp lại kho; gắn với `time_extractor_v3` (hoãn vì quota) |
+| 10 | `min_validity`: coi chunk còn hợp lệ ít nhất `start + L` năm (làm mềm `end`) | **Chưa code** | Chưa | Không cần LLM; dự định quét L ∈ {1, 5, 10, ∞} trên tập local/valid; rủi ro dương tính giả |
+| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật |
+| 12 | Không mở rộng lọc cứng cho `start` > `t_req` | Không làm | — | Vi phạm bất biến không rò rỉ tương lai; chỉ cứu thêm ~14 câu lệch ≤ 2 năm. Ghi lại để khỏi đề xuất lại |
 
 Đã code ngoài các đề xuất: `scripts/funnel_real.py` (phễu), `scripts/plot_results.py` (thêm `compare_*.svg`, `funnel.svg`), provider Google, `invoke_structured` chịu lỗi giới hạn tốc độ của Google.
 
@@ -49,11 +53,15 @@ Nguyên nhân khác nhau tùy nhóm và **chưa tách hết**:
 | 1 | Câu hỏi là **khoảng** `[qs, qe]` (theo độ mịn của câu hỏi); lọc cứng `cs <= qe`; điểm theo chồng lấn | Profiler, lọc, điểm | Câu hỏi chỉ có một điểm trong khi chunk có khoảng; lệch độ mịn (37 câu bị lọc: nhóm A) | Có (Profiler 400 câu) |
 | 2 | Dung sai cố định cho bộ lọc | Lọc | Cùng lỗi với 1, nhưng phụ thuộc bộ dữ liệu | Không |
 | 3 | Chunk đã kết thúc bị phạt theo thời gian **từ `end`**, không từ `start` | Điểm (TH2) | Chunk sống lâu vừa kết thúc bị phạt như chunk cổ | Không; **đã thử: +0.007 `mrr`, nhỏ** |
-| 4 | Reranker (cross-encoder miễn phí; LLM sau) trên top-20 | Sau xếp hạng | `hit@20` 0.877 so với `hit@5` 0.687 | Không với cross-encoder |
+| 4 | Reranker cross-encoder / LLM | **Chưa code** | Chưa | `fastembed` có sẵn `TextCrossEncoder`; đã thử tải `Xenova/ms-marco-MiniLM-L-6-v2` (13 giây, chấm 20 cặp ~0.01 giây). **Việc tiếp theo** |
 | 5 | Chỉ số chuỗi đáp án và tách 37 câu có chunk đáp án nằm sau thời điểm hỏi | Đánh giá | Chunk đáp án theo nhãn lệch thời kỳ | Không |
 | 6 | Quét `λ`, `W1/W2` trên D/train | Tham số | Chưa chốt bằng dữ liệu | Không |
 | 7 | Mở rộng ngữ cảnh bằng chunk **cùng trang giao khoảng hỏi** (ngoài chunk liền kề theo chỉ số) | Sau xếp hạng | Đúng trang nhưng nhầm thời kỳ; câu nhiều chunk đúng | Không |
 | 8 | Một chunk nhiều khoảng (LLM liệt kê từng sự việc có ngày; lọc theo mốc sớm nhất, chấm theo khoảng tốt nhất) | Ingestion, điểm | Đoạn nhiều thời kỳ chỉ gán một khoảng (khoảng 3–6 trong 37 câu bị lọc) | Có (nạp lại kho khoảng 330 lô) |
+| 9 | Ingestion v3: phân biệt **sự kiện và trạng thái** ("chuyển tới X năm 1950" kéo dài tới khi có sự kiện thay thế, `end` không bằng `start`) | **Chưa code** | Chưa | Từ phân tích câu sai (`eval/05` 6.12): chunk đúng hết hạn 51/123 câu; cần LLM + nạp lại kho; gắn với `time_extractor_v3` (hoãn vì quota) |
+| 10 | `min_validity`: coi chunk còn hợp lệ ít nhất `start + L` năm (làm mềm `end`) | **Chưa code** | Chưa | Không cần LLM; dự định quét L ∈ {1, 5, 10, ∞} trên tập local/valid; rủi ro dương tính giả |
+| 11 | Kế thừa mốc cho chunk không mốc từ chunk có mốc gần nhất cùng mục | **Chưa code** | Chưa | 15/123 câu sai; mốc kế thừa phải đánh dấu là suy ra, điểm thấp hơn mốc thật |
+| 12 | Không mở rộng lọc cứng cho `start` > `t_req` | Không làm | — | Vi phạm bất biến không rò rỉ tương lai; chỉ cứu thêm ~14 câu lệch ≤ 2 năm. Ghi lại để khỏi đề xuất lại |
 
 ## Đề xuất
 

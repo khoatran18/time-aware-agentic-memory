@@ -350,6 +350,44 @@ Tích lũy từng thay đổi, cùng nền dense và `t_unknown` 0.1 (trừ bư�
 - `unknown_decay` 0.05 thêm +0.012 (bộ thật) và +0.042 (local) so với `stored`; chưa kiểm tra ghép cặp, và do chọn trong hơn 140 cấu hình nên là cận trên.
 - `ans_valid@5` (đúng thời kỳ theo nhãn của ingestion) ít đổi ở các bước sau (0.63 đến 0.64), tức các cập nhật chủ yếu xếp lại thứ hạng chứ không đưa thêm chunk đúng thời kỳ vào top-5.
 
+### 6.11 Mở rộng ngữ cảnh cùng trang (decisions/07 đề xuất 7)
+
+Cấu hình nền (dense, `unknown_decay` 0.05, `t_unknown` 0.1, `decay_from end`, point, Profiler v2): `hit@5` = `mrr` không đổi (0.692 / 0.463) vì chunk thêm không đổi thứ hạng; chỉ `ctx_hit` (top-5 + chunk thêm) và kích thước ngữ cảnh đổi. Lưới 34 kịch bản mỗi bộ (`local/run_page_expand.py`, không gọi LLM; code: `page_expand` = `none | time | page`, `page_top`, `page_per`; chunk cùng trang lấy theo id `#0..#99`, sắp theo gần chunk của top-5; `page` = chỉ hard filter (đối chứng), `time` = thêm điều kiện còn hợp lệ tại `qs`).
+
+| Cách | Chunk trong ngữ cảnh (trung bình / p90 / max) | `ctx_hit` | `multi_all` | Câu được cứu |
+|---|---|---|---|---|
+| nền (top-5) | 5.0 / 5 / 5 | 0.692 | 0.167 | 0 |
+| liền kề ±1 | 8.2 / 11 / 15 | 0.749 | 0.333 | 23 |
+| liền kề ±2 | 10.4 / 15 / 22 | 0.774 | 0.333 | 33 |
+| liền kề ±3 | 12.1 / 19 / 29 | 0.797 | 0.333 | 42 |
+| liền kề ±5 | 14.6 / 25 / 41 | 0.820 | 0.417 | 51 |
+| cùng trang, **không** lọc thời gian, 3 trang × 2 | 7.7 / 9 / 11 | 0.737 | 0.250 | 18 |
+| cùng trang, không lọc thời gian, 3 trang × 5 | 11.0 / 15 / 20 | 0.774 | 0.333 | 33 |
+| cùng trang, **có** lọc thời gian, 3 trang × 2 | 6.5 / 8 / 11 | 0.714 | 0.167 | 9 |
+| cùng trang, có lọc thời gian, 3 trang × 5 | 7.5 / 10 / 17 | 0.719 | 0.167 | 11 |
+
+Kết luận: **lọc theo thời gian không tốt hơn** chunk liền kề theo chỉ số và kém cả "cùng trang, không lọc". Ngân sách ngữ cảnh nhỏ (trung bình 5.9 đến 7.5 chunk) nhưng trần thấp (`ctx_hit` ≤ 0.737 ở range). Lý do (suy luận, nối với mục 6.12): chunk đáp án còn sót ngoài top-5 phần lớn có nhãn thời gian không khớp `qs`, nên bị chính bộ lọc loại; liền kề thắng nhờ tính liên tục của văn bản, không cần nhãn đúng. Bộ local (40 câu) cùng xu hướng nhưng chênh lệch tối đa 3 câu nên không dùng để kết luận. Lưới đầy đủ: `local/pageexp_{real,local}.tsv`.
+
+### 6.12 Phân tích câu sai của cấu hình nền (bộ thật)
+
+123/399 câu sai (`hit@5` = 0.692). Mỗi câu một nhóm nguyên nhân; chi tiết từng câu: `dataset/eval/failures_real.csv`; script `local/failure_analysis.py`.
+
+| Nguyên nhân | Số câu | % |
+|---|---|---|
+| Chunk đúng bị lọc cứng: `start` sau `t_req` (nhãn ở tương lai) | 41 | 33% |
+| Chunk đúng đã hết hạn (`end` < `t_req`), xếp sau top-5 (6–10: 13; 11–20: 14; 21–50: 6) | 33 | 27% |
+| Điểm thời gian đẩy chunk đúng ra khỏi top-5 (trước đó đã trong top-5) | 21 | 17% |
+| Chunk đúng không mốc (điểm `t_unknown` 0.1 thấp), xếp sau top-5 | 15 | 12% |
+| Chunk đúng hợp lệ về thời gian nhưng xếp sau top-5 (lỗi ngữ nghĩa thuần) | 10 | 8% |
+| Không vào ứng viên (dense top-50) | 3 | 2% |
+
+- Trạng thái nhãn của chunk đúng tại `t_req`: **tương lai 41, hết hạn 51, không mốc 20, hợp lệ 11**. Tức **92/123 (75%) nhãn thời gian chunk đúng không khớp thời điểm hỏi**: lỗi nằm ở nhãn lúc ingestion, không phải ở xếp hạng. Lỗi do Profiler chỉ 3/123 (`t_req` ngoài khoảng nhãn).
+- Trong 51 chunk hết hạn: `end_status` `known` 32, `unknown` 19 (với `unknown`, `end` chỉ là cuối năm của `start`; điểm thời gian còn 0.00–0.98, trung vị khoảng 0.17). Trong 41 chunk tương lai: `known` 30, `unknown` 11. Khoảng cách `t_req` − `end` có trung vị 11.2 năm (10/51 câu ≤ 1 năm); `start` − `t_req` trung vị 4.0 năm (13/41 câu ≤ 1 năm).
+- Cả 123 câu đều có ít nhất một chunk top-5 cùng trang với chunk đúng: trang đúng, chọn nhầm đoạn.
+- Góc nhìn người đọc: 52 câu top-5 vẫn chứa chuỗi đáp án (`ans_hit@5`), 37 câu còn hợp lệ thời gian. Ngữ cảnh cứu được: liền kề ±5 cứu 51, cùng trang 3×5 không lọc 33, có lọc 11; **71 câu không ngữ cảnh nào cứu được**.
+- Đọc tay 12 mẫu: (1) sự kiện bị gán như trạng thái đã kết thúc ("Sam Selvon chuyển tới London năm 1950" gán `start=end=1950`; hỏi tháng 1/1975 thì đáp án vẫn London); (2) chunk nhắc mốc đời sau ("Nik Stauskas học trung học", chunk nhắc mùa 2012, hỏi 2008); (3) đoạn không có mốc thật; (4) nhãn dữ liệu lệch (vd "current director" gán 2014). Từ đó sinh đề xuất 9–12 ở `decisions/07`.
+- Trần ước lượng nếu sửa hoàn hảo nhãn sự kiện/trạng thái và chunk không mốc: `hit@5` khoảng 0.85 (suy luận từ bảng, chưa đo).
+
 ## 7. "Bị lọc nhầm" nghĩa là gì, và bộ có còn đủ 400 câu không
 
 - **Bộ vẫn đủ 400 câu**, trong đó 399 câu có chunk đáp án trong kho (1 câu có chunk đáp án bị bỏ lúc nạp kho). Không câu nào bị loại khỏi mẫu đánh giá vì lọc nhầm; 37 câu chỉ là các câu hệ **không thể trả đúng** khi còn dùng bộ lọc cứng.

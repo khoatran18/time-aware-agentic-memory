@@ -10,7 +10,9 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 
 | Prompt | Phiên bản | Ghi chú |
 |---|---|---|
-| `ingestion_time` | `v1` | Bản đang dùng |
+| `ingestion_time` | `v1` | Bản mặc định, dùng ở mọi kết quả đến 2026-10-20 |
+| `ingestion_time` | `v3` | **Bản thảo, mới thử 3 trang** (2026-10-20): v2 + phân biệt "các giai đoạn riêng" với "một nhiệm kỳ đang diễn ra" khi chunk có nhiều mốc. Chọn bằng `--prompt-version v3` |
+| `ingestion_time` | `v2` | **Thử nghiệm** (2026-10-20): sự việc một lần khác sự việc mở trạng thái; chunk nhiều mốc lấy mốc sớm nhất và muộn nhất; chunk mở đầu về chủ thể. Chọn bằng `scripts/ingest.py --prompt-version v2` (mặc định `v1`); nạp vào collection riêng `tam_chunks_dev_real_v2` |
 | `time_extractor` (Profiler) | `v1` | Trả một điểm `t_req` (`Profiler`, schema `Extraction`); dùng ở mọi kết quả đến 2026-10-20 |
 | `time_extractor` (Profiler) | `v2` | Trả khoảng `t_start`/`t_end` ở độ mịn câu hỏi + `bound` (exact/after/before/none) (`RangeProfiler`, schema `RangeExtraction`); decisions/07 đề xuất 1. Khác schema nên là lớp riêng, `v1` không đổi |
 | `time_extractor` (Profiler) | `v3` | **Dự kiến, chưa viết** (xem mục dưới) |
@@ -30,6 +32,41 @@ Mỗi dòng: ngày, file prompt, đổi gì, vì sao, hiệu quả đo được 
 ### Dự kiến, chưa làm
 - ~~Quy tắc ưu tiên "lĩnh vực của chủ thể hơn khía cạnh"~~ **bỏ** (2026-10-19): domain chỉ cộng điểm và gắn theo khía cạnh được hỏi, chunk được mang tới 3 nhãn gồm cả hai loại, nên không cần chọn một. Xem docs/eval/01 mục 3.
 - Ghi nhận: `ingestion_time_v1.md` có thời gian sửa 11:48 giữa lần 2 và lần 4 mà sổ này không có dòng tương ứng; nội dung thay đổi chưa dựng lại được. Từ nay mỗi lần đổi prompt phải ghi dòng ở đây trước khi chạy.
+
+## `src/tam/llm/prompts/ingestion_time_v2.md` (gán mốc và domain cho chunk)
+
+Mục đích: giảm lỗi nhãn thời gian của chunk đúng (92/123 câu sai của cấu hình nền có nhãn lệch thời điểm hỏi: `eval/05` mục 6.12; đề xuất 9 ở `decisions/07`). Phần `domain` giống hệt v1 (đã diff) để chỉ đổi phần thời gian. `v1` không đổi.
+
+| Ngày | Đổi gì | Vì sao | Hiệu quả |
+|---|---|---|---|
+| 2026-10-20 | Thay mục "ba trạng thái" bằng thứ tự quyết định cho `end` (một lần / nhiều mốc / chunk mở đầu / tình huống bắt đầu) | v1 tự mâu thuẫn: `end` định nghĩa "ngày muộn nhất của sự việc" mà trạng thái 3 bảo null; nhiều chunk có lý do "nothing says whether it stopped" vẫn điền `end` = năm `start` | Xem dưới |
+| 2026-10-20 | Tách sự việc một lần khỏi sự việc mở trạng thái (nguyên tắc "hôm sau còn đúng không?" + 5 ví dụ khác loại, không liệt kê động từ) | LLM sao chép ngày bổ nhiệm/chuyển nhà vào `end` (khoảng 18 chunk sai) | |
+| 2026-10-20 | Chunk nhiều mốc hoặc có khoảng ("1963–64"): `end` là mốc muộn nhất, không null | Khoảng 25 chunk danh sách bị rút thành một mốc | |
+| 2026-10-20 | Chunk mở đầu về chủ thể: cả vòng đời (sinh/thành lập → mất/giải thể, không thì unknown), không áp "ngày sinh là cả sự việc" | Khoảng 9 chunk bị gán một ngày | |
+| 2026-10-20 | Ví dụ tự bịa: giải thưởng, bổ nhiệm, danh sách giám đốc, tiểu sử người còn sống, công ty giải thể ở chunk khác, nơi ở Lisbon → Madrid, kể chuyện theo mùa | Mỗi quy tắc một ví dụ | |
+| 2026-10-20 | **Không đụng chính sách `ongoing`** | Giữ như `decisions/02` (cần cụm nguyên văn) | |
+
+**Ba lần thử trên 3 trang (113 chunk, `--dry-run`, 5 request mỗi lần)**, so với v1 về `end_status`:
+
+| Bản | known / unknown | Nhận xét |
+|---|---|---|
+| v1 | 80 / 9 | |
+| v2a (bản đầu) | 77 / 15 | Danh sách và lịch sử nhiều năm được khoảng rộng đúng hơn (1 Hanover Square, 1. FC Köln #33–35), nhưng 9 chunk kể mùa giải ("1977–78", "2012–13") bị chuyển sang `unknown`, chỉ còn năm bắt đầu (hồi quy) |
+| **v2b (bản chọn)** | 76 / 19 | Đổi thứ tự: nhiều mốc hoặc khoảng đứng trước tình huống bắt đầu; thêm ví dụ kể chuyện; hồi quy mùa giải sửa được. Còn vài chunk lỡ sang `unknown` dù có hai năm (landmark 1965 và 1999) |
+| v2c (thêm bước `Dates:` ở `reason_end_date`) | 59 / 35 | **Tệ hơn**, LLM nhỏ coi nhiều chunk hơn là "mở trạng thái"; đã gỡ |
+
+Kết luận tạm: LLM nhỏ (Gemini 3.5 flash-lite) tuân thủ thứ tự quyết định chưa ổn định; 3 trang không đủ để chọn tiếp. Bản chọn là v2b; kết quả cuối phải đo bằng chỉ số truy xuất.
+
+## `src/tam/llm/prompts/ingestion_time_v3.md` (gán mốc và domain cho chunk)
+
+Bản thảo, đã thử 3 trang (113 chunk, 5 request) nhưng chưa đo bằng chỉ số truy xuất. Dựa trên v2 (bản v2b), sửa một chỗ; `v2` giữ nguyên để khớp kết quả đã chạy.
+
+| Ngày | Đổi gì | Vì sao | Hiệu quả |
+|---|---|---|---|
+| 2026-10-20 | Bước 2 của "What `end` means" tách hai trường hợp: (a) các mốc là giai đoạn riêng (mùa giải, năm của một lịch sử, mục của danh sách) → chỉ dùng mốc trong chính chunk, chuyện tiếp ở chunk sau không kéo dài chunk này; (b) các mốc là các phần của **một** nhiệm kỳ/công việc/hôn nhân/nơi ở đang diễn ra mà chunk khác nói đã kết thúc → `end` là mốc kết thúc đó | v2b có xung đột chưa kiểm: chunk "bổ nhiệm 2004 ... thắng cúp 2005" nhận `end` 2005 (mốc muộn nhất trong chunk) dù chunk sau nói "rời chức 2007" cùng nhiệm kỳ. Ngược lại, coi cả mạch kể là một sự việc sẽ kéo mọi chunk của trang đến mốc cuối trang, mất khả năng phân biệt thời gian | |
+| 2026-10-20 | Thêm hai ví dụ đối lập tự bịa (lịch sử đội theo mùa so với một nhiệm kỳ giám đốc) | Mỗi nhánh một ví dụ | |
+
+Thử 3 trang (`--dry-run`, 5 request): `end_status` v1 80 known / 9 unknown / 1 ongoing; v2b 76 / 19 / 1; **v3 75 / 16 / 2** (20 chunk không mốc). Tức v3 ≈ v2b, vẫn nhiều `unknown` hơn v1. Hai ca xung đột nhắm tới (cùng nhiệm kỳ nhưng bước 2 cho `end` sớm) không có trong 3 trang này nên chưa kiểm. Còn lại: landmark 1965/1977 (Hanover #5), #29 (hai năm 1870, 1871 nhưng `unknown`), #8 vẫn `unknown` chỉ còn năm bắt đầu; Köln #1 thành `ongoing` (bằng chứng "as of 1 August 2019"). Rủi ro như v2c: thêm quy tắc có thể làm LLM nhỏ tuân thủ kém đi; phải đo trước khi tin.
 
 ## `src/tam/llm/prompts/time_extractor_v1.md` (Profiler)
 

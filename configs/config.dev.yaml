@@ -110,7 +110,7 @@ retrieval:
   t_unknown: null        # điểm thời gian của chunk không mốc (vd 0.5); null = tắt nhánh này (decisions/04)
   sparse_weight: 1.0     # trọng số nhánh BM25 trong RRF (dense luôn 1); 0 = bỏ BM25 (docs/eval/04, đợt 1b)
   neighbor_window: 0     # số chunk liền kề mỗi phía lấy làm ngữ cảnh; 0 = tắt
-  page_expand: \"none\"    # mở rộng cùng trang (decisions/07 đề xuất 7): none | time (còn hợp lệ theo thời gian) | page (đối chứng, không lọc thời gian)
+  page_expand: "none"    # mở rộng cùng trang (decisions/07 đề xuất 7): none | time (còn hợp lệ theo thời gian) | page (đối chứng, không lọc thời gian)
   page_top: 3            # số trang (theo Top-K) được mở rộng
   page_per: 2            # số chunk thêm tối đa mỗi trang
 

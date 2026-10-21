@@ -23,8 +23,18 @@ from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize
 
 logger = get_logger(__name__)
 
-PROMPT_VERSION = "v1"  # prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
-PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"ingestion_time_{PROMPT_VERSION}.md"
+PROMPT_VERSION = "v1"  # phiên bản mặc định; prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
+PROMPT_DIR = Path(__file__).resolve().parents[1] / "llm" / "prompts"
+PROMPT_PATH = PROMPT_DIR / f"ingestion_time_{PROMPT_VERSION}.md"
+
+
+def prompt_path(version: str) -> Path:
+    """Đường dẫn file prompt ingestion theo phiên bản (`v1`, `v2`...); không có file thì báo lỗi nêu các phiên bản hiện có."""
+    path = PROMPT_DIR / f"ingestion_time_{version}.md"
+    if not path.is_file():
+        have = sorted(p.stem.removeprefix("ingestion_time_") for p in PROMPT_DIR.glob("ingestion_time_v*.md"))
+        raise ValueError(f"Không có prompt ingestion phiên bản {version!r}; hiện có: {have}")
+    return path
 _PARTIAL_DATE = re.compile(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
 # Dấu hiệu "còn hiệu lực" mà câu bằng chứng của `ongoing` phải chứa (heuristic cho tiếng Anh, docs/decisions/02)
 _ONGOING_CUES = re.compile(
@@ -133,12 +143,15 @@ class TimeExtractor:
 
     def __init__(
         self, llm: BaseChatModel, *, prompt: str | None = None, batch_size: int = 30, max_attempts: int = 3,
-        cache: CacheStore | None = None,
+        cache: CacheStore | None = None, prompt_version: str = PROMPT_VERSION,
     ) -> None:
-        """`llm`: chat model (role ingestion_time). `batch_size`: số chunk tối đa trong một lệnh gọi."""
+        """`llm`: chat model (role ingestion_time). `batch_size`: số chunk tối đa trong một lệnh gọi.
+
+        `prompt_version`: phiên bản file prompt (`ingestion_time_<v>.md`); mặc định `v1` giữ nguyên hành vi cũ. `prompt` (nội dung) thắng nếu có."""
         self._llm = llm
         self._chain = llm.with_structured_output(BatchTimes)
-        self._prompt = prompt if prompt is not None else PROMPT_PATH.read_text(encoding="utf-8")
+        self.prompt_version = prompt_version
+        self._prompt = prompt if prompt is not None else prompt_path(prompt_version).read_text(encoding="utf-8")
         self._batch_size = batch_size
         self._max_attempts = max_attempts
         self._cache = cache

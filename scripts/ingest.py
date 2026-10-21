@@ -33,6 +33,7 @@ def main() -> None:
     ap.add_argument("--refresh-cache", action="store_true", help="bỏ qua cache cũ, gọi lại LLM và ghi đè")
     ap.add_argument("--keep-undated", action="store_true",
                     help="giữ chunk không có mốc nhưng có nội dung (start_time rỗng); dùng với retrieval.t_unknown, xem decisions/04")
+    ap.add_argument("--prompt-version", default="v1", help="phiên bản prompt ingestion_time (v1 mặc định; v2: decisions/03). Nên dùng --collection riêng để không đè kho cũ")
     ap.add_argument("--limit-pages", type=int, default=None, help="chỉ nạp N trang đầu (để thử nhanh)")
     args = ap.parse_args()
 
@@ -64,13 +65,13 @@ def main() -> None:
                 "domain": list(res.domains), "ongoing": res.ongoing, "end_status": res.end_status if res.span else None,
                 "undated": pipeline.keeps_undated(res), "skipped": res.reason, "reason_end_date": res.note, "reason_domain": res.domain_note,
                 "ongoing_evidence": res.ongoing_evidence, "ongoing_downgraded": res.ongoing_downgraded,
-                "text": rc.text[:300],
+                "text": rc.text[:300], "prompt_version": extractor.prompt_version,
             }
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             f.flush()
 
         cache = None if args.no_cache else open_cache(ROOT / "data" / "llm_cache", refresh=args.refresh_cache)
-        extractor = TimeExtractor(get_llm_for_role(cfg, "ingestion_time"), cache=cache)
+        extractor = TimeExtractor(get_llm_for_role(cfg, "ingestion_time"), cache=cache, prompt_version=args.prompt_version)
         pipeline = IngestionPipeline(extractor, sinks, on_result=record, keep_undated=args.keep_undated)
         try:
             stats = pipeline.run(docs)
