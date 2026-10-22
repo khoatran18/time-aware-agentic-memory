@@ -19,7 +19,7 @@ Chạy lại **toàn bộ 142 kịch bản đã chạy ở bộ local** (cùng c
 | LLM nạp kho | Gemini 3.5 flash-lite gọi thẳng API Google (có structured output); `output/20261020_143820/extractions.jsonl` |
 | LLM Profiler | Gemini 3.1 flash-lite gọi thẳng; `output/20261020_144033/profiler.jsonl`, 400/400 câu, 0 lỗi |
 | Chế độ | `e2e` (Profiler lấy `t_req` từ câu hỏi), mức `hard`, `top_k` 5, `top_n` 50 |
-| Chạy | `local/run_real_eval.py` (không gọi LLM), 142 lần, 0 lỗi, rồi thêm lưới chunk liền kề 32 lần (`local/run_neighbors.py`); gom bằng `scripts/summarize_runs.py`, vẽ bằng `scripts/plot_results.py`, phễu bằng `scripts/funnel_real.py` |
+| Chạy | `local/scripts/run_real_eval.py` (không gọi LLM), 142 lần, 0 lỗi, rồi thêm lưới chunk liền kề 32 lần (`local/scripts/run_neighbors.py`); gom bằng `scripts/summarize_runs.py`, vẽ bằng `scripts/plot_results.py`, phễu bằng `scripts/funnel_real.py` |
 | Dữ liệu | [`results_real.csv`](../../dataset/eval/results_real.csv) (132 nhóm xếp hạng + 38 nhóm có chunk liền kề), [`results_compare.csv`](../../dataset/eval/results_compare.csv) (local và real cạnh nhau, 170 dòng), [`real_funnel.csv`](../../dataset/eval/real_funnel.csv) |
 
 Khác biệt với local khi so sánh: nạp kho và Profiler của hai bộ không cùng model (local: 3.5 qua 9router cho cả hai; real: 3.5 nạp kho, 3.1 Profiler). Cỡ mẫu: `mrr` có sai số chuẩn khoảng 0.07 ở 40 câu, khoảng 0.02 ở 400 câu, nên chênh lệch dưới ~0.04 ở local không phân biệt được, còn ở bộ thật chỉ khoảng 0.04 là cần thiết (ghép cặp: 0.01–0.04, xem mục 6).
@@ -352,7 +352,7 @@ Tích lũy từng thay đổi, cùng nền dense và `t_unknown` 0.1 (trừ bư�
 
 ### 6.11 Mở rộng ngữ cảnh cùng trang (decisions/07 đề xuất 7)
 
-Cấu hình nền (dense, `unknown_decay` 0.05, `t_unknown` 0.1, `decay_from end`, point, Profiler v2): `hit@5` = `mrr` không đổi (0.692 / 0.463) vì chunk thêm không đổi thứ hạng; chỉ `ctx_hit` (top-5 + chunk thêm) và kích thước ngữ cảnh đổi. Lưới 34 kịch bản mỗi bộ (`local/run_page_expand.py`, không gọi LLM; code: `page_expand` = `none | time | page`, `page_top`, `page_per`; chunk cùng trang lấy theo id `#0..#99`, sắp theo gần chunk của top-5; `page` = chỉ hard filter (đối chứng), `time` = thêm điều kiện còn hợp lệ tại `qs`).
+Cấu hình nền (dense, `unknown_decay` 0.05, `t_unknown` 0.1, `decay_from end`, point, Profiler v2): `hit@5` = `mrr` không đổi (0.692 / 0.463) vì chunk thêm không đổi thứ hạng; chỉ `ctx_hit` (top-5 + chunk thêm) và kích thước ngữ cảnh đổi. Lưới 34 kịch bản mỗi bộ (`local/scripts/run_page_expand.py`, không gọi LLM; code: `page_expand` = `none | time | page`, `page_top`, `page_per`; chunk cùng trang lấy theo id `#0..#99`, sắp theo gần chunk của top-5; `page` = chỉ hard filter (đối chứng), `time` = thêm điều kiện còn hợp lệ tại `qs`).
 
 | Cách | Chunk trong ngữ cảnh (trung bình / p90 / max) | `ctx_hit` | `multi_all` | Câu được cứu |
 |---|---|---|---|---|
@@ -390,7 +390,7 @@ Kết luận: **lọc theo thời gian không tốt hơn** chunk liền kề the
 
 ### 6.13 Kho nạp lại bằng prompt ingestion v3 (decisions/07 đề xuất 9)
 
-Nạp lại cả bộ thật (204 trang, 6880 chunk, `google_35`, 330 lô) bằng `ingestion_time_v3.md` vào collection riêng `tam_chunks_dev_real_v2` (6752 điểm; kho v1 6737). Extractions: `output/20261021_174115/extractions.jsonl`. Cùng Profiler v2 (point), dense, `t_unknown` 0.1; lưới 14 cấu hình `end_mode` × `decay_from` (`local/run_v3_eval.py`, không gọi LLM). Prompt v1, v2, v3 và ba lần thử nhỏ: `decisions/03`.
+Nạp lại cả bộ thật (204 trang, 6880 chunk, `google_35`, 330 lô) bằng `ingestion_time_v3.md` vào collection riêng `tam_chunks_dev_real_v2` (6752 điểm; kho v1 6737). Extractions: `output/20261021_174115/extractions.jsonl`. Cùng Profiler v2 (point), dense, `t_unknown` 0.1; lưới 14 cấu hình `end_mode` × `decay_from` (`local/scripts/run_v3_eval.py`, không gọi LLM). Prompt v1, v2, v3 và ba lần thử nhỏ: `decisions/03`.
 
 **Nhãn toàn bộ 6880 chunk (v1 → v3):** `known` 3974 → 4596, `unknown` 1238 → 924, `ongoing` 167 → 172, không mốc 1501 → 1188, `invalid_time` 41 → 29. Giống hệt v1 ở 3735 chunk (54%).
 
@@ -461,7 +461,7 @@ Hệ quả cho thiết kế: mở rộng ngữ cảnh bằng chunk liền kề t
 
 ### 6.15 Chế độ khoảng (`range`) đo lại trên kho v3
 
-Cùng kho v3 (`tam_chunks_dev_real_v2`) và Profiler khoảng v2. Lưới 28 cấu hình: 7 kiểu `end_mode` (`stored`, `open`, `decay`, `unknown_decay` 0.02/0.05/0.1/0.2) × `decay_from` (`start`, `end`) × `overlap` (`binary`, `coverage`) (`local/run_v3_range.py`, không gọi LLM). Chênh lệch ghép cặp so với cấu hình nền `point` (`unknown_decay` 0.05, `decay_from end`, `mrr` 0.478):
+Cùng kho v3 (`tam_chunks_dev_real_v2`) và Profiler khoảng v2. Lưới 28 cấu hình: 7 kiểu `end_mode` (`stored`, `open`, `decay`, `unknown_decay` 0.02/0.05/0.1/0.2) × `decay_from` (`start`, `end`) × `overlap` (`binary`, `coverage`) (`local/scripts/run_v3_range.py`, không gọi LLM). Chênh lệch ghép cặp so với cấu hình nền `point` (`unknown_decay` 0.05, `decay_from end`, `mrr` 0.478):
 
 | Cấu hình `range` (đứng đầu) | `mrr` | Δ `mrr` | Δ `hit@5` | Δ `ans_valid@5` |
 |---|---|---|---|---|
@@ -484,7 +484,7 @@ Hậu xử lý không gọi LLM (`src/tam/ingestion/infer_time.py`, `scripts/inf
 | `e_ns10`, `e_ns5` | như `e_ns` nhưng bỏ nếu cách xa hơn 10/5 năm | 482 / 392 |
 | `se_pe_ns`, `se_pc_ns10`, `se_ps_ns10` | kết hợp | 938 + 816 / 938 + 482 / 938 + 482 |
 
-Lưới: 9 collection × hệ số giảm điểm thời gian của chunk có mốc suy luận (`inferred_factor` 1.0/0.8/0.5) × 3 `end_mode` (`unknown_decay` 0.05, `stored`, `decay` 0.1) = 84 lượt (`local/run_inferred.py`). Nền: kho v3 cùng `end_mode`. Ghép cặp, `unknown_decay` 0.05:
+Lưới: 9 collection × hệ số giảm điểm thời gian của chunk có mốc suy luận (`inferred_factor` 1.0/0.8/0.5) × 3 `end_mode` (`unknown_decay` 0.05, `stored`, `decay` 0.1) = 84 lượt (`local/scripts/run_inferred.py`). Nền: kho v3 cùng `end_mode`. Ghép cặp, `unknown_decay` 0.05:
 
 | Collection | Δ `mrr` | Δ `hit@5` | Δ `ans_valid@5` |
 |---|---|---|---|
@@ -501,7 +501,7 @@ Nhận xét:
 
 ### 6.17 Plain RAG và chunk liền kề cùng kích thước ngữ cảnh
 
-`PlainRetriever` nhận `neighbor_window` (lấy cả chunk tương lai vì không lọc thời gian) và `evaluate.py --top-k`. Lưới (`local/run_plain_neighbors.py`): Plain dense/hybrid và Cơ chế 1 (cấu hình nền), `w` 0 đến 3, `top-k` 5 đến 20, trên kho v1 và v3. `ctx_hit` = chunk đúng có trong ngữ cảnh (top-k cộng chunk liền kề). Kho v3, không cross-encoder:
+`PlainRetriever` nhận `neighbor_window` (lấy cả chunk tương lai vì không lọc thời gian) và `evaluate.py --top-k`. Lưới (`local/scripts/run_plain_neighbors.py`): Plain dense/hybrid và Cơ chế 1 (cấu hình nền), `w` 0 đến 3, `top-k` 5 đến 20, trên kho v1 và v3. `ctx_hit` = chunk đúng có trong ngữ cảnh (top-k cộng chunk liền kề). Kho v3, không cross-encoder:
 
 | Số chunk (xấp xỉ) | Cơ chế 1 `ctx_hit` | Plain dense `ctx_hit` | `leakage_rate` Plain |
 |---|---|---|---|
@@ -521,7 +521,7 @@ Tính năng tùy chọn, mặc định tắt: `src/tam/retrieval/temporal/rerank
 
 **Luồng:** dense top-50 (đã lọc cứng thời gian) → `Final = W1·Semantic + W2·Temporal` → lấy `rerank_top` chunk đầu (nhóm `final`, hoặc `semantic`) → cross-encoder chấm lại cặp (câu hỏi, chữ của chunk) → `replace` (Semantic mới = min-max điểm cross-encoder) hoặc `mix` (α·Semantic cũ + (1−α)·min-max) → tính lại `Final` với `Temporal` cũ → top-5. Ứng viên ngoài nhóm giữ nguyên, xếp sau. `leakage_rate` vẫn 0.
 
-**Lưới** (`local/run_rerank.py`, `run_rerank_bge.py`): 5 model × cấu hình (đầy đủ cho 3 model nhỏ: `replace`/`mix` 0.3/0.5/0.7 × nhóm × top 10/20/30 × có/không ghép khoảng thời gian vào văn bản; 5 cấu hình đại diện cho 2 model lớn) trên kho v3, cấu hình thời gian nền. Chọn model và cấu hình theo cùng bộ 400 câu nên **là cận trên**. Ghép cặp, so nền (`hit@1` 0.338, `hit@5` 0.723, `mrr` 0.478, `ans_valid@5` 0.693):
+**Lưới** (`local/scripts/run_rerank.py`, `run_rerank_bge.py`): 5 model × cấu hình (đầy đủ cho 3 model nhỏ: `replace`/`mix` 0.3/0.5/0.7 × nhóm × top 10/20/30 × có/không ghép khoảng thời gian vào văn bản; 5 cấu hình đại diện cho 2 model lớn) trên kho v3, cấu hình thời gian nền. Chọn model và cấu hình theo cùng bộ 400 câu nên **là cận trên**. Ghép cặp, so nền (`hit@1` 0.338, `hit@5` 0.723, `mrr` 0.478, `ans_valid@5` 0.693):
 
 | Model | Cấu hình tốt nhất | `hit@1` | `hit@5` | `mrr` (Δ) | `ans_valid@5` | Độ trễ (20 chunk) |
 |---|---|---|---|---|---|---|
@@ -538,7 +538,7 @@ Tính năng tùy chọn, mặc định tắt: `src/tam/retrieval/temporal/rerank
 - **`ans_valid@5` gần như không đổi giữa các model (0.70 đến 0.72):** cross-encoder đọc nội dung, không biết thời gian; điểm yếu còn lại là nhãn thời gian lệch.
 - Chưa đo: đổi `w1`/`w2`, bỏ `Temporal`, các `end_mode` khác, nhãn v1, BM25 (`sparse_weight` > 0) khi có cross-encoder; ghi ở `decisions/07` mục "Dự định tiếp theo".
 
-**Đối chứng công bằng: Plain RAG + cùng cross-encoder** (`local/run_plain_rerank.py`, `run_plain_bge.py`; `replace`, top-20; Plain xếp theo vector, không lọc, không `Temporal`). Cơ chế 1 + cross-encoder so với Plain + cross-encoder (ngữ cảnh 5 chunk):
+**Đối chứng công bằng: Plain RAG + cùng cross-encoder** (`local/scripts/run_plain_rerank.py`, `run_plain_bge.py`; `replace`, top-20; Plain xếp theo vector, không lọc, không `Temporal`). Cơ chế 1 + cross-encoder so với Plain + cross-encoder (ngữ cảnh 5 chunk):
 
 | Cặp (cross-encoder) | Plain `hit@5` / `mrr` / `ans_valid@5` / rò rỉ | Cơ chế 1 `hit@5` / `mrr` / `ans_valid@5` / rò rỉ |
 |---|---|---|
@@ -564,7 +564,7 @@ Khoảng cách thu hẹp khi ngữ cảnh lớn và đảo chiều từ khoảng
 
 ### 6.19 Khảo sát cross-encoder: BM25, nhóm chấm lại lớn hơn, nhãn v1, thang chuẩn hóa (chẩn đoán)
 
-**Chỉ để chẩn đoán trên bộ thật 400 câu (đã dùng để chọn cấu hình), không dùng chọn cấu hình cuối.** 3 model (MiniLM-L6, MiniLM-L12, bge-v2-m3 int8) với cấu hình nền của khảo sát: `replace`, nhóm `final`, top-20, ghép khoảng thời gian vào văn bản (`local/run_remaining.py`, 30 lượt). Chênh lệch ghép cặp theo câu so với nền của chính model đó (`mrr` nền: L6 0.524, L12 0.529, bge-v2-m3 0.566):
+**Chỉ để chẩn đoán trên bộ thật 400 câu (đã dùng để chọn cấu hình), không dùng chọn cấu hình cuối.** 3 model (MiniLM-L6, MiniLM-L12, bge-v2-m3 int8) với cấu hình nền của khảo sát: `replace`, nhóm `final`, top-20, ghép khoảng thời gian vào văn bản (`local/scripts/run_remaining.py`, 30 lượt). Chênh lệch ghép cặp theo câu so với nền của chính model đó (`mrr` nền: L6 0.524, L12 0.529, bge-v2-m3 0.566):
 
 | Thay đổi | L6 Δ `mrr` | L12 Δ `mrr` | bge-v2-m3 Δ `mrr` | Kết luận |
 |---|---|---|---|---|
@@ -577,7 +577,7 @@ Khoảng cách thu hẹp khi ngữ cảnh lớn và đảo chiều từ khoảng
 
 Các chênh lệch của BM25, top-30/50, `sigmoid`, `zscore` đều nằm trong khoảng sai số (±0.003 đến 0.008). Hai chênh lệch vượt sai số: nhãn v1 kém và `softmax` kém. Kết luận cho cấu hình cross-encoder: **dense (không BM25), nhóm `final` top-20, chuẩn hóa min-max** vẫn là lựa chọn đơn giản nhất. `leakage_rate` vẫn 0.
 
-**Quét `w2` và `end_mode` với bge-v2-m3 (dở dang, chẩn đoán).** Lưới 28 lượt bị dừng ở 12 lượt (`local/w2end_real.tsv`): `w2` ∈ {0, 0.15, 0.3} × `end_mode` ∈ {`unknown_decay` 0.05, `stored`, `unknown_decay` 0.1, `decay` 0.1}, `decay_from end`, cấu hình rerank tốt nhất (`replace`, `final`, top-20, ghép thời gian). `w2` quyết định cả bước chọn nhóm lẫn bước cuối (`w1` = 1 − `w2`):
+**Quét `w2` và `end_mode` với bge-v2-m3 (dở dang, chẩn đoán).** Lưới 28 lượt bị dừng ở 12 lượt (`local/results/w2end_real.tsv`): `w2` ∈ {0, 0.15, 0.3} × `end_mode` ∈ {`unknown_decay` 0.05, `stored`, `unknown_decay` 0.1, `decay` 0.1}, `decay_from end`, cấu hình rerank tốt nhất (`replace`, `final`, top-20, ghép thời gian). `w2` quyết định cả bước chọn nhóm lẫn bước cuối (`w1` = 1 − `w2`):
 
 | `w2` | `mrr` (bốn `end_mode`) | `ans_valid@5` |
 |---|---|---|
@@ -587,7 +587,7 @@ Các chênh lệch của BM25, top-30/50, `sigmoid`, `zscore` đều nằm trong
 
 `mrr` tăng đều theo `w2` đến 0.3 và `end_mode` không phân biệt được trong sai số (`unknown_decay` 0.05 cao nhất 0.566, `stored`/`decay` 0.556). Chưa đo `w2` > 0.3 (0.5 chưa chạy) nên chưa biết đỉnh; giá trị cuối cần chọn trên valid, không chọn trên bộ này.
 
-**Bỏ `Temporal` ở bước xếp cuối (`--rerank-no-temporal`, chẩn đoán).** Sau khi cross-encoder chấm, nhóm top-20 xếp chỉ theo điểm cross-encoder (không cộng `Temporal` lần hai). 12 lượt (`local/run_notemporal.py`): 3 model × nhóm (`final`, `semantic`) × ghép thời gian vào văn bản (có, không), `replace`, top-20; so với cấu hình có `Temporal` lần hai (nền của khảo sát trên):
+**Bỏ `Temporal` ở bước xếp cuối (`--rerank-no-temporal`, chẩn đoán).** Sau khi cross-encoder chấm, nhóm top-20 xếp chỉ theo điểm cross-encoder (không cộng `Temporal` lần hai). 12 lượt (`local/scripts/run_notemporal.py`): 3 model × nhóm (`final`, `semantic`) × ghép thời gian vào văn bản (có, không), `replace`, top-20; so với cấu hình có `Temporal` lần hai (nền của khảo sát trên):
 
 | Model | Nền (có `Temporal`) `mrr` / `ans_valid@5` | Bỏ `Temporal`, nhóm `final` | Bỏ `Temporal`, nhóm `semantic` |
 |---|---|---|---|

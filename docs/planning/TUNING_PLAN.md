@@ -49,7 +49,7 @@ EM/F1 với bộ sinh cố định trên `valid` cho 3 mức + Plain RAG + Plain
 - **Lệnh gọi LLM không có giới hạn thời gian** làm Profiler và nạp kho treo hơn 30 phút khi một kết nối Google bị treo (CPU 0%, bộ nhớ đệm gần như không tăng). Đã thêm `timeout: 90` (giây) cho profile `google_35` và `google_31` (`providers/google.py`, tùy chọn).
 - **`pkill -f <chuỗi>` giết chính shell** nếu chuỗi cũng nằm trong lệnh đang chạy (đã gặp ba lần, mã thoát 144). Luôn kill theo PID.
 - **Gemini `503 UNAVAILABLE`** (quá tải phía Google) làm Profiler rất chậm: 54 câu trong ~45 phút. Không phải quota (quota là 429). Thử lại vào lúc khác hoặc đổi profile.
-- **Lô bị chặn nội dung** (`PROHIBITED_CONTENT`, trả rỗng): không phải lỗi quota. Script làm nóng cache phải phân biệt hai trường hợp (đã sửa trong `local/warm_ingest_cache.py`: chỉ dừng khi 3 lô liên tiếp lỗi).
+- **Lô bị chặn nội dung** (`PROHIBITED_CONTENT`, trả rỗng): không phải lỗi quota. Script làm nóng cache phải phân biệt hai trường hợp (đã sửa trong `local/scripts/warm_ingest_cache.py`: chỉ dừng khi 3 lô liên tiếp lỗi).
 - **Hạn mức ngày** google_35 (500 request) đã hết lúc ~23:35; nạp kho `tune` còn khoảng 170 lô. Reset khoảng 14:00 giờ VN.
-- **Nhiệt độ** CPU chạm 97 đến 99°C khi chạy 5 đến 8 tiến trình `evaluate.py`; mỗi tiến trình dùng 4 đến 5 nhân. Dùng `local/thermal_guard.sh` (tạm dừng khi 100°C ba phút liên tiếp) và giữ tối đa 3 tiến trình song song.
+- **Nhiệt độ** CPU chạm 97 đến 99°C khi chạy 5 đến 8 tiến trình `evaluate.py`; mỗi tiến trình dùng 4 đến 5 nhân. Dùng `local/scripts/thermal_guard.sh` (tạm dừng khi 100°C ba phút liên tiếp) và giữ tối đa 3 tiến trình song song.
 - **GPU** (RTX 3050 6 GB) có nhưng driver NVIDIA chưa nạp (không có module kernel `nvidia` cho kernel 7.0.0-38); onnxruntime hiện chỉ CPU. Bỏ qua tạm.
