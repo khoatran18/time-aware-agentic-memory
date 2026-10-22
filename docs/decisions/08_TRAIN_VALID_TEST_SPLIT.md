@@ -96,3 +96,14 @@ Sai số chuẩn của `mrr` khoảng 0.02 ở 400 câu. So ghép cặp hai cấ
 4. Chạy test sạch **một lần**; báo cáo cùng cấu hình đã chọn từ local trước (không phải cấu hình đứng đầu bộ `real`).
 
 Phương án rẻ hơn nếu hạn mức vẫn thiếu: train 200 + valid 200 (phát hiện chênh khoảng 0.019), hoặc chỉ nạp phần câu của 5 domain lớn.
+
+## Ghi chú 2026-10-22: bổ sung câu của `real` vào tập tune (chưa làm)
+
+Đo chồng chéo (đọc `dataset/eval/*_cases.csv`): các tập `valid`, `test_clean`, `tune` không trùng câu hay trang với nhau; `real` không trùng câu nhưng trùng trang với `valid` (27/204 trang), `test_clean` (**102**/204) và `tune` (12/204). `real` gồm 365 câu `D/test` và 35 câu `D/train`.
+
+**Dự định:** tập tune = `tune` hiện có **cộng** các câu của `real` có trang **không** nằm trong `test_clean`. Lý do: `real` đã có kho và Profiler nên đỡ tốn request, tăng cỡ mẫu tune (sai số chuẩn nhỏ hơn); loại câu cùng trang với `test_clean` để các tham số tune không mang thông tin của trang test.
+
+**Cần chốt khi làm:**
+- Câu `real` cùng trang với `valid` (27 trang) có bỏ không. Quy tắc hiện chỉ loại theo `test_clean`; nếu giữ, `valid` không còn độc lập hoàn toàn với tune ở mức trang.
+- `real` là bộ đã xem nhiều khi thiết kế, nên kết quả trên phần này vẫn chỉ là cận trên; chỉ dùng để chọn tham số, không báo cáo như số độc lập.
+- Số câu đủ điều kiện chưa đếm; Profiler `tune` (241/400) cứ chạy tiếp, phần `real` đã có Profiler cũ ở `output/20261020_173521/profiler.jsonl`.
