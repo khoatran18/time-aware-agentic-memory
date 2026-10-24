@@ -77,13 +77,13 @@ Sai số chuẩn của `mrr` khoảng 0.02 ở 400 câu. So ghép cặp hai cấ
 - Không trùng `idx` và không trùng `page_id` giữa ba tập (script kiểm tra bằng `assert`); cả ba được chung trang với `real`/`local`. Quy tắc cũ "loại trang của `real`/`local`" bỏ trong chế độ này.
 - Hai chế độ cũ vẫn dùng được: `--valid-mode match-test` (valid chỉ D/train, test sạch 446 câu D/test không cân bằng), `--valid-mode balanced` (tune và valid cân bằng, bù C).
 - Chi phí LLM nếu nạp hết (số lô tính đúng theo cách cắt lô 30 chunk mỗi lô, mỗi trang tối đa 100 đoạn; công thức tái hiện chính xác bộ `real`: 330 lô cho 6,880 chunk). Tái dùng các trang đã có trong kho `tam_chunks_dev_real_v2`: `tune` 185 lô (127 trang mới), `valid` 192 lô (136 trang mới), `test_clean` 111 lô (82 trang mới) = **488 lô**; Profiler 1 request mỗi câu: 400 + 400 + 400 = **1,200**. Tổng khoảng 1,690 request, 2 đến 3 ngày với hạn mức Gemini miễn phí (500 request mỗi ngày mỗi model, hai model song song). Nạp lại cả các trang đã có trong `real` thì 730 lô.
-- **Tiến độ nạp kho và Profiler (cuối ngày 2026-10-21, prompt v3, google_35, `--keep-undated`):**
+- **Tiến độ nạp kho và Profiler (cập nhật 2026-10-23, prompt v3, nạp kho google_35, Profiler khoảng google_31 = Gemini 3.1, `--keep-undated`):**
 
 | Tập | Nạp kho | Profiler khoảng (google_31) |
 |---|---|---|
-| `valid` | **xong** `tam_chunks_dev_valid`: 4,884 điểm / 5,063 chunk; 21 chunk bị Gemini chặn `PROHIBITED_CONTENT` (1 trang, `Young Girl with a Flower Basket`), ảnh hưởng 1 câu | **dở**: 54/400 câu (file dở `output/20261021_230717/profiler.jsonl`), đã dừng tay |
-| `test_clean` | **xong** `tam_chunks_dev_test_clean`: 5,572 điểm / 5,682 chunk; **0 chunk bị chặn**, nên không phải thay câu nào từ `valid` | chưa |
-| `tune` | **chưa**: dừng ở khoảng 35/203 lô vì google_35 báo `429 RESOURCE_EXHAUSTED` (hết hạn mức ngày 500; reset khoảng 14:00 giờ VN ngày 2026-10-22) | chưa |
+| `valid` | **xong** `tam_chunks_dev_valid`: 4,884 điểm / 5,063 chunk; 21 chunk bị Gemini chặn `PROHIBITED_CONTENT` (1 trang, `Young Girl with a Flower Basket`), ảnh hưởng 1 câu | **xong** 400/400 (`output/20261022_140127/profiler.jsonl`) |
+| `test_clean` | **xong** `tam_chunks_dev_test_clean`: 5,572 điểm / 5,682 chunk; **0 chunk bị chặn**, nên không phải thay câu nào từ `valid` | chưa chạy (400 câu) |
+| `tune` | **xong** `tam_chunks_dev_tune` (22/10): 140 trang, 4,039 chunk, 3,974 điểm (613 chunk không mốc), 56 chunk bỏ vì không có mốc, 9 vì mốc không hợp lệ, 0 lỗi LLM | **dở** 241/400 đến hết hạn mức ngày 22/10; chạy tiếp từ 23/10 |
 
   Quy tắc xử lý lô bị chặn nội dung: câu có mọi chunk đáp án nằm trong lô bị chặn thì bỏ khỏi tập; ở `test_clean` thay bằng câu D cùng domain từ `valid`, `valid` bù từ phần D còn thừa (337 câu); mỗi tập phải còn ít nhất 400 câu dùng được (hiện `valid` 399, `test_clean` 400).
 - Cách báo cáo vẫn như trước: kết luận chính bằng so sánh ghép cặp; số tuyệt đối báo micro và macro kèm bootstrap; military có n nhỏ (33) chỉ mô tả.

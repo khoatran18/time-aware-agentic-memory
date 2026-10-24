@@ -17,7 +17,7 @@ Các hệ thống AI (đặc biệt là LLM + RAG) thường xử lý thông tin
 1. **Truy xuất thông tin tại một mốc thời gian cụ thể:** Lấy đúng thông tin tại thời điểm được hỏi (Ví dụ: "Hiện tại ai là Tổng thống Mỹ?", hoặc "Năm 2005 ai là Thủ tướng Anh?").
 2. **Tóm tắt sự kiện theo dòng thời gian:** Tổng hợp thông tin từ nhiều mốc thời gian để vẽ nên một bức tranh toàn cảnh (Ví dụ: "Tóm tắt quá trình phát triển sự nghiệp của nhân vật X").
 3. **Xử lý xung đột dữ liệu & Cập nhật luồng tin (Streaming Updates & Belief Revision):** Khi có thông tin mâu thuẫn, hệ thống không chỉ áp dụng luật "mới nhất là đúng nhất". Nó phải biết cách xử lý linh hoạt:
-   - **Xung đột đa nguồn:** Ưu tiên thông tin từ các nguồn uy tín hơn (Credibility) khi 2 nguồn đưa tin khác nhau cùng lúc.
+   - **Xung đột đa nguồn:** Ưu tiên thông tin từ các nguồn uy tín hơn (Credibility) khi 2 nguồn đưa tin khác nhau cùng lúc. *(Ngoài phạm vi thực hiện của đồ án, ghi vào hạn chế; xem [`decisions/09`](../decisions/09_CONFLICT_RESOLUTION_SCOPE.md).)*
    - **Cập nhật tin tức phá vỡ (Breaking News / Amendments):** Nhận diện được tính "ghi đè" của tin mới lên tin cũ (ví dụ: ngày 1 A là nghi phạm, ngày 2 A là thủ phạm, ngày 3 B bị oan) và dùng thuật toán (như Re-ranking bằng khoảng cách thời gian) để truy xuất chính xác trạng thái sự việc tại bất kỳ mốc thời gian nào người dùng yêu cầu.
 
 ## 2. Phân tách rạch ròi 3 Cơ chế cốt lõi (Scope Boundaries)
