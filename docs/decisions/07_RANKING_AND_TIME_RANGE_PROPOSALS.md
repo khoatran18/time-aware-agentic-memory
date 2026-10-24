@@ -348,3 +348,7 @@ Lưới cross-encoder đầu tiên chỉ chạy trên MỘT cấu hình thời g
 - Bao nhiêu trong 66 câu có `end` do LLM gán thật sự sai (cần đọc từng chunk). Tôi mới đọc 8 mẫu dưới 1 năm và 6 mẫu rải rác; kết luận "một số sai, một số hợp lý" chưa là tỉ lệ.
 - Đề xuất 3 có thể làm giảm điểm một số câu vốn đúng nhờ phạt nặng chunk cũ; chỉ đo mới biết.
 - Cross-encoder có xếp nhầm thời kỳ nhiều hơn công thức hiện tại hay không (xem điểm yếu ở đề xuất 4).
+
+## Ghi chú 2026-10-24: thí nghiệm Cơ chế 1 cộng graph
+
+Sau khi Cơ chế 2 có nút theo từng sự kiện (xem [`10`](10_TIMELINE_GRAPH_AND_VECTOR_LINK.md)), thử thêm graph vào Cơ chế 1 ở ba vị trí: trước truy xuất (thu hẹp hoặc nâng điểm theo `chunk_ids` của nút đang hiệu lực ở `T_req`), sau khi lấy top-chunk (tính lại điểm thời gian theo khoảng của nút, tức đề xuất 8 ở trên), và hợp hai nguồn. Cơ chế 1 hiện tại không đổi; so bằng `mrr`, `hit@5`, `ans_valid@5`, `leakage_rate` và số câu "lỗi lọc" trên valid, giữ `test_clean` cho lần chốt cuối.
