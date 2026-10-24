@@ -2,6 +2,8 @@
 
 **Ngày:** 2026-10-20. **Trạng thái:** **đã tạo các bộ con (2026-10-21), chưa nạp kho và chưa chạy Profiler** (hoãn vì hạn mức API Gemini miễn phí chưa đủ). Code lấy mẫu: `src/tam/evaluation/splits.py`, `scripts/make_splits.py` (3 test).
 
+**Cập nhật 2026-10-24:** đã nạp kho và chạy Profiler cho `tune` (595 câu: 400 gốc + 195 câu `real` có trang không trùng `valid`/`test_clean`), `valid` (399 câu, bỏ 1 câu nhãn hỏng) và `test_clean` (400/400). Đã chọn phương pháp và quét tham số trên `tune`, xác nhận trên `valid`; `test_clean` đã chạy một lần (28 cấu hình). Kết quả: [`eval/07`](../eval/07_TUNE_VALID_RESULTS.md).
+
 ## Bối cảnh
 
 Mọi con số trong [`eval/05`](../eval/05_REAL_RESULTS.md) nằm trên **một** tập 400 câu (365 câu `D/test` + 35 câu `D/train`), và hơn 200 cấu hình đã được xem kết quả trên chính tập đó. Nên tập này không còn là tập test sạch: cấu hình đứng đầu bảng là cận trên. `D` không có tập dev; `C` có đủ train/dev/test nhưng là câu sinh theo mẫu.
