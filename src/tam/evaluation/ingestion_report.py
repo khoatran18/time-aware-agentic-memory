@@ -12,11 +12,11 @@ from collections.abc import Iterable
 from pathlib import Path
 from typing import Any
 
-_YEAR = re.compile(r"\d{4}")
+_YEAR = re.compile(r"\d{3,4}")
 
 
 def label_year(label: str) -> int:
-    """Năm trong nhãn của dataset: "2005", "Dec 1965" -> 2005, 1965."""
+    """Năm trong nhãn của dataset: "2005", "Dec 1965" -> 2005, 1965; năm 3 chữ số (vd "880") vẫn nhận."""
     m = _YEAR.search(label)
     if not m:
         raise ValueError(f"nhãn thời gian không có năm: {label!r}")

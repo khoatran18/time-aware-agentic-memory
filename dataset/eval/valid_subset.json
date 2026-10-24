@@ -2,7 +2,7 @@
   "name": "valid",
   "seed": 42,
   "group_by": "domain",
-  "n_cases": 400,
+  "n_cases": 399,
   "page_ids": [
     "/wiki/ACES_Colombia",
     "/wiki/Affari_tuoi",
@@ -3475,25 +3475,6 @@
       "time_end": "1978",
       "gold_chunk_ids": [
         "/wiki/International_Mathematical_Union#23"
-      ],
-      "flags": []
-    },
-    {
-      "idx": "/wiki/James_Lanier#P551#0",
-      "page_id": "/wiki/James_Lanier",
-      "relation": "P551",
-      "domain": "person",
-      "split": "D/train",
-      "source": "D/train",
-      "question_hard": "What was the place of residence of James Lanier in Apr 633?",
-      "question_easy": "What was the residence of James Lanier from 18 to 1800?",
-      "targets": [
-        "Beaufort County , North Carolina"
-      ],
-      "time_start": "18",
-      "time_end": "1800",
-      "gold_chunk_ids": [
-        "/wiki/James_Lanier#1"
       ],
       "flags": []
     },
@@ -7878,5 +7859,8 @@
       ],
       "flags": []
     }
-  ]
+  ],
+  "dropped_bad_label": {
+    "/wiki/James_Lanier#P551#0": "time_start '18' không phải năm"
+  }
 }
