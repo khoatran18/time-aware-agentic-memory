@@ -32,7 +32,10 @@ class CrossEncoderReranker:
     """Bọc fastembed `TextCrossEncoder`; tải model lười (lần gọi đầu).
 
     `score_cache`: đường dẫn file sqlite lưu điểm theo (model, câu hỏi, văn bản) để các lượt đánh giá lặp cùng cặp không chấm lại
-    (chỉ thêm, không xóa; an toàn khi nhiều tiến trình ghi cùng lúc nhờ WAL)."""
+    (chỉ thêm, không xóa; an toàn khi nhiều tiến trình ghi cùng lúc nhờ WAL).
+
+    Biến môi trường `TAM_RERANK_REMOTE_URL` (tùy chọn, mặc định không đặt): với model bge-reranker-v2-m3, chấm điểm bằng server GPU (POST /rerank {query, docs, model} -> {scores})
+    thay vì chạy CPU cục bộ; thêm `TAM_RERANK_REMOTE_ALL=1` để mọi model (trừ jina, cần mã tùy biến) đều qua server (chỉ bật khi server hỗ trợ trường `model`, server một model sẽ bỏ qua và trả sai điểm). Điểm của server (fp16) khác bản int8 cục bộ nên lưu cache dưới khóa riêng `remote:<model>`."""
 
     def __init__(self, model_name: str, *, cache_dir: str | Path | None = None, threads: int | None = None,
                  score_cache: str | Path | None = None) -> None:
@@ -41,6 +44,9 @@ class CrossEncoderReranker:
         self._threads = threads or int(os.environ.get("TAM_RERANK_THREADS", "0")) or None  # biến môi trường để chạy song song nhiều lượt đánh giá mà không tranh luồng
         self._model = None
         self._db = None
+        url = os.environ.get("TAM_RERANK_REMOTE_URL", "").rstrip("/")
+        self._remote = url if url and ((os.environ.get("TAM_RERANK_REMOTE_ALL") == "1" and "jina" not in model_name) or "bge-reranker-v2-m3" in model_name) else None
+        self._cache_name = f"remote:{model_name}" if self._remote else model_name
         if score_cache:
             Path(score_cache).parent.mkdir(parents=True, exist_ok=True)
             self._db = sqlite3.connect(str(score_cache), timeout=60)
@@ -49,7 +55,7 @@ class CrossEncoderReranker:
             self._db.commit()
 
     def _key(self, query: str, text: str) -> str:
-        return hashlib.sha1(f"{self.model_name}\x00{query}\x00{text}".encode()).hexdigest()
+        return hashlib.sha1(f"{self._cache_name}\x00{query}\x00{text}".encode()).hexdigest()
 
     def score(self, query: str, texts: Sequence[str]) -> list[float]:
         """Điểm thô của cross-encoder (logit) cho từng văn bản."""
@@ -62,16 +68,39 @@ class CrossEncoderReranker:
             got = dict(self._db.execute(f"SELECT k, v FROM scores WHERE k IN ({marks})", keys).fetchall())
         miss = [i for i, k in enumerate(keys) if k not in got]
         if miss:
-            if self._model is None:
-                from fastembed.rerank.cross_encoder import TextCrossEncoder
-                self._model = TextCrossEncoder(model_name=self.model_name, cache_dir=self._cache_dir, threads=self._threads)
-            fresh = [float(s) for s in self._model.rerank(query, [texts[i] for i in miss])]
+            if self._remote:
+                fresh = self._score_remote(query, [texts[i] for i in miss])
+            else:
+                if self._model is None:
+                    from fastembed.rerank.cross_encoder import TextCrossEncoder
+                    self._model = TextCrossEncoder(model_name=self.model_name, cache_dir=self._cache_dir, threads=self._threads)
+                fresh = [float(s) for s in self._model.rerank(query, [texts[i] for i in miss])]
             for i, v in zip(miss, fresh, strict=True):
                 got[keys[i]] = v
             if self._db is not None:
                 self._db.executemany("INSERT OR REPLACE INTO scores VALUES (?, ?)", [(keys[i], v) for i, v in zip(miss, fresh, strict=True)])
                 self._db.commit()
         return [got[k] for k in keys]
+
+    def _score_remote(self, query: str, texts: Sequence[str], *, tries: int = 8) -> list[float]:
+        """Gọi server chấm điểm theo lô 32 văn bản; lỗi mạng thì thử lại với thời gian chờ tăng dần rồi mới báo lỗi."""
+        import time
+
+        import httpx
+
+        out: list[float] = []
+        for i in range(0, len(texts), 32):
+            for attempt in range(tries):
+                try:
+                    r = httpx.post(f"{self._remote}/rerank", json={"query": query, "docs": list(texts[i:i + 32]), "model": self.model_name}, timeout=120)
+                    r.raise_for_status()
+                    out += [float(x) for x in r.json()["scores"]]
+                    break
+                except (httpx.HTTPError, KeyError, ValueError):
+                    if attempt == tries - 1:
+                        raise
+                    time.sleep(min(60, 2 ** attempt))
+        return out
 
 
 def minmax(values: Sequence[float]) -> list[float]:

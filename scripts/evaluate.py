@@ -66,6 +66,8 @@ def main() -> None:
     ap.add_argument("--rerank-no-temporal", action="store_true", help="sau khi cross-encoder chấm, xếp nhóm chỉ theo điểm cross-encoder (không cộng Temporal lần hai)")
     ap.add_argument("--rerank-time", action="store_true", help="ghép khoảng hiệu lực của chunk vào văn bản đưa cho cross-encoder")
     ap.add_argument("--inferred-factor", type=float, help="ghi đè retrieval.inferred_factor: hệ số (0,1] cho điểm thời gian của chunk có mốc suy luận")
+    ap.add_argument("--decay-lambda", type=float, help="ghi đè retrieval.decay_lambda: tốc độ giảm điểm thời gian theo khoảng cách (năm)")
+    ap.add_argument("--top-n", type=int, help="ghi đè retrieval.top_n: số ứng viên lấy từ VectorDB trước khi chấm lại")
     ap.add_argument("--top-k", type=int, help="ghi đè retrieval.top_k: số chunk trả về (Plain RAG cũng dùng; để vẽ đường cong ngữ cảnh)")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
@@ -84,7 +86,7 @@ def main() -> None:
         "w1": 1.0 if args.no_temporal else (r.w1 if args.w2 is None else 1.0 - args.w2),
         "w2": 0.0 if args.no_temporal else (r.w2 if args.w2 is None else args.w2),
         "w3": r.get("w3", 0.0) if args.w3 is None else args.w3,
-        "decay_lambda": r.decay_lambda, "rrf_k": r.rrf_k, "top_n": r.top_n, "top_k": args.top_k or r.top_k,
+        "decay_lambda": r.decay_lambda if args.decay_lambda is None else args.decay_lambda, "rrf_k": r.rrf_k, "top_n": args.top_n or r.top_n, "top_k": args.top_k or r.top_k,
         "end_mode": args.end_mode or r.get("end_mode", "stored"),
         "open_decay": r.get("open_decay", 0.1) if args.open_decay is None else args.open_decay,
         "neighbor_window": r.get("neighbor_window", 0) if args.neighbors is None else args.neighbors,
