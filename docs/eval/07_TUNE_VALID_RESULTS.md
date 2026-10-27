@@ -37,25 +37,33 @@ Nhận xét:
 
 ## 3. Bước 2: quét tham số ngẫu nhiên trên `tune`
 
-Thêm hai cờ tùy chọn cho `scripts/evaluate.py` (`--decay-lambda`, `--top-n`, mặc định theo config; mọi cấu hình cũ đều dùng 0.5 và 50 nên kết quả cũ không đổi). Mỗi họ (L6, L12, bge-v2-m3) chạy 80 cấu hình = cấu hình xuất phát (tốt nhất trên `tune` ở bước 1) và 79 điểm ngẫu nhiên (seed 0) trong không gian:
+**Quét tham số** là thử nhiều tổ hợp giá trị của các tham số điều khiển cách xếp hạng, rồi giữ tổ hợp cho `mrr` cao nhất trên `tune`. Với mỗi họ cross-encoder (L6, L12, bge-v2-m3) chạy **80 cấu hình**:
 
-| Tham số | Giá trị thử |
-|---|---|
-| `w2` (`w1 = 1 − w2`) | 0.1, 0.2, 0.3, 0.4, 0.5 |
-| `decay_lambda` | 0.1, 0.25, 0.5, 1, 2 |
-| `t_unknown` | 0.05, 0.1, 0.2, 0.3 |
-| `open_decay` | 0.02, 0.05, 0.1, 0.2 |
-| `end_mode` | `unknown_decay`, `decay` |
-| `decay_from` | `start`, `end` |
-| `rerank_top` | 10, 15, 20, 30, 40 |
-| `rerank_mode` (và `rerank_alpha` nếu `mix`) | `replace`, `mix` (0.3, 0.5, 0.7) |
-| `rerank_norm` | `minmax`, `zscore` |
-| `top_n` | 50, 100 |
-| `time_mode` / `overlap` | `point`, `range` + `binary`, `range` + `coverage` |
+- **1 cấu hình xuất phát:** cấu hình tốt nhất của họ đó trong 888 cấu hình cũ (bước 1), chọn trên `tune`. Đây là kết quả "trước khi quét" dùng để so sánh.
+- **79 cấu hình ngẫu nhiên:** mỗi cấu hình bốc ngẫu nhiên một giá trị cho từng tham số trong bảng dưới (seed 0, giữ nguyên các cài đặt còn lại của cấu hình xuất phát). Không gian có khoảng 380 nghìn tổ hợp, nên 79 điểm chỉ là mẫu thăm dò.
+- Tổng 3 họ × 80 = 240 cấu hình.
+
+Hai tham số `decay_lambda` và `top_n` trước đây chỉ nằm trong file config, nên thêm hai cờ tùy chọn cho `scripts/evaluate.py` (`--decay-lambda`, `--top-n`; mặc định theo config). Mọi cấu hình cũ đều dùng `decay_lambda = 0.5` và `top_n = 50` (giá trị mặc định trong config) nên kết quả cũ không đổi.
+
+| Tham số | Ý nghĩa | Giá trị thử |
+|---|---|---|
+| `w2` | trọng số điểm thời gian trong `Final = W1·Semantic + W2·Temporal`; `w1 = 1 − w2` | 0.1, 0.2, 0.3, 0.4, 0.5 |
+| `decay_lambda` | tốc độ giảm điểm thời gian khi chunk không bao phủ thời điểm hỏi (trường hợp 2): điểm = `exp(−λ · số năm cách)`; mặc định 0.5 (cách 1 năm còn 0.61, 2 năm còn 0.37) | 0.1, 0.25, 0.5, 1, 2 |
+| `t_unknown` | điểm thời gian cố định cho chunk không có mốc (`unknown`) | 0.05, 0.1, 0.2, 0.3 |
+| `open_decay` | tốc độ giảm điểm của chunk `end_time` chưa rõ (dùng với `end_mode` `decay`/`unknown_decay`) | 0.02, 0.05, 0.1, 0.2 |
+| `end_mode` | cách coi `end_time` chưa rõ: `unknown_decay` (chỉ chunk `unknown` giảm dần, `ongoing` giữ 1.0) hoặc `decay` | `unknown_decay`, `decay` |
+| `decay_from` | mốc tính khoảng cách của chunk đã hết hạn: đầu (`start`) hay cuối (`end`) khoảng hiệu lực | `start`, `end` |
+| `rerank_top` | số ứng viên đầu đưa cho cross-encoder chấm lại | 10, 15, 20, 30, 40 |
+| `rerank_mode` (và `rerank_alpha` nếu `mix`) | `replace`: thay điểm cũ bằng điểm cross-encoder; `mix`: trộn, `alpha` là trọng số của điểm cũ | `replace`, `mix` (0.3, 0.5, 0.7) |
+| `rerank_norm` | cách chuẩn hóa điểm cross-encoder | `minmax`, `zscore` |
+| `top_n` | số ứng viên lấy từ VectorDB trước khi chấm lại thời gian và cross-encoder; mặc định 50 | 50, 100 |
+| `time_mode` / `overlap` | `point`: một điểm `t_req`; `range`: khoảng `[t_req, t_end]` với độ chồng lấn `binary` hoặc `coverage` (tỉ lệ phủ) | `point`, `range` + `binary`, `range` + `coverage` |
+
+**Sai số chuẩn** (ở mọi bảng: ± ...) là độ bất định của chênh lệch `mrr` trung bình giữa hai cấu hình, tính ghép cặp theo câu (độ lệch chuẩn của chênh lệch từng câu chia √n). Chênh lệch lớn hơn khoảng 2 sai số chuẩn thì coi là đáng tin; dưới 1 thì không phân biệt được với may rủi.
 
 Cấu hình tốt nhất trên `tune` của mỗi họ (240 cấu hình, 0 lỗi), xác nhận **một lần** trên `valid`:
 
-| Họ | Cấu hình | `mrr` tune (xuất phát) | `mrr` tune (sau quét) | `mrr` valid | hit@5 | ans_valid@5 | Δ valid so với xuất phát | Δ valid so với nền không CE |
+| Họ | Cấu hình sau quét | `mrr` tune (trước quét = xuất phát) | `mrr` tune (sau quét) | `mrr` valid | hit@5 | ans_valid@5 | Δ valid so với xuất phát | Δ valid so với nền không CE |
 |---|---|---:|---:|---:|---:|---:|---|---|
 | bge-v2-m3 | `0a1b716ac7` | 0.619 | 0.628 | **0.581** | 0.793 | 0.708 | +0.016 ± 0.011 | +0.071 ± 0.016 |
 | L12 | `b73bc37f8c` | 0.591 | 0.592 | 0.564 | 0.778 | 0.662 | +0.005 ± 0.013 | +0.053 ± 0.016 |
@@ -125,8 +133,49 @@ Ablation (D), `mrr` (trong ngoặc ở tiêu đề cột: cấu hình đầy đ�
 3. **Quét tham số không giúp.** Trên `test_clean` cấu hình sau quét không hơn cấu hình xuất phát (L6 −0.016, L12 −0.009, bge +0.001, đều trong sai số). Giữ kết luận mục 4: chất lượng do cơ chế và cross-encoder quyết định.
 4. **Phần nào của điểm thời gian quan trọng.** Bỏ điểm thời gian (`W2 = 0`) giảm 0.08 đến 0.12 `mrr`; bỏ decay khi fallback giảm 0.07 đến 0.10: hai phần này đóng góp chính ngoài lọc cứng. Bỏ `end_mode` (−0.011 không cross-encoder, −0.002 với bge) và đổi `point`/`range` (±0.01) không có tác động đáng kể trên tập này.
 5. **Cross-encoder bù một phần cho điểm thời gian.** Khi bỏ điểm thời gian, Temporal Retrieval + bge-v2-m3 vẫn đạt 0.537 (hơn nền không cross-encoder 0.516), nhưng thua cấu hình đầy đủ 0.083.
-6. **Giới hạn.** Ablation `no_temporal` vẫn giữ lọc cứng `start ≤ T_req` (hiện không có cờ tắt hẳn lọc cứng); trường hợp không có lọc cứng được đại diện bởi Plain RAG. Cổng đầu-cuối EM/F1 chưa làm (chưa có tầng sinh câu trả lời).
+6. **Giới hạn.** Ablation `no_temporal` vẫn giữ lọc cứng `start ≤ T_req` (hiện không có cờ tắt hẳn lọc cứng); trường hợp không có lọc cứng được đại diện bởi Plain RAG. Cổng đầu-cuối EM/F1: xem mục 7.
 
-## 7. Tái lập
+## 7. Đáp án sinh ra: EM/F1 trên `test_clean`
+
+Thêm tầng sinh đáp án ngắn (`src/tam/generation/`): mỗi câu nhận 15 chunk đầu của hệ thống truy xuất, LLM (Gemini 3.5 flash-lite, 4 câu mỗi request) trả một cụm từ ngắn hoặc `null`. **EM** (Exact Match) là 1 nếu câu trả lời trùng đáp án vàng sau khi chuẩn hóa (chữ thường, bỏ dấu phụ, bỏ dấu câu và mạo từ), **F1** so theo từ, **contains** là câu trả lời chứa trọn đáp án; từ chối (`null`) tính 0 ở cả ba. Prompt chọn trên `valid` (98 câu, 4 phiên bản, xem [`decisions/03`](../decisions/03_PROMPT_CHANGELOG.md)): không phiên bản nào hơn v1 từ 2 sai số chuẩn nên dùng **v1**. Chạy `test_clean` một lần với v1, 400 câu, 0 lô sai định dạng.
+
+| Hệ thống (top-15 chunk) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 15 chunk | từ chối dù đáp án có trong ngữ cảnh | trả lời dựa chunk tương lai |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Plain RAG | 0.422 | 0.501 | 0.470 | 32.0% | 0.621 | 94.0% | 110 | 21/272 |
+| Plain RAG + bge-reranker-v2-m3 | 0.407 | 0.479 | 0.435 | 33.5% | 0.613 | 95.3% | 119 | 22/266 |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.448** | **0.513** | 0.472 | 29.2% | 0.633 | 94.3% | 99 | 16/283 |
+
+Δ ghép cặp (± một sai số chuẩn): Temporal − Plain RAG + bge: EM **+0.040 ± 0.020**, F1 +0.034 ± 0.020; Temporal − Plain RAG: EM +0.025 ± 0.023 (không phân biệt được); Plain RAG + bge − Plain RAG: EM −0.015 ± 0.020.
+
+EM theo domain (Temporal / Plain RAG + bge / Plain RAG; mỗi domain 50 câu): business 0.50 / 0.48 / 0.48; career 0.42 / 0.26 / 0.30; media_arts 0.66 / 0.60 / 0.58; military 0.48 / 0.44 / 0.50; person 0.42 / 0.32 / 0.42; place 0.20 / 0.24 / 0.26; politics 0.34 / 0.40 / 0.38; sports 0.56 / 0.52 / 0.46.
+
+Nhận xét:
+- **Khoảng cách ở khâu sinh nhỏ hơn nhiều so với ở khâu truy xuất.** `mrr` hơn +0.285 nhưng EM chỉ hơn +0.025 đến +0.040. Lý do chính: với 15 chunk, cả Plain RAG cũng có đáp án trong ngữ cảnh ở 94% câu (Temporal 94,3%), nên LLM vẫn tìm được; lợi thế của truy xuất thời gian sẽ lớn hơn khi ngữ cảnh ít chunk hơn (chưa test).
+- **Nút thắt là bước sinh, không phải truy xuất.** Khi đáp án có trong ngữ cảnh, EM chỉ 0.43 đến 0.48; LLM **từ chối** 99 đến 119 câu (khoảng 25 đến 30%) dù đáp án nằm trong 15 chunk, (ví dụ trên `valid`: "after Aug 2004", "between Oct 1911 and Feb 1933", ngày trong chunk không khớp từng chữ với câu hỏi). Nới điều kiện từ chối (v3, v4) chỉ chuyển câu từ "từ chối" sang "trả lời sai" ở valid.
+- **Rò rỉ tương lai:** ở Plain RAG khoảng 8% số câu đã trả lời dựa vào chunk có `start_time` sau thời điểm hỏi (21/272 và 22/266), ở Temporal 16/283 (5,7%; chưa phân tích nguyên nhân từng câu). Phần lớn rò rỉ ở khâu truy xuất (88 đến 90% câu có chunk tương lai trong top-5) không chuyển thành câu trả lời dựa chunk tương lai, vì LLM thường chọn đúng chunk theo thời điểm hỏi ghi trong câu.
+- **Plain RAG + cross-encoder không hơn Plain RAG** ở EM (−0.015 ± 0.020): cross-encoder đưa chunk đúng lên cao hơn nhưng với 15 chunk thì không còn cần.
+- Prompt chọn trên 98 câu valid nên chỉ phân biệt được sai khác lớn; tất cả prompt đều trong sai số.
+
+### Ngữ cảnh top-5 (Gemini 3.1 flash-lite) — phân tích bổ sung
+
+Số 15 chunk ở trên là mặc định của cấu hình truy xuất (`top_k = 15`), không phải lựa chọn có chủ đích; mọi chỉ số truy xuất ở trên lại đo ở top-5. Chạy lại `test_clean` với **5 chunk** mỗi câu, cùng prompt v1, LLM **Gemini 3.1 flash-lite** (hạn mức ngày của 3.5 đã dùng hết). Đây là phân tích **bổ sung chọn sau khi xem kết quả top-15**, và prompt v1 chưa được kiểm trên `valid` ở top-5 hay với 3.1. Hai bảng khác LLM nên so top-5 với top-15 là lẫn hai yếu tố (số chunk và LLM); sẽ chạy lại top-5 bằng Gemini 3.5 sau khi chọn lại prompt trên `valid` ở top-5.
+
+| Hệ thống (top-5 chunk) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 5 chunk | từ chối dù có trong ngữ cảnh | trả lời dựa chunk tương lai |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Plain RAG | 0.398 | 0.462 | 0.425 | 36.7% | 0.628 | 68.5% | 46 | 15/253 |
+| Plain RAG + bge-reranker-v2-m3 | 0.480 | 0.553 | 0.510 | 24.0% | 0.632 | 83.3% | 45 | 22/304 |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.527** | **0.604** | 0.560 | 19.8% | 0.657 | 89.2% | 51 | 15/321 |
+
+Δ ghép cặp (± một sai số chuẩn): Temporal − Plain RAG: EM **+0.130 ± 0.022**, F1 +0.142 ± 0.022; Temporal − Plain RAG + bge: EM **+0.048 ± 0.018**, F1 +0.051 ± 0.017; Plain RAG + bge − Plain RAG: EM +0.083 ± 0.020.
+
+EM theo domain (Temporal / Plain RAG + bge / Plain RAG): business 0.58 / 0.56 / 0.48; career 0.46 / 0.44 / 0.38; media_arts 0.66 / 0.56 / 0.56; military 0.60 / 0.56 / 0.54; person 0.54 / 0.50 / 0.46; place 0.28 / 0.30 / 0.22; politics 0.40 / 0.46 / 0.30; sports 0.70 / 0.46 / 0.24.
+
+- **Với ngữ cảnh ngắn, khoảng cách lớn hơn rõ:** Temporal hơn Plain RAG +0.130 EM (so với +0.025 ở top-15) và hơn Plain RAG + cross-encoder +0.048. Tỉ lệ câu có đáp án trong ngữ cảnh khác nhau rõ: 89,2% (Temporal), 83,3% (Plain RAG + bge), 68,5% (Plain RAG). Điều này khớp dự đoán: ở top-15 Plain RAG vẫn gom đủ đáp án, ở top-5 thì không.
+- **Cross-encoder có ích khi ngữ cảnh ngắn:** Plain RAG + bge hơn Plain RAG +0.083 EM (ở top-15 là −0.015).
+- **Ngữ cảnh ngắn không làm EM tụt:** EM của Temporal ở top-5 (0.527, Gemini 3.1) không thấp hơn ở top-15 (0.448, Gemini 3.5), tỉ lệ từ chối cũng giảm (19,8% so với 29,2%). Chưa tách được tác động của LLM và số chunk.
+- Tỉ lệ từ chối dù đáp án có trong ngữ cảnh vẫn là 45 đến 51 câu (khoảng 11 đến 13%).
+- Theo domain, sports chênh rất lớn (0.70 so với 0.24 của Plain RAG) và politics, place Temporal không hơn (mỗi domain 50 câu, chỉ tham khảo).
+
+## 8. Tái lập
 
 `local/` là thư mục scratch (gitignore). Các bước: `collect_configs.py` (gom cấu hình), `run_replay.py <tập>` (chạy lại, nhãn = sha1 cấu hình), `select_top.py`, `compare_valid.py`, `random_search.py gen|top`, `compare_search.py`. Cross-encoder chạy qua server GPU từ xa (`TAM_RERANK_REMOTE_URL`, mặc định tắt) cho bge-v2-m3, L12, L6, bge-base; jina chạy CPU cục bộ.

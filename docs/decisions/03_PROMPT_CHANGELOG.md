@@ -84,3 +84,16 @@ Chưa đổi prompt. Phát hiện 2026-10-19: với `basic-llm`, các ví dụ d
 Sau khi viết, kiểm trên hai câu lỗi ở trên và một mẫu câu có thập niên khác; không sửa `v1`/`v2`.
 
 **Kết quả v3 trên cả bộ thật (2026-10-21):** `known` 3974 → 4596, `unknown` 1238 → 924 (ngược với 3 trang thử). Truy xuất ghép cặp so với v1: `ans_valid@5` +0.063 ± 0.042, `hit@5` +0.033 ± 0.036, `mrr` +0.016 ± 0.029. v2 (bản b) chưa được nạp cả bộ (ngừng sau 5 trang vì quá chậm), nên chưa có so sánh v2 và v3 đầy đủ.
+
+## `src/tam/llm/prompts/answer_v1.md` … `answer_v4.md` (sinh đáp án ngắn)
+
+Prompt sinh câu trả lời ngắn từ các chunk đã truy xuất (`src/tam/generation/answerer.py`); mỗi request gộp 4 câu độc lập, đầu ra JSON `{answers: [{n, answer, evidence}]}`. Chọn trên **valid** (98 câu, chia đều theo domain, 2 hệ thống: Temporal Retrieval + bge-reranker-v2-m3 và Plain RAG + bge-reranker-v2-m3), Gemini 3.5 flash-lite.
+
+| Phiên bản | Khác nhau | EM Temporal / Plain RAG + bge | Từ chối (Temporal) |
+|---|---|---|---|
+| v1 | chỉ văn bản chunk; "chỉ một đáp án"; null nếu đoạn không có đáp án cho thời điểm đó | 0.531 / 0.449 | 27.6% |
+| v2 | v1 + khoảng hiệu lực `(start – end)` trước mỗi đoạn | 0.531 / 0.469 | 24.5% |
+| v3 | v1 nới điều kiện từ chối (chỉ null khi không đoạn nào liên quan; nhận đáp án có thời gian chồng lấn hoặc gần nhất) | 0.510 / 0.469 | 20.4% |
+| v4 | v2 + nới điều kiện từ chối | 0.531 / 0.520 | 22.4% |
+
+Δ EM so với v1 (ghép cặp, gộp hai hệ thống, n = 196): v2 +0.010 ± 0.028; v3 +0.000 ± 0.019; v4 +0.036 ± 0.027. Không prompt nào hơn v1 từ 2 sai số chuẩn trở lên nên chọn **v1** (quy tắc đặt trước: giữ phiên bản đơn giản hơn khi không phân biệt được). Lỗi phát hiện ở lần chạy đầu: v1/v2 từ chối cả khi đáp án nằm trong ngữ cảnh (23/27 câu bị từ chối ở Temporal có đáp án trong 15 chunk), nên viết v3/v4; nới từ chối chỉ chuyển câu từ "từ chối" sang "trả lời sai" nên EM gần như không đổi. Bản lặp đầu của quy tắc 4 khuyến khích liệt kê nhiều đáp án, đã sửa thành "chỉ một đáp án" trước mọi lần chạy valid chính thức. Chi tiết: [`eval/07`](../eval/07_TUNE_VALID_RESULTS.md) mục 7.
