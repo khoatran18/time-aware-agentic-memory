@@ -153,31 +153,22 @@ Bước cuối của pipeline: LLM đọc các chunk đã truy xuất rồi tr�
 - **F1:** so theo từng từ, ví dụ trả lời "Markus Anfang was the coach" cho đáp án "Markus Anfang" được F1 = 0.67 (EM = 0).
 - Từ chối (`null`) tính 0 ở cả hai; tỉ lệ từ chối báo riêng.
 
-**Cách làm.** Mỗi request Gemini 3.5 flash-lite chứa 4 câu độc lập (kèm 15 chunk mỗi câu) và trả về JSON. Chọn prompt trên tập valid (98 câu chia đều theo domain, 4 phiên bản, 2 hệ thống): không phiên bản nào hơn bản đơn giản nhất (v1) từ 2 sai số chuẩn trở lên nên dùng v1. Sau đó chạy một lần trên tập test với 3 hệ thống, 400 câu mỗi hệ thống, 0 lô sai định dạng. Chi tiết: [`eval/07`](../../eval/07_TUNE_VALID_RESULTS.md) mục 7, các phiên bản prompt: [`decisions/03`](../../decisions/03_PROMPT_CHANGELOG.md).
-
-| Hệ thống (top-15 chunk) | EM | F1 | Từ chối | Đáp án có trong 15 chunk |
-|---|---|---|---|---|
-| Plain RAG | 0.422 | 0.501 | 32.0% | 94.0% |
-| Plain RAG + bge-reranker-v2-m3 | 0.407 | 0.479 | 33.5% | 95.3% |
-| **Temporal Retrieval + bge-reranker-v2-m3** | **0.448** | **0.513** | 29.2% | 94.3% |
-
-Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG dùng cùng cross-encoder **+0.040 EM** (± 0.020, hai sai số chuẩn) và hơn Plain RAG +0.025 EM (± 0.023, chưa phân biệt được).
-
-Nhận xét:
-- **Khoảng cách về đáp án nhỏ hơn nhiều so với về truy xuất** (`mrr` hơn +0.285, EM chỉ hơn +0.025 đến +0.040). Với 15 chunk, Plain RAG cũng có đáp án trong ngữ cảnh ở 94% câu nên LLM vẫn tìm được; lợi thế của Temporal Retrieval nhiều khả năng lớn hơn khi ngữ cảnh ít chunk hơn (chưa test).
-- **Nút thắt là bước sinh đáp án:** khi đáp án có trong ngữ cảnh, EM chỉ khoảng 0.43 đến 0.48, vì LLM từ chối 25 đến 30% câu dù đáp án nằm trong 15 chunk (ngày trong chunk không khớp từng chữ với câu hỏi). Nới điều kiện từ chối ở tập valid chỉ chuyển câu từ "từ chối" sang "trả lời sai".
-- Khoảng 6% (Temporal) đến 8% (Plain RAG) câu đã trả lời dựa vào chunk có nội dung sau thời điểm hỏi.
-- Theo domain, Temporal Retrieval hơn rõ ở career (0.42 so với 0.26 đến 0.30) và sports; kém hơn ở politics và place (mỗi domain 50 câu nên chỉ để tham khảo).
-
-**Ngữ cảnh ngắn hơn (top-5).** Số 15 chunk là mặc định của cấu hình truy xuất, không phải lựa chọn có chủ đích; các chỉ số truy xuất đều đo ở top-5. Chạy lại tập test với 5 chunk mỗi câu (cùng prompt, dùng Gemini 3.1 flash-lite vì hạn mức của 3.5 đã hết, nên là phân tích bổ sung, không so trực tiếp với bảng trên):
+**Cách làm.** Mỗi request Gemini 3.5 flash-lite chứa 4 câu độc lập (kèm 5 chunk mỗi câu, cùng số chunk với các chỉ số truy xuất ở trên) và trả về JSON. Chọn prompt trên tập valid (98 câu chia đều theo domain, 4 phiên bản, 2 hệ thống): không phiên bản nào hơn bản đơn giản nhất (v1) từ 2 sai số chuẩn trở lên nên dùng v1. Sau đó chạy một lần trên tập test với 3 hệ thống, 400 câu mỗi hệ thống, 0 lô sai định dạng. Chi tiết: [`eval/07`](../../eval/07_TUNE_VALID_RESULTS.md) mục 7, các phiên bản prompt: [`decisions/03`](../../decisions/03_PROMPT_CHANGELOG.md).
 
 | Hệ thống (top-5 chunk) | EM | F1 | Từ chối | Đáp án có trong 5 chunk |
 |---|---|---|---|---|
-| Plain RAG | 0.398 | 0.462 | 36.7% | 68.5% |
-| Plain RAG + bge-reranker-v2-m3 | 0.480 | 0.553 | 24.0% | 83.3% |
-| **Temporal Retrieval + bge-reranker-v2-m3** | **0.527** | **0.604** | 19.8% | 89.2% |
+| Plain RAG | 0.360 | 0.414 | 46.0% | 68.5% |
+| Plain RAG + bge-reranker-v2-m3 | 0.432 | 0.494 | 35.0% | 83.3% |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.500** | **0.564** | 28.5% | 89.2% |
 
-Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG **+0.130 EM** (± 0.022) và hơn Plain RAG + bge-reranker-v2-m3 +0.048 EM (± 0.018). Khi ngữ cảnh ngắn, Plain RAG không còn gom đủ đáp án (68,5% câu có đáp án trong ngữ cảnh so với 89,2%), nên lợi thế của truy xuất theo thời gian lộ ra rõ hơn so với top-15. Sẽ chạy lại top-5 bằng Gemini 3.5, chọn lại prompt trên tập valid ở top-5.
+Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG **+0.140 EM** (± 0.023) và hơn Plain RAG + bge-reranker-v2-m3 **+0.068 EM** (± 0.020, khoảng 3 sai số chuẩn).
+
+Nhận xét:
+- **Ngữ cảnh ngắn làm lộ lợi thế của truy xuất theo thời gian:** chỉ 68,5% câu của Plain RAG còn đáp án trong 5 chunk, so với 89,2% của Temporal Retrieval. LLM không thể trả lời đúng khi đáp án không nằm trong ngữ cảnh (EM khi đáp án không có trong ngữ cảnh gần như bằng 0).
+- **Cross-encoder cũng có ích:** Plain RAG + bge hơn Plain RAG +0.072 EM (± 0.021).
+- **Nút thắt là bước sinh đáp án:** LLM từ chối 28,5% đến 46% câu, trong đó 76 đến 85 câu (khoảng 20% tổng số câu) từ chối dù đáp án có trong ngữ cảnh (ngày trong chunk không khớp từng chữ với câu hỏi). Nới điều kiện từ chối ở tập valid chỉ chuyển câu từ "từ chối" sang "trả lời sai".
+- Khoảng 4% (Temporal) đến 8% (Plain RAG + bge) câu đã trả lời dựa vào chunk có nội dung sau thời điểm hỏi.
+- Theo domain, Temporal Retrieval hơn rõ ở career (0.42 so với 0.24 đến 0.36) và sports (0.64 so với 0.28 đến 0.40); không hơn ở place và politics (mỗi domain 50 câu nên chỉ để tham khảo).
 
 ---
 
@@ -188,4 +179,4 @@ Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG **+0.130 EM** (± 0.022) 
 - Cross-encoder chạy sau lọc cứng thời gian nên không cứu được các câu bị lọc cứng loại nhầm.
 - Chỉ test trên TimeQA và câu hỏi tại một thời điểm; chưa test Timeline Summarization hay Conflict Resolution.
 - Ablation "bỏ điểm thời gian" vẫn giữ lọc cứng; trường hợp không có lọc cứng được đại diện bởi Plain RAG.
-- Việc tiếp theo: test lại EM/F1 với ngữ cảnh ít chunk hơn (top-5), cải thiện prompt để giảm từ chối, rồi chuyển sang các cơ chế còn lại.
+- Việc tiếp theo: chạy lại test với prompt v4 (xu hướng tốt hơn v1 nhưng chưa đạt 2 sai số chuẩn), cải thiện prompt để giảm từ chối, rồi chuyển sang các cơ chế còn lại.

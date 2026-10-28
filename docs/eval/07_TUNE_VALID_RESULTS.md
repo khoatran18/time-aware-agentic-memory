@@ -158,7 +158,7 @@ Nhận xét:
 
 ### Ngữ cảnh top-5 (Gemini 3.1 flash-lite) — phân tích bổ sung
 
-Số 15 chunk ở trên là mặc định của cấu hình truy xuất (`top_k = 15`), không phải lựa chọn có chủ đích; mọi chỉ số truy xuất ở trên lại đo ở top-5. Chạy lại `test_clean` với **5 chunk** mỗi câu, cùng prompt v1, LLM **Gemini 3.1 flash-lite** (hạn mức ngày của 3.5 đã dùng hết). Đây là phân tích **bổ sung chọn sau khi xem kết quả top-15**, và prompt v1 chưa được kiểm trên `valid` ở top-5 hay với 3.1. Hai bảng khác LLM nên so top-5 với top-15 là lẫn hai yếu tố (số chunk và LLM); sẽ chạy lại top-5 bằng Gemini 3.5 sau khi chọn lại prompt trên `valid` ở top-5.
+Số 15 chunk ở trên là mặc định của cấu hình truy xuất (`top_k = 15`), không phải lựa chọn có chủ đích; mọi chỉ số truy xuất ở trên lại đo ở top-5. Chạy lại `test_clean` với **5 chunk** mỗi câu, cùng prompt v1, LLM **Gemini 3.1 flash-lite** (hạn mức ngày của 3.5 đã dùng hết). Đây là phân tích **bổ sung chọn sau khi xem kết quả top-15**, và prompt v1 chưa được kiểm trên `valid` ở top-5 hay với 3.1. Hai bảng khác LLM nên so top-5 với top-15 là lẫn hai yếu tố (số chunk và LLM); phần so cùng LLM (Gemini 3.5) nằm ở mục tiếp theo.
 
 | Hệ thống (top-5 chunk) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 5 chunk | từ chối dù có trong ngữ cảnh | trả lời dựa chunk tương lai |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -175,6 +175,38 @@ EM theo domain (Temporal / Plain RAG + bge / Plain RAG): business 0.58 / 0.56 / 
 - **Ngữ cảnh ngắn không làm EM tụt:** EM của Temporal ở top-5 (0.527, Gemini 3.1) không thấp hơn ở top-15 (0.448, Gemini 3.5), tỉ lệ từ chối cũng giảm (19,8% so với 29,2%). Chưa tách được tác động của LLM và số chunk.
 - Tỉ lệ từ chối dù đáp án có trong ngữ cảnh vẫn là 45 đến 51 câu (khoảng 11 đến 13%).
 - Theo domain, sports chênh rất lớn (0.70 so với 0.24 của Plain RAG) và politics, place Temporal không hơn (mỗi domain 50 câu, chỉ tham khảo).
+
+### Ngữ cảnh top-5 (Gemini 3.5 flash-lite) — phân tích bổ sung
+
+Cùng thiết lập với phần 3.1 ở trên (5 chunk mỗi câu, prompt v1) nhưng dùng **Gemini 3.5 flash-lite**, nên so được với top-15 (cùng LLM, cùng prompt). Vẫn là phân tích **bổ sung chọn sau khi xem kết quả top-15**.
+
+**Chọn prompt ở top-5 trên `valid`** (Gemini 3.1; 98 câu chia đều domain, seed 0; Temporal + bge và Plain RAG + bge; 8 lần chạy, 0 lỗi định dạng; `local/results/answers_valid_prompts_k5_g31.txt`): EM Temporal / Plain + bge: v1 0.480 / 0.408, v2 0.480 / 0.398, v3 0.490 / 0.429, v4 0.541 / 0.408. Δ EM so với v1 (ghép cặp, gộp 196 câu): v2 −0.005 ± 0.017, v3 +0.015 ± 0.015, v4 **+0.031 ± 0.023**. Không prompt nào đạt 2 sai số chuẩn nên theo quy tắc đã đặt trước vẫn giữ **v1**. v4 có xu hướng tốt hơn ở cả hai lần chọn trên `valid` (top-15: +0.036 ± 0.027), nhưng cả hai lần đều chưa đủ ngưỡng.
+
+| Hệ thống (top-5 chunk, Gemini 3.5) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 5 chunk | từ chối dù có trong ngữ cảnh | trả lời dựa chunk tương lai |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Plain RAG | 0.360 | 0.414 | 0.385 | 46.0% | 0.667 | 68.5% | 76 | 13/216 |
+| Plain RAG + bge-reranker-v2-m3 | 0.432 | 0.494 | 0.458 | 35.0% | 0.665 | 83.3% | 85 | 20/260 |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.500** | **0.564** | 0.530 | 28.5% | 0.699 | 89.2% | 81 | 11/286 |
+
+Δ ghép cặp (± một sai số chuẩn): Temporal − Plain RAG: EM **+0.140 ± 0.023**, F1 +0.151 ± 0.022; Temporal − Plain RAG + bge: EM **+0.068 ± 0.020**, F1 +0.071 ± 0.020; Plain RAG + bge − Plain RAG: EM +0.072 ± 0.021.
+
+EM theo domain (Temporal / Plain RAG + bge / Plain RAG): business 0.54 / 0.52 / 0.48; career 0.42 / 0.36 / 0.24; media_arts 0.70 / 0.60 / 0.52; military 0.60 / 0.54 / 0.48; person 0.50 / 0.42 / 0.36; place 0.24 / 0.26 / 0.24; politics 0.36 / 0.36 / 0.28; sports 0.64 / 0.40 / 0.28.
+
+**Top-5 so với top-15 (cùng Gemini 3.5, cùng prompt v1, ghép cặp theo câu)** (`local/results/answers_test_k5_vs_k15_g35.txt`):
+
+| Hệ thống | Δ EM (top-5 − top-15) | Δ F1 |
+|---|---:|---:|
+| Temporal Retrieval + bge | +0.052 ± 0.020 | +0.052 ± 0.019 |
+| Plain RAG + bge | +0.025 ± 0.020 | +0.014 ± 0.019 |
+| Plain RAG | −0.062 ± 0.022 | −0.087 ± 0.022 |
+
+- **Top-5 không làm EM tụt, còn tốt hơn với Temporal:** Temporal tăng +0.052 (khoảng 2,6 sai số chuẩn). Plain RAG + bge không đổi đáng kể. Plain RAG thường tụt −0.062 vì ở top-5 chỉ 68,5% câu còn đáp án trong ngữ cảnh. Vậy khoảng cách Temporal − Plain RAG lớn lên một phần vì Plain RAG kém đi khi bớt chunk, một phần vì Temporal giữ được.
+- **Khoảng cách Temporal − Plain RAG + bge** ở top-5 là +0.068 ± 0.020 (3,4 sai số chuẩn), so với +0.040 ± 0.020 ở top-15.
+- **So với bảng 3.1:** 3.5 thấp hơn 3.1 ở cả ba hệ thống (EM −0.028 đến −0.048, ghép cặp; Temporal −0.028 ± 0.019, Plain RAG + bge −0.048 ± 0.018, Plain RAG −0.037 ± 0.015). Nên hai LLM không thay thế nhau, nhưng thứ tự ba hệ thống và kết luận chính giống nhau.
+- Từ chối vẫn cao (28,5% ở Temporal), trong đó 81 câu từ chối dù đáp án có trong ngữ cảnh: đây vẫn là điểm yếu chính của prompt v1.
+- Cột "đáp án có trong 5 chunk" trùng với bảng 3.1 vì cùng chunk, chỉ khác LLM. Trả lời dựa chunk tương lai: Temporal 11/286 (3,8%), Plain RAG + bge 20/260 (7,7%), Plain RAG 13/216 (6,0%).
+
+**Việc tiếp theo:** chạy lại test top-5 bằng prompt v4 (xu hướng tốt hơn v1 ở cả hai lần chọn trên `valid`, dù chưa đạt 2 sai số chuẩn) khi hạn mức Gemini 3.5 reset; ghi rõ là chọn sau khi xem kết quả.
 
 ## 8. Tái lập
 
