@@ -1,10 +1,10 @@
 # Báo cáo tuần 5
 
-Tuần này **chia bộ data thành các tập train, valid, test và test lại các cấu hình của Temporal Retrieval theo đúng vai trò từng tập**. Ở tuần 4, mọi cấu hình đều được chọn ngay trên bộ data 400 câu, nên các con số chỉ là cận trên. Các bước đã làm:
+Tuần này **chia bộ data thành các tập train, valid, test và test lại các cấu hình của Temporal Retrieval theo đúng vai trò từng tập**. Các bước đã làm:
 1. Chia bộ data thành ba tập không trùng trang: train (tune), valid và test (test_clean).
-2. Chạy lại 888 cấu hình đã thử ở tuần 4 trên tập train, rồi xác nhận các cấu hình tốt trên tập valid.
+2. Chạy 888 cấu hình đã thử trước đó trên tập train, rồi xác nhận các cấu hình tốt trên tập valid.
 3. Quét tham số quanh ba cross-encoder (240 cấu hình) trên tập train, xác nhận trên tập valid.
-4. Chạy một lần trên tập test với danh sách cấu hình chốt trước, kể cả Plain RAG và các ablation (bỏ từng thành phần).
+4. Chạy một lần trên tập test với danh sách cấu hình chốt trước, kể cả Plain RAG.
 5. Thêm bước sinh đáp án bằng LLM, chọn prompt trên tập valid, rồi test EM/F1 trên tập test.
 
 **Kết quả trên tập test (400 câu, chạy một lần).** Plain RAG là RAG thuần, chỉ tìm theo độ giống nghĩa, không có cơ chế kiểm soát thời gian:
@@ -18,12 +18,7 @@ Tuần này **chia bộ data thành các tập train, valid, test và test lại
 
 Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG **+0.285 `mrr`** (± 0.018, một sai số chuẩn), và hơn Plain RAG dùng cùng cross-encoder **+0.131**. `leakage_rate` là tỉ lệ câu hỏi mà top-5 có chunk mang nội dung của tương lai so với thời điểm hỏi (ví dụ hỏi về năm 2010 nhưng top-5 có chunk của năm 2011); kỳ vọng là 0%.
 
-Đây là tập chưa dùng để chọn cấu hình nên con số đáng tin hơn tuần 4 (0.566 trên bộ data 400 câu, là cận trên).
-
-Tài liệu liên quan:
-- Kết quả đầy đủ và cách tái lập: [`eval/07`](../../eval/07_TUNE_VALID_RESULTS.md)
-- Quyết định chia tập: [`decisions/08`](../../decisions/08_TRAIN_VALID_TEST_SPLIT.md)
-- Kết quả trên bộ data 400 câu của tuần 4: [`eval/05`](../../eval/05_REAL_RESULTS.md)
+Đây là tập chưa dùng để chọn cấu hình nên con số đáng tin.
 
 **Quy ước đọc số.** Các chỉ số tính trên từng câu hỏi rồi lấy trung bình:
 - `hit@k`: chunk đúng nằm trong top-k kết quả. Ví dụ `hit@5` = 0.83 nghĩa là 83% câu có chunk đúng trong 5 kết quả đầu.
@@ -36,19 +31,15 @@ Tài liệu liên quan:
 
 ## 1. Chia bộ data
 
-Bộ data 400 câu của tuần 4 đã được xem kết quả trên hơn 200 cấu hình, nên không còn là tập test sạch. Tuần này chia thêm ba tập mới từ TimeQA, **đôi một không trùng trang** (để mô hình không "học thuộc" nội dung một trang rồi gặp lại ở tập khác):
+Bộ data chia thành ba tập từ TimeQA, **đôi một không trùng trang** (để mô hình không "học thuộc" nội dung một trang rồi gặp lại ở tập khác):
 
 | Tập | Số câu | Số trang | Dùng để làm gì | Được chỉnh theo kết quả? |
 |---|---:|---:|---|---|
-| Bộ data 400 câu (tuần 4) | 400 | 204 | tham khảo, cận trên | đã bị chỉnh nhiều |
 | Train (tune) | 595 | 203 | chọn và chỉnh tham số, chọn cross-encoder | có, chỉ ở tập này |
 | Valid | 399 | 167 | xác nhận các cấu hình đã chọn; chọn giữa các phương pháp | không chỉnh tham số |
 | Test (test_clean) | 400 | 186 | số cuối của luận văn, chạy **một lần** | không |
 
-- **Train** gồm 400 câu lấy mới và 195 câu của bộ data 400 câu cũ có trang không nằm trong valid hay test (thêm để tập train đủ lớn).
-- **Valid** bỏ 1 câu có nhãn thời gian hỏng (`time_start` chỉ có "18"), còn 399 câu.
-- Cả ba tập đã nạp kho Qdrant riêng và chạy Profiler (trích thời điểm hỏi từ câu hỏi) đủ số câu, không lỗi.
-- Cần ba tập thay vì hai vì ta chọn **hai tầng**: thử hàng trăm cấu hình trên train rồi chọn vài ứng viên. Điểm trên train luôn cao hơn trên tập chưa thấy (ở đây cao hơn khoảng 0.05 đến 0.09 `mrr`), nên valid để kiểm tra việc chọn đó mà không đụng vào test.
+Chia ba tập để tách ba việc: chọn cấu hình (train), kiểm tra việc chọn đó (valid) và báo số cuối (test). Nếu dùng cùng một tập cho cả chọn lẫn báo cáo thì con số cuối bị thổi phồng.
 
 ---
 
@@ -56,19 +47,41 @@ Bộ data 400 câu của tuần 4 đã được xem kết quả trên hơn 200 c
 
 ### 2.1. Chạy lại 888 cấu hình cũ
 
-**888 cấu hình** là toàn bộ các lần chạy end-to-end ở tuần 4 (đã bỏ cấu hình trùng), mỗi cấu hình là một tổ hợp (phương pháp truy xuất, cross-encoder, tham số xếp hạng):
+**Cơ chế thời gian của Temporal Retrieval** gồm hai phần. (1) **Lọc cứng:** chỉ giữ chunk có `start_time` không sau thời điểm hỏi, để không dùng thông tin của tương lai. (2) **Điểm thời gian:** `Final = W1·Semantic + W2·Temporal`, trong đó `Temporal = 1.0` nếu chunk còn hiệu lực tại thời điểm hỏi, và nếu chunk đã hết hạn thì giảm dần `exp(−λ·số năm cách)`. Quy trình mỗi câu hỏi: lấy `top_n` ứng viên từ Qdrant (đã qua lọc cứng), chấm `Final`, cross-encoder chấm lại một số ứng viên đầu, rồi trả 5 chunk đầu (top-5).
 
-| Chiều | Các giá trị đã thử trong 888 cấu hình |
-|---|---|
-| Phương pháp | 807 Temporal Retrieval (kể cả 8 cấu hình thêm điểm theo facet, 2 theo domain, 4 bỏ hẳn lọc thời gian); 81 Plain RAG (62 dense, 18 hybrid dense + BM25, 1 BM25) |
-| Cross-encoder | 650 cấu hình không có; 77 MiniLM-L6; 77 MiniLM-L12; 50 bge-reranker-v2-m3; 28 jina-reranker-v1-turbo; 6 bge-reranker-base |
-| Cách tính thời gian | `time_mode` `point` (một điểm) hoặc `range` (khoảng, giao nhau `binary` hoặc theo độ phủ `coverage`); `end_mode` (`unknown_decay`, `decay`, `stored`, `open`) và `open_decay`, `t_unknown` (0 đến 0.7); `decay_from` (`start`, `end`); `w2` (0, 0.15, 0.3) |
-| Cách đưa cho cross-encoder | `rerank_top` (10, 20, 30, 50); `rerank_mode` (`replace`, `mix`); `rerank_pool`, `rerank_time`, chuẩn hóa điểm |
-| Mở rộng ngữ cảnh | `neighbor_window` (0 đến 5 chunk lân cận), `page_expand` (không, theo thời gian, cả trang) |
+**888 cấu hình** là toàn bộ các lần chạy trước khi chia tập (đã bỏ cấu hình trùng), không phải một lưới đầy đủ. Mỗi cấu hình là một tổ hợp của:
+- **Phương pháp:** Temporal Retrieval hoặc Plain RAG (dense, hybrid dense + BM25, BM25).
+- **Cross-encoder:** không có, MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3, jina-reranker-v1-turbo, bge-reranker-base.
+- **Cách chấm điểm thời gian:** `time_mode`, `end_mode`, `open_decay`, `decay_from`, `t_unknown`, `w2` (giải thích dưới bảng).
+- **Cách đưa cho cross-encoder:** `rerank_top`, `rerank_mode`.
+- **Mở rộng ngữ cảnh:** thêm chunk lân cận hoặc cả trang.
 
-Trong 888 cấu hình, `decay_lambda` luôn là 0.5 và `top_n` luôn là 50; hai tham số này được quét lần đầu ở mục 2.2.
+Ý nghĩa các tham số chính:
 
-Chạy lại cả 888 trên tập train. Sau đó chọn đa dạng **51 cấu hình** để chạy trên valid, tránh 40 biến thể gần giống nhau: 20 cấu hình `mrr` cao nhất, cộng 5 cấu hình `mrr` cao nhất của mỗi họ (không cross-encoder, và từng cross-encoder), cộng 3 Plain RAG và 3 Plain RAG + cross-encoder để đối chứng; bỏ trùng. Thêm 5 cấu hình chạy bù sau khi sửa lỗi 23 cấu hình bị lỗi tham số lúc chạy lần đầu, tổng **56 cấu hình trên valid**.
+| Tham số | Giá trị | Ý nghĩa |
+|---|---|---|
+| `time_mode` | `point` | dùng **một mốc** thời điểm hỏi (`t_req`) do Profiler trích từ câu hỏi; chunk được điểm 1.0 nếu còn hiệu lực tại mốc đó |
+| | `range` | dùng **cả khoảng** nêu trong câu hỏi (ví dụ "between Sep 2003 and Nov 2004"); chunk có khoảng hiệu lực giao với khoảng hỏi thì được điểm, `binary` = 1.0, `coverage` = tỉ lệ khoảng hỏi mà chunk phủ (ví dụ chunk còn hiệu lực đến tháng 3/2004 chỉ phủ khoảng một nửa khoảng hỏi nên được khoảng 0.5) |
+| `end_mode` | `stored` | chunk chưa rõ ngày kết thúc dùng đúng `end_time` đã lưu: `ongoing` (đang còn hiệu lực) được 1.0 mãi, `unknown` (không rõ) coi như hết hạn cuối kỳ của `start` |
+| | `open` | `ongoing` và `unknown` đều coi là còn hiệu lực mãi, điểm 1.0 |
+| | `decay` | `ongoing` và `unknown` đều giảm nhẹ theo số năm từ `start` đến thời điểm hỏi: `exp(−open_decay·số năm)` |
+| | `unknown_decay` | chỉ `unknown` giảm như `decay`; `ongoing` giữ 1.0 |
+| `top_n` | 50, 100 | số ứng viên mỗi nhánh (dense, BM25) lấy từ Qdrant sau lọc cứng; sau đó gộp, chấm `Final`, chấm lại bằng cross-encoder và chỉ trả top-5 cuối cùng |
+| `rerank_top` | 10 đến 50 | số ứng viên đầu bảng được đưa cho cross-encoder chấm lại |
+| `rerank_mode` | `replace` | **thay**: bỏ điểm `Semantic` cũ (điểm xếp hạng ngữ nghĩa lấy từ Qdrant), dùng điểm cross-encoder làm `Semantic` mới: `Semantic_mới = CE` (CE đã chuẩn hóa về [0, 1] bằng min-max) |
+| | `mix` | **trộn**: `Semantic_mới = alpha·Semantic_cũ + (1 − alpha)·CE`; ví dụ `alpha` = 0.3 thì 30% điểm cũ, 70% điểm cross-encoder |
+
+Sau khi có `Semantic_mới`, điểm cuối được tính lại: `Final = W1·Semantic_mới + W2·Temporal`.
+
+**Từ train lên valid.** Chạy cả 888 cấu hình trên tập train, xếp theo `mrr`. Không lấy thẳng 50 cấu hình đầu vì chúng phần lớn là biến thể gần giống nhau (khác nhau một tham số nhỏ), nên chọn đa dạng:
+
+| Nhóm | Số cấu hình | Vì sao |
+|---|---|---|
+| `mrr` cao nhất trong cả 888 | 20 | các cấu hình mạnh nhất tổng thể |
+| 5 `mrr` cao nhất của mỗi họ Temporal Retrieval (không cross-encoder, MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3, bge-reranker-base, jina-reranker-v1-turbo) | 5 mỗi họ | so sánh các cross-encoder, kể cả họ không lọt top chung |
+| 3 Plain RAG không cross-encoder và 3 Plain RAG có cross-encoder, mỗi nhóm lấy `mrr` cao nhất | 6 | đối chứng, để biết Temporal Retrieval hơn bao nhiêu |
+
+Bỏ trùng còn **51 cấu hình**. "Cao nhất" ở đây luôn là `mrr` trên tập train (trung bình `1/hạng` của chunk đúng, tính trên 595 câu).
 
 **Cross-encoder** là mô hình chấm lại điểm: nhận từng cặp (câu hỏi, chunk) và cho điểm mức khớp, chính xác hơn so sánh embedding riêng lẻ nhưng chậm hơn. Ví dụ với câu "Who coached 1. FC Köln in 2018?", cross-encoder đọc cả câu hỏi lẫn từng chunk trong top-20 rồi xếp lại.
 
@@ -85,43 +98,57 @@ Cấu hình tốt nhất của mỗi họ trên train, đo trên valid (Δ so v�
 | Plain RAG + bge-reranker-v2-m3 | 0.527 | 0.437 | 0.670 | 0.531 | 87% | −0.074 ± 0.020 |
 | Plain RAG | 0.422 | 0.332 | 0.569 | 0.458 | 95% | −0.179 ± 0.018 |
 
-- Thứ hạng giữa các họ giữ nguyên từ train sang valid; `mrr` thấp hơn khoảng 0.05 đến 0.09 ở mọi họ.
-- Ba cross-encoder đầu (bge-reranker-v2-m3, MiniLM-L12, MiniLM-L6) cho thêm khoảng +0.05 `mrr` so với Baseline; bge-reranker-base và jina không hơn nền một cách đáng tin.
+- Ba cross-encoder đầu (bge-reranker-v2-m3, MiniLM-L12, MiniLM-L6) cho thêm khoảng +0.05 `mrr` so với Baseline; bge-reranker-base và jina không hơn Baseline một cách đáng tin.
 - Plain RAG rò rỉ 87 đến 95% câu trả lời từ chunk tương lai, kể cả khi thêm cross-encoder.
 
 ### 2.2. Quét tham số
 
-**Quét tham số** là thử nhiều tổ hợp giá trị của các tham số điều khiển cách xếp hạng, rồi giữ tổ hợp cho `mrr` cao nhất trên train. Quét **không chạy trên 51 cấu hình ở mục 2.1** (51 cấu hình đó chỉ để kiểm trên valid). Với mỗi họ cross-encoder (MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3) chạy 80 cấu hình trên tập train: 1 **cấu hình xuất phát** (cấu hình có `mrr` train cao nhất của họ đó trong 888 cấu hình cũ, tức kết quả "trước khi quét") và 79 tổ hợp bốc ngẫu nhiên từ các giá trị dưới đây (các tham số khác giữ như cấu hình xuất phát). Tổng 240 cấu hình; chọn cấu hình tốt nhất của mỗi họ theo `mrr` train, rồi mới đo trên valid. Các tham số được quét:
+Quét ngẫu nhiên cho từng họ cross-encoder (MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3): chạy 80 cấu hình trên tập train (1 cấu hình tốt nhất trong 888 cấu hình, cộng 79 cấu hình bốc ngẫu nhiên giá trị các tham số dưới đây), tổng 3 × 80 = 240 cấu hình, rồi giữ cấu hình có `mrr` train cao nhất của mỗi họ.
 
-| Tham số | Ý nghĩa | Giá trị thử |
+| Tham số | Ý nghĩa | Giá trị quét |
 |---|---|---|
-| `w2` | trọng số điểm thời gian (`Temporal`) trong `Final = W1·Semantic + W2·Temporal`; `W1 = 1 − W2` | 0.1 đến 0.5 |
-| `decay_lambda` | tốc độ giảm điểm thời gian theo số năm cách khi chunk không bao phủ thời điểm hỏi: điểm = `exp(−λ·số năm cách)`; mặc định 0.5 (cách 1 năm còn 0.61, cách 2 năm còn 0.37) | 0.1 đến 2 |
-| `t_unknown`, `open_decay`, `end_mode` | cách chấm chunk chưa rõ ngày kết thúc | 4, 4 và 2 giá trị |
+| `w2` | trọng số điểm thời gian trong `Final = W1·Semantic + W2·Temporal`, `W1 = 1 − W2` | 0.1, 0.2, 0.3, 0.4, 0.5 |
+| `decay_lambda` | tốc độ giảm điểm theo số năm cách: `exp(−λ·số năm)` | 0.1, 0.25, 0.5, 1, 2 |
+| `t_unknown` | điểm của chunk không có mốc thời gian | 0.05, 0.1, 0.2, 0.3 |
+| `end_mode` | cách chấm chunk chưa rõ ngày kết thúc | `unknown_decay`, `decay` |
+| `open_decay` | tốc độ giảm điểm của chunk đó | 0.02, 0.05, 0.1, 0.2 |
 | `decay_from` | tính khoảng cách từ đầu hay cuối khoảng hiệu lực của chunk | `start`, `end` |
-| `time_mode` | một điểm thời gian (`point`) hay một khoảng (`range`) cho thời điểm hỏi | `point`, `range` |
-| `rerank_top`, `rerank_mode`, `rerank_norm` | số ứng viên đưa cho cross-encoder; thay hay trộn điểm cũ; cách chuẩn hóa điểm | 5, 2 và 2 giá trị |
-| `top_n` | số ứng viên lấy từ Qdrant trước khi chấm lại; mặc định 50 | 50, 100 |
+| `time_mode` | cách hiểu thời điểm hỏi | `point`; `range` giao nhau `binary`; `range` theo độ phủ `coverage` |
+| `top_n` | số ứng viên lấy từ Qdrant | 50, 100 |
+| `rerank_top` | số ứng viên đưa cho cross-encoder | 10, 15, 20, 30, 40 |
+| `rerank_mode` | `replace`: dùng điểm cross-encoder thay hẳn điểm `Semantic` cũ; `mix`: trộn hai điểm (công thức ở mục 2.1) | `replace`, `mix` |
+| `rerank_alpha` (khi `mix`) | trọng số điểm Semantic cũ; điểm cross-encoder có trọng số `1 − alpha` | 0.3, 0.5, 0.7 |
+| `rerank_norm` | cách chuẩn hóa điểm | `minmax`, `zscore` |
 
-Cấu hình tốt nhất sau quét trên train, xác nhận trên valid (Δ so với cấu hình xuất phát cùng họ):
+Bộ tham số tốt nhất của mỗi họ (theo `mrr` train):
 
-| Họ | `mrr` train (trước quét) | `mrr` train (sau quét) | `mrr` valid | Δ `mrr` valid so với trước quét |
-|---|---:|---:|---:|---|
-| bge-reranker-v2-m3 | 0.619 | 0.628 | **0.581** | +0.016 ± 0.011 |
-| MiniLM-L12 | 0.591 | 0.592 | 0.564 | +0.005 ± 0.013 |
-| MiniLM-L6 | 0.586 | 0.591 | 0.540 | −0.016 ± 0.013 |
-
-Quét tham số chỉ tăng 0.001 đến 0.009 `mrr` trên train, nhỏ hơn sai số, và trên valid không cải thiện đáng tin (L6 còn tệ đi vì quá khớp train). Vì cấu hình xuất phát đã được chọn từ 888 cấu hình nên đã gần đỉnh, và điểm số phụ thuộc yếu vào từng tham số: lọc cứng thời gian là cố định, còn cross-encoder quyết định phần lớn thứ hạng.
-
-### 2.3. Chọn cấu hình chính
-
-Quy tắc đặt trước, chỉ dùng valid: lấy họ có `mrr` cao nhất, rồi chọn họ **đơn giản nhất** (MiniLM-L6 < MiniLM-L12 < bge-reranker-v2-m3) có chênh lệch ghép cặp nằm trong một sai số chuẩn. bge-reranker-v2-m3 cao nhất, MiniLM-L12 thấp hơn 1,3 sai số chuẩn nên không thay thế được, vậy chọn **Temporal Retrieval + bge-reranker-v2-m3** làm cấu hình chính. Chênh khi đó còn sát, nên tập test vẫn báo cả ba cross-encoder.
+| Tham số | MiniLM-L6 | MiniLM-L12 | bge-reranker-v2-m3 |
+|---|---|---|---|
+| `w2` | 0.3 | 0.2 | 0.2 |
+| `decay_lambda` | 0.1 | 1 | 0.5 |
+| `t_unknown` | 0.05 | 0.05 | 0.1 |
+| `end_mode` | `unknown_decay` | `unknown_decay` | `decay` |
+| `open_decay` | 0.02 | 0.05 | 0.1 |
+| `decay_from` | `start` | `end` | `start` |
+| `time_mode` | `range`, `coverage` | `range`, `coverage` | `range`, `binary` |
+| `top_n` | 50 | 100 | 100 |
+| `rerank_top` | 10 | 15 | 30 |
+| `rerank_mode` | `mix` (`rerank_alpha` 0.3) | `replace` | `mix` (`rerank_alpha` 0.3) |
+| `rerank_norm` | `minmax` | `minmax` | `minmax` |
+| `mrr` train | 0.591 | 0.592 | 0.628 |
+| `mrr` valid | 0.540 | 0.564 | **0.581** |
 
 ---
 
 ## 3. Kết quả trên tập test
 
-Chạy một lần 28 cấu hình trên 400 câu của tập test, danh sách chốt trước khi xem kết quả, báo cáo tất cả (0 lỗi):
+**Từ valid lên test.** Danh sách 12 cấu hình được chốt trước khi xem kết quả test, chạy một lần trên 400 câu, báo cáo tất cả (0 lỗi):
+
+| Nhóm | Cấu hình | Vì sao |
+|---|---|---|
+| Plain RAG (5) | dense; hybrid (dense + BM25); dense + MiniLM-L6; dense + MiniLM-L12; dense + bge-reranker-v2-m3 | đối chứng: RAG thuần; thêm cross-encoder để thấy lợi thế của Temporal Retrieval không chỉ do cross-encoder |
+| Temporal Retrieval (4) | không cross-encoder; + MiniLM-L6; + MiniLM-L12; + bge-reranker-v2-m3 (tham số sau quét, mục 2.2) | cấu hình chính là bản + bge-reranker-v2-m3 (`mrr` valid cao nhất trong ba bộ); giữ cả hai MiniLM vì chênh với bge trên valid còn sát; bản không cross-encoder để tách đóng góp của cơ chế thời gian |
+| Temporal Retrieval, tham số xuất phát (3) | + MiniLM-L6; + MiniLM-L12; + bge-reranker-v2-m3 (trước quét) | xem quét tham số có giúp trên tập test không |
 
 | Hệ thống | `mrr` | `hit@1` | `hit@5` | `ans_valid@5` | `leakage_rate` | Δ so với Plain RAG | Δ so với Temporal Retrieval không cross-encoder |
 |---|---|---|---|---|---|---|---|
@@ -140,26 +167,6 @@ Nhận xét:
 - **bge-reranker-v2-m3 hơn rõ hai MiniLM** trên tập sạch: hơn L12 +0.057 ± 0.014 và hơn L6 +0.062 ± 0.015 (khoảng 4 sai số chuẩn). L6 và L12 ngang nhau (+0.005 ± 0.011). Điều này khớp với lựa chọn đã làm trên valid, khi đó chênh mới 1,3 sai số chuẩn.
 - **Quét tham số không giúp trên tập test:** so với cấu hình xuất phát, MiniLM-L6 −0.016 ± 0.011, MiniLM-L12 −0.009 ± 0.013, bge-reranker-v2-m3 +0.001 ± 0.011; đều trong sai số.
 
-### Bỏ từng thành phần (ablation)
-
-Mỗi dòng bỏ **một** thành phần khỏi cấu hình đầy đủ, giữ nguyên mọi thứ khác (`mrr` trên tập test):
-
-| Bỏ gì | Không cross-encoder | + MiniLM-L6 | + MiniLM-L12 | + bge-reranker-v2-m3 |
-|---|---|---|---|---|
-| (cấu hình đầy đủ) | 0.516 | 0.558 | 0.563 | 0.620 |
-| điểm thời gian (`W2 = 0`, vẫn giữ lọc cứng `start ≤ T_req`) | 0.398 | 0.486 | 0.482 | 0.537 |
-| giảm điểm khi chunk hết hạn (`decay_lambda = 0`) | 0.419 | 0.484 | 0.489 | 0.548 |
-| cách chấm chunk chưa rõ ngày kết thúc (`end_mode` về `stored`) | 0.506 | 0.556 | 0.556 | 0.618 |
-| cách hiểu thời điểm hỏi: một điểm (`point`) ↔ một khoảng (`range`) | 0.518 | 0.568 | 0.561 | 0.612 |
-
-Hai dòng cuối cần giải thích:
-- **`end_mode` về `stored`:** chunk chưa rõ ngày kết thúc (`end_status` là `ongoing` hoặc `unknown`) bị chấm theo `end_time` đã lưu trong kho, không có cách xử lý riêng. Cấu hình đầy đủ có xử lý: `unknown_decay` (chỉ chunk `unknown` bị giảm điểm theo khoảng cách từ `start` đến thời điểm hỏi, `ongoing` giữ 1.0; cột không cross-encoder, MiniLM-L6 và MiniLM-L12) hoặc `decay` (cả `ongoing` và `unknown` giảm nhẹ; cột bge-reranker-v2-m3).
-- **`point` ↔ `range`:** chỉ đổi sang cách còn lại so với cấu hình đầy đủ của từng cột, không phải cả hai chiều trong cùng một cột. Cột không cross-encoder dùng `point` nên bản bỏ là `range`; ba cột cross-encoder dùng `range` (L6, L12: độ phủ `coverage`; bge: giao nhau `binary`) nên bản bỏ là `point`.
-
-- Hai thành phần đóng góp nhiều nhất ngoài lọc cứng là **điểm thời gian** (bỏ đi giảm 0.08 đến 0.12 `mrr`) và **giảm điểm khi chunk hết hạn** (giảm 0.07 đến 0.10).
-- Xử lý `end_time` chưa rõ và chọn `point`/`range` gần như không tác động trên tập này (chênh dưới 0.01 với cross-encoder).
-- Khi bỏ điểm thời gian, Temporal Retrieval + bge-reranker-v2-m3 vẫn đạt 0.537, cao hơn bản không cross-encoder (0.516), nhưng thấp hơn cấu hình đầy đủ 0.083: cross-encoder bù được một phần chứ không thay thế được điểm thời gian.
-
 ---
 
 ## 4. Đáp án sinh ra: EM/F1
@@ -173,23 +180,23 @@ Bước cuối của pipeline: LLM đọc các chunk đã truy xuất rồi tr�
 
 | Prompt | Nội dung |
 |---|---|
-| v1 | chỉ đưa văn bản chunk; từ chối nếu không có đáp án |
+| v1 | chỉ đưa văn bản chunk. Từ chối (`null`) khi các đoạn không nêu đáp án đúng cho thời điểm hỏi; không đoán, không trả lời cho thời điểm gần đó |
 | v2 | v1 + khoảng thời gian `(start – end)` của từng chunk |
-| v3 | v1, nới điều kiện từ chối |
-| v4 | v2, nới điều kiện từ chối |
+| v3 | v1 nhưng **nới điều kiện từ chối**: chỉ từ chối khi không đoạn nào nói về điều câu hỏi hỏi. Nếu có đoạn nêu đáp án với khoảng thời gian chồng lấn hoặc gần nhất thời điểm hỏi (kể cả khi đoạn ghi mốc lỏng hơn câu hỏi: chỉ ghi năm thay vì tháng, khoảng mở, không có ngày) và không đoạn nào mâu thuẫn thì vẫn trả lời |
+| v4 | v2 + nới điều kiện từ chối như v3 |
 
 ### 4.1. Chọn prompt trên tập valid
 
-98 câu chia đều theo domain, 2 hệ thống (Temporal Retrieval + bge và Plain RAG + bge), top-5. Bảng dưới là EM (Temporal / Plain RAG + bge) và Δ EM so với v1 (ghép cặp 196 câu, ± một sai số chuẩn):
+Mẫu 100 câu chia đều theo domain, top-5, chạy trên hai hệ thống: Temporal Retrieval + bge-reranker-v2-m3 và Plain RAG + bge-reranker-v2-m3. Mỗi LLM có hai cột EM (một cột mỗi hệ thống) và cột **Δ EM**: chênh lệch EM của prompt so với v1, tính từng câu rồi lấy trung bình, gộp cả hai hệ thống, kèm một sai số chuẩn. Ví dụ Δ EM = +0.031 nghĩa là prompt đó trả lời đúng nhiều hơn v1 trung bình 3,1% số câu.
 
-| Prompt | Gemini 3.1: EM | Δ EM | Gemini 3.5: EM | Δ EM |
-|---|---|---|---|---|
-| v1 | 0.480 / 0.408 | Baseline | 0.459 / 0.388 | Baseline |
-| v2 | 0.480 / 0.398 | −0.005 ± 0.017 | 0.480 / 0.388 | +0.010 ± 0.020 |
-| v3 | 0.490 / 0.429 | +0.015 ± 0.015 | 0.469 / 0.398 | +0.010 ± 0.018 |
-| v4 | 0.541 / 0.408 | **+0.031 ± 0.023** | 0.469 / 0.378 | +0.000 ± 0.022 |
+| Prompt | 3.1: EM Temporal | 3.1: EM Plain RAG + bge | 3.1: Δ EM | 3.5: EM Temporal | 3.5: EM Plain RAG + bge | 3.5: Δ EM |
+|---|---|---|---|---|---|---|
+| v1 | 0.480 | 0.408 | Baseline | 0.459 | 0.388 | Baseline |
+| v2 | 0.480 | 0.398 | −0.005 ± 0.017 | 0.480 | 0.388 | +0.010 ± 0.020 |
+| v3 | 0.490 | 0.429 | +0.015 ± 0.015 | 0.469 | 0.398 | +0.010 ± 0.018 |
+| v4 | 0.541 | 0.408 | **+0.031 ± 0.023** | 0.469 | 0.378 | +0.000 ± 0.022 |
 
-Không prompt nào hơn v1 từ 2 sai số chuẩn trở lên. v4 là prompt duy nhất tăng EM ở Gemini 3.1 (hơn v2 và v3), nhưng ở Gemini 3.5 không hơn v1. v1 là bản đơn giản nhất nên làm prompt chính; v4 được test thêm để so sánh.
+(3.1 là Gemini 3.1 flash-lite, 3.5 là Gemini 3.5 flash-lite.)
 
 ### 4.2. Kết quả trên tập test (Gemini 3.5, top-5, 400 câu)
 
@@ -219,9 +226,8 @@ Nhận xét:
 
 ## 5. Hạn chế và việc tiếp theo
 
-- Prompt sinh đáp án chọn trên 98 câu valid nên chỉ phân biệt được khác biệt lớn; LLM từ chối quá nhiều dù đáp án có trong ngữ cảnh. Kết quả test EM/F1 chỉ dùng một LLM (Gemini 3.5).
+- Prompt sinh đáp án chọn trên mẫu 100 câu valid nên chỉ phân biệt được khác biệt lớn; LLM từ chối quá nhiều dù đáp án có trong ngữ cảnh. Kết quả test EM/F1 chỉ dùng một LLM (Gemini 3.5).
 - `ans_valid@5` mới khoảng 0.70: khoảng 30% câu chưa có chunk vừa chứa đáp án vừa hợp lệ về thời gian trong top-5.
 - Cross-encoder chạy sau lọc cứng thời gian nên không cứu được các câu bị lọc cứng loại nhầm.
 - Chỉ test trên TimeQA và câu hỏi tại một thời điểm; chưa test Timeline Summarization hay Conflict Resolution.
-- Ablation "bỏ điểm thời gian" vẫn giữ lọc cứng; trường hợp không có lọc cứng được đại diện bởi Plain RAG.
 - Việc tiếp theo: cải thiện prompt để giảm từ chối mà không tăng trả lời sai, rồi chuyển sang các cơ chế còn lại.
