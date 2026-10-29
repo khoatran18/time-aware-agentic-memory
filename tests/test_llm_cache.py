@@ -169,3 +169,12 @@ def test_provider_rate_limit_error_without_status_code_is_transient():
 
     assert _is_transient(GoogleRateLimitError("429 RESOURCE_EXHAUSTED"))
     assert not _is_transient(ValueError("x")) and not _is_transient(RuntimeError("401"))
+
+
+def test_httpx_transport_errors_are_transient():
+    import httpx
+
+    from tam.llm.structured import _is_transient
+
+    assert _is_transient(httpx.RemoteProtocolError("Server disconnected without sending a response."))
+    assert _is_transient(httpx.ReadError("[Errno 32] Broken pipe"))

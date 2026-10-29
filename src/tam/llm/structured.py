@@ -39,7 +39,7 @@ def _is_transient(exc: Exception) -> bool:
     name = type(exc).__name__
     bases = {c.__name__ for c in type(exc).__mro__}  # lỗi của langchain-google-genai không có status_code: nhận qua tên lớp cha
     return (isinstance(exc, (ConnectionError, TimeoutError)) or "Connection" in name or "Timeout" in name
-            or bool(bases & {"ModelRateLimitError", "ServerError"}))
+            or bool(bases & {"ModelRateLimitError", "ServerError", "TransportError"}))  # TransportError: gốc của lỗi mạng httpx (đứt kết nối, broken pipe)
 
 
 class _SkipStructured(Exception):

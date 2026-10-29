@@ -62,6 +62,7 @@ def main() -> None:
     ap.add_argument("--sample", type=int, default=0, help=">0: chỉ n câu, chia đều theo domain (seed cố định)")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--limit", type=int, default=0, help=">0: chỉ n câu đầu (thử nhanh)")
+    ap.add_argument("--ids-file", default="", help="tệp JSON danh sách id: chỉ chạy các câu này (chạy bù câu còn thiếu)")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--rpm", type=float, default=12.0, help="tổng số request mỗi phút (hạn mức Gemini 15)")
     ap.add_argument("--max-bad", type=int, default=3, help="dừng khi có chừng này lô sai định dạng")
@@ -78,6 +79,9 @@ def main() -> None:
     if args.sample:
         keep = set(pick_sample(list(cases.values()), args.sample, args.seed))
         preds = [p for p in preds if p["id"] in keep]
+    if args.ids_file:
+        keep_ids = set(json.loads(Path(args.ids_file).read_text(encoding="utf-8")))
+        preds = [p for p in preds if p["id"] in keep_ids]
     if args.limit:
         preds = preds[: args.limit]
     store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset))
