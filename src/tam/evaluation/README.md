@@ -7,6 +7,8 @@
 | File | Việc |
 |---|---|
 | `metrics_temporal.py` | `EvalCase`, `cases_from_corpus`, `evaluate_retrieval`, và các hàm đơn: `hit_at_k`, `reciprocal_rank`, `is_future_leak`, `is_invalidated` |
+| `timeline_gold.py` | Cơ chế 2: dựng ô/sự kiện lý tưởng từ chú thích TimeQA, sinh câu hỏi cấu trúc, ngữ cảnh graph (không LLM); xem `docs/eval/08` |
+| `metrics_timeline.py` | Cơ chế 2: độ phủ sự kiện, chấm đầu ra cuối (EM/F1, F1 tập hợp, thứ tự, đúng số) |
 
 Mỗi cơ chế một file metric: `metrics_timeline.py` (coverage, thứ tự, token efficiency) và `metrics_conflict.py` (Evolution vs Falsehood, Temporal Freshness) thêm sau, không sửa file này. Hàm dùng chung sẽ tách ra `metrics.py` khi bắt đầu CC2.
 
