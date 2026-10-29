@@ -158,7 +158,7 @@ Nhận xét:
 
 ### Ngữ cảnh top-5 (Gemini 3.1 flash-lite) — phân tích bổ sung
 
-Số 15 chunk ở trên là mặc định của cấu hình truy xuất (`top_k = 15`), không phải lựa chọn có chủ đích; mọi chỉ số truy xuất ở trên lại đo ở top-5. Chạy lại `test_clean` với **5 chunk** mỗi câu, cùng prompt v1, LLM **Gemini 3.1 flash-lite** (hạn mức ngày của 3.5 đã dùng hết). Đây là phân tích **bổ sung chọn sau khi xem kết quả top-15**, và prompt v1 chưa được kiểm trên `valid` ở top-5 hay với 3.1. Hai bảng khác LLM nên so top-5 với top-15 là lẫn hai yếu tố (số chunk và LLM); phần so cùng LLM (Gemini 3.5) nằm ở mục tiếp theo.
+Số 15 chunk ở trên là mặc định của cấu hình truy xuất (`top_k = 15`), không phải lựa chọn có chủ đích; mọi chỉ số truy xuất ở trên lại đo ở top-5. Chạy lại `test_clean` với **5 chunk** mỗi câu, cùng prompt v1, LLM **Gemini 3.1 flash-lite** (hạn mức ngày của 3.5 đã dùng hết). Đây là phân tích **bổ sung chọn sau khi xem kết quả top-15**, và prompt v1 được chọn trên `valid` ở top-15; kiểm lại ở top-5 nằm ở mục "Chọn prompt trên valid ở top-5" bên dưới. Hai bảng khác LLM nên so top-5 với top-15 là lẫn hai yếu tố (số chunk và LLM); phần so cùng LLM (Gemini 3.5) nằm ở mục tiếp theo.
 
 | Hệ thống (top-5 chunk) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 5 chunk | từ chối dù có trong ngữ cảnh | trả lời dựa chunk tương lai |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -180,7 +180,7 @@ EM theo domain (Temporal / Plain RAG + bge / Plain RAG): business 0.58 / 0.56 / 
 
 Cùng thiết lập với phần 3.1 ở trên (5 chunk mỗi câu, prompt v1) nhưng dùng **Gemini 3.5 flash-lite**, nên so được với top-15 (cùng LLM, cùng prompt). Vẫn là phân tích **bổ sung chọn sau khi xem kết quả top-15**.
 
-**Chọn prompt ở top-5 trên `valid`** (Gemini 3.1; 98 câu chia đều domain, seed 0; Temporal + bge và Plain RAG + bge; 8 lần chạy, 0 lỗi định dạng; `local/results/answers_valid_prompts_k5_g31.txt`): EM Temporal / Plain + bge: v1 0.480 / 0.408, v2 0.480 / 0.398, v3 0.490 / 0.429, v4 0.541 / 0.408. Δ EM so với v1 (ghép cặp, gộp 196 câu): v2 −0.005 ± 0.017, v3 +0.015 ± 0.015, v4 **+0.031 ± 0.023**. Không prompt nào đạt 2 sai số chuẩn nên theo quy tắc đã đặt trước vẫn giữ **v1**. v4 có xu hướng tốt hơn ở cả hai lần chọn trên `valid` (top-15: +0.036 ± 0.027), nhưng cả hai lần đều chưa đủ ngưỡng.
+Prompt: v1 (chọn trên `valid`, xem mục "Chọn prompt trên valid ở top-5" bên dưới).
 
 | Hệ thống (top-5 chunk, Gemini 3.5) | EM | F1 | contains | từ chối | EM khi đã trả lời | đáp án có trong 5 chunk | từ chối dù có trong ngữ cảnh | trả lời dựa chunk tương lai |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -206,7 +206,49 @@ EM theo domain (Temporal / Plain RAG + bge / Plain RAG): business 0.54 / 0.52 / 
 - Từ chối vẫn cao (28,5% ở Temporal), trong đó 81 câu từ chối dù đáp án có trong ngữ cảnh: đây vẫn là điểm yếu chính của prompt v1.
 - Cột "đáp án có trong 5 chunk" trùng với bảng 3.1 vì cùng chunk, chỉ khác LLM. Trả lời dựa chunk tương lai: Temporal 11/286 (3,8%), Plain RAG + bge 20/260 (7,7%), Plain RAG 13/216 (6,0%).
 
-**Việc tiếp theo:** chạy lại test top-5 bằng prompt v4 (xu hướng tốt hơn v1 ở cả hai lần chọn trên `valid`, dù chưa đạt 2 sai số chuẩn) khi hạn mức Gemini 3.5 reset; ghi rõ là chọn sau khi xem kết quả.
+### Chọn prompt trên valid ở top-5
+
+98 câu chia đều domain (seed 0), 2 hệ thống (Temporal Retrieval + bge và Plain RAG + bge), 4 prompt × 2 hệ thống × 25 request cho mỗi LLM. EM (Temporal / Plain RAG + bge) và Δ EM so với v1 (ghép cặp 196 câu, ± một sai số chuẩn):
+
+| LLM | v1 | v2 | v3 | v4 |
+|---|---|---|---|---|
+| Gemini 3.1 flash-lite | .480 / .408 | .480 / .398 | .490 / .429 | .541 / .408 |
+| | nền | −0.005 ± 0.017 | +0.015 ± 0.015 | **+0.031 ± 0.023** |
+| Gemini 3.5 flash-lite | .459 / .388 | .480 / .388 | .469 / .398 | .469 / .378 |
+| | nền | +0.010 ± 0.020 | +0.010 ± 0.018 | +0.000 ± 0.022 |
+| Gemma 4 26B | .459 / .367 | .459 / .408 | .510 / .378 | .469 / .429 |
+| | nền | +0.020 ± 0.018 | +0.031 ± 0.018 | +0.036 ± 0.022 |
+| Gemma 4 31B | .490 / .449 | .520 / .469 | .551 / .480 | .531 / .480 |
+| | nền | +0.026 ± 0.018 | **+0.046 ± 0.017** | +0.036 ± 0.018 |
+
+(Ở top-15 với Gemini 3.5: v2 +0.010 ± 0.028, v3 +0.000 ± 0.019, v4 +0.036 ± 0.027.) Số thô: `local/results/answers_valid_prompts_k5_{g31,g35,g26b,g31b}.txt`.
+
+- **Quy tắc đặt trước** (chỉ đổi khỏi v1 khi hơn từ 2 sai số chuẩn): chỉ v3 trên Gemma 31B vượt ngưỡng (2,7); v4 sát ngưỡng ở Gemma 31B (2,0). Với Gemini 3.1 và 3.5, tức hai LLM dùng cho test, không prompt nào vượt. Giữ **v1** làm prompt chính.
+- **Không nhất quán giữa các LLM:** v4 hơn v1 ở Gemini 3.1 và Gemma nhưng không hơn ở Gemini 3.5 (+0.000 ± 0.022); hiệu hai Δ giữa 3.1 và 3.5 chỉ khoảng 1 sai số chuẩn nên khó nói là khác thật hay chỉ là nhiễu của mẫu 98 câu.
+- v3 và v4 từ chối ít hơn nhưng trả lời sai nhiều hơn v1 khoảng 2 đến 6 điểm phần trăm (ví dụ Gemini 3.5, Temporal: sai 16.3% lên 22.4% với v4).
+
+### Test top-5 với prompt v4 (Gemini 3.5) — chạy thêm
+
+Chạy thêm theo yêu cầu, không phải prompt chọn từ `valid` (prompt chính vẫn là v1). Cùng 3 hệ thống, 400 câu, 0 lô lỗi; so ghép cặp với v1 ở bảng 3.5 phía trên.
+
+| Hệ thống (top-5, Gemini 3.5) | EM v4 | F1 v4 | Từ chối | Trả lời sai | Δ EM so với v1 | Δ F1 so với v1 |
+|---|---:|---:|---:|---:|---:|---:|
+| Plain RAG | 0.385 | 0.453 | 39.3% | 19.5% | +0.025 ± 0.014 | +0.040 ± 0.015 |
+| Plain RAG + bge-reranker-v2-m3 | 0.453 | 0.525 | 26.8% | 25.3% | +0.020 ± 0.017 | +0.031 ± 0.016 |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.512** | **0.597** | 19.3% | 26.0% | +0.013 ± 0.017 | +0.032 ± 0.015 |
+
+Δ giữa các hệ thống với v4: Temporal − Plain RAG EM **+0.128 ± 0.023**, Temporal − Plain RAG + bge EM **+0.060 ± 0.021**; Plain RAG + bge − Plain RAG EM +0.068 ± 0.020 (với v1: +0.140, +0.068, +0.072). Từ chối dù đáp án có trong ngữ cảnh: 51, 56, 57 câu (với v1: 81, 85, 76). Trả lời dựa chunk tương lai: Temporal 15/323, Plain RAG + bge 16/293, Plain RAG 11/243.
+
+v4 tăng nhẹ EM (dưới 2 sai số chuẩn) và F1 (khoảng 2 sai số chuẩn), giảm từ chối 6 đến 9 điểm phần trăm, đổi lại trả lời sai nhiều hơn (Temporal: 18.5% lên 26.0%). Kết luận về khoảng cách giữa các hệ thống không đổi. Số thô: `local/results/answers_test_analysis_k5_g35_v4.txt`, `answers_test_k5_g35_v4_vs_v1.txt`.
+
+### Gemma 4 (valid top-5)
+
+Thử Gemma 4 qua Gemini API để có thêm LLM kiểm tra việc chọn prompt (`google_gemma26` = `gemma-4-26b-a4b-it`, MoE khoảng 4B tham số hoạt động; `google_gemma31` = `gemma-4-31b-it`, dense; profile trong `configs/config.dev.yaml`). Chỉ chạy trên `valid`, không chạy trên test. Kết quả EM ở bảng trên; 31B nhỉnh hơn 26B ở mọi prompt (EM Temporal + bge với v1: 0.490 so với 0.459; với v3: 0.551 so với 0.510).
+
+- **Hạn mức:** 30 request/phút, 16.000 token/phút, 14.400 request/ngày. Giới hạn thật là token/phút: một request 4 câu khoảng 3.050 token (v1) và 3.330 token (v4), nên tối đa khoảng 4 request/phút; 3 request/phút vẫn gặp 429 nhưng cơ chế chờ rồi thử lại vượt qua được (khoảng 8 đến 16 phút mỗi lượt, so với 2 phút của Gemini).
+- **JSON theo schema:** cả hai model trả đúng định dạng `AnswerBatch`, 0 lô sai định dạng.
+- **Lỗi mạng:** `httpx.RemoteProtocolError` / `ReadError` làm sập tiến trình vì không được xếp vào lỗi tạm thời; đã sửa (`_is_transient` nhận `TransportError`, kèm test).
+- **Lỗi riêng của 31B:** một lô 4 câu (Ruud Lubbers, Sarah Bond, Senate of the Kingdom of Italy, Sergio Pérez) luôn trả `500 INTERNAL` khi gộp; chạy riêng từng câu thì qua (4/4), nên v3 trên Temporal + bge của 31B có 4 câu chạy bù bằng 1 câu/request (cờ `--ids-file` của `scripts/generate_answers.py`).
 
 ## 8. Tái lập
 
