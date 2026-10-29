@@ -42,8 +42,8 @@ Bộ data 400 câu của tuần 4 đã được xem kết quả trên hơn 200 c
 |---|---:|---:|---|---|
 | Bộ data 400 câu (tuần 4) | 400 | 204 | tham khảo, cận trên | đã bị chỉnh nhiều |
 | Train (tune) | 595 | 203 | chọn và chỉnh tham số, chọn cross-encoder | có, chỉ ở tập này |
-| Valid | 399 | — | xác nhận các cấu hình đã chọn; chọn giữa các phương pháp | không chỉnh tham số |
-| Test (test_clean) | 400 | — | số cuối của luận văn, chạy **một lần** | không |
+| Valid | 399 | 167 | xác nhận các cấu hình đã chọn; chọn giữa các phương pháp | không chỉnh tham số |
+| Test (test_clean) | 400 | 186 | số cuối của luận văn, chạy **một lần** | không |
 
 - **Train** gồm 400 câu lấy mới và 195 câu của bộ data 400 câu cũ có trang không nằm trong valid hay test (thêm để tập train đủ lớn).
 - **Valid** bỏ 1 câu có nhãn thời gian hỏng (`time_start` chỉ có "18"), còn 399 câu.
