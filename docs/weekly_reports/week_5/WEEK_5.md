@@ -153,30 +153,59 @@ Bước cuối của pipeline: LLM đọc các chunk đã truy xuất rồi tr�
 - **F1:** so theo từng từ, ví dụ trả lời "Markus Anfang was the coach" cho đáp án "Markus Anfang" được F1 = 0.67 (EM = 0).
 - Từ chối (`null`) tính 0 ở cả hai; tỉ lệ từ chối báo riêng.
 
-**Cách làm.** Mỗi request Gemini 3.5 flash-lite chứa 4 câu độc lập (kèm 5 chunk mỗi câu, cùng số chunk với các chỉ số truy xuất ở trên) và trả về JSON. Chọn prompt trên tập valid (98 câu chia đều theo domain, 4 phiên bản, 2 hệ thống): không phiên bản nào hơn bản đơn giản nhất (v1) từ 2 sai số chuẩn trở lên nên dùng v1. Sau đó chạy một lần trên tập test với 3 hệ thống, 400 câu mỗi hệ thống, 0 lô sai định dạng. Chi tiết: [`eval/07`](../../eval/07_TUNE_VALID_RESULTS.md) mục 7, các phiên bản prompt: [`decisions/03`](../../decisions/03_PROMPT_CHANGELOG.md).
+**Cách làm.** Mỗi request chứa 4 câu độc lập, mỗi câu kèm 5 chunk (cùng top-5 với các chỉ số truy xuất), LLM trả về JSON. Bốn phiên bản prompt, chi tiết ở [`decisions/03`](../../decisions/03_PROMPT_CHANGELOG.md):
 
-| Hệ thống (top-5 chunk) | EM | F1 | Từ chối | Đáp án có trong 5 chunk |
+| Prompt | Nội dung |
+|---|---|
+| v1 | chỉ đưa văn bản chunk; từ chối nếu không có đáp án |
+| v2 | v1 + khoảng thời gian `(start – end)` của từng chunk |
+| v3 | v1, nới điều kiện từ chối |
+| v4 | v2, nới điều kiện từ chối |
+
+### 4.1. Chọn prompt trên tập valid
+
+98 câu chia đều theo domain, 2 hệ thống (Temporal Retrieval + bge và Plain RAG + bge), top-5. Bảng dưới là EM (Temporal / Plain RAG + bge) và Δ EM so với v1 (ghép cặp 196 câu, ± một sai số chuẩn):
+
+| Prompt | Gemini 3.1: EM | Δ EM | Gemini 3.5: EM | Δ EM |
 |---|---|---|---|---|
-| Plain RAG | 0.360 | 0.414 | 46.0% | 68.5% |
-| Plain RAG + bge-reranker-v2-m3 | 0.432 | 0.494 | 35.0% | 83.3% |
-| **Temporal Retrieval + bge-reranker-v2-m3** | **0.500** | **0.564** | 28.5% | 89.2% |
+| v1 | 0.480 / 0.408 | nền | 0.459 / 0.388 | nền |
+| v2 | 0.480 / 0.398 | −0.005 ± 0.017 | 0.480 / 0.388 | +0.010 ± 0.020 |
+| v3 | 0.490 / 0.429 | +0.015 ± 0.015 | 0.469 / 0.398 | +0.010 ± 0.018 |
+| v4 | 0.541 / 0.408 | **+0.031 ± 0.023** | 0.469 / 0.378 | +0.000 ± 0.022 |
 
-Temporal Retrieval + bge-reranker-v2-m3 hơn Plain RAG **+0.140 EM** (± 0.023) và hơn Plain RAG + bge-reranker-v2-m3 **+0.068 EM** (± 0.020, khoảng 3 sai số chuẩn).
+Không prompt nào hơn v1 từ 2 sai số chuẩn trở lên. v4 là prompt duy nhất tăng EM ở Gemini 3.1 (hơn v2 và v3), nhưng ở Gemini 3.5 không hơn v1. v1 là bản đơn giản nhất nên làm prompt chính; v4 được test thêm để so sánh.
+
+### 4.2. Kết quả trên tập test (Gemini 3.5, top-5, 400 câu)
+
+| Hệ thống | EM v1 | EM v4 | F1 v1 | F1 v4 | Từ chối v1 | Từ chối v4 |
+|---|---|---|---|---|---|---|
+| Plain RAG | 0.360 | 0.385 | 0.414 | 0.453 | 46.0% | 39.3% |
+| Plain RAG + bge-reranker-v2-m3 | 0.432 | 0.453 | 0.494 | 0.525 | 35.0% | 26.8% |
+| **Temporal Retrieval + bge-reranker-v2-m3** | **0.500** | **0.512** | **0.564** | **0.597** | 28.5% | 19.3% |
+
+Temporal Retrieval hơn Plain RAG và Plain RAG + bge ở cả hai prompt:
+
+| Prompt | Temporal − Plain RAG (EM) | Temporal − Plain RAG + bge (EM) |
+|---|---|---|
+| v1 | +0.140 ± 0.023 | +0.068 ± 0.020 |
+| v4 | +0.128 ± 0.023 | +0.060 ± 0.021 |
+
+v4 so với v1 (ghép cặp): EM tăng +0.013 đến +0.025 (± 0.014 đến 0.017, chưa phân biệt được), F1 tăng +0.031 đến +0.040 (khoảng 2 sai số chuẩn). v4 từ chối ít hơn nhưng trả lời sai nhiều hơn (Temporal: 18.5% lên 26.0%).
 
 Nhận xét:
-- **Ngữ cảnh ngắn làm lộ lợi thế của truy xuất theo thời gian:** chỉ 68,5% câu của Plain RAG còn đáp án trong 5 chunk, so với 89,2% của Temporal Retrieval. LLM không thể trả lời đúng khi đáp án không nằm trong ngữ cảnh (EM khi đáp án không có trong ngữ cảnh gần như bằng 0).
-- **Cross-encoder cũng có ích:** Plain RAG + bge hơn Plain RAG +0.072 EM (± 0.021).
-- **Nút thắt là bước sinh đáp án:** LLM từ chối 28,5% đến 46% câu, trong đó 76 đến 85 câu (khoảng 20% tổng số câu) từ chối dù đáp án có trong ngữ cảnh (ngày trong chunk không khớp từng chữ với câu hỏi). Nới điều kiện từ chối ở tập valid chỉ chuyển câu từ "từ chối" sang "trả lời sai".
-- Khoảng 4% (Temporal) đến 8% (Plain RAG + bge) câu đã trả lời dựa vào chunk có nội dung sau thời điểm hỏi.
-- Theo domain, Temporal Retrieval hơn rõ ở career (0.42 so với 0.24 đến 0.36) và sports (0.64 so với 0.28 đến 0.40); không hơn ở place và politics (mỗi domain 50 câu nên chỉ để tham khảo).
+- **Kết luận chính không phụ thuộc prompt:** Temporal Retrieval hơn Plain RAG khoảng +0.13 EM và hơn Plain RAG + bge khoảng +0.06 EM.
+- **Ngữ cảnh ngắn làm lộ lợi thế của truy xuất theo thời gian:** chỉ 68,5% câu của Plain RAG còn đáp án trong 5 chunk, so với 89,2% của Temporal Retrieval; khi đáp án không có trong ngữ cảnh, EM gần bằng 0.
+- **Cross-encoder cũng có ích:** Plain RAG + bge hơn Plain RAG +0.07 EM.
+- **Nút thắt là bước sinh đáp án:** với v1, 76 đến 85 câu (khoảng 20%) bị từ chối dù đáp án có trong ngữ cảnh; v4 giảm xuống 51 đến 57 câu.
+- Khoảng 4% (Temporal) đến 8% (Plain RAG + bge) câu trả lời dựa vào chunk có nội dung sau thời điểm hỏi.
 
 ---
 
 ## 5. Hạn chế và việc tiếp theo
 
-- Prompt sinh đáp án chọn trên 98 câu valid nên chỉ phân biệt được khác biệt lớn; LLM từ chối quá nhiều dù đáp án có trong ngữ cảnh. Kết quả EM/F1 chỉ dùng một prompt và một LLM.
+- Prompt sinh đáp án chọn trên 98 câu valid nên chỉ phân biệt được khác biệt lớn; LLM từ chối quá nhiều dù đáp án có trong ngữ cảnh. Kết quả test EM/F1 chỉ dùng một LLM (Gemini 3.5).
 - `ans_valid@5` mới khoảng 0.70: khoảng 30% câu chưa có chunk vừa chứa đáp án vừa hợp lệ về thời gian trong top-5.
 - Cross-encoder chạy sau lọc cứng thời gian nên không cứu được các câu bị lọc cứng loại nhầm.
 - Chỉ test trên TimeQA và câu hỏi tại một thời điểm; chưa test Timeline Summarization hay Conflict Resolution.
 - Ablation "bỏ điểm thời gian" vẫn giữ lọc cứng; trường hợp không có lọc cứng được đại diện bởi Plain RAG.
-- Việc tiếp theo: chạy lại test với prompt v4 (xu hướng tốt hơn v1 nhưng chưa đạt 2 sai số chuẩn), cải thiện prompt để giảm từ chối, rồi chuyển sang các cơ chế còn lại.
+- Việc tiếp theo: cải thiện prompt để giảm từ chối mà không tăng trả lời sai, rồi chuyển sang các cơ chế còn lại.
