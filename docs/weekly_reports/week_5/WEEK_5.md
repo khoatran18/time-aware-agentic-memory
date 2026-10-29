@@ -56,7 +56,19 @@ Bộ data 400 câu của tuần 4 đã được xem kết quả trên hơn 200 c
 
 ### 2.1. Chạy lại 888 cấu hình cũ
 
-Gom toàn bộ cấu hình đã chạy ở tuần 4 (đã bỏ cấu hình trùng): 888 cấu hình, gồm 650 cấu hình Temporal Retrieval không cross-encoder, các cấu hình dùng cross-encoder và 81 cấu hình Plain RAG. Chạy lại cả 888 trên tập train, chọn đa dạng khoảng 50 cấu hình tốt (top theo `mrr` và top từng họ cross-encoder, kể cả Plain RAG) rồi chạy trên valid (56 cấu hình).
+**888 cấu hình** là toàn bộ các lần chạy end-to-end ở tuần 4 (đã bỏ cấu hình trùng), mỗi cấu hình là một tổ hợp (phương pháp truy xuất, cross-encoder, tham số xếp hạng):
+
+| Chiều | Các giá trị đã thử trong 888 cấu hình |
+|---|---|
+| Phương pháp | 807 Temporal Retrieval (kể cả 8 cấu hình thêm điểm theo facet, 2 theo domain, 4 bỏ hẳn lọc thời gian); 81 Plain RAG (62 dense, 18 hybrid dense + BM25, 1 BM25) |
+| Cross-encoder | 650 cấu hình không có; 77 MiniLM-L6; 77 MiniLM-L12; 50 bge-reranker-v2-m3; 28 jina-reranker-v1-turbo; 6 bge-reranker-base |
+| Cách tính thời gian | `time_mode` `point` (một điểm) hoặc `range` (khoảng, giao nhau `binary` hoặc theo độ phủ `coverage`); `end_mode` (`unknown_decay`, `decay`, `stored`, `open`) và `open_decay`, `t_unknown` (0 đến 0.7); `decay_from` (`start`, `end`); `w2` (0, 0.15, 0.3) |
+| Cách đưa cho cross-encoder | `rerank_top` (10, 20, 30, 50); `rerank_mode` (`replace`, `mix`); `rerank_pool`, `rerank_time`, chuẩn hóa điểm |
+| Mở rộng ngữ cảnh | `neighbor_window` (0 đến 5 chunk lân cận), `page_expand` (không, theo thời gian, cả trang) |
+
+Trong 888 cấu hình, `decay_lambda` luôn là 0.5 và `top_n` luôn là 50; hai tham số này được quét lần đầu ở mục 2.2.
+
+Chạy lại cả 888 trên tập train. Sau đó chọn đa dạng **51 cấu hình** để chạy trên valid, tránh 40 biến thể gần giống nhau: 20 cấu hình `mrr` cao nhất, cộng 5 cấu hình `mrr` cao nhất của mỗi họ (không cross-encoder, và từng cross-encoder), cộng 3 Plain RAG và 3 Plain RAG + cross-encoder để đối chứng; bỏ trùng. Thêm 5 cấu hình chạy bù sau khi sửa lỗi 23 cấu hình bị lỗi tham số lúc chạy lần đầu, tổng **56 cấu hình trên valid**.
 
 **Cross-encoder** là mô hình chấm lại điểm: nhận từng cặp (câu hỏi, chunk) và cho điểm mức khớp, chính xác hơn so sánh embedding riêng lẻ nhưng chậm hơn. Ví dụ với câu "Who coached 1. FC Köln in 2018?", cross-encoder đọc cả câu hỏi lẫn từng chunk trong top-20 rồi xếp lại.
 
@@ -69,17 +81,17 @@ Cấu hình tốt nhất của mỗi họ trên train, đo trên valid (Δ so v�
 | + MiniLM-L6 | 0.586 | 0.557 | 0.748 | 0.668 | 0% | +0.046 ± 0.010 |
 | + bge-reranker-base | 0.560 | 0.524 | 0.748 | 0.675 | 0% | +0.014 ± 0.012 |
 | + jina-reranker-v1-turbo | 0.556 | 0.520 | 0.730 | 0.675 | 0% | +0.009 ± 0.009 |
-| Temporal Retrieval, không cross-encoder | 0.549 | 0.511 | 0.718 | 0.668 | 0% | (nền) |
+| Temporal Retrieval, không cross-encoder | 0.549 | 0.511 | 0.718 | 0.668 | 0% | (Baseline) |
 | Plain RAG + bge-reranker-v2-m3 | 0.527 | 0.437 | 0.670 | 0.531 | 87% | −0.074 ± 0.020 |
 | Plain RAG | 0.422 | 0.332 | 0.569 | 0.458 | 95% | −0.179 ± 0.018 |
 
 - Thứ hạng giữa các họ giữ nguyên từ train sang valid; `mrr` thấp hơn khoảng 0.05 đến 0.09 ở mọi họ.
-- Ba cross-encoder đầu (bge-reranker-v2-m3, MiniLM-L12, MiniLM-L6) cho thêm khoảng +0.05 `mrr` so với nền; bge-reranker-base và jina không hơn nền một cách đáng tin.
+- Ba cross-encoder đầu (bge-reranker-v2-m3, MiniLM-L12, MiniLM-L6) cho thêm khoảng +0.05 `mrr` so với Baseline; bge-reranker-base và jina không hơn nền một cách đáng tin.
 - Plain RAG rò rỉ 87 đến 95% câu trả lời từ chunk tương lai, kể cả khi thêm cross-encoder.
 
 ### 2.2. Quét tham số
 
-**Quét tham số** là thử nhiều tổ hợp giá trị của các tham số điều khiển cách xếp hạng, rồi giữ tổ hợp cho `mrr` cao nhất trên train. Với mỗi họ cross-encoder (MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3) chạy 80 cấu hình = 1 **cấu hình xuất phát** (cấu hình tốt nhất của họ đó trong 888 cấu hình cũ, tức kết quả "trước khi quét") và 79 tổ hợp bốc ngẫu nhiên. Tổng 240 cấu hình. Các tham số được quét:
+**Quét tham số** là thử nhiều tổ hợp giá trị của các tham số điều khiển cách xếp hạng, rồi giữ tổ hợp cho `mrr` cao nhất trên train. Quét **không chạy trên 51 cấu hình ở mục 2.1** (51 cấu hình đó chỉ để kiểm trên valid). Với mỗi họ cross-encoder (MiniLM-L6, MiniLM-L12, bge-reranker-v2-m3) chạy 80 cấu hình trên tập train: 1 **cấu hình xuất phát** (cấu hình có `mrr` train cao nhất của họ đó trong 888 cấu hình cũ, tức kết quả "trước khi quét") và 79 tổ hợp bốc ngẫu nhiên từ các giá trị dưới đây (các tham số khác giữ như cấu hình xuất phát). Tổng 240 cấu hình; chọn cấu hình tốt nhất của mỗi họ theo `mrr` train, rồi mới đo trên valid. Các tham số được quét:
 
 | Tham số | Ý nghĩa | Giá trị thử |
 |---|---|---|
@@ -113,12 +125,12 @@ Chạy một lần 28 cấu hình trên 400 câu của tập test, danh sách ch
 
 | Hệ thống | `mrr` | `hit@1` | `hit@5` | `ans_valid@5` | `leakage_rate` | Δ so với Plain RAG | Δ so với Temporal Retrieval không cross-encoder |
 |---|---|---|---|---|---|---|---|
-| Plain RAG | 0.336 | 0.158 | 0.573 | 0.460 | 89% | (nền) | −0.181 ± 0.017 |
+| Plain RAG | 0.336 | 0.158 | 0.573 | 0.460 | 89% | (Baseline) | −0.181 ± 0.017 |
 | Plain RAG hybrid (dense + BM25) | 0.352 | 0.200 | 0.507 | 0.425 | 88% | +0.016 ± 0.013 | −0.164 ± 0.019 |
 | Plain RAG + MiniLM-L6 | 0.443 | 0.270 | 0.677 | 0.532 | 89% | +0.107 ± 0.016 | −0.073 ± 0.021 |
 | Plain RAG + MiniLM-L12 | 0.452 | 0.282 | 0.685 | 0.530 | 90% | +0.117 ± 0.015 | −0.064 ± 0.020 |
 | Plain RAG + bge-reranker-v2-m3 | 0.490 | 0.300 | 0.745 | 0.578 | 88% | +0.154 ± 0.016 | −0.027 ± 0.021 |
-| Temporal Retrieval, không cross-encoder | 0.516 | 0.352 | 0.725 | 0.657 | 0% | +0.181 ± 0.017 | (nền) |
+| Temporal Retrieval, không cross-encoder | 0.516 | 0.352 | 0.725 | 0.657 | 0% | +0.181 ± 0.017 | (Baseline) |
 | Temporal Retrieval + MiniLM-L6 | 0.558 | 0.405 | 0.767 | 0.677 | 0% | +0.222 ± 0.018 | +0.042 ± 0.014 |
 | Temporal Retrieval + MiniLM-L12 | 0.563 | 0.395 | 0.802 | 0.680 | 0% | +0.227 ± 0.018 | +0.047 ± 0.016 |
 | **Temporal Retrieval + bge-reranker-v2-m3** | **0.620** | **0.468** | **0.828** | **0.695** | **0%** | **+0.285 ± 0.018** | **+0.104 ± 0.016** |
@@ -137,8 +149,12 @@ Mỗi dòng bỏ **một** thành phần khỏi cấu hình đầy đủ, giữ 
 | (cấu hình đầy đủ) | 0.516 | 0.558 | 0.563 | 0.620 |
 | điểm thời gian (`W2 = 0`, vẫn giữ lọc cứng `start ≤ T_req`) | 0.398 | 0.486 | 0.482 | 0.537 |
 | giảm điểm khi chunk hết hạn (`decay_lambda = 0`) | 0.419 | 0.484 | 0.489 | 0.548 |
-| xử lý `end_time` chưa rõ (`end_mode` về `stored`) | 0.506 | 0.556 | 0.556 | 0.618 |
-| đổi `point` sang `range` (hoặc ngược lại) | 0.518 | 0.568 | 0.561 | 0.612 |
+| cách chấm chunk chưa rõ ngày kết thúc (`end_mode` về `stored`) | 0.506 | 0.556 | 0.556 | 0.618 |
+| cách hiểu thời điểm hỏi: một điểm (`point`) ↔ một khoảng (`range`) | 0.518 | 0.568 | 0.561 | 0.612 |
+
+Hai dòng cuối cần giải thích:
+- **`end_mode` về `stored`:** chunk chưa rõ ngày kết thúc (`end_status` là `ongoing` hoặc `unknown`) bị chấm theo `end_time` đã lưu trong kho, không có cách xử lý riêng. Cấu hình đầy đủ có xử lý: `unknown_decay` (chỉ chunk `unknown` bị giảm điểm theo khoảng cách từ `start` đến thời điểm hỏi, `ongoing` giữ 1.0; cột không cross-encoder, MiniLM-L6 và MiniLM-L12) hoặc `decay` (cả `ongoing` và `unknown` giảm nhẹ; cột bge-reranker-v2-m3).
+- **`point` ↔ `range`:** chỉ đổi sang cách còn lại so với cấu hình đầy đủ của từng cột, không phải cả hai chiều trong cùng một cột. Cột không cross-encoder dùng `point` nên bản bỏ là `range`; ba cột cross-encoder dùng `range` (L6, L12: độ phủ `coverage`; bge: giao nhau `binary`) nên bản bỏ là `point`.
 
 - Hai thành phần đóng góp nhiều nhất ngoài lọc cứng là **điểm thời gian** (bỏ đi giảm 0.08 đến 0.12 `mrr`) và **giảm điểm khi chunk hết hạn** (giảm 0.07 đến 0.10).
 - Xử lý `end_time` chưa rõ và chọn `point`/`range` gần như không tác động trên tập này (chênh dưới 0.01 với cross-encoder).
@@ -168,7 +184,7 @@ Bước cuối của pipeline: LLM đọc các chunk đã truy xuất rồi tr�
 
 | Prompt | Gemini 3.1: EM | Δ EM | Gemini 3.5: EM | Δ EM |
 |---|---|---|---|---|
-| v1 | 0.480 / 0.408 | nền | 0.459 / 0.388 | nền |
+| v1 | 0.480 / 0.408 | Baseline | 0.459 / 0.388 | Baseline |
 | v2 | 0.480 / 0.398 | −0.005 ± 0.017 | 0.480 / 0.388 | +0.010 ± 0.020 |
 | v3 | 0.490 / 0.429 | +0.015 ± 0.015 | 0.469 / 0.398 | +0.010 ± 0.018 |
 | v4 | 0.541 / 0.408 | **+0.031 ± 0.023** | 0.469 / 0.378 | +0.000 ± 0.022 |
