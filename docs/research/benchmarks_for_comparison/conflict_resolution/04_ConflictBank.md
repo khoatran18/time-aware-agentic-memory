@@ -116,7 +116,7 @@ Các số trên lấy từ bản HTML arXiv qua công cụ tóm tắt; nên đ�
 - Mốc tương lai bịa khiến bộ lọc chống rò rỉ tương lai `start_time <= T_req` của đồ án có thể loại luôn evidence "mới" nếu `T_req` là hiện tại; cần đặt `T_req` sau mốc đó hoặc bỏ nhãn tương lai, nếu không kết quả bị bóp méo.
 - Không đo Falsehood thật, không đo đa nguồn.
 
-**Benchmark liên quan (nhắc ngắn):** WikiContradict (IBM, NeurIPS 2024, arXiv 2406.13805) có 253 mẫu do người gán nhãn từ các đoạn Wikipedia mâu thuẫn thật, nhỏ và thật hơn ConflictBank nhưng không đặc thù thời gian; tôi chỉ xác minh qua tóm tắt tìm kiếm. Benchmark "Conflicts" của Google (2025): **chưa kiểm**, không tìm thấy khi tra cứu.
+**Benchmark liên quan (nhắc ngắn):** WikiContradict (IBM, NeurIPS 2024, arXiv 2406.13805) có 253 mẫu do người gán nhãn từ các đoạn Wikipedia mâu thuẫn thật, nhỏ và thật hơn ConflictBank nhưng không đặc thù thời gian; tôi chỉ xác minh qua tóm tắt tìm kiếm. Benchmark "Conflicts" của Google (2025) đã tìm thấy sau đó, xem [`11_Conflicts_Cattan`](11_Conflicts_Cattan.md).
 
 ## 7. Chỗ chưa xác nhận
 
@@ -124,5 +124,5 @@ Các số trên lấy từ bản HTML arXiv qua công cụ tóm tắt; nên đ�
 - Lý do chênh số dòng giữa Hub và paper; sự khác nhau giữa "LLaMA3 7B" và 8B.
 - Cách `generate_conflicts.py` chọn mốc thời gian và liệu có mẫu temporal nào dùng mốc quá khứ thật; chưa đọc code.
 - Có xem được phân bố relation trong phần temporal để biết P54/P39/P108/P488 có đủ mẫu hay không; chưa kiểm.
-- Bài 2026 nhận xét khoảng trống "tham số vs nguồn ngoài" và benchmark "Conflicts" của Google 2025: chưa tìm thấy.
+- Bài 2026 nhận xét khoảng trống "tham số vs nguồn ngoài": chưa tìm thấy. Benchmark "Conflicts" của Google 2025 xem `11`.
 - Các số ở mục 4 chưa đối chiếu với bảng gốc trong PDF (công cụ không đọc được PDF nén).

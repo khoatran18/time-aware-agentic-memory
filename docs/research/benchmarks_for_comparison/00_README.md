@@ -37,11 +37,27 @@
 | [`07_HoH`](conflict_resolution/07_HoH.md) | HoH (ảnh hưởng của thông tin lỗi thời lên RAG, snapshot Wikipedia theo tháng) | khoảng 96K cặp QA; tập đánh giá 10,000 câu | Perfect / Missing / Harmful (LLM chấm), hit@k | Có | Apache-2.0; chưa rõ có toàn văn các phiên bản bài hay chỉ câu evidence |
 | [`08_RECON`](conflict_resolution/08_RECON.md) | RECON (hồ sơ dài: truyền lan vô hiệu hóa, xung đột nguồn) | 24 hồ sơ, 1,604 câu | Strict Accuracy, phân tích coverage | Có (Mem0, Mem0-Graph, long-context, RAG; tốt nhất 22.4%) | **Chưa công khai** (repo ẩn danh, chỉ hứa phát hành) |
 
+### Cơ chế 3 (tiếp): xung đột về NGUỒN và độ tin cậy
+
+Chỉ giữ bộ có dữ liệu công khai (đã kiểm bằng API Hugging Face/GitHub ngày 2026-10-31). Thêm sau câu hỏi "có bộ nào có xung đột nguồn không". Ba cột cuối trả lời thẳng: nhãn uy tín từng nguồn, tải được, có trục thời gian.
+
+| File | Bộ dữ liệu | Quy mô | Nhãn uy tín nguồn | Tải được? | Thời gian |
+|---|---|---|---|---|---|
+| [`09_CONFACT`](conflict_resolution/09_CONFACT.md) | CONFACT (claim fact-checking, bằng chứng mâu thuẫn từ nguồn có mức uy tín khác nhau) | ModC 611 + HumC 287 claim yes/no, lệch lớp khoảng 80% "No" | **Có** (MBFC, bổ sung bằng nhãn LLM và điểm người 1 đến 5), tĩnh | GitHub `zoeyyes/CONFACT`, có sẵn `data/dataset/` (HumC 27 MB, ModC 55 MB, file MBFC); giấy phép dữ liệu chưa nêu | Chỉ ngày ở mức claim |
+| [`10_RAMDocs`](conflict_resolution/10_RAMDocs.md) | RAMDocs (ambiguity + misinformation + noise) | 500 truy vấn, khoảng 5.5 tài liệu/truy vấn | Không (chỉ nhãn đúng/sai/nhiễu) | HF `HanNight/RAMDocs`; mã MIT | Không |
+| [`11_Conflicts_Cattan`](conflict_resolution/11_Conflicts_Cattan.md) | "Conflicts" (Google, 5 loại xung đột, tài liệu Google Search thật) | 458 câu; Freshness 62, Misinformation chỉ 5 | Không (nhãn ở mức câu hỏi) | GitHub `google-research-datasets/rag_conflicts` (đã archive), `conflicts.jsonl` 46.7 MB, có LICENSE | Chỉ loại Freshness |
+| [`12_CAG_CAGB`](conflict_resolution/12_CAG_CAGB.md) | CAGB (generation có nhận biết credibility; có tập EvolvingTempQA và NewsPollutedQA) | 7 tập, vài trăm đến 948 mẫu mỗi tập | Có nhưng **tự động, 3 mức, gộp với độ mới**; tin giả do LLM sinh | GitHub `panruotong/CAG`, HF `ruotong-pan/CAGB`, MIT; HF liệt kê file dữ liệu, không gated | Có, trộn vào nhãn |
+| [`13_RAGuard`](conflict_resolution/13_RAGuard.md) | RAGuard (claim PolitiFact + 16,331 bài Reddit) | 2,648 claim | Không (toàn Reddit; nhãn tài liệu do GPT-4 gán theo hành vi mô hình) | HF `UCSC-IRKM/RAGuard`; giấy phép dữ liệu chưa rõ | Không |
+| [`14_WikiContradict`](conflict_resolution/14_WikiContradict.md) | WikiContradict (mâu thuẫn thật trong Wikipedia, cùng nguồn) | 253 instance | Không (cùng nguồn, cùng độ tin cậy) | HF `ibm/Wikipedia_contradict_benchmark`, MIT | Không tách riêng |
+| [`15_NatConfQA`](conflict_resolution/15_NatConfQA.md) | NatConfQA (cặp đáp án mâu thuẫn, dựng từ climate-fever và HealthVer) | 677 instance (269 xung đột) | Không | GitHub `EN555/ContraQA`, có sẵn `raw_data/` và `data/v1.0`; bài hứa CC BY 4.0 | Không |
+
 ## Bao phủ và chỗ hở
 
 - **Cơ chế 1: tốt.** Có bốn lựa chọn, trong đó ba bộ dựa trên TimeQA/SituatedQA mà đồ án đã dùng. **TempRAGEval** và **TEMPO** là hai bộ có nhãn chunk gold nên đo được kiểu `hit@k`/`mrr` của đồ án; DyG-RAG chỉ so được EM/F1.
 - **Cơ chế 2: yếu nhất.** Chưa có bộ nào đúng nghĩa "lịch sử một thực thể, nén gọn". ECT-QA và ADQAB là miền tài chính (một phần do LLM sinh), TLQA lấy đáp án từ infobox có cấu trúc nên dựng graph sẽ quá dễ, TDBench đo LLM đóng sách. Bộ `timeline_gold` tự dựng từ TimeQA (`docs/eval/08_TIMELINE_EVAL_DESIGN.md`) vẫn là bộ chính; các bộ này làm bộ phụ.
 - **Cơ chế 3: nhiều lựa chọn hơn nhưng mỗi bộ có điểm yếu riêng.** FactConsolidation là fact phản thực, LongMemEval là hội thoại, ConflictBank do LLM sinh với mốc tương lai bịa, VersionQA là phiên bản phần mềm. Ba bộ mới dựa trên Wikipedia thay đổi thật: **HoH** (snapshot theo tháng, gold chứa đáp án, nhưng chủ yếu hỏi giá trị hiện tại), **EvoWiki** (ba snapshot Wikidata; nhãn gold không đảm bảo chứa đáp án; mã chưa phát hành), **FRESCO** (bản sửa Wikipedia, nhưng chỉ đo re-ranker với truy vấn "mới nhất"). **RECON** có nhóm truyền lan vô hiệu hóa và xung đột nguồn, nhưng chưa công khai. Mỗi bộ chỉ chạm một phần; chưa bộ nào đo `end_time` (Evolution) cùng `invalidated_at` (Falsehood) như thiết kế.
+- **Xung đột về nguồn (credibility): vẫn hở.** Trong 7 bộ vừa tìm (đã có dữ liệu công khai; RA-RAG bị loại vì không có dữ liệu để tải), chỉ **CONFACT** có nhãn uy tín nguồn thật (MBFC), nhưng là yes/no về claim fact-checking, nhãn tĩnh, bằng chứng gần như không có thời gian, và lệch lớp (đáp "No" luôn đã được khoảng 80%). **CAGB** có nhãn nhưng tự động 3 mức, gộp độ mới và độ liên quan. Các bộ còn lại (RAMDocs, Conflicts, RAGuard, WikiContradict, NatConfQA) chỉ có nhãn đúng/sai hoặc loại xung đột, không có uy tín từng nguồn. Nghĩa là quyết định bỏ nhánh đa nguồn ở `docs/decisions/09` vẫn đứng được, nhưng lý do "không có benchmark công khai" nên viết lại thành "chỉ có CONFACT dùng được, ở dạng thí nghiệm phụ".
+- **Phát hiện phụ từ nhóm này:** Conflicts của Google có thêm hai loại xung đột (Complementary, Conflicting opinions) mà thiết kế chưa có cơ chế; CONFACT cho thấy lọc cứng theo credibility có thể tệ hơn dùng làm trọng số mềm, nên nếu khôi phục `credibility_score` thì dùng như `W·Credibility` mềm chứ không lọc cứng. Cả hai chỉ là gợi ý, chưa thử, và chưa sửa `docs/design/`.
 - **Không bộ nào đo `leakage_rate`** (chunk của tương lai lọt vào kết quả) và `invalidated_at` / Falsehood. Hai chỉ số này chỉ đánh giá được trên bộ tự dựng của đồ án.
 
 ## Đề xuất dùng (mỗi cơ chế nhiều bộ)
@@ -50,16 +66,19 @@
 |---|---|---|
 | 1 | TempRAGEval (đo `hit@k` trên chunk gold), DyG-RAG/TimeQA (EM/F1) | TEMPO (kiểm tổng quát hóa), LongMemEval phần `temporal-reasoning`, TIDE (nếu xử lý được tiếng Bengali và lịch Bangla) |
 | 2 | `timeline_gold` tự dựng | ECT-QA (cập nhật tăng dần), TLQA, ADQAB, TDBench |
-| 3 | HoH (Wikipedia thật, gold chứa đáp án), FactConsolidation (một bước), LongMemEval phần `knowledge-update` | FRESCO (kiểm cross-encoder), VersionQA, EvoWiki (khi có mã), RECON (khi công khai), ConflictBank (lấy mẫu phần temporal) |
+| 3 (thời gian) | HoH (Wikipedia thật, gold chứa đáp án), FactConsolidation (một bước), LongMemEval phần `knowledge-update` | FRESCO (kiểm cross-encoder), VersionQA, EvoWiki (khi có mã), RECON (khi công khai), ConflictBank (lấy mẫu phần temporal) |
+| 3 (nguồn, chỉ nếu khôi phục `credibility_score`) | CONFACT (phần HumC, báo F1 chứ không chỉ Acc) | Conflicts phần Freshness và No conflict, RAMDocs, RAGuard (tập con có tài liệu gây hiểu lầm), WikiContradict, NatConfQA, CAGB |
 
 Mọi so sánh nên **chạy lại baseline của chính đồ án** (Plain RAG, vector top-k) cùng LLM và cùng chunk, thay vì đặt cạnh số công bố, vì các bài dùng LLM, embedding và giao thức chấm khác nhau.
 
 ## Cách đọc độ tin cậy
 
+- Nhóm xung đột nguồn (`09` đến `15`): các file này được các agent viết từ HTML/README, **chưa tải dữ liệu của bộ nào**; PDF không trích được chữ ở CONFACT, CAGB, RAGuard. Tên "CrEval" lúc giao việc là mình nhớ nhầm, đúng là CAGB.
+
 - Các ghi chú được viết từ bản HTML của arXiv, README GitHub và Hugging Face; phần lớn **chưa đối chiếu với bản PDF**. Số baseline đều do chính các bài tự báo cáo.
 - Mục 7 của mỗi file liệt kê chỗ chưa xác nhận. Những điểm quan trọng nhất:
   - Dữ liệu có thực sự tải và chạy được không: DyG-RAG (bộ con 2,613 câu), VersionQA, ECT-QA (số câu thật 1,005 hay 1,105: ba cách chia trong bài đều cộng ra 1,005), TempRAGEval (chưa mở CSV nên chưa rõ tên cột).
-  - Giấy phép dữ liệu: mâu thuẫn hoặc chưa rõ ở TempRAGEval, TEMPO, ECT-QA, ADQAB, ConflictBank, EvoWiki, RECON; FRESCO là CC-BY-NC.
+  - Giấy phép dữ liệu: mâu thuẫn hoặc chưa rõ ở TempRAGEval, TEMPO, ECT-QA, ADQAB, ConflictBank, EvoWiki, RECON, CONFACT, RAGuard, Conflicts, NatConfQA; FRESCO là CC-BY-NC.
   - **Nhãn gold có chứa đáp án không**: HoH có (passage Relevant chứa đáp án đúng); EvoWiki và FRESCO **không đảm bảo** (distant supervision và khớp infobox); TempRAGEval, TEMPO, TIDE chưa chắc (xem mục 2 và 7 từng file). Cần đo tỉ lệ này ngay trên dữ liệu thật trước khi báo `hit@k`.
   - **Ngôn ngữ**: TIDE là Bangla-English code-mixed; mọi bộ khác dự kiến là tiếng Anh (phần lớn bài không nêu rõ).
   - FRESCO chỉ có truy vấn "mới nhất" nên không kiểm được chống rò rỉ tương lai; không có bge-reranker-v2-m3 hay MiniLM trong 19 re-ranker công bố, phải tự chạy.
