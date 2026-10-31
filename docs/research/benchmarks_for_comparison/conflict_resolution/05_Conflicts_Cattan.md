@@ -122,7 +122,7 @@ Các số chép từ bản HTML qua công cụ tóm tắt, chưa đối chiếu 
 - Ngày (`date`) của kết quả search có thể là ngày xuất bản chứ không phải ngày hiệu lực của sự kiện, trái nguyên tắc mốc thời gian theo thời điểm sự kiện của `09`.
 - Nhãn xung đột ở mức câu hỏi nên không đánh giá được chính xác chunk nào bị đóng.
 
-**Quan hệ với benchmark khác trong thư mục:** ConflictBank (04) lớn nhưng tổng hợp và đo xung đột tham số vs bằng chứng; Conflicts nhỏ, thật, đo xung đột giữa các nguồn truy xuất. Hai bài bổ sung nhau, nhưng đều không đo Evolution vs Falsehood theo `end_time`/`invalidated_at`.
+**Quan hệ với benchmark khác trong thư mục:** ConflictBank (đã bỏ khỏi folder vì lớn, tổng hợp, đo xung đột tham số vs bằng chứng); Conflicts nhỏ, thật, đo xung đột giữa các nguồn truy xuất. Hai bài bổ sung nhau, nhưng đều không đo Evolution vs Falsehood theo `end_time`/`invalidated_at`.
 
 ## 7. Chỗ chưa xác nhận
 
@@ -133,4 +133,3 @@ Các số chép từ bản HTML qua công cụ tóm tắt, chưa đối chiếu 
 - Có trường nào chỉ ra cặp tài liệu mâu thuẫn không (README không liệt kê).
 - Bài đã công bố ở hội nghị nào; inter-annotator agreement (bài không báo).
 - Số liệu chép từ bản HTML qua công cụ tóm tắt, chưa đối chiếu bảng gốc.
-- Ghi chú trong `04_ConflictBank.md` nói benchmark "Conflicts" của Google "chưa kiểm/không tìm thấy"; ghi chú này nay đã tìm thấy (file hiện tại), chưa sửa file 04 theo yêu cầu.

@@ -29,7 +29,7 @@ flowchart LR
     C --> D[Gán gold evidence: top-20 Contriever+Gemma, hoặc tìm tay 12.7%]
     D --> E[(TempRAGEval 1,000 câu)]
     F[(Wikipedia 12/2021: 33.1M chunk)] --> G[Retriever + reranker]
-    E --> G --> H[AR@k, ER@k] --> I[LLM đọc top-k: EM, F1]
+    E --> G --> H["AR@k, ER@k"] --> I[LLM đọc top-k: EM, F1]
 ```
 
 ## 3. Chỉ số đo
@@ -131,7 +131,7 @@ flowchart TD
     W[(Trang Wikipedia chứa gold + distractor)] --> I[Ingestion: chunk + trích start_time]
     I --> V[(VectorDB schema 2.1)]
     P --> R[Cơ chế 1: hybrid + filter start_time <= T_req + re-rank]
-    V --> R --> M[hit@k = ER@k, mrr, leakage_rate]
+    V --> R --> M["hit@k = ER@k, mrr, leakage_rate"]
     R --> L[LLM đọc top-k: EM/F1]
 ```
 

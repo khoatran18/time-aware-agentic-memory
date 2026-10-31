@@ -81,9 +81,9 @@ Mọi định nghĩa dưới đây theo bản HTML đã đọc.
 flowchart LR
     Q[Query Stack Exchange dài] --> D[Phân rã GPT-4o: các bước]
     D --> R[Retriever trên corpus 1,65M doc]
-    R --> M1[NDCG@10 theo gold]
+    R --> M1["NDCG@10 theo gold"]
     R --> J[LLM judge]
-    J --> M2[TC@k, TP@k, TR@k]
+    J --> M2["TC@k, TP@k, TR@k"]
 ```
 
 ## 6. Áp dụng vào đồ án
