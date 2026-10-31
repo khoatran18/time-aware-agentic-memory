@@ -223,7 +223,7 @@ Ghi chú: OpenAI không có số search latency vì đọc memory chép tay từ
 
 ## 5. So sánh với các hệ memory khác
 
-Từ paper (Appendix C, Table 1) và ghi chú `04_Agent_Memory_Systems.md`:
+Từ paper (Appendix C, Table 1) và bảng ở `11` §2:
 
 Bảng dưới có nhiều tên hệ thống và thuật ngữ; phần "Giải thích nhanh" ngay sau bảng giải thích từng cái.
 
@@ -281,7 +281,7 @@ Nhắc lại ba cơ chế của đồ án: **Cơ chế 1** (Temporal Retrieval) 
 ### 6.4. Schema liên quan (`design/01`, mục 2.1, 2.2)
 
 - Mem0^g gợi ý thêm vào GraphDB (cơ sở dữ liệu đồ thị, ví dụ Neo4j) một quan hệ có **trạng thái "invalid"** thay cho xóa node, tương thích với bất biến "không xóa, chỉ đóng". Đồ án đã có `end_time`/`invalidated_at` nên ở mức schema không cần thêm trường mới.
-- Kinh nghiệm từ `04_Agent_Memory_Systems.md` vẫn áp dụng: xem xét `ingested_at` (thời điểm hệ thống nạp và biết thông tin đó) để đo Temporal Freshness (độ tươi mới theo thời gian: hệ thống cập nhật tri thức mới nhanh và đúng đến mức nào); Mem0 chỉ có thời điểm tạo, cũng không có trục này theo nghĩa bi-temporal (theo dõi hai trục thời gian: lúc sự việc đúng ngoài đời và lúc hệ thống biết về nó).
+- Kinh nghiệm ở `11` §5 vẫn áp dụng: xem xét `ingested_at` (thời điểm hệ thống nạp và biết thông tin đó) để đo Temporal Freshness (độ tươi mới theo thời gian: hệ thống cập nhật tri thức mới nhanh và đúng đến mức nào); Mem0 chỉ có thời điểm tạo, cũng không có trục này theo nghĩa bi-temporal (theo dõi hai trục thời gian: lúc sự việc đúng ngoài đời và lúc hệ thống biết về nó).
 - Payload index (chỉ mục trên các trường dữ liệu đính kèm mỗi chunk trong VectorDB, giúp lọc nhanh) chỉ 4 trường vẫn ổn: Mem0 chỉ cần vector + (graph); không có bằng chứng ở đây ủng hộ thêm index.
 
 ### 6.5. Phép so sánh và đánh giá
@@ -308,4 +308,4 @@ Nhắc lại ba cơ chế của đồ án: **Cơ chế 1** (Temporal Retrieval) 
 
 - Paper: [arXiv 2504.19413](https://arxiv.org/abs/2504.19413) (PDF: https://arxiv.org/pdf/2504.19413).
 - Về tranh cãi Mem0/Zep (nguồn thứ cấp, chưa kiểm bản gốc, các nguồn mâu thuẫn nhau ở chi tiết): kết quả tìm kiếm gồm [braindetox.kr](https://braindetox.kr/en/posts/memory_benchmark_scores_reliability_2026.html), [mem0.ai: how to read memory benchmarks](https://mem0.ai/library/agent-memory/how-to-read-memory-benchmarks), [mem0.ai: Zep vs Mem0](https://mem0.ai/library/agent-memory/zep-vs-mem0-which-ai-memory-layer-should-you-choose). Cần đọc bài phản hồi gốc của Zep trước khi trích.
-- Liên quan trong repo: `04_Agent_Memory_Systems.md`, `docs/decisions/09_CONFLICT_RESOLUTION_SCOPE.md`, `docs/design/01_INITIAL_BASE_DESIGN.md`, `docs/design/02_TEMPORAL_RETRIEVAL_DESIGN.md`.
+- Liên quan trong repo: `11_Synthesis_and_Comparison.md`, `docs/decisions/09_CONFLICT_RESOLUTION_SCOPE.md`, `docs/design/01_INITIAL_BASE_DESIGN.md`, `docs/design/02_TEMPORAL_RETRIEVAL_DESIGN.md`.

@@ -17,6 +17,13 @@
 
 **Khuyến nghị [suy luận]:** làm **C**. Lõi retrieval là đóng góp khoa học; vỏ MCP là cách để người khác dùng được; vỏ chatbot nhỏ là **harness đo đạc** (cố định prompt, model, `T_now`) và bản demo. Không cần UI đẹp: có thể dùng Open WebUI (giao diện chat mã nguồn mở, nối được với Ollama, tức công cụ chạy LLM mã nguồn mở ngay trên máy cá nhân, và các API tương thích OpenAI) sẵn có nối vào MCP server (xem §4) thay vì viết UI.
 
+**Ghi chú về mức cam kết (cập nhật 31/10/2026).** Thầy hướng dẫn đã gợi ý *không cần xây lại agent*, mà xây MCP server để cắm vào nơi khác. Vì vậy phần cốt lõi là **lõi `TemporalMemory` + vỏ MCP**. **Vỏ chatbot và harness là đề xuất thêm của nhóm, chưa bỏ hẳn, chưa quyết định có làm hay không; sẽ tính sau khi có số liệu.** Cách tính:
+- Harness chỉ là script đo: đọc bộ câu hỏi có sẵn, gọi LLM API theo config, tính chỉ số. Không phải thành phần phải xây riêng.
+- Đo chất lượng truy xuất (MRR, hit@k, `leakage_rate`) không cần LLM, đã có ở tuần 4–5.
+- Đo chất lượng câu trả lời (EM/F1) có thể làm đơn giản: lõi truy xuất, ghép ngữ cảnh vào prompt, gọi LLM API một lần; không cần MCP, không cần vòng lặp tool.
+- Vòng lặp tool (LLM tự gọi tool qua MCP, đo tỉ lệ điền đúng `as_of`, chọn đúng tool, hỏi lại khi `ambiguous`) chỉ cần khi muốn nói về hành vi qua MCP hoặc "cắm được vào model X".
+- Chatbot có giao diện riêng chỉ cần nếu hội đồng muốn thấy; demo bằng Open WebUI hoặc Claude Desktop trỏ vào MCP server là đủ.
+
 Giải thích nhanh các từ ở §1:
 
 - **Host / MCP client / MCP server**: host là ứng dụng chủ có LLM bên trong (Claude Desktop, ChatGPT...); MCP client là phần mềm nhỏ trong host lo nói chuyện với server; MCP server là chương trình của đồ án đứng trước dữ liệu. **Tool** (`search`, `fetch`...) là các hàm server phơi ra (chi tiết ở `05` §1).
@@ -30,7 +37,7 @@ Giải thích nhanh các từ ở §1:
 ```mermaid
 flowchart LR
     subgraph Core["Lõi (đóng góp chính)"]
-        TM["TemporalMemory<br/>search(query, as_of)<br/>get_state_at / get_timeline<br/>get_chunk / list_changes"]
+        TM["TemporalMemory<br/>resolve_entity / search(query, as_of)<br/>get_state_at / get_timeline<br/>fetch / list_changes<br/>get_schema (xem §5A)"]
         DB[("Qdrant + Graph/bảng quan hệ")]
         TM --- DB
     end
@@ -88,6 +95,7 @@ Giải thích nhanh các từ trong ma trận:
 
 **Quan sát then chốt [suy luận]:** hai API chính thức đã xác nhận (OpenAI Responses, Gemini qua SDK) đều **chỉ dùng tools**. Vì vậy:
 - **Mọi chức năng cốt lõi phải có mặt dưới dạng tool.** `resources` và `prompts` (ví dụ bundle OKF, tức thư mục các file markdown có khối YAML ở đầu mỗi file, hay mẫu "tóm tắt dòng thời gian") chỉ là phần thưởng cho client hỗ trợ, không được là đường duy nhất. **OKF** là Open Knowledge Format, định dạng mở lưu tri thức theo kiểu đó.
+- **`get_schema` [suy luận]:** trả về ontology nhẹ của đồ án (các loại thực thể, quan hệ và ràng buộc, xem `01` §5.1) để một LLM bất kỳ biết graph có gì trước khi hỏi. Tool này giúp dùng được cho nhiều miền dữ liệu: mỗi miền có một file ontology, server chỉ đổi file.
 - Giữ danh sách tool **ngắn (≈5)** và đầu ra **gọn**: tool definitions (khai báo tên, mô tả, tham số của tool) đi vào **ngữ cảnh** (context: toàn bộ chữ LLM nhìn thấy trong một lượt, có giới hạn độ dài) mỗi lượt; OpenAI khuyên `allowed_tools` để giảm chi phí và độ trễ.
 
 ### 3.1. Model mã nguồn mở / cục bộ
@@ -122,6 +130,114 @@ Kiến trúc đồ án có lớp Query Processing (xử lý câu hỏi: Profiler
 Giải thích nhanh: **rule-based** là dùng luật viết tay (ví dụ biểu thức nhận dạng ngày) thay vì mô hình học máy; `resolved_as_of` là mốc ngày tuyệt đối mà server đã tự quy đổi ra; **relative time** là thời gian tương đối như "năm ngoái", "hiện nay".
 
 Bất biến **no future leakage** (không trả thông tin xảy ra sau mốc được hỏi) **luôn thực thi ở server**, bất kể cách nào. Time-CoT: đặt vào *mô tả tool* và/hoặc `prompt` MCP (loại mẫu lời nhắc, ví dụ "tóm tắt dòng thời gian") thay vì ép host; ở harness thì dùng prompt đã chọn trên tập valid (tập dữ liệu dùng để chọn và chỉnh cấu hình trước khi đo trên tập test).
+
+## 5A. Thiết kế tool và mô tả tool [suy luận, chưa chạy thử]
+
+Với MCP, **mô tả tool và nội dung kết quả trả về là thứ duy nhất định hướng host LLM**; Claude không có cơ chế riêng nào để phân biệt thực thể hay hỏi lại người dùng, nó chỉ làm theo hai thứ đó (không ép được). Vì vậy thiết kế tool là thiết kế hành vi.
+
+**Nguyên tắc**
+1. Mô tả tool nói rõ *khi nào dùng*, *khi nào không dùng*, *thứ tự gọi* và *cách xử lý từng `status`*.
+2. Các tool về thực thể nhận **`entity_id`**, không nhận tên tự do; chỉ `resolve_entity` nhận tên. Cách này ép đúng thứ tự gọi.
+3. Mọi kết quả cùng một khung, luôn có `status` và `next_step` để host LLM không phải đoán.
+4. Thời gian là ISO tuyệt đối. Server không chèn được `T_now` vào system prompt của host, nên mô tả bắt host tự đổi "tuần trước" thành ngày, và `get_schema` trả `server_time` để tham chiếu (kết hợp cách 3 ở §5: `as_of` tùy chọn, server trả lại `resolved_as_of`).
+5. Chỉ đọc, mỗi tool một việc.
+
+**Khung kết quả chung**
+
+```
+{
+  "status": "ok" | "exact" | "ambiguous" | "not_found" | "no_data_in_range",
+  "resolved_as": { "entity_id": ..., "canonical_name": ... },   // để host đối chiếu với ý người dùng
+  "resolved_as_of": "2015-06-30",
+  "data": ...,
+  "warnings": ["2 facts invalidated (false from the start)"],
+  "next_step": "Ask the user which candidate they mean."
+}
+```
+
+**Danh sách tool**
+
+| Tool | Tham số | Trả về |
+|---|---|---|
+| `get_schema` | không | Loại thực thể, nhóm quan hệ theo chủ đề, miền, `server_time`, khoảng thời gian dữ liệu có |
+| `resolve_entity` | `mention`, `context?`, `domain?` | `status`, `candidates` |
+| `get_state_at` | `entity_id`, `as_of`, `topic?` | Các sự thật đang đúng tại `as_of` |
+| `get_timeline` | `entity_id`, `from?`, `to?`, `topic?` | Sự kiện theo thứ tự thời gian, kèm `chunk_id` |
+| `list_changes` | `entity_id`, `from`, `to` | Những gì đã đổi, đã đóng hoặc bị đính chính trong khoảng đó |
+| `search` | `query`, `as_of?`, `domain?`, `top_k?` | Chunk liên quan (câu hỏi không gắn một thực thể, hoặc Cơ chế 1) |
+| `fetch` | `chunk_id` | Văn bản gốc của chunk (Boomerang) |
+
+Mỗi phần tử của `candidates` (trong kết quả `resolve_entity`) là một thực thể trong KG có thể là thứ người dùng muốn nói: `entity_id`, `canonical_name` (tên chuẩn để hiển thị), `aliases` (bí danh, các cách gọi khác đã gặp, như "ông A", "Nguyễn Văn A"; gộp về một nút để timeline không bị đứt), `type`, `description` (một dòng tóm tắt để phân biệt), `time_span`, `domain`, `score`.
+
+**Quyết định `status` của `resolve_entity`:** so `mention` với `canonical_name` và `aliases` (chuẩn hóa hoa/thường, dấu, khoảng trắng) cho điểm 1.0; không khớp thì dùng khớp mờ hoặc embedding của *tên thực thể*; có `context`/`domain` thì cộng điểm cho ứng viên cùng miền hoặc thời gian phù hợp. `exact` khi đúng một ứng viên vượt ngưỡng cao và ứng viên thứ hai kém xa; `ambiguous` khi từ hai ứng viên vượt ngưỡng thấp hoặc chênh nhau ít; `not_found` khi không ai vượt ngưỡng thấp. Các ngưỡng chưa có số, phải chỉnh bằng dữ liệu.
+
+**Ai hỏi lại ai.** MCP server không hỏi ai; nó chỉ trả `ambiguous` cùng ứng viên. Host LLM (agent) quyết định: tự chọn bằng ngữ cảnh hội thoại, hoặc nếu vẫn không chắc thì hỏi người dùng trong khung chat. MCP có tính năng cho server yêu cầu thêm thông tin từ người dùng qua client (elicitation) [kiến thức chung, chưa kiểm phiên bản và client nào hỗ trợ], không nên dựa vào nó.
+
+**Mô tả tool** (viết bằng tiếng Anh vì host LLM đọc):
+
+`resolve_entity`
+```
+Find the entity in the knowledge base that the user is referring to.
+ALWAYS call this first, before get_state_at / get_timeline / list_changes,
+because those tools require an entity_id, not a name.
+Pass the name exactly as the user wrote it (e.g. "ông A"); put surrounding
+words in `context`.
+Result status:
+- "exact": use the single candidate's entity_id. Mention canonical_name to the user.
+- "ambiguous": several people/organizations match. Do NOT guess. Use the
+  description / time_span / domain of each candidate; if the conversation
+  does not settle it, ask the user which one they mean.
+- "not_found": say so. Do not substitute a similar entity.
+```
+
+`get_state_at`
+```
+Return what was true about an entity at one specific moment (point-in-time).
+Use for "who was X in 2015?", "what was the policy on <date>?".
+`as_of` must be an absolute ISO date (YYYY-MM-DD). Convert relative expressions
+("last year", "now") using server_time from get_schema.
+Facts starting after `as_of` are never returned. Facts marked invalidated
+(false from the start) are excluded and reported in `warnings`.
+Do NOT use for "how did X change over time" (use get_timeline).
+```
+
+`get_timeline`
+```
+Return the ordered sequence of events/states of one entity over a period.
+Use for "career of X", "history of Y", "what happened between A and B".
+Omit from/to for the whole history. `topic` (see get_schema) narrows to one
+theme such as career. Results are compact triplets with chunk_id;
+call fetch(chunk_id) only if you need the original text to quote or verify.
+```
+
+`list_changes`
+```
+List what changed, ended, or was corrected for an entity within [from, to].
+Use for "what changed about X since <date>?" and for checking whether an
+earlier answer is outdated. Each item says whether it "changed over time"
+or "was wrong and corrected".
+```
+
+`search`
+```
+Semantic search over text chunks. Use when the question has no single
+identifiable entity, or asks about content rather than an entity's state.
+Pass `as_of` when the question is about a specific time so later content is excluded.
+Prefer resolve_entity + get_state_at / get_timeline when a named entity is involved.
+```
+
+`fetch`
+```
+Return the original text of a chunk given chunk_id from another tool.
+Use only when a triplet is not enough (to quote, to verify wording).
+```
+
+**Cần cân nhắc**
+- Dặn "đừng đoán, hãy hỏi" chỉ tăng xác suất host làm đúng, không đảm bảo; cần thử trên Claude và một host khác rồi ghi tỉ lệ làm đúng (chỉ số tool-use ở §6).
+- Nhiều tool nhỏ dễ gây chọn nhầm; gộp thành một tool `ask` thì mất sự rõ ràng. Con số 7 tool là đề xuất, chưa so sánh.
+- `topic` phụ thuộc thuộc tính `:partOfTopic` của ontology (`16` §6); chưa có ontology thì bỏ tham số này.
+- Tên trường, giá trị `status`, cách đặt `next_step` chưa cố định. Khi chấm tự động (không có người trả lời), cần chính sách chọn ứng viên điểm cao nhất; trùng câu hỏi mở "chính sách tự động" ở `16` §4.
+- Nút khởi đầu cho Cơ chế 2 có thể đi qua `resolve_entity` (NER + linking) thay vì vector search; vector chỉ là dự phòng khi `not_found`.
 
 ## 6. Đánh giá khi có nhiều LLM
 
@@ -174,8 +290,8 @@ Spec (đặc tả chính thức) MCP 2026-07-28 là **stateless** (server không
 ## 9. Kế hoạch đề xuất
 
 1. **Đóng gói lõi** thành thư viện với 5 hàm công khai (lấy từ pipeline tuần 4–5); xuất schema tool từ một nơi.
-2. **Vỏ MCP** (SDK Python chính thức hoặc FastMCP) với `search` + `fetch` trước (tương thích ChatGPT), rồi `get_state_at`, `get_timeline`. Kiểm bằng MCP Inspector (công cụ chính thức có giao diện web để thử và gỡ lỗi một MCP server) và Claude Code.
-3. **Harness** (CLI + LiteLLM): chạy bộ test 400 câu của tuần 5 qua giao diện tool với 3 model (1 thương mại, 2 mở). Ghi các chỉ số tool-use ở §6.
+2. **Vỏ MCP** (SDK Python chính thức hoặc FastMCP) với `search` + `fetch` trước (tương thích ChatGPT), rồi `resolve_entity`, `get_state_at`, `get_timeline`, `list_changes`, `get_schema` (thiết kế và mô tả tool ở §5A). Kiểm bằng MCP Inspector (công cụ chính thức có giao diện web để thử và gỡ lỗi một MCP server) và Claude Code.
+3. **Harness** (tùy chọn, quyết định sau, xem ghi chú dưới §1) (CLI + LiteLLM): chạy bộ test 400 câu của tuần 5 qua giao diện tool với 3 model (1 thương mại, 2 mở). Ghi các chỉ số tool-use ở §6.
 4. **Demo**: Open WebUI + Ollama hoặc Claude Desktop trỏ vào server.
 5. (Tùy chọn) Bản `Plain RAG` cùng giao diện để so sánh công bằng.
 6. Viết mục bảo mật và hạn chế vào luận văn.

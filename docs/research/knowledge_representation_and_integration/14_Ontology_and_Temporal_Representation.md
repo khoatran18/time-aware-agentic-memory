@@ -173,7 +173,7 @@ Khi dùng LLM trích fact để đổ vào đồ thị, có hai kiểu (theo t�
 |---|---|---|
 | **Theo schema (ontology-guided)** | Cho LLM danh sách loại thực thể/quan hệ cho phép | **Độ chính xác cao hơn**, đồ thị gọn, nhất quán |
 | **Tự do (Open IE)** | LLM tự sinh mọi bộ ba | **Độ phủ cao hơn**, nhưng đồ thị nhiễu, quan hệ trùng nghĩa khác tên |
-| **Lai (ví dụ khung EDC: Extract-Define-Canonicalize)** | Trích tự do rồi định nghĩa và chuẩn hóa về schema | Cân bằng hai bên |
+| **Lai (ví dụ khung EDC: Extract-Define-Canonicalize)** | Trích tự do rồi định nghĩa và chuẩn hóa về schema (Zhang & Soh, EMNLP 2024, [arXiv 2404.03868](https://arxiv.org/abs/2404.03868); đã đọc abstract) | Cân bằng hai bên. Xem `16` §7 |
 
 Giải thích nhanh: **Open IE** (Open Information Extraction, trích thông tin mở) là để LLM tự đặt tên quan hệ, nên cùng một ý có thể thành "làm giám đốc", "giữ chức giám đốc", "là CEO". **Chuẩn hóa (canonicalize)** là gộp các tên đồng nghĩa đó về một tên chuẩn trong schema. **Độ chính xác** là tỷ lệ kết quả trích ra đúng; **độ phủ** là tỷ lệ thông tin có trong văn bản mà trích ra được. **Survey** là bài tổng quan.
 

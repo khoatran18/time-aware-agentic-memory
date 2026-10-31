@@ -102,6 +102,26 @@ Giải thích nhanh các từ trong bảng:
 - `list_changes` với `since` ("từ thời điểm nào") trả danh sách thay đổi gần đây, kiểu một file nhật ký tên `log.md`.
 - **Temporal Freshness** (độ tươi mới theo thời gian): hệ thống cập nhật tri thức mới nhanh và đúng đến mức nào.
 
+**Ba cơ chế ánh xạ vào tool nào, và chạy ở đâu [suy luận].**
+
+| Cơ chế của đồ án | Tool | Thực thi ở đâu |
+|---|---|---|
+| **1. Temporal Retrieval** | `search` (tham số `as_of`), `fetch` | Lõi Python của đồ án: lọc cứng `start_time <= as_of` trong Qdrant, rồi chấm lại thứ hạng |
+| **2. Timeline Summarization** | `get_timeline`, `get_state_at` | Lõi Python: tìm nút khởi đầu ở Qdrant, đi qua đồ thị ở Neo4j, trả triplet; cần chi tiết thì `fetch` (Boomerang) |
+| **3. Conflict Resolution** | Không có tool riêng | Chạy ở **Ingestion** (offline): đóng `end_time` (Evolution) hoặc đặt `invalidated_at` (Falsehood). Kết quả lộ ra qua cờ `invalidated` trong đầu ra của các tool trên |
+
+```mermaid
+flowchart LR
+    H["Host LLM (Claude, ChatGPT...)<br/>tự chọn tool"] -->|"gọi tool qua MCP"| S["Vỏ MCP (SDK Python)<br/>chỉ khai báo và chuyển lời gọi"]
+    S --> C["Lõi Python của đồ án<br/>Cơ chế 1: search/fetch<br/>Cơ chế 2: get_timeline/get_state_at"]
+    C --> Q[("Qdrant")]
+    C --> N[("Neo4j")]
+    I["Ingestion offline<br/>Cơ chế 3: đóng end_time / invalidated_at"] --> Q
+    I --> N
+```
+
+Nghĩa là MCP chỉ là **vỏ**; logic của các cơ chế nằm ở lõi phía sau. Việc chọn `search` hay `get_timeline` cho từng câu hỏi (vai trò của Query Profiler/Routing trong thiết kế gốc) do **host LLM** làm khi dùng cách 1 ở `12` §5, hoặc do server tự làm nếu muốn một tool `ask` duy nhất kèm Profiler bên trong (cách 2/3).
+
 Nguyên tắc:
 - **Tool ít, rõ**: mô tả ngắn gọn nói *khi nào dùng*; tên mô tả hành động. Đầu ra gọn để tiết kiệm **context** (ngữ cảnh: toàn bộ chữ mà LLM nhìn thấy trong một lượt, có giới hạn độ dài; LLM trả lời theo kết quả tool nên rất nhạy với độ dài).
 - **Thời gian là tham số tường minh** (`as_of`) thay vì để model tự lọc; đồng thời server tự quy đổi (resolve) thời gian tương đối như "tuần trước", "hiện nay" ra ngày tuyệt đối bằng `T_now` (đúng bất biến "relative time"). Không trả dữ liệu sau `as_of` (no future leakage: không để lộ thông tin xảy ra sau mốc được hỏi, vì lúc đó chưa thể biết) làm ràng buộc **phía server**, không dựa vào việc model tự giữ lời nhắc.
@@ -120,6 +140,8 @@ Nguyên tắc:
 Giải thích nhanh: **SDK** là bộ thư viện lập trình sẵn (ở đây để viết server MCP mà khỏi tự cài giao thức). **Framework** là khung sườn đã dựng sẵn để bạn chỉ điền phần riêng. **FastMCP** là framework Python rút gọn việc viết MCP server; **Prefect** là tổ chức duy trì bản FastMCP hiện hành. **Type hint** (chú thích kiểu dữ liệu của tham số, như `as_of: str`) và **docstring** (đoạn mô tả đầu hàm) được FastMCP đọc để tự sinh khai báo tool. **Boilerplate** là đoạn code lặp đi lặp lại, nhàm chán. **TS** là TypeScript, ngôn ngữ JavaScript có thêm kiểu dữ liệu. "Tự lo transport/phiên" nghĩa là tự viết phần truyền tin và quản lý phiên (xem §1, §2).
 
 Với đồ án **[suy luận]**: phần retrieval (tìm kiếm) hiện đã viết bằng Python và dùng **Qdrant** (một cơ sở dữ liệu vector mã nguồn mở: lưu đoạn văn dưới dạng dãy số để tìm theo ý nghĩa), nên dùng Python, SDK chính thức hoặc FastMCP, để bọc (gói lại) các hàm retrieval sẵn có thành tool. Nguồn so sánh ở trên chủ yếu là blog framework; **cần xác nhận trên repo chính thức** (kho mã nguồn trên GitHub).
+
+**Đo thực tế trên GitHub API ngày 31/10/2026:** `modelcontextprotocol/python-sdk` có khoảng 24,7 nghìn sao, giấy phép MIT, bản mới nhất v2.3.0 (02/10/2026), vẫn đang cập nhật; `PrefectHQ/fastmcp` có khoảng 28,2 nghìn sao, Apache-2.0, bản mới nhất v4.1.4 (26/10/2026), vẫn đang cập nhật. Số sao chỉ phản ánh mức quan tâm, không phải độ ổn định. Về uy tín: SDK nằm trong tổ chức `modelcontextprotocol` (nơi quản lý spec) nên bám spec sớm nhất; FastMCP là dự án bên thứ ba nhưng được dùng rộng.
 
 ## 7. MCP so với các cách "đưa tri thức cho agent" khác
 

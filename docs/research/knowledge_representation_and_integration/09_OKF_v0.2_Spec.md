@@ -1,7 +1,7 @@
 # Open Knowledge Format (OKF) v0.2 — đặc tả chi tiết
 
 > **Nguồn:** `SPEC.md` và README của repo [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format) (Apache-2.0), đã đọc trực tiếp (qua WebFetch, bản diễn giải có chú thích tên khóa gốc). Repo cũ `GoogleCloudPlatform/knowledge-catalog/tree/main/okf` chỉ còn là bản đóng băng, không còn bảo trì.
-> **Đính chính cho `02`:** `02` mô tả v0.1 (ngày 12/06/2026). Bản hiện hành là **v0.2**, thêm cả một họ trường về nguồn gốc, độ tin cậy và vòng đời, **liên quan trực tiếp đến đồ án** hơn v0.1 rất nhiều.
+> **Phạm vi file:** toàn bộ về OKF (đặc tả v0.2, so với v0.1, ưu nhược, đối chiếu với đồ án). File này đã gộp ghi chú v0.1 cũ (trước đây là `02`). Phần "mẫu LLM wiki" của Karpathy nằm riêng ở [`10`](10_Karpathy_LLM_Wiki.md) vì là một ý tưởng khác, có trước OKF.
 
 ## 1. Tổng quan
 
@@ -22,6 +22,88 @@
 - Thân: markdown thường, ưu tiên cấu trúc (heading là tiêu đề, bảng, list là danh sách) hơn văn xuôi; tiêu đề quy ước `# Schema`, `# Examples`, `# Computation`.
 - **Thuộc tính mở rộng:** producer thêm khóa tùy ý; consumer **phải giữ nguyên khóa lạ khi round-trip** (tức đọc rồi ghi lại mà không làm mất khóa mình không hiểu), không được từ chối.
 
+## 2A. Ví dụ từ đầu đến cuối: dữ liệu gốc → xử lý → bundle OKF
+
+Đoạn này dựng lại một vòng đầy đủ bằng ví dụ ông A của đồ án, để thấy OKF thực sự là gì. Lưu ý trước: **OKF chỉ quy định *hình dạng của kết quả cuối* (thư mục file `.md`)**. Bước *đọc dữ liệu gốc và tạo ra file* là việc của producer (agent hoặc người) tự chọn cách làm; spec không nói. Ví dụ dưới là cách làm có thể dùng cho đồ án **[suy luận]**, không phải của spec.
+
+```mermaid
+flowchart LR
+    R["Dữ liệu gốc<br/>(bài báo, văn bản luật,<br/>bảng dữ liệu)"] --> P["Producer<br/>(agent LLM hoặc người):<br/>đọc, trích ý, viết file"]
+    P --> B["Bundle OKF<br/>(thư mục file .md<br/>kèm frontmatter)"]
+    B --> C["Consumer<br/>(agent khác):<br/>đọc index.md, mở file,<br/>đi theo link"]
+```
+
+**Bước 1. Dữ liệu gốc.** Cái producer nhận vào, thường là văn bản thô:
+
+```text
+Báo 1 (10/03/2005): "Ông Nguyễn Văn A được bổ nhiệm Giám đốc Công ty X."
+Báo 2 (01/06/2007): "Ông A được bầu làm Chủ tịch Công ty X, thôi chức Giám đốc."
+Báo 3 (14/03/2024): "Tin đồn ông A bỏ trốn ra nước ngoài."
+Báo 4 (15/03/2024): "Đính chính: ông A không bỏ trốn, đang làm việc với cơ quan điều tra."
+```
+
+(Ở repo của Google, dữ liệu gốc là metadata của bảng BigQuery cộng các trang web; ở mẫu Karpathy là các bài viết người dùng bỏ vào. OKF không bắt phải là loại nào.)
+
+**Bước 2. Xử lý (do producer tự làm).** Một agent LLM đọc từng bài, quyết định mỗi "mẩu tri thức" thành một file, rồi ghi kèm metadata. Với ví dụ này agent có thể quyết: một file cho nhân vật, một file cho mỗi chức vụ, một file cho tin đồn.
+
+**Bước 3. Kết quả: một thư mục (bundle).**
+
+```text
+bundle/
+├── index.md                  # mục lục, có okf_version
+├── log.md                    # nhật ký: ngày nào thêm/sửa/ngừng dùng file nào
+├── people/ong-a.md           # nhân vật
+├── roles/ong-a-giam-doc.md   # chức vụ 1
+├── roles/ong-a-chu-tich.md   # chức vụ 2
+└── claims/ong-a-bo-tron.md   # tin đồn đã bị đính chính
+```
+
+Nội dung hai file tiêu biểu. Phần nào là chuẩn OKF, phần nào là khóa mở rộng do đồ án tự thêm được ghi chú rõ:
+
+```markdown
+---
+type: Role                          # BẮT BUỘC (chuẩn OKF), tự đặt tên loại
+title: Ông A giữ chức Giám đốc Công ty X      # chuẩn
+description: Giám đốc Công ty X, 2005 đến 2007. # chuẩn
+sources:                            # chuẩn v0.2: thông tin lấy từ đâu
+  - id: s1
+    resource: https://example.com/bao-1
+    last_modified: 2005-03-10T00:00:00+07:00
+generated:                          # chuẩn v0.2: ai viết file này, lúc nào
+  by: ingest-agent/0.1
+  at: 2026-10-31T10:00:00+07:00     # lúc ghi file, KHÔNG phải năm 2005
+status: deprecated                  # chuẩn v0.2: không còn hiện hành
+stale_after: 2027-10-31T00:00:00+07:00   # chuẩn v0.2: hạn nên kiểm tra lại file
+valid_from: 2005-03-10              # KHÓA MỞ RỘNG của đồ án (không phải chuẩn)
+valid_to: 2007-06-01                # KHÓA MỞ RỘNG
+superseded_by: /roles/ong-a-chu-tich.md   # KHÓA MỞ RỘNG
+---
+Ông [A](/people/ong-a.md) được bổ nhiệm Giám đốc [Công ty X](/orgs/cong-ty-x.md).
+Sau đó giữ [Chủ tịch](/roles/ong-a-chu-tich.md).[^s1]
+```
+
+```markdown
+---
+type: Claim
+title: Tin đồn ông A bỏ trốn
+status: deprecated                  # chuẩn, nhưng KHÔNG phân biệt được "sai từ đầu"
+invalidated_at: 2024-03-15          # KHÓA MỞ RỘNG: sai từ đầu, bị đính chính
+corrected_by: /claims/ong-a-dinh-chinh.md # KHÓA MỞ RỘNG
+---
+Tin đồn ngày 14/03/2024, đã bị [đính chính](/claims/ong-a-dinh-chinh.md).
+```
+
+**Bước 4. Consumer dùng thế nào.** Không có ngôn ngữ truy vấn. Agent đọc `index.md` (mục lục ngắn) để biết có gì, mở `people/ong-a.md`, thấy các link, mở tiếp các file chức vụ. Muốn lọc theo `valid_from` hay `invalidated_at` thì **tự code**, hoặc nạp các file vào một cơ sở dữ liệu khác rồi lọc ở đó.
+
+**Rút ra cho đồ án:** OKF cho ta *chỗ ghi* và *cách đặt tên file/link* rất rẻ, nhưng mọi phần thật sự "time-aware" (khóa `valid_*`, `invalidated_at`, `superseded_by`, và logic lọc) đều là phần ta phải tự làm. Chuẩn chỉ giúp các công cụ khác đọc được thư mục đó.
+
+### 2B. Hỏi đáp nhanh
+
+- **Tự thêm khóa có được không?** Được. Spec cho producer thêm khóa tùy ý; consumer không được từ chối và phải giữ nguyên khóa lạ khi đọc rồi ghi lại (§2). Cái giá: công cụ OKF khác chỉ *giữ* chứ không *hiểu* khóa đó, nên phần hiểu `valid_from`, `superseded_by` phải do code của ta làm.
+- **Một bundle có chứa chuyện không liên quan nhau được không (ông A và loài B tuyệt chủng)?** Được **[suy luận từ spec]**: spec không đòi các concept phải liên quan, không có danh sách `type` cố định, link hỏng cũng được chấp nhận. Chỉ là thực tế nên tách thư mục (`people/`, `species/`) hoặc tách bundle theo miền để `index.md` gọn và agent không phải đọc lẫn. Với đồ án, trường `domain` ở payload vector đóng vai trò tương tự.
+- **OKF chỉ là chuẩn, vậy code trong repo làm gì?** Repo Google có: (a) spec, (b) agent tham chiếu để *sinh* bundle từ BigQuery và trang web, (c) trình xem HTML tĩnh (§8). Không có bộ máy truy vấn. Mọi kiểu truy vấn khác ("tại ngày D", "chuỗi chức vụ") đều phải tự code, hoặc nạp bundle vào kho khác (Qdrant, Neo4j) rồi truy vấn ở đó.
+- **Git để làm gì?** Git là *lịch sử của file* (ai sửa file nào, lúc nào, quay lại bản cũ được). Nó khác `valid_from`/`valid_to` là *thời gian đúng của sự việc ngoài đời*. Một sự việc năm 2005 có thể mới được ghi vào file năm 2026: git ghi 2026, `valid_from` ghi 2005.
+
 ## 3. Họ trường provenance / trust / lifecycle (mới ở v0.2)
 
 Tất cả là tùy chọn; vắng mặt có ý nghĩa nhưng **không bao giờ là lý do từ chối**. Mọi mốc thời gian theo ISO 8601 (chuẩn viết ngày giờ, ví dụ `2026-06-12T09:00:00+07:00`) có kèm offset UTC (độ lệch so với giờ chuẩn quốc tế, ví dụ `+07:00` là giờ Việt Nam).
@@ -33,6 +115,17 @@ Tất cả là tùy chọn; vắng mặt có ý nghĩa nhưng **không bao giờ
 | `verified` | list `{by, at}` (một mapping trần được coi là list 1 phần tử) | Các sự kiện xác minh độc lập; độc lập với `generated.at` |
 | `status` | `draft` / `stable` (mặc định) / `deprecated` | `deprecated` = giữ cho link và lịch sử, **không còn hiện hành** |
 | `stale_after` | datetime tuyệt đối | Concept "cũ" khi `now >= stale_after` (tuyệt đối để so sánh trơn, không phải TTL tương đối) |
+
+**`stale_after` so với `end_time` của đồ án (hay bị lẫn):**
+
+| | `stale_after` (OKF) | `end_time` (đồ án) |
+|---|---|---|
+| Nói về | **File/mẩu tri thức**: đến lúc nên nghi ngờ và kiểm tra lại | **Sự việc ngoài đời**: đã hết đúng từ ngày này |
+| Ai đặt | Producer, thường là *đoán* hạn dùng (ví dụ "bảng giá này đổi hằng năm") | Trích từ văn bản ("đến 06/2007") |
+| Khi quá hạn | Chỉ là "cũ, chưa chắc sai"; có thể vẫn đúng | Sự việc đã kết thúc, chắc chắn |
+| Có mốc bắt đầu không | **Không** (không có `start`) | Có `start_time` |
+
+Các mốc thời gian khác của OKF (`generated.at`, `sources[].last_modified`, `verified.at`) cũng đều nói về *vòng đời của file*, không phải *thời gian hiệu lực của sự việc*. Vì vậy OKF "có nhiều mốc thời gian" nhưng **không có cặp nào thay được `[start_time, end_time]`**.
 
 **Giải thích nhanh các khóa trong bảng:**
 - `sources`: danh sách nơi concept này lấy thông tin. Ví dụ một concept về chỉ số doanh thu có thể ghi nguồn là một bảng dữ liệu và người viết ra nó. `usage_count` là số lần nguồn được dùng trong một khoảng thời gian `usage_window` (từ ngày này đến ngày kia); nguồn càng ít dùng càng có thể đã "chết".
@@ -55,7 +148,7 @@ Tất cả là tùy chọn; vắng mặt có ý nghĩa nhưng **không bao giờ
 ## 4. Liên kết
 
 - Link markdown chuẩn, dạng tuyệt đối theo bundle (bắt đầu bằng `/`, tính từ thư mục gốc của bundle; khuyến nghị) hoặc tương đối (tính từ vị trí file hiện tại).
-- Một link **khẳng định một quan hệ không đặc tả**; ý nghĩa nằm trong văn xuôi xung quanh. **Không có kiểu cạnh.**
+- Một link **khẳng định một quan hệ không đặc tả**; ý nghĩa nằm trong văn xuôi xung quanh. **Không có kiểu cạnh.** Nghĩa là các file *có* liên hệ với nhau (link tạo thành đồ thị nút-cạnh), nhưng mọi cạnh đều cùng một loại "có liên quan": link từ `ong-a.md` sang `ong-a-chu-tich.md` có thể mang nghĩa "giữ chức", "thay thế" hay "được nhắc đến" mà máy không phân biệt được; chỉ người hoặc LLM đọc câu chữ quanh link mới hiểu. Đồ án cần cạnh có kiểu (`SUPERSEDES`, `CORRECTS`), nên phải tự thêm bằng khóa mở rộng như `superseded_by` trong frontmatter.
 - Link hỏng phải được chấp nhận (có thể là tri thức chưa viết).
 - Quy ước thư mục `references/` cho tài liệu ngoài, hướng dẫn chạy, mã.
 
@@ -80,6 +173,14 @@ Concept `type: Attested Computation` định nghĩa *cách tính được phép*
 ## 8. Reference tooling
 
 Repo có agent tham chiếu chạy 2 lượt. Lượt BigQuery (BigQuery là kho dữ liệu phân tích của Google Cloud) sinh một doc cho mỗi concept từ metadata. Lượt web: LLM lấy URL khởi đầu (seed) qua tool `fetch_url` (tool là hàm mà LLM được phép gọi), tự quyết định theo link nào, rồi làm giàu doc hoặc tạo `references/<slug>` (slug là tên ngắn viết liền dùng làm tên file); lượt này có giới hạn số trang và lọc host (chỉ cho phép một số tên miền). Có trình hiển thị HTML tĩnh (dùng thư viện Cytoscape.js) với đồ thị lực (các nút tự dàn ra như lò xo), backlink "Cited by" (danh sách các trang đang trích dẫn trang này), tìm kiếm, lọc theo type. Bundle mẫu: `ga4`, `stackoverflow`, `crypto_bitcoin`, `acme_retail`.
+
+### 8.1 So với v0.1 (12/06/2026, theo tin tức và trang Google Cloud)
+
+| | v0.1 | v0.2 |
+|---|---|---|
+| Frontmatter | `type` bắt buộc; tùy chọn `title`, `description`, `resource`, `tags`, `timestamp` | Giữ nguyên, **bỏ `timestamp`** (thay bằng `generated.at`), thêm `sources`, `generated`, `verified`, `status`, `stale_after` |
+| Trọng tâm | Định dạng tối thiểu: producer và consumer độc lập, "format, not platform" | Thêm nguồn gốc, độ tin cậy, vòng đời, attestation |
+| Tích hợp | Google Knowledge Catalog nạp và phục vụ bundle cho agent; bundle mẫu GA4, Stack Overflow, Bitcoin | Repo riêng, thêm bundle `acme_retail` |
 
 ## 9. OKF v0.2 trả lời gì cho đồ án, và còn thiếu gì
 
@@ -116,11 +217,24 @@ Bất biến là các quy tắc lõi của đồ án mà mọi thiết kế ph�
 - Spec chưa nói gì về *truy vấn*; OKF là định dạng, không phải bộ máy tìm kiếm.
 - Là định dạng còn rất mới (v0.1 ngày 12/06/2026, v0.2 sau đó); mức chấp nhận ngoài hệ sinh thái Google chưa biết.
 
+## 10. Ưu nhược của OKF
+
+**Ưu**
+- Rẻ, dễ kiểm tra; con người đọc và sửa được; `git` cho sẵn lịch sử.
+- Tương thích mọi công cụ (`grep`, tìm vector, agent đọc file).
+- Không phụ thuộc nhà cung cấp, có một công ty lớn đứng sau, được một số bài báo gọi là "ngôn ngữ chung" (lingua franca) cho tri thức của agent ([ppc.land](https://ppc.land/googles-okf-wants-to-be-the-lingua-franca-for-ai-agent-knowledge/)).
+
+**Nhược**
+- Còn mới, Google tự nhận sẽ tiến hóa tiếp; mức chấp nhận chưa rõ.
+- Ngữ nghĩa nghèo: không kiểu cạnh, không khoảng hiệu lực, không phân biệt Evolution và Falsehood (bảng §9.1).
+- Chất lượng giữa các producer có thể không đồng nhất vì mỗi nơi tự định nghĩa `type`.
+- Quy mô lớn thì một thư mục file không thay được chỉ mục (vector, BM25 tức xếp hạng theo từ khóa, bộ lọc); xem giới hạn quy mô ở [`10`](10_Karpathy_LLM_Wiki.md) §5.
+
 ## Tài liệu tham khảo (docs, git)
 
 - **Đặc tả và mã:** [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format) (repo hiện hành, có `SPEC.md`)
 - **Bản cũ (v0.1, đóng băng):** [GoogleCloudPlatform/knowledge-catalog/okf](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (bản đóng băng, không còn bảo trì)
-- **Thông báo:** [Google Cloud blog — How the Open Knowledge Format can improve data sharing](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing); [The Decoder](https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/)
+- **Thông báo:** [Google Cloud blog — How the Open Knowledge Format can improve data sharing](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing); [The Decoder](https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/); [heise](https://heise.de/-11332310); [ppc.land](https://ppc.land/googles-okf-wants-to-be-the-lingua-franca-for-ai-agent-knowledge/)
 - **Chuẩn nền liên quan:** [Wikidata Help:Ranking](https://www.wikidata.org/wiki/Help:Ranking) (so sánh với `status`/`stale_after`), PROV-O trong [`14`](14_Ontology_and_Temporal_Representation.md) §4.2 (so sánh với `sources`/`generated`)
 
 Spec đọc qua WebFetch (bản diễn giải của công cụ), không phải văn bản thô; tên khóa và giá trị enum đáng tin hơn câu chữ.

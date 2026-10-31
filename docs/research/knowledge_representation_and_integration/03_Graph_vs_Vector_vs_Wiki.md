@@ -43,7 +43,7 @@ Giải thích nhanh các thuật ngữ trong bảng:
 - **Metadata** (siêu dữ liệu) là thông tin mô tả đi kèm mỗi chunk, ở đây là `start`, `end` (thời điểm bắt đầu và hết hiệu lực) và `invalidated_at` (thời điểm thông tin bị coi là sai ngay từ đầu). **Triplet** và **`Chunk_ID`**: triplet là bộ ba (chủ thể, quan hệ, đối tượng), `Chunk_ID` là con trỏ về chunk gốc trong VectorDB (mẫu Boomerang). **Context** là lượng văn bản LLM đọc được trong một lần, nên "tràn context" nghĩa là timeline quá dài, không nhét vừa.
 - **Postgres** và **SQLite** là hai hệ quản trị cơ sở dữ liệu quan hệ (lưu dữ liệu theo bảng, truy vấn bằng SQL); `pgvector` là phần mở rộng cho Postgres để lưu và tìm vector; `tstzrange` là kiểu dữ liệu của Postgres lưu một khoảng thời gian (có múi giờ) trong một ô.
 - **ACID** (Atomicity, Consistency, Isolation, Durability) là bốn đảm bảo giao dịch của cơ sở dữ liệu, tóm lại là ghi dữ liệu đáng tin cậy, không bị dở dang. **CTE** (Common Table Expression) là truy vấn SQL con có đặt tên, dùng được đệ quy (tự gọi lại chính nó) để đi theo chuỗi quan hệ nhiều bước.
-- **OKF profile** là bộ trường bổ sung của đồ án đặt lên định dạng OKF (xem `02`, `09`). **Agent** là chương trình dùng LLM để tự lập kế hoạch và gọi công cụ. "Đồng bộ" nghĩa là hai hệ thống phải luôn chứa dữ liệu khớp nhau.
+- **OKF profile** là bộ trường bổ sung của đồ án đặt lên định dạng OKF (xem `09`). **Agent** là chương trình dùng LLM để tự lập kế hoạch và gọi công cụ. "Đồng bộ" nghĩa là hai hệ thống phải luôn chứa dữ liệu khớp nhau.
 
 Điểm quan trọng **[suy luận]**: **D không thay thế A–C mà nằm ở lớp khác**. D là *định dạng nguồn và định dạng trả về cho agent*; A–C là *bộ máy truy xuất*. Có thể sinh ra bundle OKF từ dữ liệu trong VectorDB/Graph để cho con người và agent khác đọc.
 

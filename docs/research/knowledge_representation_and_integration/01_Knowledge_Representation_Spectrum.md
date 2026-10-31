@@ -219,8 +219,142 @@ Không có nguồn nào tìm được cho số liệu "cái nào phổ biến nh
 
 - **Không chọn một cách, mà ghép hai cách:** cách 5 (chunk + metadata thời gian trong VectorDB) giữ nguyên văn và phục vụ Cơ chế 1; cách 2 (đồ thị gọn, cạnh có thời gian) nén thông tin cho Cơ chế 2. Đồ thị chỉ giữ *bộ ba nhẹ cùng con trỏ `Chunk_ID` trỏ về chunk gốc*; cần chi tiết thì quay lại VectorDB lấy chunk (mẫu thiết kế gọi là **Boomerang**, xem `timeline_summarization/03`). Hai cách bổ sung nhau: nén khi cần tổng quan, nguyên văn khi cần chi tiết hay sắc thái.
 - **Cách 3 và 4 không bị loại:** chúng là *định dạng trình bày và trao đổi* (xuất bundle OKF cho người khác hoặc agent khác đọc), không thay bộ máy truy xuất (`11` §1).
-- **Phần của cách 1 mà đồ án dùng** (đây là chỗ nói về việc *mượn ý*, tách khỏi lý thuyết ở §7): không dựng ontology OWL hình thức và không chạy reasoner. Đồ án lấy **một bảng schema nhỏ** gồm: các loại thực thể (Người, Tổ chức, Sự kiện…); khoảng 10 loại quan hệ (`GIỮ_CHỨC`, `TIẾP_THEO`, `SUPERSEDES`, `CORRECTS`, `SUSPECTS`…); các thuộc tính thời gian (`start_time`, `end_time`, `invalidated_at`). Bảng này được dùng thật ở ba chỗ: (a) dán vào prompt để LLM chỉ trích xuất các quan hệ cho phép thay vì tự đặt tên; (b) làm khuôn cho nút và cạnh của GraphDB; (c) viết thành các đoạn mã kiểm tra ràng buộc (như `start_time <= end_time`). Theo §7 thì đây là mức **từ vựng/schema nhẹ (lightweight ontology)**, thiếu hai thứ làm nên ontology hình thức là axiom OWL và suy diễn. **Khi viết luận văn [suy luận]:** gọi là *schema* hoặc *từ vựng quan hệ* và nói rõ không có suy diễn, để hội đồng khỏi hiểu là ontology OWL đầy đủ. Bảng ánh xạ tên sang chuẩn có sẵn (Wikidata, OWL-Time, PROV-O) ở `14` §7.
+- **Phần của cách 1 mà đồ án dùng:** một **ontology nhẹ (lightweight ontology) viết thành file khai báo**, là thành phần chính thức của hệ thống, không phải chỉ "mượn ý". Phần khai báo (lớp, quan hệ, alias) viết theo **chuẩn** (RDFS + SKOS, ghi bằng Turtle, đọc bằng rdflib); phần luật theo thời gian dùng **thuộc tính tự đặt** và do code thực thi. Không dựng triple store, không chạy reasoner. Chi tiết ở §5.1.
 - **Trục thời gian:** thiết kế có `start_time`/`end_time` (thời gian hiệu lực ngoài đời) và `invalidated_at` (sai từ đầu); **chưa có** trường cho *thời điểm hệ thống biết thông tin*. Người ta gọi mô hình hai trục là **bi-temporal** (Zep/Graphiti làm vậy, `07`). Đề xuất thêm `ingested_at`, xem `06`.
+
+### 5.1. Ontology nhẹ của đồ án: dùng ở đâu, viết bằng gì
+
+> **[suy luận]** Đây là hướng đề xuất của nhóm (đã chọn hướng kết hợp chuẩn và thuộc tính tự đặt), chưa hiện thực. Vẫn ngoài phạm vi: mâu thuẫn đa nguồn theo độ uy tín (`decisions/09`).
+
+**Lõi và gói theo miền.** Chia hai tầng, giống upper/domain ở §7.1: *lõi dùng chung* (`Entity`, `Event`, cạnh có `start_time`, `end_time`, `invalidated_at`, nguồn; không đổi theo miền) và *gói theo miền* (mỗi miền như tiểu sử, luật, tài chính là một file định nghĩa loại và quan hệ riêng). Đổi miền chỉ là đổi file. Đây cũng là cách để về sau bọc thành MCP dùng cho nhiều loại dữ liệu (`12`).
+
+**Ontology cắm vào đâu trong quá trình nạp dữ liệu.**
+
+```mermaid
+flowchart TD
+    D["Tài liệu mới"] --> E["LLM trích thực thể (NER) và quan hệ<br/>theo ontology trong prompt"]
+    E --> R["Gộp thực thể (entity resolution):<br/>khớp tên, alias, embedding → ID chuẩn"]
+    R --> N{"Quan hệ có khớp<br/>ontology? (tên, alias, embedding)"}
+    N -- "không" --> Q["Hàng đợi ứng viên<br/>(không tự thêm vào ontology)"]
+    N -- "có" --> V{"Kiểm tra ràng buộc:<br/>domain/range, số lượng,<br/>chồng lấn thời gian"}
+    V -- "hợp lệ" --> W["Ghi graph (MERGE theo ID chuẩn)"]
+    V -- "vi phạm" --> C{"Phân loại"}
+    C --> EV["Evolution: đóng end_time"]
+    C --> FA["Falsehood: invalidated_at"]
+    C --> FL["Không chắc: gắn cờ"]
+```
+
+- **NER** (Named Entity Recognition, nhận dạng thực thể có tên) tìm "ông Nguyễn Văn A", "Công ty X" và gán loại; danh sách loại hợp lệ lấy từ ontology. Có thể để LLM làm cùng lúc với trích quan hệ (đã dùng LLM ở bước này). Công cụ NER riêng cho tiếng Việt: **[chưa kiểm]**.
+- **Gộp thực thể** là bước khó và dễ sai nhất ("ông A", "Nguyễn Văn A", "Chủ tịch A" là một nút). Đây mới là chỗ nối "lịch sử Công ty X" với "sự nghiệp ông A": hai tài liệu cùng trỏ vào một nút `Công ty X`.
+- **Ontology phục vụ bốn việc:** (1) đưa vào prompt để LLM không bịa tên cạnh; (2) chuẩn hóa "giữ chức", "làm", "được bổ nhiệm" về một quan hệ; (3) ràng buộc, ví dụ "một chức tại một tổ chức chỉ có một người giữ tại một thời điểm", chồng lấn thì có mâu thuẫn rồi mới phân loại Evolution hay Falsehood; (4) lộ ra qua tool `get_schema` của MCP.
+
+**Phần nào đồ án phải xây, và duyệt ở đâu [suy luận].** Quá trình nạp quan hệ (trích, chuẩn hóa, kiểm tra ràng buộc, ghi graph) thuộc lớp **Ingestion** của đồ án, vì nó quyết định cách tổ chức dữ liệu. Nó là một chương trình **riêng** với server MCP:
+
+| Thành phần | Việc | Đọc/ghi | Chạy khi nào |
+|---|---|---|---|
+| **Ingestion pipeline** | Cắt chunk, trích thực thể và quan hệ, gộp thực thể, chuẩn hóa theo ontology, kiểm tra ràng buộc, ghi Qdrant và Neo4j | **Ghi** | Offline, theo đợt |
+| **Hàng đợi duyệt** | Lưu các đề xuất mơ hồ với trạng thái `pending`/`approved`/`rejected` kèm bằng chứng | Ghi | Do pipeline tạo, người hoặc quy tắc xử lý |
+| **Server MCP** | Trả lời truy vấn qua `search`, `get_timeline`... | **Chỉ đọc** | Khi người dùng hỏi |
+
+Hàng đợi duyệt chỉ cần là **dữ liệu** (bảng hoặc file JSONL) cộng một cách thao tác tối thiểu, như lệnh CLI hay một trang Streamlit nhỏ; không cần xây hệ thống duyệt đầy đủ. Khi chạy thực nghiệm, đặt chính sách tự động (đề xuất mơ hồ thì ghi tạm dạng quan hệ chung hoặc bỏ qua) để kết quả tái lập được. Việc người duyệt thật chỉ làm trên mẫu nhỏ hoặc nêu như hướng phát triển.
+
+**LLM nhận gì khi trích xuất, và đơn vị xử lý là gì [suy luận].**
+
+- **Đơn vị lưu và truy vết là chunk, nhưng LLM cần nhìn cả tài liệu để hiểu.** Một chunk lẻ thường thiếu thông tin: đại từ ("ông ấy"), chủ thể nêu ở đầu bài, ngày đăng để đổi "tuần trước" thành ngày tuyệt đối, hay thuật ngữ định nghĩa ở điều khác. Có ba cách:
+
+| Cách | Mô tả | Ưu | Nhược |
+|---|---|---|---|
+| **1. Từng chunk kèm ngữ cảnh gọn** | Chunk + tiêu đề tài liệu, tiêu đề mục, ngày đăng, đoạn liền kề | Rẻ, gắn thẳng `Chunk_ID` | Dễ thiếu ngữ cảnh xa |
+| **2. Cả tài liệu, rồi gán về chunk (ưu tiên)** | Đánh số chunk trong prompt (`[C1]`, `[C2]`…); LLM đọc cả bài, trả bộ ba kèm **mã chunk** làm bằng chứng. Code kiểm bằng cách xem tên thực thể có xuất hiện trong chunk được dẫn không | Hiểu tổng quan; không phải chép lại đoạn dài | Tốn token; bài dài thì LLM bỏ sót |
+| **3. Hai lượt (đề xuất cho tài liệu dài)** | Lượt 1: đọc cả bài, ra tóm tắt, danh sách thực thể, ngày neo. Lượt 2: trích từng chunk, kèm kết quả lượt 1 làm ngữ cảnh | Vừa có tổng quan vừa gắn chunk chính xác | Thêm một lượt gọi LLM |
+
+Gợi ý chọn: tài liệu ngắn (vừa ngữ cảnh) thì cách 2; tài liệu dài hoặc văn bản luật theo điều khoản thì cách 3.
+- **Gán bộ ba về chunk bằng mã chunk, không bằng câu chép nguyên văn.** Chép lại đoạn dài dễ sai chữ. Số liệu của chính đồ án cho thấy: trong bảng kiểm `ongoing_evidence` (`design/03` §2.2), câu LLM diễn đạt lại thay vì chép nguyên văn bị loại, và có 55 chunk bị hạ `ongoing`. Vì vậy cho LLM **dẫn mã chunk** (`[C3]`) thay vì chép chữ, rồi code kiểm tên thực thể có nằm trong chunk đó không. Dẫn không hợp lệ (mã không tồn tại, tên không có trong chunk) thì đưa vào hàng đợi, không ghi `Chunk_ID` bừa. Nếu cần câu trích để hiển thị thì lấy từ chunk gốc theo mã, không lấy từ LLM.
+- **Pipeline hiện tại đã gần cách 2:** theo `design/03` §2.2, ingestion đã chạy theo **lô tối đa 30 chunk của cùng một trang** (`batch_size = 30`), nên LLM đã thấy ngữ cảnh cả trang. Việc kiểm `ongoing_evidence` cũng chỉ xét cụm có trong lô, không biết cụm thuộc chunk nào. Phần mới cần làm là gán bộ ba về từng chunk.
+- **Prompt gồm ba phần:** (1) chunk và ngữ cảnh; (2) ontology: các loại thực thể, các quan hệ cho phép kèm mô tả và alias; (3) vài thực thể đã có trong KG giống với tên xuất hiện trong chunk (lấy top-k theo độ giống, không đưa cả KG) để LLM gán đúng ID chuẩn.
+- **Quan hệ nào đưa vào prompt:** là danh sách quan hệ **của ontology**. Các loại cạnh trong KG luôn là tập con của nó nên không cần liệt kê riêng. Khi ontology lớn lên hàng trăm quan hệ thì chỉ đưa tập con liên quan (chọn bằng embedding).
+- **Cách lai:** cho phép LLM chọn quan hệ trong ontology, hoặc ghi `OTHER` kèm tên tự do khi không quan hệ nào hợp. Phần `OTHER` đi vào hàng đợi ứng viên; code so độ tương đồng với các quan hệ hiện có để gợi ý ánh xạ.
+- **Tiền lệ:** Zep và Mem0 cũng lấy các nút hoặc fact tương tự đã có để LLM đối chiếu trước khi ghi (`07`, `08`).
+
+**Ví dụ khai báo: kết hợp chuẩn và thuộc tính tự đặt (Turtle):**
+
+```turtle
+@prefix :     <http://example.org/timemem#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Phần chuẩn: lớp, quan hệ, alias ---
+:Person   a rdfs:Class .
+:Position a rdfs:Class .
+
+:holds_position a rdf:Property ;
+    rdfs:domain :Person ;
+    rdfs:range  :Position ;
+    skos:altLabel "giữ chức"@vi, "làm"@vi, "appointed as"@en .
+
+# --- Phần tự đặt: luật của đồ án, khai báo là annotation để không ảnh hưởng suy diễn ---
+:temporal    a owl:AnnotationProperty ; rdfs:comment "Quan hệ bắt buộc có start_time." .
+:exclusiveBy a owl:AnnotationProperty ; rdfs:comment "Tại một thời điểm, mỗi giá trị của vai trò này chỉ có một chủ thể." .
+
+:holds_position :temporal true ; :exclusiveBy :range .
+```
+
+Phần trên `# --- Phần chuẩn` là RDFS và SKOS, công cụ nào đọc RDF cũng hiểu. Phần `# --- Phần tự đặt` là quy ước riêng của đồ án: chuẩn không có khái niệm "loại trừ theo thời gian", nên code của đồ án đọc hai thuộc tính này và tự kiểm tra.
+
+**Bên khác dùng ontology này có gặp vấn đề với thuộc tính tự đặt không [kiến thức chung]?** Không hỏng, nhưng họ chỉ hiểu phần chuẩn:
+- **Không báo lỗi.** Với RDF, thuộc tính lạ chỉ là thêm một bộ ba; công cụ đọc, lưu và ghi lại bình thường (cùng tinh thần "giữ khóa lạ" của OKF, `09` §2).
+- **Họ không thực thi luật.** Công cụ ngoài sẽ bỏ qua `:exclusiveBy`, nên dữ liệu vi phạm luật vẫn được chấp nhận ở phía họ. Luật chỉ có hiệu lực ở nơi có code của đồ án.
+- **Khai báo thuộc tính tự đặt là annotation** (`owl:AnnotationProperty`) như ví dụ. Nếu không khai báo, một số reasoner/công cụ OWL kiểm tra chặt có thể phàn nàn hoặc coi file là OWL Full. Annotation không ảnh hưởng suy diễn.
+- **Đặt trong namespace của mình** (`http://example.org/timemem#` ở trên chỉ là chỗ tạm; khi công bố nên dùng địa chỉ ổn định của nhóm), để tên không đụng với từ vựng của người khác.
+- **Ghi nghĩa bằng `rdfs:comment`** để người ngoài đọc hiểu quy ước, dù máy của họ không thực thi được.
+
+**Ontology (nội dung) khác với cách viết (định dạng).** Ontology là nội dung: có lớp nào, quan hệ nào, luật nào. Turtle/OWL, YAML, OKF là các cách ghi, nhưng không cùng vai trò:
+
+| | Viết được **khuôn** (lớp, quan hệ, luật)? | Viết được **dữ liệu**? | Ngữ nghĩa chuẩn, máy suy diễn? |
+|---|---|---|---|
+| **RDF/RDFS/OWL/SKOS** (Turtle) | Được | Được (bộ ba) | **Có** (phần chuẩn) |
+| **YAML tự đặt** | Được, theo quy ước của mình | Được nhưng nên để ở Neo4j | Không; code của mình thực thi luật |
+| **OKF** | **Không** thực sự: chỉ có chuỗi `type` và link không kiểu | Được (mỗi file một concept) | Không |
+
+Nên: khuôn viết bằng Turtle (phần chuẩn) cộng thuộc tính tự đặt; dữ liệu ở Neo4j và Qdrant; OKF chỉ là lớp xuất. Lưu ý RDF không chỉ là cách trình bày: cú pháp (Turtle, JSON-LD…) mới là cách trình bày, còn RDF/OWL còn có ngữ nghĩa chính thức đi kèm.
+
+**Vì sao không dùng OWL nguyên bản cho cả luật [kiến thức chung, suy luận]:** (1) "một chức một người *tại một thời điểm*" là ràng buộc theo khoảng thời gian, OWL không biểu diễn trực tiếp (phải dùng mô hình 4D §7.9 hoặc SHACL); (2) OWL theo giả định thế giới mở, vi phạm luật không bị báo lỗi (§7.5), muốn báo lỗi phải thêm SHACL; (3) dữ liệu nằm ở Neo4j, không phải kho RDF. Vì vậy chỉ chuẩn hóa phần khai báo, còn luật do code thực thi.
+
+| | Thuần YAML | Turtle (RDFS + SKOS) + thuộc tính tự đặt |
+|---|---|---|
+| Phần khai báo lớp, quan hệ, alias | Tự chế | **Theo chuẩn** |
+| Mở bằng Protégé, vẽ sơ đồ, xuất | Không | **Có** |
+| Luật theo thời gian | Tự đặt, code kiểm tra | Tự đặt (`:exclusiveBy`), code kiểm tra |
+| Chi phí | Thấp nhất | Cao hơn một chút (cú pháp, rdflib) |
+| Người ngoài hiểu | Chỉ qua tài liệu của bạn | Hiểu phần chuẩn, bỏ qua phần tự đặt |
+| Cách gọi trong luận văn | *lightweight ontology/schema* | *lightweight ontology*: chuẩn cho phần khai báo, quy ước riêng cho phần luật |
+
+**"Khả năng trao đổi chuẩn" nghĩa là gì [kiến thức chung].** RDF, OWL, SPARQL và SHACL là các khuyến nghị (Recommendation) của W3C, nghĩa là tài liệu chuẩn mà nhiều công cụ cùng tuân theo (Protégé, Jena, rdflib, GraphDB…). Hệ quả: (a) bên khác nạp file Turtle của bạn bằng công cụ có sẵn, không cần code riêng; (b) dùng lại được từ vựng công cộng (Wikidata, PROV-O, schema.org) bằng IRI. Hai lưu ý: chuẩn chỉ có giá trị nếu *có bên thứ hai thật sự dùng*, mà đồ án khó có, nên lợi ích chủ yếu là để trình bày; và trao đổi chỉ chạy khi hai bên dùng cùng từ vựng, chuẩn cú pháp không tự làm hai bên hiểu giống nhau.
+
+**Ontology và KG lưu ở đâu [suy luận].** Mô hình Boomerang (Qdrant giữ chunk, Neo4j giữ triplet kèm `Chunk_ID`) vẫn giữ nguyên. Ontology **không bắt buộc nằm trong graph database**:
+
+| Phương án | Ontology (khuôn) | KG (dữ liệu) | Nhận xét |
+|---|---|---|---|
+| **A. File + code (đề xuất)** | File Turtle trong repo (đưa vào git), nạp bằng rdflib khi khởi động | Neo4j: nhãn nút và tên cạnh trùng tên lớp và quan hệ trong ontology | Đơn giản nhất; ontology có lịch sử git; code nạp dữ liệu kiểm tra theo ontology |
+| B. File + phản chiếu vào Neo4j | Như A, thêm nút `:Class`, `:RelationType` trong Neo4j | Như A | Tiện truy vấn "graph có loại gì" bằng Cypher; phải đồng bộ hai nơi |
+| C. Lưu ontology trong kho RDF | Triple store (Fuseki, GraphDB) hoặc neosemantics | Neo4j hoặc cùng kho RDF | Đúng chuẩn nhất nhưng nặng, thêm một hệ thống (xem `15`) |
+
+Neo4j không có schema bắt buộc theo ontology, nên việc "ép" khuôn (đúng loại nút, đúng quan hệ, đúng ràng buộc thời gian) do **code nạp dữ liệu** làm, không phải do cơ sở dữ liệu. Qdrant chỉ liên quan ontology qua trường `domain_features.domain` trong payload.
+
+**Cần chuẩn gì cho ontology [kiến thức chung, suy luận].** Không có chuẩn bắt buộc. Mức tối thiểu hợp lý là RDFS và SKOS ghi bằng Turtle (đúng hướng đã chọn). Nên tái dùng từ vựng có sẵn khi nó khớp, thay vì tự đặt: PROV-O cho nguồn gốc (`sources`), OWL-Time cho khái niệm thời gian, qualifier và rank của Wikidata cho mô hình hiệu lực (bảng ánh xạ ở `14` §7). SHACL và OWL chỉ thêm khi có nhu cầu. Trang W3C chưa mở được trong phiên này nên cần đối chiếu nguyên văn trước khi trích dẫn.
+
+**Vì sao không dùng OKF làm nền lưu trữ hay ontology [suy luận từ `09`].** OKF không bị loại hẳn: nó dễ đọc cho người và LLM, rẻ, dùng git được, nên vẫn hợp làm lớp xuất cho agent khác đọc (làm sau cùng nếu còn thời gian). Chỉ ở vai trò *lưu trữ* và *ontology* thì nó chưa đủ:
+
+| Lý do | Mức đúng | Nói chính xác |
+|---|---|---|
+| Còn mới | Đúng | v0.1 ngày 12/06/2026, đã lên v0.2; Google tự nhận sẽ tiến hóa tiếp; bản major mới có thể phá khóa bắt buộc (`09` §7). Mức chấp nhận ngoài hệ sinh thái Google chưa rõ **[chưa kiểm]** |
+| Hạn chế biểu diễn | Đúng | Không có khoảng hiệu lực, không kiểu cạnh, không tách Evolution và Falsehood (`status: deprecated` gộp cả hai), xem `09` §9.1 |
+| Phải tự code nhiều | Đúng một nửa | RDF/OWL cũng không tự xử lý luật theo thời gian của đồ án. Khác biệt thật: RDF có sẵn hạ tầng chung (SPARQL truy vấn, SHACL kiểm tra, công cụ đọc/ghi), OKF thì không có truy vấn hay kiểm tra |
+| Không có chuẩn như RDF | Đúng một nửa | OKF có spec công khai (Apache-2.0, có mục conformance) nhưng là spec của một công ty. RDF/OWL là Recommendation của W3C. Nên nói "chưa phải chuẩn do tổ chức chuẩn hóa ban hành", không nói "không có chuẩn" |
+
+Cách nói trong luận văn: "chưa dùng làm nền vì còn mới và thiếu ngữ nghĩa", không phải "OKF kém".
 
 ## 6. Cách chọn mức cấu trúc (quy tắc kinh nghiệm)
 
@@ -265,19 +399,124 @@ Theo mô tả của Wikipedia, ontology OWL coi dữ liệu là **individuals** 
 | **Ontology** | Lớp, thuộc tính, tiên đề | **Có**, qua reasoner |
 | **Knowledge Graph** | Dữ liệu cụ thể (thực thể thật, quan hệ thật) | Tùy |
 
+### 7.1A. Ontology và Knowledge Graph: khác nhau thế nào
+
+**Cách hiểu "ontology trừu tượng hơn, KG là dữ liệu cụ thể" là đúng ý chính.** Ontology nói *có những loại gì* (Người, Động vật, Tổ chức) và *quan hệ nào được phép giữa chúng*; Knowledge Graph (KG, đồ thị tri thức) chứa *các thực thể cụ thể* (ông A, ông B, Công ty X) và những quan hệ thật giữa chúng.
+
+```mermaid
+flowchart TB
+    subgraph O["Ontology: cái khuôn (các loại và luật)"]
+        DV["Động vật"]
+        NG["Người"] -- "là một loại" --> DV
+        TC["Tổ chức"]
+        NG -- "giữ_chức (quan hệ được phép)" --> TC
+    end
+    subgraph K["Knowledge Graph: dữ liệu cụ thể"]
+        A["ông A"]
+        B["ông B"]
+        X["Công ty X"]
+        A -- "giữ_chức 2005-2007" --> X
+    end
+    A -. "là một" .-> NG
+    B -. "là một" .-> NG
+    X -. "là một" .-> TC
+```
+
+Cách nhớ bằng thứ bạn đã quen:
+
+| Thế giới | Phần "khuôn" (trừu tượng) | Phần "dữ liệu" (cụ thể) |
+|---|---|---|
+| Lập trình hướng đối tượng | `class Person` | `a = Person("ông A")` |
+| Cơ sở dữ liệu quan hệ | `CREATE TABLE` (schema) | các dòng dữ liệu |
+| Ontology và KG | **Ontology** (lớp, quan hệ, luật) | **KG** (cá thể và quan hệ thật) |
+
+**Bốn chỗ cần chỉnh cho đủ ý [kiến thức chung, trừ chỗ có ghi nguồn khác]:**
+
+1. **Ontology không chỉ có "loại".** Ở đây "loại" chính là **class** (lớp): `Người` *là* một class, nên bạn hiểu đúng, ontology chắc chắn có class. Ý chỉnh là ontology còn có **thêm hai thứ nữa ngoài class**: (a) *quan hệ giữa các loại* (property, ví dụ `giữ_chức` nối `Người` với `Chức`), (b) *luật* (axiom, ví dụ "mọi `ChủTịch` là `LãnhĐạo`", "`Người` và `Tổ chức` không trùng nhau"). Nếu chỉ có danh sách class thì đó mới là taxonomy, chưa đủ gọi là ontology (xem bảng cuối 7.1).
+2. **Từ "KG" được dùng theo hai nghĩa.** Nghĩa **hẹp** (như bạn hiểu và như bảng ở 7.1): chỉ *phần dữ liệu cụ thể*. Nghĩa **rộng**: *cả đồ thị*, gồm cả dữ liệu lẫn khuôn ontology. Ví dụ ở Wikidata, cả "Người" (một lớp) lẫn "Obama" (một cá thể) đều là nút trong cùng một đồ thị. Khi đọc bài viết hay tài liệu, nên xem họ đang dùng nghĩa nào.
+3. **Ranh giới "loại" và "cá thể" không tuyệt đối.** Ontology đôi khi chứa vài cá thể cố định (như `Mùa = {xuân, hạ, thu, đông}`), và một thứ có thể vừa là cá thể vừa là lớp của thứ khác (OWL Full cho phép, xem 7.5). Trong logic mô tả hai phần này gọi là **TBox** (khuôn) và **ABox** (dữ liệu), xem 7.1.
+
+**Hỏi: individual nằm trong ontology thì có bị quá chi tiết và thành KG không?** Có thể, và đây đúng là chỗ ranh giới mờ. Quy tắc kinh nghiệm **[suy luận]**: cá thể nào *thuộc về định nghĩa của lĩnh vực*, ít, cố định, không đổi theo dữ liệu thì để trong ontology (4 mùa, các giá trị `Giới tính`, các hạng `Rank` của Wikidata, các loại quan hệ). Cá thể nào *sinh ra từ dữ liệu thật*, nhiều, tăng dần, có thời gian hiệu lực (ông A, ông B, từng nhiệm kỳ) thì thuộc KG. Thử nhanh: **nếu thêm một bài báo mới mà phải thêm cá thể này thì nó là KG; nếu chỉ khi lĩnh vực đổi cách hiểu mới phải thêm thì nó là ontology.** Một ontology nhồi hàng nghìn cá thể thật thì thực chất đã là KG mang tên ontology.
+
+**Hỏi: ABox có bị lẫn với KG không, phân biệt thế nào?** Gần như trùng về *nội dung* nhưng khác về *góc nhìn*:
+
+| | ABox | KG (nghĩa hẹp, phần dữ liệu) |
+|---|---|---|
+| Thuật ngữ của | Logic mô tả, học thuật | Kỹ thuật dữ liệu, ngành công nghiệp |
+| Định nghĩa | Tập khẳng định về cá thể, **luôn tính tương đối với một TBox** | Đồ thị thực thể và quan hệ, **không cần TBox** |
+| Hình dạng | Là các mệnh đề logic (`Người(A)`, `giữ_chức(A, X)`) | Là đồ thị nút-cạnh, có thể thêm thuộc tính, nguồn, embedding |
+| Dùng để | Suy diễn, kiểm tra nhất quán | Lưu, truy vấn, trực quan, nạp cho LLM |
+
+Cách nhớ: **ABox là cách nhìn logic của "dữ liệu"; KG là cách nhìn kỹ thuật của "đồ thị dữ liệu".** Khi KG có ontology đi kèm thì phần dữ liệu của nó *chính là* ABox. Khi không có ontology (như Neo4j của đồ án) thì vẫn gọi được là KG nhưng nói "ABox" thì hơi thừa vì không có TBox để đối chiếu.
+4. **KG không bắt buộc có ontology hình thức.** Một đồ thị Neo4j có nhãn `Người` và cạnh `GIỮ_CHỨC` đã *ngầm* có một cái khuôn, chỉ là chưa được viết thành ontology có tiên đề và suy diễn. Đồ án đang ở mức này (xem §5).
+
 ### 7.2. Chồng chuẩn: cái nào đứng trên cái nào
+
+Sơ đồ dưới đây vẽ **các chuẩn của W3C (World Wide Web Consortium, tổ chức đặt chuẩn web) trong thế giới "web ngữ nghĩa"** (Semantic Web: ý tưởng cho dữ liệu trên web có ý nghĩa mà máy hiểu được) và quan hệ giữa chúng.
 
 ```mermaid
 flowchart BT
-    RDF["RDF<br/>mô hình dữ liệu: bộ ba"] --> RDFS["RDFS<br/>lớp, lớp con, miền giá trị"]
-    RDFS --> OWL["OWL<br/>tiên đề, suy diễn (logic mô tả)"]
-    RDF --> SKOS["SKOS<br/>thesaurus, phân loại"]
-    RDF --> SHACL["SHACL<br/>kiểm tra dữ liệu có đúng dạng"]
-    RDF --> SPARQL["SPARQL<br/>truy vấn (như SQL)"]
-    RDF --> SER["Cú pháp: Turtle, N-Triples,<br/>RDF/XML, JSON-LD, TriG, N-Quads"]
+    subgraph N["Nền"]
+        RDF["RDF<br/>Resource Description Framework<br/>mô hình dữ liệu: bộ ba"]
+    end
+    subgraph T["Mô tả ý nghĩa: khuôn và từ vựng"]
+        RDFS["RDFS<br/>RDF Schema<br/>lớp, lớp con, miền giá trị"]
+        OWL["OWL<br/>Web Ontology Language<br/>tiên đề, suy diễn (logic mô tả)"]
+        SKOS["SKOS<br/>Simple Knowledge Organization System<br/>thesaurus, phân loại"]
+    end
+    subgraph C["Công cụ làm việc với dữ liệu RDF"]
+        SHACL["SHACL<br/>Shapes Constraint Language<br/>kiểm tra dữ liệu có đúng dạng"]
+        SPARQL["SPARQL<br/>SPARQL Protocol and RDF Query Language<br/>truy vấn (như SQL)"]
+        SER["Cú pháp ghi file<br/>Turtle, N-Triples, RDF/XML,<br/>JSON-LD, TriG, N-Quads"]
+    end
+    RDF --> RDFS --> OWL
+    RDF --> SKOS
+    RDF --> SHACL
+    RDF --> SPARQL
+    RDF --> SER
 ```
 
-RDF là nền; mọi thứ khác xây trên nó. Wikipedia mô tả RDF là nền của Semantic Web (web ngữ nghĩa, ý tưởng cho dữ liệu trên web có ý nghĩa mà máy hiểu được) và của các ngôn ngữ ontology RDFS, OWL, SHACL.
+**Cách đọc sơ đồ.** Mũi tên "A → B" nghĩa là *B dựa trên A*, hoặc *B làm việc với dữ liệu viết bằng A*. RDF nằm dưới cùng vì mọi thứ khác đều dựa vào nó. Sơ đồ có hai kiểu quan hệ khác nhau, hay bị coi là cùng một loại:
+- **Chuỗi RDF → RDFS → OWL** là các *tầng ngôn ngữ mô tả ý nghĩa*, tầng sau mạnh hơn và bao gồm tầng trước (còn gọi "semantic web layer cake"). Đây là ba mức để viết "khuôn" (ontology).
+- **SKOS, SHACL, SPARQL, cú pháp ghi file** *không phải tầng cao hơn* mà là các nhánh **ngang hàng**, cùng lấy RDF làm dữ liệu nền: SKOS là một bộ từ vựng nhẹ riêng, SHACL là bộ kiểm tra, SPARQL là ngôn ngữ truy vấn, cú pháp là cách viết ra file.
+
+**Mỗi hộp viết tắt của gì và làm gì:**
+
+| Hộp | Viết tắt của | Làm gì (một câu) | Ví dụ ngắn | Tương đương quen thuộc |
+|---|---|---|---|---|
+| **RDF** | Resource Description Framework (khung mô tả tài nguyên) | Quy định **mọi thông tin là bộ ba** chủ ngữ - vị ngữ - tân ngữ | `(ông A, giữ_chức, Giám đốc)` | JSON: định dạng dữ liệu nền |
+| **RDFS** | RDF Schema (lược đồ cho RDF) | Cho phép khai báo **lớp, lớp con, thuộc tính áp cho loại nào** | "Người là lớp con của Động vật" | Khai báo `class` đơn giản |
+| **OWL** | Web Ontology Language (ngôn ngữ ontology cho web) | Thêm **luật mạnh hơn** để reasoner suy diễn (lớp rời nhau, số lượng, bắc cầu…) | "Mọi Chủ tịch là Lãnh đạo"; "mỗi nhiệm kỳ đúng một người" | Như JSON Schema nhưng có suy diễn |
+| **SKOS** | Simple Knowledge Organization System (hệ thống tổ chức tri thức đơn giản) | Mô tả **thesaurus và phân loại** nhẹ: khái niệm, rộng hơn, hẹp hơn, nhãn | "Chứng khoán" hẹp hơn "Kinh tế" | Cây danh mục chủ đề |
+| **SHACL** | Shapes Constraint Language (ngôn ngữ ràng buộc theo "hình dạng") | **Kiểm tra** dữ liệu có đúng dạng mong muốn không, báo lỗi nếu sai | "Mọi nhiệm kỳ phải có ngày bắt đầu" | Bộ validator, như kiểm tra schema |
+| **SPARQL** | SPARQL Protocol and RDF Query Language (tên đệ quy: chữ S đầu là chính SPARQL) | **Truy vấn** dữ liệu RDF | `SELECT ?chức WHERE {...}` | SQL |
+| **Cú pháp** | — | **Cách viết** cùng một dữ liệu RDF ra file | Turtle dễ đọc; N-Triples mỗi dòng một bộ ba; JSON-LD dựa trên JSON | `.json` hay `.yaml`: cùng dữ liệu, khác cách ghi |
+
+Về các tên cú pháp: **Turtle** thường được giải nghĩa là *Terse RDF Triple Language* (ngôn ngữ bộ ba RDF ngắn gọn) **[kiến thức chung]**; **N-Triples** và **N-Quads** là dạng đơn giản nhất, mỗi dòng một bộ ba (hoặc bốn thành phần: thêm tên đồ thị); **RDF/XML** là chuẩn W3C đầu tiên, viết bằng XML; **JSON-LD** (JSON for Linking Data, theo cách giải nghĩa thông dụng **[kiến thức chung]**) dùng JSON; **TriG** là Turtle mở rộng để ghi nhiều đồ thị có tên. Chi tiết ở 7.3.
+
+**Điều rút ra cho việc chọn:** RDFS đã đủ để viết một ontology rất đơn giản (lớp, lớp con); chỉ cần OWL khi cần *suy diễn* hoặc ràng buộc phức tạp; SKOS khi chỉ cần chuẩn hóa nhãn và phân cấp chủ đề; SHACL khi cần *kiểm tra lỗi dữ liệu*. Wikipedia mô tả RDF là nền của Semantic Web và của các ngôn ngữ ontology RDFS, OWL, SHACL.
+
+**Hỏi: có phải dùng hết các hộp không, hay chúng thay thế nhau?** Không dùng hết, và cũng không hẳn thay thế nhau. Chia làm ba nhóm:
+
+| Nhóm | Gồm | Quan hệ | Cách chọn |
+|---|---|---|---|
+| **Bắt buộc** | RDF (+ một cú pháp để ghi) | Là nền; có RDF thì phải có một cú pháp | Luôn có nếu đi theo hướng này |
+| **Chọn một mức** để mô tả khuôn | RDFS → OWL | *Cùng mục đích, mạnh dần, OWL bao gồm RDFS.* Không cần dùng "cả hai", chỉ cần chọn mức đủ dùng. RDFS: lớp, lớp con, miền giá trị. OWL: thêm luật để suy diễn | Chỉ cần khai báo "có loại nào, quan hệ nào" thì RDFS; cần suy diễn hoặc ràng buộc phức tạp thì OWL |
+| **Thêm khi cần**, độc lập nhau | SKOS, SHACL, SPARQL | *Làm việc khác nhau, không thay thế nhau.* SKOS: tổ chức chủ đề. SHACL: kiểm tra lỗi dữ liệu. SPARQL: truy vấn | Cần lấy dữ liệu ra thì SPARQL (gần như luôn cần); cần kiểm tra khi nạp thì SHACL; cần phân loại chủ đề thì SKOS |
+
+Ví dụ một dự án điển hình: RDF + Turtle + RDFS (khuôn) + SPARQL (truy vấn) + SHACL (kiểm tra) là đủ; OWL và SKOS chỉ thêm nếu có nhu cầu riêng. Với đồ án, nếu theo hướng này thì chỉ mượn RDF (bộ ba) và có thể SHACL, còn OWL gần như không cần (xem §5).
+
+**Hỏi: có framework nào làm được hết và phổ biến không, hay phải ghép thư viện?** Không có một công cụ duy nhất làm *tốt nhất mọi thứ*, nhưng có những **bộ công cụ trọn gói** đủ dùng **[kiến thức chung, chưa kiểm phiên bản]**:
+
+| Công cụ | Ngôn ngữ | Làm được | Ghi chú |
+|---|---|---|---|
+| **Apache Jena** | Java | Đọc/ghi mọi cú pháp RDF, lưu trữ (TDB), SPARQL (ARQ), suy diễn RDFS/OWL bằng luật, SHACL, máy chủ SPARQL (Fuseki) | Gần với "trọn gói" nhất, phổ biến trong học thuật và công nghiệp |
+| **Eclipse RDF4J** | Java | Tương tự Jena: kho lưu trữ, SPARQL, SHACL, suy diễn RDFS | Hay dùng làm nền cho GraphDB |
+| **GraphDB, Stardog, Virtuoso** | (cơ sở dữ liệu) | Kho bộ ba kèm SPARQL, suy diễn, SHACL, giao diện quản trị | Có bản thương mại; cài bằng Docker, xem file 15 |
+| **rdflib + pySHACL + owlready2** | Python | Ghép ba thư viện: rdflib (RDF, cú pháp, SPARQL), pySHACL (SHACL), owlready2 (OWL + reasoner) | Phải tự ghép nhưng cùng ngôn ngữ với đồ án; đủ cho thử nghiệm nhỏ |
+| **Protégé** | Java, có giao diện | Soạn ontology bằng giao diện, gắn reasoner | Công cụ *soạn thảo*, không phải thư viện lập trình |
+
+SKOS **không cần thư viện riêng**: nó chỉ là một bộ từ vựng (các tên như `skos:broader`), bạn viết dữ liệu RDF dùng các tên đó. Với đồ án dùng Python, lựa chọn thực tế là **rdflib** (kèm pySHACL nếu cần kiểm tra); Jena chỉ đáng cân nhắc nếu muốn một máy chủ SPARQL chạy riêng.
 
 ### 7.3. RDF: mô hình dữ liệu
 
@@ -304,6 +543,17 @@ RDF là "một phương pháp mô tả và trao đổi dữ liệu đồ thị",
 | **TriG** | Turtle mở rộng, thêm đồ thị đặt tên |
 | **N-Quads** | N-Triples mở rộng, mỗi dòng có thêm tên đồ thị |
 | **N3 (Notation3)** | Thêm cả luật suy diễn |
+
+**Hỏi: các khái niệm trên (triple, IRI, literal, blank node, prefix) có dùng cho mọi cú pháp không?** Phần lớn có, nhưng cần tách hai tầng **[kiến thức chung]**: *mô hình* (các khái niệm) và *cú pháp* (cách viết). Triple, IRI, literal, blank node thuộc **mô hình**, nên *mọi* cú pháp đều biểu diễn được, chỉ khác cách viết. Prefix và named graph thì khác:
+
+| Khái niệm | Turtle | N-Triples | RDF/XML | JSON-LD | TriG | N-Quads |
+|---|---|---|---|---|---|---|
+| Triple, IRI, literal | có | có | có | có | có | có |
+| Blank node | có (`_:b1` hoặc `[ ]`) | có (`_:b1`) | có | có | có | có |
+| Prefix | `@prefix` | **không**, luôn viết IRI đầy đủ | `xmlns` | `@context` | `@prefix` | **không** |
+| Named graph | không | không | không | có (`@graph`) | **có** | **có** |
+
+Hai điều cần nhớ: (1) *Prefix chỉ là tiện lợi khi viết*, không thuộc mô hình; N-Triples cố ý bỏ nó để dễ phân tích bằng chương trình. (2) *Named graph không thuộc RDF cơ bản* (một đồ thị chỉ có bộ ba); nó thuộc **RDF dataset**, nên chỉ các cú pháp có chỗ ghi tên đồ thị (TriG, N-Quads, JSON-LD) mới biểu diễn được. Vì vậy nếu cần gắn thông tin chung cho một nhóm bộ ba (nguồn, thời hạn), phải chọn cú pháp thuộc nhóm đó.
 
 Ví dụ Turtle có kiểu dữ liệu và nhãn ngôn ngữ:
 
@@ -379,6 +629,18 @@ OWL 2 tương ứng logic mô tả **SROIQ(D)**. Các chữ cái là các tính 
 ### 7.6. SKOS: thesaurus và phân loại
 
 **[kiến thức chung]** SKOS (Simple Knowledge Organization System) là chuẩn W3C để mô tả thesaurus, bảng phân loại, danh mục chủ đề, **nhẹ hơn nhiều so với OWL**. Gồm: `skos:Concept` (khái niệm), `skos:prefLabel` và `skos:altLabel` (nhãn chính và nhãn thay thế, đa ngôn ngữ), `skos:broader`/`skos:narrower` (rộng hơn/hẹp hơn), `skos:related` (liên quan), `skos:ConceptScheme` (một bộ khái niệm). SKOS *không có suy diễn mạnh*; dùng khi chỉ cần chuẩn hóa nhãn và phân cấp chủ đề (ví dụ phân loại tin tức), không cần tiên đề.
+
+**Thesaurus là gì [kiến thức chung].** Là một *bộ từ vựng có kiểm soát kèm quan hệ giữa các từ*, thường dùng ở thư viện và kho tài liệu để gán chủ đề nhất quán. Mỗi mục có: **nhãn chính** (từ được chọn dùng), **nhãn thay thế** (từ đồng nghĩa dẫn về nhãn chính), **rộng hơn** (BT, broader term), **hẹp hơn** (NT, narrower term), **liên quan** (RT, related term). Ví dụ:
+
+```text
+Chứng khoán            (nhãn chính)
+  nhãn thay thế: Securities, Chứng khoán niêm yết
+  rộng hơn:  Tài chính
+  hẹp hơn:   Cổ phiếu, Trái phiếu
+  liên quan: Sàn giao dịch
+```
+
+Khác ontology ở chỗ: "hẹp hơn" chỉ nghĩa là *thuộc chủ đề con*, **không bắt buộc là "một loại của"** (ví dụ "Tay" hẹp hơn "Cơ thể" nhưng tay không phải một loại cơ thể), và thesaurus không có luật để suy diễn. Mục đích của nó là *tìm kiếm và gắn nhãn*, không phải *suy luận*.
 
 ### 7.7. SHACL: kiểm tra dữ liệu đúng dạng
 

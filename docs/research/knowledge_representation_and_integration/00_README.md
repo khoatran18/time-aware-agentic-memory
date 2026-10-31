@@ -3,21 +3,22 @@
 > Thư mục này trả lời một câu hỏi **ngoài 3 cơ chế lõi** của đồ án (Cơ chế 1: Temporal Retrieval, tìm thông tin đúng tại một mốc thời gian; Cơ chế 2: Timeline Summarization, tóm tắt diễn biến theo thời gian; Cơ chế 3: Conflict Resolution, xử lý thông tin mâu thuẫn): *tri thức time-aware (có nhận biết thời gian: biết thông tin nào đúng vào lúc nào) nên được **biểu diễn** ở dạng nào (không quá mịn như ontology, tức bản mô tả hình thức các loại thực thể và quan hệ được phép có, ví dụ "Người làm_việc_tại Tổ chức") và **đưa cho agent (chương trình dùng LLM để tự lập kế hoạch và gọi công cụ)** (Claude, ChatGPT, agent tự viết) bằng cách nào?*
 > **Đọc `11` trước** nếu chỉ có ít thời gian: đó là bản tổng hợp, phân biệt và ý nghĩa cho từng cơ chế.
 
+> Lưu ý đánh số: không còn file `02` (ghi chú OKF v0.1 cũ đã gộp vào `09`) và `04` (tổng quan agent memory đã gộp vào `11`), giữ nguyên số các file khác để các tham chiếu `07`, `09`... không bị lệch.
+
 ## Thứ tự đọc
 
 | File | Nội dung | Nguồn đã đọc |
 |---|---|---|
+| [`16_Ontology_and_Ingestion_Decisions.md`](16_Ontology_and_Ingestion_Decisions.md) | **Tóm tắt quyết định** về ontology nhẹ, quy trình nạp quan hệ, MCP, câu hỏi mở và bước tiếp theo (đọc đầu tiên nếu muốn nhớ nhanh) | Tổng hợp từ các file trong thư mục |
 | [`11_Synthesis_and_Comparison.md`](11_Synthesis_and_Comparison.md) | **Tổng hợp**: 4 lớp, bảng phân biệt hệ thống, giúp gì cho Cơ chế 1/2/3, đề xuất schema | Tổng hợp `01`–`10` |
 | [`01_Knowledge_Representation_Spectrum.md`](01_Knowledge_Representation_Spectrum.md) | Phổ biểu diễn: ontology → KG (Knowledge Graph, đồ thị tri thức: nút là thực thể, cạnh là quan hệ giữa chúng) → KG node-văn xuôi → wiki → chunk (một đoạn văn bản được cắt ra để lưu và tìm kiếm) phẳng | Kiến thức chung |
-| [`02_Open_Knowledge_Format_OKF.md`](02_Open_Knowledge_Format_OKF.md) | OKF (Open Knowledge Format, định dạng mở lưu tri thức thành thư mục file markdown, mỗi file có một khối YAML là phần khai báo "khóa: giá trị" ở đầu) bản v0.1 (**đã cũ**, xem `09`) | Tin tức, trang Google Cloud |
 | [`03_Graph_vs_Vector_vs_Wiki.md`](03_Graph_vs_Vector_vs_Wiki.md) | Temporal retrieval (tìm theo mốc thời gian) có cần graph (đồ thị) không; 4 phương án | Preprint + blog |
-| [`04_Agent_Memory_Systems.md`](04_Agent_Memory_Systems.md) | Bảng tra nhanh các hệ thống "trí nhớ cho agent"; Letta, A-Mem chưa đọc gốc | Search |
 | [`05_MCP_and_Agent_Tooling.md`](05_MCP_and_Agent_Tooling.md) | **Kiến thức nền** về MCP (Model Context Protocol, giao thức chuẩn để ứng dụng AI gọi công cụ và dữ liệu của một server bên ngoài) (bản 2026-07-28), Claude/ChatGPT, SDK (Software Development Kit, bộ thư viện lập trình) | Changelog MCP; ChatGPT từ nguồn thứ cấp |
 | [`12_Chatbot_vs_MCP_Server_Multi_LLM.md`](12_Chatbot_vs_MCP_Server_Multi_LLM.md) | **Hướng triển khai đồ án**: chatbot vs MCP server, chạy đa LLM (Large Language Model, mô hình ngôn ngữ lớn như Claude, GPT, Gemini) (Claude, OpenAI, Gemini, model mở), thiết kế tool (công cụ hay hàm mà LLM được phép gọi), bảo mật, đánh giá | Docs OpenAI, LiteLLM, mcpo, MCP security (đã mở); phần còn lại thứ cấp |
 | [`06_Applicability_to_Thesis.md`](06_Applicability_to_Thesis.md) | Khuyến nghị, OKF profile nháp, kế hoạch thử, câu hỏi mở | Suy luận |
 | [`07_Zep_Graphiti_Temporal_KG.md`](07_Zep_Graphiti_Temporal_KG.md) | Paper Zep: KG (đồ thị tri thức) bi-temporal (theo dõi hai trục thời gian: lúc sự việc đúng ngoài đời và lúc hệ thống biết về nó), so với các bất biến (quy tắc bắt buộc luôn đúng) của đồ án | **Paper (PDF)** + mã Graphiti (nhãn riêng) |
 | [`08_Mem0_Agent_Memory.md`](08_Mem0_Agent_Memory.md) | Paper Mem0/Mem0^g, bảng số LoCoMo (Long-term Conversational Memory, bộ benchmark hội thoại dài để đo trí nhớ của agent) | **Paper (PDF)** |
-| [`09_OKF_v0.2_Spec.md`](09_OKF_v0.2_Spec.md) | Đặc tả OKF v0.2 | `SPEC.md` (qua WebFetch, bản diễn giải) |
+| [`09_OKF_v0.2_Spec.md`](09_OKF_v0.2_Spec.md) | Đặc tả OKF v0.2, so với v0.1, ưu nhược (đã gộp ghi chú v0.1 cũ) | `SPEC.md` (qua WebFetch, bản diễn giải) |
 | [`10_Karpathy_LLM_Wiki.md`](10_Karpathy_LLM_Wiki.md) | Gist LLM Wiki: 3 lớp, ingest (nạp tài liệu vào hệ thống)/query/lint (kiểm tra định kỳ để tìm lỗi và mâu thuẫn) | Gist (qua WebFetch, bản diễn giải) |
 | [`14_Ontology_and_Temporal_Representation.md`](14_Ontology_and_Temporal_Representation.md) | **Ontology**: phân biệt với taxonomy (cây phân loại, ví dụ Động vật → Có vú → Mèo) và KG, cách biểu diễn thời gian (reification: biến một quan hệ thành một nút để gắn thêm thông tin như ngày; 4D fluents: tách mỗi "phiên bản theo thời gian" của sự vật thành nút riêng; RDF-star: gắn thông tin lên chính một bộ ba; qualifier + rank của Wikidata: thuộc tính phụ và mức ưu tiên của mỗi giá trị), OWL-Time và PROV-O (hai chuẩn của W3C: một để mô tả thời gian, một để mô tả nguồn gốc dữ liệu), ontology pháp luật, ánh xạ trường của đồ án ↔ chuẩn | Wikidata Help, arXiv 2506.07853 (đã mở); W3C bị chặn 403 nên thứ cấp |
 | [`15_Storage_and_Deployment_per_Approach.md`](15_Storage_and_Deployment_per_Approach.md) | **Lưu trữ và Docker** cho từng cách biểu diễn: triple store, graph database, vector database, file + git; giấy phép, cổng, cách lọc thời gian; phương án gộp vào Postgres; mẫu Docker Compose | Tài liệu chính thức Qdrant, Neo4j, GraphDB, Oxigraph, Fuseki, AGE, pgvector, Memgraph (đã mở); còn lại thứ cấp |
@@ -30,7 +31,7 @@
 
 - `07`, `08` đọc từ PDF paper. `09`, `10` đọc qua WebFetch (công cụ tải trang web, rồi một model nhỏ tóm tắt lại), nên tên khóa/enum (danh sách giá trị cố định cho phép) đáng tin hơn câu chữ.
 - `SPEC.md` là file đặc tả (tài liệu mô tả chính thức) của một định dạng; gist là một đoạn ghi chú ngắn đăng trên GitHub Gist.
-- `01`–`06` viết trước, chủ yếu từ blog/tin tức; nhãn **[blog]**, **[chưa kiểm]**, **[suy luận]** đánh dấu chỗ chưa chắc. Letta và A-Mem chưa đọc paper.
+- `01`–`06` viết trước, chủ yếu từ blog/tin tức; nhãn **[blog]**, **[chưa kiểm]**, **[suy luận]** đánh dấu chỗ chưa chắc. Letta và A-Mem chưa đọc paper (tóm tắt ở `11` §2.1). Không còn file `04` (đã gộp vào `11`).
 - Số benchmark của Zep/Mem0 mâu thuẫn giữa các bên chạy (`08` §4.4); không dùng làm bằng chứng xếp hạng.
 - MCP và chính sách connector (kết nối để chatbot dùng dịch vụ bên ngoài, ví dụ một MCP server) Claude/ChatGPT đổi nhanh; kiểm tra tài liệu chính thức trước khi chốt (`05`).
 

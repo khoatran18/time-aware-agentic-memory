@@ -82,6 +82,17 @@ Ba chỗ mà kết luận nghe xuôi tai nhưng cần cẩn thận:
 2. **`invalid_at` (Zep) không bằng `invalidated_at` (đồ án).** `invalid_at` của Zep tương đương `end_time` của đồ án (cạnh từng đúng, hết đúng từ lúc cạnh mới xuất hiện). Với một bản tin đính chính "sai từ đầu", Zep ghi lại thành "từng đúng", nên truy vấn lịch sử không có cảnh báo (phân tích ở `07` §5.2).
 3. **Số benchmark không chuyển đổi được.** Ba benchmark mà Zep/Mem0 báo cáo là hội thoại cá nhân: LoCoMo (Long-term Conversational Memory, hội thoại dài để đo trí nhớ của agent), LongMemEval (đo trí nhớ dài hạn của chatbot qua nhiều phiên hội thoại) và DMR (Deep Memory Retrieval, bộ câu hỏi hội thoại để đo trí nhớ của agent). Đồ án dùng TimeQA (bộ câu hỏi về sự việc thay đổi theo thời gian) và tri thức dạng Wikipedia. Số của Zep/Mem0 không đưa vào bảng kết quả luận văn.
 
+### 2.1. Letta và A-Mem (chưa đọc paper gốc)
+
+Hai hệ thống này chưa được đọc từ nguồn gốc; chi tiết lấy từ bảng related work của paper Mem0 (`08` §5), độ tin cậy là **[thứ cấp]**.
+
+| Hệ thống | Biểu diễn | Thời gian | Mâu thuẫn | Liên quan đồ án |
+|---|---|---|---|---|
+| **Letta (MemGPT)** | Ngữ cảnh LLM như bộ nhớ ảo: `core` (luôn trong ngữ cảnh), `archival` (kho dài hạn), `recall` (lịch sử hội thoại) | Không có mô hình thời gian hiệu lực riêng **[chưa kiểm]** | Agent tự sửa bộ nhớ qua tool | Thấp: giải bài toán quản lý cửa sổ ngữ cảnh, không phải tri thức đổi theo thời gian |
+| **A-Mem** | Ghi chú kiểu Zettelkasten (thẻ nhỏ, mỗi thẻ một ý, liên kết nhau) tự liên kết và tiến hóa | Hạn chế **[chưa kiểm]** | Ghi chú cũ được tinh chỉnh khi có ghi chú mới (nghĩa là ghi đè, không giữ lịch sử) | Thấp; cùng loại hạn chế với Mem0 |
+
+Nguồn: [letta-ai/letta](https://github.com/letta-ai/letta) (chưa mở repo); A-Mem chưa tìm được link gốc trong phiên này; so sánh của vendor (thứ cấp, số liệu mâu thuẫn): [Mem0 vs Letta](https://mem0.ai/compare/mem0-vs-letta), [vectorize.io](https://vectorize.io/articles/mem0-vs-letta). Membox ([arXiv 2601.03785](https://arxiv.org/abs/2601.03785)) chạy lại các hệ thống để so sánh.
+
 ## 3. Các phân biệt khái niệm cần giữ
 
 | Cặp dễ nhầm | Phân biệt |
