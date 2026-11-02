@@ -1,5 +1,8 @@
 # Ghi chú benchmark: TempRetriever (arXiv 2502.21024)
 
+> **Đính chính (2026-10-31):** sau khi tải test, chỉ 1,272/24,084 câu (5.3%) có năm trong câu hỏi; khoảng 95% không có mốc `T_req`. Vì vậy bộ này **không hợp làm bộ chính cho Cơ chế 1**, chỉ là bộ phụ yếu. Mục 0 và mục 6 bên dưới viết trước khi kiểm, đọc kèm đính chính này. Xem `../01_SUMMARY_BY_MECHANISM.md` mục 5.
+
+
 Ghi chú này phục vụ việc chọn benchmark để so sánh với các hệ thống đã công bố. Trọng tâm là cặp dữ liệu ChroniclingAmericaQA + ArchivalQA và số baseline của bài; phương pháp TempRetriever chỉ tóm tắt ngắn.
 
 ## 0. Kết luận so sánh được không
