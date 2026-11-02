@@ -25,7 +25,7 @@
 Ba tổ hợp được đánh giá: base queries trên base corpus; base queries trên updated corpus (base + 2024, kiểm tra không bị nhiễu khi thêm dữ liệu); new queries trên updated corpus (câu hỏi về năm 2024).
 
 ### 2.3 Câu hỏi
-- **Câu cụ thể (specific, multi-hop):** 1,005 câu (Table II và Mục IV). Mục V-A ghi 1,105, nhưng 656 + 349 = 1,005 và các cách chia bên dưới đều cộng ra 1,005, nên 1,105 gần chắc là lỗi in; vẫn nên đối chiếu với file dữ liệu thật.
+- **Câu cụ thể (specific, multi-hop):** 1,005 câu (Table II và Mục IV). Mục V-A ghi 1,105: đó là **tổng câu cụ thể và câu trừu tượng** (1,005 + 100). Đã kiểm file dữ liệu thật (2026-11-01): `local_base` 656 + `local_new` 349 = 1,005 câu cụ thể; `global_base` 72 + `global_new` 28 = 100 câu trừu tượng; tổng 1,105. Không phải lỗi in.
   - Theo phạm vi thời gian: 483 single-time (một mốc), 321 multi-time (nhiều mốc/khoảng), 201 relative-time (thời gian tương đối, ví dụ "năm ngoái so với quý trước", cần phân giải về mốc tuyệt đối).
   - Theo loại suy luận: 282 comparison (so sánh), 462 enumeration (liệt kê), 261 unanswerable (không có đáp án trong corpus; hệ thống đúng là từ chối).
 - **Câu trừu tượng (abstract):** 100 câu, 43 single-time, 57 multi-time. Không có đáp án chuẩn; chấm bằng so sánh cặp.

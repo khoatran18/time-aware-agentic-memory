@@ -1,6 +1,6 @@
 # Benchmark: ADQAB (đi kèm TA-RAG, 2507.22917)
 
-Ghi chú này chỉ nói về **bộ dữ liệu và cách đo** để quyết định có dùng ADQAB làm benchmark so sánh hay không. Phần phương pháp TA-RAG (trích thời gian, Timeline Summary, truy xuất) đã có ở [`02_TA_RAG_Diachronic.md`](../../timeline_summarization/02_TA_RAG_Diachronic.md), không lặp lại ở đây.
+Ghi chú này chỉ nói về **bộ dữ liệu và cách đo** để quyết định có dùng ADQAB làm benchmark so sánh hay không. Phần phương pháp TA-RAG (tách câu hỏi, trích khoảng thời gian cho từng chunk, lọc theo khoảng giao, xếp theo ngữ nghĩa; không có bước tóm tắt timeline bằng LLM) đã có ở [`02_TA_RAG_Diachronic.md`](../../timeline_summarization/02_TA_RAG_Diachronic.md), không lặp lại ở đây.
 
 ## 1. Thông tin chung & Tài nguyên
 
