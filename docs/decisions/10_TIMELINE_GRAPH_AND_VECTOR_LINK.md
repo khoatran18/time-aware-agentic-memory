@@ -345,3 +345,4 @@ Xây graph bắt buộc có LLM trích (quan hệ và giá trị không thể t�
 - Số liệu và cách đo: [`../eval/06_WIKI_REVISION_CRAWL.md`](../eval/06_WIKI_REVISION_CRAWL.md).
 - Dữ liệu đo, chỉ số và đầu ra cuối của Cơ chế 2: [`../eval/08_TIMELINE_EVAL_DESIGN.md`](../eval/08_TIMELINE_EVAL_DESIGN.md).
 - Đề xuất "một chunk nhiều khoảng" của Cơ chế 1: [`06`](06_END_UNKNOWN_REMEDIES.md) đề xuất 3, [`07`](07_RANKING_AND_TIME_RANGE_PROPOSALS.md) đề xuất 8.
+- Điểm chưa khớp với `09` về Evolution và Falsehood (nhãn phân loại, hành động `modify`/`delete`, cạnh `SUPERSEDES`/`CORRECTS`): xem [`11_EVOLUTION_FALSEHOOD_ALIGNMENT.md`](11_EVOLUTION_FALSEHOOD_ALIGNMENT.md).

@@ -189,3 +189,4 @@ Kỳ vọng: độ chính xác gần ngang replace-all (replace-all chỉ mất 
 - Metric `Temporal Freshness` đặt ở `metrics_conflict.py` (chưa có); đo được chỉ ở Cơ chế 3, không đo được ở Cơ chế 1 và 2.
 - Ảnh hưởng tới phiếu giao nhiệm vụ: bỏ "xử lý xung đột đa nguồn", ghi "Evolution và Falsehood" ở Cơ chế 3.
 - Scope: `docs/scope/01_PROJECT_SCOPE.md` (mục 1 và 2); kế hoạch: `docs/planning/00_OVERALL_PLAN.md`.
+- Điểm chưa khớp với `10` về Evolution và Falsehood (dùng chung `invalidated_at`, hành động trên nút): xem [`11_EVOLUTION_FALSEHOOD_ALIGNMENT.md`](11_EVOLUTION_FALSEHOOD_ALIGNMENT.md).
