@@ -1,5 +1,11 @@
 # Benchmark để so sánh hệ thống Time-Aware Agentic Memory
 
+> Tổng kết theo từng cơ chế (tìm được gì, vì sao loại các bài khác, chỉ số đo thêm được gì): [`01_SUMMARY_BY_MECHANISM.md`](01_SUMMARY_BY_MECHANISM.md).
+>
+> Sơ đồ bên trong các phương pháp có thể tái dựng (MRAG, DyG-RAG, TG-RAG, TA-RAG, VersionRAG, LongMemEval): [`02_REPRODUCIBLE_METHODS.md`](02_REPRODUCIBLE_METHODS.md).
+>
+> Kế hoạch đánh giá (mỗi cơ chế chạy bộ nào, so phương pháp nào, đo chỉ số nào): [`03_EVALUATION_PLAN_BY_MECHANISM.md`](03_EVALUATION_PLAN_BY_MECHANISM.md).
+
 > Thư mục này trả lời một câu hỏi: **chạy hệ thống của đồ án trên bộ dữ liệu công khai nào để so sánh với các bài đã công bố**, cho từng cơ chế. Mỗi file là một bài báo cùng bộ dữ liệu của nó: nguồn, quy mô, chỉ số đo, baseline có số, ưu nhược, cách ánh xạ vào hệ thống của đồ án. Cách chọn: ưu tiên tiếng Anh, quy mô vừa phải (loại bộ quá lớn như ComplexTempQA 100 triệu câu), có baseline với số công bố, và phản ánh đúng cơ chế.
 >
 > Ghi ngày 2026-10-30. Cơ chế 1 = Temporal Retrieval (câu hỏi tại một mốc), Cơ chế 2 = Timeline Summarization (diễn biến theo thời gian), Cơ chế 3 = Conflict Resolution (thông tin mới đè thông tin cũ, hoặc tin sai).
@@ -49,7 +55,7 @@ Tải thật từ GitHub/Hugging Face, mở ra đếm; chưa chạy LLM. Bộ n�
 
 ## Bao phủ và chỗ hở
 
-- **Cơ chế 1:** có TempRAGEval (gold chunk, nhưng phải thu hẹp kho 33.1M), DyG-RAG/TimeQA, TEMPO, TempRetriever (ChroniclingAmericaQA).
+- **Cơ chế 1:** có TempRAGEval (gold chunk, nhưng phải thu hẹp kho 33.1M), DyG-RAG/TimeQA, TEMPO; ChroniclingAmericaQA chỉ là bộ phụ yếu (khoảng 95% câu không có mốc thời gian).
 - **Cơ chế 2:** TLQA là bộ gần nhất với "lịch sử một thực thể" mà đã kiểm tải được. `timeline_gold` tự dựng từ TimeQA (`docs/eval/08_TIMELINE_EVAL_DESIGN.md`) vẫn là bộ chính; ECT-QA, ADQAB làm phụ.
 - **Cơ chế 3:** HoH (có mốc thời gian cũ/mới), FactConsolidation, LongMemEval là ba bộ tải được và có baseline. Chưa bộ nào đo `end_time` (Evolution) cùng `invalidated_at` (Falsehood) như thiết kế.
 - **Xung đột về nguồn: không làm.** Phạm vi Cơ chế 3 chỉ gồm xung đột thời gian (Evolution). Đã tìm và kiểm: chưa có bộ công khai tiếng Anh nào dùng độ tin cậy nguồn làm yếu tố quyết định đáp án; bộ gần nhất (CONFACT, ConfRAG) đã bị loại khỏi folder. Có thể nêu như hướng mở trong luận văn.
@@ -59,7 +65,7 @@ Tải thật từ GitHub/Hugging Face, mở ra đếm; chưa chạy LLM. Bộ n�
 
 | Cơ chế | Bộ chính | Bộ phụ |
 |---|---|---|
-| 1 | TempRAGEval (kho thu hẹp, đo `hit@k` trên gold chunk), ChroniclingAmericaQA | DyG-RAG/TimeQA, TEMPO |
+| 1 | TempRAGEval (kho thu hẹp, đo `hit@k` trên gold chunk) | DyG-RAG/TimeQA, TEMPO, ChroniclingAmericaQA (chỉ 1,272 câu có năm) |
 | 2 | `timeline_gold` tự dựng, TLQA | ECT-QA, ADQAB |
 | 3 | HoH, FactConsolidation, LongMemEval phần `knowledge-update` | VersionQA |
 
