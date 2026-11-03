@@ -1,0 +1,2260 @@
+{
+ "name": "capability_probe_tune",
+ "seed": null,
+ "group_by": "type",
+ "n_cases": 100,
+ "page_ids": [
+  "/wiki/ACS_Poli_Timișoara",
+  "/wiki/Air_Component_Command",
+  "/wiki/Allsång_på_Skansen",
+  "/wiki/Antonio_Razzi",
+  "/wiki/Atlanta_Dream",
+  "/wiki/August_Maus",
+  "/wiki/Bill_Goldberg",
+  "/wiki/Central_European_University",
+  "/wiki/Charles_Holden",
+  "/wiki/D_(band)",
+  "/wiki/Daniel_M._Fleetwood",
+  "/wiki/David_Hasselhoff",
+  "/wiki/Eliot_Engel",
+  "/wiki/Federal_Office_for_Migration_and_Refugees",
+  "/wiki/First_Things",
+  "/wiki/GMMTV",
+  "/wiki/Game_Grumps",
+  "/wiki/Humberto_De_la_Calle",
+  "/wiki/Jacqueline_Cochran",
+  "/wiki/Jean_Lassalle",
+  "/wiki/John_Mann,_Baron_Mann",
+  "/wiki/Josep_Rull",
+  "/wiki/Karlsøy",
+  "/wiki/Malvik",
+  "/wiki/Meet_the_Press",
+  "/wiki/Mike_Lee_(American_politician)",
+  "/wiki/Milan_Metro_Line_3",
+  "/wiki/Panair_do_Brasil",
+  "/wiki/Quelli_che..._il_Calcio",
+  "/wiki/Ralph_Lauren_Corporation",
+  "/wiki/Republic_of_Cospaia",
+  "/wiki/Sergey_Sirotkin_(racing_driver)",
+  "/wiki/Stefan_Heße",
+  "/wiki/Technical_University_Leuna-Merseburg",
+  "/wiki/Telekids",
+  "/wiki/The_Mercury_News",
+  "/wiki/The_News_Quiz",
+  "/wiki/The_One_Show",
+  "/wiki/Tryggve_Gran",
+  "/wiki/Vindobona_(train)",
+  "/wiki/Vologda",
+  "/wiki/Washington_Spirit",
+  "/wiki/Werner_Hartmann",
+  "/wiki/Wetten,_dass..?",
+  "/wiki/William_D._Leahy",
+  "/wiki/World_Union_for_Progressive_Judaism"
+ ],
+ "note": "100 câu viết tay trên 46 trang tune (decisions/11 mục 1.3); kho tam_chunks_dev_tune; t_now cố định 2026-11-03; time_start/time_end chỉ là năm tham chiếu",
+ "cases": [
+  {
+   "idx": "tp_001",
+   "page_id": "/wiki/Ralph_Lauren_Corporation",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who did Ralph Lauren choose as its new CEO on 17 May 2017?",
+   "question_easy": "Who did Ralph Lauren choose as its new CEO on 17 May 2017?",
+   "targets": [
+    "Patric"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Ralph_Lauren_Corporation#11"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_002",
+   "page_id": "/wiki/Atlanta_Dream",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who was hired on 27 November 2007 to lead the new Atlanta WNBA club from the sidelines?",
+   "question_easy": "Who was hired on 27 November 2007 to lead the new Atlanta WNBA club from the sidelines?",
+   "targets": [
+    "Meadors"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Atlanta_Dream#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_003",
+   "page_id": "/wiki/Charles_Holden",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which army unit for fallen soldiers' burial records did Charles Holden join on 3 October 1917?",
+   "question_easy": "Which army unit for fallen soldiers' burial records did Charles Holden join on 3 October 1917?",
+   "targets": [
+    "Graves Registration"
+   ],
+   "time_start": "1917",
+   "time_end": "1917",
+   "gold_chunk_ids": [
+    "/wiki/Charles_Holden#30"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_004",
+   "page_id": "/wiki/Stefan_Heße",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which senior churchman presided over Stefan Heße's priestly consecration on 18 June 1993?",
+   "question_easy": "Which senior churchman presided over Stefan Heße's priestly consecration on 18 June 1993?",
+   "targets": [
+    "Meisner"
+   ],
+   "time_start": "1993",
+   "time_end": "1993",
+   "gold_chunk_ids": [
+    "/wiki/Stefan_Heße#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_005",
+   "page_id": "/wiki/Washington_Spirit",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Washington's women's soccer side was unveiled on 21 November 2012 as part of which new nationwide competition?",
+   "question_easy": "Washington's women's soccer side was unveiled on 21 November 2012 as part of which new nationwide competition?",
+   "targets": [
+    "National Womens Soccer League",
+    "Womens Soccer League"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Washington_Spirit#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_006",
+   "page_id": "/wiki/Republic_of_Cospaia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which two powers carved up the tiny republic of Cospaia on 25 May 1826?",
+   "question_easy": "Which two powers carved up the tiny republic of Cospaia on 25 May 1826?",
+   "targets": [
+    "Tuscany"
+   ],
+   "time_start": "1826",
+   "time_end": "1826",
+   "gold_chunk_ids": [
+    "/wiki/Republic_of_Cospaia#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_007",
+   "page_id": "/wiki/Milan_Metro_Line_3",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which segment of Milan's third metro line first carried passengers on 3 May 1990?",
+   "question_easy": "Which segment of Milan's third metro line first carried passengers on 3 May 1990?",
+   "targets": [
+    "Duomo"
+   ],
+   "time_start": "1990",
+   "time_end": "1990",
+   "gold_chunk_ids": [
+    "/wiki/Milan_Metro_Line_3#3"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_008",
+   "page_id": "/wiki/August_Maus",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which German maritime force did August Maus join on 8 April 1934?",
+   "question_easy": "Which German maritime force did August Maus join on 8 April 1934?",
+   "targets": [
+    "Reichsmarine",
+    "German Navy"
+   ],
+   "time_start": "1934",
+   "time_end": "1934",
+   "gold_chunk_ids": [
+    "/wiki/August_Maus#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_009",
+   "page_id": "/wiki/Vologda",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "What founding document did Vologda's municipal council pass on 25 July 1996?",
+   "question_easy": "What founding document did Vologda's municipal council pass on 25 July 1996?",
+   "targets": [
+    "Charter"
+   ],
+   "time_start": "1996",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Vologda#43"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_010",
+   "page_id": "/wiki/Panair_do_Brasil",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Under which earlier name did the Brazilian carrier first start flying on 22 October 1929?",
+   "question_easy": "Under which earlier name did the Brazilian carrier first start flying on 22 October 1929?",
+   "targets": [
+    "NYRBA"
+   ],
+   "time_start": "1929",
+   "time_end": "1929",
+   "gold_chunk_ids": [
+    "/wiki/Panair_do_Brasil#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_011",
+   "page_id": "/wiki/GMMTV",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which music conglomerate's executives founded this television producer on 3 August 1995?",
+   "question_easy": "Which music conglomerate's executives founded this television producer on 3 August 1995?",
+   "targets": [
+    "GMM Grammy"
+   ],
+   "time_start": "1995",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/GMMTV#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_012",
+   "page_id": "/wiki/Josep_Rull",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "From which regional legislature did Josep Rull step down on 18 May 2019?",
+   "question_easy": "From which regional legislature did Josep Rull step down on 18 May 2019?",
+   "targets": [
+    "Parliament of Catalonia"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Josep_Rull#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_013",
+   "page_id": "/wiki/D_(band)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who was taken on as D's new bassist on 5 December 2005?",
+   "question_easy": "Who was taken on as D's new bassist on 5 December 2005?",
+   "targets": [
+    "Tsunehito"
+   ],
+   "time_start": "2005",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/D_(band)#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_014",
+   "page_id": "/wiki/Jacqueline_Cochran",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which branch's reserve component did Jacqueline Cochran enter on 9 September 1948?",
+   "question_easy": "Which branch's reserve component did Jacqueline Cochran enter on 9 September 1948?",
+   "targets": [
+    "Air Force Reserve"
+   ],
+   "time_start": "1948",
+   "time_end": "1948",
+   "gold_chunk_ids": [
+    "/wiki/Jacqueline_Cochran#26"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_015",
+   "page_id": "/wiki/Vindobona_(train)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which international train pair took over from the Vindobona on 14 December 2014?",
+   "question_easy": "Which international train pair took over from the Vindobona on 14 December 2014?",
+   "targets": [
+    "Porta Bohemica"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/Vindobona_(train)#13"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_016",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In which German city was the Leuna-Merseburg chemistry college officially opened on 1 September 1954?",
+   "question_easy": "In which German city was the Leuna-Merseburg chemistry college officially opened on 1 September 1954?",
+   "targets": [
+    "Halle"
+   ],
+   "time_start": "1954",
+   "time_end": "1954",
+   "gold_chunk_ids": [
+    "/wiki/Technical_University_Leuna-Merseburg#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_017",
+   "page_id": "/wiki/Tryggve_Gran",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which medal was pinned on Tryggve Gran by the British monarch on 24 July 1913?",
+   "question_easy": "Which medal was pinned on Tryggve Gran by the British monarch on 24 July 1913?",
+   "targets": [
+    "Polar Medal"
+   ],
+   "time_start": "1913",
+   "time_end": "1913",
+   "gold_chunk_ids": [
+    "/wiki/Tryggve_Gran#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_018",
+   "page_id": "/wiki/William_D._Leahy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "At what junior sea-officer grade was William D. Leahy commissioned on 1 July 1899?",
+   "question_easy": "At what junior sea-officer grade was William D. Leahy commissioned on 1 July 1899?",
+   "targets": [
+    "Ensign"
+   ],
+   "time_start": "1899",
+   "time_end": "1899",
+   "gold_chunk_ids": [
+    "/wiki/William_D._Leahy#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_019",
+   "page_id": "/wiki/Werner_Hartmann",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which royal cadet academy did Werner Hartmann enter on 1 April 1914?",
+   "question_easy": "Which royal cadet academy did Werner Hartmann enter on 1 April 1914?",
+   "targets": [
+    "Cadet Corps"
+   ],
+   "time_start": "1914",
+   "time_end": "1914",
+   "gold_chunk_ids": [
+    "/wiki/Werner_Hartmann#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_020",
+   "page_id": "/wiki/Air_Component_Command",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "What organisation succeeded the Air Staff when it was wound up on 1 July 1994?",
+   "question_easy": "What organisation succeeded the Air Staff when it was wound up on 1 July 1994?",
+   "targets": [
+    "Air Force Command"
+   ],
+   "time_start": "1994",
+   "time_end": "1994",
+   "gold_chunk_ids": [
+    "/wiki/Air_Component_Command#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_021",
+   "page_id": "/wiki/Meet_the_Press",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who was handed the hosting chair of Meet the Press on 1 January 1966?",
+   "question_easy": "Who was handed the hosting chair of Meet the Press on 1 January 1966?",
+   "targets": [
+    "Spivak"
+   ],
+   "time_start": "1966",
+   "time_end": "1966",
+   "gold_chunk_ids": [
+    "/wiki/Meet_the_Press#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_022",
+   "page_id": "/wiki/Telekids",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronted Telekids alone when it premiered on 2 October 1989?",
+   "question_easy": "Who fronted Telekids alone when it premiered on 2 October 1989?",
+   "targets": [
+    "Irene Moors"
+   ],
+   "time_start": "1989",
+   "time_end": "1989",
+   "gold_chunk_ids": [
+    "/wiki/Telekids#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_023",
+   "page_id": "/wiki/Antonio_Razzi",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which party declined to renominate Antonio Razzi on 23 January 2018?",
+   "question_easy": "Which party declined to renominate Antonio Razzi on 23 January 2018?",
+   "targets": [
+    "Forza Italia"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Antonio_Razzi#3"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_024",
+   "page_id": "/wiki/The_Mercury_News",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which online edition of the Silicon Valley daily launched the nation's earliest news site on 20 January 1995?",
+   "question_easy": "Which online edition of the Silicon Valley daily launched the nation's earliest news site on 20 January 1995?",
+   "targets": [
+    "Mercury Center Web"
+   ],
+   "time_start": "1995",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/The_Mercury_News#48"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_025",
+   "page_id": "/wiki/John_Mann,_Baron_Mann",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which seat in the upper chamber of the UK parliament was John Mann put forward for on 9 September 2019?",
+   "question_easy": "Which seat in the upper chamber of the UK parliament was John Mann put forward for on 9 September 2019?",
+   "targets": [
+    "life peer",
+    "House of Lords"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/John_Mann,_Baron_Mann#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_026",
+   "page_id": "/wiki/Humberto_De_la_Calle",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which head of state of Colombia put Humberto De la Calle in charge of talks with the FARC on 1 October 2012?",
+   "question_easy": "Which head of state of Colombia put Humberto De la Calle in charge of talks with the FARC on 1 October 2012?",
+   "targets": [
+    "Santos"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Humberto_De_la_Calle#10"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_027",
+   "page_id": "/wiki/Central_European_University",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who succeeded the billionaire founder as head of CEU's governing body on 14 October 2007?",
+   "question_easy": "Who succeeded the billionaire founder as head of CEU's governing body on 14 October 2007?",
+   "targets": [
+    "Botstein"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Central_European_University#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_028",
+   "page_id": "/wiki/Wetten,_dass..?",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "What paralysing accident befell a participant during the live show Wetten, dass..? on 4 December 2010?",
+   "question_easy": "What paralysing accident befell a participant during the live show Wetten, dass..? on 4 December 2010?",
+   "targets": [
+    "quadriplegic"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Wetten,_dass..?#35"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_029",
+   "page_id": "/wiki/Eliot_Engel",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which US energy statute enacted on 19 December 2007 included a measure of Eliot Engel's?",
+   "question_easy": "Which US energy statute enacted on 19 December 2007 included a measure of Eliot Engel's?",
+   "targets": [
+    "Energy Independence and Security Act"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Eliot_Engel#25"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_030",
+   "page_id": "/wiki/David_Hasselhoff",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In which cartoon feature that opened on 19 November 2004 did David Hasselhoff cameo as himself?",
+   "question_easy": "In which cartoon feature that opened on 19 November 2004 did David Hasselhoff cameo as himself?",
+   "targets": [
+    "SpongeBob"
+   ],
+   "time_start": "2004",
+   "time_end": "2004",
+   "gold_chunk_ids": [
+    "/wiki/David_Hasselhoff#16"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_031",
+   "page_id": "/wiki/Bill_Goldberg",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which book by Bill Goldberg came out on 14 November 2000?",
+   "question_easy": "Which book by Bill Goldberg came out on 14 November 2000?",
+   "targets": [
+    "Strange Journey"
+   ],
+   "time_start": "2000",
+   "time_end": "2000",
+   "gold_chunk_ids": [
+    "/wiki/Bill_Goldberg#70"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_032",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who is at the head of Malvik's municipal government right now?",
+   "question_easy": "Who is at the head of Malvik's municipal government right now?",
+   "targets": [
+    "Trond Hoseth"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_033",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who headed Malvik's municipal government 9 years ago?",
+   "question_easy": "Who headed Malvik's municipal government 9 years ago?",
+   "targets": [
+    "Ingrid Aune"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2017-11-03"
+  },
+  {
+   "idx": "tp_034",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who headed Malvik's municipal government 15 years ago?",
+   "question_easy": "Who headed Malvik's municipal government 15 years ago?",
+   "targets": [
+    "Terje Granmo"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2011-11-03"
+  },
+  {
+   "idx": "tp_035",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who headed Malvik's municipal government 20 years ago?",
+   "question_easy": "Who headed Malvik's municipal government 20 years ago?",
+   "targets": [
+    "Gudmund Beitland"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "tp_036",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who heads Malvik's municipal government?",
+   "question_easy": "Who heads Malvik's municipal government?",
+   "targets": [
+    "Trond Hoseth"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_037",
+   "page_id": "/wiki/Malvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who headed Malvik's municipal government in 2020?",
+   "question_easy": "Who headed Malvik's municipal government in 2020?",
+   "targets": [
+    "Trond Hoseth"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Malvik#14"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_038",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who runs Karlsøy's local government at the moment?",
+   "question_easy": "Who runs Karlsøy's local government at the moment?",
+   "targets": [
+    "Mona Pedersen"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_039",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who ran Karlsøy's local government 12 years ago?",
+   "question_easy": "Who ran Karlsøy's local government 12 years ago?",
+   "targets": [
+    "Hanny Ditlefsen"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2014-11-03"
+  },
+  {
+   "idx": "tp_040",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who ran Karlsøy's local government 17 years ago?",
+   "question_easy": "Who ran Karlsøy's local government 17 years ago?",
+   "targets": [
+    "Bent Gabrielsen"
+   ],
+   "time_start": "2009",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2009-11-03"
+  },
+  {
+   "idx": "tp_041",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who ran Karlsøy's local government 22 years ago?",
+   "question_easy": "Who ran Karlsøy's local government 22 years ago?",
+   "targets": [
+    "Thor Tøllefsen"
+   ],
+   "time_start": "2004",
+   "time_end": "2004",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2004-11-03"
+  },
+  {
+   "idx": "tp_042",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who runs Karlsøy's local government?",
+   "question_easy": "Who runs Karlsøy's local government?",
+   "targets": [
+    "Mona Pedersen"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_043",
+   "page_id": "/wiki/Karlsøy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who ran Karlsøy's local government in 2018?",
+   "question_easy": "Who ran Karlsøy's local government in 2018?",
+   "targets": [
+    "Mona Pedersen"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Karlsøy#18"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_044",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who currently leads the Federal Office for Migration and Refugees?",
+   "question_easy": "Who currently leads the Federal Office for Migration and Refugees?",
+   "targets": [
+    "Hans-Eckard"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Office_for_Migration_and_Refugees#12"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_045",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who led the Federal Office for Migration and Refugees 15 years ago?",
+   "question_easy": "Who led the Federal Office for Migration and Refugees 15 years ago?",
+   "targets": [
+    "Manfred Schmidt"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Office_for_Migration_and_Refugees#12"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2011-11-03"
+  },
+  {
+   "idx": "tp_046",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who led the Federal Office for Migration and Refugees 25 years ago?",
+   "question_easy": "Who led the Federal Office for Migration and Refugees 25 years ago?",
+   "targets": [
+    "Albert Maximilian Schmid"
+   ],
+   "time_start": "2001",
+   "time_end": "2001",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Office_for_Migration_and_Refugees#12"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2001-11-03"
+  },
+  {
+   "idx": "tp_047",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who leads the Federal Office for Migration and Refugees?",
+   "question_easy": "Who leads the Federal Office for Migration and Refugees?",
+   "targets": [
+    "Hans-Eckard"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Office_for_Migration_and_Refugees#12"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_048",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who led the Federal Office for Migration and Refugees in 2019?",
+   "question_easy": "Who led the Federal Office for Migration and Refugees in 2019?",
+   "targets": [
+    "Hans-Eckard"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Office_for_Migration_and_Refugees#12"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_049",
+   "page_id": "/wiki/First_Things",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who is First Things' editor-in-chief nowadays?",
+   "question_easy": "Who is First Things' editor-in-chief nowadays?",
+   "targets": [
+    "Reno"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/First_Things#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_050",
+   "page_id": "/wiki/First_Things",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who edited First Things 18 years ago?",
+   "question_easy": "Who edited First Things 18 years ago?",
+   "targets": [
+    "Bottum"
+   ],
+   "time_start": "2008",
+   "time_end": "2008",
+   "gold_chunk_ids": [
+    "/wiki/First_Things#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2008-11-03"
+  },
+  {
+   "idx": "tp_051",
+   "page_id": "/wiki/First_Things",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who edited First Things 25 years ago?",
+   "question_easy": "Who edited First Things 25 years ago?",
+   "targets": [
+    "Nuechterlein"
+   ],
+   "time_start": "2001",
+   "time_end": "2001",
+   "gold_chunk_ids": [
+    "/wiki/First_Things#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2001-11-03"
+  },
+  {
+   "idx": "tp_052",
+   "page_id": "/wiki/First_Things",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who edits First Things?",
+   "question_easy": "Who edits First Things?",
+   "targets": [
+    "Reno"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/First_Things#14"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_053",
+   "page_id": "/wiki/First_Things",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who edited First Things in 2014?",
+   "question_easy": "Who edited First Things in 2014?",
+   "targets": [
+    "Reno"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/First_Things#14"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_054",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronts Quelli che... il Calcio nowadays?",
+   "question_easy": "Who fronts Quelli che... il Calcio nowadays?",
+   "targets": [
+    "Luca e Paolo"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_055",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronted Quelli che... il Calcio 10 years ago?",
+   "question_easy": "Who fronted Quelli che... il Calcio 10 years ago?",
+   "targets": [
+    "Nicola Savino"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2016-11-03"
+  },
+  {
+   "idx": "tp_056",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronted Quelli che... il Calcio 20 years ago?",
+   "question_easy": "Who fronted Quelli che... il Calcio 20 years ago?",
+   "targets": [
+    "Simona Ventura"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "tp_057",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronted Quelli che... il Calcio 30 years ago?",
+   "question_easy": "Who fronted Quelli che... il Calcio 30 years ago?",
+   "targets": [
+    "Fabio Fazio"
+   ],
+   "time_start": "1996",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1996-11-03"
+  },
+  {
+   "idx": "tp_058",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronts Quelli che... il Calcio?",
+   "question_easy": "Who fronts Quelli che... il Calcio?",
+   "targets": [
+    "Luca e Paolo"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_059",
+   "page_id": "/wiki/Quelli_che..._il_Calcio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who fronted Quelli che... il Calcio in 2019?",
+   "question_easy": "Who fronted Quelli che... il Calcio in 2019?",
+   "targets": [
+    "Luca e Paolo"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Quelli_che..._il_Calcio#17"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_060",
+   "page_id": "/wiki/Game_Grumps",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who are the principal personalities of Game Grumps now?",
+   "question_easy": "Who are the principal personalities of Game Grumps now?",
+   "targets": [
+    "Arin Hanson"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Game_Grumps#23"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_061",
+   "page_id": "/wiki/Game_Grumps",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who are the principal personalities of Game Grumps?",
+   "question_easy": "Who are the principal personalities of Game Grumps?",
+   "targets": [
+    "Arin Hanson"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Game_Grumps#23"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_062",
+   "page_id": "/wiki/Game_Grumps",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who were the principal personalities of Game Grumps in 2015?",
+   "question_easy": "Who were the principal personalities of Game Grumps in 2015?",
+   "targets": [
+    "Arin Hanson"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Game_Grumps#23"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_063",
+   "page_id": "/wiki/The_One_Show",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who are the current presenters of The One Show?",
+   "question_easy": "Who are the current presenters of The One Show?",
+   "targets": [
+    "Alex Jones"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/The_One_Show#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_064",
+   "page_id": "/wiki/The_One_Show",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who are the presenters of The One Show?",
+   "question_easy": "Who are the presenters of The One Show?",
+   "targets": [
+    "Alex Jones"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/The_One_Show#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_065",
+   "page_id": "/wiki/The_One_Show",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who presented The One Show in 2017?",
+   "question_easy": "Who presented The One Show in 2017?",
+   "targets": [
+    "Alex Jones"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/The_One_Show#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_066",
+   "page_id": "/wiki/Stefan_Heße",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which see does Stefan Heße currently govern?",
+   "question_easy": "Which see does Stefan Heße currently govern?",
+   "targets": [
+    "Hamburg"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Stefan_Heße#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_067",
+   "page_id": "/wiki/Stefan_Heße",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which see does Stefan Heße govern?",
+   "question_easy": "Which see does Stefan Heße govern?",
+   "targets": [
+    "Hamburg"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Stefan_Heße#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_068",
+   "page_id": "/wiki/Stefan_Heße",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which see did Stefan Heße govern in June 2016?",
+   "question_easy": "Which see did Stefan Heße govern in June 2016?",
+   "targets": [
+    "Hamburg"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Stefan_Heße#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_069",
+   "page_id": "/wiki/Mike_Lee_(American_politician)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which US state does Mike Lee represent in the Senate at present?",
+   "question_easy": "Which US state does Mike Lee represent in the Senate at present?",
+   "targets": [
+    "Utah"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Mike_Lee_(American_politician)#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_070",
+   "page_id": "/wiki/Mike_Lee_(American_politician)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which US state does Mike Lee represent in the Senate?",
+   "question_easy": "Which US state does Mike Lee represent in the Senate?",
+   "targets": [
+    "Utah"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Mike_Lee_(American_politician)#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_071",
+   "page_id": "/wiki/Mike_Lee_(American_politician)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which US state did Mike Lee represent in the Senate in 2015?",
+   "question_easy": "Which US state did Mike Lee represent in the Senate in 2015?",
+   "targets": [
+    "Utah"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Mike_Lee_(American_politician)#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_072",
+   "page_id": "/wiki/Jean_Lassalle",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which French chamber does Jean Lassalle currently belong to?",
+   "question_easy": "Which French chamber does Jean Lassalle currently belong to?",
+   "targets": [
+    "National Assembly"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Jean_Lassalle#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_073",
+   "page_id": "/wiki/Jean_Lassalle",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which French chamber does Jean Lassalle belong to?",
+   "question_easy": "Which French chamber does Jean Lassalle belong to?",
+   "targets": [
+    "National Assembly"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Jean_Lassalle#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_074",
+   "page_id": "/wiki/Jean_Lassalle",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which French chamber did Jean Lassalle belong to in 2010?",
+   "question_easy": "Which French chamber did Jean Lassalle belong to in 2010?",
+   "targets": [
+    "National Assembly"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Jean_Lassalle#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_075",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In what role is Sergey Sirotkin currently attached to grand prix squads?",
+   "question_easy": "In what role is Sergey Sirotkin currently attached to grand prix squads?",
+   "targets": [
+    "reserve driver"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Sergey_Sirotkin_(racing_driver)#28"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_076",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In what role is Sergey Sirotkin attached to grand prix squads?",
+   "question_easy": "In what role is Sergey Sirotkin attached to grand prix squads?",
+   "targets": [
+    "reserve driver"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Sergey_Sirotkin_(racing_driver)#28"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_077",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In what role was Sergey Sirotkin attached to grand prix squads in 2020?",
+   "question_easy": "In what role was Sergey Sirotkin attached to grand prix squads in 2020?",
+   "targets": [
+    "reserve driver"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Sergey_Sirotkin_(racing_driver)#28"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_078",
+   "page_id": "/wiki/Daniel_M._Fleetwood",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which IEEE periodical does Daniel M. Fleetwood currently help edit?",
+   "question_easy": "Which IEEE periodical does Daniel M. Fleetwood currently help edit?",
+   "targets": [
+    "Nuclear Science"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Daniel_M._Fleetwood#9"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_079",
+   "page_id": "/wiki/Daniel_M._Fleetwood",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which IEEE periodical does Daniel M. Fleetwood help edit?",
+   "question_easy": "Which IEEE periodical does Daniel M. Fleetwood help edit?",
+   "targets": [
+    "Nuclear Science"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Daniel_M._Fleetwood#9"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_080",
+   "page_id": "/wiki/Daniel_M._Fleetwood",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which IEEE periodical did Daniel M. Fleetwood help edit in 2016?",
+   "question_easy": "Which IEEE periodical did Daniel M. Fleetwood help edit in 2016?",
+   "targets": [
+    "Nuclear Science"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Daniel_M._Fleetwood#9"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_081",
+   "page_id": "/wiki/World_Union_for_Progressive_Judaism",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who is the president of the World Union for Progressive Judaism at present?",
+   "question_easy": "Who is the president of the World Union for Progressive Judaism at present?",
+   "targets": [
+    "Freelander"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/World_Union_for_Progressive_Judaism#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_082",
+   "page_id": "/wiki/World_Union_for_Progressive_Judaism",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who is the president of the World Union for Progressive Judaism?",
+   "question_easy": "Who is the president of the World Union for Progressive Judaism?",
+   "targets": [
+    "Freelander"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/World_Union_for_Progressive_Judaism#3"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_083",
+   "page_id": "/wiki/World_Union_for_Progressive_Judaism",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who was the president of the World Union for Progressive Judaism in September 2014?",
+   "question_easy": "Who was the president of the World Union for Progressive Judaism in September 2014?",
+   "targets": [
+    "Freelander"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/World_Union_for_Progressive_Judaism#3"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_084",
+   "page_id": "/wiki/Bill_Goldberg",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which sports-entertainment company currently has Bill Goldberg under contract?",
+   "question_easy": "Which sports-entertainment company currently has Bill Goldberg under contract?",
+   "targets": [
+    "WWE"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bill_Goldberg#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_085",
+   "page_id": "/wiki/Bill_Goldberg",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which sports-entertainment company has Bill Goldberg under contract?",
+   "question_easy": "Which sports-entertainment company has Bill Goldberg under contract?",
+   "targets": [
+    "WWE"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bill_Goldberg#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_086",
+   "page_id": "/wiki/GMMTV",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who is GMMTV's chief at the moment?",
+   "question_easy": "Who is GMMTV's chief at the moment?",
+   "targets": [
+    "Sataporn"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/GMMTV#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_087",
+   "page_id": "/wiki/GMMTV",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who headed GMMTV in 2018?",
+   "question_easy": "Who headed GMMTV in 2018?",
+   "targets": [
+    "Sataporn"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/GMMTV#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_088",
+   "page_id": "/wiki/Telekids",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which Netherlands TV station currently airs Telekids?",
+   "question_easy": "Which Netherlands TV station currently airs Telekids?",
+   "targets": [
+    "RTL 8"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Telekids#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_089",
+   "page_id": "/wiki/Telekids",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which Netherlands TV station airs Telekids?",
+   "question_easy": "Which Netherlands TV station airs Telekids?",
+   "targets": [
+    "RTL 8"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Telekids#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_090",
+   "page_id": "/wiki/Telekids",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which Netherlands TV station aired Telekids in 2013?",
+   "question_easy": "Which Netherlands TV station aired Telekids in 2013?",
+   "targets": [
+    "RTL 8"
+   ],
+   "time_start": "2013",
+   "time_end": "2013",
+   "gold_chunk_ids": [
+    "/wiki/Telekids#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_091",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who hosted Allsång på Skansen 30 years ago?",
+   "question_easy": "Who hosted Allsång på Skansen 30 years ago?",
+   "targets": [
+    "Lasse Berghagen"
+   ],
+   "time_start": "1996",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1996-11-03"
+  },
+  {
+   "idx": "tp_092",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who hosted Allsång på Skansen 20 years ago?",
+   "question_easy": "Who hosted Allsång på Skansen 20 years ago?",
+   "targets": [
+    "Anders Lundin"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "tp_093",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who hosted Allsång på Skansen 14 years ago?",
+   "question_easy": "Who hosted Allsång på Skansen 14 years ago?",
+   "targets": [
+    "Zelmerlöw"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2012-11-03"
+  },
+  {
+   "idx": "tp_094",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who hosted Allsång på Skansen 40 years ago?",
+   "question_easy": "Who hosted Allsång på Skansen 40 years ago?",
+   "targets": [
+    "Bosse Larsson"
+   ],
+   "time_start": "1986",
+   "time_end": "1986",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1986-11-03"
+  },
+  {
+   "idx": "tp_095",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which Swedish broadcaster airs Allsång på Skansen?",
+   "question_easy": "Which Swedish broadcaster airs Allsång på Skansen?",
+   "targets": [
+    "Sveriges Television"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#1"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_096",
+   "page_id": "/wiki/Allsång_på_Skansen",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Which Swedish broadcaster aired Allsång på Skansen in 2005?",
+   "question_easy": "Which Swedish broadcaster aired Allsång på Skansen in 2005?",
+   "targets": [
+    "Sveriges Television"
+   ],
+   "time_start": "2005",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/Allsång_på_Skansen#1"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "tp_097",
+   "page_id": "/wiki/The_News_Quiz",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "Who hosted The News Quiz 25 years ago?",
+   "question_easy": "Who hosted The News Quiz 25 years ago?",
+   "targets": [
+    "Hoggart"
+   ],
+   "time_start": "2001",
+   "time_end": "2001",
+   "gold_chunk_ids": [
+    "/wiki/The_News_Quiz#10"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2001-11-03"
+  },
+  {
+   "idx": "tp_098",
+   "page_id": "/wiki/Josep_Rull",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In which regional parliament does Josep Rull hold a seat?",
+   "question_easy": "In which regional parliament does Josep Rull hold a seat?",
+   "targets": [
+    "Parliament of Catalonia"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Josep_Rull#7"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_099",
+   "page_id": "/wiki/ACS_Poli_Timișoara",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In which division does ACS Poli Timișoara currently compete?",
+   "question_easy": "In which division does ACS Poli Timișoara currently compete?",
+   "targets": [
+    "Liga III"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/ACS_Poli_Timișoara#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "tp_100",
+   "page_id": "/wiki/ACS_Poli_Timișoara",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_tune",
+   "source": "capability_probe_tune",
+   "question_hard": "In which division did ACS Poli Timișoara compete in 2020?",
+   "question_easy": "In which division did ACS Poli Timișoara compete in 2020?",
+   "targets": [
+    "Liga III"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/ACS_Poli_Timișoara#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  }
+ ]
+}
