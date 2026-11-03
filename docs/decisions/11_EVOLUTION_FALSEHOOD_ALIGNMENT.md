@@ -83,12 +83,44 @@ Ghi 2026-11-02, theo quyết định: **Cơ chế 1: dữ liệu chính là `rea
 |---|---|---|
 | 1.1 | Phân tích 71 câu `ans_valid@5 = 0` và sửa nhãn "± 95%" (việc mở từ trước) | Không |
 | 1.2 | Chốt chính sách khi câu hỏi không nêu mốc (ưu tiên mới nhất hay hỏi lại) | Không |
-| 1.3 | Sinh mẫu ~100 câu: thời gian tương đối (~30, cố định `T_now`), mức ngày (~30), không nêu mốc (~20), `end_time` còn mở (~20). Báo riêng, không trộn vào số chính | 1.2 |
-| 1.4 | Xin quyền Hugging Face cho TempRAGEval, tải `test.csv`, thu hẹp kho 33.1M chunk, gán `start_time` | Bạn xin quyền |
+| 1.3 | **Làm (quyết lại 2026-11-03): bộ kiểm khả năng 100 câu viết tay**, `dataset/eval/capability_probe/questions.jsonl` (+ `dataset/eval/capability_probe_subset.json`): day 31, relative 34, no_anchor 18, open_end 17; 37 trang `test_clean`, 42 chunk gold; `t_now` cố định `2026-11-03` (định dạng năm-tháng-ngày). Kho `tam_chunks_dev_test_clean`, Profiler `google_31` (`--ranges`), 28 cấu hình của `eval/07` mục 5 (`local/results/test_configs.json`), chạy CPU (bge-reranker-v2-m3-int8 cục bộ). **Khai báo trước khi chạy:** (a) chạy một lần, không tune, không loại cấu hình hay câu sau khi xem kết quả; (b) báo tất cả 28 hàng, theo từng loại câu, kèm số câu đúng/tổng (không tính trung bình chung, không gộp với `test_clean`); (c) cặp cần so: Temporal+bge so với Plain dense+bge; Temporal+bge so với Temporal không CE; Temporal+bge so với bỏ điểm thời gian; so với bỏ decay fallback; so với bỏ `end_mode`; (d) chỉ số: `hit@1/3/5`, `mrr`, `ans_valid_hit@5`, `leakage_rate`; hit theo chunk gold là cận dưới (có thể có chunk khác nêu cùng sự kiện), `ans_valid_hit` là cận trên; (e) cỡ mẫu nhỏ nên chỉ mô tả, khi chênh dưới ~9 đến 13 câu trên 100 thì ghi "chưa kết luận". **Bản 2 (2026-11-03, viết lại sau khi xem kết quả bản 1):** bản 1 quá dễ (độ khớp chữ giữa câu hỏi và chunk gold 0.68 so với 0.32 ở `test_clean`; Plain RAG dense đạt hit@1 0.53 so với 0.16 ở bộ cũ), nên viết lại cách diễn đạt, giữ nguyên chunk gold, đáp án, loại câu và `t_now`; độ khớp chữ còn 0.49. File `questions_v2.jsonl` / `capability_probe_v2_subset.json`, bản 1 giữ nguyên. Chạy lại đúng 28 cấu hình khai trước, không thêm bớt. Bản 1 và bản 2 cùng 42 chunk gold nên **không gộp số**; báo cả hai và nêu rõ bản 2 được viết lại sau khi thấy kết quả bản 1. Kết quả Profiler đo trước khi chạy cấu hình: 92/100 `t_req` đúng ngày tham chiếu, 8 câu "N năm trước" (N từ 15 đến 90) chỉ ra năm (`YYYY-01-01`), không ra ngày | 1.2 |
+| 1.4 | **Đã tải và kiểm (2026-11-03), chi tiết ở mục 1.4 bên dưới.** TempRAGEval chỉ dùng nửa TimeQA: 260 câu, 117 trang, dùng lại `dataset/full_dataset/pages.jsonl`, không cần kho 33.1M. Đã chốt (giao mình xử lý): tính **190 câu ngoài `real`** (bỏ 70 câu trùng trang tune/valid/test_clean); 30 câu gold không định vị được thì gán gold bằng đoạn chứa đáp án và báo riêng. Còn lại: dựng kho riêng, gán `start_time` cho 86 trang; `Russian_Air_Force` chưa có (4 câu, chưa tách xem nằm trong 70 hay 190) | Không |
 | 1.5 | Cài đủ logic MRAG (hai cấu hình), TA-RAG; DyG-RAG nếu đã dựng cho Cơ chế 2 | Chốt cách tách MC/TC cho MRAG trên `real` |
 | 1.6 | Ablation: chỉ lọc cứng, chỉ xếp lại, không bge, bỏ nửa đời | Không |
 | 1.7 | Thí nghiệm "Cơ chế 1 + graph" (ba cách ghép ở `10`) | Có graph (2.3 hoặc 2.4) |
 | 1.8 | Chạy bộ ngoài đúng một lần sau khi khóa cấu hình | 1.4 |
+
+#### 1.4. TempRAGEval: chỉ dùng nửa TimeQA (quyết và kiểm 2026-11-03)
+
+File: `test.csv` tải từ `siyue/TempRAGEval` (đã được cấp quyền), để ở `local/external/temprageval/test.csv` (gitignore). 12 cột: `id`, `original_dataset`, `original_id`, `original_question`, `original_answer`, `key_time`, `question`, `exact_time`, `time_relation`, `answer`, `gold_evidence_1`, `gold_evidence_2`.
+
+**Quyết (người dùng, 2026-11-03):**
+- Chỉ dùng nửa **TimeQA**. Bỏ nửa SituatedQA vì bản chất dữ liệu: câu gold chỉ nằm trong trang của mình ở 4/500 hàng, nửa này cần kho Wikipedia khác.
+- **Không xử lý** các câu: `as of`, `by`, `around`, `from X` đứng một mình (prompt `time_extractor_v2.md` không dạy các dạng này), và câu có thứ tự `first / last / earliest / latest` (hệ chưa có trường cho thứ tự).
+- `between`, `before`, `after`, `since`, `until`, `in`, `on`, `from … to` đã có trong prompt v2 (`bound` exact/after/before, `t_start`/`t_end`), giữ lại.
+
+**Số câu** (lọc lần lượt theo thứ tự dưới đây, câu thuộc nhiều nhóm tính vào nhóm đầu):
+
+| Bước | Số câu |
+|---|---:|
+| Hàng TimeQA trong file (file có 1,244 hàng: TimeQA 624 + SituatedQA 620) | 624 |
+| Bỏ 124 hàng `time_relation` rỗng (câu gốc chưa biến đổi) | 500 |
+| Bỏ `as of` / `by` / `around` / `from X` một mình | −112 / −4 / −1 / −2 |
+| Bỏ câu có first/last/earliest/latest (lọc bằng regex, chưa đọc tay) | −121 |
+| **Còn lại** | **260** (121 câu gốc, 117 trang) |
+
+Phân bố `time_relation` trong 260 câu: in 100, between 67, from…to 40, on 29, before 10, since 7, after 6, until 1. Ghi chú sửa: bộ công bố là 1,000 câu có `time_relation`; file thật có 1,244 hàng, 244 hàng rỗng là các câu gốc.
+
+**Kiểm với dữ liệu của mình** (khớp văn bản lỏng: bỏ dấu câu và chữ hoa; đáp án nhiều phương án tách bằng `|`):
+- `original_id` của TimeQA chính là `idx` dạng `page_id#quan_hệ#chỉ_số`, nên nối theo trang được. 116/117 trang có trong `pages.jsonl`; **thiếu 1 trang `/wiki/Russian_Air_Force`** (4 câu).
+- Nối `original_id` với các file TimeQA ở `full_dataset/`: 242/260 câu tìm được (C/test 128, C/test + D/test 55, C/dev 55, train 4); 18 câu không có trong bản enriched (ví dụ `Kelvin_Wilson#P54#2`). Trong 242 câu, đáp án khớp `targets` của TimeQA 242/242.
+- **Trùng với `real`:** 31 trang (70 câu) nằm trong ba tập của `real` (tune 11 trang / 23 câu, valid 5 / 14, test_clean 15 / 33); **86 trang (190 câu) ngoài `real`**. **Chốt (2026-11-03): chỉ tính 190 câu** làm bộ ngoài: 70 câu kia dùng trang đã tune hay chốt, không còn độc lập (`test_clean` chạy một lần). Kho của bộ này là collection riêng (86 trang + trang nhiễu lấy từ `real`), **không gộp vào kho của `real`** để số cũ không đổi, không phải đo lại.
+- **Gold:** trong 256 câu có trang, `gold_evidence_1/2` khớp nguyên văn trong một đoạn của trang ở 210 câu; khớp mờ (≥ 0.8 từ trùng) 16 câu; **không định vị được 30 câu** (ví dụ `Fred_Hoiberg`, `Henry_Addington` có vẻ là dòng infobox, `Berga_Naval_Base`, `Michael_Cullen`). Chưa biết vì sao: có thể gold lấy từ dump Wikipedia 12/2021, khác bản trang của TimeQA. **Chốt:** gán gold bằng đoạn chứa đáp án và báo riêng 30 câu này, không trộn vào số chính. Chuỗi đáp án có trong trang ở 256/256 câu, và có trong đoạn gold ở 205/256.
+- Gold chỉ là một hai câu, không có id chunk; chunk gold = đoạn (`paragraphs`) chứa câu đó.
+
+**Lưu ý thống kê:** 260 câu (hoặc 190) chỉ đến từ 121 (hoặc ít hơn) câu gốc, mỗi gốc biến đổi thành vài câu. Các câu cùng gốc không độc lập, nên sai số thật lớn hơn tính theo số câu. Khi báo cáo, ghi số câu gốc và nên bootstrap theo câu gốc.
+
+**Chưa kiểm:** kho gộp (trang `real` + 86 trang) có đủ nhiễu để `hit@k` có nghĩa không; chưa chạy truy xuất thật; chưa gán `start_time` cho chunk của 86 trang mới; cách xử lý 30 câu gold không định vị được đã chốt (ở trên) nhưng chưa làm.
 
 ### Cơ chế 2 (Timeline Summarization)
 
