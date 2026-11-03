@@ -67,6 +67,6 @@ Chọn theo `mrr` trên tune gộp (595 + 100); valid chỉ để phủ quyết 
 - **Không cần GPU** cho đợt này: bge-reranker-v2-m3 bản int8 chạy CPU ổn (khoảng 91 giây mỗi cấu hình ở lần chạy 78 cấu hình đầu, 9 giây khi đã có cache). CPU của máy đã bão hòa (tải gấp đôi số nhân) nên thêm luồng không nhanh hơn.
 - **Một sự kiện lặp ở nhiều câu** (cùng chunk gold cho 4 đến 8 câu) làm số câu đúng khác số sự kiện đúng; khi báo cáo nên ghi số chunk gold.
 
-## Còn lại
+## Kết thúc
 
-Chưa quyết cấu hình chính mới (A hay X); chưa chạy `test_clean` lần hai; chưa cập nhật `configs/*.yaml` và `eval/07`. Chi tiết ở mục 9 của [`eval/09`](../eval/09_CAPABILITY_PROBE_RESULTS.md).
+Đã chọn **X** và chạy `test_clean` lần hai (`mrr` 0.619 so với 0.620 của lần đầu, rò rỉ 0); `configs/*.yaml` không đổi vì cấu hình chính luôn truyền bằng cờ. Chi tiết ở mục 10 của [`eval/09`](../eval/09_CAPABILITY_PROBE_RESULTS.md). Còn tùy chọn: EM/F1 đầu-cuối cho cấu hình X, bộ tune và valid lớn hơn cho loại câu "ongoing".

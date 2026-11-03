@@ -8,7 +8,7 @@
 2. **Cơ chế thời gian vẫn thắng** ở các bộ mới: rò rỉ 0 ở mọi cấu hình Temporal (Plain RAG rò rỉ khoảng một nửa số câu), và hơn Plain RAG cùng cross-encoder.
 3. **Điểm yếu của cấu hình chính:** `end_mode = decay` phạt nặng chunk "đang còn hiệu lực" bắt đầu từ lâu, nên với câu "hiện tại / không nêu mốc" chunk đúng bị đẩy xuống. Hiệu ứng gần như không thấy ở `real` (chênh dưới 0.01) nhưng rõ ở bộ mới (thấp hơn tới 0.25 `mrr` ở nền không cross-encoder, 0.05 đến 0.09 ở nền bge).
 4. Chạy lại **1,141 cấu hình** trên bộ tune mới: cách chấm `unknown_decay` (chỉ chunk không rõ trạng thái bị giảm điểm, chunk `ongoing` giữ 1.0) hơn `decay` ở 195/197 cặp tham số giống hệt nhau và **không kém** ở bộ cũ.
-5. **Chưa chốt** cấu hình chính mới (A hay X, mục 6) và **chưa chạy `test_clean` lần hai**.
+5. **Đã chọn X** làm cấu hình chính mới (mục 6, 10) và chạy `test_clean` lần hai: `mrr` 0.619 so với 0.620 của cấu hình cũ, tức không kém ở bộ cũ.
 
 ## 1. Các bộ câu hỏi
 
@@ -98,7 +98,7 @@ X khác cấu hình chính ở nhiều tham số (`rerank_mode` `replace` thay v
 
 **Quy tắc chọn khai trước khi xem kết quả:** (1) chọn theo `mrr` trên tune gộp (595 + 100 = 695 câu) giữa X, A, B và cấu hình cũ; (2) valid chỉ để phủ quyết: loại nếu thua cấu hình cũ từ 2 sai số chuẩn ở valid cũ, hoặc thua ở valid mới; (3) hòa (chênh dưới 1 sai số chuẩn) thì chọn cấu hình ít thay đổi nhất; (4) cấu hình thắng chạy `test_clean` lần hai, ghi rõ.
 
-Áp dụng: tune gộp X 0.6626, A 0.6603, B 0.6586, chính 0.653 (X − A = +0.0023 ± 0.0055, hòa); không cấu hình nào bị phủ quyết (A suýt bị loại: −1.95 sai số chuẩn ở valid cũ, tức thua chính ở 44 câu, hơn ở 26 câu); hòa nên chọn ít thay đổi nhất, tức **A**. Mặt khác X cân bằng hơn (đứng đầu tune gộp lẫn valid gộp, gần như không mất ở bộ cũ). Hai chọn lựa này **chưa được quyết**.
+Áp dụng: tune gộp X 0.6626, A 0.6603, B 0.6586, chính 0.653 (X − A = +0.0023 ± 0.0055, hòa); không cấu hình nào bị phủ quyết (A suýt bị loại: −1.95 sai số chuẩn ở valid cũ, tức thua chính ở 44 câu, hơn ở 26 câu); hòa nên chọn ít thay đổi nhất, tức **A**. Mặt khác X cân bằng hơn (đứng đầu tune gộp lẫn valid gộp, gần như không mất ở bộ cũ). Hai chọn lựa này được quyết ngày 2026-11-03: **chọn X** (xem mục 10 về lý do và kết quả `test_clean` lần hai).
 
 Số liệu đầy đủ của bốn cấu hình (`hit@1`, `hit@5`, `mrr`, `ans_valid@5`; rò rỉ đều 0):
 
@@ -128,7 +128,28 @@ Số liệu đầy đủ của bốn cấu hình (`hit@1`, `hit@5`, `mrr`, `ans_
 
 ## 9. Việc còn lại
 
-1. **Quyết A hay X** (hoặc giữ cấu hình cũ và ghi `end_mode = decay` là hạn chế).
-2. Chạy cấu hình đã chọn trên **`test_clean` lần hai** và bộ kiểm; ghi rõ trong báo cáo là vòng hai, sau khi thấy bộ kiểm khả năng. Chưa chạy.
-3. Sau khi chốt: cập nhật `configs/*.yaml`, `eval/07` mục 5 và `decisions/11` mục 1.3.
-4. Tùy chọn: EM/F1 đầu-cuối cho 2 đến 3 cấu hình đứng đầu; thêm mẫu "N năm trước" ở mức ngày để thử Profiler.
+1. Tùy chọn: EM/F1 đầu-cuối cho 2 đến 3 cấu hình đứng đầu; thêm mẫu "N năm trước" ở mức ngày để thử Profiler.
+2. Tùy chọn: bộ tune và valid lớn hơn cho loại câu "ongoing" (hiện chỉ 42 đến 56 chunk gold mỗi bộ).
+
+## 10. Chọn X và chạy `test_clean` lần hai
+
+**Quyết (2026-11-03): chọn X (`2d10bbb571`) làm cấu hình chính mới.** Lý do: đứng đầu cả tune gộp (0.6626) và valid gộp (0.640); gần như không mất gì ở bộ cũ (tune cũ −0.001 ± 0.007, valid cũ −0.003 ± 0.009); hơn rõ ở loại câu mới (tune mới +0.073 ± 0.022, valid mới +0.051 ± 0.027, bộ kiểm +0.028 và +0.063); rẻ hơn (chấm cross-encoder 20 cặp thay vì 30, `top_n` 50 thay vì 100). Quy tắc khai trước chọn A (hòa trên tune, ít thay đổi nhất), nhưng A thua cấu hình cũ ở valid cũ sát ngưỡng phủ quyết (−1.95 sai số chuẩn); chọn X là quyết định của người làm sau khi thấy kết quả, không phải theo quy tắc.
+
+**`test_clean` (400 câu), lần chạy thứ hai**, cùng tập câu, kho và Profiler với lần đầu (cấu hình cũ chạy lần một, danh sách chốt trước):
+
+| Cấu hình | hit@1 | hit@3 | hit@5 | `mrr` | ans_valid@5 | rò rỉ |
+|---|---:|---:|---:|---:|---:|---:|
+| Cấu hình cũ (`decay`, lần 1) | 0.468 | 0.762 | 0.828 | 0.620 | 0.695 | 0 |
+| **X (`unknown_decay`, lần 2)** | 0.450 | 0.767 | 0.840 | 0.619 | 0.700 | 0 |
+
+Δ`mrr` (X − cũ) = **−0.0015 ± 0.0096**: ngang nhau. `hit@1` của X thấp hơn (đúng riêng 17 câu so với 24), `hit@5` cao hơn (9 so với 4): X đặt gold ít ở hạng 1 hơn nhưng hay nằm trong top-5 hơn. So với baseline: hơn Plain RAG dense **+0.283 ± 0.019** và hơn Temporal không cross-encoder **+0.103 ± 0.015**. Rò rỉ bằng 0.
+
+**Khai báo:** đây là lần chạy thứ hai trên `test_clean`, sau khi thấy bộ kiểm khả năng và chọn lại cấu hình; số liệu của lần đầu (cấu hình cũ) giữ nguyên ở mục 6 của [`07`](07_TUNE_VALID_RESULTS.md). Khi báo cáo cần nói rõ điều này và đặt hai hàng cạnh nhau như bảng trên.
+
+**Cấu hình X dạng cờ `scripts/evaluate.py`** (`--mode e2e` với Profiler khoảng `--ranges`, kho và `--extractions` của tập):
+
+```
+--decay-from end --decay-lambda 0.25 --end-mode unknown_decay --neighbors 0 --open-decay 0.05 --page-expand none --rerank BAAI/bge-reranker-v2-m3-int8 --rerank-mode replace --rerank-pool final --rerank-top 20 --sparse-weight 0.0 --t-unknown 0.2 --time-mode range --top-k 15 --top-n 50 --w2 0.3 --rerank-norm minmax --overlap binary
+```
+
+`configs/*.yaml` **không đổi**: mặc định ở đó là trung tính (`end_mode: stored`, `top_k: 5`, `rerank: null`) và cấu hình chính luôn được truyền bằng cờ, nên không có gì phải chuyển.

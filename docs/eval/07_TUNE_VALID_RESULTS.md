@@ -253,3 +253,7 @@ Thử Gemma 4 qua Gemini API để có thêm LLM kiểm tra việc chọn prompt
 ## 8. Tái lập
 
 `local/` là thư mục scratch (gitignore). Các bước: `collect_configs.py` (gom cấu hình), `run_replay.py <tập>` (chạy lại, nhãn = sha1 cấu hình), `select_top.py`, `compare_valid.py`, `random_search.py gen|top`, `compare_search.py`. Cross-encoder chạy qua server GPU từ xa (`TAM_RERANK_REMOTE_URL`, mặc định tắt) cho bge-v2-m3, L12, L6, bge-base; jina chạy CPU cục bộ.
+
+## 9. Cập nhật 2026-11-03: chọn lại cấu hình chính sau bộ kiểm khả năng
+
+Mục 3 đến 6 ở trên giữ nguyên (cấu hình chính là bge-v2-m3 `0a1b716ac7`, `end_mode = decay`, `test_clean` `mrr` 0.620). Sau khi thêm bốn bộ câu viết tay cho loại câu mà `real` không có ([`09`](09_CAPABILITY_PROBE_RESULTS.md)), cấu hình chính **chuyển sang X** (`2d10bbb571`: bge-v2-m3, `unknown_decay`, `rerank_mode replace`, `decay_from end`, `rerank_top` 20, `top_n` 50, `w2` 0.3, `decay_lambda` 0.25, `open_decay` 0.05, `t_unknown` 0.2, `time_mode range`). `test_clean` lần hai: `mrr` 0.619 (Δ −0.0015 ± 0.0096 so với 0.620), hit@5 0.840, rò rỉ 0. Lý do và số liệu ở `09` mục 6 và 10. Quy trình ở [`../process/09_CAPABILITY_PROBE_AND_RESELECTION.md`](../process/09_CAPABILITY_PROBE_AND_RESELECTION.md).
