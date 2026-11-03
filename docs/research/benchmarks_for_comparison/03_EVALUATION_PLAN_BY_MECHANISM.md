@@ -37,12 +37,14 @@ Cả ba bộ chính đều bắt nguồn từ cùng các trang Wikipedia của T
 | Bộ | Vai trò | Vì sao | Việc còn thiếu |
 |---|---|---|---|
 | **`real`** (1,394 câu) | **Chính** | Có gold chunk nên đo được `hit@k`, `mrr`, `leakage_rate`; có baseline Plain và Plain+bge đã chạy; có tune/valid/test_clean. Tuần 5 đã chạy test: mrr Plain 0.336 / Plain+bge 0.490 / Temporal 0.620. | Không. |
-| **TempRAGEval** (1,000 câu) | Phụ: so với MRAG | Có gold chunk (`ER@k`), có mã MRAG làm đặc tả. Câu hỏi cố ý đổi mốc/cách hỏi ("trước", "mới nhất") nên là phép thử khó hơn. | Xin quyền HF (gated, tải thử 401); thu hẹp kho 33.1M chunk xuống các trang gold + trang nhiễu; gán `start_time`. Số tuyệt đối sẽ cao giả (kho nhỏ), chỉ đọc khoảng cách giữa các hệ. |
+| **TempRAGEval** (chỉ nửa TimeQA: 260 câu, 117 trang; đề nghị tính 190 câu ngoài `real`) | Phụ: so với MRAG | Có gold (`ER@k`), có mã MRAG làm đặc tả. Câu hỏi cố ý đổi mốc/cách hỏi ("trước", "mới nhất") nên là phép thử khó hơn. | **Đã tải và kiểm 2026-11-03** (chi tiết ở `decisions/11` mục 1.4). Bỏ nửa SituatedQA (cần kho khác); bỏ câu `as of`/`by`/`around`/`from X` một mình và câu thứ tự first/last (hệ chưa xử lý). Dùng lại `pages.jsonl`, **không cần kho 33.1M**; thiếu 1 trang (`Russian_Air_Force`). 30 câu gold chưa định vị được. Chỉ 121 câu gốc nên các câu không độc lập. |
 | **TimeQA của DyG-RAG** (2,613 câu) | Phụ, giá trị thấp | Chỉ có đáp án, không có gold chunk. **Chồng nhiều với `real`**: 123/186 trang `test_clean` (66%) nằm trong 738 trang C/test.hard (suy ra, chưa xác nhận đây là cùng bộ DyG). Chạy thêm gần như là chạy lại bộ mình. | Nếu muốn dùng: tải từ Google Drive của DyG-RAG (chưa tải), xác nhận chồng. Đề xuất **bỏ**, trừ khi cần đúng bộ của DyG để chạy DyG-RAG ở Cơ chế 2. |
 | **TEMPO** (miền nhỏ `quant` 29K, `law` 43K đoạn) | Tùy chọn: kiểm tổng quát hóa sang miền khác | Tải được (đã kiểm), có `gold_ids` nên tính được nDCG@10. | Tài liệu **không có trường ngày**, nên bộ lọc cứng không có gì để lọc và không đo được rò rỉ. Chỉ kiểm được phần xếp hạng theo nghĩa. Muốn có mốc phải nhờ LLM trích ngày cho 29–43K đoạn. Đề xuất: chỉ làm nếu dư thời gian. |
 | **ChroniclingAmericaQA** (1,272 câu có năm) | Rất yếu, tùy chọn | Kiểm "không lọt tương lai" trên văn bản OCR. | 95% câu không có mốc, 73% câu có năm lại ≈ ngày đăng báo. Đề xuất: bỏ khỏi kế hoạch chính. |
 
-### 1.2. Tự làm thêm mẫu nhỏ (đề xuất)
+### 1.2. Tự làm thêm mẫu nhỏ (**đã làm 2026-11-03**; ban đầu quyết không làm, sau bàn lại thì làm, xem [`eval/09`](../../eval/09_CAPABILITY_PROBE_RESULTS.md))
+
+> Cập nhật 2026-11-03: ban đầu quyết không làm vì cỡ ~100 câu quá nhỏ để so phương pháp có ý nghĩa thống kê. Sau đó bàn lại và làm **bốn bộ 100 câu** (bản 1, bản 2, tune mới, valid mới), dùng như bộ kiểm khả năng, báo riêng và không gộp vào số chính của `real`. Cách làm ở [`process/09`](../../process/09_CAPABILITY_PROBE_AND_RESELECTION.md), kết quả ở [`eval/09`](../../eval/09_CAPABILITY_PROBE_RESULTS.md). Bảng dưới là thiết kế ban đầu của bốn loại câu (số câu thực tế: 31 `day`, 34 `relative`, 18 `no_anchor`, 17 `open_end`).
 
 Bộ `real` thiên về một kiểu câu. Đo từ 1,394 câu: 1,201 câu (86%) có cả tháng lẫn năm, 92% có năm, **không câu nào hỏi tới ngày** (5 câu có ngày cụ thể đều là ngày sinh). Dạng câu của test: in Month YYYY 142, between/from-to 136, after 35, early/late/mid 33, before 31, in YYYY 20, khác 3. Những tình huống mà thiết kế (`CLAUDE.md`) có hứa nhưng bộ `real` không phủ:
 
@@ -341,7 +343,7 @@ Tổng chi phí LLM nếu chạy đủ 5 bài áp dụng được cho `real`: kh
 
 | # | Việc | Cơ chế | Cần quyết định gì |
 |---|---|---|---|
-| 1 | Xin quyền Hugging Face cho TempRAGEval, tải `test.csv` | 1 | Chỉ bạn xin được; xong thì mình kiểm số câu thật và gán mốc |
+| 1 | ~~Xin quyền Hugging Face cho TempRAGEval, tải `test.csv`~~ **Xong 2026-11-03**; còn: chốt bỏ 70 câu trùng trang `real`, xử lý 30 câu gold không định vị được, gán `start_time` cho 86 trang mới | 1 | Xem `decisions/11` mục 1.4 |
 | 2 | Cài đủ logic 6 đối thủ trong `tam` (mục 4), thứ tự đề xuất: MRAG, TA-RAG, khung LongMemEval (rẻ, ít bước), rồi DyG-RAG, TG-RAG, VersionRAG | 1, 2, 3 | Thứ tự; có giữ biến thể "MRAG cộng exact" và biến thể công thức bài của DyG-RAG làm ablation không |
 | 3 | Chốt chính sách khi câu hỏi không nêu mốc (để tạo mẫu 1.2) | 1 | Ưu tiên mới nhất hay hỏi lại |
 | 4 | Chạy go/no-go của `eval/08` (oracle, vector top-k, chunk đáp án) trên `tune`/`real` | 2 | Không cần thêm quyết định; cần quota LLM (Gemini ~500 request/ngày) |
