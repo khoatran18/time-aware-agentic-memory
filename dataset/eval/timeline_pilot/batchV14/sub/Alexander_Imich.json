@@ -1,0 +1,190 @@
+{
+  "page_id": "Alexander_Imich",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1903-02-04",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Częstochowa, Poland, to a Jewish family.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#0", "role": "both", "quote": "He was born in 1903 in Częstochowa , Poland"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1918",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the Polish forces to fight the Bolsheviks.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#2", "role": "both", "quote": "joined the Polish forces to fight the Bolsheviks in 1918"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1929",
+      "grain": "year",
+      "track": "education",
+      "text": "Earned a PhD in zoology at Jagiellonian University, Kraków.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#3", "role": "both", "quote": "He earned a PhD in zoology at the Jagiellonian University in Kraków in 1929"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1932",
+      "grain": "year",
+      "track": "work",
+      "text": "Published a research report in Zeitschrift für Parapsychologie.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#3", "role": "both", "quote": "He published a report in 1932 in a German journal called Zeitschrift für Parapsychologie"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1951",
+      "grain": "year",
+      "track": "location",
+      "text": "Freed from internment and chose to emigrate to the U.S.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#5", "role": "both", "quote": "They were eventually freed and chose to emigrate to the U.S . in 1951"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e6",
+      "date": "1952",
+      "grain": "year",
+      "track": "location",
+      "text": "Emigrated with Wela to the United States, first Pennsylvania then New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#6", "role": "both", "quote": "In 1952 , Imich and Wela ( who died in 1986 ) emigrated to the United States"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e7",
+      "date": "1965",
+      "grain": "year",
+      "track": "other",
+      "label": "career change",
+      "text": "Turned to parapsychology after Wela began her psychology career.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#6", "role": "both", "quote": "once Wela made a career for herself as a psychologist in 1965"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1986",
+      "grain": "year",
+      "track": "family",
+      "text": "Wela died; Imich was then alive and became a widower.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#6", "role": "both", "quote": "Wela ( who died in 1986 )"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1995",
+      "grain": "year",
+      "track": "work",
+      "text": "Edited the book Incredible Tales of the Paranormal.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#7", "role": "both", "quote": "which was published by Bramble Books in 1995"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1999",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Formed the Anomalous Phenomena Research Center.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#7", "role": "both", "quote": "He formed the Anomalous Phenomena Research Center in 1999"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2012",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Began transferring his paranormal research records to University of Manitoba archives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#7", "role": "both", "quote": "In 2012 , he began to transfer the records of his research into the paranormal"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2014-02-04",
+      "grain": "day",
+      "track": "other",
+      "label": "health",
+      "text": "Suffered a fall on or shortly before his 111th birthday.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#8", "role": "both", "quote": "Imich suffered a fall either on or shortly before his 111th birthday"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e13",
+      "date": "2014-02-04",
+      "grain": "day",
+      "track": "other",
+      "label": "hospitalization",
+      "text": "Spent his 111th birthday in Roosevelt Hospital, New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#8", "role": "both", "quote": "with him spending his 111th birthday in the New York Citys Roosevelt Hospital"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e14",
+      "date": "2014-04",
+      "grain": "month",
+      "track": "other",
+      "label": "birthday",
+      "text": "Belatedly celebrated his 111th birthday after leaving hospital.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#8", "role": "both", "quote": "Imich belatedly celebrated his 111th birthday either in late April or early May 2014"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e15",
+      "date": "2014-04-24",
+      "grain": "day",
+      "track": "other",
+      "label": "record",
+      "text": "Became the oldest living man after Arturo Licata's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#1", "role": "both", "quote": "also became the oldest living man at age 111 after the death of almost 112-year-old Arturo Licata , of Italy , on April 24 , 2014"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e16",
+      "date": "2014-06-08",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died of natural causes in New York City, aged 111.",
+      "evidence": [
+        {"chunk_id": "/wiki/Alexander_Imich#9", "role": "both", "quote": "Alexander Imich died on June 8 , 2014"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Researched a medium, Matylda, for the Polish Society for Psychical Research (1920s–1930s)",
+    "Unpublished notes and photos from that research were lost during World War II",
+    "Fled with Wela to Soviet-occupied Białystok during World War II and worked as a chemist",
+    "Interned in a labor camp for the duration of the war after refusing Soviet citizenship",
+    "Took up chemistry to make a living after emigrating to the United States",
+    "Gave out the Imich prize for parapsychology research for several years",
+    "Began experiencing financial problems (undated)",
+    "Served as president of the Anomalous Phenomena Research Center (undated)",
+    "Certified by Guinness World Records as the world's oldest living man (before June 2014)"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "page_id": "Max_Weber_artist",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1881-04-18",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Max Weber, Jewish-American painter, is born.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#0", "role": "both", "quote": "Max Weber ( April 18 , 1881 – October 4 , 1961 )"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1905",
+      "grain": "year",
+      "track": "location",
+      "text": "Travelled to Europe and studied at Académie Julian in Paris.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#3", "role": "both", "quote": "In 1905 , after teaching in Virginia and Minnesota , Weber had saved enough money to travel to Europe"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1909",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned to New York and helped introduce Cubism to America.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#5", "role": "both", "quote": "In 1909 he returned to New York and helped to introduce Cubism to America"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1911",
+      "grain": "year",
+      "track": "work",
+      "text": "Exhibition of his paintings at Stieglitz's 291 gallery.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#5", "role": "both", "quote": "in a 1911 show at the 291 gallery , run by Alfred Stieglitz"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1913",
+      "grain": "year",
+      "track": "work",
+      "text": "One-man exhibition at the Newark Museum.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#7", "role": "both", "quote": "one-man exhibition at the Newark Museum in 1913"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1914",
+      "grain": "year",
+      "track": "work",
+      "text": "Cubist Poems published.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#14", "role": "both", "quote": "his Cubist Poems that were to be published in 1914"},
+        {"chunk_id": "/wiki/Max_Weber_(artist)#18", "role": "both", "quote": "Weber , Max ( 1914 ) . Cubist Poems"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1916",
+      "grain": "year",
+      "track": "work",
+      "text": "Published book Essays on Art.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#7", "role": "both", "quote": "published a book , Essays on Art , in 1916"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1919",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began teaching at the Art Students League (first period).",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#8", "role": "both", "quote": "where he taught from 1919 to 1921 and 1926 to 1927"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1920",
+      "grain": "year",
+      "track": "work",
+      "flag": "approximate_date",
+      "text": "Abandoned early modernist work for figurative painting.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#12", "role": "both", "quote": "the early modernist work he had abandoned circa 1920"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1921",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended first teaching period at the Art Students League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#8", "role": "both", "quote": "where he taught from 1919 to 1921 and 1926 to 1927"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1926",
+      "grain": "year",
+      "track": "work",
+      "text": "Released collection Primitives: Poems and Woodcuts.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#14", "role": "both", "quote": "In 1926 , the artist released another collection entitled Primitives"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1926",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began second teaching period at the Art Students League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#8", "role": "both", "quote": "where he taught from 1919 to 1921 and 1926 to 1927"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1927",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended second teaching period at the Art Students League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#8", "role": "both", "quote": "where he taught from 1919 to 1921 and 1926 to 1927"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1930",
+      "grain": "year",
+      "track": "work",
+      "text": "Museum of Modern Art held a retrospective of his work.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#11", "role": "both", "quote": "In 1930 , the Museum of Modern Art held a retrospective of his work"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1949",
+      "grain": "year",
+      "track": "work",
+      "text": "Subject of a major traveling retrospective.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#12", "role": "both", "quote": "major traveling retrospective in 1949"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1961-10-04",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Max Weber dies in Great Neck, New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#0", "role": "both", "quote": "October 4 , 1961"},
+        {"chunk_id": "/wiki/Max_Weber_(artist)#8", "role": "both", "quote": "Weber died in Great Neck , New York in 1961"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2012",
+      "grain": "year",
+      "track": "work",
+      "text": "Cubist Poems reissued by HardPress.",
+      "evidence": [
+        {"chunk_id": "/wiki/Max_Weber_(artist)#18", "role": "both", "quote": "Cubist Poems ( 2012 , HardPress ; )"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Emigrated to the United States and settled in Brooklyn at age ten",
+    "Studied art at the Pratt Institute in Brooklyn under Arthur Wesley Dow",
+    "Taught in Virginia and Minnesota before travelling to Europe",
+    "Arrived in Paris and enrolled in classes at Matisse's private academy",
+    "Was responsible for Rousseau's first exhibition in the United States",
+    "Published two essays in Stieglitz's journal Camera Work",
+    "Falling-out with Alfred Stieglitz",
+    "Not represented in the Armory Show after a dispute with Arthur B. Davies",
+    "Lectured at the Clarence H. White School for Photography"
+  ]
+}

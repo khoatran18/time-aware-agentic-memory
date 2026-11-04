@@ -1,0 +1,151 @@
+{
+  "page_id": "William_Keith_artist",
+  "events": [
+    {"id": "e1", "date": "1838-11-18", "grain": "day", "track": "other", "label": "birth", "text": "born in Oldmeldrum, Aberdeenshire, Scotland",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#0", "role": "both", "quote": "( November 18 , 1838 – April 13 , 1911 )"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#1", "role": "description", "quote": "Keith was born in Oldmeldrum , Aberdeenshire , Scotland"}
+     ]},
+    {"id": "e2", "date": "1850", "grain": "year", "track": "location", "text": "emigrated with mother and sisters to the United States",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#1", "role": "both", "quote": "He emigrated with his mother and sisters to the United States in 1850"}
+     ]},
+    {"id": "e3", "date": "1856", "grain": "year", "track": "role", "text": "became an apprentice wood engraver in New York",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#1", "role": "both", "quote": "became an apprentice wood engraver in 1856"}
+     ]},
+    {"id": "e4", "date": "1858", "grain": "year", "track": "other", "label": "travel", "text": "visited Scotland and England",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#1", "role": "both", "quote": "In 1858 he visited Scotland and England and briefly"}
+     ]},
+    {"id": "e5", "date": "1858", "grain": "year", "track": "affiliation", "text": "briefly worked for the London Daily News",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#1", "role": "date", "quote": "In 1858 he visited Scotland and England and briefly"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#2", "role": "description", "quote": "worked for the London Daily News"}
+     ]},
+    {"id": "e6", "date": "1859-05", "grain": "month", "track": "location", "text": "sailed to San Francisco after being offered an opportunity there",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#2", "role": "both", "quote": "He was then offered an opportunity in San Francisco and sailed there in May 1859"}
+     ]},
+    {"id": "e7", "date": "1862", "grain": "year", "track": "affiliation", "text": "formed engraving partnership with Harrison Eastman",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "both", "quote": "He formed a partnership with Harrison Eastman in 1862"}
+     ]},
+    {"id": "e8", "date": "1863", "grain": "year", "track": "education", "text": "first studied painting with Samuel Marsden Brookes",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "both", "quote": "He first studied painting with Samuel Marsden Brookes in 1863"}
+     ]},
+    {"id": "e9", "date": "1864", "grain": "year", "track": "family", "text": "married Elizabeth Emerson",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "both", "quote": "whom he married in 1864"}
+     ]},
+    {"id": "e10", "date": "1864", "grain": "year", "track": "affiliation", "text": "formed engraving partnership with Durbin Van Vleck",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "both", "quote": "and with Durbin Van Vleck in 1864"}
+     ]},
+    {"id": "e11", "date": "1866", "grain": "year", "track": "work", "text": "first exhibited his watercolors, praised by critics",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "both", "quote": "He first exhibited his watercolors in 1866"}
+     ]},
+    {"id": "e12", "date": "1868", "grain": "year", "track": "work", "text": "had begun painting in oils", "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#3", "role": "date", "quote": "By 1868"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#4", "role": "description", "quote": "he had begun painting in oils"}
+     ]},
+    {"id": "e13", "date": "1868", "grain": "year", "track": "work", "text": "received Oregon Navigation and Railroad Company commission; left engraving for full-time painting", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#4", "role": "both", "quote": "he received a commission from the Oregon Navigation and Railroad Company"}
+     ]},
+    {"id": "e14", "date": "1869", "grain": "year", "track": "location", "text": "went with wife to Düsseldorf, Germany",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#5", "role": "both", "quote": "The Keiths went to Düsseldorf , Germany , in 1869-71"}
+     ]},
+    {"id": "e15", "date": "1871", "grain": "year", "track": "location", "text": "shared a studio in Boston with William Hahn",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#0", "role": "both", "quote": "had a studio in Boston in 1871-72"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#5", "role": "both", "quote": "he shared a studio in Boston with William Hahn from 1871 to 1872"}
+     ]},
+    {"id": "e16", "date": "1871", "grain": "year", "track": "location", "text": "ended Düsseldorf stay and returned to the United States", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#5", "role": "both", "quote": "The Keiths went to Düsseldorf , Germany , in 1869-71"}
+     ]},
+    {"id": "e17", "date": "1872", "grain": "year", "track": "location", "text": "ended Boston studio shared with William Hahn",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#5", "role": "both", "quote": "he shared a studio in Boston with William Hahn from 1871 to 1872"}
+     ]},
+    {"id": "e18", "date": "1880", "grain": "year", "track": "location", "text": "had a studio in New York",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#0", "role": "both", "quote": "and one in New York in 1880"}
+     ]},
+    {"id": "e19", "date": "1882", "grain": "year", "track": "family", "text": "wife Elizabeth died",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#8", "role": "both", "quote": "Keiths wife Elizabeth died in 1882"}
+     ]},
+    {"id": "e20", "date": "1883", "grain": "year", "track": "family", "text": "married Mary McHenry",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#9", "role": "both", "quote": "In 1883 Keith married Mary McHenry"}
+     ]},
+    {"id": "e21", "date": "1883", "grain": "year", "track": "other", "label": "honeymoon", "text": "honeymoon painting tour of old California missions", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#9", "role": "both", "quote": "For their honeymoon , they went on a painting tour of the old California missions"}
+     ]},
+    {"id": "e22", "date": "1885", "grain": "year", "track": "location", "text": "returned to San Francisco", "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#9", "role": "both", "quote": "They returned to San Francisco in mid 1885"}
+     ]},
+    {"id": "e23", "date": "1886", "grain": "year", "track": "location", "text": "moved with wife into custom-built house in Berkeley",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#10", "role": "both", "quote": "In 1886 the Keiths moved into a custom-built house in Berkeley"}
+     ]},
+    {"id": "e24", "date": "1886", "grain": "year", "track": "other", "label": "travel", "text": "cruised Alaska's Inland Passage and sketched glaciers", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#10", "role": "both", "quote": "That year Keith also cruised Alaskas Inland Passage"}
+     ]},
+    {"id": "e25", "date": "1888", "grain": "year", "track": "work", "text": "traveled north with Muir to Mount Shasta and Mount Rainier for illustrations",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#12", "role": "both", "quote": "In 1888 Keith traveled north with Muir"}
+     ]},
+    {"id": "e26", "date": "1889", "grain": "year", "track": "affiliation", "text": "joined Muir's San Francisco group supporting Yosemite National Park",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#14", "role": "both", "quote": "Keith was part of a group of friends of John Muir who met in San Francisco starting in 1889"}
+     ]},
+    {"id": "e27", "date": "1891", "grain": "year", "track": "work", "text": "painted together with George Inness during Inness's Bay Area visit",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#15", "role": "both", "quote": "Inness came to visit the San Francisco Bay Area in 1891"}
+     ]},
+    {"id": "e28", "date": "1896-07", "grain": "month", "track": "naming", "text": "Mount Keith named after him by Helen Gompertz",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#23", "role": "both", "quote": "Mount Keith was named after William Keith by Helen Gompertz ( later Helen LeConte ) in July 1896"}
+     ]},
+    {"id": "e29", "date": "1906", "grain": "year", "track": "work", "text": "began contributing paintings to Berkeley colony exhibitions, through 1911",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#17", "role": "both", "quote": "He consistently contributed paintings to the colonys exhibitions between 1906"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#18", "role": "description", "quote": "and 1911"}
+     ]},
+    {"id": "e30", "date": "1906", "grain": "year", "track": "location", "text": "San Francisco studio destroyed in post-earthquake fires",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#17", "role": "both", "quote": "Keiths San Francisco studio was destroyed as a result of the fires following the 1906 San Francisco earthquake"}
+     ]},
+    {"id": "e31", "date": "1907-10", "grain": "month", "track": "work", "text": "visited and painted Hetch Hetchy Valley with Muir",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#19", "role": "both", "quote": "In October 1907 , accompanied by Muir , Keith visited and painted the Hetch Hetchy Valley"}
+     ]},
+    {"id": "e32", "date": "1911-04-13", "grain": "day", "track": "other", "label": "death", "text": "died at his home in Berkeley, California",
+     "evidence": [
+       {"chunk_id": "/wiki/William_Keith_(artist)#0", "role": "both", "quote": "( November 18 , 1838 – April 13 , 1911 )"},
+       {"chunk_id": "/wiki/William_Keith_(artist)#21", "role": "both", "quote": "Keith died in his home at 2207 Atherton Street in Berkeley , California in 1911"}
+     ]}
+  ],
+  "undated_mentions": [
+    "attended school in New York City for several years",
+    "hired to do illustrations for Harpers Magazine",
+    "set up his own engraving business in San Francisco",
+    "studied under Albert Flamm in Düsseldorf (within 1869-71, no exact date)",
+    "spent time in Paris",
+    "returned to California and traveled to Yosemite Valley to meet John Muir",
+    "painted six-by-ten-foot High Sierra panoramas (1870s)",
+    "traveled to East Coast and Munich to learn figure and portrait painting (a few months after 1883 marriage)",
+    "met Daniel Burnham in Chicago en route to Europe",
+    "buried in plot 14b at Mountain View Cemetery, Oakland"
+  ]
+}

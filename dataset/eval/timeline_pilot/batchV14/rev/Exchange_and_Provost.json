@@ -1,0 +1,151 @@
+{
+  "page_id": "Exchange_and_Provost",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1767",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the Exchange began, built by South Carolina's provincial government.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#0", "role": "both", "quote": "Built in 1767–1771"},
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "The Exchange was built from 1767–1771"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1771",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the Exchange was completed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#0", "role": "both", "quote": "Built in 1767–1771"},
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "The Exchange was built from 1767–1771"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1774",
+      "grain": "year",
+      "track": "other",
+      "label": "event",
+      "text": "Confiscated tea was stored in the building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "confiscated tea was stored here in 1774"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1780",
+      "grain": "year",
+      "track": "other",
+      "label": "military use",
+      "text": "British used the building as a barracks after capturing the city.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "After the British captured the city in 1780 , it was used as a barracks , and its basement was used as a military prison"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1780",
+      "grain": "year",
+      "track": "other",
+      "label": "prisoner of war",
+      "text": "British began housing prisoners in the Exchange after taking Charleston.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "After the British captured the city in 1780 , it was used as a barracks , and its basement was used as a military prison"},
+        {"chunk_id": "/wiki/Exchange_and_Provost#4", "role": "both", "quote": "Soon after taking control of Charleston in 1780"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "1788",
+      "grain": "year",
+      "track": "other",
+      "label": "event",
+      "text": "South Carolina convention to ratify the US Constitution was held in the building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#5", "role": "both", "quote": "The building housed the South Carolina convention to ratify the United States Constitution in 1788"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1913",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Building was granted to the Daughters of the American Revolution.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#6", "role": "both", "quote": "In 1913 , the building was granted to the Daughters of the American Revolution"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1965",
+      "grain": "year",
+      "track": "other",
+      "label": "discovery",
+      "text": "Half-Moon Battery, a 1698 fortification, was discovered underneath the building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#7", "role": "both", "quote": "In 1965 , the Half-Moon Battery , a 1698 fortification , was discovered underneath the building"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1973",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "Building was designated a National Historic Landmark.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#0", "role": "both", "quote": "The building was designated a National Historic Landmark in 1973"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1981",
+      "grain": "year",
+      "track": "work",
+      "text": "Third cupola was placed on the building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#8", "role": "both", "quote": "the third was not placed until 1981 when the building opened as a museum"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1981",
+      "grain": "year",
+      "track": "work",
+      "text": "Building opened as a museum.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#8", "role": "both", "quote": "the third was not placed until 1981 when the building opened as a museum"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2012",
+      "grain": "year",
+      "track": "other",
+      "label": "study",
+      "text": "Study completed on the building's use as a British prison.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exchange_and_Provost#3", "role": "both", "quote": "In 2012 , a study was completed"},
+        {"chunk_id": "/wiki/Exchange_and_Provost#4", "role": "description", "quote": "of the buildings use as a British prison during the Revolutionary War"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "used as custom house, public market, public meeting place and jail during the 18th century",
+    "revolutionary leadership councils of South Carolina were held here",
+    "many events of George Washington's week-long stay in Charleston, including greeting a crowd from the balcony",
+    "continued as an Exchange until the 19th century, when it also became a post office",
+    "during the 19th century, postmaster defended shipment of abolitionist pamphlets from rioters",
+    "American Civil War: Confederate post office, hit by shells, then abandoned",
+    "World War I: army headquarters of General Leonard Wood",
+    "United States Lighthouse Service in the building since the late 1800s",
+    "World War II: USO facility and canteen, and Coastal Picket Station of the Sixth Naval District",
+    "first cupola damaged by a hurricane in the early 1800s",
+    "second cupola deteriorated before the great earthquake of 1886"
+  ]
+}

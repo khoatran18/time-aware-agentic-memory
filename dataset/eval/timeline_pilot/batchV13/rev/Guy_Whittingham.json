@@ -1,0 +1,320 @@
+{
+ "page_id": "Guy_Whittingham",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1964-11-10",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Guy Whittingham is born.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#0",
+     "role": "both",
+     "quote": "born 10 November 1964"
+    }
+   ]
+  },
+  {
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "Waterlooville",
+   "text": "Joined Waterlooville for the start of the 1987-88 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#2",
+     "role": "both",
+     "quote": "he joined Waterlooville for the start of the 1987–88 season"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e2"
+  },
+  {
+   "id": "e3",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Begins playing career as a striker.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#1",
+     "role": "both",
+     "quote": "he was a striker from 1988 until 2005"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1989",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "approximate_date",
+   "text": "Signed by Portsmouth in summer, after a season at Yeovil Town.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#2",
+     "role": "both",
+     "quote": "in the summer of 1989 , he was signed by Portsmouth"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1993",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signs for Aston Villa in the Premier League.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#3",
+     "role": "both",
+     "quote": "In 1993 he signed for Aston Villa in the Premier League"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1994-02",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Leaves Aston Villa on loan to Wolverhampton Wanderers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#3",
+     "role": "both",
+     "quote": "before leaving on loan in February 1994 to join Wolverhampton Wanderers"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1994-12",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Joins Sheffield Wednesday.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#4",
+     "role": "both",
+     "quote": "In December 1994 he joined Sheffield Wednesday"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Rejoins Portsmouth permanently after loan spells.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#4",
+     "role": "both",
+     "quote": "who he would later rejoin permanently in 1999"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Playing career as striker ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#1",
+     "role": "both",
+     "quote": "he was a striker from 1988 until 2005"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2005-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Leaves Newport (IOW) as player-manager amid financial difficulties.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#6",
+     "role": "both",
+     "quote": "but left them in May 2005 when the club ran into financial difficulties"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2006-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Leaves AFC Newbury after club's financial difficulties and loss of ground.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#6",
+     "role": "both",
+     "quote": "Whittingham left in June 2006"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2006-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Takes a coaching role at Eastleigh.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#6",
+     "role": "both",
+     "quote": "In August 2006 he took up a coaching role at Eastleigh"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2009-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Joins Portsmouth first-team coaching staff as development coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#6",
+     "role": "both",
+     "quote": "In January 2009 , he joined the Portsmouth first-team coaching staff as development coach"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2011-10-14",
+   "grain": "day",
+   "track": "role",
+   "text": "Named joint caretaker manager of Portsmouth with Stuart Gray.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#7",
+     "role": "both",
+     "quote": "He was named joint caretaker manager of Portsmouth together with Stuart Gray on 14 October 2011"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2012-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Becomes caretaker manager of Portsmouth.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#0",
+     "role": "both",
+     "quote": "caretaker manager of Football League Two side Portsmouth from November 2012 until April 2013"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#8",
+     "role": "description",
+     "quote": "Whittingham once again became caretaker manager of the south coast club"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2013-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Ends caretaker spell and takes permanent Portsmouth manager role.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#0",
+     "role": "both",
+     "quote": "until April 2013 when he took the role on a permanent basis"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#8",
+     "role": "both",
+     "quote": "stayed as caretaker until the club exited administration in April 2013"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2013-11-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Relieved of Portsmouth managerial duties after board meeting.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#8",
+     "role": "both",
+     "quote": "On 25 November 2013 , Whittingham was relieved from his duties"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#0",
+     "role": "both",
+     "quote": "before being sacked by Portsmouth in November 2013"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2013-12-13",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed assistant manager and first-team coach at Crawley Town.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#0",
+     "role": "both",
+     "quote": "On 13 December 2013 , he was appointed assistant manager at Crawley Town"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#9",
+     "role": "both",
+     "quote": "Whittingham was appointed first team coach at Crawley on Friday 13 December 2013"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2014-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Leaves Crawley Town as contract is not renewed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#9",
+     "role": "both",
+     "quote": "Whittingham left the club in April 2014"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2014-08-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Joins the FA as a coach educator.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Whittingham#9",
+     "role": "both",
+     "quote": "Whittingham joined the FA as a coach educator on 1 August 2014"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "left the British Army (no date given)",
+  "joined Waterlooville for the start of the 1987–88 season; promoted to first team in the 1987–88 season",
+  "spent a season at Yeovil Town (no date given)",
+  "loan spells at Wolverhampton Wanderers (second), Watford and Portsmouth during Sheffield Wednesday spell (no dates)",
+  "joined Peterborough United, Oxford United and Wycombe Wanderers (no dates given)",
+  "last professional season 2000–01 (season only)",
+  "became player-manager of Newport (IOW) (no date given)",
+  "returned to management at AFC Newbury (no date given)",
+  "again became caretaker manager after Michael Appleton left for Blackpool (no date given)"
+ ]
+}
