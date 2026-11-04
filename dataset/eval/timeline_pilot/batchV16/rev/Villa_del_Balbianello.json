@@ -1,0 +1,142 @@
+{
+ "page_id": "Villa_del_Balbianello",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1785",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Cardinal Angelo Maria Durini purchased the property.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#1",
+     "role": "both",
+     "quote": "Cardinal Angelo Maria Durini purchased this property in 1785"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1787",
+   "grain": "year",
+   "track": "work",
+   "text": "Durini converted the monastery into a summer villa and added a loggia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#1",
+     "role": "both",
+     "quote": "In 1787 , he converted the monastery structure into a villa for use during the summer"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1796",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Villa passed to the cardinal's nephew, Luigi Porro Lambertenghi.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#2",
+     "role": "both",
+     "quote": "After the cardinal’s death in 1796 , the villa passed to his nephew"
+    }
+   ]
+  },
+  {
+   "date": "1820",
+   "grain": "year",
+   "track": "other",
+   "label": "arrest",
+   "text": "Silvio Pellico was arrested at the villa by the Austrian government",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#2",
+     "role": "both",
+     "quote": "In 1820 , Pellico was arrested at the villa by the Austrian government"
+    }
+   ],
+   "id": "e4"
+  },
+  {
+   "id": "e5",
+   "date": "1919",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Butler Ames obtained ownership of the villa after repeated cash offers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#4",
+     "role": "both",
+     "quote": "until in 1919 he was successful in obtaining ownership"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1974",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Ames's heirs sold the villa to Count Guido Monzino.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#5",
+     "role": "both",
+     "quote": "In 1974 , Amess heirs sold the villa to businessman and explorer Count Guido Monzino"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1988",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Monzino died and left the villa to the Fondo Ambiente Italiano (FAI).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#7",
+     "role": "both",
+     "quote": "Monzino died in 1988 and left the villa along with most of the Dosso dAvedo"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2016",
+   "grain": "year",
+   "track": "work",
+   "text": "FAI commenced a €413,000 project to restore the villa's jetty and systems.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#8",
+     "role": "both",
+     "quote": "In 2016 the Fondo per lAmbiente Italiano commenced a €413,000 project to restore and improve the villa’s jetty"
+    }
+   ]
+  },
+  {
+   "date": "2018-11",
+   "grain": "month",
+   "track": "other",
+   "label": "wedding",
+   "text": "Wedding of Ranveer Singh and Deepika Padukone took place at the villa",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Villa_del_Balbianello#9",
+     "role": "both",
+     "quote": "In November 2018 Indian movie star and Bollywoods famous couple Ranveer Singh and Deepika Padukones wedding took place at the villa"
+    }
+   ],
+   "id": "e9"
+  }
+ ],
+ "undated_mentions": [
+  "Franciscan monastery existed on the Dosso d'Avedo peninsula since the 13th century (predecessor entity; century only)",
+  "Luigi Porro Lambertenghi sold the villa to Giuseppe Arconati Visconti after 1820 (no exact date)",
+  "Butler Ames first saw the villa just prior to World War I (no exact date)",
+  "Ames renovated the villa and its garden between 1919 and 1974 (no exact date)",
+  "Visconti family improved the villa's gardens and loggia during their ownership (no exact date)",
+  "Monzino re-decorated the villa interior after 1974 (no exact date)",
+  "Monzino added a system of hidden passages after 1978 (no exact date)"
+ ]
+}

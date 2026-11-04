@@ -1,0 +1,188 @@
+{
+  "page_id": "Brad_Wenstrup",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1958-06-17",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born; American politician and doctor of podiatric medicine.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#0", "role": "both", "quote": "born June 17 , 1958"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1976",
+      "grain": "year",
+      "track": "education",
+      "text": "Graduated from St. Xavier High School, Cincinnati.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#3", "role": "both", "quote": "In 1976 , Wenstrup graduated from St . Xavier High School"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1980",
+      "grain": "year",
+      "track": "education",
+      "text": "Graduated B.A. in psychology, University of Cincinnati, cum laude.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#3", "role": "both", "quote": "In 1980 , he graduated Omicron Delta Kappa and cum laude with a B.A ."}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1985",
+      "grain": "year",
+      "track": "education",
+      "text": "Earned Doctor of Podiatric Medicine, Scholl College, Rosalind Franklin University.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#3", "role": "both", "quote": "graduating in 1985"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1998",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the United States Army Reserve.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#5", "role": "both", "quote": "joined the United States Army Reserve in 1998"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2005",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began Iraq tour with 344th Combat Support Hospital (2005-2006).",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#5", "role": "both", "quote": "In 2005 and 2006 , he served a tour in Iraq"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2009",
+      "grain": "year",
+      "track": "role",
+      "text": "Ran for mayor of Cincinnati; lost to Mark Mallory.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#7", "role": "both", "quote": "Wenstrup ran for mayor of Cincinnati against incumbent Democrat Mark Mallory in 2009"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2012",
+      "grain": "year",
+      "track": "role",
+      "text": "Defeated incumbent Jean Schmidt in Republican primary for Ohio's 2nd district.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#0", "role": "both", "quote": "he upset incumbent U.S . Representative Jean Schmidt to win the 2012 Republican primary election"},
+        {"chunk_id": "/wiki/Brad_Wenstrup#8", "role": "description", "quote": "he defeated Schmidt in the March Republican primary"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2013-01-03",
+      "grain": "day",
+      "track": "role",
+      "text": "Began first term as U.S. Representative.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#11", "role": "both", "quote": "Wenstrup began his first term on January 3 , 2013"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2014",
+      "grain": "year",
+      "track": "role",
+      "text": "Reelected to House, defeating Marek Tyszkiewicz.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#10", "role": "both", "quote": "2014 Wenstrup was reelected"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2016",
+      "grain": "year",
+      "track": "role",
+      "text": "Reelected to third term as U.S. Representative.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#10", "role": "both", "quote": "2016 Wenstrup was reelected to a third term"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017-03",
+      "grain": "month",
+      "track": "role",
+      "text": "Attained rank of colonel in the U.S. Army Reserve.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#5", "role": "both", "quote": "attaining the rank of colonel in March 2017"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2017-06-14",
+      "grain": "day",
+      "track": "other",
+      "label": "shooting",
+      "text": "Attended to Rep. Steve Scalise after shooting until hospital transport.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#1", "role": "both", "quote": "After the shooting of Congressman Steve Scalise on June 14 , 2017"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Won election to fourth term, defeating Jill Schiller.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#10", "role": "both", "quote": "2018 Wenstrup defeated Democratic candidate Jill Schiller"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2019",
+      "grain": "year",
+      "track": "family",
+      "text": "Adopted a daughter with wife Monica.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#17", "role": "both", "quote": "They adopted a daughter in 2019"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2020",
+      "grain": "year",
+      "track": "role",
+      "text": "Won election to fifth term, defeating Jaime Castle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#10", "role": "both", "quote": "2020 Wenstrup defeated Democratic candidate Jaime Castle"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2020-12",
+      "grain": "month",
+      "track": "other",
+      "label": "legal filing",
+      "text": "Signed amicus brief supporting Texas v. Pennsylvania lawsuit at Supreme Court.",
+      "evidence": [
+        {"chunk_id": "/wiki/Brad_Wenstrup#13", "role": "both", "quote": "In December 2020 , Wenstrup was one of 126 Republican members"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Practiced podiatric medicine in Cincinnati for more than 24 years (no dates)",
+    "Won 2012 general election over William R. Smith (no year stated)",
+    "Original co-sponsor of H.R. 3949 VA Prescription Data Accountability Act (no date)",
+    "Awarded Bronze Star Medal and Combat Action Badge (no date)",
+    "Awarded Soldiers Medal for actions during Scalise shooting (no date)",
+    "Married Monica Wenstrup (Klein) (no date)",
+    "Committee assignments: Ways & Means; Permanent Select Committee on Intelligence (no dates)"
+  ]
+}

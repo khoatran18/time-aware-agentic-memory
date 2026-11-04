@@ -1,0 +1,174 @@
+{
+  "page_id": "City_of_Rocks_National_Reserve",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1826",
+      "grain": "year",
+      "track": "other",
+      "label": "discovery",
+      "text": "Peter Skene Ogden's brigade first noted the City of Rocks",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#6",
+          "role": "both",
+          "quote": "In 1826 , Peter Skene Ogden and his Snake River brigade of beaver trappers were the first Euro-Americans to note"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1843",
+      "grain": "year",
+      "track": "other",
+      "label": "landmark",
+      "text": "City of Rocks became a landmark for emigrants on the California Trail",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#3",
+          "role": "both",
+          "quote": "Beginning in 1843 , City of Rocks was a landmark for emigrants on the California Trail"
+        },
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#6",
+          "role": "both",
+          "quote": "until 1843 , when growing streams of wagons began flowing through the area"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1957-02-27",
+      "grain": "day",
+      "track": "ownership_structure",
+      "label": "designation",
+      "text": "Idaho Legislature declared Section 36 a state park under Land Board jurisdiction",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#17",
+          "role": "both",
+          "quote": "a state park under the jurisdiction of the Idaho Land Board on February 27 , 1957"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1964",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "A much larger area was designated a National Historic Landmark",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#17",
+          "role": "both",
+          "quote": "In 1964 , a much larger area ( more than ) was designated a National Historic Landmark"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1973-03-15",
+      "grain": "day",
+      "track": "ownership_structure",
+      "label": "transfer",
+      "text": "Section 36 transferred to Idaho Department of Parks and Recreation from Department of Lands",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#17",
+          "role": "both",
+          "quote": "On March 15 , 1973 , Section 36 was transferred to the Idaho Department of Parks and Recreation"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1974",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "The area was designated a National Natural Landmark",
+      "flag": "derived_date",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#17",
+          "role": "both",
+          "quote": "The following year , the area was designated a National Natural Landmark"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1988",
+      "grain": "year",
+      "track": "ownership_structure",
+      "label": "co-management",
+      "text": "NPS and IDPR begin co-managing the Reserve",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#19",
+          "role": "both",
+          "quote": "Between 1988 and 1996 , the Reserve was co-managed by both NPS and IDPR"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1988-11-18",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Reserve created by Public Law 100-696, Arizona-Idaho Conservation Act of 1988",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#19",
+          "role": "both",
+          "quote": "City of Rocks National Reserve was created November 18 , 1988 by Public Law 100-696"
+        },
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#4",
+          "role": "both",
+          "quote": "led to its designation as City of Rocks National Reserve in 1988"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1996",
+      "grain": "year",
+      "track": "ownership_structure",
+      "label": "co-management",
+      "text": "NPS and IDPR co-management period ends",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#19",
+          "role": "both",
+          "quote": "Between 1988 and 1996 , the Reserve was co-managed by both NPS and IDPR"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1996-05-02",
+      "grain": "day",
+      "track": "ownership_structure",
+      "label": "transfer",
+      "text": "NPS transfers on-site management of the Reserve to IDPR",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/City_of_Rocks_National_Reserve#20",
+          "role": "both",
+          "quote": "the NPS officially transferred on-site management of the Reserve to IDPR on May 2 , 1996"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "1840s-1850s: wagon trains passed through the area on the California Trail",
+    "1980s: some of the most difficult climbing routes in the country developed in the area",
+    "late 19th century: settlers began to homestead the area",
+    "1920s-1930s: dryland farming declined during drought years",
+    "mid-19th century: livestock grazing began in the area",
+    "1970s-80s: National Park Service studied the site as a proposed national monument"
+  ]
+}

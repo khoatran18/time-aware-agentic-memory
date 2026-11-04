@@ -1,0 +1,227 @@
+{
+  "page_id": "Hildegarde_Naughton",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1977-05-01",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Galway, Ireland, on this date.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "born 1 May 1977"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#1", "role": "both", "quote": "Naughton was born in Galway in 1977"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2007",
+      "grain": "year",
+      "track": "role",
+      "text": "Co-ordinated the 2007 Telethon People in Need campaign for Galway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#1", "role": "both", "quote": "She was co-ordinator of the 2007 Telethon People"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#2", "role": "description", "quote": "in Need Campaign for Galway City and County"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2008",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won Best Actress award from the Association of Irish Musical Societies.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#1", "role": "both", "quote": "in 2008 won the Association of Irish Musical Societies Best Actress award"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2009",
+      "grain": "year",
+      "track": "role",
+      "text": "Won Galway City West council seat at local election, unseating John Mulholland.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#3", "role": "both", "quote": "unseating party colleague John Mulholland at the 2009 local election"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2011",
+      "grain": "year",
+      "track": "role",
+      "text": "Ran unsuccessfully for the Dáil in Galway West at the general election.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#4", "role": "both", "quote": "ran unsuccessfully for the Dáil at the 2011 general election"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#6", "role": "both", "quote": "At the 2011 general election , Naughton was one of four Fine Gael candidates"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2011",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Mayor of Galway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "Mayor of Galway from 2011 to 2012"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2011",
+      "grain": "year",
+      "track": "other",
+      "label": "controversy",
+      "text": "As Mayor, used casting vote to deny David Norris a council address.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#5", "role": "both", "quote": "during his campaign to get a nomination for the 2011 presidential election"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "2011-06",
+      "grain": "month",
+      "track": "role",
+      "text": "Selected as Fine Gael's choice for Mayor of Galway for 2011–12.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#4", "role": "both", "quote": "In June , she was Fine Gaels choice for Mayor of Galway for 2011–12"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e9",
+      "date": "2012",
+      "grain": "year",
+      "track": "role",
+      "text": "Mayor of Galway term ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "Mayor of Galway from 2011 to 2012"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2013-07-19",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed to the Seanad by Taoiseach Enda Kenny.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "She also served as a Senator from 2013 to 2016"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#6", "role": "both", "quote": "On 19 July , Naughton was appointed to the Seanad by Taoiseach Enda Kenny"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e11",
+      "date": "2016",
+      "grain": "year",
+      "track": "role",
+      "text": "Elected TD for Galway West at the general election.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "has been a Teachta Dála ( TD ) for the Galway West constituency since 2016"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#8", "role": "both", "quote": "At the 2016 general election , Naughton was elected to the Dáil"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2016",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Chair of the Committee on Communications, Climate Action and the Environment.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "Chair of the Committee on Communications , Climate Action and the Environment from 2016 to 2020"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2016",
+      "grain": "year",
+      "track": "role",
+      "text": "Senator term ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "Senator from 2013 to 2016"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2019-10",
+      "grain": "month",
+      "track": "role",
+      "text": "Appointed chair of Dáil committee investigating ethics complaints.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#8", "role": "both", "quote": "In October 2019 , she was appointed to the chair of the Dáil committee"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2020",
+      "grain": "year",
+      "track": "role",
+      "text": "Term as Chair of the Committee on Communications ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "Chair of the Committee on Communications , Climate Action and the Environment from 2016 to 2020"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2020",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Minister of State at the Department of Transport.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "both", "quote": "In 2020 , at the formation of the 32nd Government of Ireland"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "description", "quote": "She was appointed as Minister of State at the Department of Transport"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2020",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Minister of State at the Department of the Environment, Climate and Communications.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "both", "quote": "In 2020 , at the formation of the 32nd Government of Ireland"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "description", "quote": "Minister of State at the Department of the Environment , Climate and Communications"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2020",
+      "grain": "year",
+      "track": "role",
+      "text": "Re-elected TD for Galway West, sole Fine Gael TD in the constituency.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#8", "role": "both", "quote": "At the 2020 general election , Naughton was re-elected to the Dáil"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2020-04-27",
+      "grain": "day",
+      "track": "role",
+      "text": "Assigned additional Minister of State role for criminal justice during maternity leave.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "both", "quote": "From 27 April , Naughton was assigned additional responsibilities"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e20",
+      "date": "2020-06",
+      "grain": "month",
+      "track": "role",
+      "text": "Appointed Minister of State attending cabinet in the 32nd Government.",
+      "evidence": [
+        {"chunk_id": "/wiki/Hildegarde_Naughton#0", "role": "both", "quote": "served as Minister of State attending cabinet since June 2020"},
+        {"chunk_id": "/wiki/Hildegarde_Naughton#10", "role": "description", "quote": "Naughton was appointed as one of three Ministers of State attending cabinet"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Taught at St. Patricks Boys School, Galway (no date given)",
+    "Director of Galway City Partnership Board after 2009 election (no date given)",
+    "Member of Galway City Council Transport Strategic Policy Committee (no date given)",
+    "Member of Galway City Vocational Education Committee (no date given)",
+    "Forced to resign as chair of Dáil ethics committee (no date given)"
+  ]
+}

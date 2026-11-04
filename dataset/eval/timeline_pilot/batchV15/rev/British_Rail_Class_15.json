@@ -1,0 +1,202 @@
+{
+ "page_id": "British_Rail_Class_15",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1955",
+   "grain": "year",
+   "track": "work",
+   "text": "Class 15 ordered by British Railways shortly after the 1955 Modernisation Plan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#1",
+     "role": "both",
+     "quote": "ordered by British Railways ( BR ) shortly after the announcement of the 1955 Modernisation Plan"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e2",
+   "date": "1957",
+   "grain": "year",
+   "track": "work",
+   "text": "First Class 15 locomotive completed and emerged.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#1",
+     "role": "both",
+     "quote": "completion of the first locomotive during 1957"
+    },
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#9",
+     "role": "both",
+     "quote": "During late 1957 , the first example of the type emerged"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e3",
+   "date": "1959-10",
+   "grain": "month",
+   "track": "work",
+   "text": "Deliveries of locomotives D8210-D8243 began, running until February 1961.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#10",
+     "role": "both",
+     "quote": "were delivered between October 1959 and February 1961"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1968-04",
+   "grain": "month",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Class 15 locomotives began being withdrawn from capital stock.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#19",
+     "role": "both",
+     "quote": "being withdrawn from capital stock between April 1968 and"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "storage",
+   "text": "23 Class 15 locomotives stored at Ipswich engine shed before scrapping.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#21",
+     "role": "both",
+     "quote": "23 of the class were stored at the former Ipswich engine shed during 1971"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1971-03",
+   "grain": "month",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Class 15 withdrawal from capital stock completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#19",
+     "role": "description",
+     "quote": "being withdrawn from capital stock between April 1968 and"
+    },
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#20",
+     "role": "date",
+     "quote": "March 1971"
+    }
+   ]
+  },
+  {
+   "date": "1971-10-04",
+   "grain": "day",
+   "track": "other",
+   "label": "station pilot",
+   "text": "Last Class 15 used as Liverpool Street station pilot (8234) replaced by a Class 08",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#13",
+     "role": "both",
+     "quote": "the last locomotive used being 8234 which was replaced by a Class 08 on 4 October 1971"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "scrapping",
+   "text": "All but four Class 15 locomotives broken up for scrap.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#22",
+     "role": "both",
+     "quote": "All but four locomotives had been broken up for scrap by the end of 1972"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e9",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "preservation",
+   "text": "D8233, the sole surviving Class 15, purchased for preservation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#23",
+     "role": "both",
+     "quote": "was purchased for preservation in 1984"
+    }
+   ]
+  },
+  {
+   "date": "1986",
+   "grain": "year",
+   "track": "location",
+   "label": "D8233",
+   "text": "Preserved D8233 moved from the South Yorkshire Railway to the East Lancashire Railway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#23",
+     "role": "both",
+     "quote": "moving in 1986 to the East Lancashire Railway"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1988",
+   "grain": "year",
+   "track": "location",
+   "label": "D8233",
+   "text": "Preserved D8233 moved to the Mangapps Farm Railway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#23",
+     "role": "both",
+     "quote": "and in 1988 to the Mangapps Farm Railway"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "date": "2006-02",
+   "grain": "month",
+   "track": "location",
+   "label": "D8233",
+   "text": "Preserved D8233 returned to the East Lancashire Railway for restoration to working order",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_15#24",
+     "role": "both",
+     "quote": "the locomotive returned to the East Lancashire Railway in February 2006"
+    }
+   ],
+   "id": "e12"
+  }
+ ],
+ "undated_mentions": [
+  "Decision to withdraw the Class 15 in favour of the Class 20 (late 1960s)",
+  "Final use as departmental vehicles ended (late 1980s)",
+  "Re-allocation to East London depot following the Clean Air Act 1956 (no date)",
+  "Worked the train ferry shunt at Harwich Town (1960s)",
+  "Conversion to non-powered train pre-heating units at Doncaster Works (no date)"
+ ]
+}
