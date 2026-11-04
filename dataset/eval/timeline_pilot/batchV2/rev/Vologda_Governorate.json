@@ -1,0 +1,1045 @@
+{
+ "page_id": "Vologda_Governorate",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1708",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Area containing the future governorate included into Archangelgorod Governorate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#6",
+     "role": "date",
+     "quote": "In the course of the administrative reform carried out in 1708 by Peter the Great"
+    },
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#7",
+     "role": "description",
+     "quote": ", the area was included into Archangelgorod Governorate"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1780",
+   "grain": "year",
+   "track": "other",
+   "label": "reorganization",
+   "text": "Archangelgorod Governorate abolished; Vologda Viceroyalty formed with three oblasts",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#7",
+     "role": "both",
+     "quote": "In 1780 , Archangelgorod Governorate , with the center in Arkhangelsk , was abolished and transformed to Vologda Viceroyalty"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1784-03-26",
+   "grain": "day",
+   "track": "other",
+   "label": "reorganization",
+   "text": "Arkhangelsk Oblast split off as Arkhangelsk Viceroyalty",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#7",
+     "role": "both",
+     "quote": "March 26 , 1784 Arkhangelsk Oblast was split off and established as Arkhangelsk Viceroyalty"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1796",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Vologda Governorate officially created from disbanded Vologda Viceroyalty",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#1",
+     "role": "both",
+     "quote": "Vologda Governorate was officially created in 1796 from the disbanded Vologda Viceroyalty"
+    },
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#7",
+     "role": "both",
+     "quote": "In 1796 , Vologda Viceroyalty was transformed into Vologda Governorate with the seat in the city of Vologda"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1798",
+   "grain": "year",
+   "track": "role",
+   "text": "Fyodor Karlovich Norman begins term as acting governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1798–1800 Fyodor Karlovich Norman , acting governor"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1800",
+   "grain": "year",
+   "track": "role",
+   "text": "Fyodor Karlovich Norman ends term as acting governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1798–1800 Fyodor Karlovich Norman , acting governor"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1800",
+   "grain": "year",
+   "track": "role",
+   "text": "Dmitry Borisovich Tolstoy serves as acting governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1800 Dmitry Borisovich Tolstoy , acting governor"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1800",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasily Petrovich Putimtsev serves as acting governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1800 Vasily Petrovich Putimtsev , acting governor"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1800",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasily Ivanovich Lisanevich appointed governor but never took office",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1800 Vasily Ivanovich Lisanevich ( never took the office )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1800",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexey Alexeyevich Goryainov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1800 – 1806 Alexey Alexeyevich Goryainov"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1806",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexey Alexeyevich Goryainov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1800 – 1806 Alexey Alexeyevich Goryainov"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1806",
+   "grain": "year",
+   "track": "role",
+   "text": "Karl Ivanovich Lineman begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1806–1809 Karl Ivanovich Lineman"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1809",
+   "grain": "year",
+   "track": "role",
+   "text": "Karl Ivanovich Lineman ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1806–1809 Karl Ivanovich Lineman"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1809",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasily Ivanovich Voyeykov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1809–1810 Vasily Ivanovich Voyeykov"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1810",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasily Ivanovich Voyeykov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1809–1810 Vasily Ivanovich Voyeykov"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1810",
+   "grain": "year",
+   "track": "role",
+   "text": "Nikolay Ivanovich Barsh begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1810–1814 Nikolay Ivanovich Barsh"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1814",
+   "grain": "year",
+   "track": "role",
+   "text": "Nikolay Ivanovich Barsh ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1810–1814 Nikolay Ivanovich Barsh"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1814",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Ivanovich Vinter begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1814–1818 Ivan Ivanovich Vinter ( Winter )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1818",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Ivanovich Vinter ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1814–1818 Ivan Ivanovich Vinter ( Winter )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1818",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Ivanovich Popov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1818–1821 Ivan Ivanovich Popov"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1821",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Ivanovich Popov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#17",
+     "role": "both",
+     "quote": "1818–1821 Ivan Ivanovich Popov"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1821",
+   "grain": "year",
+   "track": "role",
+   "text": "Nikolay Petrovich Brusilov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#18",
+     "role": "both",
+     "quote": "1821–1834 Nikolay Petrovich Brusilov"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1834",
+   "grain": "year",
+   "track": "role",
+   "text": "Nikolay Petrovich Brusilov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#18",
+     "role": "both",
+     "quote": "1821–1834 Nikolay Petrovich Brusilov"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1834",
+   "grain": "year",
+   "track": "role",
+   "text": "Stepan Ivanovich Kuzmin begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1834–1836 Stepan Ivanovich Kuzmin"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1836",
+   "grain": "year",
+   "track": "role",
+   "text": "Stepan Ivanovich Kuzmin ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1834–1836 Stepan Ivanovich Kuzmin"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1836",
+   "grain": "year",
+   "track": "role",
+   "text": "Dmitry Nikolayevich Bologovsky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1836–1840 Dmitry Nikolayevich Bologovsky"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1840",
+   "grain": "year",
+   "track": "role",
+   "text": "Dmitry Nikolayevich Bologovsky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1836–1840 Dmitry Nikolayevich Bologovsky"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1841",
+   "grain": "year",
+   "track": "role",
+   "text": "Stepan Grigoryevich Volkhovsky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1841–1850 Stepan Grigoryevich Volkhovsky"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1850",
+   "grain": "year",
+   "track": "role",
+   "text": "Stepan Grigoryevich Volkhovsky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1841–1850 Stepan Grigoryevich Volkhovsky"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1851",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vasilyevich Romanus begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1851–1854 Ivan Vasilyevich Romanus"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1854",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vasilyevich Romanus ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1851–1854 Ivan Vasilyevich Romanus"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1854",
+   "grain": "year",
+   "track": "role",
+   "text": "Filipp Semyonovich Stoinsky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1854–1860 Filipp Semyonovich Stoinsky"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1860",
+   "grain": "year",
+   "track": "role",
+   "text": "Filipp Semyonovich Stoinsky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1854–1860 Filipp Semyonovich Stoinsky"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1860",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Filipovich Pfeller begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1860–1861 Vladimir Filipovich Pfeller"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1861",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Filipovich Pfeller ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1860–1861 Vladimir Filipovich Pfeller"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1861",
+   "grain": "year",
+   "track": "role",
+   "text": "Stanislav Fadeevich Khominsky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1861–1878 Stanislav Fadeevich Khominsky"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1872",
+   "grain": "year",
+   "track": "work",
+   "text": "Railroad construction linking the governorate to the empire begins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#8",
+     "role": "both",
+     "quote": "From 1872 to 1906 the construction of railroads connected the governorate"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1878",
+   "grain": "year",
+   "track": "role",
+   "text": "Stanislav Fadeevich Khominsky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1861–1878 Stanislav Fadeevich Khominsky"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1878",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Petrovich Daragan begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1878–1879 Mikhail Petrovich Daragan"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1879",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Petrovich Daragan ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1878–1879 Mikhail Petrovich Daragan"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1880",
+   "grain": "year",
+   "track": "role",
+   "text": "Leonid Ivanovich Cherkasov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1880–1882 Leonid Ivanovich Cherkasov"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1882",
+   "grain": "year",
+   "track": "role",
+   "text": "Leonid Ivanovich Cherkasov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1880–1882 Leonid Ivanovich Cherkasov"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1882",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Nikolayevich Mosolov appointed governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1882 Alexander Nikolayevich Mosolov"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1882",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Nikolayevich Kormilitsyn begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1882–1892 Mikhail Nikolayevich Kormilitsyn"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1892",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Nikolayevich Kormilitsyn ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1882–1892 Mikhail Nikolayevich Kormilitsyn"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1892",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Zakharovich Kolenko begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1892–1894 Vladimir Zakharovich Kolenko"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1894",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Zakharovich Kolenko ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1892–1894 Vladimir Zakharovich Kolenko"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1894",
+   "grain": "year",
+   "track": "role",
+   "text": "Iosif Yakovlevich Dunin-Barkovsky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1894–1898 Iosif Yakovlevich Dunin-Barkovsky"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1898",
+   "grain": "year",
+   "track": "role",
+   "text": "Iosif Yakovlevich Dunin-Barkovsky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1894–1898 Iosif Yakovlevich Dunin-Barkovsky"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1898",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Alexandrovich Musin-Pushkin begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1898–1900 Alexander Alexandrovich Musin-Pushkin"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1900",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Alexandrovich Musin-Pushkin ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1898–1900 Alexander Alexandrovich Musin-Pushkin"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1901",
+   "grain": "year",
+   "track": "role",
+   "text": "Leonid Mikhaylovich Knyazev begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1901–1902 Leonid Mikhaylovich Knyazev"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1902",
+   "grain": "year",
+   "track": "role",
+   "text": "Leonid Mikhaylovich Knyazev ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1901–1902 Leonid Mikhaylovich Knyazev"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1902",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Alexandrovich Lodyzhensky begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1902–1906 Alexander Alexandrovich Lodyzhensky"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1906",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Alexandrovich Lodyzhensky ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#19",
+     "role": "both",
+     "quote": "1902–1906 Alexander Alexandrovich Lodyzhensky"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1906",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexey Nikolayevich Khvostov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#20",
+     "role": "both",
+     "quote": "1906–1910 Alexey Nikolayevich Khvostov"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1906",
+   "grain": "year",
+   "track": "work",
+   "text": "Railroad construction linking the governorate to the empire ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#8",
+     "role": "both",
+     "quote": "From 1872 to 1906 the construction of railroads connected the governorate"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1910",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexey Nikolayevich Khvostov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#20",
+     "role": "both",
+     "quote": "1906–1910 Alexey Nikolayevich Khvostov"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1910",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Nikolayevich Shramchenko begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1910–1913 Mikhail Nikolayevich Shramchenko"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1913",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Nikolayevich Shramchenko ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1910–1913 Mikhail Nikolayevich Shramchenko"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1913",
+   "grain": "year",
+   "track": "role",
+   "text": "Yakov Dmitrievich Bologovsky appointed governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1913 Yakov Dmitrievich Bologovsky"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1914",
+   "grain": "year",
+   "track": "role",
+   "text": "Viktor Alexandrovich Lopukhin begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1914–1915 Viktor Alexandrovich Lopukhin"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1915",
+   "grain": "year",
+   "track": "role",
+   "text": "Viktor Alexandrovich Lopukhin ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1914–1915 Viktor Alexandrovich Lopukhin"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1916",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Mikhaylovich Strakhov appointed governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1916 Vladimir Mikhaylovich Strakhov"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "1916",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Viktorovich Arapov begins term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1916–1917 Alexander Viktorovich Arapov"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1917",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexander Viktorovich Arapov ends term as governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#21",
+     "role": "both",
+     "quote": "1916–1917 Alexander Viktorovich Arapov"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1918-07-24",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Five uyezds separated into newly created Northern Dvina Governorate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#8",
+     "role": "both",
+     "quote": "On July 24 , 1918 the Peoples Commissariat for Internal Affairs of the Russian Soviet Federative Socialist Republic established Northern Dvina Governorate"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1919-04-30",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Kargopolsky Uyezd transferred from Olonets to Vologda Governorate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#10",
+     "role": "both",
+     "quote": "On April 30 , 1919 Kargopolsky Uyezd , formerly of Olonets Governorate , was transferred to Vologda Governorate"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "1923-11",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Several volosts of Vologodsky Uyezd merged into Sverdlovsky District",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#10",
+     "role": "both",
+     "quote": "In November 1923 , several volosts of Vologodsky Uyezd were merged into Sverdlovsky District"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "1924",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Sverdlovsky District augmented with volosts from Kadnikovsky Uyezd",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#10",
+     "role": "both",
+     "quote": "which in 1924 was augmented with several volosts of neighboring Kadnikovsky Uyezd"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "1924-08-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Gryazovetsky Uyezd disestablished and merged into Vologodsky Uyezd",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#10",
+     "role": "both",
+     "quote": "On August 7 , 1924 Gryazovetsky Uyezd was disestablished and merged into Vologodsky Uyezd"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "1928",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Sverdlovsky District reorganized into volosts and incorporated into Kadnikovsky Uyezd",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#10",
+     "role": "both",
+     "quote": "In 1928 , Sverdlovsky District was reorganized into volosts and incorporated into Kadnikovsky Uyezd"
+    }
+   ]
+  },
+  {
+   "id": "e73",
+   "date": "1929-01-14",
+   "grain": "day",
+   "track": "other",
+   "label": "abolition",
+   "text": "Governorate merged into Northern Krai, ending its existence",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vologda_Governorate#11",
+     "role": "both",
+     "quote": "On January 14 , 1929 by the All-Russian Central Executive Committee three governorates"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Region belonged to Great Perm, later incorporated into the Novgorod Republic (no date)",
+  "Vologda land became part of the Grand Duchy of Moscow after Novgorod annexation (no date)"
+ ]
+}

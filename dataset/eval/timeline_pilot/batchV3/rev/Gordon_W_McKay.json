@@ -1,0 +1,483 @@
+{
+ "page_id": "Gordon_W._McKay",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1910-03-17",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Aitkin, Minnesota.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#1",
+     "role": "both",
+     "quote": "McKay was born on March 17 , 1910 in Aitkin , Minnesota"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1911",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved with parents to Oregon, settling in Bend.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#1",
+     "role": "both",
+     "quote": "In 1911 , when he was less than a year old , McKay moved with his parents to Oregon"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1929",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from high school in Bend.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#4",
+     "role": "both",
+     "quote": "graduating from high school there in 1929"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1930",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Bend to work for Oregon Highway Department.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#5",
+     "role": "both",
+     "quote": "In 1930 , McKay left Bend to take a job with the Oregon Highway Department"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1934",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began first assignment with Bureau of Reclamation at Parker Dam.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#5",
+     "role": "both",
+     "quote": "His first assignment with the bureau began in 1934 at Parker Dam"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1936",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Melba T. McKay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#6",
+     "role": "both",
+     "quote": "In 1936 , McKay married Melba T . McKay"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1938",
+   "grain": "year",
+   "track": "location",
+   "flag": "derived_date",
+   "text": "Transferred to Marshall Ford Dam near Austin, Texas.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#7",
+     "role": "both",
+     "quote": "McKay worked at Parker Dam for a total of four years before transferring to Marshall Ford Dam near Austin , Texas"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1942",
+   "grain": "year",
+   "track": "location",
+   "text": "Reassigned to a power station in Phoenix, Arizona.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#7",
+     "role": "both",
+     "quote": "He remained there until 1942 , when he was reassigned to a power station in Phoenix , Arizona"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1943",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "approximate_date",
+   "text": "Left Bureau of Reclamation to join the US Navy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#8",
+     "role": "both",
+     "quote": "In early 1943 , McKay left the Bureau of Reclamation to join the United States Navy"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1946",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "approximate_date",
+   "text": "Discharged from the US Navy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#8",
+     "role": "both",
+     "quote": "McKay was discharged from the navy in early 1946"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1946",
+   "grain": "year",
+   "track": "location",
+   "flag": "derived_date",
+   "text": "Moved to Los Angeles and sold real estate there.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#9",
+     "role": "both",
+     "quote": "After leaving the navy , McKay moved to Los Angeles , where he sold real estate for four years"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1950",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to Bend, Oregon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#9",
+     "role": "both",
+     "quote": "He returned to Bend in 1950 , becoming vice president of Deschutes County Title and Abstract Company"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Became vice president of Deschutes County Title and Abstract Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#9",
+     "role": "both",
+     "quote": "He returned to Bend in 1950 , becoming vice president of Deschutes County Title and Abstract Company"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1952",
+   "grain": "year",
+   "track": "family",
+   "text": "Wife Melba died of cancer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#10",
+     "role": "both",
+     "quote": "In 1952 , McKays wife Melba died of cancer at the age of 40"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1953",
+   "grain": "year",
+   "track": "family",
+   "flag": "derived_date",
+   "text": "Married Evelyn Ruth Watson.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#10",
+     "role": "both",
+     "quote": "A year later , McKay married Evelyn Ruth Watson"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1953",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service on Bend-La Pine School Board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#11",
+     "role": "both",
+     "quote": "He served on the Bend-La Pine School Board for eleven years , from 1953 through 1963"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1957",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected president of Oregon Land Title Association.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#11",
+     "role": "both",
+     "quote": "He was elected president of that organization in 1957"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1959",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named Bend community's Boss of the Year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#12",
+     "role": "both",
+     "quote": "In 1959 , he was chosen as the Bend communitys Boss of the Year"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "flag": "derived_date",
+   "text": "Honored as Bend's Senior Citizen of the Year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#12",
+     "role": "both",
+     "quote": "A year later , he was honored as Bends Senior Citizen of the Year"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1963",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended service on Bend-La Pine School Board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#11",
+     "role": "both",
+     "quote": "He served on the Bend-La Pine School Board for eleven years , from 1953 through 1963"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Won general election for Oregon State Senate, District 19, over Charles L. Allen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#13",
+     "role": "both",
+     "quote": "In the general election that followed , McKay defeated the Democratic candidate , Charles L . Allen of Tumalo"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1965",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed to Ways and Means committee during 1965 session.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#13",
+     "role": "both",
+     "quote": "The 1965 legislative session lasted just over four months , from January 11 through May 14"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1965-01",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Began first Oregon State Senate term (District 19).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#13",
+     "role": "both",
+     "quote": "The 1965 legislative session lasted just over four months , from January 11 through May 14"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1967-01-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Chaired elections committee; vice-chaired commerce and utilities committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#15",
+     "role": "both",
+     "quote": "The 1967 session began on January 11 and lasted through June 14"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1968",
+   "grain": "year",
+   "track": "role",
+   "text": "Won unopposed general election for second Senate term (District 19).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#16",
+     "role": "both",
+     "quote": "In 1968 , McKay ran for a second term representing District 19"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1969-01",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Began second Oregon State Senate term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#16",
+     "role": "both",
+     "quote": "The 1969 legislative session lasted just over three months , starting on January 13 and ending on April 23"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1969-01-13",
+   "grain": "day",
+   "track": "role",
+   "text": "Chaired rules and resolutions committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#16",
+     "role": "both",
+     "quote": "The 1969 legislative session lasted just over three months , starting on January 13 and ending on April 23"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "legislation",
+   "flag": "derived_date",
+   "text": "Helped enact legislation revising the state criminal code.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#18",
+     "role": "both",
+     "quote": "During the session , he helped enact legislation that revised the states criminal code"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1971-01-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Chaired financial affairs committee; vice-chaired rules and resolutions committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#18",
+     "role": "both",
+     "quote": "McKay attended the regular 1971 legislative session"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1972",
+   "grain": "year",
+   "track": "role",
+   "text": "Lost general election for District 27 to Fred W. Heard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#19",
+     "role": "both",
+     "quote": "In 1972 , McKay ran for a third senate term"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1973-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Left Oregon State Senate when second term expired.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#20",
+     "role": "both",
+     "quote": "McKay left the state senate in January 1973 when his second term expired"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1990-10-26",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died of a heart attack at his home in Bend.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gordon_W._McKay#22",
+     "role": "both",
+     "quote": "McKay died of a heart attack at his home in Bend on October 26 , 1990"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Attended University of Oregon (no date)",
+  "Served as Chief Warrant Officer in the Seabees (no date)",
+  "Combat in Asiatic-Pacific Theater during WWII, including Battle of Tarawa (no date)",
+  "President of local Kiwanis (no date)",
+  "Board chairman of Bend-La Pine School Board (no date)",
+  "Member of Central Oregon Community College Foundation board (no date)",
+  "Member of Central Oregon Realty Board (no date)",
+  "Member of Bend chamber of commerce (no date)",
+  "Chairman of local United Way fund drive (no date)",
+  "President of a title insurance company in Bend (no date)",
+  "Returned to title insurance business in Bend after Senate (no date)",
+  "Married third wife Della Marjorie Phillips (no date)",
+  "Retired from business (no date)"
+ ]
+}

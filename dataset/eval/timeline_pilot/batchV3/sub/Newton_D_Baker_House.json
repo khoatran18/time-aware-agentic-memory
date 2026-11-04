@@ -1,0 +1,273 @@
+{
+  "page_id": "Newton_D_Baker_House",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1794",
+      "grain": "year",
+      "track": "work",
+      "text": "House built by Thomas Beall.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#0", "role": "both", "quote": "Built in 1794 , it was home of Newton D . Baker"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#2", "role": "both", "quote": "The house was built in 1794 by Thomas Beall"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1796",
+      "grain": "year",
+      "track": "location",
+      "text": "John Laird, a wealthy merchant, began living in the house; Beall's occupancy ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#3", "role": "both", "quote": "In 1796 , John Laird , a wealthy merchant , lived in the house"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#13", "role": "both", "quote": "1796- ? - John Laird"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1827",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "John Laird bought the house for his son; George Peter's occupancy ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#3", "role": "both", "quote": "until 1827 , when the same Laird bought the house for his son"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1834",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "William Redin, first auditor of the Circuit Court for DC, purchased the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#3", "role": "both", "quote": "In 1834 , William Redin , the first auditor of the Circuit Court for the District of Columbia , purchased it"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1868",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Redin's daughter inherited and sold the house, which became Georgetown Female Seminary.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#4", "role": "both", "quote": "In 1868 , Redins unmarried daughter inherited and sold the dwelling"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1890",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "John H. Smoot bought the building and converted it back to a private residence.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#4", "role": "both", "quote": "In approximately 1890 , John H . Smoot bought the building"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e7",
+      "date": "1915",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Col. William E. Pattison French purchased the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#5", "role": "both", "quote": "In 1915 , Col . William E . Pattison French purchased the house"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1916",
+      "grain": "year",
+      "track": "location",
+      "text": "French rented the house to Newton D. Baker, Secretary of War.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#5", "role": "both", "quote": "began renting it to Newton D . Baker in 1916"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#0", "role": "both", "quote": "it was home of Newton D . Baker , who was Secretary of War , during 1916-1920"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1920",
+      "grain": "year",
+      "track": "location",
+      "text": "Newton D. Baker returned to Cleveland and left the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#5", "role": "both", "quote": "When Baker returned to Cleveland in 1920"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1920",
+      "grain": "year",
+      "track": "location",
+      "text": "Pattison French leased or occupied the house himself after Baker left.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#13", "role": "both", "quote": "1920-1941 - Col . William E . Pattison French"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#5", "role": "description", "quote": "French either leased or lived in the house himself for more than two decades"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1941",
+      "grain": "year",
+      "track": "location",
+      "text": "British military attache occupied the house and rented rooms to British officers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#13", "role": "both", "quote": "1941-1945 - British military attache"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#5", "role": "description", "quote": "the British military attache occupied the house and rented rooms to British officers"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1945",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Vice Admiral Alan Kirk purchased the property after World War II.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#13", "role": "both", "quote": "1945-1948 - Vice Admiral Alan Kirk"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#6", "role": "description", "quote": "Vice Admiral Alan Kirk , later Ambassador to Belgium and to the Soviet Union , purchased the property"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1948",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Dr. E. H. Gushing and his wife bought the home.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#14", "role": "both", "quote": "1948-1954 - Dr . E . H . Gushing"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#6", "role": "description", "quote": "Three years later , Dr . E . H . Gushing bought the home along with his wife"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1954",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "James McMillan Gibson bought the dwelling and lived there with his wife.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#7", "role": "both", "quote": "In 1954 , James McMillan Gibson bought the dwelling , added a small rear wing , and installed an elevator"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1954",
+      "grain": "year",
+      "track": "work",
+      "text": "Gibson added a small rear wing to the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#7", "role": "both", "quote": "In 1954 , James McMillan Gibson bought the dwelling , added a small rear wing , and installed an elevator"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1954",
+      "grain": "year",
+      "track": "work",
+      "text": "Gibson installed an elevator in the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#7", "role": "both", "quote": "In 1954 , James McMillan Gibson bought the dwelling , added a small rear wing , and installed an elevator"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1964",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Jacqueline Kennedy purchased the house and lived there about a year.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#8", "role": "both", "quote": "In 1964 , Jacqueline Kennedy purchased the house and lived in it shortly after the assassination"},
+        {"chunk_id": "/wiki/Newton_D._Baker_House#0", "role": "description", "quote": "After the assassination of president John F . Kennedy in 1963 , Jacqueline Kennedy purchased the house"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1965",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Michael Whitney Straight purchased the home from Kennedy for $200,000.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#9", "role": "both", "quote": "In 1965 , Michael Whitney Straight purchased the home for $200,000"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1974",
+      "grain": "year",
+      "track": "location",
+      "text": "Yolande Bebeze Fox listed as resident from 1974 (timeline; conflicts with 1976 purchase).",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#15", "role": "both", "quote": "1974-2016 - Yolande Bebeze Fox"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e20",
+      "date": "1976",
+      "grain": "year",
+      "track": "location",
+      "text": "Michael Whitney Straight and wife moved to Bethesda, Maryland.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#9", "role": "both", "quote": "decided to move to Bethesda , Maryland in 1976"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1976",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Yolande Bebeze Fox bought the home from Straight.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#11", "role": "both", "quote": "In 1976 , Yolande Bebeze Fox , the former Miss America 1951 , bought the home from Straight"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e22",
+      "date": "1976",
+      "grain": "year",
+      "track": "other",
+      "label": "landmark",
+      "text": "House declared a National Historic Landmark.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#1", "role": "both", "quote": "It was declared a National Historic Landmark in 1976"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "2016-02",
+      "grain": "month",
+      "track": "location",
+      "text": "Yolande Bebeze Fox's occupancy of the house ended with her death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#11", "role": "both", "quote": "until her death in February 2016"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "2017",
+      "grain": "year",
+      "track": "location",
+      "text": "David W. Hudgens began living in the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#15", "role": "both", "quote": "2017-present - David W . Hudgens , performed extensive renovations"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "2017",
+      "grain": "year",
+      "track": "work",
+      "text": "David W. Hudgens performed extensive renovations on the house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Newton_D._Baker_House#15", "role": "both", "quote": "2017-present - David W . Hudgens , performed extensive renovations"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "George Peter purchased the house (no date, after 1796)",
+    "Sale of the attached servants wing to Mr. and Mrs. Stanley Woodward, who built a new front entrance (no date)",
+    "Cushings updated the main house's electrical wiring and plumbing and removed interior walls (no date)",
+    "Michael Whitney Straight and wife spent $125,000 renovating the home (no date)"
+  ]
+}

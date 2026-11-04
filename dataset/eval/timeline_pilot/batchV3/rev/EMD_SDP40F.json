@@ -1,0 +1,183 @@
+{
+ "page_id": "EMD_SDP40F",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1972-11-02",
+   "grain": "day",
+   "track": "work",
+   "text": "Amtrak placed first order for 40 SDP40F locomotives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#10",
+     "role": "both",
+     "quote": "The first order , placed on November 2 , 1972 , was for 40 locomotives"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "EMD began building SDP40F locomotives for Amtrak.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#0",
+     "role": "both",
+     "quote": "built by General Motors Electro-Motive Division ( EMD ) from 1973–1974"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1973-06-22",
+   "grain": "day",
+   "track": "work",
+   "text": "SDP40F locomotives entered Amtrak revenue service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#10",
+     "role": "both",
+     "quote": "The locomotives entered revenue service on June 22 , 1973"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1973-10-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Amtrak placed second order for 110 SDP40F locomotives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#10",
+     "role": "both",
+     "quote": "A second order , for 110 locomotives at $50 million , followed on October 12 , 1973"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Amtrak decided to abandon SDP40F in favor of the F40PH.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#1",
+     "role": "both",
+     "quote": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH"
+    },
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#18",
+     "role": "both",
+     "quote": "In the spring of 1977 Amtrak faced a power crisis"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1977",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Amtrak traded 40 SDP40F locomotives back to EMD.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#18",
+     "role": "both",
+     "quote": "In the spring of 1977 Amtrak faced a power crisis"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1977",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Amtrak traded 132 SDP40F locomotives back to EMD for F40PHRs, through 1987.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#19",
+     "role": "both",
+     "quote": "Between 1977–1987 Amtrak traded 132 of the SDP40Fs back to EMD for F40PHRs"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e8",
+   "date": "1984",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Amtrak traded 18 SDP40F locomotives to Santa Fe for 43 switchers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#20",
+     "role": "both",
+     "quote": "In 1984 Amtrak , low on light-duty power , traded 18 SDP40Fs to the Santa Fe for 43 switchers"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1987",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Last SDP40F locomotives left the Amtrak roster.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#19",
+     "role": "both",
+     "quote": "The last SDP40Fs left the Amtrak roster in 1987"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "retirement",
+   "text": "BNSF retired the rebuilt SDF40-2 locomotives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#2",
+     "role": "both",
+     "quote": "retired them in 2002"
+    },
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#20",
+     "role": "both",
+     "quote": "until their retirement in 2002"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2019-11",
+   "grain": "month",
+   "track": "other",
+   "label": "preservation",
+   "text": "Preserved SDF40-2 (ex-Amtrak 644) returned to operation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/EMD_SDP40F#21",
+     "role": "both",
+     "quote": "returned to operation in November 2019"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Original 40 SDP40F locomotives deployed on Western long-distance trains (no date)",
+  "Second-order locomotives deployed nationwide, displacing inherited E-units (no date)",
+  "Mid-1970s series of derailments shattered Amtrak confidence in the locomotive",
+  "Amtrak corrective measures after derailments: reduced curve speed, emptied water tank, truck alterations (no date)",
+  "Santa Fe rebuilt traded locomotives for freight use as SDF40-2 (no date)",
+  "Ex-Amtrak 644 (SDF40-2) acquired by Dynamic Rail Preservation Inc. (no date)"
+ ]
+}

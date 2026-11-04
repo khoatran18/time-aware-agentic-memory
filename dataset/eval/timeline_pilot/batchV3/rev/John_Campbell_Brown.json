@@ -1,0 +1,388 @@
+{
+ "page_id": "John_Campbell_Brown",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1947-02-04",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Dumbarton, Scotland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#0",
+     "role": "date",
+     "quote": "4 February 1947 – 16 November 2019"
+    },
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#1",
+     "role": "both",
+     "quote": "Brown was born in Dumbarton , Scotland , in 1947"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1952",
+   "grain": "year",
+   "track": "education",
+   "text": "Began attending Hartfield Primary in Dumbarton.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "Brown went to Hartfield Primary in Dumbarton from 1952 to 1958"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1957",
+   "grain": "year",
+   "track": "other",
+   "label": "astronomy_interest",
+   "text": "Saw Comet Arend–Roland through binoculars, aged 10.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#1",
+     "role": "both",
+     "quote": "It developed further in 1957 when he saw Comet Arend–Roland through binoculars"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1958",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended attendance at Hartfield Primary in Dumbarton.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "Brown went to Hartfield Primary in Dumbarton from 1952 to 1958"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1958",
+   "grain": "year",
+   "track": "education",
+   "text": "Began attending Dumbarton Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "Dumbarton Academy from 1958 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1964",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended attendance at Dumbarton Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "Dumbarton Academy from 1958 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1968",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned first class BSc in physics and astronomy, Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "earning a first class BSc in 1968"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1968",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as astronomy research assistant at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "employed him as an astronomy research assistant in 1968–70"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended research assistant post at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "astronomy research assistant in 1968–70 and lecturer from 1970"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Became lecturer at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "lecturer from 1970"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1973",
+   "grain": "year",
+   "track": "education",
+   "text": "Received PhD in solar plasma physics, Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "both",
+     "quote": "receive a PhD in solar plasma physics in 1973"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1978",
+   "grain": "year",
+   "track": "role",
+   "text": "Promoted to senior lecturer at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "In 1978 he was promoted to senior lecturer"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Became reader at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "then reader in 1980"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Began research fellowship from the Nuffield Foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "He received a research fellowship from the Nuffield Foundation in 1983–1984"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1984",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended research fellowship from the Nuffield Foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "He received a research fellowship from the Nuffield Foundation in 1983–1984"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1984",
+   "grain": "year",
+   "track": "role",
+   "text": "Promoted to chair of astrophysics at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "He was then promoted to chair of astrophysics from 1984"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1984",
+   "grain": "year",
+   "track": "education",
+   "text": "Received DSc (higher doctorate) in plasma astrophysics.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#4",
+     "role": "both",
+     "quote": "( a higher doctorate ) in plasma astrophysics in 1984"
+    },
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#3",
+     "role": "description",
+     "quote": "He received a DSc degree"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Elected fellow of the Royal Society of Edinburgh.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#10",
+     "role": "both",
+     "quote": "He was elected a fellow of the Royal Society of Edinburgh in 1984"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Became head of Glasgow astronomy and astrophysics research group.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "Beginning in 1986 , he was head of Glasgows astronomy & astrophysics research group"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1995-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed 10th Astronomer Royal for Scotland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#10",
+     "role": "both",
+     "quote": "He was appointed the 10th Astronomer Royal for Scotland in February 1995"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Regius Professor of Astronomy at University of Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "both",
+     "quote": "became the Regius Professor of Astronomy in 1996"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Became honorary professor at University of Edinburgh.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#6",
+     "role": "date",
+     "quote": "Edinburgh from 1996 , and the University of Aberdeen from 1998"
+    },
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "description",
+     "quote": "Brown received additional appointments as honorary professor at the University of"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Became honorary professor at University of Aberdeen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#6",
+     "role": "date",
+     "quote": "Edinburgh from 1996 , and the University of Aberdeen from 1998"
+    },
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#5",
+     "role": "description",
+     "quote": "Brown received additional appointments as honorary professor at the University of"
+    }
+   ]
+  },
+  {
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed Officer of the Order of the British Empire (OBE) in the Birthday Honours",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#10",
+     "role": "both",
+     "quote": "Officer of the Order of the British Empire ( OBE ) in the 2016 Birthday Honours"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "2019-11-16",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died suddenly at his home on the Isle of Skye.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Campbell_Brown#2",
+     "role": "both",
+     "quote": "He died suddenly at his home on the Isle of Skye in the early hours of Saturday 16 November 2019"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Interest in astronomy started around age eight (no year given)",
+  "Started an astronomy club aged 16 (year not stated)",
+  "Began undergraduate study in physics and astronomy at University of Glasgow (no date)",
+  "Constructed telescopes as an undergraduate (no date)",
+  "Married Margaret (no date)",
+  "Awarded Gold Medal of the Royal Astronomical Society (no date)"
+ ]
+}

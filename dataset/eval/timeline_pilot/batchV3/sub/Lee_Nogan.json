@@ -1,0 +1,42 @@
+{
+ "page_id": "Lee_Nogan",
+ "events": [
+  {"id": "e1", "date": "1969-05-21", "grain": "day", "track": "other", "label": "birth", "text": "Lee Martin Nogan was born.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#0", "role": "both", "quote": "Lee Martin Nogan ( born 21 May 1969 )"}]},
+  {"id": "e2", "date": "1987", "grain": "year", "track": "affiliation", "text": "Began professional career at Oxford United.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#1", "role": "both", "quote": "he began his career at Oxford United in 1987"}]},
+  {"id": "e3", "date": "1987-03", "grain": "month", "track": "affiliation", "text": "Joined Brentford on loan.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#5", "role": "both", "quote": "He joined Brentford on loan in March 1987"}, {"chunk_id": "/wiki/Lee_Nogan#1", "role": "description", "quote": "had loan spells at Brentford and Southend United"}]},
+  {"id": "e4", "date": "1991-12", "grain": "month", "track": "affiliation", "text": "Sold to Watford for 350,000 pounds.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#1", "role": "both", "quote": "He was sold on to Watford for £350,000 in December 1991"}, {"chunk_id": "/wiki/Lee_Nogan#7", "role": "both", "quote": "Nogan joined Second Division rivals Watford for a £350,000 fee in December 1991"}]},
+  {"id": "e5", "date": "1992", "grain": "year", "track": "other", "label": "international cap", "text": "Won first senior Wales cap.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#22", "role": "both", "quote": "before he won his first senior Wales cap in 1992"}]},
+  {"id": "e6", "date": "1995", "grain": "year", "track": "other", "label": "international cap", "text": "Won second and final Wales cap.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#22", "role": "both", "quote": "He picked up his second and final cap three years later"}]},
+  {"id": "e7", "date": "1995-01", "grain": "month", "track": "affiliation", "text": "Sold to Reading for 250,000 pounds.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#1", "role": "both", "quote": "He was sold to Reading for £250,000 in January 1995"}, {"chunk_id": "/wiki/Lee_Nogan#9", "role": "both", "quote": "Nogan was sold on to Reading for £250,000 in January 1995"}]},
+  {"id": "e8", "date": "1997-08", "grain": "month", "track": "affiliation", "text": "Signed with Grimsby Town for 170,000 pounds.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#2", "role": "both", "quote": "before he joined Grimsby Town for a £170,000 fee in August 1997"}, {"chunk_id": "/wiki/Lee_Nogan#12", "role": "both", "quote": "Nogan signed with Grimsby Town for a £170,000 fee in August 1997"}]},
+  {"id": "e9", "date": "1998", "grain": "year", "track": "other", "label": "honour", "text": "Won Second Division play-offs and promotion with Grimsby.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#28", "role": "both", "quote": "Football League Second Division play-offs : 1998"}]},
+  {"id": "e10", "date": "1998", "grain": "year", "track": "other", "label": "honour", "text": "Grimsby won the Football League Trophy.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#12", "role": "both", "quote": "He also played in the 1998 Football League Trophy final"}, {"chunk_id": "/wiki/Lee_Nogan#2", "role": "both", "quote": "He helped the club to win the Football League Trophy in 1998"}, {"chunk_id": "/wiki/Lee_Nogan#28", "role": "both", "quote": "Football League Trophy : 1998"}]},
+  {"id": "e11", "date": "1999-07", "grain": "month", "track": "affiliation", "text": "Joined Darlington on a free transfer.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#14", "role": "both", "quote": "Nogan joined Darlington on a free transfer in July 1999"}]},
+  {"id": "e12", "date": "2000", "grain": "year", "track": "affiliation", "text": "Moved to Luton Town.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#2", "role": "both", "quote": "He moved on to Luton Town in 2000"}, {"chunk_id": "/wiki/Lee_Nogan#16", "role": "description", "quote": "Nogan moved back up to the Second Division to Luton Town"}]},
+  {"id": "e13", "date": "2001-02", "grain": "month", "track": "affiliation", "text": "Signed with York City.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#18", "role": "both", "quote": "Nogan signed with York City in February 2001"}, {"chunk_id": "/wiki/Lee_Nogan#2", "role": "both", "quote": "before signing with York City in February 2001"}]},
+  {"id": "e14", "date": "2003-05", "grain": "month", "track": "role", "text": "Appointed assistant manager at York City.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#2", "role": "both", "quote": "He was also instated as assistant manager in May 2003"}]},
+  {"id": "e15", "date": "2003-05", "grain": "month", "track": "affiliation", "text": "Released by York City after cost-cutting measures.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#20", "role": "both", "quote": "He was released in May 2003"}]},
+  {"id": "e16", "date": "2005-02", "grain": "month", "track": "affiliation", "text": "Left York City after caretaker manager was replaced.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#21", "role": "date", "quote": "McEwan in February"}, {"chunk_id": "/wiki/Lee_Nogan#20", "role": "description", "quote": "before leaving the club when caretaker-manager Viv Busby was succeeded by Billy"}]},
+  {"id": "e17", "date": "2005-03", "grain": "month", "track": "affiliation", "text": "Joined Harrogate Town.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#21", "role": "both", "quote": "He went on to join Conference North side Harrogate Town in March 2005"}]},
+  {"id": "e18", "date": "2006-06", "grain": "month", "track": "role", "text": "Appointed manager of Whitby Town.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#23", "role": "both", "quote": "Nogan was appointed as manager of Whitby Town in June 2006"}, {"chunk_id": "/wiki/Lee_Nogan#4", "role": "both", "quote": "He was appointed manager at Whitby Town in June 2006"}]},
+  {"id": "e19", "date": "2007-10-22", "grain": "day", "track": "role", "text": "Resigned as manager of Whitby Town.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#23", "role": "both", "quote": "Nogan resigned on 22 October 2007"}, {"chunk_id": "/wiki/Lee_Nogan#4", "role": "both", "quote": "before resigning in October 2007"}]},
+  {"id": "e20", "date": "2015-11-28", "grain": "day", "track": "role", "text": "Hired as assistant manager at Gateshead under Neil Aspin.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#25", "role": "both", "quote": "the following day he hired Nogan to again work as his assistant"}, {"chunk_id": "/wiki/Lee_Nogan#4", "role": "both", "quote": "He followed Aspin to Gateshead in November 2015"}]},
+  {"id": "e21", "date": "2017-10-06", "grain": "day", "track": "role", "text": "Joined Port Vale as coach under Neil Aspin.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#26", "role": "both", "quote": "Nogan with him to work as a coach on 6 October 2017"}, {"chunk_id": "/wiki/Lee_Nogan#4", "role": "both", "quote": "and then Port Vale in October 2017"}]},
+  {"id": "e22", "date": "2019-01-30", "grain": "day", "track": "affiliation", "text": "Departed Port Vale alongside Neil Aspin.", "evidence": [{"chunk_id": "/wiki/Lee_Nogan#26", "role": "both", "quote": "He departed Vale Park alongside Aspin on 30 January 2019"}]}
+ ],
+ "undated_mentions": [
+  "Loan spell at Southend United (Third Division), undated",
+  "Regular first-team player at Oxford United (1990-91 season)",
+  "Loan spell at Notts County (Second Division), undated",
+  "Lost first-team place at Watford under Glenn Roeder (1993-94 season)",
+  "Second loan at Southend United, First Division (1993-94 season)",
+  "Returned to Watford from Southend United (1994-95 season)",
+  "Left Darlington on a free transfer (start of 2000-01 season)",
+  "Won caps for Wales under-21 and B team, undated",
+  "Played for Pickering Town after York City, undated",
+  "Assistant to Neil Aspin at F.C. Halifax Town, undated",
+  "Continued as player at Whitby Town after resigning (2007-08 season)",
+  "Assistant manager to Graeme Clark at Whitby Town (2008-09 season)",
+  "Worked as a primary school PE teacher after retiring, undated"
+ ]
+}

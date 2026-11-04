@@ -1,0 +1,196 @@
+{
+  "page_id": "Evandro_Brandão",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1991-05-07",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Evandro Brandão was born",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#0", "role": "both", "quote": "born 7 May 1991"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2003",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined Walsall",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#1", "role": "both", "quote": "before joining Walsall in 2003"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2006-10-21",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Signed for Manchester United",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#2", "role": "both", "quote": "signed for Manchester United on 21 October 2006"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2007-03",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Made debut for Manchester United under-18s, about five months after signing",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#2", "role": "both", "quote": "He had to wait five months to make his debut for the under-18s"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "2007-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Offered a trainee contract by Manchester United",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#2", "role": "both", "quote": "before being offered a trainee contract in July 2007"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Signed with Braga",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#4", "role": "both", "quote": "Brandão signed with Braga in the summer of 2009"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e7",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Benfica signed him after usurping the Braga deal, on a two-and-a-half-year contract",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#4", "role": "both", "quote": "just five months later , the deal was usurped by Benfica , who signed him"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "2009-06",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Released by Manchester United at contract expiry",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#3", "role": "both", "quote": "was released on the expiry of his contract in June 2009"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2011-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Moved to Hungarian club Videoton",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#5", "role": "both", "quote": "moved to Hungarian club Videoton in July 2011"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2011-08-20",
+      "grain": "day",
+      "track": "other",
+      "label": "first league goal",
+      "text": "Scored his first and only Nemzeti Bajnokság I goal for Videoton",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#5", "role": "both", "quote": "He scored his first and only Nemzeti Bajnokság I goal for the side on 20 August"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e11",
+      "date": "2012",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Signed with Olhanense on loan",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#6", "role": "both", "quote": "In the summer of 2012 , Brandão signed with Olhanense"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e12",
+      "date": "2012-12-15",
+      "grain": "day",
+      "track": "other",
+      "label": "first top-flight goal",
+      "text": "Scored his first top-flight goal for Olhanense",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#6", "role": "both", "quote": "He scored his first goal in the competition on 15 December"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e13",
+      "date": "2014-08-13",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Made senior debut for Angola national team",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#9", "role": "both", "quote": "making his debut on 13 August 2014"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2016-07-12",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Agreed a deal with Fafe in the Portuguese second tier",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#7", "role": "both", "quote": "On 12 July 2016 , he agreed to a deal at Fafe"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2017-01-15",
+      "grain": "day",
+      "track": "other",
+      "label": "first professional hat-trick",
+      "text": "Scored first professional hat-trick, in a 4–1 win over Braga B",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#8", "role": "both", "quote": "scored his first hat-trick at the professional level on 15 January 2017"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2017-06",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Signed for Leixões after relegation with Fafe",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#8", "role": "both", "quote": "In June , following relegation , he signed for Leixões"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e17",
+      "date": "2019-09-10",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Joined Israeli club Maccabi Petah Tikva",
+      "evidence": [
+        {"chunk_id": "/wiki/Evandro_Brandão#8", "role": "both", "quote": "On 10 September 2019 , Brandão joined Israeli Liga Leumit club Maccabi Petah Tikva"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Began football career at Blackburn Rovers (no date)",
+    "Moved to England at age 9 (no date)",
+    "Spent a year in the Benfica academy (no date)",
+    "2008–09 season: made debut for Manchester United reserves",
+    "2010–11 season: loan to Fátima (Segunda Liga)",
+    "2010–11 season: loan to Gondomar (third division)",
+    "Represented Tondela, Libolo, Kabuscorp and Sport Benfica e Castelo Branco (no dates)",
+    "2006–07 Premier Academy League: side finished fourth (season result)"
+  ]
+}

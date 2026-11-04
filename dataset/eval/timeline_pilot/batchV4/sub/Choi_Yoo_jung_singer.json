@@ -1,0 +1,206 @@
+{
+  "page_id": "Choi_Yoo_jung_singer",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1999-11-12",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Guri, Gyeonggi Province, South Korea.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#0", "role": "both", "quote": "born November 12 , 1999"},
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#1", "role": "both", "quote": "was born in Guri , Gyeonggi Province , South Korea on November 12 , 1999"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2015-12-17",
+      "grain": "day",
+      "track": "work",
+      "text": "Pick Me theme song music video premiered on M Countdown; Choi chosen as center by vote.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#3", "role": "both", "quote": "music video premiere a month before the first show aired on the December 17 , 2015 episode of M Countdown"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2016-01",
+      "grain": "month",
+      "track": "other",
+      "label": "competition",
+      "text": "Joined Mnet survival show Produce 101 with Fantagio trainees.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#3", "role": "both", "quote": "In January 2016 , Choi joined Produce 101"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2016-04-01",
+      "grain": "day",
+      "track": "other",
+      "label": "competition",
+      "text": "Placed third in Produce 101 finale, earning I.O.I debut.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#3", "role": "description", "quote": "placed 3rd and 8th respectively in"},
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#4", "role": "both", "quote": "the shows finale on April 1 , 2016 , which allowed them to debut"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2016-05",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Debuted as member of I.O.I.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#0", "role": "both", "quote": "She debuted as member of I.O.I in May 2016"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2016-05-04",
+      "grain": "day",
+      "track": "work",
+      "text": "I.O.I debut single Dream Girls released; Choi wrote its rap parts.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#4", "role": "both", "quote": "On May 4 , 2016 , I.O.I released their debut single Dream Girls"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2016-07-01",
+      "grain": "day",
+      "track": "work",
+      "text": "Appeared in music video of ASTRO's song Breathless (ASTRO's release).",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#5", "role": "both", "quote": "She also appeared in the music video of her label-mate ASTROs song Breathless which was released on July 1 , 2016"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2016-08-09",
+      "grain": "day",
+      "track": "work",
+      "text": "Released single Whatta Man as part of seven-member I.O.I unit.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#4", "role": "both", "quote": "releasing the single Whatta Man on August 9 , 2016"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2016-11",
+      "grain": "month",
+      "track": "work",
+      "text": "Joined cast of Mnet variety show Golden Tambourine.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#5", "role": "both", "quote": "In November 2016 , Choi joined the cast of Mnets music variety show Golden Tambourine"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2016-11",
+      "grain": "month",
+      "track": "work",
+      "flag": "derived_date",
+      "text": "Released single Rise and Fall with Yoo Se-yoon and others for show soundtrack.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#5", "role": "both", "quote": "She then released the single Rise and Fall together with Yoo Se-yoon"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2017-01-29",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "I.O.I parted ways and ended YMC contract; group officially disbanded.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#7", "role": "both", "quote": "After I.O.I parted ways on January 29 , 2017 and ended their contract with YMC Entertainment"},
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#0", "role": "both", "quote": "In January 2017 , I.O.I officially disbanded"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017-08-08",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Official debut as member of Weki Meki.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#7", "role": "both", "quote": "made their official debut with the group on August 8 , 2017"},
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#0", "role": "both", "quote": "debuted with Weki Meki in August 2017"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2017-08-08",
+      "grain": "day",
+      "track": "work",
+      "text": "Released single I Dont Like Your Girlfriend with Weki Meki.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#7", "role": "both", "quote": "on August 8 , 2017 with the release of the single I Dont Like Your Girlfriend"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2017-08-08",
+      "grain": "day",
+      "track": "work",
+      "text": "Released six-track EP Weme; some of its lyrics written by Choi.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#7", "role": "both", "quote": "with the release of the single I Dont Like Your Girlfriend and the six-track EP Weme"},
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#8", "role": "description", "quote": "lyrics written by Choi"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2018-06-01",
+      "grain": "day",
+      "track": "work",
+      "text": "Released single Strong with Cosmic Girls' Seola and Luda.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#9", "role": "both", "quote": "released the single Strong on June 1 , 2018"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2018-08-08",
+      "grain": "day",
+      "track": "work",
+      "flag": "derived_date",
+      "text": "Joined JTBC reality program Secret Unnie with EXID's Hani.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#9", "role": "both", "quote": "On August 8 , she joined the JTBC reality program Secret Unnie"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2019-09",
+      "grain": "month",
+      "track": "other",
+      "label": "competition",
+      "text": "Joined survival show V-1; eliminated in first episode after losing to Suyeon.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#10", "role": "both", "quote": "In September 2019 , Choi participated in the survival program show , V-1"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2021-05-04",
+      "grain": "day",
+      "track": "work",
+      "text": "Reunion live stream Yes, I Love It! for I.O.I 5th debut anniversary.",
+      "evidence": [
+        {"chunk_id": "/wiki/Choi_Yoo-jung_(singer)#11", "role": "both", "quote": "On May 4 , 2021 , Choi and the members of I.O.I celebrated their 5th debut anniversary"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Joined Fantagio as trainee and trained for four years and seven months",
+    "Attended Guri Girls High School, then transferred to School of Performing Arts Seoul",
+    "Released an OST with the I.O.I unit",
+    "Wrote lyrics for the I.O.I EP intro track",
+    "Released digital single Flower, Wind and You with Chungha, Jeon Somi and Ki Hui-hyeon",
+    "Filmed reality show Dodaengs Diary in LA, aired on TVING",
+    "Part of My Mad Beauty 3 with Park Na-rae, Mijoo and Han Hye-jin",
+    "Part of variety show The Gashinas"
+  ]
+}

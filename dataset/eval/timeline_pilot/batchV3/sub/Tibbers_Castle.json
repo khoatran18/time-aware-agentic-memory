@@ -1,0 +1,167 @@
+{
+  "page_id": "Tibbers_Castle",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1298",
+      "grain": "year",
+      "track": "work",
+      "text": "First documented; timber castle replaced by stone enclosure castle built or enhanced by Richard Siward.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#1", "role": "both", "quote": "Tibbers was first documented in 1298 at which point the timber castle was replaced by a stone castle"},
+        {"chunk_id": "/wiki/Tibbers_Castle#3", "role": "both", "quote": "It was first recorded in 1298 when Sir Richard Siward , either built the stone enclosure castle or enhanced one"},
+        {"chunk_id": "/wiki/Tibbers_Castle#12", "role": "description", "quote": "When Richard Siward remodelled the castle it is likely that he added the motte with its stone enclosure castle"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1298",
+      "grain": "year",
+      "track": "other",
+      "label": "visit",
+      "text": "King Edward I of England visited the castle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#3", "role": "both", "quote": "King Edward I of England visited the castle the same year"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e3",
+      "date": "1302",
+      "grain": "year",
+      "track": "work",
+      "text": "£100 spent on the structure while it was manned by a 23-strong garrison.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#3", "role": "date", "quote": "In 1302 ,"},
+        {"chunk_id": "/wiki/Tibbers_Castle#4", "role": "description", "quote": "£100 was spent on the structured while it was manned by a 23-strong garrison"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1306",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Robert the Bruce's campaign captured the English-held castle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#5", "role": "both", "quote": "The first phase of Bruces campaign in 1306 was to capture the English-held castles of Ayr , Dalswinton , Inverkip and Tibbers"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1313",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Scots regained control of the region; castle remained in Scottish hands.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#1", "role": "both", "quote": "before returning to Scottish control in 1313"},
+        {"chunk_id": "/wiki/Tibbers_Castle#6", "role": "both", "quote": "In 1313 the Scots regained control of the region"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1346",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Earldom and castle given to Patrick, Earl of March after John Randolph's death at Nevilles Cross.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#6", "role": "both", "quote": "in 1346 the earldom along with Tibbers Castle was given to Patrick"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1369",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Patrick's son inherited the earldom and acquired the Morton barony.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#6", "role": "both", "quote": "His son inherited in 1369 and acquired the barony of Morton"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1435",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Dunbar family lands confiscated by the Scottish Crown.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#7", "role": "both", "quote": "until 1435 when their lands were confiscated by the Scottish Crown"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1450",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "King James II of Scotland gave Tibbers to George Crichton, Lord High Admiral.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#7", "role": "both", "quote": "In 1450 or 1451 , King James II of Scotland subsequently gave Tibbers to George Crichton"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e10",
+      "date": "1454",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Property returned to royal control after George Crichton's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#7", "role": "both", "quote": "When he died in 1454 the property again came under royal control"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1864",
+      "grain": "year",
+      "track": "other",
+      "label": "excavation",
+      "text": "Earliest recorded excavation at the castle; recovered two coins and a dagger.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#9", "role": "both", "quote": "The earliest recorded excavation at Tibbers Castle took place in 1864"},
+        {"chunk_id": "/wiki/Tibbers_Castle#2", "role": "both", "quote": "Archaeological investigations took place in 1864 , 1912 , and 2013–2014"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1912",
+      "grain": "year",
+      "track": "other",
+      "label": "survey",
+      "text": "Site surveyed; no further archaeological investigation until the 21st century.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#10", "role": "both", "quote": "surveyed in 1912 with no further archaeological investigation until the 21st century"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1937",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "Designated a scheduled ancient monument.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#10", "role": "both", "quote": "It was designated as a scheduled ancient monument in 1937"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2013",
+      "grain": "year",
+      "track": "other",
+      "label": "survey",
+      "text": "Royal Commission measured and geophysical surveys at the castle, 2013–2014, funded by Historic Scotland and Castle Studies Trust.",
+      "evidence": [
+        {"chunk_id": "/wiki/Tibbers_Castle#10", "role": "both", "quote": "In 2013 and 2014 the Royal Commission on the Ancient and Historical Monuments of Scotland carried out measured and geophysical"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Possibly built in the 12th or 13th century (construction, century-level only)",
+    "Administrative centre of the barony shifted to nearby Morton in the second half of the 14th century",
+    "Castle captured by the English during the early 14th-century Anglo-Scottish Wars (date not stated)",
+    "John de Seton given control after the 1306 capture; English recaptured castle, hanged defenders and installed a 54-man garrison (date not stated)",
+    "Thomas Randolph, 1st Earl of Moray, possessed the castle; succeeded by 2nd and 3rd Earls of Moray (date not stated)",
+    "Dunbar family held the estates (start date not stated, before 1435)",
+    "Site used for agriculture by the 18th century",
+    "Part of the structure demolished to reuse materials such as lime (date not stated)"
+  ]
+}
