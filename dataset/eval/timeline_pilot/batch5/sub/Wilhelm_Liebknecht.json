@@ -1,0 +1,158 @@
+{
+  "page_id": "Wilhelm_Liebknecht",
+  "events": [
+    {"id": "e1", "date": "1826-03-29", "grain": "day", "track": "other", "label": "birth",
+     "text": "Born in Giessen to a Hessian public official's family.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#1", "role": "both", "quote": "Wilhelm Liebknecht was born in 1826 in Giessen"},
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#0", "role": "date", "quote": "( 29 March 1826 – 7 August 1900 )"}
+     ]},
+    {"id": "e2", "date": "1832", "grain": "year", "track": "education",
+     "text": "Began schooling at the Gymnasium of Giessen.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#1", "role": "both", "quote": "From 1832 to 1842 , he went to school at the Gymnasium of Giessen"}
+     ]},
+    {"id": "e3", "date": "1842", "grain": "year", "track": "education",
+     "text": "Ended schooling at the Gymnasium of Giessen.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#1", "role": "both", "quote": "From 1832 to 1842 , he went to school at the Gymnasium of Giessen"}
+     ]},
+    {"id": "e4", "date": "1847", "grain": "year", "track": "location",
+     "text": "Found himself in Switzerland during its civil war.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#3", "role": "both", "quote": "Thus he found himself in Switzerland in 1847"}
+     ]},
+    {"id": "e5", "date": "1848-02", "grain": "month", "track": "location",
+     "text": "Hurried to Paris as the February 1848 revolution erupted.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#4", "role": "both", "quote": "When revolution erupted in Paris in February 1848 , Liebknecht hurried to the scene"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e6", "date": "1850", "grain": "year", "track": "other", "label": "arrest",
+     "text": "Arrested in Switzerland for uniting German workers' associations and banished.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#6", "role": "both", "quote": "In 1850 , Liebknecht was arrested for his initiatives to unite Switzerlands German workers associations and was banished from the country"}
+     ]},
+    {"id": "e7", "date": "1850", "grain": "year", "track": "location",
+     "text": "Relocated his exile to London, where he stayed until 1862.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#6", "role": "both", "quote": "he relocated his exile to London , where he stayed from 1850 to 1862"}
+     ]},
+    {"id": "e8", "date": "1862", "grain": "year", "track": "location",
+     "text": "Returned to Germany after the amnesty for 1848 revolution participants.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#6", "role": "both", "quote": "In 1862 , after an amnesty for the participants in the revolution of 1848 , he returned to Germany"}
+     ]},
+    {"id": "e9", "date": "1862", "grain": "year", "track": "affiliation",
+     "text": "Became a member of Lassalle's General German Workers Association (ADAV).",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#6", "role": "date", "quote": "In 1862 , after an amnesty for the participants in the revolution of 1848 , he returned to Germany and became a member of"},
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#7", "role": "description", "quote": "Ferdinand Lassalles General German Workers Association ( Allgemeiner Deutscher Arbeiterverein , ADAV )"}
+     ]},
+    {"id": "e10", "date": "1864", "grain": "year", "track": "affiliation",
+     "text": "Began working for the magazine Der Social-Demokrat.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#8", "role": "both", "quote": "From 1864 to 1865 , Liebknecht also worked for the magazine Der Social-Demokrat"}
+     ]},
+    {"id": "e11", "date": "1865", "grain": "year", "track": "affiliation",
+     "text": "Ended work for Der Social-Demokrat and quit its editorial staff.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#8", "role": "both", "quote": "From 1864 to 1865 , Liebknecht also worked for the magazine Der Social-Demokrat"}
+     ]},
+    {"id": "e12", "date": "1867", "grain": "year", "track": "affiliation",
+     "text": "Co-founded the Saxon Peoples Party with August Bebel.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#8", "role": "both", "quote": "with whom he founded the Sächsische Volkspartei ( Saxon Peoples Party ) in 1867"}
+     ]},
+    {"id": "e13", "date": "1869", "grain": "year", "track": "affiliation",
+     "text": "Co-founded the Social Democratic Workers Party of Germany (SDAP) in Eisenach.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#9", "role": "both", "quote": "and the Social Democratic Workers Party of Germany ( Sozialdemokratische Arbeiterpartei Deutschlands , SDAP ) in 1869 in Eisenach"}
+     ]},
+    {"id": "e14", "date": "1870", "grain": "year", "track": "other", "label": "anti-war agitation",
+     "text": "Used his newspaper to agitate against the Franco-Prussian War.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#10", "role": "both", "quote": "When the Franco-Prussian War began in 1870 , Liebknecht used his newspaper to agitate against the war"}
+     ]},
+    {"id": "e15", "date": "1872", "grain": "year", "track": "other", "label": "conviction",
+     "text": "Convicted of treason with Bebel and sentenced to two years' fortress imprisonment.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#12", "role": "both", "quote": "In 1872 , both Liebknecht and Bebel were convicted and sentenced to two years of"}
+     ]},
+    {"id": "e16", "date": "1874", "grain": "year", "track": "role",
+     "text": "Re-elected to the Reichstag.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#13", "role": "both", "quote": "After being re-elected to the Reichstag in 1874"}
+     ]},
+    {"id": "e17", "date": "1875", "grain": "year", "track": "affiliation",
+     "text": "Helped merge the SDAP and ADAV into the SAPD at Gotha.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#13", "role": "both", "quote": "( Sozialistische Arbeiterpartei Deutschlands , SAPD ) in Gotha in 1875"}
+     ]},
+    {"id": "e18", "date": "1876", "grain": "year", "track": "work",
+     "text": "Published the book Zur Grund- und Bodenfrage in Leipzig.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Zur Grund- und Bodenfrage , Leipzig , 1876"}
+     ]},
+    {"id": "e19", "date": "1887", "grain": "year", "track": "work",
+     "text": "Published the book Ein Blick in die Neue Welt in Stuttgart.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Ein Blick in die Neue Welt , Stuttgart , 1887"}
+     ]},
+    {"id": "e20", "date": "1891", "grain": "year", "track": "role",
+     "text": "Became editor-in-chief of the party newspaper Vorwärts.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#15", "role": "both", "quote": "In 1891 , Liebknecht became editor-in-chief of Vorwärts"}
+     ]},
+    {"id": "e21", "date": "1891", "grain": "year", "track": "work",
+     "text": "Helped originate the SPD's new Marxist-inspired party platform.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#15", "role": "both", "quote": "In 1891 , Liebknecht became editor-in-chief of Vorwärts and one of the originators of the SPDs new Marxist-inspired party platform"}
+     ]},
+    {"id": "e22", "date": "1892", "grain": "year", "track": "work",
+     "text": "Published the book Robert Owen: Sein Leben und sozialpolitischen Wirken.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Robert Owen : Sein Leben und sozialpolitischen Wirken , Nürnberg , 1892"}
+     ]},
+    {"id": "e23", "date": "1895", "grain": "year", "track": "work",
+     "text": "Published the book Die Emscher Depesche in Nürnberg.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Die Emscher Depesche oder wie Kriege gemacht werden , Nürnberg , 1895"}
+     ]},
+    {"id": "e24", "date": "1896", "grain": "year", "track": "work",
+     "text": "Published the book Robert Blum und Seine Zeit in Nürnberg.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Robert Blum und Seine Zeit , Nürnberg , 1896"}
+     ]},
+    {"id": "e25", "date": "1900-08-07", "grain": "day", "track": "other", "label": "death",
+     "text": "Died aged 74 in Charlottenburg, a suburb of Berlin.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#16", "role": "both", "quote": "Liebknecht died aged 74 on 7 August 1900 in Charlottenburg"},
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#0", "role": "date", "quote": "( 29 March 1826 – 7 August 1900 )"}
+     ]},
+    {"id": "e26", "date": "1906", "grain": "year", "track": "work",
+     "text": "Published the book Karl Marx: Biographical Memoirs in Chicago.",
+     "evidence": [
+       {"chunk_id": "/wiki/Wilhelm_Liebknecht#17", "role": "both", "quote": "Karl Marx : Biographical Memoirs , Chicago , 1906"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Decided to emigrate to the United States after trouble over student radicalism in Giessen",
+    "Studied philology, theology and philosophy in Giessen, Berlin and Marburg",
+    "Took an unpaid teaching post at a progressive school in Zurich",
+    "Began journalism career reporting Swiss civil war for the Mannheimer Abendzeitung",
+    "Joined a legion travelling to Germany; arrested in Baden and charged with treason; released by a mob",
+    "Member of the Badische Volkswehr, adjutant of Gustav von Struve, fought in the Reichsverfassungskämpfe",
+    "Escaped to Switzerland and became a leading member of the Genfer Arbeiterverein; met Friedrich Engels",
+    "Became a member of the Communist League in London",
+    "Developed a lifelong friendship and collaboration with Karl Marx in London",
+    "Evicted from Berlin, moved to Leipzig and met August Bebel",
+    "Forced to leave the ADAV under pressure from Schweitzer",
+    "Elected to the national legislature and opposed Bismarck's policies (late 1860s)",
+    "Editor of the party newspaper Der Volksstaat",
+    "Arrested and charged with treason with Bebel after anti-war agitation (c. 1870-71)",
+    "Became publisher of the newly founded party organ Vorwärts (after 1875)",
+    "Continued to serve in the Reichstag throughout the 1890s",
+    "Major organizer of the Second Socialist International"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "page_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!",
+  "events": [
+    {
+      "id": "e1",
+      "date": "2004-01-09",
+      "grain": "day",
+      "track": "work",
+      "text": "German reality show premieres on RTL, airing from 9 January 2004.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#0", "role": "both", "quote": "began airing on 9 January 2004 on RTL"},
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#5", "role": "both", "quote": "ran at irregular intervals from 2004"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2011",
+      "grain": "year",
+      "track": "work",
+      "text": "Show begins annual broadcast from mid-January each year.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#5", "role": "both", "quote": "has been broadcast annually from mid-January since 2011"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2015",
+      "grain": "year",
+      "track": "work",
+      "text": "Spin-off Ich bin ein Star – Lasst mich wieder rein! airs in summer.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#2", "role": "both", "quote": "In summer of 2015 , a spin-off show with the title"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2018",
+      "grain": "year",
+      "track": "work",
+      "text": "Aftershow spin-off Die Stunde danach starts discussing show events.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#4", "role": "both", "quote": "Since 2018 , the events of the show have been discussed"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2019",
+      "grain": "year",
+      "track": "other",
+      "label": "prize",
+      "text": "Winner receives a €100,000 prize from season 13 onward.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#1", "role": "both", "quote": "Since season 13 ( 2019 ) , the winner has also received a prize of €100,000"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2020",
+      "grain": "year",
+      "track": "other",
+      "label": "trial_policy",
+      "text": "RTL announces eating trials will no longer use live bugs.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#12", "role": "both", "quote": "Since 2020 , RTL and the production company announced"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2021",
+      "grain": "year",
+      "track": "other",
+      "label": "cancellation",
+      "text": "No new regular season aired due to the COVID-19 pandemic.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ich_bin_ein_Star_–_Holt_mich_hier_raus!#3", "role": "both", "quote": "On 2021 , due the COVID-19 pandemic a new season wasnt aired"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Daniel Hartwich becomes co-presenter from season 7, after Dirk Bach's death",
+    "Dirk Bach co-moderates with Sonja Zietlow until season 6",
+    "Spezial companion program airs in seasons 2–4",
+    "Das große Wiedersehen reunion special airs one week after the final in seasons 1–3",
+    "Reunion of all contestants in the tree house one day after the finale since season 4"
+  ]
+}

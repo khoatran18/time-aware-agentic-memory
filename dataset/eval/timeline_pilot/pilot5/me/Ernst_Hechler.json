@@ -1,0 +1,915 @@
+{
+ "page_id": "/wiki/Ernst_Hechler",
+ "events": [
+  {
+   "date": "1907-11-21",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Hechler born in Lauterbach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "was born on 21 November 1907"
+    }
+   ],
+   "id": "e1"
+  },
+  {
+   "date": "1926",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "joined German Merchant Marine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "He joined the German Merchant Marine ( Deutsche Handelsmarine ) in 1926"
+    }
+   ],
+   "id": "e2"
+  },
+  {
+   "date": "1926-06-30",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "basic training in Stralsund ended (date as printed)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "( 1 April 1929 – 30 June 1926 )"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "date": "1928",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "joined the Reichsmarine (as stated in intro)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#1",
+     "role": "both",
+     "quote": "joined the Reichsmarine ( navy of the Weimar Republic ) in 1928"
+    }
+   ],
+   "id": "e4"
+  },
+  {
+   "date": "1928-05-28",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "began pilot training at Schleißheim",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "Schleißheim ( 28 May 1928 – 15 July 1928 )"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "date": "1928-07-15",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "ended Schleißheim training",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "Schleißheim ( 28 May 1928 – 15 July 1928 )"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "date": "1928-07-16",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "began training at Warnemünde",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "Warnemünde ( 16 July 1928 – 24 March 1929 )"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "date": "1929-03-24",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "ended Warnemünde training",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "Warnemünde ( 16 July 1928 – 24 March 1929 )"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "date": "1929-04-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "joined Reichsmarine, Crew 1929",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#3",
+     "role": "both",
+     "quote": "Reichsmarine on 1 April 1929"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "date": "1929-04-01",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "basic military training in Stralsund began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "( 1 April 1929 – 30 June 1926 )"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1929-07-01",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "aboard training ship Niobe began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "( 1 July 1929 – 11 October 1929 )"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "date": "1929-10-10",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "rank Seekadett",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "Seekadett ( Naval Cadet ) on 10 October 1929"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "date": "1929-10-11",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "aboard training ship Niobe ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "( 1 July 1929 – 11 October 1929 )"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "date": "1929-10-12",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "transferred to Naval Academy Mürwik",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#4",
+     "role": "both",
+     "quote": "transferred on 12 October to the 3rd company"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "date": "1930-01-06",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "stay aboard cruiser Emden began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#5",
+     "role": "both",
+     "quote": "( 6 January 1930 – 21 May 1930 )"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "date": "1930-01-13",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Emden third training cruise started",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#6",
+     "role": "both",
+     "quote": "started on 13 January 1930"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "date": "1930-05-13",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Emden returned to Wilhelmshaven",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#6",
+     "role": "both",
+     "quote": "returned to Wilhelmshaven on 13 May 1930"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "date": "1930-05-21",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "stay aboard cruiser Emden ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#5",
+     "role": "both",
+     "quote": "( 6 January 1930 – 21 May 1930 )"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "1930-05-22",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "stay aboard cruiser Karlsruhe began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#5",
+     "role": "both",
+     "quote": "( 22 May 1930 – 19 December 1930 )"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "date": "1930-05-24",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Karlsruhe first training cruise left Kiel",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#6",
+     "role": "both",
+     "quote": "left Kiel 24 May 1930"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "date": "1930-12-12",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Karlsruhe arrived back in Kiel",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#7",
+     "role": "both",
+     "quote": "arrived back in Kiel on 12 December 1930"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "date": "1930-12-19",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "stay aboard cruiser Karlsruhe ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#5",
+     "role": "both",
+     "quote": "( 22 May 1930 – 19 December 1930 )"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "date": "1931-01-01",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "rank Fähnrich zur See",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#7",
+     "role": "both",
+     "quote": "Fähnrich zur See ( officer cadet ) on 1 January 1931"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "date": "1933-01-30",
+   "grain": "day",
+   "track": "other",
+   "label": "context",
+   "text": "Nazi Party came to power",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#8",
+     "role": "both",
+     "quote": "on 30 January 1933 , the Nazi Party"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "date": "1934-09-01",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "promoted Oberleutnant zur See",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#8",
+     "role": "both",
+     "quote": "On 1 September 1934 Hechler was promoted"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "date": "1935",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "transferred to Luftwaffe",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#1",
+     "role": "both",
+     "quote": "transferred to the Luftwaffe ( air force ) in 1935"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "date": "1935",
+   "grain": "year",
+   "track": "naming",
+   "label": "",
+   "text": "Reichsmarine renamed Kriegsmarine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#8",
+     "role": "both",
+     "quote": "In 1935 , the Reichsmarine was renamed the Kriegsmarine"
+    }
+   ],
+   "id": "e27"
+  },
+  {
+   "date": "1935-04-30",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "released from Reichsmarine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#8",
+     "role": "both",
+     "quote": "released from the Reichsmarine on 30 April 1935"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "date": "1935-05-01",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "naval rank re-designated Oberleutnant of Luftwaffe",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#8",
+     "role": "both",
+     "quote": "On 1 May 1935 his naval rank was re-designated"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "date": "1935-07-30",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Pilotenabzeichen",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "Pilotenabzeichen ( 30 July 1935 )"
+    }
+   ],
+   "id": "e30"
+  },
+  {
+   "date": "1935-11-21",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Combined Pilots-Observation Badge",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "Combined Pilots-Observation Badge ( 21 November 1935 )"
+    }
+   ],
+   "id": "e31"
+  },
+  {
+   "date": "1936-10-02",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Wehrmacht Long Service Award 4th Class",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "Wehrmacht Long Service Award 4th Class ( 2 October 1936 )"
+    }
+   ],
+   "id": "e32"
+  },
+  {
+   "date": "1939-08-20",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Sudetenland Medal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "Sudetenland Medal ( 20 August 1939 )"
+    }
+   ],
+   "id": "e33"
+  },
+  {
+   "date": "1939-08-28",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "appointed Ia in headquarters of 9th Air Division",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#9",
+     "role": "both",
+     "quote": "on 28 August 1939"
+    }
+   ],
+   "id": "e34"
+  },
+  {
+   "date": "1940-05-23",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Iron Cross 2nd Class",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "2nd Class ( 23 May 1940 )"
+    }
+   ],
+   "id": "e35"
+  },
+  {
+   "date": "1940-09",
+   "grain": "month",
+   "track": "work",
+   "label": "",
+   "text": "began flying combat missions on He 111 (Sep 1940 to Mar 1941)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#9",
+     "role": "both",
+     "quote": "September 1940 to March 1941"
+    }
+   ],
+   "id": "e36"
+  },
+  {
+   "date": "1940-09-07",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "took command of 2nd squadron of KG 126",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#9",
+     "role": "both",
+     "quote": "on 7 September 1940"
+    }
+   ],
+   "id": "e37"
+  },
+  {
+   "date": "1940-10-25",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Iron Cross 1st Class",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "1st Class ( 25 October 1940 )"
+    }
+   ],
+   "id": "e38"
+  },
+  {
+   "date": "1940-12",
+   "grain": "month",
+   "track": "naming",
+   "label": "",
+   "text": "unit re-designated 2./Kampfgeschwader 28",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#9",
+     "role": "both",
+     "quote": "re-designated to 2./Kampfgeschwader 28 in December 1940"
+    }
+   ],
+   "id": "e39"
+  },
+  {
+   "date": "1941-03",
+   "grain": "month",
+   "track": "work",
+   "label": "",
+   "text": "ended flying combat missions on He 111",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#9",
+     "role": "both",
+     "quote": "September 1940 to March 1941"
+    }
+   ],
+   "id": "e40"
+  },
+  {
+   "date": "1941-03-15",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Front Flying Clasp in Silver",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "in Silver ( 15 March 1941 )"
+    }
+   ],
+   "id": "e41"
+  },
+  {
+   "date": "1941-07-15",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Front Flying Clasp in Gold",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#15",
+     "role": "both",
+     "quote": "in Gold ( 15 July 1941 )"
+    }
+   ],
+   "id": "e42"
+  },
+  {
+   "date": "1943-07-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "transferred back to Kriegsmarine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#10",
+     "role": "both",
+     "quote": "On 1 July 1943 Hechler was transferred back"
+    }
+   ],
+   "id": "e43"
+  },
+  {
+   "date": "1943-07-03",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "rank Korvettenkapitän",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#10",
+     "role": "both",
+     "quote": "Korvettenkapitän on 3 July"
+    }
+   ],
+   "id": "e44"
+  },
+  {
+   "date": "1944-01-03",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "construction training in Bremen began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#10",
+     "role": "both",
+     "quote": "from 3 January to 2 February 1944"
+    }
+   ],
+   "id": "e45"
+  },
+  {
+   "date": "1944-02-02",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "construction training in Bremen ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#10",
+     "role": "both",
+     "quote": "from 3 January to 2 February 1944"
+    }
+   ],
+   "id": "e46"
+  },
+  {
+   "date": "1944-02-03",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "took command of U-870",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#11",
+     "role": "both",
+     "quote": "of the boat on 3 February"
+    }
+   ],
+   "id": "e47"
+  },
+  {
+   "date": "1944-08-14",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Wessels joined U-870 crew",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#11",
+     "role": "both",
+     "quote": "on 14 August 1944"
+    }
+   ],
+   "id": "e48"
+  },
+  {
+   "date": "1944-09-30",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "U-870 subordinated to 4th U-boat Flotilla until",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#11",
+     "role": "both",
+     "quote": "until 30 September 1944"
+    }
+   ],
+   "id": "e49"
+  },
+  {
+   "date": "1944-10-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "U-870 transferred to 33rd U-boat Flotilla",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#11",
+     "role": "both",
+     "quote": "on 1 October"
+    }
+   ],
+   "id": "e50"
+  },
+  {
+   "date": "1944-10-31",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 left Kiel on war patrol",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "left Kiel , Germany on 31 October 1944"
+    }
+   ],
+   "id": "e51"
+  },
+  {
+   "date": "1944-11-03",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 arrived in Horten",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "arriving in Horten , Norway on 3 November"
+    }
+   ],
+   "id": "e52"
+  },
+  {
+   "date": "1944-11-10",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 left Horten",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "left Horten again on 10 November"
+    }
+   ],
+   "id": "e53"
+  },
+  {
+   "date": "1945-01-21",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "awarded Knights Cross of the Iron Cross",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#13",
+     "role": "both",
+     "quote": "awarded the Knights Cross of the Iron Cross ( ) on 21 January 1945"
+    },
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#16",
+     "role": "both",
+     "quote": "Knights Cross of the Iron Cross on 21 January 1945"
+    }
+   ],
+   "id": "e54"
+  },
+  {
+   "date": "1945-02-20",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 returned to Kristiansand",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "returning to Kristiansand , Norway on 20 February 1945"
+    }
+   ],
+   "id": "e55"
+  },
+  {
+   "date": "1945-02-25",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 departed Kristiansand",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "departed again on 25 February"
+    }
+   ],
+   "id": "e56"
+  },
+  {
+   "date": "1945-02-27",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 returned to Flensburg",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#12",
+     "role": "both",
+     "quote": "returning to Flensburg , Germany on 27 February"
+    }
+   ],
+   "id": "e57"
+  },
+  {
+   "date": "1945-02-27",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "U-boat War Badge and U-boat Front Clasp in Bronze",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#17",
+     "role": "both",
+     "quote": "( 27 February 1945 )"
+    }
+   ],
+   "id": "e58"
+  },
+  {
+   "date": "1945-03-30",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "U-870 sunk in Bremen air raid",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#13",
+     "role": "both",
+     "quote": "sunk in Bremen in an Allied air raid on 30 March 1945"
+    }
+   ],
+   "id": "e59"
+  },
+  {
+   "date": "1965-10-23",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Hechler died in Alzey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ernst_Hechler#13",
+     "role": "both",
+     "quote": "died on 23 October 1965"
+    }
+   ],
+   "id": "e60"
+  }
+ ],
+ "undated_mentions": [
+  "flew 65 combat missions as bomber pilot (dating only partial)",
+  "final weeks of war served as operations officer on staff of BdU (no date)",
+  "training courses for submarine commanders until January 1944 (no start date)"
+ ]
+}

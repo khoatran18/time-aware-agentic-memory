@@ -1,0 +1,321 @@
+{
+ "page_id": "John_Henry_Whitley",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1866-02-08",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Halifax, Yorkshire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#0",
+     "role": "date",
+     "quote": "( 8 February 1866 – 3 February 1935 )"
+    },
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#1",
+     "role": "both",
+     "quote": "Whitley was born in Halifax , Yorkshire , on 8 February 1866"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1892",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Margherita Virginia Marchetti.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#3",
+     "role": "both",
+     "quote": "In 1892 , Whitley married Margherita ( Margaret ) Virginia Marchetti"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1900",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Liberal MP for Halifax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "Whitley became Liberal Member of Parliament ( MP ) for Halifax in 1900"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as Junior Lord of the Treasury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "He served as Junior Lord of the Treasury from 1907 to 1910"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1910",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended as Junior Lord of the Treasury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "He served as Junior Lord of the Treasury from 1907 to 1910"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1910",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as Deputy Chairman of Ways and Means.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "appointed Deputy Chairman of Ways and Means 1910–1911"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1911",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended as Deputy Chairman of Ways and Means.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "appointed Deputy Chairman of Ways and Means 1910–1911"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1911",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed Privy Counsellor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "Privy Counsellor in 1911"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1911",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as Chairman of Ways and Means and Deputy Speaker.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "Chairman of Ways and Means , Deputy Speaker of the House of Commons , from 1911 to 1921"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1917",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed to chair committee on employer-employee relations.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#6",
+     "role": "both",
+     "quote": "in 1917 , Whitley was appointed to chair a committee"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended as Chairman of Ways and Means and Deputy Speaker.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "Chairman of Ways and Means , Deputy Speaker of the House of Commons , from 1911 to 1921"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Speaker of the House of Commons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#9",
+     "role": "both",
+     "quote": "Whitley was appointed Speaker of the House of Commons in 1921"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1925",
+   "grain": "year",
+   "track": "family",
+   "text": "First wife Margherita died.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#4",
+     "role": "both",
+     "quote": "Margherita died in 1925"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1928",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned as Speaker on grounds of ill health.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#9",
+     "role": "both",
+     "quote": "a post he held until 1928 , when he resigned on grounds of ill health"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1928",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned seat as MP for Halifax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#5",
+     "role": "both",
+     "quote": "a seat he held until he resigned in 1928"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1928",
+   "grain": "year",
+   "track": "family",
+   "text": "Remarried to Helen Clarke in Chelsea.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#4",
+     "role": "both",
+     "quote": "John Henry remarried in 1928 to Helen Clarke in Chelsea"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1930",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Chairman of the BBC Board of Governors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#11",
+     "role": "both",
+     "quote": "His friendship with John Reith led to his appointment as Chairman of the Board of Governors of the BBC in 1930"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1931",
+   "grain": "year",
+   "track": "work",
+   "text": "Royal Commission on Labour in India, which he chaired, reported.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#10",
+     "role": "both",
+     "quote": "He chaired the Royal Commission on Labour in India , which reported in 1931"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1932",
+   "grain": "year",
+   "track": "work",
+   "text": "Made the first broadcast on the Empire Service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#11",
+     "role": "both",
+     "quote": "In 1932 , he made the first broadcast on the Empire Service"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1935-02-03",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died, aged 68.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#0",
+     "role": "date",
+     "quote": "( 8 February 1866 – 3 February 1935 )"
+    },
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#12",
+     "role": "both",
+     "quote": "Whitley died on 3 February 1935"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2012",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Personal archive donated to University of Huddersfield archives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Henry_Whitley#13",
+     "role": "both",
+     "quote": "The personal archive of John Henry Whitley was donated to the Archives and Special Collections of the University of Huddersfield in 2012"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Entered uncle Samuel Whitley's cotton spinning business, S. Whitley & Co., Halifax (no date)",
+  "Early education at Wisemans House, Clifton College (no date)",
+  "Proposed Whitley Councils, a joint worker-employer consultative system (no date)",
+  "Refused the customary peerage offered by the monarch (no date)",
+  "Chaired Royal Commission on Labour in India (start date not given)",
+  "Offered a knighthood for Royal Commission work and declined it (no date)",
+  "Blue plaque erected by Halifax Civic Trust (no date)"
+ ]
+}

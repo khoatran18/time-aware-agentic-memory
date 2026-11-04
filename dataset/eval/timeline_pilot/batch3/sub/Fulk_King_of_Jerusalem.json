@@ -1,0 +1,211 @@
+{
+  "page_id": "/wiki/Fulk,_King_of_Jerusalem",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1089",
+      "grain": "year",
+      "track": "other",
+      "label": "birth",
+      "text": "Born at Angers, between 1089 and 1092 (earliest year used)",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#1", "role": "both", "quote": "Fulk was born at Angers , between 1089 and 1092"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1109",
+      "grain": "year",
+      "track": "role",
+      "text": "Became count of Anjou on his father's death",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#1", "role": "both", "quote": "Fulk V became count of Anjou upon his fathers death in 1109"},
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#0", "role": "both", "quote": "was the count of Anjou ( as Fulk V ) from 1109 to 1129"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1110",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Ermengarde of Maine",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#21", "role": "both", "quote": "In 1110 , Fulk married Ermengarde of Maine"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1118",
+      "grain": "year",
+      "track": "other",
+      "label": "alliance",
+      "text": "Allied with Henry I of England; arranged Matilda's marriage to William Adelin (1118 or 1119)",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#2", "role": "both", "quote": "in 1118 or 1119 he allied with Henry"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1119",
+      "grain": "year",
+      "track": "other",
+      "label": "crusade",
+      "text": "Went on crusade, became attached to the Knights Templar (1119 or 1120)",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#2", "role": "both", "quote": "Fulk went on crusade in 1119 or 1120"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1121",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned from crusade, late in 1121",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#2", "role": "both", "quote": "He returned , late in 1121"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1121",
+      "grain": "year",
+      "track": "other",
+      "label": "patronage",
+      "text": "Began subsidizing the Knights Templar, maintaining two knights in the Holy Land for a year",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#2", "role": "both", "quote": "after which he began to subsidize the Templars"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "1126",
+      "grain": "year",
+      "track": "family",
+      "text": "First wife Ermengarde of Maine died",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#21", "role": "both", "quote": "Ermengarde of Maine ( died 1126 )"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1127",
+      "grain": "year",
+      "track": "other",
+      "label": "embassy",
+      "text": "Received embassy from Baldwin II about marrying Melisende",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#4", "role": "both", "quote": "By 1127 Fulk was preparing to return to Anjou when he received an embassy from King Baldwin II of Jerusalem"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1129",
+      "grain": "year",
+      "track": "role",
+      "text": "Abdicated the county of Anjou to his son Geoffrey",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#0", "role": "both", "quote": "from 1109 to 1129"},
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#5", "role": "description", "quote": "Fulk abdicated his county seat of Anjou to his son Geoffrey"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1129-06-02",
+      "grain": "day",
+      "track": "family",
+      "text": "Married Melisende in Jerusalem",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#5", "role": "both", "quote": "where he married Melisende on 2 June 1129"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1131",
+      "grain": "year",
+      "track": "role",
+      "text": "Became joint ruler (king) of Jerusalem with Melisende",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#6", "role": "both", "quote": "Fulk and Melisende became joint rulers of Jerusalem in 1131"},
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#0", "role": "both", "quote": "the king of Jerusalem from 1131 to his death"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1132",
+      "grain": "year",
+      "track": "other",
+      "label": "battle",
+      "text": "Fought a brief battle with Pons of Tripoli; peace made afterwards",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#7", "role": "both", "quote": "prevent Fulk from marching north in 1132"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1134",
+      "grain": "year",
+      "track": "other",
+      "label": "accusation",
+      "text": "Accused Hugh of Jaffa of infidelity with Melisende to expose him",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#8", "role": "both", "quote": "In 1134 , in order to expose Hugh , Fulk accused him of infidelity with Melisende"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1136",
+      "grain": "year",
+      "track": "role",
+      "text": "Melisende took direct and unquestioned control of government; Fulk sidelined",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#11", "role": "both", "quote": "Melisende held direct and unquestioned control over the government from 1136 onwards"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1137",
+      "grain": "year",
+      "track": "other",
+      "label": "battle",
+      "text": "Defeated in battle near Baarin",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#13", "role": "both", "quote": "In 1137 Fulk was defeated in battle near Baarin but allied with Muin ad-Din Unur"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1137",
+      "grain": "year",
+      "track": "other",
+      "label": "alliance",
+      "text": "Allied with Muin ad-Din Unur, vizier of Damascus, after defeat near Baarin",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#13", "role": "both", "quote": "In 1137 Fulk was defeated in battle near Baarin but allied with Muin ad-Din Unur"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1143-11-13",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died at Acre after a hunting accident; buried in Jerusalem",
+      "evidence": [
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#0", "role": "date", "quote": "13 November 1143"},
+        {"chunk_id": "/wiki/Fulk,_King_of_Jerusalem#16", "role": "both", "quote": "In 1143 , while the king and queen were in Acre , Fulk was killed in a hunting accident"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Appointed regent of the Principality of Antioch by Baldwin II",
+    "As regent, arranged Raymond of Poitou's marriage to Princess Constance of Antioch",
+    "Captured the fort of Banias, north of Lake Tiberias",
+    "Had Blanchegarde, Ibelin and other forts built in the south-west",
+    "Wrote to Byzantine emperor John II Comnenus that his kingdom could not support a large army (during John's visits in 1137 and 1142)",
+    "Agreed to peace with Hugh of Jaffa; Hugh exiled for three years (after 1134)",
+    "Fulk or his supporters commonly blamed for an assassination attempt on Hugh of Jaffa",
+    "Reconciled with Melisende (sometime before 1136)",
+    "Buried in the Church of the Holy Sepulchre in Jerusalem"
+  ]
+}

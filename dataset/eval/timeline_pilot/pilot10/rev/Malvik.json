@@ -1,0 +1,220 @@
+{
+ "page_id": "/wiki/Malvik",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1891",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Municipality of Malvik established by separation from Strinda.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#3",
+     "role": "both",
+     "quote": "The municipality of Malvik was established in 1891"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1914-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "boundary change",
+   "text": "Small area of Lånke municipality transferred to Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#3",
+     "role": "both",
+     "quote": "On 1 January 1914 , a small area of the neighboring municipality of Lånke"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1953-07-01",
+   "grain": "day",
+   "track": "other",
+   "label": "boundary change",
+   "text": "Small area of Malvik transferred to neighboring Strinda municipality.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#3",
+     "role": "both",
+     "quote": "On 1 July 1953 , a small area of Malvik"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1982-07-23",
+   "grain": "day",
+   "track": "other",
+   "label": "coat of arms",
+   "text": "Municipality coat of arms granted.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#5",
+     "role": "both",
+     "quote": "The coat of arms was granted on 23 July 1982"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1984",
+   "grain": "year",
+   "track": "role",
+   "text": "Asbjørn Nøstmo begins term as mayor of Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "1984-2003 : Asbjørn Nøstmo ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Asbjørn Nøstmo's term as mayor ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "1984-2003 : Asbjørn Nøstmo ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Gudmund Beitland begins term as mayor of Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2003-2007 : Gudmund Beitland ( H )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Gudmund Beitland's term as mayor ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2003-2007 : Gudmund Beitland ( H )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Terje Granmo begins term as mayor of Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2007-2015 : Terje Granmo ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Terje Granmo's term as mayor ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2007-2015 : Terje Granmo ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Ingrid Aune begins term as mayor of Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2015-2019 : Ingrid Aune ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2018-01-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Municipality moved from Sør-Trøndelag county to Trøndelag county.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#3",
+     "role": "both",
+     "quote": "On 1 January 2018 , the municipality switched from the old Sør-Trøndelag county to the new Trøndelag county"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Ingrid Aune's term as mayor ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2015-2019 : Ingrid Aune ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Bernt-Ole Ravlum serves as mayor of Malvik.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2019 : Bernt-Ole Ravlum ( Ap )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Trond Hoseth begins term as mayor of Malvik, still serving.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Malvik#14",
+     "role": "both",
+     "quote": "2019-present : Trond Hoseth ( Ap )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

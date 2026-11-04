@@ -1,0 +1,39 @@
+{
+ "page_id": "Frederick_Ralph_Sharp",
+ "events": [
+  {"id": "e1", "date": "1915-12-08", "grain": "day", "track": "other", "label": "birth", "text": "Born in Moosomin, Saskatchewan.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#0", "role": "both", "quote": "December 8 , 1915 – June 10 , 1992"}, {"chunk_id": "/wiki/Frederick_Ralph_Sharp#1", "role": "both", "quote": "born in Moosomin , Saskatchewan in 1915"}]},
+  {"id": "e2", "date": "1938", "grain": "year", "track": "education", "text": "Graduated from Royal Military College of Canada.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#1", "role": "both", "quote": "graduated from the Royal Military College of Canada in 1938"}]},
+  {"id": "e3", "date": "1939", "grain": "year", "track": "other", "label": "pilot wings", "text": "Earned wings as a pilot in Trenton.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#2", "role": "both", "quote": "He earned his wings as a pilot in Trenton in 1939"}]},
+  {"id": "e4", "date": "1939", "grain": "year", "track": "education", "text": "Completed flying instructor course at Camp Borden.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#2", "role": "both", "quote": "He completed the flying instructor course at Camp Borden in 1939"}]},
+  {"id": "e5", "date": "1939-07", "grain": "month", "track": "affiliation", "text": "Joined Royal Canadian Air Force in Trenton, Ontario.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#2", "role": "both", "quote": "joined the Royal Canadian Air Force in Trenton , Ontario in July 1939"}]},
+  {"id": "e6", "date": "1944", "grain": "year", "track": "education", "text": "Attended the War Staff College.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#1", "role": "both", "quote": "He attended the War Staff College in 1944"}]},
+  {"id": "e7", "date": "1944-11-26", "grain": "day", "track": "role", "text": "Posted overseas as CO of No. 408 Bomber Squadron.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#2", "role": "both", "quote": "posted overseas as C.O . of No . 408 Bomber Squadron , 6 Bomber Group 26 November 1944"}]},
+  {"id": "e8", "date": "1945-05-04", "grain": "day", "track": "other", "label": "award", "text": "Won Distinguished Flying Cross with No. 408 Squadron.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#2", "role": "both", "quote": "He won a Distinguished Flying Cross ( DFC ) on 4 May 1945"}]},
+  {"id": "e9", "date": "1946", "grain": "year", "track": "role", "text": "Member of the Chelsey committee on officer provision.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#4", "role": "both", "quote": "In 1946 , he was a member of the Chelsey committee"}]},
+  {"id": "e10", "date": "1959", "grain": "year", "track": "role", "text": "Became commander of RCAF Training Command.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#6", "role": "both", "quote": "In 1959 , he became the commander of the RCAF Training Command"}]},
+  {"id": "e11", "date": "1966", "grain": "year", "track": "role", "text": "Began service as Vice Chief of Defence Staff.", "flag": "source_inconsistent", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#7", "role": "both", "quote": "He served as Vice Chief of Defence Staff from 1966"}]},
+  {"id": "e12", "date": "1967-07", "grain": "month", "track": "work", "text": "Wrote paper on Canadian Armed Forces reorganization for Air University Review.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "He wrote a paper for the July–August 1967 Air University Review"}]},
+  {"id": "e13", "date": "1968", "grain": "year", "track": "role", "text": "Regraded from Air Marshal to Lieutenant General.", "flag": "source_inconsistent", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#7", "role": "both", "quote": "in 1968 , he was regraded from Air Marshal to Lieutenant General"}]},
+  {"id": "e14", "date": "1969", "grain": "year", "track": "role", "text": "Elevated to the rank of General.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "In 1969 , Sharp was elevated to the rank of General"}]},
+  {"id": "e15", "date": "1969", "grain": "year", "track": "role", "text": "Became Chief of Defence Staff of the Canadian Armed Forces.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "served as Chief of Defence Staff of the Canadian Armed Forces from 1969 to 1972"}]},
+  {"id": "e16", "date": "1969-01", "grain": "month", "track": "role", "text": "Appointed Deputy Commander-in-Chief of NORAD.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#7", "role": "both", "quote": "in January 1969 he was appointed Deputy Commander-in-Chief of NORAD"}]},
+  {"id": "e17", "date": "1972", "grain": "year", "track": "role", "text": "Ended term as Chief of Defence Staff.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "served as Chief of Defence Staff of the Canadian Armed Forces from 1969 to 1972"}]},
+  {"id": "e18", "date": "1972", "grain": "year", "track": "affiliation", "text": "Retired from the Canadian Forces.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "He retired in 1972"}]},
+  {"id": "e19", "date": "1979", "grain": "year", "track": "affiliation", "text": "Ended partnership in a consulting firm.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "became a partner in a consulting firm until 1979"}]},
+  {"id": "e20", "date": "1983", "grain": "year", "track": "affiliation", "text": "Joined InterCon Consultants as founding partner.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#8", "role": "both", "quote": "In 1983 he joined retired Canadian Ambassador Ross Campbell"}]},
+  {"id": "e21", "date": "1992-06-10", "grain": "day", "track": "other", "label": "death", "text": "Died.", "evidence": [{"chunk_id": "/wiki/Frederick_Ralph_Sharp#0", "role": "both", "quote": "December 8 , 1915 – June 10 , 1992"}]}
+ ],
+ "undated_mentions": [
+  "Completed MBA at University of Western Ontario after the war",
+  "Student at National Defence College, Kingston",
+  "Served as flying instructor for BCATP during World War II",
+  "Spent over four years on instructional duties in Alberta",
+  "Squadron commander at close of war",
+  "Served with Air Force HQ and Central Flying School in Trenton after the war",
+  "Served as exchange officer, Directing Staff at RAF Staff College in Britain",
+  "Various postings with NORAD",
+  "Promoted to Air Marshal in the RCAF",
+  "Became partner in a consulting firm (start date not stated)",
+  "Married Betty Sharp"
+ ]
+}

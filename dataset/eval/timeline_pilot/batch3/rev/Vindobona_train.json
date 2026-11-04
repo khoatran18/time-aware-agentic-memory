@@ -1,0 +1,316 @@
+{
+ "page_id": "/wiki/Vindobona_(train)",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1950-12",
+   "grain": "month",
+   "track": "work",
+   "text": "FDt predecessor trains began running Berlin to Prague, with Vienna coach link.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#2",
+     "role": "both",
+     "quote": "The FDt trains had already begun running between Berlin and Prague in December 1950"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1957-01-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Vindobona train service began, Berlin to Vienna via Dresden and Prague.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#2",
+     "role": "both",
+     "quote": "The service began on 13 January 1957"
+    },
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#0",
+     "role": "both",
+     "quote": "began service in 1957 between Berlin and Vienna"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1957-12",
+   "grain": "month",
+   "track": "other",
+   "label": "service_change",
+   "text": "Railcars received first and second class sections.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#3",
+     "role": "both",
+     "quote": "From December 1957 the railcars had first and second class sections"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1959",
+   "grain": "year",
+   "track": "other",
+   "label": "classification",
+   "text": "Connection upgraded to Expresszug (Ext 54/55).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#2",
+     "role": "both",
+     "quote": "In 1959 the connection was upgraded as Expresszug"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "DR use of refurbished SVT 137 unit on the train ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#7",
+     "role": "both",
+     "quote": "DR used a refurbished pre-war DRG Class SVT 137 unit until 1960"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1962",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "ÖBB 5145 Blue Lightning DMUs began operating the train.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#7",
+     "role": "both",
+     "quote": "ÖBB 5145 ( Blue Lightning ) DMUs from 1962 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "ÖBB 5145 Blue Lightning DMU operation on the train ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#7",
+     "role": "both",
+     "quote": "ÖBB 5145 ( Blue Lightning ) DMUs from 1962 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1966",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "DR introduced newly engineered VT 18.16 diesel-hydraulic railcars.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#7",
+     "role": "both",
+     "quote": "In 1966 DR introduced its newly engineered VT 18.16 diesel-hydraulic express railcars"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1969",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "ČSD began operating M 296.1 railcars on the train.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#7",
+     "role": "date",
+     "quote": "From 1969 to"
+    },
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#8",
+     "role": "description",
+     "quote": "ČSD operated its recently developed M 296.1 railcars"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "ČSD M 296.1 railcar operation on the train ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#8",
+     "role": "both",
+     "quote": "1972 , ČSD operated its recently developed M 296.1 railcars"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1975",
+   "grain": "year",
+   "track": "location",
+   "text": "Wien Mitte station became the terminus due to construction.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#6",
+     "role": "both",
+     "quote": "In 1975 , Wien Mitte station became the terminus due to construction"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "rolling_stock",
+   "text": "DMUs replaced by electric locomotive with individual carriages.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#9",
+     "role": "both",
+     "quote": "In 1979 they were replaced by a composition comprising an electric locomotive"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1986",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Services united with the Hungaria Interexpress train.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#9",
+     "role": "both",
+     "quote": "from 1986 to 1988 services were united with the Hungaria Interexpress train"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1988",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Union with the Hungaria Interexpress train ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#9",
+     "role": "both",
+     "quote": "from 1986 to 1988 services were united with the Hungaria Interexpress train"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "classification",
+   "text": "Vindobona train categorised as EuroCity EC 172/173.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#0",
+     "role": "both",
+     "quote": "Labelled as a EuroCity train connection from 1993"
+    },
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#11",
+     "role": "description",
+     "quote": "the Vindobona train also became categorised as EC 172/173"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1994",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Deutsche Reichsbahn operations taken over by Deutsche Bahn AG.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#11",
+     "role": "both",
+     "quote": "The DR operations were taken over by Deutsche Bahn AG by 1994"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e17",
+   "date": "2006-05-28",
+   "grain": "day",
+   "track": "location",
+   "text": "Trains began passing through Berlin via new North–South mainline.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#11",
+     "role": "both",
+     "quote": "With the opening of Berlin Hauptbahnhof on 28 May 2006"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2014-12-14",
+   "grain": "day",
+   "track": "naming",
+   "text": "Vindobona replaced by EC 172/173 Porta Bohemica; services discontinued.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#13",
+     "role": "both",
+     "quote": "As of 14 December 2014 , the EC 172/173 Vindobona was replaced by the EC 172/173 Porta Bohemica"
+    },
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#0",
+     "role": "both",
+     "quote": "services discontinued in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2020-06-14",
+   "grain": "day",
+   "track": "location",
+   "text": "Route extended to Berlin again after COVID-19 delays.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#14",
+     "role": "both",
+     "quote": "this route has been extended to Berlin from 14 June 2020"
+    },
+    {
+     "chunk_id": "/wiki/Vindobona_(train)#1",
+     "role": "both",
+     "quote": "This route has been again extended to Berlin from mid-2020"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Route later extended from Hamburg via Berlin, Dresden, Prague, Brno to Villach",
+  "Route later rerouted via first Czech railway corridor to Brno and Břeclav",
+  "Route later rerouted via Havlíčkův Brod, then Pardubice and Česká Třebová",
+  "Trains then ran as Durchgangszug (D 275/276)",
+  "Trains later hauled by DB Class 101, ČD Class 371/380 and ÖBB 1216 locomotives",
+  "MÁVAG 495.0 and 498.0 railcars operated by ČSD succeeded SVT 137",
+  "Name Vindobona reused for Railjet line Prague-Vienna-Graz (after December 2018, date not stated)"
+ ]
+}

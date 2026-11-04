@@ -1,0 +1,329 @@
+{
+ "page_id": "Stefan_Heße",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1966-08-07",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#1",
+     "role": "both",
+     "quote": "Heße was born in Cologne , Germany , on 7 August 1966"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1986",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from George Büchner Gymnasium",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#1",
+     "role": "both",
+     "quote": "After graduation in 1986 , he studied theology and philosophy"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Became pastor at St. Remigius Church, Bergheim",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 1993 to 1997 he was pastor at St . Remigius Church in the city of Bergheim"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1993-06-18",
+   "grain": "day",
+   "track": "other",
+   "label": "ordination",
+   "text": "Ordained a priest by Cardinal Joachim Meisner",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "Heße was ordained on 18 June 1993 by Cardinal Joachim Meisner"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended pastorate at St. Remigius Church, Bergheim",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 1993 to 1997 he was pastor at St . Remigius Church"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Became lecturer at Collegium Albertinum seminary, Bonn",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 1997 to 2003 he was a lecturer at the Collegium Albertinum , a seminary in Bonn"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2001",
+   "grain": "year",
+   "track": "education",
+   "text": "Received Doctor of Theology from Vallendar school",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "In 2001 he received his Doctor of Theology from the Philosophical-Theological School in Vallendar"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Became head of Pastoral Services Department, Archdiocese of Cologne",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 2003 to 2005 he headed the Department of Pastoral Services of the Archdiocese of"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended lecturer post at Collegium Albertinum",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 1997 to 2003 he was a lecturer at the Collegium Albertinum"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Became archdiocesan delegate for radio and television",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#3",
+     "role": "both",
+     "quote": "Also in 2003 , he took up the additional position as the archdiocesan delegate for radio and television"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended headship of Pastoral Services Department",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#2",
+     "role": "both",
+     "quote": "From 2003 to 2005 he headed the Department of Pastoral Services"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Named Chaplain of His Holiness",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#27",
+     "role": "both",
+     "quote": "In 2005 Heße received the title Chaplain of His Holiness"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2006-05-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Deputy Vicar General, Archdiocese of Cologne",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#4",
+     "role": "both",
+     "quote": "On 1 May 2006 , Heße was appointed Deputy Vicar General of the Archdiocese of Cologne"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Named Honorary Prelate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#27",
+     "role": "both",
+     "quote": "and in 2010 , the title of Honorary Prelate"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2012",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended archdiocesan delegate post for radio and television",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#3",
+     "role": "both",
+     "quote": "a post he held until 2012"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2012-03-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Became Vicar General, Archdiocese of Cologne",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#4",
+     "role": "both",
+     "quote": "On March 16 , 2012 , he became Vicar General"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2014-02-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Elected diocesan administrator of Cologne",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#4",
+     "role": "both",
+     "quote": "On 28 February 2014 , Cardinal Joachim Miesner , Archbishop of Cologne , resigned and Heße was elected diocesan administrator"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2014-09-20",
+   "grain": "day",
+   "track": "role",
+   "text": "Reaffirmed as Vicar General at Woelki's installation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#4",
+     "role": "date",
+     "quote": "On 20 September 2014 , Cardinal Rainer Maria Woelki was installed as Archbishop of Cologne"
+    },
+    {
+     "chunk_id": "/wiki/Stefan_Heße#4",
+     "role": "description",
+     "quote": "At the ceremony , Heße was reaffirmed as Vicar General"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2015-01-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed fourth Archbishop of Hamburg by Pope Francis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#0",
+     "role": "both",
+     "quote": "He has been Archbishop of the Archdiocese of Hamburg since 26 January 2015"
+    },
+    {
+     "chunk_id": "/wiki/Stefan_Heße#5",
+     "role": "both",
+     "quote": "On 26 January 2015 , Pope Francis appointed Heße the fourth Archbishop of Hamburg"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2015-03-14",
+   "grain": "day",
+   "track": "other",
+   "label": "consecration",
+   "text": "Episcopal consecration as bishop",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#5",
+     "role": "both",
+     "quote": "His episcopal consecration took place on 14 March 2015"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2015-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Elected German bishops' special envoy to migrant crisis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#6",
+     "role": "both",
+     "quote": "In a September 2015 plenary council , the gathering of German bishops and other clergy focused most of the discussion"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2021-03-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Announced submission of resignation to Pope Francis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefan_Heße#8",
+     "role": "both",
+     "quote": "On 18 March 2021 , after an investigation into the handling of accusations of sexual abuse"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

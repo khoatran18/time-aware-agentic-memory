@@ -1,0 +1,504 @@
+{
+ "page_id": "Monir_Shahroudy_Farmanfarmaian",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1922-12-16",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born (lifespan start; source gives 16 December 1922)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#0",
+     "role": "both",
+     "quote": "( ; 16 December 1922 – 20 April 2019 ) was an Iranian artist"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e2",
+   "date": "1922-12-18",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Qazvin; source gives 18 December 1922.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#2",
+     "role": "both",
+     "quote": "Shahroudy was born on December 18 , 1922 , to educated parents in the religious town of Qazvin"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e3",
+   "date": "1944",
+   "grain": "year",
+   "track": "education",
+   "text": "Studied at University of Tehran, Faculty of Fine Art.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#2",
+     "role": "both",
+     "quote": "After studying at the University of Tehran at the Faculty of Fine Art in 1944"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1944",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to New York City by steamboat after WWII derailed plans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#2",
+     "role": "both",
+     "quote": "she then moved to New York City via steamboat"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1950",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Iranian artist Manoucher Yektai.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#14",
+     "role": "both",
+     "quote": "Farmanfarmaian married Iranian artist Manoucher Yektai in 1950"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1953",
+   "grain": "year",
+   "track": "family",
+   "text": "Divorced Manoucher Yektai.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#14",
+     "role": "both",
+     "quote": "They divorced in 1953"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1957",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved back to Iran, returning to Tehran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#5",
+     "role": "both",
+     "quote": "In early 1957 , Farmanfarmaian moved back to Iran"
+    },
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#14",
+     "role": "both",
+     "quote": "in 1957 , she returned to Tehran to marry lawyer Abolbashar Farmanfarmaian"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1957",
+   "grain": "year",
+   "track": "family",
+   "text": "Married lawyer Abolbashar Farmanfarmaian in Tehran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#14",
+     "role": "both",
+     "quote": "in 1957 , she returned to Tehran to marry lawyer Abolbashar Farmanfarmaian"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1958",
+   "grain": "year",
+   "track": "work",
+   "text": "Work featured at Iran Pavilion, Venice Biennale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#5",
+     "role": "both",
+     "quote": "her work was featured at the Iran Pavilion in the 1958 Venice Biennale"
+    },
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "the Venice Biennale ( 1958 , 1966 and 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received gold medal at Venice Biennale, Iranian Pavilion (solo).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "In 1958 she received the Venice Biennale , Iranian Pavilion ( gold medal )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "Held exhibition at Tehran University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#5",
+     "role": "both",
+     "quote": "holding a number of exhibitions in places such as Tehran University ( 1963 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Participated in Venice Biennale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "the Venice Biennale ( 1958 , 1966 and 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "Held exhibition at Iran-America Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#6",
+     "role": "both",
+     "quote": "Society ( 1973 ) , and the Jacques Kaplan/Mario Ravagnan Gallery ( 1974 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1974",
+   "grain": "year",
+   "track": "work",
+   "text": "Held exhibition at Jacques Kaplan/Mario Ravagnan Gallery.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#6",
+     "role": "both",
+     "quote": "Society ( 1973 ) , and the Jacques Kaplan/Mario Ravagnan Gallery ( 1974 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1977",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned installation for Niyavaran Cultural Center (began).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#20",
+     "role": "both",
+     "quote": "the Niyavaran Cultural Center ( 1977–78 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Niyavaran Cultural Center installation completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#20",
+     "role": "both",
+     "quote": "the Niyavaran Cultural Center ( 1977–78 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e17",
+   "date": "1979",
+   "grain": "year",
+   "track": "location",
+   "text": "Traveled to New York with second husband Abol-Bashar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#7",
+     "role": "both",
+     "quote": "In 1979 , Farmanfarmaian and her second husband , Abol-Bashar , traveled to New York to visit family"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1979",
+   "grain": "year",
+   "track": "location",
+   "text": "Exiled from Iran after the Islamic Revolution began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#7",
+     "role": "both",
+     "quote": "Around the same time , the Islamic Revolution began , and so the Farmanfarmaians found themselves exiled from Iran"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e19",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned installation for Dag Hammarskjold building, New York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#20",
+     "role": "both",
+     "quote": "the Dag Hammerskjod building , New York ( 1981 )"
+    }
+   ]
+  },
+  {
+   "date": "1991",
+   "grain": "year",
+   "track": "family",
+   "label": "",
+   "text": "Husband Abolbashar Farmanfarmaian died of leukemia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#14",
+     "role": "both",
+     "quote": "In 1991 , Abolbashar died of leukemia"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "1992",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to Iran, ending exile (third return).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#9",
+     "role": "both",
+     "quote": "In 1992 , Farmanfarmaian returned to Iran"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Gathered former and new employees to create mosaics in Tehran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#9",
+     "role": "both",
+     "quote": "in Tehran in 2004 , she reaffirmed her place among Irans art community"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned installation for Victoria and Albert Museum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#20",
+     "role": "both",
+     "quote": "the Victoria and Albert Museum ( 2006 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Memoir A Mirror Garden published (Knopf), co-authored with Zara Houshmand.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#22",
+     "role": "both",
+     "quote": "A Mirror Garden : A Memoir was co-authored by Zara Houshmand ( Knopf , 2007 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned installation for Queensland Art Gallery.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#20",
+     "role": "both",
+     "quote": "Queensland Art Gallery ( 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Participated in 6th Asia Pacific Triennial of Contemporary Art.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "the 6th Asia Pacific Triennial of Contemporary Art ( 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Participated in Venice Biennale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "the Venice Biennale ( 1958 , 1966 and 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Participated in 29th Bienal de Sao Paulo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#18",
+     "role": "both",
+     "quote": "participated in the 29th Bienal de São Paulo ( 2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Retrospective Infinite Possibility opened at Serralves Museum, Porto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#19",
+     "role": "both",
+     "quote": "in Porto , Portugal ( 2014-2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "Retrospective Infinite Possibility ended at Serralves Museum, Porto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#19",
+     "role": "both",
+     "quote": "in Porto , Portugal ( 2014-2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "Retrospective travelled to Guggenheim, New York (first large US museum show).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#19",
+     "role": "both",
+     "quote": "travelled to the Solomon R . Guggenheim Museum in New York City ( 2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2017-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Monir Museum opened in Negarestan Park Gardens, Tehran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#0",
+     "role": "both",
+     "quote": "In 2017 , the Monir Museum in Tehran , Iran was opened in her honor"
+    },
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#21",
+     "role": "both",
+     "quote": "In December 2017 , the Monir Museum opened in Negarestan Park Gardens in Tehran"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2019-04-20",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at her home in Tehran, aged 96.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Monir_Shahroudy_Farmanfarmaian#9",
+     "role": "both",
+     "quote": "On 20 April 2019 Farmanfarmaian died at her home at the age of 96"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Studied at Cornell University",
+  "Studied at Parsons The New School for Design, majored in fashion illustration",
+  "Studied at Art Students League of New York",
+  "Freelance fashion illustration jobs, incl. Glamour magazine",
+  "Hired by Bonwit Teller department store as fashion illustrator",
+  "Visited Shah Cheragh mosque in Shiraz (around the 1970s)",
+  "Works and folk art collections confiscated, sold or destroyed",
+  "Works acquired by Metropolitan Museum of Art, Tehran Museum of Contemporary Art, MOCA Tokyo",
+  "Exhibited at MoMA, Guggenheim, Haus der Kunst, IMMA, Zentrum Paul Klee, Savannah College of Art and Design Museum",
+  "Shown at private galleries: The Third Line Dubai, Grey Art Gallery NYU, Galerie Denise Rene Paris and New York, Ota Fine Art Tokyo"
+ ]
+}

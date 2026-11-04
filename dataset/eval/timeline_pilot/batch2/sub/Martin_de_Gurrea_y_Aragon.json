@@ -1,0 +1,145 @@
+{
+  "page_id": "Martín_de_Gurrea_y_Aragón",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1525-05-17",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Pedrola, per the article lead dates.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#0", "role": "both", "quote": "( 17 May 1525 - 25 April 1581 )"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1542",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Luisa de Borja y Aragón.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#7", "role": "both", "quote": "Martín remarried around 1542 to Luisa de Borja y Aragón"},
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#17", "role": "both", "quote": "In 1542 married Luisa de Borja y Aragón"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1550",
+      "grain": "year",
+      "track": "role",
+      "text": "Inherited the title of Count of Ribagorza on his father's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#1", "role": "both", "quote": "He inherited the title of Count of Ribagorza on his fathers death in 1550"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1554-06-06",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Zamora court took County rights, rents and castles from him.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#9", "role": "both", "quote": "On 6 June 1554 a court in Zamora took rights , rents and castles of the County out of Martíns hands"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1555",
+      "grain": "year",
+      "track": "other",
+      "label": "court",
+      "text": "Accompanied Philip to Brussels to witness Charles V's abdication.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#5", "role": "both", "quote": "to Brussels in 1555 to witness"},
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#6", "role": "description", "quote": "Charles Vs abdication of his rule over the Low Countries"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1557",
+      "grain": "year",
+      "track": "other",
+      "label": "military",
+      "text": "Distinguished himself at the battle of St Quentin, gaining royal favour.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#7", "role": "both", "quote": "In 1557 , Martín distinguished himself in the battle of St Quentin"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1558",
+      "grain": "year",
+      "track": "role",
+      "text": "Became 4th Duke of Villahermosa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#1", "role": "both", "quote": "He also became 4th Duke of Villahermosa in 1558"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1560",
+      "grain": "year",
+      "track": "family",
+      "text": "Wife Luisa de Borja died; he left court to govern Aragon estates.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#7", "role": "both", "quote": "he had to leave court to govern his possessions in Aragon after his wifes death in 1560"},
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#8", "role": "description", "quote": "The duke married a third time after her death"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1565-05-06",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Passed County of Ribagorza to his eldest son Juan.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#9", "role": "both", "quote": "On 6 May 1565 he passed the County of Ribagorza to his eldest son Juan de Gurrea y Aragón"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1566",
+      "grain": "year",
+      "track": "family",
+      "text": "Married María Pérez de Pomar, his third marriage.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#8", "role": "both", "quote": "The duke married a third time after her death , to María Pérez de Pomar in 1566"},
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#19", "role": "description", "quote": "he remarried to María Pérez de Pomar"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1567-05-18",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Lawsuit to regain control of the County of Ribagorza succeeded.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#10", "role": "both", "quote": "which eventually proved successful on 18 May 1567"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1581-04-25",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died in Pedrola, after increasing religious devotion.",
+      "evidence": [
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#0", "role": "both", "quote": "( 17 May 1525 - 25 April 1581 )"},
+        {"chunk_id": "/wiki/Martín_de_Gurrea_y_Aragón#12", "role": "both", "quote": "finally dying in 1581"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Educated in Santiago de Compostela by uncle cardinal Pedro Gómez Sarmiento (no date)",
+    "Served as minstrel to Empress Isabel of Portugal (no date)",
+    "Served as page of the future Philip II of Spain (no date)",
+    "Accompanied Philip to England for his marriage to Mary I (no date)",
+    "Took his case to the Justiciar of Aragon (no date)",
+    "Re-assumed responsibility for County of Ribagorza after son's execution (after 1573, no exact date)",
+    "Wrote Discursos sobre medallas y antigüedades (no date)",
+    "Left his art and coin collection to Pedrola and Monastery of Veruela at death (no exact date)",
+    "Death of his mother (final years, no date)"
+  ]
+}

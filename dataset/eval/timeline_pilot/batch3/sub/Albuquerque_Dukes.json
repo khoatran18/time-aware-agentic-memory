@@ -1,0 +1,317 @@
+{
+  "page_id": "/wiki/Albuquerque_Dukes",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1903",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Predecessor franchise became a PCL charter member as the original Los Angeles Angels.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#6", "role": "both", "quote": "a charter member of the PCL in 1903 as the original Los Angeles Angels"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1915",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "First Dukes team formed as part of the Class D Rio Grande Association.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#1", "role": "both", "quote": "The first Dukes team was formed in 1915 as part of the Class D Rio Grande Association"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1915",
+      "grain": "year",
+      "track": "other",
+      "label": "dissolution",
+      "text": "First Dukes team folded at the end of its only season.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#1", "role": "both", "quote": "These Dukes folded that same year"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1942",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Dukes returned and joined the Class D West Texas-New Mexico League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#2", "role": "both", "quote": "before the Dukes returned in 1942 , this time with the Class D West Texas–New Mexico League"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1942-06",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Dukes withdrew from competition in June.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#2", "role": "both", "quote": "but withdrew from competition in June of that year"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "1946",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Dukes returned to the league when play resumed after World War II.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#2", "role": "both", "quote": "play resumed in 1946 with the Dukes returning to the league"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1954",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Peter V. Domenici signed with the Dukes and pitched for one year.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#16", "role": "date", "quote": "In 1954 , Albuquerque native and future United States Senator Peter V . Domenici"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#16", "role": "description", "quote": "signed on with the Dukes for whom he pitched for one year"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1956",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Dukes began play in Class A Western League as New York Giants affiliate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#4", "role": "both", "quote": "In 1956 the Dukes began play in the Class A Western League as an affiliate of the New York Giants"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1958",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Dukes switched to being the Cincinnati Reds affiliate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#4", "role": "both", "quote": "In 1958 they switched to being the Cincinnati Reds affiliate"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1958",
+      "grain": "year",
+      "track": "location",
+      "text": "Predecessor franchise displaced by the Dodgers and moved to Spokane.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#6", "role": "both", "quote": "who had been displaced by the Dodgers in 1958 to spend the next 14 years in Spokane"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1960",
+      "grain": "year",
+      "track": "location",
+      "text": "Dukes returned to Albuquerque.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#4", "role": "both", "quote": "The Dukes returned to Albuquerque in 1960"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1960",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Dukes became affiliate of Kansas City Athletics in Class D Sophomore League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#4", "role": "both", "quote": "The Dukes returned to Albuquerque in 1960 , playing as an affiliate for the Kansas City Athletics"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1962",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Kansas City management moved the team to the Double-A Texas League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#5", "role": "both", "quote": "In 1962 Kansas City management moved the team to the Double-A Texas League"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1962",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Kansas City dropped the team at the end of the season.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#5", "role": "both", "quote": "but dropped the team at the end of the season"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e15",
+      "date": "1963",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Los Angeles Dodgers began a 47-year relationship with the club.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#5", "role": "both", "quote": "The Los Angeles Dodgers began what would be a 47-year relationship with the club in 1963"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1965",
+      "grain": "year",
+      "track": "naming",
+      "text": "Team renamed the Albuquerque Dodgers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#5", "role": "both", "quote": "changed the name to the Albuquerque Dodgers in 1965"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1969",
+      "grain": "year",
+      "track": "location",
+      "text": "Team moved from Tingley Field to Albuquerque Sports Stadium.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#5", "role": "both", "quote": "In 1969 , the team moved from Tingley Field to the Albuquerque Sports Stadium"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1971",
+      "grain": "year",
+      "track": "location",
+      "text": "Dodgers transferred the Spokane Indians franchise to Albuquerque.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#6", "role": "both", "quote": "The Dodgers transferred the Spokane Indians to Albuquerque after the 1971 season"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1972",
+      "grain": "year",
+      "track": "naming",
+      "text": "Dukes name was revived.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#6", "role": "both", "quote": "In 1972 , the Dukes name was revived and the team moved up to the Triple-A Pacific Coast League"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1972",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Team moved up to the Triple-A Pacific Coast League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#6", "role": "both", "quote": "In 1972 , the Dukes name was revived and the team moved up to the Triple-A Pacific Coast League"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1972",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Dukes won the PCL championship under Tommy Lasorda, first of eight.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#7", "role": "description", "quote": "won the PCL championship , the first of eight for the franchise"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#7", "role": "date", "quote": "That 1972 team , featuring future big leaguers Charlie Hough"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1981",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Dukes won their third league title, sweeping the Tacoma Rainiers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#8", "role": "date", "quote": "The 1981 club , powered by sluggers Mike Marshall and Candy Maldonado"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#8", "role": "description", "quote": "sweeping the Tacoma Rainiers to win their third league title"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1981",
+      "grain": "year",
+      "track": "other",
+      "label": "exhibition game",
+      "text": "Dukes played an exhibition game against the Dodgers after the strike ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#9", "role": "both", "quote": "when the 1981 players strike ended , the Dukes played an exhibition game against the Dodgers"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "1990",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Dukes won a PCL title.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#10", "role": "both", "quote": "The team won PCL titles in 1990 and 94"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "1994",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Dukes won a PCL title.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#10", "role": "both", "quote": "The team won PCL titles in 1990 and 94"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e26",
+      "date": "2000",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Lozinak family, absentee owners, sold the franchise to a Portland interest group.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#11", "role": "both", "quote": "In 2000 , the Lozinak family , absentee owners who resided in Maryland , sold the franchise to an interest group in Portland , Oregon"}
+      ]
+    },
+    {
+      "id": "e27",
+      "date": "2000",
+      "grain": "year",
+      "track": "location",
+      "text": "Dukes moved to Portland, Oregon after the season.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#11", "role": "description", "quote": "Following that season , the Dukes were moved and renamed the Portland Beavers"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#18", "role": "date", "quote": "When the Dukes left Albuquerque in 2000"}
+      ]
+    },
+    {
+      "id": "e28",
+      "date": "2000",
+      "grain": "year",
+      "track": "naming",
+      "text": "Dukes renamed the Portland Beavers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#11", "role": "description", "quote": "Following that season , the Dukes were moved and renamed the Portland Beavers"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#18", "role": "date", "quote": "When the Dukes left Albuquerque in 2000"}
+      ]
+    },
+    {
+      "id": "e29",
+      "date": "2000",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "San Diego Padres took over the Beavers/Dukes franchise from the Dodgers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Albuquerque_Dukes#11", "role": "description", "quote": "San Diego took over the Beavers/Dukes"},
+        {"chunk_id": "/wiki/Albuquerque_Dukes#18", "role": "date", "quote": "When the Dukes left Albuquerque in 2000"}
+      ],
+      "flag": "derived_date"
+    }
+  ],
+  "undated_mentions": [
+    "early 1990s: future stars such as Mike Piazza, Pedro Martínez and John Wetteland came through the Dukes",
+    "Managers of the Dukes (no dates given): Lasorda, Del Crandall, Bill Russell, Kevin Kennedy, Rick Dempsey, Terry Collins, Mike Scioscia"
+  ]
+}

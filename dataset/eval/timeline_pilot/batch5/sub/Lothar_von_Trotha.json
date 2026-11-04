@@ -1,0 +1,151 @@
+{
+  "page_id": "Lothar_von_Trotha",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1848-07-03",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Adrian Dietrich Lothar von Trotha born in Magdeburg.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#0", "role": "both", "quote": "General Adrian Dietrich Lothar von Trotha ( 3 July 1848"},
+        {"chunk_id": "/wiki/Lothar_von_Trotha#3", "role": "description", "quote": "Born in Magdeburg , the capital of the Province of Saxony"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1865",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the Prussian Army.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#3", "role": "both", "quote": "joined the Prussian Army in 1865"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1872-10-15",
+      "grain": "day",
+      "track": "family",
+      "text": "Married Bertha Neumann, his first marriage.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#2", "role": "both", "quote": "on 15 October 1872 he married Bertha Neumann"},
+        {"chunk_id": "/wiki/Lothar_von_Trotha#3", "role": "both", "quote": "He married Bertha Neumann on 15 October 1872"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1894",
+      "grain": "year",
+      "track": "location",
+      "text": "Deployed to Africa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#3", "role": "both", "quote": "before he was deployed to Africa in 1894"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1894",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed commander of colonial forces in German East Africa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#4", "role": "both", "quote": "In 1894 Trotha was appointed commander of the colonial forces in German East Africa"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1904-05-03",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed Commander in Chief of German South West Africa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#4", "role": "both", "quote": "On 3 May 1904 he was appointed Commander in Chief of German South West Africa"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1904-06-11",
+      "grain": "day",
+      "track": "location",
+      "text": "Arrived in South West Africa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#5", "role": "both", "quote": "Trotha arrived in South West Africa on 11 June 1904"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1904-10",
+      "grain": "month",
+      "track": "role",
+      "text": "Devised a new battle plan against the Herero uprisings.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#6", "role": "both", "quote": "In October 1904 General von Trotha devised a new battle plan"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1905-04-22",
+      "grain": "day",
+      "track": "role",
+      "text": "Sent a message to the Nama suggesting surrender.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#14", "role": "both", "quote": "On 22 April 1905 he sent a message to the Nama"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1905-11-19",
+      "grain": "day",
+      "track": "location",
+      "text": "Returned to Germany from South West Africa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#14", "role": "both", "quote": "On 19 November 1905 Lothar von Trotha returned to Germany"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1910",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed an infantry general.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#14", "role": "both", "quote": "was appointed as an infantry general in 1910"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1912-05-19",
+      "grain": "day",
+      "track": "family",
+      "text": "Married Lucy Goldstein-Brinckmann, a second marriage.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#2", "role": "both", "quote": "on 19 May 1912 , he married Lucy Goldstein-Brinckmann"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1920-03-31",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died of typhoid fever in Bonn.",
+      "evidence": [
+        {"chunk_id": "/wiki/Lothar_von_Trotha#14", "role": "both", "quote": "He died of typhoid fever ( bilious fever ) on 31 March 1920 in Bonn"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Commander of Lauenburgisches Jäger Bataillon Nr. 9 in Ratzeburg for two years",
+    "Fought in the Austro-Prussian and Franco-Prussian Wars",
+    "Awarded the Iron Cross 2nd Class",
+    "Retirement from the service",
+    "Involvement in suppressing the Boxer Rebellion as brigade commander of the East Asian Expedition Corps",
+    "Suppression of the Wahehe Rebellion in German East Africa",
+    "Encirclement orders at the Battle of Waterberg",
+    "Issued the Vernichtungsbefehl extermination order",
+    "Asked by the Imperial Chancellor to be relieved of command",
+    "Routed the Nama forces"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "page_id": "Aero_Union",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1960",
+      "grain": "year",
+      "track": "work",
+      "text": "Newton and Foy began their first fire season flying a surplus B-25 Mitchell.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "both", "quote": "In 1960 Dale Newton and Dick Foy participated in their first fire season with a surplus B-25 Mitchell"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1960",
+      "grain": "year",
+      "track": "naming",
+      "text": "Newton and Foy operated that season under the name Western Air Industries.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "date", "quote": "In 1960 Dale Newton and Dick Foy"},
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "description", "quote": "Newton & Foy operated for that season under the name Western Air Industries"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1962",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved operations from Redding, California to Chico.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "both", "quote": "In 1962 the company moved their operations from Redding , California to Chico"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1975",
+      "grain": "year",
+      "track": "other",
+      "label": "fleet",
+      "text": "Began using Douglas C-54 aircraft as tankers and general support aircraft.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "both", "quote": "Between 1975 and 2000 , the company used Douglas C-54 aircraft as tankers"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1987",
+      "grain": "year",
+      "track": "other",
+      "label": "grounding",
+      "text": "C-119 fleet, including some Aero Union aircraft, grounded over safety concerns.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#3", "role": "both", "quote": "was grounded in 1987 due to safety concerns"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2000",
+      "grain": "year",
+      "track": "other",
+      "label": "fleet",
+      "text": "Period of Douglas C-54 use as tankers and support aircraft ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#1", "role": "both", "quote": "Between 1975 and 2000 , the company used Douglas C-54 aircraft as tankers"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2007-07",
+      "grain": "month",
+      "track": "work",
+      "text": "Delivered the first production MAFFS II unit to the USFS.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#12", "role": "both", "quote": "Aero Union delivered the first production unit to the USFS in July , 2007"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2010-06",
+      "grain": "month",
+      "track": "location",
+      "text": "Announced plans to move most operations to McClellan Airfield near Sacramento.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#2", "role": "both", "quote": "In June 2010 Aero Union announced plans to move the majority of its operations to McClellan Airfield"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2010-07",
+      "grain": "month",
+      "track": "work",
+      "text": "MAFFS II used for the first time on a fire.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#12", "role": "both", "quote": "MAFFS II was used for the first time on a fire in July 2010"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2010-09",
+      "grain": "month",
+      "track": "location",
+      "text": "Relocation of operations to McClellan Airfield began.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#2", "role": "both", "quote": "The relocation began in September 2010 but ended abruptly with the closure of the company"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2011-04",
+      "grain": "month",
+      "track": "other",
+      "label": "disclosure",
+      "text": "Voluntarily disclosed that its planes were not current on inspections.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#6", "role": "both", "quote": "In April 2011 Aero Union had voluntarily disclosed that its planes were not current on inspections"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2011-07-29",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "US Forest Service canceled its six-plane contract with Aero Union.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#6", "role": "both", "quote": "On July 29 , 2011 the U.S . Forest Service announced that it had canceled its six-plane contract with Aero Union"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2012-02",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "PMI auctioned Aero Union aircraft assets and intellectual property.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#8", "role": "both", "quote": "In February 2012 PMI held an auction of Aero Unions aircraft assets"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2012-05",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Auction of tools and equipment held; most of it sold.",
+      "evidence": [
+        {"chunk_id": "/wiki/Aero_Union#8", "role": "both", "quote": "In May 2012 another auction of tools and equipment"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Bought first two B-17 Flying Fortresses and renamed company Aero Union (the year after 1960; year not explicitly stated)",
+    "Last round of layoffs reduced staff to five people",
+    "Participated in the USFS airtanker scandal as one of six contractors",
+    "Acquired aircraft through the USFS exchange program at no cost; titles transferred",
+    "Dismantled some aircraft for parts and exchanged other planes with the USFS",
+    "Made an out-of-court settlement with the government over its actions (later challenged in court)",
+    "Informed employees they were out of work and the company was shutting down (less than a month after the cancellation)",
+    "Failed to make lease payments to City of Chico (August, year implied as 2011)",
+    "City of Chico declared the lease invalid (September, year implied as 2011)",
+    "Shut down all facilities, websites and points of contact; assumed out of business",
+    "Former Aero Union Tanker 23 acquired by Airstrike Firefighters (no date)",
+    "Developed the improved MAFFS II system under USFS contract (no date given)",
+    "MAFFS II flight testing in August after first delivery (year implied as 2007)",
+    "Relocation ended abruptly with the closure of the company"
+  ]
+}

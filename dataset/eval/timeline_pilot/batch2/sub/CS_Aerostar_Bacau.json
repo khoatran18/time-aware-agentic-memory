@@ -1,0 +1,195 @@
+{
+  "page_id": "CS_Aerostar_Bacău",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1977",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Club founded as Aripile Bacău.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#3",
+          "role": "both",
+          "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings ) the club was enrolled directly in the Divizia C"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1977",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Enrolled directly in Divizia C, second series.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#3",
+          "role": "both",
+          "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings ) the club was enrolled directly in the Divizia C"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1982",
+      "grain": "year",
+      "track": "naming",
+      "text": "Name changed back to Aripile Bacău.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#4",
+          "role": "both",
+          "quote": "In the summer of 1982 the club ownership decided to change the teams name back to the old one"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1985",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Promoted for the first time to Divizia B, end of 1984–85 season.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#5",
+          "role": "both",
+          "quote": "promoted for the first time in the Divizia B at the end of the 1984–85 season"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1988",
+      "grain": "year",
+      "track": "naming",
+      "text": "Name changed to Aripile, dropping Victoria.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#8",
+          "role": "both",
+          "quote": "In the summer of 1988 , with the occasion of promotion , Aripile Victoria became again just Aripile"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1992",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Relegated to the third league after the 1991–92 season.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#9",
+          "role": "both",
+          "quote": "1991–92 – 16th , the last result meaning also the relegation to the third league"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1992",
+      "grain": "year",
+      "track": "naming",
+      "text": "Club renamed Aerostar Bacău, matching parent company rename.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#10",
+          "role": "both",
+          "quote": "A notable event occurred in the summer of 1992 , when the club changed its name in Aerostar Bacău"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1994",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Excluded from Divizia C over financial problems, 1993–94 season.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#10",
+          "role": "both",
+          "quote": "the 1993–94 season , when due to financial problems the club was excluded from Divizia C"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1995",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Club refounded as Aerostar Bacău, enrolled in Divizia D.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#11",
+          "role": "both",
+          "quote": "After one year of inactivity the club was refounded with the same name of Aerostar Bacău , in the summer of 1995"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1999",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Promoted back to Divizia C, end of 1998–99 season.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#11",
+          "role": "both",
+          "quote": "promoted back to Divizia C at the end of the 1998–99 season"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2017",
+      "grain": "year",
+      "track": "other",
+      "label": "funding",
+      "text": "Received financial support from Municipality of Bacău for promotion push.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
+          "role": "date",
+          "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"
+        },
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
+          "role": "description",
+          "quote": "Aerostar has also received financial support from the Municipality of Bacău"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "Cristian Popovici chosen as new manager of the team.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
+          "role": "date",
+          "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"
+        },
+        {
+          "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
+          "role": "description",
+          "quote": "Cristian Popovici was chosen to be the new manager of the team"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Renamed Victoria IRA Bacău after one season absence and promotion to Divizia C (no date stated)",
+    "Renamed Aripile Victoria Bacău at end of first Divizia B season (no date stated)",
+    "Relegated from Divizia B as first team below the red line (no date stated)",
+    "Doru Damaschin became new club president in 1995 (no exact date stated for appointment)",
+    "Signed Ionuț Mihălăchioaie and Cătălin Vraciu (no date stated in chunk)",
+    "Promoted back to Liga II after 26 years of absence (season not stated)",
+    "Dissolved after exclusion from Divizia C (no date stated)"
+  ]
+}

@@ -1,0 +1,359 @@
+{
+ "page_id": "Supreme_Council_of_the_Armed_Forces",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1952",
+   "grain": "year",
+   "track": "other",
+   "label": "predecessor",
+   "text": "Free Officers seized power; Revolutionary Command Council ruled as junta.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#3",
+     "role": "both",
+     "quote": "that seized power in a coup-cum-revolution in 1952"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1954",
+   "grain": "year",
+   "track": "other",
+   "label": "predecessor",
+   "text": "Revolutionary Command Council junta ended; new constitution introduced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#3",
+     "role": "both",
+     "quote": "which ruled Egypt as a junta until 1954"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1954-12",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Nasser formed SCAF as statutory body, himself as chairman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#3",
+     "role": "both",
+     "quote": "who formed the Supreme Council of the Armed Forces in December 1954"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "convening",
+   "text": "Council convened repeatedly during the Suez Crisis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "The SCAF convened numerous times in 1956 during the Suez Crisis"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "convening",
+   "text": "Council convened during Yemeni Civil War (span began).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "during the Yemeni Civil War between 1964 and 1967"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1967",
+   "grain": "year",
+   "track": "other",
+   "label": "convening",
+   "text": "Council convened during Yemeni Civil War (span ended).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "during the Yemeni Civil War between 1964 and 1967"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1967",
+   "grain": "year",
+   "track": "role",
+   "text": "Council period of full control over military policy begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "throughout the period 1967 to 1974"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Council period of full control over military policy ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "Between 1967 and 1974 , SCAF was composed of almost 25 senior officers"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "dormancy",
+   "text": "Council went into semi-permanent dormancy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "After 1974 the SCAF went into semi-permanent dormancy"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "revival",
+   "text": "Council revived after assassination of President Anwar Sadat.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#7",
+     "role": "both",
+     "quote": "it was revived in 1981 after the assassination of President Anwar Sadat"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2011-02-09",
+   "grain": "day",
+   "track": "other",
+   "label": "meeting",
+   "text": "Council first met under the chairmanship of Mubarak.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#1",
+     "role": "both",
+     "quote": "met first on 9 February 2011 under the chairmanship of Egyptian president"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2011-02-10",
+   "grain": "day",
+   "track": "other",
+   "label": "statement",
+   "text": "Council issued first press statement, signalling it would assume power.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#8",
+     "role": "both",
+     "quote": "The Supreme Council released its first statement on Thursday , 10 February 2011"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2011-02-11",
+   "grain": "day",
+   "track": "role",
+   "text": "SCAF assumed power to govern Egypt after Mubarak's departure.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#0",
+     "role": "both",
+     "quote": "assumed power to govern Egypt from departing President Hosni Mubarak on 11 February 2011"
+    },
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#1",
+     "role": "description",
+     "quote": "which they did the following day after Mubaraks resignation"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2011-02-12",
+   "grain": "day",
+   "track": "other",
+   "label": "statement",
+   "flag": "derived_date",
+   "text": "Council released fourth statement pledging transfer to civilian government.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#10",
+     "role": "both",
+     "quote": "In the following day , 12 February , the Council released his fourth statement"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2011-08-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Tantawi swore in 15 new governors, most new to the post.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#14",
+     "role": "both",
+     "quote": "On 7 August 2011 , Field Marshal Tantawi swore in 15 new governors"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2011-10",
+   "grain": "month",
+   "track": "other",
+   "label": "clashes",
+   "text": "Violent Maspero clashes; council heavily criticized afterwards.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#16",
+     "role": "both",
+     "quote": "following violent confrontations in October 2011 between armed soldiers at the headquarters"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2012-01-24",
+   "grain": "day",
+   "track": "other",
+   "label": "announcement",
+   "text": "Tantawi televised speech announcing partial lifting of emergency state.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#19",
+     "role": "both",
+     "quote": "On 24 January 2012 , Mohamed Hussein Tantawi gave a televised speech"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2012-06-16",
+   "grain": "day",
+   "track": "other",
+   "label": "legislation",
+   "text": "Passed legislation giving council control over constitution drafting and immunity.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#20",
+     "role": "both",
+     "quote": "On 16 June 2012 , just after the election of"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2012-06-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Relinquished power to elected president; council dissolved.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#0",
+     "role": "both",
+     "quote": "and relinquished power on 30 June 2012"
+    },
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#27",
+     "role": "both",
+     "quote": "The council was dissolved right after the election of President Mohamed Morsi on 30 June 2012"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2012-09-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Sisi confirmed composition of the revised command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#31",
+     "role": "both",
+     "quote": "On 3 September 2012 , Colonel General Abdul Fatah al-Sisi , newly appointed Minister of Defence"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Decree reconstituted SCAF, headed by defence minister rather than president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#28",
+     "role": "both",
+     "quote": "In 2014 , Interim President Adly Mansour issued a presidential decree reconstituting the Supreme Council of the Armed Forces"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014-01",
+   "grain": "month",
+   "track": "other",
+   "label": "constitution",
+   "flag": "derived_date",
+   "text": "New constitution gave SCAF constitutional status and leader approval right.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#29",
+     "role": "both",
+     "quote": "The new constitution , passed in January , includes a transitional article"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2020-07-21",
+   "grain": "day",
+   "track": "other",
+   "label": "declaration",
+   "text": "Declared exclusion zone on Libyan border, promising intervention if GNA entered.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#21",
+     "role": "both",
+     "quote": "On 21 July 2020 , the Council declared an exclusion zone"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Free Officers movement origins as clandestine anti-British body (late 1940s, decade mark)",
+  "Dissolved Parliament of Egypt and suspended Constitution among first actions (early 2011, no exact date)"
+ ]
+}

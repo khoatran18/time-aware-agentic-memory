@@ -1,0 +1,147 @@
+{
+  "page_id": "Condor_(airline)",
+  "events": [
+    {"id": "e1", "date": "1955-12-21", "grain": "day", "track": "other", "label": "founding", "text": "Founded as Deutsche Flugdienst GmbH with German shareholders.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#1", "role": "both", "quote": "The airline was originally established as Deutsche Flugdienst GmbH on 21 December 1955"},
+      {"chunk_id": "/wiki/Condor_(airline)#6", "role": "both", "quote": "What would become Condor was founded on 21 December 1955 as Deutsche Flugdienst GmbH"}
+    ]},
+    {"id": "e2", "date": "1956", "grain": "year", "track": "other", "label": "routes", "text": "Majorca and Canary Islands added to the flight schedule.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#6", "role": "date", "quote": "On 29 March 1956 , the airlines first tourist-oriented"},
+      {"chunk_id": "/wiki/Condor_(airline)#7", "role": "description", "quote": "Within its first year of operation , destinations such as Majorca and the Canary Islands had been added"}
+    ], "flag": "derived_date"},
+    {"id": "e3", "date": "1956-03-29", "grain": "day", "track": "work", "text": "First tourist-oriented pilgrimage flight to the Holy Land commenced.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#6", "role": "date", "quote": "On 29 March 1956 , the airlines first tourist-oriented"},
+      {"chunk_id": "/wiki/Condor_(airline)#7", "role": "description", "quote": "flight commenced , this being a pilgrimage flight to the Holy Land"}
+    ]},
+    {"id": "e4", "date": "1958-10-17", "grain": "day", "track": "other", "label": "accident", "text": "Deutsche Flugdienst Viking cargo flight forced landing in Belgium; aircraft destroyed.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#38", "role": "both", "quote": "On 17 October 1958 , a Deutsche Flugdienst ( as the airline was called at that time ) Vickers VC.1 Viking"}
+    ]},
+    {"id": "e5", "date": "1959", "grain": "year", "track": "ownership_structure", "text": "Lufthansa began buying out the other shareholdings in Deutsche Flugdienst.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#8", "role": "both", "quote": "Between 1959 and 1960 , Lufthansa bought out the other shareholdings , acquiring sole ownership of Deutsche Flugdienst"}
+    ]},
+    {"id": "e6", "date": "1960", "grain": "year", "track": "ownership_structure", "text": "Lufthansa acquired sole ownership of Deutsche Flugdienst.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#8", "role": "both", "quote": "Between 1959 and 1960 , Lufthansa bought out the other shareholdings , acquiring sole ownership of Deutsche Flugdienst"}
+    ]},
+    {"id": "e7", "date": "1960-07-31", "grain": "day", "track": "other", "label": "accident", "text": "Convair engine failures; emergency landing short of Rimini runway, one passenger died.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#39", "role": "both", "quote": "On 31 July 1960 , a Deutsche Flugdienst Convair CV-240 ( registered D-BELU ) en route from Frankfurt to Rimini"}
+    ]},
+    {"id": "e8", "date": "1961", "grain": "year", "track": "ownership_structure", "text": "Deutsche Flugdienst took over its rival Condor-Luftreederei.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#1", "role": "both", "quote": "In 1961 , Deutsche Flugdienst took over its rival Condor-Luftreederei and subsequently adopted Condor Flugdienst GmbH as its operating name"},
+      {"chunk_id": "/wiki/Condor_(airline)#8", "role": "both", "quote": "In 1961 , Deutsche Flugdienst took over its rival Condor-Luftreederei"}
+    ]},
+    {"id": "e9", "date": "1961", "grain": "year", "track": "naming", "text": "Adopted Condor Flugdienst GmbH as operating name, introducing the Condor name.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#1", "role": "both", "quote": "In 1961 , Deutsche Flugdienst took over its rival Condor-Luftreederei and subsequently adopted Condor Flugdienst GmbH as its operating name"},
+      {"chunk_id": "/wiki/Condor_(airline)#8", "role": "both", "quote": "subsequently changing its name to Condor Flugdienst GmbH"}
+    ]},
+    {"id": "e10", "date": "1966", "grain": "year", "track": "work", "text": "Launched its first long-haul flights to destinations such as Thailand and Kenya.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#10", "role": "both", "quote": "During 1966 , the company launched its first long-haul flights"},
+      {"chunk_id": "/wiki/Condor_(airline)#1", "role": "both", "quote": "During 1966 , Condor launched its first long-haul flights"}
+    ]},
+    {"id": "e11", "date": "1970-07-20", "grain": "day", "track": "other", "label": "accident", "text": "Condor 737-100 collided with a Piper light aircraft near Tarragona.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#40", "role": "both", "quote": "On 20 July 1970 , a Condor Boeing 737-100 ( registered D-ABEL ) which was approaching Reus Airport"}
+    ]},
+    {"id": "e12", "date": "1971", "grain": "year", "track": "other", "label": "fleet", "text": "Became the first leisure-oriented airline in the world to adopt the Boeing 747.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#10", "role": "both", "quote": "In 1971 , Condor became the first leisure-orientated airline in the world to adopt the Boeing 747"}
+    ]},
+    {"id": "e13", "date": "1988-01-02", "grain": "day", "track": "other", "label": "accident", "text": "Flight 3782 crashed near Izmir, killing all 16 on board.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#41", "role": "both", "quote": "On 2 January 1988 at 19:18 local time , Condor Flugdienst Flight 3782 , a Boeing 737-200"}
+    ]},
+    {"id": "e14", "date": "1989", "grain": "year", "track": "work", "text": "Launched Condor Flüge Individuell, a direct-to-consumer seat sales venture.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#11", "role": "both", "quote": "During 1989 , the firm launched Condor Flüge Individuell"}
+    ]},
+    {"id": "e15", "date": "1992-06-24", "grain": "day", "track": "other", "label": "accident", "text": "767-300 hit a TV mast on El Copey after a wrong turn; no one injured.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#42", "role": "both", "quote": "On 24 June 1992 , a Condor Boeing 767-300 ( registered D-ABUZ ) took a wrong turn after departing Porlamar Airport"},
+      {"chunk_id": "/wiki/Condor_(airline)#43", "role": "description", "quote": "any of the 251 passengers and 12 crew members on board being injured"}
+    ]},
+    {"id": "e16", "date": "1995", "grain": "year", "track": "ownership_structure", "text": "Expanded shareholdings in several other tourism ventures.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#13", "role": "both", "quote": "During 1995 , Condor expanded its shareholdings in other ventures"}
+    ]},
+    {"id": "e17", "date": "1995", "grain": "year", "track": "ownership_structure", "text": "Assumed Lufthansa's 40% stake in Turkish charter airline SunExpress.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#13", "role": "both", "quote": "The airline also assumed ownership of the 40% stake held by parent airline Lufthansa in SunExpress"}
+    ], "flag": "derived_date"},
+    {"id": "e18", "date": "1996", "grain": "year", "track": "other", "label": "aircraft order", "text": "Became launch customer for the Boeing 757-300 with twelve firm orders.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#14", "role": "both", "quote": "In the latter half of that year , the company became the launch customer for the Boeing 757-300"}
+    ], "flag": "derived_date"},
+    {"id": "e19", "date": "1998", "grain": "year", "track": "ownership_structure", "text": "Established Condor Berlin GmbH, a wholly owned low-cost subsidiary.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#15", "role": "both", "quote": "During 1998 , the airline established Condor Berlin GmbH , a wholly owned subsidiary"},
+      {"chunk_id": "/wiki/Condor_(airline)#33", "role": "both", "quote": "At the beginning of 1998 , Condor founded Condor Berlin GmbH"}
+    ]},
+    {"id": "e20", "date": "1998", "grain": "year", "track": "other", "label": "aircraft order", "text": "Ordered six Airbus A320-200 aircraft.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#15", "role": "both", "quote": "That same year , Condor placed orders for six Airbus A320-200 airliners"}
+    ], "flag": "derived_date"},
+    {"id": "e21", "date": "2000", "grain": "year", "track": "ownership_structure", "text": "Thomas Cook gradually acquired Lufthansa's Condor shares.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#3", "role": "both", "quote": "From 2000 onwards , the Condor shares held by Lufthansa were gradually acquired by both Thomas Cook AG and Thomas Cook Group"},
+      {"chunk_id": "/wiki/Condor_(airline)#17", "role": "both", "quote": "From 2000 onwards , the Condor shares held by Lufthansa were gradually acquired"}
+    ]},
+    {"id": "e22", "date": "2003-03-01", "grain": "day", "track": "naming", "text": "Rebranded as Thomas Cook powered by Condor.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#17", "role": "both", "quote": "began with the rebranding as Thomas Cook powered by Condor on 1 March 2003"}
+    ]},
+    {"id": "e23", "date": "2004-01-23", "grain": "day", "track": "ownership_structure", "text": "Became part of Thomas Cook AG.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#18", "role": "both", "quote": "January 2004 , Condor became part of Thomas Cook AG and returned to the Condor brand name"}
+    ]},
+    {"id": "e24", "date": "2004-01-23", "grain": "day", "track": "naming", "text": "Returned to the Condor brand name.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#18", "role": "both", "quote": "January 2004 , Condor became part of Thomas Cook AG and returned to the Condor brand name"}
+    ]},
+    {"id": "e25", "date": "2007-09-20", "grain": "day", "track": "ownership_structure", "text": "Air Berlin announced intention to acquire Condor via share swap.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#19", "role": "both", "quote": "On 20 September 2007 , shortly after having taken over LTU International , Air Berlin announced its intention to acquire Condor"}
+    ]},
+    {"id": "e26", "date": "2008-09-11", "grain": "day", "track": "ownership_structure", "text": "Air Berlin takeover plan for Condor abandoned.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#19", "role": "both", "quote": "However , on 11 September 2008 , this plan was abandoned"}
+    ]},
+    {"id": "e27", "date": "2010-01", "grain": "month", "track": "location", "text": "Groundbreaking for a new headquarters complex in Gateway Gardens, Frankfurt.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#30", "role": "both", "quote": "In January 2010 , the airline held a groundbreaking for a new headquarters complex in Gateway Gardens"}
+    ]},
+    {"id": "e28", "date": "2012", "grain": "year", "track": "location", "text": "New headquarters building in Gateway Gardens opened.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#32", "role": "both", "quote": "The building opened in the spring of 2012"}
+    ]},
+    {"id": "e29", "date": "2012-09-17", "grain": "day", "track": "affiliation", "text": "Signed codeshare agreement with Volaris.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#21", "role": "both", "quote": "On 17 September 2012 , the airline signed a codeshare agreement with the Mexican low-cost carrier , Volaris"}
+    ]},
+    {"id": "e30", "date": "2013-02-04", "grain": "day", "track": "ownership_structure", "text": "Thomas Cook announced merging Condor into a single operating segment.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#3", "role": "both", "quote": "On 4 February 2013 , the Thomas Cook Group announced that Thomas Cook Airlines , Thomas Cook Airlines Belgium , and Condor would be merged"},
+      {"chunk_id": "/wiki/Condor_(airline)#22", "role": "both", "quote": "On 4 February 2013 , the Thomas Cook Group announced that Thomas Cook Airlines , Thomas Cook Airlines Belgium , and Condor would merge into a single operating segment"}
+    ]},
+    {"id": "e31", "date": "2013-03-12", "grain": "day", "track": "affiliation", "text": "Agreed interline partnership with WestJet.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#21", "role": "both", "quote": "On 12 March 2013 , Condor and the Canadian airline WestJet agreed on an interline partnership"}
+    ]},
+    {"id": "e32", "date": "2013-05-01", "grain": "day", "track": "ownership_structure", "text": "Condor Berlin integrated into the parent company.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#33", "role": "both", "quote": "until its integration into the parent company on 1 May 2013"}
+    ]},
+    {"id": "e33", "date": "2014-06-27", "grain": "day", "track": "work", "text": "Completed cabin refurbishment of all long-haul Boeing 767 aircraft.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#25", "role": "both", "quote": "On 27 June 2014 , Condor completed the cabin refurbishment for all of its long-haul Boeing 767 aircraft"}
+    ]},
+    {"id": "e34", "date": "2015-12-02", "grain": "day", "track": "other", "label": "accident", "text": "A321 left wing struck a light tower while being towed; technician injured.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#44", "role": "both", "quote": "On 2 December 2015 , a Condor Airbus A321-200 , registration D-AIAF , was being towed at Berlins Schönefeld Airport"}
+    ]},
+    {"id": "e35", "date": "2017", "grain": "year", "track": "other", "label": "restructuring", "text": "CEO introduced plan to cut operating costs by €40 million.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#26", "role": "both", "quote": "In early 2017 , Condors CEO Ralf Teckentrup introduced a plan to cut operating costs by €40 million"}
+    ]},
+    {"id": "e36", "date": "2019-09-23", "grain": "day", "track": "other", "label": "financing", "text": "Received bridge loan from the German government after parent collapse.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#4", "role": "both", "quote": "On 23 September 2019 , Condors parent company Thomas Cook Group collapsed ; however , Condor received a bridge loan"}
+    ]},
+    {"id": "e37", "date": "2019-09-25", "grain": "day", "track": "other", "label": "financing", "text": "Secured additional credit facilities of €380 million.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#27", "role": "both", "quote": "On 25 September 2019 , Condor secured additional credit facilities of €380 million to keep flying"}
+    ]},
+    {"id": "e38", "date": "2019-09-25", "grain": "day", "track": "other", "label": "restructuring", "text": "Frankfurt court authorised investor protection measures to allow restructuring.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#27", "role": "both", "quote": "On the same day , a Frankfurt court authorised investor protection measures to allow Condor to be restructured"}
+    ], "flag": "derived_date"},
+    {"id": "e39", "date": "2019-12-01", "grain": "day", "track": "other", "label": "restructuring", "text": "Frankfurt district opened protective-shield restructuring proceedings.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#27", "role": "both", "quote": "On 1 December 2019 , the Frankfurt district formally opened these proceedings under the Schutzschirmverfahren"}
+    ]},
+    {"id": "e40", "date": "2020-01-24", "grain": "day", "track": "ownership_structure", "text": "Polish Aviation Group announced agreement to acquire Condor.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#5", "role": "both", "quote": "On 24 January 2020 , it was announced that the Polish Aviation Group , owner of LOT Polish Airlines , would acquire Condor"},
+      {"chunk_id": "/wiki/Condor_(airline)#28", "role": "both", "quote": "On 24 January 2020 , Condor announced that PGL Polish Aviation Group would be buying Condor"}
+    ]},
+    {"id": "e41", "date": "2020-04-02", "grain": "day", "track": "ownership_structure", "text": "Sale to LOT Polish Airlines fell through.", "evidence": [
+      {"chunk_id": "/wiki/Condor_(airline)#5", "role": "both", "quote": "However , on 2 April 2020 it was announced that the sale to LOT Polish Airlines had fallen through"},
+      {"chunk_id": "/wiki/Condor_(airline)#28", "role": "both", "quote": "However , on 2 April 2020 it was announced that the sale to LOT Polish Airlines had fallen through"}
+    ]}
+  ],
+  "undated_mentions": [
+    "1990s: Condor restructured and merged with other businesses into C&N Touristik, an integrated tourism concern (late 1990s consolidation repeated)",
+    "Early 1990s: production company Südflug, a wholly owned subsidiary, integrated into Condor",
+    "Early 1990s: Condor introduced a separate, more comfortable class with Boeing 757 and 767 service",
+    "Condor Flüge Individuell later known as Condor Individuell",
+    "Headquarters moved from Kelsterbach to Frankfurt am Main, Hesse (no date given)"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "page_id": "Lev_Polugaevsky",
+  "events": [
+    {"id": "e1", "date": "1934-11-20", "grain": "day", "track": "other", "label": "birth",
+     "text": "Born in Mogilev, Soviet Union.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#0", "role": "date", "quote": "20 November 1934 – 30 August 1995"},
+       {"chunk_id": "/wiki/Lev_Polugaevsky#1", "role": "description", "quote": "Lev Polugaevsky was born in Mogilev"}
+     ]},
+    {"id": "e2", "date": "1948", "grain": "year", "track": "education",
+     "text": "Attracted attention of Alexy Ivashin, who became his first teacher.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#1", "role": "both", "quote": "In 1948 , he attracted the attention of Candidate Master Alexy Ivashin"}
+     ]},
+    {"id": "e3", "date": "1950", "grain": "year", "track": "education",
+     "text": "Began training with Rashid Nezhmetdinov.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#1", "role": "date", "quote": "between 1950 and 1953"},
+       {"chunk_id": "/wiki/Lev_Polugaevsky#2", "role": "description", "quote": "he trained with Rashid Nezhmetdinov"}
+     ]},
+    {"id": "e4", "date": "1953", "grain": "year", "track": "education",
+     "text": "Ended training with Rashid Nezhmetdinov.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#1", "role": "date", "quote": "between 1950 and 1953"},
+       {"chunk_id": "/wiki/Lev_Polugaevsky#2", "role": "description", "quote": "he trained with Rashid Nezhmetdinov"}
+     ]},
+    {"id": "e5", "date": "1962", "grain": "year", "track": "other", "label": "title",
+     "text": "Awarded the title of International Grandmaster by FIDE.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#0", "role": "both", "quote": "awarded the title of International Grandmaster by FIDE in 1962"}
+     ]},
+    {"id": "e6", "date": "1962", "grain": "year", "track": "other", "label": "tournament win",
+     "text": "Won the Mar del Plata tournament.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "won at Mar del Plata in 1962 and 1971"}
+     ]},
+    {"id": "e7", "date": "1966", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e8", "date": "1968", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e9", "date": "1969", "grain": "year", "track": "other", "label": "tournament",
+     "text": "Played in the Soviet championship; illustrative game against Tal.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#11", "role": "both", "quote": "This game from the 1969 Soviet championship against Tal"}
+     ]},
+    {"id": "e10", "date": "1970", "grain": "year", "track": "affiliation",
+     "text": "Played fourth board in the USSR vs Rest of the World match.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#2", "role": "both", "quote": "his participation in the famous USSR vs . Rest of the World match of 1970"}
+     ]},
+    {"id": "e11", "date": "1970", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e12", "date": "1971", "grain": "year", "track": "other", "label": "tournament win",
+     "text": "Won the Mar del Plata tournament.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "won at Mar del Plata in 1962 and 1971"}
+     ]},
+    {"id": "e13", "date": "1973", "grain": "year", "track": "affiliation",
+     "text": "Until 1973 worked as an engineer, not pursuing chess as a career.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#2", "role": "date", "quote": "Until 1973"},
+       {"chunk_id": "/wiki/Lev_Polugaevsky#3", "role": "description", "quote": "Polugaevsky did not pursue chess as a career , working as an engineer"}
+     ]},
+    {"id": "e14", "date": "1977", "grain": "year", "track": "work",
+     "text": "Published the book Grandmaster Preparation.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#6", "role": "both", "quote": "His 1977 book Grandmaster Preparation"}
+     ]},
+    {"id": "e15", "date": "1977", "grain": "year", "track": "other", "label": "candidates match",
+     "text": "Won Candidates quarterfinal match against Henrique Mecking.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "during the 1977 and 1980 cycles , when he defeated Henrique Mecking"}
+     ]},
+    {"id": "e16", "date": "1977", "grain": "year", "track": "other", "label": "candidates match",
+     "text": "Lost Candidates semifinal to Viktor Korchnoi.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "during the 1977 and 1980 cycles"}
+     ]},
+    {"id": "e17", "date": "1978", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; USSR finished second to Hungary.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e18", "date": "1980", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e19", "date": "1980", "grain": "year", "track": "other", "label": "candidates match",
+     "text": "Won Candidates quarterfinal match against Mikhail Tal.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "during the 1977 and 1980 cycles"}
+     ]},
+    {"id": "e20", "date": "1980", "grain": "year", "track": "other", "label": "candidates match",
+     "text": "Lost Candidates semifinal to Viktor Korchnoi.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#4", "role": "both", "quote": "during the 1977 and 1980 cycles"}
+     ]},
+    {"id": "e21", "date": "1982", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e22", "date": "1984", "grain": "year", "track": "affiliation",
+     "text": "Played for the Soviet national team at the Chess Olympiad; team won gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#5", "role": "both", "quote": "in 1966 , 1968 , 1970 , 1978 , 1980 , 1982 and 1984"}
+     ]},
+    {"id": "e23", "date": "1994-10", "grain": "month", "track": "other", "label": "tribute",
+     "text": "Sicilian Defence-themed tournament in Buenos Aires celebrating his 60th birthday.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#9", "role": "both", "quote": "took place in Buenos Aires in October 1994"}
+     ]},
+    {"id": "e24", "date": "1995", "grain": "year", "track": "work",
+     "text": "Book Sicilian Love, on the 1994 Buenos Aires tournament, published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#8", "role": "both", "quote": "the New in Chess Editorial team , 1995 , 240 p ."}
+     ]},
+    {"id": "e25", "date": "1995-08-30", "grain": "day", "track": "other", "label": "death",
+     "text": "Died of a brain tumour.",
+     "evidence": [
+       {"chunk_id": "/wiki/Lev_Polugaevsky#0", "role": "date", "quote": "20 November 1934 – 30 August 1995"},
+       {"chunk_id": "/wiki/Lev_Polugaevsky#9", "role": "both", "quote": "He died of a brain tumour in 1995"}
+     ]}
+  ],
+  "undated_mentions": [
+    "began playing chess around the age of 10",
+    "evacuated during the Second World War",
+    "received the Soviet master title as an adult, after slow development",
+    "Lev Aronin became the teacher he credited most for his development",
+    "published book Queen's Gambit: Orthodox Defence (no date)",
+    "published book Grandmaster Performance (no date)",
+    "published book Grandmaster Achievement (no date)",
+    "published book Art of Defence in Chess (no date)",
+    "published book The Sicilian Labyrinth (no date)",
+    "one of the strongest players in the world from the early 1960s until the late 1980s",
+    "by the late 1960s one of the world's strongest players"
+  ]
+}

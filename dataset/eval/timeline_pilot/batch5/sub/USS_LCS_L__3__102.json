@@ -1,0 +1,193 @@
+{
+  "page_id": "/wiki/USS_LCS(L)(3)-102",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1945-01-13",
+      "grain": "day",
+      "track": "work",
+      "text": "laid down at Commercial Iron Works, Portland, Oregon",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#3", "role": "both", "quote": "was laid down 13 January 1945 at Commercial Iron Works"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1945-02-03",
+      "grain": "day",
+      "track": "work",
+      "text": "launched",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#3", "role": "both", "quote": "The vessel was launched on 3 February 1945"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1945-02-17",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "commissioned into the US Navy",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#3", "role": "both", "quote": "The vessel was launched on 3 February 1945 and commissioned on 17 February"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1945-06-18",
+      "grain": "day",
+      "track": "other",
+      "label": "military operation",
+      "text": "began participation in Gunto operation (Battle of Okinawa)",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#6", "role": "both", "quote": "participating in the Gunto operation between 18 and 30 June 1945"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1945-06-30",
+      "grain": "day",
+      "track": "other",
+      "label": "military operation",
+      "text": "ended participation in Gunto operation (Battle of Okinawa)",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#6", "role": "both", "quote": "participating in the Gunto operation between 18 and 30 June 1945"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1945-12",
+      "grain": "month",
+      "track": "location",
+      "text": "moved to China after occupation duty in Japan",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "both", "quote": "until December 1945 when it was moved to China"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1946-04",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "decommissioned as surplus",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "both", "quote": "deemed surplus and decommissioned in April 1946"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#0", "role": "both", "quote": "before being decommissioned in 1946"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1949-02-28",
+      "grain": "day",
+      "track": "naming",
+      "text": "redesignated Landing Ship Support Large, USS LSSL-102",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "both", "quote": "Redesignated Landing Ship Support Large , USS LSSL-102 , on 28 February 1949"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1953-04-30",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "transferred to Japan",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "both", "quote": "she was soon transferred to Japan , 30 April 1953"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#0", "role": "both", "quote": "and then transferred to Japan in mid-1953"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e10",
+      "date": "1953-04-30",
+      "grain": "day",
+      "track": "naming",
+      "text": "renamed JDS Himawari in Japanese service",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "both", "quote": "30 April 1953 , and renamed JDS Himawari"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e11",
+      "date": "1966",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "transferred to Thailand",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#0", "role": "date", "quote": "remained in Japan until mid-1966 when she was"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#1", "role": "description", "quote": "transferred to Thailand , becoming the HTMS Nakha"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e12",
+      "date": "1966",
+      "grain": "year",
+      "track": "naming",
+      "text": "renamed HTMS Nakha (LSSL-751) in Thai service",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#0", "role": "date", "quote": "remained in Japan until mid-1966 when she was"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#1", "role": "description", "quote": "transferred to Thailand , becoming the HTMS Nakha"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#8", "role": "description", "quote": "re-transferred to Thailand and renamed HTMS Nakha"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e13",
+      "date": "1966-04-18",
+      "grain": "day",
+      "track": "location",
+      "text": "brought back to the United States from Japan",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#7", "role": "date", "quote": "where she served until 18 April 1966 when she"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#8", "role": "description", "quote": "was brought to the US , re-transferred to Thailand"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#0", "role": "date", "quote": "remained in Japan until mid-1966 when she was"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e14",
+      "date": "2007-05-22",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "custody transferred from Royal Thai Navy to museum association",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#9", "role": "both", "quote": "A transfer ceremony was held on May 22 , 2007"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2007-09",
+      "grain": "month",
+      "track": "location",
+      "text": "shipped from Thailand back to the US to become museum ship",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#10", "role": "both", "quote": "In September 2007 , she was loaded aboard a ship for transit from Thailand back to the United States"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#1", "role": "both", "quote": "In 2007 , after being retired , the ship was returned to the United States"},
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#8", "role": "both", "quote": "She stayed in Thailand until 2007"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2015",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage listing",
+      "text": "listed on the National Register of Historic Places",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_LCS(L)(3)-102#11", "role": "both", "quote": "The 102 was listed on the National Register of Historic Places in 2015"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "completed near the end of the war",
+    "served in occupation forces in Japan from the end of the war",
+    "assigned to Asiatic-Pacific Theater under Lt. Richard L. Jones after commissioning",
+    "mine removal in the Philippines, Marshall Islands, Mariana Islands and rivers in China",
+    "earned one battle star for World War II service",
+    "laid up in Pacific Reserve Fleet, Astoria, Oregon after decommissioning",
+    "Mk7 rocket launchers removed after decommissioning"
+  ]
+}

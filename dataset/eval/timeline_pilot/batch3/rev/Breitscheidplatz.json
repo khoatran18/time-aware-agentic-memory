@@ -1,0 +1,379 @@
+{
+ "page_id": "/wiki/Breitscheidplatz",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1889",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square given the name Gutenbergplatz after Johannes Gutenberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#2",
+     "role": "both",
+     "quote": "In 1889 the square was given the name Gutenbergplatz after Johannes Gutenberg"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1892",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square renamed Auguste-Viktoria-Platz after the German Empress.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#2",
+     "role": "both",
+     "quote": "in 1892 it was renamed Auguste-Viktoria-Platz in honour of the German Empress Augusta Viktoria of Schleswig-Holstein"
+    }
+   ]
+  },
+  {
+   "date": "1895",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Kaiser Wilhelm Memorial Church consecrated",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#3",
+     "role": "both",
+     "quote": "It was consecrated in 1895"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "1896",
+   "grain": "year",
+   "track": "work",
+   "text": "Ausstellungshallen am Zoologischen Garten exhibition space completed on the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#4",
+     "role": "both",
+     "quote": "an exhibition and event space completed in 1896"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1899",
+   "grain": "year",
+   "track": "work",
+   "text": "Building on the site of today's Europa-Center completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#4",
+     "role": "both",
+     "quote": "the 1899 building on the site of todays Europa-Center"
+    }
+   ]
+  },
+  {
+   "date": "1916",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Building on Europa-Center site began housing the Romanisches Café (after 1916)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#4",
+     "role": "both",
+     "quote": "which after 1916 housed the Romanisches Café"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e6"
+  },
+  {
+   "id": "e7",
+   "date": "1925",
+   "grain": "year",
+   "track": "work",
+   "text": "Ufa-Palast am Zoo cinema opened in the square's exhibition space.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#5",
+     "role": "both",
+     "quote": "In 1925 the Ufa-Palast am Zoo opened in one of these spaces"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1926",
+   "grain": "year",
+   "track": "work",
+   "text": "Gloria-Palast cinema opened on the western side of the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#5",
+     "role": "both",
+     "quote": "followed in 1926 by the Gloria-Palast on the western side"
+    }
+   ]
+  },
+  {
+   "date": "1928",
+   "grain": "year",
+   "track": "other",
+   "label": "speech",
+   "text": "Goebbels made a speech attacking the establishments around the church (by 1928)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#6",
+     "role": "both",
+     "quote": "By 1928 , when Joseph Goebbels made a speech attacking the commercial establishments"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e9"
+  },
+  {
+   "date": "1930-04-01",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "The Blue Angel premiered at the Gloria-Palast",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#5",
+     "role": "both",
+     "quote": "where The Blue Angel premièred on 1 April 1930"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "id": "e11",
+   "date": "1943",
+   "grain": "year",
+   "track": "other",
+   "label": "bombing",
+   "text": "Square heavily bombed and most of the area destroyed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#7",
+     "role": "both",
+     "quote": "In 1943 , the square was heavily bombed and most of the area was destroyed"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1947",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square given the new name Breitscheidplatz after Rudolf Breitscheid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#7",
+     "role": "both",
+     "quote": "In 1947 the square was given the new name Breitscheidplatz after Rudolf Breitscheid"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1956",
+   "grain": "year",
+   "track": "work",
+   "text": "Zoo Palast cinema erected, replacing the Ufa-Palast.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#10",
+     "role": "both",
+     "quote": "the erection of the Zoo Palast cinema replacing the Ufa-Palast in 1956"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1957",
+   "grain": "year",
+   "track": "work",
+   "text": "Bikini-Haus on the northern side of the square finished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#10",
+     "role": "both",
+     "quote": "the Bikini-Haus on the northern side finished in 1957"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1960",
+   "grain": "year",
+   "track": "work",
+   "text": "Schimmelpfeng-Haus built on the site of the old Gloria-Palast.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#10",
+     "role": "both",
+     "quote": "the Schimmelpfeng-Haus built in 1960"
+    }
+   ]
+  },
+  {
+   "date": "1961",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "New Gedächtniskirche consecrated",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#9",
+     "role": "date",
+     "quote": "was consecrated in 1961"
+    },
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#8",
+     "role": "description",
+     "quote": "The new Gedächtniskirche"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "id": "e17",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Europa-Center shopping mall opened by Mayor Willy Brandt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#11",
+     "role": "both",
+     "quote": "In 1965 , the Europa-Center shopping mall was opened by Mayor Willy Brandt"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "pedestrianisation",
+   "text": "Automobile tunnel on Budapester Straße closed; pedestrian zone extended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "In 2006 , the automobile tunnel on Budapester Straße in front of the Bikini-Haus was closed"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "demolition",
+   "text": "Demolition of Schimmelpfeng-Haus began to build the Zoofenster highrise.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "The destruction of the Schimmelpfeng-Haus began in 2009 to build the Zoofenster highrise"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Bikinihaus refurbishment as shopping mall and hotel began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "From 2010 to 2014 the Bikinihaus was refurbished as a shopping mall and a hotel"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Redevelopment of the Zoo Palast as a multi-screen cinema began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "From 2010 to 2014 the Bikinihaus was refurbished as a shopping mall and a hotel , including the redevelopment of the adjacent Zoo Palast"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Bikinihaus refurbishment as shopping mall and hotel ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "From 2010 to 2014 the Bikinihaus was refurbished as a shopping mall and a hotel"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Redevelopment of the Zoo Palast as a multi-screen cinema ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#13",
+     "role": "both",
+     "quote": "From 2010 to 2014 the Bikinihaus was refurbished as a shopping mall and a hotel , including the redevelopment of the adjacent Zoo Palast"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2016-12-19",
+   "grain": "day",
+   "track": "other",
+   "label": "attack",
+   "text": "Truck-ramming attack on the Christmas market kills twelve, injures 48.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#15",
+     "role": "both",
+     "quote": "On 19 December 2016 , at about 20:00 local time , a truck-ramming attack"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "security",
+   "text": "Square and surroundings fortified against terrorist attacks before Christmas market.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Breitscheidplatz#15",
+     "role": "both",
+     "quote": "In preparation for the Christmas market 2018 , the square and its surrounding were fortified"
+    }
+   ],
+   "flag": "derived_date"
+  }
+ ],
+ "undated_mentions": [
+  "Square laid out (no date given; shortly before Wilhelm II chose the church site)",
+  "Further Neo-Romanesque development of the square until World War I",
+  "After World War I: square became a meeting place for bohemians and intellectuals",
+  "After World War II: massive reconstruction; became quasi-symbolic centre of West Berlin"
+ ]
+}

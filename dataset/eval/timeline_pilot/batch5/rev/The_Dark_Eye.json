@@ -1,0 +1,430 @@
+{
+ "page_id": "The_Dark_Eye",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "Game created by Ulrich Kiesow and launched by Schmidt and Droemer Knaur; German first edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#0",
+     "role": "both",
+     "quote": "launched by Schmidt Spiel & Freizeit GmbH and Droemer Knaur Verlag in 1984"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#4",
+     "role": "date",
+     "quote": "The German first edition ( 1984 ) was translated"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "Advanced rules published in the Extended adventure book.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#4",
+     "role": "both",
+     "quote": "Advanced rules were published in 1985 in the book"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "First-edition advanced rules: Sword Masters Set I published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#20",
+     "role": "both",
+     "quote": "were published in 1988 and 1989"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Second edition of the game published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#23",
+     "role": "both",
+     "quote": "The second edition was published in 1988"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1989",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Droemer Knaur dropped the project as publisher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#1",
+     "role": "both",
+     "quote": "Droemer Knaur dropped the project in early 1989"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e6",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Sword Masters Feast set (TDE Professional II) published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#20",
+     "role": "both",
+     "quote": "were published in 1988 and 1989"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Myranor continent first described for the game setting.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#35",
+     "role": "both",
+     "quote": "It was first described in 1990 and released as a separate RPG in 2000"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Third edition published; used to power Realms of Arkania computer games.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "The third edition ( 1993 ) was used"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "First Realms of Arkania computer game released by Attic/Sir-Tech.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "( 1993 ) , Attic/Sir-Tech )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Second Realms of Arkania computer game released by Attic/Sir-Tech.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "( 1994 , Attic/Sir-Tech )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1996-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Realms of Arkania novel The Charlatan published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "RoA : The Charlatan ( January 1996 , )"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#50",
+     "role": "both",
+     "quote": "Realms of Arkania : The Charlatan by Ulrich Kiesow , January 1996"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1996-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Realms of Arkania novel The Lioness published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "RoA : The Lioness ( March 1996 , )"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#50",
+     "role": "both",
+     "quote": "Realms of Arkania : The Lioness by Ina Kramer , March 1996"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1996-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Realms of Arkania novel The Sacrifice published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "RoA : The Sacrifice ( September 1996 , )"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#50",
+     "role": "both",
+     "quote": "Realms of Arkania : The Sacrifice by Ina Kramer , September 1996"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1997",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Publishing continued by Fantasy Productions after the publisher's bankruptcy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#1",
+     "role": "both",
+     "quote": "after the bankruptcy of the Schmidt Spiel & Freizeit GmbH in 1997"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Third Realms of Arkania computer game released by Attic/Sir-Tech.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#25",
+     "role": "both",
+     "quote": "( 1997 , Attic/Sir-Tech )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Myranor released as a separate RPG.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#35",
+     "role": "both",
+     "quote": "released as a separate RPG in 2000"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Basic rules of the fourth edition published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#1",
+     "role": "description",
+     "quote": "The basic rules of the fourth"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#2",
+     "role": "both",
+     "quote": "edition of The Dark Eye were published in 2001"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2003-10",
+   "grain": "month",
+   "track": "work",
+   "text": "Fourth edition released in English for the first time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#2",
+     "role": "both",
+     "quote": "to be released in English ( in October 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "Three fourth-edition books published in English.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#29",
+     "role": "both",
+     "quote": "Three books are available in English ( all published 2006 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2006-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Fan-revised Myranor rules released as a hardcover book.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#38",
+     "role": "both",
+     "quote": "These new rules were released as a hardcover book in January 2006"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2007-01-20",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Ulisses Spiele announced it would handle future Myranor publications.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#38",
+     "role": "both",
+     "quote": "On 20 January 2007 Ulisses Spiele announced that they would be handling future publications related to Myranor"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2007-04",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Ulisses Spiele assumed the pen-and-paper licence from Fantasy Productions.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#3",
+     "role": "both",
+     "quote": "In April 2007 , Ulisses Spiele assumed the TDE pen-and-paper licence"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Ulisses started development of the fifth edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#30",
+     "role": "both",
+     "quote": "Ulisses started development of the fifth edition in the beginning of 2014"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e24",
+   "date": "2014-05-10",
+   "grain": "day",
+   "track": "work",
+   "text": "Beta version of the fifth edition released in German, freely downloadable.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#30",
+     "role": "both",
+     "quote": "The beta version ( in German ) was released 10 May 2014"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2015-07-31",
+   "grain": "day",
+   "track": "work",
+   "flag": "source_inconsistent",
+   "text": "Final German version of the fifth edition available.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#30",
+     "role": "both",
+     "quote": "The final German version is available as of 31 July 2015"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2015-08",
+   "grain": "month",
+   "track": "work",
+   "flag": "source_inconsistent",
+   "text": "Fifth edition of the game released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#2",
+     "role": "both",
+     "quote": "The fifth edition of the game was released in August 2015"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#29",
+     "role": "date",
+     "quote": "Fifth edition ( 2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2016-11",
+   "grain": "month",
+   "track": "work",
+   "text": "English translation of the fifth edition released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#2",
+     "role": "both",
+     "quote": "with an English translation released in November 2016"
+    },
+    {
+     "chunk_id": "/wiki/The_Dark_Eye#30",
+     "role": "both",
+     "quote": "The English translation was released in November 2016"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "First edition translated into Dutch, French and Italian (undated)",
+  "Fourth edition translated into English (undated; books listed as 2006)",
+  "Realms of Arkania name changed to The Dark Eye after trademark dispute (undated)",
+  "Fantasy Productions unable to obtain the Realms of Arkania trademark (undated)",
+  "Translated as Arkania during the 1990s before renaming (decade only)",
+  "Tharun setting abandoned (undated)"
+ ]
+}

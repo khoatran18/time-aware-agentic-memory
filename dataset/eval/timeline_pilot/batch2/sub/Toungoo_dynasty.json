@@ -1,0 +1,36 @@
+{
+  "page_id": "/wiki/Toungoo_dynasty",
+  "events": [
+    {"id": "e1", "date": "1485", "grain": "year", "track": "other", "label": "dynasty_start", "text": "First Taungoo dynasty period begins, per the 1485–1599 range.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#5", "role": "both", "quote": "First Taungoo Dynasty ( 1485–1599 )"}], "flag": "source_inconsistent"},
+    {"id": "e2", "date": "1510", "grain": "year", "track": "other", "label": "founding", "text": "Mingyi Nyo founds the First Taungoo dynasty at Taungoo.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#5", "role": "both", "quote": "towards the end of the Ava Kingdom in 1510"}], "flag": "source_inconsistent"},
+    {"id": "e3", "date": "1544", "grain": "year", "track": "role", "text": "Tabinshwehti crowned king of all Burma at Bagan.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#6", "role": "both", "quote": "In 1544 , Tabinshwehti was crowned as king of all Burma at the ancient capital of Bagan"}]},
+    {"id": "e4", "date": "1547", "grain": "year", "track": "other", "label": "war", "text": "Tabinshwehti defeated in the Burmese–Siamese War, which begins.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#8", "role": "both", "quote": "defeated in the Burmese–Siamese War ( 1547–49 )"}]},
+    {"id": "e5", "date": "1549", "grain": "year", "track": "other", "label": "war", "text": "Burmese–Siamese War ends, per the 1547–49 range.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#8", "role": "both", "quote": "defeated in the Burmese–Siamese War ( 1547–49 )"}]},
+    {"id": "e6", "date": "1550", "grain": "year", "track": "role", "text": "Tabinshwehti assassinated, ending his reign.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#9", "role": "both", "quote": "Tabinshwehti was assassinated in 1550"}]},
+    {"id": "e7", "date": "1550", "grain": "year", "track": "role", "text": "Bayinnaung succeeds Tabinshwehti to the throne.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#10", "role": "both", "quote": "Bayinnaung , succeeded to the throne in 1550"}]},
+    {"id": "e8", "date": "1560", "grain": "year", "track": "other", "label": "campaign", "text": "Bayinnaung invades Manipur.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#10", "role": "both", "quote": "Manipur ( 1560 )"}]},
+    {"id": "e9", "date": "1564", "grain": "year", "track": "other", "label": "campaign", "text": "Bayinnaung invades Ayutthaya.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#10", "role": "both", "quote": "Ayutthaya ( 1564 )"}]},
+    {"id": "e10", "date": "1581", "grain": "year", "track": "role", "text": "Bayinnaung dies, ending his reign.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#10", "role": "both", "quote": "when he died in 1581"}, {"chunk_id": "/wiki/Toungoo_dynasty#1", "role": "both", "quote": "following Bayinnaungs death in 1581"}]},
+    {"id": "e11", "date": "1597", "grain": "year", "track": "other", "label": "founding", "text": "Toungoo rulers found a second, Restored dynasty at Ava.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "founded a second dynasty at Ava , the Nyaungyan or Restored Taungoo Dynasty ( 1597–1752 )"}]},
+    {"id": "e12", "date": "1599", "grain": "year", "track": "other", "label": "dynasty_end", "text": "First Taungoo dynasty ends, per the 1485–1599 range.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#5", "role": "both", "quote": "First Taungoo Dynasty ( 1485–1599 )"}]},
+    {"id": "e13", "date": "1605", "grain": "year", "track": "role", "text": "Anaukpetlun, Bayinnaung's grandson, begins his reign.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "Anaukpetlun ( 1605–1628 )"}]},
+    {"id": "e14", "date": "1613", "grain": "year", "track": "other", "label": "military", "text": "Anaukpetlun reunites Burma and defeats Portuguese attempts.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "once again reunited Burma in 1613"}]},
+    {"id": "e15", "date": "1628", "grain": "year", "track": "role", "text": "Anaukpetlun's reign ends, per the 1605–1628 range.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "Anaukpetlun ( 1605–1628 )"}]},
+    {"id": "e16", "date": "1629", "grain": "year", "track": "role", "text": "Thalun succeeds as king and rebuilds the war-torn country.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "Thalun ( 1629–1648 )"}]},
+    {"id": "e17", "date": "1635", "grain": "year", "track": "other", "label": "reform", "text": "Burmese crown begins comprehensive censuses, consolidating provincial manpower and taxes.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#15", "role": "both", "quote": "Beginning in 1635 , the Burmese crown began to conduct comprehensive censuses"}]},
+    {"id": "e18", "date": "1648", "grain": "year", "track": "role", "text": "Thalun's reign ends, per the 1629–1648 range.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#12", "role": "both", "quote": "Thalun ( 1629–1648 )"}]},
+    {"id": "e19", "date": "1752", "grain": "year", "track": "other", "label": "dynasty_end", "text": "Hanthawaddy armies capture Inwa, ending the Toungoo dynasty.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#0", "role": "both", "quote": "from the mid-16th century to 1752"}, {"chunk_id": "/wiki/Toungoo_dynasty#4", "role": "both", "quote": "captured Inwa in 1752 and ended the 266-year-old Toungoo dynasty"}, {"chunk_id": "/wiki/Toungoo_dynasty#13", "role": "both", "quote": "which fell in 1752"}]},
+    {"id": "e20", "date": "1752", "grain": "year", "track": "role", "text": "Mahadhammayaza dies, ending the dynasty's survival.", "evidence": [{"chunk_id": "/wiki/Toungoo_dynasty#13", "role": "both", "quote": "until the death of Mahadhammayaza in 1752"}]}
+  ],
+  "undated_mentions": [
+    "mid-16th century: Toungoo dynasty begins ruling Burma",
+    "1720s: Meitei raids begin on the kingdom",
+    "1730s: Meitei raids intensify, reaching central Burma",
+    "Tabinshwehti moves capital to Bago for commercial strategic position",
+    "Tabinshwehti unifies most of Burma",
+    "Tabinshwehti's forces defeated at Arakan",
+    "Tabinshwehti crushes the Hanthawaddy capital of Bago",
+    "Bago rebels against Inwa, encouraged by the French",
+    "Restored Toungoo kings based at Ava (Inwa)"
+  ]
+}
