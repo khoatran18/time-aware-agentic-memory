@@ -1,0 +1,2436 @@
+{
+ "page_id": "Atl_tico_Madrid",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1903",
+   "grain": "year",
+   "track": "role",
+   "text": "Enrique Allende served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "1 . Enrique Allende ( 1903 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1903",
+   "grain": "year",
+   "track": "role",
+   "text": "Eduardo de Acha became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "2 . Eduardo de Acha ( 1903–07 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1903-04-26",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Club founded as Athletic Club Sucursal de Madrid by Basque students",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#5",
+     "role": "both",
+     "quote": "The club was founded on 26 April 1903 as Athletic Club Sucursal de Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1904",
+   "grain": "year",
+   "track": "other",
+   "label": "members joined",
+   "text": "Dissident Real Madrid members joined the club",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#5",
+     "role": "both",
+     "quote": "In 1904 , they were joined by dissident members of Real Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "Eduardo de Acha's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "2 . Eduardo de Acha ( 1903–07 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "Ricardo de Gondra became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "3 . Ricardo de Gondra ( 1907–09 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1909",
+   "grain": "year",
+   "track": "role",
+   "text": "Ricardo de Gondra's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "3 . Ricardo de Gondra ( 1907–09 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1909",
+   "grain": "year",
+   "track": "role",
+   "text": "Ramón de Cárdenas became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "4 . Ramón de Cárdenas ( 1909–12 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1909",
+   "grain": "year",
+   "track": "other",
+   "label": "kit",
+   "text": "Juanito Elorduy bought red and white shirts in England",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#7",
+     "role": "both",
+     "quote": "In late 1909 , Juanito Elorduy , a former player and member of the board of Athletic Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1911",
+   "grain": "year",
+   "track": "other",
+   "label": "kit",
+   "text": "Club adopted red and white striped shirts as traditional colours",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#5",
+     "role": "both",
+     "quote": "but by 1911 , both the Bilbao and Madrid teams were playing in their"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#2",
+     "role": "both",
+     "quote": "This combination has been used since 1911"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1912",
+   "grain": "year",
+   "track": "role",
+   "text": "Ramón de Cárdenas's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "4 . Ramón de Cárdenas ( 1909–12 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1912",
+   "grain": "year",
+   "track": "role",
+   "text": "Julián Ruete became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "5 . Julián Ruete ( 1912–19 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1919",
+   "grain": "year",
+   "track": "role",
+   "text": "Julián Ruete's first presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "5 . Julián Ruete ( 1912–19 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1919",
+   "grain": "year",
+   "track": "role",
+   "text": "Álvaro de Aguilar became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "6 . Álvaro de Aguilar ( 1919–20 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1920",
+   "grain": "year",
+   "track": "role",
+   "text": "Álvaro de Aguilar's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "6 . Álvaro de Aguilar ( 1919–20 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1920",
+   "grain": "year",
+   "track": "role",
+   "text": "Julián Ruete became club president again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "7 . Julián Ruete ( 1920–23 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1921",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Club became independent of parent club Athletic Bilbao",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#9",
+     "role": "both",
+     "quote": "In 1921 , Athletic Madrid became independent of parent-club Athletic Bilbao"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1921",
+   "grain": "year",
+   "track": "location",
+   "text": "Club moved into Estadio Metropolitano de Madrid",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#9",
+     "role": "both",
+     "quote": "In 1921 , Athletic Madrid became independent of parent-club Athletic Bilbao"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan de Estefanía became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "8 . Juan de Estefanía ( 1923–26 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1923",
+   "grain": "year",
+   "track": "location",
+   "text": "Club moved to Metropolitano after its completion",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#77",
+     "role": "both",
+     "quote": "After the completion of the Estadio Metropolitano de Madrid in 1923 , the club moved there"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Julián Ruete's second presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "7 . Julián Ruete ( 1920–23 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1926",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan de Estefanía's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "8 . Juan de Estefanía ( 1923–26 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1926",
+   "grain": "year",
+   "track": "role",
+   "text": "Luciano Urquijo became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "9 . Luciano Urquijo ( 1926–31 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1928",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Club invited to join Primera División of inaugural La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#11",
+     "role": "both",
+     "quote": "in 1928 they were invited to join the Primera División"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1929",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Debut in inaugural La Liga campaign",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#11",
+     "role": "both",
+     "quote": "in 1928 they were invited to join the Primera División of the inaugural La Liga played the following year"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1931",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated to Segunda División after two seasons",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#11",
+     "role": "both",
+     "quote": "after two seasons they were relegated to Segunda División"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1931",
+   "grain": "year",
+   "track": "role",
+   "text": "Luciano Urquijo's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "9 . Luciano Urquijo ( 1926–31 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1931",
+   "grain": "year",
+   "track": "role",
+   "text": "Rafael González became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "10 . Rafael González ( 1931–35 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1934",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Club briefly returned to La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#11",
+     "role": "both",
+     "quote": "They briefly returned to La Liga in 1934"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "Rafael González's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "10 . Rafael González ( 1931–35 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "José L. del Valle became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "11 . José L . del Valle ( 1935–36 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "José L. del Valle's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#70",
+     "role": "both",
+     "quote": "11 . José L . del Valle ( 1935–36 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "José María Fernández became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#71",
+     "role": "both",
+     "quote": "12 . José María Fernández ( 1936–39 )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1936",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Club relegated to Segunda División again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#12",
+     "role": "date",
+     "quote": "1936 after Josep Samitier took over in mid-season from Pentland"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#11",
+     "role": "description",
+     "quote": "but were relegated again in"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "Josep Samitier took over as coach mid-season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#12",
+     "role": "both",
+     "quote": "1936 after Josep Samitier took over in mid-season from Pentland"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "Francisco Vives served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "13 . Francisco Vives ( 1939 )"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "José María Fernández's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#71",
+     "role": "both",
+     "quote": "12 . José María Fernández ( 1936–39 )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Navarro became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "14 . Luis Navarro ( 1939–41 )"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1939",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Predecessor Aviación Nacional founded by Spanish Air Force members",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#13",
+     "role": "both",
+     "quote": "Aviación Nacional had been founded in 1939 by members of the Spanish Air Force"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1939",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Merged with Aviación Nacional to form Athletic Aviación de Madrid",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#13",
+     "role": "both",
+     "quote": "By 1939 , when La Liga had resumed , Athletic had merged with Aviación Nacional of Zaragoza"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1939",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Germán Gómez signed from Racing de Santander",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#14",
+     "role": "both",
+     "quote": "who was signed from Racing de Santander in 1939"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1939",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won first La Liga title (1939–40 season)",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#13",
+     "role": "both",
+     "quote": "The team were awarded a place in the 1939–40 La Liga campaign"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#14",
+     "role": "description",
+     "quote": "the club subsequently won their first La Liga title that season"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1941",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Navarro's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "14 . Luis Navarro ( 1939–41 )"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1941",
+   "grain": "year",
+   "track": "role",
+   "text": "Manuel Gallego became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "15 . Manuel Gallego ( 1941–45 )"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1941",
+   "grain": "year",
+   "track": "naming",
+   "text": "Club renamed Atlético Aviación de Madrid under Franco decree",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#15",
+     "role": "both",
+     "quote": "In 1941 , a decree issued by Francisco Franco banned teams from using foreign names"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1941",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Retained La Liga title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#14",
+     "role": "both",
+     "quote": "retained the title in 1941"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1945",
+   "grain": "year",
+   "track": "role",
+   "text": "Manuel Gallego's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "15 . Manuel Gallego ( 1941–45 )"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1946",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan Touzón became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "16 . Juan Touzón ( 1946–47 )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1947",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan Touzón's presidency ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "16 . Juan Touzón ( 1946–47 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e50",
+   "date": "1947",
+   "grain": "year",
+   "track": "role",
+   "text": "Cesáreo Galindez became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "17 . Cesáreo Galindez ( 1947–52 )"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1947",
+   "grain": "year",
+   "track": "naming",
+   "text": "Club dropped military name, became Club Atlético de Madrid",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#15",
+     "role": "both",
+     "quote": "In 1947 , the club decided to drop the military association from its name"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga under Helenio Herrera",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#16",
+     "role": "both",
+     "quote": "Atlético won La Liga again in 1950 and 1951"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga under Helenio Herrera",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#16",
+     "role": "both",
+     "quote": "Atlético won La Liga again in 1950 and 1951"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Cesáreo Galindez's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "17 . Cesáreo Galindez ( 1947–52 )"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Marqués de la Florida became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "18 . Marqués de la Florida ( 1952–55 )"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1953",
+   "grain": "year",
+   "track": "role",
+   "text": "Helenio Herrera left as coach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#16",
+     "role": "both",
+     "quote": "With the departure of Herrera in 1953"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Marqués de la Florida's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "18 . Marqués de la Florida ( 1952–55 )"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Jesús Suevos served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "19 . Jesús Suevos ( 1955 )"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1957",
+   "grain": "year",
+   "track": "role",
+   "text": "Ferdinand Daučík took charge as coach",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#17",
+     "role": "both",
+     "quote": "The 1957–58 season saw Ferdinand Daučík take charge of Atlético"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "European Cup debut",
+   "text": "First European Cup participation (1958–59 season)",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#17",
+     "role": "both",
+     "quote": "Atlético qualifying for the 1958–59 European Cup"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey, beating Real Madrid in final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#19",
+     "role": "both",
+     "quote": "defeated Real in two successive Copa del Rey finals in 1960 and 1961"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1961",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey, beating Real Madrid in final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#19",
+     "role": "both",
+     "quote": "defeated Real in two successive Copa del Rey finals in 1960 and 1961"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1962",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won European Cup Winners' Cup",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#19",
+     "role": "both",
+     "quote": "In 1962 , they won the European Cup Winners Cup"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1963",
+   "grain": "year",
+   "track": "role",
+   "text": "Javier Barroso served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "20 . Javier Barroso ( 1963–64 )"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Javier Barroso's presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "20 . Javier Barroso ( 1963–64 )"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Vicente Calderón became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "21 . Vicente Calderón ( 1964–80 )"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning the Copa del Rey on three occasions in 1965 , 1972 and 1976"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "first win",
+   "text": "First team to beat Real at Bernabéu in eight years",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "In 1965 , when they finished as La Liga runners-up to Real"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#22",
+     "role": "description",
+     "quote": "Atlético became the first team to beat Real at the Bernabéu in eight years"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "1966",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning La Liga titles in 1966 , 1970 , 1973 and 1977"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "1966",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to new Estadio Vicente Calderón",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#9",
+     "role": "both",
+     "quote": "The Metropolitano was used until 1966 , when they moved to the new Estadio Vicente Calderón"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "1970",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning La Liga titles in 1966 , 1970 , 1973 and 1977"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning the Copa del Rey on three occasions in 1965 , 1972 and 1976"
+    }
+   ]
+  },
+  {
+   "id": "e73",
+   "date": "1973",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning La Liga titles in 1966 , 1970 , 1973 and 1977"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés became coach (first spell)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "from 1974 to 1980"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Intercontinental Cup against Independiente",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "His first success came quickly as Bayern Munich had refused to participate in the Intercontinental Cup"
+    }
+   ]
+  },
+  {
+   "id": "e76",
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning the Copa del Rey on three occasions in 1965 , 1972 and 1976"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#28",
+     "role": "both",
+     "quote": "further successes in the Copa del Rey in 1976 and La Liga in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#21",
+     "role": "both",
+     "quote": "winning La Liga titles in 1966 , 1970 , 1973 and 1977"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#28",
+     "role": "both",
+     "quote": "further successes in the Copa del Rey in 1976 and La Liga in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés's first spell as coach ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "from 1974 to 1980"
+    }
+   ]
+  },
+  {
+   "id": "e79",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Vicente Calderón's first presidency ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "21 . Vicente Calderón ( 1964–80 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e80",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Ricardo Irezábal served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "22 . Ricardo Irezábal ( 1980 )"
+    }
+   ]
+  },
+  {
+   "id": "e81",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Alfonso Cabeza became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "23 . Alfonso Cabeza ( 1980–82 )"
+    }
+   ]
+  },
+  {
+   "id": "e82",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés returned as coach (second spell)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "from 1982 to 1987"
+    }
+   ]
+  },
+  {
+   "id": "e83",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Alfonso Cabeza's presidency ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "23 . Alfonso Cabeza ( 1980–82 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e84",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Antonio del Hoyo served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#72",
+     "role": "both",
+     "quote": "24 . Antonio del Hoyo ( 1982 )"
+    }
+   ]
+  },
+  {
+   "id": "e85",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Agustín Cotorruelo served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#73",
+     "role": "both",
+     "quote": "25 . Agustín Cotorruelo ( 1982 )"
+    }
+   ]
+  },
+  {
+   "id": "e86",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Vicente Calderón became club president again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#74",
+     "role": "both",
+     "quote": "26 . Vicente Calderón ( 1982–87 )"
+    }
+   ]
+  },
+  {
+   "id": "e87",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey under Aragonés",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#29",
+     "role": "both",
+     "quote": "a winners medal in the Copa del Rey , both in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e88",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Supercopa de España",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#30",
+     "role": "both",
+     "quote": "to success in the Supercopa de España in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e89",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés's second spell as coach ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "from 1982 to 1987"
+    }
+   ]
+  },
+  {
+   "id": "e90",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Vicente Calderón's second presidency ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#74",
+     "role": "both",
+     "quote": "26 . Vicente Calderón ( 1982–87 )"
+    }
+   ]
+  },
+  {
+   "id": "e91",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Francisco Castedo served as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#74",
+     "role": "both",
+     "quote": "27 . Francisco Castedo ( 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e92",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Jesús Gil became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#31",
+     "role": "both",
+     "quote": "In 1987 , controversial politician and businessman Jesús Gil became club president"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#74",
+     "role": "both",
+     "quote": "28 . Jesús Gil ( 1987–2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e93",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés began third spell as coach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "once again from 1991 until 1993"
+    }
+   ]
+  },
+  {
+   "id": "e94",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#32",
+     "role": "both",
+     "quote": "two consecutive Copa del Rey trophies in 1991 and 1992"
+    }
+   ]
+  },
+  {
+   "id": "e95",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#32",
+     "role": "both",
+     "quote": "two consecutive Copa del Rey trophies in 1991 and 1992"
+    }
+   ]
+  },
+  {
+   "id": "e96",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "academy closure",
+   "text": "Jesús Gil closed the youth academy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#34",
+     "role": "both",
+     "quote": "Jesús Gil also closed down Atléticos youth academy in 1992"
+    }
+   ]
+  },
+  {
+   "id": "e97",
+   "date": "1992",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Club converted into Sociedad Anónima Deportiva",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#34",
+     "role": "both",
+     "quote": "Jesús Gil also closed down Atléticos youth academy in 1992"
+    }
+   ]
+  },
+  {
+   "id": "e98",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés's third spell as coach ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "once again from 1991 until 1993"
+    }
+   ]
+  },
+  {
+   "id": "e99",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Radomir Antić appointed head coach",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#35",
+     "role": "both",
+     "quote": "in the following 1995–96 season , newly arrived head coach Radomir Antić"
+    }
+   ]
+  },
+  {
+   "id": "e100",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga, completing league and cup double",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#1",
+     "role": "both",
+     "quote": "including a league and cup double in 1996"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#36",
+     "role": "description",
+     "quote": "much sought-after league title as Atlético won the La Liga/Copa del Rey double"
+    }
+   ]
+  },
+  {
+   "id": "e101",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey, completing league and cup double",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#1",
+     "role": "both",
+     "quote": "including a league and cup double in 1996"
+    }
+   ]
+  },
+  {
+   "id": "e102",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "first Champions League",
+   "text": "First UEFA Champions League participation (1996–97 season)",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#37",
+     "role": "both",
+     "quote": "The next season , 1996–97 , saw the club take part in the UEFA Champions League for the first time"
+    }
+   ]
+  },
+  {
+   "id": "e103",
+   "date": "1996",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Juan Esnáider from Real Madrid",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#37",
+     "role": "both",
+     "quote": "The next season , 1996–97 , saw the club take part in the UEFA Champions League"
+    }
+   ]
+  },
+  {
+   "id": "e104",
+   "date": "1996",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Radek Bejbl",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#37",
+     "role": "both",
+     "quote": "The next season , 1996–97 , saw the club take part in the UEFA Champions League"
+    }
+   ]
+  },
+  {
+   "id": "e105",
+   "date": "1997",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Christian Vieri",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#37",
+     "role": "date",
+     "quote": "Before the 1997–98 season , the heavy spending continued with"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "description",
+     "quote": "the signings of Christian Vieri and Juninho"
+    }
+   ]
+  },
+  {
+   "id": "e106",
+   "date": "1997",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Juninho",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#37",
+     "role": "date",
+     "quote": "Before the 1997–98 season , the heavy spending continued with"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "description",
+     "quote": "the signings of Christian Vieri and Juninho"
+    }
+   ]
+  },
+  {
+   "id": "e107",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Arrigo Sacchi replaced Antić as coach",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "both",
+     "quote": "he was replaced during the summer of 1998 with Arrigo Sacchi"
+    }
+   ]
+  },
+  {
+   "id": "e108",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Radomir Antić returned briefly as coach",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "both",
+     "quote": "Antić then returned briefly in early 1999"
+    }
+   ]
+  },
+  {
+   "id": "e109",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Claudio Ranieri replaced Antić as coach",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "both",
+     "quote": "Antić then returned briefly in early 1999"
+    }
+   ]
+  },
+  {
+   "id": "e110",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Club relegated to Segunda División",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "both",
+     "quote": "The 1999–2000 season proved disastrous for Atlético"
+    }
+   ]
+  },
+  {
+   "id": "e111",
+   "date": "1999-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Jesús Gil and his board suspended pending investigation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "both",
+     "quote": "In December 1999 , Gil and his board were suspended"
+    }
+   ]
+  },
+  {
+   "id": "e112",
+   "date": "1999-12",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Government administrator José Manuel Rubí ran daily operations",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#38",
+     "role": "date",
+     "quote": "In December 1999 , Gil and his board were suspended"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#39",
+     "role": "description",
+     "quote": "with government-appointed administrator José Manuel Rubí running Atléticos day-to-day operations"
+    }
+   ]
+  },
+  {
+   "id": "e113",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "kit supplier",
+   "text": "Nike became kit manufacturer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#83",
+     "role": "both",
+     "quote": "The kit has been made by Nike since 2001"
+    }
+   ]
+  },
+  {
+   "id": "e114",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "league title",
+   "text": "Won Segunda División championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#40",
+     "role": "both",
+     "quote": "before winning the Segunda División championship in 2002"
+    }
+   ]
+  },
+  {
+   "id": "e115",
+   "date": "2002",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted back to Primera División under Aragonés",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#40",
+     "role": "both",
+     "quote": "before winning the Segunda División championship in 2002"
+    }
+   ]
+  },
+  {
+   "id": "e116",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés began fourth spell as coach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "finally from 2002 to 2003"
+    }
+   ]
+  },
+  {
+   "id": "e117",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Luis Aragonés's fourth spell as coach ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#27",
+     "role": "both",
+     "quote": "finally from 2002 to 2003"
+    }
+   ]
+  },
+  {
+   "id": "e118",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "King Felipe VI became honorary president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#3",
+     "role": "both",
+     "quote": "has been the honorary president of the club since 2003"
+    }
+   ]
+  },
+  {
+   "id": "e119",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Columbia Pictures became shirt sponsor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#87",
+     "role": "both",
+     "quote": "2003–05 Columbia Pictures"
+    }
+   ]
+  },
+  {
+   "id": "e120",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Enrique Cerezo became club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#74",
+     "role": "both",
+     "quote": "29 . Enrique Cerezo ( 2003– )"
+    }
+   ]
+  },
+  {
+   "id": "e121",
+   "date": "2003-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Jesús Gil resigned as club president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#31",
+     "role": "both",
+     "quote": "running the club until his resignation in May 2003"
+    }
+   ]
+  },
+  {
+   "id": "e122",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Columbia Pictures sponsorship ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#87",
+     "role": "both",
+     "quote": "2003–05 Columbia Pictures"
+    }
+   ]
+  },
+  {
+   "id": "e123",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Costinha",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#41",
+     "role": "both",
+     "quote": "In 2006 , Atlético signed Portuguese midfielders Costinha and Maniche"
+    }
+   ]
+  },
+  {
+   "id": "e124",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Maniche",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#41",
+     "role": "both",
+     "quote": "In 2006 , Atlético signed Portuguese midfielders Costinha and Maniche"
+    }
+   ]
+  },
+  {
+   "id": "e125",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Sergio Agüero",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#41",
+     "role": "both",
+     "quote": "In 2006 , Atlético signed Portuguese midfielders Costinha and Maniche , as well as Argentine forward Sergio Agüero"
+    }
+   ]
+  },
+  {
+   "id": "e126",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "Champions League qualification",
+   "text": "Qualified for UEFA Champions League after fourth-place league finish",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#43",
+     "role": "both",
+     "quote": "The 2007–08 season proved to be the most successful season for the club in the past decade"
+    }
+   ]
+  },
+  {
+   "id": "e127",
+   "date": "2007-07",
+   "grain": "month",
+   "track": "location",
+   "text": "Agreement with City of Madrid to sell stadium land and move",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#42",
+     "role": "both",
+     "quote": "In July 2007 , the Atlético board reached an agreement with the City of Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e128",
+   "date": "2007-07",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Fernando Torres left the club for Liverpool",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#41",
+     "role": "both",
+     "quote": "In July 2007 , Fernando Torres left the club for Liverpool"
+    }
+   ]
+  },
+  {
+   "id": "e129",
+   "date": "2007-07",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Luis García joined the club in exchange transfer",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#41",
+     "role": "both",
+     "quote": "In July 2007 , Fernando Torres left the club for Liverpool"
+    }
+   ]
+  },
+  {
+   "id": "e130",
+   "date": "2009-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Abel Resino appointed manager",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#44",
+     "role": "date",
+     "quote": "On 3 February 2009 , Javier Aguirre was dismissed from his post as manager"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#45",
+     "role": "description",
+     "quote": "This led to the appointment of Abel Resino as Atléticos new manager"
+    }
+   ]
+  },
+  {
+   "id": "e131",
+   "date": "2009-02-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Javier Aguirre dismissed as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#44",
+     "role": "both",
+     "quote": "On 3 February 2009 , Javier Aguirre was dismissed from his post as manager"
+    }
+   ]
+  },
+  {
+   "id": "e132",
+   "date": "2009-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Quique appointed coach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#49",
+     "role": "both",
+     "quote": "With the arrival of Quique as coach in October 2009"
+    }
+   ]
+  },
+  {
+   "id": "e133",
+   "date": "2009-10-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Abel Resino announced to leave as manager after Chelsea defeat",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#48",
+     "role": "both",
+     "quote": "On 21 October , Atletico were hammered 4–0 by English club Chelsea in the Champions League group stage"
+    }
+   ]
+  },
+  {
+   "id": "e134",
+   "date": "2010-05-12",
+   "grain": "day",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Europa League final against Fulham in Hamburg",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#49",
+     "role": "both",
+     "quote": "eventually Fulham in the final held in the HSH Nordbank Arena in Hamburg on 12 May 2010"
+    }
+   ]
+  },
+  {
+   "id": "e135",
+   "date": "2010-08-27",
+   "grain": "day",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won UEFA Super Cup against Inter Milan",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#51",
+     "role": "both",
+     "quote": "which was played at Stade Louis II in Monaco on 27 August 2010"
+    }
+   ]
+  },
+  {
+   "id": "e136",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Quique left as manager before end of season",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#53",
+     "role": "both",
+     "quote": "Atlético had a comparatively disappointing 2010–11 season"
+    }
+   ]
+  },
+  {
+   "id": "e137",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Gregorio Manzano appointed coach",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#53",
+     "role": "both",
+     "quote": "Atlético had a comparatively disappointing 2010–11 season"
+    }
+   ]
+  },
+  {
+   "id": "e138",
+   "date": "2011-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Diego Simeone replaced Manzano as coach",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#53",
+     "role": "both",
+     "quote": "Manzano himself was replaced with Diego Simeone in December 2011"
+    }
+   ]
+  },
+  {
+   "id": "e139",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Globe Soccer Best Club of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#68",
+     "role": "both",
+     "quote": "Globe Soccer Best Club of the Year : 2012 , 2018"
+    }
+   ]
+  },
+  {
+   "id": "e140",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Azerbaijan government became main shirt sponsor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#84",
+     "role": "both",
+     "quote": "The clubs main shirt sponsorship by the government of Azerbaijan between 2012 and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e141",
+   "date": "2012-05-09",
+   "grain": "day",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Europa League final against Athletic Bilbao",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#54",
+     "role": "both",
+     "quote": "they beat Athletic Bilbao 3–0 in the final on 9 May 2012"
+    }
+   ]
+  },
+  {
+   "id": "e142",
+   "date": "2012-08-31",
+   "grain": "day",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won UEFA Super Cup against Chelsea",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#54",
+     "role": "both",
+     "quote": "which was played at Stade Louis II , Monaco on 31 August 2012"
+    }
+   ]
+  },
+  {
+   "id": "e143",
+   "date": "2013-05-17",
+   "grain": "day",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Copa del Rey final against Real Madrid",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#55",
+     "role": "both",
+     "quote": "On 17 May 2013 , Atlético beat Real Madrid 2–1 in the Copa del Rey Final"
+    }
+   ]
+  },
+  {
+   "id": "e144",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Azerbaijan shirt sponsorship ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#84",
+     "role": "both",
+     "quote": "between 2012 and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e145",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Globe Soccer Special Award",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#68",
+     "role": "both",
+     "quote": "Globe Soccer Special Award : 2014"
+    }
+   ]
+  },
+  {
+   "id": "e146",
+   "date": "2014-05-17",
+   "grain": "day",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga, first title since 1996",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#56",
+     "role": "both",
+     "quote": "On 17 May 2014 , a 1–1 draw at the Camp Nou against Barcelona secured the La Liga title"
+    }
+   ]
+  },
+  {
+   "date": "2017",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "ISL",
+   "text": "Ended its franchise partnership with the Indian Super League club in Kolkata",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#4",
+     "role": "both",
+     "quote": "in 2017 Atlético decided to end its franchise partnership with the ISL club due to broken commitments"
+    }
+   ],
+   "id": "e147"
+  },
+  {
+   "date": "2017",
+   "grain": "year",
+   "track": "location",
+   "label": "stadium",
+   "text": "Stopped playing home games at the Estadio Vicente Calderón",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#77",
+     "role": "both",
+     "quote": "The club played their home games at the 54,990 seat Estadio Vicente Calderón in southern Madrid until 2017"
+    }
+   ],
+   "id": "e148"
+  },
+  {
+   "id": "e149",
+   "date": "2017-09-17",
+   "grain": "day",
+   "track": "location",
+   "text": "First competitive match at renovated Wanda Metropolitano",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#79",
+     "role": "both",
+     "quote": "On 17 September 2017 , the renovated Metropolitano Stadium hosted its first competitive match against Malaga CF"
+    }
+   ]
+  },
+  {
+   "id": "e150",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Globe Soccer Best Club of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#68",
+     "role": "both",
+     "quote": "Globe Soccer Best Club of the Year : 2012 , 2018"
+    }
+   ]
+  },
+  {
+   "id": "e151",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won third Europa League title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#57",
+     "role": "both",
+     "quote": "In 2018 , they won their third Europa League title in nine years"
+    }
+   ]
+  },
+  {
+   "id": "e152",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won UEFA Super Cup against Real Madrid in Tallinn",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#57",
+     "role": "both",
+     "quote": "Atlético also won another UEFA Super Cup"
+    }
+   ]
+  },
+  {
+   "id": "e153",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "IFFHS World's Club Team of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#68",
+     "role": "both",
+     "quote": "IFFHS The Worlds Club Team of the Year : 2018"
+    }
+   ]
+  },
+  {
+   "id": "e154",
+   "date": "2018-10",
+   "grain": "month",
+   "track": "other",
+   "label": "academy",
+   "text": "Announced first academy in Pakistan, in Lahore",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#81",
+     "role": "both",
+     "quote": "In October 2018 , Atletico De Madrid announced their first academy in Pakistan"
+    }
+   ]
+  },
+  {
+   "id": "e155",
+   "date": "2019",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Antoine Griezmann departed for Barcelona",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#64",
+     "role": "both",
+     "quote": "the controversial departure of French striker Antoine Griezmann from the Madrid club to the Catalan club in 2019"
+    }
+   ]
+  },
+  {
+   "id": "e156",
+   "date": "2019-04",
+   "grain": "month",
+   "track": "other",
+   "label": "academy",
+   "text": "Launched Football School Program in Lahore",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#81",
+     "role": "both",
+     "quote": "In April 2019 , they launched Football School Program in Lahore"
+    }
+   ]
+  },
+  {
+   "id": "e157",
+   "date": "2019-10",
+   "grain": "month",
+   "track": "other",
+   "label": "talent identification",
+   "text": "Conducted talent identification in Lahore",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#81",
+     "role": "both",
+     "quote": "In October 2019 , Atletico De Madrid conducted talents in Lahore"
+    }
+   ]
+  },
+  {
+   "id": "e158",
+   "date": "2020",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Luis Suárez joined from Barcelona",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#64",
+     "role": "both",
+     "quote": "the surprise move of Luis Suárez from Barcelona to Atlético Madrid in 2020"
+    }
+   ]
+  },
+  {
+   "date": "2020-07",
+   "grain": "month",
+   "track": "location",
+   "label": "stadium",
+   "text": "Former home Vicente Calderón demolished and replaced by a park",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#78",
+     "role": "both",
+     "quote": "The Vicente Calderón has been demolished in July 2020"
+    }
+   ],
+   "id": "e159"
+  },
+  {
+   "id": "e160",
+   "date": "2021-05-22",
+   "grain": "day",
+   "track": "other",
+   "label": "league title",
+   "text": "Won La Liga, seven years after previous title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#58",
+     "role": "both",
+     "quote": "On 22 May 2021 , a 1–2 win at the José Zorrilla Stadium against Valladolid secured the La Liga title"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Campeonato del Centro won three times during the 1920s",
+  "Golden age of the club (1947–1965)",
+  "Los Indios nickname during the 1970s",
+  "Signing of Argentine players Ayala, Díaz and Heredia, and coach Juan Carlos Lorenzo, in the 1970s",
+  "Reached 1958–59 European Cup semi-finals",
+  "Entered UEFA Cup Winners' Cup (1961–62 season)",
+  "Entered Inter-Cities Fairs Cup (1963–64 season)",
+  "Entered UEFA Cup (1971–72 season)",
+  "Entered UEFA Super Cup (2009–10 season)",
+  "Germán Gómez played until the 1947–48 campaign",
+  "Avoided relegation on the last day of the 1994–95 season",
+  "Ranieri resigned during the 1999–2000 season",
+  "Signing of Diego Forlán from Villarreal (2007, no exact date)",
+  "Signing of Simão Sabrosa from Benfica (2007, no exact date)",
+  "Signing of José Antonio Reyes from Arsenal (2007, no exact date)",
+  "Signing of Juanito from Real Betis on a free transfer (2009 season)",
+  "Signing of David de Gea and Sergio Asenjo (2009 season)",
+  "Miguel Ángel Gil Marín became chief executive (no date)",
+  "Signing of João Félix (no date)",
+  "Gil hired and fired several head coaches (no dates)",
+  "First academy in Europe in Bucharest, Romania (no date)"
+ ]
+}
