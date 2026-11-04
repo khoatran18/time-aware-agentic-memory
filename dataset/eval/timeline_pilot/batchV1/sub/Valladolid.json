@@ -1,0 +1,43 @@
+{
+  "page_id": "Valladolid",
+  "events": [
+    {"id": "e1", "date": "1072", "grain": "year", "track": "ownership_structure", "text": "Alfonso VI re-establishes Valladolid as a lordship granted to Count Pedro Ansúrez.", "evidence": [{"chunk_id": "/wiki/Valladolid#14", "role": "both", "quote": "In 1072 Alfonso VI of León and Castile gifted the Lordship of Valladolid to Count Pedro Ansúrez"}, {"chunk_id": "/wiki/Valladolid#2", "role": "both", "quote": "re-established by King Alfonso VI of Castile as a Lordship for the Count Pedro Ansúrez in 1072"}]},
+    {"id": "e2", "date": "1550", "grain": "year", "track": "other", "label": "moral_debate", "text": "Valladolid hosts the first moral debate in European history (1550–1551).", "evidence": [{"chunk_id": "/wiki/Valladolid#19", "role": "both", "quote": "During a period of 1550-1551 the town hold the first moral debate in European history"}]},
+    {"id": "e3", "date": "1559", "grain": "year", "track": "other", "label": "autos_de_fe", "text": "Autos de fe against Protestant sects take place in Valladolid.", "evidence": [{"chunk_id": "/wiki/Valladolid#17", "role": "description", "quote": "Ensuing autos de fe against the Protestant sects took place"}, {"chunk_id": "/wiki/Valladolid#18", "role": "date", "quote": "in 1559 in Valladolid"}]},
+    {"id": "e4", "date": "1561", "grain": "year", "track": "other", "label": "disaster", "text": "A catastrophic fire destroys a portion of the city.", "evidence": [{"chunk_id": "/wiki/Valladolid#18", "role": "both", "quote": "A catastrophic fire in 1561 destroyed a portion of the city"}]},
+    {"id": "e5", "date": "1561", "grain": "year", "track": "work", "text": "Monumental Plaza Mayor is projected following the great 1561 fire.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Valladolid#33", "role": "both", "quote": "was projected by by 1561–62 , following the great fire of 1561"}]},
+    {"id": "e6", "date": "1596", "grain": "year", "track": "other", "label": "city_status", "text": "Valladolid is granted the status of city and becomes a bishopric seat.", "evidence": [{"chunk_id": "/wiki/Valladolid#19", "role": "both", "quote": "Valladolid was granted the status of city in 1596"}]},
+    {"id": "e7", "date": "1601", "grain": "year", "track": "location", "text": "Valladolid briefly becomes capital of the Hispanic Monarchy.", "evidence": [{"chunk_id": "/wiki/Valladolid#20", "role": "both", "quote": "Valladolid briefly served as the capital of the Hispanic Monarchy between 1601 and 1606"}]},
+    {"id": "e8", "date": "1606", "grain": "year", "track": "location", "text": "Capital returns indefinitely from Valladolid to Madrid.", "evidence": [{"chunk_id": "/wiki/Valladolid#3", "role": "both", "quote": "1601 and 1606 , before returning indefinitely to Madrid"}]},
+    {"id": "e9", "date": "1787", "grain": "year", "track": "work", "text": "Campo Grande public park dates back to this year.", "evidence": [{"chunk_id": "/wiki/Valladolid#35", "role": "both", "quote": "The Campo Grande , a large public park located in the heart of the city , dates back to 1787"}]},
+    {"id": "e10", "date": "1881", "grain": "year", "track": "other", "label": "public_transport", "text": "Urban tram network begins operating in Valladolid.", "evidence": [{"chunk_id": "/wiki/Valladolid#44", "role": "both", "quote": "Urban transit system was based on the Valladolid tram network from 1881 to 1933"}]},
+    {"id": "e11", "date": "1928", "grain": "year", "track": "other", "label": "public_transport", "text": "A public urban bus system starts, run by private tenders.", "evidence": [{"chunk_id": "/wiki/Valladolid#44", "role": "both", "quote": "A public urban bus system started in 1928"}]},
+    {"id": "e12", "date": "1933", "grain": "year", "track": "other", "label": "public_transport", "text": "Valladolid tram network ends operation.", "evidence": [{"chunk_id": "/wiki/Valladolid#44", "role": "both", "quote": "Urban transit system was based on the Valladolid tram network from 1881 to 1933"}]},
+    {"id": "e13", "date": "1950", "grain": "year", "track": "other", "label": "industrialisation", "text": "Valladolid becomes an important industrial centre.", "evidence": [{"chunk_id": "/wiki/Valladolid#23", "role": "both", "quote": "From 1950 onwards Valladolid became an important industrial centre"}]},
+    {"id": "e14", "date": "1960", "grain": "year", "track": "location", "text": "City starts expanding across the western bank of the Pisuerga.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Valladolid#23", "role": "both", "quote": "The city started to expand across the western bank of the Pisuerga in the early 1960s"}]},
+    {"id": "e15", "date": "1964", "grain": "year", "track": "other", "label": "designation", "text": "Valladolid is declared a Polo de Desarrollo Industrial (industrial development pole).", "evidence": [{"chunk_id": "/wiki/Valladolid#23", "role": "both", "quote": "Polo de Desarrollo Industrial ( Pole for Industrial Development ) in 1964"}]},
+    {"id": "e16", "date": "1978", "grain": "year", "track": "other", "label": "twinning", "text": "Valladolid twinned with Morelia, Mexico.", "evidence": [{"chunk_id": "/wiki/Valladolid#64", "role": "both", "quote": "Morelia , Mexico ( 1978 )"}]},
+    {"id": "e17", "date": "1982", "grain": "year", "track": "ownership_structure", "text": "Bus service taken over by the municipality from private tenders.", "evidence": [{"chunk_id": "/wiki/Valladolid#44", "role": "both", "quote": "managed by different private tenders until 1982 , when the service was taken over by the municipality"}]},
+    {"id": "e18", "date": "1987", "grain": "year", "track": "location", "text": "Designated de jure seat of Castile and León executive and legislative institutions.", "evidence": [{"chunk_id": "/wiki/Valladolid#24", "role": "both", "quote": "Valladolid was designated in 1987 as the de jure seat of the executive and legislative institutions"}]},
+    {"id": "e19", "date": "1987", "grain": "year", "track": "other", "label": "twinning", "text": "Valladolid twinned with Lille, France.", "evidence": [{"chunk_id": "/wiki/Valladolid#64", "role": "both", "quote": "Lille , France ( 1987 )"}]},
+    {"id": "e20", "date": "2004", "grain": "year", "track": "other", "label": "cooperation", "text": "Valladolid cooperates with Lovech, Bulgaria.", "evidence": [{"chunk_id": "/wiki/Valladolid#65", "role": "both", "quote": "Lovech , Bulgaria ( 2004 )"}]},
+    {"id": "e21", "date": "2006", "grain": "year", "track": "other", "label": "twinning", "text": "Valladolid twinned with Orlando, United States.", "evidence": [{"chunk_id": "/wiki/Valladolid#64", "role": "both", "quote": "Orlando , United States ( 2006 )"}]},
+    {"id": "e22", "date": "2007", "grain": "year", "track": "other", "label": "twinning", "text": "Valladolid twinned with Florence, Italy.", "evidence": [{"chunk_id": "/wiki/Valladolid#64", "role": "both", "quote": "Florence , Italy ( 2007 )"}]},
+    {"id": "e23", "date": "2009", "grain": "year", "track": "other", "label": "twinning", "text": "Valladolid twinned with Lecce, Italy.", "evidence": [{"chunk_id": "/wiki/Valladolid#64", "role": "both", "quote": "Lecce , Italy ( 2009 )"}]},
+    {"id": "e24", "date": "2015", "grain": "year", "track": "role", "text": "Óscar Puente (PSOE) begins serving as mayor.", "evidence": [{"chunk_id": "/wiki/Valladolid#25", "role": "both", "quote": "Since 2015 , Óscar Puente ( PSOE ) serves as Mayor"}]},
+    {"id": "e25", "date": "2019", "grain": "year", "track": "role", "text": "Óscar Puente renewed for a second mandate as mayor after the 2019 election.", "evidence": [{"chunk_id": "/wiki/Valladolid#25", "role": "both", "quote": "He renewed his spell for a second mandate following the 2019 election"}]},
+    {"id": "e26", "date": "2019-05-26", "grain": "day", "track": "other", "label": "municipal_election", "text": "Last municipal election held in Valladolid.", "evidence": [{"chunk_id": "/wiki/Valladolid#25", "role": "both", "quote": "The last municipal election took place on 26 May 2019"}]}
+  ],
+  "undated_mentions": [
+    "original settlement in pre-Roman times by the Vaccaei and later Romans (undated)",
+    "primitive urban core built ex novo (11th century)",
+    "area captured from the Moors (10th century)",
+    "repopulation by people from Carrión and Saldaña (undated)",
+    "commercial privileges granted by Alfonso VIII and Alfonso X (12th and 13th centuries)",
+    "plague epidemic in Valladolid (undated)",
+    "city damaged by flood of the Pisuerga and Esgueva rivers (undated)",
+    "arrival of the railway (19th century)",
+    "attracted many immigrants (1960s to early 1970s)",
+    "cooperation with Ahmedabad, Boston, Guadalajara and Kenitra (undated)"
+  ]
+}

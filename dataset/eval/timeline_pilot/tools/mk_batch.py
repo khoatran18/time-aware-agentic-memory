@@ -22,10 +22,12 @@ sel=random.sample(b,min(2,len(b)))+random.sample(c,min(1,len(c)))
 left=[p for p in a+b+c if p not in sel]
 sel+=random.sample(a,min(10-len(sel),len(a)))
 if len(sel)<10: sel+=random.sample([p for p in left if p not in sel],min(10-len(sel),len([p for p in left if p not in sel])))
+if len(sel)<10: sel+=random.sample([p for p in other if p not in sel],min(10-len(sel),len([p for p in other if p not in sel])))  # trang <8 chunk chỉ lấy khi hết trang dài
 print("còn trong reserved:",len(rem),"chọn:",len(sel))
 if os.path.exists(name): sys.exit("thư mục đã tồn tại: "+name)
 for sub in ("in","sub","rev"): os.makedirs(f"{name}/{sub}")
-shutil.copy("batch8/GUIDE_v6.md",f"{name}/GUIDE_v6.md")
+G="GUIDE_v7.md" if os.path.exists("GUIDE_v7.md") else "batch8/GUIDE_v6.md"
+shutil.copy(G,f"{name}/"+os.path.basename(G).replace("batch8/",""))
 for pid in sel:
     d=pages[pid]; fn=re.sub(r"[^A-Za-z0-9]+","_",pid.replace("/wiki/","")).strip("_")
     out=[]

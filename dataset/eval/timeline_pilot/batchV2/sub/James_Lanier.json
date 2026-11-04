@@ -1,0 +1,247 @@
+{
+  "page_id": "James_Lanier",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1800-11-22",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "James Lanier born in Beaufort County, North Carolina",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#0", "role": "date", "quote": "November 22 , 1800 – August 27 , 1881"},
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "both", "quote": "James Lanier was born in 1800 in Beaufort County , North Carolina"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1802",
+      "grain": "year",
+      "track": "location",
+      "text": "Began living in Bourbon County, Kentucky",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "both", "quote": "His home was in Bourbon county Kentucky from 1802 to 1807"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1807",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved from Kentucky to Eaton, Ohio",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "both", "quote": "His home was in Bourbon county Kentucky from 1802 to 1807 and then in Eaton Ohio until 1817"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1817",
+      "grain": "year",
+      "track": "location",
+      "text": "Family moved to Madison, Indiana, living at Schofield House",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "both", "quote": "until 1817 , when his family moved to Madison , Indiana"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1819",
+      "grain": "year",
+      "track": "family",
+      "text": "Married first wife Elizabeth G. Gardner",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#9", "role": "both", "quote": "In 1819 , he married his first wife , Elizabeth G . Gardner"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1820",
+      "grain": "year",
+      "track": "other",
+      "label": "law_practice",
+      "text": "Began practicing law after studying at Transylvania University",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "both", "quote": "He studied law at Transylvania University and began practicing in 1820"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1820-08-17",
+      "grain": "day",
+      "track": "location",
+      "text": "First law office in Madison advertised in Indiana Republican",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#1", "role": "date", "quote": "According to an ad placed in the Indiana Republican newspaper of August 17 , 1820"},
+        {"chunk_id": "/wiki/James_Lanier#2", "role": "description", "quote": "law office at Madison was"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1825",
+      "grain": "year",
+      "track": "other",
+      "label": "government_service",
+      "text": "Assisted moving Indiana capital from Corydon to Indianapolis",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#3", "role": "both", "quote": "where he was involved in assisting to move the capital from Corydon to Indianapolis in 1825"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1833",
+      "grain": "year",
+      "track": "role",
+      "text": "Became president of the Bank of Indiana",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#4", "role": "both", "quote": "He became president of the Bank of Indiana in 1833"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1836",
+      "grain": "year",
+      "track": "family",
+      "text": "Son John James Lanier died young",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#11", "role": "both", "quote": "John James Lanier ( 1829–1836 ) , who died young"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1844",
+      "grain": "year",
+      "track": "work",
+      "text": "Large mansion in Madison completed",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#6", "role": "both", "quote": "build a large mansion in Madison ; it was completed in 1844"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1846",
+      "grain": "year",
+      "track": "family",
+      "text": "First wife Elizabeth died",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#6", "role": "both", "quote": "His wife Elizabeth died in 1846"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1847",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Major stockholder of Madison-Indianapolis rail line, finished",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#4", "role": "both", "quote": "He became a major stockholder in the line , which was finally finished in 1847"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1847",
+      "grain": "year",
+      "track": "role",
+      "text": "Represented Indiana in meeting with European creditors",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#4", "role": "date", "quote": "which was finally finished in 1847"},
+        {"chunk_id": "/wiki/James_Lanier#5", "role": "description", "quote": "The same year , Lanier represented Indiana in a meeting with its European creditors"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e15",
+      "date": "1847",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Negotiated transfer of most Indiana canals to bondholders",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#4", "role": "date", "quote": "which was finally finished in 1847"},
+        {"chunk_id": "/wiki/James_Lanier#5", "role": "description", "quote": "Lanier was able to negotiate the transfer of ownership of most of the Indiana canals"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e16",
+      "date": "1848",
+      "grain": "year",
+      "track": "family",
+      "text": "Remarried to Margaret Mary McClure",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#6", "role": "both", "quote": "he was remarried to Margaret Mary McClure in 1848"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1849",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Started bank Winslow, Lanier & Co. in New York and began trading railroad shares",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#7", "role": "both", "quote": "In 1849 , he began trading railroad shares in New York in a bank he started there"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1849",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Jean Lanier died young",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#11", "role": "both", "quote": "Jean Lanier ( 1849–1849 ) , who died young"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1851",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved out of Indiana to New York to manage new business",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#7", "role": "both", "quote": "In 1851 , he moved out of the state to New York"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1856",
+      "grain": "year",
+      "track": "family",
+      "text": "Son James Lanier died young",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#12", "role": "both", "quote": "James Lanier ( 1851–1856 ) , who died young"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1870",
+      "grain": "year",
+      "track": "other",
+      "label": "debt_repayment",
+      "text": "Loan to Indiana government fully repaid",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#8", "role": "both", "quote": "It was all repaid by 1870"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e22",
+      "date": "1881-08-27",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "James Lanier died in New York City",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Lanier#0", "role": "date", "quote": "November 22 , 1800 – August 27 , 1881"},
+        {"chunk_id": "/wiki/James_Lanier#13", "role": "both", "quote": "Lanier died on August 27 , 1881 in New York City"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "studied law at Transylvania University",
+    "assistant clerk of the Indiana Legislature and later Clerk of the Indiana House (1820s)",
+    "involved in banking (early 1830s)",
+    "large shareholder of the Madison branch of the Bank of Indiana and on its board of directors",
+    "involved with construction of the first rail line between Madison and Indianapolis (later 1830s)",
+    "loaned over one million dollars to Indiana government during the American Civil War (no exact date)"
+  ]
+}

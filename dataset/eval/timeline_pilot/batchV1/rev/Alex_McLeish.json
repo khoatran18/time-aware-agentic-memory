@@ -1,0 +1,856 @@
+{
+ "page_id": "Alex_McLeish",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1959-01-21",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Alexander McLeish born in Glasgow, Scottish footballer and manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#0",
+     "role": "both",
+     "quote": "born 21 January 1959"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1976",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed for Aberdeen the day after a 1976 cup final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#7",
+     "role": "both",
+     "quote": "After a local cup final with Glasgow United in 1976"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e3",
+   "date": "1978-01-02",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Competitive debut for Aberdeen, New Year fixture against Dundee United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#8",
+     "role": "both",
+     "quote": "fixture against Dundee United on 2 January 1978"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1980-03-26",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Full international debut for Scotland against Portugal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#13",
+     "role": "both",
+     "quote": "His full international debut came on 26 March 1980 against Portugal"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1982",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the 1982 Scottish Cup Final, beating Rangers 4-1.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#9",
+     "role": "both",
+     "quote": "in a 4–1 victory over Rangers in the 1982 Scottish Cup Final"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1982",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "Played for Scotland at the 1982 World Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#13",
+     "role": "both",
+     "quote": "He played in three World Cups with Scotland , in 1982"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the European Cup Winners Cup over Real Madrid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#9",
+     "role": "both",
+     "quote": "the European Cup Winners Cup win over Real Madrid in 1983"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#48",
+     "role": "description",
+     "quote": "European Cup Winners Cup : 1982–83"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the European Super Cup with Aberdeen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#48",
+     "role": "both",
+     "quote": "European Super Cup : 1983"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "Played for Scotland at the 1986 World Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#13",
+     "role": "both",
+     "quote": "with Scotland , in 1982 , 1986 and 1990"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Scotland team captain for his 50th cap.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#14",
+     "role": "both",
+     "quote": "On the occasion of his 50th cap , against Luxembourg in 1987"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1987",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Entered the Scotland national football team roll of honour.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#49",
+     "role": "both",
+     "quote": "Scotland national football team roll of honour : 1987"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#14",
+     "role": "description",
+     "quote": "the Scotland national football team roll of honour"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1988-12",
+   "grain": "month",
+   "track": "other",
+   "label": "testimonial",
+   "text": "Testimonial match arranged, Gothenburg Cup Winners Cup squad versus legends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#10",
+     "role": "both",
+     "quote": "A testimonial match was arranged for McLeish in December 1988"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "Played for Scotland at the 1990 World Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#13",
+     "role": "both",
+     "quote": "with Scotland , in 1982 , 1986 and 1990"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Scottish Player of the Year award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#11",
+     "role": "both",
+     "quote": "He won the Scottish player of the year in 1990"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#49",
+     "role": "both",
+     "quote": "SFWA Footballer of the Year : 1990"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1993-02-17",
+   "grain": "day",
+   "track": "other",
+   "label": "final cap",
+   "text": "Earned final Scotland cap, a 3-0 win over Malta.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#14",
+     "role": "both",
+     "quote": "His final cap came on 17 February 1993 in a 3–0 win over Malta"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Went into management with Motherwell while still a player.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#15",
+     "role": "both",
+     "quote": "he quickly went into football management with Motherwell in 1994"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1995",
+   "grain": "year",
+   "track": "other",
+   "label": "retirement",
+   "text": "Retired as a player, one year after becoming Motherwell manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#15",
+     "role": "both",
+     "quote": "with Motherwell in 1994 , one year before he retired as a player"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned as Motherwell manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#15",
+     "role": "both",
+     "quote": "He resigned as manager to take over at Hibernian in 1998"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Took over as Hibernian manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#15",
+     "role": "both",
+     "quote": "He resigned as manager to take over at Hibernian in 1998"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#16",
+     "role": "description",
+     "quote": "McLeish took over a struggling Hibernian side"
+    }
+   ]
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "relegation",
+   "text": "Hibernian relegated from the Scottish Premier Division under McLeish",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#16",
+     "role": "both",
+     "quote": "which was relegated from the Scottish Premier Division in 1998"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2000-10",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, October 2000.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "Scottish Premier League Manager of the Month : October 2000"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2001-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed Rangers manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#19",
+     "role": "both",
+     "quote": "he was appointed as Rangers manager in December 2001"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2002-02",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, February 2002.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "October 2000 , February 2002"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2002-09",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, September 2002.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "February 2002 , September 2002"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2003-02",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, February 2003.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "September 2002 , February 2003"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2003-08",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, August 2003.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "February 2003 , August 2003"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2003-09",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, September 2003.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "August 2003 , September 2003"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2004-11",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, November 2004.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "September 2003 , November 2004"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the 2005 league title on the last day.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#22",
+     "role": "both",
+     "quote": "McLeishs team won the 2005 league title on a dramatic last day"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#50",
+     "role": "description",
+     "quote": "Scottish Premier League : 2002–03 , 2004–05"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Inducted into the Scottish Football Hall of Fame.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "Scottish Football Hall of Fame : inducted 2005"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2005-02",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, February 2005.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "November 2004 , February 2005"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2006-01",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Scottish Premier League Manager of the Month, January 2006.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "February 2005 , January 2006"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2006-02-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Announced he would stand down as Rangers manager at season end.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#26",
+     "role": "both",
+     "quote": "On 9 February 2006 , it was announced by chairman David Murray that McLeish would be standing down"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2007-01-29",
+   "grain": "day",
+   "track": "role",
+   "text": "Took charge as Scotland national team manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#28",
+     "role": "both",
+     "quote": "McLeish took charge of the Scotland national team on 29 January 2007"
+    }
+   ]
+  },
+  {
+   "date": "2007-03-24",
+   "grain": "day",
+   "track": "other",
+   "label": "first match",
+   "text": "First game in charge of Scotland, 2-1 win over Georgia at Hampden Park",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#29",
+     "role": "both",
+     "quote": "first game in charge of the national team was a UEFA Euro 2008 qualifying match , a 2–1 victory against Georgia on 24 March 2007"
+    }
+   ],
+   "id": "e35"
+  },
+  {
+   "id": "e36",
+   "date": "2007-11-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Resigned as Scotland national team manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#33",
+     "role": "both",
+     "quote": "on his return on 27 November 2007 from attending the draw"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#1",
+     "role": "both",
+     "quote": "He then resigned this post in November 2007 to become manager of Birmingham City"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2007-11-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Announced as Birmingham City manager the day after resigning from Scotland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#1",
+     "role": "both",
+     "quote": "He then resigned this post in November 2007 to become manager of Birmingham City"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#33",
+     "role": "description",
+     "quote": "was announced as Birminghams new manager the following day"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e38",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Awarded an honorary doctorate by the University of Aberdeen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#5",
+     "role": "both",
+     "quote": "in 2008 McLeish was awarded an honorary doctorate by the University of Aberdeen"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "promotion",
+   "text": "Returned Birmingham City to the Premier League at the first attempt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#1",
+     "role": "both",
+     "quote": "McLeish guided them back to the Premier League in 2009"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#36",
+     "role": "description",
+     "quote": "McLeish secured Birminghams return to the top flight of English football at the first attempt"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2009-12",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Premier League Manager of the Month, first Birmingham manager to win it.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#36",
+     "role": "both",
+     "quote": "been named Premier League Manager of the Month for December 2009"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#51",
+     "role": "both",
+     "quote": "Premier League Manager of the Month : December 2009"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2010-09",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Agreed a new three-year contract with Birmingham City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#38",
+     "role": "both",
+     "quote": "McLeish agreed a new three-year deal with the club in September 2010"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2011-02",
+   "grain": "month",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the Football League Cup, beating Arsenal 2-1 at Wembley.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#38",
+     "role": "both",
+     "quote": "In February 2011 , McLeish led Birmingham to victory in the League Cup"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#2",
+     "role": "both",
+     "quote": "then won the 2011 Football League Cup Final"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2011-06-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Quit Birmingham City by email.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#39",
+     "role": "both",
+     "quote": "McLeish however opted to quit Birmingham City on 12 June 2011 by email"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2011-06-17",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Aston Villa manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#40",
+     "role": "both",
+     "quote": "On 17 June 2011 , Aston Villa appointed McLeish as manager"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2012-05-14",
+   "grain": "day",
+   "track": "role",
+   "text": "Aston Villa terminated his contract the day after the season ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#42",
+     "role": "both",
+     "quote": "McLeishs contract was terminated on 14 May , the day after the season ended"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e46",
+   "date": "2012-12-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Nottingham Forest manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#43",
+     "role": "both",
+     "quote": "McLeish was appointed manager of Football League Championship club Nottingham Forest on 27 December 2012"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2013-01-12",
+   "grain": "day",
+   "track": "other",
+   "label": "first win",
+   "text": "First win as Nottingham Forest manager, 2-1 against Peterborough.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#43",
+     "role": "both",
+     "quote": "McLeish earned his first win as Nottingham Forest manager on 12 January 2013"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2013-02-05",
+   "grain": "day",
+   "track": "role",
+   "text": "Left Nottingham Forest by mutual consent.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#44",
+     "role": "both",
+     "quote": "On 5 February 2013 , he left the club by mutual consent"
+    },
+    {
+     "chunk_id": "/wiki/Alex_McLeish#3",
+     "role": "description",
+     "quote": "but left after 40 days by mutual consent"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2014-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed manager of Belgian club Genk.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#45",
+     "role": "both",
+     "quote": "In August 2014 , he was appointed manager of Belgian club Genk"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2016-02-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Zamalek manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#46",
+     "role": "both",
+     "quote": "McLeish was appointed manager of Egyptian Premier League club Zamalek on 28 February 2016"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2016-05-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Zamalek manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#46",
+     "role": "both",
+     "quote": "he was sacked on 2 May with ten matches of the season remaining"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e52",
+   "date": "2018-02-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Reappointed Scotland national team manager on a two-year contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#46",
+     "role": "both",
+     "quote": "McLeish was reappointed Scotland manager on 16 February 2018"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2019-04-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Scotland national team manager after a defeat by Kazakhstan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alex_McLeish#46",
+     "role": "both",
+     "quote": "he was sacked on 18 April 2019 following a 3–0 defeat by Kazakhstan"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Became Aberdeen captain after the retirement of Willie Miller (no date)",
+  "Loan spell at Lewis United as a junior (no date)",
+  "Education at Springhill Primary, Barrhead High School and John Neilson High School (no date)",
+  "Awarded UEFA Pro Licence while at Hibernian (no date)",
+  "Scotland under-21 caps while still a reserve at Aberdeen (no date)",
+  "Hibernian return to the Scottish Premier League via First Division title at the first attempt (no date)",
+  "Rangers honours by season label: Scottish Premier League 2002–03; Scottish Cup 2001–02, 2002–03; Scottish League Cup 2001–02, 2002–03, 2004–05 (season labels)",
+  "Rangers domestic treble in the 2002–03 season (season label)",
+  "Aberdeen honours by season label: Scottish Premier Division 1979–80, 1983–84, 1984–85; Scottish Cup 1981–82, 1983–84, 1985–86, 1989–90; League Cup 1985–86, 1989–90 (season labels)",
+  "Chairman David Murray publicly backed McLeish in December during the 2005–06 season (no year stated)",
+  "Protests outside Ibrox against McLeish after Scottish Cup defeat to Hibernian (no date)",
+  "Final match as Rangers manager, 2–0 win over Hearts, at end of the 2005–06 season (no date)",
+  "Changed backroom staff and training procedures; appointed David Watson and Paul Montgomery (no date)",
+  "Cameo appearance in the film Stan & Ollie (no date)",
+  "Scotland won the 2018–19 UEFA Nations League group (season label)"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "page_id": "Numedal_Line",
+  "events": [
+    {"id": "e1", "date": "1918", "grain": "year", "track": "work", "text": "Siting work for the line commenced.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#14", "role": "both", "quote": "Siting commenced in 1918"}]},
+    {"id": "e2", "date": "1918-08-03", "grain": "day", "track": "other", "label": "approval", "text": "Parliament approved building the line with standard gauge.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#12", "role": "both", "quote": "On 3 August 1918 , the line was passed by the Parliament of Norway"}, {"chunk_id": "/wiki/Numedal_Line#1", "role": "date", "quote": "The plans were passed in 1918"}]},
+    {"id": "e3", "date": "1919", "grain": "year", "track": "work", "text": "Construction administration established in Kongsberg.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#14", "role": "both", "quote": "by 1919 , an administration for the works had been established in Kongsberg"}]},
+    {"id": "e4", "date": "1920-07-02", "grain": "day", "track": "work", "text": "Construction commenced between Fossan and Bratterud.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#14", "role": "both", "quote": "Construction commenced on 2 July 1920 , between Fossan and Bratterud"}]},
+    {"id": "e5", "date": "1921-03", "grain": "month", "track": "work", "text": "Construction resumed in March after a strike.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#14", "role": "both", "quote": "resulting in construction not being taken up until March 1921"}]},
+    {"id": "e6", "date": "1921-07-20", "grain": "day", "track": "other", "label": "approval", "text": "Parliament gave final approval for construction.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#14", "role": "both", "quote": "Final approval by parliament was first made on 20 July 1921"}]},
+    {"id": "e7", "date": "1924-11-15", "grain": "day", "track": "work", "text": "Partial opening: trains ran from Kongsberg to Bakkerød.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#16", "role": "both", "quote": "Trains could run the from Kongsberg to Bakkerød from 15 November 1924"}, {"chunk_id": "/wiki/Numedal_Line#1", "role": "date", "quote": "the first trains started running in 1924"}]},
+    {"id": "e8", "date": "1925-12-01", "grain": "day", "track": "work", "text": "Partial service extended to Kjærre.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#16", "role": "both", "quote": "the to Kjærre from 1 December 1925"}]},
+    {"id": "e9", "date": "1926-12-01", "grain": "day", "track": "work", "text": "Partial service extended to Rødberg.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#16", "role": "both", "quote": "to Rødberg from 1 December 1926"}]},
+    {"id": "e10", "date": "1927-11-19", "grain": "day", "track": "work", "text": "Official opening of the line by King Haakon VII.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#17", "role": "both", "quote": "The official opening took place on 19 November 1927 by King Haakon VII"}, {"chunk_id": "/wiki/Numedal_Line#1", "role": "date", "quote": "the line was officially opened in 1927"}]},
+    {"id": "e11", "date": "1932", "grain": "year", "track": "other", "label": "rationalisation", "text": "Operations rationalised; station masters replaced by clerks at fifteen stations.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#17", "role": "both", "quote": "In 1932 , the operations were rationalized"}]},
+    {"id": "e12", "date": "1970", "grain": "year", "track": "other", "label": "service_change", "text": "Last scheduled steam locomotive service ran on the line.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#20", "role": "both", "quote": "NSB used steam power for freight trains until 1970 , when NSBs last scheduled steam locomotive service hauled a gravel train"}]},
+    {"id": "e13", "date": "1988", "grain": "year", "track": "other", "label": "closure_decision", "text": "Parliament decided to close the line, keeping Kongsberg–Rollag for freight.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#22", "role": "both", "quote": "In 1988 , the parliament decided to close many Norwegian lines , including the Numedal Line"}]},
+    {"id": "e14", "date": "1988-12-31", "grain": "day", "track": "other", "label": "service_end", "text": "Last passenger train operated on the line.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#22", "role": "both", "quote": "The last passenger train operated on 31 December 1988"}, {"chunk_id": "/wiki/Numedal_Line#2", "role": "both", "quote": "The last regular train ran in 1988"}]},
+    {"id": "e15", "date": "1989-01-01", "grain": "day", "track": "other", "label": "closure", "text": "Line north of Rollag officially closed.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#22", "role": "both", "quote": "the line north of Rollag was officially closed on 1 January 1989"}, {"chunk_id": "/wiki/Numedal_Line#6", "role": "both", "quote": "Since 1989 , this is the furthest north the line is kept operational"}]},
+    {"id": "e16", "date": "1993", "grain": "year", "track": "other", "label": "freight_service", "text": "NSB hauled gravel and lumber along the line.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#23", "role": "both", "quote": "in 1993 the company hauled of gravel and of lumber along the line"}]},
+    {"id": "e17", "date": "2013", "grain": "year", "track": "work", "text": "Jernbaneverket reopened 30 km Kongsberg–Flesberg stretch.", "evidence": [{"chunk_id": "/wiki/Numedal_Line#3", "role": "both", "quote": "In 2013 , Jernbaneverket reopened a 30km stretch between Kongsberg and Flesberg"}]},
+    {"id": "e18", "date": "2014-04", "grain": "month", "track": "work", "text": "Entire stretch upgraded with new sleepers after derailment.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Numedal_Line#3", "role": "both", "quote": "Following a derailment in April 2014 , the entire stretch was upgraded with new sleepers"}]}
+  ],
+  "undated_mentions": [
+    "First plans for a line through Numedal launched after 1871 (no exact date)",
+    "Diesel multiple units introduced for passenger trains in the 1930s",
+    "Service reduced considerably during World War II (steam hauling)",
+    "Trains sometimes ran only Kongsberg to Veggli in the 1950s",
+    "Discussion about closing the line started in the 1950s",
+    "Round trips reduced to three per day in the 1960s",
+    "School trains operated for a short period in the 1980s",
+    "Friends of the Numedal Line founded after the closure (no exact date)"
+  ]
+}

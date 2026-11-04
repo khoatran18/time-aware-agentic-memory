@@ -1,0 +1,944 @@
+{
+ "page_id": "Dennis_Quaid",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1978-11-25",
+   "grain": "day",
+   "track": "family",
+   "text": "Married first wife, actress P. J. Soles.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#12",
+     "role": "both",
+     "quote": "were married on November 25 , 1978"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in film Breaking Away, gaining notice.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#2",
+     "role": "both",
+     "quote": "he appeared in Breaking Away ( 1979 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in The Night the Lights Went Out in Georgia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "The Night the Lights Went Out in Georgia ( 1981 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1983",
+   "grain": "year",
+   "track": "family",
+   "text": "Divorced first wife P. J. Soles.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#12",
+     "role": "both",
+     "quote": "The couple divorced in 1983"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in Jaws 3-D.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "Jaws 3-D ( 1983 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Played astronaut Gordon Cooper in The Right Stuff.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#2",
+     "role": "both",
+     "quote": "earned good reviews for his role as astronaut Gordon Cooper in The Right Stuff ( 1983 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in Dreamscape.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "Dreamscape ( 1984 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in Enemy Mine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "Enemy Mine ( 1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in Innerspace.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "Innerspace ( 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Starring role in The Big Easy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "The Big Easy ( 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote and performed song Closer to You for The Big Easy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#21",
+     "role": "both",
+     "quote": "He wrote and performed the song Closer to You in the film The Big Easy ( 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Acclaimed portrayal of Jerry Lee Lewis in Great Balls of Fire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "Great Balls of Fire ! ( 1989 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Bonnie Raitt music video for Thing Called Love.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#3",
+     "role": "both",
+     "quote": "In 1989 , he also appeared throughout the Bonnie Raitt music video for the song Thing"
+    },
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#4",
+     "role": "description",
+     "quote": "Called Love ."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1991-02-14",
+   "grain": "day",
+   "track": "family",
+   "text": "Married actress Meg Ryan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#13",
+     "role": "both",
+     "quote": "On February 14 , 1991 , Quaid married actress Meg Ryan"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Lead role in adventure film Dragonheart.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#5",
+     "role": "both",
+     "quote": "He starred in the lead role in the 1996 adventure film Dragonheart"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Guest starred in a season 2 episode of Muppets Tonight.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#5",
+     "role": "both",
+     "quote": "guest star of a season 2 episode of Muppets Tonight ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Played twins' father in remake of The Parent Trap.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#5",
+     "role": "both",
+     "quote": "the remake of The Parent Trap ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Film directing debut with TV western Everything That Rises.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#6",
+     "role": "both",
+     "quote": "In 1998 , he made his debut as a film director with Everything That Rises"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Played aging pro football quarterback in Any Given Sunday.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#6",
+     "role": "both",
+     "quote": "Oliver Stones Any Given Sunday ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Frequency.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Frequency ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2000-06-28",
+   "grain": "day",
+   "track": "family",
+   "text": "Announced separation from Meg Ryan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#13",
+     "role": "both",
+     "quote": "Quaid and Ryan announced their separation on June 28 , 2000"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2001-02",
+   "grain": "month",
+   "track": "family",
+   "text": "Began dating model Shanna Moakler.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#14",
+     "role": "both",
+     "quote": "dated model Shanna Moakler from February 2001 to October 2001"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2001-07-16",
+   "grain": "day",
+   "track": "family",
+   "text": "Divorce from Meg Ryan finalized.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#13",
+     "role": "both",
+     "quote": "Their divorce was finalized July 16 , 2001"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2001-10",
+   "grain": "month",
+   "track": "family",
+   "text": "Ended dating relationship with Shanna Moakler.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#14",
+     "role": "both",
+     "quote": "dated model Shanna Moakler from February 2001 to October 2001"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: The Rookie.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "The Rookie ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in Far from Heaven, earning acclaimed supporting roles.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Far from Heaven ( 2002 )"
+    },
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#32",
+     "role": "date",
+     "quote": "For his role in Far from Heaven ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "philanthropy",
+   "text": "Charity golf weekend bearing his name held in Austin, 2002-2007.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#30",
+     "role": "both",
+     "quote": "held in Austin from 2002 until 2007"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Cold Creek Manor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Cold Creek Manor ( 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Flight of the Phoenix.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Flight of the Phoenix ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: The Alamo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "The Alamo ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: In Good Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "In Good Company ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: The Day After Tomorrow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "The Day After Tomorrow ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2004-07-04",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Texas real-estate agent Kimberly Buffington at his ranch.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#14",
+     "role": "both",
+     "quote": "married Texas real-estate agent Kimberly Buffington , on July 4 , 2004"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Yours, Mine and Ours.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Yours , Mine and Ours ( 2005 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named top golfer among Hollywood set by Golf Digest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#21",
+     "role": "both",
+     "quote": "in 2005 , he was named as the top golfer among the Hollywood set by Golf Digest magazine"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2007-11-18",
+   "grain": "day",
+   "track": "family",
+   "text": "Hospital mistakenly gave his ten-day-old twins a heparin dose 1,000 times the common dosage; Quaid later sued the manufacturer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#15",
+     "role": "both",
+     "quote": "On November 18 , 2007 , hospital staff mistakenly gave Quaids ten-day-old twins a dosage of heparin"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Vantage Point.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Vantage Point ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2008-05",
+   "grain": "month",
+   "track": "other",
+   "label": "testimony",
+   "text": "Testified with wife before US House committee on drug-manufacturer liability.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#15",
+     "role": "both",
+     "quote": "In May 2008 , the Quaids testified before the United States House Committee on Oversight and Government Reform"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Film credit: Pandorum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#7",
+     "role": "both",
+     "quote": "Pandorum ( 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Guest starred as Captain Redbeard in SpongeBob SquarePants episode.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#8",
+     "role": "both",
+     "quote": "In 2009 , Quaid guest starred in an episode of SpongeBob SquarePants"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Portrayed Bill Clinton in film The Special Relationship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#9",
+     "role": "both",
+     "quote": "in the 2010 film The Special Relationship"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "First patient-safety documentary (title missing) aired on Discovery Channel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#16",
+     "role": "both",
+     "quote": "The first documentary , , aired on the Discovery Channel in 2010"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Sheriff Ralph Lamb in CBS drama Vegas (2012-2013).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#9",
+     "role": "both",
+     "quote": "In 2012 and 2013 , Quaid played Sheriff Ralph Lamb in the CBS TV drama series Vegas"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Viewpoint with Dennis Quaid short-film series begins airing via CPB.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#31",
+     "role": "both",
+     "quote": "Since 2012 it has been airing through the Corporation for Public Broadcasting"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Second documentary Surfing the Healthcare Tsunami aired on Discovery Channel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#16",
+     "role": "both",
+     "quote": "the second documentary , Surfing the Healthcare Tsunami : Bring Your Best Board , aired on the Discovery Channel in 2012"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2012",
+   "grain": "year",
+   "track": "location",
+   "flag": "approximate_date",
+   "text": "Moved with Buffington to California in summer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "In the summer of 2012 , Quaid and Buffington moved to California"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2012-03",
+   "grain": "month",
+   "track": "family",
+   "text": "Kimberly Buffington filed for divorce.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "Buffington filed for divorce from Quaid in March 2012"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2012-04",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Received Distinguished Alumni Award from University of Houston.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#32",
+     "role": "description",
+     "quote": "Quaid was also honored with a Distinguished Alumni Award from his alma mater , the University of Houston ,"
+    },
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#33",
+     "role": "date",
+     "quote": "in April 2012 ."
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2012-04-26",
+   "grain": "day",
+   "track": "family",
+   "text": "Buffington's attorney withdrew the divorce papers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "Buffingtons attorney then withdrew the divorce papers on April 26 , 2012"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2012-10",
+   "grain": "month",
+   "track": "family",
+   "text": "Quaid and Buffington decided to separate again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "In October 2012 , Quaid and Buffington again decided to separate , and Buffington filed for legal separation"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2012-10",
+   "grain": "month",
+   "track": "family",
+   "text": "Buffington filed for legal separation, seeking custody of twins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "In October 2012 , Quaid and Buffington again decided to separate , and Buffington filed for legal separation"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2012-11-30",
+   "grain": "day",
+   "track": "family",
+   "text": "Quaid filed for divorce seeking joint custody of children.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#17",
+     "role": "both",
+     "quote": "Quaid filed for divorce on November 30 , 2012"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2013-09",
+   "grain": "month",
+   "track": "family",
+   "flag": "approximate_date",
+   "text": "Divorce dismissed after reconciliation with Buffington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#18",
+     "role": "both",
+     "quote": "the divorce was dismissed by September 2013"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2016-06-28",
+   "grain": "day",
+   "track": "family",
+   "text": "Announced joint statement that they were divorcing again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#18",
+     "role": "both",
+     "quote": "On June 28 , 2016 , the couple announced in a joint statement that they were divorcing"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2016-07",
+   "grain": "month",
+   "track": "family",
+   "text": "Began dating model Santa Auzina.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#19",
+     "role": "both",
+     "quote": "dated model Santa Auzina from July 2016 to 2019"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2017",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred as Ethan Montgomery in A Dog's Purpose.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#9",
+     "role": "both",
+     "quote": "In 2017 , he starred in A Dogs Purpose as Ethan Montgomery"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2018",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred as Arthur Millard in I Can Only Imagine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#10",
+     "role": "both",
+     "quote": "In 2018 , Quaid starred in I Can Only Imagine"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2018",
+   "grain": "year",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Starred as Hal in film Kin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#10",
+     "role": "both",
+     "quote": "and Kin , where he plays Hal , the father of the films two protagonists"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2018-04-27",
+   "grain": "day",
+   "track": "family",
+   "text": "Divorce from Kimberly Buffington finalized.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#18",
+     "role": "both",
+     "quote": "The divorce was finalized on April 27 , 2018"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2019",
+   "grain": "year",
+   "track": "family",
+   "text": "Ended dating relationship with Santa Auzina.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#19",
+     "role": "both",
+     "quote": "dated model Santa Auzina from July 2016 to 2019"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2019-10-21",
+   "grain": "day",
+   "track": "family",
+   "text": "Confirmed engagement to Laura Savoie.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#19",
+     "role": "both",
+     "quote": "On October 21 , 2019 , Quaid confirmed his engagement to Laura Savoie"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2020",
+   "grain": "year",
+   "track": "work",
+   "text": "Began podcasting, starting The Pet Show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#23",
+     "role": "both",
+     "quote": "Quaid began podcasting during 2020"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2020-06-02",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Laura Savoie in Santa Barbara.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#19",
+     "role": "both",
+     "quote": "They were married on June 2 , 2020 , in Santa Barbara"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2020-07-10",
+   "grain": "day",
+   "track": "work",
+   "text": "First episode of The Pet Show podcast premiered.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dennis_Quaid#23",
+     "role": "both",
+     "quote": "Its first episode premiered on July 10 , 2020"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Early 1990s: fought anorexia nervosa for Wyatt Earp role and recovered from cocaine addiction",
+  "Played Doc Holliday in Wyatt Earp (no date)",
+  "Attended Paul W. Horn Elementary, Pershing Middle, Bellaire High and University of Houston (no dates)",
+  "Dropped out of University of Houston and moved to Hollywood (no date)",
+  "Filed lawsuit against Baxter Healthcare over heparin packaging (no date)",
+  "Became patient-safety advocate after 2007 incident (no date)",
+  "Co-authored medical journal article on patient stories (no date)",
+  "Wrote Christian song On My Way to Heaven (no date)",
+  "Played with band the Sharks (no date)",
+  "Earned pilot's license and owned a Cessna Citation (no date)",
+  "Narrated Houston Astros 2005 championship commemorative DVD (after 2005 season, no exact date)",
+  "Dedicated Davis's jersey at Cleveland Browns Stadium after filming (no date)",
+  "Adopted cat named Dennis Quaid and flew it to California (no date)",
+  "Cocaine use, late 1960s-early 1970s (decade-level)",
+  "Recorded interview with Anthony Fauci for HHS COVID-19 campaign (after April 2020, no exact date)",
+  "Trips to Central America to build medical clinics, 1990s (decade-level)",
+  "Worked with International Hospital for Children, New Orleans (no date)",
+  "Film credit with title missing in source (2009)",
+  "Awards for Far from Heaven (NYFCC, Chicago FCA, Online FCS, Independent Spirit) and nominations (no award dates)"
+ ]
+}

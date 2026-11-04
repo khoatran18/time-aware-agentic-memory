@@ -1,0 +1,108 @@
+{
+  "page_id": "Zerelda_James",
+  "events": [
+    {"id": "e1", "date": "1825-01-29", "grain": "day", "track": "other", "label": "birth",
+     "text": "Zerelda Elizabeth Cole born in Woodford County, Kentucky.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#0", "role": "both", "quote": "( January 29 , 1825 – February 10 , 1911 )"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1825 Birth on January 29"}
+     ]},
+    {"id": "e2", "date": "1841-12-28", "grain": "day", "track": "family",
+     "text": "Married Robert Sallee James at Stamping Ground, Kentucky, aged 16.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#3", "role": "both", "quote": "Zerelda Cole married Robert Sallee James on December 28 , 1841"}
+     ]},
+    {"id": "e3", "date": "1845-08-21", "grain": "day", "track": "family",
+     "text": "Son Robert R. James died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#5", "role": "both", "quote": "Robert R . James ( b . July 19 , 1845 – d . August 21 , 1845 )"}
+     ]},
+    {"id": "e4", "date": "1850-08-18", "grain": "day", "track": "family",
+     "text": "First husband Robert Sallee James died in California.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#6", "role": "both", "quote": "died on ( according to tradition ) August 18 , 1850"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1850 Death of Robert Sallee James , her first husband"}
+     ]},
+    {"id": "e5", "date": "1852-09-30", "grain": "day", "track": "family",
+     "text": "Married Benjamin Simms, a wealthy farmer.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#7", "role": "both", "quote": "married widow Zerelda James on September 30 , 1852"}
+     ]},
+    {"id": "e6", "date": "1854-01-02", "grain": "day", "track": "family",
+     "text": "Second husband Benjamin Simms died after being thrown by his horse.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#7", "role": "both", "quote": "who died on January 2 , 1854 , when he was thrown by his horse"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1854 Death of Benjamin Simms , her second husband"}
+     ]},
+    {"id": "e7", "date": "1855-09-25", "grain": "day", "track": "family",
+     "text": "Married third husband Dr. Reuben Samuel.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#8", "role": "both", "quote": "on September 25 , 1855"}
+     ]},
+    {"id": "e8", "date": "1875-01-25", "grain": "day", "track": "other", "label": "raid",
+     "text": "Pinkerton detectives raided the homestead; her right arm was blown off.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#11", "role": "both", "quote": "On the night of January 25 , 1875 , he staged a raid on the homestead"}
+     ],
+     "flag": "source_inconsistent"},
+    {"id": "e9", "date": "1875-01-26", "grain": "day", "track": "family",
+     "text": "Son Archie Peyton Samuel died, killed in the Pinkerton raid.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#10", "role": "both", "quote": "Archie Peyton Samuel ( b . July 26 , 1866 – d . January 26 , 1875 )"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1875 Death of son Archie Samuel"}
+     ],
+     "flag": "source_inconsistent"},
+    {"id": "e10", "date": "1882-04-03", "grain": "day", "track": "family",
+     "text": "Son Jesse Woodson James died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#5", "role": "both", "quote": "Jesse Woodson James ( b . September 5 , 1847 – d . April 3 , 1882 )"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1882 Death of son Jesse James"}
+     ]},
+    {"id": "e11", "date": "1889-03-03", "grain": "day", "track": "family",
+     "text": "Daughter Susan Lavenia James died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#5", "role": "both", "quote": "Susan Lavenia James ( b . November 25 , 1849 – d . March 3 , 1889 )"}
+     ]},
+    {"id": "e12", "date": "1908-03-01", "grain": "day", "track": "family",
+     "text": "Third husband Dr. Reuben Samuel died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#8", "role": "both", "quote": "( b . January 1829 – d . March 1 , 1908 )"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1908 Death of Reuben Samuel , her third husband"}
+     ]},
+    {"id": "e13", "date": "1911-02-10", "grain": "day", "track": "other", "label": "death",
+     "text": "Zerelda died of a heart ailment on a train near Oklahoma City.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#0", "role": "both", "quote": "( January 29 , 1825 – February 10 , 1911 )"},
+       {"chunk_id": "/wiki/Zerelda_James#17", "role": "both", "quote": "Zerelda died in 1911 in the Burlington carriage"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1911 Death in Oklahoma City , Oklahoma on February 10"}
+     ]},
+    {"id": "e14", "date": "1915-02-18", "grain": "day", "track": "family",
+     "text": "Son Alexander Franklin (Frank) James died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#4", "role": "both", "quote": "Alexander Franklin James ( b . January 10 , 1843 – d . February 18 , 1915 )"},
+       {"chunk_id": "/wiki/Zerelda_James#20", "role": "both", "quote": "1915 Death of son Frank James"}
+     ]},
+    {"id": "e15", "date": "1921-07-14", "grain": "day", "track": "family",
+     "text": "Daughter Sarah Louisa Samuel died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#8", "role": "both", "quote": "Sarah Louisa Samuel ( b . April 7 , 1858 – d . July 14 , 1921 )"}
+     ]},
+    {"id": "e16", "date": "1922-05-03", "grain": "day", "track": "family",
+     "text": "Daughter Fanny Quantrill Samuel died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#10", "role": "both", "quote": "Fanny Quantrill Samuel ( b . October 18 , 1863 – d . May 3 , 1922 )"}
+     ]},
+    {"id": "e17", "date": "1934-03-15", "grain": "day", "track": "family",
+     "text": "Son John Thomas Samuel died.",
+     "evidence": [
+       {"chunk_id": "/wiki/Zerelda_James#9", "role": "both", "quote": "John Thomas Samuel ( b . December 25 , 1861 – d . March 15 , 1934 )"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Taken in by paternal grandfather after father's riding accident",
+    "Went to live with maternal relatives in Kentucky and attended a Catholic girls school",
+    "Moved near Centerville (later Kearney, Missouri) with Robert James",
+    "Left second husband Benjamin Simms",
+    "Received compensation from Pinkerton for son's death and her injury"
+  ]
+}
