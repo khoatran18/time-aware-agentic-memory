@@ -1,0 +1,7 @@
+# batchB9 (seed 7109)
+Haiku: 10 trang, 311 mốc (Goldberg 62, Volvo 24, Ocon 25, Milan 13, Levitina 30, Arnulf 42, Gethard 14, 44 Union 29, Game Grumps 47, Rezidor 28).
+Sau patch (`tools/patch_bB9.py`): 339 mốc = +30 thêm, -1 bỏ.
+Bỏ: Ocon e8 ("left Formula Renault campaigns", mốc tự bịa, không có trong văn bản).
+Sót (thêm): Goldberg +11 (PPV debut 1997, 4 giải thưởng 1998/2016, title defense đầu 1998-04-22, US title lần 2 và tag title 1999, Pride 2002-08, ESPN 2018-01-15, Royal Rumble 2021); Volvo +5 (EU 2003, 9900 2007, 9500 2010, 9800 2015, 9800DD 2018-03); Ocon +2 (chiến thắng đầu 2013, điểm đầu 2017); Rezidor +2 (2012-01, 2017); 44 Union +2 (1928-12, Slack 2020); Game Grumps +4 (Live 2016-03/04, Dendy 2019-11/12). Milan, Levitina, Arnulf, Gethard: không thêm.
+Lỗi check.py bắt (đã sửa): Arnulf toàn bộ năm 850-899 viết 3 chữ số (haiku thiếu số 0, patch tự thêm "0" đầu trong `fin`); Goldberg e27, e61 (quote both thiếu năm: chuyển thành description + date, cờ derived_date, bỏ source_inconsistent thừa ở e27); Gethard e5 (quote bị cắt giữa chunk). Lỗi check không bắt: Rezidor e25 có cờ ghép "derived_date; source_inconsistent" (đã đổi thành source_inconsistent).
+Quy ước tự đặt, chờ xác nhận: giải thưởng từng năm (PWI/WON) của Goldberg ghi `award`; kết quả trận/ván cờ/xếp hạng của Levitina không ghi (đúng G); trận đấu cụ thể của Goldberg (kết quả mỗi PPV) không ghi, chỉ ghi title change và mốc đầu tiên.

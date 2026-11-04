@@ -1,0 +1,145 @@
+{
+  "page_id": "Campaign_Against_Homophobia",
+  "events": [
+    {
+      "id": "e1",
+      "date": "2001-09",
+      "grain": "month",
+      "track": "other",
+      "label": "founding",
+      "text": "Founded in Warsaw.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#0", "role": "both", "quote": "It was founded in Warsaw in September 2001"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2001-09-11",
+      "grain": "day",
+      "track": "role",
+      "text": "Robert Biedroń's presidency began.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "Robert Biedroń, from 11 September 2001 to 22 February 2009"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2003",
+      "grain": "year",
+      "track": "work",
+      "text": "Billboard campaign sparked public outcry; advertisers withdrew contracts.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#5", "role": "both", "quote": "were to be put by KPH on billboards in major Polish cities in 2003"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "2009-02-22",
+      "grain": "day",
+      "track": "role",
+      "text": "Robert Biedroń's presidency ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "Robert Biedroń, from 11 September 2001 to 22 February 2009"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2009-02-22",
+      "grain": "day",
+      "track": "role",
+      "text": "Presidency began (name not stated in chunk).",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "from 22 February 2009 to 18 July 2010"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2009-10",
+      "grain": "month",
+      "track": "work",
+      "text": "Berlin-Yogyakarta Exhibition first shown at Warsaw University Library for three weeks.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#7", "role": "both", "quote": "first shown in October 2009 for three weeks at the prestigious University Library"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2010-07-18",
+      "grain": "day",
+      "track": "role",
+      "text": "Presidency ended (name not stated in chunk).",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "from 22 February 2009 to 18 July 2010"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2010-07-18",
+      "grain": "day",
+      "track": "role",
+      "text": "Presidency began (name not stated in chunk).",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "from 18 July 2010 to 26 February 2012"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2012-02-26",
+      "grain": "day",
+      "track": "role",
+      "text": "Presidency ended (name not stated in chunk).",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "from 18 July 2010 to 26 February 2012"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2012-02-26",
+      "grain": "day",
+      "track": "role",
+      "text": "Agata Chaber's presidency began.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "Agata Chaber , from 26 February 2012 to 2018"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2016",
+      "grain": "year",
+      "track": "work",
+      "text": "Rainbow Friday campaign initiated to support LGBTQI school youth.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#11", "role": "both", "quote": "campaign initiated in 2016 to show solidarity with LGBTQI youth"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Agata Chaber's presidency ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "Agata Chaber , from 26 February 2012 to 2018"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Presidency began (name not stated in chunk).",
+      "evidence": [
+        {"chunk_id": "/wiki/Campaign_Against_Homophobia#12", "role": "both", "quote": "since 2018"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Niech nas zobaczą photographs displayed in art galleries after advertisers withdrew (undated)",
+    "Berlin-Yogyakarta Exhibition also shown in Liblin, Wrocław and Gdańsk (undated)",
+    "Jestem gejem, jestem lesbijką tour of Polish universities (undated)",
+    "Festiwal Kultura dla Tolerancji founded by KPH members (undated)",
+    "Nie jesteś sam, nie jesteś sama poster campaign in selected cities (undated)",
+    "Spoko, ja też! short video campaign (undated)"
+  ]
+}

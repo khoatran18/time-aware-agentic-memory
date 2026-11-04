@@ -1,0 +1,615 @@
+{
+ "page_id": "Archaeologia_Cambrensis",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1846",
+   "grain": "year",
+   "track": "role",
+   "text": "Harry Longueville Jones and John Williams began as joint secretaries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Harry Longueville Jones and John Williams ( Ab Ithel ) ( joint secretaries , 1846–9 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1849",
+   "grain": "year",
+   "track": "role",
+   "text": "Basil Jones and John Williams began as joint secretaries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Basil Jones and John Williams ( Ab Ithel ) ( joint secretaries , 1849–53 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1849",
+   "grain": "year",
+   "track": "role",
+   "text": "Harry Longueville Jones and John Williams ended as joint secretaries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Harry Longueville Jones and John Williams ( Ab Ithel ) ( joint secretaries , 1846–9 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1853",
+   "grain": "year",
+   "track": "role",
+   "text": "Basil Jones and John Williams ended as joint secretaries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Basil Jones and John Williams ( Ab Ithel ) ( joint secretaries , 1849–53 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1854",
+   "grain": "year",
+   "track": "role",
+   "text": "Basil Jones and probably E. L. Barnwell began as joint editors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Basil Jones and ( probably ) E . L . Barnwell ( 1854–5 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1855",
+   "grain": "year",
+   "track": "role",
+   "text": "Harry Longueville Jones began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Harry Longueville Jones ( 1855–70 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1855",
+   "grain": "year",
+   "track": "role",
+   "text": "Basil Jones and probably E. L. Barnwell ended as joint editors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Basil Jones and ( probably ) E . L . Barnwell ( 1854–5 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1870",
+   "grain": "year",
+   "track": "role",
+   "text": "Harry Longueville Jones ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Harry Longueville Jones ( 1855–70 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1871",
+   "grain": "year",
+   "track": "role",
+   "text": "Daniel Silvan Evans began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Daniel Silvan Evans ( 1871–5 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1875",
+   "grain": "year",
+   "track": "role",
+   "text": "Daniel Silvan Evans ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "Daniel Silvan Evans ( 1871–5 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e11",
+   "date": "1876",
+   "grain": "year",
+   "track": "role",
+   "text": "D. R. Thomas began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "D . R . Thomas ( 1876–8 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1878",
+   "grain": "year",
+   "track": "role",
+   "text": "R. Trevor Owen began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "R . Trevor Owen , ( 1878–91 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1878",
+   "grain": "year",
+   "track": "role",
+   "text": "D. R. Thomas ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "D . R . Thomas ( 1876–8 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e14",
+   "date": "1884",
+   "grain": "year",
+   "track": "role",
+   "text": "D. R. Thomas began as joint editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "D . R . Thomas ( joint editor , 1884–7 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1887",
+   "grain": "year",
+   "track": "role",
+   "text": "J. Romilly Allen began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#8",
+     "role": "both",
+     "quote": "J . Romilly Allen ( 1887–1907 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1887",
+   "grain": "year",
+   "track": "role",
+   "text": "D. R. Thomas ended his term as joint editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "D . R . Thomas ( joint editor , 1884–7 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e17",
+   "date": "1891",
+   "grain": "year",
+   "track": "role",
+   "text": "R. Trevor Owen ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#7",
+     "role": "both",
+     "quote": "R . Trevor Owen , ( 1878–91 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "J. Romilly Allen ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#8",
+     "role": "both",
+     "quote": "J . Romilly Allen ( 1887–1907 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1908",
+   "grain": "year",
+   "track": "role",
+   "text": "Rupert Morris began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Rupert Morris ( 1908–17 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1917",
+   "grain": "year",
+   "track": "role",
+   "text": "J. Fisher began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "J . Fisher ( 1917–25 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1917",
+   "grain": "year",
+   "track": "role",
+   "text": "Rupert Morris ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Rupert Morris ( 1908–17 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "1925",
+   "grain": "year",
+   "track": "role",
+   "text": "J. Fisher ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "J . Fisher ( 1917–25 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e23",
+   "date": "1926",
+   "grain": "year",
+   "track": "role",
+   "text": "H. Harold Hughes and Ellis Davies began as editors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "H . Harold Hughes and Ellis Davies ( 1926–39 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "H. Harold Hughes and Ellis Davies ended their term as editors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "H . Harold Hughes and Ellis Davies ( 1926–39 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e25",
+   "date": "1940",
+   "grain": "year",
+   "track": "role",
+   "text": "Ellis Davies began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Ellis Davies ( 1940–8 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1948",
+   "grain": "year",
+   "track": "role",
+   "text": "Ellis Davies ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Ellis Davies ( 1940–8 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e27",
+   "date": "1949",
+   "grain": "year",
+   "track": "role",
+   "text": "Sir Cyril Fox listed as editor for 1949.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Sir Cyril Fox ( 1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "V. E. Nash-Williams began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "V . E . Nash-Williams ( 1950–5 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "V. E. Nash-Williams ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "V . E . Nash-Williams ( 1950–5 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e30",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "J. D. K. Lloyd began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "J . D . K . Lloyd ( 1956–69 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "W. Gwyn Thomas began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "W . Gwyn Thomas ( 1969–89 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "J. D. K. Lloyd ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "J . D . K . Lloyd ( 1956–69 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e33",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "W. Gwyn Thomas ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "W . Gwyn Thomas ( 1969–89 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e34",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Trefor M. Owen began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Trefor M . Owen ( 1990–2 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Nancy M. Edwards began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Nancy M . Edwards ( 1991–3 )"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Trefor M. Owen ended his term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Trefor M . Owen ( 1990–2 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e37",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Patricia Moore began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Patricia Moore ( 1993–9 )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Nancy M. Edwards ended her term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Nancy M . Edwards ( 1991–3 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e39",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Patricia Moore ended her term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Patricia Moore ( 1993–9 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e40",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Donald Moore listed as editor for 2000.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#9",
+     "role": "both",
+     "quote": "Donald Moore ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "William J. Britnell began as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#10",
+     "role": "both",
+     "quote": "William J . Britnell ( 2001– )"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Journal published a themed issue largely devoted to the Cistercians.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Archaeologia_Cambrensis#3",
+     "role": "both",
+     "quote": "the 2005 themed issue largely devoted to the Cistercians"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Indexes of the journal were published, covering 1846–1900, 1901–1960, 1961–1980 and 1981–2000 (publication dates not stated)",
+  "Many volumes digitized by the Welsh Journals Online project (dates not stated)"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page_id": "Counselor_to_the_President",
+ "events": [
+  {"id": "e1", "date": "1976", "grain": "year", "track": "role",
+   "text": "Rogers Morton briefly joins the post as domestic policy advisor",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#1", "role": "both", "quote": "with former United States Secretary of Commerce Rogers Morton briefly joining them as a domestic policy advisor in early 1976"}],
+   "flag": "approximate_date"},
+  {"id": "e2", "date": "1992", "grain": "year", "track": "role",
+   "text": "Clayton Yeutter fills the position after resigning as RNC chairman",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#4", "role": "both", "quote": "In 1992 , it was filled by Clayton Yeutter following his resignation"}]},
+  {"id": "e3", "date": "1993", "grain": "year", "track": "role",
+   "text": "Position stops being a Cabinet-level post",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#1", "role": "both", "quote": "It remained a Cabinet-level position until 1993"}]},
+  {"id": "e4", "date": "2011-01-06", "grain": "day", "track": "role",
+   "text": "Obama appoints Pete Rouse as counselor to the president",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#6", "role": "both", "quote": "On January 6 , 2011 , President Obama appointed Rouse as counselor to the president"}]},
+  {"id": "e5", "date": "2017-08", "grain": "month", "track": "role",
+   "text": "Steve Bannon departs the White House, leaving the position",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#10", "role": "both", "quote": "After Bannons departure from the White House in August 2017"}]},
+  {"id": "e6", "date": "2018-02", "grain": "month", "track": "role",
+   "text": "Johnny DeStefano given the title, overseeing presidential personnel offices",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#10", "role": "both", "quote": "Johnny DeStefano was given the title in February 2018"}]},
+  {"id": "e7", "date": "2020-02", "grain": "month", "track": "role",
+   "text": "Hope Hicks announced to return to the White House in the role",
+   "evidence": [{"chunk_id": "/wiki/Counselor_to_the_President#10", "role": "both", "quote": "In February 2020 , it was announced that former White House Communications Director Hope Hicks would return"}]}
+ ],
+ "undated_mentions": [
+  "Position created during the Richard Nixon administration with Cabinet rank",
+  "Robert T. Hartmann and John O. Marsh shared the post during the Gerald Ford presidency",
+  "Position vacant during the Jimmy Carter administration",
+  "Edwin Meese held the position during the first term of Ronald Reagan",
+  "Meese left the position when he became US attorney general in Reagan's second term; post left vacant",
+  "Position vacant in the first three years of George H.W. Bush's term",
+  "Position initially abolished under the Obama administration; duties transferred to Axelrod, Rouse and Jarrett",
+  "John Podesta was the last holder before leaving to chair the Hillary Clinton 2016 campaign (departure date not stated)"
+ ]
+}

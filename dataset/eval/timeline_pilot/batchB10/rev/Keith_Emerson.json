@@ -1,0 +1,997 @@
+{
+ "page_id": "Keith_Emerson",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1944-11-02",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Emerson born in Todmorden, West Yorkshire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#6",
+     "role": "both",
+     "quote": "Emerson was born on 2 November 1944 in Todmorden , West Yorkshire ."
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1967",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Formed the Nice with Lee Jackson and others.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#14",
+     "role": "both",
+     "quote": "In 1967 , Emerson formed the Nice with Lee Jackson"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1968",
+   "grain": "year",
+   "track": "work",
+   "text": "Nice performed Hang on to a Dream on Beat-Club TV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#80",
+     "role": "both",
+     "quote": "In the Nices 1968 live performance of Hang on to a Dream on the German television program Beat-Club"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1968",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Added a second Hammond organ, the C-3.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#86",
+     "role": "both",
+     "quote": "Around 1968 , during his time with the Nice , he added a second Hammond organ"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1968-06-26",
+   "grain": "day",
+   "track": "work",
+   "text": "Played Royal Albert Hall organ at a Nice show; flag-burning stunt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#94",
+     "role": "both",
+     "quote": "He played the Royal Albert Hall Organ at a show with the Nice on 26 June 1968"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Participated in Music from Free Creek supersession project.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#17",
+     "role": "both",
+     "quote": "he participated in the 1969 Music from Free Creek supersession project"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1969-12",
+   "grain": "month",
+   "track": "family",
+   "text": "Married Danish girlfriend Elinor.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#69",
+     "role": "both",
+     "quote": "Emerson married his Danish girlfriend , Elinor , around Christmas 1969 ."
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1970",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Nice.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#20",
+     "role": "both",
+     "quote": "In 1970 , Emerson left the Nice and formed Emerson , Lake & Palmer ( ELP )"
+    },
+    {
+     "chunk_id": "/wiki/Keith_Emerson#0",
+     "role": "both",
+     "quote": "After leaving the Nice in 1970 , he was a founding member of Emerson , Lake & Palmer ( ELP )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1970",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Formed Emerson, Lake & Palmer with Greg Lake and Carl Palmer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#20",
+     "role": "both",
+     "quote": "In 1970 , Emerson left the Nice and formed Emerson , Lake & Palmer ( ELP )"
+    },
+    {
+     "chunk_id": "/wiki/Keith_Emerson#0",
+     "role": "both",
+     "quote": "After leaving the Nice in 1970 , he was a founding member of Emerson , Lake & Palmer ( ELP )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP eponymous debut album released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#95",
+     "role": "both",
+     "quote": "on the 1970 eponymous debut album by ELP"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP performed at the Isle of Wight Festival.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#20",
+     "role": "both",
+     "quote": "ELP became popular immediately after their 1970 Isle of Wight Festival performance"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP album Pictures at an Exhibition released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#31",
+     "role": "both",
+     "quote": "By 1971 , with the releases Pictures at an Exhibition and Trilogy , ELP began to fully credit classical composers"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP album Trilogy released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#31",
+     "role": "both",
+     "quote": "By 1971 , with the releases Pictures at an Exhibition and Trilogy , ELP began to fully credit classical composers"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP album Tarkus released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#96",
+     "role": "both",
+     "quote": "on the 1971 ELP album Tarkus"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1971-03-26",
+   "grain": "day",
+   "track": "work",
+   "text": "Pictures at an Exhibition recorded live at Newcastle City Hall.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#96",
+     "role": "both",
+     "quote": "recorded there live on 26 March 1971"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "pilot licence",
+   "text": "Obtained pilot's licence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#70",
+     "role": "both",
+     "quote": "Emerson enjoyed flying as a hobby , and he obtained his pilots licence in 1972"
+    }
+   ]
+  },
+  {
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "ELP album Brain Salad Surgery released",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#1",
+     "role": "both",
+     "quote": "Brain Salad Surgery ( 1973 )"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1973-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Played a December 1973 show at Madison Square Garden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#84",
+     "role": "both",
+     "quote": "taking thirteen keyboard units to a December 1973 show at Madison Square Garden"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1974",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "ELP agreed to temporary hiatus after its 1974 tour.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#33",
+     "role": "both",
+     "quote": "Following ELPs 1974 tour , the members agreed to put the band on temporary hiatus"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1974",
+   "grain": "year",
+   "track": "work",
+   "text": "Brain Salad Surgery tour.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#92",
+     "role": "both",
+     "quote": "During the Brain Salad Surgery tour of 1974 , Emersons keyboard setup included"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1976",
+   "grain": "year",
+   "track": "work",
+   "text": "Released first solo single, Honky Tonk Train Blues.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#35",
+     "role": "both",
+     "quote": "In 1976 , while still in ELP , Emerson also released his first solo record , the single Honky Tonk Train Blues b/w Barrelhouse Shake-Down"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1979",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "ELP disbanded; Emerson began solo and other projects.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#47",
+     "role": "both",
+     "quote": "After ELP disbanded in 1979 , Emerson pursued a variety of projects"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1980",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed soundtrack music to Dario Argento's Inferno.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#50",
+     "role": "both",
+     "quote": "Dario Argentos Inferno ( 1980 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Released debut solo album Honky.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#48",
+     "role": "both",
+     "quote": "In 1981 , Emerson released his debut solo album , Honky ."
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed soundtrack music to Nighthawks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#50",
+     "role": "both",
+     "quote": "the action thriller Nighthawks ( 1981 ) starring Sylvester Stallone"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed soundtrack music to Best Revenge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#50",
+     "role": "both",
+     "quote": "( 1984 film ) Best Revenge"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed soundtrack music to Murder Rock.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#51",
+     "role": "both",
+     "quote": "Lucio Fulcis Murder Rock ( 1984 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Released a Christmas album.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#48",
+     "role": "both",
+     "quote": "including a Christmas album in 1988"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Recorded the album Changing States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#48",
+     "role": "both",
+     "quote": "Changing States ( also known as Cream of Emerson Soup ) recorded in 1989 but not released until 1995"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Composed music for The Church, Michele Soavi horror film.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#49",
+     "role": "both",
+     "quote": "which Emerson composed for the 1989 Michele Soavi horror film of the same name"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Toured briefly with supergroup The Best.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#54",
+     "role": "both",
+     "quote": "Emerson also toured briefly in 1990 with The Best"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Rejoined ELP as the group reformed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "In 1991 , ELP reformed for two more albums"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP world tours running 1992–1993.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "and world tours in 1992–1993"
+    }
+   ]
+  },
+  {
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "ELP album Black Moon released",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "Black Moon ( 1992 )"
+    }
+   ],
+   "id": "e34"
+  },
+  {
+   "id": "e35",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "illness",
+   "text": "Forced to take a year off from playing due to nerve condition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#71",
+     "role": "both",
+     "quote": "In 1993 , Emerson was forced to take a year off from playing"
+    },
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "After the 1993 tour , Emerson was forced to take a year off from playing"
+    }
+   ]
+  },
+  {
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "surgery",
+   "text": "Underwent nerve-graft surgery on his arm",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#68",
+     "role": "both",
+     "quote": "nearly career-ending nerve-graft surgery in 1993"
+    }
+   ],
+   "id": "e36"
+  },
+  {
+   "id": "e37",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Composer for the animated series Iron Man.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#51",
+     "role": "both",
+     "quote": "He was also the composer for the short-lived 1994 US animated television series Iron Man"
+    }
+   ]
+  },
+  {
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "ELP album In the Hot Seat released",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "In the Hot Seat ( 1994 )"
+    }
+   ],
+   "id": "e38"
+  },
+  {
+   "id": "e39",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Changing States album released after delay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#48",
+     "role": "both",
+     "quote": "Changing States ( also known as Cream of Emerson Soup ) recorded in 1989 but not released until 1995"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "ELP resumed touring.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "Following his recovery , ELP resumed touring in 1996"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1998-08",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "ELP broke up again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#56",
+     "role": "both",
+     "quote": "but broke up again in August 1998"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Featured panelist and performer at The Keyboard Meets Modern Technology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#66",
+     "role": "both",
+     "quote": "In 2000 , Emerson was a featured panelist and performer at The Keyboard Meets Modern Technology"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2002",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Reformed and toured with the Nice.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#58",
+     "role": "both",
+     "quote": "In 2002 Emerson reformed and toured with the Nice"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Released all-piano album Emerson Plays Emerson.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#60",
+     "role": "both",
+     "quote": "His solo releases included the all-piano album Emerson Plays Emerson ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Published autobiography Pictures of an Exhibitionist.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#68",
+     "role": "both",
+     "quote": "In 2004 Emerson published his autobiography entitled Pictures of an Exhibitionist"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed music to Japanese kaiju film soundtrack.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#60",
+     "role": "both",
+     "quote": "the soundtrack for the Japanese kaiju film ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Headlined the first Moogfest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#66",
+     "role": "both",
+     "quote": "in 2004 and 2006 respectively"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "Headlined the third Moogfest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#66",
+     "role": "both",
+     "quote": "in 2004 and 2006 respectively"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Began documentary film project with Jason Woodford.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#68",
+     "role": "both",
+     "quote": "In 2007 , Emerson began working with Canadian independent filmmaker Jason Woodford"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2007-12-10",
+   "grain": "day",
+   "track": "work",
+   "text": "Opened Led Zeppelin reunion tribute concert at O2 Arena.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#67",
+     "role": "both",
+     "quote": "Emerson opened the Led Zeppelin reunion/Ahmet Ertegun Tribute Concert at the O2 Arena in London on 10 December 2007"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2008-08",
+   "grain": "month",
+   "track": "work",
+   "text": "Keith Emerson Band album featuring Marc Bonilla released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#61",
+     "role": "both",
+     "quote": "Following the August 2008 release of the album Keith Emerson Band Featuring Marc Bonilla"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2008-08",
+   "grain": "month",
+   "track": "work",
+   "text": "Toured Russia, Baltic States and Japan with own band.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#61",
+     "role": "both",
+     "quote": "between August and October 2008"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Guest appearance on Spinal Tap album Back from the Dead.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#67",
+     "role": "both",
+     "quote": "Emerson also made a guest appearance in 2009 on Spinal Taps album Back from the Dead"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2009-06-30",
+   "grain": "day",
+   "track": "work",
+   "text": "Played Spinal Tap One Night Only tour show at Wembley Arena.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#67",
+     "role": "both",
+     "quote": "at Spinal Taps One Night Only World Tour at Wembley Arena on 30 June 2009"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Duo tour with bandmate Greg Lake.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#3",
+     "role": "both",
+     "quote": "He reunited with ELP bandmate Greg Lake in 2010 for a duo tour"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2010-03-14",
+   "grain": "day",
+   "track": "work",
+   "text": "Takashi Yoshimatsu's Tarkus arrangement premiered in Tokyo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#62",
+     "role": "both",
+     "quote": "which premiered on 14 March 2010 , performed by the Tokyo Philharmonic Orchestra ."
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2010-07-25",
+   "grain": "day",
+   "track": "work",
+   "text": "One-off ELP reunion concert closed High Voltage Festival.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#58",
+     "role": "both",
+     "quote": "On 25 July 2010 , a one-off Emerson , Lake & Palmer reunion concert closed the"
+    },
+    {
+     "chunk_id": "/wiki/Keith_Emerson#59",
+     "role": "description",
+     "quote": "High Voltage Festival as the main act in Victoria Park , East London"
+    }
+   ]
+  },
+  {
+   "date": "2010-09",
+   "grain": "month",
+   "track": "other",
+   "label": "health",
+   "text": "Announced urgent surgery after colonoscopy found a polyp; autumn touring postponed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#73",
+     "role": "both",
+     "quote": "In September 2010 , Emerson released a message stating"
+    }
+   ],
+   "id": "e58"
+  },
+  {
+   "id": "e59",
+   "date": "2011-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Began orchestral project with Terje Mikkelsen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#63",
+     "role": "both",
+     "quote": "In September 2011 , Emerson began working with Norwegian conductor Terje Mikkelsen"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Released final album The Three Fates Project.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#3",
+     "role": "both",
+     "quote": "The Three Fates Project , with Marc Bonilla and Terje Mikkelsen , was released in 2012"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2012-09",
+   "grain": "month",
+   "track": "work",
+   "text": "The Three Fates premiered in Norway.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#63",
+     "role": "both",
+     "quote": "The project The Three Fates was premiered in Norway in early September 2012"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2013-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Conducting debut with Orchestra Kentucky.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#65",
+     "role": "both",
+     "quote": "Emerson made his conducting debut with Orchestra Kentucky of Bowling Green , Kentucky in September 2013"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2014-10",
+   "grain": "month",
+   "track": "work",
+   "text": "Conducted South Shore Symphony at his 70th birthday tribute concert.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#65",
+     "role": "both",
+     "quote": "In October 2014 , Emerson conducted the South Shore Symphony at his 70th birthday tribute concert"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2015-07-10",
+   "grain": "day",
+   "track": "work",
+   "text": "UK live premiere of The Three Fates at Barbican Centre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#63",
+     "role": "both",
+     "quote": "The work received its UK live premiere on 10 July 2015 at Londons Barbican Centre"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "2016-03-11",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died by suicide at his home in Santa Monica, California.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#74",
+     "role": "both",
+     "quote": "Emerson died on 11 March 2016 in Santa Monica , California , of a self-inflicted gunshot wound to the head ."
+    },
+    {
+     "chunk_id": "/wiki/Keith_Emerson#76",
+     "role": "both",
+     "quote": "his grave memorial gives his date of death as 11 March 2016"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "2016-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "burial",
+   "text": "Buried at Lancing and Sompting Cemetery, West Sussex.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Keith_Emerson#76",
+     "role": "both",
+     "quote": "Emerson was buried on 1 April 2016 at Lancing and Sompting Cemetery"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "first commercial success with the Nice (late 1960s)",
+  "began piano lessons at age eight",
+  "attended West Tarring School",
+  "family evacuated during World War II, then settled in Goring-by-Sea",
+  "joined the T-Bones",
+  "joined The V.I.P.s",
+  "acquired first Hammond L-100 organ on hire purchase at age 15 or 16",
+  "worked at Lloyds Bank Registrars, later fired (undated)",
+  "first heard a Moog in a record shop",
+  "Nice concert at Royal Festival Hall with Moog and Royal Philharmonic Orchestra (undated)",
+  "Lifetime ban from Royal Albert Hall imposed on the Nice (undated)",
+  "received Nazi dagger from Lemmy Kilmister (undated)",
+  "spinning piano first used at Madison Square Garden Christmas concert (undated)",
+  "spinning piano stunt at California Jam (undated)",
+  "composed Piano Concerto No. 1 during ELP hiatus (undated)",
+  "began writing film soundtracks (1980s)",
+  "formed Emerson, Lake & Powell (mid-1980s)",
+  "formed the group 3 (mid-1980s)",
+  "formed Aliens of Extraordinary Ability (early 1990s)",
+  "resumed solo career (2000s)",
+  "moved from England to Santa Monica, California (mid-1990s)",
+  "sold much of his gear (mid-1990s)",
+  "his Sussex home burned down (around 1993, undated)",
+  "divorced Elinor (undated)",
+  "long-term relationship with Mari Kawaguchi began (undated)",
+  "duo shows with Greg Lake in the United States and Canada (spring 2010)"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+  "page_id": "Talk_im_Turm",
+  "events": [
+    {"id": "e1", "date": "1990", "grain": "year", "track": "work",
+     "text": "Talk im Turm begins weekly broadcasts on Sat.1, running to 1999",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#0", "role": "both", "quote": "ran for almost a decade from 1990 to 1999"}]},
+    {"id": "e2", "date": "1990", "grain": "year", "track": "role",
+     "text": "Florian Fischer-Fabian begins co-presenting the show with Heidi Schüller",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#1", "role": "both", "quote": "In 1990 Florian Fischer-Fabian and Heidi Schüller presented the show together"},
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "date", "quote": "Florian Fischer-Fabian ( 1990 )"}
+     ]},
+    {"id": "e3", "date": "1990", "grain": "year", "track": "role",
+     "text": "Heidi Schüller begins co-presenting the show with Florian Fischer-Fabian",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#1", "role": "both", "quote": "In 1990 Florian Fischer-Fabian and Heidi Schüller presented the show together"},
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "date", "quote": "Heidi Schüller ( 1990 )"}
+     ]},
+    {"id": "e4", "date": "1990", "grain": "year", "track": "role",
+     "text": "Erich Böhme begins presenting the show, replacing the co-presenters",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "both", "quote": "Erich Böhme ( 1990–1998 )"},
+       {"chunk_id": "/wiki/Talk_im_Turm#1", "role": "description", "quote": "in the course of the year they were replaced by Erich Böhme and Sandra Maischberger"}
+     ]},
+    {"id": "e5", "date": "1990", "grain": "year", "track": "role",
+     "text": "Sandra Maischberger begins presenting the show alongside Erich Böhme",
+     "flag": "source_inconsistent",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#1", "role": "description", "quote": "in the course of the year they were replaced by Erich Böhme and Sandra Maischberger"},
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "date", "quote": "Sandra Maischberger ( 1991 )"}
+     ]},
+    {"id": "e6", "date": "1990", "grain": "year", "track": "role",
+     "text": "Florian Fischer-Fabian is replaced as co-presenter",
+     "flag": "derived_date",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#1", "role": "both", "quote": "in the course of the year they were replaced by Erich Böhme and Sandra Maischberger"}]},
+    {"id": "e7", "date": "1990", "grain": "year", "track": "role",
+     "text": "Heidi Schüller is replaced as co-presenter",
+     "flag": "derived_date",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#1", "role": "both", "quote": "in the course of the year they were replaced by Erich Böhme and Sandra Maischberger"}]},
+    {"id": "e8", "date": "1991", "grain": "year", "track": "role",
+     "text": "Gero von Boehm begins presenting the show",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#8", "role": "both", "quote": "Gero von Boehm ( 1991 )"}]},
+    {"id": "e9", "date": "1991", "grain": "year", "track": "role",
+     "text": "Sandra Maischberger leaves the programme after about a year",
+     "flag": "derived_date",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#1", "role": "both", "quote": "Maischberger left the programme after a year"}]},
+    {"id": "e10", "date": "1998", "grain": "year", "track": "role",
+     "text": "Stefan Aust begins moderating the show",
+     "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#3", "role": "both", "quote": "moderated Talk im Turm from the end of 1998"},
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "date", "quote": "Stefan Aust ( 1998–1999 )"}
+     ]},
+    {"id": "e11", "date": "1998-09-27", "grain": "day", "track": "role",
+     "text": "Erich Böhme hosts the last Talk im Turm programme before the Bundestag elections",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#2", "role": "both", "quote": "hosted the last Talk im Turm programme for the Bundestag elections on 27 September 1998"}]},
+    {"id": "e12", "date": "1999", "grain": "year", "track": "role",
+     "text": "Stefan Aust leaves the moderating role",
+     "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#3", "role": "both", "quote": "to the beginning of 1999"},
+       {"chunk_id": "/wiki/Talk_im_Turm#8", "role": "date", "quote": "Stefan Aust ( 1998–1999 )"}
+     ]},
+    {"id": "e13", "date": "1999", "grain": "year", "track": "work",
+     "text": "Sat.1 discontinues production of Talk im Turm after about nine years",
+     "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Talk_im_Turm#3", "role": "both", "quote": "At the beginning of 1999 , the production of Talk im Turm was discontinued"},
+       {"chunk_id": "/wiki/Talk_im_Turm#0", "role": "date", "quote": "ran for almost a decade from 1990 to 1999"}
+     ]},
+    {"id": "e14", "date": "2002", "grain": "year", "track": "work",
+     "text": "Talk im Turm makes a short comeback on television",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#5", "role": "both", "quote": "In 2002 there was another short comeback of the show"}]},
+    {"id": "e15", "date": "2002-08-26", "grain": "day", "track": "work",
+     "text": "Böhme presents five election special programmes, 26 August to 23 September",
+     "flag": "derived_date",
+     "evidence": [{"chunk_id": "/wiki/Talk_im_Turm#5", "role": "both", "quote": "were broadcast every Monday from 26 August to 23 September at 10.15 pm"}]}
+  ],
+  "undated_mentions": [
+    "Production moved from Bonn to Berlin (no date given)",
+    "Sat.1 decided against a new edition of Talk im Turm (no date given)"
+  ]
+}

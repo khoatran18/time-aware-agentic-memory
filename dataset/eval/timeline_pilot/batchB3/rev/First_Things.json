@@ -1,0 +1,439 @@
+{
+ "page_id": "First_Things",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "James Nuechterlein begins service as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "James Nuechterlein , a Lutheran , from 1990 to 2004"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "James Nuechterlein ( 1990–2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1990-03",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "First Things is founded by Richard John Neuhaus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#2",
+     "role": "both",
+     "quote": "First Things was founded in March 1990 by Richard John Neuhaus"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1996-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Peter L. Berger resigns from the editorial board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#18",
+     "role": "both",
+     "quote": "who resigned in November 1996 amid The End of Democracy ? controversy"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2002-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Stanley Hauerwas resigns from the editorial board in protest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#18",
+     "role": "both",
+     "quote": "who resigned in February 2002 in protest with the journals stance on the War on Terror"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "James Nuechterlein's editorship ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "James Nuechterlein , a Lutheran , from 1990 to 2004"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "James Nuechterlein ( 1990–2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Damon Linker begins term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "Damon Linker , who converted from Judaism to Catholicism , from 2004 to 2005"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "Damon Linker ( 2004–2005 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Damon Linker leaves the editorship over disagreements with Neuhaus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "from 2004 to 2005 , when he left over disagreements with the editor-in-chief"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Joseph Bottum begins term as editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "Joseph Bottum , a Catholic , from 2005 to 2009"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "Joseph Bottum ( 2005–2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "flag": "source_inconsistent",
+   "text": "Joseph Bottum's editorship ends (source 1 gives 2009).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "Joseph Bottum , a Catholic , from 2005 to 2009"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "David P. Goldman begins as executive/senior editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David P . Goldman ( 2009–2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2009-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Richard John Neuhaus's editor-in-chief tenure ends with his death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#5",
+     "role": "both",
+     "quote": "the journals editor-in-chief until his death in January 2009"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "David Blum begins as executive/senior editor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David Blum ( 2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "David P. Goldman's senior editor term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David P . Goldman ( 2009–2010 )"
+    }
+   ]
+  },
+  {
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "David Blum's executive/senior editor term ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David Blum ( 2010 )"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "2010-10",
+   "grain": "month",
+   "track": "role",
+   "flag": "source_inconsistent",
+   "text": "Joseph Bottum is forced out after a funding controversy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#6",
+     "role": "both",
+     "quote": "Bottum served through October 2010 , when he was forced out"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "Joseph Bottum ( 2005–2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2010-10",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "James Nuechterlein returns as interim editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#6",
+     "role": "description",
+     "quote": "Nuechterlein returned from retirement to become interim editor"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "James Nuechterlein ( ad interim , 2010–2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "James Nuechterlein's interim editorship ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "James Nuechterlein ( ad interim , 2010–2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mills begins as executive/senior editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David Mills ( 2011–2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2011-04",
+   "grain": "month",
+   "track": "role",
+   "text": "R. R. Reno becomes the third editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#6",
+     "role": "both",
+     "quote": "became the magazines third editor in April 2011"
+    },
+    {
+     "chunk_id": "/wiki/First_Things#14",
+     "role": "both",
+     "quote": "R . R . Reno ( 2011–present )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mills's senior editor term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "David Mills ( 2011–2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Midge Decter begins ad interim senior editor term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Midge Decter ( ad interim , 2013–2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Midge Decter's ad interim term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Midge Decter ( ad interim , 2013–2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Mark Bauerlein begins as senior editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Mark Bauerlein ( 2014–2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2017",
+   "grain": "year",
+   "track": "role",
+   "text": "Matthew Schmitz begins as senior editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Matthew Schmitz ( 2017–present )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2017",
+   "grain": "year",
+   "track": "role",
+   "text": "Julia Yost begins as senior editor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Julia Yost ( 2017–present )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2017-02",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Michael Novak's advisory council membership ends at his death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#20",
+     "role": "both",
+     "quote": "Until his death in February 2017 , the council included also theologian and writer Michael Novak"
+    }
+   ]
+  },
+  {
+   "date": "2017-05",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "text": "Shalom Carmy begins regular column Litvak at large",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#12",
+     "role": "both",
+     "quote": "Since May 2017 Shalom Carmy"
+    }
+   ],
+   "id": "e27"
+  },
+  {
+   "id": "e28",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Mark Bauerlein's senior editor term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/First_Things#15",
+     "role": "both",
+     "quote": "Mark Bauerlein ( 2014–2019 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

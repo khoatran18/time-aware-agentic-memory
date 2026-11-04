@@ -1,0 +1,41 @@
+{
+ "page_id": "Lenin_Peak",
+ "events": [
+  {"id": "e1", "date": "1871", "grain": "year", "track": "naming", "text": "Peak discovered and originally named Mount Kaufmann.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#3", "role": "both", "quote": "The peak was discovered in 1871 and originally named Mount Kaufmann"}]},
+  {"id": "e2", "date": "1928", "grain": "year", "track": "naming", "text": "Mountain renamed Lenin Peak after Vladimir Lenin.",
+   "evidence": [
+    {"chunk_id": "/wiki/Lenin_Peak#3", "role": "both", "quote": "In 1928 , the mountain was renamed Lenin Peak"},
+    {"chunk_id": "/wiki/Lenin_Peak#10", "role": "both", "quote": "The title Lenin Peak was first applied to the highest point of the Trans-Alai Range in the same year ( 1928 )"}
+   ]},
+  {"id": "e3", "date": "1928-09", "grain": "month", "track": "other", "label": "ascent", "text": "Three mountaineers made first attempt on Kaufman Peak.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#8", "role": "both", "quote": "In September 1928 , three mountaineers"}]},
+  {"id": "e4", "date": "1928-09-25", "grain": "day", "track": "other", "label": "ascent", "text": "First ascent of Kaufman Peak reached by Soviet-German expedition.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#9", "role": "both", "quote": "On September 25 , 1928 they started climbing from the saddle along the NE Ridge and at 15.30 they reached the summit"}]},
+  {"id": "e5", "date": "1934-09-08", "grain": "day", "track": "other", "label": "ascent", "text": "Kasian Chernuha, Vitaly Abalakov and Ivan Lukin reached the summit.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#11", "role": "both", "quote": "On September 8 , 1934 , at 16:20 Kasian Chernuha , Vitaly Abalakov and Ivan Lukin"}]},
+  {"id": "e6", "date": "1937", "grain": "year", "track": "other", "label": "ascent", "text": "Third ascent: eight Soviet climbers led by Lev Barkhash reached summit.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#13", "role": "both", "quote": "The third ascent was three years later , in 1937 , when eight Soviet climbers"}]},
+  {"id": "e7", "date": "1950-08-14", "grain": "day", "track": "other", "label": "ascent", "text": "Twelve climbers led by Vladimir Racek reached summit, fourth ascent.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#14", "role": "both", "quote": "On August 14 , 1950 , twelve climbers"}]},
+  {"id": "e8", "date": "1954", "grain": "year", "track": "other", "label": "ascent", "text": "Classic route via Razdelnaya Peak and NW Ridge first climbed.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#15", "role": "both", "quote": "was first climbed in 1954 by the team of Soviet climbers"}]},
+  {"id": "e9", "date": "1960-08-15", "grain": "day", "track": "other", "label": "ascent", "text": "Eight Soviet climbers made direct climb along the North Face.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#15", "role": "both", "quote": "a successful direct climb along the North Face ( 15.08.1960 )"}]},
+  {"id": "e10", "date": "1974", "grain": "year", "track": "other", "label": "disaster", "text": "Eight female climbers died high on the mountain in a storm.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#16", "role": "both", "quote": "In 1974 , an entire team of eight female climbers died"}]},
+  {"id": "e11", "date": "1987", "grain": "year", "track": "other", "label": "ascent", "text": "First high-speed ascent completed, led by Valery Khrichtchatyi.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#17", "role": "both", "quote": "The first high-speed ascent of Lenin Peak was completed in 1987"}]},
+  {"id": "e12", "date": "1987", "grain": "year", "track": "other", "label": "ascent", "text": "First solo ascent achieved by Anatoli Boukreev.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#19", "role": "both", "quote": "In 1987 The first solo ascent was achieved by"}]},
+  {"id": "e13", "date": "1988", "grain": "year", "track": "other", "label": "ascent", "text": "First winter ascent led by Leonid Troshchinenko.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#18", "role": "both", "quote": "made the first winter ascent of Lenin Peak in 1988"}]},
+  {"id": "e14", "date": "1990", "grain": "year", "track": "other", "label": "disaster", "text": "Earthquake-triggered avalanche killed 43 climbers.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#19", "role": "both", "quote": "An avalanche triggered by an earthquake killed 43 climbers in 1990"}]},
+  {"id": "e15", "date": "2006-07", "grain": "month", "track": "naming", "text": "Peak renamed Qullai Abuali ibni Sino (Ibn Sina Peak) in Tajikistan.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#3", "role": "both", "quote": "In Tajikistan , the peak was renamed again in July 2006"}]},
+  {"id": "e16", "date": "2017-10", "grain": "month", "track": "naming", "text": "Kyrgyz president called for renaming the peak Manas Peak.",
+   "evidence": [{"chunk_id": "/wiki/Lenin_Peak#4", "role": "both", "quote": "in October 2017 , Kyrgyz president Almazbek Atambayev called for renaming the peak Manas Peak"}]}
+ ],
+ "undated_mentions": ["early 20th century: Korzhenevskiy expedition came nearest to the base of the future Lenin Peak"]
+}

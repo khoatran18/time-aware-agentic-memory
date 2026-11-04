@@ -1,0 +1,95 @@
+{
+  "page_id": "New_South_Wales_C38_class_locomotive",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1939-05",
+      "grain": "month",
+      "track": "work",
+      "text": "Order placed for five 38 class locomotives with Clyde Engineering.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#5", "role": "both", "quote": "In May 1939 , an order for five 38 class locomotives was placed with Clyde Engineering ."}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1943-01",
+      "grain": "month",
+      "track": "work",
+      "text": "Construction of the 30-locomotive class began.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#1", "role": "both", "quote": "Constructed between January 1943 and November 1949 , the 30 locomotives in the class were designed"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1945",
+      "grain": "year",
+      "track": "work",
+      "text": "Decision made to purchase 25 more locomotives after the initial five.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#7", "role": "both", "quote": "As the last of the five initial locomotives were leaving the shop in 1945 , a decision was made to purchase more"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1949-11",
+      "grain": "month",
+      "track": "work",
+      "text": "Construction of the 30-locomotive class completed.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#1", "role": "both", "quote": "Constructed between January 1943 and November 1949 , the 30 locomotives in the class were designed"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1961",
+      "grain": "year",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "First class locomotive withdrawn from service.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#11", "role": "both", "quote": "The first 38 class locomotive was withdrawn in 1961"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1962-04",
+      "grain": "month",
+      "track": "work",
+      "text": "Class briefly returned to the former Melbourne Limited Express route.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#11", "role": "both", "quote": "The 38 class briefly returned to the former Melbourne Limited Express route in April 1962"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1970-12",
+      "grain": "month",
+      "track": "work",
+      "text": "Class ceased operating the Newcastle Flyer between Gosford and Newcastle.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#10", "role": "both", "quote": "the Newcastle Flyer between Gosford and Newcastle until December 1970"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1970-12",
+      "grain": "month",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "Last class locomotive withdrawn from service.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_South_Wales_C38_class_locomotive#11", "role": "both", "quote": "with the last withdrawn in December 1970"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Class first conceived in the 1930s when a need for a locomotive to eliminate double heading was established",
+    "Class repainted green after the war",
+    "Class repainted black in the 1950s (all except 3813)",
+    "Green livery restored to 3801 and 3830 in the 1960s",
+    "Class began handing some express services over to diesel locomotives in the 1950s",
+    "Central West Express operated by the class into the 1960s"
+  ]
+}

@@ -1,0 +1,384 @@
+{
+ "page_id": "/wiki/Marc_Bohan",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1926-08-22",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Marc Bohan born in Paris",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#0",
+     "role": "both",
+     "quote": "born 22 August 1926"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1945",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Secured a job at Robert Piguet",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#0",
+     "role": "both",
+     "quote": "in 1945 he secured a job at Robert Piguet where he remained for four years"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1949",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Robert Piguet after four years",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#0",
+     "role": "both",
+     "quote": "in 1945 he secured a job at Robert Piguet where he remained for four years"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1949",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Accepted job as assistant to Edward Molyneux",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "In 1949 he accepted a job as an assistant to Edward Molyneux"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1950",
+   "grain": "year",
+   "track": "family",
+   "text": "Married first wife Dominique Gaborit",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#7",
+     "role": "both",
+     "quote": "whom he married in 1950"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1952",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Worked as designer for Madeleine de Rauch",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "He worked as a designer for Madeleine de Rauch in 1952"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1953",
+   "grain": "year",
+   "track": "work",
+   "text": "Produced one collection under own Paris salon",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "producing one collection in 1953"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1954",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Offered job at Jean Patou designing haute couture",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "In 1954 , Bohan was offered a job at Jean Patou"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1958",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Jean Patou",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "where he stayed until 1958"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1958",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began designing for Christian Dior London line",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#2",
+     "role": "both",
+     "quote": "From 1958 to 1960 Bohan designed for the Christian Dior , London line"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1960",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended work on Christian Dior London line",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#2",
+     "role": "both",
+     "quote": "From 1958 to 1960 Bohan designed for the Christian Dior , London line"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1960-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Promoted to replace Yves Saint Laurent as Dior designer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#2",
+     "role": "both",
+     "quote": "In September 1960 , Diors creative director Yves Saint Laurent was called up for military service ; Bohan was promoted to replace him"
+    }
+   ]
+  },
+  {
+   "date": "1962",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "First wife Dominique Gaborit died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#7",
+     "role": "both",
+     "quote": "Bohans first wife , Dominique Gaborit , whom he married in 1950 , died in 1962"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "id": "e14",
+   "date": "1963",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Sports Illustrated Designer of the Year award",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#8",
+     "role": "both",
+     "quote": "Sports Illustrated Designer of the Year award , 1963"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1963",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Schiffli Lace and Embroidery Institute award",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#8",
+     "role": "both",
+     "quote": "Schiffli Lace and Embroidery Institute award , 1963"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Notable collection inspired by Dr Zhivago",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#2",
+     "role": "both",
+     "quote": "One notable collection in 1966 was inspired by the Russian style of Dr Zhivago"
+    }
+   ]
+  },
+  {
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Princess Grace supported Bohan by opening the Baby Dior boutique",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#5",
+     "role": "both",
+     "quote": "Princess Grace supported Bohan by opening the Baby Dior boutique in 1967"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1976",
+   "grain": "year",
+   "track": "work",
+   "text": "Chosen to design wedding dress of Silvia Sommerlath",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#5",
+     "role": "both",
+     "quote": "In 1976 , Bohan was chosen to design the wedding dress of Silvia Sommerlath"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed wedding gown of Princess Caroline of Monaco",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#6",
+     "role": "both",
+     "quote": "Two years later , he designed the wedding gown of Princess Caroline of Monaco for her 1978 wedding to Philippe Junot"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named Chevalier de la Legion d'Honneur",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#8",
+     "role": "both",
+     "quote": "Chevalier de la Legion dHonneur , 1979"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1989",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Christian Dior",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#4",
+     "role": "both",
+     "quote": "In 1989 Bohan left Dior"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1989",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Norman Hartnell house in London",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#4",
+     "role": "both",
+     "quote": "before joining for the house of Norman Hartnell in London"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed guest-professor of fashion design in Vienna",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "In 1991 he was appointed for two years as guest-professor for fashion design"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1992",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Norman Hartnell",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#4",
+     "role": "both",
+     "quote": "where he worked for the label until 1992"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Guest-professor appointment in Vienna ended",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#1",
+     "role": "both",
+     "quote": "In 1991 he was appointed for two years as guest-professor for fashion design"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Musee Christian Dior held major Bohan retrospective",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Marc_Bohan#3",
+     "role": "both",
+     "quote": "In 2009 , the Musee Christian Dior at Granville held a major Bohan retrospective"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Briefly opened own Paris salon (no date)",
+  "Married Huguette Rinjonneau (no date)",
+  "Awarded Ordre de Saint Charles, Monaco (no date)"
+ ]
+}

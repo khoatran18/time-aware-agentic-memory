@@ -1,0 +1,1091 @@
+{
+ "page_id": "Janet_Frame",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1924-08-28",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Dunedin, New Zealand.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#0",
+     "role": "date",
+     "quote": "( 28 August 1924 – 29 January 2004 )"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#2",
+     "role": "both",
+     "quote": "delivered Frame at St . Helens Hospital in 1924"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1943",
+   "grain": "year",
+   "track": "education",
+   "text": "Began teacher training at Dunedin College of Education.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#5",
+     "role": "both",
+     "quote": "In 1943 , Frame began training as a teacher at the Dunedin College of Education"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1945",
+   "grain": "year",
+   "track": "other",
+   "label": "suicide attempt",
+   "text": "Attempted suicide by ingesting aspirin.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#5",
+     "role": "both",
+     "quote": "Things started to unravel later that year when she attempted suicide by ingesting a packet of aspirin"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1945",
+   "grain": "year",
+   "track": "other",
+   "label": "therapy",
+   "text": "Began regular therapy with junior lecturer John Money.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#5",
+     "role": "both",
+     "quote": "As a result , Frame began regular therapy sessions with junior lecturer John"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#6",
+     "role": "description",
+     "quote": "Money , to whom she developed a strong attraction"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1945-09",
+   "grain": "month",
+   "track": "education",
+   "text": "Abandoned teacher-training classroom during an inspector's visit.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#7",
+     "role": "both",
+     "quote": "In September 1945 , Frame abandoned her teacher-training classroom at Dunedins Arthur Street School"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1945-09",
+   "grain": "month",
+   "track": "other",
+   "label": "psychiatric admission",
+   "text": "Briefly admitted to Dunedin hospital psychiatric ward.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#7",
+     "role": "both",
+     "quote": "She was then briefly admitted to the psychiatric ward of the local Dunedin hospital"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1945-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Transferred to Seacliff Lunatic Asylum.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#7",
+     "role": "both",
+     "quote": "As a result , Frame was transferred from the local hospitals psychiatric ward to Seacliff Lunatic Asylum"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1951",
+   "grain": "year",
+   "track": "work",
+   "text": "Debut short-story collection The Lagoon and Other Stories published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#9",
+     "role": "both",
+     "quote": "In 1951 , while Frame was still a patient at Seacliff , New Zealands Caxton Press published her first book"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#36",
+     "role": "both",
+     "quote": "1951 The Lagoon and Other Stories . Christchurch : Caxton Press"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Hubert Church Prose Award for The Lagoon and Other Stories.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1951 : Hubert Church Prose Award ( The Lagoon and other Stories )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "lobotomy cancelled",
+   "text": "Scheduled lobotomy cancelled after the book's award.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#9",
+     "role": "both",
+     "quote": "This resulted in the cancellation of Frames scheduled lobotomy"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "hospital discharge",
+   "text": "Final discharge from Seacliff Lunatic Asylum.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#9",
+     "role": "both",
+     "quote": "Four years later , after her final discharge from Seacliff Frame met writer Frank Sargeson"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "meeting",
+   "text": "Met writer Frank Sargeson.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#9",
+     "role": "both",
+     "quote": "Four years later , after her final discharge from Seacliff Frame met writer Frank Sargeson"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1955-04",
+   "grain": "month",
+   "track": "location",
+   "text": "Began living and working at Sargeson's Takapuna home.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#9",
+     "role": "both",
+     "quote": "She lived and worked at his home in Takapuna , an Auckland suburb , from April 1955"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1956",
+   "grain": "year",
+   "track": "location",
+   "text": "Left New Zealand; thereafter based mainly in London, Europe.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#11",
+     "role": "both",
+     "quote": "Frame left New Zealand in late 1956 , and the next seven years were most prolific"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "grant",
+   "text": "New Zealand Literary Fund Grant received.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1956 : New Zealand Literary Fund Grant"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1956-07",
+   "grain": "month",
+   "track": "location",
+   "text": "Ended living and working at Sargeson's Takapuna home.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#10",
+     "role": "both",
+     "quote": "to July 1956 , producing her first full-length novel"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1957",
+   "grain": "year",
+   "track": "work",
+   "text": "Owls Do Cry, her first full-length novel, published by Pegasus Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#10",
+     "role": "both",
+     "quote": "producing her first full-length novel , Owls Do Cry ( Pegasus , 1957 )"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1957 Owls Do Cry . Christchurch : Pegasus Press"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Literary Fund Award for Achievement for Owls Do Cry.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1958 : New Zealand Literary Fund Award for Achievement ( Owls Do Cry )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1958-05",
+   "grain": "month",
+   "track": "naming",
+   "text": "Legally changed name to Nene Janet Paterson Clutha.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#11",
+     "role": "both",
+     "quote": "In May 1958 she legally changed her name to Nene Janet Paterson Clutha"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1958-09",
+   "grain": "month",
+   "track": "other",
+   "label": "psychiatric admission",
+   "text": "Voluntarily admitted herself to the Maudsley, London.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#12",
+     "role": "both",
+     "quote": "and in September 1958 admitted herself to the Maudsley in London"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1958-09",
+   "grain": "month",
+   "track": "other",
+   "label": "therapy",
+   "text": "Began regular therapy with psychiatrist Robert Hugh Cawley.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#12",
+     "role": "both",
+     "quote": "Frame then began regular therapy sessions with psychiatrist Robert Hugh Cawley"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1961",
+   "grain": "year",
+   "track": "work",
+   "text": "Faces in the Water published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1961 Faces in the Water . Christchurch : Pegasus Press"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1962",
+   "grain": "year",
+   "track": "work",
+   "text": "The Edge of the Alphabet published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1962 The Edge of the Alphabet . Christchurch : Pegasus Press"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1963",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to New Zealand.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#13",
+     "role": "both",
+     "quote": "Frame returned to New Zealand in 1963"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "Scented Gardens for the Blind published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1963 Scented Gardens for the Blind . London : WH Allen"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "The Reservoir: Stories and Sketches published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#36",
+     "role": "both",
+     "quote": "1963 . The Reservoir : Stories and Sketches/Snowman Snowman"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Hubert Church Prose Award for Scented Gardens for the Blind.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1964 : Hubert Church Prose Award ( Scented Gardens for the Blind )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "scholarship",
+   "text": "New Zealand Literary Fund Scholarship in Letters awarded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1964 : Hubert Church Prose Award ( Scented Gardens for the Blind ) ; New Zealand Literary Fund Scholarship in Letters"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "fellowship",
+   "text": "Accepted Robert Burns Fellowship at University of Otago.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#13",
+     "role": "both",
+     "quote": "She accepted the Burns Fellowship at the University of Otago in 1965"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1965 : Robert Burns Fellowship"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "The Adaptable Man published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1965 The Adaptable Man . London : WH Allen"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "A State of Siege published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#33",
+     "role": "both",
+     "quote": "1966 A State of Siege . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1967",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Buckland Literary Award for The Reservoir and A State of Siege.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#59",
+     "role": "both",
+     "quote": "1967 : Buckland Literary Award"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "The Pocket Mirror poems published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#38",
+     "role": "both",
+     "quote": "1967 . The Pocket Mirror . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1968",
+   "grain": "year",
+   "track": "work",
+   "text": "The Rainbirds published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#34",
+     "role": "both",
+     "quote": "1968 The Rainbirds . London : WH Allen"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1969",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Literary Fund Award for The Pocket Mirror.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#60",
+     "role": "both",
+     "quote": "1969 : New Zealand Literary Fund Award ( The Pocket Mirror : Poems )"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Mona Minim and the Smell of the Sun published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#37",
+     "role": "both",
+     "quote": "1969 . Mona Minim and the Smell of the Sun"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "Intensive Care published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#35",
+     "role": "both",
+     "quote": "1970 Intensive Care . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Buckland Literary Award for Intensive Care.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1971 : Buckland Literary Award ( Intensive Care )"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Hubert Church Prose Award for Intensive Care.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1971 : Buckland Literary Award ( Intensive Care ) ; Hubert Church Prose Award"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1972",
+   "grain": "year",
+   "track": "role",
+   "text": "President of Honour, PEN International New Zealand Centre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1972 : President of Honour : P.E.N . International New Zealand Centre"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1972",
+   "grain": "year",
+   "track": "work",
+   "text": "Daughter Buffalo published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#35",
+     "role": "both",
+     "quote": "1972 Daughter Buffalo . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1973",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "James Wattie Book of the Year Award for Daughter Buffalo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1973 : James Wattie Book of the Year Award ( Daughter Buffalo )"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Hubert Church Prose Award for Daughter Buffalo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1974 : Hubert Church Prose Award ( Daughter Buffalo ) ; Winn-Manson Menton Fellowship"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "fellowship",
+   "text": "Winn-Manson Menton Fellowship awarded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1974 : Hubert Church Prose Award ( Daughter Buffalo ) ; Winn-Manson Menton Fellowship"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1978",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Honorary Doctor of Literature from University of Otago.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1978 : Honorary Doctor of Literature ( D.Litt . Honoris Causa ) University of Otago"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Living in the Maniototo published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#35",
+     "role": "both",
+     "quote": "1979 Living in the Maniototo . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Buckland Literary Award for Living in the Maniototo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#61",
+     "role": "both",
+     "quote": "1979 : Buckland Literary Award ( Living in the Maniototo )"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1980",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Book Award for Fiction for Living in the Maniototo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#62",
+     "role": "both",
+     "quote": "1980 : New Zealand Book Award for Fiction ( Living in the Maniototo )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1982",
+   "grain": "year",
+   "track": "work",
+   "text": "To the Is-Land (autobiography volume 1) published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#40",
+     "role": "both",
+     "quote": "1982 . To the Is-Land ( Autobiography 1 )"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed Commander of the Order of the British Empire (CBE).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#18",
+     "role": "both",
+     "quote": "In the 1983 Queens Birthday Honours , Frame was appointed a Commander of the Order of the British Empire"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Buckland Literary Award for To the Is-Land.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#63",
+     "role": "both",
+     "quote": "1983 : Buckland Literary Award ; Sir James Wattie Book of the Year Award ( To the Is-Land )"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "James Wattie Book of the Year Award for To the Is-Land.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#63",
+     "role": "both",
+     "quote": "1983 : Buckland Literary Award ; Sir James Wattie Book of the Year Award ( To the Is-Land )"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "You Are Now Entering the Human Heart published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#36",
+     "role": "both",
+     "quote": "1983 . You Are Now Entering the Human Heart . Wellington : Victoria University Press"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "An Angel at My Table (autobiography volume 2) published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#40",
+     "role": "both",
+     "quote": "1984 . An Angel at My Table ( Autobiography 2 )"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "The Envoy From Mirror City (autobiography volume 3) published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#40",
+     "role": "both",
+     "quote": "1984 . The Envoy From Mirror City ( Autobiography 3 )"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "fellowship",
+   "text": "Frank Sargeson Fellowship at University of Auckland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#63",
+     "role": "both",
+     "quote": "1984 : Frank Sargeson Fellowship , University of Auckland , NZ"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Book Award for Non-Fiction for An Angel at My Table.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#63",
+     "role": "both",
+     "quote": "1984 : New Zealand Book Award for Non-Fiction ( An Angel at My Table )"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "James Wattie Book of the Year Award for An Angel at My Table.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#63",
+     "role": "both",
+     "quote": "1984 : New Zealand Book Award for Non-Fiction ( An Angel at My Table ) ; Sir James Wattie Book of the Year Award"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "James Wattie Book of the Year Award for The Envoy from Mirror City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#64",
+     "role": "both",
+     "quote": "1985 : Sir James Wattie Book of the Year Award ( The Envoy from Mirror City )"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Book Award for Non-Fiction for The Envoy from Mirror City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1986 : New Zealand Book Award for Non-Fiction ( The Envoy from Mirror City )"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "honorary membership",
+   "text": "Honorary Foreign Member of the American Academy and Institute of Arts and Letters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1986 : New Zealand Book Award for Non-Fiction ( The Envoy from Mirror City ) ; Honorary Foreign Member"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Collected autobiography edition, An Autobiography, published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#40",
+     "role": "both",
+     "quote": "1989 . An Autobiography ( Collected edition )"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "The Carpathians, her final novel, published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#35",
+     "role": "both",
+     "quote": "1989 The Carpathians . New York : Braziller"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Ansett New Zealand Book Award for Fiction for The Carpathians.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1989 : Ansett New Zealand Book Award for Fiction ; Commonwealth Writers Prize for Best Book"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Commonwealth Writers Prize for The Carpathians.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#20",
+     "role": "both",
+     "quote": "the Commonwealth Writers Prize in 1989 for her final novel , The Carpathians"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1990-02-06",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed to the Order of New Zealand, the nation's highest civil honour.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#21",
+     "role": "both",
+     "quote": "On 6 February 1990 , Frame was the sixteenth appointee to the Order of New Zealand"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1990 : O.N.Z . ( Member , Order of New Zealand )"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Honorary Doctor of Literature from University of Waikato.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1992 : Honorary Doctor of Literature ( D.Litt. ) , University of Waikato"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Massey University Medal awarded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#65",
+     "role": "both",
+     "quote": "1994 : Massey University Medal , Massey University"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Arts Foundation of New Zealand Icon Award received.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#66",
+     "role": "both",
+     "quote": "2003 : Arts Foundation of New Zealand Icon Award"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "New Zealand Prime Minister's Award for Literary Achievement received.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#66",
+     "role": "both",
+     "quote": "2003 : Arts Foundation of New Zealand Icon Award ; New Zealand Prime Minister’s Award for Literary Achievement"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "2004-01-29",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Dunedin of acute myeloid leukaemia, aged 79.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Janet_Frame#0",
+     "role": "date",
+     "quote": "( 28 August 1924 – 29 January 2004 )"
+    },
+    {
+     "chunk_id": "/wiki/Janet_Frame#27",
+     "role": "both",
+     "quote": "Frame died in Dunedin in January 2004 , aged 79"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "In the 1980s Frame authored three volumes of autobiography",
+  "During the eight years after 1945: repeated readmission to psychiatric hospitals (Seacliff, Avondale, Sunnyside)",
+  "During the eight years after 1945: first diagnosed with schizophrenia, treated with ECT and insulin",
+  "Residencies at the MacDowell and Yaddo artists colonies in the United States (undated)"
+ ]
+}

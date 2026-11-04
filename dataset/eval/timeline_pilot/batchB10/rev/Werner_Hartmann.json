@@ -1,0 +1,524 @@
+{
+ "page_id": "Werner_Hartmann",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1902-12-11",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Silstedt near Wernigerode, Province of Saxony.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#1",
+     "role": "both",
+     "quote": "Hartmann was born on 11 December 1902 in Silstedt near Wernigerode"
+    },
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#0",
+     "role": "date",
+     "quote": "( 11 December 1902 – 26 April 1963 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1909",
+   "grain": "year",
+   "track": "education",
+   "label": "",
+   "text": "Began attending Volksschule in Silstedt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#1",
+     "role": "both",
+     "quote": "From 1909 to 1914 , he attended the Volksschule"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1914",
+   "grain": "year",
+   "track": "education",
+   "label": "",
+   "text": "Ended Volksschule; later attended Gymnasium in Magdeburg district.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#1",
+     "role": "both",
+     "quote": "From 1909 to 1914 , he attended the Volksschule"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1914-04-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Joined Royal Prussian Cadet Corps in Oranienstein.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#2",
+     "role": "both",
+     "quote": "On 1 April 1914 , Hartmann joined the Königlich Preußischen Kadettenkorps"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1917-04-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Transferred to Main Military Academy in Berlin-Lichterfelde.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#2",
+     "role": "both",
+     "quote": "he transferred to the Hauptkadettenanstalt ( Main Military Academy ) in Berlin-Lichterfelde on 1 April 1917"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1921",
+   "grain": "year",
+   "track": "education",
+   "label": "",
+   "text": "Graduated with Abitur at the Berlin-Lichterfelde academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#2",
+     "role": "both",
+     "quote": "There he graduated with his Abitur ( diploma ) in 1921"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1921-04-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Began naval career with the Reichsmarine as member of Crew 21.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#2",
+     "role": "both",
+     "quote": "began his naval career with the Reichsmarine of the Weimar Republic on 1 April 1921"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1921-04-01",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "Began basic military training in Stralsund.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#3",
+     "role": "both",
+     "quote": "It began with basic military training ( 1 April – 30 September 1921 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1921-10-01",
+   "grain": "day",
+   "track": "education",
+   "label": "",
+   "text": "Began onboard training after transfer (unit name missing).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#3",
+     "role": "both",
+     "quote": "Hartmann was then transferred to the ( 1 October 1921 – April 1922 ) for onboard training"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1922-04",
+   "grain": "month",
+   "track": "education",
+   "label": "",
+   "flag": "derived_date",
+   "text": "Moved to training ship Niobe for training.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#3",
+     "role": "both",
+     "quote": "then to the training ship Niobe ( April – 30 June 1922 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1923-04-01",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Advanced in rank to Fähnrich zur See.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#3",
+     "role": "both",
+     "quote": "he advanced in rank to Fähnrich zur See ( officer cadet ) on 1 April 1923"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1925-04-04",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Advanced in rank to Oberfähnrich zur See.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#4",
+     "role": "both",
+     "quote": "Oberfähnrich zur See ( Senior Ensign ) on 4 April 1925"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1935",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "Transferred to the U-boat arm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#5",
+     "role": "both",
+     "quote": "before transferring to the U-boat arm in 1935"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1936-10-02",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Wehrmacht Long Service Award 4th and 3rd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "Wehrmacht Long Service Award 4th and 3rd Class ( 2 October 1936 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1937",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Commanded boat patrolling Spanish waters during the Civil War, 1937-38 (boat name missing)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#5",
+     "role": "both",
+     "quote": "he commanded that patrolled Spanish waters during the Civil War in 1937–38"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e16",
+   "date": "1939-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Wehrmacht Long Service Award 2nd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "Wehrmacht Long Service Award 2nd Class ( 1 April 1939 )"
+    }
+   ]
+  },
+  {
+   "date": "1939-08-19",
+   "grain": "day",
+   "track": "work",
+   "label": "first patrol",
+   "text": "Began first patrol on U-37 from Wilhelmshaven",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#8",
+     "role": "both",
+     "quote": "Hartmanns first patrol ( 19 August 1939"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1939-08-21",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Spanish Naval Merit Cross in White 2nd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "Spanish Naval Merit Cross in White 2nd Class ( Cruz blanca del merito naval ) ( 21 August 1939 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1939-11-08",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Iron Cross 2nd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "Iron Cross ( 1939 ) - 2nd Class ( 8 November 1939 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1939-11-08",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Iron Cross 1st Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "1st Class ( 8 November 1939 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1939-12-07",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received U-boat War Badge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "U-boat War Badge ( 1939 ) ( 7 December 1939 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1940-01",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "text": "Became commander of two units including 2nd U-boat Flotilla.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#6",
+     "role": "both",
+     "quote": "From January–May 1940 Hartmann was commander of both and 2nd U-boat Flotilla"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1940-05",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "text": "Ended command of two units including 2nd U-boat Flotilla.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#6",
+     "role": "both",
+     "quote": "From January–May 1940 Hartmann was commander of both and 2nd U-boat Flotilla"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1940-05-09",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Knight's Cross of the Iron Cross as commander of U-37.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#14",
+     "role": "both",
+     "quote": "Knights Cross on 9 May 1940 as Korvettenkapitän and commander of U-37"
+    },
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#6",
+     "role": "description",
+     "quote": "Hartmann received the Knights Cross of the Iron Cross"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1940-11",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "text": "Became commander of 2nd ULD (U-boat Training Division).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#9",
+     "role": "both",
+     "quote": "in November 1940 became commander of the 2nd ULD"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1941-11",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "flag": "derived_date",
+   "text": "Took command of 27th U-boat Flotilla in Gotenhafen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#9",
+     "role": "both",
+     "quote": "A year later he took command of the 27th U-boat Flotilla in Gotenhafen"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1942-11",
+   "grain": "month",
+   "track": "role",
+   "label": "",
+   "text": "Took command of large Type IXD U-boat for Indian Ocean patrol.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#9",
+     "role": "both",
+     "quote": "In November 1942 he took command of the large Type IXD"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1944",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Became Führer der Unterseeboote Mittelmeer (U-boat commander in the Mediterranean).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#9",
+     "role": "both",
+     "quote": "In 1944 Hartmann became Führer der Unterseeboote"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1944-11-05",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received U-boat War Badge with Diamonds",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#13",
+     "role": "both",
+     "quote": "with Diamonds ( 5 November 1944 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1944-11-05",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Oak Leaves to Knight's Cross (645th recipient).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#15",
+     "role": "both",
+     "quote": "645th Oak Leaves on 5 November 1944 as Kapitän zur See"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1956-07-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Joined the Bundesmarine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#11",
+     "role": "both",
+     "quote": "After the war he joined the Bundesmarine on 1 July 1956"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1962-04-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Retired from the Bundesmarine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#11",
+     "role": "both",
+     "quote": "retiring on 1 April 1962"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1963-04-26",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Usseln/Waldeck of pulmonary embolism.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#11",
+     "role": "both",
+     "quote": "He died on 26 April 1963 in Usseln/Waldeck"
+    },
+    {
+     "chunk_id": "/wiki/Werner_Hartmann#0",
+     "role": "date",
+     "quote": "( 11 December 1902 – 26 April 1963 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Served as commander of the torpedo boats (before 1935, undated)",
+  "Initially served in the Vorkorps (pre corps) of the Kadettenkorps",
+  "Moved to the BdU as a staff officer (undated)",
+  "Commanded the 1. Schiffsstammregiment (1st Naval training regiment) in Glückstadt (undated)"
+ ]
+}

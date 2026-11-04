@@ -1,0 +1,458 @@
+{
+ "page_id": "Irina_Levitina",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1954-06-08",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born; Russian-American chess and bridge player.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#0",
+     "role": "both",
+     "quote": "born June 8 , 1954"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Soviet Women's Champion title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#3",
+     "role": "both",
+     "quote": "She was the Soviet Womens Champion four times—in 1971 , 1978 ( jointly ) , 1979 , and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1978",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Soviet Women's Champion title (jointly).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#3",
+     "role": "both",
+     "quote": "She was the Soviet Womens Champion four times—in 1971 , 1978 ( jointly ) , 1979 , and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Soviet Women's Champion title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#3",
+     "role": "both",
+     "quote": "She was the Soviet Womens Champion four times—in 1971 , 1978 ( jointly ) , 1979 , and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Soviet Women's Champion title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#3",
+     "role": "both",
+     "quote": "She was the Soviet Womens Champion four times—in 1971 , 1978 ( jointly ) , 1979 , and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Became World Women's Championship Challenger, beating Semenova in Sochi final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#2",
+     "role": "both",
+     "quote": "In 1984 , she beat Lidia Semenova 7 : 5 in Sochi ( final ) and became World Womens Championship Challenger"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Alpwater Award, first Soviet citizen to win a bridge award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#6",
+     "role": "both",
+     "quote": "In 1986 , Levitina won the Alpwater Award for the best played hand of the year by a woman player"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1990",
+   "grain": "year",
+   "track": "location",
+   "text": "Emigrated to the United States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#4",
+     "role": "both",
+     "quote": "After her emigration in 1990 to the United States"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won U.S. Women's Champion title (jointly).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#4",
+     "role": "both",
+     "quote": "she has also been U.S . Womens Champion in 1991 ( jointly ) , 1992 , and 1993 ( jointly )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won U.S. Women's Champion title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#4",
+     "role": "both",
+     "quote": "she has also been U.S . Womens Champion in 1991 ( jointly ) , 1992 , and 1993 ( jointly )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won U.S. Women's Champion title (jointly).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#4",
+     "role": "both",
+     "quote": "she has also been U.S . Womens Champion in 1991 ( jointly ) , 1992 , and 1993 ( jointly )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Knockout Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Knockout Teams ( 3 ) 1993 , 1995 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1995",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Knockout Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Knockout Teams ( 3 ) 1993 , 1995 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won World Women Team Olympiad title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "World Women Team Olympiad ( 1 ) 1996"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Team Trials title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#8",
+     "role": "both",
+     "quote": "Womens Team Trials ( 5 ) 1996 , 2001 , 2005 , 2007 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Transnational Mixed Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Transnational Mixed Teams ( 1 ) 2000"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Swiss Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Swiss Teams ( 3 ) 2001 , 2005 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Team Trials title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#8",
+     "role": "both",
+     "quote": "Womens Team Trials ( 5 ) 1996 , 2001 , 2005 , 2007 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won McConnell Cup title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "McConnell Cup ( 1 ) 2002"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Board-a-Match Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Board-a-Match Teams ( 3 ) 2004 , 2006 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Swiss Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Swiss Teams ( 3 ) 2001 , 2005 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Team Trials title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#8",
+     "role": "both",
+     "quote": "Womens Team Trials ( 5 ) 1996 , 2001 , 2005 , 2007 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won World Women's Pairs title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "World Womens Pairs ( 1 ) 2006"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Board-a-Match Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Board-a-Match Teams ( 3 ) 2004 , 2006 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Venice Cup title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Venice Cup ( 1 ) 2007"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Swiss Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Swiss Teams ( 3 ) 2001 , 2005 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Team Trials title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#8",
+     "role": "both",
+     "quote": "Womens Team Trials ( 5 ) 1996 , 2001 , 2005 , 2007 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Board-a-Match Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Board-a-Match Teams ( 3 ) 2004 , 2006 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Knockout Teams title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#7",
+     "role": "both",
+     "quote": "Womens Knockout Teams ( 3 ) 1993 , 1995 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won Women's Team Trials title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Irina_Levitina#8",
+     "role": "both",
+     "quote": "Womens Team Trials ( 5 ) 1996 , 2001 , 2005 , 2007 , 2009"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Gained the title Woman Grandmaster (no date)",
+  "Won five world championship events in contract bridge (no date)"
+ ]
+}

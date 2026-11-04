@@ -1,0 +1,271 @@
+{
+  "page_id": "Chicago_Red_Stars",
+  "events": [
+    {
+      "id": "e1",
+      "date": "2006",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Club announced it would field a team in new WPS league",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#4", "role": "both", "quote": "In 2006 , it was announced that Chicago would field a team in a new womens professional soccer league"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2008-06-03",
+      "grain": "day",
+      "track": "naming",
+      "text": "Red Stars name announced at Toyota Park ceremony",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#5", "role": "both", "quote": "On June 3 , 2008 , the Red Stars name was announced at a Toyota Park ceremony"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined Women's Professional Soccer for its inaugural season",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#4", "role": "both", "quote": "for the leagues inaugural season in 2009"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2009",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Chicago Professional Women's Soccer investor group began owning the team",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#30", "role": "both", "quote": "The Chicago Professional Womens Soccer investor group owned the Red Stars from 2009 to 2010"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2009",
+      "grain": "year",
+      "track": "role",
+      "text": "Emma Hayes became coach (2009-2010 tenure)",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#36", "role": "both", "quote": "Emma Hayes ( 2009–2010 )"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2009",
+      "grain": "year",
+      "track": "role",
+      "text": "Peter Wilt stepped down as CEO",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#9", "role": "both", "quote": "Peter Wilt stepped down as CEO at the end of 2009"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2010",
+      "grain": "year",
+      "track": "role",
+      "text": "Emma Hayes coaching tenure ended",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#36", "role": "both", "quote": "Emma Hayes ( 2009–2010 )"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2010",
+      "grain": "year",
+      "track": "role",
+      "text": "Omid Namazi became coach",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#36", "role": "both", "quote": "Omid Namazi ( 2010 )"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2010",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Arnim Whisler took over the team; investor group ownership ended",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#30", "role": "date", "quote": "owned the Red Stars from 2009 to 2010"},
+        {"chunk_id": "/wiki/Chicago_Red_Stars#32", "role": "both", "quote": "Arnim Whisler took over the team after the 2010 season"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2010-12-13",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Left WPS because it could not meet league funding requirements",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#1", "role": "both", "quote": "After leaving the WPS in December 2010 due to the leagues financial issues"},
+        {"chunk_id": "/wiki/Chicago_Red_Stars#10", "role": "description", "quote": "the team left WPS on December 13 because they were unable to meet the leagues funding requirements"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2011",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined Women's Premier Soccer League (WPSL)",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#11", "role": "both", "quote": "The Red Stars joined the Womens Premier Soccer League in 2011"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2011",
+      "grain": "year",
+      "track": "role",
+      "text": "Rory Dames became coach",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#36", "role": "both", "quote": "Rory Dames ( 2011– )"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2011",
+      "grain": "year",
+      "track": "location",
+      "text": "Began playing home games at Village of Lisle-Benedictine complex",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#28", "role": "both", "quote": "From 2011 to 2015 , in the Womens Premier Soccer League"},
+        {"chunk_id": "/wiki/Chicago_Red_Stars#11", "role": "description", "quote": "They played their home games at Village of Lisle-Benedictine University Sports Complex"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2012",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Co-founded WPSL Elite League",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#13", "role": "both", "quote": "In 2012 , the Red Stars joined the former WPS Boston Breakers and Western New York Flash to found the WPSL Elite League"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2012",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won the 2012 National Women's Cup",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#14", "role": "both", "quote": "The Red Stars won the 2012 National Womens Cup"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2012-11",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Co-founded NWSL as one of its original eight teams",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#16", "role": "both", "quote": "In November 2012 , the Red Stars co-founded and was one of the original eight teams"},
+        {"chunk_id": "/wiki/Chicago_Red_Stars#1", "role": "description", "quote": "The club became a founding member of the NWSL"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2013",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began playing in the National Women's Soccer League",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#0", "role": "both", "quote": "they have played in the National Womens Soccer League ( NWSL ) since 2013"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2013",
+      "grain": "year",
+      "track": "affiliation",
+      "flag": "derived_date",
+      "text": "Germans Sonja Fuss and Inka Grings arrived mid-season",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#17", "role": "both", "quote": "The mid-season arrival of Germans Sonja Fuss and Inka Grings revived the team somewhat"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2014-05",
+      "grain": "month",
+      "track": "affiliation",
+      "flag": "derived_date",
+      "text": "Signed internationals Abby Erceg and Emily van Egmond",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#18", "role": "both", "quote": "The team signed two other internationals , Abby Erceg and Emily van Egmond , in May"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2015",
+      "grain": "year",
+      "track": "location",
+      "text": "Ended home games at Village of Lisle-Benedictine complex",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#28", "role": "both", "quote": "From 2011 to 2015 , in the Womens Premier Soccer League"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2015-12",
+      "grain": "month",
+      "track": "location",
+      "text": "Announced return to Toyota Park for 2016 home games",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#29", "role": "both", "quote": "In December 2015 , the Chicago Red Stars announced their return to Toyota Park"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "2016",
+      "grain": "year",
+      "track": "location",
+      "flag": "derived_date",
+      "text": "Returned to Toyota Park for home games",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#22", "role": "both", "quote": "The Red Stars returned to Toyota Park for home games for the first time since their 2010 WPS season"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "2018",
+      "grain": "year",
+      "track": "work",
+      "text": "Primary and secondary logos updated; design team led by Julie Rochelle",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#27", "role": "both", "quote": "The clubs primary and secondary logos were updated at the beginning of the 2018 season"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "2019-04-17",
+      "grain": "day",
+      "track": "other",
+      "label": "broadcasting",
+      "text": "Announced NBC Sports Chicago as new regional broadcaster",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#34", "role": "both", "quote": "It was announced on April 17 , 2019 that NBC Sports Chicago would be the Red Stars new regional broadcaster"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "2021-03-01",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Announced new ownership group led by Arnim Whisler",
+      "evidence": [
+        {"chunk_id": "/wiki/Chicago_Red_Stars#33", "role": "both", "quote": "On March 1 , 2021 , the Red Stars announced a new ownership group"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Founding member of the Women's Professional Soccer league (no date stated)",
+    "Marcia McDermott named Red Stars general manager (no date stated)",
+    "Marcia McDermott assumed many of Peter Wilt's responsibilities (no date stated)",
+    "Played home games at Toyota Park during WPS membership (no date stated)",
+    "Received USWNT allocation players Shannon Boxx, Amy LePeilbet, Keelin Winters (2013 season)"
+  ]
+}

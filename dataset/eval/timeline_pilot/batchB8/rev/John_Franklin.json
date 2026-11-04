@@ -1,0 +1,573 @@
+{
+ "page_id": "John_Franklin",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1786-04-16",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Spilsby, Lincolnshire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#0",
+     "role": "date",
+     "quote": "16 April 1786"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#2",
+     "role": "description",
+     "quote": "Franklin was born in Spilsby , Lincolnshire , on"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1800",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "approximate_date",
+   "text": "Joined the Polyphemus in autumn 1800 as a first-class volunteer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#5",
+     "role": "both",
+     "quote": "He did not join the vessel until the autumn of 1800"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1800-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Secured Royal Navy appointment through his father.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#4",
+     "role": "both",
+     "quote": "so in March 1800 , Franklins father secured him a Royal Navy appointment"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1802-04",
+   "grain": "month",
+   "track": "other",
+   "label": "visit",
+   "text": "Visited Arthurs Seat cairn as midshipman with Matthew Flinders.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#20",
+     "role": "both",
+     "quote": "that he had visited as a midshipman with Captain Matthew Flinders in April 1802"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1805",
+   "grain": "year",
+   "track": "other",
+   "label": "battle",
+   "text": "Present at the Battle of Trafalgar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#6",
+     "role": "both",
+     "quote": "He was present at the Battle of Trafalgar in 1805"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1814-12",
+   "grain": "month",
+   "track": "other",
+   "label": "wound",
+   "text": "Wounded during the Battle of Lake Borgne.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#6",
+     "role": "both",
+     "quote": "was wounded during the Battle of Lake Borgne in December 1814"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1818",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "text": "Commanded a journey from London to Spitzbergen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#7",
+     "role": "both",
+     "quote": "Franklin commanded in 1818 on a journey from London to Spitzbergen"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1819",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "text": "Chosen to lead the Coppermine overland expedition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#7",
+     "role": "both",
+     "quote": "In 1819 , Franklin was chosen to lead the Coppermine expedition overland"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1819",
+   "grain": "year",
+   "track": "other",
+   "label": "accident",
+   "text": "Fell into the Hayes River at Robinson Falls and was rescued.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#7",
+     "role": "both",
+     "quote": "On his 1819 expedition , Franklin fell into the Hayes River at Robinson Falls"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1819",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "text": "Coppermine expedition 1819–1822: lost 11 of 20 men.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#8",
+     "role": "both",
+     "quote": "Between 1819 and 1822 , he lost 11 of the 20 men in his party"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1823",
+   "grain": "year",
+   "track": "family",
+   "text": "Married the poet Eleanor Anne Porden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "both",
+     "quote": "In 1823 , after returning to England , Franklin married the poet Eleanor Anne Porden"
+    }
+   ]
+  },
+  {
+   "date": "1824",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Daughter Eleanor Isabella born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "description",
+     "quote": "Their daughter , Eleanor Isabella , was born the following year"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "date",
+     "quote": "In 1823 , after returning to England , Franklin married the poet Eleanor Anne Porden"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e12"
+  },
+  {
+   "id": "e13",
+   "date": "1825",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "text": "Left for the Mackenzie River expedition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#10",
+     "role": "both",
+     "quote": "In 1825 , he left for his second Canadian and third Arctic expedition"
+    }
+   ]
+  },
+  {
+   "date": "1825",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "First wife Eleanor Anne Porden died of tuberculosis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "both",
+     "quote": "His wife died of tuberculosis in 1825"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "1826",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "flag": "derived_date",
+   "text": "Went downriver, found Arctic ocean frozen; turned back at Return Reef.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#10",
+     "role": "date",
+     "quote": "In 1825 , he left for his second Canadian and third Arctic expedition"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#13",
+     "role": "description",
+     "quote": "The following summer he went downriver and found the ocean frozen"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1826-09-21",
+   "grain": "day",
+   "track": "location",
+   "flag": "derived_date",
+   "text": "Reached safety at Fort Franklin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#14",
+     "role": "both",
+     "quote": "Reaching safety at Fort Franklin on 21 September"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1827-09-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Reached Liverpool, returning from the Mackenzie River expedition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#14",
+     "role": "both",
+     "quote": "He reached Liverpool on the first of September 1827"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1837",
+   "grain": "year",
+   "track": "role",
+   "flag": "source_inconsistent",
+   "text": "Appointed Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#16",
+     "role": "both",
+     "quote": "Franklin was appointed Lieutenant Governor of Van Diemens Land in 1837"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#15",
+     "role": "both",
+     "quote": "1837 : Lieutenant-Governor of Van Diemens Land"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1839",
+   "grain": "year",
+   "track": "role",
+   "flag": "source_inconsistent",
+   "text": "Began term as Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#0",
+     "role": "both",
+     "quote": "served as Lieutenant-Governor of Van Diemens Land from 1839 to 1843"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1843",
+   "grain": "year",
+   "track": "other",
+   "label": "visit",
+   "flag": "derived_date",
+   "text": "Revisited Arthurs Seat cairn shortly after leaving the governorship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#16",
+     "role": "date",
+     "quote": "was removed from office in 1843"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#20",
+     "role": "description",
+     "quote": "Shortly after leaving his post as Governor of Tasmania , Franklin revisited a cairn"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1843",
+   "grain": "year",
+   "track": "role",
+   "text": "Removed from office as Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#16",
+     "role": "both",
+     "quote": "was removed from office in 1843"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1843",
+   "grain": "year",
+   "track": "work",
+   "text": "Museum established under Franklin's leadership, credited to Royal Society of Tasmania.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#17",
+     "role": "both",
+     "quote": "credited to the Royal Society of Tasmania in 1843 under the leadership of her husband"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1843",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to England; adopted daughter Mathinna left behind in Tasmania.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#18",
+     "role": "both",
+     "quote": "when the Franklins returned to England in 1843"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1845",
+   "grain": "year",
+   "track": "role",
+   "text": "Accepted command of the Northwest Passage expedition, aged 59.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#21",
+     "role": "both",
+     "quote": "1845 : Northwest Passage expedition"
+    }
+   ]
+  },
+  {
+   "date": "1846-09",
+   "grain": "month",
+   "track": "other",
+   "label": "ships icebound",
+   "text": "Erebus and Terror trapped in ice off King William Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#28",
+     "role": "both",
+     "quote": "Terror and Erebus became trapped in ice off King William Island in September 1846"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "id": "e26",
+   "date": "1847-06-11",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died during the Northwest Passage expedition, near King William Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#0",
+     "role": "both",
+     "quote": "11 June 1847"
+    },
+    {
+     "chunk_id": "/wiki/John_Franklin#28",
+     "role": "description",
+     "quote": "According to a note later found on that island , Franklin died there on"
+    }
+   ]
+  },
+  {
+   "date": "1849",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Daughter Eleanor Isabella married Reverend John Philip Gell",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "both",
+     "quote": "Eleanor Isabella married Reverend John Philip Gell in 1849"
+    }
+   ],
+   "id": "e27"
+  },
+  {
+   "date": "1850",
+   "grain": "year",
+   "track": "other",
+   "label": "search",
+   "text": "Several search expeditions converged off Beechey Island and found first relics of the expedition",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#31",
+     "role": "both",
+     "quote": "In the summer of 1850 , several expeditions , including three from England as well as one from the United States , joined in the search"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "date": "1852-10",
+   "grain": "month",
+   "track": "role",
+   "label": null,
+   "text": "Promoted to Rear-Admiral of the Blue (unintentional posthumous promotion)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#31",
+     "role": "both",
+     "quote": "he was promoted to Rear-Admiral of the Blue in October 1852"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "date": "1854",
+   "grain": "year",
+   "track": "other",
+   "label": "discovery",
+   "text": "John Rae learned the true fate of the Franklin party from Inuit hunters",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#32",
+     "role": "both",
+     "quote": "In 1854 , the Scottish explorer John Rae , while surveying the Boothia Peninsula for the Hudsons Bay Company , discovered the true fate of the Franklin party"
+    }
+   ],
+   "id": "e30"
+  },
+  {
+   "date": "1860",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Daughter Eleanor Isabella died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#9",
+     "role": "both",
+     "quote": "She died in 1860"
+    }
+   ],
+   "id": "e31"
+  },
+  {
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "heritage designation",
+   "text": "Wintering site of Franklin's second Canadian expedition designated a National Historic Site of Canada",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#38",
+     "role": "both",
+     "quote": "The wintering site of Franklins second Canadian expedition , in Deline , Northwest Territories , was designated a National Historic Site of Canada in 1996"
+    }
+   ],
+   "id": "e32"
+  },
+  {
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "memorial",
+   "text": "Special service of Thanksgiving and rededication of the national monument to Sir John Franklin",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#40",
+     "role": "both",
+     "quote": "In 2009 , a special service of Thanksgiving was held in the chapel at the Royal Naval College to accompany the rededication of the national monument to Sir John Franklin"
+    }
+   ],
+   "id": "e33"
+  },
+  {
+   "date": "2014-09",
+   "grain": "month",
+   "track": "other",
+   "label": "discovery",
+   "text": "Wreck of Erebus rediscovered in Wilmot and Crampton Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#41",
+     "role": "both",
+     "quote": "In September 2014 , the wreck of was rediscovered in Wilmot and Crampton Bay near the Adelaide Peninsula"
+    }
+   ],
+   "id": "e34"
+  },
+  {
+   "date": "2016-09",
+   "grain": "month",
+   "track": "other",
+   "label": "discovery",
+   "text": "Wreck of Terror discovered in Terror Bay, King William Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Franklin#41",
+     "role": "both",
+     "quote": "in September 2016 the wreck of was discovered , in Terror Bay on the south coast of King William Island"
+    }
+   ],
+   "id": "e35"
+  }
+ ],
+ "undated_mentions": [
+  "educated at King Edward VI Grammar School, Louth",
+  "trial voyage on a merchant ship at about age 12",
+  "promoted to midshipman",
+  "action at the Battle of Copenhagen",
+  "midshipman on Matthew Flinders' Australian coast expedition",
+  "action at the Battle of Pulo Aura under Nathaniel Dance",
+  "promoted to lieutenant",
+  "became second European to reach the Mackenzie River mouth",
+  "spent rest of winter and spring at Fort Chipewyan (no explicit date)",
+  "married Jane Griffin",
+  "knighted by George IV",
+  "awarded first Gold Medal of the Societe de Geographie of France",
+  "made Knight Commander of the Royal Guelphic Order",
+  "adopted Aboriginal girl Mathinna",
+  "given command of the Northwest Passage expedition and official instructions"
+ ]
+}

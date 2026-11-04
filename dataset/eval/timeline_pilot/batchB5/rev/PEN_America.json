@@ -1,0 +1,116 @@
+{
+ "page_id": "PEN_America",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1922-04-19",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "PEN America formed in New York City with initial writer members.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#0",
+     "role": "date",
+     "quote": "founded in 1922"
+    },
+    {
+     "chunk_id": "/wiki/PEN_America#4",
+     "role": "both",
+     "quote": "PEN America was formed on April 19 , 1922 in New York City"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "PEN Prison Writing Program founded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#22",
+     "role": "both",
+     "quote": "Founded in 1971 , the PEN Prison Writing Program"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Journal PEN America: A Journal for Writers and Readers founded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#26",
+     "role": "both",
+     "quote": "PEN America : A Journal for Writers and Readers , founded in 2000"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "PEN World Voices Festival founded by Salman Rushdie after 9/11.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#17",
+     "role": "both",
+     "quote": "The festival was founded by Salman Rushdie in the aftermath of September 11 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Jennifer Egan became president of PEN America.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#12",
+     "role": "both",
+     "quote": "became president of PEN America in 2018"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2018-04",
+   "grain": "month",
+   "track": "work",
+   "text": "PEN America launched the Online Harassment Field Manual.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#33",
+     "role": "both",
+     "quote": "In April 2018 , PEN America launched the Online Harassment Field Manual"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2020-12-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Ayad Akhtar succeeded Jennifer Egan as president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PEN_America#12",
+     "role": "both",
+     "quote": "Egan was succeeded by Ayad Akhtar on December 2 , 2020"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Booth Tarkington served as the organization's first president (no date stated).",
+  "Name initially conceived as an acronym (Poets, Essayists, Novelists), later ceased to be one (no date stated).",
+  "Renamed from PEN American Center to PEN America (no date stated)."
+ ]
+}

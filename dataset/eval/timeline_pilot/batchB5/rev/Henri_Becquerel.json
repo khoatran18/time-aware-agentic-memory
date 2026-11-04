@@ -1,0 +1,363 @@
+{
+ "page_id": "Henri_Becquerel",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1852-12-15",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Antoine Henri Becquerel born in Paris, France, into a wealthy family",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#0",
+     "role": "date",
+     "quote": "15 December 1852"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#1",
+     "role": "description",
+     "quote": "Becquerel was born in Paris , France into a wealthy family"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1874",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Lucie Zoé Marie Jamin, who later died giving birth to their son Jean",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#1",
+     "role": "both",
+     "quote": "In 1874 , Henri married Lucie Zoé Marie Jamin"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1889",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became a member of the Académie des Sciences",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "both",
+     "quote": "In 1889 , Becquerel became a member of the Académie des Sciences"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1890",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Louise Désirée Lorieux",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#1",
+     "role": "both",
+     "quote": "In 1890 he married Louise Désirée"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#2",
+     "role": "description",
+     "quote": "Lorieux ."
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1892",
+   "grain": "year",
+   "track": "role",
+   "text": "Became the third in his family to hold the physics chair at the Muséum National d'Histoire Naturelle",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#3",
+     "role": "both",
+     "quote": "he became the third in his family to occupy the physics chair at the Muséum National dHistoire Naturelle in 1892"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1894",
+   "grain": "year",
+   "track": "role",
+   "text": "Became chief engineer in the Department of Bridges and Highways",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#3",
+     "role": "both",
+     "quote": "Later on in 1894 , Becquerel became chief engineer in the Department of Bridges and Highways"
+    }
+   ]
+  },
+  {
+   "date": "1896-02-27",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Described his phosphorescence experiments to the French Academy of Sciences",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#11",
+     "role": "both",
+     "quote": "Describing them to the French Academy of Sciences on 27 February 1896"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1896-03-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Developed plates showing unexpectedly intense images, revealing spontaneous uranium radiation",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#16",
+     "role": "both",
+     "quote": "I developed the photographic plates on the 1st of March"
+    }
+   ]
+  },
+  {
+   "date": "1896-03-02",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Reported to the Academy that uranium salts kept in darkness still produced photographic images",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#14",
+     "role": "both",
+     "quote": "On 2 March 1896 he reported"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1896-05",
+   "grain": "month",
+   "track": "other",
+   "label": "discovery",
+   "text": "Concluded the penetrating radiation came from uranium itself, needing no external energy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#6",
+     "role": "both",
+     "quote": "By May 1896 , after other experiments involving non-phosphorescent uranium salts , he arrived at the correct explanation"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1900",
+   "grain": "year",
+   "track": "work",
+   "text": "Measured properties of beta particles, finding them like fast electrons from the nucleus",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#18",
+     "role": "both",
+     "quote": "Later in his life in 1900 , Becquerel measured the properties of Beta Particles"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1900",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Rumford Medal for discovering uranium radioactivity",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "both",
+     "quote": "In 1900 , Becquerel won the Rumford Medal for his discovery of the radioactivity of uranium"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1900",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Made an Officer of the Legion of Honour",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "date",
+     "quote": "In 1900 , Becquerel won the Rumford Medal"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "description",
+     "quote": "he was made an Officer of the Legion of Honour"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1901",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded the Helmholtz Medal by the Berlin-Brandenburg Academy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "both",
+     "quote": "The Berlin-Brandenburg Academy of Sciences and Humanities awarded him the Helmholtz Medal in 1901"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1901",
+   "grain": "year",
+   "track": "other",
+   "label": "discovery",
+   "text": "Discovered that radioactivity could be used for medicine after radium burn",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#18",
+     "role": "both",
+     "quote": "In 1901 Becquerel made the discovery that radioactivity could be used for medicine"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1902",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected member of the American Philosophical Society",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "both",
+     "quote": "In 1902 , he was elected as a member of the American Philosophical Society"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1903",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Shared the Nobel Prize in Physics with Pierre and Marie Curie",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#0",
+     "role": "both",
+     "quote": "received the 1903 Nobel Prize in Physics"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "both",
+     "quote": "In 1903 , Henri shared a Nobel Prize in Physics with Pierre Curie and Marie Curie for the discovery of spontaneous radioactivity"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1905",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded the Barnard Medal by the U.S. National Academy of Sciences",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#20",
+     "role": "date",
+     "quote": "In 1905 , he was awarded"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#21",
+     "role": "description",
+     "quote": "the Barnard Medal by the U.S . National Academy of Sciences"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1906",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected Vice Chairman of the Académie des Sciences",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#21",
+     "role": "both",
+     "quote": "In 1906 , Henri was elected Vice Chairman of the academy"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1908",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected Permanent Secretary of the Académie des Sciences",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#21",
+     "role": "both",
+     "quote": "in 1908 , the year of his death , Becquerel was elected Permanent Secretary of the Académie des Sciences"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1908",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected Foreign Member of the Royal Society",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#21",
+     "role": "both",
+     "quote": "Becquerel was elected a Foreign Member of the Royal Society ( ForMemRS ) in 1908"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1908-08-25",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Le Croisic, France, at age 55, reportedly from radiation burns",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#19",
+     "role": "both",
+     "quote": "on 25 August 1908 , at the age of 55 , in Le Croisic , France"
+    },
+    {
+     "chunk_id": "/wiki/Henri_Becquerel#0",
+     "role": "date",
+     "quote": "25 August 1908"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Attended the Lycée Louis-le-Grand preparatory school in Paris",
+  "Studied engineering at the École Polytechnique and the École des Ponts et Chaussées",
+  "First wife Lucie Zoé Marie Jamin died while giving birth to their son Jean",
+  "Elected member of the Accademia dei Lincei and the Royal Academy of Berlin",
+  "Showed three classes of radioactivity by deflection in a magnetic field",
+  "SI unit becquerel named after him"
+ ]
+}

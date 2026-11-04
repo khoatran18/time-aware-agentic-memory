@@ -1,0 +1,109 @@
+{
+  "page_id": "Line_15_Beijing_Subway",
+  "events": [
+    {
+      "id": "e1",
+      "date": "2009-04-11",
+      "grain": "day",
+      "track": "work",
+      "text": "Construction of Phase I began in Shunyi District.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#5",
+          "role": "both",
+          "quote": "Construction began on Phase I of Line 15 in Shunyi District on April 11 , 2009"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2009-10-28",
+      "grain": "day",
+      "track": "work",
+      "text": "Track-laying for Phase I began.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#6",
+          "role": "both",
+          "quote": "When track-laying began in Phase I on October 28 , 2009"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2010-12-30",
+      "grain": "day",
+      "track": "work",
+      "text": "First section, Wangjing West to Houshayu, opened.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#8",
+          "role": "both",
+          "quote": "The first section of , from Wangjing West to Houshayu , opened on December 30 , 2010"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2011",
+      "grain": "year",
+      "track": "work",
+      "text": "Second section, Houshayu to Fengbo, opened.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#8",
+          "role": "both",
+          "quote": "The second , from Houshayu to Fengbo , followed at the end of 2011"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e5",
+      "date": "2014-12-28",
+      "grain": "day",
+      "track": "work",
+      "text": "Third section, Qinghuadongluxikou to Wangjing West, opened.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#8",
+          "role": "both",
+          "quote": "The third section , from Qinghuadongluxikou to Wangjing West , opened on December 28 , 2014"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2015-12-26",
+      "grain": "day",
+      "track": "work",
+      "text": "Datunlu East station opened, delayed from 2014.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#9",
+          "role": "both",
+          "quote": "It was opened on 26 December 2015"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2016-12-31",
+      "grain": "day",
+      "track": "work",
+      "text": "Wangjing East station opened, delayed from 2010.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Line_15_(Beijing_Subway)#8",
+          "role": "both",
+          "quote": "It was opened on 31 December 2016"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Eastern terminus moved from Fuqian Jie to the east bank of the Chaobai River during planning",
+    "Phase I expanded from 12 to 18 stations with a revised construction schedule",
+    "Western route to Qinghuadongluxikou selected over alternative proposals"
+  ]
+}

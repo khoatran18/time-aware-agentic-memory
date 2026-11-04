@@ -1,0 +1,90 @@
+{
+  "page_id": "Westover_Plantation",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1665",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Sir John Pawlett leased most of Westover to Theodorick Bland for £170.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#2", "role": "both", "quote": "demised most of Westover Plantation in 1665 to Theodorick Bland of Westover for £170"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1688",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Theodorick and Richard Bland conveyed 1,200 acres to William Byrd I.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#2", "role": "both", "quote": "conveyed 1,200 acres of the property to William Byrd I in 1688"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1730",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Plantation established, c. 1730–1750 (approximate range).",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#0", "role": "both", "quote": "Established in c . 1730–1750"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "1730",
+      "grain": "year",
+      "track": "work",
+      "text": "Mansion thought built by William Byrd II, c. 1730; later disputed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#3", "role": "both", "quote": "William Byrd II , the founder of Richmond , was thought to have built the mansion c . 1730"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e5",
+      "date": "1814",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Westover sold out of the Byrd family after the widow's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#7", "role": "both", "quote": "After the death of William Byrd IIIs widow in 1814 , Westover was sold out of the Byrd family"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "1960",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "House designated a National Historic Landmark.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#3", "role": "both", "quote": "This date was part of the 1960 designation of the house as a National Historic Landmark"},
+        {"chunk_id": "/wiki/Westover_Plantation#1", "role": "description", "quote": "The plantation has been designated as a National Historic Landmark in the United States"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2003",
+      "grain": "year",
+      "track": "other",
+      "label": "damage",
+      "text": "Site damaged by Hurricane Isabel; riverbank and trees eroded.",
+      "evidence": [
+        {"chunk_id": "/wiki/Westover_Plantation#9", "role": "both", "quote": "The site was damaged by Hurricane Isabel in 2003"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Mansion probably built and first occupied by William Byrd III, dated by dendrochronology to the 1750s",
+    "Westover used as headquarters of the Union Fifth Corps during the American Civil War; one wing burned",
+    "Richard Teller Crane II acquired Westover in the early 20th century and restored the mansion and grounds",
+    "Plantation was one of the sites of Charles City County courts in the early years of the Virginia colony",
+    "Planters shifted from tobacco to mixed crops in the 19th century",
+    "Augustus Harrison Drewry rebuilt the burned wing, connected dependencies and enlarged the dining room"
+  ]
+}

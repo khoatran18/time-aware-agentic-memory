@@ -1,0 +1,159 @@
+{
+  "page_id": "Greenbelt_News_Review",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1937",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Newspaper established as a volunteer cooperative in Greenbelt, Maryland.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#0", "role": "both", "quote": "was established in 1937 as a volunteer cooperative"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1954",
+      "grain": "year",
+      "track": "naming",
+      "text": "Renamed from Greenbelt Cooperator to Greenbelt News Review.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#0", "role": "both", "quote": "its name was changed in 1954"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1954",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Elaine Skolnik began working at the paper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "who began working at the paper in 1954"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1962",
+      "grain": "year",
+      "track": "role",
+      "text": "Virginia Beauchamp served as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#1", "role": "description", "quote": "Other female staffers include Virginia Beauchamp"},
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "editor in 1962"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1965",
+      "grain": "year",
+      "track": "work",
+      "text": "Reporter Dorothy Sucher's article quoted citizens calling Bresler's actions blackmail.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#3", "role": "both", "quote": "In 1965 , an article by reporter Dorothy Sucher in the News Review published two quotations"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1966",
+      "grain": "year",
+      "track": "other",
+      "label": "lawsuit",
+      "text": "Charles S. Bresler filed libel suit against the paper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#3", "role": "both", "quote": "Bresler filed suit in 1966"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1967",
+      "grain": "year",
+      "track": "role",
+      "text": "Mary Granofsky began term as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "Mary Granofsky , editor from 1967 to 1972"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1969",
+      "grain": "year",
+      "track": "other",
+      "label": "court ruling",
+      "text": "Maryland Court of Appeals upheld Bresler's libel judgment against the paper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#4", "role": "both", "quote": "which was upheld by the Maryland Court of Appeals in 1969"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1970",
+      "grain": "year",
+      "track": "other",
+      "label": "court ruling",
+      "text": "US Supreme Court unanimously ruled for the paper, overturning the lower judgments.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#5", "role": "both", "quote": "In 1970 , the Supreme Court of the United States ruled unanimously in favor of the News Review"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1972",
+      "grain": "year",
+      "track": "role",
+      "text": "Mary Granofsky's term as editor ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "Mary Granofsky , editor from 1967 to 1972"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1977",
+      "grain": "year",
+      "track": "role",
+      "text": "Elaine Skolnik began term as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "served as editor from 1977 to 1986"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1986",
+      "grain": "year",
+      "track": "role",
+      "text": "Elaine Skolnik's term as editor ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "served as editor from 1977 to 1986"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1989",
+      "grain": "year",
+      "track": "role",
+      "text": "Barbara Likowski began editing during parts of 1989.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "Barbara Likowski , editor during parts of 1989 and 1990"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1990",
+      "grain": "year",
+      "track": "role",
+      "text": "Barbara Likowski's editing period ended during parts of 1990.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Greenbelt_News_Review#2", "role": "both", "quote": "Barbara Likowski , editor during parts of 1989 and 1990"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Mary Lou Williamson held the editor job for over twenty-five years, the longest tenure",
+    "Mary Lou Williamson frequently shared the editor role with Dorothy Sucher throughout the 1960s",
+    "Harry Zubkoff held the editor position four times in the 1950s and 1960s",
+    "Bresler received a $17,500 libel judgment from Prince Georges County Circuit Court",
+    "Local volunteers formed a Freedom of the Press committee to raise legal defense money"
+  ]
+}

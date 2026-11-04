@@ -1,0 +1,401 @@
+{
+ "page_id": "/wiki/Hanover",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1241",
+   "grain": "year",
+   "track": "other",
+   "label": "town privileges",
+   "text": "Hanover received town privileges.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#8",
+     "role": "both",
+     "quote": "receiving town privileges in 1241"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1636",
+   "grain": "year",
+   "track": "location",
+   "text": "Duke George moved his residence to Hanover, becoming capital of Calenberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#11",
+     "role": "both",
+     "quote": "In 1636 George , Duke of Brunswick-Lüneburg , ruler of the Brunswick-Lüneburg principality of Calenberg , moved his residence to Hanover"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "Hanover was the capital of the Principality of Calenberg ( 1636–1692 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1692",
+   "grain": "year",
+   "track": "other",
+   "label": "elevation",
+   "text": "Principality of Calenberg upgraded to Electorate of Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#11",
+     "role": "both",
+     "quote": "The Dukes of Brunswick-Lüneburg were elevated by the Holy Roman Emperor to the rank of Prince-Elector in 1692"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "the Electorate of Hanover ( 1692–1814 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1708",
+   "grain": "year",
+   "track": "other",
+   "label": "elevation",
+   "text": "Imperial Diet confirmed the Electorate elevation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#11",
+     "role": "both",
+     "quote": "this elevation was confirmed by the Imperial Diet in 1708"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1714",
+   "grain": "year",
+   "track": "location",
+   "text": "Hanover became family seat of the Hanoverian kings under personal union with UK.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "From 1714 to 1837 Hanover was by personal union the family seat"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1757-07-26",
+   "grain": "day",
+   "track": "other",
+   "label": "battle",
+   "text": "Battle of Hastenbeck near the city; French army occupied Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#15",
+     "role": "both",
+     "quote": "the Battle of Hastenbeck was fought near the city on 26 July 1757"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1758",
+   "grain": "year",
+   "track": "other",
+   "label": "recapture",
+   "text": "City recaptured by Anglo-German forces led by Ferdinand of Brunswick.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#15",
+     "role": "both",
+     "quote": "It was recaptured by Anglo-German forces led by Ferdinand of Brunswick the following year"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1803-07-05",
+   "grain": "day",
+   "track": "other",
+   "label": "occupation",
+   "text": "Napoleon imposed the Convention of Artlenburg; French soldiers occupied Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#16",
+     "role": "both",
+     "quote": "After Napoleon imposed the Convention of Artlenburg ( Convention of the Elbe ) on July 5 , 1803"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1814",
+   "grain": "year",
+   "track": "location",
+   "text": "Electorate of Hanover ended; Kingdom of Hanover began (per this source).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "the Electorate of Hanover ( 1692–1814 ) , the Kingdom of Hanover ( 1814–1866 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1815",
+   "grain": "year",
+   "track": "other",
+   "label": "elevation",
+   "text": "Congress of Vienna elevated the electorate to the Kingdom of Hanover.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#17",
+     "role": "both",
+     "quote": "The Congress of Vienna in 1815 elevated the electorate to the Kingdom of Hanover"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1821",
+   "grain": "year",
+   "track": "other",
+   "label": "visit",
+   "text": "George IV made a short visit to Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#14",
+     "role": "both",
+     "quote": "there was only one short visit , by George IV in 1821"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1837",
+   "grain": "year",
+   "track": "location",
+   "text": "Personal union with UK ended; Hanover passed to Ernest Augustus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#18",
+     "role": "both",
+     "quote": "In 1837 , the personal union of the United Kingdom and Hanover ended"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1842",
+   "grain": "year",
+   "track": "other",
+   "label": "railway",
+   "text": "First horse railway inaugurated in Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#20",
+     "role": "both",
+     "quote": "In 1842 the first horse railway was inaugurated"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1866",
+   "grain": "year",
+   "track": "other",
+   "label": "annexation",
+   "text": "Kingdom of Hanover annexed by Prussia during the Austro-Prussian war.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#18",
+     "role": "both",
+     "quote": "remained a kingdom until 1866 , when it was annexed by Prussia during the Austro-Prussian war"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "the Kingdom of Hanover ( 1814–1866 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1868",
+   "grain": "year",
+   "track": "location",
+   "text": "Hanover became capital of the Prussian Province of Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "the Province of Hanover of the Kingdom of Prussia ( 1868–1918 )"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#19",
+     "role": "description",
+     "quote": "became the capital of the Prussian Province of Hanover"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1893",
+   "grain": "year",
+   "track": "other",
+   "label": "tram",
+   "text": "Electric tram installed in Hanover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#20",
+     "role": "both",
+     "quote": "from 1893 an electric tram was installed"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1918",
+   "grain": "year",
+   "track": "location",
+   "text": "Prussian province of Hanover ended; Free State of Prussia province began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "the Province of Hanover of the Free State of Prussia ( 1918–1946 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1938-10",
+   "grain": "month",
+   "track": "other",
+   "label": "expulsion",
+   "text": "484 Hanoverian Jews of Polish origin expelled to Poland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#21",
+     "role": "both",
+     "quote": "In October 1938 , 484 Hanoverian Jews of Polish origin were expelled to Poland"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1938-11-09",
+   "grain": "day",
+   "track": "other",
+   "label": "pogrom",
+   "text": "Synagogue of Hanover burnt by the Nazis during Kristallnacht.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#23",
+     "role": "both",
+     "quote": "Kristallnacht ( 9 November 1938 ) . On that day , the synagogue of Hanover"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1941-09",
+   "grain": "month",
+   "track": "other",
+   "label": "ghettoisation",
+   "text": "Ghettoisation of remaining Hanoverian Jewish families began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#24",
+     "role": "both",
+     "quote": "In September 1941 , through the Action Lauterbacher plan , a ghettoisation of the remaining Hanoverian Jewish families began"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1941-12-15",
+   "grain": "day",
+   "track": "other",
+   "label": "deportation",
+   "text": "First Jews from Hanover deported to Riga.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#24",
+     "role": "both",
+     "quote": "on 15 December 1941 , the first Jews from Hanover were deported to Riga"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1945-04-10",
+   "grain": "day",
+   "track": "other",
+   "label": "occupation",
+   "text": "US Army troops captured and occupied Hanover at the end of the war.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#25",
+     "role": "both",
+     "quote": "arrived on 10 April 1945 to occupy Hanover"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#29",
+     "role": "both",
+     "quote": "The US 84th Infantry Division captured the city on 10 April 1945"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1946",
+   "grain": "year",
+   "track": "location",
+   "text": "Hanover became capital of, and part of, the new state of Lower Saxony.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#2",
+     "role": "both",
+     "quote": "Before it became the capital of Lower Saxony in 1946"
+    },
+    {
+     "chunk_id": "/wiki/Hanover#29",
+     "role": "both",
+     "quote": "became part of the new state ( Land ) of Lower Saxony in 1946"
+    }
+   ]
+  },
+  {
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "expo",
+   "text": "Hosted Expo 2000 (Expo-Park site)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hanover#45",
+     "role": "both",
+     "quote": "the former site of EXPO 2000"
+    }
+   ],
+   "id": "e24"
+  }
+ ],
+ "undated_mentions": [
+  "Hanover founded in medieval times",
+  "became a comparatively large town in the 13th century",
+  "in the 14th century the main churches and a city wall with three gates were built",
+  "after 1937 the lord mayor and state commissioners were NSDAP members",
+  "during World War II seven concentration camps were constructed in Hanover",
+  "during World War II bombing raids (88 raids) destroyed more than 90% of the city centre",
+  "after the war the Aegidienkirche was not rebuilt and its ruins became a war memorial",
+  "after the war a large group of Orthodox Jewish survivors settled in Hanover"
+ ]
+}

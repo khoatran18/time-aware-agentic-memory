@@ -1,0 +1,595 @@
+{
+ "page_id": "Jimmy_Lai",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1947-12-08",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Guangzhou, China.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#3",
+     "role": "both",
+     "quote": "Lai was born in Guangzhou , China on 8 December 1947"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1975",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Bought bankrupt garment factory Comitex and began producing sweaters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#4",
+     "role": "both",
+     "quote": "In 1975 , Lai used his year-end bonus on Hong Kong stocks to raise cash and bought a bankrupt garment factory , Comitex"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "activism",
+   "text": "Became pro-democracy advocate after Tiananmen protests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#7",
+     "role": "both",
+     "quote": "Owing to the Tiananmen Square protests of 1989 , Lai became an advocate of democracy"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e4",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Founded Apple Daily newspaper with his own money.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#8",
+     "role": "both",
+     "quote": "In 1995 , as the Hong Kong handover approached , Lai founded Apple Daily"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "citizenship",
+   "text": "Became a UK national.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#0",
+     "role": "both",
+     "quote": "he has been a UK national since 1996"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Listed his company on Hong Kong Stock Exchange via reverse takeover.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#17",
+     "role": "both",
+     "quote": "He managed to list the company in 1999 by acquiring Paramount Publishing Group in October of that year"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1999-10",
+   "grain": "month",
+   "track": "ownership_structure",
+   "flag": "derived_date",
+   "text": "Acquired Paramount Publishing Group, enabling the listing.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#17",
+     "role": "both",
+     "quote": "He managed to list the company in 1999 by acquiring Paramount Publishing Group in October of that year"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Launched Taiwanese edition of Next Magazine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#12",
+     "role": "both",
+     "quote": "Lai launched Taiwanese editions of Next Magazine in 2001 and Apple Daily in 2003"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Launched Taiwanese edition of Apple Daily.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#12",
+     "role": "both",
+     "quote": "Lai launched Taiwanese editions of Next Magazine in 2001 and Apple Daily in 2003"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2006-10",
+   "grain": "month",
+   "track": "work",
+   "text": "Launched Sharp Daily, a free daily newspaper for Taipei commuters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#13",
+     "role": "both",
+     "quote": "In October 2006 , Lai launched Sharp Daily"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2011",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Next Media sold 70% of CWH to Lai's private firm STV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#19",
+     "role": "both",
+     "quote": "In 2011 , Next Media reportedly sold 70 per cent stake of Next Medias subsidiary Colored World Holdings"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "STV paid US$20 million for the remaining 30% of CWH.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#19",
+     "role": "both",
+     "quote": "In 2013 , STV paid another US$20 million for the remaining 30 per cent stake of CWH"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "flag": "approximate_date",
+   "text": "Bought 2% stake in HTC for about US$73 million.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#21",
+     "role": "both",
+     "quote": "Near the end of 2013 , Lai spent approximately US$73 million"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2014-12-13",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested during clearance of Admiralty Umbrella Movement protest site.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#24",
+     "role": "both",
+     "quote": "On 13 December 2014 , Lai was one of the pro-democracy leaders arrested during the clearance of the Admiralty protest site"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2014-12-14",
+   "grain": "day",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Announced he would step down as head of Next Media.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#24",
+     "role": "both",
+     "quote": "On the following day , Lai announced he would step down as head of Next Media"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2015-01-12",
+   "grain": "day",
+   "track": "other",
+   "label": "attack",
+   "text": "Petrol bombs thrown at his Kowloon Tong home.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#27",
+     "role": "both",
+     "quote": "During the early hours of 12 January 2015 , two masked men hurled petrol bombs at Lais home"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "attack",
+   "text": "His home was firebombed, most recently in 2019.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#25",
+     "role": "both",
+     "quote": "his home was firebombed several times , most recently in 2019"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2019-07",
+   "grain": "month",
+   "track": "other",
+   "label": "meeting",
+   "text": "Met US VP Mike Pence and Speaker Nancy Pelosi on Hong Kong protests (July to November 2019).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#28",
+     "role": "both",
+     "quote": "Between July and November 2019 Lai was able to meet with US Vice President Mike Pence"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e19",
+   "date": "2020",
+   "grain": "year",
+   "track": "work",
+   "text": "Launched English-language version of Apple Daily.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#10",
+     "role": "both",
+     "quote": "In 2020 , Lai launched an English version of Apple Daily"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2020-02-28",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested for illegal assembly during 2019-2020 protests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#29",
+     "role": "both",
+     "quote": "On 28 February 2020 , Lai was arrested for illegal assembly"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2020-04-18",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested among 15 high-profile democracy figures.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#29",
+     "role": "both",
+     "quote": "On 18 April 2020 , Lai was among 15 high-profile democracy figures arrested in Hong Kong"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2020-08-10",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested at home for collusion with foreign forces under NSL, and fraud.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#1",
+     "role": "both",
+     "quote": "Lai was arrested on 10 August 2020 by the Hong Kong police"
+    },
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#31",
+     "role": "both",
+     "quote": "On 10 August 2020 , Lai was arrested at his home"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2020-08-12",
+   "grain": "day",
+   "track": "other",
+   "label": "bail",
+   "flag": "derived_date",
+   "text": "Granted bail after his August arrest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#1",
+     "role": "both",
+     "quote": "Lai was allow to bail in 12 August"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2020-09-03",
+   "grain": "day",
+   "track": "other",
+   "label": "acquittal",
+   "text": "Found not guilty of Oriental Daily criminal intimidation charge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#30",
+     "role": "both",
+     "quote": "On 3 September 2020 , Lai was found not guilty of the Oriental Daily criminal intimidation charge"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2020-12",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Received Reporters Without Borders Freedom of Press Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#2",
+     "role": "both",
+     "quote": "In December 2020 , Lai was awarded Freedom of Press Award"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2020-12-02",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "flag": "source_inconsistent",
+   "text": "Arrested for alleged fraud after reporting to police; bail denied, case adjourned to April 2021.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#36",
+     "role": "both",
+     "quote": "On 2 December 2020 , Lai reported to the police station as part of his bail condition"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2020-12-03",
+   "grain": "day",
+   "track": "other",
+   "label": "charge",
+   "flag": "derived_date",
+   "text": "Accused of fraudulent charges; no longer allowed to bail.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#1",
+     "role": "both",
+     "quote": "But in 3 December , Lai was accused fraudulent charges and no longer allowed to bail"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2020-12-11",
+   "grain": "day",
+   "track": "other",
+   "label": "charge",
+   "text": "First high-profile figure charged under the new national security law.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#37",
+     "role": "both",
+     "quote": "On 11 December 2020 , Lai became the first high-profile figure to be charged under the new national security law"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2020-12-23",
+   "grain": "day",
+   "track": "other",
+   "label": "bail",
+   "text": "Granted bail by High Court with strict conditions.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#38",
+     "role": "both",
+     "quote": "On 23 December 2020 , Lai was granted bail by the High Court"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2020-12-29",
+   "grain": "day",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Resigned as director and chairman of Next Digital board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#2",
+     "role": "both",
+     "quote": "On 29 December , Lai resigned from his roles with Next Digital as director and chairman of the board"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2020-12-31",
+   "grain": "day",
+   "track": "other",
+   "label": "custody",
+   "text": "Ordered back to prison after prosecution appeal against bail.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#39",
+     "role": "both",
+     "quote": "On 31 December 2020 , the Court of Final Appeal ordered him back to prison"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2021-02-09",
+   "grain": "day",
+   "track": "other",
+   "label": "bail",
+   "text": "Hong Kong top court denied his bail.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#39",
+     "role": "both",
+     "quote": "On 9 February 2021 , Hong Kongs top court denied his bail"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2021-02-16",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "flag": "derived_date",
+   "text": "Arrested in prison for NSL violations, including aiding Andy Li's escape bid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#40",
+     "role": "both",
+     "quote": "On 16 February , Lai was arrested while in prison for alleged violations of the national security law"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2021-02-19",
+   "grain": "day",
+   "track": "other",
+   "label": "bail",
+   "flag": "derived_date",
+   "text": "New bail application rejected.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#39",
+     "role": "both",
+     "quote": "a new bail application by Lai was rejected on 19 February"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2021-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "conviction",
+   "text": "Convicted of unlawful assembly over 2019 protests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#41",
+     "role": "both",
+     "quote": "On 1 April 2021 , he was convicted on a separate case over unlawful assembly"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2021-04-16",
+   "grain": "day",
+   "track": "other",
+   "label": "sentence",
+   "text": "Sentenced to 14 months in prison for unauthorised assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#41",
+     "role": "both",
+     "quote": "On 16 April 2021 , he was sentenced to 14 months in prison"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2021-05",
+   "grain": "month",
+   "track": "other",
+   "label": "asset freeze",
+   "text": "Hong Kong government froze his assets, including Next Digital shares.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#42",
+     "role": "both",
+     "quote": "In May 2021 , Lais assets were all frozen by the Hong Kong government"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2021-05-28",
+   "grain": "day",
+   "track": "other",
+   "label": "sentence",
+   "text": "Sentenced to additional 14 months imprisonment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jimmy_Lai#42",
+     "role": "both",
+     "quote": "On 28 May 2021 , Lai was sentenced to additional 14 months imprisonment"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Entered Hong Kong as a stowaway on a boat at age 12",
+  "Began work as a child labourer in a garment factory",
+  "Promoted to factory manager",
+  "Founded Giordano (no date stated)",
+  "Founded Next Digital / Next Media (no date stated)",
+  "Began publishing Next Magazine (no date stated)",
+  "Founded Sudden Weekly, Eat & Travel Weekly, Trading Express/Auto Express and Easy Finder magazines (no date stated)",
+  "Left garment industry for media and politics (1990s)",
+  "Launched Me! Magazine in Taiwan (no date stated)",
+  "Sold out of Giordano to save it after Chinese government shut down its shops (no date stated)",
+  "Started internet grocery retailer adMart (late 1990s)",
+  "adMart shut down after losses of 100 to 150 million dollars (no date stated)",
+  "Tried to sell Hong Kong assets including a floor of Tai Ping Industrial Centre (after August 2020)",
+  "Paid Paul Wolfowitz US$75,000 for Myanmar project help (leaked in 2014; payment date not stated)",
+  "Remitted about US$213,000 to Phone Win (leaked in 2014; date not stated)"
+ ]
+}

@@ -34,7 +34,7 @@ for name in sys.argv[2:]:
             if q not in c: err.append(f"{w}: quote không nguyên văn: {q[:50]!r}")
             r=x.get("role"); roles.append(r)
             if r not in("both","date","description"): err.append(f"{w}: role lạ")
-            yr=dt[:4]
+            yr=dt[:4].lstrip("0") or dt[:4]
             if r in("both","date") and yr not in q and e.get("flag")!="derived_date": err.append(f"{w}: quote {r} không chứa năm {yr}")
             if r=="description" and re.search(r"\b%s\b"%yr,q): err.append(f"{w}: quote description chứa năm {yr}")
         if not("both" in roles or ("date" in roles and "description" in roles)): err.append(f"{w}: thiếu bộ chunk tối thiểu {roles}")

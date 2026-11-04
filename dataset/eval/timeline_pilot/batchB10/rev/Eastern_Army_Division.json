@@ -1,0 +1,416 @@
+{
+ "page_id": "Eastern_Army_Division",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1941-08-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Division raised as the IV Division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#1",
+     "role": "both",
+     "quote": "The Eastern Army Division was raised on 1 August 1941 as the IV Division"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1949",
+   "grain": "year",
+   "track": "location",
+   "text": "Division and military district staffs moved to barracks at Lidingövägen 28, Stockholm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#8",
+     "role": "both",
+     "quote": "In 1949 , the two staffs were moved to the barracks of the Life Regiment of Horse"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1957",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mobilization responsibility transferred to Göta Life Guards.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#1",
+     "role": "both",
+     "quote": "In 1957 , the mobilization responsibility for the division was transferred to the Göta Life Guards"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1963-06-14",
+   "grain": "day",
+   "track": "location",
+   "text": "Staff transferred to new property complex in Strängnäs Garrison.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#8",
+     "role": "both",
+     "quote": "On 14 June 1963 , both staff were transferred to a new property complex in Strängnäs Garrison"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1966-10-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Designation changed from Roman to Arabic numerals (4th Division).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#2",
+     "role": "both",
+     "quote": "On 1 October 1966 , the designation was changed from being given in Roman numerals to Arabic numerals"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1968",
+   "grain": "year",
+   "track": "role",
+   "text": "Colonel Nils Östlund begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1968–1970 : Colonel Nils Östlund"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Colonel Nils Östlund ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1968–1970 : Colonel Nils Östlund"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Sten Ljungqvist begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1970–1976 : Senior Colonel Sten Ljungqvist"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1970",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mobilization responsibility transferred to Uppland Regiment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#1",
+     "role": "both",
+     "quote": "and in 1970 to the Uppland Regiment"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Sten Ljungqvist ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1970–1976 : Senior Colonel Sten Ljungqvist"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Bengt Selander begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1976–1979 : Senior Colonel Bengt Selander"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Bengt Selander ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1976–1979 : Senior Colonel Bengt Selander"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Åke Lundin begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1979–1990 : Senior Colonel Åke Lundin"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Åke Lundin ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1979–1990 : Senior Colonel Åke Lundin"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Nils Rosenqvist begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1990–1994 : Senior Colonel Nils Rosenqvist"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1991-07-01",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Division came under Middle Military District commander after district merger.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#2",
+     "role": "both",
+     "quote": "On 1 July 1991 , the Bergslagen Military District and the Eastern Military District merged and formed the Middle Military District"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Ulf Henricsson begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1994–1999 : Senior Colonel Ulf Henricsson"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Nils Rosenqvist ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1990–1994 : Senior Colonel Nils Rosenqvist"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "coat of arms",
+   "text": "Coat of arms begins use.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#9",
+     "role": "both",
+     "quote": "The coat of arms of the Eastern Army Division used from 1994 to 2000"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1994-07-01",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Staff organized as cadre-organized unit within Middle Military District.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#3",
+     "role": "both",
+     "quote": "As of 1 July 1994 , the army division staff , together with the Middle Army Division , came to be organized"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1997-12-31",
+   "grain": "day",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Became only remaining army division in Svealand after Middle Army Division disbanded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#4",
+     "role": "date",
+     "quote": "the Middle Army Division was disbanded on 31"
+    },
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#5",
+     "role": "description",
+     "quote": "By the disbandment of the Middle Army Division , the Eastern Army Division became the only remaining army division in Svealand"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Ulf Henricsson ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1994–1999 : Senior Colonel Ulf Henricsson"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Roland Ekenberg begins command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1999–2000 : Senior Colonel Roland Ekenberg"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Colonel Roland Ekenberg ends command.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#11",
+     "role": "both",
+     "quote": "1999–2000 : Senior Colonel Roland Ekenberg"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "coat of arms",
+   "text": "Coat of arms use ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#9",
+     "role": "both",
+     "quote": "The coat of arms of the Eastern Army Division used from 1994 to 2000"
+    }
+   ]
+  },
+  {
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "medal",
+   "text": "Commemorative medal of the Eastern Army Division established",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#10",
+     "role": "both",
+     "quote": "In 2000 , the Östra arméfördelningens ( 4.förd ) minnesmedalj"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "id": "e27",
+   "date": "2000-06-30",
+   "grain": "day",
+   "track": "other",
+   "label": "disbandment",
+   "text": "Division staff disbanded with the other army division staffs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#6",
+     "role": "description",
+     "quote": "the three army division staffs were disbanded on 30 June"
+    },
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#7",
+     "role": "date",
+     "quote": "2000 ."
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2005",
+   "grain": "year",
+   "track": "location",
+   "text": "Staff location in Strängnäs Garrison ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eastern_Army_Division#8",
+     "role": "both",
+     "quote": "where it was located in various forms until 2005"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Division staff co-located with Eastern Military District staff at Stureplan, Stockholm (no date; after the staff was raised)"
+ ]
+}

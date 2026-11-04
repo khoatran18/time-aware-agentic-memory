@@ -1,0 +1,371 @@
+{
+ "page_id": "Licia_Albanese",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1909-07-22",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Torre Pelosa near Bari, Italy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#0",
+     "role": "both",
+     "quote": "Licia Albanese ( July 22 , 1909 – August 15 , 2014 ) was an Italian-born American operatic soprano"
+    },
+    {
+     "chunk_id": "/wiki/Licia_Albanese#1",
+     "role": "both",
+     "quote": "Felicia Albanese was born in July 1909 in Torre Pelosa"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1934",
+   "grain": "year",
+   "track": "work",
+   "text": "Unofficial debut in Milan, replacing a soprano in Madama Butterfly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#1",
+     "role": "both",
+     "quote": "She made her unofficial debut in Milan in 1934"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1934",
+   "grain": "year",
+   "track": "work",
+   "text": "Disputed formal debut at Teatro Municipale in Bari, La bohème.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#3",
+     "role": "both",
+     "quote": "It was either in that same year ( 1934 ) at the Teatro Municipale in Bari"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e4",
+   "date": "1935",
+   "grain": "year",
+   "track": "work",
+   "text": "Disputed formal debut candidate in Milan, Madama Butterfly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#3",
+     "role": "both",
+     "quote": "or in Milan in 1935 in Madama Butterfly"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e5",
+   "date": "1935",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Debut at La Scala as Lauretta in Gianni Schicchi.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#3",
+     "role": "both",
+     "quote": "By the end of that year , she had debuted at La Scala as Lauretta in Gianni Schicchi"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1940-02-09",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Metropolitan Opera debut as Madama Butterfly; joins the company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#4",
+     "role": "both",
+     "quote": "Albanese made her Metropolitan Opera debut on February 9 , 1940"
+    },
+    {
+     "chunk_id": "/wiki/Licia_Albanese#0",
+     "role": "both",
+     "quote": "leading artist with the Metropolitan Opera from 1940 to 1966"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1941",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Begins long association with San Francisco Opera.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#8",
+     "role": "both",
+     "quote": "She was also a mainstay at the San Francisco Opera where she sang between 1941 and 1961"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1945",
+   "grain": "year",
+   "track": "location",
+   "text": "Becomes a United States citizen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#25",
+     "role": "both",
+     "quote": "Albanese became a United States citizen in 1945"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1946",
+   "grain": "year",
+   "track": "work",
+   "text": "Sings Mimì in Toscanini's NBC Symphony broadcast of La bohème.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#21",
+     "role": "both",
+     "quote": "invited Albanese to sing Mimì in the 1946 NBC Symphony Orchestra performance of La bohème"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1946-12-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Violetta in Toscanini's La traviata, broadcast on NBC Radio.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#21",
+     "role": "both",
+     "quote": "broadcast nationally on NBC Radio on December 1 and 8 , 1946"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1946-12-08",
+   "grain": "day",
+   "track": "work",
+   "text": "Second NBC Radio broadcast of Toscanini's La traviata.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#21",
+     "role": "both",
+     "quote": "broadcast nationally on NBC Radio on December 1 and 8 , 1946"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1951",
+   "grain": "year",
+   "track": "work",
+   "text": "Recording of Carmen under Fritz Reiner for RCA Victor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#23",
+     "role": "both",
+     "quote": "Carmen under the direction of Fritz Reiner , with Risë Stevens and Jan Peerce ( 1951 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1951",
+   "grain": "year",
+   "track": "work",
+   "text": "Recording of Tatiana's Letter Scene under Stokowski, learning Russian.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#23",
+     "role": "both",
+     "quote": "For a 1951 recording conducted by Leopold Stokowski"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1954",
+   "grain": "year",
+   "track": "work",
+   "text": "Recording of Manon Lescaut with Björling and Merrill.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#23",
+     "role": "both",
+     "quote": "Puccinis Manon Lescaut with Jussi Björling and Robert Merrill , conducted by Jonel Perlea ( 1954 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1959",
+   "grain": "year",
+   "track": "work",
+   "text": "Sings in Italian Night radio broadcast from Lewisohn Stadium.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#7",
+     "role": "both",
+     "quote": "In 1959 , Albanese sang for thousands of radio listeners"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1961",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ends long association with San Francisco Opera.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#8",
+     "role": "both",
+     "quote": "She was also a mainstay at the San Francisco Opera where she sang between 1941 and 1961"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1966",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Leaves the Metropolitan Opera after a dispute with Rudolf Bing.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#4",
+     "role": "both",
+     "quote": "She left the company in 1966 in a dispute with General"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1972",
+   "grain": "year",
+   "track": "work",
+   "text": "Sings Madama Butterfly duet at San Francisco Opera 50th anniversary gala.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#9",
+     "role": "both",
+     "quote": "Albanese went to San Francisco in the summer of 1972 for the special gala concert"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "The Licia Albanese-Puccini Foundation founded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#24",
+     "role": "both",
+     "quote": "The Licia Albanese-Puccini Foundation , founded in 1974"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "id": "e20",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "Cast as Heidi Schiller in Sondheim's Follies in concert.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#10",
+     "role": "both",
+     "quote": "Sondheims Follies in concert with the New York Philharmonic at Avery Fisher Hall in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Stars in stage revival of Follies at Theatre Under the Stars, Houston.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#10",
+     "role": "both",
+     "quote": "During the 1987 spring season of the Theatre Under the Stars in Houston , Texas"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e22",
+   "date": "1995-10-05",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Receives National Medal of Honor for the Arts from President Clinton.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#25",
+     "role": "both",
+     "quote": "On October 5 , 1995 , President Bill Clinton presented her with the National Medal of Honor for the Arts"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Receives the Handel Medallion from New York City, presented by Mayor Giuliani.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#27",
+     "role": "both",
+     "quote": "presented to individuals for their contributions to the citys cultural life , from Rudolph Giuliani in 2000"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014-08-15",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Dies at age 105 at her home in Manhattan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Licia_Albanese#11",
+     "role": "both",
+     "quote": "Albanese died on August 15 , 2014 , at the age of 105 in her home in Manhattan"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "First live Metropolitan Opera telecast, Verdi's Otello, opposite Ramón Vinay and Leonard Warren (no date)",
+  "Met performance of La traviata at Maple Leaf Gardens, Toronto, cited by Teresa Stratas (no date)",
+  "Possible formal debut in Parma (no date)",
+  "Chairwoman of The Licia Albanese-Puccini Foundation (no date)",
+  "Trustee of the Bagby Foundation (no date)",
+  "Taught at Juilliard School, Manhattan School of Music and Marymount Manhattan College (no dates)",
+  "Honorary degrees and awards from ten US institutions (no dates)",
+  "Returned unsigned Met contract for the season after 1965/66 (season-level only)"
+ ]
+}

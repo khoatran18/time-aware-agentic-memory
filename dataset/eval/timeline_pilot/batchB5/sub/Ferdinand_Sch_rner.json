@@ -1,0 +1,801 @@
+{
+ "page_id": "Ferdinand_Schörner",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1892-06-12",
+   "grain": "day",
+   "track": "other",
+   "text": "Born in Munich, Kingdom of Bavaria, German Empire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#0",
+     "role": "both",
+     "quote": "Ferdinand Schörner ( 12 June 1892 – 2 July 1973 )"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#5",
+     "role": "both",
+     "quote": "Schörner was born on 12 June 1892 in Munich , Kingdom of Bavaria , German Empire"
+    }
+   ],
+   "label": "birth"
+  },
+  {
+   "id": "e2",
+   "date": "1911-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Entered the Bavarian Army as a one-year volunteer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#5",
+     "role": "both",
+     "quote": "He entered the Bavarian Army in October 1911 as a one-year volunteer with the Bavarian Leib Regiment"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1914-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Became Leutnant der Reserve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#5",
+     "role": "both",
+     "quote": "by November 1914 he was a Leutnant der Reserve"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e4",
+   "date": "1914-12-22",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Iron Cross 2nd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Iron Cross ( 1914 ) 2nd Class ( 22 December 1914 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e5",
+   "date": "1916-04-20",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Military Merit Cross 3rd class (Austria-Hungary).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Military Merit Cross , 3rd class with War Decoration ( Austria-Hungary , 20 April 1916 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e6",
+   "date": "1917",
+   "grain": "year",
+   "track": "other",
+   "text": "Took part in the Battle of Caporetto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#5",
+     "role": "both",
+     "quote": "when he took part in the Battle of Caporetto , which shattered the Italian lines in autumn 1917"
+    }
+   ],
+   "label": "battle",
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1917-01-27",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Iron Cross 1st Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "& 1st Class ( 27 January 1917 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e8",
+   "date": "1917-10-24",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Military Merit Order 4th class with Swords and Crown (Bavaria).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Military Merit Order , 4th class with Swords and Crown ( Bavaria , 24 October 1917 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e9",
+   "date": "1917-12-05",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Pour le Mérite military order as a lieutenant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Pour le Mérite ( 5 December 1917 )"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#5",
+     "role": "description",
+     "quote": "he was awarded the Pour le Mérite military order as a lieutenant when he took part in the Battle of Caporetto"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e10",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Adjutant to General Otto von Lossow, Wehrkreis VII commander.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#6",
+     "role": "both",
+     "quote": "In 1923 he was adjutant to General Otto von Lossow"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1923",
+   "grain": "year",
+   "track": "other",
+   "text": "Participated in the defeat of the Beer Hall Putsch.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#6",
+     "role": "date",
+     "quote": "In 1923 he was adjutant to General Otto von Lossow"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#6",
+     "role": "description",
+     "quote": "participated in the defeat of the Beer Hall Putsch"
+    }
+   ],
+   "label": "putsch"
+  },
+  {
+   "id": "e12",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "Commanded the 98th Mountain Regiment in the invasion of Poland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#7",
+     "role": "both",
+     "quote": "Schörner commanded the 98th Mountain Regiment in the invasion of Poland in 1939"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1939-09-12",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Clasp to the Iron Cross 1939, 2nd Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Clasp to the Iron Cross ( 1939 ) 2nd Class ( 12 September 1939 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e14",
+   "date": "1939-09-20",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Clasp to the Iron Cross 1939, 1st Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "& 1st Class ( 20 September 1939 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e15",
+   "date": "1941",
+   "grain": "year",
+   "track": "role",
+   "text": "Commanded German 6th Mountain Division in the Balkans campaign.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#7",
+     "role": "both",
+     "quote": "During the 1941 Balkans campaign , he commanded the German 6th Mountain Division"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1941-04-20",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Knight's Cross as Generalmajor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#26",
+     "role": "both",
+     "quote": "Knights Cross on 20 April 1941 as Generalmajor and commander of 6 . Gebirgs-Division"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#7",
+     "role": "description",
+     "quote": "earned the Knights Cross for his role in breaching the Metaxas Line"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e17",
+   "date": "1941-06",
+   "grain": "month",
+   "track": "other",
+   "text": "Took part in Operation Barbarossa with the 6th Mountain Division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#7",
+     "role": "both",
+     "quote": "With this division , Schörner took part in Operation Barbarossa in June 1941"
+    }
+   ],
+   "label": "operation"
+  },
+  {
+   "id": "e18",
+   "date": "1942",
+   "grain": "year",
+   "track": "role",
+   "text": "Took command of the XIX Mountain Corps in Finland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#7",
+     "role": "both",
+     "quote": "In 1942 as a General der Gebirgstruppe he took command of the XIX Mountain Corps"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1942-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Promoted to Generalleutnant, commanding Mountain Corps Norway.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#8",
+     "role": "both",
+     "quote": "In February 1942 , Schörner was promoted to the rank of Generalleutnant"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1942-07-01",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Order of the Cross of Liberty 1st Class (Finland).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#26",
+     "role": "both",
+     "quote": "Order of the Cross of Liberty 1st Class ( Finland , 1 July 1942 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e21",
+   "date": "1942-08-20",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Eastern Front Medal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#24",
+     "role": "both",
+     "quote": "Eastern Front Medal ( 20 August 1942 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e22",
+   "date": "1943-01-30",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Golden Party Badge of the NSDAP.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#25",
+     "role": "both",
+     "quote": "Golden Party Badge of the NSDAP ( 30 January 1943 )"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e23",
+   "date": "1943-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Began commanding XXXX Panzer Corps on the Eastern Front.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#9",
+     "role": "both",
+     "quote": "He later commanded the XXXX Panzer Corps on the Eastern Front from November 1943 to January 1944"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1944",
+   "grain": "year",
+   "track": "other",
+   "text": "Oversaw retreat from the Dniester River in Romania.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#10",
+     "role": "both",
+     "quote": "During the late spring of 1944 , Schörner oversaw the retreat from the Dniester River in Romania"
+    }
+   ],
+   "label": "retreat",
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e25",
+   "date": "1944-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended command of XXXX Panzer Corps.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#9",
+     "role": "both",
+     "quote": "He later commanded the XXXX Panzer Corps on the Eastern Front from November 1943 to January 1944"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1944-02-17",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Oak Leaves to the Knight's Cross.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#26",
+     "role": "both",
+     "quote": "Oak Leaves on 17 February 1944 as General der Gebirgstruppe and commander of XXXX . Panzerkorps"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e27",
+   "date": "1944-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Made commander of Army Group A.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#9",
+     "role": "both",
+     "quote": "In March 1944 he was made commander of Army Group A"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1944-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Briefly served as Chief of the NS Leadership Staff of the Army.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#23",
+     "role": "both",
+     "quote": "he had served for a brief spell in March 1944 as Chief of the NS Leadership Staff of the Army"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1944-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Promoted to Generaloberst.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "Schörner was promoted to the rank of Generaloberst in May 1944"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1944-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Made commander of Army Group South Ukraine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#9",
+     "role": "both",
+     "quote": "and in May commander of Army Group South Ukraine"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e31",
+   "date": "1944-07",
+   "grain": "month",
+   "track": "role",
+   "text": "Became commander of Army Group North.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "In July he became commander of Army Group North"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e32",
+   "date": "1944-08-28",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Swords to the Knight's Cross with Oak Leaves.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#26",
+     "role": "both",
+     "quote": "93rd Swords on 28 August 1944 as Generaloberst and commander-in-chief of Heeresgruppe Nord"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e33",
+   "date": "1945",
+   "grain": "year",
+   "track": "other",
+   "text": "Issued order that soldiers found behind the lines without written orders be hanged.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#18",
+     "role": "both",
+     "quote": "criticized Schörner for a 1945 order that all soldiers found behind the front lines"
+    }
+   ],
+   "label": "order"
+  },
+  {
+   "id": "e34",
+   "date": "1945-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Left command of Army Group North (Courland).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "where he stayed until January 1945 when he was made commander of Army Group Centre"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1945-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Made commander of Army Group Centre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "where he stayed until January 1945 when he was made commander of Army Group Centre"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1945-01-01",
+   "grain": "day",
+   "track": "other",
+   "text": "Awarded Diamonds to the Knight's Cross with Oak Leaves and Swords.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#26",
+     "role": "both",
+     "quote": "23rd Diamonds on 1 January 1945 as Generaloberst and commander-in-chief of Heeresgruppe Nord"
+    }
+   ],
+   "label": "award"
+  },
+  {
+   "id": "e37",
+   "date": "1945-04-05",
+   "grain": "day",
+   "track": "role",
+   "text": "Promoted to field marshal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "On 5 April 1945 , Schörner was promoted to field marshal"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1945-04-05",
+   "grain": "day",
+   "track": "role",
+   "text": "Named new Commander-in-Chief of the German Army (OKH) in Hitler's testament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#11",
+     "role": "both",
+     "quote": "On 5 April 1945 , Schörner was promoted to field marshal"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#12",
+     "role": "description",
+     "quote": "and was named as the new Commander-in-Chief of the German Army High Command ( OKH ) in Hitlers last testament"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1945-05-02",
+   "grain": "day",
+   "track": "other",
+   "text": "Last report to OKW: intended to surrender army group to Americans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#13",
+     "role": "date",
+     "quote": "the last the OKW had heard from Schörner was on 2 May"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#13",
+     "role": "description",
+     "quote": "He had reported he intended to fight his way west and surrender his army group to the Americans"
+    }
+   ],
+   "label": "surrender",
+   "flag": "derived_date"
+  },
+  {
+   "id": "e40",
+   "date": "1945-05-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Nominal OKH post ended with the surrender of the Third Reich.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#12",
+     "role": "both",
+     "quote": "He nominally served in this post until the surrender of the Third Reich on 8 May 1945"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1945-05-08",
+   "grain": "day",
+   "track": "other",
+   "text": "Deserted and flew to Austria.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#13",
+     "role": "date",
+     "quote": "On 8 May , OKW colonel Wilhelm Meyer-Detring was escorted through the American lines to contact Schörner"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#14",
+     "role": "description",
+     "quote": "Later that day , Schörner deserted and flew to Austria"
+    }
+   ],
+   "label": "desertion",
+   "flag": "derived_date"
+  },
+  {
+   "id": "e42",
+   "date": "1945-05-18",
+   "grain": "day",
+   "track": "other",
+   "text": "Arrested by the Americans in Austria; handed himself in.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "both",
+     "quote": "With the war over , on 18 May 1945 Schörner handed himself in to the Americans"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#14",
+     "role": "description",
+     "quote": "where he was arrested by the Americans on 18 May"
+    }
+   ],
+   "label": "arrest"
+  },
+  {
+   "id": "e43",
+   "date": "1945-06",
+   "grain": "month",
+   "track": "other",
+   "text": "Handed over by Americans to Soviet authorities as a prisoner of war.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "date",
+     "quote": "With the war over , on 18 May 1945 Schörner handed himself in to the Americans"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "description",
+     "quote": "a few weeks later passed him over to the Soviet authorities as a prisoner of war"
+    }
+   ],
+   "label": "custody",
+   "flag": "derived_date"
+  },
+  {
+   "id": "e44",
+   "date": "1951-08",
+   "grain": "month",
+   "track": "other",
+   "text": "Charged with war crimes by the Soviet Union.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "both",
+     "quote": "In August 1951 he was charged with war crimes"
+    }
+   ],
+   "label": "charge"
+  },
+  {
+   "id": "e45",
+   "date": "1952-02",
+   "grain": "month",
+   "track": "other",
+   "text": "Sentenced to 25 years imprisonment by Soviet Supreme Court.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "both",
+     "quote": "in February 1952 the Military Board of the Soviet Supreme Court sentenced him to 25 years imprisonment"
+    }
+   ],
+   "label": "sentence"
+  },
+  {
+   "id": "e46",
+   "date": "1952-04",
+   "grain": "month",
+   "track": "other",
+   "text": "Sentence reduced to 12.5 years by Presidium decree.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "both",
+     "quote": "A decree of the Presidium of the Supreme Soviet in April 1952 reduced this sentence to 12 and a half years"
+    }
+   ],
+   "label": "sentence"
+  },
+  {
+   "id": "e47",
+   "date": "1954-12",
+   "grain": "month",
+   "track": "other",
+   "text": "Decree allowed transfer to East German authorities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#15",
+     "role": "both",
+     "quote": "A decree of December 1954 allowed him to be handed over to authorities of"
+    }
+   ],
+   "label": "transfer"
+  },
+  {
+   "id": "e48",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "text": "Released from East German custody.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#16",
+     "role": "both",
+     "quote": "East Germany , and he was released in 1955"
+    }
+   ],
+   "label": "release"
+  },
+  {
+   "id": "e49",
+   "date": "1960-08-04",
+   "grain": "day",
+   "track": "other",
+   "text": "Released after West German conviction.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#16",
+     "role": "both",
+     "quote": "Schörner was released on August 4 , 1960"
+    }
+   ],
+   "label": "release"
+  },
+  {
+   "id": "e50",
+   "date": "1973-07-02",
+   "grain": "day",
+   "track": "other",
+   "text": "Died; last living German field marshal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#0",
+     "role": "both",
+     "quote": "Ferdinand Schörner ( 12 June 1892 – 2 July 1973 )"
+    },
+    {
+     "chunk_id": "/wiki/Ferdinand_Schörner#3",
+     "role": "description",
+     "quote": "he was the last living German field marshal"
+    }
+   ],
+   "label": "death"
+  }
+ ],
+ "undated_mentions": [
+  "Served as staff officer and instructor in the Reichsheer between the wars.",
+  "Convicted of war crimes by Soviet and West German courts after WWII; imprisoned in USSR, East Germany and West Germany.",
+  "Evacuated the Crimean port of Sevastopol against Hitler's wishes (no date given).",
+  "Ordered continued fighting against Red Army and Prague insurgents (no date given).",
+  "Arrested in West Germany and convicted of executing deserters; sentenced to four and a half years (no date given)."
+ ]
+}

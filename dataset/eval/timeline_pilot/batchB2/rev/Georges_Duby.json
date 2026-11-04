@@ -1,0 +1,436 @@
+{
+ "page_id": "Georges_Duby",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1919-10-07",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Georges Duby is born.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#0",
+     "role": "both",
+     "quote": "( 7 October 1919 – 3 December 1996 ) was a French historian"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1942",
+   "grain": "year",
+   "track": "education",
+   "text": "Earns an undergraduate degree at Lyon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#1",
+     "role": "both",
+     "quote": "He earned an undergraduate degree at Lyon in 1942"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1952",
+   "grain": "year",
+   "track": "education",
+   "text": "Completes graduate thesis at the Sorbonne under Charles-Edmond Perrin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#1",
+     "role": "both",
+     "quote": "completed his graduate thesis at the Sorbonne under Charles-Edmond Perrin in 1952"
+    },
+    {
+     "chunk_id": "/wiki/Georges_Duby#3",
+     "role": "both",
+     "quote": "his 1952 doctoral thesis entitled La société aux XIe et XIIe siècles"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1964",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored A History of French Civilization with Robert Mandrou.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#20",
+     "role": "both",
+     "quote": "A History of French Civilization ( with Robert Mandrou ) ( New York : Random House ) 1964"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Begins publishing the Making of the Christian West trilogy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#20",
+     "role": "both",
+     "quote": "Foundations of a New Humanism : 1280–1440 ( Geneva : Skira ) 1966–67"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "Trilogy publication ends with Foundations of a New Humanism.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#20",
+     "role": "both",
+     "quote": "Foundations of a New Humanism : 1280–1440 ( Geneva : Skira ) 1966–67"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1968",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes Rural Economy and Country Life in the Medieval West.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#20",
+     "role": "both",
+     "quote": "( Columbia : University of South Carolina Press ) 1968"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed to the Chair of the History of Medieval Society at the Collège de France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#1",
+     "role": "both",
+     "quote": "was appointed in 1970 to the Chair of the History of Medieval Society"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes Le Dimanche de Bouvines.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#13",
+     "role": "both",
+     "quote": "In Le Dimanche de Bouvines ( 1973 ) on the pivotal 1214 battle"
+    },
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "Le Dimanche de Bouvines ( 1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1973",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Receives the Prix des Ambassadeurs (France).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#17",
+     "role": "both",
+     "quote": "Prix des Ambassadeurs ( France , 1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1974",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes The Year 1000.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "The Year 1000 ( 1974 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1974",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes The Early Growth of the European Economy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#20",
+     "role": "both",
+     "quote": "( Ithaca : Cornell ) University Press ) 1974"
+    },
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "( Ithaca : Cornell University Press ) , 1974"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1976",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes The Age of the Cathedrals: Art and Society 980–1420.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "The Age of the Cathedrals : Art and Society 980–1420 ( 1976 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Receives the Grand prix Gobert.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#17",
+     "role": "both",
+     "quote": "Grand prix Gobert ( 1977 )"
+    }
+   ]
+  },
+  {
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "The Chivalrous Society published (English translation of portions of La Société)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#21",
+     "role": "both",
+     "quote": "portions translated in The Chivalrous Society ( 1978 ; repr . 1981 )"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "id": "e16",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes The Three Orders: Feudal Society Imagined.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "( Chicago : University of Chicago Press ) 1981"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes Dialogues with Guy Lardreau.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#23",
+     "role": "both",
+     "quote": "Dialogues , with Guy Lardreau , Paris , Flammarion , 1981"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes The Knight, the Lady and the Priest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#24",
+     "role": "both",
+     "quote": "( New York : Pantheon ) 1981"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes Guillaume le Maréchal (William Marshal).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#24",
+     "role": "both",
+     "quote": "Guillaume le Maréchal ( Paris : Fayard ) , 1983"
+    }
+   ]
+  },
+  {
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "William Marshal: The Flower of Chivalry published (English translation of Guillaume le Maréchal)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#24",
+     "role": "both",
+     "quote": "tr . as William Marshal : The Flower of Chivalry ( 1984 )"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected to the Académie française.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#1",
+     "role": "description",
+     "quote": "He was elected to the"
+    },
+    {
+     "chunk_id": "/wiki/Georges_Duby#2",
+     "role": "both",
+     "quote": "Académie française in 1987 ."
+    }
+   ]
+  },
+  {
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "The Legend of Bouvines published (English translation of Le Dimanche de Bouvines)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#22",
+     "role": "both",
+     "quote": "Translated in English as The Legend of Bouvines ( 1990 )"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "id": "e23",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Retires from the Collège de France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#1",
+     "role": "both",
+     "quote": "He remained attached to the Collège until his retirement in 1991"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Publishes last book Lhistoire continue, an intellectual autobiography.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#15",
+     "role": "both",
+     "quote": "Lhistoire continue ( History Continues ) ( 1991"
+    },
+    {
+     "chunk_id": "/wiki/Georges_Duby#24",
+     "role": "both",
+     "quote": "Lhistoire continue ( 1991 )"
+    }
+   ]
+  },
+  {
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "History Continues published (English translation of L'histoire continue)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#15",
+     "role": "both",
+     "quote": "( History Continues ) ( 1991 ; Engl . trans . 1994 )"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "id": "e26",
+   "date": "1996-12-03",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Georges Duby dies.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Georges_Duby#0",
+     "role": "both",
+     "quote": "( 7 October 1919 – 3 December 1996 ) was a French historian"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Taught at Besançon",
+  "Taught at the University of Aix-en-Provence",
+  "First director of La Sept (Société d'édition de programmes de télévision)",
+  "Commandeur of the Legion of Honour",
+  "Grand officier of the National Order of Merit",
+  "Commandeur of the Ordre des Palmes Académiques",
+  "Commandeur of the Ordre des Arts et des Lettres",
+  "Chevalier of the Order of Agricultural Merit",
+  "Officier of the Order of Orange-Nassau",
+  "Lauréat du concours général (France)",
+  "Member of the Académie des Inscriptions et Belles-Lettres",
+  "Member of the British Academy",
+  "Member of the Medieval Academy of America",
+  "Member of the Royal Academy of Science, Letters and Fine Arts of Belgium",
+  "Member of the Accademia dei Lincei",
+  "Member of the Academia Europaea",
+  "Member of the Hungarian Academy of Sciences",
+  "Member of the Royal Spanish Academy",
+  "Member of the Real Academia de Buenas Letras de Barcelona",
+  "Member of the American Philosophical Society",
+  "Member of the Royal Historical Society",
+  "Honorary degree: University of Cambridge",
+  "Honorary degree: University of Oxford",
+  "Honorary degree: University of Amsterdam",
+  "Honorary degree: Université catholique de Louvain",
+  "Honorary degree: University of Liège",
+  "Honorary degree: Université de Montréal",
+  "Honorary degree: American University of Paris",
+  "Honorary degree: University of Granada",
+  "Honorary degree: University of Santiago de Compostela",
+  "Honorary degree: John Paul II Catholic University of Lublin"
+ ]
+}

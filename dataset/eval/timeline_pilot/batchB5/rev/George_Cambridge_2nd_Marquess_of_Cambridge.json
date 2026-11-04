@@ -1,0 +1,267 @@
+{
+ "page_id": "George_Cambridge_2nd_Marquess_of_Cambridge",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1895-10-11",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "George Cambridge born at Grosvenor House",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#0",
+     "role": "both",
+     "quote": "( 11 October 1895 – 16 April 1981 )"
+    },
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#2",
+     "role": "description",
+     "quote": "Born at Grosvenor House , the home of his maternal grandfather"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1917",
+   "grain": "year",
+   "track": "naming",
+   "text": "Began styled Earl of Eltham as courtesy title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#0",
+     "role": "both",
+     "quote": "and as Earl of Eltham from 1917 to 1927"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1917-06",
+   "grain": "month",
+   "track": "naming",
+   "text": "Prince George of Teck became George Cambridge after father's surname change",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#2",
+     "role": "both",
+     "quote": "In June 1917 , at the request of George V , his father relinquished the titles"
+    },
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3",
+     "role": "description",
+     "quote": "Prince George became George Cambridge and was styled Earl of Eltham as a courtesy title"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1918",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service as aide-de-camp on the Personal Staff",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "role": "both",
+     "quote": "served as an aide-de-camp on the Personal Staff in 1918–1919"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1919",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended service as aide-de-camp on the Personal Staff",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "role": "both",
+     "quote": "served as an aide-de-camp on the Personal Staff in 1918–1919"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "text": "Served as lieutenant in Shropshire Yeomanry, Territorial Army",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "role": "both",
+     "quote": "as a lieutenant in the Shropshire Yeomanry from 1921"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1923-04-10",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Dorothy Isabel Westenra Hastings",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#7",
+     "role": "both",
+     "quote": "On 10 April 1923 , he married Dorothy Isabel Westenra Hastings"
+    }
+   ]
+  },
+  {
+   "date": "1924-09-24",
+   "grain": "day",
+   "track": "family",
+   "label": "birth of daughter",
+   "text": "Daughter Lady Mary Cambridge born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#7",
+     "role": "both",
+     "quote": "The couple had one child , Lady Mary Cambridge ( 24 September 1924 – 13 December 1999 )"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "id": "e9",
+   "date": "1927",
+   "grain": "year",
+   "track": "naming",
+   "text": "Ended styling as Earl of Eltham",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#0",
+     "role": "both",
+     "quote": "and as Earl of Eltham from 1917 to 1927"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1927-06",
+   "grain": "month",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed Knight Commander of the Royal Victorian Order",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3",
+     "role": "both",
+     "quote": "He was appointed a Knight Commander of the Royal Victorian Order in June 1927"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1927-10-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Succeeded father as 2nd Marquess of Cambridge",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3",
+     "role": "both",
+     "quote": "He succeeded his father as 2nd Marquess of Cambridge on 24 October 1927"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1929",
+   "grain": "year",
+   "track": "role",
+   "text": "Served as captain in 16th Battalion, London Regiment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "role": "both",
+     "quote": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1929",
+   "grain": "year",
+   "track": "role",
+   "text": "Became director of Coutts & Company bank",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#6",
+     "role": "both",
+     "quote": "In 1929 , he became a director of Coutts & Company"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1932",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended service as captain in 16th Battalion, London Regiment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "role": "both",
+     "quote": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1935-06",
+   "grain": "month",
+   "track": "other",
+   "label": "honour",
+   "text": "Promoted to Knight Grand Cross of the Royal Victorian Order",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3",
+     "role": "both",
+     "quote": "was promoted to Knight Grand Cross in June 1935"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1951",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Retired from Coutts & Company",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#6",
+     "role": "both",
+     "quote": "He remained with the firm until his retirement in 1951"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1981-04-16",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "George Cambridge died in Little Abington",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#9",
+     "role": "both",
+     "quote": "Lord Cambridge died on 16 April 1981 in Little Abington"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Educated at Eton College and then at Magdalen College, Oxford",
+  "Joined the Reserve Regiment of the 1st Life Guards during World War I",
+  "Mobilised as Captain with the Royal Army Service Corps at the outbreak of World War II",
+  "Rose to the rank of Major in France during World War II",
+  "Participated in the coronations of George V, George VI, and Elizabeth II",
+  "Served for many years as Royal Trustee of the British Museum",
+  "Peerages became extinct on his death"
+ ]
+}

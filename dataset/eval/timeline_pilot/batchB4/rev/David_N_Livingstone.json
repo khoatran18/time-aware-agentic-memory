@@ -1,0 +1,520 @@
+{
+ "page_id": "David_N_Livingstone",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1953-03-15",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Northern Ireland; David Noel Livingstone born.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#0",
+     "role": "both",
+     "quote": "born 15 March 1953"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1984",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Darwins Forgotten Defenders (Scottish Academic Press).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#3",
+     "role": "both",
+     "quote": "Scottish Academic Press , 1984"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Nathaniel Southgate Shaler and the Culture of American Science.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#3",
+     "role": "both",
+     "quote": "University of Alabama Press , 1987"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Geographical Tradition (Blackwell).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#3",
+     "role": "both",
+     "quote": "Blackwell , 1992"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Preadamite Theory and the Marriage of Science and Religion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#3",
+     "role": "both",
+     "quote": "American Philosophical Society , 1992"
+    }
+   ]
+  },
+  {
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Charles Lyell Lecturer, BAAS (1994-95)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Charles Lyell Lecturer , British Association for the Advancement of Science , 1994–95"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "id": "e7",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-edited Human Geography: An Essential Anthology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#3",
+     "role": "both",
+     "quote": "Blackwell , 1996"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Back Award from Royal Geographical Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#8",
+     "role": "both",
+     "quote": "1997 : Back Award , Royal Geographical Society"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Centenary Medal from Royal Scottish Geographical Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#8",
+     "role": "both",
+     "quote": "1998 : Centenary Medal , Royal Scottish Geographical Society"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-edited Evangelicals and Science in Historical Perspective.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#4",
+     "role": "both",
+     "quote": "Oxford University Press , 1999"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-edited Geography and Enlightenment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#5",
+     "role": "both",
+     "quote": "University of Chicago Press , 1999"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored Ulster-American Religion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#5",
+     "role": "both",
+     "quote": "University of Notre Dame Press , 1999"
+    }
+   ]
+  },
+  {
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Hettner Lectures, University of Heidelberg",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Hettner Lectures , University of Heidelberg , 2001"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "id": "e14",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Science, Space and Hermeneutics (Hettner Lectures 2001).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#5",
+     "role": "both",
+     "quote": "University of Heidelberg , 2002"
+    }
+   ]
+  },
+  {
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Murrin Lectures, University of British Columbia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Murrin Lectures , University of British Columbia , 2002"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "id": "e16",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Putting Science in its Place: Geographies of Scientific Knowledge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#5",
+     "role": "both",
+     "quote": "University of Chicago Press , 2003"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Became President of Geography Section, British Association for the Advancement of Science.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "President of the Geography Section of the British Association for the Advancement of Science for 2004–05"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Presidency of Geography Section, BAAS, ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "for 2004–05"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-edited Geography and Revolution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#6",
+     "role": "both",
+     "quote": "University of Chicago Press , 2005"
+    }
+   ]
+  },
+  {
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Progress in Human Geography Lecture, RGS",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Progress in Human Geography Lecture , Royal Geographical Society , 2005"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Vice President (for Research) and Member of Council, Royal Geographical Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Member of Council , Royal Geographical Society , 2007–"
+    }
+   ]
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Appleton Lecture, University of Hull",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#11",
+     "role": "both",
+     "quote": "Appleton Lecture , University of Hull , 2007"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Von Humboldt Lecture, UCLA",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#12",
+     "role": "both",
+     "quote": "Von Humboldt Lecture , U.C.L.A. , 2007"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Gordon Manley Lecture, Royal Holloway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#13",
+     "role": "both",
+     "quote": "Gordon Manley Lecture , Royal Holloway , University of London , 2007"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Adams Ancestors: Race, Religion and the Politics of Human Origins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#7",
+     "role": "both",
+     "quote": "The Johns Hopkins University Press , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Gold Medal from Royal Irish Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#8",
+     "role": "both",
+     "quote": "2008 : Gold Medal , Royal Irish Academy"
+    }
+   ]
+  },
+  {
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Gunning Lecture, University of Edinburgh",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#13",
+     "role": "both",
+     "quote": "Gunning Lecture , University of Edinburgh , 2009"
+    }
+   ],
+   "id": "e27"
+  },
+  {
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Gregory Lecture, University of Southampton",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#13",
+     "role": "both",
+     "quote": "Gregory Lecture , University of Southampton , 2010"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "id": "e29",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Founders’ Medal from Royal Geographical Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#10",
+     "role": "both",
+     "quote": "2011 : Founders’ Medal , Royal Geographical Society"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received honorary Hon.D.Litt from University of Aberdeen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#10",
+     "role": "both",
+     "quote": "2013 : Hon.D.Litt , University of Aberdeen"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Dealing with Darwin (Johns Hopkins University Press).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#7",
+     "role": "both",
+     "quote": "Baltimore : Johns Hopkins University Press 2014"
+    }
+   ]
+  },
+  {
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Gifford Lectures, University of Aberdeen",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#13",
+     "role": "both",
+     "quote": "Gifford Lectures , University of Aberdeen , 2014"
+    }
+   ],
+   "id": "e32"
+  },
+  {
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "lecture",
+   "text": "Delivered Dudleian Lecture, Harvard University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#13",
+     "role": "both",
+     "quote": "Dudleian Lecture , Harvard University , 2015"
+    }
+   ],
+   "id": "e33"
+  },
+  {
+   "id": "e34",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Appointed CBE for services to scholarship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/David_N._Livingstone#10",
+     "role": "both",
+     "quote": "2019 : CBE for services to scholarship"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Educated at Banbridge Academy",
+  "Degrees (B.A., Ph.D.) from Queens University Belfast",
+  "Research Officer and Lecturer at Queens University Belfast",
+  "Reader, then full Professor at Queens University Belfast",
+  "Professor of Geography and Intellectual History at Queens University Belfast",
+  "Visiting professorship at Calvin College, Michigan",
+  "Visiting professorship at University of British Columbia",
+  "Visiting professorship at University of Notre Dame",
+  "Visiting professorship at Baylor University",
+  "Appointed OBE for services to Geography and History",
+  "Married to Frances Livingstone",
+  "Elected Fellow of the British Academy",
+  "Elected Member of the Royal Irish Academy",
+  "British Academy Research Reader",
+  "Elected Member of the Academia Europaea",
+  "Elected Fellow of the Royal Society of Arts",
+  "Elected Fellow of the Academy of Social Sciences",
+  "Corresponding Member, International Academy of the History of Science"
+ ]
+}

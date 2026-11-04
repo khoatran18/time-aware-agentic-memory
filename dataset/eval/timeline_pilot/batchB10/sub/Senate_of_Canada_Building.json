@@ -1,0 +1,150 @@
+{
+  "page_id": "Senate_of_Canada_Building",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1910",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Grand Trunk Railway allotted part of the Rideau Canal for a new station and hotel.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#8", "role": "both", "quote": "In 1910 , the Grand Trunk was apportioned part of the Rideau Canal in order to build a new station and hotel"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1912-06",
+      "grain": "month",
+      "track": "work",
+      "text": "Grand Trunk Union Station in Ottawa opened, June 1912.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#9", "role": "both", "quote": "The building was opened by the Grand Trunk Railway in 1912 as Ottawas central railway station"},
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#10", "role": "both", "quote": "The June 1912 opening of the Union Station and the Chateau Laurier"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1920-01-04",
+      "grain": "day",
+      "track": "naming",
+      "text": "Grand Trunk Central station became Ottawa Union Station after CP trains moved.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#9", "role": "both", "quote": "January 4 , 1920 , the old station was closed and the Grand Trunk station became Ottawa Union Station"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1966",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Building began federal government operation as the Government Conference Centre.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#0", "role": "both", "quote": "from 1966 to 2018 it was operated by the federal government as the Government Conference Centre"},
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#16", "role": "description", "quote": "it was turned into the Government Conference Centre"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1966-07-31",
+      "grain": "day",
+      "track": "other",
+      "label": "closure",
+      "text": "Union Station ceased railway passenger operations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#12", "role": "both", "quote": "until it ceased operations on July 31 , 1966"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1967",
+      "grain": "year",
+      "track": "other",
+      "label": "event",
+      "text": "Building became the centre of Canada's centenary celebrations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#16", "role": "both", "quote": "becoming the centre of Canadas centenary celebrations in 1967"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1973",
+      "grain": "year",
+      "track": "work",
+      "flag": "derived_date",
+      "text": "Rear entrance and canopy built for the 1973 Commonwealth Prime Ministers meeting.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#16", "role": "description", "quote": "A new entrance"},
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#17", "role": "both", "quote": "was built to provide greater security for the Commonwealth Prime Ministers meeting held in 1973"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1973",
+      "grain": "year",
+      "track": "work",
+      "flag": "derived_date",
+      "text": "Artist Bruce Garner sculpted bronze entrance doors titled Reflections of Canada.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#17", "role": "both", "quote": "The same year , artist Bruce Garner sculpted bronze doors for the new entrance"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1991-09-27",
+      "grain": "day",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Section of the Berlin Wall displayed in main entrance until January 2011.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#19", "role": "both", "quote": "on display inside the main entrance from September 27 , 1991"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2001",
+      "grain": "year",
+      "track": "other",
+      "label": "event",
+      "text": "Building hosted the G20 conference of finance ministers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#18", "role": "both", "quote": "In 2001 , the building hosted the G20 conference"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2013-07",
+      "grain": "month",
+      "track": "location",
+      "text": "Public Works announced temporary Senate accommodation during Centre Block rehabilitation.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#23", "role": "both", "quote": "In July 2013 , it was announced by Public Works Canada that the building would be used to temporarily accommodate"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2018",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Federal government operation as the Government Conference Centre ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#0", "role": "both", "quote": "from 1966 to 2018 it was operated by the federal government"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2019-02",
+      "grain": "month",
+      "track": "location",
+      "text": "Building formally re-opened as the temporary seat of the Senate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_Canada_Building#26", "role": "both", "quote": "In February 2019 , the Senate of Canada Building formally re-opened in its current role"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "mid-1990s: proposal to make the building the new home of the Canadian Sports Hall of Fame, which fell through",
+    "final year in office of PM Jean Chrétien (no exact date): announced building would become a Canadian political history museum",
+    "after Chrétien, incoming PM Paul Martin cancelled the political history museum project (no exact date)",
+    "1960s: outdated conference amenities (translation booths) added to the building"
+  ]
+}

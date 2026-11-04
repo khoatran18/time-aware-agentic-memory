@@ -1,0 +1,1216 @@
+{
+ "page_id": "Charles_Holden",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1875-05-12",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born at Great Lever, Bolton",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#4",
+     "role": "both",
+     "quote": "Charles Henry Holden was born on 12 May 1875 at Great Lever , Bolton"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1891",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began working for brother-in-law David Frederick Green in Bolton",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "In 1891 he began working for his brother-in-law , David Frederick Green , a land surveyor and architect in Bolton"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1892-04",
+   "grain": "month",
+   "track": "education",
+   "text": "Articled to Manchester architect Everard W. Leeson",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "In April 1892 he was articled to Manchester architect Everard W . Leeson"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1893",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studying at Manchester School of Art",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "also studied at the Manchester School of Art ( 1893–94 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1894",
+   "grain": "year",
+   "track": "education",
+   "text": "Finished studies at Manchester School of Art",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "also studied at the Manchester School of Art ( 1893–94 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1894",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studying at Manchester Technical School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "Manchester Technical School ( 1894–96 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1895",
+   "grain": "year",
+   "track": "work",
+   "text": "Submitted designs to Building News Designing Club competitions as The Owl",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#8",
+     "role": "both",
+     "quote": "In 1895 and 1896 Holden submitted designs to Building News Designing Club competitions"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1896",
+   "grain": "year",
+   "track": "education",
+   "text": "Finished studies at Manchester Technical School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#6",
+     "role": "both",
+     "quote": "Manchester Technical School ( 1894–96 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1896",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Leeson's practice",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#14",
+     "role": "both",
+     "quote": "Holden left Leesons practice in 1896"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1896",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began working for Jonathan Simpson in Bolton",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#14",
+     "role": "both",
+     "quote": "worked for Jonathan Simpson in Bolton in 1896 and 1897"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1897",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Worked for Jonathan Simpson in Bolton through 1897",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#14",
+     "role": "both",
+     "quote": "worked for Jonathan Simpson in Bolton in 1896 and 1897"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1897",
+   "grain": "year",
+   "track": "work",
+   "text": "Entered RIBA Soane Medallion competition; design placed third",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#8",
+     "role": "both",
+     "quote": "In 1897 , he entered the competition for the RIBAs prestigious Soane Medallion"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1898",
+   "grain": "year",
+   "track": "family",
+   "text": "Began living with Margaret Steadman as his wife (never formalised)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#10",
+     "role": "both",
+     "quote": "Around 1898 Holden began living with Margaret Steadman"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e14",
+   "date": "1899-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Became chief assistant in H. Percy Adams's practice",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#14",
+     "role": "both",
+     "quote": "in October 1899 , he became chief assistant in H . Percy Adams practice"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1900",
+   "grain": "year",
+   "track": "education",
+   "text": "Began evening architecture studies at Royal Academy School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#15",
+     "role": "both",
+     "quote": "From 1900 to 1903 , Holden studied architecture in the evenings at the Royal Academy School"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1900",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed Belgrave Hospital for Children facades, Kennington (1900-03)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#16",
+     "role": "both",
+     "quote": "for the Belgrave Hospital for Children in Kennington , south London ( 1900–03 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1901",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: Strathclyde Royal Infirmary",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "Strathclyde Royal Infirmary ( 1901 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1902",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed extension to The Law Society, Chancery Lane (1902-04)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#21",
+     "role": "both",
+     "quote": "For The Law Society he designed ( 1902–04 ) a simplified neoclassical extension"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1902",
+   "grain": "year",
+   "track": "work",
+   "text": "Won competition to design Bristol Central Library",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#17",
+     "role": "both",
+     "quote": "In 1902 , Holden won the architectural competition to design the Bristol Central Library"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1902",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved with Margaret to Codicote, Hertfordshire",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#12",
+     "role": "both",
+     "quote": "until 1902 , when they moved to Codicote in Hertfordshire"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1903",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed King Edward VII Sanatorium, Midhurst (1903-06)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#19",
+     "role": "both",
+     "quote": "At Midhurst , West Sussex , Holden designed Tudor-style façades for the Sir Ernest Cassel-funded King Edward VII Sanatorium ( 1903–06 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1903",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed British Seamen's Hospital in Istanbul (1903-04)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#20",
+     "role": "both",
+     "quote": "the British Seamens Hospital in Istanbul ( 1903–04 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1903",
+   "grain": "year",
+   "track": "education",
+   "text": "Finished evening architecture studies at Royal Academy School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#15",
+     "role": "both",
+     "quote": "From 1900 to 1903 , Holden studied architecture in the evenings at the Royal Academy School"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1904",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: Manchester Royal Infirmary",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "Manchester Royal Infirmary ( 1904 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1906",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to Harmer Green near Welwyn, where he designed their house",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#12",
+     "role": "both",
+     "quote": "Around 1906 , they moved to Harmer Green near Welwyn"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e26",
+   "date": "1906",
+   "grain": "year",
+   "track": "work",
+   "text": "Won competition to design British Medical Association headquarters",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#22",
+     "role": "both",
+     "quote": "In 1906 , Holden won the architectural competition to design a new headquarters for the British Medical Association"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1907",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became partner; practice renamed Adams & Holden",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#25",
+     "role": "both",
+     "quote": "The practice became Adams & Holden in 1907 when Holden became a partner"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1907",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: County Hall",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "County Hall ( 1907 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed Women's Hospital in Soho, central London",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#20",
+     "role": "both",
+     "quote": "the Womens Hospital in Soho , central London ( 1908 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1909",
+   "grain": "year",
+   "track": "work",
+   "text": "Won design competition for Bristol Royal Infirmary extension",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#24",
+     "role": "both",
+     "quote": "In 1909 , Holden won the design competition for an extension to the Bristol Royal Infirmary"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1909",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: National Library of Wales",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "the National Library of Wales ( 1909 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1911",
+   "grain": "year",
+   "track": "work",
+   "text": "Bristol Royal Infirmary extension built (1911-12)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#24",
+     "role": "both",
+     "quote": "the extension ( 1911–12 ) was built on steeply sloping ground"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1911",
+   "grain": "year",
+   "track": "work",
+   "text": "Worked with Epstein on Oscar Wilde tomb, Père Lachaise (1911-12)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "Holden also worked with Epstein on the tomb of Oscar Wilde at Père Lachaise cemetery in Paris ( 1911–12 )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1911",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: Coventry Town Hall",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "Coventry Town Hall ( 1911 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1913",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded RIBA Godwin Medal and £65 to study architecture abroad",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#25",
+     "role": "both",
+     "quote": "In 1913 , Holden was awarded the RIBAs Godwin medal and £65 to study architecture abroad"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1913-04",
+   "grain": "month",
+   "track": "education",
+   "text": "Travelled to America to study university social science departments",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#25",
+     "role": "both",
+     "quote": "He travelled to America in April 1913 and studied the organisation of household"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1914",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed altar at St Pancras New Church",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#70",
+     "role": "both",
+     "quote": "where Holden had designed the altar in 1914"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1915",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Founding member of the Design and Industries Association",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "In 1915 , he was a founding member of the Design and Industries Association"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1915",
+   "grain": "year",
+   "track": "other",
+   "label": "service",
+   "text": "Began fire watch duty at St Paul's Cathedral",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#29",
+     "role": "both",
+     "quote": "Holden also served on the fire watch at St Pauls Cathedral between 1915 and 1917"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1915",
+   "grain": "year",
+   "track": "work",
+   "text": "Unsuccessful competition entry: Board of Trade building",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "the Board of Trade building ( 1915"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1917",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became member of the Art Workers Guild",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#27",
+     "role": "both",
+     "quote": "he was a member of the Art Workers Guild from 1917"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1917",
+   "grain": "year",
+   "track": "other",
+   "label": "service",
+   "text": "Ended fire watch duty at St Paul's Cathedral",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#29",
+     "role": "both",
+     "quote": "Holden also served on the fire watch at St Pauls Cathedral between 1915 and 1917"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1917-10",
+   "grain": "month",
+   "track": "other",
+   "label": "travel",
+   "text": "First trip to French battlefields to plan new cemeteries",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#30",
+     "role": "both",
+     "quote": "He travelled to the French battlefields for the first time later that month"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e44",
+   "date": "1917-10-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed temporary lieutenant, Directorate of Graves Registration and Enquiries",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#30",
+     "role": "both",
+     "quote": "On 3 October 1917 , Holden was appointed a temporary lieutenant"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1918",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed unbuilt Hall of Remembrance for British War Memorials Committee",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#35",
+     "role": "both",
+     "quote": "he produced a design for a Hall of Remembrance ( 1918 )"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1918",
+   "grain": "year",
+   "track": "work",
+   "text": "Began working on Commission cemeteries (69 until 1928)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#32",
+     "role": "both",
+     "quote": "From 1918 until 1928 he worked on 69 Commission cemeteries"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1918-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Transferred to Imperial War Graves Commission with rank of major",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#32",
+     "role": "both",
+     "quote": "In September 1918 , Holden transferred to the Imperial War Graves Commission"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1919",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed unbuilt memorial chapel for New College, Oxford",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#35",
+     "role": "both",
+     "quote": "for New College , Oxford , he created a design for a tiny memorial chapel ( 1919 )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1920",
+   "grain": "year",
+   "track": "role",
+   "text": "Promoted to fourth principal architect of the Commission",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#34",
+     "role": "both",
+     "quote": "In 1920 , he was promoted to be the fourth principal architect"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1922",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed War Memorial Gateway for Clifton College, Bristol",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#35",
+     "role": "both",
+     "quote": "In 1922 , Holden designed the War Memorial Gateway for Clifton College"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1923",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned by Frank Pick to design side entrance at Westminster station",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#36",
+     "role": "both",
+     "quote": "In 1923 , Pick commissioned Holden to design a façade for a side entrance at Westminster Underground station"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed UERL pavilion for British Empire Exhibition",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#36",
+     "role": "both",
+     "quote": "This was followed in 1924 with an appointment to design the UERLs pavilion for the British Empire Exhibition"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned to design seven new stations for Morden extension",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#36",
+     "role": "both",
+     "quote": "Also in 1924 , Pick commissioned Holden to design seven new stations in"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1925",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed Piccadilly Circus concourse and ticket hall (1925-28)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#39",
+     "role": "both",
+     "quote": "Holden designed ( 1925–28 ) a spacious travertine-lined circulating concourse"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1926",
+   "grain": "year",
+   "track": "work",
+   "text": "Began design of 55 Broadway UERL headquarters",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#40",
+     "role": "both",
+     "quote": "In 1926 , Holden began the design of a new headquarters for the UERL at 55 Broadway"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Ended work on Commission cemeteries",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#32",
+     "role": "both",
+     "quote": "From 1918 until 1928 he worked on 69 Commission cemeteries"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1930",
+   "grain": "year",
+   "track": "other",
+   "label": "tour",
+   "text": "Toured Germany, Netherlands, Denmark and Sweden with Frank Pick",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#42",
+     "role": "both",
+     "quote": "In 1930 , Holden and Pick made a tour of Germany , the Netherlands , Denmark and Sweden"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1931",
+   "grain": "year",
+   "track": "work",
+   "text": "Sudbury Town station rebuilt; template for later stations",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#43",
+     "role": "both",
+     "quote": "Sudbury Town , the first station to be rebuilt in 1931"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1931",
+   "grain": "year",
+   "track": "work",
+   "text": "Commissioned to design University of London new buildings",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#53",
+     "role": "both",
+     "quote": "Holden was commissioned in 1931 to design the new buildings"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1931",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded RIBA London Architecture Medal (for 1929) for 55 Broadway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "Holden won the RIBAs London Architecture Medal for 1929 ( awarded 1931 ) for 55 Broadway"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1932",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction began on University of London Senate House scheme",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#55",
+     "role": "both",
+     "quote": "Construction began in 1932"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1933",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became member of the Royal Fine Art Commission",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "a member of the Royal Fine Art Commission from 1933 to 1947"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Vice President of the RIBA",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "He was Vice President of the RIBA from 1935–37"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1936",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded RIBA Royal Gold Medal for body of work",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#3",
+     "role": "both",
+     "quote": "He was awarded the Royal Institute of British Architects ( RIBAs ) Royal Gold Medal for architecture in 1936"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "In 1936 he was awarded the RIBAs Royal Gold Medal for his body of work"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "1936",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Honorary doctorate from Manchester University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "He was awarded honorary doctorates by Manchester University in 1936 and London University in 1946"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1937",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term as Vice President of the RIBA",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "He was Vice President of the RIBA from 1935–37"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e67",
+   "date": "1937",
+   "grain": "year",
+   "track": "work",
+   "text": "Senate House and Library completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#55",
+     "role": "both",
+     "quote": "only the Senate House and Library were completed in 1937"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1942",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Declined invitation to become a Royal Academician",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#80",
+     "role": "both",
+     "quote": "Holden declined the invitation to become a Royal Academician in 1942"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "1943",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Appointed Royal Designer for Industry",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#3",
+     "role": "both",
+     "quote": "was appointed a Royal Designer for Industry in 1943"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "In 1943 he was appointed a Royal Designer for Industry"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "1943",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Declined first knighthood offer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#80",
+     "role": "both",
+     "quote": "He twice declined a knighthood , in 1943 and 1951"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "1944",
+   "grain": "year",
+   "track": "work",
+   "text": "Began plans for reconstruction of Canterbury with Herbert Millson Enderby",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#61",
+     "role": "both",
+     "quote": "In 1944–45 , Holden produced plans for the reconstruction of Canterbury , Kent"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "1945-11",
+   "grain": "month",
+   "track": "work",
+   "text": "Canterbury reconstruction plan ended after change of council administration",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#62",
+     "role": "both",
+     "quote": "The change in administration ended the proposals"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e73",
+   "date": "1946",
+   "grain": "year",
+   "track": "work",
+   "text": "City of London Plan (1946-47) recommended relaxing height limits",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#63",
+     "role": "both",
+     "quote": "Holdens and Holfords City of London Plan ( 1946–1947 ) recommended a relaxation"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "1946",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Honorary doctorate from London University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "He was awarded honorary doctorates by Manchester University in 1936 and London University in 1946"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "1947",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Membership of Royal Fine Art Commission ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#78",
+     "role": "both",
+     "quote": "a member of the Royal Fine Art Commission from 1933 to 1947"
+    }
+   ]
+  },
+  {
+   "id": "e76",
+   "date": "1947",
+   "grain": "year",
+   "track": "work",
+   "text": "Planned South Bank scheme for London County Council",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#65",
+     "role": "both",
+     "quote": "In 1947 , Holden planned a scheme on behalf of the London County Council for the South Bank"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "1947",
+   "grain": "year",
+   "track": "work",
+   "text": "Central line extension stations completed (delayed by war)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#51",
+     "role": "both",
+     "quote": "were not completed until 1947"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "City of London Plan accepted by Minister for Town and Country Planning",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#64",
+     "role": "both",
+     "quote": "The plan was accepted by the Minister for Town and Country Planning in 1948"
+    }
+   ]
+  },
+  {
+   "id": "e79",
+   "date": "1952",
+   "grain": "year",
+   "track": "work",
+   "text": "Appointed by English Electric for Aldwych headquarters building",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#67",
+     "role": "both",
+     "quote": "In 1952 , Adams , Holden & Pearson were appointed by English Electrics chairman , Sir George Nelson"
+    }
+   ]
+  },
+  {
+   "id": "e80",
+   "date": "1954",
+   "grain": "year",
+   "track": "family",
+   "text": "Wife Margaret Holden died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#66",
+     "role": "both",
+     "quote": "Margaret Holden died in 1954 after a protracted illness"
+    }
+   ]
+  },
+  {
+   "id": "e81",
+   "date": "1955",
+   "grain": "year",
+   "track": "work",
+   "text": "English Electric scheme set aside for limited architectural competition",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#67",
+     "role": "both",
+     "quote": "In 1955 , the London County Council persuaded English Electric to put the scheme aside"
+    }
+   ]
+  },
+  {
+   "id": "e82",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Formally retired",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#66",
+     "role": "both",
+     "quote": "He did not formally retire until 1958"
+    }
+   ]
+  },
+  {
+   "id": "e83",
+   "date": "1960-05-01",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Holden#70",
+     "role": "both",
+     "quote": "Holden died on 1 May 1960"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Moved to London to work for Charles Robert Ashbee (no date given)",
+  "Worked on experimental war cemetery at Louvencourt and probably Forceville (undated)",
+  "Designed New Zealand memorials at Messines Ridge and Buttes New British Cemetery (undated)",
+  "Designed pre-WWI commercial buildings in Holborn and Oxford Street, Shire Hall Bedford extension, Sutton Valence School (undated)",
+  "Designed Kings College for Women, Kensington (undated, after 1913 trip)",
+  "Designed Bond Street station entrance and advised on Morden extension station facades (undated)",
+  "During later 1920s designed replacement station buildings and facades across the UERL network (decade)",
+  "Late 1930s designed replacement stations at Highgate, East Finchley, Finchley Central, Elstree South and Bushey Heath (decade)",
+  "Northern Heights station project postponed after outbreak of Second World War and later cancelled (undated)",
+  "Served as stretcher-bearer with Red Cross London Ambulance Column in First World War (undated)",
+  "Three Central line extension stations designed in the 1930s (decade)",
+  "Member of RIBA twelve-man post-war reconstruction committee (undated)",
+  "Full University of London scheme halted by Second World War (undated)",
+  "Architectural and planning consultant to University of Edinburgh and Borough of Tynemouth (undated)",
+  "Adams, Holden & Pearson competition design for English Electric lost to Burnet, Tait and Partners (undated)",
+  "Body cremated at Enfield crematorium; ashes spread at Friends Meeting House garden, Hertford (undated)"
+ ]
+}

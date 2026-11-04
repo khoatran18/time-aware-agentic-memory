@@ -1,0 +1,360 @@
+{
+ "page_id": "Konrad_Wolf_Film_University_of_Babelsberg",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Kurt Maetzig becomes first rector.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "The first rector of the university was Kurt Maetzig , from 1954 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1954-11-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Institution founded as German Academy of Film Art at Babelsberg Palace.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "The institution was founded on 1 November 1954"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Kurt Maetzig's term as rector ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "The first rector of the university was Kurt Maetzig , from 1954 to 1964"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Konrad Schwalbe succeeds Maetzig as rector.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "He was replaced by Konrad Schwalbe , who headed the film school until 1969"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Konrad Schwalbe's first rector term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "He was replaced by Konrad Schwalbe , who headed the film school until 1969"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Lutz Köhlert becomes rector.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Lutz Köhlert ( 1969-1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1969",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Film and Television Academy of the GDR.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "in 1969 , it was renamed the Film and Television Academy of the GDR"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Lutz Köhlert's term as rector ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Lutz Köhlert ( 1969-1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Peter Ulbrich becomes rector.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Peter Ulbrich ( 1973-1980 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Peter Ulbrich's term as rector ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Peter Ulbrich ( 1973-1980 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Konrad Schwalbe becomes rector again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Konrad Schwalbe ( 1980-1986 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1985",
+   "grain": "year",
+   "track": "naming",
+   "text": "Named after director Konrad Wolf.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "In 1985 , it was named after director Konrad Wolf"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Konrad Schwalbe's second rector term ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Konrad Schwalbe ( 1980-1986 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Lothar Bisky becomes rector.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Lothar Bisky ( 1986-1990 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1990",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Academy for Film and Television.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "the institute was renamed in 1990 to Academy for Film and Television"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Lothar Bisky's term as rector ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "Lothar Bisky ( 1986-1990 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Wolf-Dieter Panse becomes rector.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "From 1990 until 1995 , the rector was Wolf-Dieter Panse"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Wolf-Dieter Panse's term as rector ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "From 1990 until 1995 , the rector was Wolf-Dieter Panse"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Dieter Wiedemann becomes first president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#4",
+     "role": "both",
+     "quote": "and first president , from 2000 until 2013 , was Dieter Wiedemann"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2000-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Head post renamed from rector to president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#3",
+     "role": "both",
+     "quote": "in May 2000 , this post was renamed president"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Academy sponsors an award for artistic and scientific achievements.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#8",
+     "role": "both",
+     "quote": "In 2011 , the Academy of Film and Television sponsored an award"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Dieter Wiedemann's term as president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#4",
+     "role": "both",
+     "quote": "and first president , from 2000 until 2013 , was Dieter Wiedemann"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Susanne Stürmer becomes first woman to lead the university.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#4",
+     "role": "both",
+     "quote": "Since 2013 , the first woman to lead the university has been economist Susanne Stürmer"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014-07-08",
+   "grain": "day",
+   "track": "other",
+   "label": "university_status",
+   "text": "School granted university status.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "On 8 July 2014 , the school was granted university status and renamed Konrad Wolf Film University of Babelsberg"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2014-07-08",
+   "grain": "day",
+   "track": "naming",
+   "text": "Renamed Konrad Wolf Film University of Babelsberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg#2",
+     "role": "both",
+     "quote": "On 8 July 2014 , the school was granted university status and renamed Konrad Wolf Film University of Babelsberg"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

@@ -1,0 +1,43 @@
+{
+ "page_id": "SCM_Gloria_Buz_u",
+ "events": [
+  {"id": "e1", "date": "1973-06-16", "grain": "day", "track": "other", "label": "founding",
+   "text": "FC Gloria Buzău founded by Buzău County Local Council as part of CSM Buzău",
+   "evidence": [{"chunk_id": "/wiki/SCM_Gloria_Buzău#3", "role": "both", "quote": "was founded on 16 June 1973 , by the Buzău County Local Council"}]},
+  {"id": "e2", "date": "2016-05-26", "grain": "day", "track": "other", "label": "sanction",
+   "text": "Romanian Football Federation fined FC Gloria players and managers for match-fixing; total bans imposed",
+   "evidence": [{"chunk_id": "/wiki/SCM_Gloria_Buzău#5", "role": "both", "quote": "On 26 May 2016 , the Romanian Football Federation fined 14 players and three managers of FC Gloria"}]},
+  {"id": "e3", "date": "2016-06", "grain": "month", "track": "other", "label": "relegation play-off",
+   "text": "Gloria failed to compete in relegation play-off against Olimpia Satu Mare",
+   "evidence": [{"chunk_id": "/wiki/SCM_Gloria_Buzău#5", "role": "both", "quote": "Gloria had to face Olimpia Satu Mare in a relegation play-off in June"}],
+   "flag": "derived_date"},
+  {"id": "e4", "date": "2016-08-25", "grain": "day", "track": "other", "label": "founding",
+   "text": "FC Buzău founded by Ionel Turturică after FC Gloria bankruptcy",
+   "evidence": [
+     {"chunk_id": "/wiki/SCM_Gloria_Buzău#1", "role": "both", "quote": "The club was founded on 25 August 2016 , as FC Buzău"},
+     {"chunk_id": "/wiki/SCM_Gloria_Buzău#7", "role": "description", "quote": "businessman Ionel Turturică founded a new club , FC Buzău , which was enrolled in the Liga V"}
+   ]},
+  {"id": "e5", "date": "2017", "grain": "year", "track": "naming",
+   "text": "FC Buzău renamed SCM Gloria Buzău (summer 2017 per one passage)",
+   "evidence": [{"chunk_id": "/wiki/SCM_Gloria_Buzău#8", "role": "both", "quote": "In the summer of 2017 FC Buzău was renamed as SCM Gloria Buzău"}],
+   "flag": "source_inconsistent; approximate_date"},
+  {"id": "e6", "date": "2018", "grain": "year", "track": "naming",
+   "text": "FC Buzău renamed SCM Gloria Buzău (summer 2018 per other passage)",
+   "evidence": [{"chunk_id": "/wiki/SCM_Gloria_Buzău#1", "role": "both", "quote": "being renamed as SCM Gloria Buzău in the summer of 2018"}],
+   "flag": "source_inconsistent; approximate_date"}
+ ],
+ "undated_mentions": [
+  "FC Gloria absorbed former Buzău team Metalul (no date given)",
+  "FC Gloria ranked 1st in first Divizia C season (season not dated)",
+  "FC Gloria won Divizia B promotion play-off in first year of existence (no exact date)",
+  "bankruptcy of FC Gloria Buzău (no date given)",
+  "promotion to Liga IV after first season (2016–17)",
+  "Liga V – Buzău County champions (2016–17 season)",
+  "Liga IV – Buzău County champions (2017–18 season)",
+  "promotion to Liga III at end of 2017–18 season",
+  "promotion to Liga II after winning Liga III series (2018–19 season)",
+  "Liga III champions (2018–19 season)",
+  "Cupa României – Buzău County winners (2016–17 season)",
+  "Cupa României – Buzău County runners-up (2017–18 season)"
+ ]
+}

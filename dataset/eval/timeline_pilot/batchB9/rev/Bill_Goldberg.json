@@ -1,0 +1,1160 @@
+{
+ "page_id": "Bill_Goldberg",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1966-12-27",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born William Scott Goldberg, American professional wrestler.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#0",
+     "role": "both",
+     "quote": "born December 27 , 1966"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1990",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Drafted by the Los Angeles Rams, 11th round, 301st overall.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#8",
+     "role": "both",
+     "quote": "in the 1990 NFL draft"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1992",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began stint with CFL Sacramento Gold Miners and Atlanta Falcons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#9",
+     "role": "both",
+     "quote": "a stint with the CFL Sacramento Gold Miners and Atlanta Falcons from 1992 to 1994"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1994",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Stint with Gold Miners and Atlanta Falcons ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#9",
+     "role": "both",
+     "quote": "from 1992 to 1994"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1995",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Selected by expansion Carolina Panthers; never played a game for them.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#9",
+     "role": "both",
+     "quote": "in 1995 he was selected by the new expansion team"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "win streak",
+   "text": "Began lengthy undefeated singles winning streak in WCW, lasting to 1998.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#1",
+     "role": "both",
+     "quote": "a lengthy undefeated streak ( Goldberg Win Streak ) in singles competition from 1997 to 1998"
+    }
+   ]
+  },
+  {
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "pay-per-view debut",
+   "text": "Made pay-per-view debut at Starrcade, defeating Steve McMichael",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#13",
+     "role": "description",
+     "quote": "Goldberg made his pay-per-view debut at Starrcade"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#13",
+     "role": "date",
+     "quote": "On the September 22 , 1997 episode of Nitro , Goldberg defeated Hugh Morrus in his debut match"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1997-06-23",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "First WCW dark match as Bill Gold, defeating Buddy Lee Parker.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#12",
+     "role": "both",
+     "quote": "on a dark match at a Monday Nitro event on June 23 , 1997"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1997-09-22",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Televised Nitro debut, defeating Hugh Morrus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#13",
+     "role": "both",
+     "quote": "On the September 22 , 1997 episode of Nitro , Goldberg defeated Hugh Morrus in his debut match"
+    }
+   ]
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Pro Wrestling Illustrated Rookie of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#88",
+     "role": "both",
+     "quote": "Rookie of the Year ( 1998 )"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Pro Wrestling Illustrated Inspirational Wrestler of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#88",
+     "role": "both",
+     "quote": "Inspirational Wrestler of the Year ( 1998 )"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Wrestling Observer Newsletter Rookie of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#90",
+     "role": "both",
+     "quote": "Wrestling Observer Newsletter - Rookie of the Year ( 1998 )"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "id": "e13",
+   "date": "1998-03",
+   "grain": "month",
+   "track": "naming",
+   "text": "WCW began calling him simply Goldberg, dropping full name.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#14",
+     "role": "both",
+     "quote": "By mid-March , WCW stopped referring to him by his full name , shortening it to simply Goldberg"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1998-04",
+   "grain": "month",
+   "track": "other",
+   "label": "title",
+   "text": "Won first professional wrestling title, US Heavyweight Championship, from Raven.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#15",
+     "role": "both",
+     "quote": "defeated Raven to win his first professional wrestling championship"
+    }
+   ]
+  },
+  {
+   "date": "1998-04-22",
+   "grain": "day",
+   "track": "other",
+   "label": "title defense",
+   "text": "First successful title defense of the US Heavyweight Championship against Mike Enos on Thunder",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#15",
+     "role": "description",
+     "quote": "Two days later on the April 22 episode of Thunder , he made his first successful title defense against Mike Enos"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#14",
+     "role": "date",
+     "quote": "In early 1998 , Goldberg squashed Brad Armstrong at SuperBrawl VIII"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e15"
+  },
+  {
+   "id": "e16",
+   "date": "1998-07-06",
+   "grain": "day",
+   "track": "other",
+   "label": "title",
+   "text": "Won WCW World Heavyweight Championship from Hollywood Hogan; vacated US title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#17",
+     "role": "both",
+     "quote": "The match was scheduled for the July 6 , 1998 episode of Nitro"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#18",
+     "role": "description",
+     "quote": "was also able to defeat Hogan to become the WCW World Heavyweight Champion"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1998-12-27",
+   "grain": "day",
+   "track": "other",
+   "label": "title",
+   "text": "Lost WCW World Heavyweight title to Kevin Nash; undefeated streak ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "date",
+     "quote": "WCWs premier annual event , Starrcade ( 1998 and 1999 )"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#19",
+     "role": "description",
+     "quote": "after 174 days as champion when he lost the title to Kevin Nash"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Began acting; movie debut in 1999 film with Jean-Claude Van Damme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#72",
+     "role": "both",
+     "quote": "Goldberg began acting while working for WCW in 1999"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#22",
+     "role": "both",
+     "quote": "movie debut in the 1999 film alongside Timecop film star Jean-Claude Van Damme"
+    }
+   ]
+  },
+  {
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won second WCW United States Heavyweight Championship from Sid Vicious at Halloween Havoc",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#24",
+     "role": "description",
+     "quote": "Goldberg defeated Sid via referee stoppage , and thus won his second United States Heavyweight Championship"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#22",
+     "role": "date",
+     "quote": "prepare for his movie debut in the 1999 film alongside Timecop film star Jean-Claude Van Damme"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e19"
+  },
+  {
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won WCW World Tag Team Championship with Bret Hart, losing it a week later",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#27",
+     "role": "description",
+     "quote": "teaming with him to defeat Creative Control for the WCW World Tag Team Championship"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#22",
+     "role": "date",
+     "quote": "prepare for his movie debut in the 1999 film alongside Timecop film star Jean-Claude Van Damme"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "1999-12-23",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Arm severely cut by glass during nWo limousine segment on Thunder.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#31",
+     "role": "both",
+     "quote": "Goldberg injured himself on the December 23 , 1999 episode of Thunder"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Monster Jam truck Goldberg sponsorship deal begins, running to 2001.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#69",
+     "role": "both",
+     "quote": "which was driven by Tom Meents from 2000 to 2001"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2000",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Turned heel, betrayed Kevin Nash at Great American Bash; joined New Blood.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#34",
+     "role": "both",
+     "quote": "At The Great American Bash , Goldberg betrayed Nash during Nashs world championship match"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2000-05-29",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Returned to WCW after arm injury, on Nitro.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#33",
+     "role": "both",
+     "quote": "Goldberg returned to WCW on the May 29 , 2000 episode of Nitro"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2000-11-14",
+   "grain": "day",
+   "track": "work",
+   "text": "Co-authored autobiography Im Next with brother Steve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#70",
+     "role": "both",
+     "quote": "and released on November 14 , 2000"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2001",
+   "grain": "year",
+   "track": "location",
+   "text": "Began residing in Bonsall, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#82",
+     "role": "both",
+     "quote": "They used to reside in Bonsall , California from 2001"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2002",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began wrestling for All Japan Pro Wrestling (AJPW).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "both",
+     "quote": "wrestled for All Japan Pro Wrestling ( AJPW ) between 2002 and 2003"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2002-04",
+   "grain": "month",
+   "track": "other",
+   "label": "injury",
+   "text": "Arm injury during Toyota Pro/Celebrity Race at Long Beach Grand Prix.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#40",
+     "role": "both",
+     "quote": "suffered an arm injury during the Toyota Pro/Celebrity Race at the Long Beach Grand Prix in April 2002"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2002-05",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Contract with AOL Time Warner ended through a buyout.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#38",
+     "role": "both",
+     "quote": "remained under contract to AOL Time Warner until May 2002"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2002-08",
+   "grain": "month",
+   "track": "other",
+   "label": "return to ring",
+   "text": "Returned to the wrestling ring in Japan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#40",
+     "role": "both",
+     "quote": "In August 2002 , he returned to the ring in Japan"
+    }
+   ]
+  },
+  {
+   "date": "2002-08",
+   "grain": "month",
+   "track": "affiliation",
+   "label": null,
+   "text": "Served as color commentator for Pride Fighting Championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#79",
+     "role": "both",
+     "quote": "In August 2002 , during his professional wrestling tenure in Japan , Goldberg served as color commentator in mixed martial arts ( MMA ) promotion Pride Fighting Championship"
+    }
+   ],
+   "id": "e31"
+  },
+  {
+   "id": "e32",
+   "date": "2003",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Stopped wrestling for AJPW.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "both",
+     "quote": "between 2002 and 2003"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2003-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Signed one-year contract with WWE.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#41",
+     "role": "both",
+     "quote": "signed a one-year contract with World Wrestling Entertainment ( WWE ) in March 2003"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2003-03-31",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Debuted on WWE Raw.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#41",
+     "role": "both",
+     "quote": "debuting on the March 31 episode of Raw"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2003-09-21",
+   "grain": "day",
+   "track": "other",
+   "label": "title",
+   "text": "Won WWE World Heavyweight Championship from Triple H at Unforgiven.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#43",
+     "role": "description",
+     "quote": "defeated him for the World Heavyweight Championship at Unforgiven on September 21"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "date",
+     "quote": "wrestled for All Japan Pro Wrestling ( AJPW ) between 2002 and 2003 , and for WWE between 2003 and 2004"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2003-10-20",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Ankle shattered by Batista's folding chair attack on Raw.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#44",
+     "role": "both",
+     "quote": "On the October 20 episode of Raw , Batista collected the bounty"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#45",
+     "role": "description",
+     "quote": "chair , shattering his ankle"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2003-12-14",
+   "grain": "day",
+   "track": "other",
+   "label": "title",
+   "text": "Lost WWE World Heavyweight Championship to Triple H at Armageddon.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#47",
+     "role": "both",
+     "quote": "At Armageddon on December 14 , Goldberg lost the World Heavyweight Championship"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "retirement",
+   "text": "First retirement from professional wrestling.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#4",
+     "role": "both",
+     "quote": "After first retiring from professional wrestling in 2004"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2004-03-14",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Final WWE match at WrestleMania XX against Brock Lesnar.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#50",
+     "role": "both",
+     "quote": "Lesnar then demanded a match with Goldberg at WrestleMania XX on March 14"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in The Longest Yard with Adam Sandler.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#73",
+     "role": "both",
+     "quote": "In 2005 , Goldberg also starred in the Happy Madison produced Adam Sandler movie The Longest Yard"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Hosted The History Channel documentary series Auto-Maniac.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#73",
+     "role": "both",
+     "quote": "In the same year he was also the host of The History Channel documentary series Auto-Maniac"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in Santa's Slay as a homicidal Santa Claus.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#73",
+     "role": "both",
+     "quote": "later starred in the movie Santas Slay"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2005-04-10",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Wanda Ferraton, a stunt double.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#82",
+     "role": "both",
+     "quote": "On April 10 , 2005 , Goldberg married Wanda Ferraton"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2006-07-22",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Color commentator for WFA King of the Streets pay-per-view.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#79",
+     "role": "both",
+     "quote": "On July 22 , 2006 , Goldberg served again as color commentator"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in thriller Half Past Dead 2 alongside Kurupt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#73",
+     "role": "both",
+     "quote": "In 2007 , Goldberg starred in the thriller/drama film"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2007-02-10",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Color commentator for EliteXC inaugural event, broadcast on Showtime.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#81",
+     "role": "both",
+     "quote": "was broadcast live on Showtime , on February 10 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2007-06-02",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Commentated on K-1 Dynamite USA.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#80",
+     "role": "both",
+     "quote": "On June 2 , 2007 , Goldberg also commentated on K-1 Dynamite USA"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "EliteXC commentary role ended as the organization became defunct.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#81",
+     "role": "both",
+     "quote": "until the organization was defunct in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Began hosting Garage Mahal on DIY Network, running to 2011.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#4",
+     "role": "both",
+     "quote": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2010-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Appeared on The Celebrity Apprentice, eliminated in sixth episode.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#75",
+     "role": "both",
+     "quote": "In March 2010 , Goldberg appeared on the ninth season of Donald Trumps reality series The Celebrity Apprentice"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Started podcast Who's Next?! with Bill Goldberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#71",
+     "role": "both",
+     "quote": "In 2014 , Goldberg started his own podcast entitled Whos Next? ! With Bill Goldberg"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2015-06-07",
+   "grain": "day",
+   "track": "other",
+   "label": "return",
+   "text": "Returned to professional wrestling at Legends of Wrestling, Citi Field.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#52",
+     "role": "both",
+     "quote": "Goldberg made his return to professional wrestling on June 7 , 2015"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2016",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in documentary film Nine Legends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#75",
+     "role": "both",
+     "quote": "In 2016 , Goldberg starred in the documentary film Nine Legends"
+    }
+   ]
+  },
+  {
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Pro Wrestling Illustrated Comeback of the Year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#88",
+     "role": "both",
+     "quote": "Comeback of the Year ( 2016 )"
+    }
+   ],
+   "id": "e54"
+  },
+  {
+   "id": "e55",
+   "date": "2016-01",
+   "grain": "month",
+   "track": "other",
+   "label": "venture",
+   "text": "Co-founded Combat Crate joint venture with Uncle Louie.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#85",
+     "role": "both",
+     "quote": "In January 2016 , Goldberg and entertainment impresario Uncle Louie started a joint venture"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2016-01-23",
+   "grain": "day",
+   "track": "other",
+   "label": "return",
+   "text": "Second Legends of Wrestling return, event in Miami.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#53",
+     "role": "both",
+     "quote": "On January 23 , 2016 , Goldberg made a second return for the Legends of Wrestling event in Miami"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2016-05-31",
+   "grain": "day",
+   "track": "work",
+   "text": "Announced as pre-order bonus for WWE 2K17 video game.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#54",
+     "role": "both",
+     "quote": "On May 31 , 2016 , Goldberg was announced as the pre-order bonus for the upcoming WWE 2K17 video game"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2016-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Returned to WWE after twelve years, accepting Heyman's challenge.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#55",
+     "role": "both",
+     "quote": "The following week on Raw , Goldberg returned to WWE for the first time in twelve years"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "date",
+     "quote": "he returned to WWE in 2016"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2017",
+   "grain": "year",
+   "track": "work",
+   "text": "First appearance in season five of The Goldbergs as Coach Nick Mellor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#75",
+     "role": "both",
+     "quote": "In 2017 , Goldberg made his first appearance in the fifth season of The Goldbergs"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2017",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in film American Satan as tour manager and bodyguard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#77",
+     "role": "both",
+     "quote": "He also stared in the film American Satan ( 2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Lost Universal Championship to Lesnar at WrestleMania; first clean singles loss.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#57",
+     "role": "both",
+     "quote": "Goldberg lost the title to Lesnar at WrestleMania in what was also"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "farewell",
+   "text": "Appeared on Raw Talk to wish fans farewell.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#58",
+     "role": "both",
+     "quote": "Goldberg appeared the following night on Raw Talk"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2017-02",
+   "grain": "month",
+   "track": "other",
+   "label": "title",
+   "text": "Won WWE Universal Championship first time, defeating Owens at Fastlane.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#2",
+     "role": "both",
+     "quote": "won the WWE Universal Championship for the first time in February 2017"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#57",
+     "role": "description",
+     "quote": "At Fastlane , Goldberg would defeat Owens for the Universal Championship"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2018",
+   "grain": "year",
+   "track": "work",
+   "text": "Began hosting knife-based reality show on History Channel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#76",
+     "role": "both",
+     "quote": "In 2018 , Goldberg started hosting a knife-based reality show called on the History Channel"
+    }
+   ]
+  },
+  {
+   "date": "2018-01-15",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "ESPN announced Goldberg would headline the WWE Hall of Fame Class of 2018",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#59",
+     "role": "both",
+     "quote": "On January 15 , 2018 , ESPN announced that Goldberg would be inducted as the headliner of the WWE Hall of Fame Class of 2018"
+    }
+   ],
+   "id": "e65"
+  },
+  {
+   "id": "e66",
+   "date": "2018-04-06",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Inducted into WWE Hall of Fame, class of 2018, at WrestleMania 34 weekend.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#59",
+     "role": "both",
+     "quote": "the event occurred on April 6"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#3",
+     "role": "both",
+     "quote": "He was inducted into the WWE Hall of Fame class of 2018"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "2019-06-07",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Suffered concussion during match against The Undertaker at Super ShowDown.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#60",
+     "role": "both",
+     "quote": "at the Super ShowDown event on June 7 , 2019"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "2019-10",
+   "grain": "month",
+   "track": "location",
+   "text": "Listed mansion for sale and moved to Boerne, Texas.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#82",
+     "role": "both",
+     "quote": "from 2001 until October 2019 when Goldberg listed his mansion for sale and moved to Boerne"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "2019-12",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Mansion in Bonsall sold.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#82",
+     "role": "both",
+     "quote": "His mansion was sold in December 2019"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Lost Universal Championship to Braun Strowman at WrestleMania 36.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#62",
+     "role": "both",
+     "quote": "At WrestleMania , Goldberg lost the Universal Championship to Strowman"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "2020-02-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Returned to WWE on SmackDown via satellite after six months inactivity.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#61",
+     "role": "both",
+     "quote": "Goldberg returned to WWE on the February 7 , 2020 episode of SmackDown"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "2020-02-27",
+   "grain": "day",
+   "track": "other",
+   "label": "title",
+   "text": "Won Universal Championship second time, defeating The Fiend at Super ShowDown.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#61",
+     "role": "description",
+     "quote": "At Super ShowDown on February 27 , Goldberg defeated The Fiend to win the Universal Championship for the second time"
+    },
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#61",
+     "role": "date",
+     "quote": "After six months of inactivity , Goldberg returned to WWE on the February 7 , 2020 episode of SmackDown"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "date": "2021",
+   "grain": "year",
+   "track": "other",
+   "label": "title match",
+   "text": "Faced Drew McIntyre for the WWE Championship at the Royal Rumble, unsuccessful",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Bill_Goldberg#63",
+     "role": "both",
+     "quote": "After a 9-month hiatus , Goldberg faced Drew McIntyre for the WWE Championship at the 2021 Royal Rumble"
+    }
+   ],
+   "id": "e73"
+  }
+ ],
+ "undated_mentions": [
+  "Bar mitzvah at Temple Israel, Tulsa",
+  "Graduated from Tulsa Edison High School",
+  "Earned football scholarship to play for University of Georgia Bulldogs",
+  "Played for Los Angeles Rams in the 1990 NFL season",
+  "NFL career ended after abdominal tear injury",
+  "Began training at WCW Power Plant (1996-1997 section)",
+  "Won WCW World Tag Team Championship with Bret Hart",
+  "Won second WCW United States Heavyweight Championship from Sid Vicious",
+  "Named fifth WCW Triple Crown winner",
+  "Co-owns and operates Extreme Power Gym",
+  "Hosted three seasons of Speed Channel show Bullrun",
+  "Addressed United States Congress on illegal animal fighting"
+ ]
+}

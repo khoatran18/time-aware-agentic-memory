@@ -1,0 +1,1033 @@
+{
+ "page_id": "The_Mercury_News",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1851",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Predecessor paper first published in San Jose, later the Mercury News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#2",
+     "role": "both",
+     "quote": "First published in 1851"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#8",
+     "role": "both",
+     "quote": "The newspaper now known as the Mercury News began in 1851 or 1852"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1852",
+   "grain": "year",
+   "track": "naming",
+   "text": "Paper renamed the Santa Clara Register.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#8",
+     "role": "both",
+     "quote": "It was renamed the Santa Clara Register in 1852"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1853",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "F. B. Murdoch took over the paper and merged it into San Jose Telegraph.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#8",
+     "role": "date",
+     "quote": "The following year ,"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#9",
+     "role": "description",
+     "quote": "F . B . Murdoch took over the paper , merging it into the San Jose Telegraph"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1860",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "W. A. Slocum took control of the Telegraph and merged it with the Mercury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#9",
+     "role": "both",
+     "quote": "W . A . Slocum assumed control of the Telegraph in 1860 and merged it with the San Jose Mercury"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1860",
+   "grain": "year",
+   "track": "naming",
+   "text": "Merged paper became the Telegraph and Mercury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#9",
+     "role": "both",
+     "quote": "W . A . Slocum assumed control of the Telegraph in 1860 and merged it with the San Jose Mercury"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1861",
+   "grain": "year",
+   "track": "role",
+   "text": "James Jerome Owen became the Mercury's publisher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#10",
+     "role": "both",
+     "quote": "became the Mercurys publisher in the spring of 1861"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1861",
+   "grain": "year",
+   "track": "work",
+   "text": "Paper published daily as San Jose Daily Mercury for three months.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#10",
+     "role": "both",
+     "quote": "The paper published daily as the San Jose Daily Mercury for three months in the fall of 1861"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e8",
+   "date": "1869-08",
+   "grain": "month",
+   "track": "work",
+   "text": "Resumed daily publication with J. J. Conmy as partner, until April 1870.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#10",
+     "role": "both",
+     "quote": "from August 1869 to April 1870 with the addition of J . J . Conmy as partner"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1872-03-11",
+   "grain": "day",
+   "track": "work",
+   "text": "Resumed daily publication after purchasing the Daily Guide.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#10",
+     "role": "both",
+     "quote": "again from March 11 , 1872 , after the purchase of the Daily Guide"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1878",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Owen formed the Mercury Printing and Publishing Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#10",
+     "role": "both",
+     "quote": "In 1878 , Owen formed"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#11",
+     "role": "description",
+     "quote": "the Mercury Printing and Publishing Company"
+    }
+   ]
+  },
+  {
+   "date": "1881",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Owen proposed lighting San Jose with a moonlight tower; the tower was dedicated that year",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#12",
+     "role": "both",
+     "quote": "In 1881 , Owen proposed to light San Jose with a moonlight tower"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "1884",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mercury merged with the Times Publishing Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#13",
+     "role": "both",
+     "quote": "The Mercury merged with the Times Publishing Company in 1884"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1885",
+   "grain": "year",
+   "track": "naming",
+   "text": "Both publications adopted the San Jose Mercury name.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#13",
+     "role": "both",
+     "quote": "In 1885 , both publications adopted the San Jose Mercury name"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1885",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Owen sold his interest in the paper.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#13",
+     "role": "both",
+     "quote": "That year , Owen sold his interest in the paper"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e15",
+   "date": "1900",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Everis A. Hayes and brother Jay purchased the Mercury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#14",
+     "role": "both",
+     "quote": "In late 1900 , Everis A . Hayes and his brother Jay purchased the Mercury"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e16",
+   "date": "1901-08",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Hayes brothers purchased the San Jose Daily Herald, an evening paper.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#14",
+     "role": "both",
+     "quote": "in August 1901 , they purchased the San Jose Daily Herald , an evening paper"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1901-08",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Hayes brothers formed the Mercury Herald Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#14",
+     "role": "both",
+     "quote": "in August 1901 , they purchased the San Jose Daily Herald , an evening paper , and formed the Mercury Herald Company"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1913",
+   "grain": "year",
+   "track": "naming",
+   "text": "Two papers consolidated into the single morning San Jose Mercury Herald.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#14",
+     "role": "both",
+     "quote": "In 1913 , the two papers were consolidated into a single morning paper"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1942",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mercury Herald Company purchased the San Jose News; combined Sunday edition named Mercury Herald News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#15",
+     "role": "both",
+     "quote": "In 1942 , the Mercury Herald Company purchased the San Jose News"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1950",
+   "grain": "year",
+   "track": "naming",
+   "text": "The Herald name was dropped.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#15",
+     "role": "both",
+     "quote": "The Herald name was dropped in 1950"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1952",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Herman Ridder's Northwest Publications purchased the Mercury and News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#16",
+     "role": "both",
+     "quote": "purchased the Mercury and News in 1952"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1967-02",
+   "grain": "month",
+   "track": "location",
+   "text": "Papers moved from downtown grocery store to North San Jose campus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#18",
+     "role": "both",
+     "quote": "In February 1967 , the Mercury and News moved from a cramped former grocery store"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#39",
+     "role": "both",
+     "quote": "From February 1967 to September 2014"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1974",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Ridder merged with Knight Newspapers to form Knight Ridder.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#19",
+     "role": "both",
+     "quote": "In 1974 , Ridder merged with Knight Newspapers to form Knight Ridder"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Joe Ridder was forced to retire as publisher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#19",
+     "role": "both",
+     "quote": "Joe Ridder was forced to retire in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Nephew Tony Ridder succeeded Joe Ridder as publisher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#19",
+     "role": "both",
+     "quote": "His nephew , P . Anthony Tony Ridder , succeeded him as publisher"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e26",
+   "date": "1983",
+   "grain": "year",
+   "track": "naming",
+   "text": "Paper became the Mercury News; Mercury and News became editions of San Jose Mercury News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#2",
+     "role": "both",
+     "quote": "It became the Mercury News in 1983 after a series of mergers"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#22",
+     "role": "both",
+     "quote": "In 1983 , the Mercury and News became morning and afternoon editions of the San Jose Mercury News"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Pulitzer Prize for reporting on Marcos administration corruption.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#54",
+     "role": "both",
+     "quote": "one in 1986 for reporting regarding political corruption"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Editor Robert Ingle sent Tony Ridder a report proposing an online service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#43",
+     "role": "both",
+     "quote": "In 1990 , editor Robert Ingle sent a report to Tony Ridder"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Pulitzer Prize for coverage of the 1989 Loma Prieta earthquake.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#54",
+     "role": "both",
+     "quote": "one in 1990 for their comprehensive coverage of the 1989 Loma Prieta earthquake"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1993-05-10",
+   "grain": "day",
+   "track": "work",
+   "text": "Mercury Center online service launched on America Online.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#26",
+     "role": "both",
+     "quote": "It launched a service called Mercury Center on America Online in 1993"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#43",
+     "role": "both",
+     "quote": "It launched as part of America Online on May 10 , 1993"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1993-11",
+   "grain": "month",
+   "track": "work",
+   "text": "News Call telephone and fax hotline added for Mercury Center.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#47",
+     "role": "both",
+     "quote": "prompting the paper to add a telephone and fax hotline , News Call , in November 1993"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1994",
+   "grain": "year",
+   "track": "location",
+   "text": "Opened Hanoi foreign bureau, first of two American dailies to do so.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#23",
+     "role": "both",
+     "quote": "In 1994 , it became the first of two American dailies to open a foreign bureau in Vietnam"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1994-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Began beta-testing companion website Mercury Center Web.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#48",
+     "role": "both",
+     "quote": "In December 1994 , the Mercury News began beta-testing a companion website"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Afternoon edition discontinued, leaving only the morning edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#22",
+     "role": "both",
+     "quote": "The afternoon edition was discontinued in 1995"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1995-01-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Mercury Center Web became the country's first news website.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#48",
+     "role": "both",
+     "quote": "which on January 20 , 1995 , became the countrys first news website"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1995-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Mercury News joined the partnership launching CareerBuilder.com.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#48",
+     "role": "both",
+     "quote": "In October 1995 , CareerBuilder.com launched as a partnership between the Boston"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#49",
+     "role": "description",
+     "quote": "Globe , Chicago Tribune , Los Angeles Times , Mercury News , New York Times , and Washington Post"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Launched free Spanish-language weekly New World.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#24",
+     "role": "both",
+     "quote": "launched the free , Spanish-language weekly ( New World ) in 1996"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Mercury News website received an EPpy Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#56",
+     "role": "both",
+     "quote": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1996-07",
+   "grain": "month",
+   "track": "work",
+   "text": "Mercury Center shut down its AOL service, leaving only the website.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#26",
+     "role": "both",
+     "quote": "Mercury Center shut down its AOL service in July 1996"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#49",
+     "role": "both",
+     "quote": "Mercury Center shut down its AOL service in July 1996"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1996-08",
+   "grain": "month",
+   "track": "work",
+   "text": "Published Dark Alliance investigative series by reporter Gary Webb.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#50",
+     "role": "both",
+     "quote": "In August 1996 , the Mercury News published Dark Alliance"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#57",
+     "role": "both",
+     "quote": "In August 1996 , the Mercury News published Dark Alliance"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1996-12",
+   "grain": "month",
+   "track": "location",
+   "text": "Web staff moved from the suburban campus to downtown San Jose.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#39",
+     "role": "both",
+     "quote": "moved to downtown San Jose in December 1996"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1998-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Mercury Center ended its paywall.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#27",
+     "role": "both",
+     "quote": "Mercury Center ended its paywall in May 1998"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Launched free Vietnamese-language weekly Viet Mercury.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#24",
+     "role": "both",
+     "quote": "the free , Vietnamese-language weekly Viet Mercury in 1999"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Mercury News website received an EPpy Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#56",
+     "role": "both",
+     "quote": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1999-10-26",
+   "grain": "day",
+   "track": "work",
+   "text": "Technology columnist Dan Gillmor began the eJournal blog.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#52",
+     "role": "both",
+     "quote": "On October 26 , 1999 , technology columnist Dan Gillmor began writing a blog"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2005-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Mercury News closed its Hanoi bureau.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#30",
+     "role": "both",
+     "quote": "In June 2005 , the Mercury News closed its Hanoi bureau"
+    }
+   ]
+  },
+  {
+   "date": "2005-10-21",
+   "grain": "day",
+   "track": "work",
+   "label": null,
+   "text": "Announced closure and sale of Viet Mercury",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#30",
+     "role": "description",
+     "quote": "On October 21 , it also announced the closure of and sale of Viet Mercury to a group of Vietnamese-American businessmen"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#30",
+     "role": "date",
+     "quote": "In June 2005 , the Mercury News closed its Hanoi bureau"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e47"
+  },
+  {
+   "id": "e48",
+   "date": "2005-11-11",
+   "grain": "day",
+   "track": "work",
+   "text": "Viet Mercury published its final issue.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#30",
+     "role": "both",
+     "quote": "Viet Mercury published its final issue on November 11 , 2005"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2006",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "McClatchy put the Mercury News and 11 other papers up for sale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#31",
+     "role": "both",
+     "quote": "McClatchy immediately put the Mercury News and 11 other newspapers back up for sale"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e50",
+   "date": "2006-03-13",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "McClatchy Company purchased Knight Ridder, the paper's owner.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#31",
+     "role": "both",
+     "quote": "On March 13 , 2006 , The McClatchy Company purchased Knight Ridder"
+    }
+   ]
+  },
+  {
+   "date": "2006-04-26",
+   "grain": "day",
+   "track": "ownership_structure",
+   "label": null,
+   "text": "MediaNews Group announced planned purchase of the Mercury News",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#31",
+     "role": "description",
+     "quote": "On April 26 , Denver-based MediaNews Group ( now Digital First Media ) announced a planned $ purchase of the Mercury News"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#31",
+     "role": "date",
+     "quote": "On March 13 , 2006 , The McClatchy Company purchased Knight Ridder for $"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e51"
+  },
+  {
+   "date": "2006-06-12",
+   "grain": "day",
+   "track": "ownership_structure",
+   "label": null,
+   "text": "Federal regulators asked for more time to review the MediaNews purchase on antitrust concerns",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#31",
+     "role": "both",
+     "quote": "However , on June 12 , 2006 , federal regulators from the"
+    }
+   ],
+   "id": "e52"
+  },
+  {
+   "date": "2006-07",
+   "grain": "month",
+   "track": "other",
+   "label": "lawsuit",
+   "text": "Antitrust lawsuit filed seeking to undo MediaNews purchase of the Mercury News",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#33",
+     "role": "both",
+     "quote": "a lawsuit claiming antitrust violations by MediaNews and the Hearst Corporation had also been filed in July 2006"
+    }
+   ],
+   "id": "e53"
+  },
+  {
+   "id": "e54",
+   "date": "2006-08-02",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "MediaNews acquisition of the Mercury News completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#33",
+     "role": "both",
+     "quote": "completion of MediaNews acquisition was announced on August 2 , 2006"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won a Missouri Lifestyle Journalism Award for General Excellence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#54",
+     "role": "both",
+     "quote": "In 2007 the newspaper won a Missouri Lifestyle Journalism Award"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#55",
+     "role": "description",
+     "quote": "for General Excellence , Class IV"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2007-04-25",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Settlement; Mercury News placed under Bay Area News Group, CNP subsidiary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#34",
+     "role": "both",
+     "quote": "On April 25 , 2007 , days before the trial was scheduled to begin"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Mercury News website received an EPpy Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#56",
+     "role": "both",
+     "quote": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Mercury News website received an EPpy Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#56",
+     "role": "both",
+     "quote": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "MediaNews Group and 21st Century Media merged to form Digital First Media.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#35",
+     "role": "both",
+     "quote": "In 2013 , MediaNews Group and 21st Century Media merged to form Digital First Media"
+    }
+   ]
+  },
+  {
+   "date": "2013-04",
+   "grain": "month",
+   "track": "ownership_structure",
+   "label": null,
+   "text": "MediaNews announced it would sell the Mercury News campus on Ridder Park Drive",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#35",
+     "role": "both",
+     "quote": "In April 2013 , MediaNews announced that it would sell the Mercury News campus on Ridder Park Drive in North San Jose"
+    }
+   ],
+   "id": "e60"
+  },
+  {
+   "id": "e61",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Mercury News website received an EPpy Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#56",
+     "role": "both",
+     "quote": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2014-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Printing and production moved to Bay Area News Group Concord and Hayward facilities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#35",
+     "role": "both",
+     "quote": "In June 2014 , printing and production of the Mercury News and other daily newspapers moved"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2014-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Mercury News moved into a downtown office building, leaving the North San Jose campus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#39",
+     "role": "both",
+     "quote": "From February 1967 to September 2014 , the papers were headquartered in a campus in suburban North San Jose"
+    },
+    {
+     "chunk_id": "/wiki/The_Mercury_News#36",
+     "role": "description",
+     "quote": "a downtown office building that September"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2016-04-05",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Bay Area News Group consolidated San Mateo County Times and 14 other titles into the paper.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#37",
+     "role": "both",
+     "quote": "On April 5 , 2016 , Bay Area News Group consolidated the San Mateo County Times"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "2016-04-05",
+   "grain": "day",
+   "track": "naming",
+   "text": "Paper name shortened to The Mercury News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#37",
+     "role": "both",
+     "quote": "The papers name was shortened to The Mercury News"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e66",
+   "date": "2016-12",
+   "grain": "month",
+   "track": "other",
+   "label": "layoffs",
+   "text": "101 employees laid off, including 40 in the newsroom.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Mercury_News#34",
+     "role": "both",
+     "quote": "Around December 2016 , 101 employees were laid off"
+    }
+   ],
+   "flag": "approximate_date"
+  }
+ ],
+ "undated_mentions": [
+  "Weekly Visitor predecessor began as a Whig paper in the early 1850s, then switched to the Democratic Party",
+  "San Jose Mercury and San Jose News merged to form the Mercury News (no date given)",
+  "James Jerome Owen later acquired a controlling interest with partner Benjamin H. Cottle (no date given)",
+  "William N. Slocum dropped the Telegraph name (soon after 1860; no exact date)",
+  "First American newspaper to publish in three languages: English, Spanish and Vietnamese (no date given)",
+  "Named one of five best-designed newspapers in the world by the Society for News Design, for 2001 work (award date not stated)",
+  "West magazine published as a Sunday insert (1980s and 1990s)",
+  "Hired Vietnamese-speaking reporters for the first time (1990s)",
+  "Tim Kawakami and John Paczkowski joined Dan Gillmor as bloggers (2000s)",
+  "Digital First Media sold the suburban North San Jose campus to Super Micro Computer, renamed Supermicro Green Computing Park (after 2014; no exact date)"
+ ]
+}

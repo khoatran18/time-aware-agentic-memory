@@ -1,0 +1,484 @@
+{
+ "page_id": "Slade_Gorton",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1928-01-08",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Chicago, Illinois.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#2",
+     "role": "both",
+     "quote": "Gorton was born in Chicago , Illinois , on January 8 , 1928"
+    },
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "Thomas Slade Gorton III ( January 8 , 1928 – August 19 , 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1945",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Served in the United States Army (began).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#2",
+     "role": "both",
+     "quote": "Gorton served in the United States Army from 1945 to 1946"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1946",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the United States Army (ended).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#2",
+     "role": "both",
+     "quote": "Gorton served in the United States Army from 1945 to 1946"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1953",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the United States Air Force (began).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#2",
+     "role": "both",
+     "quote": "the United States Air Force from 1953 until 1956"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1956",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the United States Air Force (ended).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#2",
+     "role": "both",
+     "quote": "the United States Air Force from 1953 until 1956"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected to the Washington House of Representatives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "entered politics in 1958 , being elected to the Washington House of Representatives"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1958-06-28",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Sally Clark Gorton.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#16",
+     "role": "both",
+     "quote": "He married Sally Clark Gorton on June 28 , 1958"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service in the Washington House of Representatives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "in which he served from 1959 until 1969"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Left the Washington House of Representatives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "in which he served from 1959 until 1969"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Attorney General of Washington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "He then served as Attorney General of Washington from 1969 until he entered the United States Senate in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1970",
+   "grain": "year",
+   "track": "other",
+   "label": "lawsuit",
+   "text": "Sued Major League Baseball over the loss of the Seattle Pilots.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#5",
+     "role": "both",
+     "quote": "In 1970 , Slade sued Major League Baseball after the loss of the Seattle Pilots"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Won US Senate race, defeating incumbent Warren Magnuson.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#6",
+     "role": "both",
+     "quote": "In 1980 , Gorton defeated longtime incumbent U.S . Senator and state legend Warren Magnuson"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1980",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Retired from the Air Force Reserve Command as a colonel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#3",
+     "role": "both",
+     "quote": "Force Reserve Command until 1980 when he retired as a colonel"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1981",
+   "grain": "year",
+   "track": "role",
+   "text": "Began first term as US Senator from Washington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "he served as a United States Senator from Washington from 1981 to 1987"
+    },
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "until he entered the United States Senate in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1981",
+   "grain": "year",
+   "track": "role",
+   "text": "Left office as Attorney General of Washington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#4",
+     "role": "both",
+     "quote": "He then served as Attorney General of Washington from 1969 until he entered the United States Senate in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Lost Senate reelection to Brock Adams.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "narrowly defeated for reelection twice , first in 1986 by Brock Adams"
+    },
+    {
+     "chunk_id": "/wiki/Slade_Gorton#6",
+     "role": "both",
+     "quote": "1986 . Gorton was defeated by former Congressman and Carter administration Transportation Secretary Brock Adams"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "First US Senate term ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "from 1981 to 1987 and again from 1989 until 2001"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Won US Senate seat vacated by Dan Evans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#6",
+     "role": "both",
+     "quote": "Gorton ran for the states other Senate seat , which was being vacated by political ally Dan Evans , in 1988 and won"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Began second US Senate term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "and again from 1989 until 2001"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Won Senate reelection, defeating Ron Sims.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#8",
+     "role": "both",
+     "quote": "In 1994 , Gorton repeated the process , defeating then-King County Councilman Ron Sims"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Voted against perjury charge in Clinton impeachment; for obstruction charge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#9",
+     "role": "both",
+     "quote": "In 1999 , Gorton was among ten Republican senators who voted against the charge of perjury"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Lost Senate reelection to Maria Cantwell after a recount.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#10",
+     "role": "both",
+     "quote": "In 2000 , Democrat Maria Cantwell turned his its time for a change strategy against him"
+    },
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "again in 2000 by Maria Cantwell following a recount"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Second US Senate term ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "and again from 1989 until 2001"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2002",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became member of the 9/11 Commission.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#11",
+     "role": "both",
+     "quote": "In 2002 , Gorton became a member of the National Commission on Terrorist Attacks Upon the United States"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Became chairman of the Constitutional Law PAC.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#11",
+     "role": "both",
+     "quote": "In 2005 , Gorton became the chairman of the center-right Constitutional Law PAC"
+    }
+   ]
+  },
+  {
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "institute",
+   "text": "National Bureau of Asian Research founded the Slade Gorton International Policy Center",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#14",
+     "role": "both",
+     "quote": "In 2010 , the National Bureau of Asian Research founded the Slade Gorton International Policy Center"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "id": "e27",
+   "date": "2012",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Appointed to the board of directors of Clearwire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#15",
+     "role": "both",
+     "quote": "In 2012 , Gorton was appointed to the board of directors of Clearwire"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Served as commissioner on the Commission on the Theft of American Intellectual Property.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#14",
+     "role": "both",
+     "quote": "In 2013 the Gorton Center was the secretariat for the ‘Commission on The Theft of American Intellectual Property’"
+    }
+   ]
+  },
+  {
+   "date": "2013",
+   "grain": "year",
+   "track": "family",
+   "label": "",
+   "text": "Wife Sally died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#16",
+     "role": "both",
+     "quote": "Sally died in 2013"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "id": "e30",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Wrote in Evan McMullin for president instead of supporting Trump.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#15",
+     "role": "both",
+     "quote": "Gorton opposed the candidacy of Donald Trump for President of the United States in 2016"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2020-08-19",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at daughter's home in Clyde Hill, Washington, aged 92.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Slade_Gorton#16",
+     "role": "both",
+     "quote": "Gorton died after a brief illness at the home of his daughter in the Seattle suburb of Clyde Hill on August 19 , 2020"
+    },
+    {
+     "chunk_id": "/wiki/Slade_Gorton#0",
+     "role": "both",
+     "quote": "Thomas Slade Gorton III ( January 8 , 1928 – August 19 , 2020 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Graduated from Dartmouth College",
+  "Graduated from Columbia Law School",
+  "Campaigned in Oregon for Gordon Smith",
+  "Advisory board member, Partnership for a Secure America",
+  "Senior Fellow, Bipartisan Policy Center",
+  "Board of trustees, National Constitution Center",
+  "Represented City of Seattle in lawsuit against Clay Bennett over SuperSonics relocation",
+  "Counselor, National Bureau of Asian Research",
+  "Board member, Discovery Institute",
+  "Of counsel, K&L Gates LLP",
+  "Supported impeachment of President Trump (date not stated)"
+ ]
+}

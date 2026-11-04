@@ -1,0 +1,143 @@
+{
+  "page_id": "Luftflotte_5",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1940-04-12",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Luftflotte 5 was formed in Hamburg for the invasion of Norway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#0", "role": "both", "quote": "It was formed 12 April 1940 in Hamburg for the invasion of Norway"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1940-04-12",
+      "grain": "day",
+      "track": "role",
+      "text": "Erhard Milch took command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "Generalfeldmarschall Erhard Milch , 12 April 1940 – 9 May 1940"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1940-04-24",
+      "grain": "day",
+      "track": "location",
+      "text": "Luftflotte 5 transferred to Oslo, Norway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#0", "role": "both", "quote": "It transferred to Oslo , Norway on 24 April 1940"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1940-05-09",
+      "grain": "day",
+      "track": "role",
+      "text": "Erhard Milch left command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "Generalfeldmarschall Erhard Milch , 12 April 1940 – 9 May 1940"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1940-05-10",
+      "grain": "day",
+      "track": "role",
+      "text": "Hans-Jürgen Stumpff took command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "Generaloberst Hans-Jürgen Stumpff , 10 May 1940 – 27 November 1943"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1940-08-15",
+      "grain": "day",
+      "track": "other",
+      "label": "operation",
+      "text": "Luftflotte 5 attacked northern England during the Battle of Britain.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#3", "role": "both", "quote": "On 15 August 1940 the Luftwaffe mounted the largest number of sorties of the Battle of Britain . Luftflotte 5 attacked the north of England ."}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1941",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Second air district, LgK Finnland, was formed around Rovaniemi.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#7", "role": "both", "quote": "In 1941 , with the invasion of the Soviet Union and the entry of Finland into the war"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1941-06",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Fighter forces in Norway placed under Jagdfliegerführer Norwegen command.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#5", "role": "both", "quote": "From June 1941 fighter forces in Norway came under the separate command of Jagdfliegerführer Norwegen"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1942-06",
+      "grain": "month",
+      "track": "other",
+      "label": "reorganization",
+      "text": "Ff Nord was divided into three separate commands.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#8", "role": "both", "quote": "In June 1942 Ff Nord was divided into three separate commands"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1943-11-27",
+      "grain": "day",
+      "track": "role",
+      "text": "Hans-Jürgen Stumpff left command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "Generaloberst Hans-Jürgen Stumpff , 10 May 1940 – 27 November 1943"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1943-11-27",
+      "grain": "day",
+      "track": "role",
+      "text": "Josef Kammhuber took command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "General Josef Kammhuber , 27 November 1943 – 16 September 1944"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1944",
+      "grain": "year",
+      "track": "other",
+      "label": "reorganization",
+      "text": "Luftflotte 5 formations reorganized; Nord Ost became Ff 3, Nord West became Ff 4.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#9", "role": "both", "quote": "In 1944 these formations were reorganized again"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1944-09-16",
+      "grain": "day",
+      "track": "role",
+      "text": "Josef Kammhuber left command of Luftflotte 5.",
+      "evidence": [
+        {"chunk_id": "/wiki/Luftflotte_5#11", "role": "both", "quote": "General Josef Kammhuber , 27 November 1943 – 16 September 1944"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Ff Lofoten reinforced with two bomber groups for maritime operations (summer of 1942)"
+  ]
+}

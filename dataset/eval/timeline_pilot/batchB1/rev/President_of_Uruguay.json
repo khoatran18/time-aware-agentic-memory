@@ -1,0 +1,34 @@
+{
+ "page_id": "President_of_Uruguay",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1947",
+   "grain": "year",
+   "track": "location",
+   "text": "Suárez Residence chosen as the president's official residence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/President_of_Uruguay#11",
+     "role": "both",
+     "quote": "In 1947 , Luis Batlle Berres was already head of state , and at the suggestion of his wife they chose this mansion as their official"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2020-03-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Luis Lacalle Pou takes office as president of Uruguay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/President_of_Uruguay#2",
+     "role": "both",
+     "quote": "The current president since 1 March 2020 is Luis Lacalle Pou"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

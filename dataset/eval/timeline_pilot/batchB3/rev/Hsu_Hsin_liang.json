@@ -1,0 +1,507 @@
+{
+ "page_id": "/wiki/Hsu_Hsin-liang",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1941-05-27",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Chūreki, Shinchiku Prefecture, Japanese Taiwan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#0",
+     "role": "both",
+     "quote": "born 27 May 1941"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1967",
+   "grain": "year",
+   "track": "education",
+   "text": "Received bachelor's degree in political science from National Chengchi University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#1",
+     "role": "both",
+     "quote": "received his bachelors degree in political science from National Chengchi University in 1967"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1969",
+   "grain": "year",
+   "track": "education",
+   "text": "Received Kuomintang-sponsored master's degree from University of Edinburgh.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#1",
+     "role": "both",
+     "quote": "his Kuomintang-sponsored masters degree from the University of Edinburgh in 1969"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Began political career in the KMT as Taiwan Provincial Assembly member.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#2",
+     "role": "both",
+     "quote": "began his political career in the Kuomintang as a member of the Taiwan Provincial Assembly from 1973 to 1977"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Taiwan Provincial Assembly membership ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#2",
+     "role": "both",
+     "quote": "member of the Taiwan Provincial Assembly from 1973 to 1977"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Won Taoyuan County magistrate election as an independent.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#2",
+     "role": "both",
+     "quote": "broke ranks in 1977 when he ran and won as an independent in the election for Magistrate of Taoyuan County"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "incident",
+   "text": "Zhongli incident during the election: voters reported KMT official destroying ballots.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#2",
+     "role": "both",
+     "quote": "The Zhongli incident took place during the election after voters reported seeing a Kuomintang official destroy cast ballots"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "opposition activity",
+   "text": "Involved in opposition activity in early 1979.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#3",
+     "role": "both",
+     "quote": "Hsu was involved in opposition activity during the first part of 1979"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "label": "removal",
+   "text": "Impeached by the government and removed from office for two years",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#3",
+     "role": "description",
+     "quote": "The government impeached him and removed him from office for two years"
+    },
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#3",
+     "role": "date",
+     "quote": "Hsu was involved in opposition activity during the first part of 1979"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1979-09-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Left Taiwan for exile in the United States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#3",
+     "role": "both",
+     "quote": "On September 30 , 1979 , he left Taiwan for an exile in the United States"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1986",
+   "grain": "year",
+   "track": "location",
+   "text": "Attempted return to Taiwan via Japan; repeatedly blocked at Chiang Kai-shek airport.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#4",
+     "role": "both",
+     "quote": "In 1986 , soon after the founding of the Democratic Progressive Party , he tried to return to Taiwan via Japan"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested while slipping into Taiwan by mainland fishing boat; jailed for sedition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#4",
+     "role": "both",
+     "quote": "Three years later he was arrested while slipping into Taiwan aboard a mainland Chinese fishing boat"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e13",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "pardon",
+   "text": "Pardon declared by President Lee Teng-hui.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#4",
+     "role": "both",
+     "quote": "until president Lee Teng-hui declared to have been pardoned in 1990"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Began first term as DPP chairman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "both",
+     "quote": "He later joined the DPP and served as its chairman twice , from 1991 to 1993 and 1996 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended first term as DPP chairman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "both",
+     "quote": "He later joined the DPP and served as its chairman twice , from 1991 to 1993 and 1996 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Began second term as DPP chairman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "both",
+     "quote": "He later joined the DPP and served as its chairman twice , from 1991 to 1993 and 1996 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Lost DPP presidential primary to Peng Ming-min.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "both",
+     "quote": "first in 1996 when he lost the party primary to Peng Ming-min"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended second term as DPP chairman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "both",
+     "quote": "He later joined the DPP and served as its chairman twice , from 1991 to 1993 and 1996 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the DPP after failing to gain its presidential support.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#5",
+     "role": "description",
+     "quote": "Hsu chose to leave the DPP"
+    },
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#6",
+     "role": "date",
+     "quote": "in 1999 ."
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e20",
+   "date": "2000",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began supporting the Pan-Blue Coalition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#0",
+     "role": "both",
+     "quote": "supporter of the Pan-Blue Coalition from 2000 to 2008"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Ran as independent in 2000 presidential election with Josephine Chu as running mate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#7",
+     "role": "both",
+     "quote": "ran in the 2000 presidential election as an independent"
+    }
+   ]
+  },
+  {
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "endorsement",
+   "text": "Publicly supported Lien Chan and James Soong in the 2004 presidential election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#9",
+     "role": "both",
+     "quote": "Hsu publicly supported Lien Chen and James Soong in the 2004 presidential election"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "date": "2004-03",
+   "grain": "month",
+   "track": "other",
+   "label": "declaration",
+   "text": "Co-published the Joint Declaration of the Tang Wai participants criticising Chen Shui-bian",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#9",
+     "role": "both",
+     "quote": "In March 2004 , Hsu and a dozen other prominent politicians involved in the Tangwai movement published The Joint Declaration"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "id": "e24",
+   "date": "2004-03-24",
+   "grain": "day",
+   "track": "other",
+   "label": "protest",
+   "text": "Staged three-day hunger strike at Ketagalan Boulevard after the 2004 election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#11",
+     "role": "both",
+     "quote": "on the night of March 24 and staged a three-day hunger strike"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e25",
+   "date": "2004-07",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded the Taiwan Democratic School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#12",
+     "role": "both",
+     "quote": "In July 2004 , he founded the Taiwan Democratic School"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2004-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Unsuccessful independent run in Legislative Yuan election, Taipei City South.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#13",
+     "role": "both",
+     "quote": "In December 2004 he made an unsuccessful run in the Legislative Yuan election"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left DPP along with Shih and Lin over Chen's policies and corruption.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#13",
+     "role": "both",
+     "quote": "Until 2006 , Hsu and another two former chairman of DPP , Shih and Lin , also left DPP"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e28",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended Pan-Blue Coalition support",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#0",
+     "role": "both",
+     "quote": "supporter of the Pan-Blue Coalition from 2000 to 2008"
+    },
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#14",
+     "role": "both",
+     "quote": "came out to support DPP candidate Frank Hsieh in the 2008 presidential election"
+    }
+   ]
+  },
+  {
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "endorsement",
+   "text": "Supported DPP candidate Frank Hsieh in the 2008 presidential election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#14",
+     "role": "both",
+     "quote": "Hsu then came out to support DPP candidate Frank Hsieh in the 2008 presidential election"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "id": "e30",
+   "date": "2011-03-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Registered to participate in DPP primary for the 2012 presidential nomination.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#14",
+     "role": "both",
+     "quote": "On March 25 , 2011 , he registered to participate"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2012-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Nominated as candidate for DPP chairperson election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#15",
+     "role": "both",
+     "quote": "In April 2012 , Hsu was nominated as a candidate for the DPP chairperson election"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2012-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Lost the DPP chairperson election held in May 2012.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#15",
+     "role": "both",
+     "quote": "election to be held in May 2012 , but lost"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "date": "2013-04",
+   "grain": "month",
+   "track": "other",
+   "label": "statement",
+   "text": "Called for cross-strait political dialogue at a press conference",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Hsu_Hsin-liang#16",
+     "role": "both",
+     "quote": "In mid-April 2013 during a press conference , Hsu called for a cross-strait political dialogue"
+    }
+   ],
+   "id": "e33"
+  }
+ ],
+ "undated_mentions": [
+  "Attended Hsinchu Senior High School (no date stated)",
+  "Expelled from the Kuomintang (no date stated, before 1977)",
+  "Joined the DPP (no date stated, after 1986)"
+ ]
+}

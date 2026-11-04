@@ -1,0 +1,33 @@
+{"page_id": "Yugoslavia_Davis_Cup_team",
+ "events": [
+  {"id": "e1", "date": "1927", "grain": "year", "track": "other", "label": "founding", "text": "Yugoslav team began competing in the Davis Cup.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "competed from 1927–2003 and represented"}]},
+  {"id": "e2", "date": "1927", "grain": "year", "track": "affiliation", "text": "Team began representing the Kingdom of Yugoslavia.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "represented the Kingdom of Yugoslavia ( up to 1929 known as the Kingdom of Serbs , Croats and Slovenes ) from 1927–1939"}]},
+  {"id": "e3", "date": "1939", "grain": "year", "track": "affiliation", "text": "Team ended representing the Kingdom of Yugoslavia.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "represented the Kingdom of Yugoslavia ( up to 1929 known as the Kingdom of Serbs , Croats and Slovenes ) from 1927–1939"}]},
+  {"id": "e4", "date": "1946", "grain": "year", "track": "affiliation", "text": "Team began representing the Socialist Federal Republic of Yugoslavia.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "the Socialist Federal Republic of Yugoslavia ( up to 1963 the Federal Peoples Republic of Yugoslavia ) from 1946–1992"}]},
+  {"id": "e5", "date": "1992", "grain": "year", "track": "affiliation", "text": "Team ended representing the Socialist Federal Republic of Yugoslavia.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "the Socialist Federal Republic of Yugoslavia ( up to 1963 the Federal Peoples Republic of Yugoslavia ) from 1946–1992"}]},
+  {"id": "e6", "date": "1995", "grain": "year", "track": "affiliation", "text": "Team representing Federal Republic of Yugoslavia returned to competing.",
+   "evidence": [
+    {"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "the Federal Republic of Yugoslavia from 1995–2003"},
+    {"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#3", "role": "both", "quote": "A team representing the Federal Republic of Yugoslavia returned to competing again from 1995"}
+   ]},
+  {"id": "e7", "date": "2003", "grain": "year", "track": "other", "label": "end", "text": "Yugoslav team ended its competition in the Davis Cup.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "competed from 1927–2003 and represented"}]},
+  {"id": "e8", "date": "2003", "grain": "year", "track": "affiliation", "text": "Team ended representing the Federal Republic of Yugoslavia.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#0", "role": "both", "quote": "the Federal Republic of Yugoslavia from 1995–2003"}]},
+  {"id": "e9", "date": "2004", "grain": "year", "track": "naming", "text": "Davis Cup team renamed for Serbia and Montenegro, ending Yugoslav participation.",
+   "evidence": [{"chunk_id": "/wiki/Yugoslavia_Davis_Cup_team#3", "role": "both", "quote": "the Davis Cup team was renamed to reflect the same from 2004"}]}
+ ],
+ "undated_mentions": [
+  "1927 Europe zone, 2nd round: bye, lost to India 0–3",
+  "1928 Europe zone, 1st round: lost to Finland 1–4",
+  "1929 Europe zone, 1st round: lost to Greece 1–4",
+  "1930 Europe zone, 2nd round: beat Sweden 5–0, lost to Spain 0–5",
+  "1931 Europe zone, 2nd round: bye, lost to Japan 0–5",
+  "1932 Europe zone, 2nd round: bye, lost to Denmark 1–4",
+  "Breakup of Yugoslavia in the 1990s, after which separate teams were created"
+ ]}

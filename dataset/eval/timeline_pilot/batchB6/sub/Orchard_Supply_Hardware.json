@@ -1,0 +1,340 @@
+{
+  "page_id": "Orchard_Supply_Hardware",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1931",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Orchard Supply formed as a non-profit farmers cooperative.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#4", "role": "both", "quote": "Orchard Supply was formed in 1931 as the Orchard Supply Farmers Co-op"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "both", "quote": "After starting as a non-profit cooperative in 1931"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1933",
+      "grain": "year",
+      "track": "location",
+      "text": "Co-op moved to a larger location at 44 Vine St, San Jose.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#5", "role": "both", "quote": "In 1933 the co-op moved to a larger location at 44 Vine St"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1946",
+      "grain": "year",
+      "track": "location",
+      "text": "Company moved to a site at 720 West San Carlos St, San Jose.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#6", "role": "both", "quote": "In 1946 the company moved to a site at 720 West San Carlos St"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1950",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Farmers co-op converted into a for-profit corporation.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#7", "role": "both", "quote": "By 1950 the electronics industry began booming in the Santa Clara Valley"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "description", "quote": "later converted into a for-profit corporation"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1962",
+      "grain": "year",
+      "track": "role",
+      "text": "Albert B. Smith became president and began expanding into a store chain.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#6", "role": "both", "quote": "In 1962 , Albert B . Smith ( Stanleys son ) became president"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1975",
+      "grain": "year",
+      "track": "work",
+      "text": "Michael Kotowski began creating the calendar paintings.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#25", "role": "both", "quote": "From 1975 until 1992 , railroad artist and local politician Michael Kotowski created each painting"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1977",
+      "grain": "year",
+      "track": "location",
+      "text": "Bought a 19-acre warehouse and office complex as distribution center.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#8", "role": "both", "quote": "In 1977 , the company purchased a 19-acre warehouse and office complex from Sunsweet Growers"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1977",
+      "grain": "year",
+      "track": "work",
+      "text": "1977 calendar: Still Live paintings by Santa Cruz Art League.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#25", "role": "both", "quote": "The 1977 edition was a selection of “Still Live” paintings by the Santa Cruz Art League"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1979",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Company acquired by W.R. Grace and Company, ceasing private ownership.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#10", "role": "both", "quote": "acquired by W.R . Grace and Company in 1979"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1979",
+      "grain": "year",
+      "track": "work",
+      "text": "1979 calendar: Southwestern style paintings by Anthony Quartuccio Sr.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#25", "role": "both", "quote": "the 1979 edition was a series of Southwestern style paintings by Northern California artist Anthony Quartuccio , Sr ."}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1981",
+      "grain": "year",
+      "track": "work",
+      "text": "1981 calendar featured the Santa Clara Valley theme.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#23", "role": "both", "quote": "including the 1981 calendar which celebrated the Santa Clara Valley"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1982",
+      "grain": "year",
+      "track": "work",
+      "text": "1982 calendar had a flight and aviation theme, Up Up and Away.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#25", "role": "both", "quote": "The 1982 calendar had a flight and aviation theme called “Up , Up and Away”"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1986",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "W.R. Grace sold the company to Wickes Companies.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#10", "role": "both", "quote": "before it sold the company along with another hardware chain to the Wickes Companies in 1986"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1989",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Wickes sold the company to its managers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#10", "role": "both", "quote": "selling the company to its managers in 1989"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1992",
+      "grain": "year",
+      "track": "location",
+      "text": "Distribution center moved to Tracy, California.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#8", "role": "both", "quote": "In 1992 the distribution center was moved to Tracy , CA"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1992",
+      "grain": "year",
+      "track": "work",
+      "text": "Michael Kotowski's tenure as calendar artist ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#25", "role": "both", "quote": "From 1975 until 1992 , railroad artist and local politician Michael Kotowski created each painting"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1996",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Company acquired by Sears.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "both", "quote": "In 1996 , the company was acquired by Sears"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#11", "role": "both", "quote": "OSH was purchased by Sears in 1996"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2005",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Sears sold a 19.9% interest to Ares Management.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#11", "role": "both", "quote": "In 2005 , Sears sold a 19.9% interest in the company to Ares Management of Los Angeles"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2012",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Spun out of Sears Holdings and became a public company.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#13", "role": "both", "quote": "OSH was spun out of Sears Holdings in 2012 and became a public company"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "both", "quote": "After a brief period as a public company in 2012–13"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2012-01",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Shares began trading on the Nasdaq stock market.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#13", "role": "both", "quote": "In January 2012 shares began trading on the Nasdaq stock market"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2013",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Lowes purchased the bulk of OSH assets and locations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "both", "quote": "In 2013 , the bulk of OSHs assets and locations were purchased by the home improvement store chain , Lowes"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#15", "role": "description", "quote": "most of its assets would be sold to the Lowes Home Improvement chain for $205M in cash"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "2013",
+      "grain": "year",
+      "track": "other",
+      "label": "donation",
+      "text": "OSH donated its boxcar to California Trolley and Railroad Corporation.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#22", "role": "both", "quote": "OSH donated the boxcar to the California Trolley and Railroad Corporation in 2013"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "2013-04",
+      "grain": "month",
+      "track": "location",
+      "text": "Expanded beyond California, opening stores in Portland area, Oregon.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#14", "role": "both", "quote": "In April 2013 , OSH expanded beyond California , opening stores in the suburban Portland metropolitan area of Oregon"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "2013-06",
+      "grain": "month",
+      "track": "other",
+      "label": "store_closure",
+      "text": "Two stores closed in June as part of normal operations.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#16", "role": "both", "quote": "Two of the stores were closed in June as a part of normal operations"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "2013-06-17",
+      "grain": "day",
+      "track": "other",
+      "label": "bankruptcy",
+      "text": "Filed for Chapter 11 and announced sale of most assets to Lowes.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#15", "role": "both", "quote": "On June 17 , 2013 , Orchard Supply Hardware announced it filed for Chapter 11"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#1", "role": "description", "quote": "filed for a Chapter 11 reorganization"}
+      ]
+    },
+    {
+      "id": "e26",
+      "date": "2014-11",
+      "grain": "month",
+      "track": "location",
+      "text": "Opened its first store in the city of San Francisco.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#14", "role": "both", "quote": "In November 2014 , the company opened its first location in the city of San Francisco"}
+      ]
+    },
+    {
+      "id": "e27",
+      "date": "2016",
+      "grain": "year",
+      "track": "location",
+      "text": "Lowes announced expansion of the Orchard brand to South Florida.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#17", "role": "both", "quote": "In 2016 , Lowes announced the expansion of the Orchard brand to South Florida"}
+      ]
+    },
+    {
+      "id": "e28",
+      "date": "2018-08-22",
+      "grain": "day",
+      "track": "other",
+      "label": "liquidation",
+      "text": "Lowes announced nationwide closure and liquidation of OSH.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#8", "role": "both", "quote": "On August 22 , 2018 , Lowes publicly announced that Orchard Supply Hardware would be closed down nationwide"}
+      ]
+    },
+    {
+      "id": "e29",
+      "date": "2018-11",
+      "grain": "month",
+      "track": "other",
+      "label": "closure",
+      "text": "All OSH stores were closed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#2", "role": "both", "quote": "All stores were closed in November 2018"},
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#8", "role": "description", "quote": "and all had been closed by November"}
+      ]
+    },
+    {
+      "id": "e30",
+      "date": "2019",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "CNRG bought leases to seven former OSH locations in San Jose.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#9", "role": "both", "quote": "In 2019 , Central Network Retail Group ( CNRG ) purchased leases to 7 former OSH locations in the San Jose area"}
+      ]
+    },
+    {
+      "id": "e31",
+      "date": "2020-01",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Central Network Retail Group purchased the OSH brand from Lowes.",
+      "evidence": [
+        {"chunk_id": "/wiki/Orchard_Supply_Hardware#3", "role": "both", "quote": "In January 2020 , the Memphis-based Central Network Retail Group purchased the OSH brand from Lowes"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Stanley B. Smith served as the company's first general manager and president (no exact date).",
+    "Operations started in a rented warehouse at 230 Bassett St, San Jose (no exact date).",
+    "The company was bought and sold by several different corporations during the 1980s.",
+    "Loren S. Smith became President during the 1980s.",
+    "Al Smith bought a railroad boxcar and placed it behind his store (early 1960s).",
+    "OSH bought several Southern California locations of the Builders Emporium chain (no exact date).",
+    "OSH announced a robot-employee (OSHbot) pilot program at its San Jose store (no exact date).",
+    "OSH opened a store in the Mid-Wilshire district of Los Angeles (no exact date)."
+  ]
+}

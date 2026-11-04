@@ -1,0 +1,73 @@
+{
+  "page_id": "/wiki/Pelican_Island_National_Wildlife_Refuge",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1903-03-14",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Established by executive order of President Theodore Roosevelt as first federal wildlife refuge.",
+      "evidence": [
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#0", "role": "both", "quote": "Established by an executive order of President Theodore Roosevelt on March 14 , 1903"},
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#9", "role": "description", "quote": "President Roosevelt signed an executive order that established Pelican Island as the first federal bird reservation"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1963",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "Designated a National Historic Landmark by the Secretary of the Interior.",
+      "evidence": [
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#12", "role": "both", "quote": "Later in 1963 , Pelican Island was designated as a National Historic Landmark"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1968",
+      "grain": "year",
+      "track": "other",
+      "label": "expansion",
+      "text": "Florida agreed to expand the refuge to nearly 5000 acres.",
+      "evidence": [
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#13", "role": "both", "quote": "In 1968 , Florida agreed to expand to include nearly 5000 acres"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1970",
+      "grain": "year",
+      "track": "other",
+      "label": "designation",
+      "text": "Became the smallest wilderness area in the National Wilderness Preservation System.",
+      "evidence": [
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#13", "role": "both", "quote": "And then in 1970 , Pelican Island became the smallest wilderness area in the National Wilderness Preservation System"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2003-03-14",
+      "grain": "day",
+      "track": "work",
+      "label": null,
+      "text": "New public facilities opened and dedicated during the refuge centennial ceremonies.",
+      "evidence": [
+        {"chunk_id": "/wiki/Pelican_Island_National_Wildlife_Refuge#29", "role": "both", "quote": "New public facilities were opened and dedicated on March 14 , 2003"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "mid-19th century: American settlement threatened bird populations and plume hunting killed birds",
+    "Paul Kroegel took control of the island and sailed there to guard the birds (no date given)",
+    "Frank Chapman and William Dutcher appealed to Roosevelt at his home (no date given)",
+    "1960s: attempts to sell surrounding wetlands and islands to developers",
+    "1960s: State asked to include the islands as part of the refuge",
+    "Added to the Ramsar list of wetlands of international importance (no date given)",
+    "Since 1970: gained over 500 acres through purchases, management agreements and conservation easements",
+    "Administered as part of the Everglades Headwaters NWR complex (no date given)",
+    "Staff reduced from six to two (no date given)",
+    "End of 14-year wildlife festival tradition (no date given)"
+  ]
+}

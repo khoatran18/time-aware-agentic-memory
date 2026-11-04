@@ -1,0 +1,223 @@
+{
+  "page_id": "Humberto_De_la_Calle",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1946-07-14",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Manzanares, Caldas, Colombia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#0", "role": "both", "quote": "born 14 July 1946 in Manzanares , Caldas"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1978",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Started teaching as a professor while practicing law.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#3", "role": "both", "quote": "He started teaching in 1978"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1979",
+      "grain": "year",
+      "track": "education",
+      "text": "Studied International Law at the Inter-American Judicial Committee.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#2", "role": "both", "quote": "went on to study International Law at the Inter-American Judicial Committee in 1979"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1980",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Dean at the universities of Caldas and Manizales.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#3", "role": "both", "quote": "became Dean in the universities of Caldas and Manizales until 1980"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1986",
+      "grain": "year",
+      "track": "role",
+      "text": "Served as Associate Justice on the Supreme Court.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#4", "role": "both", "quote": "In 1986 De la Calle also served as an Associate Justice on the Supreme Court"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1990",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Minister of Government under President Gaviria.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#5", "role": "both", "quote": "In 1990 he was appointed to the Ministry of Government during the administration of President César Gaviria until 1992"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1992",
+      "grain": "year",
+      "track": "role",
+      "text": "Left the Minister of Government post.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#5", "role": "both", "quote": "In 1990 he was appointed to the Ministry of Government during the administration of President César Gaviria until 1992"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e8",
+      "date": "1994",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Vice President of Colombia under Samper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#0", "role": "both", "quote": "He served as Vice President of Colombia from 1994 to 1997"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1994-06",
+      "grain": "month",
+      "track": "role",
+      "text": "Elected Vice President with Samper in the June 1994 general election.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#6", "role": "both", "quote": "In the May primary election and the June general election of 1994"},
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#5", "role": "both", "quote": "In the 1994 Presidential election , Samper and De La Calle were elected"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1996",
+      "grain": "year",
+      "track": "role",
+      "text": "Asked President Samper to resign over the 8000 Process scandal.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#7", "role": "both", "quote": "In 1996 with the outbreak of the 8000 Process scandal"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1997",
+      "grain": "year",
+      "track": "role",
+      "text": "Resigned as Vice President of Colombia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#0", "role": "both", "quote": "He served as Vice President of Colombia from 1994 to 1997"},
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#7", "role": "both", "quote": "De La Calle finally resigned as vice President in 1997"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1998",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Ambassador to the United Kingdom under President Pastrana.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#8", "role": "both", "quote": "appointed De la Calle Ambassador to the United Kingdom , a position in which he served from 1998 to 2000"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2000",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Ambassador to the United Kingdom.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#8", "role": "both", "quote": "a position in which he served from 1998 to 2000"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2000",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Minister of the Interior.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#8", "role": "both", "quote": "He was then appointed as Minister of the Interior , where he served between the years 2000 and 2001"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2001",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Minister of the Interior.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#8", "role": "both", "quote": "He was then appointed as Minister of the Interior , where he served between the years 2000 and 2001"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2001",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Colombia's Ambassador to the Organization of American States.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#9", "role": "both", "quote": "From 2001 to 2003 De la Calle served as Colombias Ambassador to the Organization of American States"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2003",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Colombia's Ambassador to the Organization of American States.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#9", "role": "both", "quote": "From 2001 to 2003 De la Calle served as Colombias Ambassador to the Organization of American States"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2012-10-01",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed by President Santos as chief negotiator with the FARC.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#0", "role": "both", "quote": "In October 2012 he was appointed by President Juan Manuel"},
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#10", "role": "both", "quote": "On 1 October 2012 , President Juan Manuel Santos appointed De La Calle as the governments chief negotiator"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2016-09",
+      "grain": "month",
+      "track": "work",
+      "text": "Final peace agreement with the FARC concluded in Havana talks he led.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#10", "role": "both", "quote": "a final agreement was concluded in September 2016"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Ran for president as candidate of the Liberal Party/Indigenous Social Alliance Coalition.",
+      "evidence": [
+        {"chunk_id": "/wiki/Humberto_De_la_Calle#12", "role": "both", "quote": "He ran in the 2018 presidential election as the candidate of the Liberal Party"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Earned a Law degree at the University of Caldas (no date)",
+    "Served in the Judicial Branch for almost a decade (no dates)",
+    "Appointed National Civil Registrar in the late 1980s",
+    "Became Dean at the universities of Caldas and Manizales (start not dated)",
+    "Taught at Andes University and Our Lady of the Rosary University (no dates)",
+    "Defeated by Ernesto Samper in the party primaries (date not stated)",
+    "Resigned as Minister of Government to run for presidency (no date; conflicts with 'until 1992')",
+    "Invited by Ernesto Samper to be his vice-presidential running mate (no date)",
+    "Appointed Ambassador to Spain while serving as Vice President (no date)",
+    "Worked at his own law firm after 2003 (start not dated)",
+    "New adjusted peace agreement signed after the referendum (no date)"
+  ]
+}

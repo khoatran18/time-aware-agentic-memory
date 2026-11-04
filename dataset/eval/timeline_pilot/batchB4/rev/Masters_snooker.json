@@ -1,0 +1,900 @@
+{
+ "page_id": "Masters_snooker",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "First Masters held at West Centre Hotel, London, with ten invited players.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "The tournament was held for the first time in 1975 at the West Centre Hotel in London"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "John Spencer won the inaugural tournament, beating Ray Reardon 9-8 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "John Spencer won the inaugural tournament by defeating Ray Reardon 9–8 in the final"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e3",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Benson & Hedges became the cigarette sponsor of the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "The event was sponsored by the cigarette company Benson & Hedges"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1976",
+   "grain": "year",
+   "track": "location",
+   "text": "Event moved to the New London Theatre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "The following year the event moved to the New London Theatre"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1979",
+   "grain": "year",
+   "track": "location",
+   "text": "Event moved to the Wembley Conference Centre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "and in 1979 to the Wembley Conference Centre"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Number of invited players increased to 12.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "In 1981 the number of players invited to compete was increased to 12"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#1",
+     "role": "both",
+     "quote": "The field was expanded to 12 competitors in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Number of invited players increased to 16.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#5",
+     "role": "both",
+     "quote": "and then increased again to 16 in 1983"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#1",
+     "role": "both",
+     "quote": "The field was expanded to 12 competitors in 1981 , and 16 in 1983"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Top 16 world-ranked players automatically invited from 1984 onward.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#6",
+     "role": "both",
+     "quote": "From 1984 onwards the top 16 players in the world rankings were automatically invited"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#1",
+     "role": "both",
+     "quote": "Since 1984 , the standard invitees have been the top 16 players in the world rankings"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "maximum break",
+   "text": "Kirk Stevens made the first maximum break at the Masters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#4",
+     "role": "both",
+     "quote": "Canadas Kirk Stevens made the first in 1984"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#6",
+     "role": "both",
+     "quote": "In 1984 , Kirk Stevens became the first player to make a maximum break at the event"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "A slightly different draw system was used for the tournament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#26",
+     "role": "both",
+     "quote": "A slightly different system was used in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Mike Hallett lost 0-9 to Steve Davis in the final, the only whitewash.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#6",
+     "role": "both",
+     "quote": "In 1988 , Mike Hallett became the first and to date only player to be whitewashed in a Masters final"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Sponsors introduced two wild-card places; wild-card round begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#8",
+     "role": "both",
+     "quote": "In 1990 the sponsors introduced two wild-cards"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#26",
+     "role": "both",
+     "quote": "With the introduction of the wild-card round in 1990"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#20",
+     "role": "both",
+     "quote": "There was a wild-card round from 1990 to 2010"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Stephen Hendry beat Mike Hallett 9-8 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#7",
+     "role": "both",
+     "quote": "Hallett reached his second final in four years in 1991 , but lost 8–9 against Hendry"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Benson & Hedges Championship introduced to award one wild-card place.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#8",
+     "role": "both",
+     "quote": "The Benson & Hedges Championship was introduced for the 1991 tournament"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Seeds 9 to 16 randomly drawn to play seeds 1 to 8.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#26",
+     "role": "both",
+     "quote": "A change was introduced in 1991"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#27",
+     "role": "description",
+     "quote": "so that seeds 9 to 16 were randomly drawn to play seeds 1 to 8"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Alan McManus beat Stephen Hendry in a final-frame decider, ending Hendry's run.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#7",
+     "role": "both",
+     "quote": "in a final-frame decider in the 1994 final"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#6",
+     "role": "description",
+     "quote": "his defeat by Alan McManus"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1995",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan won his first Masters title, aged 19.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#3",
+     "role": "both",
+     "quote": "who won his first title in 1995"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#2",
+     "role": "description",
+     "quote": "The youngest champion is OSullivan"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Last-16 and quarter-final extended to 11 frames; final extended to 19 frames.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#28",
+     "role": "both",
+     "quote": "In 1996 the last-16 and quarter-final rounds were extended from 9 to 11 frames"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Steve Davis beat Ronnie O'Sullivan 10-8 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#9",
+     "role": "both",
+     "quote": "In the 1997 final , Steve Davis defeated Ronnie OSullivan"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Mark Williams beat Stephen Hendry 10-9 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#9",
+     "role": "both",
+     "quote": "The 1998 final went down to a re-spotted black in the deciding frame"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Wild-card matches extended to 11 frames.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#28",
+     "role": "both",
+     "quote": "Wild-card matches were extended from 9 to 11 frames in 1999"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "Matthew Stevens beat Ken Doherty in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#9",
+     "role": "both",
+     "quote": "In the 2000 final , Ken Doherty missed the final black in a 147 attempt"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Benson & Hedges ended sponsorship due to UK tobacco advertising restrictions.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#10",
+     "role": "both",
+     "quote": "After 2003 , Benson & Hedges ended their sponsorship of the Masters tournament"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e24",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Paul Hunter won the final 10-9 from 2-7 down, his third title in four years.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#14",
+     "role": "both",
+     "quote": "Ronnie OSullivan appeared in four successive Masters finals from 2004 to 2007"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan beat John Higgins 10-3 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#14",
+     "role": "both",
+     "quote": "OSullivan defeated John Higgins in the 2005 final with a decisive 10–3 scoreline"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Rileys Club sponsored the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#10",
+     "role": "both",
+     "quote": "Rileys Club sponsored the event in 2005"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Separate qualifying event returned for wild-card places.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#10",
+     "role": "both",
+     "quote": "but the qualifying event returned the following season"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e28",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "SAGA Insurance took over sponsorship of the Masters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#10",
+     "role": "both",
+     "quote": "SAGA Insurance took over sponsorship of the Masters in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2006",
+   "grain": "year",
+   "track": "location",
+   "text": "Event held at Wembley Conference Centre for the last time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#11",
+     "role": "both",
+     "quote": "for the last time in 2006 , before the venue was demolished months later"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#10",
+     "role": "description",
+     "quote": "The tournament was held at the Wembley Conference Centre"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "John Higgins won the final against O'Sullivan, winning on the black.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#14",
+     "role": "both",
+     "quote": "The pair met in the final again the following year"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#15",
+     "role": "description",
+     "quote": "winning the title on the black"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e31",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan beat Ding Junhui 10-3 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#15",
+     "role": "both",
+     "quote": "OSullivan redeemed himself in 2007 by defeating Ding Junhui 10–3 in the final"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "maximum break",
+   "text": "Ding Junhui made the second maximum break at the Masters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#4",
+     "role": "both",
+     "quote": "Chinas Ding Junhui made the second in 2007"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2007",
+   "grain": "year",
+   "track": "location",
+   "text": "Masters held at Wembley Arena for the first time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#17",
+     "role": "both",
+     "quote": "The Masters was held at Wembley Arena for the first time in 2007"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Wild-card round extended to three matches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#29",
+     "role": "both",
+     "quote": "There were also two selections in 2007 when the wild-card round"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#30",
+     "role": "description",
+     "quote": "was extended to three matches"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Original format with two wild-card players reinstated.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#17",
+     "role": "both",
+     "quote": "the original format with just two wild-card players was reinstated in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "SAGA Insurance pulled out of its sponsorship deal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#17",
+     "role": "both",
+     "quote": "SAGA Insurance pulled out of their sponsorship deal in the summer of 2008"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "PokerStars.com sponsored the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#17",
+     "role": "both",
+     "quote": "PokerStars.com sponsored the event in 2010"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Wild-card round ended after running from 1990.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#20",
+     "role": "both",
+     "quote": "There was a wild-card round from 1990 to 2010"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Ladbrokes Mobile sponsored the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#17",
+     "role": "both",
+     "quote": "the 2011 sponsor was Ladbrokes Mobile"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Separate qualifying not held and wild-card use discontinued.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "2011 event , and the use of wild-cards was discontinued at the same time"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "final",
+   "text": "The 2011 final was the first to feature two Asian players.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "The 2011 final made history as it was the first to feature two Asian players"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2011",
+   "grain": "year",
+   "track": "location",
+   "text": "Wembley Arena used as the venue for the last time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "Wembley Arena was used as the venue for the last time in 2011"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2012",
+   "grain": "year",
+   "track": "location",
+   "text": "Tournament moved to Alexandra Palace, London.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "after which the tournament moved to the Alexandra Palace in London"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e44",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "BGC Partners sponsored the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "BGC Partners sponsored the Masters in 2012"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Betfair sponsored the event.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "the 2013 event was sponsored by Betfair"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Dafabet began sponsoring the tournament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "From 2014 to 2020 the tournament was sponsored by Dafabet"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan won the Masters title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#19",
+     "role": "both",
+     "quote": "This was OSullivans third Masters title in four years , having also won in 2014 and 2016"
+    }
+   ]
+  },
+  {
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "maximum break",
+   "text": "Marco Fu made the third maximum break at the Masters",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#4",
+     "role": "both",
+     "quote": "Hong Kongs Marco Fu made the third in 2015"
+    }
+   ],
+   "id": "e48"
+  },
+  {
+   "id": "e49",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan won the Masters title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#19",
+     "role": "both",
+     "quote": "This was OSullivans third Masters title in four years , having also won in 2014 and 2016"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2016-04-20",
+   "grain": "day",
+   "track": "naming",
+   "text": "World Snooker announced the trophy would be renamed the Paul Hunter Trophy, from 2017.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#13",
+     "role": "both",
+     "quote": "On 20 April 2016 , World Snooker announced the renaming of the trophy for the 2017 event"
+    },
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#2",
+     "role": "description",
+     "quote": "the Masters trophy was renamed the Paul Hunter Trophy"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Ronnie O'Sullivan won his seventh Masters title, a record.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#19",
+     "role": "both",
+     "quote": "Ronnie OSullivan won his seventh Masters title in 2017"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Judd Trump won his first Masters title, beating O'Sullivan 10-4 in the final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#19",
+     "role": "both",
+     "quote": "He reached the final again in 2019"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Dafabet sponsorship of the tournament ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "From 2014 to 2020 the tournament was sponsored by Dafabet"
+    }
+   ]
+  },
+  {
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Stuart Bingham won the Masters, the oldest champion at 43",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#2",
+     "role": "both",
+     "quote": "The oldest Masters champion is Stuart Bingham , who was aged 43 years and 243 days in 2020"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e54"
+  },
+  {
+   "id": "e55",
+   "date": "2021",
+   "grain": "year",
+   "track": "other",
+   "label": "sponsorship",
+   "text": "Betfred became the sponsor of the Masters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Masters_(snooker)#18",
+     "role": "both",
+     "quote": "In 2021 Betfred sponsors the Masters"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "World Snooker board chose the Paul Hunter Scholarship instead of renaming the trophy (undated, after 2006)",
+  "Yearly seeding exceptions (2006, 2013, 2014, 2015, 2018, 2020, 2021: suspensions, withdrawals, COVID replacements) not recorded as events"
+ ]
+}

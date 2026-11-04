@@ -1,0 +1,161 @@
+{
+ "page_id": "Rezidor_Hotel_Group",
+ "events": [
+  {"id": "e1", "date": "1960", "grain": "year", "track": "other", "label": "founding",
+   "text": "SAS Group opened first hotel, origin of the Rezidor hotel business, in Copenhagen",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#0", "role": "both", "quote": "Originally founded by Scandinavian conglomerate SAS Group as a hotel in 1960"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#4", "role": "both", "quote": "opened their first hotel in Copenhagen , Denmark in 1960"}
+   ]},
+  {"id": "e2", "date": "1982", "grain": "year", "track": "ownership_structure",
+   "text": "Hotels spun off as a separate division of SAS Catering and Hotels",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#4", "role": "both", "quote": "In 1982 , the hotels were spin-off as a separate division"}
+   ]},
+  {"id": "e3", "date": "1985", "grain": "year", "track": "ownership_structure",
+   "text": "Hotel division became a subsidiary known as SAS International Hotels",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#4", "role": "both", "quote": "It became a subsidiary known as SAS International Hotels in 1985"}
+   ]},
+  {"id": "e4", "date": "1989", "grain": "year", "track": "location", "flag": "approximate_date",
+   "text": "Global headquarters relocated to Brussels, Belgium",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#0", "role": "both", "quote": "The global headquarters of Rezidor relocated to Brussels , Belgium , circa 1989"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#6", "role": "description", "quote": "The headquarters of the subsidiary was relocated to Brussels soon after"}
+   ]},
+  {"id": "e5", "date": "1989", "grain": "year", "track": "role",
+   "text": "Ritter became President and CEO of the subsidiary",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#6", "role": "both", "quote": "Ritter became President & CEO of the subsidiary in 1989"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#5", "role": "both", "quote": "He was promoted as the president and CEO in 1989"}
+   ]},
+  {"id": "e6", "date": "1994", "grain": "year", "track": "affiliation", "flag": "source_inconsistent",
+   "text": "Franchise agreement with Carlson for Radisson brand, creating Radisson SAS",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#0", "role": "both", "quote": "franchised from American hospitality and travel conglomerate Carlson Companies from 1994"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#7", "role": "both", "quote": "signed a similar agreement in 1994"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#8", "role": "description", "quote": "That agreement give birth of the hotel chain Radisson SAS"}
+   ]},
+  {"id": "e7", "date": "1995", "grain": "year", "track": "affiliation", "flag": "source_inconsistent",
+   "text": "Franchise deal with Carlson Hotels for the company (date given as 1995 in other sources)",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#5", "role": "both", "quote": "He also struck a franchise deal for the company with Carlson Hotels in 1995"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#7", "role": "both", "quote": "( 1995 according to the Financial Times"}
+   ]},
+  {"id": "e8", "date": "2001", "grain": "year", "track": "naming", "flag": "derived_date",
+   "text": "Subsidiary renamed from SAS International Hotels to Rezidor SAS Hospitality",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#6", "role": "both", "quote": "The subsidiary was known as SAS International Hotels until 2001"}
+   ]},
+  {"id": "e9", "date": "2002", "grain": "year", "track": "affiliation",
+   "text": "Carlson franchise renewed, adding Park Inn, Regent and Country Inn brands",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#1", "role": "both", "quote": "and 2002 ( the other brands ) respectively"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#8", "role": "both", "quote": "The franchise agreement was renewed in 2002"}
+   ]},
+  {"id": "e10", "date": "2005", "grain": "year", "track": "work",
+   "text": "Opened four Radisson hotels in the Republic of Ireland",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#10", "role": "both", "quote": "In 2005 , Rezidor SAS opened four more Radisson hotels in the Republic of Ireland"}
+   ]},
+  {"id": "e11", "date": "2005", "grain": "year", "track": "work", "flag": "derived_date",
+   "text": "Park Inn hotels opened in Dundalk and Mulranny",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#10", "role": "both", "quote": "In 2005 , Rezidor SAS opened four more Radisson hotels in the Republic of Ireland"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#10", "role": "description", "quote": "Two Park Inn hotels were also opened in Dundalk and Mulranny respectively in the same year"}
+   ]},
+  {"id": "e12", "date": "2005-02", "grain": "month", "track": "affiliation",
+   "text": "Agreement to convert seven Holiday Inn hotels in Germany to Park Inn",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#9", "role": "both", "quote": "In February 2005 , Rezidor signed an agreement to convert seven former Holiday Inn hotels in Germany to Park Inn"}
+   ]},
+  {"id": "e13", "date": "2005-04", "grain": "month", "track": "ownership_structure",
+   "text": "Partnership agreement with Carlson Hotels Worldwide; Carlson acquired 25% of shares",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#7", "role": "both", "quote": "In April 2005 , Rezidor SAS signed a partnership agreement with Carlson Hotels Worldwide"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#1", "role": "both", "quote": "In 2005 , Carlson Companies acquired 25% of the shares of Rezidor Hotel Group from SAS Group"}
+   ]},
+  {"id": "e14", "date": "2006", "grain": "year", "track": "ownership_structure",
+   "text": "Rezidor SAS Hospitality floated on the Stockholm Stock Exchange",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#0", "role": "both", "quote": "it became a listed company in 2006"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#12", "role": "both", "quote": "In 2006 , SAS Group floated Rezidor SAS Hospitality as Rezidor Hotel Group AB ( publ ) on the Stockholm Stock Exchange"}
+   ]},
+  {"id": "e15", "date": "2006", "grain": "year", "track": "naming",
+   "text": "Company renamed Rezidor Hotel Group AB (publ) upon listing",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#12", "role": "both", "quote": "In 2006 , SAS Group floated Rezidor SAS Hospitality as Rezidor Hotel Group AB"}
+   ]},
+  {"id": "e16", "date": "2006-02", "grain": "month", "track": "work",
+   "text": "Opened first Park Inn hotel in Baku, first in CIS",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#11", "role": "both", "quote": "In February 2006 , Rezidor opened a Park Inn hotel in Baku"}
+   ]},
+  {"id": "e17", "date": "2007", "grain": "year", "track": "ownership_structure",
+   "text": "SAS Group ceased to be a shareholder of the company",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#1", "role": "both", "quote": "In 2007 , SAS Group ceased to be a shareholder of the company"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#12", "role": "both", "quote": "as of 2007 , SAS Group ceased to be a shareholder of Rezidor Hotel Group"}
+   ]},
+  {"id": "e18", "date": "2009", "grain": "year", "track": "naming",
+   "text": "Radisson SAS brand renamed Radisson Blu",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#8", "role": "both", "quote": "Radisson SAS was known as Radisson Blu since 2009"}
+   ]},
+  {"id": "e19", "date": "2010", "grain": "year", "track": "ownership_structure",
+   "text": "Carlson Companies acquired control, over 50.1% of shares, of the listed company",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#2", "role": "both", "quote": "In 2010 , Carlson Companies acquired control ( more than 50.1% shares ) of the listed company"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#13", "role": "both", "quote": "Carlson Hotels increased its ownership ratio of the Rezidor Hotel Group to 50.1% in 2010"}
+   ]},
+  {"id": "e20", "date": "2010", "grain": "year", "track": "ownership_structure",
+   "text": "Carlson and Rezidor sold the Regent brand (buyer not stated)",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#13", "role": "both", "quote": "In 2010 , Carlson and Rezidor had already sold the brand Regent to"}
+   ]},
+  {"id": "e21", "date": "2010", "grain": "year", "track": "ownership_structure",
+   "text": "Park Inn Dundalk hotel closed down",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#10", "role": "both", "quote": "However , Park Inn Dundalk was closed down in 2010"}
+   ]},
+  {"id": "e22", "date": "2012", "grain": "year", "track": "ownership_structure",
+   "text": "Began integrating with direct parent Carlson Hotels, Inc., collectively called Carlson Rezidor",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#2", "role": "both", "quote": "In 2012 , Rezidor Hotel Group started to integrate with the direct parent company"}
+   ]},
+  {"id": "e23", "date": "2014", "grain": "year", "track": "affiliation",
+   "text": "Six former Park Inn hotels in Germany converted to Mercure brand of AccorHotels",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#9", "role": "both", "quote": "six of the aforementioned hotels , except Cologne City-West , were converted to Mercure brand of AccorHotels in 2014"}
+   ]},
+  {"id": "e24", "date": "2016", "grain": "year", "track": "ownership_structure",
+   "text": "Carlson Hotels and subsidiaries, including Rezidor, sold to HNA Group",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#2", "role": "both", "quote": "were sold to Chinese conglomerate HNA Group in 2016"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#15", "role": "both", "quote": "HNA Group , via their division , HNA Tourism Group , in 2016 from Carlson Companies"}
+   ]},
+  {"id": "e25", "date": "2016", "grain": "year", "track": "naming", "flag": "derived_date; source_inconsistent",
+   "text": "Rezidor Hotel Group AB renamed Radisson Hospitality AB (source gives May 2018)",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#2", "role": "both", "quote": "in 2016 . Rezidor Hotel Group AB was then renamed to Radisson Hospitality AB"}
+   ]},
+  {"id": "e26", "date": "2018", "grain": "year", "track": "ownership_structure",
+   "text": "Radisson Hotel Group re-sold to a consortium led by Jin Jiang International",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#3", "role": "both", "quote": "In 2018 , Radisson Hotel Group was re-sold to a consortium led by Jin Jiang International of China"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#15", "role": "description", "quote": "to a consortium led by Jin Jiang International Holdings"}
+   ]},
+  {"id": "e27", "date": "2018-05", "grain": "month", "track": "naming", "flag": "source_inconsistent",
+   "text": "Rezidor Hotel Group AB renamed Radisson Hospitality AB (source 2 gives 2016)",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#16", "role": "both", "quote": "In May 2018 , Rezidor Hotel Group , the listed company , was renamed to Radisson Hospitality AB ( publ )"}
+   ]},
+  {"id": "e28", "date": "2018-05", "grain": "month", "track": "naming", "flag": "derived_date",
+   "text": "Trading name of whole hotel group changed to Radisson Hotel Group",
+   "evidence": [
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#16", "role": "date", "quote": "In May 2018 , Rezidor Hotel Group , the listed company , was renamed to Radisson Hospitality AB ( publ )"},
+    {"chunk_id": "/wiki/Rezidor_Hotel_Group#16", "role": "description", "quote": "The trading name of the whole hotel group"}
+   ]}
+ ],
+ "undated_mentions": ["2010s: Rezidor Hotel Group became part of a larger hotel group, trading as Carlson Rezidor Hotel Group"]
+}

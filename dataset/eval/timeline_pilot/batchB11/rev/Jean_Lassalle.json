@@ -1,0 +1,210 @@
+{
+ "page_id": "Jean_Lassalle",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1955-05-03",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Jean Lassalle born in France",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#0",
+     "role": "both",
+     "quote": "born 3 May 1955"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1977-03-21",
+   "grain": "day",
+   "track": "role",
+   "text": "became mayor of Lourdios-Ichère commune",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#1",
+     "role": "both",
+     "quote": "Lassalle has served as mayor of the commune of Lourdios-Ichère since 21 March 1977"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1982-03-22",
+   "grain": "day",
+   "track": "role",
+   "text": "joined conseil général of Pyrénées-Atlantiques",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#1",
+     "role": "both",
+     "quote": "has sat on the conseil général of the département of Pyrénées-Atlantiques since 22 March 1982"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1991-01-01",
+   "grain": "day",
+   "track": "role",
+   "text": "became vice-president of the conseil général",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#1",
+     "role": "both",
+     "quote": "serving as vice-president since 1 January 1991"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "elected member of the National Assembly as Independent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#0",
+     "role": "both",
+     "quote": "serving as an Independent member of the National Assembly since 2002"
+    },
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#1",
+     "role": "both",
+     "quote": "He was elected to the National Assembly in the 2002 legislative election"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "began leading the World Mountain People Association",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#1",
+     "role": "both",
+     "quote": "Since 2002 Lassalle has led the World Mountain People Association"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2003-06-03",
+   "grain": "day",
+   "track": "other",
+   "label": "protest",
+   "text": "sang Occitan anthem in National Assembly to protest housing announcement",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#2",
+     "role": "both",
+     "quote": "On 3 June 2003 Lassalle stood up in the National Assembly"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2006-03-07",
+   "grain": "day",
+   "track": "other",
+   "label": "hunger strike",
+   "text": "began 39-day hunger strike over threatened jobs in constituency",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#5",
+     "role": "both",
+     "quote": "Lassalle undertook a 39-day hunger strike in March/April 2006"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "2006-04-14",
+   "grain": "day",
+   "track": "other",
+   "label": "hospitalization",
+   "text": "admitted to hospital in Garches during hunger strike",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#6",
+     "role": "both",
+     "quote": "Earlier the same day , Lassalle had been admitted to hospital in Garches"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e10",
+   "date": "2006-04-14",
+   "grain": "day",
+   "track": "other",
+   "label": "hunger strike",
+   "text": "hunger strike ended after Toyal assurance to Sarkozy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#6",
+     "role": "both",
+     "quote": "The strike ended on 14 April"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e11",
+   "date": "2013-04",
+   "grain": "month",
+   "track": "other",
+   "label": "walk tour",
+   "text": "walked around France for eight months, April to December 2013",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#4",
+     "role": "both",
+     "quote": "In 2013 , Lassalle walked around France for eight months from April to December"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2017",
+   "grain": "year",
+   "track": "role",
+   "text": "stood as candidate in French presidential election under Résistons! banner",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#0",
+     "role": "both",
+     "quote": "He was a candidate in the 2017 presidential election under the banner of Résistons !"
+    },
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#7",
+     "role": "both",
+     "quote": "In 2017 , Lassalle stood for President of France"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2020-09-20",
+   "grain": "day",
+   "track": "other",
+   "label": "incident",
+   "text": "accidentally parked car on a level crossing, obstructing a passenger train",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jean_Lassalle#9",
+     "role": "both",
+     "quote": "On 20th September 2020 , Lassalle accidentally parked his car on a level crossing"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "leads a Haut-Béarn cultural association"
+ ]
+}

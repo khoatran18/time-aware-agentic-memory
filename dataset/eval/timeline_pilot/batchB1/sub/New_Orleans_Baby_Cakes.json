@@ -1,0 +1,228 @@
+{
+  "page_id": "New_Orleans_Baby_Cakes",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1993",
+      "grain": "year",
+      "track": "location",
+      "text": "Denver Zephyrs relocated to Metairie and began play in the AA.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#1", "role": "both", "quote": "The team began play in 1993 as a member of the Triple-A American Association"},
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#3", "role": "both", "quote": "The New Orleans Zephyrs came to Metairie by way of Denver , Colorado , in 1993"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1997",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left the American Association after the 1997 season.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#4", "role": "both", "quote": "The New Orleans Zephyrs remained in the American Association through 1997"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1998",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the Pacific Coast League (PCL).",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#1", "role": "both", "quote": "They joined the PCL in 1998"},
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#4", "role": "both", "quote": "they joined the Pacific Coast League in 1998"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1998",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Won the 1998 PCL championship.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#5", "role": "both", "quote": "The Zephyrs won the 1998 PCL championship"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1998",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Won the Triple-A World Series over the Buffalo Bisons, 3-1.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#5", "role": "both", "quote": "The Zephyrs won the 1998 PCL championship and went on to win the Triple-A World Series"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2001",
+      "grain": "year",
+      "track": "other",
+      "label": "championship",
+      "text": "Championship series cancelled after September 11 attacks; named co-champions with Tacoma.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#1", "role": "both", "quote": "won the PCL championship twice as the Triple-A affiliate of the Houston Astros ( 1998 and 2001 )"},
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#5", "role": "both", "quote": "were also slated to participate in the 2001 championship series"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2005",
+      "grain": "year",
+      "track": "other",
+      "label": "season end",
+      "text": "Finished last home games of the 2005 season before Hurricane Katrina.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#6", "role": "both", "quote": "The Zephyrs finished out the last portion of their home games for the 2005"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2006",
+      "grain": "year",
+      "track": "other",
+      "label": "home opener",
+      "text": "Opened 2006 season at home, first pro team in New Orleans to do so after Katrina.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#6", "role": "both", "quote": "the team was able to open the 2006 season at home"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2006-05-05",
+      "grain": "day",
+      "track": "other",
+      "label": "24-inning game",
+      "text": "Played 24-inning game vs Nashville Sounds over two days, matching PCL innings record; won 5-4.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#7", "role": "both", "quote": "On May 5–6 , 2006 , the Zephyrs and Nashville Sounds participated in a 24-inning game"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2008-08-30",
+      "grain": "day",
+      "track": "other",
+      "label": "cancelled games",
+      "text": "Cancelled games August 30 to September 1 as Hurricane Gustav approached; season ended early.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#9", "role": "both", "quote": "they cancelled their games of August 30 through September 1"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2008-09-22",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Became Triple-A affiliate of the Florida Marlins (now Miami Marlins).",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#9", "role": "both", "quote": "On September 22 , 2008 , the Zephyrs became the Triple-A affiliate of the Florida Marlins"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2009-10",
+      "grain": "month",
+      "track": "other",
+      "label": "logo",
+      "text": "Unveiled a new logo with a Z set against a fleur-de-lis.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#9", "role": "both", "quote": "In October 2009 , the team unveiled a new logo"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2017",
+      "grain": "year",
+      "track": "naming",
+      "text": "Rebranded for the 2017 season with new name, colors and logos.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#10", "role": "both", "quote": "The Zephyrs rebranded for the 2017 season"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2017",
+      "grain": "year",
+      "track": "other",
+      "label": "promotion",
+      "text": "Lifetime pass promotion for children born in Louisiana during 2017.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#11", "role": "both", "quote": "state of Louisiana during 2017 was eligible for a lifetime pass to Baby Cakes games"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2017",
+      "grain": "year",
+      "track": "location",
+      "text": "Home stadium Zephyr Field renamed Shrine on Airline as part of the rebrand.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#10", "role": "date", "quote": "The Zephyrs rebranded for the 2017 season"},
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#11", "role": "description", "quote": "As part of the rebrand , the teams stadium , Zephyr Field , was changed to Shrine on Airline"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2017-04-14",
+      "grain": "day",
+      "track": "other",
+      "label": "no-hitter",
+      "text": "Baby Cakes pitchers combined for a no-hitter against the Iowa Cubs.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#14", "role": "both", "quote": "On April 14 , 2017 , Baby Cakes pitchers Scott Copeland"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2019",
+      "grain": "year",
+      "track": "location",
+      "text": "Relocated to Wichita, Kansas, at the end of the 2019 season.",
+      "flag": "source_inconsistent",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#2", "role": "both", "quote": "At the end of the 2019 season , the team relocated to Wichita , Kansas"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2019-09-02",
+      "grain": "day",
+      "track": "other",
+      "label": "final game",
+      "text": "Played final game as the Baby Cakes, a 10-1 road win in Oklahoma City.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#15", "role": "both", "quote": "On September 2 , 2019 , the PCL Triple-A New Orleans Baby Cakes played their final game ever"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2020",
+      "grain": "year",
+      "track": "location",
+      "text": "Relocated to Wichita, Kansas, and rebranded as the Wichita Wind Surge.",
+      "flag": "source_inconsistent",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#16", "role": "both", "quote": "The team relocated to Wichita , Kansas , in 2020 and re-branded as the Wichita Wind Surge"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2021",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Not invited back as Triple-A affiliate; moved to Double-A after MiLB reorganization.",
+      "evidence": [
+        {"chunk_id": "/wiki/New_Orleans_Baby_Cakes#16", "role": "both", "quote": "After the 2021 MiLB reorganization , the team was not invited back as a Triple-A affiliate"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Name-the-team contest held to choose a new name (no date stated)",
+    "Unveiling of Baby Cakes as new team name and purple, green and gold colors on November 15 (year not stated)"
+  ]
+}

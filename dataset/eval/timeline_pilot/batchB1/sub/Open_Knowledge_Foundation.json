@@ -1,0 +1,128 @@
+{
+  "page_id": "Open_Knowledge_Foundation",
+  "events": [
+    {
+      "id": "e1",
+      "date": "2004-05-20",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Open Knowledge Foundation was founded by Rufus Pollock.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#0", "role": "both", "quote": "It was founded by Rufus Pollock on 20 May 2004"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2004-05-24",
+      "grain": "day",
+      "track": "other",
+      "label": "launch",
+      "text": "Open Knowledge Foundation was launched in Cambridge, UK.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#0", "role": "both", "quote": "launched on 24 May 2004 in Cambridge , UK"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2007",
+      "grain": "year",
+      "track": "other",
+      "label": "event",
+      "text": "Began holding the Open Knowledge Conference (OKCon), held occasionally.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#15", "role": "both", "quote": "Its premier event is the Open Knowledge Conference ( OKCon ) , which has been held occasionally since 2007"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2013",
+      "grain": "year",
+      "track": "other",
+      "label": "sponsorship",
+      "text": "Obtained CCIA sponsorship for three fellowships.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#16", "role": "both", "quote": "In 2013 OKF obtained sponsorship from CCIA for 3 fellowships"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2013-10",
+      "grain": "month",
+      "track": "other",
+      "label": "project",
+      "text": "Began supporting the D-CENT European project, running to May 2016.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#17", "role": "both", "quote": "which is running from October 2013 to May 2016"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2015",
+      "grain": "year",
+      "track": "role",
+      "text": "Pavel Richter took on the role of CEO.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#2", "role": "both", "quote": "Between 2015–2017 Pavel Richter took on the role of CEO"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2016-05",
+      "grain": "month",
+      "track": "naming",
+      "text": "Organisation began operating as Open Knowledge International.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#0", "role": "both", "quote": "Between May 2016 and May 2019 the organisation was named Open Knowledge International"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "Pavel Richter's term as CEO ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#2", "role": "both", "quote": "Between 2015–2017 Pavel Richter took on the role of CEO"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2019-02",
+      "grain": "month",
+      "track": "role",
+      "text": "Catherine Stihler joined as Chief Executive Officer.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#2", "role": "both", "quote": "Catherine Stihler joined as the new Chief Executive Officer of the Open Knowledge Foundation in February 2019"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2019-05",
+      "grain": "month",
+      "track": "naming",
+      "text": "Organisation decided to return to the name Open Knowledge Foundation.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#0", "role": "both", "quote": "but decided in May 2019 to return to Open Knowledge Foundation"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2020-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Catherine Stihler left as CEO to become CEO of Creative Commons.",
+      "evidence": [
+        {"chunk_id": "/wiki/Open_Knowledge_Foundation#2", "role": "both", "quote": "Catherine served as CEO until August 2020 when she left the Open Knowledge Foundation"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Incorporated in England and Wales as a company limited by guarantee",
+    "Created KnowledgeForge project management service, one of its earliest projects",
+    "Produced the Open Knowledge Definition",
+    "Produced the Open Software Service Definition",
+    "Supported development of the Open Database License (ODbL)",
+    "Supports Apps for Europe"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+ "page_id": "British_Rail_Class_40",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1947",
+   "grain": "year",
+   "track": "work",
+   "text": "Precursor prototype diesel locomotives ordered 1947-1954",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#2",
+     "role": "both",
+     "quote": "ordered by British Railways between 1947 and 1954"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1958",
+   "grain": "year",
+   "track": "work",
+   "text": "English Electric began building the 200 Class 40 locomotives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#0",
+     "role": "both",
+     "quote": "A total of 200 were built by English Electric between 1958 and 1962"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1958-03-14",
+   "grain": "day",
+   "track": "work",
+   "text": "First locomotive D200 delivered to Stratford depot.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#3",
+     "role": "both",
+     "quote": "The first locomotive , D200 , was delivered to Stratford on 14 March 1958"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1958-04-18",
+   "grain": "day",
+   "track": "other",
+   "label": "service",
+   "text": "D200 made its passenger debut on an express train.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#3",
+     "role": "both",
+     "quote": "D200 made its passenger début on an express train from London Liverpool Street to on 18 April 1958"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1962",
+   "grain": "year",
+   "track": "work",
+   "text": "English Electric production of the class ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#0",
+     "role": "both",
+     "quote": "A total of 200 were built by English Electric between 1958 and 1962"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1962-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Final locomotive D399 delivered, completing the 200-unit order.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#8",
+     "role": "both",
+     "quote": "the final locomotive , D399 , was delivered in September 1962"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Seven Scottish-based D260-D266 locomotives converted to central headcode.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#10",
+     "role": "both",
+     "quote": "In 1965 , seven of the first batch of locomotives"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1970",
+   "grain": "year",
+   "track": "naming",
+   "text": "Nameplates gradually removed as Class 40s stopped working named trains.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#12",
+     "role": "both",
+     "quote": "From approximately 1970 , with Class 40s no longer working these trains"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1973",
+   "grain": "year",
+   "track": "naming",
+   "text": "Locomotives renumbered under TOPS, becoming Class 40 numbers 40 001-40 199.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#11",
+     "role": "both",
+     "quote": "From 1973 , locomotives were renumbered to suit the TOPS computer operating system"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Withdrawals began; three locomotives taken out of service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#25",
+     "role": "both",
+     "quote": "Withdrawal of the Class 40s started in 1976"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1980",
+   "grain": "year",
+   "track": "other",
+   "label": "service",
+   "text": "Class 40 lost last front-line passenger duties in Scotland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#20",
+     "role": "both",
+     "quote": "in Scotland – in 1980"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Pioneer locomotive 40 122 withdrawn from service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#28",
+     "role": "both",
+     "quote": "having been withdrawn in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1981",
+   "grain": "year",
+   "track": "location",
+   "text": "All 130 remaining locomotives concentrated in BR London Midland region.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#27",
+     "role": "both",
+     "quote": "In 1981 , all 130 remaining locomotives were concentrated in the London Midland region of BR"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Final two classified overhauls completed at Crewe Works.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#27",
+     "role": "both",
+     "quote": "the final two emerged from Crewe Works in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1981-02",
+   "grain": "month",
+   "track": "work",
+   "text": "40 167 received the last classified overhaul of the class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#27",
+     "role": "both",
+     "quote": "The last to receive a classified overhaul was 40 167 in February 1981"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1983-07",
+   "grain": "month",
+   "track": "other",
+   "label": "service",
+   "text": "40 122 reinstated and painted green to haul enthusiast specials.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#28",
+     "role": "both",
+     "quote": "was reinstated in July 1983"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1984-02-15",
+   "grain": "day",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "40 126 withdrawn from service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#46",
+     "role": "both",
+     "quote": "40126 was withdrawn from service on 15 February 1984"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1985-01-27",
+   "grain": "day",
+   "track": "other",
+   "label": "service",
+   "text": "Last passenger run by a Class 40 (excluding 40 122), Birmingham to York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#28",
+     "role": "both",
+     "quote": "The last passenger run by a Class 40 , apart from 40 122 , occurred on 27 January 1985"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1985-01-28",
+   "grain": "day",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Remaining locomotives except 40 122 withdrawn the day after the last passenger run.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#28",
+     "role": "both",
+     "quote": "All the remaining locomotives except 40 122 were withdrawn the next"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1987",
+   "grain": "year",
+   "track": "other",
+   "label": "preservation",
+   "text": "40 013 Andania rescued from Vic Berry's scrapyard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#50",
+     "role": "both",
+     "quote": "No . 40013 Andania was rescued from Vic Berrys Scrapyard in 1987"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1987-03",
+   "grain": "month",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Departmental Class 97 locomotives 97 405-408 withdrawn.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#33",
+     "role": "both",
+     "quote": "These were withdrawn by March 1987"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "40 122 withdrawn again and presented to the National Railway Museum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#34",
+     "role": "both",
+     "quote": "40 122 was eventually withdrawn in 1988"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1988-12",
+   "grain": "month",
+   "track": "other",
+   "label": "scrapping",
+   "text": "Last two Class 40s (40 091 and 40 195) cut up at Crewe Works.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#31",
+     "role": "both",
+     "quote": "by A . Hampton contractors at Crewe Works in December 1988"
+    }
+   ]
+  },
+  {
+   "date": "2002-11-30",
+   "grain": "day",
+   "track": "other",
+   "label": "service",
+   "text": "40 145 hauled enthusiasts railtour, first mainline passenger run by a Class 40 for over sixteen years",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#34",
+     "role": "both",
+     "quote": "on 30 November 2002 , over sixteen years after the last Class 40 had hauled a mainline passenger train"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "service",
+   "text": "40 145 returned to mainline operation after a three-year hiatus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/British_Rail_Class_40#34",
+     "role": "both",
+     "quote": "returned to mainline operation in 2014"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "heyday of the class in the early 1960s, hauling top-link expresses",
+  "D255 fitted with electric train heating for a trial period in the mid-1960s"
+ ]
+}

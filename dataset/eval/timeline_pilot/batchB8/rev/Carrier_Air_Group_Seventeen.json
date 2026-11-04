@@ -1,0 +1,290 @@
+{
+ "page_id": "Carrier_Air_Group_Seventeen",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1943-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "establishment",
+   "text": "First Carrier Air Group designated CVG-17 was established",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#0",
+     "role": "both",
+     "quote": "the first of which was established on 1 January 1943 as Carrier Air Group Seventeen"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#2",
+     "role": "both",
+     "quote": "was established as CVG-17 on 1 January 1943 during WWII"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1944-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "establishment",
+   "text": "Second Carrier Air Group established as CVG-82",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#0",
+     "role": "both",
+     "quote": "established as Carrier Air Group Eighty Two on 1 April 1944"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#3",
+     "role": "both",
+     "quote": "established as CVG-82 on 1 April 1944 during World War II"
+    }
+   ]
+  },
+  {
+   "date": "1945-02-07",
+   "grain": "day",
+   "track": "other",
+   "label": "deployment",
+   "text": "CVG-82 aboard Bennington reached the U.S. 5th Fleet",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#3",
+     "role": "both",
+     "quote": "Bennington reached the U.S . 5th Fleet on 7 February 1945"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "date": "1945-02-16",
+   "grain": "day",
+   "track": "other",
+   "label": "combat operation",
+   "text": "CVG-82 attacked targets in the Tokyo area, nine days after reaching 5th Fleet",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#4",
+     "role": "description",
+     "quote": "CVG-82 attacked targets in the Tokyo area , mainly the airfields at Nachijo Jima , Nanpo Shoto , Mikatagahara , and Hamamatsu"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#3",
+     "role": "date",
+     "quote": "Bennington reached the U.S . 5th Fleet on 7 February 1945"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#3",
+     "role": "description",
+     "quote": "Nine days later ."
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e4"
+  },
+  {
+   "id": "e5",
+   "date": "1945-02-20",
+   "grain": "day",
+   "track": "other",
+   "label": "combat operation",
+   "text": "CVG-82 supported the landings on Iwo Jima, 20 to 22 February",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#4",
+     "role": "both",
+     "quote": "From 20 to 22 February , the wing supported the landings on Iwo Jima"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1945-03",
+   "grain": "month",
+   "track": "other",
+   "label": "combat operation",
+   "text": "CVG-82 attacked targets in Japanese Inland Sea and Okinawa",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#4",
+     "role": "both",
+     "quote": "This was followed by attacks on targets in the Japanese Inland Sea and on Okinawa in March"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e7",
+   "date": "1945-04-07",
+   "grain": "day",
+   "track": "other",
+   "label": "combat operation",
+   "text": "CVG-82 aircraft participated in sinking of battleship Yamato",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#4",
+     "role": "both",
+     "quote": "On 7 April , aircraft from CVG-82 participated in the sinking of the battleship Yamato"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1945-06-17",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "CVG-82 replaced aboard Bennington by CVG-1",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#4",
+     "role": "both",
+     "quote": "On 17 June 1945 , CVG-82 was replaced aboard Bennington by CVG-1"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1946-10",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "CVG-82 began first Atlantic deployment aboard Randolph",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#6",
+     "role": "both",
+     "quote": "CVG-82 began its first deployment to the Atlantic Ocean area in October 1946 aboard Randolph"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1946-11-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "CVG-82 redesignated Attack Carrier Air Group Seventeen (CVAG-17)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#7",
+     "role": "both",
+     "quote": "On 15 November 1946 all then existing CVGs were redesignated"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1948-09-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "CVAG-17 redesignated CVG-17 under new Navy designation scheme",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#8",
+     "role": "both",
+     "quote": "on 1 September 1948 , the Navy instituted yet another designation scheme"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1953-09",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "CVG-17 circumnavigated the world aboard Wasp, Sept 1953 to May 1954",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#8",
+     "role": "both",
+     "quote": "Between September 1953 and May 1954 , CVG-17 circumnavigated the world aboard"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "CVG-17 deployed again aboard Coral Sea",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#9",
+     "role": "both",
+     "quote": "In 1955 CVG-17 deployed again aboard Coral Sea"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1958-03",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployments with Franklin D. Roosevelt concluded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#9",
+     "role": "both",
+     "quote": "followed by three deployments with Franklin D . Roosevelt until March 1958"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1958-09-16",
+   "grain": "day",
+   "track": "other",
+   "label": "disestablishment",
+   "text": "Second Carrier Air Group disestablished as CVG-17",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#9",
+     "role": "both",
+     "quote": "CVG-17 was disestablished on 16 September 1958"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e16",
+   "date": "1968-09-16",
+   "grain": "day",
+   "track": "other",
+   "label": "disestablishment",
+   "text": "Second Carrier Air Group disestablished as Carrier Air Group Seventeen",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#0",
+     "role": "both",
+     "quote": "disestablished as Carrier Air Group Seventeen on 16 September 1968"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e17",
+   "date": "1992-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "disestablishment",
+   "text": "First Carrier Air Group disestablished as Carrier Air Wing Six",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Group_Seventeen#0",
+     "role": "both",
+     "quote": "disestablished on 1 April 1992 as Carrier Air Wing Six"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "First group redesignated CVBG-17, CVBG-5, then CVG-6 (no date)",
+  "Second group assigned to an aircraft carrier at establishment (carrier name missing, no date)",
+  "CVG-82 attacked targets in the Tokyo area (no date)",
+  "CVG-82 supported US troops on Okinawa until June (no start date)",
+  "Following the war, reassigned to the United States Atlantic Fleet (no date)"
+ ]
+}

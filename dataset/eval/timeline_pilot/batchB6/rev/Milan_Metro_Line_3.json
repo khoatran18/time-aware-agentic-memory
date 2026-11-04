@@ -1,0 +1,175 @@
+{
+ "page_id": "Milan_Metro_Line_3",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "approval",
+   "text": "Milan municipality approved the proposal for a third metro line.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#2",
+     "role": "both",
+     "quote": "The proposal for a third metro line was approved by Milan municipality in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "Final project for the line was presented in early 1981.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#2",
+     "role": "both",
+     "quote": "The final project was presented in early 1981 and works on the new line began on 8 September of the same year"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e3",
+   "date": "1981-09-08",
+   "grain": "day",
+   "track": "work",
+   "text": "Construction works on the new line began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#0",
+     "role": "both",
+     "quote": "Construction began in 1981 in order to be ready for the 1990 Football World Cup"
+    },
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#2",
+     "role": "both",
+     "quote": "The final project was presented in early 1981 and works on the new line began on 8 September of the same year"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Line was extended to Porta Romana at the end of the year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#3",
+     "role": "both",
+     "quote": "The line was extended to Porta Romana at the end of the year"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1990-05-03",
+   "grain": "day",
+   "track": "work",
+   "text": "First section Centrale to Duomo opened; only a shuttle service ran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#3",
+     "role": "both",
+     "quote": "The first section , from Centrale to Duomo was opened on 3 May 1990"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1991-05-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Extensions to Sondrio (north) and San Donato (south) opened.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#4",
+     "role": "both",
+     "quote": "New extensions to Sondrio on the north and to San Donato on the south opened on 12 May 1991"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1995-12-16",
+   "grain": "day",
+   "track": "work",
+   "text": "Zara station was inaugurated.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#4",
+     "role": "both",
+     "quote": "Zara station was inaugurated only on 16 December 1995 and Maciachini on 8 December 2003"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2003-12-08",
+   "grain": "day",
+   "track": "work",
+   "text": "Maciachini station was inaugurated.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#4",
+     "role": "both",
+     "quote": "Zara station was inaugurated only on 16 December 1995 and Maciachini on 8 December 2003"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "approval",
+   "text": "South extension project was approved.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#9",
+     "role": "both",
+     "quote": "Although the project was approved in 2010 , it was put on hold at the beginning of 2011 due to lack of funds"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "suspension",
+   "text": "South extension project was put on hold due to lack of funds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#9",
+     "role": "both",
+     "quote": "Although the project was approved in 2010 , it was put on hold at the beginning of 2011 due to lack of funds"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e11",
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "text": "Last extension Maciachini-Comasina opened.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_3#4",
+     "role": "both",
+     "quote": "The last extension ( Maciachini-Comasina ) opened in early 2011"
+    }
+   ],
+   "flag": "approximate_date"
+  }
+ ],
+ "undated_mentions": [
+  "Route was chosen based on a study of main traffic routes in previous years",
+  "Works on the new line slowed during the following years"
+ ]
+}

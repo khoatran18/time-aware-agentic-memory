@@ -1,0 +1,7 @@
+# batchB8 (seed 7108)
+Haiku: 10 trang, 262 mốc (Sainz 21, CAG17 15, Downs 13, Franklin 23, Rull 32, Lenin 16, Bohan 24, Simferopol 29, Mercury 60, Zambia 29).
+Sau patch (`tools/patch_bB8.py`): 298 mốc = +37 thêm, -1 bỏ.
+Bỏ: Simferopol e9 (liberated 1944-04, trùng e10 "occupation ended 1944-04-13").
+Sót (thêm): Bohan +2 (vợ đầu mất 1962, Baby Dior 1967); CAG17 +2 (5th Fleet 1945-02-07, Tokyo 1945-02-16); Downs +8 (3 con sinh, surrogacy, Amy, nhận nuôi 1986, sách 1987, phim 1989); Simferopol +1 (1991-02-12 thủ phủ ASSR Crimea); Sainz +3 (podium GP3 đầu, vô địch FR3.5 2014, fastest lap đầu 2020); Franklin +12 (con gái sinh/cưới/mất, vợ mất 1825, tàu kẹt băng 1846, 1850 tìm thấy di vật, thăng Rear-Admiral 1852, Rae 1854, Deline 1996, 2009, 2 xác tàu 2014/2016); Zambia +3 (Ngoni 1897, Operation Gatling 1978, World Bank 2010); Mercury +6 (1881, Viet Mercury 2005-10-21, các mốc MediaNews/kiện 2006, bán campus 2013-04). Lenin, Rull: không đổi.
+Lỗi check.py không bắt: không có. Lỗi check bắt (đã sửa): Rull e20 (quote thiếu 2017), Mercury e57 (quote thiếu 2014).
+Quy ước mới áp dụng: (K) ghi sự kiện nhắm vào thực thể (kiện/mua bán Mercury, tấn công Zambia, xác tàu Franklin). Quyết định tự đặt, chờ xác nhận: con gái Franklin (cưới, mất) ghi là family; mốc 2009 (rededication) ghi; số liệu dân số/ranking không ghi; sự kiện của thực thể khác (Maravi 1480, Lunda 1600, university 1917, FC TSK 2014, parents' lifespans) không ghi.

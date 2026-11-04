@@ -1,0 +1,184 @@
+{
+ "page_id": "Federal_Office_for_Migration_and_Refugees",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1953-01-12",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Office founded as Federal Office for the Recognition of Foreign Refugees in Langwasser, Nuremberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#1",
+     "role": "both",
+     "quote": "The office was founded on 12 January 1953 as Bundesdienststelle für die Anerkennung ausländischer Flüchtlinge"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Albert Maximilian Schmid begins as head of the agency (2000-2010).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Albert Maximilian Schmid ( 2000-2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "scandal",
+   "text": "Bribe scandal (2000-2018): agency alleged to have accepted bribes for asylum grants",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#3",
+     "role": "both",
+     "quote": "2000-2018 Bribe scandal"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Albert Maximilian Schmid's tenure as head of the agency ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Albert Maximilian Schmid ( 2000-2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Manfred Schmidt begins as head of the agency (2010-2015).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Manfred Schmidt ( 2010-2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Manfred Schmidt's tenure as head of the agency ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Manfred Schmidt ( 2010-2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2015-09-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Frank-Jürgen Weise appointed also as BAMF chief, without additional pay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#2",
+     "role": "both",
+     "quote": "On 18 September 2015 , during the European migrant crisis , Frank-Jürgen Weise"
+    },
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Frank-Jürgen Weise ( 2015-2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2016",
+   "grain": "year",
+   "track": "role",
+   "text": "Frank-Jürgen Weise's tenure as head of the agency ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Frank-Jürgen Weise ( 2015-2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2017",
+   "grain": "year",
+   "track": "role",
+   "text": "Jutta Cordt begins as head of the agency (2017-2018).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Jutta Cordt ( 2017-2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Jutta Cordt's tenure as head of the agency ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "Jutta Cordt ( 2017-2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Hans-Eckard Somme becomes head of the agency.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#12",
+     "role": "both",
+     "quote": "since 2018 Hans-Eckard Somme"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2019-03",
+   "grain": "month",
+   "track": "other",
+   "label": "audit",
+   "text": "Preliminary audit results released: asylum proceedings violated in 145 cases.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federal_Office_for_Migration_and_Refugees#4",
+     "role": "both",
+     "quote": "Preliminary results of the revision from March 2019 showed , that asylum-proceedings had been violated in 145 cases"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Bremen office stripped of its authority to process asylum applications"
+ ]
+}

@@ -1,0 +1,140 @@
+{"page_id": "John_Franklin",
+ "events": [
+  {"id": "e1", "date": "1786-04-16", "grain": "day", "track": "other", "label": "birth",
+   "text": "Born in Spilsby, Lincolnshire.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#0", "role": "date", "quote": "16 April 1786"},
+    {"chunk_id": "/wiki/John_Franklin#2", "role": "description", "quote": "Franklin was born in Spilsby , Lincolnshire , on"}
+   ]},
+  {"id": "e2", "date": "1800", "grain": "year", "track": "affiliation", "flag": "approximate_date",
+   "text": "Joined the Polyphemus in autumn 1800 as a first-class volunteer.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#5", "role": "both", "quote": "He did not join the vessel until the autumn of 1800"}
+   ]},
+  {"id": "e3", "date": "1800-03", "grain": "month", "track": "affiliation",
+   "text": "Secured Royal Navy appointment through his father.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#4", "role": "both", "quote": "so in March 1800 , Franklins father secured him a Royal Navy appointment"}
+   ]},
+  {"id": "e4", "date": "1802-04", "grain": "month", "track": "other", "label": "visit",
+   "text": "Visited Arthurs Seat cairn as midshipman with Matthew Flinders.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#20", "role": "both", "quote": "that he had visited as a midshipman with Captain Matthew Flinders in April 1802"}
+   ]},
+  {"id": "e5", "date": "1805", "grain": "year", "track": "other", "label": "battle",
+   "text": "Present at the Battle of Trafalgar.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#6", "role": "both", "quote": "He was present at the Battle of Trafalgar in 1805"}
+   ]},
+  {"id": "e6", "date": "1814-12", "grain": "month", "track": "other", "label": "wound",
+   "text": "Wounded during the Battle of Lake Borgne.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#6", "role": "both", "quote": "was wounded during the Battle of Lake Borgne in December 1814"}
+   ]},
+  {"id": "e7", "date": "1818", "grain": "year", "track": "other", "label": "expedition",
+   "text": "Commanded a journey from London to Spitzbergen.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#7", "role": "both", "quote": "Franklin commanded in 1818 on a journey from London to Spitzbergen"}
+   ]},
+  {"id": "e8", "date": "1819", "grain": "year", "track": "other", "label": "expedition",
+   "text": "Chosen to lead the Coppermine overland expedition.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#7", "role": "both", "quote": "In 1819 , Franklin was chosen to lead the Coppermine expedition overland"}
+   ]},
+  {"id": "e9", "date": "1819", "grain": "year", "track": "other", "label": "accident",
+   "text": "Fell into the Hayes River at Robinson Falls and was rescued.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#7", "role": "both", "quote": "On his 1819 expedition , Franklin fell into the Hayes River at Robinson Falls"}
+   ]},
+  {"id": "e10", "date": "1819", "grain": "year", "track": "other", "label": "expedition",
+   "text": "Coppermine expedition 1819–1822: lost 11 of 20 men.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#8", "role": "both", "quote": "Between 1819 and 1822 , he lost 11 of the 20 men in his party"}
+   ]},
+  {"id": "e11", "date": "1823", "grain": "year", "track": "family",
+   "text": "Married the poet Eleanor Anne Porden.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#9", "role": "both", "quote": "In 1823 , after returning to England , Franklin married the poet Eleanor Anne Porden"}
+   ]},
+  {"id": "e12", "date": "1825", "grain": "year", "track": "other", "label": "expedition",
+   "text": "Left for the Mackenzie River expedition.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#10", "role": "both", "quote": "In 1825 , he left for his second Canadian and third Arctic expedition"}
+   ]},
+  {"id": "e13", "date": "1826", "grain": "year", "track": "other", "label": "expedition", "flag": "derived_date",
+   "text": "Went downriver, found Arctic ocean frozen; turned back at Return Reef.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#10", "role": "date", "quote": "In 1825 , he left for his second Canadian and third Arctic expedition"},
+    {"chunk_id": "/wiki/John_Franklin#13", "role": "description", "quote": "The following summer he went downriver and found the ocean frozen"}
+   ]},
+  {"id": "e14", "date": "1826-09-21", "grain": "day", "track": "location", "flag": "derived_date",
+   "text": "Reached safety at Fort Franklin.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#14", "role": "both", "quote": "Reaching safety at Fort Franklin on 21 September"}
+   ]},
+  {"id": "e15", "date": "1827-09-01", "grain": "day", "track": "location",
+   "text": "Reached Liverpool, returning from the Mackenzie River expedition.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#14", "role": "both", "quote": "He reached Liverpool on the first of September 1827"}
+   ]},
+  {"id": "e16", "date": "1837", "grain": "year", "track": "role", "flag": "source_inconsistent",
+   "text": "Appointed Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#16", "role": "both", "quote": "Franklin was appointed Lieutenant Governor of Van Diemens Land in 1837"},
+    {"chunk_id": "/wiki/John_Franklin#15", "role": "both", "quote": "1837 : Lieutenant-Governor of Van Diemens Land"}
+   ]},
+  {"id": "e17", "date": "1839", "grain": "year", "track": "role", "flag": "source_inconsistent",
+   "text": "Began term as Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#0", "role": "both", "quote": "served as Lieutenant-Governor of Van Diemens Land from 1839 to 1843"}
+   ]},
+  {"id": "e18", "date": "1843", "grain": "year", "track": "other", "label": "visit", "flag": "derived_date",
+   "text": "Revisited Arthurs Seat cairn shortly after leaving the governorship.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#16", "role": "date", "quote": "was removed from office in 1843"},
+    {"chunk_id": "/wiki/John_Franklin#20", "role": "description", "quote": "Shortly after leaving his post as Governor of Tasmania , Franklin revisited a cairn"}
+   ]},
+  {"id": "e19", "date": "1843", "grain": "year", "track": "role",
+   "text": "Removed from office as Lieutenant-Governor of Van Diemen's Land.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#16", "role": "both", "quote": "was removed from office in 1843"}
+   ]},
+  {"id": "e20", "date": "1843", "grain": "year", "track": "work",
+   "text": "Museum established under Franklin's leadership, credited to Royal Society of Tasmania.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#17", "role": "both", "quote": "credited to the Royal Society of Tasmania in 1843 under the leadership of her husband"}
+   ]},
+  {"id": "e21", "date": "1843", "grain": "year", "track": "location",
+   "text": "Returned to England; adopted daughter Mathinna left behind in Tasmania.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#18", "role": "both", "quote": "when the Franklins returned to England in 1843"}
+   ]},
+  {"id": "e22", "date": "1845", "grain": "year", "track": "role",
+   "text": "Accepted command of the Northwest Passage expedition, aged 59.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#21", "role": "both", "quote": "1845 : Northwest Passage expedition"}
+   ]},
+  {"id": "e23", "date": "1847-06-11", "grain": "day", "track": "other", "label": "death",
+   "text": "Died during the Northwest Passage expedition, near King William Island.",
+   "evidence": [
+    {"chunk_id": "/wiki/John_Franklin#0", "role": "both", "quote": "11 June 1847"},
+    {"chunk_id": "/wiki/John_Franklin#28", "role": "description", "quote": "According to a note later found on that island , Franklin died there on"}
+   ]}
+ ],
+ "undated_mentions": [
+  "educated at King Edward VI Grammar School, Louth",
+  "trial voyage on a merchant ship at about age 12",
+  "promoted to midshipman",
+  "action at the Battle of Copenhagen",
+  "midshipman on Matthew Flinders' Australian coast expedition",
+  "action at the Battle of Pulo Aura under Nathaniel Dance",
+  "promoted to lieutenant",
+  "became second European to reach the Mackenzie River mouth",
+  "spent rest of winter and spring at Fort Chipewyan (no explicit date)",
+  "married Jane Griffin",
+  "knighted by George IV",
+  "awarded first Gold Medal of the Societe de Geographie of France",
+  "made Knight Commander of the Royal Guelphic Order",
+  "adopted Aboriginal girl Mathinna",
+  "given command of the Northwest Passage expedition and official instructions"
+ ]}

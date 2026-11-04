@@ -1,0 +1,169 @@
+{
+  "page_id": "/wiki/Exxon_Valdez",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1986-12-16",
+      "grain": "day",
+      "track": "work",
+      "text": "Tanker delivered to Exxon, relatively new at the time of the spill.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#3", "role": "both", "quote": "having been delivered to Exxon on December 16 , 1986 ."}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1989-03-24",
+      "grain": "day",
+      "track": "other",
+      "label": "grounding",
+      "text": "Tanker ran aground on Bligh Reef, causing a major crude oil spill.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#0", "role": "both", "quote": "On March 24 , 1989 , while owned by the former Exxon Shipping Company , and captained by Joseph Hazelwood"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1989-06-10",
+      "grain": "day",
+      "track": "location",
+      "text": "Vessel towed to San Diego after the spill.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#4", "role": "both", "quote": "After the spill , the vessel was towed to San Diego , arriving on June 10 , 1989"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1989-06-30",
+      "grain": "day",
+      "track": "work",
+      "text": "Repairs to the tanker started in San Diego.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#4", "role": "both", "quote": "repairs were started on June 30 , 1989"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1989-07",
+      "grain": "month",
+      "track": "work",
+      "text": "About 1,600 tons of steel removed and replaced during repairs.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#4", "role": "both", "quote": "Approximately 1,600 tons of steel were removed and replaced that July"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "2002",
+      "grain": "year",
+      "track": "other",
+      "label": "service",
+      "text": "Ship again removed from service.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#9", "role": "both", "quote": "In 2002 , the ship was again removed from service ."}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2005",
+      "grain": "year",
+      "track": "naming",
+      "text": "Ship renamed simply Mediterranean.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#9", "role": "both", "quote": "then to simply Mediterranean in 2005"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2005",
+      "grain": "year",
+      "track": "location",
+      "text": "Ship began operating under the Marshall Islands flag.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#10", "role": "both", "quote": "2005 , it began operating under the Marshall Islands flag of convenience"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2008",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "SeaRiver Maritime sold the ship to Hong Kong Bloom Shipping.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#10", "role": "both", "quote": "In early 2008 , SeaRiver Maritime , an ExxonMobil subsidiary , sold Mediterranean to the Hong Kong-based shipping company"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e10",
+      "date": "2008",
+      "grain": "year",
+      "track": "naming",
+      "text": "Ship renamed Dong Fang Ocean under Panama registry.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#10", "role": "both", "quote": "In early 2008 , SeaRiver Maritime , an ExxonMobil subsidiary , sold Mediterranean to the Hong Kong-based shipping company , which renamed the ship"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e11",
+      "date": "2008",
+      "grain": "year",
+      "track": "work",
+      "text": "Ship refitted and converted from oil tanker to ore carrier.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#10", "role": "both", "quote": "In 2008 , she was refitted and converted from an oil tanker to an ore carrier"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2010-11-29",
+      "grain": "day",
+      "track": "other",
+      "label": "collision",
+      "text": "Dong Fang Ocean collided with cargo ship Aali in the South China Sea.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#11", "role": "both", "quote": "On November 29 , 2010 , Dong Fang Ocean collided in the South China Sea with the Malta-flagged cargo ship"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2012-03",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Ship purchased by Global Marketing Systems for scrap.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#12", "role": "both", "quote": "In March 2012 , Dong Fang Ocean was purchased by Global Marketing Systems , Inc . for scrap"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2012-03",
+      "grain": "month",
+      "track": "location",
+      "text": "Ship sailed under its own power to a ship breaker in Singapore.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#12", "role": "both", "quote": "In March 2012 , Dong Fang Ocean was purchased by Global Marketing Systems , Inc . for scrap"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2012-08-02",
+      "grain": "day",
+      "track": "other",
+      "label": "scrapping",
+      "text": "Ship beached at Alang, India, for dismantling.",
+      "evidence": [
+        {"chunk_id": "/wiki/Exxon_Valdez#13", "role": "both", "quote": "She was then beached at Alang on 2 August 2012 ."}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Renamed Exxon Mediterranean after repairs (no date stated)",
+    "Renamed SeaRiver Mediterranean in the early 1990s",
+    "Name later shortened to S/R Mediterranean (no date stated)",
+    "Changed hands among scrap merchants (no date stated)",
+    "Renamed Oriental Nicety, routed to Alang under Priya Blue Industries (no date stated)"
+  ]
+}

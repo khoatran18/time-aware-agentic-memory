@@ -1,0 +1,137 @@
+{
+  "page_id": "Line_7_Beijing_Subway",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1973",
+      "grain": "year",
+      "track": "other",
+      "label": "planning",
+      "text": "Predecessor Line 6 conceived as pan-handle loop including Line 7 sections.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#2", "role": "both", "quote": "Line 6 was originally conceived in 1973 as a pan-handle shaped route"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1983",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Line 6 dissolved; its western section became Line 7.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#2", "role": "both", "quote": "In 1983 Line 6 was dissolved into two distinct lines."}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1993",
+      "grain": "year",
+      "track": "work",
+      "text": "Planned Line 6 section revised as Line 7 eastern extension, forming current alignment.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#3", "role": "both", "quote": "By 1993 the planned section of Line 6 heading to Coking Plant complex was revised as an eastern extension of Line 7"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2008-10-30",
+      "grain": "day",
+      "track": "work",
+      "text": "Line 7 route plan with 23 stations received regulatory approval.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#7", "role": "both", "quote": "Oct . 30 , 2008 : Line 7 route plan with 23 stations receive regulatory approval"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2009-11-06",
+      "grain": "day",
+      "track": "work",
+      "text": "Line 7 construction commencement deferred to 2010.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#7", "role": "both", "quote": "Nov . 6 , 2009 : Commencement of Line 7 construction deferred to 2010"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2010-01-19",
+      "grain": "day",
+      "track": "work",
+      "text": "Construction reportedly began along Guangqu Road section.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#8", "role": "both", "quote": "Jan . 19 , 2010 : Construction reportedly begun along Guangqu Road"},
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#6", "role": "both", "quote": "Construction began in January 2010"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2013",
+      "grain": "year",
+      "track": "work",
+      "text": "Line 7 design revised from 6-car to 8-car trains.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#4", "role": "both", "quote": "In 2013 , planners revised the design of Line 7 from using the standard 6 car trains to 8 car trains"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2014-09",
+      "grain": "month",
+      "track": "work",
+      "text": "Line 7 Phase I test runs began.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#6", "role": "both", "quote": "It started test runs in September 2014"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2014-12-28",
+      "grain": "day",
+      "track": "work",
+      "text": "Phase I full operations began, excluding Shuangjing and Fatou stations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#6", "role": "both", "quote": "full operation beginning on December 28 , 2014"},
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#9", "role": "both", "quote": "Dec . 28 , 2014 : Operations of Phase I of Line 7 begin"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2018-12-30",
+      "grain": "day",
+      "track": "work",
+      "text": "Fatou infill station of Phase I opened.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#9", "role": "both", "quote": "Dec . 30 , 2018 : An infill station of Phase I , Fatou station was opened"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2019-12-28",
+      "grain": "day",
+      "track": "work",
+      "text": "Phase II eastern extension opened, excluding Universal Resort station.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#6", "role": "both", "quote": "It was opened on December 28 , 2019"},
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#9", "role": "both", "quote": "Dec . 28 , 2019 : Operations of Phase II of Line 7 begin"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2019-12-28",
+      "grain": "day",
+      "track": "work",
+      "flag": "derived_date",
+      "text": "Shuangjing infill station of Phase I opened.",
+      "evidence": [
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#9", "role": "date", "quote": "Dec . 28 , 2019 : Operations of Phase II of Line 7 begin"},
+        {"chunk_id": "/wiki/Line_7_(Beijing_Subway)#9", "role": "description", "quote": "An infill station of Phase I , Shuangjing station was opened"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Line 7 later revised westward to terminate at Beijing West railway station.",
+    "Planning Committee approved revised 21-station plan ending at Jiaohuachang.",
+    "Early 1990s: space set aside at Beijing West station for future Line 7 interchange."
+  ]
+}

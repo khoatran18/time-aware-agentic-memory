@@ -1,0 +1,96 @@
+{
+ "page_id": "Pelican_Faberg_egg",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1898",
+   "grain": "year",
+   "track": "work",
+   "text": "Pelican egg made under Fabergé supervision by workmaster Perkhin",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#0",
+     "role": "both",
+     "quote": "is a jewelled Easter egg made under the supervision of the Russian jeweller Peter Carl Fabergé in 1898"
+    },
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#1",
+     "role": "description",
+     "quote": "The egg was created by Faberges workmaster , Mikhail Evlampievich Perkhin"
+    },
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#6",
+     "role": "description",
+     "quote": "for many years the Pelican Egg was ascribed to 1897"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e2",
+   "date": "1898",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Egg presented by Nicholas II to Dowager Empress Maria Feodorovna for Easter",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#0",
+     "role": "both",
+     "quote": "presented it to his mother , the Dowager Empress Maria Feodorovna on Easter 1898"
+    },
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#6",
+     "role": "both",
+     "quote": "this Egg was presented to Maria Feodorovna for Easter 1898"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1930",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Egg sold by the Antikvariat to Armand Hammer in New York City",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#7",
+     "role": "both",
+     "quote": "In 1930 , the Imperial Pelican Fabergé egg , with the eight oval miniatures , was one of ten Imperial eggs sold"
+    }
+   ]
+  },
+  {
+   "date": "1936",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Lillian Thomas Pratt purchased the egg from Hammer Galleries (between 1936 and 1938)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#7",
+     "role": "both",
+     "quote": "Between 1936 and 1938 it was purchased by Lillian Thomas Pratt"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e4"
+  },
+  {
+   "id": "e5",
+   "date": "1947",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Egg willed by Mrs. Pratt to Virginia Museum of Fine Arts on her death",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Pelican_(Fabergé_egg)#7",
+     "role": "both",
+     "quote": "Mrs . Pratt willed the Egg to the Virginia Museum of Fine Arts in Richmond , Virginia , upon her death in 1947"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Armand Hammer showed the egg at department stores across the United States"
+ ]
+}

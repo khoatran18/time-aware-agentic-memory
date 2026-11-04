@@ -1,0 +1,377 @@
+{
+ "page_id": "/wiki/Fort_Tilden",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1917-04",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Fort established as Camp Rockaway Beach shortly after US entry into WWI",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#4",
+     "role": "both",
+     "quote": "The fort was established as Camp Rockaway Beach shortly after the United States entered World War I in April 1917"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e2",
+   "date": "1918",
+   "grain": "year",
+   "track": "work",
+   "text": "Battery of two 3-inch antiaircraft guns installation begins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#6",
+     "role": "both",
+     "quote": "In 1918-1919 a battery of two 3-inch antiaircraft guns was installed at the fort"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1919",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Fixed gun mounts replaced with railway mortars begins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#6",
+     "role": "both",
+     "quote": "In 1919-1920 the fixed mounts were replaced with railway mortars"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1919",
+   "grain": "year",
+   "track": "work",
+   "text": "Battery of two 3-inch antiaircraft guns installation completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#6",
+     "role": "both",
+     "quote": "In 1918-1919 a battery of two 3-inch antiaircraft guns was installed at the fort"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1920",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Fixed gun mounts replacement with railway mortars completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#6",
+     "role": "both",
+     "quote": "In 1919-1920 the fixed mounts were replaced with railway mortars"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1921",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Railway mortars and their tracks removed to make room for Battery Harris",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#7",
+     "role": "both",
+     "quote": "The railway mortars and their tracks were probably removed in 1921 to make room for Battery Harris"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1924-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Battery Harris became operational",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#8",
+     "role": "both",
+     "quote": "The coastal artillery installation became operational in December 1924"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1939",
+   "grain": "year",
+   "track": "naming",
+   "text": "Battery East renamed Battery Fergusson",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#5",
+     "role": "both",
+     "quote": "renamed Battery Fergusson in 1939"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1941",
+   "grain": "year",
+   "track": "work",
+   "text": "Concrete casemate for Battery Harris construction begins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#10",
+     "role": "both",
+     "quote": "In 1941-42 a massive concrete casemate was built to enclose the guns at Battery Harris"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1942",
+   "grain": "year",
+   "track": "work",
+   "text": "Concrete casemate for Battery Harris completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#10",
+     "role": "both",
+     "quote": "In 1941-42 a massive concrete casemate was built to enclose the guns at Battery Harris"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e11",
+   "date": "1948",
+   "grain": "year",
+   "track": "other",
+   "label": "disarmament",
+   "text": "Fort disarmed; all guns removed for scrap",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#14",
+     "role": "both",
+     "quote": "with all guns removed for scrap in 1948"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "air defense",
+   "text": "Battalion of sixteen 90 mm guns deployed at the fort",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "In 1950 , as the fear of Soviet air attack grew , a battalion of sixteen 90 mm guns was deployed at Fort Tilden"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1950",
+   "grain": "year",
+   "track": "naming",
+   "text": "Fort renamed Site NY-43 as part of US air defense system",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "In 1950 , as the fear of Soviet air attack grew , a battalion of sixteen 90 mm guns was deployed at Fort Tilden"
+    }
+   ]
+  },
+  {
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Additional four-gun 90 mm battery in the area (begins)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "An additional four-gun 90 mm battery was in the area 1951-54"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "1952",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Two four-gun 120 mm batteries stationed at the fort (begins)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "two four-gun batteries of 120 mm guns were at the fort 1952-55"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1954",
+   "grain": "year",
+   "track": "other",
+   "label": "deactivation",
+   "text": "Site NY-43 remained active until deactivation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "The site remained active until 1954"
+    }
+   ]
+  },
+  {
+   "date": "1954",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Additional four-gun 90 mm battery in the area (ends)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "An additional four-gun 90 mm battery was in the area 1951-54"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Two four-gun 120 mm batteries stationed at the fort (ends)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#15",
+     "role": "both",
+     "quote": "two four-gun batteries of 120 mm guns were at the fort 1952-55"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e19",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "AA guns replaced by Nike-Ajax missile site NY-49",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#16",
+     "role": "both",
+     "quote": "In 1955 the AA guns were replaced by a Nike-Ajax missile site called NY-49"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "armament",
+   "text": "Nike-Ajax launch sites converted to nuclear-capable Nike-Hercules",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#16",
+     "role": "both",
+     "quote": "These were converted to the nuclear-capable Nike-Hercules missile in 1958"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1968",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "411th Engineer Brigade headquartered at the fort (begins)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#18",
+     "role": "both",
+     "quote": "which was headquartered there from 1968 to 1978"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1978",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "411th Engineer Brigade headquarters at the fort ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#18",
+     "role": "both",
+     "quote": "which was headquartered there from 1968 to 1978"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1978",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Army Reserve post status at the fort ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#17",
+     "role": "both",
+     "quote": "From the late 1960s until at least 1978"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e24",
+   "date": "1995",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "187th Brigade howitzer battalion stationed at the fort ends with deactivation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fort_Tilden#17",
+     "role": "both",
+     "quote": "a towed 105 mm howitzer battalion stationed there until the 187th was deactivated in 1995"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Fort named Fort Tilden after Samuel J. Tilden (date not stated)",
+  "Unnamed coast artillery battery became first unit deployed to the fort in WWI (date not stated)",
+  "Two six-inch gun batteries joined the fort in WWI (date not stated)",
+  "Fort became part of Harbor Defenses of Southern New York in WWI (date not stated)",
+  "Temporary military installations built at the site since the War of 1812",
+  "Fort ended its service as a Nike Hercules and Nike Ajax missile site (date not stated)",
+  "Construction began on Battery Harris (date not stated)",
+  "Battery Harris named for Henry Leavenworth Harris (date not stated)",
+  "Fort supplemented during WWII with a 16-inch battery at Highlands Military Reservation, New Jersey",
+  "Battery 220 completed but not armed in WWII (date not stated)",
+  "Four AMTB batteries built during WWII (date not stated)",
+  "Army Reserve post period beginning in the late 1960s",
+  "Battery renamed 7/9th FA in the early 1970s",
+  "Fort decommissioned and turned over to National Park Service in the late 1970s; made part of Gateway National Recreation Area"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "page_id": "Henry_Stommel",
+  "events": [
+    {"id": "e1", "date": "1920-09-27", "grain": "day", "track": "other", "label": "birth", "text": "Stommel born in Wilmington, Delaware.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#0", "role": "both", "quote": "September 27 , 1920 – January 17 , 1992"}, {"chunk_id": "/wiki/Henry_Stommel#1", "role": "description", "quote": "Stommel was born in Wilmington , Delaware ."}]},
+    {"id": "e2", "date": "1942", "grain": "year", "track": "education", "text": "Received B.S. in astronomy from Yale University.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#1", "role": "both", "quote": "He received his B.S . in astronomy from Yale University ( 1942 )"}]},
+    {"id": "e3", "date": "1942", "grain": "year", "track": "role", "text": "Began as instructor in mathematics and astronomy at Yale.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#1", "role": "both", "quote": "served there as instructor in mathematics and astronomy ( 1942–44 )"}]},
+    {"id": "e4", "date": "1944", "grain": "year", "track": "role", "flag": "derived_date", "text": "Ended instructor post in mathematics and astronomy at Yale.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#1", "role": "both", "quote": "served there as instructor in mathematics and astronomy ( 1942–44 )"}]},
+    {"id": "e5", "date": "1944", "grain": "year", "track": "role", "text": "Became research associate at Woods Hole Oceanographic Institution.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "He was research associate at the Woods Hole Oceanographic Institution from 1944 to 1959"}]},
+    {"id": "e6", "date": "1945", "grain": "year", "track": "work", "text": "Published book Science of the Seven Seas.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#10", "role": "both", "quote": "Science of the Seven Seas , Cornell Maritime Press , 1945"}]},
+    {"id": "e7", "date": "1950-12-06", "grain": "day", "track": "family", "text": "Married Elizabeth Brown.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#9", "role": "both", "quote": "on December 6 , 1950"}]},
+    {"id": "e8", "date": "1954", "grain": "year", "track": "work", "text": "Established the PANULIRUS research station in Bermuda.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "Stommel established the PANULIRUS station ( begun in 1954 ) in Bermuda"}]},
+    {"id": "e9", "date": "1959", "grain": "year", "track": "role", "text": "Ended research associate post at Woods Hole Oceanographic Institution.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "He was research associate at the Woods Hole Oceanographic Institution from 1944 to 1959"}]},
+    {"id": "e10", "date": "1959", "grain": "year", "track": "role", "text": "Became professor of oceanography at Harvard University.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "He became professor of oceanography at Harvard University in 1959"}]},
+    {"id": "e11", "date": "1962", "grain": "year", "track": "other", "label": "honour", "text": "Elected to the National Academy of Sciences.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#4", "role": "both", "quote": "Stommel was elected to the National Academy of Sciences in 1962"}]},
+    {"id": "e12", "date": "1963", "grain": "year", "track": "affiliation", "text": "Moved to Massachusetts Institute of Technology.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "moved to Massachusetts Institute of Technology in 1963"}]},
+    {"id": "e13", "date": "1972", "grain": "year", "track": "work", "text": "Second edition of The Gulf Stream published.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#10", "role": "both", "quote": "Second Edition , University of California Press , 1972"}]},
+    {"id": "e14", "date": "1978", "grain": "year", "track": "affiliation", "text": "Left Massachusetts Institute of Technology.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#2", "role": "both", "quote": "where he remained until 1978"}]},
+    {"id": "e15", "date": "1984", "grain": "year", "track": "work", "text": "Published book Lost Islands.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#10", "role": "both", "quote": "University of British Columbia Press , 146 pages , 1984"}]},
+    {"id": "e16", "date": "1987", "grain": "year", "track": "work", "text": "Published book A View of the Sea.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#11", "role": "both", "quote": "Princeton University Press , 184 pages , 1987"}]},
+    {"id": "e17", "date": "1989", "grain": "year", "track": "work", "text": "Co-authored book An Introduction to the Coriolis Force.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#12", "role": "both", "quote": "Columbia University Press , 297 pages , 1989"}]},
+    {"id": "e18", "date": "1989", "grain": "year", "track": "other", "label": "award", "text": "Received the National Medal of Science.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#4", "role": "both", "quote": "received the National Medal of Science in 1989"}]},
+    {"id": "e19", "date": "1992-01-17", "grain": "day", "track": "other", "label": "death", "text": "Died.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#0", "role": "both", "quote": "September 27 , 1920 – January 17 , 1992"}]},
+    {"id": "e20", "date": "2001", "grain": "year", "track": "work", "text": "Chinese (Simplified) translation of A View of the Sea published.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#11", "role": "both", "quote": "translated into Chinese ( Simplified ) by Shanghai Scientific & Technological Education Publishing House , 2001"}]},
+    {"id": "e21", "date": "2017", "grain": "year", "track": "work", "text": "Dover reprint of Lost Islands published.", "evidence": [{"chunk_id": "/wiki/Henry_Stommel#10", "role": "both", "quote": "Dover reprint , 2017"}]}
+  ],
+  "undated_mentions": [
+    "1940s: began advancing theories of global ocean circulation and Gulf Stream behavior (decade only)",
+    "Returned to Woods Hole Oceanographic Institution after MIT (no date stated)",
+    "Retirement from Woods Hole (no date stated)"
+  ]
+}

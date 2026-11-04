@@ -1,0 +1,112 @@
+{
+ "page_id": "/wiki/Sastamala",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1300",
+   "grain": "year",
+   "track": "naming",
+   "text": "Name first appeared as Sastamall in a letter from King Birger Magnusson.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#5",
+     "role": "both",
+     "quote": "The name Sastamala first appeared in the form Sastamall in a letter from King Birger Magnusson from 1300 or 1303"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "date": "1962-11-26",
+   "grain": "day",
+   "track": "other",
+   "label": "heraldry",
+   "text": "Coat of arms (later Sastamala's) approved by the Karkku municipal council",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#3",
+     "role": "both",
+     "quote": "originally approved by the Karkku municipal council on November 26 , 1962"
+    }
+   ],
+   "id": "e2"
+  },
+  {
+   "date": "1963-02-12",
+   "grain": "day",
+   "track": "other",
+   "label": "heraldry",
+   "text": "Coat of arms (later Sastamala's) approved for use by the Ministry of the Interior",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#3",
+     "role": "both",
+     "quote": "approved for use by the Ministry of the Interior on February 12 , 1963"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "2009-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Municipality created by merging Vammala, Äetsä and Mouhijärvi into one town.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#1",
+     "role": "both",
+     "quote": "Sastamala was created on January 1 , 2009 , when the municipalities of Vammala , Äetsä and Mouhijärvi were consolidated into a single town"
+    }
+   ]
+  },
+  {
+   "date": "2011-07",
+   "grain": "month",
+   "track": "other",
+   "label": "museum opened",
+   "text": "Finnish Book Museum Pukstaavi opened in Sastamala",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#9",
+     "role": "both",
+     "quote": "In July 2011 , the Finnish Book Museum Pukstaavi was also opened in Sastamala"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "merger",
+   "text": "Kiikoinen joined Sastamala as an additional municipality.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#1",
+     "role": "both",
+     "quote": "Later , Kiikoinen also joined Sastamala in 2013"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Declared the book capital of Finland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sastamala#9",
+     "role": "both",
+     "quote": "At the beginning of 2013 , the town of Sastamala was declared the book capital of Finland"
+    }
+   ],
+   "flag": "approximate_date"
+  }
+ ],
+ "undated_mentions": []
+}

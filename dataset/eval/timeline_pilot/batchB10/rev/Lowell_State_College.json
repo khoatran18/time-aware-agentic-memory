@@ -1,0 +1,524 @@
+{
+ "page_id": "Lowell_State_College",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1894",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Lowell Normal School chartered as a teacher training institution",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#4",
+     "role": "both",
+     "quote": "The Lowell Normal School was chartered in 1894 as a teacher training institution"
+    },
+    {
+     "chunk_id": "/wiki/Lowell_State_College#0",
+     "role": "both",
+     "quote": "began in 1894 with the establishment of Lowell Normal School"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1897",
+   "grain": "year",
+   "track": "role",
+   "text": "Frank Coburn becomes first principal of the Normal School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Principals of the Normal School included : Frank Coburn ( 1897-1907 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1897",
+   "grain": "year",
+   "track": "other",
+   "label": "opening",
+   "text": "Lowell Normal School opened with 108 students",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#7",
+     "role": "both",
+     "quote": "Lowell Normal School opened in 1897 with 108 students"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1898",
+   "grain": "year",
+   "track": "work",
+   "text": "Original classroom building opened at Broadway and Wilder streets",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#8",
+     "role": "both",
+     "quote": "The original classroom building opened the next year at the corner of Broadway and Wilder streets"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "Frank Coburn's principalship ends (source gives 1907)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Principals of the Normal School included : Frank Coburn ( 1897-1907 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1908",
+   "grain": "year",
+   "track": "role",
+   "text": "Frank Coburn's tenure as first principal ends (source gives 1908)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#8",
+     "role": "both",
+     "quote": "served as the schools first principal until 1908"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1908",
+   "grain": "year",
+   "track": "role",
+   "text": "Cyrus A. Durgin becomes principal of the Normal School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Cyrus A . Durgin ( 1908-1916 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1910",
+   "grain": "year",
+   "track": "work",
+   "text": "Three-year music program created at the school",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#9",
+     "role": "both",
+     "quote": "In 1910 , the mission of the school expanded with the creation of a three-year music program"
+    }
+   ]
+  },
+  {
+   "date": "1914",
+   "grain": "year",
+   "track": "other",
+   "label": "first African American graduates",
+   "text": "Teresa Garland Lew and Marion Scott Lew, first African Americans to graduate from the Normal School (Class of 1914)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Teresa Garland Lew and Marion Scott Lew were notable graduates of the Lowell Normal School ( Class of 1914 )"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1916",
+   "grain": "year",
+   "track": "role",
+   "text": "Cyrus A. Durgin's principalship ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Cyrus A . Durgin ( 1908-1916 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1916",
+   "grain": "year",
+   "track": "role",
+   "text": "John Mahoney becomes principal of the Normal School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "John Mahoney ( 1916-1922 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1922",
+   "grain": "year",
+   "track": "role",
+   "text": "John Mahoney's principalship ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "John Mahoney ( 1916-1922 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1922",
+   "grain": "year",
+   "track": "role",
+   "text": "Clarence Weed becomes principal of the Normal School",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Clarence Weed ( 1922-1935 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1932",
+   "grain": "year",
+   "track": "naming",
+   "text": "Normal School becomes four-year Lowell Teachers College",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#0",
+     "role": "both",
+     "quote": "continued through the transition to the four-year Lowell Teachers College in 1932"
+    },
+    {
+     "chunk_id": "/wiki/Lowell_State_College#13",
+     "role": "description",
+     "quote": "In the early 1930s , Lowell Normal School transitioned to Lowell Teachers College"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "Clarence Weed's principalship ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#11",
+     "role": "both",
+     "quote": "Clarence Weed ( 1922-1935 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "James M. Dugan becomes head of the school",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#16",
+     "role": "both",
+     "quote": "James M . Dugan ( 1936-1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1936",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Marguerite Gourville hired as director of physical education",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#22",
+     "role": "both",
+     "quote": "Marguerite Gourville was originally hired as director of physical education in 1936"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1938",
+   "grain": "year",
+   "track": "other",
+   "label": "closure_threat",
+   "text": "State proposal to close normal schools; school survived after local lobbying",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#15",
+     "role": "both",
+     "quote": "In 1938 , in order to balance budgets state legislators considered a suggestion to close several normal schools"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1944",
+   "grain": "year",
+   "track": "role",
+   "text": "Marguerite Gourville becomes dean",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#22",
+     "role": "both",
+     "quote": "including dean ( 1944 ) and interim president ( 1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "James M. Dugan's presidency ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#16",
+     "role": "both",
+     "quote": "James M . Dugan ( 1936-1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Daniel H. O'Leary becomes president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#20",
+     "role": "both",
+     "quote": "In 1950 , Daniel OLeary assumed the presidency and initiated an ambitious building program"
+    },
+    {
+     "chunk_id": "/wiki/Lowell_State_College#17",
+     "role": "both",
+     "quote": "Daniel H . OLeary ( 1950-1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Ambitious campus building program initiated",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#20",
+     "role": "both",
+     "quote": "In 1950 , Daniel OLeary assumed the presidency and initiated an ambitious building program"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Marguerite Gourville serves as interim president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#22",
+     "role": "both",
+     "quote": "including dean ( 1944 ) and interim president ( 1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1957",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Mary McGauvran returns to the college and takes administrative posts",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#21",
+     "role": "both",
+     "quote": "returned to her alma mater In 1957 , going on to hold important positions"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1959",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Lowell State College established (source gives 1959)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#0",
+     "role": "both",
+     "quote": "was established in 1959"
+    },
+    {
+     "chunk_id": "/wiki/Lowell_State_College#0",
+     "role": "both",
+     "quote": "concluded in 1959 with the founding of Lowell State College"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1959",
+   "grain": "year",
+   "track": "naming",
+   "text": "Lowell Teachers College name period ends (source gives 1959)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#13",
+     "role": "both",
+     "quote": "Lowell Teachers College ( 1932-1959 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1960",
+   "grain": "year",
+   "track": "naming",
+   "text": "Normal School reorganized into Lowell State College (source gives 1960)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#18",
+     "role": "both",
+     "quote": "the legislature reorganized the Normal School into Lowell State College in 1960"
+    },
+    {
+     "chunk_id": "/wiki/Lowell_State_College#17",
+     "role": "both",
+     "quote": "oversaw the next transition from four-year teachers college to comprehensive state college in 1960"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1965",
+   "grain": "year",
+   "track": "role",
+   "text": "Daniel H. O'Leary's presidency ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#17",
+     "role": "both",
+     "quote": "Daniel H . OLeary ( 1950-1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1967",
+   "grain": "year",
+   "track": "other",
+   "label": "degree_authority",
+   "text": "College authorized to confer Master of Education and Master of Music Education",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#18",
+     "role": "both",
+     "quote": "Beginning in 1967 , the college was authorized to confer two graduate degrees"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "merger_study",
+   "text": "Feasibility study conducted on merging with Lowell Technological Institute",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#23",
+     "role": "both",
+     "quote": "In 1972 , a feasibility study was conducted on merging the school with the nearby Lowell Technological Institute"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1974-06-09",
+   "grain": "day",
+   "track": "work",
+   "text": "Dedication of campus buildings named for the school's six presidents",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#20",
+     "role": "both",
+     "quote": "The dedication of several buildings named for each of the schools six presidents was held on June 9 , 1974"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "merger",
+   "text": "Schools merged to form the University of Lowell (source gives 1975)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#23",
+     "role": "both",
+     "quote": "In 1975 , the schools merged to form the University of Lowell"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "merger",
+   "text": "Merger into University of Lowell and then UMass Lowell (source gives 1991)",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#1",
+     "role": "both",
+     "quote": "University of Lowell and then the University of Massachusetts Lowell in 1991"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1991",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed University of Massachusetts Lowell on joining UMass system",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lowell_State_College#23",
+     "role": "both",
+     "quote": "The name was changed in 1991 to the University of Massachusetts Lowell"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

@@ -1,0 +1,532 @@
+{
+ "page_id": "44_Union_Square",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1927-12-14",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Tammany announced its purchase of the 44 Union Square East site.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#7",
+     "role": "both",
+     "quote": "Olvany announced the sale on December 14 , 1927"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Erection of the neo-Georgian building begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#0",
+     "role": "both",
+     "quote": "The neo-Georgian structure was erected in 1928–1929"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1928-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Architects Charles B. Meyers and Thompson, Holmes & Converse are selected.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#9",
+     "role": "both",
+     "quote": "In January 1928 , a month after the purchase of the site , Charles B . Meyers was selected"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1928-04",
+   "grain": "month",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Building plans are submitted to the NYC Department of Buildings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#9",
+     "role": "description",
+     "quote": "The plans were submitted to the New York City Department of Buildings that April"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#9",
+     "role": "date",
+     "quote": "In January 1928"
+    }
+   ]
+  },
+  {
+   "date": "1928-12",
+   "grain": "month",
+   "track": "work",
+   "label": null,
+   "text": "Much of the structure substantially complete",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#10",
+     "role": "description",
+     "quote": "and by December much of the structure was substantially complete"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#9",
+     "role": "date",
+     "quote": "In January 1928 , a month after the purchase of the site"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "1929-01",
+   "grain": "month",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Ceremonial cornerstone is laid, marking completion of the facade.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#10",
+     "role": "description",
+     "quote": "the ceremonial cornerstone was laid the next week"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#10",
+     "role": "date",
+     "quote": "started using the new structure on January 2 , 1929"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1929-01-02",
+   "grain": "day",
+   "track": "location",
+   "text": "New York County Democratic Committee starts using the new building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#10",
+     "role": "both",
+     "quote": "started using the new structure on January 2 , 1929"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1929-07",
+   "grain": "month",
+   "track": "work",
+   "flag": "approximate_date",
+   "text": "The wigwam building is finished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#11",
+     "role": "both",
+     "quote": "The wigwam at 44 Union Square was finished by early July 1929"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#0",
+     "role": "both",
+     "quote": "The neo-Georgian structure was erected in 1928–1929"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1929-07-04",
+   "grain": "day",
+   "track": "other",
+   "label": "dedication",
+   "text": "Dedication celebration held; Governor Roosevelt and former governor Smith speak.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#11",
+     "role": "both",
+     "quote": "A dedication celebration was held on July 4 , 1929"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1943-04",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "ILGWU affiliate Local 91 offers to purchase the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#13",
+     "role": "both",
+     "quote": "offered to purchase the structure in April 1943"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1943-09",
+   "grain": "month",
+   "track": "ownership_structure",
+   "flag": "derived_date",
+   "text": "Sale of the building to the ILGWU affiliate is finalized.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#1",
+     "role": "both",
+     "quote": "the building was sold to an affiliate of the International Ladies Garment Workers Union in 1943"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#13",
+     "role": "description",
+     "quote": "The sale was finalized that September"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1943-12-18",
+   "grain": "day",
+   "track": "other",
+   "label": "rededication",
+   "text": "ILGWU officially rededicates the building at an event with mayors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#14",
+     "role": "both",
+     "quote": "officially rededicating the building on December 18 , 1943"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1947",
+   "grain": "year",
+   "track": "naming",
+   "text": "Auditorium renamed Roosevelt Auditorium after the late president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#15",
+     "role": "both",
+     "quote": "renamed for the late president Roosevelt in 1947"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1984-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Local 91 leases the building to Roundabout Theatre Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#17",
+     "role": "both",
+     "quote": "Local 91 leased 44 Union Square to Roundabout in June 1984"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1985-02-01",
+   "grain": "day",
+   "track": "work",
+   "text": "First performance held in the renovated Roundabout theater.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#18",
+     "role": "both",
+     "quote": "The first performance took place within the space on February 1 , 1985"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1990",
+   "grain": "year",
+   "track": "location",
+   "text": "Roundabout's lease ends; the company moves to Criterion Theater.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#18",
+     "role": "both",
+     "quote": "After Roundabouts lease ran out in 1990"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1994-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Alan Schuster and Mitchell Maxwell lease the building for Union Square Theatre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#19",
+     "role": "both",
+     "quote": "44 Union Square was then leased in June 1994 by Alan Schuster and Mitchell Maxwell"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1994-07",
+   "grain": "month",
+   "track": "location",
+   "text": "New York Film Academy begins housing in the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#19",
+     "role": "both",
+     "quote": "The building started housing the New York Film Academy in July 1994"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#2",
+     "role": "date",
+     "quote": "York Film Academy took space in 1994"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1994-11",
+   "grain": "month",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Union Square Theatre holds its first performance in the space.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#19",
+     "role": "description",
+     "quote": "the Union Square Theatre held its first performance in the space that November"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#19",
+     "role": "date",
+     "quote": "The building started housing the New York Film Academy in July 1994"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2001",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Liberty Theatres buys the building from the ILGWU.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#20",
+     "role": "both",
+     "quote": "In 2001 Liberty Theatres bought the structure from the ILGWU"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2005",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Air rights above the building sold to another Reading Company subsidiary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#20",
+     "role": "both",
+     "quote": "The air rights above the building were sold to another Reading Company subsidiary in 2005"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2013-10",
+   "grain": "month",
+   "track": "other",
+   "label": "landmark designation",
+   "text": "LPC designates the building as a New York City landmark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#21",
+     "role": "both",
+     "quote": "The LPC designated it as a city landmark in October 2013"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#2",
+     "role": "both",
+     "quote": "The New York City Landmarks Preservation Commission designated the building as a city landmark in 2013"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "dome plan denied",
+   "text": "LPC denies Liberty Theatres' plan to add a glass dome.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "both",
+     "quote": "these plans were denied by the LPC in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "dome approval",
+   "flag": "derived_date",
+   "text": "LPC approves a scaled-back version of the glass dome.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "description",
+     "quote": "a scaled-back version of the glass dome was approved by the commission"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "date",
+     "quote": "these plans were denied by the LPC in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2015",
+   "grain": "year",
+   "track": "location",
+   "flag": "approximate_date",
+   "text": "New York Film Academy moves out of the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "both",
+     "quote": "The New York Film Academy moved out in late 2015"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2016",
+   "grain": "year",
+   "track": "location",
+   "flag": "derived_date",
+   "text": "All existing tenants are evicted from the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "description",
+     "quote": "all existing tenants were evicted the next year"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "date",
+     "quote": "The New York Film Academy moved out in late 2015"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2016",
+   "grain": "year",
+   "track": "work",
+   "text": "Auditorium demolished to make way for retail and office space.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#33",
+     "role": "both",
+     "quote": "The auditorium was demolished in 2016"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#24",
+     "role": "description",
+     "quote": "was demolished to make way for retail and office space"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2016-07",
+   "grain": "month",
+   "track": "work",
+   "text": "BKSK Architects-designed 50 million dollar renovation begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#23",
+     "role": "both",
+     "quote": "The $50 million renovation project , designed by BKSK Architects , began in July 2016"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#2",
+     "role": "both",
+     "quote": "a renovation that took place between 2016 and 2020"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#32",
+     "role": "both",
+     "quote": "Starting in 2016 , the basement , first , and second floors were being renovated"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2019-07",
+   "grain": "month",
+   "track": "work",
+   "text": "Glass dome is structurally completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#24",
+     "role": "both",
+     "quote": "The dome was structurally completed in July 2019"
+    }
+   ]
+  },
+  {
+   "date": "2020",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Prospective tenant Slack Technologies withdrew from the project",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#24",
+     "role": "both",
+     "quote": "Prospective tenant Slack Technologies , which was slated to take all the space in 2019 , ultimately withdrew from the project in early 2020"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e30"
+  },
+  {
+   "id": "e31",
+   "date": "2020-07",
+   "grain": "month",
+   "track": "work",
+   "flag": "approximate_date",
+   "text": "Renovation of the building is substantially completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/44_Union_Square#24",
+     "role": "both",
+     "quote": "work was substantially completed by July 2020"
+    },
+    {
+     "chunk_id": "/wiki/44_Union_Square#2",
+     "role": "both",
+     "quote": "a renovation that took place between 2016 and 2020"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Tammany Society relocated to 44 Union Square from a previous headquarters (no date given)",
+  "1980s: building used by the Union Square Theatre",
+  "early 1940s: Tammany Society could no longer afford to maintain its wigwam"
+ ]
+}

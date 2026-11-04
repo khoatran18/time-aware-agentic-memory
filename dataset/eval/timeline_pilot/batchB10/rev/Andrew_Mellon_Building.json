@@ -1,0 +1,174 @@
+{
+ "page_id": "Andrew_Mellon_Building",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1915",
+   "grain": "year",
+   "track": "work",
+   "text": "Building constructed by Stanley McCormick, heir to International Harvester fortune; construction begun.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#1",
+     "role": "both",
+     "quote": "was built by Stanley McCormick , heir to the International Harvester fortune , in 1915 and completed in 1917 ."
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1917",
+   "grain": "year",
+   "track": "work",
+   "text": "Apartment building completed; architect Jules Henri de Sibour.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#1",
+     "role": "both",
+     "quote": "was built by Stanley McCormick , heir to the International Harvester fortune , in 1915 and completed in 1917 ."
+    }
+   ]
+  },
+  {
+   "date": "1922",
+   "grain": "year",
+   "track": "other",
+   "label": "residence",
+   "text": "Andrew W. Mellon occupies the top floor of the building as his residence",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#4",
+     "role": "both",
+     "quote": "occupying the top floor from 1922 until his death in 1937"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "date": "1937",
+   "grain": "year",
+   "track": "other",
+   "label": "residence",
+   "text": "Andrew W. Mellon's occupancy of the top floor ends with his death",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#4",
+     "role": "both",
+     "quote": "occupying the top floor from 1922 until his death in 1937"
+    }
+   ],
+   "id": "e4"
+  },
+  {
+   "id": "e5",
+   "date": "1950-03-31",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Deed conveys property from Katherine Dexter McCormick to American Council on Education.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#6",
+     "role": "both",
+     "quote": "conveyed by deed from Katherine Dexter McCormick to the American Council on Education on March 31 , 1950 ."
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1970-01-02",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Property conveyed to The Brookings Institution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#6",
+     "role": "both",
+     "quote": "Later the property was conveyed to The Brookings Institution on January 2 , 1970 ."
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "landmark designation",
+   "text": "Building declared a National Historic Landmark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#6",
+     "role": "both",
+     "quote": "The Andrew Mellon Building was declared a National Historic Landmark in 1976 ."
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1976-10-28",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Building sold to National Trust for Historic Preservation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#6",
+     "role": "both",
+     "quote": "Finally , the building was sold to the National Trust for Historic Preservation on October 28 , 1976 ."
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2009",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "National Trust puts the building up for sale.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#7",
+     "role": "both",
+     "quote": "The National Trust put the building up for sale in mid-2009 ."
+    }
+   ]
+  },
+  {
+   "date": "2010",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": null,
+   "text": "National Trust board pulls the building off the market after Moe stepped down",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#7",
+     "role": "description",
+     "quote": "the organizations board of directors decided to pull the building off the market so that Meeks"
+    },
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#7",
+     "role": "date",
+     "quote": "stepped down in early 2010"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e10"
+  },
+  {
+   "id": "e11",
+   "date": "2013-06",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "National Trust sells building to American Enterprise Institute for $36.5 million.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Andrew_Mellon_Building#9",
+     "role": "both",
+     "quote": "In late June 2013 , the National Trust sold the Mellon Building to the American Enterprise Institute for $36.5 million ."
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "After 1941: building used for offices, later partitioned",
+  "After early 2010: board of directors pulled the building off the market"
+ ]
+}

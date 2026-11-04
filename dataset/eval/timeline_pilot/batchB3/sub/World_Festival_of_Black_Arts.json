@@ -1,0 +1,53 @@
+{
+  "page_id": "World_Festival_of_Black_Arts",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1966-04-01",
+      "grain": "day",
+      "track": "work",
+      "text": "First World Festival of Black Arts held in Dakar, 1–24 April 1966.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/World_Festival_of_Black_Arts#2",
+          "role": "both",
+          "quote": "was held in Dakar , Senegal , 1–24 April 1966"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1977-01-15",
+      "grain": "day",
+      "track": "work",
+      "text": "Second World Festival of Black Arts (FESTAC 77) held in Lagos, 15 January to 12 February.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/World_Festival_of_Black_Arts#4",
+          "role": "both",
+          "quote": "In 1977 , from 15 January to 12 February ,"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2010-12-10",
+      "grain": "day",
+      "track": "work",
+      "text": "2010 Dakar edition held 10–31 December 2010, curated by Kwame Kwei-Armah.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/World_Festival_of_Black_Arts#6",
+          "role": "both",
+          "quote": "took place 10–31 December 2010"
+        },
+        {
+          "chunk_id": "/wiki/World_Festival_of_Black_Arts#7",
+          "role": "description",
+          "quote": "It was curated by Kwame Kwei-Armah"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": []
+}

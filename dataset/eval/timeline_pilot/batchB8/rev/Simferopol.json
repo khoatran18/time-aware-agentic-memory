@@ -1,0 +1,455 @@
+{
+ "page_id": "Simferopol",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1784",
+   "grain": "year",
+   "track": "naming",
+   "text": "City renamed Simferopol after Russian annexation of the Crimean Khanate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#6",
+     "role": "both",
+     "quote": "The city was renamed Simferopol in 1784 after the annexation of the Crimean Khanate to the Russian Empire by Catherine II of Russia"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1802",
+   "grain": "year",
+   "track": "role",
+   "text": "Became administrative centre of the Taurida Governorate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#6",
+     "role": "both",
+     "quote": "In 1802 , Simferopol became the administrative centre of the Taurida Governorate"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1854",
+   "grain": "year",
+   "track": "other",
+   "label": "war",
+   "text": "Russian Imperial Army reserves and a hospital stationed in city during Crimean War (1854–1856).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#6",
+     "role": "both",
+     "quote": "During the Crimean War of 1854–1856 , the Russian Imperial Army reserves and a hospital"
+    },
+    {
+     "chunk_id": "/wiki/Simferopol#7",
+     "role": "description",
+     "quote": "were stationed in the city"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1920-11-13",
+   "grain": "day",
+   "track": "other",
+   "label": "capture",
+   "text": "Red Army captured the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#8",
+     "role": "both",
+     "quote": "On 13 November 1920 , the Red Army captured the city"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1921-10-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Became capital of the Crimean Autonomous Soviet Socialist Republic.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#8",
+     "role": "both",
+     "quote": "on 18 October 1921 , Simferopol became the capital of the Crimean Autonomous Soviet Socialist Republic"
+    },
+    {
+     "chunk_id": "/wiki/Simferopol#12",
+     "role": "description",
+     "quote": "Simferopol became the capital of the Crimean Autonomous Soviet Socialist Republic"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1941-10-31",
+   "grain": "day",
+   "track": "other",
+   "label": "prisoner shootings",
+   "text": "Retreating NKVD police shot a number of prisoners in the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#9",
+     "role": "both",
+     "quote": "Retreating NKVD police shot a number of prisoners on 31 October 1941 in the NKVD building and the citys prison"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1941-11-01",
+   "grain": "day",
+   "track": "other",
+   "label": "occupation began",
+   "text": "Nazi Germany began occupation of the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#9",
+     "role": "both",
+     "quote": "Simferopol was occupied by Nazi Germany from 1 November 1941 to 13 April 1944"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1941-12-09",
+   "grain": "day",
+   "track": "other",
+   "label": "massacre",
+   "text": "Einsatzgruppen D killed an estimated 14,300 residents, most of them Jews.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#9",
+     "role": "both",
+     "quote": "starting 9 December 1941 , the Einsatzgruppen D under Otto Ohlendorfs command killed an estimated 14,300 Simferopol residents"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1944-04-13",
+   "grain": "day",
+   "track": "other",
+   "label": "occupation ended",
+   "text": "Nazi German occupation of the city ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#9",
+     "role": "both",
+     "quote": "Simferopol was occupied by Nazi Germany from 1 November 1941 to 13 April 1944"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1944-05-18",
+   "grain": "day",
+   "track": "other",
+   "label": "deportation",
+   "text": "Crimean Tatar population of the city deported to Central Asia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#10",
+     "role": "both",
+     "quote": "On 18 May 1944 the Crimean Tatar population of the city , along with the whole Crimean Tatar nation of Crimea"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1954-04-26",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Transferred with Crimean Oblast from RSFSR to Ukrainian SSR.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#11",
+     "role": "both",
+     "quote": "On 26 April 1954 Simferopol , together with the rest of the Crimean Oblast , was transferred"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Salem, Oregon, United States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Salem , Oregon , United States ( 1986 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Became capital of the Autonomous Republic of Crimea within independent Ukraine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#13",
+     "role": "both",
+     "quote": "After the collapse of the Soviet Union in 1991 , Simferopol became the capital of the Autonomous Republic of Crimea"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Heidelberg, Germany.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Heidelberg , Germany ( 1991 )"
+    }
+   ]
+  },
+  {
+   "date": "1991-02-12",
+   "grain": "day",
+   "track": "role",
+   "label": null,
+   "text": "Became capital of the Crimean Autonomous Soviet Socialist Republic after Crimean Oblast was upgraded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#12",
+     "role": "description",
+     "quote": "Simferopol became the capital of the Crimean Autonomous Soviet Socialist Republic ."
+    },
+    {
+     "chunk_id": "/wiki/Simferopol#11",
+     "role": "date",
+     "quote": "the Crimean Oblast was upgraded an Autonomous Soviet Socialist Republic on 12 February 1991"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e15"
+  },
+  {
+   "id": "e16",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Kecskemét, Hungary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Kecskemét , Hungary ( 2006 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Tepebaşı, Turkey.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Tepebaşı , Turkey ( 2007 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Irkutsk, Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Irkutsk , Russia ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Moscow, Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Moscow , Russia ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Novocherkassk, Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Novocherkassk , Russia ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Omsk, Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Omsk , Russia ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Ruse, Bulgaria.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Ruse , Bulgaria ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2010-11-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Viktor Ageev became city mayor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#20",
+     "role": "both",
+     "quote": "Viktor Ageev became city mayor on 11 November 2010"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Igor Lukashyov installed as head of city administration after Russian annexation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#21",
+     "role": "both",
+     "quote": "Igor Lukashyov was installed as the head of Simferopol City administration ( i.e . local executive ) after Russia annexed the region in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2014-03-21",
+   "grain": "day",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Simferopol officially became capital of a new federal subject of Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#15",
+     "role": "both",
+     "quote": "On 21 March , Simferopol officially became the capital of a new federal subject of the Russian Federation"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2014-09-14",
+   "grain": "day",
+   "track": "other",
+   "label": "municipal elections",
+   "text": "Municipal elections held in the city under Russian federal system.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#16",
+     "role": "both",
+     "quote": "On 14 September 2014 , municipal elections were held"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2014-09-29",
+   "grain": "day",
+   "track": "role",
+   "text": "Viktor Ageev elected chairman of Simferopol City Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#20",
+     "role": "both",
+     "quote": "and was then elected chairman of the Simferopol City Council on 29 September 2014"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "twinning",
+   "text": "Twinned with Nizhny Novgorod, Russia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#37",
+     "role": "both",
+     "quote": "Nizhny Novgorod , Russia ( 2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2018-11-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Igor Lukashyov dismissed as head of city administration.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Simferopol#21",
+     "role": "both",
+     "quote": "He served in this position until his dismissal on 9 November 2018"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Headquarters of General Pyotr Wrangel located in the city at the end of the Russian Civil War",
+  "More than 30,000 Russian soldiers buried in the vicinity after the Crimean War",
+  "Over 22,000 locals killed in one of the largest wartime massacres (no date)",
+  "Crimean Tatars returned from exile in the 1990s; new Tatar suburbs constructed",
+  "Twinned with Bursa, Turkey (no date)"
+ ]
+}

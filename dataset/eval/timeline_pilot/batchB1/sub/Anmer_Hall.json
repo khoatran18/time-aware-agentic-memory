@@ -1,0 +1,141 @@
+{
+  "page_id": "/wiki/Anmer_Hall",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1802",
+      "grain": "year",
+      "track": "work",
+      "text": "Georgian house built on the estate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#1", "role": "both", "quote": "The Georgian house was built in 1802 ."}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1815",
+      "grain": "year",
+      "track": "work",
+      "text": "South front refaced with red bricks.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#1", "role": "both", "quote": "was refaced with red bricks c . 1815 ."}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "1896",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Estate bought at auction by Ernest Terah Hooley for £25,000.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#6", "role": "both", "quote": "In 1896 , the Anmer Hall estate was purchased at auction for £25,000 by the famed serial fraudster Ernest Terah Hooley"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1898",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Prince Edward bought the property at cost from Hooley.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#6", "role": "both", "quote": "Hooley agreed , allowing him to buy it at cost in 1898 ."}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1900",
+      "grain": "year",
+      "track": "work",
+      "text": "Renovations added brick skin, entrance porch and tower to north front.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#1", "role": "both", "quote": "Renovations c . 1900 added a brick dressed"},
+        {"chunk_id": "/wiki/Anmer_Hall#2", "role": "description", "quote": "skin to the north front , together with a projecting entrance porch and a tower towards the eastern end"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e6",
+      "date": "1972",
+      "grain": "year",
+      "track": "location",
+      "text": "Lease to the Duke and Duchess of Kent began.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#9", "role": "both", "quote": "From 1972 to 1990 , Anmer Hall was leased to the Duke and Duchess of Kent as their country house ."}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1984",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage listing",
+      "text": "Registered as a Grade II* listed building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#2", "role": "both", "quote": "The house was registered as a Grade II* listed building in 1984 but was later de-listed ."}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1990",
+      "grain": "year",
+      "track": "location",
+      "text": "Lease to the Duke and Duchess of Kent ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#9", "role": "both", "quote": "From 1972 to 1990 , Anmer Hall was leased to the Duke and Duchess of Kent as their country house ."}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2003",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage designation",
+      "text": "Surrounding estate became a scheduled ancient monument.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#4", "role": "both", "quote": "The surrounding estate became a scheduled ancient monument in 2003 ,"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2015",
+      "grain": "year",
+      "track": "location",
+      "text": "Duke and Duchess of Cambridge moved in as their main residence.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#11", "role": "both", "quote": "The Duke and Duchess of Cambridge and their children moved into Anmer Hall in 2015 ,"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2017",
+      "grain": "year",
+      "track": "work",
+      "text": "Chicken coop reported installed on the grounds.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#3", "role": "both", "quote": "In 2017 , it was reported that residents Prince William , Duke of Cambridge"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017",
+      "grain": "year",
+      "track": "location",
+      "text": "Cambridges ended main residence use; kept as private country home.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anmer_Hall#11", "role": "both", "quote": "used it as their main residence until 2017 ."}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Anmer Hall added to the Sandringham estate in subsequent years (no date)",
+    "Delisted from Grade II* listed building, later (no date)",
+    "Leased to John Loader Maffey, 1st Baron Rugby (no date)",
+    "Rented to Hugh van Cutsem for the next decade (no date)",
+    "Leased to the James Everett family (no date)",
+    "Everett family lease terminated early (no date)",
+    "Given as wedding gift by Elizabeth II to the Cambridges (no date)",
+    "GBP 1.5 million refurbishment programme (no date)",
+    "Family isolated at the house during COVID-19 lockdown (no date)"
+  ]
+}

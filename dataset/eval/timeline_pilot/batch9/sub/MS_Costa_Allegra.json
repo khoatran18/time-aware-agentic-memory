@@ -1,0 +1,219 @@
+{
+  "page_id": "MS_Costa_Allegra",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1969",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began cargo service with Rederi AB Nordstjernan.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#4", "role": "both", "quote": "From 1969 until 1986 , Annie Johnson was used as in cargo services"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1969-04-29",
+      "grain": "day",
+      "track": "work",
+      "text": "Launched as container ship Annie Johnson at Wärtsilä Turku.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#3", "role": "both", "quote": "She was launched on 29 April 1969"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#0", "role": "both", "quote": "She was built in 1969 by the Wärtsilä Turku Shipyard in Turku , Finland"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1969-12-04",
+      "grain": "day",
+      "track": "work",
+      "text": "Delivered to owners and entered service.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#3", "role": "both", "quote": "She was launched on 29 April 1969 and delivered to her owners on 4 December of the same year"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1986",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended cargo service with Rederi AB Nordstjernan.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#4", "role": "both", "quote": "From 1969 until 1986 , Annie Johnson was used as in cargo services"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1986-08-08",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Sold to Regency Cruises for conversion into a cruise ship.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#4", "role": "both", "quote": "On 8 August 1986 the ship was sold to the Greece-based Regency Cruises"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#0", "role": "both", "quote": "In 1986 she was sold to Regency Cruises"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1986-08-08",
+      "grain": "day",
+      "track": "naming",
+      "text": "Renamed Regent Moon for planned cruise conversion.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#4", "role": "both", "quote": "With this aim in mind , she was renamed Regent Moon"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1988-05",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Sold to Compania Naviera Panalexandra, still laid up.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#5", "role": "both", "quote": "In May 1988 Regent Moon was sold to Compania Naviera Panalexandra and renamed Alexandra"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#0", "role": "both", "quote": "In 1988 she was sold to Compania Naviera Panalexandra and renamed"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1988-05",
+      "grain": "month",
+      "track": "naming",
+      "text": "Renamed Alexandra by Panalexandra.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#5", "role": "both", "quote": "In May 1988 Regent Moon was sold to Compania Naviera Panalexandra and renamed Alexandra"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#0", "role": "both", "quote": "In 1988 she was sold to Compania Naviera Panalexandra and renamed"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1990-08-28",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Acquired by Costa Crociere for conversion into a cruise ship.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#6", "role": "both", "quote": "Costa Crociere acquired Alexandra on 28 August 1990"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#1", "role": "both", "quote": "In 1990 , the ship was acquired by Costa Cruises"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1990-09-04",
+      "grain": "day",
+      "track": "work",
+      "text": "Rebuilding into a cruise ship at T. Mariotti shipyard began.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#6", "role": "both", "quote": "Work on Alexandra commenced on 4 September 1990"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1992-11-16",
+      "grain": "day",
+      "track": "naming",
+      "text": "Renamed Costa Allegra.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#7", "role": "both", "quote": "the ship was eventually named Costa Allegra and delivered to Costa Cruises on 16 November 1992"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1992-11-16",
+      "grain": "day",
+      "track": "work",
+      "text": "Rebuilt ship delivered to Costa Cruises.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#7", "role": "both", "quote": "the ship was eventually named Costa Allegra and delivered to Costa Cruises on 16 November 1992"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1992-11-23",
+      "grain": "day",
+      "track": "work",
+      "text": "Entered service with Costa Crociere on Genoa-Caribbean cruise.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#8", "role": "both", "quote": "Costa Allegra entered service with Costa Crociere on 23 November 1992"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#1", "role": "both", "quote": "She entered service as Costa Allegra in 1992"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2006",
+      "grain": "year",
+      "track": "location",
+      "text": "Relocated for cruising out of China.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#8", "role": "both", "quote": "In 2006 the ship was relocated for cruising out of China"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2006",
+      "grain": "year",
+      "track": "work",
+      "text": "Interiors refurbished for the Asian cruise market.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#8", "role": "both", "quote": "At the same time her interiors were refurbished to better suit the Asian cruise market"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2010",
+      "grain": "year",
+      "track": "location",
+      "text": "Relocated back to Europe; Asian itineraries replaced.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#10", "role": "both", "quote": "In 2010 , the ship was relocated back to Europe"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2012-02-27",
+      "grain": "day",
+      "track": "other",
+      "label": "fire",
+      "text": "Generator room fire left ship without power, adrift off Seychelles.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#12", "role": "both", "quote": "During the morning of 27 February 2012 , a fire broke out in the generator room"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#2", "role": "both", "quote": "Costa Allegra suffered a generator fire while off the coast of Africa approximately 200 miles southwest of the Seychelles on 27 February 2012"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2012-02-28",
+      "grain": "day",
+      "track": "other",
+      "label": "towing",
+      "text": "Taken in tow toward Mahé, Seychelles.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#2", "role": "both", "quote": "was taken into tow toward the island of Mahé in the Seychelles Islands the following day"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2012-03-09",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Announced withdrawal from Costa; given to Themis Maritime for scrapping.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#13", "role": "both", "quote": "Following on 9 March 2012 , it was announced that the Costa Allegra would not return to service with Costa"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2012-03-09",
+      "grain": "day",
+      "track": "naming",
+      "text": "Renamed Santa Cruise for scrapping at Aliaga, Turkey.",
+      "evidence": [
+        {"chunk_id": "/wiki/MS_Costa_Allegra#13", "role": "both", "quote": "Following on 9 March 2012 , it was announced that the Costa Allegra would not return to service with Costa"},
+        {"chunk_id": "/wiki/MS_Costa_Allegra#2", "role": "description", "quote": "She was later renamed Santa Cruise and sold for breaking in Aliaga , Turkey"}
+      ]
+    }
+  ],
+  "undated_mentions": []
+}

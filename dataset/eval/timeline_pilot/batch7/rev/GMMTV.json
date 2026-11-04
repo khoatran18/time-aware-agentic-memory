@@ -1,0 +1,309 @@
+{
+ "page_id": "GMMTV",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1995-08-03",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "GMMTV founded as Grammy Television by GMM Grammy executives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#0",
+     "role": "both",
+     "quote": "It was founded on August 3 , 1995"
+    },
+    {
+     "chunk_id": "/wiki/GMMTV#1",
+     "role": "both",
+     "quote": "was founded on August 3 , 1995 by the GMM Grammy executives"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Saithip Montrikul na Ayudhaya leaves company as managing director.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#3",
+     "role": "both",
+     "quote": "In 2007 , Saithip Montrikul na Ayudhaya left the company"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Sataporn Panichraksapong becomes new managing director.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#3",
+     "role": "both",
+     "quote": "In 2007 , Saithip Montrikul na Ayudhaya left the company to manage GMM Media Public Co. , Ltd . As a result , Sataporn Panichraksapong"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2007",
+   "grain": "year",
+   "track": "naming",
+   "text": "Company renamed GMMTV Company Limited.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#3",
+     "role": "both",
+     "quote": "In 2007 , Saithip Montrikul na Ayudhaya left the company to manage GMM Media Public Co. , Ltd . As a result , Sataporn Panichraksapong"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2009-02-02",
+   "grain": "day",
+   "track": "work",
+   "text": "Company starts running Bang Channel, a cable and satellite channel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#4",
+     "role": "both",
+     "quote": "On February 2 , 2009 , the company started running a cable and satellite television channel"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2009-02-02",
+   "grain": "day",
+   "track": "work",
+   "text": "Company begins producing TV programs in genres beyond game and music shows.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#4",
+     "role": "both",
+     "quote": "On February 2 , 2009 , the company started running a cable and satellite television channel"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2011-06-29",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "GMMTV sets up joint venture Memiti with Rungtham Pumseenil.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#4",
+     "role": "both",
+     "quote": "On June 29 , 2011 , GMMTV had set up a joint venture with Rungtham Pumseenil"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2011-06-29",
+   "grain": "day",
+   "track": "ownership_structure",
+   "flag": "derived_date",
+   "text": "Memiti becomes a subsidiary of GMMTV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#4",
+     "role": "date",
+     "quote": "On June 29 , 2011 , GMMTV had set up a joint venture"
+    },
+    {
+     "chunk_id": "/wiki/GMMTV#5",
+     "role": "description",
+     "quote": "Consequently , Memiti became a subsidiary of GMMTV"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2015-06-24",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "GMM Grammy board resolves to dispose GMMTV's 70% stake in Memiti.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#6",
+     "role": "both",
+     "quote": "on June 24 , 2015 , GMM Grammys board of directors has passed the resolution to dispose"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2015-12-05",
+   "grain": "day",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Board resolves to close cable channel and focus on production.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#6",
+     "role": "both",
+     "quote": "On December 5 the same year , GMMTVs board of directors resolved to close its cable"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2015-12-31",
+   "grain": "day",
+   "track": "work",
+   "text": "Bang Channel stops broadcasting.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#7",
+     "role": "both",
+     "quote": "Bang Channel stopped broadcasting from December 31 , 2015 onwards"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2017-08-24",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "GMM Grammy resolves to transfer all GMMTV shares to GMMCH.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#8",
+     "role": "both",
+     "quote": "On August 24 , 2017 , after Adelfos Co. , Ltd , a subsidary of TCC Group"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2019-04-16",
+   "grain": "day",
+   "track": "work",
+   "text": "Online show Arm Share begins airing on YouTube and LINE TV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#13",
+     "role": "both",
+     "quote": "Arm Share – Monday or Wednesday ( since April 16 , 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2020-09-23",
+   "grain": "day",
+   "track": "work",
+   "text": "Company issues official statement cancelling series due to COVID-19.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#16",
+     "role": "both",
+     "quote": "On 23 September 2020 , GMMTV issued an official statement on the cancellation"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2020-11-27",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "GMM Grammy resolves to transfer GMMCH shares to ONE; GMMTV becomes its subsidiary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#9",
+     "role": "both",
+     "quote": "However , on November 27 , 2020 , the board of directors’ meeting of GMM Grammy"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2020-12-01",
+   "grain": "day",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Takonkiet Viravan becomes indirect director of the company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#9",
+     "role": "description",
+     "quote": "with Takonkiet Viravan as the indirect"
+    },
+    {
+     "chunk_id": "/wiki/GMMTV#10",
+     "role": "date",
+     "quote": "director since December 1"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2021-03-29",
+   "grain": "day",
+   "track": "work",
+   "text": "Online show Play Lift begins airing on YouTube.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#13",
+     "role": "both",
+     "quote": "Play Lift – alternate Thursdays ( since March 29 , 2021 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2021-04-09",
+   "grain": "day",
+   "track": "work",
+   "text": "Online show Nicky Kii Tuen begins airing on YouTube.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#13",
+     "role": "both",
+     "quote": "Nicky Kii Tuen – 2nd Friday ( since April 9 , 2021 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2021-04-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Online show Grahaai Lao begins airing on YouTube.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#13",
+     "role": "both",
+     "quote": "Grahaai Lao – alternate Tuesdays ( since April 20 , 2021 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2021-05-27",
+   "grain": "day",
+   "track": "work",
+   "text": "Online show Isuzu Max Challenge begins airing on YouTube.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GMMTV#13",
+     "role": "both",
+     "quote": "Isuzu Max Challenge – Thursday ( since May 27 , 2021 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Duangjai Lorlertwit and Saithip Montrikul na Ayudhaya named as managing directors (no date given)",
+  "Company began producing TV game and music shows for analogue stations (no date given)",
+  "One31 group granted GMMTV prime-time slot 8:30-9:30 pm on GMM 25 (no date given)"
+ ]
+}

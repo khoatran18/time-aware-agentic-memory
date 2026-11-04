@@ -1,0 +1,385 @@
+{
+ "page_id": "The_Late_Late_Show_American_talk_show",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1995-01",
+   "grain": "month",
+   "track": "work",
+   "text": "The Late Late Show premiered on CBS.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#0",
+     "role": "both",
+     "quote": "It first aired in January 1995"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1995-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Tom Snyder began hosting the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#4",
+     "role": "both",
+     "quote": "Tom Snyder hosted the program from its inception in January 1995 until March 1999"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "CBS reportedly asked not to renew Snyder's contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#14",
+     "role": "both",
+     "quote": "In 1998 , the network reportedly reasserted its desire"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e4",
+   "date": "1999-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Snyder informed management he wished to depart early.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#14",
+     "role": "both",
+     "quote": "as early as January 1999"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1999-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Tom Snyder's hosting of the show ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#4",
+     "role": "both",
+     "quote": "Tom Snyder hosted the program from its inception in January 1995 until March 1999"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Craig Kilborn took over as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#16",
+     "role": "both",
+     "quote": "Craig Kilborn took over in March 1999"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2004-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Kilborn announced he would not return in the fall.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#26",
+     "role": "both",
+     "quote": "With Kilborn only announcing in early August that he would not be returning"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2004-08-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Craig Kilborn left the program.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#25",
+     "role": "both",
+     "quote": "Kilborn left the program on August 27 , 2004"
+    }
+   ]
+  },
+  {
+   "date": "2004-09-20",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Series of guest-host on-air auditions began; Drew Carey first guest host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#26",
+     "role": "both",
+     "quote": "Drew Carey was the first guest host on September 20 , 2004"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "2004-12-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Craig Ferguson announced as Kilborn's permanent replacement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#27",
+     "role": "both",
+     "quote": "It was announced on December 7 , 2004 that Ferguson"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Craig Ferguson began hosting the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#29",
+     "role": "both",
+     "quote": "Craig Ferguson ( 2005–14 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2009-08-31",
+   "grain": "day",
+   "track": "other",
+   "label": "broadcast",
+   "text": "The show had its first high definition broadcast.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#40",
+     "role": "both",
+     "quote": "the shows first high definition broadcast , on August 31 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "format",
+   "text": "Robot sidekick Geoff Peterson added to monologue banter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#31",
+     "role": "both",
+     "quote": "From 2010 the monologue also included banter with Geoff Peterson"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2010-02",
+   "grain": "month",
+   "track": "other",
+   "label": "format",
+   "text": "Ferguson began responding to viewer Twitter messages on air.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#32",
+     "role": "both",
+     "quote": "since February 2010 ) Twitter messages"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2010-03",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "The show won the Peabody Award for Excellence in Television.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#40",
+     "role": "both",
+     "quote": "In March 2010 , the Late Late Show won the Peabody Award"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2012-04",
+   "grain": "month",
+   "track": "role",
+   "text": "CBS and Ferguson agreed to extend his contract through 2014.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#41",
+     "role": "both",
+     "quote": "In April 2012 , CBS announced that they had reached an agreement"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2012-04",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "CBS began co-producing the show as part of the deal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#41",
+     "role": "both",
+     "quote": "In April 2012 , CBS announced that they had reached an agreement"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2012-08-10",
+   "grain": "day",
+   "track": "location",
+   "text": "The show stopped originating from Studio 58 at CBS Television City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#42",
+     "role": "both",
+     "quote": "until August 10 , 2012 , The Late Late Show continued to originate from Studio 58"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2012-08-27",
+   "grain": "day",
+   "track": "location",
+   "text": "The show moved to the larger Studio 56.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#42",
+     "role": "both",
+     "quote": "On August 27 , 2012 , the program moved down the hall to the much larger Studio 56"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2014-04-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Craig Ferguson announced he would leave at the end of the year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#45",
+     "role": "both",
+     "quote": "On April 28 , 2014 , Craig Ferguson announced he would leave The Late Late Show at the end of the year"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2014-09-08",
+   "grain": "day",
+   "track": "role",
+   "text": "CBS announced James Corden would succeed Ferguson as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#50",
+     "role": "both",
+     "quote": "On September 8 , 2014 , CBS announced that James Corden would succeed Ferguson as host on March 23 , 2015"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014-12",
+   "grain": "month",
+   "track": "work",
+   "text": "CBS pushed the premiere of the new show back to March 23, 2015.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#50",
+     "role": "both",
+     "quote": "CBS pushed back its premiere to March 23 , 2015 in December 2014"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014-12-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Craig Ferguson's last show as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#45",
+     "role": "both",
+     "quote": "His last show was December 19 , 2014"
+    }
+   ]
+  },
+  {
+   "date": "2015-02-20",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Peter Lassally retired as executive producer with the taping of Arnett's show",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#48",
+     "role": "both",
+     "quote": "retired from television after a six decade career with the taping of Arnetts show on February 20 , 2015"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "2015-03-23",
+   "grain": "day",
+   "track": "role",
+   "text": "James Corden premiered as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#47",
+     "role": "both",
+     "quote": "James Cordens premiere on March 23 , 2015"
+    }
+   ]
+  },
+  {
+   "date": "2015-03-23",
+   "grain": "day",
+   "track": "other",
+   "label": "format",
+   "text": "House band introduced with Corden; Reggie Watts first bandleader",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#50",
+     "role": "both",
+     "quote": "Cordens hosting tenure is the first to have a house band"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e26"
+  }
+ ],
+ "undated_mentions": [
+  "In News segment briefly renamed 'The World of Whimsy' after the September 11th attacks (no year stated)",
+  "CBS became sole producer of the show after Letterman's departure (no date stated)",
+  "British chat format temporarily set aside during the COVID-19 pandemic (no date stated)"
+ ]
+}

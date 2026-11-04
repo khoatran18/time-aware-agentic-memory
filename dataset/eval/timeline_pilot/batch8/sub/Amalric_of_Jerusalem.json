@@ -1,0 +1,201 @@
+{
+  "page_id": "Amalric_of_Jerusalem",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1136",
+      "grain": "year",
+      "track": "other",
+      "label": "birth",
+      "text": "Amalric born to King Fulk and Queen Melisende.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#3", "role": "both", "quote": "Amalric was born in 1136 to King Fulk"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1151",
+      "grain": "year",
+      "track": "role",
+      "text": "Given the County of Jaffa as apanage on reaching majority.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#4", "role": "both", "quote": "Amalric , who had been given the County of Jaffa as an apanage when he reached the age of majority in 1151"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1153",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Ascalon captured by Baldwin III and added to Amalric's fief of Jaffa.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#4", "role": "both", "quote": "In 1153 Baldwin captured the Egyptian fortress of Ascalon , which was then added to Amalrics fief of Jaffa"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1157",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Agnes of Courtenay.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#5", "role": "both", "quote": "Amalric married Agnes of Courtenay in 1157"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1163-02-10",
+      "grain": "day",
+      "track": "role",
+      "text": "Ascended the throne as King of Jerusalem after Baldwin III's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#7", "role": "both", "quote": "Baldwin III died on 10 February 1163 and the kingdom passed to Amalric"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1163",
+      "grain": "year",
+      "track": "other",
+      "label": "expedition",
+      "text": "First expedition into Egypt over unpaid Fatimid tribute.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#12", "role": "both", "quote": "Amalric led his first expedition into Egypt in 1163"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1164",
+      "grain": "year",
+      "track": "other",
+      "label": "expedition",
+      "text": "Returned to Egypt and besieged Shirkuh at Bilbeis.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#13", "role": "both", "quote": "Amalric returned to Egypt in 1164 and besieged Shirkuh in Bilbeis"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1165",
+      "grain": "year",
+      "track": "other",
+      "label": "ransom",
+      "text": "Secured the ransom of captive Bohemund III of Antioch.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#14", "role": "both", "quote": "secured Bohemunds ransom in 1165"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1166",
+      "grain": "year",
+      "track": "other",
+      "label": "diplomacy",
+      "text": "Sent envoys to Byzantium seeking an alliance and a Byzantine wife.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#14", "role": "both", "quote": "The year 1166 was relatively quiet , but Amalric sent envoys to the Byzantine Empire"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1167",
+      "grain": "year",
+      "track": "other",
+      "label": "expedition",
+      "text": "Followed Shirkuh into Egypt; treaty with caliph al-Adid; Alexandria siege.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#16", "role": "both", "quote": "In 1167 , Nur ad-Din sent Shirkuh back to Egypt and Amalric once again followed him"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1167-08-29",
+      "grain": "day",
+      "track": "family",
+      "text": "Married Maria Comnena in Tyre.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#18", "role": "both", "quote": "marry Maria in Tyre on August 29 , 1167"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1168",
+      "grain": "year",
+      "track": "other",
+      "label": "alliance",
+      "text": "Negotiated an alliance with Byzantine emperor Manuel against Egypt.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#20", "role": "both", "quote": "In 1168 Amalric and Manuel negotiated an alliance against Egypt"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1168-10",
+      "grain": "month",
+      "track": "other",
+      "label": "invasion",
+      "text": "Invaded Egypt without Byzantine aid and seized Bilbeis.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#20", "role": "both", "quote": "In October , without waiting for any Byzantine assistance"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1169-10",
+      "grain": "month",
+      "track": "other",
+      "label": "invasion",
+      "text": "Launched another invasion of Egypt and besieged Damietta.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#22", "role": "both", "quote": "in October Amalric launched yet another invasion and besieged Damietta"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1171",
+      "grain": "year",
+      "track": "other",
+      "label": "visit",
+      "text": "Visited Constantinople in person seeking help against Saladin.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#24", "role": "both", "quote": "in 1171 Amalric visited Constantinople himself"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1174",
+      "grain": "year",
+      "track": "other",
+      "label": "siege",
+      "text": "Immediately besieged Banias after Nur ad-Din's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#26", "role": "both", "quote": "Nur ad-Din died in 1174 , upon which Amalric immediately besieged Banias"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1174-07-11",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died of fever in Jerusalem; succeeded by son Baldwin IV.",
+      "evidence": [
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#26", "role": "description", "quote": "he died on July 11"},
+        {"chunk_id": "/wiki/Amalric_of_Jerusalem#27", "role": "date", "quote": ", 1174 ."}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Took up the regency of Antioch and Tripoli after Bohemund III was captured (c.1164-65, no explicit date).",
+    "Besieged in the Tower of David with his mother Melisende during the civil war with Baldwin III.",
+    "Alexandria handed over to Amalric after Shirkuh's negotiated peace (1167, no explicit date).",
+    "Commissioned William of Tyre to write a history of the kingdom (around 1167).",
+    "Acre reverted to the royal domain after Theodora eloped (around 1167).",
+    "Sent Frederick de la Roche to Europe to seek help against Saladin (1169, no explicit date).",
+    "Marched to Cairo and retreated after Shawar offered two million gold (1168, no explicit date).",
+    "Signed a truce with Saladin ending the Damietta siege and returned home (no explicit date).",
+    "Bequeathed Nablus to Maria Comnena and Isabella on his deathbed (1174)."
+  ]
+}
