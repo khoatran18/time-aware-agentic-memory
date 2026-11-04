@@ -1,0 +1,138 @@
+{
+  "page_id": "HMAS_Cairns_J183",
+  "events": [
+    {
+      "id": "e1", "date": "1939-09", "grain": "month", "track": "work",
+      "text": "Australian Minesweepers programme approved; 60 vessels to be built, Cairns included",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#3", "role": "both", "quote": "approved in September 1939 , with 60 constructed during the course of the war"}
+      ]
+    },
+    {
+      "id": "e2", "date": "1941-03-31", "grain": "day", "track": "work",
+      "text": "Laid down by Walkers Limited at Maryborough, Queensland",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#4", "role": "both", "quote": "Cairns was laid down by Walkers Limited at Maryborough , Queensland on 31 March 1941"}
+      ]
+    },
+    {
+      "id": "e3", "date": "1941-10-07", "grain": "day", "track": "work",
+      "text": "Launched, sponsored by Mrs R. D. Walker",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#4", "role": "both", "quote": "She was launched on 7 October 1941 by Mrs . R . D . Walker"}
+      ]
+    },
+    {
+      "id": "e4", "date": "1942-05-11", "grain": "day", "track": "affiliation",
+      "text": "Commissioned into the Royal Australian Navy",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#4", "role": "both", "quote": "commissioned into the RAN on 11 May 1942"}
+      ]
+    },
+    {
+      "id": "e5", "date": "1942-10-16", "grain": "day", "track": "affiliation",
+      "text": "Reassigned to the British Eastern Fleet",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#5", "role": "both", "quote": "On 16 October , the corvette was reassigned to the British Eastern Fleet"}
+      ]
+    },
+    {
+      "id": "e6", "date": "1942-11-14", "grain": "day", "track": "location",
+      "text": "Arrived at Kilindini, Kenya",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#5", "role": "both", "quote": "ordered to Kilindini , Kenya , arriving on 14 November"}
+      ]
+    },
+    {
+      "id": "e7", "date": "1943-06", "grain": "month", "track": "location",
+      "text": "Reassigned to the Mediterranean, June to September 1943",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#6", "role": "both", "quote": "The corvette was reassigned to the Mediterranean from June until September 1943"}
+      ]
+    },
+    {
+      "id": "e8", "date": "1944-02-11", "grain": "day", "track": "other", "label": "combat",
+      "text": "Convoy attacked by Japanese submarine RO-110; Cairns took part in its destruction",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#6", "role": "both", "quote": "On 11 February 1944 , a convoy Cairns was assigned to was attacked by Japanese submarine RO-110"}
+      ]
+    },
+    {
+      "id": "e9", "date": "1944-05", "grain": "month", "track": "other", "label": "refit",
+      "text": "Refit in Adelaide, May to July 1944",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#6", "role": "both", "quote": "Following a refit in Adelaide from May to July 1944"}
+      ]
+    },
+    {
+      "id": "e10", "date": "1944-07", "grain": "month", "track": "location",
+      "text": "Redeployed to Colombo as base of operations after refit",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#6", "role": "date", "quote": "Following a refit in Adelaide from May to July 1944"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#7", "role": "description", "quote": "Cairns was redeployed to Colombo"}
+      ]
+    },
+    {
+      "id": "e11", "date": "1945-01", "grain": "month", "track": "affiliation",
+      "text": "Left the Eastern Fleet and was sent back to Australia",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#6", "role": "both", "quote": "Cairns remained with the Eastern Fleet until January 1945"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#7", "role": "both", "quote": "which was her base of operations until January 1945 , when the corvette was sent back to Australia"}
+      ]
+    },
+    {
+      "id": "e12", "date": "1945", "grain": "year", "track": "affiliation",
+      "text": "On arrival in Australian waters, assigned to the British Pacific Fleet",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#7", "role": "date", "quote": "until January 1945 , when the corvette was sent back to Australia"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#8", "role": "description", "quote": "On arrival in Australian waters , Cairns was assigned to the British Pacific Fleet"}
+      ]
+    },
+    {
+      "id": "e13", "date": "1946-01-17", "grain": "day", "track": "affiliation",
+      "text": "Paid off from the RAN in Brisbane",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#9", "role": "both", "quote": "Cairns was paid off in Brisbane on 17 January 1946"}
+      ]
+    },
+    {
+      "id": "e14", "date": "1946-01-17", "grain": "day", "track": "affiliation",
+      "text": "Immediately recommissioned into the Royal Netherlands Navy (RNLN)",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#9", "role": "date", "quote": "Cairns was paid off in Brisbane on 17 January 1946"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#9", "role": "description", "quote": "She was immediately recommissioned into the Royal Netherlands Navy ( RNLN )"}
+      ]
+    },
+    {
+      "id": "e15", "date": "1946-01-17", "grain": "day", "track": "naming",
+      "text": "Renamed HNLMS Ambon",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#9", "role": "date", "quote": "Cairns was paid off in Brisbane on 17 January 1946"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#9", "role": "description", "quote": "renamed HNLMS Ambon"}
+      ]
+    },
+    {
+      "id": "e16", "date": "1950-04-06", "grain": "day", "track": "affiliation",
+      "text": "Transferred to the Indonesian Navy",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#10", "role": "both", "quote": "the ship was transferred to the Indonesian Navy on 6 April 1950"}
+      ]
+    },
+    {
+      "id": "e17", "date": "1950-04-06", "grain": "day", "track": "naming",
+      "text": "Renamed KRI Banteng",
+      "evidence": [
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#10", "role": "date", "quote": "the ship was transferred to the Indonesian Navy on 6 April 1950"},
+        {"chunk_id": "/wiki/HMAS_Cairns_(J183)#10", "role": "description", "quote": "renamed KRI Banteng"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Received battle honours Pacific 1942–45, Indian Ocean 1942–45, Sicily 1943 and Okinawa 1945 (award date not stated)",
+    "Involved in the Allied invasion of Sicily during the Jun–Sep 1943 Mediterranean deployment (no exact date)"
+  ]
+}
