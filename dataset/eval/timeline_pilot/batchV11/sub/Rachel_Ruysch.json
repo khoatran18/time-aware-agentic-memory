@@ -1,0 +1,23 @@
+{
+  "page_id": "Rachel_Ruysch",
+  "events": [
+    {"id": "e1", "date": "1664-06-03", "grain": "day", "track": "other", "label": "birth", "text": "Born in The Hague to scientist Frederik Ruysch and Maria Post.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#1", "role": "both", "quote": "Rachel Ruysch was born on 3 June 1664 in The Hague"}]},
+    {"id": "e2", "date": "1679", "grain": "year", "track": "education", "text": "Apprenticed to flower painter Willem van Aelst in Amsterdam at age fifteen.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#3", "role": "both", "quote": "In 1679 , at age fifteen , Ruysch was apprenticed to Willem van Aelst"}]},
+    {"id": "e3", "date": "1682", "grain": "year", "track": "work", "text": "Began producing and selling independently signed paintings.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#3", "role": "both", "quote": "By the time Ruysch was eighteen she was producing and selling independently signed works"}], "flag": "derived_date"},
+    {"id": "e4", "date": "1683", "grain": "year", "track": "education", "text": "Studies with van Aelst ended at his death.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#3", "role": "both", "quote": "Ruysch studied with van Aelst until his death in 1683"}]},
+    {"id": "e5", "date": "1693", "grain": "year", "track": "family", "text": "Married Amsterdam portrait painter Juriaen Pool.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#5", "role": "both", "quote": "In 1693 she married the Amsterdam portrait painter Juriaen Pool"}]},
+    {"id": "e6", "date": "1699", "grain": "year", "track": "location", "text": "Moved with her family to The Hague.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#7", "role": "both", "quote": "By 1699 she and her family had moved to The Hague"}], "flag": "approximate_date"},
+    {"id": "e7", "date": "1699", "grain": "year", "track": "affiliation", "text": "Offered membership in the Confrerie Pictura as its first female member.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#7", "role": "both", "quote": "By 1699 she and her family had moved to The Hague , where she was offered membership in the Confrerie Pictura"}], "flag": "approximate_date"},
+    {"id": "e8", "date": "1701", "grain": "year", "track": "affiliation", "text": "She and her husband became members of The Hague Painters Guild.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#7", "role": "both", "quote": "In 1701 she and her husband became members of The Hague Painters Guild"}]},
+    {"id": "e9", "date": "1708", "grain": "year", "track": "role", "text": "Invited to work in Düsseldorf as court painter to Johann Wilhelm, Elector Palatine.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#7", "role": "both", "quote": "In 1708 , Ruysch was invited to work for the court in Düsseldorf"}, {"chunk_id": "/wiki/Rachel_Ruysch#8", "role": "both", "quote": "She continued working for him and his wife from 1708 until the princes death in 1716"}]},
+    {"id": "e10", "date": "1716", "grain": "year", "track": "role", "text": "Court painter service to Johann Wilhelm ended at the prince's death.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#8", "role": "both", "quote": "She continued working for him and his wife from 1708 until the princes death in 1716"}]},
+    {"id": "e11", "date": "1750-10-12", "grain": "day", "track": "other", "label": "death", "text": "Died in Amsterdam at age 86.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#6", "role": "both", "quote": "Ruysch died in Amsterdam on 12 October 1750"}]},
+    {"id": "e12", "date": "2021-03", "grain": "month", "track": "other", "label": "honour", "text": "Included in the Rijksmuseum Gallery of Honor as one of the first women.", "evidence": [{"chunk_id": "/wiki/Rachel_Ruysch#17", "role": "both", "quote": "In March of 2021 Leysters work was added to the Gallery of Honor at the Rijksmuseum"}], "flag": "derived_date"}
+  ],
+  "undated_mentions": [
+    "Taught her father and sister Anna Ruysch to paint",
+    "Early career: forest floor pictures with small animals, reptiles and fungi",
+    "Later adopted flower painting as her main concern",
+    "Early signed works in the 1680s influenced by Otto Marseus van Schrieck"
+  ]
+}

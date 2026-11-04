@@ -1,0 +1,756 @@
+{
+ "page_id": "Maurizio_Sarri",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1959-01-10",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Maurizio Sarri born; later Italian football manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#0",
+     "role": "both",
+     "quote": "born 10 January 1959"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Transitioned from banking into coaching, aged 30.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#6",
+     "role": "both",
+     "quote": "In 1990 , aged 30 , he transitioned into coaching"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1990",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "First club as manager: U.S.D. Stia 1925.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#7",
+     "role": "both",
+     "quote": "whom he started coaching in 1990 in Seconda Categoria"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed manager of U.S. Faellese; club promoted to Promozione.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#7",
+     "role": "both",
+     "quote": "In the following year he was appointed manager of fellow league team U.S . Faellese"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Named manager of A.C. Valdema.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#8",
+     "role": "both",
+     "quote": "In 1998 he was named manager of fellow league team A.C . Valdema"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Fired by A.C. Valdema the following January.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#8",
+     "role": "both",
+     "quote": "but was fired the following January"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e7",
+   "date": "1999-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Took over U.S.D. Tegoleto as manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#8",
+     "role": "both",
+     "quote": "He took over U.S.D . Tegoleto in the same division in September 1999"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2000",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed for Sansovino in Eccellenza.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#9",
+     "role": "both",
+     "quote": "In 2000 , Sarri signed for Sansovino in Eccellenza"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2003",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed by Serie C2 side Sangiovannese.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#9",
+     "role": "both",
+     "quote": "Serie C2 side Sangiovannese to sign him in 2003"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2005-06-18",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Resigned from Sangiovannese.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#10",
+     "role": "both",
+     "quote": "On 18 June 2005 , Sarri resigned from Sangiovannese"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2005-07-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed manager of Serie B side Pescara.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#10",
+     "role": "both",
+     "quote": "was appointed manager of Serie B side Pescara on 9 July"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#1",
+     "role": "both",
+     "quote": "In 2005 , he had his first Serie B job at Pescara"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e12",
+   "date": "2006",
+   "grain": "year",
+   "track": "education",
+   "text": "Received coaching diploma at Coverciano; thesis on match preparation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#34",
+     "role": "both",
+     "quote": "Sarri received his coaching diploma in 2006 through the Technical Centre of Coverciano"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2006-06-30",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Left Pescara after avoiding relegation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#10",
+     "role": "both",
+     "quote": "he left the club on 30 June 2006"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2006-11-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Arezzo manager, replacing sacked Antonio Conte.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#10",
+     "role": "both",
+     "quote": "was appointed at the helm of fellow second division side Arezzo on 1 November"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e15",
+   "date": "2007-03-13",
+   "grain": "day",
+   "track": "role",
+   "text": "Relieved of Arezzo duties; Conte returned to the post.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#10",
+     "role": "both",
+     "quote": "On 13 March 2007 , he was relieved from his duties"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2007-07-18",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Joined Avellino in the second tier.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#11",
+     "role": "both",
+     "quote": "On 18 July 2007 Sarri joined Avellino in the second tier"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2007-08-23",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Resigned from Avellino after altercations with the board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#11",
+     "role": "both",
+     "quote": "but resigned on 23 August after severe altercations with the clubs board"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "2007-12-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Replaced sacked Davide Pellegrini at Hellas Verona.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#11",
+     "role": "both",
+     "quote": "On 31 December he replaced fired Davide Pellegrini at the helm of Hellas Verona"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e19",
+   "date": "2008-02-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked by Hellas Verona after one point in six matches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#11",
+     "role": "both",
+     "quote": "but was himself sacked the following 28 February"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e20",
+   "date": "2008-09-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Perugia manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#12",
+     "role": "both",
+     "quote": "On 23 September 2008 , Sarri was named Perugia manager"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2009-02-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked by Perugia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#12",
+     "role": "both",
+     "quote": "Sacked on 15 February of the following year"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "2010-03-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Returned to coaching with Grosseto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#12",
+     "role": "both",
+     "quote": "he only returned to coaching duties on 24 March 2010 with Grosseto"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2010-07-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Alessandria manager in Lega Pro Prima Divisione.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#12",
+     "role": "both",
+     "quote": "On 6 July of that year Sarri was appointed manager of Alessandria"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e24",
+   "date": "2011-06-24",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Resigned from Alessandria.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#13",
+     "role": "both",
+     "quote": "Sarri resigned from Alessandria on 24 June 2011"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2011-07-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Sorrento manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#13",
+     "role": "both",
+     "quote": "on 6 July 2011 , he was appointed at the helm of Sorrento"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2011-12-13",
+   "grain": "day",
+   "track": "role",
+   "text": "Dismissed by Sorrento while the club was sixth in the table.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#13",
+     "role": "both",
+     "quote": "he was dismissed on 13 December"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e27",
+   "date": "2012-06-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Hired by Serie B club Empoli as coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#14",
+     "role": "both",
+     "quote": "On 25 June 2012 , Tuscan Serie B club Empoli hired Sarri as their new coach"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Panchina d'Argento (2013-14 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#43",
+     "role": "both",
+     "quote": "Panchina dArgento : 2013–14"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e29",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "promotion",
+   "text": "Won promotion to Serie A with Empoli.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#1",
+     "role": "both",
+     "quote": "In 2014 , Sarri won promotion to Serie A with Empoli"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#14",
+     "role": "description",
+     "quote": "direct promotion to Serie A after six years away"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Panchina d'Oro (2015-16 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#43",
+     "role": "both",
+     "quote": "Panchina dOro : 2015–16"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e31",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Campioni d'Inverno (winter champions) title with Napoli.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#18",
+     "role": "both",
+     "quote": "had concluded the first half of the 2015–16 season Serie A in first place"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e32",
+   "date": "2015-06-11",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Left Empoli for Napoli.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#15",
+     "role": "both",
+     "quote": "On 11 June 2015 , Sarri left Empoli and signed for the club of his city of birth , Napoli"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2015-06-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Napoli head coach, replacing Rafael Benitez.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#15",
+     "role": "both",
+     "quote": "On 11 June 2015 , Sarri left Empoli and signed for the club of his city of birth , Napoli"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Voted Serie A Coach of the Year (2016-17 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#43",
+     "role": "both",
+     "quote": "Serie A Coach of the Year : 2016–17"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#17",
+     "role": "description",
+     "quote": "was voted the leagues coach of the year"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e35",
+   "date": "2016-01-20",
+   "grain": "day",
+   "track": "other",
+   "label": "incident",
+   "text": "Heated Coppa Italia exchange with Roberto Mancini; homophobic slur accusation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#38",
+     "role": "both",
+     "quote": "in the final minutes of a Coppa Italia match on 20 January 2016"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2016-05-27",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Extended Napoli contract until 2020.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#16",
+     "role": "both",
+     "quote": "Sarri extended his stay at the club until 2020 on 27 May 2016"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Regained Campioni d'Inverno title with Napoli (2017-18 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#18",
+     "role": "date",
+     "quote": "Napoli would begin the 2017–18 season in hot form"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#19",
+     "role": "description",
+     "quote": "The club also regained the title of Campioni dInverno from the previous campaign"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e38",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Enzo Bearzot Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#43",
+     "role": "both",
+     "quote": "Enzo Bearzot Award : 2017"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#17",
+     "role": "description",
+     "quote": "received the Enzo Bearzot Award"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2018-03",
+   "grain": "month",
+   "track": "other",
+   "label": "incident",
+   "text": "Accused of sexist comments to female reporter; later apologised.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#40",
+     "role": "both",
+     "quote": "In March 2018 , Sarri came under further criticism in the media when he was accused of making sexist comments"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2018-05-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Replaced as Napoli head coach by Carlo Ancelotti.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#19",
+     "role": "both",
+     "quote": "On 23 May 2018 , Sarri was replaced as head coach by Carlo Ancelotti"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2018-07-14",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Chelsea head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#20",
+     "role": "both",
+     "quote": "On 14 July 2018 , Sarri was appointed head coach of Chelsea"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "incident",
+   "text": "Demanded keeper Kepa's substitution in EFL Cup final; restrained by Rudiger.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#21",
+     "role": "both",
+     "quote": "During the 2019 EFL Cup Final against cup holders Manchester City"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2019",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Chelsea announced Sarri's departure to become Juventus manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#23",
+     "role": "both",
+     "quote": "At the end of the 2018–19 season , Chelsea announced that Sarri was departing to become manager of Juventus"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e44",
+   "date": "2019-05-29",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Won first major trophy as manager: Europa League with Chelsea.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#22",
+     "role": "both",
+     "quote": "Chelsea beat Arsenal 4–1 in the 2019 UEFA Europa League Final"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2019-06-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Juventus announced Sarri's signing on a three-year contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#24",
+     "role": "both",
+     "quote": "On 16 June 2019 , Juventus announced the signing of Sarri on a three-year contract"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2019-08",
+   "grain": "month",
+   "track": "other",
+   "label": "illness",
+   "text": "Treated for pneumonia; missed first two 2019-20 matches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#24",
+     "role": "both",
+     "quote": "In August 2019 , he was treated for pneumonia"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2020-07-26",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Serie A title with Juventus, ninth straight; oldest manager to win it.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#25",
+     "role": "both",
+     "quote": "On 26 July , Juventus secured a ninth straight Serie A title"
+    },
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#2",
+     "role": "description",
+     "quote": "went on to win the Serie A title in his first season"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e48",
+   "date": "2020-08-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked by Juventus after Champions League round-of-16 exit.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maurizio_Sarri#26",
+     "role": "both",
+     "quote": "On 8 August 2020 , one day after Juventus were eliminated from the 2019–20 UEFA Champions League"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Amateur footballer for Figline; failed trials with Torino and Fiorentina",
+  "Worked as a banker for Banca Monte dei Paschi di Siena, including in London, Zurich and Luxembourg",
+  "Completed Liceo classico in Figline Valdarno",
+  "Managed U.S.D. Cavriglia and U.S. Antella, taking both sides to Eccellenza",
+  "Joined minor side Tegoleto, then quit banking to coach full-time",
+  "Sansovino: promoted to Serie D in first season (2000-01); reached play-offs in last season",
+  "Sangiovannese: took the club to Serie C1 in first campaign (2003-04)",
+  "Pescara: avoided relegation (2005-06 season)",
+  "Alessandria: reached promotion play-offs and lost to Salernitana (2010-11 season)",
+  "Empoli: fourth place and playoff final (2012-13 season), lost to Livorno",
+  "Empoli: avoided relegation in 2014-15 Serie A",
+  "Napoli: runners-up to Juventus in 2015-16 Serie A",
+  "Napoli: second place in 2017-18 Serie A",
+  "Napoli: vetoed a like-for-like replacement of Gonzalo Higuain (summer 2016)",
+  "Mancini incident sanction: fined EUR 20,000 and banned for two Coppa Italia matches (2016)",
+  "Juventus: Coppa Italia runner-up (2019-20) and Supercoppa Italiana runner-up (2019)"
+ ]
+}
