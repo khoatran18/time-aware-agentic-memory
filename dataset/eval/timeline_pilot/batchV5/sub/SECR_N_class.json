@@ -1,0 +1,79 @@
+{"page_id": "/wiki/SECR_N_class",
+ "events": [
+  {"id": "e1", "date": "1914", "grain": "year", "track": "work", "text": "N class 2-6-0 locomotive designed by Richard Maunsell for mixed traffic.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#0", "role": "both", "quote": "designed in 1914 by Richard Maunsell"},
+    {"chunk_id": "/wiki/SECR_N_class#8", "role": "both", "quote": "The N class was designed by Maunsell in 1914"}]},
+  {"id": "e2", "date": "1917-07", "grain": "month", "track": "work", "text": "First N class locomotive No. 810 emerged from Ashford for proving trials; construction 1917-1934.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#0", "role": "both", "quote": "Built between 1917 and 1934"},
+    {"chunk_id": "/wiki/SECR_N_class#1", "role": "both", "quote": "the first N class rolled out of Ashford Works in 1917"},
+    {"chunk_id": "/wiki/SECR_N_class#14", "role": "both", "quote": "emerged from Ashford Works for proving trials in July 1917"}]},
+  {"id": "e3", "date": "1917-08", "grain": "month", "track": "work", "text": "No. 810 entered service; the N class introduced on the SECR.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#14", "role": "both", "quote": "Entering service in August 1917"},
+    {"chunk_id": "/wiki/SECR_N_class#34", "role": "both", "quote": "When introduced in 1917"}]},
+  {"id": "e4", "date": "1919", "grain": "year", "track": "work", "text": "Another 15 locomotives (Nos. 811-825) ordered by the SECR.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#14", "role": "both", "quote": "were ordered in 1919"}]},
+  {"id": "e5", "date": "1920", "grain": "year", "track": "work", "text": "Batch of Nos. 811-825 built, construction running to 1923.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#14", "role": "both", "quote": "These were built between 1920 and 1923"}]},
+  {"id": "e6", "date": "1920-06", "grain": "month", "track": "work", "text": "First locomotive of the 1920 batch left Ashford Works.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#15", "role": "both", "quote": "The first left Ashford Works in June 1920"}]},
+  {"id": "e7", "date": "1923", "grain": "year", "track": "ownership_structure", "text": "SECR absorbed into Southern Railway at Grouping; N class passed to Southern Railway.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#30", "role": "both", "quote": "After The Grouping in 1923"},
+    {"chunk_id": "/wiki/SECR_N_class#20", "role": "both", "quote": "which had absorbed the SECR in the 1923 Grouping"}]},
+  {"id": "e8", "date": "1923", "grain": "year", "track": "other", "label": "livery", "text": "Standard sage green livery applied to class after Grouping.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#52", "role": "both", "quote": "After Grouping in 1923"}]},
+  {"id": "e9", "date": "1924", "grain": "year", "track": "work", "text": "Woolwich prefabricated components formed 100 complete N class kits.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#19", "role": "both", "quote": "By 1924 , the prefabricated components stored at Woolwich formed 100 complete N class kits"}]},
+  {"id": "e10", "date": "1924", "grain": "year", "track": "other", "label": "trials", "flag": "approximate_date", "text": "Southern Railway trialled N class against N1, S15 and K classes for freight.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#20", "role": "both", "quote": "undertook trials in early 1924"}]},
+  {"id": "e11", "date": "1924-06", "grain": "month", "track": "work", "text": "Southern Railway bought 50 Woolwich kits for Ashford assembly, June 1924 to August 1925.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#21", "role": "both", "quote": "bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925"}]},
+  {"id": "e12", "date": "1925", "grain": "year", "track": "other", "label": "livery", "text": "Class repainted in darker olive green livery introduced by Maunsell.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#53", "role": "both", "quote": "From 1925 , the class was repainted in a darker olive green livery"}]},
+  {"id": "e13", "date": "1927-04", "grain": "month", "track": "other", "label": "modification", "flag": "approximate_date", "text": "All stovepipe chimneys replaced with standard N class chimney.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#35", "role": "both", "quote": "all stovepipes had been replaced with the standard N class type by April 1927"}]},
+  {"id": "e14", "date": "1928", "grain": "year", "track": "naming", "text": "Southern Railway renumbered all its locomotives into one sequence; N class became Nos. 1810-1875.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#55", "role": "both", "quote": "From 1928 , a new system was adopted where all Southern Railway locomotives were renumbered into one sequence"}]},
+  {"id": "e15", "date": "1932", "grain": "year", "track": "work", "text": "Southern Railway ordered final batch of 15 locomotives (Nos. 1400-1414), built to 1934.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#25", "role": "both", "quote": "In 1932 , the Southern Railway ordered a final batch of 15 locomotives"},
+    {"chunk_id": "/wiki/SECR_N_class#56", "role": "both", "quote": "The final batch of 15 locomotives , built between 1932 and 1934"}]},
+  {"id": "e16", "date": "1934", "grain": "year", "track": "other", "label": "modification", "text": "Class-wide modifications began: new domes, front footsteps and smoke deflectors.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#37", "role": "both", "quote": "no class-wide modifications were made until 1934"}]},
+  {"id": "e17", "date": "1945", "grain": "year", "track": "other", "label": "livery", "flag": "approximate_date", "text": "All N class locomotives painted in plain black during wartime shortages.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#54", "role": "both", "quote": "locomotives were painted in plain black by 1945"}]},
+  {"id": "e18", "date": "1948", "grain": "year", "track": "ownership_structure", "text": "Entire class absorbed into British Railways ownership.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#33", "role": "both", "quote": "The entire class came into British Railways ownership in 1948"},
+    {"chunk_id": "/wiki/SECR_N_class#57", "role": "both", "quote": "The class was absorbed by British Railways in 1948"}]},
+  {"id": "e19", "date": "1949", "grain": "year", "track": "other", "label": "classification", "text": "Class given power classification 4MT by British Railways.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#57", "role": "both", "quote": "initially given the power classification 4MT in 1949"}]},
+  {"id": "e20", "date": "1949", "grain": "year", "track": "other", "label": "livery", "text": "Repainted in BR mixed-traffic livery and renumbered to BR standard series (31810-31875, 31400-31414).", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#58", "role": "both", "quote": "From 1949 to 1950 N class locomotives were repainted in the British Railways"}]},
+  {"id": "e21", "date": "1953", "grain": "year", "track": "other", "label": "classification", "text": "Class reclassified from 4MT to 4P5FB by British Railways.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#57", "role": "both", "quote": "the class was reclassified from 4MT to 4P5FB in 1953"}]},
+  {"id": "e22", "date": "1957", "grain": "year", "track": "other", "label": "modification", "text": "Some class locomotives fitted with larger BR Standard Class 4 chimneys.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#41", "role": "both", "quote": "From 1957 , some of the locomotives had larger-diameter BR Standard Class 4 chimneys fitted"}]},
+  {"id": "e23", "date": "1957", "grain": "year", "track": "other", "label": "modification", "text": "New injectors fitted to the class as part of final modifications.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#42", "role": "both", "quote": "the fitting of new injectors and Automatic Warning System ( AWS ) equipment in 1957 and 1959 respectively"}]},
+  {"id": "e24", "date": "1959", "grain": "year", "track": "other", "label": "modification", "text": "Automatic Warning System equipment fitted to the class.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#42", "role": "both", "quote": "the fitting of new injectors and Automatic Warning System ( AWS ) equipment in 1957 and 1959 respectively"}]},
+  {"id": "e25", "date": "1962-11", "grain": "month", "track": "other", "label": "withdrawal", "text": "Phased withdrawal of the class began with No. 31409.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#49", "role": "both", "quote": "began with the withdrawal of No . 31409 in November 1962"}]},
+  {"id": "e26", "date": "1964", "grain": "year", "track": "other", "label": "withdrawal", "text": "Members based at Exmouth Junction shed withdrawn.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#49", "role": "both", "quote": "Class members based at Exmouth Junction shed were withdrawn in 1964"}]},
+  {"id": "e27", "date": "1966-06", "grain": "month", "track": "other", "label": "withdrawal", "text": "Last operational N class locomotives (Nos. 31405, 31408) withdrawn.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#2", "role": "both", "quote": "until the last was withdrawn in 1966"},
+    {"chunk_id": "/wiki/SECR_N_class#50", "role": "both", "quote": "both were withdrawn in June 1966"}]},
+  {"id": "e28", "date": "1974-03", "grain": "month", "track": "other", "label": "preservation", "text": "Preserved member No. 1874 rescued from Woodham Brothers scrapyard, Barry.", "evidence": [
+    {"chunk_id": "/wiki/SECR_N_class#61", "role": "both", "quote": "rescued in March 1974 from the Woodham Brothers scrapyard in Barry"}]}
+ ],
+ "undated_mentions": [
+  "Maunsell grey livery introduced by SECR as a wartime economy measure",
+  "Ministry of Supply contract for a second batch to be built at Royal Arsenal, Woolwich",
+  "Metropolitan Railway bought six kits for conversion to K class 2-6-4T tanks",
+  "Midland Great Western Railway of Ireland bought 12 kits before amalgamation into Great Southern Railways",
+  "Great Southern Railways bought an extra 15 kits",
+  "Southern Railway bought remaining 17 complete kits at Woolwich",
+  "Eight new tenders built for left-hand drive locomotives under Bulleid",
+  "Smokebox anti-vacuum snifting valves removed at end of Second World War",
+  "Most Woolwich-batch locomotives allocated to Southern Western section after trials",
+  "Southern Region allocation gradually replaced by Bulleid Light Pacifics"
+ ]}

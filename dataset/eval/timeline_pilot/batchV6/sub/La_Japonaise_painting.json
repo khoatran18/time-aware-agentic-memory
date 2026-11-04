@@ -1,0 +1,49 @@
+{"page_id": "/wiki/La_Japonaise_(painting)",
+ "events": [
+  {"id": "e1", "date": "1876", "grain": "year", "track": "work", "text": "First exhibited at the second Impressionism exhibition in Paris.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#0", "role": "both", "quote": "first exhibited in the second Impressionism exhibition of 1876"},
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#9", "role": "both", "quote": "sent the painting to s gallery in the second Impressionism exhibition of 1876"},
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#13", "role": "both", "quote": "After being exhibited in the second Impressionism exhibition in 1876"}
+   ]},
+  {"id": "e2", "date": "1876-04-14", "grain": "day", "track": "ownership_structure", "text": "Offered at a Paris sale as lot 37; seller and buyer names missing.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#25", "role": "both", "quote": "April 14 , 1876 , Monet and sale , , Paris , lot 37"}
+   ]},
+  {"id": "e3", "date": "1877-04-19", "grain": "day", "track": "ownership_structure", "text": "Sold at an anonymous Paris sale as lot 48; buyer name missing.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#25", "role": "both", "quote": "April 19 , 1877 , anonymous ( L. ) sale , , Paris , lot 48"}
+   ]},
+  {"id": "e4", "date": "1918", "grain": "year", "track": "ownership_structure", "text": "Sold by a previous owner to Paul Rosenberg and Co., Paris and New York.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#10", "role": "both", "quote": "Forty years later , in 1918 , when the art dealers and visited Monet"},
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#25", "role": "both", "quote": "1918 , sold by to Paul Rosenberg and Co. , Paris and New York"}
+   ]},
+  {"id": "e5", "date": "1920", "grain": "year", "track": "ownership_structure", "text": "Sold by Rosenberg to collector Philip Lehman in New York.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#25", "role": "both", "quote": "1920 , sold by Rosenberg to Philip Lehman"}
+   ]},
+  {"id": "e6", "date": "1921", "grain": "year", "track": "ownership_structure", "text": "Sold by Philip Lehman to Duveen Brothers, London.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#26", "role": "both", "quote": "1921 , sold by Lehman to Duveen Brothers , Inc. , London"}
+   ]},
+  {"id": "e7", "date": "1937", "grain": "year", "track": "location", "text": "Shipped by Duveen from London to Duveen in New York.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#26", "role": "both", "quote": "1937 , shipped from Duveen , London to Duveen , New York"}
+   ]},
+  {"id": "e8", "date": "1956-03-08", "grain": "day", "track": "ownership_structure", "text": "Sold by Duveen to the Museum of Fine Arts, Boston for $45,000.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#27", "role": "both", "quote": "March 8 , 1956 , sold by Duveen to the MFA for $45,000"}
+   ]},
+  {"id": "e9", "date": "2015", "grain": "year", "track": "work", "text": "Museum held Kimono Wednesdays program inviting visitors to pose before the painting.",
+   "evidence": [
+    {"chunk_id": "/wiki/La_Japonaise_(painting)#19", "role": "both", "quote": "In 2015 , the Museum of Fine Arts , Boston held a special program called Kimono Wednesdays"}
+   ]}
+ ],
+ "undated_mentions": [
+  "Monet created the painting of his wife in a borrowed red kimono (creation date not given)",
+  "Monet claimed a secret buyer paid 2,020 francs; the claim is disputed (undated)",
+  "Monet likely withdrew the work from the 1876 exhibition before its end (undated)",
+  "Museum stopped allowing visitors to pose in the replica kimono after criticism (undated)",
+  "Japanese counter-protesters visited the exhibition wearing their own kimono (undated)"
+ ]}

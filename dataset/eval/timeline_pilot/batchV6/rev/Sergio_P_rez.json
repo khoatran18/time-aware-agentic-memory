@@ -1,0 +1,591 @@
+{
+ "page_id": "/wiki/Sergio_Pérez",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1990-01-26",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Sergio Pérez Mendoza born, nicknamed Checo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#0",
+     "role": "both",
+     "quote": "born 26 January 1990"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "karting start",
+   "text": "Began karting career at age six.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#7",
+     "role": "both",
+     "quote": "Pérez began his career at the age of 6 years in karting in 1996"
+    }
+   ]
+  },
+  {
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "karting",
+   "text": "Raced in karting Youth Class as youngest driver; one win, five podiums, fourth in championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#7",
+     "role": "both",
+     "quote": "In 1997 , he participated in the karting Youth Class , where he was the youngest driver in the category"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "karting title",
+   "text": "Became youngest champion of junior karting category.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#8",
+     "role": "both",
+     "quote": "The following year , he returned to compete in the junior category"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "youngest winner",
+   "text": "Became youngest driver to win in 80cc Shifter.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#9",
+     "role": "both",
+     "quote": "In 1999 , he raced in the 80 cc Shifter category"
+    }
+   ]
+  },
+  {
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "karting",
+   "text": "Raced in the Shifter 80 cc Championship and three Shifter 125 cc races",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#10",
+     "role": "both",
+     "quote": "In 2000 , he raced in the Shifter 80 cc Championship"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "karting",
+   "text": "National runner-up in the Shifter 125 cc category with six wins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#11",
+     "role": "both",
+     "quote": "With six wins in 2002 , Pérez finished as the national runner-up in the Shifter 125 cc category"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "race win",
+   "text": "Won the Easy Kart 125 Shootout as its youngest competitor.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#12",
+     "role": "both",
+     "quote": "In the same year , he was also invited to attend the Easy Kart 125 Shootout"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2004",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Competed in Skip Barber National Championship for a Telmex-sponsored team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#14",
+     "role": "both",
+     "quote": "Pérez competed in the United States-based Skip Barber National Championship in 2004"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2005",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to Europe to race in German Formula BMW.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#15",
+     "role": "both",
+     "quote": "Pérez moved to Europe for 2005 to compete in the German Formula BMW ADAC series"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2007",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Switched to British Formula 3 Championship with T-Sport.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#17",
+     "role": "both",
+     "quote": "Pérez switched to the British Formula 3 Championship for 2007"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "championship title",
+   "text": "Won National Class of British Formula 3 Championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#17",
+     "role": "both",
+     "quote": "Pérez switched to the British Formula 3 Championship for 2007"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2007",
+   "grain": "year",
+   "track": "location",
+   "text": "Relocated personal residence to Oxford.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#17",
+     "role": "both",
+     "quote": "Pérez relocated his personal residence to Oxford"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Graduated with T-Sport to the International Class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#18",
+     "role": "both",
+     "quote": "For 2008 , he and T-Sport graduated to the premier International Class of the championship"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2009",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Arden International for the main GP2 Series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#20",
+     "role": "both",
+     "quote": "He moved to Arden International for the main 2009 GP2 Series"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2010",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Contested 2010 GP2 main series campaign with Barwa Addax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#20",
+     "role": "both",
+     "quote": "ahead of a 2010 main series campaign with the team"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2010-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Became member of the Ferrari Driver Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#21",
+     "role": "both",
+     "quote": "He also became a member of the Ferrari Driver Academy scheme in October 2010"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2011",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Made Formula One debut driving for Sauber.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#1",
+     "role": "both",
+     "quote": "He made his Formula One debut driving for Sauber during the 2011 season"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "first F1 points",
+   "text": "Scored first Formula One points with ninth place in Spain.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#23",
+     "role": "both",
+     "quote": "before a ninth-place finish in Spain – ahead of teammate Kamui Kobayashi in tenth – to take his first Formula One points"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2012",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Ferrari Driver Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#1",
+     "role": "both",
+     "quote": "was a member of the Ferrari Driver Academy until 2012"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "First F1 podium, second place at Malaysian Grand Prix with Sauber.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#1",
+     "role": "both",
+     "quote": "He took his first Formula One podium at the 2012 Malaysian Grand Prix with Sauber"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#29",
+     "role": "description",
+     "quote": "he went on to battle with Fernando Alonso for the win"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2012-09-13",
+   "grain": "day",
+   "track": "other",
+   "label": "test",
+   "text": "Tested Ferrari F60 as Ferrari Driver Academy member.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#28",
+     "role": "both",
+     "quote": "On 13 September , Pérez tested for Ferrari as part of the Ferrari Driver Academy"
+    }
+   ]
+  },
+  {
+   "date": "2012-09-28",
+   "grain": "day",
+   "track": "affiliation",
+   "label": null,
+   "text": "Confirmed as Lewis Hamilton's replacement at McLaren for 2013",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#38",
+     "role": "date",
+     "quote": "On 28 September 2012 , Lewis Hamiltons decision to leave McLaren for Mercedes in 2013 was announced"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#38",
+     "role": "description",
+     "quote": "Pérez was subsequently confirmed as Hamiltons replacement"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "id": "e24",
+   "date": "2012-11",
+   "grain": "month",
+   "track": "work",
+   "text": "Unveiled Checo Pérez Foundation supporting orphans and children with cancer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#6",
+     "role": "both",
+     "quote": "In November 2012 , Pérez unveiled the Checo Pérez Foundation"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined McLaren for the 2013 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#1",
+     "role": "both",
+     "quote": "Pérez joined McLaren for the 2013 season"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "points",
+   "text": "Scored first points for McLaren in Australia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#38",
+     "role": "date",
+     "quote": "2013 season"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#39",
+     "role": "description",
+     "quote": "scoring his first points for McLaren"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2013-11-13",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Confirmed leaving McLaren at end of season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#42",
+     "role": "both",
+     "quote": "Pérez confirmed on 13 November 2013 that he would be leaving McLaren at the end of the season"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Force India for 2014 on a 15 million euro contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#2",
+     "role": "both",
+     "quote": "Force India signed Pérez for the 2014 season with a €15 million contract"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "points",
+   "text": "Scored first point for Force India after Ricciardo disqualification.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#43",
+     "role": "description",
+     "quote": "was moved up to 10th to get his first point for Force India"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#42",
+     "role": "date",
+     "quote": "would join Nico Hülkenberg in their driver line-up for 2014"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Scored Force India's first podium since, third place holding off Ricciardo.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#43",
+     "role": "description",
+     "quote": "Force Indias first podium since"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#42",
+     "role": "date",
+     "quote": "would join Nico Hülkenberg in their driver line-up for 2014"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2014-11-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed new two-year contract with Force India.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#46",
+     "role": "both",
+     "quote": "On 7 November 2014 , before the , Force India announced that Pérez would remain with the team"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2016",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Committed to Force India for the 2017 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#52",
+     "role": "both",
+     "quote": "After the 2016 Malaysian Grand Prix , Pérez confirmed he has committed to Force India for the 2017 season"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2019",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed three-year extension with Racing Point.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#2",
+     "role": "both",
+     "quote": "In 2019 , Racing Point signed a three-year extension with Pérez"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "race win",
+   "text": "Won first F1 race at Sakhir Grand Prix, becoming 110th race winner.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#0",
+     "role": "both",
+     "quote": "won his first Formula One Grand Prix at the 2020 Sakhir Grand Prix"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#70",
+     "role": "description",
+     "quote": "Pérez won his first race at the Sakhir Grand Prix"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2020-09",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Announced leaving Racing Point at end of 2020 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#2",
+     "role": "both",
+     "quote": "In September 2020 , Racing Point announced that Pérez would be leaving the team"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2021",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Red Bull Racing, replacing Alex Albon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#71",
+     "role": "both",
+     "quote": "Pérez races for Red Bull Racing in 2021"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2021",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Voted Driver of the Day on Red Bull debut at Bahrain Grand Prix.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#72",
+     "role": "both",
+     "quote": "At the 2021 Bahrain Grand Prix , Pérez made his debut with Red Bull Racing team"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Married to Carola Martínez (date not stated)",
+  "Lived in a restaurant owned by his team manager for four months (no exact date)",
+  "2006–07 A1 Grand Prix season: single round for A1 Team Mexico",
+  "2008–09 GP2 Asia Series with Campos Grand Prix",
+  "First GP2 Asia Series win at Sakhir (2008–09 season, no exact date)",
+  "Second GP2 Asia Series win at Losail, Qatar (2008–09 season, no exact date)",
+  "2009–10 GP2 Asia Series, two rounds for Barwa Addax",
+  "Qualifying crash with concussion and sprained thigh (no year stated)",
+  "Replaced Hamilton in McLaren's cartoon Tooned (no date)",
+  "Tested positive for COVID-19 before the British Grand Prix (no year stated)"
+ ]
+}

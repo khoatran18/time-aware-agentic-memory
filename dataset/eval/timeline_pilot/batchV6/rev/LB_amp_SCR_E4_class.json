@@ -1,0 +1,183 @@
+{
+ "page_id": "/wiki/LB&amp;SCR_E4_class",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1897",
+   "grain": "year",
+   "track": "work",
+   "text": "E4 class locomotives introduced, larger version of E3 class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#0",
+     "role": "both",
+     "quote": "They were introduced in 1897"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1897-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Brighton Works began building the class (75 locomotives).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "Seventy-five members of the class were built by Brighton Works between December 1897 and September 1903"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1903-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Brighton Works finished building the class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "Seventy-five members of the class were built by Brighton Works between December 1897 and September 1903"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1909",
+   "grain": "year",
+   "track": "naming",
+   "text": "Four locomotives rebuilt by D. E. Marsh and designated E4X.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#9",
+     "role": "both",
+     "quote": "In 1909 , four locomotives were rebuilt by D . E . Marsh with larger boilers and designated E4X"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1917-11",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Class members first worked at an ammunition dump in Audruicq, France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#2",
+     "role": "both",
+     "quote": "They first worked at an ammunition dump in Audruicq , France in November 1917"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1918-02",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Class members sent to the Arras area, France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#3",
+     "role": "both",
+     "quote": "to the Arras area in February 1918"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1919",
+   "grain": "year",
+   "track": "location",
+   "text": "All class members returned to England from France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#3",
+     "role": "both",
+     "quote": "All of them were returned to England in 1919"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1923",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Class entered Southern Railway ownership.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "All of the class survived to enter Southern Railway ownership in 1923"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1948",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Class passed to British Railways with Southern Railway nationalisation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#5",
+     "role": "both",
+     "quote": "following the nationalisation of the Southern Railway as part of British Railways in 1948"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Class withdrawals from service commenced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#5",
+     "role": "both",
+     "quote": "withdrawals commenced in 1955"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Most of the class withdrawn, from 1958.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#5",
+     "role": "both",
+     "quote": "Most of the class were withdrawn between 1958 and 1964"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Most of the class withdrawals ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#5",
+     "role": "both",
+     "quote": "Most of the class were withdrawn between 1958 and 1964"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "During World War I, members borrowed by the Railway Operating Division for work in France",
+  "After Grouping, class mainly found around the Central section of the Southern Railway",
+  "Later in British Railways days, several used as station pilots, including at London Waterloo"
+ ]
+}

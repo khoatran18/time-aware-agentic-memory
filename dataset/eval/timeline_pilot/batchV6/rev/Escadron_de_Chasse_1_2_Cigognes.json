@@ -1,0 +1,599 @@
+{
+ "page_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1912-06",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Flight B.L. 3, predecessor of the squadron, formed and based at Avord.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#2",
+     "role": "both",
+     "quote": "Following a decision taken by the French Army General Council , in June 1912 , the first flights of the French air arm were formed"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "BA 702 Avord Air Base ( formation 1912 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1916",
+   "grain": "year",
+   "track": "other",
+   "label": "emblem",
+   "text": "Stork emblem association with the unit became official.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#4",
+     "role": "both",
+     "quote": "It was not until 1916 , under the pressure of the Great War"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1933-09-01",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Designation Groupe de Chasse I/2 began, with escadrilles SPA 3 and SPA 103.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#13",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 ( G.C I/2 ) with escadrille SPA 3 and SPA 103 from 1 September 1933 until 20 August 1940"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1933-09-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Attached to the 2 Escadre de Chasse, beginning.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#13",
+     "role": "both",
+     "quote": "attached to the 2 Escadre de Chasse between 1 September 1933 and 1 May 1939"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1939-05-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Attachment to the 2 Escadre de Chasse ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#13",
+     "role": "both",
+     "quote": "attached to the 2 Escadre de Chasse between 1 September 1933 and 1 May 1939"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1940-08",
+   "grain": "month",
+   "track": "other",
+   "label": "disbandment",
+   "text": "Squadron disbanded in August after the Battle of France.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#6",
+     "role": "both",
+     "quote": "Having distinguished itself during the Battle of France in 1940 , the squadron was disbanded in August"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1940-08-20",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Designation Groupe de Chasse I/2 ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#13",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 ( G.C I/2 ) with escadrille SPA 3 and SPA 103 from 1 September 1933 until 20 August 1940"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1941",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Squadron based at Châteauroux-Déols Air Base.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "Châteauroux-Déols Air Base ( 1941–1942 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1941-07-01",
+   "grain": "day",
+   "track": "other",
+   "label": "reformation",
+   "text": "Squadron re-formed and equipped with Dewoitine D.520 fighters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#6",
+     "role": "both",
+     "quote": "it was re-formed in July 1941 and equipped with Dewoitine D.520s"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#14",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 with only one escadrille SPA 3 from 1 July 1941 until 1 January 1944"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1942",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "Sent to North Africa and joined the Free French Forces.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#6",
+     "role": "both",
+     "quote": "In 1942 , it was sent to North Africa where it took its opportunity , with other units , to join the Free French Forces"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "North Africa ( 1942–1943 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1942",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Left Châteauroux-Déols Air Base.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "Châteauroux-Déols Air Base ( 1941–1942 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1943",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Left North Africa.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "North Africa ( 1942–1943 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1944-01-01",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Designation Groupe de Chasse I/2 with one escadrille ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#14",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 with only one escadrille SPA 3 from 1 July 1941 until 1 January 1944"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1944-01-01",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "No. 329 Squadron RAF attached to the Royal Air Force.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#14",
+     "role": "both",
+     "quote": "No . 329 Squadron RAF was attached to the Royal Air Force between 1 January 1944 and 1 November 1945"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1944-06-06",
+   "grain": "day",
+   "track": "other",
+   "label": "combat",
+   "text": "Took part in the Normandy landings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#6",
+     "role": "both",
+     "quote": "On 6 June 1944 , it took part in the Normandy landings"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1944-08-19",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "Again based in France at Sommervieu, Normandy.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#6",
+     "role": "both",
+     "quote": "from 19 August , was again based in"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1944-12",
+   "grain": "month",
+   "track": "other",
+   "label": "combat",
+   "text": "Squadron faced its first jet-propelled opposition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#7",
+     "role": "both",
+     "quote": "in December 1944 , the squadron was faced with its first Jet-propelled opposition"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1945-07",
+   "grain": "month",
+   "track": "other",
+   "label": "event",
+   "text": "Fifteen squadron aircraft took part in the victory fly-past.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#7",
+     "role": "both",
+     "quote": "In July 1945 , fifteen aircraft of the squadron took part in the victory fly-past"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1945-11-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Squadron EC 1/2 Cigognes created by reorganizing No. 329 Squadron RAF.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#1",
+     "role": "both",
+     "quote": "EC 1/2 Cigogne was created on November 1945"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#8",
+     "role": "both",
+     "quote": "In November 1945 , the squadron , EC 1/2 Cigognes was re-established as a unit of the French Air Force"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#14",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 Cigognes ( G.C I/2 Cigognes ) with escadrille SPA 3 from 1 November 1945 until 1 April 1946"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1946-04-01",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Designation Groupe de Chasse I/2 Cigognes ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#14",
+     "role": "both",
+     "quote": "Groupe de Chasse I/2 Cigognes ( G.C I/2 Cigognes ) with escadrille SPA 3 from 1 November 1945 until 1 April 1946"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1946-06",
+   "grain": "month",
+   "track": "location",
+   "label": "",
+   "text": "Left for French Indochina, flying Supermarine Spitfires.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#8",
+     "role": "both",
+     "quote": "In June 1946 it left for French Indochina where it flew the Supermarine Spitfire"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1948",
+   "grain": "year",
+   "track": "other",
+   "label": "equipment",
+   "text": "Returned to metropolitan France and converted to Republic P-47 Thunderbolts.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#1",
+     "role": "both",
+     "quote": "Upon its return to mainland France , the squadron converted to the Republic P-47 Thunderbolt in 1948"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#8",
+     "role": "both",
+     "quote": "On its return to Metropolitan France in 1948 , it was reequipped with Republic P-47 Thunderbolts"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1948",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Based at Koblenz.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "Koblenz ( 1948–1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1949",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Moved to its present base at Dijon-Longvic, ending the Koblenz period.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#9",
+     "role": "both",
+     "quote": "In 1949 , EC 1/2 Cigognes moved to its present base at Dijon-Longvic , at the same time reequipping with De Havilland Vampire jets"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "BA 102 Dijon Air Base ( 1949-2012 )"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "Koblenz ( 1948–1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1949",
+   "grain": "year",
+   "track": "other",
+   "label": "equipment",
+   "text": "Reequipped with De Havilland Vampire jets.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#9",
+     "role": "both",
+     "quote": "In 1949 , EC 1/2 Cigognes moved to its present base at Dijon-Longvic , at the same time reequipping with De Havilland Vampire jets"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1950-04-01",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Designation Escadron de Chasse 1/2 Cigognes began, with escadrilles SPA 3 and SPA 103.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#15",
+     "role": "both",
+     "quote": "Escadron de Chasse 1/2 Cigognes ( E.C 1/2 Cigognes ) with Escadrilles SPA 3 , SPA 103 from 1 April 1950"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "combat",
+   "text": "Engaged during the Suez Crisis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#9",
+     "role": "both",
+     "quote": "the squadron was engaged during the Suez Crisis in 1956"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1961-07-07",
+   "grain": "day",
+   "track": "other",
+   "label": "equipment",
+   "text": "First French Air Force unit to deploy the Mirage IIIC Mach-2 fighter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#9",
+     "role": "both",
+     "quote": "the new Mirage IIIC , on 7 July 1961"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1968",
+   "grain": "year",
+   "track": "other",
+   "label": "equipment",
+   "text": "Mirage IIIC replaced by Mirage IIIE.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#9",
+     "role": "both",
+     "quote": "In 1968 these were replaced by Mirage IIIE"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "equipment",
+   "text": "Squadron moved onto the Dassault Mirage 2000C.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#10",
+     "role": "both",
+     "quote": "In 1984 , the Storks moved onto the Dassault Mirage 2000C"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1994-09-09",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Received a third escadrille, SPA 12.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#10",
+     "role": "both",
+     "quote": "On September 9 , 1994 , it received a third flight : the SPA 12"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2009-09-03",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Escadrille SPA 12 dissolved and replaced by SPA 26.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#10",
+     "role": "both",
+     "quote": "Escadrille SPA 12 was dissolved on September 3 , 2009 and replaced by SPA 26"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2011-07-29",
+   "grain": "day",
+   "track": "location",
+   "label": "",
+   "text": "Moved to Luxeuil-Saint-Sauveur Air Base, leaving Dijon-Longvic.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#11",
+     "role": "both",
+     "quote": "On Friday 29 July 2011 , the squadron moved to Luxeuil - Saint-Sauveur Air Base"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2012",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Left BA 102 Dijon and based at BA 116 Luxeuil.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "BA 102 Dijon Air Base ( 1949-2012 )"
+    },
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#18",
+     "role": "both",
+     "quote": "BA 116 Luxeuil - Saint-Sauveur Air Base ( 2012- )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2014-06-02",
+   "grain": "day",
+   "track": "other",
+   "label": "deployment",
+   "text": "Pair of Mirage 2000-5F deployed to Poland's 22nd Air Base for NATO.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#12",
+     "role": "both",
+     "quote": "which arrived at Polands 22nd Air Base on 2 June 2014"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2015-09-03",
+   "grain": "day",
+   "track": "affiliation",
+   "label": "",
+   "text": "Attached again to the 2 Escadre de Chasse.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Escadron_de_Chasse_1/2_Cigognes#16",
+     "role": "both",
+     "quote": "The Escadron/Squadron was attached again to the 2 Escadre de Chasse on 3 September 2015"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Shipped to Ayr, Scotland and given the British designation No. 329 Squadron RAF (no date given)",
+  "At the end of the 1990s, moved to Dassault Mirage 2000-5F",
+  "Reequipped with Dassault MD 450 Ouragan, then Dassault Mystère IVA (no date given)"
+ ]
+}
