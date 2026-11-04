@@ -1,0 +1,250 @@
+{
+ "page_id": "/wiki/ACES_Colombia",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1971-08-30",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Airline founded in Medellín by a group of 13 Colombian entrepreneurs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#0",
+     "role": "both",
+     "quote": "founded on August 30 , 1971"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1972",
+   "grain": "year",
+   "track": "work",
+   "text": "Airline began commercial service with Saunders ST-27 aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#1",
+     "role": "both",
+     "quote": "The airline began service in 1972 with Saunders ST-27 aircraft for"
+    },
+    {
+     "chunk_id": "/wiki/ACES_Colombia#2",
+     "role": "description",
+     "quote": "the routes Medellín-Bogotá and Manizales-Bogotá"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1976",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Expanded network to smaller regional destinations and bought DHC-6 Twin Otter aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#2",
+     "role": "both",
+     "quote": "By 1976 , the airline had expanded its network to smaller regional destinations"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1981",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Acquired its first Boeing 727-100 aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#3",
+     "role": "both",
+     "quote": "In 1981 , it acquired its first Boeing 727-100"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1986",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Fleet expansion with more 727-100 and Fairchild FH-227 aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#3",
+     "role": "both",
+     "quote": "In 1986 , an expansion began with the acquisition of more 727-100"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "First international charter flights began, including to Havana",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#3",
+     "role": "both",
+     "quote": "At this time the first international charter flights also began to Havana"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1991",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Replaced Fokker F27 fleet with ATR 42 and upgraded 727 fleet to 727-200 Advanced",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "In 1991 , ACES completely replaced its Fokker F27 Friendship fleet"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "Expanded service internationally with flights from Medellín and Bogotá to Miami",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "In 1992 , ACES expanded its service internationally"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan Emilio Posada appointed CEO",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "Juan Emilio Posada was appointed CEO"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1997",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Modernized fleet with brand-new Airbus A320-200 aircraft replacing Boeing 727s",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "In the late 1997 , ACES modernized its fleet acquiring brand-new Airbus A320-200 aircraft"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Expanded routes to Fort Lauderdale, Quito, Caracas, Caribbean and Puerto Rico destinations",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "It expanded its routes to Fort Lauderdale , Quito ,"
+    },
+    {
+     "chunk_id": "/wiki/ACES_Colombia#5",
+     "role": "description",
+     "quote": "Caracas , Cancún ( served by charters ) , Santo Domingo"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2002-05-20",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Merged with Avianca and SAM to form the Alianza Summa alliance",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#7",
+     "role": "both",
+     "quote": "On May 20 , 2002 , ACES merged with major competitor Avianca"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Juan Emilio Posada served as CEO until the airline's demise",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#4",
+     "role": "both",
+     "quote": "would serve until the airlines demise in 2003"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2003-08-20",
+   "grain": "day",
+   "track": "other",
+   "label": "operations halted",
+   "text": "Operations halted after board decided to liquidate the airline",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#7",
+     "role": "both",
+     "quote": "ACES operations were halted on August 20 , 2003"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2003-10-24",
+   "grain": "day",
+   "track": "other",
+   "label": "cessation of operations",
+   "text": "Ceased operations after liquidation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#7",
+     "role": "both",
+     "quote": "ACES ceased operations on October 24 , 2003"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2003-11",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "ACES routes taken over by Avianca",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/ACES_Colombia#7",
+     "role": "both",
+     "quote": "By November 2003 , the Summa Alliance was dissolved and ACES routes taken over by Avianca"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Named Best airline in Colombia by several industry and consumer publications"
+ ]
+}

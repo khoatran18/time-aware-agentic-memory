@@ -1,0 +1,534 @@
+{
+ "page_id": "Anna_Karina",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1940-09-22",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born Hanne Karin Bayer in Frederiksberg, Denmark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#0",
+     "role": "both",
+     "quote": "born Hanne Karin Bayer , 22 September 194014 December 2019"
+    },
+    {
+     "chunk_id": "/wiki/Anna_Karina#4",
+     "role": "description",
+     "quote": "Hanne Karin Bayer ( later known as Anna Karina ) was born in Frederiksberg , Denmark"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1958",
+   "grain": "year",
+   "track": "location",
+   "text": "Hitchhiked to Paris after a row with her mother.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#6",
+     "role": "both",
+     "quote": "In 1958 , after a row with her mother , she hitchhiked to Paris"
+    },
+    {
+     "chunk_id": "/wiki/Anna_Karina#7",
+     "role": "description",
+     "quote": "Bayer was 17 when she arrived in Paris"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1961",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Jean-Luc Godard after beginning their relationship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#22",
+     "role": "both",
+     "quote": "began a relationship and married in 1961"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1961",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred as Angela in A Woman Is a Woman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#12",
+     "role": "both",
+     "quote": "As Angela in A Woman Is a Woman ( Une femme est une femme , 1961 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1962",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Godard's film My Life to Live.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#12",
+     "role": "both",
+     "quote": "including My Life to Live ( , 1962 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "The Little Soldier released; she played a pro-Algerian activist.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#10",
+     "role": "both",
+     "quote": "The Little Soldier ( , not released until 1963 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1964",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Godard's film Band of Outsiders.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#13",
+     "role": "both",
+     "quote": "Band of Outsiders ( , 1964 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Godard's science-fiction film Alphaville.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#13",
+     "role": "both",
+     "quote": "Alphaville ( both 1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1965",
+   "grain": "year",
+   "track": "family",
+   "text": "Divorced Jean-Luc Godard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#25",
+     "role": "both",
+     "quote": "The couple divorced in 1965"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Rivette's film The Nun.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "including The Nun ( La Religieuse , 1966 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Godard's film Made in USA, the last of their sequence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#13",
+     "role": "both",
+     "quote": "The last film in the sequence was Made in USA ( 1966 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Visconti's film The Stranger.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "The Stranger ( Lo straniero , 1967 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "Sang seven songs in the TV musical comedy Anna.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#20",
+     "role": "both",
+     "quote": "from the TV musical comedy Anna ( 1967 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1968",
+   "grain": "year",
+   "track": "family",
+   "text": "Married French actor Pierre Fabre.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#27",
+     "role": "both",
+     "quote": "married to French actors Pierre Fabre from 1968 to 1974"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Justine, directed by George Cukor and Joseph Strick.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "the George Cukor/Joseph Strick collaboration Justine ( 1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Tony Richardson's Laughter in the Dark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "Tony Richardsons Laughter in the Dark ( 1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Christian de Chalonges' film The Wedding Ring.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "Christian de Chalonges The Wedding Ring ( LAlliance , 1971 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Andre Delvaux's film Rendezvous at Bray.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#15",
+     "role": "both",
+     "quote": "Rendezvous at Bray ( Rendez-vous à Bray , also 1971 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1972",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Set up production company Raska for her directorial debut.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#2",
+     "role": "both",
+     "quote": "In 1972 , Karina set up a production company"
+    },
+    {
+     "chunk_id": "/wiki/Anna_Karina#17",
+     "role": "both",
+     "quote": "In 1972 , she set up a production company , Raska"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1972",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in The Salzburg Connection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#16",
+     "role": "both",
+     "quote": "The Salzburg Connection ( 1972 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "Directorial debut Living Together (Vivre ensemble) released; screened at Cannes Critics' Week.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#2",
+     "role": "both",
+     "quote": "Vivre ensemble ( 1973 ) , which screened in the Critics Week lineup"
+    },
+    {
+     "chunk_id": "/wiki/Anna_Karina#17",
+     "role": "both",
+     "quote": "Living Together ( Vivre ensemble , 1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Franco Brusati's film Bread and Chocolate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#16",
+     "role": "both",
+     "quote": "Franco Brusatis Bread and Chocolate ( Pane e cioccolata , 1973 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1974",
+   "grain": "year",
+   "track": "family",
+   "text": "Marriage to Pierre Fabre ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#27",
+     "role": "both",
+     "quote": "Pierre Fabre from 1968 to 1974"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1976",
+   "grain": "year",
+   "track": "work",
+   "text": "Starred in Fassbinder's Chinese Roulette.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#18",
+     "role": "both",
+     "quote": "Rainer Werner Fassbinders Chinese Roulette ( Chinesisches Roulette , 1976 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1978",
+   "grain": "year",
+   "track": "family",
+   "text": "Married French actor Daniel Duval.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#27",
+     "role": "both",
+     "quote": "Daniel Duval from 1978 to 1981"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1981",
+   "grain": "year",
+   "track": "family",
+   "text": "Marriage to Daniel Duval ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#27",
+     "role": "both",
+     "quote": "Daniel Duval from 1978 to 1981"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1982",
+   "grain": "year",
+   "track": "family",
+   "text": "Married American film director Dennis Berry, lasting until her death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#27",
+     "role": "both",
+     "quote": "to American film director Dennis Berry from 1982 until her death"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Published the novel Golden City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#21",
+     "role": "both",
+     "quote": "Golden City ( 1983 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote and acted in the film Last Song.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#18",
+     "role": "both",
+     "quote": "She later wrote and acted in Last Song ( 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in Rivette's film Up, Down, Fragile.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#18",
+     "role": "both",
+     "quote": "appeared in Up , Down , Fragile ( Haut bas fragile , 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Published the novel Jusqu'au bout du hasard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#21",
+     "role": "both",
+     "quote": "and Jusquau bout du hasard ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Sang in the film The Truth About Charlie.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#18",
+     "role": "both",
+     "quote": "and sang in The Truth About Charlie ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Released the album Chansons de films, a collection of film songs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#20",
+     "role": "both",
+     "quote": "In 2005 , she released Chansons de films"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote, directed and starred in the musical road movie Victoria.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#19",
+     "role": "both",
+     "quote": "Karina wrote , directed and starred in Victoria ( 2008 )"
+    },
+    {
+     "chunk_id": "/wiki/Anna_Karina#2",
+     "role": "both",
+     "quote": "She also directed the French-Canadian film Victoria ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2019-12-14",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at a hospital in Paris at age 79.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#28",
+     "role": "both",
+     "quote": "Karina died at the age of 79 on Saturday , December 14 , 2019"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Career began in Denmark: cabaret singing and commercial modelling (no date)",
+  "At age 14 appeared in Ib Schmedes's Danish short film, which won a Cannes prize (no year)",
+  "Lived with maternal grandparents, then in foster care, during childhood (no years)",
+  "Professional name Anna Karina devised with help from Chanel (no date)",
+  "Front cover of Elle magazine and commercials for Coca-Cola, Pepsodent, Palmolive (no date)",
+  "Refused a small part in Breathless (no date)",
+  "Silver Bear for Best Actress for A Woman Is a Woman at the 11th Berlin International Film Festival (no year)",
+  "Recorded an album with Philippe Katerine, followed by a concert tour (no date)",
+  "Major hits Sous le soleil exactement and Roller Girl (end of the 1960s)",
+  "Two novels, from 1973 and 1988, with titles missing in source"
+ ]
+}

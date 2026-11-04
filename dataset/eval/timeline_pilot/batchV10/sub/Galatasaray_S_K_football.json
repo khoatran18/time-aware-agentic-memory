@@ -1,0 +1,252 @@
+{
+  "page_id": "Galatasaray_S_K_football",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1905-10",
+      "grain": "month",
+      "track": "other",
+      "label": "founding",
+      "text": "Football club founded at Galatasaray High School (traditionally 30 Oct 1905)",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#0", "role": "both", "quote": "the football club was founded in October 1905"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#6", "role": "both", "quote": "Galatasaray SK was founded in October 1905"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1906-12-26",
+      "grain": "day",
+      "track": "other",
+      "label": "colours",
+      "text": "Colours changed from red and white to yellow and black",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#28", "role": "both", "quote": "on December 26 , 1906 the colors were changed to yellow and black"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1908-12-06",
+      "grain": "day",
+      "track": "other",
+      "label": "colours",
+      "text": "Settled on red and yellow colours for match vs Royal Navy cruiser team",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#30", "role": "both", "quote": "On 6 December 1908 , for a match against the football team of the Royal Navy cruiser"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1912",
+      "grain": "year",
+      "track": "other",
+      "label": "registration",
+      "text": "Club registered legally after the 1912 Law of Association",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#11", "role": "date", "quote": "after the 1912 Law of Association"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#12", "role": "description", "quote": "the club registered legally"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1925",
+      "grain": "year",
+      "track": "other",
+      "label": "crest",
+      "text": "Ghayn-Sin crest replaced earlier emblem, designed by Ayetullah Emin",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#27", "role": "both", "quote": "This replaced in 1925 by the current Ghayn-Sin crest"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1940",
+      "grain": "year",
+      "track": "work",
+      "text": "Decided to build a large modern stadium after Taksim Stadium demolition",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#40", "role": "both", "quote": "When historic Taksim Stadium was demolished in 1940 , Galatasaray decided to build a large , modern stadium"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1959",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the Süper Lig from its first season onward",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#1", "role": "both", "quote": "Galatasaray is one of three teams to have participated in all seasons of the Süper Lig since 1959"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#15", "role": "description", "quote": "Galatasaray joined all seasons and won 22 league titles since then"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1964-12-20",
+      "grain": "day",
+      "track": "location",
+      "text": "Ali Sami Yen Stadium opened as the club's new home ground",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#42", "role": "both", "quote": "On 20 December 1964 , Ali Sami Yen Stadium opened"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1985",
+      "grain": "year",
+      "track": "other",
+      "label": "kit supplier",
+      "text": "Adidas began supplying shirts, ending the eight-piece halved design era",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#35", "role": "both", "quote": "until 1985 when sportswear manufacturer Adidas began to provide the shirts"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#36", "role": "description", "quote": "This changed in the mid-1980s , when sportswear manufacturer Adidas began to provide the shirts"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1992",
+      "grain": "year",
+      "track": "other",
+      "label": "tradition",
+      "text": "Began playing the end of 'I Will Survive' after every goal",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#46", "role": "both", "quote": "Since 1992 , after every goal scored by Galatasaray"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2000",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won the UEFA Cup",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#2", "role": "both", "quote": "has won the UEFA Cup and UEFA Super Cup in 2000"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#21", "role": "both", "quote": "who won the UEFA Cup in 2000 as the teams coach"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2000",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won the UEFA Super Cup",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#2", "role": "both", "quote": "has won the UEFA Cup and UEFA Super Cup in 2000"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#22", "role": "both", "quote": "scored both of Galatasarays two goals in the 2000 European Super Cup Final against Real Madrid"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2002",
+      "grain": "year",
+      "track": "location",
+      "text": "Began playing European matches at Atatürk Olympic Stadium",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#43", "role": "both", "quote": "After 2002 , when Atatürk Olympic Stadium was built for Istanbuls Olympic Games bid"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2011",
+      "grain": "year",
+      "track": "other",
+      "label": "kit supplier",
+      "text": "Nike became kit manufacturer, contract held since 2011",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#37", "role": "both", "quote": "Nike , who have held the contract since 2011"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2011-01-15",
+      "grain": "day",
+      "track": "location",
+      "text": "Moved to newly opened Türk Telekom Stadium in Seyrantepe",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#45", "role": "both", "quote": "which was opened 15 January 2011"},
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#3", "role": "both", "quote": "Since 2011 , the clubs stadium is the 52,332-capacity Türk Telekom Stadium"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2011-03-18",
+      "grain": "day",
+      "track": "other",
+      "label": "record",
+      "text": "Fans set loudest crowd roar record at Türk Telekom Stadium",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#50", "role": "both", "quote": "Galatasaray fans broke the loudest crowd roar at a sport stadium record on 18 March 2011"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2012",
+      "grain": "year",
+      "track": "other",
+      "label": "kit",
+      "text": "Reverted to the classic eight-piece halved kit",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#36", "role": "both", "quote": "The club reverted to the classic kit in 2012"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2014",
+      "grain": "year",
+      "track": "other",
+      "label": "sponsor",
+      "text": "Turkish Airlines became sponsor for UEFA Champions League matches",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#39", "role": "both", "quote": "since 2014 for UEFA Champions League matches Turkish Airlines"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2019",
+      "grain": "year",
+      "track": "other",
+      "label": "sponsor",
+      "text": "Terra Pizza became shirt sponsor",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#38", "role": "both", "quote": "Since 2019 , Galatasarays shirt sponsors have been Terra Pizza"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2020",
+      "grain": "year",
+      "track": "other",
+      "label": "sponsor",
+      "text": "Sixt became sponsor for domestic matches",
+      "evidence": [
+        {"chunk_id": "/wiki/Galatasaray_S.K._(football)#39", "role": "both", "quote": "Sixt ( 2020– ) for domestic matches"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "First match vs Cadi-Keuy FC, won 2–0 (no date)",
+    "Ali Sami Yen became first president, membership number 1 (no date)",
+    "Adopted the name Galata Sarayı after first match (no date)",
+    "First emblem (eagle design) drawn by Şevki Ege (no date)",
+    "Emblem replaced by the current design in the 1920s",
+    "Kit ordered from William Shillcock, Birmingham (no date)",
+    "Home games at Papazın Çayırı in early years (no date)",
+    "Played at Şeref Stadi and Dolmabahçe Stadi during stadium construction delay (no date)",
+    "Joined Istanbul League, 1905–1906 season",
+    "First Istanbul League title, 1908–1909 season",
+    "Won three Istanbul Professional League titles, 1952–1959",
+    "National championships in 15 sport branches, 1986–87 season",
+    "Semi-final of European Cup, 1988–89 season",
+    "Quadruple (Süper Lig, Turkish Cup, UEFA Cup, UEFA Super Cup), 1999–2000 season",
+    "20th Süper Lig title, 2014–15 season; logo changed to four stars",
+    "Previous kit suppliers listed by season ranges 1978–79 to 2001–02 (Çamlıca, Adidas, Umbro, Puma, Gola, Fatih, Lotto)",
+    "Previous shirt sponsors listed by season/year ranges, 1977–78 to 2016–2019 (Volvo, PeReJa, Halı Fleks, Telefunken, Denizbank, SHOW TV, VakıfBank, Marshall, Telsim, Aria, Avea, Türk Telekom 2009–14, Huawei 2014–15, Nef 2016–19)",
+    "Doubles (Süper Lig and Türkiye Kupası) in 1962–63, 1972–73, 1998–99",
+    "Trebles (Süper Lig, Türkiye Kupası, TFF Süper Kupa) in 1992–93, 2014–15, 2018–19",
+    "Treble (Süper Lig, Türkiye Kupası, UEFA Europa League) in 1999–2000"
+  ]
+}
