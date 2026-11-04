@@ -91,7 +91,23 @@
    ]
   },
   {
-   "id": "e7",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "UEFA Cup Winners' Cup",
+   "text": "Played a significant part in Lazio's 1998-99 UEFA Cup Winners' Cup success",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sérgio_Conceição#3",
+     "role": "both",
+     "quote": "1998–99 UEFA Cup Winners Cup success"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e7"
+  },
+  {
+   "id": "e8",
    "date": "1999",
    "grain": "year",
    "track": "other",
@@ -111,7 +127,7 @@
    ]
   },
   {
-   "id": "e8",
+   "id": "e9",
    "date": "2000",
    "grain": "year",
    "track": "other",
@@ -126,7 +142,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e10",
    "date": "2000",
    "grain": "year",
    "track": "other",
@@ -141,7 +157,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e11",
    "date": "2000-07",
    "grain": "month",
    "track": "affiliation",
@@ -155,7 +171,7 @@
    ]
   },
   {
-   "id": "e11",
+   "id": "e12",
    "date": "2001",
    "grain": "year",
    "track": "affiliation",
@@ -170,7 +186,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e13",
    "date": "2003",
    "grain": "year",
    "track": "affiliation",
@@ -185,7 +201,7 @@
    ]
   },
   {
-   "id": "e13",
+   "id": "e14",
    "date": "2003",
    "grain": "year",
    "track": "affiliation",
@@ -200,7 +216,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e15",
    "date": "2003-09-06",
    "grain": "day",
    "track": "other",
@@ -215,7 +231,7 @@
    ]
   },
   {
-   "id": "e15",
+   "id": "e16",
    "date": "2004",
    "grain": "year",
    "track": "affiliation",
@@ -230,7 +246,7 @@
    ]
   },
   {
-   "id": "e16",
+   "id": "e17",
    "date": "2006-03",
    "grain": "month",
    "track": "other",
@@ -245,7 +261,38 @@
    ]
   },
   {
-   "id": "e17",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "Belgian Cup",
+   "text": "Lost the Belgian Cup final with Standard",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sérgio_Conceição#7",
+     "role": "both",
+     "quote": "losing the 2007 final of the Belgian Cup"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "label": "captain",
+   "text": "Promoted to team captain in 2008-09",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sérgio_Conceição#9",
+     "role": "both",
+     "quote": "In 2008–09 , Conceição was promoted to team captain"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e19"
+  },
+  {
+   "id": "e20",
    "date": "2008-01",
    "grain": "month",
    "track": "affiliation",
@@ -259,7 +306,7 @@
    ]
   },
   {
-   "id": "e18",
+   "id": "e21",
    "date": "2009-10-13",
    "grain": "day",
    "track": "other",
@@ -274,7 +321,7 @@
    ]
   },
   {
-   "id": "e19",
+   "id": "e22",
    "date": "2009-10-13",
    "grain": "day",
    "track": "role",
@@ -288,7 +335,7 @@
    ]
   },
   {
-   "id": "e20",
+   "id": "e23",
    "date": "2010-05-30",
    "grain": "day",
    "track": "affiliation",
@@ -302,7 +349,7 @@
    ]
   },
   {
-   "id": "e21",
+   "id": "e24",
    "date": "2010-05-30",
    "grain": "day",
    "track": "affiliation",
@@ -316,7 +363,7 @@
    ]
   },
   {
-   "id": "e22",
+   "id": "e25",
    "date": "2012-01-01",
    "grain": "day",
    "track": "role",
@@ -330,7 +377,7 @@
    ]
   },
   {
-   "id": "e23",
+   "id": "e26",
    "date": "2012-08-09",
    "grain": "day",
    "track": "role",
@@ -345,7 +392,7 @@
    ]
   },
   {
-   "id": "e24",
+   "id": "e27",
    "date": "2013",
    "grain": "year",
    "track": "role",
@@ -360,7 +407,7 @@
    ]
   },
   {
-   "id": "e25",
+   "id": "e28",
    "date": "2013-04-08",
    "grain": "day",
    "track": "role",
@@ -374,7 +421,7 @@
    ]
   },
   {
-   "id": "e26",
+   "id": "e29",
    "date": "2014-05-26",
    "grain": "day",
    "track": "affiliation",
@@ -388,7 +435,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e30",
    "date": "2015-09-22",
    "grain": "day",
    "track": "role",
@@ -402,7 +449,7 @@
    ]
   },
   {
-   "id": "e28",
+   "id": "e31",
    "date": "2016",
    "grain": "year",
    "track": "role",
@@ -417,7 +464,7 @@
    ]
   },
   {
-   "id": "e29",
+   "id": "e32",
    "date": "2016-01-17",
    "grain": "day",
    "track": "other",
@@ -432,7 +479,7 @@
    ]
   },
   {
-   "id": "e30",
+   "id": "e33",
    "date": "2016-12-08",
    "grain": "day",
    "track": "role",
@@ -446,7 +493,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e34",
    "date": "2017-06-06",
    "grain": "day",
    "track": "role",
@@ -460,7 +507,7 @@
    ]
   },
   {
-   "id": "e32",
+   "id": "e35",
    "date": "2017-06-06",
    "grain": "day",
    "track": "role",
@@ -474,7 +521,7 @@
    ]
   },
   {
-   "id": "e33",
+   "id": "e36",
    "date": "2017-06-08",
    "grain": "day",
    "track": "role",
@@ -489,7 +536,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e37",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -504,7 +551,7 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e38",
    "date": "2019-03-01",
    "grain": "day",
    "track": "affiliation",
@@ -518,7 +565,7 @@
    ]
   },
   {
-   "id": "e36",
+   "id": "e39",
    "date": "2020",
    "grain": "year",
    "track": "other",

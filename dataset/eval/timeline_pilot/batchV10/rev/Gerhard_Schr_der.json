@@ -569,7 +569,22 @@
    ]
   },
   {
-   "id": "e40",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "SPD under Schröder increased its vote share in the Lower Saxony state election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gerhard_Schröder#16",
+     "role": "both",
+     "quote": "In the 1998 state elections , Schöders Social Democrats increased their share of the vote by about four percentage points"
+    }
+   ],
+   "id": "e40"
+  },
+  {
+   "id": "e41",
    "date": "1998-10",
    "grain": "month",
    "track": "other",
@@ -584,7 +599,7 @@
    ]
   },
   {
-   "id": "e41",
+   "id": "e42",
    "date": "1999",
    "grain": "year",
    "track": "other",
@@ -599,7 +614,7 @@
    ]
   },
   {
-   "id": "e42",
+   "id": "e43",
    "date": "1999-02-09",
    "grain": "day",
    "track": "other",
@@ -614,7 +629,7 @@
    ]
   },
   {
-   "id": "e43",
+   "id": "e44",
    "date": "1999-03",
    "grain": "month",
    "track": "role",
@@ -628,7 +643,7 @@
    ]
   },
   {
-   "id": "e44",
+   "id": "e45",
    "date": "1999-06",
    "grain": "month",
    "track": "work",
@@ -642,7 +657,7 @@
    ]
   },
   {
-   "id": "e45",
+   "id": "e46",
    "date": "2000",
    "grain": "year",
    "track": "other",
@@ -658,7 +673,7 @@
    ]
   },
   {
-   "id": "e46",
+   "id": "e47",
    "date": "2001",
    "grain": "year",
    "track": "other",
@@ -673,7 +688,7 @@
    ]
   },
   {
-   "id": "e47",
+   "id": "e48",
    "date": "2001-05",
    "grain": "month",
    "track": "location",
@@ -687,7 +702,7 @@
    ]
   },
   {
-   "id": "e48",
+   "id": "e49",
    "date": "2002",
    "grain": "year",
    "track": "other",
@@ -702,7 +717,7 @@
    ]
   },
   {
-   "id": "e49",
+   "id": "e50",
    "date": "2002-04",
    "grain": "month",
    "track": "other",
@@ -717,7 +732,7 @@
    ]
   },
   {
-   "id": "e50",
+   "id": "e51",
    "date": "2002-09-22",
    "grain": "day",
    "track": "role",
@@ -732,7 +747,7 @@
    ]
   },
   {
-   "id": "e51",
+   "id": "e52",
    "date": "2002-12-30",
    "grain": "day",
    "track": "other",
@@ -747,7 +762,7 @@
    ]
   },
   {
-   "id": "e52",
+   "id": "e53",
    "date": "2003",
    "grain": "year",
    "track": "other",
@@ -762,7 +777,7 @@
    ]
   },
   {
-   "id": "e53",
+   "id": "e54",
    "date": "2003",
    "grain": "year",
    "track": "other",
@@ -777,7 +792,7 @@
    ]
   },
   {
-   "id": "e54",
+   "id": "e55",
    "date": "2003",
    "grain": "year",
    "track": "other",
@@ -792,7 +807,7 @@
    ]
   },
   {
-   "id": "e55",
+   "id": "e56",
    "date": "2003-06",
    "grain": "month",
    "track": "other",
@@ -807,7 +822,7 @@
    ]
   },
   {
-   "id": "e56",
+   "id": "e57",
    "date": "2004",
    "grain": "year",
    "track": "other",
@@ -822,7 +837,7 @@
    ]
   },
   {
-   "id": "e57",
+   "id": "e58",
    "date": "2004-02",
    "grain": "month",
    "track": "role",
@@ -836,7 +851,7 @@
    ]
   },
   {
-   "id": "e58",
+   "id": "e59",
    "date": "2004-07",
    "grain": "month",
    "track": "family",
@@ -850,7 +865,7 @@
    ]
   },
   {
-   "id": "e59",
+   "id": "e60",
    "date": "2004-08-01",
    "grain": "day",
    "track": "other",
@@ -865,7 +880,7 @@
    ]
   },
   {
-   "id": "e60",
+   "id": "e61",
    "date": "2005",
    "grain": "year",
    "track": "other",
@@ -881,7 +896,7 @@
    ]
   },
   {
-   "id": "e61",
+   "id": "e62",
    "date": "2005-04-04",
    "grain": "day",
    "track": "other",
@@ -896,7 +911,7 @@
    ]
   },
   {
-   "id": "e62",
+   "id": "e63",
    "date": "2005-05-22",
    "grain": "day",
    "track": "other",
@@ -911,7 +926,7 @@
    ]
   },
   {
-   "id": "e63",
+   "id": "e64",
    "date": "2005-06-14",
    "grain": "day",
    "track": "other",
@@ -926,7 +941,7 @@
    ]
   },
   {
-   "id": "e64",
+   "id": "e65",
    "date": "2005-07-01",
    "grain": "day",
    "track": "other",
@@ -941,7 +956,7 @@
    ]
   },
   {
-   "id": "e65",
+   "id": "e66",
    "date": "2005-10-10",
    "grain": "day",
    "track": "other",
@@ -957,7 +972,7 @@
    "flag": "derived_date"
   },
   {
-   "id": "e66",
+   "id": "e67",
    "date": "2005-10-11",
    "grain": "day",
    "track": "other",
@@ -972,7 +987,7 @@
    ]
   },
   {
-   "id": "e67",
+   "id": "e68",
    "date": "2005-11",
    "grain": "month",
    "track": "role",
@@ -987,7 +1002,7 @@
    ]
   },
   {
-   "id": "e68",
+   "id": "e69",
    "date": "2005-11-22",
    "grain": "day",
    "track": "role",
@@ -1002,7 +1017,7 @@
    ]
   },
   {
-   "id": "e69",
+   "id": "e70",
    "date": "2005-11-23",
    "grain": "day",
    "track": "role",
@@ -1016,7 +1031,7 @@
    ]
   },
   {
-   "id": "e70",
+   "id": "e71",
    "date": "2006",
    "grain": "year",
    "track": "role",
@@ -1030,7 +1045,7 @@
    ]
   },
   {
-   "id": "e71",
+   "id": "e72",
    "date": "2006",
    "grain": "year",
    "track": "role",
@@ -1044,7 +1059,7 @@
    ]
   },
   {
-   "id": "e72",
+   "id": "e73",
    "date": "2006",
    "grain": "year",
    "track": "family",
@@ -1058,7 +1073,7 @@
    ]
   },
   {
-   "id": "e73",
+   "id": "e74",
    "date": "2006-02-24",
    "grain": "day",
    "track": "other",
@@ -1073,7 +1088,7 @@
    ]
   },
   {
-   "id": "e74",
+   "id": "e75",
    "date": "2007",
    "grain": "year",
    "track": "other",
@@ -1088,7 +1103,7 @@
    ]
   },
   {
-   "id": "e75",
+   "id": "e76",
    "date": "2007",
    "grain": "year",
    "track": "other",
@@ -1103,7 +1118,7 @@
    ]
   },
   {
-   "id": "e76",
+   "id": "e77",
    "date": "2007-01",
    "grain": "month",
    "track": "work",
@@ -1117,7 +1132,7 @@
    ]
   },
   {
-   "id": "e77",
+   "id": "e78",
    "date": "2007-04-24",
    "grain": "day",
    "track": "other",
@@ -1132,7 +1147,7 @@
    ]
   },
   {
-   "id": "e78",
+   "id": "e79",
    "date": "2008-05-28",
    "grain": "day",
    "track": "other",
@@ -1147,7 +1162,7 @@
    ]
   },
   {
-   "id": "e79",
+   "id": "e80",
    "date": "2009",
    "grain": "year",
    "track": "role",
@@ -1161,7 +1176,7 @@
    ]
   },
   {
-   "id": "e80",
+   "id": "e81",
    "date": "2013",
    "grain": "year",
    "track": "location",
@@ -1175,7 +1190,7 @@
    ]
   },
   {
-   "id": "e81",
+   "id": "e82",
    "date": "2013",
    "grain": "year",
    "track": "role",
@@ -1189,7 +1204,7 @@
    ]
   },
   {
-   "id": "e82",
+   "id": "e83",
    "date": "2014-03-13",
    "grain": "day",
    "track": "other",
@@ -1204,7 +1219,7 @@
    ]
   },
   {
-   "id": "e83",
+   "id": "e84",
    "date": "2014-04",
    "grain": "month",
    "track": "other",
@@ -1220,7 +1235,7 @@
    ]
   },
   {
-   "id": "e84",
+   "id": "e85",
    "date": "2016",
    "grain": "year",
    "track": "role",
@@ -1234,7 +1249,7 @@
    ]
   },
   {
-   "id": "e85",
+   "id": "e86",
    "date": "2016",
    "grain": "year",
    "track": "role",
@@ -1248,7 +1263,7 @@
    ]
   },
   {
-   "id": "e86",
+   "id": "e87",
    "date": "2016",
    "grain": "year",
    "track": "role",
@@ -1262,7 +1277,7 @@
    ]
   },
   {
-   "id": "e87",
+   "id": "e88",
    "date": "2016",
    "grain": "year",
    "track": "other",
@@ -1277,7 +1292,7 @@
    ]
   },
   {
-   "id": "e88",
+   "id": "e89",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1291,7 +1306,7 @@
    ]
   },
   {
-   "id": "e89",
+   "id": "e90",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1305,7 +1320,7 @@
    ]
   },
   {
-   "id": "e90",
+   "id": "e91",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1319,7 +1334,7 @@
    ]
   },
   {
-   "id": "e91",
+   "id": "e92",
    "date": "2017",
    "grain": "year",
    "track": "other",
@@ -1334,7 +1349,7 @@
    ]
   },
   {
-   "id": "e92",
+   "id": "e93",
    "date": "2017-10",
    "grain": "month",
    "track": "other",
@@ -1349,7 +1364,22 @@
    ]
   },
   {
-   "id": "e93",
+   "date": "2017-11",
+   "grain": "month",
+   "track": "other",
+   "label": "Paradise Papers",
+   "text": "Named in the ICIJ Paradise Papers list of politicians",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gerhard_Schröder#77",
+     "role": "both",
+     "quote": "In November 2017 , an investigation conducted by the International Consortium of Investigative Journalism cited his name in the list of politicians named in Paradise Papers allegations"
+    }
+   ],
+   "id": "e94"
+  },
+  {
+   "id": "e95",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -1364,7 +1394,7 @@
    ]
   },
   {
-   "id": "e94",
+   "id": "e96",
    "date": "2018",
    "grain": "year",
    "track": "family",
@@ -1378,7 +1408,7 @@
    ]
   },
   {
-   "id": "e95",
+   "id": "e97",
    "date": "2018",
    "grain": "year",
    "track": "family",
@@ -1397,7 +1427,7 @@
    ]
   },
   {
-   "id": "e96",
+   "id": "e98",
    "date": "2019",
    "grain": "year",
    "track": "role",

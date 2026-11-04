@@ -284,7 +284,22 @@
    ]
   },
   {
-   "id": "e20",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "Albanian Cup",
+   "text": "Lost the Albanian Cup final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#16",
+     "role": "both",
+     "quote": "a three time finalist in the Albanian Cup in 1958 , 1965 and 1976"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
    "date": "1961",
    "grain": "year",
    "track": "role",
@@ -298,7 +313,7 @@
    ]
   },
   {
-   "id": "e21",
+   "id": "e22",
    "date": "1961",
    "grain": "year",
    "track": "role",
@@ -312,7 +327,22 @@
    ]
   },
   {
-   "id": "e22",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "Albanian Cup",
+   "text": "Lost the Albanian Cup final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#16",
+     "role": "both",
+     "quote": "a three time finalist in the Albanian Cup in 1958 , 1965 and 1976"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "id": "e24",
    "date": "1966",
    "grain": "year",
    "track": "role",
@@ -326,7 +356,7 @@
    ]
   },
   {
-   "id": "e23",
+   "id": "e25",
    "date": "1966",
    "grain": "year",
    "track": "role",
@@ -340,7 +370,7 @@
    ]
   },
   {
-   "id": "e24",
+   "id": "e26",
    "date": "1975",
    "grain": "year",
    "track": "role",
@@ -354,7 +384,7 @@
    ]
   },
   {
-   "id": "e25",
+   "id": "e27",
    "date": "1975",
    "grain": "year",
    "track": "role",
@@ -368,7 +398,38 @@
    ]
   },
   {
-   "id": "e26",
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "Albanian Cup",
+   "text": "Lost the Albanian Cup final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#16",
+     "role": "both",
+     "quote": "a three time finalist in the Albanian Cup in 1958 , 1965 and 1976"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "First Division",
+   "text": "Won the Albanian First Division in 1976-77",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#16",
+     "role": "both",
+     "quote": "win the Albanian First Division in 1976–77"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e29"
+  },
+  {
+   "id": "e30",
    "date": "1982",
    "grain": "year",
    "track": "role",
@@ -382,7 +443,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e31",
    "date": "1982",
    "grain": "year",
    "track": "role",
@@ -396,7 +457,7 @@
    ]
   },
   {
-   "id": "e28",
+   "id": "e32",
    "date": "1984",
    "grain": "year",
    "track": "role",
@@ -410,7 +471,7 @@
    ]
   },
   {
-   "id": "e29",
+   "id": "e33",
    "date": "1987",
    "grain": "year",
    "track": "role",
@@ -424,7 +485,7 @@
    ]
   },
   {
-   "id": "e30",
+   "id": "e34",
    "date": "1995",
    "grain": "year",
    "track": "role",
@@ -438,7 +499,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e35",
    "date": "1995",
    "grain": "year",
    "track": "role",
@@ -452,7 +513,7 @@
    ]
   },
   {
-   "id": "e32",
+   "id": "e36",
    "date": "1996",
    "grain": "year",
    "track": "role",
@@ -466,7 +527,7 @@
    ]
   },
   {
-   "id": "e33",
+   "id": "e37",
    "date": "1996",
    "grain": "year",
    "track": "role",
@@ -480,7 +541,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e38",
    "date": "1997",
    "grain": "year",
    "track": "role",
@@ -494,7 +555,7 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e39",
    "date": "1997",
    "grain": "year",
    "track": "role",
@@ -508,7 +569,7 @@
    ]
   },
   {
-   "id": "e36",
+   "id": "e40",
    "date": "1998",
    "grain": "year",
    "track": "role",
@@ -522,7 +583,7 @@
    ]
   },
   {
-   "id": "e37",
+   "id": "e41",
    "date": "1999",
    "grain": "year",
    "track": "role",
@@ -536,7 +597,7 @@
    ]
   },
   {
-   "id": "e38",
+   "id": "e42",
    "date": "1999",
    "grain": "year",
    "track": "role",
@@ -550,7 +611,7 @@
    ]
   },
   {
-   "id": "e39",
+   "id": "e43",
    "date": "2000",
    "grain": "year",
    "track": "role",
@@ -564,7 +625,7 @@
    ]
   },
   {
-   "id": "e40",
+   "id": "e44",
    "date": "2000",
    "grain": "year",
    "track": "role",
@@ -578,7 +639,7 @@
    ]
   },
   {
-   "id": "e41",
+   "id": "e45",
    "date": "2001",
    "grain": "year",
    "track": "role",
@@ -592,7 +653,7 @@
    ]
   },
   {
-   "id": "e42",
+   "id": "e46",
    "date": "2002",
    "grain": "year",
    "track": "role",
@@ -606,7 +667,7 @@
    ]
   },
   {
-   "id": "e43",
+   "id": "e47",
    "date": "2004",
    "grain": "year",
    "track": "role",
@@ -620,7 +681,7 @@
    ]
   },
   {
-   "id": "e44",
+   "id": "e48",
    "date": "2005",
    "grain": "year",
    "track": "role",
@@ -634,7 +695,7 @@
    ]
   },
   {
-   "id": "e45",
+   "id": "e49",
    "date": "2006-02-18",
    "grain": "day",
    "track": "role",
@@ -648,7 +709,7 @@
    ]
   },
   {
-   "id": "e46",
+   "id": "e50",
    "date": "2006-02-18",
    "grain": "day",
    "track": "role",
@@ -662,7 +723,7 @@
    ]
   },
   {
-   "id": "e47",
+   "id": "e51",
    "date": "2006-02-22",
    "grain": "day",
    "track": "role",
@@ -676,7 +737,7 @@
    ]
   },
   {
-   "id": "e48",
+   "id": "e52",
    "date": "2006-02-22",
    "grain": "day",
    "track": "role",
@@ -690,7 +751,7 @@
    ]
   },
   {
-   "id": "e49",
+   "id": "e53",
    "date": "2007-11-10",
    "grain": "day",
    "track": "role",
@@ -704,7 +765,7 @@
    ]
   },
   {
-   "id": "e50",
+   "id": "e54",
    "date": "2007-11-10",
    "grain": "day",
    "track": "role",
@@ -718,7 +779,23 @@
    ]
   },
   {
-   "id": "e51",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "First Division",
+   "text": "Won the Albanian First Division in 2008-09 and promotion to the Superliga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#16",
+     "role": "both",
+     "quote": "with the last win in 2008–09 season"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e55"
+  },
+  {
+   "id": "e56",
    "date": "2008-12-31",
    "grain": "day",
    "track": "role",
@@ -732,7 +809,7 @@
    ]
   },
   {
-   "id": "e52",
+   "id": "e57",
    "date": "2009-01-01",
    "grain": "day",
    "track": "role",
@@ -746,7 +823,7 @@
    ]
   },
   {
-   "id": "e53",
+   "id": "e58",
    "date": "2009-05",
    "grain": "month",
    "track": "role",
@@ -760,7 +837,7 @@
    ]
   },
   {
-   "id": "e54",
+   "id": "e59",
    "date": "2009-07",
    "grain": "month",
    "track": "role",
@@ -774,7 +851,7 @@
    ]
   },
   {
-   "id": "e55",
+   "id": "e60",
    "date": "2009-12-31",
    "grain": "day",
    "track": "role",
@@ -788,7 +865,7 @@
    ]
   },
   {
-   "id": "e56",
+   "id": "e61",
    "date": "2010",
    "grain": "year",
    "track": "work",
@@ -802,7 +879,7 @@
    ]
   },
   {
-   "id": "e57",
+   "id": "e62",
    "date": "2010-01-01",
    "grain": "day",
    "track": "role",
@@ -816,7 +893,7 @@
    ]
   },
   {
-   "id": "e58",
+   "id": "e63",
    "date": "2010-02-07",
    "grain": "day",
    "track": "role",
@@ -830,7 +907,7 @@
    ]
   },
   {
-   "id": "e59",
+   "id": "e64",
    "date": "2010-02-07",
    "grain": "day",
    "track": "role",
@@ -844,7 +921,7 @@
    ]
   },
   {
-   "id": "e60",
+   "id": "e65",
    "date": "2010-05",
    "grain": "month",
    "track": "role",
@@ -858,7 +935,7 @@
    ]
   },
   {
-   "id": "e61",
+   "id": "e66",
    "date": "2010-07",
    "grain": "month",
    "track": "role",
@@ -872,7 +949,7 @@
    ]
   },
   {
-   "id": "e62",
+   "id": "e67",
    "date": "2011",
    "grain": "year",
    "track": "other",
@@ -887,7 +964,7 @@
    ]
   },
   {
-   "id": "e63",
+   "id": "e68",
    "date": "2011",
    "grain": "year",
    "track": "other",
@@ -902,7 +979,7 @@
    ]
   },
   {
-   "id": "e64",
+   "id": "e69",
    "date": "2011-02-17",
    "grain": "day",
    "track": "role",
@@ -916,7 +993,7 @@
    ]
   },
   {
-   "id": "e65",
+   "id": "e70",
    "date": "2011-02-17",
    "grain": "day",
    "track": "role",
@@ -930,7 +1007,7 @@
    ]
   },
   {
-   "id": "e66",
+   "id": "e71",
    "date": "2011-07-13",
    "grain": "day",
    "track": "affiliation",
@@ -944,7 +1021,7 @@
    ]
   },
   {
-   "id": "e67",
+   "id": "e72",
    "date": "2011-10-11",
    "grain": "day",
    "track": "role",
@@ -958,7 +1035,7 @@
    ]
   },
   {
-   "id": "e68",
+   "id": "e73",
    "date": "2011-10-11",
    "grain": "day",
    "track": "role",
@@ -972,7 +1049,38 @@
    ]
   },
   {
-   "id": "e69",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "Albanian Cup",
+   "text": "Lost the Albanian Cup final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#25",
+     "role": "both",
+     "quote": "before the 2012 final"
+    }
+   ],
+   "id": "e74"
+  },
+  {
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "Europe",
+   "text": "First ever Champions League and European win, over Debrecen, in the 2012-13 campaign",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/KF_Skënderbeu_Korçë#26",
+     "role": "both",
+     "quote": "They kicked off the 2012–13 campaign with their first ever Champions League and European win"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e75"
+  },
+  {
+   "id": "e76",
    "date": "2012-05",
    "grain": "month",
    "track": "role",
@@ -986,7 +1094,7 @@
    ]
   },
   {
-   "id": "e70",
+   "id": "e77",
    "date": "2012-07",
    "grain": "month",
    "track": "role",
@@ -1000,7 +1108,7 @@
    ]
   },
   {
-   "id": "e71",
+   "id": "e78",
    "date": "2013",
    "grain": "year",
    "track": "other",
@@ -1020,7 +1128,7 @@
    ]
   },
   {
-   "id": "e72",
+   "id": "e79",
    "date": "2013-11",
    "grain": "month",
    "track": "other",
@@ -1035,7 +1143,7 @@
    ]
   },
   {
-   "id": "e73",
+   "id": "e80",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -1055,7 +1163,7 @@
    ]
   },
   {
-   "id": "e74",
+   "id": "e81",
    "date": "2015",
    "grain": "year",
    "track": "affiliation",
@@ -1069,7 +1177,7 @@
    ]
   },
   {
-   "id": "e75",
+   "id": "e82",
    "date": "2015",
    "grain": "year",
    "track": "affiliation",
@@ -1088,7 +1196,7 @@
    ]
   },
   {
-   "id": "e76",
+   "id": "e83",
    "date": "2016",
    "grain": "year",
    "track": "other",
@@ -1104,7 +1212,7 @@
    ]
   },
   {
-   "id": "e77",
+   "id": "e84",
    "date": "2016-05",
    "grain": "month",
    "track": "role",
@@ -1118,7 +1226,7 @@
    ]
   },
   {
-   "id": "e78",
+   "id": "e85",
    "date": "2016-06",
    "grain": "month",
    "track": "role",
@@ -1132,7 +1240,7 @@
    ]
   },
   {
-   "id": "e79",
+   "id": "e86",
    "date": "2016-12",
    "grain": "month",
    "track": "role",
@@ -1146,7 +1254,7 @@
    ]
   },
   {
-   "id": "e80",
+   "id": "e87",
    "date": "2017-01",
    "grain": "month",
    "track": "role",
@@ -1160,7 +1268,7 @@
    ]
   },
   {
-   "id": "e81",
+   "id": "e88",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -1175,7 +1283,7 @@
    ]
   },
   {
-   "id": "e82",
+   "id": "e89",
    "date": "2018-03-29",
    "grain": "day",
    "track": "other",
@@ -1191,7 +1299,7 @@
    ]
   },
   {
-   "id": "e83",
+   "id": "e90",
    "date": "2018-06",
    "grain": "month",
    "track": "role",
@@ -1205,7 +1313,7 @@
    ]
   },
   {
-   "id": "e84",
+   "id": "e91",
    "date": "2018-07",
    "grain": "month",
    "track": "role",
@@ -1219,7 +1327,7 @@
    ]
   },
   {
-   "id": "e85",
+   "id": "e92",
    "date": "2019-06",
    "grain": "month",
    "track": "role",
@@ -1233,7 +1341,7 @@
    ]
   },
   {
-   "id": "e86",
+   "id": "e93",
    "date": "2019-07-12",
    "grain": "day",
    "track": "other",
@@ -1248,7 +1356,7 @@
    ]
   },
   {
-   "id": "e87",
+   "id": "e94",
    "date": "2019-08",
    "grain": "month",
    "track": "role",

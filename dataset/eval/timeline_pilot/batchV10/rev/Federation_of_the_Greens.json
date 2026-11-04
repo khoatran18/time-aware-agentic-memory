@@ -930,7 +930,37 @@
    ]
   },
   {
-   "id": "e66",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "label": "Minister of the Environment",
+   "text": "Alfonso Pecoraro Scanio began as minister of the Environment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federation_of_the_Greens#13",
+     "role": "both",
+     "quote": "In 2006–2008 Pecoraro Scanio served as minister of the Environment"
+    }
+   ],
+   "id": "e66"
+  },
+  {
+   "date": "2006-11",
+   "grain": "month",
+   "track": "other",
+   "label": "party congress",
+   "text": "Party congress confirmed Pecoraro Scanio's political line",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federation_of_the_Greens#14",
+     "role": "both",
+     "quote": "In November 2006 Pecoraro Scanios political line was confirmed in a party congress"
+    }
+   ],
+   "id": "e67"
+  },
+  {
+   "id": "e68",
    "date": "2007-01",
    "grain": "month",
    "track": "affiliation",
@@ -944,7 +974,7 @@
    ]
   },
   {
-   "id": "e67",
+   "id": "e69",
    "date": "2008",
    "grain": "year",
    "track": "role",
@@ -964,7 +994,7 @@
    ]
   },
   {
-   "id": "e68",
+   "id": "e70",
    "date": "2008",
    "grain": "year",
    "track": "affiliation",
@@ -979,7 +1009,7 @@
    ]
   },
   {
-   "id": "e69",
+   "id": "e71",
    "date": "2008",
    "grain": "year",
    "track": "role",
@@ -993,7 +1023,7 @@
    ]
   },
   {
-   "id": "e70",
+   "id": "e72",
    "date": "2008",
    "grain": "year",
    "track": "role",
@@ -1007,7 +1037,7 @@
    ]
   },
   {
-   "id": "e71",
+   "id": "e73",
    "date": "2008",
    "grain": "year",
    "track": "role",
@@ -1021,7 +1051,22 @@
    ]
   },
   {
-   "id": "e72",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "label": "Minister of the Environment",
+   "text": "Alfonso Pecoraro Scanio ended as minister of the Environment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Federation_of_the_Greens#13",
+     "role": "both",
+     "quote": "In 2006–2008 Pecoraro Scanio served as minister of the Environment"
+    }
+   ],
+   "id": "e74"
+  },
+  {
+   "id": "e75",
    "date": "2009",
    "grain": "year",
    "track": "role",
@@ -1035,7 +1080,7 @@
    ]
   },
   {
-   "id": "e73",
+   "id": "e76",
    "date": "2009",
    "grain": "year",
    "track": "role",
@@ -1049,7 +1094,7 @@
    ]
   },
   {
-   "id": "e74",
+   "id": "e77",
    "date": "2009",
    "grain": "year",
    "track": "role",
@@ -1063,7 +1108,7 @@
    ]
   },
   {
-   "id": "e75",
+   "id": "e78",
    "date": "2009",
    "grain": "year",
    "track": "affiliation",
@@ -1077,7 +1122,7 @@
    ]
   },
   {
-   "id": "e76",
+   "id": "e79",
    "date": "2009-10",
    "grain": "month",
    "track": "role",
@@ -1096,7 +1141,7 @@
    ]
   },
   {
-   "id": "e77",
+   "id": "e80",
    "date": "2010",
    "grain": "year",
    "track": "affiliation",
@@ -1110,7 +1155,7 @@
    ]
   },
   {
-   "id": "e78",
+   "id": "e81",
    "date": "2010-09",
    "grain": "month",
    "track": "work",
@@ -1124,7 +1169,7 @@
    ]
   },
   {
-   "id": "e79",
+   "id": "e82",
    "date": "2011-11",
    "grain": "month",
    "track": "affiliation",
@@ -1138,7 +1183,7 @@
    ]
   },
   {
-   "id": "e80",
+   "id": "e83",
    "date": "2013",
    "grain": "year",
    "track": "affiliation",
@@ -1152,7 +1197,7 @@
    ]
   },
   {
-   "id": "e81",
+   "id": "e84",
    "date": "2013",
    "grain": "year",
    "track": "role",
@@ -1166,7 +1211,7 @@
    ]
   },
   {
-   "id": "e82",
+   "id": "e85",
    "date": "2013-05",
    "grain": "month",
    "track": "affiliation",
@@ -1181,7 +1226,7 @@
    ]
   },
   {
-   "id": "e83",
+   "id": "e86",
    "date": "2013-11",
    "grain": "month",
    "track": "role",
@@ -1201,7 +1246,7 @@
    ]
   },
   {
-   "id": "e84",
+   "id": "e87",
    "date": "2014",
    "grain": "year",
    "track": "affiliation",
@@ -1215,7 +1260,7 @@
    ]
   },
   {
-   "id": "e85",
+   "id": "e88",
    "date": "2015",
    "grain": "year",
    "track": "role",
@@ -1229,7 +1274,7 @@
    ]
   },
   {
-   "id": "e86",
+   "id": "e89",
    "date": "2015-01",
    "grain": "month",
    "track": "affiliation",
@@ -1243,7 +1288,7 @@
    ]
   },
   {
-   "id": "e87",
+   "id": "e90",
    "date": "2015-06",
    "grain": "month",
    "track": "affiliation",
@@ -1258,7 +1303,7 @@
    "flag": "derived_date"
   },
   {
-   "id": "e88",
+   "id": "e91",
    "date": "2015-11",
    "grain": "month",
    "track": "role",
@@ -1277,7 +1322,7 @@
    ]
   },
   {
-   "id": "e89",
+   "id": "e92",
    "date": "2016-11",
    "grain": "month",
    "track": "affiliation",
@@ -1291,7 +1336,7 @@
    ]
   },
   {
-   "id": "e90",
+   "id": "e93",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1305,7 +1350,7 @@
    ]
   },
   {
-   "id": "e91",
+   "id": "e94",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1319,7 +1364,7 @@
    ]
   },
   {
-   "id": "e92",
+   "id": "e95",
    "date": "2017",
    "grain": "year",
    "track": "affiliation",
@@ -1334,7 +1379,7 @@
    ]
   },
   {
-   "id": "e93",
+   "id": "e96",
    "date": "2017",
    "grain": "year",
    "track": "role",
@@ -1354,7 +1399,7 @@
    ]
   },
   {
-   "id": "e94",
+   "id": "e97",
    "date": "2017-02",
    "grain": "month",
    "track": "role",
@@ -1368,7 +1413,7 @@
    ]
   },
   {
-   "id": "e95",
+   "id": "e98",
    "date": "2017-02",
    "grain": "month",
    "track": "role",
@@ -1382,7 +1427,7 @@
    ]
   },
   {
-   "id": "e96",
+   "id": "e99",
    "date": "2017-12",
    "grain": "month",
    "track": "affiliation",
@@ -1396,7 +1441,7 @@
    ]
   },
   {
-   "id": "e97",
+   "id": "e100",
    "date": "2017-12",
    "grain": "month",
    "track": "affiliation",
@@ -1411,7 +1456,7 @@
    ]
   },
   {
-   "id": "e98",
+   "id": "e101",
    "date": "2018",
    "grain": "year",
    "track": "role",
@@ -1426,7 +1471,7 @@
    ]
   },
   {
-   "id": "e99",
+   "id": "e102",
    "date": "2018",
    "grain": "year",
    "track": "role",
@@ -1440,7 +1485,7 @@
    ]
   },
   {
-   "id": "e100",
+   "id": "e103",
    "date": "2018",
    "grain": "year",
    "track": "role",
@@ -1454,7 +1499,7 @@
    ]
   },
   {
-   "id": "e101",
+   "id": "e104",
    "date": "2018",
    "grain": "year",
    "track": "role",
@@ -1468,7 +1513,7 @@
    ]
   },
   {
-   "id": "e102",
+   "id": "e105",
    "date": "2018-12",
    "grain": "month",
    "track": "role",
@@ -1487,7 +1532,7 @@
    ]
   },
   {
-   "id": "e103",
+   "id": "e106",
    "date": "2019",
    "grain": "year",
    "track": "role",
@@ -1501,7 +1546,7 @@
    ]
   },
   {
-   "id": "e104",
+   "id": "e107",
    "date": "2019",
    "grain": "year",
    "track": "affiliation",
@@ -1515,7 +1560,7 @@
    ]
   },
   {
-   "id": "e105",
+   "id": "e108",
    "date": "2019",
    "grain": "year",
    "track": "affiliation",
@@ -1530,7 +1575,7 @@
    ]
   },
   {
-   "id": "e106",
+   "id": "e109",
    "date": "2021-03",
    "grain": "month",
    "track": "affiliation",

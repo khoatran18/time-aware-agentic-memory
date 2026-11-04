@@ -48,3 +48,8 @@
 ## Ghi chú
 - Haiku Anna_Karina, Platzeck, Škënderbeu báo "xong" mà không nêu tên trang; đã khớp theo tên file `sub/`.
 - `check.py` không nhận ngày TCN. Kiểm thử `DIR=rev check.py batchV7 Han_dynasty` hiện báo lỗi (các mốc "-0138"...): ngoài phạm vi của mình, ghi lại trong CLOUD_STATE.md.
+
+## Đọc kiểm của session chính (2026-11-04): 537 → 549 (+12, `tools/fix_V910.py`, chạy sau `patch_bV9.py`)
+- KF_Skënderbeu +7: thua chung kết Cúp Albania 1958, 1965, 1976, 2012; vô địch hạng nhất 1976–77 và 2008–09 (mùa giải, `approximate_date`); trận thắng Champions League/châu Âu đầu tiên mùa 2012–13 (`approximate_date`). Không ghi: trận thắng lớn nhất 2015–16 (kết quả trận, không phải "lần đầu"), nhóm cổ động 2008, vụ chia sân cổ động viên.
+- Anna_Karina +2: tiểu thuyết 1973 và 1988 (tên sách mất trong nguồn, ghi tên chung). Sérgio_Conceição +3: Cup Winners' Cup 1998–99 với Lazio (`approximate_date`), thua chung kết Cúp Bỉ 2007, làm đội trưởng 2008–09 (`approximate_date`).
+- Không thêm: Florence (số liệu dân số, xếp hạng, nhân vật Medici không thuộc thành phố), HJK 2011–12 thắng Bangor 13–0 (kỷ lục kết quả trận), Platzeck 2010/2014 (phát biểu).

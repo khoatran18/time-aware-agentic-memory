@@ -2,7 +2,23 @@
  "page_id": "Galatasaray_S_K_football",
  "events": [
   {
-   "id": "e1",
+   "date": "1905",
+   "grain": "year",
+   "track": "other",
+   "label": "league",
+   "text": "Joined the Istanbul League in the 1905-1906 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#13",
+     "role": "both",
+     "quote": "Galatasaray joined the Istanbul League that was consisting of English and Greek teams in the season of 1905–1906"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e1"
+  },
+  {
+   "id": "e2",
    "date": "1905-10",
    "grain": "month",
    "track": "other",
@@ -22,7 +38,7 @@
    ]
   },
   {
-   "id": "e2",
+   "id": "e3",
    "date": "1906-12-26",
    "grain": "day",
    "track": "other",
@@ -37,7 +53,23 @@
    ]
   },
   {
-   "id": "e3",
+   "date": "1908",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won first championship title in 1908-1909",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#13",
+     "role": "both",
+     "quote": "With their first championship title they won in 1908–1909"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e4"
+  },
+  {
+   "id": "e5",
    "date": "1908-12-06",
    "grain": "day",
    "track": "other",
@@ -52,7 +84,7 @@
    ]
   },
   {
-   "id": "e4",
+   "id": "e6",
    "date": "1912",
    "grain": "year",
    "track": "other",
@@ -73,7 +105,7 @@
    ]
   },
   {
-   "id": "e5",
+   "id": "e7",
    "date": "1925",
    "grain": "year",
    "track": "other",
@@ -88,7 +120,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e8",
    "date": "1940",
    "grain": "year",
    "track": "work",
@@ -103,7 +135,7 @@
    ]
   },
   {
-   "id": "e7",
+   "id": "e9",
    "date": "1959",
    "grain": "year",
    "track": "affiliation",
@@ -122,7 +154,7 @@
    ]
   },
   {
-   "id": "e8",
+   "id": "e10",
    "date": "1964-12-20",
    "grain": "day",
    "track": "location",
@@ -136,7 +168,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e11",
    "date": "1985",
    "grain": "year",
    "track": "other",
@@ -156,7 +188,39 @@
    ]
   },
   {
-   "id": "e10",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championships in 15 sport branches in the 1986-87 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#17",
+     "role": "both",
+     "quote": "winning national championships in 15 different sport branches in the 1986–87 season"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e12"
+  },
+  {
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "Europe",
+   "text": "Reached the European Cup semi-final in the 1988-89 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#17",
+     "role": "both",
+     "quote": "reaching the semi-final of the European Cup in the 1988–89 season"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e13"
+  },
+  {
+   "id": "e14",
    "date": "1992",
    "grain": "year",
    "track": "other",
@@ -171,7 +235,23 @@
    ]
   },
   {
-   "id": "e11",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Completed a quadruple in the 1999-2000 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#2",
+     "role": "both",
+     "quote": "In the 1999–2000 season , the club achieved the rare feat of completing a quadruple"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e15"
+  },
+  {
+   "id": "e16",
    "date": "2000",
    "grain": "year",
    "track": "other",
@@ -191,7 +271,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e17",
    "date": "2000",
    "grain": "year",
    "track": "other",
@@ -211,7 +291,7 @@
    ]
   },
   {
-   "id": "e13",
+   "id": "e18",
    "date": "2002",
    "grain": "year",
    "track": "location",
@@ -226,7 +306,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e19",
    "date": "2011",
    "grain": "year",
    "track": "other",
@@ -241,7 +321,22 @@
    ]
   },
   {
-   "id": "e15",
+   "date": "2011",
+   "grain": "year",
+   "track": "location",
+   "label": "stadium",
+   "text": "Previous home stadium demolished after the move to Türk Telekom Stadium",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#44",
+     "role": "both",
+     "quote": "The stadium was in 2011 demolished after Galatsaray moved to the newly built Türk Telekom Stadium"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
    "date": "2011-01-15",
    "grain": "day",
    "track": "location",
@@ -260,7 +355,7 @@
    ]
   },
   {
-   "id": "e16",
+   "id": "e22",
    "date": "2011-03-18",
    "grain": "day",
    "track": "other",
@@ -275,7 +370,7 @@
    ]
   },
   {
-   "id": "e17",
+   "id": "e23",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -290,7 +385,7 @@
    ]
   },
   {
-   "id": "e18",
+   "id": "e24",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -305,7 +400,23 @@
    ]
   },
   {
-   "id": "e19",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won 20th league championship in the 2014-15 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Galatasaray_S.K._(football)#5",
+     "role": "both",
+     "quote": "the teams 20th championship for the 2014–15 Süper Lig season"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e25"
+  },
+  {
+   "id": "e26",
    "date": "2019",
    "grain": "year",
    "track": "other",
@@ -320,7 +431,7 @@
    ]
   },
   {
-   "id": "e20",
+   "id": "e27",
    "date": "2020",
    "grain": "year",
    "track": "other",

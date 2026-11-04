@@ -70,5 +70,9 @@ Mơ hồ thì ưu tiên role > affiliation > work. Tiêu đề mục (sau dấu 
 - "Giữa năm X và Y" cho MỘT việc (mua bán, chuyển nhượng): MỘT mốc `approximate_date` ở năm đầu, không tách "bắt đầu/kết thúc". "Mid-1990s", "late 1960s" không có năm cụ thể: để `undated_mentions`. Hoạt động của một cơ quan "từ X đến Y": hai mốc đầu và cuối.
 - Mục `Timeline` hoặc `History` có nhiều dòng ngày lẻ (tháng, ngày): ghi từng dòng, đừng chỉ ghi vài dòng nổi bật. Khối liệt kê (giải thưởng, bài giảng, chức danh theo năm) cũng ghi đủ.
 
+- (2026-11-04, từ batch V11) Sự cố/tai nạn của từng máy bay, tàu, xe của một hãng: KHÔNG ghi trên trang hãng; ghi khi trang nói về chính phương tiện đó (đầu máy, con tàu). Hãng bị điều tra hoặc bị phạt vì sự cố thì ghi.
+- (2026-11-04, từ batch V11) Năm TCN dùng số thiên văn: 59 TCN = `-0058`, 139 TCN = `-0138` (quote phải chứa "59 BC"/"139 BC" nguyên văn). Không còn đưa năm TCN vào undated.
+- (2026-11-04, từ batch V11) Danh hiệu, thăng/xuống hạng, đổi huấn luyện viên theo mùa giải "1999–2000": một mốc ở năm bắt đầu mùa (1999), grain `year`, flag `approximate_date`, quote chứa "1999–2000". Vẫn KHÔNG ghi điểm số, thứ hạng, thống kê mùa. Các batch V1–V10 và tune để mùa giải ở undated; không sửa lại.
+
 ## Cách làm xong
 Ghi JSON hợp lệ vào đường dẫn được giao; chỉ đọc hướng dẫn này và file đầu vào của bạn; chỉ trả lời "xong" và số sự kiện.

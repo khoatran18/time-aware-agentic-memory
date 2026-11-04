@@ -398,7 +398,22 @@
    ]
   },
   {
-   "id": "e28",
+   "date": "2010-09",
+   "grain": "month",
+   "track": "other",
+   "label": "scandal",
+   "text": "Nicky Diaz Santillan revealed she had worked as Whitman's housekeeper despite being undocumented",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#42",
+     "role": "both",
+     "quote": "In September 2010 , Nicky Diaz Santillan revealed that she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009 despite her status as an illegal worker"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "id": "e29",
    "date": "2010-11-02",
    "grain": "day",
    "track": "other",
@@ -413,7 +428,7 @@
    ]
   },
   {
-   "id": "e29",
+   "id": "e30",
    "date": "2011-01",
    "grain": "month",
    "track": "role",
@@ -427,7 +442,7 @@
    ]
   },
   {
-   "id": "e30",
+   "id": "e31",
    "date": "2011-03",
    "grain": "month",
    "track": "role",
@@ -441,7 +456,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e32",
    "date": "2011-09-22",
    "grain": "day",
    "track": "role",
@@ -455,7 +470,7 @@
    ]
   },
   {
-   "id": "e32",
+   "id": "e33",
    "date": "2012",
    "grain": "year",
    "track": "role",
@@ -469,7 +484,7 @@
    ]
   },
   {
-   "id": "e33",
+   "id": "e34",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -484,7 +499,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e35",
    "date": "2016",
    "grain": "year",
    "track": "role",
@@ -498,7 +513,7 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e36",
    "date": "2017",
    "grain": "year",
    "track": "other",
@@ -513,7 +528,7 @@
    ]
   },
   {
-   "id": "e36",
+   "id": "e37",
    "date": "2017-07-26",
    "grain": "day",
    "track": "role",
@@ -527,7 +542,7 @@
    ]
   },
   {
-   "id": "e37",
+   "id": "e38",
    "date": "2017-11-21",
    "grain": "day",
    "track": "role",
@@ -541,7 +556,7 @@
    ]
   },
   {
-   "id": "e38",
+   "id": "e39",
    "date": "2018",
    "grain": "year",
    "track": "role",
@@ -555,7 +570,7 @@
    ]
   },
   {
-   "id": "e39",
+   "id": "e40",
    "date": "2018-02-01",
    "grain": "day",
    "track": "role",
@@ -569,7 +584,7 @@
    ]
   },
   {
-   "id": "e40",
+   "id": "e41",
    "date": "2019",
    "grain": "year",
    "track": "other",
@@ -584,7 +599,7 @@
    ]
   },
   {
-   "id": "e41",
+   "id": "e42",
    "date": "2019-11",
    "grain": "month",
    "track": "ownership_structure",
@@ -596,6 +611,21 @@
      "quote": "In November 2019 , Meg Whitman purchased a minority stake in FC Cincinnati"
     }
    ]
+  },
+  {
+   "date": "2020-10",
+   "grain": "month",
+   "track": "role",
+   "label": "Quibi",
+   "text": "Quibi closed while she was its CEO",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#0",
+     "role": "both",
+     "quote": "She was also the CEO of Quibi before its closure in October 2020"
+    }
+   ],
+   "id": "e43"
   }
  ],
  "undated_mentions": [

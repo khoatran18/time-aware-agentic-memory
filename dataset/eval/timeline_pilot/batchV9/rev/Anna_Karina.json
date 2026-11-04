@@ -331,7 +331,22 @@
    ]
   },
   {
-   "id": "e23",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "label": "novel",
+   "text": "Published the first of her four novels",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#21",
+     "role": "both",
+     "quote": "Karina wrote four novels : ( 1973 )"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "id": "e24",
    "date": "1974",
    "grain": "year",
    "track": "family",
@@ -345,7 +360,7 @@
    ]
   },
   {
-   "id": "e24",
+   "id": "e25",
    "date": "1976",
    "grain": "year",
    "track": "work",
@@ -359,7 +374,7 @@
    ]
   },
   {
-   "id": "e25",
+   "id": "e26",
    "date": "1978",
    "grain": "year",
    "track": "family",
@@ -373,7 +388,7 @@
    ]
   },
   {
-   "id": "e26",
+   "id": "e27",
    "date": "1981",
    "grain": "year",
    "track": "family",
@@ -387,7 +402,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e28",
    "date": "1982",
    "grain": "year",
    "track": "family",
@@ -401,7 +416,7 @@
    ]
   },
   {
-   "id": "e28",
+   "id": "e29",
    "date": "1983",
    "grain": "year",
    "track": "work",
@@ -415,7 +430,7 @@
    ]
   },
   {
-   "id": "e29",
+   "id": "e30",
    "date": "1987",
    "grain": "year",
    "track": "work",
@@ -429,7 +444,22 @@
    ]
   },
   {
-   "id": "e30",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "label": "novel",
+   "text": "Published her third novel",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Anna_Karina#21",
+     "role": "both",
+     "quote": "( 1988 )"
+    }
+   ],
+   "id": "e31"
+  },
+  {
+   "id": "e32",
    "date": "1995",
    "grain": "year",
    "track": "work",
@@ -443,7 +473,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e33",
    "date": "1998",
    "grain": "year",
    "track": "work",
@@ -457,7 +487,7 @@
    ]
   },
   {
-   "id": "e32",
+   "id": "e34",
    "date": "2002",
    "grain": "year",
    "track": "work",
@@ -471,7 +501,7 @@
    ]
   },
   {
-   "id": "e33",
+   "id": "e35",
    "date": "2005",
    "grain": "year",
    "track": "work",
@@ -485,7 +515,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e36",
    "date": "2008",
    "grain": "year",
    "track": "work",
@@ -504,7 +534,7 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e37",
    "date": "2019-12-14",
    "grain": "day",
    "track": "other",

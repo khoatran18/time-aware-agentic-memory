@@ -37,3 +37,9 @@
 - Các bảng lãnh đạo (IMU 129 mốc, Greens 106) chiếm phần lớn số mốc: mỗi nhiệm kỳ tách thành hai mốc bắt đầu và kết thúc đúng GUIDE.
 - Haiku Whitman, Galatasaray, Braudel, Schröder, Greens, IMU, Y Combinator báo "xong" mà không nêu tên trang; đã khớp theo tên file `sub/`.
 - Haiku Greens báo chưa tự kiểm tra cú pháp JSON; `check.py` đọc được cả 10 file.
+
+## Đọc kiểm của session chính (2026-11-04): 558 → 572 (+14, `tools/fix_V910.py`, chạy sau `patch_bV10.py`)
+- Galatasaray +7: mùa giải đặt ở năm bắt đầu với `approximate_date` theo quy ước mới (1905–06 vào Istanbul League, 1908–09 chức vô địch đầu, 1986–87, 1988–89, 1999–2000, 2014–15) và sân cũ bị phá 2011.
+- Greens +3 (Pecoraro Scanio bộ trưởng Môi trường 2006–2008, đại hội đảng 2006-11); Meg_Whitman +2 (Quibi đóng cửa 2020-10, Nicky Diaz 2010-09); Schröder +2 (bầu cử Lower Saxony 1998, Paradise Papers 2017-11).
+- Mình từng thêm 11 mốc khác (PayPal/Skype của eBay, Giving Pledge, Whitman College, bảo lãnh Nord Stream, các phát biểu, Chirac đại diện) rồi bỏ vì trái quy ước "việc thực thể khác / phát biểu"; NOTES cloud ghi lý do bỏ đúng.
+- Cloud báo +0 là gần đúng với quy ước hiện hành; phần còn thiếu chủ yếu là quy ước mùa giải mới.
