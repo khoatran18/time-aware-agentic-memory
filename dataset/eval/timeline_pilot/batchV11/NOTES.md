@@ -44,3 +44,7 @@ Haiku ghi `sub/`; `tools/patch_bV11.py` sinh `rev/` (chạy lại được, ghi 
 1. Levski: bảng huấn luyện viên nhiều dòng chỉ có năm ("Vyacheslav Hrozny ( 1998 )") nên đều ghi một mốc "becomes manager"; bảng có cả hai mốc ngày cụ thể ở giai đoạn sau 2004. Giữ như haiku.
 2. Affari_tuoi: lần xuất hiện của người dẫn chương trình trên bản Mỹ (2007-02-05) có tính là sự kiện của chương trình không? Hiện không ghi.
 3. Sturrock: á quân cúp (4 lần Scottish Cup, 1 UEFA Cup) có ghi như danh hiệu mùa giải không? Hiện không ghi (không phải danh hiệu).
+
+## Đọc kiểm của session chính (2026-11-04): 456 → 465 (+9, `tools/fix_V1112.py`, chạy sau `patch_bV11.py`)
+- Edward_Adolf_Sonnenschein (cloud +0, `gap.py` 28 dòng): thêm 9 tác phẩm trong mục thư mục dạng "N editions between X and Y" mà haiku mới ghi một phần (1879, 1884, 1891, 1910, 1927 đã có): Bentley's Plautine emendations 1883, A Greek Grammar for Schools 1898, Ora Maritima 1902, A New Latin Grammar 1912, Recommendations of the Classical Association 1912, Through German Eyes 1914, A new English Grammar 1916, The Gateway 1924, What is Rhythm? 1925. Mỗi mốc ở năm xuất bản đầu.
+- Các trang khác (Levski 24 dòng gap, Bayerisches_Armeemuseum 18, William_Duncan 16, Broughton 13, Sturrock 10): đọc dòng gap, chủ yếu là thư mục, danh sách cầu thủ, kết quả mùa giải, việc của người khác hoặc đã có mốc ở dạng quote khác (bảng huấn luyện viên Levski đủ 2008–2014). Không thêm.

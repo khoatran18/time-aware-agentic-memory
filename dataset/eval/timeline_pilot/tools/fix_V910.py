@@ -42,7 +42,6 @@ A("batchV10","Galatasaray_S_K_football",[
 ("1988","other","Europe","Reached the European Cup semi-final in the 1988-89 season","17","both","reaching the semi-final of the European Cup in the 1988–89 season",AP),
 ("1999","other","title","Completed a quadruple in the 1999-2000 season","2","both","In the 1999–2000 season , the club achieved the rare feat of completing a quadruple",AP),
 ("2014","other","title","Won 20th league championship in the 2014-15 season","5","both","the teams 20th championship for the 2014–15 Süper Lig season",AP),
-("2011","location","stadium","Previous home stadium demolished after the move to Türk Telekom Stadium","44","both","The stadium was in 2011 demolished after Galatsaray moved to the newly built Türk Telekom Stadium"),
 ])
 A("batchV10","Federation_of_the_Greens",[
 ("2006","role","Minister of the Environment","Alfonso Pecoraro Scanio began as minister of the Environment","13","both","In 2006–2008 Pecoraro Scanio served as minister of the Environment"),

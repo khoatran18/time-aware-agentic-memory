@@ -49,3 +49,8 @@ Haiku ghi `sub/`; `tools/patch_bV12.py` sinh `rev/` (chạy lại được, ghi 
 1. Sân cũ bị phá (Calderón 2020-07; Galatasaray V10 2011): ghi như `location` của CLB. Có muốn ghi không, hay chỉ ghi khi CLB bán/đổi chủ sân?
 2. Richmond Kickers: hợp đồng phát sóng (WTVR 2017, ESPN+ 2018, USL YouTube 2014–2017) hiện không ghi vì xem là đối tác; nếu xem là sự kiện của CLB thì thêm vào.
 3. Master_General_of_the_Ordnance_Sweden: giữ 94 mốc, trong đó hơn 70 mốc là cặp "takes office/leaves office" tách từ bảng, nên số mốc cho trang rất cao so với 13 chunk.
+
+## Đọc kiểm của session chính (2026-11-04): 541 → 543 (+3, bỏ 1, `tools/fix_V1112.py`, chạy sau `patch_bV12.py`)
+- Atl_tico_Madrid (cloud +3, `gap.py` 31 dòng): thêm 2000 vào chung kết Copa del Rey nhưng xuống hạng; 2014-05-24 thua chung kết Champions League 1–4 trước Real Madrid (`derived_date`, "một tuần sau 17-05-2014"); mùa 2015–16 thua chung kết Champions League trên chấm luân lưu (`approximate_date`, mùa giải).
+- Bỏ mốc "Former home Vicente Calderón demolished" (2020-07): sân bị phá là việc của chủ sân/thành phố, không phải việc của CLB; mốc "ngừng thi đấu ở Calderón 2017" của cloud giữ.
+- Lou_Scheper_Berkenkamp (`gap.py` 47 dòng): hầu hết là tài liệu tham khảo, ngày sinh con (không ghi) và việc của chồng; Richmond_Kickers: hợp đồng phát sóng, fan club, sự kiện của đội Virginia Beach; Preston_Smith: kết quả bầu cử, đổi tên sân bay sau khi mất; Sarri, Michel_Zink, Otto_Modersohn, Oumar_Niasse, VFA_94: không thêm. Hai trả lời cho cloud: VFA_94 giữ va chạm trên không 2014 (trang nói về phi đội); trang chức vụ giữ hai mốc nhậm chức/rời chức.

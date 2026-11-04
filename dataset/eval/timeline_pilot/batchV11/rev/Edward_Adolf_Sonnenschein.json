@@ -59,7 +59,22 @@
    ]
   },
   {
-   "id": "e5",
+   "date": "1883",
+   "grain": "year",
+   "track": "work",
+   "label": "Plautus",
+   "text": "Published Bentley's Plautine emendations from his copy of Gronovius (first of 6 editions, 1883-1963)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#11",
+     "role": "both",
+     "quote": "Bentleys Plautine emendations from his copy of Gronovius by Richard Bentley , 6 editions between 1883 and 1963"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
    "date": "1884",
    "grain": "year",
    "track": "work",
@@ -73,7 +88,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e7",
    "date": "1891",
    "grain": "year",
    "track": "work",
@@ -87,7 +102,37 @@
    ]
   },
   {
-   "id": "e7",
+   "date": "1898",
+   "grain": "year",
+   "track": "work",
+   "label": "grammar",
+   "text": "Published A Greek Grammar for Schools (first of 18 editions, 1898-1929)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#12",
+     "role": "both",
+     "quote": "A Greek Grammar for Schools ; based on the principles and requirements of the Grammatical Society , 18 editions between 1898 and 1929"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "date": "1902",
+   "grain": "year",
+   "track": "work",
+   "label": "Latin",
+   "text": "Published Ora Maritima, a Latin story for beginners (first of 10 editions, 1902-1927)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#12",
+     "role": "both",
+     "quote": "Ora Maritima ; a Latin story for beginners , 10 editions between 1902 and 1927"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
    "date": "1903",
    "grain": "year",
    "track": "other",
@@ -102,7 +147,7 @@
    ]
   },
   {
-   "id": "e8",
+   "id": "e11",
    "date": "1903",
    "grain": "year",
    "track": "role",
@@ -116,7 +161,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e12",
    "date": "1910",
    "grain": "year",
    "track": "work",
@@ -130,7 +175,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e13",
    "date": "1911",
    "grain": "year",
    "track": "work",
@@ -144,7 +189,52 @@
    ]
   },
   {
-   "id": "e11",
+   "date": "1912",
+   "grain": "year",
+   "track": "work",
+   "label": "grammar",
+   "text": "Published A New Latin Grammar based on the Joint Committee recommendations (first of 11 editions, 1912-1925)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#12",
+     "role": "both",
+     "quote": "A New Latin Grammar : based on the recommendations of the Joint Committee on Grammatical Terminology , 11 editions between 1912 and 1925"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "date": "1912",
+   "grain": "year",
+   "track": "work",
+   "label": "Classical Association",
+   "text": "Published Recommendations of the Classical Association on the teaching of Latin and Greek",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#13",
+     "role": "both",
+     "quote": "Recommendations of the Classical Association on the teaching of Latin and Greek , 2 editions in 1912"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "date": "1914",
+   "grain": "year",
+   "track": "work",
+   "label": "German",
+   "text": "Published Through German Eyes (first of 11 editions, 1914-1915)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#10",
+     "role": "both",
+     "quote": "Through German Eyes , 11 editions between 1914 and 1915"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "id": "e17",
    "date": "1914-02-22",
    "grain": "day",
    "track": "family",
@@ -158,7 +248,22 @@
    ]
   },
   {
-   "id": "e12",
+   "date": "1916",
+   "grain": "year",
+   "track": "work",
+   "label": "grammar",
+   "text": "Published A new English Grammar based on the Joint Committee recommendations (first of 17 editions, 1916-1962)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#10",
+     "role": "both",
+     "quote": "A new English Grammar based on the recommendations of the Joint Committee on Grammatical Terminology , 17 editions between 1916 and 1962"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "id": "e19",
    "date": "1918",
    "grain": "year",
    "track": "role",
@@ -172,7 +277,37 @@
    ]
   },
   {
-   "id": "e13",
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "label": "Latin",
+   "text": "Published The Gateway, a book of Latin composition for middle forms",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#14",
+     "role": "both",
+     "quote": "The Gateway ; a book of Latin composition for middle forms , 4 editions in 1924"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "date": "1925",
+   "grain": "year",
+   "track": "work",
+   "label": "essay",
+   "text": "Published the essay What is Rhythm?",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Edward_Adolf_Sonnenschein#14",
+     "role": "both",
+     "quote": "What is Rhythm ? An essay , 2 editions in 1925"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "id": "e22",
    "date": "1927",
    "grain": "year",
    "track": "work",
@@ -186,7 +321,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e23",
    "date": "1929-09-02",
    "grain": "day",
    "track": "other",

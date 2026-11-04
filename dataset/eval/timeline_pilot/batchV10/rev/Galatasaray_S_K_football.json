@@ -321,22 +321,7 @@
    ]
   },
   {
-   "date": "2011",
-   "grain": "year",
-   "track": "location",
-   "label": "stadium",
-   "text": "Previous home stadium demolished after the move to Türk Telekom Stadium",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Galatasaray_S.K._(football)#44",
-     "role": "both",
-     "quote": "The stadium was in 2011 demolished after Galatsaray moved to the newly built Türk Telekom Stadium"
-    }
-   ],
-   "id": "e20"
-  },
-  {
-   "id": "e21",
+   "id": "e20",
    "date": "2011-01-15",
    "grain": "day",
    "track": "location",
@@ -355,7 +340,7 @@
    ]
   },
   {
-   "id": "e22",
+   "id": "e21",
    "date": "2011-03-18",
    "grain": "day",
    "track": "other",
@@ -370,7 +355,7 @@
    ]
   },
   {
-   "id": "e23",
+   "id": "e22",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -385,7 +370,7 @@
    ]
   },
   {
-   "id": "e24",
+   "id": "e23",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -413,10 +398,10 @@
     }
    ],
    "flag": "approximate_date",
-   "id": "e25"
+   "id": "e24"
   },
   {
-   "id": "e26",
+   "id": "e25",
    "date": "2019",
    "grain": "year",
    "track": "other",
@@ -431,7 +416,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e26",
    "date": "2020",
    "grain": "year",
    "track": "other",

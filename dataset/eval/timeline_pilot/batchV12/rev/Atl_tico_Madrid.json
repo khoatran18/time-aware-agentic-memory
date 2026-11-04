@@ -1698,7 +1698,22 @@
    ]
   },
   {
-   "id": "e113",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "Copa del Rey",
+   "text": "Reached the Copa del Rey final but was relegated",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#39",
+     "role": "both",
+     "quote": "Despite reaching the Copa del Rey final in 2000 , Atlético were relegated"
+    }
+   ],
+   "id": "e113"
+  },
+  {
+   "id": "e114",
    "date": "2001",
    "grain": "year",
    "track": "other",
@@ -1713,7 +1728,7 @@
    ]
   },
   {
-   "id": "e114",
+   "id": "e115",
    "date": "2002",
    "grain": "year",
    "track": "other",
@@ -1728,7 +1743,7 @@
    ]
   },
   {
-   "id": "e115",
+   "id": "e116",
    "date": "2002",
    "grain": "year",
    "track": "affiliation",
@@ -1743,7 +1758,7 @@
    ]
   },
   {
-   "id": "e116",
+   "id": "e117",
    "date": "2002",
    "grain": "year",
    "track": "role",
@@ -1757,7 +1772,7 @@
    ]
   },
   {
-   "id": "e117",
+   "id": "e118",
    "date": "2003",
    "grain": "year",
    "track": "role",
@@ -1771,7 +1786,7 @@
    ]
   },
   {
-   "id": "e118",
+   "id": "e119",
    "date": "2003",
    "grain": "year",
    "track": "role",
@@ -1785,7 +1800,7 @@
    ]
   },
   {
-   "id": "e119",
+   "id": "e120",
    "date": "2003",
    "grain": "year",
    "track": "other",
@@ -1800,7 +1815,7 @@
    ]
   },
   {
-   "id": "e120",
+   "id": "e121",
    "date": "2003",
    "grain": "year",
    "track": "role",
@@ -1814,7 +1829,7 @@
    ]
   },
   {
-   "id": "e121",
+   "id": "e122",
    "date": "2003-05",
    "grain": "month",
    "track": "role",
@@ -1828,7 +1843,7 @@
    ]
   },
   {
-   "id": "e122",
+   "id": "e123",
    "date": "2005",
    "grain": "year",
    "track": "other",
@@ -1844,7 +1859,7 @@
    ]
   },
   {
-   "id": "e123",
+   "id": "e124",
    "date": "2006",
    "grain": "year",
    "track": "affiliation",
@@ -1858,7 +1873,7 @@
    ]
   },
   {
-   "id": "e124",
+   "id": "e125",
    "date": "2006",
    "grain": "year",
    "track": "affiliation",
@@ -1872,7 +1887,7 @@
    ]
   },
   {
-   "id": "e125",
+   "id": "e126",
    "date": "2006",
    "grain": "year",
    "track": "affiliation",
@@ -1886,7 +1901,7 @@
    ]
   },
   {
-   "id": "e126",
+   "id": "e127",
    "date": "2007",
    "grain": "year",
    "track": "other",
@@ -1902,7 +1917,7 @@
    ]
   },
   {
-   "id": "e127",
+   "id": "e128",
    "date": "2007-07",
    "grain": "month",
    "track": "location",
@@ -1916,7 +1931,7 @@
    ]
   },
   {
-   "id": "e128",
+   "id": "e129",
    "date": "2007-07",
    "grain": "month",
    "track": "affiliation",
@@ -1930,7 +1945,7 @@
    ]
   },
   {
-   "id": "e129",
+   "id": "e130",
    "date": "2007-07",
    "grain": "month",
    "track": "affiliation",
@@ -1945,7 +1960,7 @@
    ]
   },
   {
-   "id": "e130",
+   "id": "e131",
    "date": "2009-02",
    "grain": "month",
    "track": "role",
@@ -1965,7 +1980,7 @@
    ]
   },
   {
-   "id": "e131",
+   "id": "e132",
    "date": "2009-02-03",
    "grain": "day",
    "track": "role",
@@ -1979,7 +1994,7 @@
    ]
   },
   {
-   "id": "e132",
+   "id": "e133",
    "date": "2009-10",
    "grain": "month",
    "track": "role",
@@ -1993,7 +2008,7 @@
    ]
   },
   {
-   "id": "e133",
+   "id": "e134",
    "date": "2009-10-21",
    "grain": "day",
    "track": "role",
@@ -2008,7 +2023,7 @@
    ]
   },
   {
-   "id": "e134",
+   "id": "e135",
    "date": "2010-05-12",
    "grain": "day",
    "track": "other",
@@ -2023,7 +2038,7 @@
    ]
   },
   {
-   "id": "e135",
+   "id": "e136",
    "date": "2010-08-27",
    "grain": "day",
    "track": "other",
@@ -2038,7 +2053,7 @@
    ]
   },
   {
-   "id": "e136",
+   "id": "e137",
    "date": "2011",
    "grain": "year",
    "track": "role",
@@ -2053,7 +2068,7 @@
    ]
   },
   {
-   "id": "e137",
+   "id": "e138",
    "date": "2011",
    "grain": "year",
    "track": "role",
@@ -2068,7 +2083,7 @@
    ]
   },
   {
-   "id": "e138",
+   "id": "e139",
    "date": "2011-12",
    "grain": "month",
    "track": "role",
@@ -2082,7 +2097,7 @@
    ]
   },
   {
-   "id": "e139",
+   "id": "e140",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -2097,7 +2112,7 @@
    ]
   },
   {
-   "id": "e140",
+   "id": "e141",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -2112,7 +2127,7 @@
    ]
   },
   {
-   "id": "e141",
+   "id": "e142",
    "date": "2012-05-09",
    "grain": "day",
    "track": "other",
@@ -2127,7 +2142,7 @@
    ]
   },
   {
-   "id": "e142",
+   "id": "e143",
    "date": "2012-08-31",
    "grain": "day",
    "track": "other",
@@ -2142,7 +2157,7 @@
    ]
   },
   {
-   "id": "e143",
+   "id": "e144",
    "date": "2013-05-17",
    "grain": "day",
    "track": "other",
@@ -2157,7 +2172,7 @@
    ]
   },
   {
-   "id": "e144",
+   "id": "e145",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -2172,7 +2187,7 @@
    ]
   },
   {
-   "id": "e145",
+   "id": "e146",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -2187,7 +2202,7 @@
    ]
   },
   {
-   "id": "e146",
+   "id": "e147",
    "date": "2014-05-17",
    "grain": "day",
    "track": "other",
@@ -2202,6 +2217,43 @@
    ]
   },
   {
+   "date": "2014-05-24",
+   "grain": "day",
+   "track": "other",
+   "label": "Champions League",
+   "text": "Lost the Champions League final 4-1 to Real Madrid after extra time (first CL final since 1974)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#56",
+     "role": "date",
+     "quote": "On 17 May 2014 , a 1–1 draw at the Camp Nou against Barcelona secured the La Liga title for Atlético"
+    },
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#57",
+     "role": "description",
+     "quote": "Real ultimately won 4–1"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e148"
+  },
+  {
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "Champions League",
+   "text": "Lost on penalties to Real Madrid in the 2015-16 Champions League final",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Atlético_Madrid#57",
+     "role": "both",
+     "quote": "Atlético reached a second Champions League final in three seasons in 2015–16 , again facing Real Madrid , and lost on penalties after a 1–1 draw"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e149"
+  },
+  {
    "date": "2017",
    "grain": "year",
    "track": "ownership_structure",
@@ -2214,7 +2266,7 @@
      "quote": "in 2017 Atlético decided to end its franchise partnership with the ISL club due to broken commitments"
     }
    ],
-   "id": "e147"
+   "id": "e150"
   },
   {
    "date": "2017",
@@ -2229,10 +2281,10 @@
      "quote": "The club played their home games at the 54,990 seat Estadio Vicente Calderón in southern Madrid until 2017"
     }
    ],
-   "id": "e148"
+   "id": "e151"
   },
   {
-   "id": "e149",
+   "id": "e152",
    "date": "2017-09-17",
    "grain": "day",
    "track": "location",
@@ -2246,7 +2298,7 @@
    ]
   },
   {
-   "id": "e150",
+   "id": "e153",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -2261,7 +2313,7 @@
    ]
   },
   {
-   "id": "e151",
+   "id": "e154",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -2276,7 +2328,7 @@
    ]
   },
   {
-   "id": "e152",
+   "id": "e155",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -2292,7 +2344,7 @@
    ]
   },
   {
-   "id": "e153",
+   "id": "e156",
    "date": "2018",
    "grain": "year",
    "track": "other",
@@ -2307,7 +2359,7 @@
    ]
   },
   {
-   "id": "e154",
+   "id": "e157",
    "date": "2018-10",
    "grain": "month",
    "track": "other",
@@ -2322,7 +2374,7 @@
    ]
   },
   {
-   "id": "e155",
+   "id": "e158",
    "date": "2019",
    "grain": "year",
    "track": "affiliation",
@@ -2336,7 +2388,7 @@
    ]
   },
   {
-   "id": "e156",
+   "id": "e159",
    "date": "2019-04",
    "grain": "month",
    "track": "other",
@@ -2351,7 +2403,7 @@
    ]
   },
   {
-   "id": "e157",
+   "id": "e160",
    "date": "2019-10",
    "grain": "month",
    "track": "other",
@@ -2366,7 +2418,7 @@
    ]
   },
   {
-   "id": "e158",
+   "id": "e161",
    "date": "2020",
    "grain": "year",
    "track": "affiliation",
@@ -2380,22 +2432,7 @@
    ]
   },
   {
-   "date": "2020-07",
-   "grain": "month",
-   "track": "location",
-   "label": "stadium",
-   "text": "Former home Vicente Calderón demolished and replaced by a park",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Atlético_Madrid#78",
-     "role": "both",
-     "quote": "The Vicente Calderón has been demolished in July 2020"
-    }
-   ],
-   "id": "e159"
-  },
-  {
-   "id": "e160",
+   "id": "e162",
    "date": "2021-05-22",
    "grain": "day",
    "track": "other",
