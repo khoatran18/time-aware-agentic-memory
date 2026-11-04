@@ -1,0 +1,730 @@
+{
+ "page_id": "Teodor_Atanasiu",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1962-09-23",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born; later Romanian engineer and politician.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#0",
+     "role": "both",
+     "quote": "born 23 September 1962"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1982",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studies at Technical University of Cluj-Napoca, Vehicle Construction.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "from 1982 to 1987 attended the Vehicle Construction Technology section"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1987",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended studies at Technical University of Cluj-Napoca.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "from 1982 to 1987 attended the Vehicle Construction Technology section"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became engineer at mechanical plant in Cugir.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "From 1987 to 1995 , he was an engineer at the mechanical plant in his native town"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1990-02",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Joined the National Liberal Party (PNL).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "joining the PNL in February 1990"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1990-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Became secretary of PNL Cugir organisation.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "From the following month until 1992 , he was secretary of the partys Cugir organisation"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended secretary role in PNL Cugir organisation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "From the following month until 1992"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Became president of PNL Cugir organisation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "and its president from 1992 to 1993"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Became member of Cugir town council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "From 1992 to 1996 , he was a member of the Cugir town council"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended presidency of PNL Cugir organisation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "and its president from 1992 to 1993"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Became president of Alba County PNL chapter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "Since 1993 , he has been president of the Alba County PNL chapter"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Joined administrative council of another factory in Cugir.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "From 1994 to 1996 , he belonged to the administrative council of another factory there"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1995",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended engineer post at mechanical plant in Cugir.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "From 1987 to 1995 , he was an engineer at the mechanical plant in his native town"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Became chief of production at mechanical plant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "serving as chief of production from 1995 to 1996"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended chief of production role.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "serving as chief of production from 1995 to 1996"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Joined Alba County Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "in 1996 joined the Alba County Council"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Began heading water company in Alba Iulia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "while heading a water company in Alba Iulia from 1996 to 1997"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended membership of Cugir town council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "From 1992 to 1996 , he was a member of the Cugir town council"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended seat on administrative council of another factory.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "From 1994 to 1996 , he belonged to the administrative council of another factory there"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Became director of mechanical plant in Cugir.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "as director from 1997 to 2001"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended heading water company in Alba Iulia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "both",
+     "quote": "while heading a water company in Alba Iulia from 1996 to 1997"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Joined administrative council of former State Property Fund.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "date",
+     "quote": "From 1997 to 2000 , he was on"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#4",
+     "role": "description",
+     "quote": "the administrative council of the former State Property Fund"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended administrative council of former State Property Fund.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#3",
+     "role": "date",
+     "quote": "From 1997 to 2000 , he was on"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#4",
+     "role": "description",
+     "quote": "the administrative council of the former State Property Fund"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored strategy for restructuring Romanian defence industry.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#7",
+     "role": "both",
+     "quote": "his co-authorship in 2000 of a strategy for restructuring Romanias defence industry"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Joined PNL permanent central bureau.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "He was on the PNLs permanent central bureau from 2001 to"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Began administering Rompetrol-owned pipe manufacturer in Sibiu.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#4",
+     "role": "both",
+     "quote": "from 2001 to June 2004 , he administered a Dinu Patriciu-owned , Rompetrol subsidiary , pipe manufacturer in Sibiu"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended first PNL permanent central bureau term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "description",
+     "quote": "He was on the PNLs permanent central bureau"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#6",
+     "role": "date",
+     "quote": "2002 and from 2005 to 2006"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2004-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Became president of Alba County Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "of which he was president from June to December 2004"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2004-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended presidency of Alba County Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "both",
+     "quote": "of which he was president from June to December 2004"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2004-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Became Minister of National Defence in Tăriceanu cabinet.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#0",
+     "role": "both",
+     "quote": "from December 2004 to October 2006"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#7",
+     "role": "both",
+     "quote": "He was named Defence Minister at the end of 2004"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2005",
+   "grain": "year",
+   "track": "family",
+   "text": "Divorced first wife after twenty years of marriage.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#1",
+     "role": "both",
+     "quote": "before divorcing in 2005 after twenty years of marriage"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2005",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Laura Bișboacă.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#1",
+     "role": "both",
+     "quote": "Soon afterward , he married Laura Bișboacă"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2005",
+   "grain": "year",
+   "track": "role",
+   "text": "Rejoined PNL permanent central bureau (second term).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "description",
+     "quote": "He was on the PNLs permanent central bureau"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#6",
+     "role": "date",
+     "quote": "2002 and from 2005 to 2006"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended second PNL permanent central bureau term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#5",
+     "role": "description",
+     "quote": "He was on the PNLs permanent central bureau"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#6",
+     "role": "date",
+     "quote": "2002 and from 2005 to 2006"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "Became PNL party vice president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#6",
+     "role": "both",
+     "quote": "also serving as a party vice president from 2006 to 2008"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "Sought Romania's withdrawal from Iraq; blocked by President Băsescu.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#8",
+     "role": "both",
+     "quote": "the following year he sought Romanias withdrawal from Iraq"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2006-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Suspended as minister by President Băsescu.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#10",
+     "role": "both",
+     "quote": "In September , by which time the Social Democratic parliamentarian Eugen Bejinariu had also sued , Băsescu suspended the minister"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2006-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Resigned as Minister of National Defence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#0",
+     "role": "both",
+     "quote": "from December 2004 to October 2006"
+    },
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#11",
+     "role": "description",
+     "quote": "in late October , with Băsescu poised to dismiss him , resigned"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2006-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Named head of Authority for State Assets Recovery (AVAS).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#12",
+     "role": "both",
+     "quote": "Tăriceanu immediately named Atanasiu head of the Authority for State Assets Recovery"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Became member of Romanian Chamber of Deputies for Alba County.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#0",
+     "role": "both",
+     "quote": "He was a member of the Romanian Chamber of Deputies for Alba County from 2008 to 2016"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended party vice presidency.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#6",
+     "role": "both",
+     "quote": "also serving as a party vice president from 2006 to 2008"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2008-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended head of AVAS.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#12",
+     "role": "both",
+     "quote": "a position he held until December 2008"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2009-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended service on Chamber of Deputies economics committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#12",
+     "role": "both",
+     "quote": "where he served until September 2009 on the economics , reform and privatisation committee"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2012",
+   "grain": "year",
+   "track": "role",
+   "text": "Returned to parliament in the Chamber of Deputies.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#13",
+     "role": "both",
+     "quote": "That autumn , he was returned to parliament"
+    }
+   ]
+  },
+  {
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Ran for president of the Alba County Council and lost, coming second with 40.5%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#13",
+     "role": "both",
+     "quote": "At the 2012 local election , he ran for president of the Alba County Council , coming in second with 40.5% of the vote and losing"
+    }
+   ],
+   "id": "e45"
+  },
+  {
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "PNL presidency",
+   "text": "Candidate for the PNL presidency, withdrew shortly before the vote and backed Alina Gorghiu",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#13",
+     "role": "both",
+     "quote": "In late 2014 , he was a candidate for the PNL presidency , but withdrew from the race shortly before it was decided"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e46"
+  },
+  {
+   "id": "e47",
+   "date": "2016",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term in the Chamber of Deputies.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#0",
+     "role": "both",
+     "quote": "from 2008 to 2016"
+    }
+   ]
+  },
+  {
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Ran for the Senate at the 2016 election but lost",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Teodor_Atanasiu#14",
+     "role": "both",
+     "quote": "Senate at the 2016 election , but lost"
+    }
+   ],
+   "id": "e48"
+  }
+ ],
+ "undated_mentions": [
+  "Hired Laura Bișboacă's brother at the Agriculture Ministry and at AVAS (no date given)",
+  "Gave jobs to his best man and business partner (no date given)",
+  "Prosecutors decided not to pursue charges (shortly after September 2006, no exact date)",
+  "Disciplined crew members of frigate Regina Maria after hunger strike (no date given)"
+ ]
+}

@@ -1,0 +1,170 @@
+{
+  "page_id": "Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1978-02-14",
+      "grain": "day",
+      "track": "role",
+      "text": "Hans Peter Bull takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Hans Peter Bull ( 14 February 1978 to 16 May 1983 )"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1983-05-16",
+      "grain": "day",
+      "track": "role",
+      "text": "Hans Peter Bull leaves office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Hans Peter Bull ( 14 February 1978 to 16 May 1983 )"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1983-05-16",
+      "grain": "day",
+      "track": "role",
+      "text": "Reinhold Baumann takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Reinhold Baumann ( 16 May 1983 to 9 June 1988 )"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1988-06-09",
+      "grain": "day",
+      "track": "role",
+      "text": "Reinhold Baumann leaves office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Reinhold Baumann ( 16 May 1983 to 9 June 1988 )"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1988-06-09",
+      "grain": "day",
+      "track": "role",
+      "text": "Alfred Einwag takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Alfred Einwag ( 9 June 1988 to 30 June 1993 )"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1993-06-30",
+      "grain": "day",
+      "track": "role",
+      "text": "Alfred Einwag leaves office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Alfred Einwag ( 9 June 1988 to 30 June 1993 )"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1993-07-01",
+      "grain": "day",
+      "track": "role",
+      "text": "Joachim Jacob takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Joachim Jacob ( 1 July 1993 to 17 December 2003 )"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2003-12-17",
+      "grain": "day",
+      "track": "role",
+      "text": "Joachim Jacob leaves office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Joachim Jacob ( 1 July 1993 to 17 December 2003 )"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2003-12-17",
+      "grain": "day",
+      "track": "role",
+      "text": "Commissioner presidency changed hands (name missing) and a new holder took office",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "( 17 December 2003 to 16 December 2013 )"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2006-01-01",
+      "grain": "day",
+      "track": "other",
+      "label": "mandate",
+      "text": "Freedom of information ombudsman function introduced with the German FOI Act",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#0", "role": "both", "quote": "The latter was introduced with the German Freedom of Information Act on 1 January 2006"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2006-01-01",
+      "grain": "day",
+      "track": "naming",
+      "text": "Office title changed from Federal Commissioner for Data Protection (BfD) to current name",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#0", "role": "date", "quote": "the German Freedom of Information Act on 1 January 2006"},
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#1", "role": "description", "quote": "the title was Federal Commissioner for Data Protection ( BfD )"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2013-12-16",
+      "grain": "day",
+      "track": "role",
+      "text": "Commissioner presidency changed hands (name missing) and a new holder took office",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "( 17 December 2003 to 16 December 2013 )"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2013-12-19",
+      "grain": "day",
+      "track": "role",
+      "text": "Andrea Voßhoff takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Andrea Voßhoff ( 19 December 2013 to 5 January 2019 )"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2016",
+      "grain": "year",
+      "track": "other",
+      "label": "status change",
+      "text": "Office became an independent federal agency under EU regulations",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#0", "role": "both", "quote": "In 2016 , it became an independent federal agency in accordance with EU regulations"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2019-01-05",
+      "grain": "day",
+      "track": "role",
+      "text": "Andrea Voßhoff leaves office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Andrea Voßhoff ( 19 December 2013 to 5 January 2019 )"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2019-01-07",
+      "grain": "day",
+      "track": "role",
+      "text": "Ulrich Kelber takes office as commissioner",
+      "evidence": [
+        {"chunk_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6", "role": "both", "quote": "Ulrich Kelber ( 7 January 2019 to present )"}
+      ]
+    }
+  ],
+  "undated_mentions": []
+}
