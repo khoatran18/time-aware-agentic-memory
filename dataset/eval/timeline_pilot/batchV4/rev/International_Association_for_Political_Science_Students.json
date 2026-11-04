@@ -1,187 +1,267 @@
 {
-  "page_id": "International_Association_for_Political_Science_Students",
-  "events": [
+ "page_id": "International_Association_for_Political_Science_Students",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "founding idea",
+   "text": "Idea of a permanent international student network first discussed",
+   "evidence": [
     {
-      "id": "e1",
-      "date": "1996",
-      "grain": "year",
-      "track": "other",
-      "label": "founding idea",
-      "text": "Idea of a permanent international student network first discussed",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#2", "role": "both", "quote": "was first discussed in 1996 , when students from Leiden University visited their colleagues in Rome"}
-      ]
-    },
-    {
-      "id": "e2",
-      "date": "1998",
-      "grain": "year",
-      "track": "other",
-      "label": "founding",
-      "text": "First General Assembly in Leiden; association founded and legally registered",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#2", "role": "both", "quote": "The first IAPSS General Assembly was held in Leiden , the Netherlands , in 1998 , where the Association was founded and legally registered"}
-      ]
-    },
-    {
-      "id": "e3",
-      "date": "1999",
-      "grain": "year",
-      "track": "role",
-      "text": "Chairperson of the Member Association began serving as association President",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#9", "role": "both", "quote": "From 1999 to 2004 , the Chairperson of the Member Association"}
-      ]
-    },
-    {
-      "id": "e4",
-      "date": "2001",
-      "grain": "year",
-      "track": "work",
-      "text": "Politikon open-access journal founded as flagship publication",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#13", "role": "both", "quote": "is an open-access journal founded in 2001"}
-      ]
-    },
-    {
-      "id": "e5",
-      "date": "2003",
-      "grain": "year",
-      "track": "location",
-      "text": "Headquarters established in Ljubljana, Slovenia",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "both", "quote": "In 2003 , the headquarters were established in Ljubljana , Slovenia"}
-      ]
-    },
-    {
-      "id": "e6",
-      "date": "2004",
-      "grain": "year",
-      "track": "role",
-      "text": "First annual Executive Committee (ExCom) elected",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "both", "quote": "In 2004 , the first annual Executive Committee ( ExCom ) was elected"}
-      ]
-    },
-    {
-      "id": "e7",
-      "date": "2004",
-      "grain": "year",
-      "track": "role",
-      "text": "Chairperson-as-President arrangement from 1999 ended",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#9", "role": "both", "quote": "From 1999 to 2004 , the Chairperson of the Member Association"}
-      ]
-    },
-    {
-      "id": "e8",
-      "date": "2004-10-01",
-      "grain": "day",
-      "track": "role",
-      "text": "Presidential positions detached; ExCom became permanent board led by elected president",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#9", "role": "both", "quote": "From 1 October 2004 , these positions were detached and the IAPSS ExCom were established as a permanent board"}
-      ]
-    },
-    {
-      "id": "e9",
-      "date": "2005",
-      "grain": "year",
-      "track": "other",
-      "label": "incorporation",
-      "flag": "approximate_date",
-      "text": "New Slovenian association incorporated, succeeding the Dutch-based body",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "both", "quote": "By 2005 , the incorporation of a new association in Slovenia was finalized"}
-      ]
-    },
-    {
-      "id": "e10",
-      "date": "2005",
-      "grain": "year",
-      "track": "work",
-      "text": "A Different View founded as a monthly online magazine",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#15", "role": "both", "quote": "Founded in 2005 as a monthly online magazine"}
-      ]
-    },
-    {
-      "id": "e11",
-      "date": "2013",
-      "grain": "year",
-      "track": "location",
-      "text": "Headquarters relocated to Nijmegen; association returned to Dutch registration",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "both", "quote": "IAPSS relocated its headquarters to Nijmegen in 2013"}
-      ]
-    },
-    {
-      "id": "e12",
-      "date": "2013",
-      "grain": "year",
-      "track": "other",
-      "label": "statutes revision",
-      "flag": "derived_date",
-      "text": "Full revision of statutes and internal regulations accompanying HQ relocation",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "date", "quote": "IAPSS relocated its headquarters to Nijmegen in 2013"},
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#4", "role": "description", "quote": "The headquarters relocation was accompanied by a full revision of the statutes and internal regulations"}
-      ]
-    },
-    {
-      "id": "e13",
-      "date": "2013",
-      "grain": "year",
-      "track": "other",
-      "label": "resolution",
-      "text": "16th General Assembly in Rome resolved to coordinate programs from Nijmegen seat",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#3", "role": "both", "quote": "Based on a resolution taken by the 16th General Assembly 2013 in"},
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#4", "role": "description", "quote": "the realization of all portfolio programs are now coordinated from IAPSS permanent seat"}
-      ]
-    },
-    {
-      "id": "e14",
-      "date": "2013-07",
-      "grain": "month",
-      "track": "work",
-      "text": "A Different View relaunched as an online blog",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#15", "role": "both", "quote": "relaunched as a blog in July 2013"}
-      ]
-    },
-    {
-      "id": "e15",
-      "date": "2014",
-      "grain": "year",
-      "track": "work",
-      "text": "First IAPSS World Congress for Political Science Students held",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#12", "role": "both", "quote": "The 1st World Congress was held in 2014"},
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#11", "role": "date", "quote": "World Congress for Political Science Students 2014-2021"}
-      ]
-    },
-    {
-      "id": "e16",
-      "date": "2015",
-      "grain": "year",
-      "track": "work",
-      "text": "Annual Conference replaced by the IAPSS World Congress",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#10", "role": "both", "quote": "In 2015 , the Annual Conference was replaced by the IAPSS World Congress"}
-      ]
-    },
-    {
-      "id": "e17",
-      "date": "2018",
-      "grain": "year",
-      "track": "other",
-      "label": "regional branches",
-      "text": "Regional branches established in Africa, Asia, Europe, Americas and Oceania",
-      "evidence": [
-        {"chunk_id": "/wiki/International_Association_for_Political_Science_Students#0", "role": "both", "quote": "since 2018 IAPSS has regional branches in Africa"}
-      ]
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#2",
+     "role": "both",
+     "quote": "was first discussed in 1996 , when students from Leiden University visited their colleagues in Rome"
     }
-  ],
-  "undated_mentions": []
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "First General Assembly in Leiden; association founded and legally registered",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#2",
+     "role": "both",
+     "quote": "The first IAPSS General Assembly was held in Leiden , the Netherlands , in 1998 , where the Association was founded and legally registered"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Chairperson of the Member Association began serving as association President",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#9",
+     "role": "both",
+     "quote": "From 1999 to 2004 , the Chairperson of the Member Association"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Politikon open-access journal founded as flagship publication",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#13",
+     "role": "both",
+     "quote": "is an open-access journal founded in 2001"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2003",
+   "grain": "year",
+   "track": "location",
+   "text": "Headquarters established in Ljubljana, Slovenia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "both",
+     "quote": "In 2003 , the headquarters were established in Ljubljana , Slovenia"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "First annual Executive Committee (ExCom) elected",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "both",
+     "quote": "In 2004 , the first annual Executive Committee ( ExCom ) was elected"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Chairperson-as-President arrangement from 1999 ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#9",
+     "role": "both",
+     "quote": "From 1999 to 2004 , the Chairperson of the Member Association"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2004-10-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Presidential positions detached; ExCom became permanent board led by elected president",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#9",
+     "role": "both",
+     "quote": "From 1 October 2004 , these positions were detached and the IAPSS ExCom were established as a permanent board"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "incorporation",
+   "flag": "approximate_date",
+   "text": "New Slovenian association incorporated, succeeding the Dutch-based body",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "both",
+     "quote": "By 2005 , the incorporation of a new association in Slovenia was finalized"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "A Different View founded as a monthly online magazine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#15",
+     "role": "both",
+     "quote": "Founded in 2005 as a monthly online magazine"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2013",
+   "grain": "year",
+   "track": "location",
+   "text": "Headquarters relocated to Nijmegen; association returned to Dutch registration",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "both",
+     "quote": "IAPSS relocated its headquarters to Nijmegen in 2013"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "statutes revision",
+   "flag": "derived_date",
+   "text": "Full revision of statutes and internal regulations accompanying HQ relocation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "date",
+     "quote": "IAPSS relocated its headquarters to Nijmegen in 2013"
+    },
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#4",
+     "role": "description",
+     "quote": "The headquarters relocation was accompanied by a full revision of the statutes and internal regulations"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "resolution",
+   "text": "16th General Assembly in Rome resolved to coordinate programs from Nijmegen seat",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#3",
+     "role": "both",
+     "quote": "Based on a resolution taken by the 16th General Assembly 2013 in"
+    },
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#4",
+     "role": "description",
+     "quote": "the realization of all portfolio programs are now coordinated from IAPSS permanent seat"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2013-07",
+   "grain": "month",
+   "track": "work",
+   "text": "A Different View relaunched as an online blog",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#15",
+     "role": "both",
+     "quote": "relaunched as a blog in July 2013"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "First IAPSS World Congress for Political Science Students held",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#12",
+     "role": "both",
+     "quote": "The 1st World Congress was held in 2014"
+    },
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#11",
+     "role": "date",
+     "quote": "World Congress for Political Science Students 2014-2021"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "Annual Conference replaced by the IAPSS World Congress",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#10",
+     "role": "both",
+     "quote": "In 2015 , the Annual Conference was replaced by the IAPSS World Congress"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "regional branches",
+   "text": "Regional branches established in Africa, Asia, Europe, Americas and Oceania",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Association_for_Political_Science_Students#0",
+     "role": "both",
+     "quote": "since 2018 IAPSS has regional branches in Africa"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
 }

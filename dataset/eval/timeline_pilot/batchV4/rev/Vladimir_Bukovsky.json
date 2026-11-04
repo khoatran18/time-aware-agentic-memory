@@ -1,74 +1,960 @@
 {
-  "page_id": "/wiki/Vladimir_Bukovsky",
-  "events": [
-    {"id": "e1", "date": "1942-12-30", "grain": "day", "track": "other", "label": "birth", "text": "Born in Belebey to Russian parents; later a Russian-born British activist", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#0", "role": "both", "quote": "30 December 1942 – 27 October 2019 )"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#3", "role": "description", "quote": "Vladimir Bukovsky was born to Russian parents in the town of Belebey"}]},
-    {"id": "e2", "date": "1960-09", "grain": "month", "track": "affiliation", "text": "Entered Moscow University to study biology", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#5", "role": "both", "quote": "In September 1960 , Bukovsky entered Moscow University to study biology"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#4", "role": "description", "quote": "Bukovsky was enrolled at Moscow State University for biology"}]},
-    {"id": "e3", "date": "1961", "grain": "year", "track": "education", "text": "Expelled from Moscow University in autumn 1961", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#7", "role": "date", "quote": "of the university in autumn 1961"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#6", "role": "description", "quote": "He was interrogated twice before being thrown out"}]},
-    {"id": "e4", "date": "1963-06-01", "grain": "day", "track": "other", "label": "arrest", "text": "Arrested for copying anti-Soviet literature; sent to psychiatric hospital", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#8", "role": "both", "quote": "Bukovsky was arrested on 1 June 1963"}]},
-    {"id": "e5", "date": "1965-02", "grain": "month", "track": "other", "label": "detention", "text": "Left Leningrad Special Psychiatric Hospital after almost two years", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#8", "role": "both", "quote": "where he remained for almost two years , until February 1965"}]},
-    {"id": "e6", "date": "1965-12", "grain": "month", "track": "other", "label": "demonstration", "text": "Helped prepare the Pushkin Square Glasnost demonstration", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#10", "role": "both", "quote": "In December 1965 , Bukovsky helped prepare a demonstration on Pushkin Square"}]},
-    {"id": "e7", "date": "1965-12-02", "grain": "day", "track": "other", "label": "arrest", "text": "Arrested three days before the 5 December demonstration", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#10", "role": "date", "quote": "The demonstration on 5 December 1965 ( Constitution Day )"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#12", "role": "description", "quote": "Three days earlier he was arrested , charged with distributing the appeal"}]},
-    {"id": "e8", "date": "1966-07", "grain": "month", "track": "other", "label": "detention", "text": "Released from psychiatric custody after several months", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#12", "role": "both", "quote": "the Serbsky Institute , until July 1966"}]},
-    {"id": "e9", "date": "1967-01-22", "grain": "day", "track": "other", "label": "demonstration", "text": "Held second Pushkin Square demonstration with other activists", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#13", "role": "both", "quote": "On 22 January 1967 , Bukovsky , Vadim Delaunay , Yevgeny Kushev and Victor Khaustov held another demonstration on Pushkin Square"}]},
-    {"id": "e10", "date": "1967-09-01", "grain": "day", "track": "other", "label": "trial", "text": "Own trial; final words; sentenced to three years labour camp", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#14", "role": "both", "quote": "On 1 September 1967 , at his own trial , Bukovsky used his final words"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#16", "role": "description", "quote": "was given three years in an ordinary regime corrective-labour camp"}]},
-    {"id": "e11", "date": "1970-01", "grain": "month", "track": "other", "label": "release", "text": "Released from labour camp at Bor", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#16", "role": "both", "quote": "He was released in January 1970"}]},
-    {"id": "e12", "date": "1971", "grain": "year", "track": "other", "label": "document smuggling", "text": "Smuggled over 150 pages on Soviet psychiatric abuse to the West", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#19", "role": "both", "quote": "In 1971 , Bukovsky managed to smuggle to the West over 150 pages"}]},
-    {"id": "e13", "date": "1971-03-29", "grain": "day", "track": "other", "label": "arrest", "text": "Arrested after the psychiatric-abuse documents were released to press", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#24", "role": "both", "quote": "arrested on 29 March 1971"}]},
-    {"id": "e14", "date": "1971-08", "grain": "month", "track": "other", "label": "detention", "text": "Held about three months in Serbsky Institute, found mentally sound", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#24", "role": "both", "quote": "in August , Bukovsky spent approximately three months in the Serbsky Institute"}]},
-    {"id": "e15", "date": "1972-01", "grain": "month", "track": "other", "label": "trial", "text": "Trial for slandering Soviet psychiatry; sentenced to prison, labour camp and exile", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#25", "role": "both", "quote": "During the trial in January 1972 Bukovsky was accused of slandering Soviet psychiatry"}]},
-    {"id": "e16", "date": "1975", "grain": "year", "track": "work", "text": "Russian edition of Manual on Psychiatry for Dissidents, co-written with Gluzman", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#26", "role": "both", "quote": "in Russian ( 1975 )"}]},
-    {"id": "e17", "date": "1976-12", "grain": "month", "track": "location", "text": "Deported from the USSR and exchanged at Zurich airport for Luis Corvalan", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#28", "role": "both", "quote": "In December 1976 , Bukovsky was deported from the USSR"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#1", "role": "both", "quote": "After being expelled from the Soviet Union in late 1976"}]},
-    {"id": "e18", "date": "1977-03", "grain": "month", "track": "other", "label": "meeting", "text": "Met US President Jimmy Carter at the White House", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#29", "role": "both", "quote": "In March 1977 , US President Jimmy Carter met with Bukovsky at the White House"}]},
-    {"id": "e19", "date": "1978", "grain": "year", "track": "work", "text": "Published autobiography To Build a Castle: My Life as a Dissenter", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#31", "role": "both", "quote": "He also wrote and published To Build a Castle : My Life as a Dissenter ( 1978 )"}]},
-    {"id": "e20", "date": "1979", "grain": "year", "track": "work", "text": "Russian edition of memoirs published by Chalidze in New York", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#79", "role": "both", "quote": "1979 : 382 pp . The first publication in Russian of Bukovskys memoirs"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#31", "role": "description", "quote": "It was published in Russian the following year by Chalidze publishers in New York"}]},
-    {"id": "e21", "date": "1983", "grain": "year", "track": "other", "label": "founding", "text": "Co-founded Resistance International with Armando Valladares", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#34", "role": "both", "quote": "In 1983 , together with Cuban dissident Armando Valladares , Bukovsky co-founded"}]},
-    {"id": "e22", "date": "1989", "grain": "year", "track": "work", "text": "First publication of his memoirs in the USSR", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#79", "role": "both", "quote": "1989 : The first publication of Bukovskys memoirs in the USSR"}]},
-    {"id": "e23", "date": "1991-04", "grain": "month", "track": "location", "text": "First visit to Moscow since his deportation", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#36", "role": "both", "quote": "In April 1991 , Vladimir Bukovsky visited Moscow for the first time since his deportation"}]},
-    {"id": "e24", "date": "1991-12-05", "grain": "day", "track": "other", "label": "conviction annulled", "text": "Both Soviet-era convictions annulled by RSFSR Supreme Court decree", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#37", "role": "both", "quote": "On 5 December 1991 , both of Bukovskys Soviet-era convictions were annulled"}]},
-    {"id": "e25", "date": "1992", "grain": "year", "track": "other", "label": "expert witness", "text": "Invited as expert witness in Constitutional Court case against CPSU ban", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#40", "role": "both", "quote": "In 1992 , after the dissolution of the Soviet Union , President Yeltsins government invited Bukovsky to serve as an expert witness"}]},
-    {"id": "e26", "date": "1992", "grain": "year", "track": "role", "text": "Proposed as Moscow mayoral candidate; he declined the offer", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#46", "role": "both", "quote": "In 1992 , a group of liberal deputies of the Moscow City Council proposed Bukovskys candidacy"}]},
-    {"id": "e27", "date": "1992", "grain": "year", "track": "other", "label": "citizenship restored", "text": "Russian citizenship formally restored by President Yeltsin", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#37", "role": "both", "quote": "The following year President Yeltsin formally restored Bukovskys Russian citizenship"}]},
-    {"id": "e28", "date": "1995", "grain": "year", "track": "work", "text": "Published Judgment in Moscow; French edition Judgement a Moscou", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#43", "role": "both", "quote": "Bukovskys Judgment in Moscow ( 1995 )"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#45", "role": "both", "quote": "published in French as Judgement à Moscou ( 1995 )"}]},
-    {"id": "e29", "date": "1996", "grain": "year", "track": "role", "text": "Group suggested him as alternative presidential candidate; no formal nomination", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#47", "role": "both", "quote": "In early 1996 , a group of Moscow academics , journalists and intellectuals suggested that Vladimir Bukovsky should run for President of Russia"}]},
-    {"id": "e30", "date": "1996", "grain": "year", "track": "work", "text": "Russian edition of Judgment in Moscow", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#45", "role": "both", "quote": "in Russian ( 1996 )"}]},
-    {"id": "e31", "date": "1996", "grain": "year", "track": "work", "text": "German translation Abrechnung mit Moskau", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#77", "role": "both", "quote": "( 1996 ) Abrechnung mit Moskau"}]},
-    {"id": "e32", "date": "1999", "grain": "year", "track": "work", "text": "Soviet Archives online archive of photocopied CPSU documents published", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#43", "role": "both", "quote": "and then , in 1999 , to make them available online"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#77", "role": "both", "quote": "1999 : Soviet Archives : Online archive compiled by Vladimir Bukovsky"}]},
-    {"id": "e33", "date": "2001", "grain": "year", "track": "other", "label": "award", "text": "Received the Truman-Reagan Medal of Freedom", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#2", "role": "both", "quote": "In 2001 , Vladimir Bukovsky received the Truman-Reagan Medal of Freedom"}]},
-    {"id": "e34", "date": "2001", "grain": "year", "track": "role", "text": "Elected President of Comitatus pro Libertatibus in Florence", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#48", "role": "both", "quote": "In 2001 , Bukovsky was elected President of the Comitatus pro Libertatibus"}]},
-    {"id": "e35", "date": "2002", "grain": "year", "track": "other", "label": "meeting", "text": "Boris Nemtsov visited him in Cambridge to discuss Russian opposition strategy", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#49", "role": "both", "quote": "In 2002 , Boris Nemtsov , former Deputy Prime Minister of Russia who was then"}]},
-    {"id": "e36", "date": "2004", "grain": "year", "track": "work", "text": "Published EUSSR booklet with Pavel Stroilov", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#58", "role": "both", "quote": "a booklet written with Pavel Stroilov and published in 2004"}]},
-    {"id": "e37", "date": "2004-01", "grain": "month", "track": "other", "label": "founding", "text": "Co-founded Committee 2008, umbrella opposition organisation", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#52", "role": "both", "quote": "In January 2004 , with Garry Kasparov , Boris Nemtsov , Vladimir V . Kara-Murza and others , Bukovsky was a co-founder of Committee 2008"}]},
-    {"id": "e38", "date": "2007-05", "grain": "month", "track": "role", "text": "Announced plans to run for president in the 2008 election", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#63", "role": "both", "quote": "In May 2007 , Bukovsky announced his plans to run as candidate for president"}]},
-    {"id": "e39", "date": "2007-12-16", "grain": "day", "track": "role", "text": "Officially nominated as presidential candidate", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#63", "role": "both", "quote": "On 16 December 2007 , Bukovsky was officially nominated to run against Dmitry Medvedev"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#64", "role": "both", "quote": "In Moscow more than 800 citizens of the Russian Federation nominated Bukovsky for president on 16 December 2007"}]},
-    {"id": "e40", "date": "2007-12-18", "grain": "day", "track": "role", "text": "Submitted candidacy application to the Central Election Commission", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#64", "role": "both", "quote": "submitted his application to the Central Election Commission on time , 18 December 2007"}]},
-    {"id": "e41", "date": "2007-12-22", "grain": "day", "track": "role", "text": "Central Electoral Commission rejected his candidacy application", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#66", "role": "both", "quote": "On 22 December 2007 , the Central Electoral Commission turned down Bukovskys application"}]},
-    {"id": "e42", "date": "2007-12-28", "grain": "day", "track": "role", "text": "Appealed the rejection to the RF Supreme Court", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#66", "role": "both", "quote": "Bukovsky appealed against the decision at the RF Supreme Court on 28 December 2007"}]},
-    {"id": "e43", "date": "2008-01-15", "grain": "day", "track": "role", "text": "Appeal heard before the RF Supreme Court cassation board", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#66", "role": "both", "quote": "before its cassation board on 15 January 2008"}]},
-    {"id": "e44", "date": "2009", "grain": "year", "track": "affiliation", "text": "Joined council of the Solidarnost opposition coalition", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#54", "role": "both", "quote": "In 2009 , Bukovsky joined the council of the new Solidarnost coalition"}]},
-    {"id": "e45", "date": "2011-03-30", "grain": "day", "track": "other", "label": "petition", "text": "Requested British arrest of Gorbachev over alleged crimes against humanity", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#67", "role": "both", "quote": "On 30 March 2011 , Bukovsky requested the arrest of Mikhail Gorbachev by the British authorities"}]},
-    {"id": "e46", "date": "2013", "grain": "year", "track": "work", "text": "Published a collection of interviews in Russia on Putin and his team", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#68", "role": "both", "quote": "The following year , Bukovsky published a collection of interviews in Russia"}]},
-    {"id": "e47", "date": "2014-10", "grain": "month", "track": "other", "label": "passport", "text": "Russian authorities declined to issue him a new foreign passport", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#70", "role": "both", "quote": "In October 2014 , the Russian authorities declined to issue Bukovsky with a new foreign-travel passport"}]},
-    {"id": "e48", "date": "2015", "grain": "year", "track": "other", "label": "prosecution", "text": "UK Crown Prosecution Service announced prosecution over prohibited images", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#72", "role": "both", "quote": "In 2015 , the UK Crown Prosecution Service announced prosecution of Bukovsky"}]},
-    {"id": "e49", "date": "2015-03-17", "grain": "day", "track": "other", "label": "testimony", "text": "Gave evidence at the Litvinenko poisoning inquiry", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#71", "role": "both", "quote": "On 17 March 2015 , at the long-delayed inquiry into Alexander Litvinenkos fatal poisoning"}]},
-    {"id": "e50", "date": "2015-05", "grain": "month", "track": "other", "label": "surgery", "text": "Nine-hour heart operation in a private German clinic", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#74", "role": "both", "quote": "In early May 2015 , it was reported that Bukovsky had undergone a nine-hour heart operation"}]},
-    {"id": "e51", "date": "2016", "grain": "year", "track": "work", "text": "Italian edition Gli archivi segreti di Mosca published by Spirali", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#45", "role": "both", "quote": "In 2016 , it was published in Italian , by Spirali"}]},
-    {"id": "e52", "date": "2016", "grain": "year", "track": "work", "text": "Upgraded version of the 1999 Bukovsky Archives published", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#78", "role": "both", "quote": "2016 : The Bukovsky Archives upgraded version of 1999 archive"}]},
-    {"id": "e53", "date": "2019-05", "grain": "month", "track": "work", "text": "English translation of Judgment in Moscow published", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#45", "role": "both", "quote": "An English language translation did not appear until May 2019"}, {"chunk_id": "/wiki/Vladimir_Bukovsky#77", "role": "both", "quote": "Judgment in Moscow : Soviet Crimes and Western Complicity ( May 2019 )"}]},
-    {"id": "e54", "date": "2019-10-27", "grain": "day", "track": "other", "label": "death", "text": "Died of a heart attack in Cambridge, aged 76", "evidence": [{"chunk_id": "/wiki/Vladimir_Bukovsky#76", "role": "both", "quote": "Bukovsky died of a heart attack on 27 October 2019 at the age of 76"}]}
-  ],
-  "undated_mentions": [
-    "Expelled from school for an unauthorised magazine during last school year (no date)",
-    "Completed secondary education at evening classes (no date)",
-    "Returned to Moscow with parents after World War II (no date)",
-    "Wrote critical notes on the Komsomol, later titled Theses on the Collapse of the Komsomol (no date)",
-    "Convicted in absentia on grounds of insanity under Article 70.1 (after June 1963, no date)",
-    "Campaigned for UK and US boycott of the 1980 Moscow Olympics (late 1970s to early 1980s)",
-    "Moved to Great Britain and settled in Cambridge (after December 1976, no date)",
-    "Gained masters degree in biology at Cambridge University (no date)",
-    "Photocopied CPSU archive documents and smuggled them to the West (c. 1992, no exact date)",
-    "Random House contract for the book cancelled (no date)",
-    "Listed as potential vice-presidential running-mate for Yeltsin (1991 run-up, no exact date)",
-    "Issued High Court libel writ against the CPS (2015, after heart surgery, no exact date)",
-    "Ruled too ill to stand trial (after 2015, no date)"
-  ]
+ "page_id": "/wiki/Vladimir_Bukovsky",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1942-12-30",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Belebey to Russian parents; later a Russian-born British activist",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#0",
+     "role": "both",
+     "quote": "30 December 1942 – 27 October 2019 )"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#3",
+     "role": "description",
+     "quote": "Vladimir Bukovsky was born to Russian parents in the town of Belebey"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1960-09",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Entered Moscow University to study biology",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#5",
+     "role": "both",
+     "quote": "In September 1960 , Bukovsky entered Moscow University to study biology"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#4",
+     "role": "description",
+     "quote": "Bukovsky was enrolled at Moscow State University for biology"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1961",
+   "grain": "year",
+   "track": "education",
+   "text": "Expelled from Moscow University in autumn 1961",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#7",
+     "role": "date",
+     "quote": "of the university in autumn 1961"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#6",
+     "role": "description",
+     "quote": "He was interrogated twice before being thrown out"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1963-06-01",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested for copying anti-Soviet literature; sent to psychiatric hospital",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#8",
+     "role": "both",
+     "quote": "Bukovsky was arrested on 1 June 1963"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1965-02",
+   "grain": "month",
+   "track": "other",
+   "label": "detention",
+   "text": "Left Leningrad Special Psychiatric Hospital after almost two years",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#8",
+     "role": "both",
+     "quote": "where he remained for almost two years , until February 1965"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1965-12",
+   "grain": "month",
+   "track": "other",
+   "label": "demonstration",
+   "text": "Helped prepare the Pushkin Square Glasnost demonstration",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#10",
+     "role": "both",
+     "quote": "In December 1965 , Bukovsky helped prepare a demonstration on Pushkin Square"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1965-12-02",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested three days before the 5 December demonstration",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#10",
+     "role": "date",
+     "quote": "The demonstration on 5 December 1965 ( Constitution Day )"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#12",
+     "role": "description",
+     "quote": "Three days earlier he was arrested , charged with distributing the appeal"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1966-07",
+   "grain": "month",
+   "track": "other",
+   "label": "detention",
+   "text": "Released from psychiatric custody after several months",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#12",
+     "role": "both",
+     "quote": "the Serbsky Institute , until July 1966"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1967-01-22",
+   "grain": "day",
+   "track": "other",
+   "label": "demonstration",
+   "text": "Held second Pushkin Square demonstration with other activists",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#13",
+     "role": "both",
+     "quote": "On 22 January 1967 , Bukovsky , Vadim Delaunay , Yevgeny Kushev and Victor Khaustov held another demonstration on Pushkin Square"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1967-09-01",
+   "grain": "day",
+   "track": "other",
+   "label": "trial",
+   "text": "Own trial; final words; sentenced to three years labour camp",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#14",
+     "role": "both",
+     "quote": "On 1 September 1967 , at his own trial , Bukovsky used his final words"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#16",
+     "role": "description",
+     "quote": "was given three years in an ordinary regime corrective-labour camp"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1970-01",
+   "grain": "month",
+   "track": "other",
+   "label": "release",
+   "text": "Released from labour camp at Bor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#16",
+     "role": "both",
+     "quote": "He was released in January 1970"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "document smuggling",
+   "text": "Smuggled over 150 pages on Soviet psychiatric abuse to the West",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#19",
+     "role": "both",
+     "quote": "In 1971 , Bukovsky managed to smuggle to the West over 150 pages"
+    }
+   ]
+  },
+  {
+   "date": "1971-03-12",
+   "grain": "day",
+   "track": "other",
+   "label": "letter",
+   "text": "Bukovsky's letter on psychiatric abuse appeared in The Times (London)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#20",
+     "role": "date",
+     "quote": "The documents were released to the press in March 1971"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#20",
+     "role": "description",
+     "quote": "Bukovskys letter appeared on 12 March in The Times ( London )"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e13"
+  },
+  {
+   "id": "e14",
+   "date": "1971-03-29",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested after the psychiatric-abuse documents were released to press",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#24",
+     "role": "both",
+     "quote": "arrested on 29 March 1971"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1971-08",
+   "grain": "month",
+   "track": "other",
+   "label": "detention",
+   "text": "Held about three months in Serbsky Institute, found mentally sound",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#24",
+     "role": "both",
+     "quote": "in August , Bukovsky spent approximately three months in the Serbsky Institute"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1972-01",
+   "grain": "month",
+   "track": "other",
+   "label": "trial",
+   "text": "Trial for slandering Soviet psychiatry; sentenced to prison, labour camp and exile",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#25",
+     "role": "both",
+     "quote": "During the trial in January 1972 Bukovsky was accused of slandering Soviet psychiatry"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1975",
+   "grain": "year",
+   "track": "work",
+   "text": "Russian edition of Manual on Psychiatry for Dissidents, co-written with Gluzman",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#26",
+     "role": "both",
+     "quote": "in Russian ( 1975 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1976-12",
+   "grain": "month",
+   "track": "location",
+   "text": "Deported from the USSR and exchanged at Zurich airport for Luis Corvalan",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#28",
+     "role": "both",
+     "quote": "In December 1976 , Bukovsky was deported from the USSR"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#1",
+     "role": "both",
+     "quote": "After being expelled from the Soviet Union in late 1976"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1977-03",
+   "grain": "month",
+   "track": "other",
+   "label": "meeting",
+   "text": "Met US President Jimmy Carter at the White House",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#29",
+     "role": "both",
+     "quote": "In March 1977 , US President Jimmy Carter met with Bukovsky at the White House"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Published autobiography To Build a Castle: My Life as a Dissenter",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#31",
+     "role": "both",
+     "quote": "He also wrote and published To Build a Castle : My Life as a Dissenter ( 1978 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Russian edition of memoirs published by Chalidze in New York",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#79",
+     "role": "both",
+     "quote": "1979 : 382 pp . The first publication in Russian of Bukovskys memoirs"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#31",
+     "role": "description",
+     "quote": "It was published in Russian the following year by Chalidze publishers in New York"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1983",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded Resistance International with Armando Valladares",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#34",
+     "role": "both",
+     "quote": "In 1983 , together with Cuban dissident Armando Valladares , Bukovsky co-founded"
+    }
+   ]
+  },
+  {
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "organisation",
+   "text": "Resistance International expanded into the American Foundation for Resistance International",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#34",
+     "role": "both",
+     "quote": "In 1985 it expanded into the American Foundation for Resistance International"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "date": "1987-03",
+   "grain": "month",
+   "track": "other",
+   "label": "open letter",
+   "text": "With nine other emigre authors raised doubts about the substance and sincerity of Gorbachev's reforms",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#36",
+     "role": "both",
+     "quote": "In March 1987 , Bukovsky and nine other émigré authors ( Ernst Neizvestny , Yury Lyubimov , Vasily Aksyonov and Leonid Plyushch among them ) caused a furore in the West"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "First publication of his memoirs in the USSR",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#79",
+     "role": "both",
+     "quote": "1989 : The first publication of Bukovskys memoirs in the USSR"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1991-04",
+   "grain": "month",
+   "track": "location",
+   "text": "First visit to Moscow since his deportation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#36",
+     "role": "both",
+     "quote": "In April 1991 , Vladimir Bukovsky visited Moscow for the first time since his deportation"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1991-12-05",
+   "grain": "day",
+   "track": "other",
+   "label": "conviction annulled",
+   "text": "Both Soviet-era convictions annulled by RSFSR Supreme Court decree",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#37",
+     "role": "both",
+     "quote": "On 5 December 1991 , both of Bukovskys Soviet-era convictions were annulled"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "expert witness",
+   "text": "Invited as expert witness in Constitutional Court case against CPSU ban",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#40",
+     "role": "both",
+     "quote": "In 1992 , after the dissolution of the Soviet Union , President Yeltsins government invited Bukovsky to serve as an expert witness"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Proposed as Moscow mayoral candidate; he declined the offer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#46",
+     "role": "both",
+     "quote": "In 1992 , a group of liberal deputies of the Moscow City Council proposed Bukovskys candidacy"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "citizenship restored",
+   "text": "Russian citizenship formally restored by President Yeltsin",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#37",
+     "role": "both",
+     "quote": "The following year President Yeltsin formally restored Bukovskys Russian citizenship"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Judgment in Moscow; French edition Judgement a Moscou",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#43",
+     "role": "both",
+     "quote": "Bukovskys Judgment in Moscow ( 1995 )"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#45",
+     "role": "both",
+     "quote": "published in French as Judgement à Moscou ( 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Group suggested him as alternative presidential candidate; no formal nomination",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#47",
+     "role": "both",
+     "quote": "In early 1996 , a group of Moscow academics , journalists and intellectuals suggested that Vladimir Bukovsky should run for President of Russia"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Russian edition of Judgment in Moscow",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#45",
+     "role": "both",
+     "quote": "in Russian ( 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "German translation Abrechnung mit Moskau",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#77",
+     "role": "both",
+     "quote": "( 1996 ) Abrechnung mit Moskau"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Soviet Archives online archive of photocopied CPSU documents published",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#43",
+     "role": "both",
+     "quote": "and then , in 1999 , to make them available online"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#77",
+     "role": "both",
+     "quote": "1999 : Soviet Archives : Online archive compiled by Vladimir Bukovsky"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received the Truman-Reagan Medal of Freedom",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#2",
+     "role": "both",
+     "quote": "In 2001 , Vladimir Bukovsky received the Truman-Reagan Medal of Freedom"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected President of Comitatus pro Libertatibus in Florence",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#48",
+     "role": "both",
+     "quote": "In 2001 , Bukovsky was elected President of the Comitatus pro Libertatibus"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "meeting",
+   "text": "Boris Nemtsov visited him in Cambridge to discuss Russian opposition strategy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#49",
+     "role": "both",
+     "quote": "In 2002 , Boris Nemtsov , former Deputy Prime Minister of Russia who was then"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Published EUSSR booklet with Pavel Stroilov",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#58",
+     "role": "both",
+     "quote": "a booklet written with Pavel Stroilov and published in 2004"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2004-01",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded Committee 2008, umbrella opposition organisation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#52",
+     "role": "both",
+     "quote": "In January 2004 , with Garry Kasparov , Boris Nemtsov , Vladimir V . Kara-Murza and others , Bukovsky was a co-founder of Committee 2008"
+    }
+   ]
+  },
+  {
+   "date": "2005-12-18",
+   "grain": "day",
+   "track": "work",
+   "label": "op-ed",
+   "text": "Op-ed in The Washington Post recounting his torture in Lefortovo prison",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#55",
+     "role": "both",
+     "quote": "In an 18 December 2005 op-ed in The Washington Post"
+    }
+   ],
+   "id": "e41"
+  },
+  {
+   "id": "e42",
+   "date": "2007-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Announced plans to run for president in the 2008 election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#63",
+     "role": "both",
+     "quote": "In May 2007 , Bukovsky announced his plans to run as candidate for president"
+    }
+   ]
+  },
+  {
+   "date": "2007-12-14",
+   "grain": "day",
+   "track": "role",
+   "label": "candidacy",
+   "text": "Grigory Yavlinsky announced he would forgo his own campaign and support Bukovsky's candidacy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#65",
+     "role": "both",
+     "quote": "announced on 14 December 2007 at the Yabloko party conference"
+    }
+   ],
+   "id": "e43"
+  },
+  {
+   "id": "e44",
+   "date": "2007-12-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Officially nominated as presidential candidate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#63",
+     "role": "both",
+     "quote": "On 16 December 2007 , Bukovsky was officially nominated to run against Dmitry Medvedev"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#64",
+     "role": "both",
+     "quote": "In Moscow more than 800 citizens of the Russian Federation nominated Bukovsky for president on 16 December 2007"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2007-12-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Submitted candidacy application to the Central Election Commission",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#64",
+     "role": "both",
+     "quote": "submitted his application to the Central Election Commission on time , 18 December 2007"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2007-12-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Central Electoral Commission rejected his candidacy application",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#66",
+     "role": "both",
+     "quote": "On 22 December 2007 , the Central Electoral Commission turned down Bukovskys application"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2007-12-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Appealed the rejection to the RF Supreme Court",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#66",
+     "role": "both",
+     "quote": "Bukovsky appealed against the decision at the RF Supreme Court on 28 December 2007"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2008-01-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Appeal heard before the RF Supreme Court cassation board",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#66",
+     "role": "both",
+     "quote": "before its cassation board on 15 January 2008"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2009",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined council of the Solidarnost opposition coalition",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#54",
+     "role": "both",
+     "quote": "In 2009 , Bukovsky joined the council of the new Solidarnost coalition"
+    }
+   ]
+  },
+  {
+   "date": "2010-03-10",
+   "grain": "day",
+   "track": "other",
+   "label": "manifesto",
+   "text": "Among the first 34 signatories of the online anti-Putin manifesto Putin must go",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#68",
+     "role": "both",
+     "quote": "Putin must go , an online anti-Putin manifesto published on 10 March 2010"
+    }
+   ],
+   "id": "e50"
+  },
+  {
+   "id": "e51",
+   "date": "2011-03-30",
+   "grain": "day",
+   "track": "other",
+   "label": "petition",
+   "text": "Requested British arrest of Gorbachev over alleged crimes against humanity",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#67",
+     "role": "both",
+     "quote": "On 30 March 2011 , Bukovsky requested the arrest of Mikhail Gorbachev by the British authorities"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2013",
+   "grain": "year",
+   "track": "work",
+   "text": "Published a collection of interviews in Russia on Putin and his team",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#68",
+     "role": "both",
+     "quote": "The following year , Bukovsky published a collection of interviews in Russia"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2014-10",
+   "grain": "month",
+   "track": "other",
+   "label": "passport",
+   "text": "Russian authorities declined to issue him a new foreign passport",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#70",
+     "role": "both",
+     "quote": "In October 2014 , the Russian authorities declined to issue Bukovsky with a new foreign-travel passport"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "prosecution",
+   "text": "UK Crown Prosecution Service announced prosecution over prohibited images",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#72",
+     "role": "both",
+     "quote": "In 2015 , the UK Crown Prosecution Service announced prosecution of Bukovsky"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2015-03-17",
+   "grain": "day",
+   "track": "other",
+   "label": "testimony",
+   "text": "Gave evidence at the Litvinenko poisoning inquiry",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#71",
+     "role": "both",
+     "quote": "On 17 March 2015 , at the long-delayed inquiry into Alexander Litvinenkos fatal poisoning"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2015-05",
+   "grain": "month",
+   "track": "other",
+   "label": "surgery",
+   "text": "Nine-hour heart operation in a private German clinic",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#74",
+     "role": "both",
+     "quote": "In early May 2015 , it was reported that Bukovsky had undergone a nine-hour heart operation"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2016",
+   "grain": "year",
+   "track": "work",
+   "text": "Italian edition Gli archivi segreti di Mosca published by Spirali",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#45",
+     "role": "both",
+     "quote": "In 2016 , it was published in Italian , by Spirali"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2016",
+   "grain": "year",
+   "track": "work",
+   "text": "Upgraded version of the 1999 Bukovsky Archives published",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#78",
+     "role": "both",
+     "quote": "2016 : The Bukovsky Archives upgraded version of 1999 archive"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2019-05",
+   "grain": "month",
+   "track": "work",
+   "text": "English translation of Judgment in Moscow published",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#45",
+     "role": "both",
+     "quote": "An English language translation did not appear until May 2019"
+    },
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#77",
+     "role": "both",
+     "quote": "Judgment in Moscow : Soviet Crimes and Western Complicity ( May 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2019-10-27",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died of a heart attack in Cambridge, aged 76",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Vladimir_Bukovsky#76",
+     "role": "both",
+     "quote": "Bukovsky died of a heart attack on 27 October 2019 at the age of 76"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Expelled from school for an unauthorised magazine during last school year (no date)",
+  "Completed secondary education at evening classes (no date)",
+  "Returned to Moscow with parents after World War II (no date)",
+  "Wrote critical notes on the Komsomol, later titled Theses on the Collapse of the Komsomol (no date)",
+  "Convicted in absentia on grounds of insanity under Article 70.1 (after June 1963, no date)",
+  "Campaigned for UK and US boycott of the 1980 Moscow Olympics (late 1970s to early 1980s)",
+  "Moved to Great Britain and settled in Cambridge (after December 1976, no date)",
+  "Gained masters degree in biology at Cambridge University (no date)",
+  "Photocopied CPSU archive documents and smuggled them to the West (c. 1992, no exact date)",
+  "Random House contract for the book cancelled (no date)",
+  "Listed as potential vice-presidential running-mate for Yeltsin (1991 run-up, no exact date)",
+  "Issued High Court libel writ against the CPS (2015, after heart surgery, no exact date)",
+  "Ruled too ill to stand trial (after 2015, no date)"
+ ]
 }

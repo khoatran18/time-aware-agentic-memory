@@ -1,80 +1,80 @@
 {
-  "page_id": "Young_Girl_with_a_Flower_Basket",
-  "events": [
+ "page_id": "Young_Girl_with_a_Flower_Basket",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1905",
+   "grain": "year",
+   "track": "work",
+   "text": "Picasso painted the work in autumn 1905.",
+   "evidence": [
     {
-      "id": "e1",
-      "date": "1905",
-      "grain": "year",
-      "track": "work",
-      "text": "Picasso painted the work in autumn 1905.",
-      "evidence": [
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#3",
-          "role": "both",
-          "quote": "was created in the autumn of 1905"
-        },
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#0",
-          "role": "both",
-          "quote": "is a 1905 oil on canvas painting by Pablo Picasso"
-        }
-      ],
-      "flag": "approximate_date"
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#3",
+     "role": "both",
+     "quote": "was created in the autumn of 1905"
     },
     {
-      "id": "e2",
-      "date": "1968",
-      "grain": "year",
-      "track": "ownership_structure",
-      "text": "Sold to the Syndicate of the Museum of Modern Art, New York.",
-      "evidence": [
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
-          "role": "both",
-          "quote": "sold in 1968 to the Syndicate of the Museum of Modern Art in New York"
-        }
-      ]
-    },
-    {
-      "id": "e3",
-      "date": "1968",
-      "grain": "year",
-      "track": "ownership_structure",
-      "text": "Quickly resold to David and Peggy Rockefeller later that year.",
-      "evidence": [
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
-          "role": "both",
-          "quote": "quickly resold later that year to David Rockefeller and Peggy Rockefeller"
-        }
-      ],
-      "flag": "derived_date"
-    },
-    {
-      "id": "e4",
-      "date": "2018-05-08",
-      "grain": "day",
-      "track": "ownership_structure",
-      "text": "Sold at Christie's auction for $115 million.",
-      "evidence": [
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#1",
-          "role": "both",
-          "quote": "when it was sold at Christies on 8 May 2018"
-        },
-        {
-          "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
-          "role": "both",
-          "quote": "it was sold at Christies on 8 May 2018 with other works"
-        }
-      ]
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#0",
+     "role": "both",
+     "quote": "is a 1905 oil on canvas painting by Pablo Picasso"
     }
-  ],
-  "undated_mentions": [
-    "Picasso sold the painting to Sagot's Galerie du Vingtième Siècle for 75 francs (no date given)",
-    "Painting put up for sale at Sagot's gallery as La fleur du pavé (no date given)",
-    "Gertrude and Leo Stein bought the painting for 150 francs (no date given)",
-    "Gertrude Stein acquired Leo Stein's share of the painting (no date given)",
-    "Painting retained by Gertrude Stein's estate after her death (no date given)"
-  ]
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e2",
+   "date": "1968",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Sold to the Syndicate of the Museum of Modern Art, New York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
+     "role": "both",
+     "quote": "sold in 1968 to the Syndicate of the Museum of Modern Art in New York"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1968",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Quickly resold to David and Peggy Rockefeller later that year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
+     "role": "both",
+     "quote": "quickly resold later that year to David Rockefeller and Peggy Rockefeller"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "2018-05-08",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Sold at Christie's auction for $115 million.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#1",
+     "role": "both",
+     "quote": "when it was sold at Christies on 8 May 2018"
+    },
+    {
+     "chunk_id": "/wiki/Young_Girl_with_a_Flower_Basket#20",
+     "role": "both",
+     "quote": "it was sold at Christies on 8 May 2018 with other works"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Picasso sold the painting to Sagot's Galerie du Vingtième Siècle for 75 francs (no date given)",
+  "Painting put up for sale at Sagot's gallery as La fleur du pavé (no date given)",
+  "Gertrude and Leo Stein bought the painting for 150 francs (no date given)",
+  "Gertrude Stein acquired Leo Stein's share of the painting (no date given)",
+  "Painting retained by Gertrude Stein's estate after her death (no date given)"
+ ]
 }

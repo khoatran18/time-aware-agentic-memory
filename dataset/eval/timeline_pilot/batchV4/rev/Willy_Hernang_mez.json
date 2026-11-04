@@ -1,318 +1,442 @@
 {
-  "page_id": "Willy_Hernangómez",
-  "events": [
+ "page_id": "Willy_Hernangómez",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1994-05-27",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born (full name Guillermo Gustavo Willy Hernangómez Geuer).",
+   "evidence": [
     {
-      "id": "e1",
-      "date": "1994-05-27",
-      "grain": "day",
-      "track": "other",
-      "label": "birth",
-      "text": "Born (full name Guillermo Gustavo Willy Hernangómez Geuer).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#0", "role": "both", "quote": "born May 27 , 1994"}
-      ]
-    },
-    {
-      "id": "e2",
-      "date": "2011",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won gold medal at 2011 FIBA Europe Under-18 Championship with Spain.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#7", "role": "both", "quote": "He also played at the 2011 FIBA Europe Under-18 Championship , where he won a gold medal"}
-      ]
-    },
-    {
-      "id": "e3",
-      "date": "2012",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Named to All-Tournament Team at 2012 Albert Schweitzer Tournament.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#7", "role": "both", "quote": "the 2012 Albert Schweitzer Tournament , where he was named to the All-Tournament Team"},
-        {"chunk_id": "/wiki/Willy_Hernangómez#11", "role": "both", "quote": "2012 Albert Schweitzer Tournament : All-Tournament Team"}
-      ]
-    },
-    {
-      "id": "e4",
-      "date": "2012",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won Supercopa de España (club honour).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#9", "role": "both", "quote": "Supercopa de España ( Spanish Supercup ) : 2012"}
-      ]
-    },
-    {
-      "id": "e5",
-      "date": "2013",
-      "grain": "year",
-      "track": "affiliation",
-      "flag": "approximate_date",
-      "text": "Loaned by Real Madrid to Cajasol Sevilla (summer 2013).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#1", "role": "both", "quote": "In the summer of 2013 , Hernangómez was loaned by Real Madrid to Cajasol Sevilla"}
-      ]
-    },
-    {
-      "id": "e6",
-      "date": "2013",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won Liga ACB (Spanish League) title.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#9", "role": "both", "quote": "Liga ACB ( Spanish League ) : 2013"}
-      ]
-    },
-    {
-      "id": "e7",
-      "date": "2014",
-      "grain": "year",
-      "track": "affiliation",
-      "flag": "derived_date",
-      "text": "Agreement with Real Madrid extended by one more season.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#1", "role": "both", "quote": "extending his agreement for one more season in the next summer"}
-      ]
-    },
-    {
-      "id": "e8",
-      "date": "2014",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won silver medal at 2014 FIBA Europe Under-20 Championship with Spain.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#7", "role": "both", "quote": "at the 2014 FIBA Europe Under-20 Championship , where he won a silver medal"}
-      ]
-    },
-    {
-      "id": "e9",
-      "date": "2014",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Named to All-Tournament Team at 2014 FIBA Europe Under-20 Championship.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#11", "role": "both", "quote": "2014 FIBA Europe Under-20 Championship : All-Tournament Team"}
-      ]
-    },
-    {
-      "id": "e10",
-      "date": "2015",
-      "grain": "year",
-      "track": "affiliation",
-      "text": "Selected 35th overall by Philadelphia 76ers in NBA draft.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#2", "role": "both", "quote": "declared for the 2015 NBA draft , and was selected with the 35th overall pick by the Philadelphia 76ers"}
-      ]
-    },
-    {
-      "id": "e11",
-      "date": "2015",
-      "grain": "year",
-      "track": "affiliation",
-      "flag": "derived_date",
-      "text": "Rights traded to New York Knicks on draft night.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#2", "role": "both", "quote": "His rights were later traded to the New York Knicks on draft night"}
-      ]
-    },
-    {
-      "id": "e12",
-      "date": "2015",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won gold medal at EuroBasket 2015 with Spain senior team.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#8", "role": "both", "quote": "he played at the EuroBasket 2015 , where he won a gold medal"}
-      ]
-    },
-    {
-      "id": "e13",
-      "date": "2015",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won FIBA Intercontinental Cup (club honour).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#9", "role": "both", "quote": "FIBA Intercontinental Cup : 2015"}
-      ]
-    },
-    {
-      "id": "e14",
-      "date": "2015",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Named to ACB All-Young Players Team.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#11", "role": "both", "quote": "2015 and 2016 ACB All-Young players Team"}
-      ]
-    },
-    {
-      "id": "e15",
-      "date": "2015-07-17",
-      "grain": "day",
-      "track": "affiliation",
-      "text": "Returned to Real Madrid and played for senior team.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#1", "role": "both", "quote": "On 17 July 2015 , he returned to Real Madrid"}
-      ]
-    },
-    {
-      "id": "e16",
-      "date": "2016",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won Liga ACB (Spanish League) title.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#9", "role": "both", "quote": "Liga ACB ( Spanish League ) : 2013 , 2016"}
-      ]
-    },
-    {
-      "id": "e17",
-      "date": "2016",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won Copa del Rey (Spanish Cup) (club honour).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#9", "role": "both", "quote": "Copa del Rey ( Spanish Cup ) : 2016"}
-      ]
-    },
-    {
-      "id": "e18",
-      "date": "2016",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won bronze medal at 2016 Summer Olympics with Spain.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#8", "role": "both", "quote": "at the 2016 Summer Olympics , where he won a bronze medal"},
-        {"chunk_id": "/wiki/Willy_Hernangómez#10", "role": "both", "quote": "2016 Summer Olympics : Bronze"}
-      ]
-    },
-    {
-      "id": "e19",
-      "date": "2016",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Named to ACB All-Young Players Team.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#11", "role": "both", "quote": "2015 and 2016 ACB All-Young players Team"}
-      ]
-    },
-    {
-      "id": "e20",
-      "date": "2016-07-08",
-      "grain": "day",
-      "track": "affiliation",
-      "text": "Signed with New York Knicks.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#3", "role": "both", "quote": "On 8 July 2016 , Hernangómez signed with the New York Knicks"}
-      ]
-    },
-    {
-      "id": "e21",
-      "date": "2016-10-25",
-      "grain": "day",
-      "track": "other",
-      "label": "debut",
-      "text": "Made Knicks debut in season opener.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#3", "role": "both", "quote": "On 25 October 2016 , he made his debut for the Knicks"}
-      ]
-    },
-    {
-      "id": "e22",
-      "date": "2016-11-07",
-      "grain": "day",
-      "track": "affiliation",
-      "text": "Assigned to Westchester Knicks (D-League affiliate).",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#3", "role": "both", "quote": "On 7 November 2016 , he was assigned to the Westchester Knicks"}
-      ]
-    },
-    {
-      "id": "e23",
-      "date": "2016-11-07",
-      "grain": "day",
-      "track": "affiliation",
-      "flag": "derived_date",
-      "text": "Recalled from Westchester Knicks later the same day.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#3", "role": "both", "quote": "He was recalled later that day"}
-      ]
-    },
-    {
-      "id": "e24",
-      "date": "2017",
-      "grain": "year",
-      "track": "other",
-      "label": "award",
-      "text": "Won bronze medal at EuroBasket 2017 with Spain.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#8", "role": "both", "quote": "He also played at the EuroBasket 2017 , where he won a bronze medal"}
-      ]
-    },
-    {
-      "id": "e25",
-      "date": "2017-02-15",
-      "grain": "day",
-      "track": "other",
-      "label": "selection",
-      "flag": "derived_date",
-      "text": "Named replacement on World Team for 2017 Rising Stars Challenge.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#4", "role": "both", "quote": "On 15 February , he was named as a replacement on the World Team"}
-      ]
-    },
-    {
-      "id": "e26",
-      "date": "2017-04-14",
-      "grain": "day",
-      "track": "other",
-      "label": "award",
-      "flag": "derived_date",
-      "text": "Named Eastern Conference Rookie of the Month for April games.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#4", "role": "date", "quote": "On 9 April 2017"},
-        {"chunk_id": "/wiki/Willy_Hernangómez#5", "role": "description", "quote": "Five days later , he was named Eastern Conference Rookie of the Month"}
-      ]
-    },
-    {
-      "id": "e27",
-      "date": "2018-02-07",
-      "grain": "day",
-      "track": "affiliation",
-      "text": "Traded to Charlotte Hornets for Johnny OBryant III and two picks.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#6", "role": "both", "quote": "On 7 February 2018 , Hernangómez was traded to the Charlotte Hornets"}
-      ]
-    },
-    {
-      "id": "e28",
-      "date": "2020-11-30",
-      "grain": "day",
-      "track": "affiliation",
-      "text": "Signed with New Orleans Pelicans.",
-      "evidence": [
-        {"chunk_id": "/wiki/Willy_Hernangómez#6", "role": "both", "quote": "On 30 November 2020 , Hernangómez signed with the New Orleans Pelicans"}
-      ]
+     "chunk_id": "/wiki/Willy_Hernangómez#0",
+     "role": "both",
+     "quote": "born May 27 , 1994"
     }
-  ],
-  "undated_mentions": [
-    "Played his first two seasons on Real Madrid reserve team (years not stated)",
-    "Played for Real Madrid senior team in 2015–16 season",
-    "Named EuroCup MVP of the Week (2014–15 season, Week 8)",
-    "Named to NBA All-Rookie First Team at season's end (2016–17 season, not dated in source)"
-  ]
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won gold medal at 2011 FIBA Europe Under-18 Championship with Spain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#7",
+     "role": "both",
+     "quote": "He also played at the 2011 FIBA Europe Under-18 Championship , where he won a gold medal"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to All-Tournament Team at 2012 Albert Schweitzer Tournament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#7",
+     "role": "both",
+     "quote": "the 2012 Albert Schweitzer Tournament , where he was named to the All-Tournament Team"
+    },
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#11",
+     "role": "both",
+     "quote": "2012 Albert Schweitzer Tournament : All-Tournament Team"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Supercopa de España (club honour).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#9",
+     "role": "both",
+     "quote": "Supercopa de España ( Spanish Supercup ) : 2012"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "approximate_date",
+   "text": "Loaned by Real Madrid to Cajasol Sevilla (summer 2013).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#1",
+     "role": "both",
+     "quote": "In the summer of 2013 , Hernangómez was loaned by Real Madrid to Cajasol Sevilla"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Liga ACB (Spanish League) title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#9",
+     "role": "both",
+     "quote": "Liga ACB ( Spanish League ) : 2013"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Agreement with Real Madrid extended by one more season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#1",
+     "role": "both",
+     "quote": "extending his agreement for one more season in the next summer"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won silver medal at 2014 FIBA Europe Under-20 Championship with Spain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#7",
+     "role": "both",
+     "quote": "at the 2014 FIBA Europe Under-20 Championship , where he won a silver medal"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to All-Tournament Team at 2014 FIBA Europe Under-20 Championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#11",
+     "role": "both",
+     "quote": "2014 FIBA Europe Under-20 Championship : All-Tournament Team"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Selected 35th overall by Philadelphia 76ers in NBA draft.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#2",
+     "role": "both",
+     "quote": "declared for the 2015 NBA draft , and was selected with the 35th overall pick by the Philadelphia 76ers"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Rights traded to New York Knicks on draft night.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#2",
+     "role": "both",
+     "quote": "His rights were later traded to the New York Knicks on draft night"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won gold medal at EuroBasket 2015 with Spain senior team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#8",
+     "role": "both",
+     "quote": "he played at the EuroBasket 2015 , where he won a gold medal"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won FIBA Intercontinental Cup (club honour).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#9",
+     "role": "both",
+     "quote": "FIBA Intercontinental Cup : 2015"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to ACB All-Young Players Team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#11",
+     "role": "both",
+     "quote": "2015 and 2016 ACB All-Young players Team"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2015-07-17",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Returned to Real Madrid and played for senior team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#1",
+     "role": "both",
+     "quote": "On 17 July 2015 , he returned to Real Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Liga ACB (Spanish League) title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#9",
+     "role": "both",
+     "quote": "Liga ACB ( Spanish League ) : 2013 , 2016"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Copa del Rey (Spanish Cup) (club honour).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#9",
+     "role": "both",
+     "quote": "Copa del Rey ( Spanish Cup ) : 2016"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won bronze medal at 2016 Summer Olympics with Spain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#8",
+     "role": "both",
+     "quote": "at the 2016 Summer Olympics , where he won a bronze medal"
+    },
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#10",
+     "role": "both",
+     "quote": "2016 Summer Olympics : Bronze"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to ACB All-Young Players Team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#11",
+     "role": "both",
+     "quote": "2015 and 2016 ACB All-Young players Team"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2016-07-08",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed with New York Knicks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#3",
+     "role": "both",
+     "quote": "On 8 July 2016 , Hernangómez signed with the New York Knicks"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2016-10-25",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Made Knicks debut in season opener.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#3",
+     "role": "both",
+     "quote": "On 25 October 2016 , he made his debut for the Knicks"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2016-11-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Assigned to Westchester Knicks (D-League affiliate).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#3",
+     "role": "both",
+     "quote": "On 7 November 2016 , he was assigned to the Westchester Knicks"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2016-11-07",
+   "grain": "day",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Recalled from Westchester Knicks later the same day.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#3",
+     "role": "both",
+     "quote": "He was recalled later that day"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won bronze medal at EuroBasket 2017 with Spain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#8",
+     "role": "both",
+     "quote": "He also played at the EuroBasket 2017 , where he won a bronze medal"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2017-02-15",
+   "grain": "day",
+   "track": "other",
+   "label": "selection",
+   "flag": "derived_date",
+   "text": "Named replacement on World Team for 2017 Rising Stars Challenge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#4",
+     "role": "both",
+     "quote": "On 15 February , he was named as a replacement on the World Team"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2017-04-14",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "flag": "derived_date",
+   "text": "Named Eastern Conference Rookie of the Month for April games.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#4",
+     "role": "date",
+     "quote": "On 9 April 2017"
+    },
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#5",
+     "role": "description",
+     "quote": "Five days later , he was named Eastern Conference Rookie of the Month"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2018-02-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Traded to Charlotte Hornets for Johnny OBryant III and two picks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#6",
+     "role": "both",
+     "quote": "On 7 February 2018 , Hernangómez was traded to the Charlotte Hornets"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2020-11-30",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed with New Orleans Pelicans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Willy_Hernangómez#6",
+     "role": "both",
+     "quote": "On 30 November 2020 , Hernangómez signed with the New Orleans Pelicans"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Played his first two seasons on Real Madrid reserve team (years not stated)",
+  "Played for Real Madrid senior team in 2015–16 season",
+  "Named EuroCup MVP of the Week (2014–15 season, Week 8)",
+  "Named to NBA All-Rookie First Team at season's end (2016–17 season, not dated in source)"
+ ]
 }

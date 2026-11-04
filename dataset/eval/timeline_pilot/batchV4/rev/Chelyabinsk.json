@@ -1,143 +1,364 @@
 {
-  "page_id": "Chelyabinsk",
-  "events": [
+ "page_id": "Chelyabinsk",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1736",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Fortress of Chelyaba founded on a Bashkir village site, the city's origin.",
+   "evidence": [
     {
-      "id": "e1",
-      "date": "1736",
-      "grain": "year",
-      "track": "other",
-      "label": "founding",
-      "text": "Fortress of Chelyaba founded on a Bashkir village site, the city's origin.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#1", "role": "both", "quote": "In 1736 , a fortress by the name of Chelyaba was founded on the site of a Bashkir village ."},
-        {"chunk_id": "/wiki/Chelyabinsk#8", "role": "both", "quote": "by colonel Alexey ( Kutlu-Muhammed ) Tevkelev in 1736 to protect the surrounding trade routes"}
-      ]
+     "chunk_id": "/wiki/Chelyabinsk#1",
+     "role": "both",
+     "quote": "In 1736 , a fortress by the name of Chelyaba was founded on the site of a Bashkir village ."
     },
     {
-      "id": "e2",
-      "date": "1774",
-      "grain": "year",
-      "track": "other",
-      "label": "siege",
-      "text": "Fortress withstood a siege by rebel forces during Pugachev's Rebellion.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#8", "role": "both", "quote": "the fortress withstood a siege by the rebel forces in 1774"}
-      ]
-    },
-    {
-      "id": "e3",
-      "date": "1775",
-      "grain": "year",
-      "track": "other",
-      "label": "capture",
-      "text": "Fortress was captured by rebels for several months.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#8", "role": "both", "quote": "was eventually captured for several months in 1775"}
-      ]
-    },
-    {
-      "id": "e4",
-      "date": "1782",
-      "grain": "year",
-      "track": "other",
-      "label": "administrative",
-      "text": "Became a seat of the uyezd of Ufa Viceroyalty.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#8", "role": "both", "quote": "In 1782 , Chelyabinsk became a seat of the uyezd of Ufa Viceroyalty"}
-      ]
-    },
-    {
-      "id": "e5",
-      "date": "1787",
-      "grain": "year",
-      "track": "other",
-      "label": "town status",
-      "text": "Granted town status by the government.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#8", "role": "date", "quote": "In 1787 , Chelyabinsk"},
-        {"chunk_id": "/wiki/Chelyabinsk#9", "role": "description", "quote": "was granted town status by the government ."}
-      ]
-    },
-    {
-      "id": "e6",
-      "date": "1896",
-      "grain": "year",
-      "track": "other",
-      "label": "infrastructure",
-      "text": "City linked by rail to Ekaterinburg.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#10", "role": "both", "quote": "and in 1896 , the city was linked to Ekaterinburg"}
-      ]
-    },
-    {
-      "id": "e7",
-      "date": "1925",
-      "grain": "year",
-      "track": "other",
-      "label": "transit",
-      "text": "Bus network begins public transport service in the city.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#37", "role": "both", "quote": "bus ( since 1925 )"}
-      ]
-    },
-    {
-      "id": "e8",
-      "date": "1932",
-      "grain": "year",
-      "track": "other",
-      "label": "transit",
-      "text": "Tram network begins public transport service in the city.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#37", "role": "both", "quote": "tram ( since 1932 )"}
-      ]
-    },
-    {
-      "id": "e9",
-      "date": "1942",
-      "grain": "year",
-      "track": "other",
-      "label": "transit",
-      "text": "Trolleybus network begins public transport service in the city.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#37", "role": "both", "quote": "trolleybus ( since 1942 )"}
-      ]
-    },
-    {
-      "id": "e10",
-      "date": "1992",
-      "grain": "year",
-      "track": "work",
-      "text": "Began construction of a three-line subway network.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#38", "role": "both", "quote": "Chelyabinsk started the construction of a three-line subway network in 1992 ."}
-      ]
-    },
-    {
-      "id": "e11",
-      "date": "2014",
-      "grain": "year",
-      "track": "other",
-      "label": "transit",
-      "text": "Electric buses and electrified trolleybuses begin running in the city.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#37", "role": "both", "quote": "In 2014 in Chelyabinsk began to run electric buses"}
-      ]
-    },
-    {
-      "id": "e12",
-      "date": "2014-06",
-      "grain": "month",
-      "track": "other",
-      "label": "administrative",
-      "text": "Seven city districts granted civil status.",
-      "evidence": [
-        {"chunk_id": "/wiki/Chelyabinsk#18", "role": "both", "quote": "In June 2014 , Chelyabinsks seven city districts were granted civil status ."}
-      ]
+     "chunk_id": "/wiki/Chelyabinsk#8",
+     "role": "both",
+     "quote": "by colonel Alexey ( Kutlu-Muhammed ) Tevkelev in 1736 to protect the surrounding trade routes"
     }
-  ],
-  "undated_mentions": [
-    "early 20th century: rapid growth after railway links",
-    "late 1920s: industrialization started",
-    "1930s: became major industrial centre (Five-Year Plans)"
-  ]
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1774",
+   "grain": "year",
+   "track": "other",
+   "label": "siege",
+   "text": "Fortress withstood a siege by rebel forces during Pugachev's Rebellion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#8",
+     "role": "both",
+     "quote": "the fortress withstood a siege by the rebel forces in 1774"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1775",
+   "grain": "year",
+   "track": "other",
+   "label": "capture",
+   "text": "Fortress was captured by rebels for several months.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#8",
+     "role": "both",
+     "quote": "was eventually captured for several months in 1775"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1782",
+   "grain": "year",
+   "track": "other",
+   "label": "administrative",
+   "text": "Became a seat of the uyezd of Ufa Viceroyalty.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#8",
+     "role": "both",
+     "quote": "In 1782 , Chelyabinsk became a seat of the uyezd of Ufa Viceroyalty"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1787",
+   "grain": "year",
+   "track": "other",
+   "label": "town status",
+   "text": "Granted town status by the government.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#8",
+     "role": "date",
+     "quote": "In 1787 , Chelyabinsk"
+    },
+    {
+     "chunk_id": "/wiki/Chelyabinsk#9",
+     "role": "description",
+     "quote": "was granted town status by the government ."
+    }
+   ]
+  },
+  {
+   "date": "1892",
+   "grain": "year",
+   "track": "other",
+   "label": "railway",
+   "text": "Samara-Zlatoust Railway completed, connecting the city with Moscow and European Russia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#10",
+     "role": "both",
+     "quote": "In 1892 , the Samara-Zlatoust Railway was completed"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "date": "1892",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Construction of the Trans-Siberian Railway started from Chelyabinsk",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#10",
+     "role": "both",
+     "quote": "Also in 1892 , construction of the Trans-Siberian Railway started from Chelyabinsk"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1896",
+   "grain": "year",
+   "track": "other",
+   "label": "infrastructure",
+   "text": "City linked by rail to Ekaterinburg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#10",
+     "role": "both",
+     "quote": "and in 1896 , the city was linked to Ekaterinburg"
+    }
+   ]
+  },
+  {
+   "date": "1913",
+   "grain": "year",
+   "track": "other",
+   "label": "museum",
+   "text": "Chelyabinsk Regional Museum founded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#43",
+     "role": "both",
+     "quote": "Chelyabinsk Regional Museum was founded in 1913"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1925",
+   "grain": "year",
+   "track": "other",
+   "label": "transit",
+   "text": "Bus network begins public transport service in the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#37",
+     "role": "both",
+     "quote": "bus ( since 1925 )"
+    }
+   ]
+  },
+  {
+   "date": "1930",
+   "grain": "year",
+   "track": "education",
+   "label": null,
+   "text": "Chelyabinsk State Agroengineering Academy founded, the oldest university in the city",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#30",
+     "role": "both",
+     "quote": "The oldest , Chelyabinsk State Agroengineering Academy , was founded in 1930"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "1932",
+   "grain": "year",
+   "track": "other",
+   "label": "transit",
+   "text": "Tram network begins public transport service in the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#37",
+     "role": "both",
+     "quote": "tram ( since 1932 )"
+    }
+   ]
+  },
+  {
+   "date": "1933",
+   "grain": "year",
+   "track": "work",
+   "label": "factory",
+   "text": "Chelyabinsk Tractor Plant built",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#2",
+     "role": "both",
+     "quote": "Tractor Plant was built in 1933"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "date": "1934",
+   "grain": "year",
+   "track": "education",
+   "label": null,
+   "text": "Chelyabinsk State Pedagogical University founded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#30",
+     "role": "both",
+     "quote": "followed by the Chelyabinsk State Pedagogical University in 1934"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "1942",
+   "grain": "year",
+   "track": "other",
+   "label": "transit",
+   "text": "Trolleybus network begins public transport service in the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#37",
+     "role": "both",
+     "quote": "trolleybus ( since 1942 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "Began construction of a three-line subway network.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#38",
+     "role": "both",
+     "quote": "Chelyabinsk started the construction of a three-line subway network in 1992 ."
+    }
+   ]
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "label": "shopping mall",
+   "text": "Gorky shopping mall built",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#36",
+     "role": "both",
+     "quote": "Gorky ( English : Hills ) , built in 2007"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "museum",
+   "text": "Museum of Military Equipment in the Garden of Victory founded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#46",
+     "role": "both",
+     "quote": "The Museum of Military Equipment in the Garden of Victory was founded in 2007"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "label": "shopping mall",
+   "text": "Rodnik shopping mall built",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#36",
+     "role": "both",
+     "quote": "Rodnik ( English : Spring ) built in 2011"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "agreement",
+   "text": "Beeline and the city transport signed an agreement to provide passengers free internet",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#37",
+     "role": "both",
+     "quote": "In 2011 the telecommunications company Beeline and Chelyabinsk city transport signed an agreement to provide passengers free internet"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "date": "2013-02-15",
+   "grain": "day",
+   "track": "other",
+   "label": "meteor",
+   "text": "Superbolide meteor exploded over the Ural Mountains, with fragments falling in and around the city and over a thousand people injured",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#15",
+     "role": "both",
+     "quote": "Shortly after dawn on February 15 , 2013 , a superbolide meteor descended"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "id": "e22",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "transit",
+   "text": "Electric buses and electrified trolleybuses begin running in the city.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#37",
+     "role": "both",
+     "quote": "In 2014 in Chelyabinsk began to run electric buses"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014-06",
+   "grain": "month",
+   "track": "other",
+   "label": "administrative",
+   "text": "Seven city districts granted civil status.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Chelyabinsk#18",
+     "role": "both",
+     "quote": "In June 2014 , Chelyabinsks seven city districts were granted civil status ."
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "early 20th century: rapid growth after railway links",
+  "late 1920s: industrialization started",
+  "1930s: became major industrial centre (Five-Year Plans)"
+ ]
 }

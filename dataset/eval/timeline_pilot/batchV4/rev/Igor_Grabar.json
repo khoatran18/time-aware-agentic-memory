@@ -1,55 +1,847 @@
 {
  "page_id": "Igor_Grabar",
  "events": [
-  {"id": "e1", "date": "1871-03-25", "grain": "day", "track": "other", "label": "birth", "text": "Born in Budapest", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#0", "role": "both", "quote": "25 March 1871 in Budapest"}]},
-  {"id": "e2", "date": "1880", "grain": "year", "track": "location", "text": "Family, including Igor, settled in Yegoryevsk", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#7", "role": "both", "quote": "In 1880 , the Hrabars temporarily reunited in Russia"}]},
-  {"id": "e3", "date": "1882", "grain": "year", "track": "location", "text": "Family, including Igor, relocated to Kiev", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#9", "role": "both", "quote": "In 1882 , the Hrabars ( Hrabrovs ) relocated to Kiev"}]},
-  {"id": "e4", "date": "1882", "grain": "year", "track": "education", "text": "Sent to Katkov's boarding school in Moscow", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#9", "role": "both", "quote": "He sent Igor to Mikhail Katkovs boarding school in Moscow"}]},
-  {"id": "e5", "date": "1889", "grain": "year", "track": "education", "text": "Admitted to law department of Saint Petersburg University", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#11", "role": "both", "quote": "In 1889 , Grabar was admitted to the Law Department of the Saint Petersburg University"}]},
-  {"id": "e6", "date": "1890", "grain": "year", "track": "affiliation", "text": "Moved up to Niva magazine", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#11", "role": "both", "quote": "In his second year at the university , Grabar moved up to the respectable Niva magazine"}]},
-  {"id": "e7", "date": "1893-04", "grain": "month", "track": "education", "text": "Graduated in law from Saint Petersburg University", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#12", "role": "both", "quote": "he still managed to graduate in law , without delay , in April 1893"}]},
-  {"id": "e8", "date": "1894", "grain": "year", "track": "education", "text": "Enrolled in Ilya Repin's class at Imperial Academy of Arts", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#13", "role": "both", "quote": "In the end of 1894 , he enrolled in Ilya Repins class at the Imperial Academy of Arts"}]},
-  {"id": "e9", "date": "1895-07", "grain": "month", "track": "education", "text": "Left the Academy for a brief study tour of Western Europe", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#13", "role": "both", "quote": "in July 1895 left for"}, {"chunk_id": "/wiki/Igor_Grabar#14", "role": "description", "quote": "a brief study tour of Western Europe financed by Niva magazine"}]},
-  {"id": "e10", "date": "1896-05", "grain": "month", "track": "location", "text": "Left St Petersburg for Munich with Kardovsky", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#15", "role": "both", "quote": "in May 1896 , he and Kardovsky left for Munich via Berlin and Paris"}]},
-  {"id": "e11", "date": "1899-06", "grain": "month", "track": "ownership_structure", "text": "Became equal partner in Anton Ažbe's Munich school", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#16", "role": "both", "quote": "The partnership existed for less than a year , from June 1899 until spring of 1900"}]},
-  {"id": "e12", "date": "1900", "grain": "year", "track": "ownership_structure", "text": "Partnership with Ažbe ended", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#16", "role": "both", "quote": "from June 1899 until spring of 1900"}]},
-  {"id": "e13", "date": "1900", "grain": "year", "track": "location", "text": "Left Munich after lucrative offer from Prince Shcherbatov", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#16", "role": "both", "quote": "until spring of 1900 , when Grabar accepted a lucrative offer from Prince Shcherbatov and left Munich"}]},
-  {"id": "e14", "date": "1901", "grain": "year", "track": "education", "text": "Completed architecture training at Munich Polytechnicum without final exams", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#18", "role": "both", "quote": "By 1901 , Grabar completed architects training at the Munich Polytechnicum"}]},
-  {"id": "e15", "date": "1901", "grain": "year", "track": "work", "text": "Presented twelve paintings at Mir Iskusstva exhibition (1901-1902)", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#19", "role": "both", "quote": "In 1901–1902 , Grabar presented twelve of his paintings at an exhibition hosted by Mir Iskusstva"}]},
-  {"id": "e16", "date": "1902", "grain": "year", "track": "affiliation", "text": "Joined Mir Iskusstva", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#1", "role": "both", "quote": "In 1902 , he joined Mir Iskusstva"}]},
-  {"id": "e17", "date": "1905", "grain": "year", "track": "education", "text": "Travelled to Paris to study French post-impressionist works", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#21", "role": "both", "quote": "In 1905 , Grabar travelled to Paris to study the new works of French postimpressionists"}]},
-  {"id": "e18", "date": "1908", "grain": "year", "track": "affiliation", "text": "Broke with Mir Iskusstva completely", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#24", "role": "both", "quote": "As a result , in 1908 Grabar broke with the movement completely"}]},
-  {"id": "e19", "date": "1908", "grain": "year", "track": "role", "text": "Became chief editor and writer for Knebel's book series", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#25", "role": "both", "quote": "In the same 1908 , Grabar abandoned painting in favor of writing ; he became chief editor and writer"}]},
-  {"id": "e20", "date": "1908", "grain": "year", "track": "other", "label": "career_shift", "text": "Abandoned painting in favour of writing", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#25", "role": "both", "quote": "In the same 1908 , Grabar abandoned painting in favor of writing"}]},
-  {"id": "e21", "date": "1909-07", "grain": "month", "track": "work", "text": "Designed Palladian Zakharyin Hospital in Khimki", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#26", "role": "both", "quote": "in July 1909 he took a short leave from writing and designed the Palladian Zakharyin Hospital"}]},
-  {"id": "e22", "date": "1910", "grain": "year", "track": "work", "text": "First issue of History of Russian Art printed", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#1", "role": "both", "quote": "In 1910–1915 , Grabar edited and published his opus magnum , the History of Russian Art"}, {"chunk_id": "/wiki/Igor_Grabar#27", "role": "both", "quote": "The first issue of History was printed in 1910"}]},
-  {"id": "e23", "date": "1913-04-02", "grain": "day", "track": "role", "text": "Elected trustee and executive director of Tretyakov Gallery", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#2", "role": "both", "quote": "In 1913 , he was appointed executive director of the Tretyakov Gallery"}, {"chunk_id": "/wiki/Igor_Grabar#33", "role": "both", "quote": "On 2 April 1913 , the Board of the Tretyakov Gallery elected Grabar its trustee and executive director"}]},
-  {"id": "e24", "date": "1913-12", "grain": "month", "track": "work", "text": "Gallery reopened after Grabar's rearrangement of paintings", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#35", "role": "both", "quote": "when the gallery reopened in December 1913"}]},
-  {"id": "e25", "date": "1915", "grain": "year", "track": "other", "label": "scandal", "text": "Public scandal over his purchasing decisions; calls for his dismissal", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#35", "role": "both", "quote": "In the beginning of 1915 , Grabars purchasing decisions stirred a public scandal"}]},
-  {"id": "e26", "date": "1915", "grain": "year", "track": "work", "text": "History publication ceased with the 23rd issue", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#1", "role": "both", "quote": "In 1910–1915 , Grabar edited and published his opus magnum , the History of Russian Art"}, {"chunk_id": "/wiki/Igor_Grabar#27", "role": "both", "quote": "publication ceased with the 23rd issue in the beginning of 1915"}]},
-  {"id": "e27", "date": "1915", "grain": "year", "track": "other", "label": "loss", "text": "Grabar's archive burnt in anti-German pogrom at Knebel's printshop", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#27", "role": "both", "quote": "in the beginning of 1915 when Knebels printshop and Grabars archive stored there were burnt"}]},
-  {"id": "e28", "date": "1916-01", "grain": "month", "track": "other", "label": "approval", "text": "Moscow City Hall approved Grabar's reform in full", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#36", "role": "both", "quote": "Debates continued until January 1916 , when Moscow City Hall approved Grabars reform in full"}]},
-  {"id": "e29", "date": "1917", "grain": "year", "track": "work", "text": "Published first comprehensive Tretyakov Gallery catalogue", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#2", "role": "both", "quote": "and in 1917 published its first comprehensive catalogue"}, {"chunk_id": "/wiki/Igor_Grabar#36", "role": "both", "quote": "Grabar summarized his achievements in the 1917 catalogue of the Gallery"}]},
-  {"id": "e30", "date": "1918", "grain": "year", "track": "role", "text": "Took lead of Museums and Preservation Section and restoration workshops", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#39", "role": "both", "quote": "In 1918 , Grabar took the lead of the Museums and Preservation Section of the Soviet Government"}, {"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"}]},
-  {"id": "e31", "date": "1918-12", "grain": "month", "track": "work", "text": "His institutions catalogued all known heritage under Bolshevik decree", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#39", "role": "both", "quote": "As prescribed by the Bolsheviks in December 1918 , Grabars institutions catalogued all known heritage"}]},
-  {"id": "e32", "date": "1919", "grain": "year", "track": "work", "text": "Directed commission documenting and preserving church murals and icons", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#41", "role": "both", "quote": "From 1919 , Grabar directed his commission into documenting and preserving Orthodox church murals and icons"}]},
-  {"id": "e33", "date": "1919", "grain": "year", "track": "work", "text": "First expedition to Yaroslavl restored previously unknown church works", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#41", "role": "both", "quote": "The first 1919 expedition to Yaroslavl located and restored previously unknown works"}]},
-  {"id": "e34", "date": "1930", "grain": "year", "track": "role", "text": "Left administrative, academic and editorial posts; ended workshop management; turned to painting", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#45", "role": "both", "quote": "In 1930 , Grabar left all his administrative , academic and editorial jobs"}, {"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"}]},
-  {"id": "e35", "date": "1931", "grain": "year", "track": "work", "text": "Supervised New York exhibition of icon art", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#47", "role": "both", "quote": "Grabar supervised another New York exhibition , this time of icon art , in 1931"}]},
-  {"id": "e36", "date": "1933", "grain": "year", "track": "work", "text": "Painted Portrait of Svetlana, which brought unwanted publicity", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#47", "role": "both", "quote": "it was the 1933 Portrait of Svetlana that gave him an enormous and unwanted exposure"}]},
-  {"id": "e37", "date": "1933", "grain": "year", "track": "role", "text": "Began brief voluntary retirement from Soviet art establishment", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "excluding a brief voluntary retirement in 1933–1937"}]},
-  {"id": "e38", "date": "1933", "grain": "year", "track": "other", "label": "petition", "text": "Wrote pleas to Stalin to save Sukharev Tower (1933-34)", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#46", "role": "both", "quote": "writing pleas to Stalin , as was the case of the Sukharev Tower in 1933–1934"}]},
-  {"id": "e39", "date": "1935-06", "grain": "month", "track": "work", "text": "Autobiography manuscript ready for print; publication then barred", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#48", "role": "both", "quote": "wrote his Autobiography that was ready for print in June 1935"}]},
-  {"id": "e40", "date": "1937", "grain": "year", "track": "work", "text": "Published book on Ilya Repin", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#48", "role": "both", "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later and began writing Serov"}]},
-  {"id": "e41", "date": "1937", "grain": "year", "track": "work", "text": "Began writing book on Serov", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#48", "role": "both", "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later and began writing Serov"}]},
-  {"id": "e42", "date": "1937", "grain": "year", "track": "role", "text": "Ended voluntary retirement and returned to Soviet art establishment", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "excluding a brief voluntary retirement in 1933–1937"}]},
-  {"id": "e43", "date": "1937-03", "grain": "month", "track": "work", "text": "Autobiography publication ban lifted; book published", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#48", "role": "both", "quote": "but was barred from publication until March 1937"}, {"chunk_id": "/wiki/Igor_Grabar#62", "role": "both", "quote": "The book was originally published in 1937"}]},
-  {"id": "e44", "date": "1941", "grain": "year", "track": "other", "label": "award", "text": "Received State Prize for Repin book (four years after 1937)", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#48", "role": "both", "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later"}]},
-  {"id": "e45", "date": "1943-06", "grain": "month", "track": "other", "label": "proposal", "text": "Proposed tit-for-tat art compensation for WWII losses", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "In 1943 , he formulated the Soviet doctrine of compensating World War II losses with art looted in Germany"}, {"chunk_id": "/wiki/Igor_Grabar#50", "role": "both", "quote": "In June 1943 , Grabar proposed tit-for-tat compensation of Soviet art treasures"}]},
-  {"id": "e46", "date": "1944", "grain": "year", "track": "role", "text": "Resumed management of restoration workshops", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"}]},
-  {"id": "e47", "date": "1954", "grain": "year", "track": "work", "text": "Co-authored revisionist study of 18th-century Russian architecture", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#53", "role": "both", "quote": "in 1954 co-authored Russian architecture of the first half of the 18th century"}]},
-  {"id": "e48", "date": "1960", "grain": "year", "track": "role", "text": "Ended management of restoration workshops (role held 1944-1960)", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#3", "role": "both", "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"}]},
-  {"id": "e49", "date": "1960-05-16", "grain": "day", "track": "other", "label": "death", "text": "Died in Moscow", "evidence": [{"chunk_id": "/wiki/Igor_Grabar#0", "role": "both", "quote": "16 May 1960 in Moscow"}]}
+  {
+   "id": "e1",
+   "date": "1871-03-25",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Budapest",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#0",
+     "role": "both",
+     "quote": "25 March 1871 in Budapest"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1880",
+   "grain": "year",
+   "track": "location",
+   "text": "Family, including Igor, settled in Yegoryevsk",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#7",
+     "role": "both",
+     "quote": "In 1880 , the Hrabars temporarily reunited in Russia"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1882",
+   "grain": "year",
+   "track": "location",
+   "text": "Family, including Igor, relocated to Kiev",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#9",
+     "role": "both",
+     "quote": "In 1882 , the Hrabars ( Hrabrovs ) relocated to Kiev"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1882",
+   "grain": "year",
+   "track": "education",
+   "text": "Sent to Katkov's boarding school in Moscow",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#9",
+     "role": "both",
+     "quote": "He sent Igor to Mikhail Katkovs boarding school in Moscow"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1889",
+   "grain": "year",
+   "track": "education",
+   "text": "Admitted to law department of Saint Petersburg University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#11",
+     "role": "both",
+     "quote": "In 1889 , Grabar was admitted to the Law Department of the Saint Petersburg University"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1890",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved up to Niva magazine",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#11",
+     "role": "both",
+     "quote": "In his second year at the university , Grabar moved up to the respectable Niva magazine"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1893-04",
+   "grain": "month",
+   "track": "education",
+   "text": "Graduated in law from Saint Petersburg University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#12",
+     "role": "both",
+     "quote": "he still managed to graduate in law , without delay , in April 1893"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1894",
+   "grain": "year",
+   "track": "education",
+   "text": "Enrolled in Ilya Repin's class at Imperial Academy of Arts",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#13",
+     "role": "both",
+     "quote": "In the end of 1894 , he enrolled in Ilya Repins class at the Imperial Academy of Arts"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1895-07",
+   "grain": "month",
+   "track": "education",
+   "text": "Left the Academy for a brief study tour of Western Europe",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#13",
+     "role": "both",
+     "quote": "in July 1895 left for"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#14",
+     "role": "description",
+     "quote": "a brief study tour of Western Europe financed by Niva magazine"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1896-05",
+   "grain": "month",
+   "track": "location",
+   "text": "Left St Petersburg for Munich with Kardovsky",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#15",
+     "role": "both",
+     "quote": "in May 1896 , he and Kardovsky left for Munich via Berlin and Paris"
+    }
+   ]
+  },
+  {
+   "date": "1897-01",
+   "grain": "month",
+   "track": "work",
+   "label": "article",
+   "text": "Published article in Niva defending avant-garde art against Vladimir Stasov, provoking Stasov's campaign against Repin",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#17",
+     "role": "both",
+     "quote": "In January–February 1897 , Grabar , obliged to write for Niva , published an article defending avant-garde art against Vladimir Stasov"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e11"
+  },
+  {
+   "date": "1899",
+   "grain": "year",
+   "track": "work",
+   "label": "article",
+   "text": "Published article that caused a conflict between Ilya Repin and Mir iskusstva",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#17",
+     "role": "both",
+     "quote": "Another article published in 1899 caused a conflict between Ilya Repin and Mir iskusstva"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "id": "e13",
+   "date": "1899-06",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Became equal partner in Anton Ažbe's Munich school",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#16",
+     "role": "both",
+     "quote": "The partnership existed for less than a year , from June 1899 until spring of 1900"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1900",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Partnership with Ažbe ended",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#16",
+     "role": "both",
+     "quote": "from June 1899 until spring of 1900"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1900",
+   "grain": "year",
+   "track": "location",
+   "text": "Left Munich after lucrative offer from Prince Shcherbatov",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#16",
+     "role": "both",
+     "quote": "until spring of 1900 , when Grabar accepted a lucrative offer from Prince Shcherbatov and left Munich"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1901",
+   "grain": "year",
+   "track": "education",
+   "text": "Completed architecture training at Munich Polytechnicum without final exams",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#18",
+     "role": "both",
+     "quote": "By 1901 , Grabar completed architects training at the Munich Polytechnicum"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1901",
+   "grain": "year",
+   "track": "work",
+   "text": "Presented twelve paintings at Mir Iskusstva exhibition (1901-1902)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#19",
+     "role": "both",
+     "quote": "In 1901–1902 , Grabar presented twelve of his paintings at an exhibition hosted by Mir Iskusstva"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1902",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Mir Iskusstva",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#1",
+     "role": "both",
+     "quote": "In 1902 , he joined Mir Iskusstva"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1905",
+   "grain": "year",
+   "track": "education",
+   "text": "Travelled to Paris to study French post-impressionist works",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#21",
+     "role": "both",
+     "quote": "In 1905 , Grabar travelled to Paris to study the new works of French postimpressionists"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1908",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Broke with Mir Iskusstva completely",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#24",
+     "role": "both",
+     "quote": "As a result , in 1908 Grabar broke with the movement completely"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1908",
+   "grain": "year",
+   "track": "role",
+   "text": "Became chief editor and writer for Knebel's book series",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#25",
+     "role": "both",
+     "quote": "In the same 1908 , Grabar abandoned painting in favor of writing ; he became chief editor and writer"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1908",
+   "grain": "year",
+   "track": "other",
+   "label": "career_shift",
+   "text": "Abandoned painting in favour of writing",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#25",
+     "role": "both",
+     "quote": "In the same 1908 , Grabar abandoned painting in favor of writing"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1909-07",
+   "grain": "month",
+   "track": "work",
+   "text": "Designed Palladian Zakharyin Hospital in Khimki",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#26",
+     "role": "both",
+     "quote": "in July 1909 he took a short leave from writing and designed the Palladian Zakharyin Hospital"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1910",
+   "grain": "year",
+   "track": "work",
+   "text": "First issue of History of Russian Art printed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#1",
+     "role": "both",
+     "quote": "In 1910–1915 , Grabar edited and published his opus magnum , the History of Russian Art"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#27",
+     "role": "both",
+     "quote": "The first issue of History was printed in 1910"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1913-04-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Elected trustee and executive director of Tretyakov Gallery",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#2",
+     "role": "both",
+     "quote": "In 1913 , he was appointed executive director of the Tretyakov Gallery"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#33",
+     "role": "both",
+     "quote": "On 2 April 1913 , the Board of the Tretyakov Gallery elected Grabar its trustee and executive director"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1913-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Gallery reopened after Grabar's rearrangement of paintings",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#35",
+     "role": "both",
+     "quote": "when the gallery reopened in December 1913"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1915",
+   "grain": "year",
+   "track": "other",
+   "label": "scandal",
+   "text": "Public scandal over his purchasing decisions; calls for his dismissal",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#35",
+     "role": "both",
+     "quote": "In the beginning of 1915 , Grabars purchasing decisions stirred a public scandal"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1915",
+   "grain": "year",
+   "track": "work",
+   "text": "History publication ceased with the 23rd issue",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#1",
+     "role": "both",
+     "quote": "In 1910–1915 , Grabar edited and published his opus magnum , the History of Russian Art"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#27",
+     "role": "both",
+     "quote": "publication ceased with the 23rd issue in the beginning of 1915"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1915",
+   "grain": "year",
+   "track": "other",
+   "label": "loss",
+   "text": "Grabar's archive burnt in anti-German pogrom at Knebel's printshop",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#27",
+     "role": "both",
+     "quote": "in the beginning of 1915 when Knebels printshop and Grabars archive stored there were burnt"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1916-01",
+   "grain": "month",
+   "track": "other",
+   "label": "approval",
+   "text": "Moscow City Hall approved Grabar's reform in full",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#36",
+     "role": "both",
+     "quote": "Debates continued until January 1916 , when Moscow City Hall approved Grabars reform in full"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1917",
+   "grain": "year",
+   "track": "work",
+   "text": "Published first comprehensive Tretyakov Gallery catalogue",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#2",
+     "role": "both",
+     "quote": "and in 1917 published its first comprehensive catalogue"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#36",
+     "role": "both",
+     "quote": "Grabar summarized his achievements in the 1917 catalogue of the Gallery"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1918",
+   "grain": "year",
+   "track": "role",
+   "text": "Took lead of Museums and Preservation Section and restoration workshops",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#39",
+     "role": "both",
+     "quote": "In 1918 , Grabar took the lead of the Museums and Preservation Section of the Soviet Government"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"
+    }
+   ]
+  },
+  {
+   "date": "1918-06",
+   "grain": "month",
+   "track": "other",
+   "label": "nationalization",
+   "text": "Tretyakov Gallery nationalized",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#37",
+     "role": "both",
+     "quote": "nationalization in June 1918"
+    }
+   ],
+   "id": "e33"
+  },
+  {
+   "id": "e34",
+   "date": "1918-12",
+   "grain": "month",
+   "track": "work",
+   "text": "His institutions catalogued all known heritage under Bolshevik decree",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#39",
+     "role": "both",
+     "quote": "As prescribed by the Bolsheviks in December 1918 , Grabars institutions catalogued all known heritage"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1919",
+   "grain": "year",
+   "track": "work",
+   "text": "Directed commission documenting and preserving church murals and icons",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#41",
+     "role": "both",
+     "quote": "From 1919 , Grabar directed his commission into documenting and preserving Orthodox church murals and icons"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1919",
+   "grain": "year",
+   "track": "work",
+   "text": "First expedition to Yaroslavl restored previously unknown church works",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#41",
+     "role": "both",
+     "quote": "The first 1919 expedition to Yaroslavl located and restored previously unknown works"
+    }
+   ]
+  },
+  {
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "Became the first professor of Art restoration at Moscow State University",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#2",
+     "role": "both",
+     "quote": "In 1921 Grabar became the first professor of Art restoration at the Moscow State University"
+    }
+   ],
+   "id": "e37"
+  },
+  {
+   "date": "1926",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "Replaced as head of the Tretyakov Gallery by architect Aleksey Shchusev",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#38",
+     "role": "both",
+     "quote": "in 1926 Grabar was replaced with architect Aleksey Shchusev"
+    }
+   ],
+   "id": "e38"
+  },
+  {
+   "id": "e39",
+   "date": "1930",
+   "grain": "year",
+   "track": "role",
+   "text": "Left administrative, academic and editorial posts; ended workshop management; turned to painting",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#45",
+     "role": "both",
+     "quote": "In 1930 , Grabar left all his administrative , academic and editorial jobs"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1931",
+   "grain": "year",
+   "track": "work",
+   "text": "Supervised New York exhibition of icon art",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#47",
+     "role": "both",
+     "quote": "Grabar supervised another New York exhibition , this time of icon art , in 1931"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1933",
+   "grain": "year",
+   "track": "work",
+   "text": "Painted Portrait of Svetlana, which brought unwanted publicity",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#47",
+     "role": "both",
+     "quote": "it was the 1933 Portrait of Svetlana that gave him an enormous and unwanted exposure"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1933",
+   "grain": "year",
+   "track": "role",
+   "text": "Began brief voluntary retirement from Soviet art establishment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "excluding a brief voluntary retirement in 1933–1937"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1933",
+   "grain": "year",
+   "track": "other",
+   "label": "petition",
+   "text": "Wrote pleas to Stalin to save Sukharev Tower (1933-34)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#46",
+     "role": "both",
+     "quote": "writing pleas to Stalin , as was the case of the Sukharev Tower in 1933–1934"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1935-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Autobiography manuscript ready for print; publication then barred",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#48",
+     "role": "both",
+     "quote": "wrote his Autobiography that was ready for print in June 1935"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1937",
+   "grain": "year",
+   "track": "work",
+   "text": "Published book on Ilya Repin",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#48",
+     "role": "both",
+     "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later and began writing Serov"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1937",
+   "grain": "year",
+   "track": "work",
+   "text": "Began writing book on Serov",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#48",
+     "role": "both",
+     "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later and began writing Serov"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1937",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended voluntary retirement and returned to Soviet art establishment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "excluding a brief voluntary retirement in 1933–1937"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1937-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Autobiography publication ban lifted; book published",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#48",
+     "role": "both",
+     "quote": "but was barred from publication until March 1937"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#62",
+     "role": "both",
+     "quote": "The book was originally published in 1937"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1941",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received State Prize for Repin book (four years after 1937)",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#48",
+     "role": "both",
+     "quote": "In the same 1937 Grabar published Ilya Repin that earned him the State Prize four years later"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1943-06",
+   "grain": "month",
+   "track": "other",
+   "label": "proposal",
+   "text": "Proposed tit-for-tat art compensation for WWII losses",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "In 1943 , he formulated the Soviet doctrine of compensating World War II losses with art looted in Germany"
+    },
+    {
+     "chunk_id": "/wiki/Igor_Grabar#50",
+     "role": "both",
+     "quote": "In June 1943 , Grabar proposed tit-for-tat compensation of Soviet art treasures"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1944",
+   "grain": "year",
+   "track": "role",
+   "text": "Resumed management of restoration workshops",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"
+    }
+   ]
+  },
+  {
+   "date": "1948",
+   "grain": "year",
+   "track": "other",
+   "label": "campaign",
+   "text": "Caught in another campaign against random targets in art and science",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#53",
+     "role": "both",
+     "quote": "in 1948 Grabar was caught in another campaign against random targets in art and science"
+    }
+   ],
+   "id": "e52"
+  },
+  {
+   "id": "e53",
+   "date": "1954",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored revisionist study of 18th-century Russian architecture",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#53",
+     "role": "both",
+     "quote": "in 1954 co-authored Russian architecture of the first half of the 18th century"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1960",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended management of restoration workshops (role held 1944-1960)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#3",
+     "role": "both",
+     "quote": "He managed art-restoration workshops ( present-day Grabar Centre ) during 1918–1930 and from 1944 to 1960"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1960-05-16",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Moscow",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Igor_Grabar#0",
+     "role": "both",
+     "quote": "16 May 1960 in Moscow"
+    }
+   ]
+  }
  ],
  "undated_mentions": [
   "by the end of 1890s: established himself as an art critic (decade mark)",
