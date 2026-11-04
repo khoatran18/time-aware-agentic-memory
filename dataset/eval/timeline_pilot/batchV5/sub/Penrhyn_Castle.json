@@ -1,0 +1,151 @@
+{
+  "page_id": "/wiki/Penrhyn_Castle",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1438",
+      "grain": "year",
+      "track": "work",
+      "text": "Ioan ap Gruffudd licensed to crenellate; founded stone castle and tower house.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#0", "role": "both", "quote": "In 1438 , Ioan ap Gruffudd was granted a licence to crenellate"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1808",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "George Hay Dawkins-Pennant inherited Penrhyn Estate on 1st Baron's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#2", "role": "both", "quote": "The 1st Baron Penrhyn ( first creation ; 1737–1808 )"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e3",
+      "date": "1822",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the present building began to designs by Thomas Hopper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#1", "role": "both", "quote": "The present building was built between about 1822 and 1837"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "1833",
+      "grain": "year",
+      "track": "other",
+      "label": "compensation",
+      "text": "Dawkins-Pennant compensated for 764 freed slaves after the 1833 Act.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#8", "role": "both", "quote": "after the Slavery Abolition Act 1833 compensated for being deprived of 764 slaves"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1837",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the present building completed to designs by Thomas Hopper.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#1", "role": "both", "quote": "The present building was built between about 1822 and 1837"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e6",
+      "date": "1840",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Edward Gordon Douglas inherited the estate on George's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#2", "role": "both", "quote": "on inheriting the estate on Georges death in 1840"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1859",
+      "grain": "year",
+      "track": "other",
+      "label": "royal visit",
+      "text": "Queen Victoria visited; a slate bed was made for her.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#6", "role": "both", "quote": "a one-ton slate bed made for Queen Victoria when she visited in 1859"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1949-06",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Castle and estate passed to niece Lady Janet Pelham after the 4th Baron's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#7", "role": "both", "quote": "The 4th Baron Penrhyn died in June 1949 , and the castle and estate passed to his niece"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1951",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Castle accepted by the treasury for death duties; later bequeathed to the National Trust.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#7", "role": "both", "quote": "In 1951 , the castle and 40,000 acres ( 160 km ) of land were accepted by the treasury"},
+        {"chunk_id": "/wiki/Penrhyn_Castle#11", "role": "both", "quote": "when the castle was bequeathed to the National Trust in 1951 a small museum"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1951",
+      "grain": "year",
+      "track": "other",
+      "label": "museum founding",
+      "text": "Small railway relics museum created in the castle's stable block.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#11", "role": "both", "quote": "when the castle was bequeathed to the National Trust in 1951 a small museum"},
+        {"chunk_id": "/wiki/Penrhyn_Castle#12", "role": "description", "quote": "of industrial railway relics was created in the stable block"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2014",
+      "grain": "year",
+      "track": "other",
+      "label": "opera location",
+      "text": "Welsh National Opera chose the castle as location for its video design.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#15", "role": "both", "quote": "In 2014 , David Haneke from the Welsh National Opera chose Penrhyn Castle as the location"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2019",
+      "grain": "year",
+      "track": "other",
+      "label": "filming location",
+      "text": "HBO's Watchmen adaptation shot many scenes at the castle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#16", "role": "both", "quote": "HBOs 2019 television adaptation of the Watchmen franchise shot many scenes at the castle"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2020",
+      "grain": "year",
+      "track": "other",
+      "label": "filming location",
+      "text": "An edition of BBC's Flog It! was filmed at the castle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Penrhyn_Castle#17", "role": "both", "quote": "A 2020 edition of the BBCs Flog It ! was filmed at the castle"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Samuel Wyatt reconstructed the property in the 1780s",
+    "The family began collecting paintings from the early years of the 19th century"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "page_id": "John_J_Pettus",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1813-10-09",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Wilson County, Tennessee.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#2", "role": "both", "quote": "John Jones Pettus was born on October 9 , 1813 in Wilson County , Tennessee"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1835",
+      "grain": "year",
+      "track": "location",
+      "text": "Settled in Mississippi.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#2", "role": "both", "quote": "Pettus settled in Mississippi in 1835 ."}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1844",
+      "grain": "year",
+      "track": "role",
+      "text": "Represented Kemper County in the Mississippi House of Representatives.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#4", "role": "both", "quote": "In 1844 , Pettus represented Kemper County in the Mississippi House of Representatives ."}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1848",
+      "grain": "year",
+      "track": "role",
+      "text": "Elected to the Mississippi Senate.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#4", "role": "both", "quote": "In 1848 , he was elected to the Mississippi Senate ."}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1854-01-05",
+      "grain": "day",
+      "track": "role",
+      "text": "Began service as acting governor after Foote's resignation.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#0", "role": "both", "quote": "served as acting governor from January 5 to 10 , 1854"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e6",
+      "date": "1854-01-07",
+      "grain": "day",
+      "track": "role",
+      "text": "Sworn in as acting governor.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#5", "role": "both", "quote": "sworn at noon on January 7 , 1854"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e7",
+      "date": "1854-01-10",
+      "grain": "day",
+      "track": "role",
+      "text": "Ended acting governorship when McRae was sworn in.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#5", "role": "both", "quote": "He held the governorship until McRae was sworn in on January 10 , 1854"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1854-01-11",
+      "grain": "day",
+      "track": "role",
+      "text": "Returned as president of the Mississippi Senate.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#5", "role": "both", "quote": "On January 11 , McRae was inaugurated as Governor and Pettus returned as senate president"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e9",
+      "date": "1859",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as 23rd Governor of Mississippi after election.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#0", "role": "both", "quote": "served as the 23rd Governor of Mississippi , from 1859 to 1863"},
+        {"chunk_id": "/wiki/John_J._Pettus#7", "role": "both", "quote": "In 1859 , he was elected Governor ."}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1860-11-26",
+      "grain": "day",
+      "track": "role",
+      "text": "Called special legislative session urging a secession convention.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#7", "role": "both", "quote": "on November 26 , 1860 , Pettus called for a Special Session of the Legislature"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1861",
+      "grain": "year",
+      "track": "role",
+      "text": "Re-elected governor in fall 1861.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#8", "role": "both", "quote": "Pettus was re-elected in the fall of 1861 ."}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e12",
+      "date": "1863",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as governor; succeeded by Charles Clark.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#0", "role": "both", "quote": "from 1859 to 1863"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1865-09",
+      "grain": "month",
+      "track": "other",
+      "label": "oath of allegiance",
+      "text": "Took oath of allegiance to the United States government.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#9", "role": "both", "quote": "In September 1865 he took the oath of allegiance to the United States government"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1867-01-25",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died of pneumonia.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_J._Pettus#9", "role": "both", "quote": "Pettus died on January 25 , 1867 , of pneumonia"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "opened law practice in Scooba, Mississippi (1840s)",
+    "married cousin Permelia Winston (1840s)",
+    "identified as the Mississippi Fire-eater (1850s)",
+    "raised in Limestone County, Alabama (childhood)",
+    "educated at home by his mother (childhood)",
+    "served as president of the Mississippi Senate (before 1854)",
+    "ordered special session in Noxubee County to fill deceased representative's seat (during acting governorship, 1854)",
+    "commissioned colonel in state militia (after term limit)",
+    "failed three times to receive presidential pardon (after September 1865)",
+    "relocated to Pulaski County (present-day Lonoke County), Arkansas (after the war)"
+  ]
+}

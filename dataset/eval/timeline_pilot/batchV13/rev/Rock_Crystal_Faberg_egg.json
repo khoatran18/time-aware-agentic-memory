@@ -1,0 +1,92 @@
+{
+  "page_id": "Rock_Crystal_Faberg_egg",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1896",
+      "grain": "year",
+      "track": "work",
+      "text": "Rock Crystal egg created for Empress Alexandra Feodorovna.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#0",
+          "role": "both",
+          "quote": "It was created in 1896 for Empress Alexandra Feodorovna"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1896-03-24",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Presented by Nicholas II to Alexandra Fedorovna.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#10",
+          "role": "both",
+          "quote": "The egg was presented by Nicholas II to Alexandra Fedorovna on March 24 , 1896"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1909",
+      "grain": "year",
+      "track": "location",
+      "text": "Housed in the Empress study in the Winter Palace.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#11",
+          "role": "both",
+          "quote": "In 1909 , the egg was housed in the Empress study in the Winter Palace"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1930",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Sold by the Antikvariat to Hammer Galleries, New York City.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#11",
+          "role": "both",
+          "quote": "In 1930 , the Rock Crystal Egg was one of the ten Eggs sold by the Antikvariat"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1945",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Bought by Lillian Thomas Pratt, wife of John Lee Pratt.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#11",
+          "role": "both",
+          "quote": "In 1945 the egg became the last of five Imperial Easter Eggs bought by Lillian Thomas Pratt"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1947",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Willed to Virginia Museum of Fine Arts after Pratt's death.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Rock_Crystal_(Fabergé_egg)#12",
+          "role": "both",
+          "quote": "Upon Lillian Thomas Pratts death in 1947 , the egg was willed to Virginia Museum of Fine Arts"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Seized by the Kerensky Provisional Government and moved with about 40 other eggs to the Armory Palace of the Kremlin, Moscow"
+  ]
+}

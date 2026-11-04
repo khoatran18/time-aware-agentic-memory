@@ -1,0 +1,124 @@
+{
+  "page_id": "Senate_of_the_Kingdom_of_Italy",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1861-03-17",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Senate established upon Italian unification, replacing the Subalpine Senate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#0", "role": "both", "quote": "established on 17 March 1861 upon Italian unification"},
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#1", "role": "both", "quote": "created in 1861"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1864",
+      "grain": "year",
+      "track": "location",
+      "text": "Senate moved from Turin to the Palazzo Vecchio in Florence.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#1", "role": "both", "quote": "until 1864 when it was moved to the Palazzo Vecchio in Florence"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1871",
+      "grain": "year",
+      "track": "location",
+      "text": "Senate moved from Florence to the Palazzo Madama in Rome.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#1", "role": "both", "quote": "in 1871 , it was moved to the Palazzo Madama in Rome"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1939",
+      "grain": "year",
+      "track": "role",
+      "text": "211 new members added to the Senate when lower house became Chamber of Fasces and Corporations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#2", "role": "both", "quote": "in 1939 , when the lower house was transformed into the Chamber of Fasces and Corporations , 211 new members were added"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1943-07-25",
+      "grain": "day",
+      "track": "role",
+      "text": "King Victor Emmanuel III appointed Paolo Thaon di Revel as Senate President.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#2", "role": "both", "quote": "When Fascism fell on 25 July 1943 , King Victor Emmanuel III appointed Paolo Thaon di Revel as the President of the Senate"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1943-08-02",
+      "grain": "day",
+      "track": "role",
+      "text": "Paolo Thaon di Revel entered office as Senate President.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#3", "role": "both", "quote": "he entered office on 2 August 1943"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1944-07-20",
+      "grain": "day",
+      "track": "role",
+      "text": "Pietro Tomasi Della Torretta appointed final Senate President.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#4", "role": "both", "quote": "On 20 July 1944 , Pietro Tomasi Della Torretta was appointed as the final President of the Senate"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1944-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Senators responsible for maintaining Fascism dismissed from office.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#4", "role": "both", "quote": "In August 1944 , all Senators responsible for maintaining Fascism"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1946-06-25",
+      "grain": "day",
+      "track": "role",
+      "text": "Tomasi Della Torretta's term as Senate President ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#4", "role": "both", "quote": "an office which he retained until 25 June 1946"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1946-06-25",
+      "grain": "day",
+      "track": "other",
+      "label": "cessation",
+      "text": "Senate of the Kingdom ceased to function.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#5", "role": "both", "quote": "the Senate of the Kingdom ceased to function on 25 June 1946"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1947-11-07",
+      "grain": "day",
+      "track": "other",
+      "label": "dissolution",
+      "text": "Senate formally suppressed, replaced by the present-day Senate of the Republic.",
+      "evidence": [
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#0", "role": "both", "quote": "It was suppressed on 7 November 1947"},
+        {"chunk_id": "/wiki/Senate_of_the_Kingdom_of_Italy#5", "role": "both", "quote": "It was formally suppressed on 7 November 1947"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Transformation into the Senate of the Republic",
+    "Senate lost almost all its limited power during the final years of the Fascist regime"
+  ]
+}

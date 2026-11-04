@@ -1,0 +1,186 @@
+{
+ "page_id": "/wiki/Helsingin_Sanomat",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1889",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Newspaper founded as Päivälehti in Finland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#1",
+     "role": "both",
+     "quote": "The paper was founded in 1889 as Päivälehti"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1904",
+   "grain": "year",
+   "track": "other",
+   "label": "closure",
+   "text": "Päivälehti closed permanently after Russian censorship pressure.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#1",
+     "role": "both",
+     "quote": "finally to close permanently in 1904"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1905",
+   "grain": "year",
+   "track": "naming",
+   "text": "Proprietors reopened the paper under its current name.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#1",
+     "role": "both",
+     "quote": "Its proprietors re-opened the paper under its current name in 1905"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1932",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Paper became politically independent and non-aligned.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#1",
+     "role": "both",
+     "quote": "has been politically independent and non-aligned since the 1932"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Finnish and English-language online editions began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#5",
+     "role": "both",
+     "quote": "Between 1999 and 2012 there were also both Finnish and English-language online newspaper editions"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999-09-14",
+   "grain": "day",
+   "track": "work",
+   "text": "English-language International Edition launched to inform readers about Finland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#11",
+     "role": "both",
+     "quote": "The International Edition launched on 14 September 1999"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Finnish and English-language online editions ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#5",
+     "role": "both",
+     "quote": "Between 1999 and 2012 there were also both Finnish and English-language online newspaper editions"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2012-10-26",
+   "grain": "day",
+   "track": "work",
+   "text": "International Edition closed down.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#12",
+     "role": "both",
+     "quote": "The Helsingin Sanomat International Edition closed down on 26 October 2012"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2013-01-06",
+   "grain": "day",
+   "track": "work",
+   "text": "Paper switched from broadsheet to compact format.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#4",
+     "role": "both",
+     "quote": "The newspaper was published in broadsheet format until 6 January 2013"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2013-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Mikael Pentikäinen fired as editor-in-chief.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#3",
+     "role": "both",
+     "quote": "Mikael Pentikäinen was the editor-in-chief until May 2013 when he was fired from the post"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2013-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Riikka Venäläinen temporarily replaced him as editor-in-chief.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#3",
+     "role": "date",
+     "quote": "until May 2013 when he was fired from the post"
+    },
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#3",
+     "role": "description",
+     "quote": "Riikka Venäläinen replaced him temporarily in the post"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2014-10-06",
+   "grain": "day",
+   "track": "work",
+   "text": "Russian-language material service discontinued.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Helsingin_Sanomat#12",
+     "role": "both",
+     "quote": "the service was discontinued on 6 October 2014"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Kaius Niemi became editor-in-chief after Riikka Venäläinen (no date given)",
+  "Eljas Erkko served as the paper's publisher during the run-up to the Winter War (no year stated)",
+  "Paper published some material in Russian for a while (no date given)"
+ ]
+}

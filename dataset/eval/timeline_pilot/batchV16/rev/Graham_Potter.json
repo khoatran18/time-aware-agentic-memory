@@ -1,0 +1,43 @@
+{
+  "page_id": "Graham_Potter",
+  "events": [
+    {"id": "e1", "date": "1975-05-20", "grain": "day", "track": "other", "label": "birth", "text": "Graham Stephen Potter is born.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#0", "role": "both", "quote": "born 20 May 1975"}]},
+    {"id": "e2", "date": "1997", "grain": "year", "track": "affiliation", "text": "Joined West Bromwich Albion as a player.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#2", "role": "both", "quote": "He joined West Bromwich Albion in 1997"}]},
+    {"id": "e3", "date": "2000", "grain": "year", "track": "affiliation", "text": "Left West Bromwich Albion and signed for York City.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#2", "role": "both", "quote": "after three-and-a-half years , which included loan spells at Northampton Town and Reading , he signed for York City"}]},
+    {"id": "e4", "date": "2003", "grain": "year", "track": "affiliation", "text": "Moved from York City to Boston United.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#3", "role": "both", "quote": "moved from York City to Boston United in the summer of 2003"}]},
+    {"id": "e5", "date": "2003-11", "grain": "month", "track": "affiliation", "text": "Joined Shrewsbury Town on loan.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#3", "role": "both", "quote": "He joined Shrewsbury Town on loan in November 2003"}]},
+    {"id": "e6", "date": "2004", "grain": "year", "track": "affiliation", "text": "Moved to Macclesfield Town on a free transfer; ended playing career there.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#3", "role": "both", "quote": "In 2004 , he moved on a free transfer to Macclesfield Town"}]},
+    {"id": "e7", "date": "2005-12", "grain": "month", "track": "education", "text": "Graduated from the Open University with a Social Sciences degree.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#4", "role": "both", "quote": "graduated from the Open University in December 2005"}]},
+    {"id": "e8", "date": "2007", "grain": "year", "track": "role", "text": "Technical director for the Ghana women's team at the World Cup.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#4", "role": "both", "quote": "technical director for the Ghana womens team at the 2007 FIFA Womens World Cup"}]},
+    {"id": "e9", "date": "2010-12", "grain": "month", "track": "role", "text": "Began managerial career as coach of Swedish club Östersund.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#1", "role": "both", "quote": "started his managerial career in December 2010 with Swedish club Östersund"}, {"chunk_id": "/wiki/Graham_Potter#5", "role": "both", "quote": "In December 2010 , Potter signed a three-year contract as coach of Östersund"}]},
+    {"id": "e10", "date": "2011", "grain": "year", "track": "other", "label": "honour", "text": "Östersund won the Division 2 Norrland title.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#32", "role": "both", "quote": "Division 2 Norrland : 2011"}]},
+    {"id": "e11", "date": "2011-01-24", "grain": "day", "track": "role", "text": "Three-year Östersund coaching contract started.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#5", "role": "both", "quote": "starting on 24 January 2011"}]},
+    {"id": "e12", "date": "2012", "grain": "year", "track": "other", "label": "honour", "text": "Östersund won the Division 1 Norra title.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#32", "role": "both", "quote": "Division 1 Norra : 2012"}]},
+    {"id": "e13", "date": "2013", "grain": "year", "track": "role", "text": "Extended Östersund contract for three more years after promotions.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#6", "role": "both", "quote": "In 2013 , after two successive promotions , Potter extended his contract with the club for another three years"}]},
+    {"id": "e14", "date": "2015-10-27", "grain": "day", "track": "other", "label": "promotion", "text": "Östersund promoted to Allsvenskan for the first time.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#6", "role": "both", "quote": "On 27 October 2015 , Östersund secured promotion to the Swedish top flight , Allsvenskan"}]},
+    {"id": "e15", "date": "2016", "grain": "year", "track": "other", "label": "award", "text": "Won Swedish Football Awards Manager of the Year.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#33", "role": "both", "quote": "Swedish Football Awards Manager of the Year : 2016"}]},
+    {"id": "e16", "date": "2017", "grain": "year", "track": "other", "label": "award", "text": "Won Swedish Football Awards Manager of the Year again.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#33", "role": "both", "quote": "Swedish Football Awards Manager of the Year : 2016 , 2017"}]},
+    {"id": "e17", "date": "2017", "grain": "year", "track": "other", "label": "award", "text": "Won Swedish Sports Awards Coach of the Year.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#33", "role": "both", "quote": "Swedish Sports Awards Coach of the Year : 2017"}]},
+    {"id": "e18", "date": "2017-04-13", "grain": "day", "track": "other", "label": "honour", "text": "Östersund won the Svenska Cupen, beating Norrköping 4–1 in the final.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#7", "role": "both", "quote": "On 13 April 2017 , Potters Östersund team won the Svenska Cupen"}, {"chunk_id": "/wiki/Graham_Potter#32", "role": "description", "quote": "Svenska Cupen : 2016–17"}]},
+    {"id": "e19", "date": "2018-06-11", "grain": "day", "track": "role", "text": "Appointed manager of Swansea City on a three-year contract.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#9", "role": "both", "quote": "Potter was appointed manager of newly relegated Championship club Swansea City on 11 June 2018"}, {"chunk_id": "/wiki/Graham_Potter#1", "role": "both", "quote": "He was appointed manager of Championship club Swansea City in June 2018"}]},
+    {"id": "e20", "date": "2019-05", "grain": "month", "track": "affiliation", "text": "Informed Swansea of his desire to leave for Brighton.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#12", "role": "both", "quote": "However , several days later , Potter informed Swansea of his desire to leave the club"}, {"chunk_id": "/wiki/Graham_Potter#13", "role": "description", "quote": "eventually granted permission for Potter to begin talks with Brighton"}]},
+    {"id": "e21", "date": "2019-05-20", "grain": "day", "track": "role", "text": "Appointed head coach of Brighton & Hove Albion on a four-year contract.", "evidence": [{"chunk_id": "/wiki/Graham_Potter#14", "role": "both", "quote": "Potter was appointed head coach of Premier League club Brighton & Hove Albion on 20 May 2019"}, {"chunk_id": "/wiki/Graham_Potter#1", "role": "description", "quote": "moved on to Brighton & Hove Albion of the Premier League a year later"}]},
+    {"id": "e22", "date": "2021-04-22", "grain": "day", "track": "other", "label": "injury", "text": "Suffered a facial injury with a cut below his left eye at a press conference.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Graham_Potter#26", "role": "both", "quote": "2 days later , while attending a press conference Potter appeared to have suffered a facial injury"}]}
+  ],
+  "undated_mentions": [
+    "Trainee at Birmingham City",
+    "Loan spell at Wycombe Wanderers",
+    "Moved to Stoke City",
+    "Moved to Southampton; played Premier League for Southampton",
+    "Capped for England U21 in a European Championship qualifier against Moldova",
+    "Loan spells at Northampton Town and Reading",
+    "Football development manager at the University of Hull",
+    "Assistant coach for the England Universities Squad",
+    "Joined Leeds Metropolitan University in a similar role",
+    "Completed a masters in leadership and emotional intelligence at Leeds",
+    "Won three promotions with Östersund (dates not stated)",
+    "Östersund reached the Europa League group stage (2017–18 season)",
+    "Swansea reached the FA Cup quarter-finals (2018–19 season)",
+    "Superettan runner-up (2015 season)"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "page_id": "Edward_Adolf_Sonnenschein",
+  "events": [
+    {"id": "e1", "date": "1851-11-20", "grain": "day", "track": "other", "label": "birth", "text": "Born in London.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#0", "role": "both", "quote": "20 November 1851"}]},
+    {"id": "e2", "date": "1868", "grain": "year", "track": "education", "text": "Went on to University College London.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "in 1868 at University College London"}]},
+    {"id": "e3", "date": "1879", "grain": "year", "track": "work", "text": "Published edition of Plautus's Captivi.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "publishing editions of Captivi ( 1879 )"}]},
+    {"id": "e4", "date": "1883", "grain": "year", "track": "role", "text": "Appointed professor of Greek and Latin at Mason College.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "appointed Oxford professor of Greek and Latin at Mason College ( afterwards the University of Birmingham ) in 1883"}]},
+    {"id": "e5", "date": "1884", "grain": "year", "track": "work", "text": "Published edition of Plautus's Mostellaria.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "Mostellaria ( 1884 )"}]},
+    {"id": "e6", "date": "1891", "grain": "year", "track": "work", "text": "Published edition of Plautus's Rudens.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "Rudens ( 1891 )"}]},
+    {"id": "e7", "date": "1903", "grain": "year", "track": "other", "label": "founding", "text": "Founded the Classical Association with John Percival Postgate.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "With John Percival Postgate , he founded the Classical Association in 1903"}]},
+    {"id": "e8", "date": "1903", "grain": "year", "track": "role", "text": "Became Secretary of the Classical Association.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#8", "role": "both", "quote": "forming the Classical Association in 1903 , becoming its Secretary"}]},
+    {"id": "e9", "date": "1910", "grain": "year", "track": "work", "text": "Published The Unity of the Latin Subjunctive.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#2", "role": "both", "quote": "The Unity of the Latin Subjunctive ( 1910 )"}]},
+    {"id": "e10", "date": "1911", "grain": "year", "track": "work", "text": "Contributed articles to the 1911 Encyclopaedia Britannica.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#8", "role": "both", "quote": "He contributed to the 1911 Encyclopædia Britannica"}]},
+    {"id": "e11", "date": "1914-02-22", "grain": "day", "track": "family", "text": "Son Christopher Edward killed in a Swiss mountaineering accident.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#4", "role": "both", "quote": "killed in a mountaineering accident in Switzerland on 22 February 1914"}]},
+    {"id": "e12", "date": "1918", "grain": "year", "track": "role", "text": "Left the Mason College professorship.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#1", "role": "both", "quote": "staying there until 1918"}]},
+    {"id": "e13", "date": "1927", "grain": "year", "track": "work", "text": "Published The Soul of Grammar.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#2", "role": "both", "quote": "The Soul of Grammar ( 1927 )"}]},
+    {"id": "e14", "date": "1929-09-02", "grain": "day", "track": "other", "label": "death", "text": "Died in Bath.", "evidence": [{"chunk_id": "/wiki/Edward_Adolf_Sonnenschein#0", "role": "both", "quote": "2 September 1929"}]}
+  ],
+  "undated_mentions": [
+    "educated at University College School (no date)",
+    "published the Parallel Grammar series (no date)",
+    "married Edith Annesley Bolton (no date)"
+  ]
+}

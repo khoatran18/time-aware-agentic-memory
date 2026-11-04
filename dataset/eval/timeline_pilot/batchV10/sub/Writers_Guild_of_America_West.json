@@ -1,0 +1,271 @@
+{
+  "page_id": "Writers_Guild_of_America_West",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1921",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Screen Writers Guild formed by ten screenwriters in Hollywood.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#1", "role": "both", "quote": "The Screen Writers Guild ( SWG ) was formed in 1921 by a group of ten screenwriters"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1933",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Screen Writers Guild affiliated with the Authors Guild.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#1", "role": "both", "quote": "The group affiliated with the Authors Guild in 1933"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1948",
+      "grain": "year",
+      "track": "other",
+      "label": "representation",
+      "text": "Screen Writers Guild began representing TV writers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#1", "role": "both", "quote": "began representing TV writers in 1948"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1952",
+      "grain": "year",
+      "track": "other",
+      "label": "policy",
+      "text": "Guild authorized studios to delete credits of writers not cleared by Congress.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#3", "role": "both", "quote": "In 1952 , the Guild authorized movie studios to delete onscreen credits"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1954",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Five writers' groups merged; WGA West (WGAw) formed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#0", "role": "both", "quote": "It was formed in 1954 from five organizations representing writers"},
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#1", "role": "both", "quote": "In 1954 , the SWG was one of five groups who merged"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1977",
+      "grain": "year",
+      "track": "role",
+      "text": "Daniel Taradash became WGAw president.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#2", "role": "both", "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1979",
+      "grain": "year",
+      "track": "role",
+      "text": "Daniel Taradash's WGAw presidency ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#2", "role": "both", "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1988-03",
+      "grain": "month",
+      "track": "other",
+      "label": "strike",
+      "text": "WGAw members struck major TV networks, March to August 1988.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#4", "role": "both", "quote": "From March to August 1988 , WGAw members were on strike"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1997",
+      "grain": "year",
+      "track": "work",
+      "text": "WGAw began publishing its journal Written By.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#17", "role": "both", "quote": "six times a year since 1997"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e10",
+      "date": "2003",
+      "grain": "year",
+      "track": "other",
+      "label": "election",
+      "text": "WGAw officer election later challenged over Riskin's eligibility.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#5", "role": "both", "quote": "accused by her opponent Eric Hughes during the 2003 election"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2004",
+      "grain": "year",
+      "track": "role",
+      "text": "Victoria Riskin resigned as WGAw president.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#5", "role": "both", "quote": "In 2004 , Victoria Riskin resigned as WGAw President"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2004",
+      "grain": "year",
+      "track": "role",
+      "text": "Vice-president Charles Holland replaced Riskin as president.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#5", "role": "both", "quote": "She was replaced by vice-president Charles Holland"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e13",
+      "date": "2004",
+      "grain": "year",
+      "track": "role",
+      "text": "Charles Holland resigned weeks later over statements about his background.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#5", "role": "both", "quote": "who resigned a few weeks later when questions arose"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e14",
+      "date": "2004-09",
+      "grain": "month",
+      "track": "role",
+      "text": "Daniel Petrie Jr. won the re-run WGAw presidential election over Eric Hughes.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#6", "role": "both", "quote": "A new election was held in September 2004"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2005-06",
+      "grain": "month",
+      "track": "other",
+      "label": "campaign",
+      "text": "WGAw started reality rights campaign for reality TV writers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#9", "role": "both", "quote": "In June 2005 , WGAw started a reality rights campaign"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2006-09-20",
+      "grain": "day",
+      "track": "other",
+      "label": "rally",
+      "text": "WGAw held Los Angeles unity rally supporting Americas Next Top Model writers.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#11", "role": "both", "quote": "on September 20 , 2006 the WGAw held a Los Angeles unity rally"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2006-11-06",
+      "grain": "day",
+      "track": "other",
+      "label": "legal action",
+      "text": "WGAw filed unfair labor practice complaint with the NLRB.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#12", "role": "both", "quote": "On November 6 , 2006 , the WGAw filed an unfair labor practice complaint"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "2007",
+      "grain": "year",
+      "track": "other",
+      "label": "contract negotiations",
+      "text": "David Young was chief negotiator in the 2007 contract negotiations.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#16", "role": "both", "quote": "Young served as the Guilds chief negotiator during the 2007 contract negotiations"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2007-11-02",
+      "grain": "day",
+      "track": "other",
+      "label": "strike",
+      "text": "WGAw went on strike over DVD, internet and new media revenue shares.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#13", "role": "both", "quote": "On November 2 , 2007 , the Guild again went on strike"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "David A. Goodman listed as WGAw president.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#14", "role": "both", "quote": "In 2017 the officers are : - President : David A . Goodman"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "Marjorie David listed as WGAw vice president.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#14", "role": "both", "quote": "In 2017 the officers are : - President : David A . Goodman"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "Aaron Mendelsohn listed as WGAw secretary-treasurer.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#14", "role": "both", "quote": "In 2017 the officers are : - President : David A . Goodman"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "2019-04",
+      "grain": "month",
+      "track": "other",
+      "label": "agent dismissals",
+      "text": "Over 7,000 members fired their talent agents after the lawsuit.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#7", "role": "date", "quote": "On April 17 , 2019 , WGA West and WGA East filed a lawsuit"},
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#8", "role": "description", "quote": "During the week following its lawsuit filing ; en masse , over 7,000 Guild members fired their talent agents"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e24",
+      "date": "2019-04-17",
+      "grain": "day",
+      "track": "other",
+      "label": "lawsuit",
+      "text": "WGA West and WGA East sued four Hollywood talent agencies over packaging fees.",
+      "evidence": [
+        {"chunk_id": "/wiki/Writers_Guild_of_America_West#7", "role": "both", "quote": "On April 17 , 2019 , WGA West and WGA East filed a lawsuit"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Howard J. Green and John Howard Lawson were the first two presidents of the SWG",
+    "WGAw settlement offering to re-run the 2004 election under DOL supervision",
+    "U.S. Department of Labor concluded Riskin was ineligible to run",
+    "Approximately 95 percent of members voted for a code of conduct ending packaging fees",
+    "Strike vote following the expiration of the guild's contract with the AMPTP"
+  ]
+}

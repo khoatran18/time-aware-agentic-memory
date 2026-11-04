@@ -1,0 +1,1842 @@
+{
+ "page_id": "International_Mathematical_Union",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1920",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "IMU established.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "The IMU was established in 1920"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1932-09",
+   "grain": "month",
+   "track": "other",
+   "label": "dissolution",
+   "text": "IMU dissolved.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "but dissolved in September 1932"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1936",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Fields Medals first given (two to four per Congress).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#8",
+     "role": "both",
+     "quote": "Fields Medals ( two to four medals are given since 1936"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "re-establishment",
+   "text": "IMU re-established de facto at New York convention.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "re-established 1950 de facto at the Constitutive Convention in New York"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1951-09-10",
+   "grain": "day",
+   "track": "other",
+   "label": "re-establishment",
+   "text": "IMU re-established de jure with ten member countries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "de jure on September 10 , 1951"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Marshall Harvey Stone begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Émile Borel begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Erich Kamke begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1952",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "IMU readmitted to the ICSU.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "In 1952 the IMU was also readmitted to the ICSU"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1952-03",
+   "grain": "month",
+   "track": "other",
+   "label": "general assembly",
+   "text": "General Assembly in Rome inaugurates new IMU activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "The last milestone was the General Assembly in March 1952"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Marshall Harvey Stone's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Émile Borel's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Erich Kamke's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1952–1954 : Marshall Harvey Stone ( vice : Émile Borel , Erich Kamke )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Heinz Hopf begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Arnaud Denjoy begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "W. V. D. Hodge begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Heinz Hopf's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Arnaud Denjoy's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "W. V. D. Hodge's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1955–1958 : Heinz Hopf ( vice : Arnaud Denjoy , W . V . D . Hodge )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Rolf Nevanlinna begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Pavel Alexandrov begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Marston Morse begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1962",
+   "grain": "year",
+   "track": "role",
+   "text": "Rolf Nevanlinna's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1962",
+   "grain": "year",
+   "track": "role",
+   "text": "Pavel Alexandrov's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1962",
+   "grain": "year",
+   "track": "role",
+   "text": "Marston Morse's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1959–1962 : Rolf Nevanlinna ( vice : Pavel Alexandrov , Marston Morse )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1963",
+   "grain": "year",
+   "track": "role",
+   "text": "Georges de Rham begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1963",
+   "grain": "year",
+   "track": "role",
+   "text": "Henri Cartan begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1963",
+   "grain": "year",
+   "track": "role",
+   "text": "Kazimierz Kuratowski begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Georges de Rham's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Henri Cartan's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Kazimierz Kuratowski's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1963–1966 : Georges de Rham ( vice : Henri Cartan , Kazimierz Kuratowski )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1967",
+   "grain": "year",
+   "track": "role",
+   "text": "Henri Cartan begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1967",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Lavrentyev begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1967",
+   "grain": "year",
+   "track": "role",
+   "text": "Deane Montgomery begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Henri Cartan's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Mikhail Lavrentyev's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Deane Montgomery's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#23",
+     "role": "both",
+     "quote": "1967–1970 : Henri Cartan ( vice : Mikhail Lavrentyev , Deane Montgomery )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1971",
+   "grain": "year",
+   "track": "role",
+   "text": "K. S. Chandrasekharan begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1971",
+   "grain": "year",
+   "track": "role",
+   "text": "Abraham Adrian Albert begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1971",
+   "grain": "year",
+   "track": "role",
+   "text": "Lev Pontryagin begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "K. S. Chandrasekharan's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Abraham Adrian Albert's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Lev Pontryagin's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#24",
+     "role": "both",
+     "quote": "1971–1974 : K . S . Chandrasekharan ( vice : Abraham Adrian Albert , Lev Pontryagin )"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Deane Montgomery begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "J. W. S. Cassels begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Miron Nicolescu begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Gheorghe Vrânceanu begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1978",
+   "grain": "year",
+   "track": "role",
+   "text": "Deane Montgomery's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1978",
+   "grain": "year",
+   "track": "role",
+   "text": "J. W. S. Cassels's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1978",
+   "grain": "year",
+   "track": "role",
+   "text": "Miron Nicolescu's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1978",
+   "grain": "year",
+   "track": "role",
+   "text": "Gheorghe Vrânceanu's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1975–1978 : Deane Montgomery ( vice : J . W . S . Cassels , Miron Nicolescu , Gheorghe Vrânceanu )"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "text": "Lennart Carleson begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "text": "Masayoshi Nagata begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1979",
+   "grain": "year",
+   "track": "role",
+   "text": "Yuri Vasilyevich Prokhorov begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Lennart Carleson's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Masayoshi Nagata's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Yuri Vasilyevich Prokhorov's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1979–1982 : Lennart Carleson ( vice : Masayoshi Nagata , Yuri Vasilyevich Prokhorov )"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Jürgen Moser begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Ludvig Faddeev begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Jean-Pierre Serre begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Jürgen Moser's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Ludvig Faddeev's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Jean-Pierre Serre's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1983–1986 : Jürgen Moser ( vice : Ludvig Faddeev , Jean-Pierre Serre )"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Rolf Nevanlinna Prize awarded since this year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#8",
+     "role": "both",
+     "quote": "the Rolf Nevanlinna Prize ( since 1986 )"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Ludvig Faddeev begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Walter Feit begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Lars Hörmander begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Ludvig Faddeev's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Walter Feit's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Lars Hörmander's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1987–1990 : Ludvig Faddeev ( vice : Walter Feit , Lars Hörmander )"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Jacques-Louis Lions begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "John H. Coates begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e73",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mumford begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Jacques-Louis Lions's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "John H. Coates's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e76",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mumford's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1991–1994 : Jacques-Louis Lions ( vice : John H . Coates , David Mumford )"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mumford begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Arnold begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e79",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Albrecht Dold begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e80",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "David Mumford's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e81",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Arnold's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e82",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Albrecht Dold's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#25",
+     "role": "both",
+     "quote": "1995–1998 : David Mumford ( vice : Vladimir Arnold , Albrecht Dold )"
+    }
+   ]
+  },
+  {
+   "id": "e83",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Jacob Palis begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e84",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Simon Donaldson begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e85",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Shigefumi Mori begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e86",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Jacob Palis's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e87",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Simon Donaldson's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e88",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Shigefumi Mori's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#26",
+     "role": "both",
+     "quote": "1999–2002 : Jacob Palis ( vice : Simon Donaldson , Shigefumi Mori )"
+    }
+   ]
+  },
+  {
+   "id": "e89",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "John M. Ball begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e90",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Jean-Michel Bismut begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e91",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Masaki Kashiwara begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e92",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "John M. Ball's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e93",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "Jean-Michel Bismut's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e94",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "Masaki Kashiwara's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2003–2006 : John M . Ball ( vice : Jean-Michel Bismut , Masaki Kashiwara )"
+    }
+   ]
+  },
+  {
+   "id": "e95",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Carl Friedrich Gauss Prize awarded since this year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#8",
+     "role": "both",
+     "quote": "the Carl Friedrich Gauss Prize ( since 2006 )"
+    }
+   ]
+  },
+  {
+   "id": "e96",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "László Lovász begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e97",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Zhi-Ming Ma begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e98",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Claudio Procesi begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e99",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "label": "report",
+   "text": "IMU releases report Mathematics in Africa: Challenges and Opportunities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#18",
+     "role": "both",
+     "quote": "IMU released a report in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e100",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "label": "publication",
+   "text": "IMU publishes Best Current Practices for Journals document.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#12",
+     "role": "both",
+     "quote": "In 2009 IMU published the document Best Current Practices for Journals"
+    }
+   ]
+  },
+  {
+   "id": "e101",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "László Lovász's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e102",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Zhi-Ming Ma's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e103",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Claudio Procesi's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2007–2010 : László Lovász ( vice : Zhi-Ming Ma , Claudio Procesi )"
+    }
+   ]
+  },
+  {
+   "id": "e104",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "IMU forms the Commission for Developing Countries (CDC).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#13",
+     "role": "both",
+     "quote": "In 2010 IMU formed the Commission for Developing Countries ( CDC )"
+    }
+   ]
+  },
+  {
+   "id": "e105",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Chern Medal Award awarded since this year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#8",
+     "role": "both",
+     "quote": "the Chern Medal Award ( since 2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e106",
+   "date": "2010-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Berlin chosen as location of permanent IMU office.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#4",
+     "role": "both",
+     "quote": "in August 2010 , Berlin was chosen as the location of the permanent office"
+    }
+   ]
+  },
+  {
+   "id": "e107",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Ingrid Daubechies begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e108",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Christiane Rousseau begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e109",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Marcelo Viana begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e110",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "coordination",
+   "text": "Commission for Developing Countries begins coordinating developing-country activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#5",
+     "role": "both",
+     "quote": "Since 2011 this has been coordinated by the Commission for Developing Countries"
+    }
+   ]
+  },
+  {
+   "id": "e111",
+   "date": "2011-01-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Permanent IMU office in Berlin opens.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#4",
+     "role": "both",
+     "quote": "which was opened on January 1 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e112",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Ingrid Daubechies's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e113",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Christiane Rousseau's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e114",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Marcelo Viana's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2011–2014 : Ingrid Daubechies ( vice : Christiane Rousseau , Marcelo Viana )"
+    }
+   ]
+  },
+  {
+   "id": "e115",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "label": "report",
+   "text": "CDC releases update of the Africa mathematics report.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#18",
+     "role": "both",
+     "quote": "In 2014 , the IMUs Commission for Developing Countries CDC released an update of the report"
+    }
+   ]
+  },
+  {
+   "id": "e116",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "symposium",
+   "text": "IMU holds MENAO symposium before the ICM.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#20",
+     "role": "both",
+     "quote": "In 2014 , the IMU held a day-long symposium prior to the opening"
+    }
+   ]
+  },
+  {
+   "id": "e117",
+   "date": "2014-07",
+   "grain": "month",
+   "track": "work",
+   "label": "report",
+   "text": "IMU releases report on mathematics in the developing world.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#19",
+     "role": "both",
+     "quote": "In July 2014 IMU released the report"
+    }
+   ]
+  },
+  {
+   "id": "e118",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Shigefumi Mori begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "The past president of the Union is Shigefumi Mori ( 2015–2018"
+    },
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e119",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Alicia Dickenstein begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e120",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Vaughan Jones begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e121",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Shigefumi Mori's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#2",
+     "role": "both",
+     "quote": "The past president of the Union is Shigefumi Mori ( 2015–2018"
+    },
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e122",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Alicia Dickenstein's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e123",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Vaughan Jones's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2015–2018 : Shigefumi Mori ( vice : Alicia Dickenstein , Vaughan Jones )"
+    }
+   ]
+  },
+  {
+   "id": "e124",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Carlos Kenig begins term as IMU president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  },
+  {
+   "id": "e125",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Nalini Joshi begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  },
+  {
+   "id": "e126",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Loyiso Nongxa begins term as IMU vice-president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  },
+  {
+   "id": "e127",
+   "date": "2022",
+   "grain": "year",
+   "track": "role",
+   "text": "Carlos Kenig's term as IMU president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  },
+  {
+   "id": "e128",
+   "date": "2022",
+   "grain": "year",
+   "track": "role",
+   "text": "Nalini Joshi's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  },
+  {
+   "id": "e129",
+   "date": "2022",
+   "grain": "year",
+   "track": "role",
+   "text": "Loyiso Nongxa's term as IMU vice-president ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/International_Mathematical_Union#27",
+     "role": "both",
+     "quote": "2019–2022 : Carlos Kenig ( vice : Nalini Joshi , Loyiso Nongxa )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "early 1970s: IMU took its first organized steps to promote mathematics in developing countries",
+  "IMU supported the London Mathematical Society in founding the MARM programme (no date)",
+  "Reports on mathematics in Latin America, the Caribbean and South East Asia were published (no date)"
+ ]
+}

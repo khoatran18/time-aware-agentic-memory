@@ -1,0 +1,553 @@
+{
+ "page_id": "Ty_Detmer",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1967-10-30",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Ty Hubert Detmer born; later American football coach and player.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#0",
+     "role": "both",
+     "quote": "born October 30 , 1967"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began playing for BYU Cougars football team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#3",
+     "role": "both",
+     "quote": "he played for the BYU Cougars football team from 1987 to 1991"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named Most Valuable Player of the 1988 Freedom Bowl.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#4",
+     "role": "both",
+     "quote": "the 1988 Freedom Bowl , after entering the game as a substitute"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Became BYU's full-time starting quarterback.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#5",
+     "role": "both",
+     "quote": "Detmer became the full-time starter in 1989"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Heisman Trophy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#0",
+     "role": "both",
+     "quote": "won the Heisman Trophy in 1990"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received the Maxwell Award for the 1990 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#7",
+     "role": "date",
+     "quote": "Detmers 1990 junior season ranks as one of the greatest seasons"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#8",
+     "role": "description",
+     "quote": "other honors including the Maxwell and Davey OBrien awards"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e7",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received the Davey O'Brien Award for the 1990 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#7",
+     "role": "date",
+     "quote": "Detmers 1990 junior season ranks as one of the greatest seasons"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#8",
+     "role": "description",
+     "quote": "other honors including the Maxwell and Davey OBrien awards"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Recognized as consensus first-team All-American.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#7",
+     "role": "date",
+     "quote": "Detmers 1990 junior season ranks as one of the greatest seasons"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#8",
+     "role": "description",
+     "quote": "He was recognized as a consensus first-team All-American"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "injury",
+   "text": "Suffered two separated shoulders in the Texas A&M game.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#8",
+     "role": "date",
+     "quote": "lost 65-14 to Texas A&M in the 1990 Holiday Bowl"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#9",
+     "role": "description",
+     "quote": "suffering two separated shoulders that required off-season surgery"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e10",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left BYU Cougars football team after college career.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#3",
+     "role": "both",
+     "quote": "he played for the BYU Cougars football team from 1987 to 1991"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Davey O'Brien Award again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#10",
+     "role": "date",
+     "quote": "The 1991 season started poorly for BYU"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#11",
+     "role": "description",
+     "quote": "won the Davey OBrien Award again"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e12",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Earned the Sammy Baugh Trophy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#10",
+     "role": "date",
+     "quote": "The 1991 season started poorly for BYU"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#11",
+     "role": "description",
+     "quote": "also earned the Sammy Baugh Trophy and Todays Top VI Award"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e13",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Earned the Todays Top VI Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#10",
+     "role": "date",
+     "quote": "The 1991 season started poorly for BYU"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#11",
+     "role": "description",
+     "quote": "also earned the Sammy Baugh Trophy and Todays Top VI Award"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e14",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Again recognized as consensus first-team All-American.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#10",
+     "role": "date",
+     "quote": "The 1991 season started poorly for BYU"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#11",
+     "role": "description",
+     "quote": "he was again recognized as a consensus first-team All-American"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e15",
+   "date": "1992",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Drafted by the Green Bay Packers in the ninth round.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#14",
+     "role": "both",
+     "quote": "The Green Bay Packers drafted him in the ninth round ( 230th pick overall ) of the 1992 NFL Draft"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1996",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed a free-agent contract with the Philadelphia Eagles.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#15",
+     "role": "both",
+     "quote": "after signing a free-agent contract with the Philadelphia Eagles in 1996"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Became the Philadelphia Eagles' starting quarterback.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#15",
+     "role": "both",
+     "quote": "After Rodney Peete suffered a knee injury , Detmer became the teams starting quarterback"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Earned NFL Player of the Week award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#15",
+     "role": "date",
+     "quote": "after signing a free-agent contract with the Philadelphia Eagles in 1996"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#16",
+     "role": "description",
+     "quote": "earned Detmer the NFL Player of the Week award"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e19",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Shared Eagles quarterback duties with Peete and Hoying.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#17",
+     "role": "both",
+     "quote": "The following season , Detmer shared quarterback duties with Peete and Bobby Hoying"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e20",
+   "date": "1998",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Philadelphia Eagles.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#18",
+     "role": "both",
+     "quote": "Detmer left Philadelphia in 1998 and joined the San Francisco 49ers as a backup to Steve Young"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1998",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the San Francisco 49ers as backup quarterback.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#18",
+     "role": "both",
+     "quote": "Detmer left Philadelphia in 1998 and joined the San Francisco 49ers as a backup to Steve Young"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Traded to the Cleveland Browns.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#19",
+     "role": "both",
+     "quote": "Detmer was traded to the Cleveland Browns in 1999"
+    }
+   ]
+  },
+  {
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "injury",
+   "text": "Injured right Achilles and was inactive the entire season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#19",
+     "role": "both",
+     "quote": "Detmer injured his right Achilles and was inactive the entire 2000 season"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "id": "e24",
+   "date": "2001",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the Detroit Lions for three seasons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#20",
+     "role": "both",
+     "quote": "Detmer spent three seasons ( 2001 to 2003 ) with the Detroit Lions"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2003",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Detroit Lions.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#20",
+     "role": "both",
+     "quote": "Detmer spent three seasons ( 2001 to 2003 ) with the Detroit Lions"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2004",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the Atlanta Falcons as third-string quarterback.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#22",
+     "role": "both",
+     "quote": "Detmer spent the 2004 and 2005 seasons with the Atlanta Falcons"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2005",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Atlanta Falcons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#22",
+     "role": "both",
+     "quote": "Detmer spent the 2004 and 2005 seasons with the Atlanta Falcons"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2007",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Employed by Athlete Services Division at Triton Financial Corporation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#24",
+     "role": "both",
+     "quote": "employed by , the Athlete Services Division at Triton Financial Corporation from 2007 to 2009"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2009",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Athlete Services Division at Triton Financial Corporation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#24",
+     "role": "both",
+     "quote": "employed by , the Athlete Services Division at Triton Financial Corporation from 2007 to 2009"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2009-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed head football coach at St. Andrews Episcopal School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#23",
+     "role": "both",
+     "quote": "In December 2009 , he was appointed the new head football coach at St . Andrews Episcopal School"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Inducted into the College Football Hall of Fame.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#12",
+     "role": "both",
+     "quote": "In 2012 , Detmer was inducted into the"
+    },
+    {
+     "chunk_id": "/wiki/Ty_Detmer#13",
+     "role": "description",
+     "quote": "College Football Hall of Fame"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2015-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Became BYU offensive coordinator and quarterbacks coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#23",
+     "role": "both",
+     "quote": "In December 2015 , Detmer became the offensive coordinator and quarterbacks coach at BYU"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2017-11-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Released from BYU offensive coordinator position.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ty_Detmer#23",
+     "role": "both",
+     "quote": "On November 27 , 2017 , Detmer was released from the coordinator position"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "high school All-American honors in football as a senior (year not stated)",
+  "Texas Player of the Year, high school (year not stated)",
+  "all-state honors in baseball, high school (year not stated)",
+  "all-district accolades in basketball, high school (year not stated)",
+  "graduated with bachelor's degree in recreation administration",
+  "redshirted for BYU during the 1987 season",
+  "led BYU to WAC Championship, 1989 season",
+  "third consecutive WAC championship with BYU, 1991 season",
+  "released by Atlanta Falcons (date not stated)"
+ ]
+}

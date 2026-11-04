@@ -1,0 +1,527 @@
+{
+ "page_id": "Lou_Scheper_Berkenkamp",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1901-05-15",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born Hermine Luise Berkenkamp, later painter known as Lou Scheper-Berkenkamp.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#0",
+     "role": "both",
+     "quote": "Hermine Luise Berkenkamp ( 15 May 1901 – 11 April 1976 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1920",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated high school and enrolled at the Bauhaus in Weimar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#3",
+     "role": "both",
+     "quote": "After graduating from high school in 1920 , Lou Berkenkamp enrolled at the Bauhaus in Weimar"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1922",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Bauhaus Weimar together with husband Hinnerk Scheper.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#4",
+     "role": "both",
+     "quote": "In 1922 the couple left the Bauhaus Weimar"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1922-12-22",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Hinnerk Scheper in Weimar (St. Peter and Paul town church).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#22",
+     "role": "both",
+     "quote": "22 December 1922 she married husband"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1922-12-24",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Hinnerk Scheper in Weimar (date as stated in early-life section).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#3",
+     "role": "both",
+     "quote": "married him on December 24 , 1922 in Weimar"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1927",
+   "grain": "year",
+   "track": "location",
+   "text": "Scheper family moved into a semi-detached house in Dessau.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#4",
+     "role": "both",
+     "quote": "a semi-detached house became available and the Scheper family was able to move in"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Took part in the group exhibition Junge Bauhausmaler in Halle.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#5",
+     "role": "both",
+     "quote": "In the group exhibition Junge Bauhausmaler ( Young Bauhaus Painter ) , in Halle ( Saale ) , she took 1928 part"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1929",
+   "grain": "year",
+   "track": "location",
+   "text": "Left Dessau with husband Hinnerk Scheper.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#5",
+     "role": "date",
+     "quote": "until the couples 1929"
+    },
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#6",
+     "role": "description",
+     "quote": "departure from Dessau"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1929-07",
+   "grain": "month",
+   "track": "location",
+   "text": "Schepers followed a call to Moscow for a colour-planning post; stay began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#7",
+     "role": "both",
+     "quote": "From July 1929 to August 1930 the Schepers followed a call to Moscow"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1930-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Moscow stay of the Schepers ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#7",
+     "role": "both",
+     "quote": "From July 1929 to August 1930 the Schepers followed a call to Moscow"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1931",
+   "grain": "year",
+   "track": "location",
+   "text": "Made another shorter stay in Moscow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#9",
+     "role": "both",
+     "quote": "After another shorter stay in Moscow in 1931"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1931",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Returned with husband to the Bauhaus in Dessau under director Ludwig Mies van der Rohe.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#9",
+     "role": "both",
+     "quote": "the Schepers returned to the Bauhaus in Dessau under the new director Ludwig Mies van der Rohe"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1932",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved with the Bauhaus to Berlin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#9",
+     "role": "both",
+     "quote": "When the Bauhaus moved in 1932 , they also moved to the capital Berlin"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1933",
+   "grain": "year",
+   "track": "other",
+   "label": "occupation",
+   "text": "Began working as a freelance painter in Berlin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#12",
+     "role": "both",
+     "quote": "Since the closure of the Bauhaus in 1933 , Lou Scheper-Berkenkamp worked as a freelance painter in Berlin"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1933",
+   "grain": "year",
+   "track": "work",
+   "text": "Began designing children's books; activity ran between 1933 and 1945.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#12",
+     "role": "both",
+     "quote": "Between 1933 and 1945 , Scheper-Berkenkamp designed a number of childrens books"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published picture book Knirps (Ernst Wunderlich, Leipzig).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#28",
+     "role": "both",
+     "quote": "Knirps , ein ganz kleines Ding Ernst Wunderlich , 1st-25th district , Ts . 1948"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published picture book Doll Lenchen (Ernst Wunderlich, Leipzig).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#28",
+     "role": "both",
+     "quote": "Doll Lenchen . Leipzig : Ernst Wunderlich 1st-25th pp . 1948"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published picture book Tönnchen, Knöpfchen und andere (Ernst Wunderlich).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#28",
+     "role": "both",
+     "quote": "Tönnchen , Knöpfchen und andere . Leipzig : Ernst Wunderlich 1948"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published picture book The stories of Jan and Jon (Ernst Wunderlich, Leipzig).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#29",
+     "role": "both",
+     "quote": "The stories of Jan and Jon and of their pilot fish . Leipzig : Ernst Wunderlich 1948"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1948-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Art exhibition at Staatliches Schlossmuseum Rudolstadt, running May to June 1948.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#23",
+     "role": "both",
+     "quote": "Lou Scheper-Berkenkamp art exhibition May–June 1948"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "text": "Created unpublished children's book design The Vain Little Girl Story.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#32",
+     "role": "both",
+     "quote": "The Vain Little Girl Story ( created c . 1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed unpublished children's book Sonderbare Reise eines kleinen Mädchens namens Tüttchen.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#32",
+     "role": "both",
+     "quote": "Sonderbare Reise eines kleinen Mädchens namens Tüttchen und eines namenlosen aber goldenen Kirchturmhahnes ( design c . 1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed unpublished children's book Carnival.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#32",
+     "role": "both",
+     "quote": "Carnival ( design c.1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "text": "Designed unpublished children's book The story of a child's last dream.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#32",
+     "role": "both",
+     "quote": "The story of a childs last dream ( design c.1949 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Took part in exhibitions of picture book originals in West German America Houses.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#16",
+     "role": "both",
+     "quote": "In 1950/51 she took part in exhibitions of picture book originals"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1951",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Co-founded the Berlin artists association The Ring.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#17",
+     "role": "both",
+     "quote": "In 1951 Lou Scheper-Berkenkamp was one of the co-founders of the Berlin artists association The Ring"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "Became jointly responsible for the annual Great Berlin Art Exhibition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#18",
+     "role": "both",
+     "quote": "Between 1956 and 1969 she was jointly responsible for the annual"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1957",
+   "grain": "year",
+   "track": "family",
+   "text": "Husband Hinnerk Scheper died.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#19",
+     "role": "both",
+     "quote": "After Hinnerk Schepers death in 1957"
+    },
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#21",
+     "role": "both",
+     "quote": "Following the death of her husband in 1957"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1957",
+   "grain": "year",
+   "track": "work",
+   "text": "Took over husband's colour design work and worked as an architectural colorist in Berlin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#19",
+     "role": "both",
+     "quote": "After Hinnerk Schepers death in 1957 , Lou Scheper-Berkenkamp took over his tasks in the field of colour design"
+    },
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#21",
+     "role": "description",
+     "quote": "worked as an architectural colorist , participating in a number of major projects"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended joint responsibility for the annual Great Berlin Art Exhibition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#18",
+     "role": "both",
+     "quote": "Between 1956 and 1969 she was jointly responsible for the annual"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended her board membership of The Ring.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#17",
+     "role": "both",
+     "quote": "of which she was a member of the board until 1970"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1970",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended active involvement in Berlin visual artists' professional association.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#18",
+     "role": "both",
+     "quote": "actively involved in the „Professional association of visual artists“ in Berlin until 1970"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1976-04-11",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Berlin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#21",
+     "role": "both",
+     "quote": "Lou Scheper-Berkenkamp died on 11 April 1976 in Berlin"
+    },
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#20",
+     "role": "both",
+     "quote": "Until her death on 11 April 1976"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2012-01-14",
+   "grain": "day",
+   "track": "family",
+   "text": "Daughter Britta died.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lou_Scheper-Berkenkamp#22",
+     "role": "both",
+     "quote": "Britta ( * 28 March 1926 ; † 14 January 2012 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Attended the Viktoria-Schule in Essen, a girls' grammar school with progressive teaching",
+  "Studied at Bauhaus Weimar under Johannes Itten, Lyonel Feininger, Paul Klee and Georg Muche",
+  "Worked without matriculation in the Bauhaus Dessau stage workshop under Oskar Schlemmer",
+  "Designed costumes and sets for the Bauhaus plays Ojdar and Circus",
+  "Wrote articles for the Moskauer Rundschau during the Moscow stay",
+  "Created collages and ink paintings of Moscow street life during the Moscow stay",
+  "Exhibited with Berlin artist colleagues for several years at Haus am Waldsee, Berlin-Zehlendorf",
+  "Accompanied Hinnerk Scheper on Norddeutsche Reportage-Reisen and wrote texts for his landscape photo series",
+  "Picture stories later published as children's books by Ernst Wunderlich after World War II",
+  "Experienced the end of the war with her children and parents in Badbergen",
+  "Colour design of interiors for Otto Bartning's last project, Berlin Philharmonic Hall, Egyptian Museum, Gropius buildings in Britz, Buckow and Rudow, and Berlin Tegel Airport",
+  "Worked on colour concepts for Scharoun's Berlin State Library until her death"
+ ]
+}

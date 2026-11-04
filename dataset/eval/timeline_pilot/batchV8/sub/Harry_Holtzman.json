@@ -1,0 +1,253 @@
+{
+  "page_id": "Harry_Holtzman",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1912-06-08",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Harry Holtzman born in the United States.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#0", "role": "both", "quote": "( June 8 , 1912 – September 25 , 1987 )"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1926",
+      "grain": "year",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Visited the Société Anonyme's International Exhibition of Modern Art at the Brooklyn Museum.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#1", "role": "both", "quote": "At the age of fourteen , Holtzman visited the Société Anonyme’s 1926"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1928",
+      "grain": "year",
+      "track": "education",
+      "text": "Began attending the Art Students League of New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#2", "role": "both", "quote": "At sixteen , in 1928 , he began attending the Art Students League of New York"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1933",
+      "grain": "year",
+      "track": "work",
+      "text": "Began a series of rectilinear abstract works.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#5", "role": "both", "quote": "From 1933 the Abstract research of the artist evolves then into a series of rectilinear works"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1934-12",
+      "grain": "month",
+      "track": "other",
+      "label": "encounter",
+      "text": "Introduced himself to Piet Mondrian in Mondrian's Paris studio.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#6", "role": "date", "quote": "By January 1934 , Holtzman recalls"},
+        {"chunk_id": "/wiki/Harry_Holtzman#7", "role": "description", "quote": "In mid-December he introduced himself to Mondrian in the Dutch artist’s Paris studio"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1935",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned to New York City from Paris.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#8", "role": "both", "quote": "When Holtzman returned to New York City in 1935 , he joined the WPA Federal Art project"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1935",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the WPA Federal Art Project in New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#8", "role": "both", "quote": "When Holtzman returned to New York City in 1935 , he joined the WPA Federal Art project"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1936",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Named as one of the founding members of the American Abstract Artists group.",
+      "flag": "source_inconsistent",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#50", "role": "both", "quote": "Was one of the founding members of the American Abstract Artists Group , in 1936"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1937",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "American Abstract Artists group established with Holtzman's involvement.",
+      "flag": "source_inconsistent",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#8", "role": "both", "quote": "who established the American Abstract Artists in 1937"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1938",
+      "grain": "year",
+      "track": "role",
+      "text": "Served as secretary of the American Abstract Artists group.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#9", "role": "both", "quote": "serving as secretary in 1938 and again in 1940"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1940",
+      "grain": "year",
+      "track": "other",
+      "label": "sponsorship",
+      "text": "Arranged for Piet Mondrian to come to New York during the London Blitz.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#10", "role": "both", "quote": "During the German Blitz of London in 1940 , Holtzman arranged for Mondrian to come to New York"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1940",
+      "grain": "year",
+      "track": "role",
+      "text": "Served again as secretary of the American Abstract Artists group.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#9", "role": "both", "quote": "serving as secretary in 1938 and again in 1940"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1940",
+      "grain": "year",
+      "track": "work",
+      "text": "Arranged the three-week AAA exhibition at the World's Fair American Art Today Building.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#9", "role": "both", "quote": "American Art Today Building of the New York World’s Fair in 1940"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1943-05-18",
+      "grain": "day",
+      "track": "work",
+      "text": "His sculpture included in Spring Salon for Young Artists at Art of This Century gallery.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#12", "role": "both", "quote": "Spring Salon for Young Artists ( 18 May - 26 June 1943 )"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1947",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Became faculty member of the Institute for General Semantics.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#15", "role": "both", "quote": "In 1947 , Holtzman became a faculty member of the Institute for General Semantics"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1950",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Became faculty member of the art department at Brooklyn College.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#18", "role": "both", "quote": "from 1950 to 1975 he was a faculty member of the art department at Brooklyn College"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1954",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended teaching at the Institute for General Semantics.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#15", "role": "both", "quote": "where he taught with Alfred Korzybski until 1954"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1957",
+      "grain": "year",
+      "track": "other",
+      "label": "travel",
+      "text": "Began visiting Asia, documenting its life and culture through photography.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#16", "role": "both", "quote": "Since 1957 , Harry Holtzman , visited the Asian continent"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1962",
+      "grain": "year",
+      "track": "work",
+      "text": "MoMA New York included some of his photographs of Le Corbusier's Villa Shodhan.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#16", "role": "both", "quote": "The Museum of Modern Art of New York included in 1962 some of his photographs"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1968",
+      "grain": "year",
+      "track": "work",
+      "text": "Some of his photographs selected for the Unknown India exhibition catalogue.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#16", "role": "both", "quote": "Unknown India ritual art in tribe and village ( Philadelphia Museum of Fine Art 1968 )"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1975",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended faculty membership of the art department at Brooklyn College.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#18", "role": "both", "quote": "from 1950 to 1975 he was a faculty member of the art department at Brooklyn College"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1983",
+      "grain": "year",
+      "track": "work",
+      "text": "Co-edited a volume of Mondrian's complete essays.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#14", "role": "both", "quote": "in 1983 he co-edited a volume of Mondrian’s complete essays"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1987-09-25",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Harry Holtzman died.",
+      "evidence": [
+        {"chunk_id": "/wiki/Harry_Holtzman#0", "role": "both", "quote": "( June 8 , 1912 – September 25 , 1987 )"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Part of the first exhibition of abstract art organized at the Art Student League (no date)",
+    "Appointed by Diller as assistant supervisor in charge of abstract mural painters (no date)",
+    "Associated with the Atelier 17 printmaking studio (no date)",
+    "Executor of Mondrian's estate (no date)",
+    "Later edited the journal Trans/Formation (no date)",
+    "Participated in conferences of the National Committee on Art Education of MoMA for many years (no date)"
+  ]
+}

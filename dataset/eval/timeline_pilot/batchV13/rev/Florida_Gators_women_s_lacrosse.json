@@ -1,0 +1,275 @@
+{
+ "page_id": "Florida_Gators_women_s_lacrosse",
+ "events": [
+  {
+   "id": "e1",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "University Athletic Association decided to create women's lacrosse program.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#3",
+     "role": "both",
+     "quote": "decided to create a womens lacrosse program in 2005"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "New women's lacrosse program publicly announced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#3",
+     "role": "both",
+     "quote": "publicly announced the new program in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2007",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Women's lacrosse program joined a conference.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#3",
+     "role": "both",
+     "quote": "hired a head coach and joined a conference in 2007"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2007-06-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Amanda OLeary named inaugural head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#15",
+     "role": "both",
+     "quote": "Florida named Amanda OLeary as its inaugural head coach on June 22 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "recruiting",
+   "text": "Program announced its first recruiting class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#3",
+     "role": "both",
+     "quote": "announced its first recruiting class and began construction of a dedicated lacrosse stadium in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction of dedicated lacrosse stadium began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#3",
+     "role": "both",
+     "quote": "began construction of a dedicated lacrosse stadium in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Donald R. Dizney Stadium completed.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#19",
+     "role": "both",
+     "quote": "Completed during the summer of 2009"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2010-02-20",
+   "grain": "day",
+   "track": "other",
+   "label": "first game",
+   "text": "First regular season game, a 16–6 win over Jacksonville; first home game.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#9",
+     "role": "both",
+     "quote": "The Gators played their first regular season game on February 20 , 2010"
+    },
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#19",
+     "role": "description",
+     "quote": "At the Gators first home game , an overflow crowd of 2,214 was present"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2011",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began competing in the American Lacrosse Conference.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#5",
+     "role": "both",
+     "quote": "competed in the American Lacrosse Conference from 2011 through 2014"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2011-04-14",
+   "grain": "day",
+   "track": "other",
+   "label": "conference title",
+   "text": "Clinched first ALC regular season championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#11",
+     "role": "both",
+     "quote": "clinched their first ALC regular season championship by defeating the defending conference champion and second-ranked Northwestern Wildcats 13–11 on April 14 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2011-05-09",
+   "grain": "day",
+   "track": "other",
+   "label": "tournament bid",
+   "text": "Received first NCAA Tournament bid, seeded fourth.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#11",
+     "role": "description",
+     "quote": "The Gators received their first NCAA Tournament bid , seeded fourth in the sixteen-team field"
+    },
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#12",
+     "role": "date",
+     "quote": "9 , 2011 , and defeated the Stanford Cardinal womens team 13–11"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "conference title",
+   "text": "Won second regular season ALC conference championship.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#13",
+     "role": "both",
+     "quote": "finished the 2012 regular season with a 15–2 overall win-loss record"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "conference tournament title",
+   "text": "Won first-ever ALC conference tournament title.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#13",
+     "role": "both",
+     "quote": "finished the 2012 regular season with a 15–2 overall win-loss record"
+    },
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#14",
+     "role": "description",
+     "quote": "winning their first-ever conference tournament title"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the American Lacrosse Conference after the 2014 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#5",
+     "role": "both",
+     "quote": "competed in the American Lacrosse Conference from 2011 through 2014"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Big East Conference as associate member in women's lacrosse.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#5",
+     "role": "both",
+     "quote": "Florida and Vanderbilt joined the Big East Conference , as associate members in womens lacrosse only , starting with the 2015 season"
+    }
+   ]
+  },
+  {
+   "date": "2017-10",
+   "grain": "month",
+   "track": "other",
+   "label": "conference",
+   "text": "The American announced a women's lacrosse league for the 2019 season, with Florida joining",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#6",
+     "role": "both",
+     "quote": "October 2017 , The American announced that it would start a womens lacrosse league in the 2019 season , with Florida and Vanderbilt joining"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "id": "e17",
+   "date": "2018",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined The American Athletic Conference after four Big East seasons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Florida_Gators_women's_lacrosse#0",
+     "role": "both",
+     "quote": "which they joined in 2018 after four seasons in the Big East Conference"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "inaugural season, spring 2010 semester",
+  "NCAA quarterfinal appearances in 2011–2014 and 2018",
+  "No. 1 seed in 2012 NCAA tournament"
+ ]
+}

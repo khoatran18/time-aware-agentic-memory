@@ -1,0 +1,348 @@
+{
+  "page_id": "Pakistan_Football_Federation",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1947-12-05",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Pakistan Football Federation created after independence from Britain (conflicts with 1954)",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#3",
+          "role": "both",
+          "quote": "On 5 December 1947 , after the independence from Great Britain , the Pakistan Football Federation was created"
+        }
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e2",
+      "date": "1948",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "PFF became affiliated with FIFA",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#3",
+          "role": "both",
+          "quote": "in 1948 , the PFF became affiliated with FIFA"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1948",
+      "grain": "year",
+      "track": "work",
+      "text": "PFF organized the first national championship at Karachi",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#3",
+          "role": "both",
+          "quote": "It organized the first national championship in 1948 at Karachi"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1954",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "PFF formed (conflicts with 1947 creation date)",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#0",
+          "role": "both",
+          "quote": "PFF was formed in 1954"
+        }
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e5",
+      "date": "1954",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "PFF became one of the founding members of the Asian Football Confederation",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#3",
+          "role": "both",
+          "quote": "one of the founding members of the Asian Football Confederation when it was established in 1954"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2003-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Faisal Saleh Hayat took over PFF management and became its president",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#6",
+          "role": "both",
+          "quote": "However , in August 2003 , the PFF was under new management , as Makhdoom Syed Faisal Saleh Hayat took over"
+        },
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#14",
+          "role": "both",
+          "quote": "He has held this position since 2003"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2004",
+      "grain": "year",
+      "track": "work",
+      "text": "PFF set up a national football league, now the Pakistan Premier League",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#6",
+          "role": "both",
+          "quote": "the PFF set up a national football league in 2004"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2005",
+      "grain": "year",
+      "track": "work",
+      "text": "PFF set up a national championship for womens football",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#6",
+          "role": "both",
+          "quote": "In 2005 a national championship was set up for womens football"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2007",
+      "grain": "year",
+      "track": "work",
+      "text": "Inter-city Geo Super Football League established, first live-televised club football",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#6",
+          "role": "both",
+          "quote": "In 2007 , the inter-city Geo Super Football League was established"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2015",
+      "grain": "year",
+      "track": "role",
+      "text": "Two rival factions formed within PFF just before the 2015 elections",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#22",
+          "role": "both",
+          "quote": "Just before PPF elections in 2015 , two groups were formed within the federation"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e11",
+      "date": "2015",
+      "grain": "year",
+      "track": "other",
+      "label": "tournament withdrawal",
+      "text": "Hayat faction withdrew Pakistan team from the 2015 SAFF Cup",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#20",
+          "role": "both",
+          "quote": "the Hayat faction swiftly withdrew Pakistan team from the 2015 SAFF Cup"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2015-06",
+      "grain": "month",
+      "track": "role",
+      "text": "PFF presidential elections announced, with Hayat facing a major challenge",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#17",
+          "role": "both",
+          "quote": "In June 2015 , the PFF presidential elections were announced"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2015-06-30",
+      "grain": "day",
+      "track": "role",
+      "text": "Lahore High Court declared the PFF elections null and void",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#23",
+          "role": "both",
+          "quote": "On 30 June , the elections were declared null/void by LHC"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e14",
+      "date": "2017-02",
+      "grain": "month",
+      "track": "role",
+      "text": "Lahore High Court restored Hayat as PFF president",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#21",
+          "role": "both",
+          "quote": "In February 2017 , the Lahore High Court restored Faisal Saleh Hayat as president"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2017-06",
+      "grain": "month",
+      "track": "role",
+      "text": "18 of 26 PFF members voted to dismiss Hayat",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#16",
+          "role": "both",
+          "quote": "In June 2017 , 18 of the 26 members of the PFF voted in favor of Faisal Saleh Hayats dismissal"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2017-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "FIFA threatened to suspend PFF membership unless it handed affairs to Hayat",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#8",
+          "role": "both",
+          "quote": "In July 2017 , the FIFA threatened to suspend the PFFs membership if it kept refusing"
+        },
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#16",
+          "role": "both",
+          "quote": "In July 2017 , the FIFA threatened to suspend the PFFs membership if it kept refusing"
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2017-10-10",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "FIFA suspended PFF with immediate effect",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#26",
+          "role": "both",
+          "quote": "On 10 October 2017 , FIFA suspended PFF with immediate effect"
+        }
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e18",
+      "date": "2017-10-11",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "FIFA decided to suspend PFF with immediate effect",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#9",
+          "role": "both",
+          "quote": "On 11 October 2017 the FIFA decided to suspend Pakistan Football Federation ( PFF ) with immediate effect"
+        }
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e19",
+      "date": "2018-03-13",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "FIFA lifted the suspension of PFF",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#9",
+          "role": "both",
+          "quote": "On 13 March 2018 FIFA lifted the suspension"
+        },
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#27",
+          "role": "both",
+          "quote": "In 2018 , the ban was lifted by FIFA"
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2021-03-27",
+      "grain": "day",
+      "track": "other",
+      "label": "office attack",
+      "text": "PFF office attacked and people held hostage by former president Shah's group",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#25",
+          "role": "both",
+          "quote": "On 27 March 2021 , the PFFs office was attacked"
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2021-03-27",
+      "grain": "day",
+      "track": "work",
+      "text": "Ongoing women's championship cancelled after the office attack",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#25",
+          "role": "both",
+          "quote": "and the ongoing womens championship was cancelled"
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "2021-04-07",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "FIFA suspended the federation with immediate effect over third-party interference",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pakistan_Football_Federation#28",
+          "role": "both",
+          "quote": "On 7 April 2021 , FIFA suspended the federation with immediate effect"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Mohammad Ali Jinnah became Patron-in-Chief of PFF (no date given)",
+    "FIFA suspended Pakistan from international football after rival factions set up teams (no date given)",
+    "Lahore High Court stayed polling and appointed temporary administrator Asad Munir (no date given)",
+    "Hayat faction held election despite the Lahore High Court stay order (no date given)",
+    "PFF split into two groups after an Extraordinary Congress suspended Hayat (no date given)",
+    "FIFA fact-finding mission gave Hayat a two-year mandate to amend statutes (no date given)",
+    "FIFA issued warnings to suspend PFF over third-party interference (no date given)",
+    "Normalization committee formed to run PFF and hold elections (no date given)"
+  ]
+}

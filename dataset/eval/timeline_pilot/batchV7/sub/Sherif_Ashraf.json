@@ -1,0 +1,166 @@
+{
+  "page_id": "Sherif_Ashraf",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1987-01-01",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Sherif Ashraf born",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#0", "role": "both", "quote": "born on 1 January 1987"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2010",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Signed for El Gouna FC for a transfer fee",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#4", "role": "both", "quote": "In 2010 , he signed for El Gouna FC"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2012-03",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Signed for HJK Helsinki",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#5", "role": "both", "quote": "he signed for HJK Helsinki in March 2012"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2012-04-26",
+      "grain": "day",
+      "track": "other",
+      "label": "debut",
+      "text": "Made debut for HJK Helsinki against Jaro in Suomen Cup",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#5", "role": "both", "quote": "On April 26 , 2012 , Ashraf made his debut for HJK Helsinki"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2012-05-09",
+      "grain": "day",
+      "track": "other",
+      "label": "debut goal",
+      "text": "Scored debut goal for HJK Helsinki against FC KooTeePee",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#5", "role": "both", "quote": "On May 9 , 2012 , Ashraf scored his debut goal with the club"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2012-09-04",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Loaned out to FF Jaro for the remainder of the season",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#7", "role": "both", "quote": "On September 4 , 2012 , Ashraf was loaned out to Veikkausliiga side FF Jaro"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2012-10",
+      "grain": "month",
+      "track": "other",
+      "label": "award",
+      "text": "Selected in Veikkausliiga October team of the month",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#8", "role": "both", "quote": "Sherif was selected in the Veikkausliiga October team of the month."}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "2013-02-26",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Joined Haras El-Hodood until end of 2012-2013 season",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#9", "role": "both", "quote": "On February 26 , 2013 , despite an offer from FF Jaro , he joined Haras El-Hodood"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2013-07-18",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Joined Swiss Challenge League side FC Biel-Bienne",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#10", "role": "both", "quote": "On July 18 , 2013 , Sherif Ashraf made a quick comeback to European football joining Swiss Challenge League side FC Biel-Bienne"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2014",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Returned to Egypt on short-term deal at El Gouna FC",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#11", "role": "both", "quote": "In early 2014 , Ashraf made a surprise move back to Egypt , signing a short-term deal at El Gouna FC"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e11",
+      "date": "2014",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Renewed contract at El Gouna FC",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#11", "role": "both", "quote": "In summer 2014 , he renewed his contract at the club"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e12",
+      "date": "2015-08",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Chose El Mokawloon SC after El Gouna relegation",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#12", "role": "both", "quote": "He chose El Mokawloon SC in August 2015"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2016-01",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Moved on loan to El-Entag El-Harby SC",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#12", "role": "both", "quote": "he moved on loan to El-Entag El-Harby SC in January 2016"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2016-01",
+      "grain": "month",
+      "track": "other",
+      "label": "debut",
+      "text": "Made debut for El-Entag El-Harby against El Mokawloon",
+      "evidence": [
+        {"chunk_id": "/wiki/Sherif_Ashraf#12", "role": "both", "quote": "he moved on loan to El-Entag El-Harby SC in January 2016 , making his debut against El Mokawloon"}
+      ],
+      "flag": "derived_date"
+    }
+  ],
+  "undated_mentions": [
+    "Graduate of the Al-Ahly youth academy (no date stated)",
+    "Transferred to Zamalek as a free agent, after season 2006-2007 (no exact date)",
+    "Changed shirt number from 32 to 4 at Zamalek, season 2009-2010 (no exact date)",
+    "First senior Egyptian national team call-up, friendly vs Georgia (only 'as of' date given)",
+    "Egyptian Cup winner, 2008 (club not clear in source)",
+    "Finnish Premier League title, 2012 (club implied as HJK Helsinki)",
+    "Debut goal for FF Jaro against JJK (no date stated)",
+    "Scored fastest goal in Veikkausliiga history (11 seconds) vs Mariehamn (no date stated)",
+    "Winning goal vs TPS that kept FF Jaro in the league (no date stated)",
+    "First goal for El Gouna within 15 minutes on the field (no date stated)"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "page_id": "Curt_von_Fran_ois",
+  "events": [
+    {"id": "e1", "date": "1852-10-02", "grain": "day", "track": "other", "label": "birth",
+     "text": "Born in Luxembourg, of French Huguenot ancestry.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#0", "role": "date", "quote": "( 2 October 1852 – 28 December 1931 )"},
+       {"chunk_id": "/wiki/Curt_von_François#1", "role": "description", "quote": "François was born in Luxembourg of French Huguenot ancestry"}
+     ]},
+    {"id": "e2", "date": "1870", "grain": "year", "track": "other", "label": "war",
+     "text": "Served as a soldier in the Franco-Prussian War.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#2", "role": "both", "quote": "He served as a soldier in the Franco-Prussian War of 1870–71"}
+     ]},
+    {"id": "e3", "date": "1883", "grain": "year", "track": "other", "label": "expedition",
+     "text": "Worked as geographer on an exploratory expedition along the Kasai River.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#2", "role": "both", "quote": "In 1883 he worked as a geographer on an exploratory expedition along the Kasai River"}
+     ]},
+    {"id": "e4", "date": "1885", "grain": "year", "track": "other", "label": "expedition", "flag": "derived_date",
+     "text": "Joined another Congo expedition led by George Grenfell.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#2", "role": "both", "quote": "and two years later joined another expedition into the Congo led by George Grenfell"}
+     ]},
+    {"id": "e5", "date": "1887", "grain": "year", "track": "role",
+     "text": "Stationed as a research officer in German West Africa.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#3", "role": "both", "quote": "In 1887 he was stationed as a research officer in German West Africa"}
+     ]},
+    {"id": "e6", "date": "1888", "grain": "year", "track": "role", "flag": "derived_date",
+     "text": "German Colonial Society engaged him to provide security to the territory.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#5", "role": "both", "quote": "the German Colonial Society engaged Hauptmann Curt von François to provide security to the territory"}
+     ]},
+    {"id": "e7", "date": "1888", "grain": "year", "track": "work",
+     "text": "Published 'Reise im Hinterlandes des deutschen Schutzgebiets Togo'.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#13", "role": "both", "quote": "Berlin 1888 - Travel in the Hinterland of the German Togo Conservation Area"}
+     ]},
+    {"id": "e8", "date": "1888", "grain": "year", "track": "work",
+     "text": "Published 'Die Erforschung des Tschuapa und Lulongo'.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#13", "role": "both", "quote": "Brockhaus , Leipzig 1888 . - Exploration of Tschuapa and Lulongo"}
+     ]},
+    {"id": "e9", "date": "1889-06", "grain": "month", "track": "location",
+     "text": "Arrived with 21 troopers in British-held Walvis Bay.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#5", "role": "both", "quote": "In June 1889 he arrived with 21 troopers"}
+     ]},
+    {"id": "e10", "date": "1889-06", "grain": "month", "track": "location", "flag": "derived_date",
+     "text": "Stationed himself at Otjimbingwe against the advice of Heinrich Göring.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#5", "role": "both", "quote": "Soon afterwards François stationed himself at Otjimbingwe"}
+     ]},
+    {"id": "e11", "date": "1890", "grain": "year", "track": "work",
+     "text": "Original Schutztruppe headquarters at Windhoek built at his behest.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#11", "role": "both", "quote": "The original Schutztruppe headquarters built at the behest of François in 1890"}
+     ]},
+    {"id": "e12", "date": "1890-05", "grain": "month", "track": "other", "label": "treaty",
+     "text": "Renewed a former peace agreement with Herero chief Maharero.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#6", "role": "both", "quote": "In May 1890 he renewed a former peace agreement with the Herero chief Maharero"}
+     ]},
+    {"id": "e13", "date": "1890-10-18", "grain": "day", "track": "work",
+     "text": "Responsible for the foundation of the city of Windhoek.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#0", "role": "both", "quote": "the foundation of the city of Windhoek on 18 October 1890"}
+     ]},
+    {"id": "e14", "date": "1891-03", "grain": "month", "track": "role",
+     "text": "Began service as Reichskommissar of German South West Africa.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#7", "role": "both", "quote": "François served as Reichskommissar of German South West Africa from March 1891 until November 1893"}
+     ]},
+    {"id": "e15", "date": "1892-08-04", "grain": "day", "track": "work", "flag": "source_inconsistent",
+     "text": "Harbor of Swakopmund completed (date conflicts with later source).",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#0", "role": "both", "quote": "the harbor of Swakopmund on 4 August 1892"}
+     ]},
+    {"id": "e16", "date": "1892-09-12", "grain": "day", "track": "work", "flag": "source_inconsistent",
+     "text": "Established the coastal town of Swakopmund as the main harbour.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#7", "role": "both", "quote": "( on 12 September 1892 ) he established the coastal town of Swakopmund as the main harbour"}
+     ]},
+    {"id": "e17", "date": "1893-04-12", "grain": "day", "track": "other", "label": "battle",
+     "text": "Led attack on Hendrik Witbooi's headquarters at Hoornkrans, later called a massacre.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#8", "role": "both", "quote": "On 12 April 1893 he led an attack of 225 German soldiers"}
+     ]},
+    {"id": "e18", "date": "1893-11", "grain": "month", "track": "role",
+     "text": "Ended service as Reichskommissar of German South West Africa.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#7", "role": "both", "quote": "François served as Reichskommissar of German South West Africa from March 1891 until November 1893"}
+     ]},
+    {"id": "e19", "date": "1893-11", "grain": "month", "track": "role",
+     "text": "Promoted to Major.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#7", "role": "both", "quote": "In November 1893 he was promoted to Major and given the title of Landeshauptmann"}
+     ]},
+    {"id": "e20", "date": "1893-11", "grain": "month", "track": "role",
+     "text": "Given the title of Landeshauptmann of South West Africa.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#7", "role": "both", "quote": "In November 1893 he was promoted to Major and given the title of Landeshauptmann"}
+     ]},
+    {"id": "e21", "date": "1894", "grain": "year", "track": "role",
+     "text": "Replaced as Landeshauptmann by Theodor Leutwein.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#10", "role": "both", "quote": "In 1894 François was replaced by Theodor Leutwein as Landeshauptmann"}
+     ]},
+    {"id": "e22", "date": "1894", "grain": "year", "track": "location", "flag": "derived_date",
+     "text": "Embarked in Cape Town for Germany.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#10", "role": "both", "quote": "He embarked in Cape Town to Germany"}
+     ]},
+    {"id": "e23", "date": "1895", "grain": "year", "track": "affiliation", "flag": "derived_date",
+     "text": "Retired from military life.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#10", "role": "both", "quote": "during the following year he retired from military life"}
+     ]},
+    {"id": "e24", "date": "1895-06-09", "grain": "day", "track": "affiliation",
+     "text": "His force formally established as the Imperial Schutztruppe by Reich Law.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#9", "role": "both", "quote": "François force was formally established as the Imperial Schutztruppe for German South West Africa by the Reich Law of 9 June 1895"}
+     ]},
+    {"id": "e25", "date": "1899", "grain": "year", "track": "work",
+     "text": "Published 'Deutsch-Südwest-Afrika' (German South West Africa).",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#13", "role": "both", "quote": "Verlag D . Reimer , Berlin 1899 . - German South West Africa"}
+     ]},
+    {"id": "e26", "date": "1900", "grain": "year", "track": "work",
+     "text": "Published 'Kriegführung in Süd-Afrika' (Warfare in South Africa).",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#14", "role": "both", "quote": "Dietrich Reimer , Berlin 1900 . - Warfare in South Africa"}
+     ]},
+    {"id": "e27", "date": "1901", "grain": "year", "track": "work",
+     "text": "Published 'Lehren aus dem Südafrikanischen Kriege' (Lessons from the South African War).",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#15", "role": "both", "quote": "Verlag E . S . Mittler & Sohn , Berlin 1901"}
+     ]},
+    {"id": "e28", "date": "1905", "grain": "year", "track": "work",
+     "text": "Published 'Der Hottentotten-Aufstand' (The Hottentot uprising).",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#15", "role": "both", "quote": "Berlin 1905 . - The Hottentot uprising"}
+     ]},
+    {"id": "e29", "date": "1931-12-28", "grain": "day", "track": "other", "label": "death",
+     "text": "Died in a Königs Wusterhausen hospital.",
+     "evidence": [
+       {"chunk_id": "/wiki/Curt_von_François#10", "role": "both", "quote": "He died in a Königs Wusterhausen hospital on 28 December 1931"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Joined the Prussian Cadet Corps (no date)",
+    "Awarded the Iron Cross (no date)",
+    "Became a member of the German General Staff (no date)",
+    "Promoted to Hauptmann (no date)",
+    "Explored Togoland and the trade route to Salaga for the Foreign Office (no date)",
+    "Set up German occupation headquarters at Windhoek, Alte Feste (no date)",
+    "Occupied the destroyed settlement of Windhoek, after May 1890 (no date)",
+    "Mapped large parts of the colony (no date)",
+    "Retired to Zernsdorf, Brandenburg, and wrote about Africa (no date)",
+    "Buried in the Invalids Cemetery in Berlin (no date)"
+  ]
+}

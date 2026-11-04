@@ -1,0 +1,165 @@
+{
+  "page_id": "Thierry_Audel",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1987-01-15",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born; French footballer, centre back.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#0", "role": "both", "quote": "born 15 January 1987"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2007",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began spell at Italian club U.S. Triestina Calcio.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#1", "role": "both", "quote": "he spent three years at Italian side Triestina from 2007 to 2010"},
+        {"chunk_id": "/wiki/Thierry_Audel#3", "role": "both", "quote": "moving to the Italian Serie B club U.S . Triestina Calcio in 2007"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "flag": "approximate_date",
+      "text": "Unsuccessful trial at Portsmouth.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#4", "role": "both", "quote": "unsuccessful trial at Portsmouth in summer 2009"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2010",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended spell at Triestina after three years.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#1", "role": "both", "quote": "he spent three years at Italian side Triestina from 2007 to 2010"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2010",
+      "grain": "year",
+      "track": "affiliation",
+      "flag": "approximate_date",
+      "text": "Moved to A.C. Pisa 1909 in Lega Pro Prima Divisione.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#4", "role": "both", "quote": "He moved to A.C . Pisa 1909 of the Lega Pro Prima Divisione in mid-2010"},
+        {"chunk_id": "/wiki/Thierry_Audel#1", "role": "description", "quote": "before moving on to Pisa"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2012-12",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Trial with Luton Town, Conference National.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#5", "role": "both", "quote": "He had a trial with Conference National club Luton Town in December 2012"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2013-01",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Moved to England to play for Macclesfield Town.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#1", "role": "both", "quote": "He moved to England in January 2013 to play for Macclesfield Town"},
+        {"chunk_id": "/wiki/Thierry_Audel#5", "role": "description", "quote": "The following month he signed a deal with Macclesfield Town"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2013-06",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Signed two-year contract with Crewe Alexandra.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#6", "role": "both", "quote": "He signed a two-year contract with League One side Crewe Alexandra in June 2013"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2015",
+      "grain": "year",
+      "track": "affiliation",
+      "flag": "derived_date",
+      "text": "Summer move to newly relegated Notts County, League Two.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#1", "role": "date", "quote": "In February 2015"},
+        {"chunk_id": "/wiki/Thierry_Audel#2", "role": "description", "quote": "before a summer move to newly relegated Notts County in League Two"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2015-02",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Returned to Macclesfield Town from Crewe.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#6", "role": "both", "quote": "before returning to Macclesfield Town in February 2015"},
+        {"chunk_id": "/wiki/Thierry_Audel#2", "role": "description", "quote": "Audel re-signed for Macclesfield Town"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2017-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Joined Barrow.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#2", "role": "both", "quote": "In July 2017 , Audel joined Barrow"},
+        {"chunk_id": "/wiki/Thierry_Audel#6", "role": "both", "quote": "In July 2017 , Audel joined Barrow"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2018",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "flag": "approximate_date",
+      "text": "Won London Senior Cup with Welling United.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#9", "role": "both", "quote": "London Senior Cup ( 1 ) : 2018–19"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2018-07",
+      "grain": "month",
+      "track": "affiliation",
+      "flag": "derived_date",
+      "text": "Moved to Welling United, a year after Barrow.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#2", "role": "both", "quote": "In July 2017 , Audel joined Barrow , moving to Welling United a year later"},
+        {"chunk_id": "/wiki/Thierry_Audel#6", "role": "both", "quote": "In July 2017 , Audel joined Barrow , moving to Welling United a year later"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2019-06-27",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Confirmed as joining Brackley Town.",
+      "evidence": [
+        {"chunk_id": "/wiki/Thierry_Audel#7", "role": "both", "quote": "On 27 June 2019 it was confirmed , that Audel had joined Brackley Town"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Reserve team player at AJ Auxerre (no date)",
+    "Brief spell on the books of Slovenian club Izola (no date)",
+    "Loan spell at San Marino (2008–09 season, season-only date)",
+    "Two loan spells at Lincoln City during Crewe Alexandra spell (no date)"
+  ]
+}

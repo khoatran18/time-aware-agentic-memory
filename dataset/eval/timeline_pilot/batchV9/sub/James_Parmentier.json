@@ -1,0 +1,23 @@
+{
+ "page_id": "James_Parmentier",
+ "events": [
+  {"id": "e1", "date": "1658", "grain": "year", "track": "other", "label": "birth", "text": "Born in France; later a painter working mainly in England.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#1", "role": "both", "quote": "Parmentier was born in France in 1658"}]},
+  {"id": "e2", "date": "1676-09", "grain": "month", "track": "location", "text": "Went to England to work under decorative painter Charles de La Fosse.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#1", "role": "both", "quote": "Parmentier went to England in September 1676"}]},
+  {"id": "e3", "date": "1698-12-01", "grain": "day", "track": "affiliation", "text": "Became a master of the Guild of St Luke at The Hague.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#2", "role": "both", "quote": "He was a member of the guild of St Luke at The Hague , becoming a master on 1 December 1698"}]},
+  {"id": "e4", "date": "1701", "grain": "year", "track": "work", "text": "Painted a portrait of St Evremond, now at Knole.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#7", "role": "both", "quote": "another of St Evremond ( 1701 ) is at Knole"}]},
+  {"id": "e5", "date": "1711", "grain": "year", "track": "work", "text": "Paid £50 to paint a Last Supper altarpiece for Holy Trinity Church, Hull.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#3", "role": "both", "quote": "In 1711 he was paid £50 to paint an altarpiece showing the Last Supper"}]},
+  {"id": "e6", "date": "1721", "grain": "year", "track": "location", "text": "Returned to London hoping to succeed Louis Laguerre as decorative painter.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/James_Parmentier#5", "role": "both", "quote": "Following the death of Louis Laguerre in 1721 Parmentier returned to London"}]},
+  {"id": "e7", "date": "1730-12-02", "grain": "day", "track": "other", "label": "death", "text": "Died; buried at St Paul's, Covent Garden.", "evidence": [{"chunk_id": "/wiki/James_Parmentier#6", "role": "both", "quote": "he died on 2 December 1730"}]}
+ ],
+ "undated_mentions": [
+  "Studied art under his uncle Sébastien Bourdon (no date)",
+  "Worked for William III at Het Loo palace; employment ended after dispute with Daniel Marot (no date)",
+  "Painted ceiling and two chimney-pieces in the Binnenhof royal palace (no date)",
+  "Accepted invitation to Yorkshire and painted many portraits there (no date)",
+  "Painted ceiling for St Peter's Church, Leeds (no date)",
+  "Decorated staircases at Worksop Manor for the Duke of Norfolk (no date)",
+  "Decorated staircases at the house of John Atkinson, former mayor of Leeds (no date)",
+  "Became a member of the Philo-musicae et -architecturae societas Apollini masonic music club (no date)",
+  "Painted the new sign when the Queens Head tavern became the Apollo tavern (no date)"
+ ]
+}

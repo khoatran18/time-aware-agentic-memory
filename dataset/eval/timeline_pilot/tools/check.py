@@ -15,11 +15,11 @@ for name in sys.argv[2:]:
         w=f"{e.get('id')}({e.get('date')})"
         if e.get("id")!=f"e{i}": err.append(f"{w}: id không tuần tự")
         dt=str(e.get("date",""))
-        if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?",dt): err.append(f"{w}: định dạng date"); 
+        if not re.fullmatch(r"-?\d{4}(-\d{2}(-\d{2})?)?",dt): err.append(f"{w}: định dạng date"); 
         else:
-            g={4:"year",7:"month",10:"day"}[len(dt)]
+            g={4:"year",7:"month",10:"day"}[len(dt.lstrip("-"))]
             if e.get("grain")!=g: err.append(f"{w}: grain {e.get('grain')}≠{g}")
-            if dt[:4]<prev[:4]: err.append(f"{w}: không sắp theo ngày")
+            if prev and int(dt.lstrip("-")[:4])*(-1 if dt[0]=="-" else 1)<int(prev.lstrip("-")[:4])*(-1 if prev[0]=="-" else 1): err.append(f"{w}: không sắp theo ngày")
             prev=dt
         if e.get("track") not in TRACKS: err.append(f"{w}: track lạ {e.get('track')}")
         if e.get("track")=="other" and not e.get("label"): err.append(f"{w}: other thiếu label")
@@ -34,7 +34,7 @@ for name in sys.argv[2:]:
             if q not in c: err.append(f"{w}: quote không nguyên văn: {q[:50]!r}")
             r=x.get("role"); roles.append(r)
             if r not in("both","date","description"): err.append(f"{w}: role lạ")
-            yr=dt[:4].lstrip("0") or dt[:4]
+            yr=str(int(dt.lstrip("-")[:4])+1) if dt[0]=="-" else (dt[:4].lstrip("0") or dt[:4])
             if r in("both","date") and yr not in q and e.get("flag")!="derived_date": err.append(f"{w}: quote {r} không chứa năm {yr}")
             if r=="description" and re.search(r"\b%s\b"%yr,q): err.append(f"{w}: quote description chứa năm {yr}")
         if not("both" in roles or ("date" in roles and "description" in roles)): err.append(f"{w}: thiếu bộ chunk tối thiểu {roles}")

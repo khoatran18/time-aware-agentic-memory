@@ -1,0 +1,222 @@
+{
+ "page_id": "/wiki/Gleaston_Castle",
+ "events": [
+  {
+   "date": "1291",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "Aldingham manor",
+   "text": "Aldingham manor (Muchland) came into the ownership of the Harrington family",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#3",
+     "role": "both",
+     "quote": "in 1291 it came into the ownership of the Harrington family"
+    }
+   ],
+   "id": "e1"
+  },
+  {
+   "id": "e2",
+   "date": "1389",
+   "grain": "year",
+   "track": "other",
+   "label": "first mention",
+   "text": "Castle first mentioned in surviving records.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#5",
+     "role": "both",
+     "quote": "Gleaston Castle is first mentioned in 1389"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1415",
+   "grain": "year",
+   "track": "other",
+   "label": "papal indult",
+   "text": "John Harington granted papal indult for a private chapel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#5",
+     "role": "both",
+     "quote": "In 1415 John Harington was granted a papal indult for a private chapel"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1458",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Harington family ownership ends; castle passes to William Bonville by marriage.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#1",
+     "role": "both",
+     "quote": "until 1458 when it passed to William Bonville through marriage"
+    },
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#6",
+     "role": "both",
+     "quote": "The Harington family owned Gleaston Castle until William Harington , 5th Baron Harington died in 1458"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1458",
+   "grain": "year",
+   "track": "other",
+   "label": "abandonment",
+   "text": "Castle subsequently abandoned after transfer to Bonville.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#1",
+     "role": "both",
+     "quote": "until 1458 when it passed to William Bonville through marriage and was subsequently abandoned"
+    },
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#6",
+     "role": "description",
+     "quote": "It is likely that around this time Gleaston Castle was abandoned"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1460",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Bonville dies; castle passes to Thomas Grey, 1st Marquess of Dorset, by marriage.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#6",
+     "role": "both",
+     "quote": "He died in 1460 and the castle passed to Thomas Grey"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1540",
+   "grain": "year",
+   "track": "other",
+   "label": "antiquarian survey",
+   "text": "John Leland records the castle ruins in his antiquarian notes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#6",
+     "role": "both",
+     "quote": "In 1540 , the antiquarian John Leland noted there is a ruine"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1554",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Henry Grey executed for treason; castle property taken over by the monarch.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#1",
+     "role": "both",
+     "quote": "1st Duke of Suffolk was executed for treason in 1554"
+    },
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#8",
+     "role": "both",
+     "quote": "executed for treason in 1554 his property was taken over by the monarch"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1671",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Thomas Preston, 3rd Baronet, buys Aldingham manor including the castle.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#8",
+     "role": "both",
+     "quote": "In 1671 Thomas Preston , 3rd Baronet Preston bought Aldingham manor"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1922",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Prestons sell the castle to the current family of owners.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#8",
+     "role": "both",
+     "quote": "The Prestons owned the castle until 1922 when it was sold to the current family of owners"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "assessment",
+   "text": "Lancaster University Archaeological Unit assesses the standing building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#11",
+     "role": "both",
+     "quote": "in 1998 the Lancaster University Archaeological Unit conducted an assessment of the standing building"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "survey",
+   "text": "Morecambe Bay Partnership commissions Greenlane Archaeology aerial survey of castle.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#13",
+     "role": "both",
+     "quote": "was not fully recorded until 2015 , when the Morecambe Bay Partnership"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "survey",
+   "text": "University of Central Lancashire undertakes geophysical survey of the castle.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#13",
+     "role": "both",
+     "quote": "In 2016 the University of Central Lancashire undertook a geophysical survey"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Built for John Harington, 1st Baron Harington in the 14th century (century only)",
+  "Passed to the Grey family (no date)",
+  "Descended through the Prestons to the Cavendish family (no date)",
+  "Subject of historical and archaeological investigation in the 20th and 21st centuries",
+  "Human skeletons discovered at the castle in the 19th century",
+  "Farm buildings built in the 19th century",
+  "Listed as Grade I listed ruin and scheduled monument (no date)",
+  "Placed on Historic England Heritage At Risk register (date missing in source)",
+  "Preservation efforts since the late 20th century"
+ ]
+}

@@ -1,0 +1,862 @@
+{
+ "page_id": "Paul_Sturrock",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1956-10-10",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Paul Sturrock born, Scottish footballer and coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#0",
+     "role": "both",
+     "quote": "born 10 October 1956"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1972",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Vale of Atholl in the Perthshire Amateur First Division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#4",
+     "role": "both",
+     "quote": "In 1972 , he joined Vale of Atholl"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1974-07-01",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed for Dundee United by manager Jim McLean.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#5",
+     "role": "both",
+     "quote": "signed for Dundee United by then manager Jim McLean on 1 July 1974"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1974-09-18",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Made European Cup Winners Cup debut for Dundee United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#6",
+     "role": "both",
+     "quote": "made his debut in the European Cup Winners Cup match v Juil Petrosani of Romania on 18 September 1974"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1974-12-28",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Made league debut for Dundee United as a substitute.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#6",
+     "role": "both",
+     "quote": "his league debut on 28 December 1974 as a substitute against Motherwell"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1975-04-05",
+   "grain": "day",
+   "track": "other",
+   "label": "first goal",
+   "text": "Scored first goal for Dundee United, in a 2–2 draw with Rangers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#7",
+     "role": "both",
+     "quote": "a 2–2 draw with Rangers at Tannadice on 5 April 1975"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1976-10-12",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Made first appearance for Scotland under-21 team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#14",
+     "role": "both",
+     "quote": "made his first appearance for the Scotland under-21 team on 12 October 1976"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the Scottish League Cup with Dundee United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#0",
+     "role": "both",
+     "quote": "the Scottish League Cup twice , in 1979 and 1980"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1980",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won the Scottish League Cup with Dundee United again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#0",
+     "role": "both",
+     "quote": "the Scottish League Cup twice , in 1979 and 1980"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1981-05-16",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Made full international debut for Scotland against Wales.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#15",
+     "role": "both",
+     "quote": "made his full international debut for Scotland against Wales on 16 May 1981"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1981-11-08",
+   "grain": "day",
+   "track": "other",
+   "label": "first goal",
+   "text": "Scored first goal for Scotland, in a World Cup qualifier defeat to Portugal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#15",
+     "role": "both",
+     "quote": "on 8 November 1981 , he scored his first goal for Scotland"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1982",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named SFWA Footballer of the Year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#0",
+     "role": "both",
+     "quote": "He was named the SFWA Footballer of the Year in 1982"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1982",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Non-playing member of Scotland squad at 1982 World Cup finals.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#15",
+     "role": "both",
+     "quote": "He was a non-playing member of the Scotland squad for the 1982 World Cup finals in Spain"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1982",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Dundee United won the Scottish League Championship, 1982–83 season.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#0",
+     "role": "both",
+     "quote": "He won the Scottish Football League title with United in 1982–83"
+    },
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#11",
+     "role": "both",
+     "quote": "In 1982–83 , Dundee United won the Scottish League Championship"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1986",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Appeared at the 1986 World Cup in Mexico.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#15",
+     "role": "both",
+     "quote": "appeared twice in Mexico in 1986"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Stayed at Dundee United as coach after playing career ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#13",
+     "role": "both",
+     "quote": "His playing career ended in 1989"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "retirement",
+   "text": "Playing career ended; last Dundee United goal earlier that year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#13",
+     "role": "both",
+     "quote": "His playing career ended in 1989"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Became manager of St Johnstone.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#1",
+     "role": "both",
+     "quote": "Sturrocks managerial career began with St Johnstone in 1993"
+    },
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#17",
+     "role": "both",
+     "quote": "In 1993 , Sturrock became the manager of First Division team St Johnstone"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1993",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Dundee United after twenty years of continuous service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#13",
+     "role": "both",
+     "quote": "He left the club in 1993 after twenty years continuous service"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "St Johnstone won the First Division title, 1996–97 season.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#1",
+     "role": "both",
+     "quote": "went on to win the Scottish First Division title in 1996–97"
+    },
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#17",
+     "role": "both",
+     "quote": "guided the team to a comfortable promotion in 1996–97"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1998-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed manager of Dundee United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#18",
+     "role": "both",
+     "quote": "In September 1998 Sturrock was appointed manager at Dundee United"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned as Dundee United manager after two games.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#18",
+     "role": "both",
+     "quote": "Sturrock resigned after two games of the 2000–01 season"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2000-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Joined Plymouth Argyle as manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#19",
+     "role": "both",
+     "quote": "In October 2000 Sturrock joined Plymouth Argyle"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Plymouth Argyle won the Third Division title the following season.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#19",
+     "role": "both",
+     "quote": "The following season , he guided them to the Third Division title"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Third Division Manager of the Year.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Football League Third Division Manager of the Year : 2001–02"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2001-09",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Third Division Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Third Division Manager of the Month : September 2001 , October 2001 , February 2002"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2001-10",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Third Division Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Third Division Manager of the Month : September 2001 , October 2001 , February 2002"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2002-02",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Third Division Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Third Division Manager of the Month : September 2001 , October 2001 , February 2002"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Second Division Manager of the Year.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Football League Second Division Manager of the Year : 2003–04"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2003-10",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Left Plymouth Argyle with twelve games of the season left.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#19",
+     "role": "both",
+     "quote": "In October 2003 , Sturrock had successfully taken Argyle back to the top"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2003-10",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Second Division Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Second Division Manager of the Month : October 2003 , December 2003"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2003-12",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Second Division Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Second Division Manager of the Month : October 2003 , December 2003"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2004-01",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named LMA Managers Performance League manager of the period.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "LMA Managers Performance League : January 2004"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2004-03-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Named manager of Southampton, succeeding Gordon Strachan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#21",
+     "role": "both",
+     "quote": "Sturrock was named as the successor to Gordon Strachan as manager of Southampton on 4 March 2004"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2004-08-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Left Southampton by mutual consent.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#21",
+     "role": "both",
+     "quote": "On 23 August 2004 it was announced that Sturrock was leaving the club"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2004-09-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed manager of League One club Sheffield Wednesday.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#22",
+     "role": "both",
+     "quote": "appointed by League One club Sheffield Wednesday languishing in 14th place on 23 September 2004"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2004-11",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League One Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Football League One Manager of the Month : November 2004"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2006-09-14",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Agreed a new four-year contract with Sheffield Wednesday.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#23",
+     "role": "both",
+     "quote": "he agreed a new four-year contract on 14 September"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2006-10-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Sheffield Wednesday manager.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#23",
+     "role": "both",
+     "quote": "But he was sacked on the evening of 19 October"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2006-11-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Confirmed as Swindon Town manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#24",
+     "role": "both",
+     "quote": "on 7 November 2006 Sturrock was confirmed as manager"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2007-01",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Two Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Football League Two Manager of the Month : January 2007 , September 2011 , November 2012"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2007-11-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Resigned as Swindon Town manager after just over a year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#26",
+     "role": "both",
+     "quote": "On 27 November 2007 , Sturrock resigned his post as Swindon Town manager"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2007-11-27",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Rejoined Plymouth Argyle, his previous club.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#26",
+     "role": "both",
+     "quote": "On 27 November 2007 , Sturrock resigned his post as Swindon Town manager"
+    },
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#26",
+     "role": "description",
+     "quote": "to rejoin previous club Plymouth Argyle"
+    }
+   ]
+  },
+  {
+   "date": "2008-07",
+   "grain": "month",
+   "track": "other",
+   "label": "health",
+   "text": "Announced he had a mild form of Parkinson's disease",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#3",
+     "role": "both",
+     "quote": "Sturrock announced in July 2008 that he was suffering from a mild form of Parkinsons disease"
+    }
+   ],
+   "id": "e44"
+  },
+  {
+   "id": "e45",
+   "date": "2009-12-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Removed as Plymouth Argyle manager, moved to business support role.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#27",
+     "role": "both",
+     "quote": "10 December 2009 , Sturrock was removed as Plymouth Argyle manager"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2010-04-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Plymouth board confirmed he had left his club role.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#27",
+     "role": "both",
+     "quote": "On 22 April 2010 the Plymouth board confirmed that Paul Sturrock had left his role within the club"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2010-07-05",
+   "grain": "day",
+   "track": "role",
+   "text": "Confirmed as manager of League Two Southend United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#28",
+     "role": "both",
+     "quote": "On 5 July 2010 he was confirmed as manager of League Two Southend United"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2011-09",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Two Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#30",
+     "role": "both",
+     "quote": "Sturrock was named Manager of the Month for September 2011"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2012-11",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Named Football League Two Manager of the Month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#35",
+     "role": "both",
+     "quote": "Football League Two Manager of the Month : January 2007 , September 2011 , November 2012"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2013-03-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Southend United manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#31",
+     "role": "both",
+     "quote": "Sturrock was sacked as manager of Southend United on 24 March 2013"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "Autobiography Luggy published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#37",
+     "role": "both",
+     "quote": "His autobiography was published in 2015"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2015-04-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed manager of League One club Yeovil Town.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#32",
+     "role": "both",
+     "quote": "after being appointed manager of Football League One side Yeovil Town on 9 April 2015"
+    },
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#1",
+     "role": "both",
+     "quote": "He became Yeovil Town manager in April 2015"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2015-12-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Yeovil Town parted company with Sturrock.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#32",
+     "role": "both",
+     "quote": "Yeovil announced on 1 December 2015 that they had parted company with Sturrock"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2018",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Dundee United during the 2018–19 season.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#33",
+     "role": "both",
+     "quote": "He left United during the 2018–19 season"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2018-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Added to Dundee United coaching staff.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#33",
+     "role": "both",
+     "quote": "Later in March , Sturrock was added to the United coaching staff"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2018-03-08",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Appointed chief scout in England for Dundee United.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Paul_Sturrock#33",
+     "role": "both",
+     "quote": "On 8 March 2018 , Sturrock renewed his involvement with Dundee United"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Moved to Bankfoot Athletic (no date given; 1973–74 season context)",
+  "Returned to Vale of Atholl as coach in later years (no date given)",
+  "Appointed Craig Easton as Southend United captain (no date given)",
+  "Advisor to Torquay United before joining Yeovil Town (no date given)",
+  "Won promotion to the Championship via play-off final with Sheffield Wednesday (year not stated)",
+  "Swindon Town promotion from League Two to League One in first season in charge (season not dated)",
+  "Named manager of Plymouth Argyle Team of the Century in BBC Devon poll (no date given)",
+  "Returned to live in South West England after retirement (no date given)",
+  "Advisory role at non-League club Plymouth Parkway (no date given)"
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "page_id": "William_Duncan_missionary",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1832-04-03",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Bishop Burton, Yorkshire, England.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#0",
+     "role": "date",
+     "quote": "William Duncan ( 3 April 1832 – 30 August 1918 )"
+    },
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#1",
+     "role": "description",
+     "quote": "Duncan was born in the hamlet of Bishop Burton , Yorkshire , England"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1854",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the Church Missionary Society (CMS).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#3",
+     "role": "both",
+     "quote": "In 1854 he joined the Church Missionary Society ( CMS )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1854",
+   "grain": "year",
+   "track": "education",
+   "text": "Attended the Church Missionary Society College, Islington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#3",
+     "role": "both",
+     "quote": "In 1854 he joined the Church Missionary Society ( CMS ) and attended the Church Missionary Society College , Islington"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1856",
+   "grain": "year",
+   "track": "location",
+   "text": "Sent by the CMS to the North Pacific coast of Canada.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#4",
+     "role": "both",
+     "quote": "In 1856 the CMS sent Duncan to the North Pacific coast of Canada"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1857",
+   "grain": "year",
+   "track": "location",
+   "text": "Arrived at the HBC fort settlement at Lax Kwalaams, British Columbia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#4",
+     "role": "both",
+     "quote": "and in 1857 he arrived at the remote Hudsons Bay Company ( HBC ) fort settlement at Lax Kwalaams , British Columbia"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1862",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Metlakatla officially established as a utopian Christian community in British Columbia.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#6",
+     "role": "both",
+     "quote": "Metlakatla was officially established that year within what was by then the Colony of British Columbia"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1881",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Expelled from the Church Missionary Society.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#12",
+     "role": "both",
+     "quote": "Duncan was expelled from the CMS in 1881 and transformed his mission into a nondenominational Independent Native Church"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1881",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Transformed his mission into a nondenominational Independent Native Church.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#12",
+     "role": "both",
+     "quote": "Duncan was expelled from the CMS in 1881 and transformed his mission into a nondenominational Independent Native Church"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1887",
+   "grain": "year",
+   "track": "location",
+   "text": "Led about 800 Tsimshians by canoe from Old Metlakatla to New Metlakatla, Alaska.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#13",
+     "role": "both",
+     "quote": "in a canoe voyage from Old Metlakatla to New Metlakatla , Alaska , in 1887"
+    },
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#12",
+     "role": "description",
+     "quote": "then led approximately 800 Tsimshians"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1914",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Interior Department began seizing many of the Metlakatla mission buildings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#17",
+     "role": "both",
+     "quote": "In 1914–1915 , the Interior Department seized many of the Mission buildings and built a modern school at Metlakatla"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1915",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Seizure of mission buildings ended; a modern school was built at Metlakatla.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#17",
+     "role": "both",
+     "quote": "In 1914–1915 , the Interior Department seized many of the Mission buildings and built a modern school at Metlakatla"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1918-08-30",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at age 86 in New Metlakatla, Alaska.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_Duncan_(missionary)#20",
+     "role": "both",
+     "quote": "Duncan died at the age of 86 on 30 August 1918"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Later worked as a tanner in his grandfather's/adoptive father's trade",
+  "Obtained permission from the US government to establish an Indian reservation on Annette Island, Alaska",
+  "Eventually decided to found a second utopian community on Annette Island, Alaska"
+ ]
+}
