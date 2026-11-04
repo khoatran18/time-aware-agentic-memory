@@ -1,0 +1,12 @@
+{
+ "page_id": "/wiki/Gamvik",
+ "events": [
+  {"id": "e1", "date": "1914-01-01", "grain": "day", "track": "other", "label": "founding", "text": "Municipality of Gamvik established when old Tana Municipality was divided.", "evidence": [{"chunk_id": "/wiki/Gamvik#2", "role": "both", "quote": "The municipality of Gamvik was established on 1 January 1914"}]},
+  {"id": "e2", "date": "1990-09-28", "grain": "day", "track": "other", "label": "coat of arms granted", "text": "Municipal coat of arms granted, showing three fishing net needles.", "evidence": [{"chunk_id": "/wiki/Gamvik#4", "role": "both", "quote": "They were granted on 28 September 1990"}]},
+  {"id": "e3", "date": "2015", "grain": "year", "track": "role", "text": "Trond Einar Olaussen (Ap) begins term as mayor.", "evidence": [{"chunk_id": "/wiki/Gamvik#9", "role": "both", "quote": "2015-2019 : Trond Einar Olaussen ( Ap )"}]},
+  {"id": "e4", "date": "2019", "grain": "year", "track": "role", "text": "Trond Einar Olaussen's term as mayor ends.", "evidence": [{"chunk_id": "/wiki/Gamvik#9", "role": "both", "quote": "2015-2019 : Trond Einar Olaussen ( Ap )"}]},
+  {"id": "e5", "date": "2019", "grain": "year", "track": "role", "text": "Alf Normann Hansen (SV) begins term as mayor.", "evidence": [{"chunk_id": "/wiki/Gamvik#9", "role": "both", "quote": "2019–present : Alf Normann Hansen ( SV )"}]},
+  {"id": "e6", "date": "2020-01-01", "grain": "day", "track": "location", "text": "Gamvik becomes part of the newly formed Troms og Finnmark county.", "evidence": [{"chunk_id": "/wiki/Gamvik#2", "role": "both", "quote": "On 1 January 2020 , the municipality became part of the newly formed Troms og Finnmark county"}]}
+ ],
+ "undated_mentions": ["Gamvik was previously part of the old Finnmark county (no date given)"]
+}

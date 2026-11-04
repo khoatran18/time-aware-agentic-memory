@@ -1,0 +1,324 @@
+{
+ "page_id": "/wiki/Flatiron_Building",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1857",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Amos Eno bought the site on which the building would stand.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#4",
+     "role": "both",
+     "quote": "The site on which the Flatiron Building would stand was bought in 1857 by Amos Eno"
+    }
+   ]
+  },
+  {
+   "date": "1899",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": null,
+   "text": "After Amos Eno's death his assets were liquidated and the lot went up for sale",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#6",
+     "role": "both",
+     "quote": "after his death in 1899 his assets were liquidated , and the lot went up for sale"
+    }
+   ],
+   "id": "e2"
+  },
+  {
+   "id": "e3",
+   "date": "1902-02",
+   "grain": "month",
+   "track": "work",
+   "text": "Steel frame of the building was completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#11",
+     "role": "both",
+     "quote": "By February 1902 the frame was complete"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1902-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Building was half-covered by terra-cotta tiling.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#11",
+     "role": "date",
+     "quote": "By February 1902 the frame was complete"
+    },
+    {
+     "chunk_id": "/wiki/Flatiron_Building#11",
+     "role": "description",
+     "quote": "by mid-May the building was half-covered by terra-cotta tiling"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1902-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Building construction completed, 20 floors high.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#11",
+     "role": "both",
+     "quote": "The building was completed in June 1902"
+    },
+    {
+     "chunk_id": "/wiki/Flatiron_Building#0",
+     "role": "both",
+     "quote": "upon its 1902 completion"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1905",
+   "grain": "year",
+   "track": "work",
+   "text": "21st floor was added, three years after completion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#58",
+     "role": "both",
+     "quote": "which was added in 1905"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1911",
+   "grain": "year",
+   "track": "other",
+   "label": "restaurant opened",
+   "text": "Building introduced a restaurant/club in the basement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#31",
+     "role": "both",
+     "quote": "In 1911 , the building introduced a restaurant/club in the basement"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1925-10",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Harry S. Black sold the building to a syndicate led by Lewis Rosenbaum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#35",
+     "role": "both",
+     "quote": "In October 1925 , Harry S . Black , in need of cash for his U.S . Realty Company , sold the Flatiron Building"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1933",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Syndicate defaulted on mortgage; lender Equitable Life took over the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#35",
+     "role": "both",
+     "quote": "The syndicate defaulted on its mortgage in 1933 , and was taken over by the lender"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1946",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Equitable sold the building to Flatiron Associates, led by Harry Helmsley.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#38",
+     "role": "both",
+     "quote": "Equitable sold the building in 1946 to the Flatiron Associates"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1966",
+   "grain": "year",
+   "track": "other",
+   "label": "landmark designation",
+   "text": "Building designated a New York City landmark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#2",
+     "role": "both",
+     "quote": "was designated a New York City landmark in 1966"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "National Register listing",
+   "text": "Building added to the National Register of Historic Places.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#2",
+     "role": "both",
+     "quote": "was added to the National Register of Historic Places in 1979"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "National Historic Landmark designation",
+   "text": "Building designated a National Historic Landmark.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#3",
+     "role": "both",
+     "quote": "National Historic Landmark in 1989 ."
+    },
+    {
+     "chunk_id": "/wiki/Flatiron_Building#2",
+     "role": "description",
+     "quote": "was designated a"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Facade of the building was restored by Hurley & Farinella.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#41",
+     "role": "both",
+     "quote": "The facade of the Flatiron Building was restored in 1991 by the firm of Hurley & Farinella"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1997",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Helmsley-Spear stopped managing the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#41",
+     "role": "both",
+     "quote": "Helmsley-Spear stopped managing the building in 1997"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1997",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Investors sold 52% stake to Newmark Knight-Frank, which took over management.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#41",
+     "role": "both",
+     "quote": "Helmsley-Spear stopped managing the building in 1997 , when some of the investors sold their 52% of the building"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1997",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Leona Helmsley sold her share of the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#41",
+     "role": "date",
+     "quote": "Helmsley-Spear stopped managing the building in 1997"
+    },
+    {
+     "chunk_id": "/wiki/Flatiron_Building#42",
+     "role": "description",
+     "quote": "Shortly afterwards , Helmsleys widow , Leona Helmsley , sold her share as well"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Building underwent a restoration.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#43",
+     "role": "both",
+     "quote": "During a 2005 restoration of the Flatiron Building a 15-story vertical advertising banner covered the facade of the building"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "advertising banner",
+   "text": "15-story vertical advertising banner covered the facade.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#43",
+     "role": "both",
+     "quote": "During a 2005 restoration of the Flatiron Building a 15-story vertical advertising banner covered the facade of the building"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2009-01",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Sorgente Group bought a majority stake in the building.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#44",
+     "role": "both",
+     "quote": "In January 2009 , Italian real estate investment firm Sorgente Group , based in Rome , bought a majority stake"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Amos Eno replaced the St. Germaine Hotel with the seven-story Cumberland apartment building (year not stated)",
+  "William Eno bought the lot at auction after Amos Eno's 1899 death (year not stated)",
+  "Samuel and Mott Newhouse bought the lot three weeks after the auction, for $801,000 (year not stated)",
+  "Newhouses sold the lot to Cumberland Realty Company two years later (year not stated)",
+  "Name Flatiron Building made official (date not stated)",
+  "Cowcatcher retail space added after completion (date not stated)",
+  "Penthouse artists' studios added after completion (date not stated)",
+  "Newmark installed new electric elevators replacing hydraulic ones (year not stated)",
+  "By the mid-1940s the building was fully rented"
+ ]
+}

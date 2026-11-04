@@ -1,0 +1,739 @@
+{
+ "page_id": "/wiki/SV_Darmstadt_98",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1898-05-22",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Club founded as FC Olympia Darmstadt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#0",
+     "role": "both",
+     "quote": "The club was founded on 22 May 1898 as FC Olympia Darmstadt"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1909",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Played as Olympia in the Westkreisliga until 1913.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#3",
+     "role": "both",
+     "quote": "Olympia played as a lower table side in the Westkreisliga between 1909 and 1913"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1919",
+   "grain": "year",
+   "track": "naming",
+   "text": "Briefly known as Rasen-Sportverein Olympia.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#0",
+     "role": "both",
+     "quote": "Early in 1919 , the association was briefly known as Rasen-Sportverein Olympia"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1919-11-11",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Merged with Darmstädter Sport Club 1905, becoming Sportverein Darmstadt 98.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#0",
+     "role": "both",
+     "quote": "before merging with Darmstädter Sport Club 1905 on 11 November that year to become Sportverein Darmstadt 98"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1941",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Gauliga Hessen-Nassau, Gruppe 2.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#3",
+     "role": "both",
+     "quote": "until 1941 when they joined the Gauliga Hessen-Nassau , Gruppe 2"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessenliga championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1962",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessenliga championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1963",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Second-division run resumed with formation of the Bundesliga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#5",
+     "role": "both",
+     "quote": "from the time of the formation of the Bundesliga in 1963"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessenliga championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1966",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hesse Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Hesse Cup ( Tiers III-VII ) - Winners : 1966"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessenliga championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1973",
+   "grain": "year",
+   "track": "other",
+   "label": "championship",
+   "text": "Won Regionalliga Süd; second in Bundesliga promotion rounds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#5",
+     "role": "both",
+     "quote": "they finally managed a breakthrough in 1973 with a Regionalliga Süd championship"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1978",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won 2. Bundesliga Süd championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "2 . Bundesliga Süd ( II ) - Champions : 1978 , 1981"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won 2. Bundesliga Süd championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "2 . Bundesliga Süd ( II ) - Champions : 1978 , 1981"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Avoided relegation to Oberliga Hessen after Essen lost licence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#6",
+     "role": "both",
+     "quote": "escaped relegation to the Amateur Oberliga Hessen ( III ) in 1991"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1997",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Financial mismanagement led to slide into third and fourth divisions.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#6",
+     "role": "both",
+     "quote": "by 1997 , SV had themselves become victims of financial mismanagement"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#7",
+     "role": "description",
+     "quote": "slipping to the third and fourth divisions"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "wins in the Hessen Pokal ( Hessen Cup ) in 1999 , 2001 , 2006 , 2007 and 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessenliga championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won three consecutive Possmann-Hessen Cup titles, 2000 to 2002.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "three consecutive Possmann-Hessen Cup wins from 2000 to 2002"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "wins in the Hessen Pokal ( Hessen Cup ) in 1999 , 2001 , 2006 , 2007 and 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "championship",
+   "text": "Won Oberliga Hessen (IV) championship under Bruno Labbadia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "In 2004 , the club claimed the Oberliga Hessen ( IV ) championship"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2004",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted to Regionalliga Süd (III).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "date",
+     "quote": "In 2004 , the club claimed"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "description",
+     "quote": "were promoted to the Regionalliga Süd ( III )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "wins in the Hessen Pokal ( Hessen Cup ) in 1999 , 2001 , 2006 , 2007 and 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "wins in the Hessen Pokal ( Hessen Cup ) in 1999 , 2001 , 2006 , 2007 and 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2007",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated to Oberliga Hessen (IV) after financial problems.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#9",
+     "role": "both",
+     "quote": "relegated to the Oberliga Hessen ( IV ) at the end of the 2006–07 season"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#8",
+     "role": "both",
+     "quote": "wins in the Hessen Pokal ( Hessen Cup ) in 1999 , 2001 , 2006 , 2007 and 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "championship",
+   "text": "Won Oberliga Hessen (IV) championship, 2007–08 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Hessenliga ( II/III/IV ) - Champions : 1950 , 1962 , 1964 , 1971 , 1999 , 2004 , 2008"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#9",
+     "role": "description",
+     "quote": "After the 2007–08 Oberliga Hessen Championship"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Played in Regionalliga Süd after 2007–08 Oberliga title.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#9",
+     "role": "both",
+     "quote": "After the 2007–08 Oberliga Hessen Championship , Darmstadt played in the Regionalliga Süd"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2008-03-06",
+   "grain": "day",
+   "track": "other",
+   "label": "insolvency",
+   "text": "Entered insolvency proceedings with debts of about €1.1 million.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#9",
+     "role": "both",
+     "quote": "on 6 March 2008 Darmstadt entered insolvency proceedings"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Regionalliga Süd (IV) championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#19",
+     "role": "both",
+     "quote": "Regionalliga Süd ( IV ) - Champions : 2011"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "description",
+     "quote": "After winning the 2010–11 Regionalliga Süd in dramatic fashion"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2011",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted to 3. Liga after Regionalliga Süd title.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "both",
+     "quote": "After winning the 2010–11 Regionalliga Süd in dramatic fashion , Darmstadt were promoted to the 3 . Liga"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2012",
+   "grain": "year",
+   "track": "role",
+   "text": "Dirk Schuster appointed head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "both",
+     "quote": "In 2012 , Dirk Schuster was appointed as head coach"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2012",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Aytaç Sulu, future captain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "both",
+     "quote": "In 2012 , Dirk Schuster was appointed as head coach , and he signed Darmstadts future captain , Aytaç Sulu"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Kept 3. Liga place after Kickers Offenbach was refused licence.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "date",
+     "quote": "In the 2012–13 season , the club was initially relegated"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#11",
+     "role": "description",
+     "quote": "Darmstadt 98 took Offenbachs place"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Hessen Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#20",
+     "role": "both",
+     "quote": "Winners : 1966 , 1999 , 2001 , 2006 , 2007 , 2008 , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted to 2. Bundesliga after play-off win over Arminia Bielefeld.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#12",
+     "role": "date",
+     "quote": "In 2013–14 , having finished third in league"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#12",
+     "role": "description",
+     "quote": "to secure promotion to 2 . Bundesliga for the first time in 21 years"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted to Bundesliga after 33-year absence.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#13",
+     "role": "both",
+     "quote": "Darmstadt secured the second-place position in the league and therefore promotion to the Bundesliga"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2016",
+   "grain": "year",
+   "track": "naming",
+   "text": "Stadium renamed Jonathan-Heimes-Stadion after a fan's death.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#14",
+     "role": "both",
+     "quote": "Darmstadts stadium was renamed into Jonathan-Heimes-Stadion am Böllenfalltor for the 2016–17 season"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2016-12-05",
+   "grain": "day",
+   "track": "role",
+   "text": "Head coach Maier was sacked.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#15",
+     "role": "both",
+     "quote": "Maier was sacked on 5 December 2016"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2016-12-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Torsten Frings presented as new head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#15",
+     "role": "both",
+     "quote": "On 27 December 2016 , former Bundesliga player and Werder Bremen assistant manager Torsten Frings was presented as new head coach"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2017",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated to 2. Bundesliga after losing to Bayern Munich on matchday 32.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#15",
+     "role": "date",
+     "quote": "Norbert Meier was appointed as head coach for the 2016–17 season"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#15",
+     "role": "description",
+     "quote": "the team was incapable of securing the next season in the Bundesliga"
+    },
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#16",
+     "role": "description",
+     "quote": "was relegated to the 2 . Bundesliga"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2017-12-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Dirk Schuster returned as manager for second spell.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#17",
+     "role": "both",
+     "quote": "on 11 December 2017 the vacant managers position was again filled by Dirk Schuster"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitrios Grammozis replaced Schuster as head coach.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#18",
+     "role": "both",
+     "quote": "In the 2018/19-second Bundesliga season , Dimitrios Grammozis replaced Schuster"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2020",
+   "grain": "year",
+   "track": "role",
+   "text": "Markus Anfang took over as head coach.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SV_Darmstadt_98#18",
+     "role": "both",
+     "quote": "After the season , Markus Anfang took over as head coach"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Bundesliga seasons 2015–16 and 2016–17 (season marks)",
+  "Kreisliga Odenwald and Bezirksliga Main-Hessen spells, late 1920s and early 1930s",
+  "Relegated from Gauliga Hessen-Nassau after second season (no date)",
+  "Bundesliga seasons 1978–79 and 1981–82 (season marks)",
+  "2. Bundesliga runners-up 2014–15 (season result)",
+  "Finished 14th in 2015–16 season (season result)",
+  "Finished 10th in 2017/18 season (season result)",
+  "Finished 10th in 2018/19 season (season result)",
+  "Finished 5th in 2019/20 season (season result)",
+  "Norbert Meier appointed head coach for 2016–17 season (season mark)",
+  "Dirk Schuster announced move to FC Augsburg (no date)",
+  "Torsten Frings removed as head coach after poor 2017/18 start (no date)"
+ ]
+}
