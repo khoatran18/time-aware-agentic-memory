@@ -32,7 +32,22 @@
    "id": "e2"
   },
   {
-   "id": "e3",
+   "date": "1982-03-12",
+   "grain": "day",
+   "track": "other",
+   "label": "air crash",
+   "text": "Widerøe Twin Otter LN-BNK crashed into the sea near Mehamn, killing all fifteen on board",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gamvik#6",
+     "role": "both",
+     "quote": "On 12 March 1982 , a Widerøe Twin Otter , registration number LN-BNK , crashed into the sea near Mehamn , killing all fifteen on board"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
    "date": "1990-09-28",
    "grain": "day",
    "track": "other",
@@ -47,7 +62,7 @@
    ]
   },
   {
-   "id": "e4",
+   "id": "e5",
    "date": "2015",
    "grain": "year",
    "track": "role",
@@ -61,7 +76,7 @@
    ]
   },
   {
-   "id": "e5",
+   "id": "e6",
    "date": "2019",
    "grain": "year",
    "track": "role",
@@ -75,7 +90,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e7",
    "date": "2019",
    "grain": "year",
    "track": "role",
@@ -89,7 +104,7 @@
    ]
   },
   {
-   "id": "e7",
+   "id": "e8",
    "date": "2020-01-01",
    "grain": "day",
    "track": "location",

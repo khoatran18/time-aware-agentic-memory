@@ -153,7 +153,23 @@
    ]
   },
   {
-   "id": "e11",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "A1 Grand Prix",
+   "text": "Took part in a single round of the A1 Grand Prix for A1 Team Mexico (2006-07 season)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#16",
+     "role": "both",
+     "quote": "In the 2006–07 A1 Grand Prix season , Pérez took part in a single round of the championship for A1 Team Mexico"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e11"
+  },
+  {
+   "id": "e12",
    "date": "2007",
    "grain": "year",
    "track": "affiliation",
@@ -167,7 +183,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e13",
    "date": "2007",
    "grain": "year",
    "track": "other",
@@ -182,7 +198,7 @@
    ]
   },
   {
-   "id": "e13",
+   "id": "e14",
    "date": "2007",
    "grain": "year",
    "track": "location",
@@ -197,7 +213,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e15",
    "date": "2008",
    "grain": "year",
    "track": "affiliation",
@@ -211,7 +227,23 @@
    ]
   },
   {
-   "id": "e15",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "GP2 Asia",
+   "text": "Drove for Campos Grand Prix in the GP2 Asia Series (2008-09 season)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#19",
+     "role": "both",
+     "quote": "Pérez drove for the Campos Grand Prix team in the 2008–09 GP2 Asia Series"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e16"
+  },
+  {
+   "id": "e17",
    "date": "2009",
    "grain": "year",
    "track": "affiliation",
@@ -225,7 +257,7 @@
    ]
   },
   {
-   "id": "e16",
+   "id": "e18",
    "date": "2010",
    "grain": "year",
    "track": "affiliation",
@@ -239,7 +271,7 @@
    ]
   },
   {
-   "id": "e17",
+   "id": "e19",
    "date": "2010-10",
    "grain": "month",
    "track": "affiliation",
@@ -253,7 +285,7 @@
    ]
   },
   {
-   "id": "e18",
+   "id": "e20",
    "date": "2011",
    "grain": "year",
    "track": "affiliation",
@@ -267,7 +299,7 @@
    ]
   },
   {
-   "id": "e19",
+   "id": "e21",
    "date": "2011",
    "grain": "year",
    "track": "other",
@@ -283,7 +315,7 @@
    ]
   },
   {
-   "id": "e20",
+   "id": "e22",
    "date": "2012",
    "grain": "year",
    "track": "affiliation",
@@ -297,7 +329,7 @@
    ]
   },
   {
-   "id": "e21",
+   "id": "e23",
    "date": "2012",
    "grain": "year",
    "track": "other",
@@ -317,7 +349,7 @@
    ]
   },
   {
-   "id": "e22",
+   "id": "e24",
    "date": "2012-09-13",
    "grain": "day",
    "track": "other",
@@ -350,10 +382,10 @@
      "quote": "Pérez was subsequently confirmed as Hamiltons replacement"
     }
    ],
-   "id": "e23"
+   "id": "e25"
   },
   {
-   "id": "e24",
+   "id": "e26",
    "date": "2012-11",
    "grain": "month",
    "track": "work",
@@ -367,7 +399,7 @@
    ]
   },
   {
-   "id": "e25",
+   "id": "e27",
    "date": "2013",
    "grain": "year",
    "track": "affiliation",
@@ -381,7 +413,7 @@
    ]
   },
   {
-   "id": "e26",
+   "id": "e28",
    "date": "2013",
    "grain": "year",
    "track": "other",
@@ -401,7 +433,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e29",
    "date": "2013-11-13",
    "grain": "day",
    "track": "affiliation",
@@ -415,7 +447,7 @@
    ]
   },
   {
-   "id": "e28",
+   "id": "e30",
    "date": "2014",
    "grain": "year",
    "track": "affiliation",
@@ -429,7 +461,7 @@
    ]
   },
   {
-   "id": "e29",
+   "id": "e31",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -450,7 +482,7 @@
    ]
   },
   {
-   "id": "e30",
+   "id": "e32",
    "date": "2014",
    "grain": "year",
    "track": "other",
@@ -471,7 +503,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e33",
    "date": "2014-11-07",
    "grain": "day",
    "track": "affiliation",
@@ -485,7 +517,22 @@
    ]
   },
   {
-   "id": "e32",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Podium in Russia, Force India's third ever",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#47",
+     "role": "both",
+     "quote": "His best race of the season was in Russia , where he scored his first podium of 2015 and Force Indias third ever"
+    }
+   ],
+   "id": "e34"
+  },
+  {
+   "id": "e35",
    "date": "2016",
    "grain": "year",
    "track": "affiliation",
@@ -499,7 +546,91 @@
    ]
   },
   {
-   "id": "e33",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Sixth career podium at Monaco, Force India's fourth, in wet and changing conditions",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#50",
+     "role": "description",
+     "quote": "In Monaco , Pérez scored his sixth ( and Force Indias fourth ) podium finish in wet and changing conditions"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#49",
+     "role": "date",
+     "quote": "2016 . Pérez experienced a difficult start to the season"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e36"
+  },
+  {
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Eighth career podium, third at the Azerbaijan Grand Prix",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#55",
+     "role": "description",
+     "quote": "He then achieved his eighth career podium finish at the Azerbaijan Grand Prix , finishing 3rd after an incident-strewn race"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#55",
+     "role": "date",
+     "quote": "making him the first driver to finish on the podium twice at the Baku City Circuit ( in 2016 and 2018 )"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e37"
+  },
+  {
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "administration",
+   "text": "Force India put into administration after the Hungarian Grand Prix following legal action by creditors including Pérez",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#57",
+     "role": "description",
+     "quote": "After the Hungarian Grand Prix , Force India was put into administration"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#2",
+     "role": "date",
+     "quote": "He remained with Force India when the team went into administration in 2018"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e38"
+  },
+  {
+   "date": "2018",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "administration",
+   "text": "Force India's assets purchased by a consortium led by Lawrence Stroll; team re-admitted to the championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#57",
+     "role": "description",
+     "quote": "Force Indias assets were purchased by a consortium of investors led by Lawrence Stroll"
+    },
+    {
+     "chunk_id": "/wiki/Sergio_Pérez#2",
+     "role": "date",
+     "quote": "He remained with Force India when the team went into administration in 2018"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e39"
+  },
+  {
+   "id": "e40",
    "date": "2019",
    "grain": "year",
    "track": "affiliation",
@@ -513,7 +644,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e41",
    "date": "2020",
    "grain": "year",
    "track": "other",
@@ -533,7 +664,7 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e42",
    "date": "2020-09",
    "grain": "month",
    "track": "affiliation",
@@ -547,7 +678,7 @@
    ]
   },
   {
-   "id": "e36",
+   "id": "e43",
    "date": "2021",
    "grain": "year",
    "track": "affiliation",
@@ -561,7 +692,7 @@
    ]
   },
   {
-   "id": "e37",
+   "id": "e44",
    "date": "2021",
    "grain": "year",
    "track": "other",

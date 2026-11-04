@@ -29,3 +29,11 @@
 - Chemnitz: ghi kết nghĩa thành phố, nhiệm kỳ thị trưởng, bầu cử thị trưởng/hội đồng; không ghi dân số, Auto Union 1932.
 - Darmstadt: ghi từng chức vô địch giải khu vực và Hessen Cup; không ghi thống kê mùa (undated_mentions).
 - Manto: các tuyển tập năm 1955 giữ nguyên, nhưng nguồn chỉ nêu năm nên có thể xuất bản sau khi ông mất (1955-01-18); xem CLOUD_STATE.md.
+
+## Session chính đọc kiểm và vá thêm (`tools/fix_V56.py`, chạy sau `patch_bV6.py`)
+Sau khi đọc kỹ các trang dài và chạy `gap.py`, mình thêm 16 mốc và bỏ 7 mốc Manto; V6 từ 312 lên 321. `DIR=rev check.py` = 0 lỗi.
+- Sergio_P_rez (+7): A1GP 2006-07 và GP2 Asia 2008-09 (cờ `approximate_date`); bục nhận giải Nga 2015, Monaco 2016, Azerbaijan 2018 (cờ `derived_date`); Force India bị quản lý và bị mua lại 2018.
+- LB_amp_SCR_E4_class (+8): Hellingly bị hư hại 1942 và phế 1944-07, No. 2510 thử ở Isle of Wight 1947, đầu máy bảo tồn No. 32473 (rút 1971, chạy lại 1997, sơn lại 2005, rút 2008-05, xong đại tu 2010-01).
+- Gleaston_Castle (+1): 1291 manor Aldingham thuộc dòng Harrington.
+- Saadat_Hasan_Manto (−7): bỏ các tuyển tập và truyện ghi năm 1955 (ông mất 1955-01-18; có thể là di cảo, quy ước 12); chuyển vào `undated_mentions`. Đây là lựa chọn của mình, chờ người dùng xác nhận.
+- Chemnitz, Fergie, Darmstadt, Külz, Escadron, La Japonaise: đọc `gap.py` và danh sách mốc, không thấy mốc sót đáng kể (các câu còn lại là thống kê, kết quả mùa, mốc của tổ chức khác).

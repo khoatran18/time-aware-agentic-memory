@@ -2,7 +2,22 @@
  "page_id": "/wiki/Gleaston_Castle",
  "events": [
   {
-   "id": "e1",
+   "date": "1291",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "Aldingham manor",
+   "text": "Aldingham manor (Muchland) came into the ownership of the Harrington family",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Gleaston_Castle#3",
+     "role": "both",
+     "quote": "in 1291 it came into the ownership of the Harrington family"
+    }
+   ],
+   "id": "e1"
+  },
+  {
+   "id": "e2",
    "date": "1389",
    "grain": "year",
    "track": "other",
@@ -17,7 +32,7 @@
    ]
   },
   {
-   "id": "e2",
+   "id": "e3",
    "date": "1415",
    "grain": "year",
    "track": "other",
@@ -32,7 +47,7 @@
    ]
   },
   {
-   "id": "e3",
+   "id": "e4",
    "date": "1458",
    "grain": "year",
    "track": "ownership_structure",
@@ -51,7 +66,7 @@
    ]
   },
   {
-   "id": "e4",
+   "id": "e5",
    "date": "1458",
    "grain": "year",
    "track": "other",
@@ -72,7 +87,7 @@
    "flag": "derived_date"
   },
   {
-   "id": "e5",
+   "id": "e6",
    "date": "1460",
    "grain": "year",
    "track": "ownership_structure",
@@ -86,7 +101,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e7",
    "date": "1540",
    "grain": "year",
    "track": "other",
@@ -101,7 +116,7 @@
    ]
   },
   {
-   "id": "e7",
+   "id": "e8",
    "date": "1554",
    "grain": "year",
    "track": "ownership_structure",
@@ -120,7 +135,7 @@
    ]
   },
   {
-   "id": "e8",
+   "id": "e9",
    "date": "1671",
    "grain": "year",
    "track": "ownership_structure",
@@ -134,7 +149,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e10",
    "date": "1922",
    "grain": "year",
    "track": "ownership_structure",
@@ -148,7 +163,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e11",
    "date": "1998",
    "grain": "year",
    "track": "other",
@@ -163,7 +178,7 @@
    ]
   },
   {
-   "id": "e11",
+   "id": "e12",
    "date": "2015",
    "grain": "year",
    "track": "other",
@@ -178,7 +193,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e13",
    "date": "2016",
    "grain": "year",
    "track": "other",

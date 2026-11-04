@@ -116,7 +116,52 @@
    ]
   },
   {
-   "id": "e9",
+   "date": "1942",
+   "grain": "year",
+   "track": "other",
+   "label": "air raid",
+   "text": "No. 2483 Hellingly severely damaged by enemy action at Eastbourne motive power depot during the Baedeker Blitz",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "No . 2483 Hellingly , was severely damaged as a result of enemy action against Eastbourne motive power depot in 1942"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "date": "1944-07",
+   "grain": "month",
+   "track": "other",
+   "label": "scrapped",
+   "text": "Hellingly scrapped",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "Hellingly was scrapped in July 1944"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1947",
+   "grain": "year",
+   "track": "work",
+   "label": "trial",
+   "text": "No. 2510 tested unsuccessfully on the Isle of Wight railways",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#4",
+     "role": "both",
+     "quote": "No . 2510 , was tested on the railways of the Isle of Wright in 1947"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
    "date": "1948",
    "grain": "year",
    "track": "ownership_structure",
@@ -130,7 +175,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e13",
    "date": "1955",
    "grain": "year",
    "track": "other",
@@ -145,7 +190,7 @@
    ]
   },
   {
-   "id": "e11",
+   "id": "e14",
    "date": "1958",
    "grain": "year",
    "track": "other",
@@ -160,7 +205,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e15",
    "date": "1964",
    "grain": "year",
    "track": "other",
@@ -173,6 +218,81 @@
      "quote": "Most of the class were withdrawn between 1958 and 1964"
     }
    ]
+  },
+  {
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "preserved No. 32473",
+   "text": "Preserved No. 32473 withdrawn from traffic and dismantled",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#10",
+     "role": "both",
+     "quote": "The engine was withdrawn from traffic in 1971 and dismantled"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "date": "1997",
+   "grain": "year",
+   "track": "other",
+   "label": "preserved No. 32473",
+   "text": "Preserved No. 32473 returned to traffic after a long overhaul",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#10",
+     "role": "both",
+     "quote": "following a long overhaul , she returned to traffic in 1997"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "preserved No. 32473",
+   "text": "Preserved No. 32473 repainted into British Railways lined black mixed traffic livery",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#11",
+     "role": "both",
+     "quote": "In 2005 she was repainted into British Railways lined black mixed traffic livery"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "2008-05",
+   "grain": "month",
+   "track": "other",
+   "label": "preserved No. 32473",
+   "text": "Preserved No. 32473 withdrawn from service and taken into the Bluebell workshops for overhaul",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#11",
+     "role": "both",
+     "quote": "Following withdrawal from service in May 2008"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "date": "2010-01",
+   "grain": "month",
+   "track": "other",
+   "label": "preserved No. 32473",
+   "text": "Overhaul and repaint into 1920s Southern Railway green completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/LB&amp;SCR_E4_class#11",
+     "role": "both",
+     "quote": "This was completed during January 2010"
+    }
+   ],
+   "id": "e20"
   }
  ],
  "undated_mentions": [

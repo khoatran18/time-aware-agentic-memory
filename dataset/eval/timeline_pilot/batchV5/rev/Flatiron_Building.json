@@ -16,6 +16,21 @@
    ]
   },
   {
+   "date": "1892",
+   "grain": "year",
+   "track": "other",
+   "label": "building code",
+   "text": "New York City building code change eliminated the masonry fireproofing requirement, making steel-skeleton construction feasible",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#52",
+     "role": "both",
+     "quote": "a change to New York Citys building codes in 1892"
+    }
+   ],
+   "id": "e2"
+  },
+  {
    "date": "1899",
    "grain": "year",
    "track": "ownership_structure",
@@ -28,10 +43,10 @@
      "quote": "after his death in 1899 his assets were liquidated , and the lot went up for sale"
     }
    ],
-   "id": "e2"
+   "id": "e3"
   },
   {
-   "id": "e3",
+   "id": "e4",
    "date": "1902-02",
    "grain": "month",
    "track": "work",
@@ -45,7 +60,7 @@
    ]
   },
   {
-   "id": "e4",
+   "id": "e5",
    "date": "1902-05",
    "grain": "month",
    "track": "work",
@@ -65,7 +80,7 @@
    "flag": "derived_date"
   },
   {
-   "id": "e5",
+   "id": "e6",
    "date": "1902-06",
    "grain": "month",
    "track": "work",
@@ -84,7 +99,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e7",
    "date": "1905",
    "grain": "year",
    "track": "work",
@@ -98,7 +113,7 @@
    ]
   },
   {
-   "id": "e7",
+   "id": "e8",
    "date": "1911",
    "grain": "year",
    "track": "other",
@@ -113,7 +128,22 @@
    ]
   },
   {
-   "id": "e8",
+   "date": "1911",
+   "grain": "year",
+   "track": "other",
+   "label": "restaurant",
+   "text": "Flatiron Restaurant bought by Louis Bustanoby and converted into the 400-seat French restaurant Taverne Louis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#32",
+     "role": "both",
+     "quote": "in 1911 the Flatiron Restaurant was bought by Louis Bustanoby"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
    "date": "1925-10",
    "grain": "month",
    "track": "ownership_structure",
@@ -127,7 +157,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e11",
    "date": "1933",
    "grain": "year",
    "track": "ownership_structure",
@@ -141,7 +171,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e12",
    "date": "1946",
    "grain": "year",
    "track": "ownership_structure",
@@ -155,7 +185,22 @@
    ]
   },
   {
-   "id": "e11",
+   "date": "1959",
+   "grain": "year",
+   "track": "other",
+   "label": "tenant",
+   "text": "St. Martin's Press moved into the building",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#39",
+     "role": "both",
+     "quote": "In 1959 , St . Martins Press moved into the building"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "id": "e14",
    "date": "1966",
    "grain": "year",
    "track": "other",
@@ -170,7 +215,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e15",
    "date": "1979",
    "grain": "year",
    "track": "other",
@@ -185,7 +230,7 @@
    ]
   },
   {
-   "id": "e13",
+   "id": "e16",
    "date": "1989",
    "grain": "year",
    "track": "other",
@@ -205,7 +250,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e17",
    "date": "1991",
    "grain": "year",
    "track": "work",
@@ -219,7 +264,7 @@
    ]
   },
   {
-   "id": "e15",
+   "id": "e18",
    "date": "1997",
    "grain": "year",
    "track": "ownership_structure",
@@ -233,7 +278,7 @@
    ]
   },
   {
-   "id": "e16",
+   "id": "e19",
    "date": "1997",
    "grain": "year",
    "track": "ownership_structure",
@@ -247,7 +292,7 @@
    ]
   },
   {
-   "id": "e17",
+   "id": "e20",
    "date": "1997",
    "grain": "year",
    "track": "ownership_structure",
@@ -267,7 +312,22 @@
    "flag": "derived_date"
   },
   {
-   "id": "e18",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "tenant",
+   "text": "Macmillan rented all 21 floors of the building's office space",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#39",
+     "role": "both",
+     "quote": "until by 2004 , all 21 floors of the Flatiron Buildings office space was rented by Macmillan"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "id": "e22",
    "date": "2005",
    "grain": "year",
    "track": "work",
@@ -281,7 +341,7 @@
    ]
   },
   {
-   "id": "e19",
+   "id": "e23",
    "date": "2005",
    "grain": "year",
    "track": "other",
@@ -296,7 +356,7 @@
    ]
   },
   {
-   "id": "e20",
+   "id": "e24",
    "date": "2009-01",
    "grain": "month",
    "track": "ownership_structure",
@@ -308,6 +368,36 @@
      "quote": "In January 2009 , Italian real estate investment firm Sorgente Group , based in Rome , bought a majority stake"
     }
    ]
+  },
+  {
+   "date": "2017-07",
+   "grain": "month",
+   "track": "other",
+   "label": "tenant",
+   "text": "Macmillan announced it would consolidate all its New York offices in the Equitable Building at 120 Broadway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#46",
+     "role": "both",
+     "quote": "In July 2017 , Macmillan announced that it was consolidating all of its New York offices to the Equitable Building at 120 Broadway"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "date": "2019-06",
+   "grain": "month",
+   "track": "other",
+   "label": "tenant",
+   "text": "Macmillan had left the building; all 21 office floors vacant",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Flatiron_Building#46",
+     "role": "both",
+     "quote": "By June 2019 , Macmillan had left the building , and all 21 office floors were vacant"
+    }
+   ],
+   "id": "e26"
   }
  ],
  "undated_mentions": [

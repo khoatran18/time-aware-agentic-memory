@@ -2,7 +2,22 @@
  "page_id": "/wiki/SECR_N_class",
  "events": [
   {
-   "id": "e1",
+   "date": "1913",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "Richard Maunsell appointed Chief Mechanical Engineer of the SECR",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#6",
+     "role": "both",
+     "quote": "Richard Maunsell was appointed CME of the SECR in 1913"
+    }
+   ],
+   "id": "e1"
+  },
+  {
+   "id": "e2",
    "date": "1914",
    "grain": "year",
    "track": "work",
@@ -21,7 +36,7 @@
    ]
   },
   {
-   "id": "e2",
+   "id": "e3",
    "date": "1917-07",
    "grain": "month",
    "track": "work",
@@ -45,7 +60,7 @@
    ]
   },
   {
-   "id": "e3",
+   "id": "e4",
    "date": "1917-08",
    "grain": "month",
    "track": "work",
@@ -64,7 +79,7 @@
    ]
   },
   {
-   "id": "e4",
+   "id": "e5",
    "date": "1919",
    "grain": "year",
    "track": "work",
@@ -78,7 +93,7 @@
    ]
   },
   {
-   "id": "e5",
+   "id": "e6",
    "date": "1920",
    "grain": "year",
    "track": "work",
@@ -92,7 +107,7 @@
    ]
   },
   {
-   "id": "e6",
+   "id": "e7",
    "date": "1920-06",
    "grain": "month",
    "track": "work",
@@ -106,7 +121,7 @@
    ]
   },
   {
-   "id": "e7",
+   "id": "e8",
    "date": "1923",
    "grain": "year",
    "track": "ownership_structure",
@@ -125,7 +140,7 @@
    ]
   },
   {
-   "id": "e8",
+   "id": "e9",
    "date": "1923",
    "grain": "year",
    "track": "other",
@@ -140,7 +155,7 @@
    ]
   },
   {
-   "id": "e9",
+   "id": "e10",
    "date": "1924",
    "grain": "year",
    "track": "work",
@@ -154,7 +169,7 @@
    ]
   },
   {
-   "id": "e10",
+   "id": "e11",
    "date": "1924",
    "grain": "year",
    "track": "other",
@@ -170,7 +185,22 @@
    ]
   },
   {
-   "id": "e11",
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "label": "experiment",
+   "text": "Worthington feed pump fitted to No. A819 as the class's first experiment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#43",
+     "role": "both",
+     "quote": "The first experiment entailed fitting a Worthington feed pump to No . A819 in 1924"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "id": "e13",
    "date": "1924-06",
    "grain": "month",
    "track": "work",
@@ -184,7 +214,7 @@
    ]
   },
   {
-   "id": "e12",
+   "id": "e14",
    "date": "1925",
    "grain": "year",
    "track": "other",
@@ -199,7 +229,22 @@
    ]
   },
   {
-   "id": "e13",
+   "date": "1925-05",
+   "grain": "month",
+   "track": "other",
+   "label": "exhibition",
+   "text": "No. A866 put on display at the British Empire Exhibition at Wembley",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#37",
+     "role": "both",
+     "quote": "A866 was put on display at the British Empire Exhibition at Wembley from May to November 1925"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "id": "e16",
    "date": "1927-04",
    "grain": "month",
    "track": "other",
@@ -215,7 +260,7 @@
    ]
   },
   {
-   "id": "e14",
+   "id": "e17",
    "date": "1928",
    "grain": "year",
    "track": "naming",
@@ -229,7 +274,37 @@
    ]
   },
   {
-   "id": "e15",
+   "date": "1930-06",
+   "grain": "month",
+   "track": "work",
+   "label": "experiment",
+   "text": "No. A816 withdrawn from service for experimental Anderson steam conservation equipment at Eastleigh Works",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#43",
+     "role": "both",
+     "quote": "In June 1930 , No . A816 was withdrawn from service for the application of experimental Anderson steam conservation equipment at Eastleigh Works"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "1931-08",
+   "grain": "month",
+   "track": "work",
+   "label": "experiment",
+   "text": "No. A816 emerged from Eastleigh for trials of the Anderson equipment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#45",
+     "role": "both",
+     "quote": "No . A816 emerged from Eastleigh in August 1931 for trials"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "id": "e20",
    "date": "1932",
    "grain": "year",
    "track": "work",
@@ -248,7 +323,37 @@
    ]
   },
   {
-   "id": "e16",
+   "date": "1932",
+   "grain": "year",
+   "track": "work",
+   "label": "W class",
+   "text": "Prototype W class produced from N class parts",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#23",
+     "role": "both",
+     "quote": "The prototype W class was produced in 1932 from N class parts"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "date": "1933-10",
+   "grain": "month",
+   "track": "work",
+   "label": "experiment",
+   "text": "No. 1850 had its Walschaerts valve gear replaced with Marshall valve gear at Eastleigh Works",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#47",
+     "role": "both",
+     "quote": "The final experiment with performance enhancement began in October 1933"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "id": "e23",
    "date": "1934",
    "grain": "year",
    "track": "other",
@@ -263,7 +368,67 @@
    ]
   },
   {
-   "id": "e17",
+   "date": "1934-04",
+   "grain": "month",
+   "track": "work",
+   "label": "experiment",
+   "text": "No. 1850 re-entered traffic with its Walschaerts valve gear re-fitted",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#48",
+     "role": "both",
+     "quote": "No . 1850 re-entered traffic in April 1934"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "date": "1935-05",
+   "grain": "month",
+   "track": "work",
+   "label": "experiment",
+   "text": "No. A816 converted back to standard form (work from May to August 1935)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#45",
+     "role": "both",
+     "quote": "converted back to standard form between May and August 1935"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "date": "1939",
+   "grain": "year",
+   "track": "other",
+   "label": "livery",
+   "text": "Nos. 1413 and 1850 painted in unlined olive green because of labour shortages",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#53",
+     "role": "both",
+     "quote": "In 1939 , shortly after the start of the Second World War , locomotives Nos . 1413 and 1850 were painted in unlined olive green because of labour shortages"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "date": "1941",
+   "grain": "year",
+   "track": "other",
+   "label": "livery",
+   "text": "Nos. 1821, 1825, 1847, 1878 and 1403 run in unlined olive green with Bulleid's gilt block lettering",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#53",
+     "role": "both",
+     "quote": "In 1941 , Nos . 1821 , 1825 , 1847 , 1878 and 1403 were run in unlined olive green with Bulleids gilt block lettering"
+    }
+   ],
+   "id": "e27"
+  },
+  {
+   "id": "e28",
    "date": "1945",
    "grain": "year",
    "track": "other",
@@ -279,7 +444,37 @@
    ]
   },
   {
-   "id": "e18",
+   "date": "1946",
+   "grain": "year",
+   "track": "other",
+   "label": "livery",
+   "text": "Two locomotives (Nos. 1817 and 1854) repainted in Bulleid's malachite green livery",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#54",
+     "role": "both",
+     "quote": "In 1946 , two locomotives , Nos . 1817 and 1854 , were repainted in Bulleids malachite green livery"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "date": "1947",
+   "grain": "year",
+   "track": "work",
+   "label": "fuel trial",
+   "text": "No. 1831 given electric lighting and converted to oil-burning for fuel trials",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#39",
+     "role": "both",
+     "quote": "In 1947 , No . 1831 was given electric lighting and converted to oil-burning"
+    }
+   ],
+   "id": "e30"
+  },
+  {
+   "id": "e31",
    "date": "1948",
    "grain": "year",
    "track": "ownership_structure",
@@ -298,7 +493,22 @@
    ]
   },
   {
-   "id": "e19",
+   "date": "1948-12",
+   "grain": "month",
+   "track": "work",
+   "label": "fuel trial",
+   "text": "No. 1831 reverted to coal-firing",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#40",
+     "role": "both",
+     "quote": "reverted to coal-firing in December 1948"
+    }
+   ],
+   "id": "e32"
+  },
+  {
+   "id": "e33",
    "date": "1949",
    "grain": "year",
    "track": "other",
@@ -313,7 +523,7 @@
    ]
   },
   {
-   "id": "e20",
+   "id": "e34",
    "date": "1949",
    "grain": "year",
    "track": "other",
@@ -328,7 +538,7 @@
    ]
   },
   {
-   "id": "e21",
+   "id": "e35",
    "date": "1953",
    "grain": "year",
    "track": "other",
@@ -343,7 +553,7 @@
    ]
   },
   {
-   "id": "e22",
+   "id": "e36",
    "date": "1957",
    "grain": "year",
    "track": "other",
@@ -358,7 +568,7 @@
    ]
   },
   {
-   "id": "e23",
+   "id": "e37",
    "date": "1957",
    "grain": "year",
    "track": "other",
@@ -373,7 +583,22 @@
    ]
   },
   {
-   "id": "e24",
+   "date": "1958-04-04",
+   "grain": "day",
+   "track": "other",
+   "label": "accident",
+   "text": "No. 31867 hauling a parcels train overran signals and collided with an electric multiple unit at Gloucester Road Junction, Croydon; nine injured",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#51",
+     "role": "both",
+     "quote": "On 4 April 1958 , locomotive No . 31867 was hauling a parcels train that overran signals and collided with an electric multiple unit at Gloucester Road Junction"
+    }
+   ],
+   "id": "e38"
+  },
+  {
+   "id": "e39",
    "date": "1959",
    "grain": "year",
    "track": "other",
@@ -388,7 +613,7 @@
    ]
   },
   {
-   "id": "e25",
+   "id": "e40",
    "date": "1962-11",
    "grain": "month",
    "track": "other",
@@ -403,7 +628,7 @@
    ]
   },
   {
-   "id": "e26",
+   "id": "e41",
    "date": "1964",
    "grain": "year",
    "track": "other",
@@ -418,7 +643,7 @@
    ]
   },
   {
-   "id": "e27",
+   "id": "e42",
    "date": "1966-06",
    "grain": "month",
    "track": "other",
@@ -438,7 +663,7 @@
    ]
   },
   {
-   "id": "e28",
+   "id": "e43",
    "date": "1974-03",
    "grain": "month",
    "track": "other",
@@ -465,7 +690,67 @@
      "quote": "it was steamed for the first time in preservation in 1977"
     }
    ],
-   "id": "e29"
+   "id": "e44"
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "preserved No. 1874",
+   "text": "Preserved No. 1874 withdrawn because of firebox reconstruction needs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#62",
+     "role": "both",
+     "quote": "The locomotive was withdrawn in 1998 due to problems that require firebox reconstruction"
+    }
+   ],
+   "id": "e45"
+  },
+  {
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "preserved No. 1874",
+   "text": "Preserved No. 1874 repainted into SR Wartime Black",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#62",
+     "role": "both",
+     "quote": "In 2012 , the locomotive was repainted into its SR Wartime Black guise of 1874"
+    }
+   ],
+   "id": "e46"
+  },
+  {
+   "date": "2014",
+   "grain": "year",
+   "track": "location",
+   "label": "preserved No. 1874",
+   "text": "Preserved locomotive moved from the Mid-Hants Railway to the Swanage Railway",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#62",
+     "role": "both",
+     "quote": "The locomotive was moved from the Mid-Hants Railway to the Swanage Railway in 2014"
+    }
+   ],
+   "id": "e47"
+  },
+  {
+   "date": "2014-08",
+   "grain": "month",
+   "track": "work",
+   "label": "preserved No. 1874",
+   "text": "Overhaul to return No. 31874 to operational condition began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/SECR_N_class#62",
+     "role": "both",
+     "quote": "In August 2014 , the overhaul to return 31874 to operational condition began"
+    }
+   ],
+   "id": "e48"
   }
  ],
  "undated_mentions": [
