@@ -671,9 +671,9 @@ Gộp 10 trang: A 318/333 (95,5%), B 317/333 (95,2%). Hai nhánh hòa lần nữ
 | Mẫu 50 mốc ngẫu nhiên (các nhóm khớp vàng/ngày/null) | 50 | 0 lỗi rõ ràng; 3 mốc yếu (trạng thái "đang là", không phải sự kiện); 7 mốc kiểm lại với văn bản đều đúng |
 | 66 mốc không có trong vàng | 66 | 34 đúng và trong phạm vi (sự thật có thật nhưng vàng không ghi: kết quả giải cờ, mốc xếp hạng, phiếu bầu, danh hiệu, ...); 12 sai; 13 đúng nhưng ngoài phạm vi chủ thể (sinh/mất của người khác ở trang địa danh, phim/nhãn hàng nhắc tới sản phẩm, kế hoạch của hải quân Canada); 6 đáng ngờ (trạng thái "là một trong..." lặp, kỷ lục khí hậu, 1 mốc xấp xỉ) |
 
-12 mốc sai gồm: **9 mốc đổi thập niên thành năm** (Rainier và Orchard Supply: "the 1960s" → 1960 và "the 1970s" → 1970, "late 1970s and early 1980s" → 1970 và 1980, "dating back to the 1900s" → 1900, "since the 1950s" → 1950, "early 1960s" → 1960, "In the 1980s" → 1980), **1 mốc lấy năm của tên riêng** (Orchard: "2017 Calendar" thành sự kiện năm 2017), **1 mốc lấy năm của một ấn phẩm làm năm sự kiện** (Mannheim: "star chart of 1782" thành "các sao đôi được quan sát năm 1782"), **1 mốc bịa** (Higgins 2008: "garnered more than 70% of the vote", chunk không có 70%).
+11 mốc sai gồm (đã sửa 2026-11-05: trước đây ghi 12 vì một mốc bị xếp nhầm là bịa, xem đính chính bên dưới): **9 mốc đổi thập niên thành năm** (Rainier và Orchard Supply: "the 1960s" → 1960 và "the 1970s" → 1970, "late 1970s and early 1980s" → 1970 và 1980, "dating back to the 1900s" → 1900, "since the 1950s" → 1950, "early 1960s" → 1960, "In the 1980s" → 1980), **1 mốc lấy năm của tên riêng** (Orchard: "2017 Calendar" thành sự kiện năm 2017), **1 mốc lấy năm của một ấn phẩm làm năm sự kiện** (Mannheim: "star chart of 1782" thành "các sao đôi được quan sát năm 1782"), **Đính chính 2026-11-05:** mốc Higgins 2008 "garnered more than 70% of the vote" mà bản này ghi là bịa **thực ra đúng**: chunk ghi nguyên văn "In 2006 and 2008, Higgins garnered more than 70% of the vote" (kiểm lần trước dùng biểu thức chính quy đệm 60 ký tự phía sau nên trượt khi cụm nằm sát cuối chunk). Danh sách lỗi vì vậy còn 11 mốc, không có mốc bịa fact nào được xác nhận.
 
-**Kết luận về chất lượng (ước lượng, không phải số đo chính xác):** khoảng 12 mốc sai rõ ràng trên 488 (2,5%) ở nhóm đã đọc hết, cộng không có lỗi nào trong mẫu 50 ở phần còn lại; cận trên của tỉ lệ lỗi ở phần còn lại khoảng 6% (3/50), nên tổng độ đúng khoảng 92% đến 97%. Lỗi hệ thống nhất là **đổi thập niên ("the 1970s") thành năm cụ thể** (9 trên 12 lỗi), sửa được bằng prompt ("giữ nguyên độ chính xác: thập niên thì ghi `1970s`, hoặc không ghi") và một kiểm bằng mã (ngày có đúng mẫu `YYYY`/`YYYY-MM`/`YYYY-MM-DD` và có xuất hiện nguyên văn trong chunk không). Khoảng 4% mốc đúng nhưng ngoài phạm vi chủ thể (sinh/mất của người khác, hậu quả văn hóa), nên cần quy ước phạm vi (kiểu GUIDE_v7) trong prompt hoặc lọc ở khâu sau. Chưa kiểm: nhánh B, các mốc khớp vàng ngoài mẫu 50, và tính đúng nghĩa (so nội dung với vàng) của các mốc trong mục "khớp".
+**Kết luận về chất lượng (ước lượng, không phải số đo chính xác):** khoảng 11 mốc sai rõ ràng trên 488 (2,3%; đã sửa từ 12, xem đính chính ở trên) ở nhóm đã đọc hết, cộng không có lỗi nào trong mẫu 50 ở phần còn lại; cận trên của tỉ lệ lỗi ở phần còn lại khoảng 6% (3/50), nên tổng độ đúng khoảng 92% đến 97%. Lỗi hệ thống nhất là **đổi thập niên ("the 1970s") thành năm cụ thể** (9 trên 12 lỗi), sửa được bằng prompt ("giữ nguyên độ chính xác: thập niên thì ghi `1970s`, hoặc không ghi") và một kiểm bằng mã (ngày có đúng mẫu `YYYY`/`YYYY-MM`/`YYYY-MM-DD` và có xuất hiện nguyên văn trong chunk không). Khoảng 4% mốc đúng nhưng ngoài phạm vi chủ thể (sinh/mất của người khác, hậu quả văn hóa), nên cần quy ước phạm vi (kiểu GUIDE_v7) trong prompt hoặc lọc ở khâu sau. Chưa kiểm: nhánh B, các mốc khớp vàng ngoài mẫu 50, và tính đúng nghĩa (so nội dung với vàng) của các mốc trong mục "khớp".
 
 **Bản 2 của prompt trích sự kiện, có `end` (2026-11-05; `outline_trial/pass3_v2.py`, `out_p3_v2/`).** Quyết định của người dùng: ingest ghi cả `end`; timeline vàng không dùng `end` thì kệ (chỉ cần chuỗi các mốc bắt đầu). Prompt mới (không dàn ý, `google_31`, 10 trang cũ, mỗi trang một lần): `date` (bắt đầu hoặc xảy ra), `approximate`, `period` (cụm thập niên/thế kỷ chép nguyên văn, khi đó `date` trống), `end` chỉ khi văn bản nói việc đã dừng (sự kiện tức thời thì `end` = `date`), `end_status` ∈ {known, ongoing, unknown} và `ongoing_evidence` chép nguyên văn. Kiểm bằng mã: đúng mẫu `YYYY[-MM[-DD]]`; năm phải xuất hiện như một số đứng riêng trong trang (không tính "1960s"); năm không nằm trong chính chunk thì đánh `derived_date`; `end` sai thì xóa; `ongoing` phải có câu bằng chứng nằm trong trang. Thêm quy ước phạm vi: bỏ tiểu sử người khác, phim/quảng cáo, năm trong tên riêng.
 
@@ -687,7 +687,7 @@ Gộp 10 trang: A 318/333 (95,5%), B 317/333 (95,2%). Hai nhánh hòa lần nữ
 | Mốc sai đổi thập niên thành năm | 9 | 0 (8 mốc `date` trống kèm `period`; 6 mốc bị mã loại `year_not_in_page`) |
 | Mốc có `date` trống | 5 | 27 |
 
-Giải thích sụt recall: (a) có `end` thì mô hình gộp "bắt đầu" và "kết thúc" thành một trạng thái, ngày kết thúc nằm ở `end` chứ không còn là mốc riêng ("The subsidiary was known as SAS International Hotels" `date` trống, `end` 2001; vàng có mốc đổi tên 2001) nên phải đếm `end` mới công bằng; (b) 25 trong 41 mốc vàng mất so với bản 1 là mô hình bỏ sót trong chunk dày, 9 là chunk không có mốc nào; (c) mỗi bản chạy một lần, chưa tách được ảnh hưởng của prompt khỏi dao động giữa các lần chạy. Phạm vi vẫn còn lọt: các mốc sinh/mất của người khác ở Karlsøy (Marthinsen, Eriksen, Kristoffersen), "Mudhoney photographed with Rainier cans" và "black bear" vẫn xuất hiện; phim (Stand By Me, Twilight, Longmire) và "2017 Calendar" thì đã mất. Mốc bịa "Higgins garnered more than 70% of the vote" vẫn còn (cả 2006 và 2008) và "star chart of 1782" vẫn bị gán thành năm sự kiện.
+Giải thích sụt recall: (a) có `end` thì mô hình gộp "bắt đầu" và "kết thúc" thành một trạng thái, ngày kết thúc nằm ở `end` chứ không còn là mốc riêng ("The subsidiary was known as SAS International Hotels" `date` trống, `end` 2001; vàng có mốc đổi tên 2001) nên phải đếm `end` mới công bằng; (b) 25 trong 41 mốc vàng mất so với bản 1 là mô hình bỏ sót trong chunk dày, 9 là chunk không có mốc nào; (c) mỗi bản chạy một lần, chưa tách được ảnh hưởng của prompt khỏi dao động giữa các lần chạy. Phạm vi vẫn còn lọt: các mốc sinh/mất của người khác ở Karlsøy (Marthinsen, Eriksen, Kristoffersen), "Mudhoney photographed with Rainier cans" và "black bear" vẫn xuất hiện; phim (Stand By Me, Twilight, Longmire) và "2017 Calendar" thì đã mất. Mốc "Higgins garnered more than 70% of the vote" vẫn còn (cả 2006 và 2008; thực ra đúng theo văn bản, xem đính chính) và "star chart of 1782" vẫn bị gán thành năm sự kiện.
 
 **Chất lượng `end` (đọc tay):** 346 mốc tức thời (end = date), 35 mốc giai đoạn có `end` khác `date`, 56 mốc `end` trống. `end_status`: known 378, unknown 50, ongoing 9, 1 bị hạ ongoing vì bằng chứng không đạt. Mẫu ngẫu nhiên 24 mốc giai đoạn: 21 đúng rõ ràng (nhiệm kỳ thị trưởng Karlsøy, Warrior mượn Canada 1946–1948, Higgins ở Hạ viện bang 1999–2004, Rezidor "SAS International Hotels until 2001"...), 1 biên (Higgins 2007→2012: `end` là thời hạn của điều luật, không phải kết thúc sự kiện), 2 đáng ngờ (Sainz: `end` 2017 và 2018 mà năm đó không nằm trong chunk, có thể lấy từ ngữ cảnh). Cả 9 mốc `ongoing` đều hợp lý đọc theo văn bản (Higgins "serving since 2005", Karlsøy thị trưởng "2015–present", ...), không mốc nào mâu thuẫn với một sự kiện chết/giải thể trong cùng trang vì không chủ thể nào đã mất; chưa thử được ca đó.
 
@@ -719,9 +719,9 @@ Giải thích sụt recall: (a) có `end` thì mô hình gộp "bắt đầu" v�
 **Kế hoạch chứng minh bản 3 không bịa, và giới hạn của vàng (2026-11-05, đề xuất, có thể xem lại).**
 
 *Chứng minh không bịa.* Không chứng minh được "không bao giờ bịa", chỉ đo được tỉ lệ bịa và chặn bớt bằng mã. Ba lớp:
-1. Kiểm bằng mã khi trích: `date_text` phải xuất hiện nguyên văn trong chunk; năm của `date` phải đứng riêng trong chunk; mọi con số trong `text` ("70%", "36 cans") phải có trong chunk (bắt được ca "Higgins garnered more than 70% of the vote" mà kiểm năm không bắt được); tên riêng (cụm viết hoa) trong `text` phải có trong trang.
+1. Kiểm bằng mã khi trích: `date_text` phải xuất hiện nguyên văn trong chunk; năm của `date` phải đứng riêng trong chunk; mọi con số trong `text` ("70%", "36 cans") phải có trong chunk (chưa có ca bịa thật nào để chứng minh kiểm này bắt được; ca "70%" của Higgins từng nghi bịa nhưng sau đã xác nhận là đúng theo văn bản); tên riêng (cụm viết hoa) trong `text` phải có trong trang.
 2. Đọc tay một mẫu khoảng 100 đến 120 mốc ngẫu nhiên phân tầng theo trang, mỗi mốc đối chiếu chunk: bịa/sai, đúng nhưng ngoài vàng, đúng và trong vàng. Nếu 0 mốc bịa trên 100 mốc thì chỉ nói được tỉ lệ bịa tối đa khoảng 3% ("quy tắc ba", độ tin cậy 95%), không nói bằng 0.
-3. So cùng 10 trang với bản 1 (khoảng 12 mốc sai rõ ràng trên 488, trong đó 9 mốc đổi thập niên thành năm, 1 mốc 70% bịa) và bản 2. Bản 3 phải thấp hơn rõ rệt.
+3. So cùng 10 trang với bản 1 (khoảng 11 mốc sai rõ ràng trên 488, trong đó 9 mốc đổi thập niên thành năm; không có mốc bịa fact nào được xác nhận) và bản 2. Bản 3 phải thấp hơn rõ rệt.
 Kế hoạch đánh giá chung (`research/benchmarks_for_comparison/03_EVALUATION_PLAN_BY_MECHANISM.md` §2.2) cũng dự định đọc tay khoảng 100 mốc trích mà oracle không có để đo precision.
 
 *Giới hạn của timeline vàng (ghi vào phần phương pháp).* Vàng là tham chiếu có giới hạn đã biết, không phải chân lý:
@@ -746,3 +746,57 @@ Nhận xét: nhiều bài có tự nêu nhiễu hoặc giới hạn, rõ nhất 
 *Bộ khác có cùng vấn đề.* Chú thích TimeQA dùng làm oracle (1.241 câu) đã được ghi trong repo là "chưa đầy đủ, sự kiện thừa có thể đúng thật" và "22,5% ô thiếu đoạn, không phân biệt trống thật với bị thiếu chú thích" (`eval/08`, `03_EVALUATION_PLAN_BY_MECHANISM.md`); số 22,5% do đồ án tự đo trên chú thích, **chưa kiểm xem bài gốc có tự nêu giới hạn này không**. Gold chưa đầy đủ là vấn đề phổ biến (ví dụ đánh giá tìm kiếm dựa trên tập mẫu của TREC; dữ liệu rút từ Wikidata theo giả định thế giới mở); đây là kiến thức chung, chưa đối chiếu lại với tài liệu.
 
 *Ảnh hưởng đến kết quả nghiên cứu.* Lỗi vàng làm sai lệch con số tuyệt đối (recall thật có thể khác), nhưng ảnh hưởng đến so sánh giữa các phương pháp nhỏ hơn nếu lỗi vàng không thiên về phương pháp nào: các phương pháp cùng chấm trên cùng vàng và cùng bộ câu hỏi (so sánh cặp), lỗi ngẫu nhiên chỉ thêm nhiễu. Rủi ro chính là lỗi có hệ thống (vàng và hệ thống chung điểm mù, hoặc quy ước vàng thiên về cách làm của đồ án). Vì vậy: báo cáo kèm khoảng tin cậy, ghi giới hạn vàng, nêu số kiểm độc lập, và không tuyên bố "vàng là chân lý".
+
+### 10.5ae Bản 3 của prompt trích sự kiện (2026-11-05, 5 trang tune, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả: `outline_trial/pass3_v3.py` (có cửa sổ), `pass3_v3_nowin.py` (không cửa sổ), `out_p3_v3_run1/`, `out_p3_v3_nowin/`. Model `google_31`, temperature 0. Trang: Goryachkina, Mannheim, Karlsøy, Rainier, Higgins (đều thuộc tune). Cấu hình bản 3: chỉ `date` (không `end`), `date_text` chép nguyên văn, `approximate`, quy tắc phạm vi (bỏ thông số, mô tả, tiểu sử người khác, phim, năm trong tên riêng), chia mục dài thành cửa sổ tối đa 8 chunk kèm 1 chunk ngữ cảnh, kiểm bằng mã (`date_text` nguyên văn, năm đứng riêng trong trang, con số trong `text` có trong chunk, tên riêng đánh cờ).
+
+**Hai lần chạy giống hệt nhau** (temperature 0): lặp lại cùng prompt không cho thông tin về dao động; chỉ so các phiên bản prompt khác nhau mới có ý nghĩa.
+
+| Chỉ số (167 mốc vàng của 5 trang) | Kết quả |
+|---|---|
+| Recall ghép một-một, bản 1 (không cửa sổ, chưa kiểm bằng mã) | 148/167 (88,6%) |
+| Bản 3 có cửa sổ | 149/167 (89,2%) |
+| Bản 3 không cửa sổ | 144/167 (86,2%) |
+| Mốc trích | có cửa sổ 256, không cửa sổ 235 |
+
+Cửa sổ giúp: 6 mốc vàng chỉ trúng khi có cửa sổ, 1 mốc chỉ trúng khi không có; chênh +5 mốc (+3 điểm phần trăm) nằm gần hết ở Goryachkina (55 so với 50, các mục dài và dày ngày); bốn trang còn lại bằng nhau. Chi phí: 56 so với 50 lần gọi. Mẫu nhỏ (5 trang, một trang tạo ra hầu hết chênh lệch), nên chỉ kết luận được là giữ cửa sổ cho mục dài, chưa nói được độ lớn của lợi ích. Bỏ `end` và thêm kiểm bằng mã không làm recall giảm so với bản 1.
+
+**Kiểm bằng mã:** 5 mốc bị loại (4 `bad_chunk`, 1 trùng); mã đánh cờ 21 `approximate_date`, 11 `derived_date`, 4 `date_text_not_in_chunk`, 0 `name_not_in_page`; không mốc nào bị loại vì con số không có trong chunk, nên kiểm con số **chưa có ca dương tính thật để chứng minh nó bắt được**. 4 mốc `bad_chunk` đều là sự kiện đúng (Goryachkina 2014-12 đạt rating 2441, Goryachkina 2013-01 Tata Steel, Mannheim 1909, Higgins 2009-01-31) mà mô hình ghi số chunk ngoài cửa sổ; cần sửa: chấp nhận số chunk nằm trong mục (không chỉ trong cửa sổ) hoặc gán lại chunk bằng cách tìm `date_text`.
+
+**Còn tồn tại:** 17 mốc `date` trống. Phạm vi vẫn lọt: sinh/mất của người khác ở Karlsøy (Marthinsen, Eriksen, Kristoffersen, 6 mốc), "Mudhoney photographed with Rainier cans", "black bear" vẫn còn (quy tắc trong prompt không đủ); phim, "Calendar", "Loren S. Smith 1980", "market share 1960", "star chart 1782" đã hết. Ý tưởng chưa thử: thêm trường `actor` (ai là chủ thể của sự kiện) rồi gắn cờ sự kiện của người khác. **Chưa đo độ chính xác của bản 3 bằng đọc tay** (kế hoạch 100 đến 120 mốc ở 10.5ad vẫn chưa làm).
+
+**Đính chính (cũng ghi trong phần trên):** mốc "Higgins garnered more than 70% of the vote" đúng theo văn bản ("In 2006 and 2008, Higgins garnered more than 70% of the vote"); trước đây mình xếp nhầm là bịa vì kiểm tay bị trượt.
+
+### 10.5af Sửa `bad_chunk`, thử Gemini 3.5 và ước chi phí DeepSeek (2026-11-05, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả: `outline_trial/pass3_v4.py` (chỉ sửa một dòng so với bản 3: chấp nhận số chunk trong cả mục thay vì chỉ trong cửa sổ), `pass3_v4_35.py` (cùng mã, profile `google_35`), `out_p3_v4_35/`, `score_recall.py` (phép ghép một-một như 10.5ae).
+
+*Hạn mức.* Gemini 3.1 báo `429 RESOURCE_EXHAUSTED` (hết hạn mức ngày) nên lần chạy bản sửa bằng 3.1 chưa thực hiện được; mình đã dừng tiến trình treo bằng PID. Bản sửa `bad_chunk` **chưa được đo riêng** với 3.1. Lần sau chạy log ra file, không đẩy qua `tail` (không thấy được tiến độ).
+
+*Gemini 3.5 flash-lite thay 3.1 (cùng 5 trang tune, 167 mốc vàng).* Lưu ý đã đổi cả model lẫn bản sửa nên không tách được từng yếu tố; 3.5 còn bỏ qua `temperature` nên chạy lại có thể khác.
+
+| Trang | 3.1 (bản 3) | 3.5 (bản sửa) |
+|---|---|---|
+| Goryachkina | 55/63 | 34/63 |
+| Higgins | 18/18 | 17/18 |
+| Karlsøy | 18/18 | 14/18 |
+| Mannheim | 29/37 | 27/37 |
+| Rainier | 29/31 | 28/31 |
+| Tổng | 149/167 (89,2%) | 120/167 (71,9%) |
+| Mốc trích | 256 | 186 |
+
+Đọc tay mục "Chess career" của Goryachkina (3.1: 59 mốc, 3.5: 35 mốc): 3.5 (1) **bỏ nguyên cả chunk có ngày rõ ràng** (chunk #17 có 4 mốc vàng, 3.1 trích 7, 3.5 trích 0; chunk #22, #44 cũng 0; đã kiểm không phải gán nhầm số chunk); (2) đôi khi **gộp nhiều năm vào một câu** (chunk #16: ba mốc 2013, 2014, 2014-12 dùng chung một câu về điểm Elo). Nguyên nhân bên trong model chưa kiểm chứng. Karlsøy trượt 4 mốc "nhiệm kỳ thị trưởng kết thúc"; Mannheim và Rainier trượt các mốc kết thúc/công bố.
+
+*Đề xuất:* giữ 3.1 cho bước trích sự kiện; thêm bước dò chunk bị bỏ trống (chunk có số năm mà không có mốc nào được trích thì gọi lại một lần), vì bộ kiểm bằng mã hiện chỉ bắt mốc sai, không bắt mốc thiếu.
+
+*Ước chi phí DeepSeek, trích sự kiện cho 203 trang tune (chỉ ước, chưa đo token).* Đo thật trên 355 trang có vàng: trung bình 13,1 nghìn ký tự, khoảng 30 chunk, khoảng 9 lần gọi mỗi trang (mục chia cửa sổ 8 chunk); tune khoảng 1.800 lần gọi. Ước 2,3 triệu token vào (0,7 triệu là văn bản, khoảng 1,5 triệu là chỉ dẫn lặp mỗi lần gọi, **800 token mỗi lần là giả định chưa đo**) và 0,6 triệu token ra (khoảng 51 mốc mỗi trang, 60 token mỗi mốc, từ 5 trang đã thử). Giá theo ảnh trang giá DeepSeek người dùng gửi (đơn vị USD mỗi triệu token, trượt cache):
+
+| Model | Vào ngoài/trong cao điểm | Ra ngoài/trong cao điểm | Cả tune ngoài/trong cao điểm |
+|---|---|---|---|
+| V4.1-Flash-1017 | 0,15 / 0,30 | 0,60 / 1,20 | khoảng 0,7 / 1,4 USD |
+| V4-Pro-0813 | 0,66 / 1,32 | 1,98 / 3,96 | khoảng 2,7 / 5,4 USD |
+
+Cao điểm (theo chú thích (2) trên trang giá, qua công cụ tải trang, chưa đọc trang gốc): 01:00 đến 04:00 và 06:00 đến 10:00 UTC, thứ Hai đến thứ Sáu, trừ nghỉ lễ Trung Quốc; tức 08:00 đến 11:00 và 13:00 đến 17:00 giờ Việt Nam. Ngoài cao điểm bằng nửa giá. Chế độ thinking mặc định bật, token suy luận có thể làm đầu ra tăng nhiều lần (cần thử tắt). Giá Flash trong `benchmarks_for_comparison/02_REPRODUCIBLE_METHODS.md` (0,14 và 0,28) đã cũ so với ảnh. Chất lượng trích của DeepSeek chưa thử.
+
+*Việc tiếp:* chạy bản sửa bằng 3.1 khi hết giới hạn; đọc tay 100–120 mốc để đo tỉ lệ sai; thử DeepSeek Flash (tắt thinking) trên 5 trang, ngoài giờ cao điểm.
