@@ -1,0 +1,80 @@
+{
+ "page": "George_Cambridge_2nd_Marquess_of_Cambridge",
+ "n_chunks": 10,
+ "n_sections": 4,
+ "chars_in": 3456,
+ "outline": {
+  "subject": "George Cambridge, 2nd Marquess of Cambridge, was a British nobleman and a relative of the British Royal Family.",
+  "page_type": "person",
+  "aliases": [
+   "Prince George of Teck",
+   "Earl of Eltham",
+   "George Francis Hugh Cambridge"
+  ],
+  "sections": [
+   {
+    "index": 0,
+    "title": "George Cambridge , 2nd Marquess of Cambridge",
+    "covers": "This section introduces the subject as a member of the British Royal Family and outlines his parentage.",
+    "period": "1895-1981",
+    "entities": [
+     "George Cambridge",
+     "King George III",
+     "Queen Mary",
+     "King George V",
+     "1st Earl of Athlone",
+     "1st Marquess of Cambridge"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 1,
+    "title": "Early life",
+    "covers": "This section covers the subject's birth, his family's change of name and titles, and his succession to the marquessate.",
+    "period": "1917-1935",
+    "entities": [
+     "Grosvenor House",
+     "1st Duke of Westminster",
+     "George V",
+     "1st Marquess of Cambridge",
+     "George Cambridge"
+    ],
+    "links": "continues 'George Cambridge, 2nd Marquess of Cambridge'",
+    "has_events": true
+   },
+   {
+    "index": 2,
+    "title": "Education and career",
+    "covers": "This section details the subject's education, his military service during the World Wars, and his career in banking.",
+    "period": "1918-1951",
+    "entities": [
+     "Eton College",
+     "Magdalen College",
+     "1st Life Guards",
+     "Shropshire Yeomanry",
+     "Royal Army Service Corps",
+     "Coutts & Company"
+    ],
+    "links": "continues 'Early life'",
+    "has_events": true
+   },
+   {
+    "index": 3,
+    "title": "Personal life",
+    "covers": "This section describes the subject's marriage, family, participation in royal events, and his death.",
+    "period": "1923-1988",
+    "entities": [
+     "Dorothy Isabel Westenra Hastings",
+     "Lady Mary Cambridge",
+     "George V",
+     "George VI",
+     "Elizabeth II",
+     "British Museum"
+    ],
+    "links": "continues 'Education and career'",
+    "has_events": true
+   }
+  ]
+ }
+}

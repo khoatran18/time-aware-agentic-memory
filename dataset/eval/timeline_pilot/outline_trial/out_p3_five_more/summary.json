@@ -1,0 +1,92 @@
+{
+ "Karls_y|A": {
+  "gold": 18,
+  "extracted": 26,
+  "undated_extracted": 0,
+  "recall_exact_date": 18,
+  "recall_year": 18,
+  "extracted_matching_gold": 15,
+  "failed_sections": 0
+ },
+ "Karls_y|B": {
+  "gold": 18,
+  "extracted": 30,
+  "undated_extracted": 0,
+  "recall_exact_date": 18,
+  "recall_year": 18,
+  "extracted_matching_gold": 19,
+  "failed_sections": 0
+ },
+ "Orchard_Supply_Hardware|A": {
+  "gold": 32,
+  "extracted": 43,
+  "undated_extracted": 1,
+  "recall_exact_date": 32,
+  "recall_year": 32,
+  "extracted_matching_gold": 34,
+  "failed_sections": 0
+ },
+ "Orchard_Supply_Hardware|B": {
+  "gold": 32,
+  "extracted": 42,
+  "undated_extracted": 0,
+  "recall_exact_date": 32,
+  "recall_year": 32,
+  "extracted_matching_gold": 34,
+  "failed_sections": 0
+ },
+ "Rainier_Brewing_Company|A": {
+  "gold": 31,
+  "extracted": 48,
+  "undated_extracted": 0,
+  "recall_exact_date": 31,
+  "recall_year": 31,
+  "extracted_matching_gold": 34,
+  "failed_sections": 0
+ },
+ "Rainier_Brewing_Company|B": {
+  "gold": 31,
+  "extracted": 49,
+  "undated_extracted": 0,
+  "recall_exact_date": 30,
+  "recall_year": 30,
+  "extracted_matching_gold": 33,
+  "failed_sections": 0
+ },
+ "Brian_Higgins|A": {
+  "gold": 18,
+  "extracted": 39,
+  "undated_extracted": 2,
+  "recall_exact_date": 17,
+  "recall_year": 18,
+  "extracted_matching_gold": 20,
+  "failed_sections": 0
+ },
+ "Brian_Higgins|B": {
+  "gold": 18,
+  "extracted": 39,
+  "undated_extracted": 1,
+  "recall_exact_date": 18,
+  "recall_year": 18,
+  "extracted_matching_gold": 21,
+  "failed_sections": 0
+ },
+ "Carlos_Sainz_Jr|A": {
+  "gold": 24,
+  "extracted": 40,
+  "undated_extracted": 0,
+  "recall_exact_date": 22,
+  "recall_year": 22,
+  "extracted_matching_gold": 32,
+  "failed_sections": 0
+ },
+ "Carlos_Sainz_Jr|B": {
+  "gold": 24,
+  "extracted": 45,
+  "undated_extracted": 3,
+  "recall_exact_date": 22,
+  "recall_year": 22,
+  "extracted_matching_gold": 33,
+  "failed_sections": 0
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "Aleksandra_Goryachkina|A": {
+  "gold": 63,
+  "extracted": 85,
+  "undated_extracted": 0,
+  "recall_exact_date": 61,
+  "recall_year": 62,
+  "extracted_matching_gold": 62,
+  "failed_sections": 0
+ },
+ "Aleksandra_Goryachkina|B": {
+  "gold": 63,
+  "extracted": 93,
+  "undated_extracted": 0,
+  "recall_exact_date": 61,
+  "recall_year": 62,
+  "extracted_matching_gold": 71,
+  "failed_sections": 0
+ },
+ "HMS_Warrior_R31|A": {
+  "gold": 50,
+  "extracted": 62,
+  "undated_extracted": 1,
+  "recall_exact_date": 46,
+  "recall_year": 50,
+  "extracted_matching_gold": 51,
+  "failed_sections": 0
+ },
+ "HMS_Warrior_R31|B": {
+  "gold": 50,
+  "extracted": 60,
+  "undated_extracted": 0,
+  "recall_exact_date": 45,
+  "recall_year": 50,
+  "extracted_matching_gold": 49,
+  "failed_sections": 0
+ },
+ "Mannheim_Observatory|A": {
+  "gold": 37,
+  "extracted": 43,
+  "undated_extracted": 0,
+  "recall_exact_date": 32,
+  "recall_year": 32,
+  "extracted_matching_gold": 31,
+  "failed_sections": 0
+ },
+ "Mannheim_Observatory|B": {
+  "gold": 37,
+  "extracted": 45,
+  "undated_extracted": 0,
+  "recall_exact_date": 32,
+  "recall_year": 32,
+  "extracted_matching_gold": 31,
+  "failed_sections": 0
+ },
+ "Rezidor_Hotel_Group|A": {
+  "gold": 30,
+  "extracted": 45,
+  "undated_extracted": 1,
+  "recall_exact_date": 29,
+  "recall_year": 30,
+  "extracted_matching_gold": 36,
+  "failed_sections": 0
+ },
+ "Rezidor_Hotel_Group|B": {
+  "gold": 30,
+  "extracted": 45,
+  "undated_extracted": 0,
+  "recall_exact_date": 29,
+  "recall_year": 30,
+  "extracted_matching_gold": 37,
+  "failed_sections": 0
+ }
+}

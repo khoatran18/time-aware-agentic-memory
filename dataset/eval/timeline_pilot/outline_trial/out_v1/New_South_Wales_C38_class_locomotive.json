@@ -1,0 +1,68 @@
+{
+ "page": "New_South_Wales_C38_class_locomotive",
+ "n_chunks": 15,
+ "n_sections": 4,
+ "chars_in": 6385,
+ "outline": {
+  "subject": "The New South Wales C38 class is a series of steam locomotives built for express passenger services in Australia.",
+  "page_type": "vehicle_or_object",
+  "aliases": [
+   "38 class",
+   "Pacifics"
+  ],
+  "sections": [
+   {
+    "index": 0,
+    "title": "New South Wales C38 class locomotive",
+    "covers": "This section introduces the C38 class locomotives and their role in hauling express passenger services.",
+    "period": "1943-1949",
+    "entities": [
+     "New South Wales Government Railways"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 1,
+    "title": "Design",
+    "covers": "This section details the development and engineering specifications of the locomotive class.",
+    "period": "1930s",
+    "entities": [
+     "Harold Young",
+     "NSWGR",
+     "Norfolk and Western Railway",
+     "PRR"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 2,
+    "title": "History",
+    "covers": "This section covers the construction, operational history, and eventual withdrawal of the locomotives.",
+    "period": "1939-1988",
+    "entities": [
+     "Clyde Engineering",
+     "Eveleigh Railway Workshops",
+     "Cardiff Locomotive Workshops"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 3,
+    "title": "Preservation",
+    "covers": "This section describes the survival and storage of the remaining locomotives.",
+    "period": null,
+    "entities": [
+     "NSW Rail Transport Museum",
+     "Philip Shirley",
+     "Public Transport Commission",
+     "Dorrigo Steam Railway & Museum"
+    ],
+    "links": null,
+    "has_events": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "checks": [
+  "[3] period '1783-1800s': 1800 không có trong mục"
+ ],
+ "page": "Mannheim_Observatory",
+ "n_chunks": 27,
+ "n_sections": 6,
+ "chars_in": 10957,
+ "outline": {
+  "subject": "The Mannheim Observatory was a tower observatory that operated in Mannheim before being relocated to Karlsruhe and eventually Heidelberg.",
+  "page_type": "other",
+  "aliases": [],
+  "sections": [
+   {
+    "index": 0,
+    "title": "Mannheim Observatory",
+    "covers": "This section provides an overview of the observatory's history, its relocation, and the current use of the original tower.",
+    "period": "1772-1880",
+    "entities": [
+     "Mannheim",
+     "Germany",
+     "Karlsruhe",
+     "Königstuhl",
+     "Heidelberg",
+     "State Observatory Heidelberg-Königstuhl"
+    ]
+   },
+   {
+    "index": 1,
+    "title": "Schwetzingen",
+    "covers": "This section describes the early astronomical activities of Christian Mayer and the establishment of an observatory at Schwetzingen Castle.",
+    "period": "1751-1769",
+    "entities": [
+     "Karl Theodor",
+     "Voltaire",
+     "Christian Mayer",
+     "Canivet",
+     "Edmond Halley",
+     "Schwetzingen Castle"
+    ]
+   },
+   {
+    "index": 2,
+    "title": "The Palatinate Period",
+    "covers": "This section details the construction of the Mannheim Observatory and its development into a research facility under Christian Mayer.",
+    "period": "1771-1783",
+    "entities": [
+     "Mayer",
+     "Mannheim Court",
+     "Schloss Mannheim",
+     "Wolfgang Amadeus Mozart",
+     "Benjamin Franklin",
+     "Karl Theodor"
+    ]
+   },
+   {
+    "index": 3,
+    "title": "Christian Mayer’s Successors",
+    "covers": "This section outlines the challenges faced by the observatory's leadership and the damage sustained during the Napoleonic Era.",
+    "period": "1783-1800s",
+    "entities": [
+     "Karl König",
+     "John Fischer",
+     "Peter Ungeschick",
+     "Roger Barry"
+    ]
+   },
+   {
+    "index": 4,
+    "title": "The Baden Period",
+    "covers": "This section covers the decline of the observatory during the 19th century and the eventual decision to end the institute.",
+    "period": "1806-1859",
+    "entities": [
+     "Roger Barry",
+     "Heinrich Christian Schumacher",
+     "Friedrich Wilhelm Struve",
+     "Bernhard Nicolai",
+     "Fraunhofer",
+     "Nell"
+    ]
+   },
+   {
+    "index": 5,
+    "title": "Move to Karlsruhe",
+    "covers": "This section describes the appointment of Eduard Schönfeld, the move to Karlsruhe, and the eventual establishment of the observatory at Königstuhl.",
+    "period": "1859-1983",
+    "entities": [
+     "Eduard Schönfeld",
+     "Astronomische Gesellschaft",
+     "Karl Wilhelm Valentiner",
+     "Max Wolf",
+     "Catherine Wolfe Bruce",
+     "Frederick I"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "checks": [
+  "[3] entity không có trong mục: 'Christmas Island'"
+ ],
+ "page": "HMS_Warrior_R31",
+ "n_chunks": 35,
+ "n_sections": 5,
+ "chars_in": 13915,
+ "outline": {
+  "subject": "HMS Warrior was a light aircraft carrier that served in the British Royal Navy, the Royal Canadian Navy, and the Argentine Navy.",
+  "page_type": "vehicle_or_object",
+  "aliases": [
+   "HMCS Warrior",
+   "ARA Independencia",
+   "Brave"
+  ],
+  "sections": [
+   {
+    "index": 0,
+    "title": "HMS Warrior ( R31 )",
+    "covers": "This section provides an overview of the ship's construction, service history with different navies, and eventual disposal.",
+    "period": "1942-1971",
+    "entities": [
+     "Royal Navy",
+     "Royal Canadian Navy",
+     "Argentine Navy"
+    ]
+   },
+   {
+    "index": 1,
+    "title": "Description",
+    "covers": "This section details the physical specifications, armament, radar equipment, and design features of the aircraft carrier.",
+    "period": null,
+    "entities": []
+   },
+   {
+    "index": 2,
+    "title": "Construction and career",
+    "covers": "This section describes the ship's construction, its loan to the Royal Canadian Navy, and its subsequent return to the Royal Navy.",
+    "period": "1942-1948",
+    "entities": [
+     "Harland and Wolff",
+     "Royal Canadian Navy",
+     "Fleet Air Arm",
+     "Belfast",
+     "Halifax",
+     "Esquimalt"
+    ]
+   },
+   {
+    "index": 3,
+    "title": "Royal Navy service",
+    "covers": "This section covers the ship's refits, experimental trials, deployments during the Korean War, and participation in nuclear testing.",
+    "period": "1948-1958",
+    "entities": [
+     "Royal Navy",
+     "Devonport Dockyard",
+     "Korea",
+     "Vietnam",
+     "Christmas Island"
+    ]
+   },
+   {
+    "index": 4,
+    "title": "Argentine Navy service",
+    "covers": "This section details the ship's acquisition by Argentina, its operational history as ARA Independencia, and its final decommissioning and scrapping.",
+    "period": "1958-1971",
+    "entities": [
+     "Argentine Navy",
+     "Argentine Naval Aviation"
+    ]
+   }
+  ]
+ }
+}

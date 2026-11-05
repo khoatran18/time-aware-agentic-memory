@@ -1,0 +1,79 @@
+{
+ "checks": [
+  "alias không có trong trang: 'Radisson Hospitality, Inc.'"
+ ],
+ "page": "Rezidor_Hotel_Group",
+ "n_chunks": 17,
+ "n_sections": 4,
+ "chars_in": 6774,
+ "outline": {
+  "subject": "Rezidor Hotel Group is a hotel group company that underwent several ownership changes and rebrandings.",
+  "page_type": "organization",
+  "aliases": [
+   "Rezidor Hotel Group AB",
+   "SAS International Hotels",
+   "Rezidor SAS Hospitality",
+   "Radisson Hospitality AB",
+   "Radisson Hospitality, Inc.",
+   "Radisson Hotel Group"
+  ],
+  "sections": [
+   {
+    "index": 0,
+    "title": "Rezidor Hotel Group",
+    "covers": "This section provides an overview of the company's history, ownership changes, and rebrandings.",
+    "period": "1960-2018",
+    "entities": [
+     "SAS Group",
+     "Carlson Companies",
+     "Carlson Rezidor Hotel Group",
+     "HNA Group",
+     "Radisson Hospitality AB",
+     "Jin Jiang International"
+    ]
+   },
+   {
+    "index": 1,
+    "title": "Predecessors",
+    "covers": "This section describes the early history of the company as a division of the SAS Group.",
+    "period": "1960-1995",
+    "entities": [
+     "SAS Group",
+     "SAS Royal Hotel",
+     "Arne Jacobsen",
+     "SAS Catering and Hotels",
+     "SAS International Hotels",
+     "Carlson Hotels"
+    ]
+   },
+   {
+    "index": 2,
+    "title": "Rezidor SAS Hospitality",
+    "covers": "This section details the company's operations and partnerships while it was a subsidiary of the SAS Group.",
+    "period": "1989-2016",
+    "entities": [
+     "Rezidor SAS Hospitality",
+     "SAS Group",
+     "Carlson Hotels Worldwide",
+     "AccorHotels",
+     "Wyndham Hotels",
+     "Lester Hotels"
+    ]
+   },
+   {
+    "index": 3,
+    "title": "Rezidor Hotel Group",
+    "covers": "This section covers the company's transition to a publicly listed entity and its subsequent acquisitions and rebrandings.",
+    "period": "2006-2018",
+    "entities": [
+     "SAS Group",
+     "Rezidor Hotel Group AB",
+     "Stockholm Stock Exchange",
+     "Carlson Hotels Worldwide",
+     "HNA Group",
+     "Jin Jiang International Holdings"
+    ]
+   }
+  ]
+ }
+}

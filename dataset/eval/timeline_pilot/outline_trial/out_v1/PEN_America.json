@@ -1,0 +1,145 @@
+{
+ "page": "PEN_America",
+ "n_chunks": 35,
+ "n_sections": 10,
+ "chars_in": 13787,
+ "outline": {
+  "subject": "PEN America is a nonprofit organization that defends and celebrates free expression through the advancement of literature and human rights.",
+  "page_type": "organization",
+  "aliases": [
+   "PEN American Center"
+  ],
+  "sections": [
+   {
+    "index": 0,
+    "title": "PEN America",
+    "covers": "This section provides an overview of the organization, its mission, membership, and primary areas of advocacy and programming.",
+    "period": null,
+    "entities": [
+     "PEN America",
+     "PEN International"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 1,
+    "title": "History",
+    "covers": "This section details the founding of the organization and its relationship to the broader PEN International movement.",
+    "period": "1922",
+    "entities": [
+     "Willa Cather",
+     "Eugene ONeill",
+     "Robert Frost",
+     "Booth Tarkington",
+     "Catherine Amy Dawson-Scott",
+     "John Galsworthy"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 2,
+    "title": "Membership",
+    "covers": "This section outlines membership requirements, the organization's founding charter, and its leadership structure.",
+    "period": "1922-2020",
+    "entities": [
+     "Jennifer Egan",
+     "Ayad Akhtar",
+     "Suzanne Nossel",
+     "Chinua Achebe",
+     "Toni Morrison",
+     "Salman Rushdie"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 3,
+    "title": "Literature",
+    "covers": "This section describes the organization's literary events, awards programs, and the prison writing initiative.",
+    "period": "1971-2011",
+    "entities": [
+     "PEN World Voices Festival",
+     "Salman Rushdie",
+     "PEN Prison Writing Program"
+    ],
+    "links": null,
+    "has_events": true
+   },
+   {
+    "index": 4,
+    "title": "Support to writers",
+    "covers": "This section covers financial and professional support services provided to writers.",
+    "period": null,
+    "entities": [
+     "PEN Writers Emergency Fund",
+     "Emerging Voices Fellowship"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 5,
+    "title": "Publications",
+    "covers": "This section lists the periodic publications produced by the organization.",
+    "period": "2000",
+    "entities": [
+     "PEN America"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 6,
+    "title": "Free Expression",
+    "covers": "This section describes the organization's general advocacy work regarding free expression rights.",
+    "period": null,
+    "entities": [
+     "PEN America"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 7,
+    "title": "Writers at Risk",
+    "covers": "This section details advocacy efforts for writers and journalists facing persecution.",
+    "period": null,
+    "entities": [
+     "China",
+     "Myanmar",
+     "Russia",
+     "Belarus",
+     "Ukraine",
+     "Central Asia"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 8,
+    "title": "Press Freedom",
+    "covers": "This section covers the organization's monitoring of press freedom and initiatives related to media literacy.",
+    "period": null,
+    "entities": [
+     "Press Freedom Incentive Fund"
+    ],
+    "links": null,
+    "has_events": false
+   },
+   {
+    "index": 9,
+    "title": "Campus Free Speech",
+    "covers": "This section discusses the organization's work on campus speech, online harassment, and artistic freedom.",
+    "period": "2018",
+    "entities": [
+     "Online Harassment Field Manual",
+     "Artists at Risk Connection"
+    ],
+    "links": null,
+    "has_events": true
+   }
+  ]
+ }
+}
