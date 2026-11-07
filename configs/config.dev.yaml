@@ -54,6 +54,14 @@ llm:
       temperature: 0
       timeout: 90
       cache_model: "basic-gemini-3.1-flash-lite"
+    deepseek_flash:                    # DeepSeek V4.1 Flash gọi thẳng (API tương thích OpenAI); mặc định bật chế độ thinking, tính cả token suy luận vào đầu ra
+      provider: "openai"
+      model_id: "deepseek-flash"
+      api_key: "${DEEPSEEK_API_KEY:-}"
+      base_url: "https://api.deepseek.com"
+      temperature: 0                   # chỉ có tác dụng khi tắt thinking (theo trang DeepSeek, thinking bỏ qua temperature, không báo lỗi)
+      structured_output: false         # DeepSeek không hỗ trợ response_format kiểu json_schema của langchain: gọi thường kèm schema JSON rồi đọc JSON (tam/llm/structured.py)
+      extra_body: {thinking: {type: "disabled"}}   # tắt thinking cho rẻ và nhanh; bỏ dòng này để bật lại (mặc định của DeepSeek là bật)
     google_gemma26:                    # Gemma 4 26B (MoE, ~4B tham số hoạt động) gọi thẳng; hạn mức 30 RPM, 16K TPM
       provider: "google"
       model_id: "gemma-4-26b-a4b-it"

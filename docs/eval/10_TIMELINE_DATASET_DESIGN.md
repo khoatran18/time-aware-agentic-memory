@@ -800,3 +800,32 @@ Mã và kết quả: `outline_trial/pass3_v4.py` (chỉ sửa một dòng so v�
 Cao điểm (theo chú thích (2) trên trang giá, qua công cụ tải trang, chưa đọc trang gốc): 01:00 đến 04:00 và 06:00 đến 10:00 UTC, thứ Hai đến thứ Sáu, trừ nghỉ lễ Trung Quốc; tức 08:00 đến 11:00 và 13:00 đến 17:00 giờ Việt Nam. Ngoài cao điểm bằng nửa giá. Chế độ thinking mặc định bật, token suy luận có thể làm đầu ra tăng nhiều lần (cần thử tắt). Giá Flash trong `benchmarks_for_comparison/02_REPRODUCIBLE_METHODS.md` (0,14 và 0,28) đã cũ so với ảnh. Chất lượng trích của DeepSeek chưa thử.
 
 *Việc tiếp:* chạy bản sửa bằng 3.1 khi hết giới hạn; đọc tay 100–120 mốc để đo tỉ lệ sai; thử DeepSeek Flash (tắt thinking) trên 5 trang, ngoài giờ cao điểm.
+
+### 10.5ag Thử DeepSeek Flash, vì sao prompt bản 3 làm mô hình bỏ trống `date`, và prompt bản 4 (2026-11-07, 5 trang tune, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả trong `outline_trial/`: `pass3_v4_ds.py` và `out_p3_v4_ds/` (DeepSeek, prompt bản 3), `pass3_p4.py`, `pass3_p4_ds.py`, `out_p4_31/`, `out_p4_ds/` (prompt bản 4), `out_p3_v4_31/` (Gemini 3.1 bản mã sửa `bad_chunk`, prompt bản 3). "Prompt bản 3" là nội dung prompt của 10.5ae; `pass3_v4.py` chỉ khác `pass3_v3.py` một dòng ở bước kiểm (chấp nhận số chunk trong cả mục), **không đổi prompt**.
+
+*DeepSeek.* Profile `deepseek_flash` (provider `openai`, `base_url` DeepSeek, `model_id: deepseek-flash`, tắt thinking bằng `extra_body`, `structured_output: false` vì DeepSeek từ chối `response_format` kiểu json_schema của langchain, lỗi 400). Theo trang DeepSeek, thinking bỏ qua `temperature`, nên tắt thinking để `temperature: 0` có tác dụng (chưa chạy lần hai để kiểm lặp lại). Phiên bản phía sau tên chung `deepseek-flash` lúc chạy là **DeepSeek-V4.1-Flash-1017** (theo bảng giá); ghi phiên bản và ngày kèm kết quả vì tên chung có thể đổi bản.
+
+*Cùng bản mã, prompt bản 3 (167 mốc vàng):*
+
+| Model | Trúng | Mốc trích | `date` trống | Năm suy từ ngữ cảnh (`derived_date`) |
+|---|---|---|---|---|
+| Gemini 3.1 | 149/167 (89,2%) | 258 | 17 | 11 (9 khớp vàng) |
+| DeepSeek Flash | 133/167 (79,6%) | 235 | 37 | 1 (1 khớp) |
+| Gemini 3.5 | 120/167 (71,9%) | 186 | 5 | 1 |
+
+Bản sửa `bad_chunk` **không đổi recall** của Gemini 3.1 (149 trước và sau, chỉ cứu thêm 2 mốc không khớp vàng).
+
+*Vì sao prompt bản 3 sai nhiều ở DeepSeek (đọc tay Goryachkina).* Trong 26 mốc vàng DeepSeek trượt, 15 mốc nằm trong chunk mà DeepSeek **có trích sự kiện nhưng để `date` trống** (chunk chỉ có tên tháng hoặc "later that year", năm nằm ở chunk trước); 10 mốc không được trích; 1 mốc khác độ mịn. Nguyên nhân nằm ở prompt: hai chỉ dẫn về `date` **ngược chiều và mơ hồ**: (1) "điền `date` nếu `date_text`, *hoặc văn bản gần đó*, có một năm cụ thể" (không nói "gần đó" có gồm chunk trước không); (2) "giải 'năm sau', 'năm đó' từ văn bản bạn nhận, *không giải được thì null*". Gemini 3.1 đọc "gần đó" theo nghĩa rộng (lấy năm từ chunk trước), DeepSeek đọc theo nghĩa hẹp (chỉ trong chính chunk). Vì sao hai mô hình hiểu khác nhau thì chưa biết. Gemini 3.5 khác: ít `date` trống nhưng **không trích** 21 trong 31 mốc vàng trượt (bỏ sót sự kiện).
+
+*Prompt bản 4.* Chỉ sửa hai chỉ dẫn trên: nếu `date_text` chỉ có tháng, ngày hoặc cụm như "later that year", lấy năm từ **năm gần nhất phía trước trong các chunk đã nhận** (chunk trước trong mục và chunk ngữ cảnh), vẫn chép `date_text` nguyên văn; chỉ để null khi không có năm nào phía trước. Phần còn lại giữ nguyên.
+
+| Model | Prompt bản 3 | Prompt bản 4 | `date` trống (bản 3 → bản 4) | Năm suy, khớp vàng (bản 3 → bản 4) |
+|---|---|---|---|---|
+| DeepSeek Flash | 133/167 (79,6%) | **142/167 (85,0%)** | 37 → 33 | 1/1 → 5/8 |
+| Gemini 3.1 | 149/167 (89,2%) | **153/167 (91,6%)** | 17 → 11 | 9/11 → 12/15 |
+
+Prompt bản 4 giúp cả hai model, nhưng DeepSeek vẫn kém 3.1 khoảng 11 mốc và vẫn còn 33 mốc `date` trống (chưa tìm hiểu vì sao còn trống). Phép ghép chỉ khớp ngày và chunk nên chưa biết các năm suy mới có đúng hết hay không (3.1: 12/15, DeepSeek: 5/8 khớp vàng). Chưa kiểm tỉ lệ sai thật; mẫu 5 trang, một lần chạy mỗi cách.
+
+*Chưa làm:* xem 33 mốc `date` trống còn lại của DeepSeek; đọc tay 100 đến 120 mốc đo tỉ lệ sai; chạy cả tune bằng DeepSeek (ước 0,7 USD ngoài giờ cao điểm, chưa đo token thật).

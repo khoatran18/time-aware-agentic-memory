@@ -24,7 +24,7 @@ def build(profile: dict[str, Any]) -> BaseChatModel:
               base_url: "${NINE_ROUTER_URL:-http://localhost:20128/v1}"
               temperature: 0
 
-    Các khóa dùng ở đây: `model_id`, `api_key`, `temperature`, `base_url` (tùy chọn; đặt để dùng proxy tương thích OpenAI như 9router). Tên profile không nằm trong dict; factory dùng nó để chọn khối.
+    Các khóa dùng ở đây: `model_id`, `api_key`, `temperature`, `base_url` (tùy chọn; đặt để dùng proxy tương thích OpenAI như 9router), `extra_body` (tùy chọn; dict gửi kèm mỗi yêu cầu). Tên profile không nằm trong dict; factory dùng nó để chọn khối.
     """
     from langchain_openai import ChatOpenAI
 
@@ -33,4 +33,5 @@ def build(profile: dict[str, Any]) -> BaseChatModel:
         api_key=require(profile, "api_key", "điền biến key của profile trong .env, vd OPENAI_API_KEY hoặc NINE_ROUTER_API_KEY"),
         temperature=profile.get("temperature", 0),
         base_url=profile.get("base_url"),
+        extra_body=profile.get("extra_body"),   # tùy chọn: tham số riêng của API tương thích OpenAI, vd DeepSeek {"thinking": {"type": "disabled"}}
     )
