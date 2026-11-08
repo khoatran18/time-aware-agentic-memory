@@ -384,13 +384,22 @@
    "date": "1983",
    "grain": "year",
    "track": "naming",
-   "text": "Paper became the Mercury News; Mercury and News became editions of San Jose Mercury News.",
+   "text": "Paper became the Mercury News after a series of mergers.",
    "evidence": [
     {
      "chunk_id": "/wiki/The_Mercury_News#2",
      "role": "both",
      "quote": "It became the Mercury News in 1983 after a series of mergers"
-    },
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1983",
+   "grain": "year",
+   "track": "naming",
+   "text": "The Mercury and the News became morning and afternoon editions of the San Jose Mercury News.",
+   "evidence": [
     {
      "chunk_id": "/wiki/The_Mercury_News#22",
      "role": "both",

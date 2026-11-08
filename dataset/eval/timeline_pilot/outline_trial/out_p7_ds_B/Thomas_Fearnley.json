@@ -1,0 +1,410 @@
+{
+ "events": [
+  {
+   "text": "Thomas Fearnley was born.",
+   "chunk": 0,
+   "date_text": "27 December 1802",
+   "date": "1802-12-27",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Thomas Fearnley",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#0"
+  },
+  {
+   "text": "Thomas Fearnley died.",
+   "chunk": 0,
+   "date_text": "16 January 1842",
+   "date": "1842-01-16",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Thomas Fearnley",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#0"
+  },
+  {
+   "text": "Thomas Fearnley married Cecilia Catharine Andresen.",
+   "chunk": 2,
+   "date_text": "In 1840",
+   "date": "1840",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Thomas Fearnley",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#2"
+  },
+  {
+   "text": "The couple went to Amsterdam for the birth of their only child, Thomas Nicolay Fearnley.",
+   "chunk": 2,
+   "date_text": "In the autumn of 1841",
+   "date": "1841",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "the couple",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#2"
+  },
+  {
+   "text": "His descendants founded the Astrup Fearnley Museum of Modern Art.",
+   "chunk": 3,
+   "date_text": "in 1993",
+   "date": "1993",
+   "approximate": false,
+   "actor": "related",
+   "actor_name": "His descendants",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#3"
+  },
+  {
+   "text": "Thomas Fearnley attended National Cadet Corps from 1814 to 1819.",
+   "chunk": 4,
+   "date_text": "1814",
+   "date": "1814",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Thomas Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Thomas Fearnley attended National Cadet Corps from 1814 to 1819.",
+   "chunk": 4,
+   "date_text": "1819",
+   "date": "1819",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Thomas Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley was a student of Den kongelige Tegneskole from 1819 to 1821.",
+   "chunk": 4,
+   "date_text": "1819",
+   "date": "1819",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley was a student of Den kongelige Tegneskole from 1819 to 1821.",
+   "chunk": 4,
+   "date_text": "1821",
+   "date": "1821",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley was a student of the Art Academy in Copenhagen from 1821 to 1823.",
+   "chunk": 4,
+   "date_text": "1821",
+   "date": "1821",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley was a student of the Art Academy in Copenhagen from 1821 to 1823.",
+   "chunk": 4,
+   "date_text": "1823",
+   "date": "1823",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley was a student of the Art Academy in Stockholm from 1823 to 1827.",
+   "chunk": 4,
+   "date_text": "1827",
+   "date": "1827",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#4"
+  },
+  {
+   "text": "Fearnley left Copenhagen bound for Stockholm in the autumn of 1823.",
+   "chunk": 5,
+   "date_text": "the autumn of 1823",
+   "date": "1823",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley conducted study tours in Norway from 1824 to 1826.",
+   "chunk": 5,
+   "date_text": "1824",
+   "date": "1824",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley conducted study tours in Norway from 1824 to 1826.",
+   "chunk": 5,
+   "date_text": "1826",
+   "date": "1826",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley had another stay in Copenhagen from 1827 to 1828.",
+   "chunk": 5,
+   "date_text": "1827",
+   "date": "1827",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley had another stay in Copenhagen from 1827 to 1828.",
+   "chunk": 5,
+   "date_text": "1828",
+   "date": "1828",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley made a new Norwegian trip in the autumn of 1828.",
+   "chunk": 5,
+   "date_text": "the autumn of 1828",
+   "date": "1828",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#5"
+  },
+  {
+   "text": "Fearnley was a student of Dahl in Dresden from 1829 to 1830.",
+   "chunk": 6,
+   "date_text": "1829",
+   "date": "1829",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#6"
+  },
+  {
+   "text": "Fearnley was a student of Dahl in Dresden from 1829 to 1830.",
+   "chunk": 6,
+   "date_text": "1830",
+   "date": "1830",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#6"
+  },
+  {
+   "text": "Fearnley lived in Munich from 1830 to 1832.",
+   "chunk": 6,
+   "date_text": "1832",
+   "date": "1832",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#6"
+  },
+  {
+   "text": "Fearnley traveled extensively in the 1830s.",
+   "chunk": 7,
+   "date_text": "the 1830s",
+   "date": null,
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#7"
+  },
+  {
+   "text": "During September 1832, Fearnley went from Venice to Rome.",
+   "chunk": 7,
+   "date_text": "September 1832",
+   "date": "1832-09",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#7"
+  },
+  {
+   "text": "Fearnley went to Paris in the summer of 1835.",
+   "chunk": 7,
+   "date_text": "the summer of 1835",
+   "date": "1835",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#7"
+  },
+  {
+   "text": "During the summer of 1839 Fearnley was on a study tour to the Sognefjord and Hardangerfjord.",
+   "chunk": 7,
+   "date_text": "the summer of 1839",
+   "date": "1839",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Thomas_Fearnley#7"
+  },
+  {
+   "text": "Fearnley contracted typhoid and died.",
+   "chunk": 11,
+   "date_text": "January 1842",
+   "date": "1842-01",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#11"
+  },
+  {
+   "text": "He was initially buried on Südlicher Friedhof in Munich.",
+   "chunk": 11,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "He",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#11"
+  },
+  {
+   "text": "His son arranged to have his father's mortal remains moved to Vår Frelsers gravlund in Oslo.",
+   "chunk": 11,
+   "date_text": "In 1922",
+   "date": "1922",
+   "approximate": false,
+   "actor": "related",
+   "actor_name": "his son",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#11"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Fearnley was a student of the Art Academy in Stockholm from 1823 to 1827.",
+   "chunk": 4,
+   "date_text": "1823",
+   "date": "1823",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#4",
+   "reason": "number_not_in_chunk:1827"
+  },
+  {
+   "text": "Fearnley lived in Munich from 1830 to 1832.",
+   "chunk": 6,
+   "date_text": "1830",
+   "date": "1830",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#6",
+   "reason": "number_not_in_chunk:1832"
+  },
+  {
+   "text": "Fearnley visited Sicily the following summer.",
+   "chunk": 7,
+   "date_text": "the following summer",
+   "date": "1833",
+   "approximate": true,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#7",
+   "reason": "year_not_in_page"
+  },
+  {
+   "text": "Fearnley visited London the next year.",
+   "chunk": 7,
+   "date_text": "the next year",
+   "date": "1836",
+   "approximate": false,
+   "actor": "subject",
+   "actor_name": "Fearnley",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Thomas_Fearnley#7",
+   "reason": "year_not_in_page"
+  }
+ ]
+}

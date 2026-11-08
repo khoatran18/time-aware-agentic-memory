@@ -108,7 +108,7 @@ Quy tắc loại câu: **đáp án phải dùng ≥2 sự kiện** của timelin
 | Thứ tự, khoảng cách | chunk của hai sự kiện |
 | Đầu / cuối / kế tiếp | khai trước: tính cả chuỗi (để biết là đầu/cuối), không chỉ chunk chứa đáp án |
 | Tóm tắt | chấm bằng độ phủ sự kiện (khớp `text`/`date`), không cần LLM judge (chưa chốt) |
-| Không đủ thông tin (nhóm riêng) | sự kiện có `undated_mentions`, hoặc cặp trùng độ mịn, hoặc "sau sự kiện cuối". Đáp án đúng là "kho không nêu" chứ không phải "không có"; khoảng 10 câu mỗi tập; chấm riêng: tỉ lệ từ chối đúng và tỉ lệ bịa đáp án; đọc tay từng câu |
+| ~~Không đủ thông tin~~ | **Bỏ khỏi bộ chính (người dùng chốt 2026-11-07, xem 10.5aj).** Nếu cần sẽ làm tập chẩn đoán riêng, đọc tay 100% |
 
 - **Bỏ nhóm `t_now`** (khoảng cách đến hiện tại, "N năm qua"): thuộc tính hạn và hiện tại của Cơ chế 1, không phải gom sự kiện (người dùng quyết 2026-11-04).
 - Câu chéo track (ví dụ "lúc chuyển đội Y thì ông ở đâu") để sau, chưa làm đợt đầu.
@@ -829,3 +829,101 @@ Bản sửa `bad_chunk` **không đổi recall** của Gemini 3.1 (149 trước 
 Prompt bản 4 giúp cả hai model, nhưng DeepSeek vẫn kém 3.1 khoảng 11 mốc và vẫn còn 33 mốc `date` trống (chưa tìm hiểu vì sao còn trống). Phép ghép chỉ khớp ngày và chunk nên chưa biết các năm suy mới có đúng hết hay không (3.1: 12/15, DeepSeek: 5/8 khớp vàng). Chưa kiểm tỉ lệ sai thật; mẫu 5 trang, một lần chạy mỗi cách.
 
 *Chưa làm:* xem 33 mốc `date` trống còn lại của DeepSeek; đọc tay 100 đến 120 mốc đo tỉ lệ sai; chạy cả tune bằng DeepSeek (ước 0,7 USD ngoài giờ cao điểm, chưa đo token thật).
+
+### 10.5ah So DeepSeek với Gemini 3.1: hai lỗi thật, prompt bản 5 và đọc tay 114 mốc (2026-11-07, 5 trang tune, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả trong `outline_trial/`: `pass3_p5_ds.py`, `pass3_p5.py` (cùng prompt bản 5 và cùng bản mã, khác profile), `out_p5_ds/`, `out_p5_31/`.
+
+*So `out_p4_ds` (142/167) với `out_p4_31` (153/167).* 12 mốc vàng DeepSeek trượt mà 3.1 trúng. Nguyên nhân (đã đọc chunk):
+1. **Bộ kiểm bằng mã loại oan (lỗi của mã, không phải của model).** Văn bản chunk tách từ có khoảng trắng trước dấu câu (`born October 6 , 1959`). DeepSeek chép thành `October 6, 1959`; hàm `norm()` chỉ gộp khoảng trắng nên cho rằng cụm này không có trong trang và loại mốc (`date_text_not_in_page`). Cả 6 mốc bị loại đều có trong trang khi bỏ qua khoảng trắng; 5/6 khớp một mốc vàng. 3.1 chép đúng khoảng trắng nên không dính. Sửa: `norm()` bỏ mọi khoảng trắng (một dòng).
+2. **Mất tháng khi `date_text` chỉ có tên tháng.** Với "March", "September"… DeepSeek ghi `date` chỉ có năm ở 5/9 trường hợp (3.1: 0/9), ví dụ `2019` thay vì `2019-03`. Prompt bản 4 chỉ dặn "đúng độ mịn văn bản cho"; DeepSeek hiểu là tháng phải nằm trong `date_text`.
+3. Còn lại: 1 mốc sai ngày thật (Schumacher 1813), 1 mốc `date` trống, 1 mốc không trích.
+
+*Prompt bản 5.* Thêm một câu tổng quát vào dòng `date`: độ mịn theo cụm thời gian, không theo riêng năm; `date_text` có tháng (có hoặc không có năm) thì `date` phải có tháng, có ngày thì phải có ngày; chỉ ghi `YYYY` khi cụm chỉ có năm. Không nêu ví dụ riêng. Kèm bản mã sửa `norm()`.
+
+| Model, prompt bản 5 + `norm()` mới | Trúng | Mốc trích | `date` trống | Mốc bị loại |
+|---|---|---|---|---|
+| DeepSeek Flash | **150/167 (89,8%)** (bản 4: 142) | 247 | 18 (bản 4: 33) | 0 (bản 4: 12) |
+| Gemini 3.1 | **148/167 (88,6%)** (bản 4: 153) | 254 | chưa đếm | 0 |
+
+Tháng trần ghi mất tháng: DeepSeek 5/9 → 0/9. **Gemini 3.1 giảm từ 153 xuống 148 khi đổi từ prompt bản 4 sang bản 5.** Chạy lại mỗi bản một lần nữa (`out_p4_31_rep/`, `out_p5_31_rep/`) cho kết quả **y hệt từng byte** (153 và 148, cùng 257 và 254 mốc trích) ở các trang đã so, nên ở `temperature: 0` 3.1 gần như tất định (không phân biệt được với việc dùng lại cache: thời gian chạy ~10 phút cho thấy là gọi thật) và **5 mốc mất là do nội dung prompt, không phải dao động**. Cả 5 mốc mất đều do 3.1 trích **ít mốc hơn trong cùng chunk** (Goryachkina #15: 3 → 1 mốc, #20: 4 → 2, Rainier #6: 2 → 1, Mannheim #0: mất mốc 1774); các mốc còn lại không đổi ngày. Chunk #15 bản 4 trích cả các mốc có cụm "Late in the year", "closing the year", bản 5 chỉ còn mốc có năm ghi rõ. **Giả thuyết (chưa kiểm chứng):** câu độ mịn mới làm model bỏ các mốc có cụm thời gian tương đối. Chưa chạy bản chỉ có một trong hai thay đổi. Không tách được phần đóng góp của `norm()` và của prompt bản 5 cho DeepSeek (chưa chạy riêng).
+
+*Đọc tay 114 mốc (41 chunk ngẫu nhiên, hạt giống 7, `out_p5_ds`, đọc nguyên chunk).*
+- **Ngày sai: 0/114** (kể cả các năm suy: "the following year" → 2016 sau chuỗi 2013–2015; "March" → 2020 sau tháng 12/2019). Cận trên 95% theo quy tắc ba: khoảng 2,6%.
+- **Sai phạm rõ: 2/114.** (a) Mốc về con gấu đen 2004 trong trang Rainier: sự kiện của người/vật khác, ngoài phạm vi (đã biết ở mục trước, vẫn chưa có trường `actor`). (b) "2015, 2017, and 2020" thành một mốc 2015, dù `text` nêu cả ba năm; hai mốc 2017 và 2020 bị mất.
+- **Biên, không phải sự kiện hoặc kế hoạch: khoảng 6/114** ("quận được đánh số quận 27 từ 2005 đến 2013", "tiếp tục tăng hạng", "không giành thêm chuẩn GM", đường hầm "dự kiến xong năm 2015", hai mốc kỷ lục nhiệt độ). Cách tính còn tùy định nghĩa "sự kiện".
+- **Thiếu mốc kết thúc của khoảng: lỗi hệ thống, cả hai model.** Prompt dặn khi nêu cả hai đầu thì ra hai mốc, nhưng với "between 1772 and 1774", "in 1905–1906", "from 2005 to 2013", "from 2013 to 2015", "the 1935–1977 period" DeepSeek chỉ ra mốc bắt đầu (5/7 khoảng không có mốc kết thúc); 3.1 cũng vậy ở "1905–1906", "1813–1815", "1935–1977". Đây là nguồn chính của các mốc vàng mà cả hai cùng trượt trong Mannheim và Rainier ("tháp xây xong 1774", "trùng tu xong 1906"). Cách đếm khoảng bằng regex còn thô (chưa kiểm chứng đủ).
+- Mốc `date` trống còn lại (18 mốc DeepSeek) phần lớn là chunk không có cụm thời gian (`date_text` null) hoặc chỉ có thập kỷ ("During the 1970s", "late 1990s"), để trống là hợp lệ; chưa đọc hết.
+
+*Đề xuất, chờ xác nhận:* (1) dùng bản mã `norm()` bỏ khoảng trắng; (2) prompt bản 5; (3) DeepSeek Flash và 3.1 xấp xỉ nhau (150 và 148/153 tùy prompt, một lần chạy, 5 trang); chưa quyết thay 3.1 cho đến khi đo trên một tập khác 5 trang này và đo dao động của DeepSeek (chưa chạy lặp DeepSeek); (4) xử lý mốc kết thúc của khoảng bằng mã sau khi trích (nếu `date_text` khớp mẫu khoảng mà chưa có mốc kết thúc thì gọi lại hoặc thêm mốc) thay vì tin vào prompt; (5) trường `actor` để gắn cờ sự kiện của người khác.
+
+*Chưa làm:* chạy lặp để đo dao động; chạy cả tune bằng DeepSeek (ước 0,7 USD ngoài giờ cao điểm, chưa đo token thật); cơ chế dò chunk bị bỏ trống.
+
+### 10.5ai Prompt bản 6: recall 94–95% nhưng DeepSeek thêm mốc ngoài phạm vi (2026-11-07, 5 trang tune, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả: `outline_trial/pass3_p6.py` (chọn model bằng biến môi trường `PROFILE`), `out_p6_31/`, `out_p6_ds/`. **Prompt bản 6** = prompt bản 4 (không có câu độ mịn của bản 5, vì bản 5 làm 3.1 mất 5 mốc) cộng hai quy tắc phạm vi: (1) chỉ bỏ năm khi nó là một phần tên của tác phẩm được trích dẫn, giữ khi văn bản nói chủ thể thắng/chơi/xuất bản thứ có tên chứa năm ("winning the 2008 Russian PriFR event"); (2) ngày trong ngoặc, danh sách, bảng, chú thích ảnh vẫn tính, mỗi ngày một mốc. **Bản mã** thêm: `norm()` bỏ khoảng trắng; mã ghép tháng/ngày từ `date_text` khi `date` chỉ có năm (cờ `month_from_date_text`); mã thêm mốc "End of: ..." cho khoảng "X–Y", "between X and Y", "from X to Y" khi chưa có mốc kết thúc (cờ `range_end_added`).
+
+| Model | Prompt bản 4 | Bản 5 | **Bản 6** | `date` trống bản 6 | Mốc trích bản 6 |
+|---|---|---|---|---|---|
+| DeepSeek Flash | 142 | 150 | **159/167 (95,2%)** | 13 | 259 |
+| Gemini 3.1 | 153 | 148 | **157/167 (94,0%)** | 6 | 267 |
+
+Mã thêm mốc kết thúc chỉ thêm 2 mốc mỗi model, cả 2 trúng vàng (không tính chúng: 3.1 155, DeepSeek 157). Mã ghép tháng **chưa chạy lần nào** (cả hai model đều không còn mốc tháng chỉ ghi năm ở bản này), nên chưa kiểm chứng. Chưa tách đóng góp từng thay đổi; một lần chạy mỗi cách; 5 trang cũng là tập đã dùng để chỉnh prompt, nên các số này **lạc quan** (chưa đo trên trang khác).
+
+*Vì sao tăng.* Quy tắc ngoặc/danh sách làm Mannheim chunk #16 (xuất bản 1862, 1866, 1875, hội 28/8/1863) từ trích 0 mốc thành đủ 5; Schumacher "(Director 1813–1815)" được trích cả hai đầu; mốc "2008 Russian PriFR" được giữ; chú thích ảnh Rainier "restored in November 2013" được trích. Mốc DeepSeek còn trượt (8): Goryachkina 2011 (hai mốc, chunk không có cụm thời gian), 2012 (hai mốc "Late in the year"), 2015, 2017, 2019, và Mannheim 1771-01-01 ("New Years Day 1771" ghi `1771`).
+
+*Tác dụng phụ (DeepSeek): mốc ngoài phạm vi.* Karlsøy chunk #21 là danh sách người nổi tiếng sinh ở đó; DeepSeek bản 5 trích 0 mốc, bản 6 trích 6 mốc (Karl Marthinsen sinh 1896, mất 1945, Solvejg Eriksen sinh 1903, mất 1993, Marthe Kristoffersen 1989, 2010): tiểu sử người khác, ngoài phạm vi theo mục 10.3. Quy tắc "danh sách vẫn tính" đè lên quy tắc loại tiểu sử. Gemini 3.1 trích đúng 6 mốc này cả ở bản 4 và 6, nên đây là điểm yếu của cả hai, chỉ là DeepSeek bản 5 tình cờ tránh được. Ngoài ra có mốc biên mới: "quận số 27 hết hiệu lực 2013" (do model trích, không phải do mã), Schönfeld 1871 (người khác). Recall không đo được điều này; **precision vẫn chưa được đo trên bản 6**.
+
+*Đề xuất, chờ xác nhận:* (1) thêm vào quy tắc "danh sách vẫn tính" một ngoại lệ: không tính danh sách người nổi tiếng hay mục tiểu sử (sinh/mất của người khác); (2) thêm trường `actor` để gắn cờ mốc của người khác và lọc bằng mã, vì prompt không loại hết được; (3) chạy lại bản 6 sửa trên cả hai model và chạy thêm một tập trang khác (ví dụ 5 trang valid) để biết 94–95% có giữ được; (4) đọc tay lại 100–120 mốc của bản 6 để đo precision.
+
+### 10.5aj Bỏ nhóm "không đủ thông tin" (người dùng chốt 2026-11-07)
+
+Bỏ nhóm này khỏi bộ câu hỏi chính; `undated_mentions` không dùng trong câu nào. Lý do (đã bàn): (1) đáp án "kho không nêu" phụ thuộc độ mịn của gold, không phải nội dung nguồn (ví dụ nhiệm kỳ A kết thúc và nhiệm kỳ B bắt đầu cùng năm 2003 ở trang Karlsøy; trang liệt kê nhiệm kỳ liền nhau nên câu trả lời "liền nhau" có thể đúng mà bị chấm sai); (2) `undated_mentions` là chuỗi tự do không có `chunk_id`, nên gold không chứng minh được điều phủ định "kho không nêu"; (3) Cơ chế 1 không có nhóm này nên không so được hai cơ chế; (4) cỡ mẫu nhỏ (khoảng 10 câu mỗi tập); đợt 2 của subagent có 10/47 câu loại này. Các bộ công bố (TimeQA, MenatQA, ECT-QA) giữ câu không trả lời được như một thành phần riêng, có đo từ chối riêng; nhãn của TimeQA suy từ cách dựng (đoạn thời gian không có văn bản), không suy từ chỗ thiếu của gold như ở đây. Chưa kiểm chứng chi tiết trong từng bài (mới đọc kết quả tìm kiếm và ghi chú của repo).
+
+### 10.5ak Prompt bản 7 (thêm `actor`) và kiểm trên 5 trang tune khác (2026-11-07, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả trong `outline_trial/`: `pass3_p7.py` (bản 6 cộng trường `actor`/`actor_name`, quy tắc bỏ danh sách người nổi tiếng, quy tắc bỏ nhãn/số hiệu theo kỳ), `postrange.py` (bổ sung mốc kết thúc của khoảng bằng cách đọc chính chunk), `score2.py` (chấm trang tùy ý, có thống kê `actor`), các thư mục `out_p7_*_A|B`, `out_p6_*_B`, hậu tố `_R` là sau `postrange.py`. Tập A là 5 trang đã dùng chỉnh prompt; tập B là 5 trang tune khác chọn ngẫu nhiên (Sergey Sirotkin, First Air Group, Thomas Fearnley, Dept. of Computing Imperial College, Toungoo dynasty; 170 mốc vàng). Mỗi cách chạy một lần.
+
+| Trúng/vàng | Tập A (167) | Tập B (170) | Tổng (337) |
+|---|---|---|---|
+| Gemini 3.1, bản 6 + `postrange` | 157 | 143 | 300 (89,0%) |
+| Gemini 3.1, bản 7 + `postrange` | 159 | 139 | 298 (88,4%) |
+| DeepSeek, bản 6 + `postrange` | 159 | 132 | 291 (86,4%) |
+| DeepSeek, bản 7 + `postrange` | 157 | 140 | 297 (88,1%) |
+
+- **Số trên tập A lạc quan:** trang mới chỉ đạt 77–84%, thấp hơn nhiều so với 94–95% trên tập đã chỉnh; ước lượng hợp lý hơn cho recall là khoảng 80–89% (chênh giữa các cấu hình trong khoảng 1 đến 4 mốc, chưa phân biệt được).
+- **`actor` chưa dùng làm bộ lọc được:** lọc `actor = other` làm mất 5–6/167 mốc vàng trên tập A và 3/170 trên tập B. Các mốc bị gắn nhầm thường là việc của đội/thành viên/lãnh đạo của chủ thể (đội Nga ở trang Goryachkina, Mayer ở trang đài thiên văn Mannheim, nhân viên khoa ở trang Imperial College). Định nghĩa cần sửa: thành viên, lãnh đạo, bộ phận của chủ thể là `related`. Chỉ nên dùng làm cờ để đọc tay, chưa dùng để loại.
+- **Gemini 3.1 bản 7 mất 14 mốc ở tập B (143 → 129)**, 12 mốc ở trang First Air Group: mô hình gộp "commander from 1938-01-07 to 1942-06-30" thành một mốc (mất mốc kết thúc), trong khi DeepSeek vẫn tách hai mốc. `postrange.py` (mã đọc khoảng từ chunk, độc lập với cách model chép) cứu 10 mốc (129 → 139). Nguyên nhân do phần nào của bản 7 chưa kiểm chứng (giả thuyết: quy tắc "nhãn/số theo kỳ" hoặc trường `actor` làm model hiểu một khoảng là một trạng thái).
+- **Trượt còn lại ở tập B** (DeepSeek bản 7 + `postrange`, 30 mốc): 15 mốc cùng năm nhưng khác độ mịn hoặc ghép thiếu (nhiều mốc cùng năm trong một chunk chỉ trích được một phần), 7 mốc ngày khác, 6 mốc không trích gì trong chunk (ví dụ Sirotkin ra mắt F1 2018, hai bức tranh của Fearnley 1837 và 1838), 2 mốc `date` trống.
+- **Chưa kiểm chứng:** precision của bản 7, tác động từng thay đổi riêng lẻ, dao động giữa các lần chạy của DeepSeek.
+
+*Đề xuất:* dùng `postrange.py` làm bước mã sau khi trích; không dùng `actor` để loại mốc cho đến khi sửa định nghĩa và đo lại; so ít nhất thêm 10 trang tune khác trước khi chọn giữa DeepSeek và Gemini 3.1, vì chênh hiện nay nhỏ hơn sai số của 10 trang.
+
+### 10.5al Prompt bản 8: tách mốc bắt đầu và kết thúc, bỏ `postrange.py` (2026-11-08, 10 trang tune, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả: `outline_trial/pass3_p8.py`, `out_p8_ds_A/`, `out_p8_ds_B/`, chấm bằng `score3.py` (chấm nghiêm: `date` giống hệt và chunk mốc trích ∈ chunk của `evidence`). **Prompt bản 8** = bản 6 cộng quy tắc để model tự tách giai đoạn thành hai mốc (bắt đầu, kết thúc), không có bước mã bổ sung. Người dùng chốt bỏ `postrange.py` (kết luận cuối 10.5ak không còn hiệu lực): mốc kết thúc phải do model trích, vì mã đọc lại chunk che mất chỗ model hiểu sai.
+
+| DeepSeek Flash, trúng/vàng | Bản 6 | Bản 7 | **Bản 8** |
+|---|---|---|---|
+| Tập A (167) | 159 | 157 | **160 (95,8%)** |
+| Tập B (170) | 131 | 140 | **145 (85,3%)** |
+
+First Air Group từ 47 mốc đủ, Toungoo thêm 3 mốc. Lỗi còn lại: mốc kết thúc có `date_text` hai chữ số ("1823–27", "98/75") khiến model để `date` rỗng (Fearnley 1827, Imperial 98/75). *Đề xuất:* thêm một câu vào prompt (bản 9): `date_text` chép nguyên văn, `date` luôn là ngày đầy đủ đã chuẩn hóa, phần thiếu lấy từ mốc gần nhất phía trước trong cùng cụm; chạy lại 5 trang tập B. Gemini 3.1 bản 8 **chưa chạy** (hết quota ngày, reset khoảng 15:00 ngày 2026-11-08). Một lần chạy mỗi cách, tập A đã dùng để chỉnh prompt nên lạc quan, precision **chưa đo**.
+
+### 10.5am Kiểm chất lượng gold timeline và sửa lần 1 (2026-11-08)
+
+**Kiểm cơ học** (`local/gold_check.py`, 355 trang, 11.979 mốc): 0 `chunk_id` không tồn tại, 0 quote nằm ở chunk khác, 1 quote lệch một chữ (Monica_s_Gang e2). Hai báo động giả của script đã sửa (mốc có nhiều mục `evidence` với role `date`/`description`; năm có số 0 đầu). Ghi chú cũ "Mannheim e34 sai chunk" là sai: quote nằm đúng chunk 22.
+
+**Kiểm ngữ nghĩa** (60 trang: 10 tune đầu và 50 trang tune chọn ngẫu nhiên seed 7, `local/gold_review/pages50.json`; DeepSeek Flash và Haiku đọc từng trang, tôi đọc tay đề xuất): lỗi nội dung thật dưới 1% số mốc. DeepSeek: 84 đề xuất (prompt đầu) rồi 28 sau khi bắt `missing_terms` và lọc bằng mã (khoảng 45% đúng); Haiku: 146 đề xuất, 120 là `missing_event`, 22 `same_text`; chỉ 7 mốc hai bên cùng báo. Hai điều rút ra: (1) `same_text` (sự kiện lặp nhiều năm với `text` giống nhau) **không phải lỗi gold**, chỉ làm câu hỏi mơ hồ khi mốc đó làm điểm neo, nên xử lý ở bộ sinh câu hỏi (`check_questions.py` có luật `dup_text`); (2) nhiều cặp "trùng" là nguồn tự mâu thuẫn (Rezidor, SCM_Gloria, Steele_Hall, Leahy, Jimmy_Lai, New_Orleans), gold giữ cả hai có chủ ý với cờ `source_inconsistent`.
+
+**Đã thử và bỏ:** (a) sáu "đèn" mã báo mốc nghi vấn (44% mốc bị cờ, quá ồn); (b) chấm lỏng ±1 chunk (thêm 5 mốc nhưng chỉ 1 đúng; thêm điều kiện nội dung thì chênh 0 đến 1 mốc); (c) thêm chunk kề vào `evidence` hàng loạt (188 đề xuất, khoảng 40% đúng). Kết luận: giữ **chấm nghiêm**, không cần sửa gold vì ranh giới chunk. Chấm nghiêm là cận trên của recall (không so nội dung), precision chưa đo.
+
+**Sửa gold ngày 2026-11-08** (người dùng duyệt từng dòng): 16 thay đổi, nhật ký trước/sau ở `local/gold_edits_20261108.json`, bản sao lưu ở `local/rev_backup_20261108/`. Gồm: 9 mốc đổi `text` (U-96 e57/e63/e37/e75, Panair e20, Duby e5, Fearnley e30, Aleksandra e53, Brian e10), 5 mốc thêm chunk vào `evidence` (Amalric e18, Fearnley e27, Goldberg e7/e20/e45), Tryggve e3 thêm cờ `source_inconsistent`, và tách Mercury News e26 thành e26 và e67. Tổng gold: 11.980 mốc. **Số chấm cũ không còn so trực tiếp được ở các mốc này** (chênh tối đa vài mốc, không thuộc 10 trang tune). Ba ghi chú cũ hóa ra không cần sửa: Franklin e24 ("aged 59" có trong chunk 21), First_Air e9, Panufnik e24.
+
+### 10.5an Phạm vi gold: chọn lọc có tiêu chí (đề xuất, người dùng chọn hướng A ngày 2026-11-08)
+
+Gold không cố chứa mọi ngày trong trang. Một mốc được đưa vào khi nó là *thay đổi trạng thái hoặc thuộc tính của thực thể* thuộc khung 9 track (mục 10.5aa), hoặc là cột mốc chính của chủ thể. Không đưa: phát biểu, từng trận đấu, sự cố lẻ, chi tiết đời sống của người khác. Độ phủ đo trên mẫu: khoảng 93% so với số mốc Haiku tìm được ngoài gold (chưa kiểm chứng ngoài 60 trang audit). Precision đo bằng mẫu đọc tay. Gold đầy đủ chỉ cần ở trang dùng cho câu `list`.
+
+*Cách trả lời nếu giám khảo hỏi về nhãn sót:* thừa nhận gold chọn lọc có tiêu chí và nêu số độ phủ; các benchmark công bố cũng chọn lọc hoặc dựng từ kho không đầy đủ (Timeline17/Crisis, TimeQA, ECT-QA), còn TimeBank/TempEval đầy đủ nhưng kho nhỏ (từ kiến thức chung, **chưa tra lại nguồn**). Giảm sót nhãn bằng pooling nhiều mô hình tìm mốc thiếu là hướng có thể làm sau.
+
+*Chưa chốt:* mở thêm track `education`, `ownership_structure`; định nghĩa lại `actor` (thành viên/lãnh đạo/bộ phận của chủ thể là `related`); chọn model ingest (DeepSeek hay Gemini 3.1, cần thêm khoảng 10 trang và đọc tay precision).

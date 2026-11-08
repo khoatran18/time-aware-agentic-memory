@@ -1,0 +1,303 @@
+{
+ "events": [
+  {
+   "text": "The Toungoo Empire collapsed in the 18 years following Bayinnaung's death.",
+   "chunk": 1,
+   "date_text": "1581",
+   "date": "1581",
+   "approximate": false,
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Bayinnaung's"
+   ],
+   "cid": "/wiki/Toungoo_dynasty#1"
+  },
+  {
+   "text": "Nyaungyan Min and his son Anaukpetlun succeeded in restoring a smaller kingdom encompassing Lower Burma, Upper Burma, Shan States and Lan Na.",
+   "chunk": 2,
+   "date_text": "by 1622",
+   "date": "1622",
+   "approximate": true,
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Toungoo_dynasty#2"
+  },
+  {
+   "text": "Starting from the 1720s, the kingdom was beset with raids by the Meitei people of the Chindwin River and a rebellion in Chiang Mai.",
+   "chunk": 4,
+   "date_text": "the 1720s",
+   "date": null,
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#4"
+  },
+  {
+   "text": "Raids by the Meitei intensified in the 1730s.",
+   "chunk": 4,
+   "date_text": "the 1730s",
+   "date": null,
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#4"
+  },
+  {
+   "text": "The Mon people in Lower Burma began a rebellion, founding the Restored Hanthawaddy Kingdom.",
+   "chunk": 4,
+   "date_text": "1740",
+   "date": "1740",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#4"
+  },
+  {
+   "text": "The Hanthawaddy armies captured Inwa and ended the 266-year-old Toungoo dynasty.",
+   "chunk": 4,
+   "date_text": "1752",
+   "date": "1752",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#4"
+  },
+  {
+   "text": "King Mingyi Nyo founded the First Taungoo Dynasty at Taungoo.",
+   "chunk": 5,
+   "date_text": "1510",
+   "date": "1510",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#5"
+  },
+  {
+   "text": "The First Taungoo Dynasty began.",
+   "chunk": 5,
+   "date_text": "1485",
+   "date": "1485",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#5"
+  },
+  {
+   "text": "The First Taungoo Dynasty ended.",
+   "chunk": 5,
+   "date_text": "1599",
+   "date": "1599",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#5"
+  },
+  {
+   "text": "Inwa was conquered by the Mohnyin-led Shan sawbwas.",
+   "chunk": 5,
+   "date_text": "1527",
+   "date": "1527",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#5"
+  },
+  {
+   "text": "Tabinshwehti was crowned as king of all Burma at Bagan.",
+   "chunk": 6,
+   "date_text": "1544",
+   "date": "1544",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#6"
+  },
+  {
+   "text": "The Burmese–Siamese War began.",
+   "chunk": 8,
+   "date_text": "1547",
+   "date": "1547",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#8"
+  },
+  {
+   "text": "Tabinshwehti was assassinated.",
+   "chunk": 9,
+   "date_text": "1550",
+   "date": "1550",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#9"
+  },
+  {
+   "text": "Bayinnaung succeeded to the throne.",
+   "chunk": 10,
+   "date_text": "1550",
+   "date": "1550",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#10"
+  },
+  {
+   "text": "Bayinnaung reigned 30 years.",
+   "chunk": 10,
+   "date_text": "1550",
+   "date": "1550",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#10"
+  },
+  {
+   "text": "Bayinnaung launched a campaign of conquest invading Manipur.",
+   "chunk": 10,
+   "date_text": "1560",
+   "date": "1560",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#10"
+  },
+  {
+   "text": "Bayinnaung launched a campaign of conquest invading Ayutthaya.",
+   "chunk": 10,
+   "date_text": "1564",
+   "date": "1564",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#10"
+  },
+  {
+   "text": "Bayinnaung died.",
+   "chunk": 10,
+   "date_text": "1581",
+   "date": "1581",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#10"
+  },
+  {
+   "text": "The Toungoo rulers withdrew from southern Burma and founded a second dynasty at Ava, the Nyaungyan or Restored Taungoo Dynasty.",
+   "chunk": 12,
+   "date_text": "1597–1752",
+   "date": "1597",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "The Nyaungyan or Restored Taungoo Dynasty ended.",
+   "chunk": 12,
+   "date_text": "1597–1752",
+   "date": "1752",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "Anaukpetlun once again reunited Burma.",
+   "chunk": 12,
+   "date_text": "1613",
+   "date": "1613",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "Thalun rebuilt the war torn country.",
+   "chunk": 12,
+   "date_text": "1629–1648",
+   "date": "1629",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "Thalun's rule ended.",
+   "chunk": 12,
+   "date_text": "1629–1648",
+   "date": "1648",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "Based on Thalun's revenue inquest, the Irrawaddy valley's population was estimated to be around 2 million.",
+   "chunk": 12,
+   "date_text": "1635",
+   "date": "1635",
+   "approximate": false,
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Thalun's"
+   ],
+   "cid": "/wiki/Toungoo_dynasty#12"
+  },
+  {
+   "text": "The dynasty survived for another century and a half until the death of Mahadhammayaza.",
+   "chunk": 13,
+   "date_text": "1752",
+   "date": "1752",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#13"
+  },
+  {
+   "text": "Bago finally rebelled against Inwa.",
+   "chunk": 13,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#13"
+  },
+  {
+   "text": "The state fell.",
+   "chunk": 13,
+   "date_text": "1752",
+   "date": "1752",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#13"
+  },
+  {
+   "text": "The Burmese crown began to conduct comprehensive censuses.",
+   "chunk": 15,
+   "date_text": "1635",
+   "date": "1635",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#15"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "The Burmese–Siamese War ended.",
+   "chunk": 8,
+   "date_text": "49",
+   "date": "1549",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Toungoo_dynasty#8",
+   "reason": "year_not_in_page"
+  }
+ ]
+}
