@@ -1124,3 +1124,24 @@ Nguyên nhân v6 chỉ còn 5 câu `summary` (suy đoán có cơ sở, chưa h�
 - Các khẳng định "gold thiếu mốc" trong báo cáo agent (Real Madrid EuroLeague 1964–1980, Panair, New Orleans/Houston Astros, Condor 24,9%) chưa kiểm với chunk.
 
 **8. Việc tiếp theo (đề xuất).** (a) Người dùng đọc mẫu khoảng 15 câu v7 (ưu tiên 20 câu `summary` mới và các câu agent nêu là còn nghi: Leahy L2/L3, Campaign C1, Real Madrid R8, Condor C2, Panair P5). (b) Viết bước kiểm `derived` (kiểm lười, chỉ cho mốc trong `derived_pending.jsonl`). (c) Chạy [1] thêm một lần trên v7 để đo nhiễu. (d) Viết bước gộp, chạy thử. (e) Chưa chốt: né hẳn mốc `approx_year_loose`, ingest v10 và model ingest, `derived_date` ở `order_gap`.
+
+**Bổ sung 10.5ar (cùng ngày, đề xuất): đọc tay v7, bước kiểm mốc bị loại [1b] và prompt v8.** Mọi nhận xét là của một người đọc; cỡ mẫu nhỏ.
+
+*Đọc tay 19 trong 20 câu `summary` v7 (và 15 câu `list`/`first_last_next`/`order_gap` ngẫu nhiên, chỉ đối chiếu gold).* Phần lớn chuỗi khớp tiêu chí. Ba câu `summary` có vấn đề về nội dung đáp án (3/19, chỉ là tỷ lệ của nhóm `summary`, không suy ra cho cả v7) và một câu chỉ có vấn đề hình thức:
+
+| Câu | Vấn đề | Đối chiếu chunk |
+|---|---|---|
+| Campaign_Against_Homophobia q2 ("kết thúc hoặc chuyển cho người kế nhiệm") | chuỗi 3 mốc (2009-02-22, 2010-07-18, 2018) thiếu thời điểm chuyển giao 2012-02-26 (gold `e7` "Chaber's presidency began"); chunk liệt kê các nhiệm kỳ chủ tịch có mốc 26/02/2012. `criterion` do Haiku viết ("only the end side") hẹp hơn câu hỏi | có |
+| Michael_Batty q4 | câu hỏi nói chung "a named UK research committee or board", `criterion` liệt kê ba ủy ban; mốc `e23` (Chair of CHOPS, `source_inconsistent`) thuộc câu chữ nhưng ngoài chuỗi. CHOPS là "Conference of Heads Of Planning Schools" (không phải ủy ban nghiên cứu), nên có thể chuỗi đúng và câu hỏi viết lỏng | có |
+| Steele_Hall q3 ("federal election contests") | `e13`, `e18` là mốc từ chức; ngày gold của `e18` (1977-11-16) là ngày từ chức, không phải ngày bầu cử | có |
+| Irina_Levitina q3 | hẹp (ba tên giải) và text các mốc giống hệt nhau (`e20`, `e24`, `e28`); đáp án vẫn đúng | chưa |
+
+Hệ quả: đáp án của `summary` và `list` là chính danh sách `gold_event_ids` do mã lấy ra, nên chuỗi thiếu mốc làm đáp án thiếu (Campaign q2), chuỗi lệch nghĩa làm đáp án lệch (Steele_Hall q3). Câu `first_last_next` và `order_gap` không bị ảnh hưởng bởi bốn câu này. [1] không phát hiện cả bốn: [1] chỉ nhận câu hỏi, và chỉ cho biết mốc chưa có trong chuỗi chứ không đảm bảo đầy đủ; vậy "ít ứng viên" không đồng nghĩa "chuỗi đầy đủ", và độ bao phủ của [1] chưa đo được.
+
+*`criterion`*: trường mô tả tiêu chí đưa mốc vào chuỗi, do Haiku điền từ v6; hiện không có mã nào dùng nó, chỉ để so khi đọc tay với chữ câu hỏi. Cả hai ca lỗi nội dung trên là `criterion` hẹp hơn câu hỏi.
+
+*Bước [1b] (`local/chain_excluded.py`, đề xuất, đã thử nhỏ).* Với mỗi câu `list`/`summary`/`first_last_next`, lấy mốc gold cùng `track` nằm trong khoảng của chuỗi mà không thuộc chuỗi (v7: 89 trên 133 câu, 507 mốc), gửi **một yêu cầu mỗi câu** (câu hỏi, chuỗi, danh sách mốc bị loại; không gửi văn bản trang) và hỏi mốc nào phải có trong đáp án nếu đọc nghĩa đen. Chi phí: `LIMIT=10` hết khoảng 4,4 nghìn token vào (ký tự/4, chỉ prompt; chưa đổi ra tiền). Kết quả thử trên 7 câu của Campaign, Batty, Steele_Hall (có cả hai ca đã biết): **0 mốc được đề nghị thêm**, cả khi có và khi không đưa `criterion`. Với Campaign `e7` model trả "đây là mốc bắt đầu một nhiệm kỳ, không phải kết thúc hay chuyển giao"; với Batty `e23` model cho rằng CHOPS không phải ủy ban nghiên cứu. Kết luận: bước này **chưa chứng minh bắt được lỗi thật**, không nên chạy toàn bộ trước khi cải tiến; ca Campaign là câu hỏi nhập nhằng (hai cách đọc đều hợp lý), nên xử lý bằng cách bỏ hoặc viết lại câu hỏi hơn là bằng kiểm tự động.
+
+*Prompt v8 (`local/prompts/sinh_cau_hoi_v8.md`, chưa chạy).* v7 cộng mục I: viết `criterion` trước rồi viết câu hỏi từ nó; mỗi cụm trong câu hỏi ("or", "each", "a named ...") phải ánh xạ vào `criterion`; duyệt mọi mốc cùng `track` và ghi lý do cho mốc nằm giữa chuỗi mà bị loại (nếu gold chỉ có một vế thì hỏi một vế); câu hỏi chung thì chuỗi phải đủ mọi mốc thuộc loại đó, muốn chuỗi nhỏ thì nêu tên; mốc phải đúng loại sự kiện (không dùng "từ chức" thay "bầu cử"); `summary` ít nhất 3 mốc. Đầu ra `local/questions/v8/`; `check_questions.py` đã nhận phiên bản `v8`.
+
+*Chưa chốt:* xử lý tay Campaign q2 và Steele_Hall q3 (bỏ hay viết lại); có chạy v8 hay dùng v7 và sửa tay; cải tiến [1b] (ví dụ cho model biết hai cách đọc "passed to a successor") hay bỏ; đo nhiễu [1] bằng lần chạy thứ hai (không bắt buộc).
