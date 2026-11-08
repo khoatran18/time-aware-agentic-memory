@@ -993,3 +993,54 @@ Mức "vừa" gồm cả mốc trùng gold nhưng trích ở chunk khác hoặc 
 6. *Người đọc*: ca hai model bất đồng, ca `unsure`, và mẫu khoảng 20 mốc nhận tự động để ước tỉ lệ sai (nhận phần còn lại nếu mẫu đúng từ 90%).
 
 `derived_date` chỉ dùng được khi [2] và [3] xác nhận được câu neo và kiểu suy ra; khi đó lời câu hỏi đổi thành "explicitly stated or directly determined date". Chưa chốt: dùng `derived_date` hay giữ cấm hẳn.
+
+### 10.5aq Kiểm đầy đủ chuỗi đáp án: kết quả [2] và [3], cách xử lý mốc derived, precision theo tài liệu (2026-11-08, **đề xuất, chưa chốt**)
+
+Mục này ghi tiếp quy trình 0–6 ở 10.5ap sau khi viết và chạy thử bước [2] (kiểm chứng từng ứng viên) và [3] (kiểm bằng mã) bằng `local/chain_verify.py`, trên 101 ứng viên của [1] (`local/chain_complete.py`, DeepSeek). Gold và file câu hỏi **chưa bị sửa**. Mọi số là của một người đọc, chưa kiểm độc lập.
+
+**Vì sao cần bước này.** Câu hỏi do Haiku sinh từ timeline nên chuỗi đáp án của `first_last_next`, `list`, `summary` chỉ là tập con mà người sinh chọn; các kiểm tra trước (`check_questions.py`, đọc mẫu) chỉ kiểm cái có trong chuỗi, không kiểm cái vắng mặt. Phát hiện thiếu cần một lượt đọc cả trang có câu hỏi trong tay (bước [1]), độc lập với timeline.
+
+**Kết quả [2]/[3] trên 101 ứng viên.** Gemini 3.1 Flash-Lite (gọi thẳng) và DeepSeek làm judge, mỗi ứng viên một lần gọi riêng, chỉ đưa chunk chứa nó:
+
+| Kết luận | Gemini 3.1 | DeepSeek |
+|---|---|---|
+| mốc gold có sẵn, ngoài chuỗi (`duplicate_of_gold`) | 40 | 33 |
+| qua mọi kiểm tra (`auto_accept`) | 25 | 31 |
+| `reject` | 15 | 19 |
+| cần người đọc (`human`) | 19 | 14 |
+| trùng mốc đã trong chuỗi | 2 | 4 |
+
+Hai model khớp kết luận cuối ở 54/101. DeepSeek chạy lại 30 ca: 29/30 giống lần một (ổn định nhưng không có nghĩa là đúng). Cả 19 ca `human` của Gemini đều là `date_basis = derived`.
+
+**Lỗi của judge DeepSeek (đọc `reason` các ca `auto_accept`).** (1) Chỉ so trùng với *chuỗi đáp án*, bỏ qua danh sách mốc gold cùng năm đã đưa (lý do ghi "not in the known answer set"); nguyên nhân dự đoán: câu mở đầu prompt nói ứng viên "missing from an answer set" và `duplicate_of` là trường phụ. Bằng mã, 16/31 ca `auto_accept` nghi trùng gold; đọc 10 ca thì hầu hết đúng là trùng. (2) Coi ngữ cảnh của cả đoạn là "ngày nêu rõ": 5 ca `explicit` nhưng năm lấy từ câu hoặc tiêu đề bên cạnh (thực chất derived). Đo độ trùng theo câu *ngắn hơn* (ngưỡng 0,6) thay vì theo ứng viên; ngưỡng cũ làm lọt ca (Heße 2003, Panair 1946, Batty 1986 đều đã có trong gold).
+
+**Ứng viên "mốc mới" thật rất ít.** Sau khi bỏ ca trùng gold và ca năm không nằm trong trích dẫn còn 7 ca. Đọc từng ca: 2 ca trùng gold (SCAF e23, Batty e23), 1 ca năm lấy từ tên trong danh sách (Maischberger "(1991)"), 2 ca là thống kê (Mike Lee: điểm Club for Growth, ACU; gold cố ý không ghi số đo, xếp hạng), 1 ca là việc của thực thể khác (Panair 2013, Ủy ban Sự thật), 1 ca có thể là sót thật (Washington 2018, "began coordinating with D.C. United"). Vậy mốc ngày rõ mà gold không có chủ yếu do luật phạm vi (`GUIDE_v7.md`), không phải annotator sót; mốc mới thật khoảng 4/101 (con số "10" ghi trước đó là thổi phồng vì để lọt ca trùng).
+
+**Ingest có trích được các mốc đó không.** Chạy `pass3_p9.py` (DeepSeek) trên Washington_Spirit, Mike_Lee_American_politician, Panair_do_Brasil (`local/chain_check/ingest_new/`): trích được cả 4 mốc (kể cả hai điểm số của Mike Lee) và mốc trùng gold. Mẫu rất nhỏ, nhưng cho thấy ingest rộng hơn phạm vi gold: hệ thống sẽ trả cả các mốc mà đáp án gold không có.
+
+**Đề xuất quy ước (chưa chốt tiêu chí chi tiết).**
+1. *Mốc mới (ngày rõ, gold chưa có) thì bỏ câu hỏi* (hướng b), không thêm vào gold: kiểm một câu không kiểm các câu cùng chủ đề trên trang. Chi phí khoảng 4 trong 226 câu.
+2. *Mốc gold sạch, ngoài chuỗi do Haiku quên:* thêm id vào chuỗi của câu đó, nếu judge xác nhận đúng loại và khoảng thời gian; chuỗi và đáp án tính lại *bằng mã* (sắp theo ngày, sinh lại `gold_event_ids`, `answer_ids`, `group_event_ids`), rồi chạy lại `check_questions.py`. Chỉ các câu nhận thêm mốc mới được tính lại.
+3. *Phạm vi câu hỏi:* tính trên mốc có ngày nêu rõ, cộng `derived_date` đã kiểm; bỏ mốc quá mơ hồ (không ngày, `source_inconsistent`; `approximate_date` vẫn dùng ở `list`/`summary`, không dùng ở `order_gap`/`first_last_next`). Không sửa chữ câu hỏi; quy ước ghi vào mô tả bộ dữ liệu và prompt giám khảo.
+4. *`derived_date` đã kiểm:* mốc đã nằm sẵn trong gold với cờ; việc kiểm không gán ngày mới mà kiểm lại ngày đã có (năm viết tắt: tính lại bằng mã từ năm đầu; cụm tương đối và năm câu trước: judge đọc chunk xác nhận câu neo). Kết quả "đã kiểm" lưu theo *mốc* trong file riêng (đề xuất `local/derived_verified.json`, không sửa gold), dùng chung mọi câu; việc mốc đó có vào chuỗi của một câu hay không do [1] và [2] của chính câu đó quyết. Khi đã dùng derived đã kiểm như mốc thường thì không cần `alt_answer_ids`.
+5. *Sự kiện ngày rõ ngoài phạm vi gold:* ghi vào file riêng (đề xuất `dataset/eval/timeline_pilot/extras/<Trang>.json`: ngày, text, chunk, trích dẫn, lý do, nguồn `chain_check`), không đưa vào gold. File này chỉ gồm mốc [1] tình cờ bắt được, không đầy đủ.
+6. *Giám khảo câu trả lời:* mốc thừa mà tài liệu xác nhận và đúng phạm vi câu hỏi thì không bị phạt (giám khảo xem chunk gốc), vì ingest rộng hơn gold.
+7. *Câu loại nào bị ảnh hưởng:* chỉ `first_last_next`, `list`, `summary` (chuỗi có thể thiếu mốc). `order_gap` hai mốc nêu tên không đổi.
+
+**Đề xuất sửa prompt và mã.**
+- *Prompt [1]* (`chain_complete.py`): bỏ dòng "no inferred dates"; vẫn báo ứng viên derived nhưng ghi ở trường riêng `date_basis`; định nghĩa "ngày nêu rõ" là chữ ngày nằm *trong cùng câu* với sự kiện (hoặc tiêu đề gắn trực tiếp), năm lấy từ câu bên cạnh là derived; thêm đầu vào `undated_mentions` và mốc cờ để tránh đề xuất trùng; đọc lần lượt từng chunk. Không sửa thì [1] cố tình bỏ mốc derived nên chúng không bao giờ vào chuỗi.
+- *Prompt [2]* (`chain_verify.py`): bắt trả lời có cấu trúc, không để tự do: với *từng* mốc gold cùng năm, `same_fact: true/false` (mốc gold nói cùng sự việc nhưng ngoài chuỗi vẫn là trùng); trường riêng cho câu chứa ngày (chép nguyên), mốc gold gần nhất, lý do đúng loại câu; sửa định nghĩa `explicit` như trên. Ví dụ trong prompt chỉ mô tả chung, không dùng dữ liệu thật.
+- *Mã kiểm [3]:* trùng hai kiểu. Mốc gold có ngày rõ: cùng năm và độ trùng từ (từ dài hơn 3 ký tự) ≥ 0,6 theo câu ngắn hơn. Mốc gold chỉ có cờ (ngày không đáng tin để so): so theo *cùng chunk và nội dung*; `undated_mentions` so bằng nội dung. Kiểm "năm nằm trong cùng câu chứa trích dẫn" (nâng từ "năm trong trích dẫn").
+- *Sửa lỗi [1]:* so khớp nội dung thay vì "cùng ngày" làm dự phòng; trả danh sách mốc nghi gây mơ hồ.
+- *`check_questions.py`:* cho phép `derived_date` đã kiểm (đọc `derived_verified.json`); thêm kiểm "mốc chặn" cho mốc `approximate`/không ngày xen chuỗi `first_last_next`.
+
+**Precision ingest theo tài liệu (đề xuất cách tính).** Precision cứng theo gold chỉ đo mức khớp với phạm vi gold (gold chọn lọc có chủ ý), nên là cận dưới. Đề xuất: *chỉ số chính* = mốc ingest *có ngày* được chunk xác nhận đúng (đúng trong và ngoài phạm vi) trên tổng mốc ingest có ngày; mốc `date = null` không vào mẫu số (không vào graph) và được báo riêng; báo riêng mức khớp gold (cận dưới) và tỉ lệ đúng-ngoài-phạm-vi. Tính lại từ số đọc tay tập C:
+
+| | Mốc ingest | Đúng (khớp + trong + ngoài phạm vi) | Không ngày | Sai | Precision theo tài liệu |
+|---|---|---|---|---|---|
+| Bản 8 | 222 | 191 | 10 | 21 | 191/212 = 90,1% |
+| Bản 9 | 211 | 197 | 14 | 0 | 197/197 = 100% |
+
+Số bản 9 chỉ nghĩa là người đọc không thấy mốc sai nào trong 5 trang; mẫu nhỏ, một người đọc, chưa nên viết như kết luận. Khác biệt thật là số mốc sai (21 so với 0), khớp với chỗ prompt bản 9 đã sửa; cách tính cứng cũ (60,4% so với 62,6%) không lộ ra điều đó. Precision theo tài liệu cũng không phản ánh rủi ro mốc thừa chen vào đáp án; rủi ro đó thuộc về giám khảo.
+
+**Chưa làm.** Bước kiểm derived (chờ tiêu chí); bước gộp và tính lại đáp án bằng mã; sửa `chain_complete.py`, `chain_verify.py`, `check_questions.py` theo trên; tạo `derived_verified.json` và thư mục `extras/`; chạy lại [1] với prompt mới rồi [2] trên mẫu 30 ca để so; chưa đo mức khớp cờ `approximate_date` giữa gold và ingest.
