@@ -50,7 +50,7 @@ def parse(path):
     chunks = []
     for cid, body in zip(parts[1::2], parts[2::2]):
         head, _, text = body.partition("\n")
-        chunks.append((cid, head.split(" | ", 1)[1].strip(), text.strip()))
+        chunks.append((cid, (head.split(" | ", 1)[1] if " | " in head else "Lead").strip(), text.strip()))
     secs = []
     for i, (cid, t, x) in enumerate(chunks):
         if secs and secs[-1]["title"] == t: secs[-1]["chunks"].append((i, x))

@@ -927,3 +927,45 @@ Gold không cố chứa mọi ngày trong trang. Một mốc được đưa vào
 *Cách trả lời nếu giám khảo hỏi về nhãn sót:* thừa nhận gold chọn lọc có tiêu chí và nêu số độ phủ; các benchmark công bố cũng chọn lọc hoặc dựng từ kho không đầy đủ (Timeline17/Crisis, TimeQA, ECT-QA), còn TimeBank/TempEval đầy đủ nhưng kho nhỏ (từ kiến thức chung, **chưa tra lại nguồn**). Giảm sót nhãn bằng pooling nhiều mô hình tìm mốc thiếu là hướng có thể làm sau.
 
 *Chưa chốt:* mở thêm track `education`, `ownership_structure`; định nghĩa lại `actor` (thành viên/lãnh đạo/bộ phận của chủ thể là `related`); chọn model ingest (DeepSeek hay Gemini 3.1, cần thêm khoảng 10 trang và đọc tay precision).
+
+### 10.5ao Prompt bản 9, đo precision trên tập C và sinh câu hỏi bản 5 (2026-11-08, **thử nghiệm, chưa chốt**)
+
+Mã và kết quả: `outline_trial/pass3_p9.py`, `out_p8_ds_C/`, `out_p9_ds_{A,B,C}/`, chấm bằng `score3.py` (chấm nghiêm), liệt kê mốc thừa/sót bằng `local/ingest_unmatched.py`. Gold là bản sau sửa ngày 2026-11-08 (11.980 mốc), nên số cũ chưa so trực tiếp được.
+
+**Tập dùng.** A = 5 trang tune đầu (đã chỉnh prompt trên đó, lạc quan); B = 5 trang tune khác; C = 5 trang lấy từ 50 trang đã audit (Archaeologia Cambrensis, Irina Levitina, Maidan Nezalezhnosti, Stefan Heße, Wilhelm Liebknecht). C chưa dùng để chỉnh bản 8 nhưng **đã dùng để viết bản 9**, nên muốn đo bản 9 sạch cần tập D mới.
+
+**Bản 9** = bản 8 cộng ba quy tắc: (1) năm kết thúc viết tắt hai chữ số được mở rộng theo thế kỷ/thập kỷ của năm bắt đầu (1823–27 → `date` 1827, `date_text` giữ nguyên); (2) khoảng năm chỉ nói một tài liệu/mục lục/liên kết *bao phủ* giai đoạn nào thì không phải mốc; (3) đọc tiêu đề danh sách, "Runners-up/Finalists/Nominations" không được viết thành "won".
+
+**Recall chấm nghiêm (DeepSeek Flash).**
+
+| Trúng/vàng | Bản 8 | Bản 9 |
+|---|---|---|
+| Tập A (167) | 160 | 159 |
+| Tập B (170) | 145 | 145 |
+| Tập C (146) | 134 (91,8%) | 132 (90,4%) |
+| Tổng | 439 | 436 |
+
+Bằng nhau trong nhiễu (DeepSeek lệch 1–2 mốc/trang giữa các lần chạy; **chưa đo nhiễu**). Bản 9 sửa được Fearnley 1827 và 1832 (năm viết tắt trong câu văn, `date` trước đó rỗng) và làm Archaeologia hết 12 mốc "khoảng năm mục lục" coi là ngày sự kiện, Irina 9 mốc "won" thành "was runner-up in".
+
+**Đính chính.** Lần trước tôi viết "11/12 mốc sót ở C là do năm viết tắt": **sai**. Archaeologia sót 10 mốc kết thúc nhiệm kỳ trong danh sách dài ("1855–70", "1871–5", "1878–91", "1849–53") trong khi "1846–9", "1854–5", "1876–8", "1884–7" được trích đúng, `date` điền đúng (ví dụ `date` 1855, `date_text` "5"). Đầu ra bản 8 và bản 9 giống nhau ở chỗ này. Chỉ Fearnley và Maidan e15 là do viết tắt. Nguyên nhân sót ở Archaeologia chưa rõ (giả thuyết chưa kiểm: bỏ sót khi danh sách dài).
+
+**Precision (một người đọc, tôi, chưa kiểm độc lập).** Mốc thừa = mốc trích không khớp gold. Phán đoán dựa vào *chunk* chứ không dựa vào gold: (đúng, trong phạm vi) chunk nói đúng và mốc là thay đổi trạng thái/cột mốc theo 10.5an; (đúng nhưng ngoài phạm vi) chunk nói đúng nhưng là từng trận/giải/phát biểu mà gold loại có chủ ý; (không ngày) không có ngày dùng được; (sai) chunk không nói vậy hoặc ngày gán sai.
+
+| Tập C | Trích | Khớp gold | Thừa | Đúng, trong phạm vi | Đúng, ngoài phạm vi | Không ngày | Sai |
+|---|---|---|---|---|---|---|---|
+| Bản 8 | 222 | 134 | 88 | 26 | 31 | 10 | **21** |
+| Bản 9 | 211 | 132 | 79 | 24 | 41 | 14 | **0** |
+
+| Precision | Bản 8 | Bản 9 |
+|---|---|---|
+| Chặt (chỉ mốc khớp gold) | 134/222 = 60,4% | 132/211 = 62,6% |
+| Vừa (+ đúng trong phạm vi) | 160/222 = 72,1% | 156/211 = 73,9% |
+| Rộng (+ đúng ngoài phạm vi) | 191/222 = 86,0% | 197/211 = 93,4% |
+
+Mức "vừa" gồm cả mốc trùng gold nhưng trích ở chunk khác hoặc trích hai lần (ví dụ Maidan "1991 đặt tên Independence Square" ở hai chunk); tôi không tách riêng, nên "vừa" hơi lạc quan. 21 mốc sai của bản 8: 12 ở Archaeologia (khoảng năm mục lục/liên kết ngoài), 9 ở Irina ("won" trong mục Runners-up). Ở bản 9, 12 mốc đầu biến mất, 9 mốc sau thành "was runner-up" (đúng, ngoài phạm vi), đó là lý do cột "ngoài phạm vi" tăng 31 → 41. 14 mốc "không ngày" của bản 9 chủ yếu ở Liebknecht (đoạn 1848–49 chỉ có "after the defeat…", không có năm trong câu).
+
+*Đề xuất:* dùng bản 9 (không hại recall, bỏ lỗi sai đã biết); báo precision ở ba mức cùng định nghĩa; trước khi chọn model ingest cần tập D mới, một người đọc thứ hai và chạy Gemini 3.1 (hết quota ngày, reset khoảng 15:00).
+
+**Sinh câu hỏi bản 5** (`local/prompts/sinh_cau_hoi_v5.md`, `_v5_work.md`; kiểm bằng `local/questions/check_questions.py`). Bỏ trần 8 câu/trang, thay bằng luật chống trùng: `first_last_next` đúng 2 mốc kèm `subtype`/`answer_ids`/`group_event_ids`; mỗi mốc tối đa 4 câu; `order_gap` tối đa 1/3 số câu của trang; một mốc thuộc một nhóm; bản dịch không trộn với bản gốc; cờ `derived_date` cấm, `approximate_date` và `source_inconsistent` cấm cho `order_gap`/`first_last_next`. Kết quả: v5 262 câu (50 trang, 0 lỗi, 31 cảnh báo, 6 trang rỗng), v5_work 96 câu (25 trang, 0 lỗi, 5 cảnh báo, 7 trang rỗng); bản có trần 8 ra 288 câu. Ít câu hơn dù bỏ trần vì luật chặt hơn. Tập `work` là tập con riêng vì ranh giới `work`/`other` mơ hồ 18% (10.5aa).
+
+**Đọc tay câu hỏi bản 5 (một người đọc, chưa kiểm độc lập).** *Nhóm `work` của v5_work (96 câu, khoảng 60 nhóm):* phần lớn nhóm có ranh giới rõ (Humongous: series Backyard Sports/Putt-Putt/Pajama Sam, gói; Goldberg: phim/truyền hình; Mike Lee: sách; Jimmy Lai: ấn phẩm ở Đài Loan; Tryggve Gran: sách trước/sau thập niên 1940). *Đề xuất bỏ cả nhóm:* (1) Duby, nhóm "sách bản gốc" (6 câu): `text` của e4/e5/e7/e11/e12/e13/e16/e18 dùng tên tiếng Anh nên không phân biệt được bản gốc với bản dịch, chỉ giữ nhóm "bản dịch tiếng Anh" (có chữ "English translation" trong `text`); (2) Breitscheidplatz, nhóm "tòa nhà hoàn thành/xây" (3 câu): nhóm gồm cả hội trường triển lãm lẫn nhà ở, loại Europa-Center (e17) mà giữ e5 cùng địa điểm, ranh giới tùy tiện; (3) Journal_de_20_heures, nhóm "chương trình hoặc tiền thân bắt đầu phát sóng" (3 câu): trộn tiền thân, chính chương trình và một chương trình khác (20h30 le dimanche); (4) Maidan, nhóm "công trình xây hoặc thi công" (4 câu): trộn tòa nhà, tượng đài, thi công metro và việc rào quảng trường. *Giữ nhưng ghi chú:* Bal_des_debutantes câu "mở vũ hội cùng cha" (gold chỉ e20, e23 vì nguồn ghi "her father" ở hai mốc này, còn Willis/Stallone/Kennedy nguồn chỉ ghi "with"; người có kiến thức ngoài có thể cho là sót); Liebknecht nhóm "sách xuất bản ở Leipzig, Stuttgart hoặc Nürnberg" (nơi xuất bản có trong quote, e22 không có trong `text`); NSW C38 "tàu/tuyến đường dài có tên" hơi rộng. *Mẫu 40 câu v5 ngẫu nhiên (seed 11, trên 262):* 1 lỗi rõ (Rezidor, loại `order_gap` nhưng câu hỏi "cái nào trước", không hỏi số năm) và vài chỗ cần để ý: "Real Madrid, giai đoạn 1988–1993" trộn mốc "bắt đầu nhiệm kỳ" với mốc "is head coach"; "Pelican egg" dùng e4 có ngày "between 1936 and 1938"; "Mike Lee, năm đầu làm thượng nghị sĩ" gom cả phát biểu và bỏ phiếu. Không phát hiện đáp án sai về ngày/thứ tự trong 40 câu này. Cần mẫu lớn hơn và người đọc thứ hai trước khi nói chất lượng câu hỏi.
