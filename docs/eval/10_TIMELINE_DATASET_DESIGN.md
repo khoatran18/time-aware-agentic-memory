@@ -1064,3 +1064,63 @@ Số bản 9 chỉ nghĩa là người đọc không thấy mốc sai nào trong
 *Phạm vi ảnh hưởng.* Hàm chỉ quyết định mốc nào được làm đáp án hoặc neo của câu hỏi (sinh câu, `check_questions.py`, giám khảo). Không đổi nội dung gold, không đổi kết quả ingest, và không ảnh hưởng cách chấm recall (khớp theo ngày và chunk, không theo loại). Muốn đơn giản hơn có thể né hẳn mốc `loose` ở mọi loại câu; chưa chọn.
 
 *Danh sách quy ước đã thống nhất (2026-11-08, đề xuất).* Bỏ 4 nhóm `work` (Duby, Breitscheidplatz, Journal_de_20_heures, Maidan) và xử lý câu Rezidor; derived đã kiểm dùng được (năm viết tắt do mã tính lại; cụm tương đối và năm câu trước cần câu neo cùng chunk, cách tối đa 2 câu, judge chép nguyên và mã kiểm; neo ở chunk khác thì không dùng); kiểm derived lười, chỉ cho mốc [1] đề xuất; `first_last_next` bỏ mốc derived cùng năm với mốc kế cận; `order_gap` chưa mở cho derived; "đã kiểm" lưu theo mốc ở `local/derived_verified.json`, không sửa gold; chỉ dùng DeepSeek, người đọc mẫu khoảng 15 ca để chỉnh prompt; giám khảo tha mốc thừa mà tài liệu xác nhận; `extras/<Trang>.json` ghi mốc ngày rõ ngoài phạm vi gold, dùng đo precision theo tài liệu và cho giám khảo; mốc mới thật không vào gold, bỏ câu; không sửa chữ câu hỏi.
+
+### 10.5ar Sinh câu hỏi v6/v7 và chạy lại bước kiểm chuỗi [1]–[3] (2026-11-08, **đề xuất, chưa chốt**; số liệu của một người đọc, mỗi phép đo một lần chạy)
+
+Mục này ghi tiếp 10.5aq: viết lại prompt sinh câu hỏi (v6, v7), sửa prompt/mã của [1] [2] [3], so ba bộ câu hỏi v5, v6, v7 bằng cùng một prompt [1], và quy trình hiện hành. Gold và các file `v5`, `v5_work` **không bị sửa**.
+
+**1. Quy trình hiện hành (đề xuất).**
+
+| Bước | Việc | Cách làm | Trạng thái |
+|---|---|---|---|
+| Sinh | Sinh câu hỏi từ gold | Subagent Haiku, người dùng chạy 2 session (trang 1–25, 26–50), prompt `local/prompts/sinh_cau_hoi_v7.md`, ra `local/questions/v7/` | đã chạy |
+| Checker | Kiểm cấu trúc câu | `python3 -I local/questions/check_questions.py v7` | đã chạy: 0 lỗi, 28 cảnh báo |
+| [1] | Tìm mốc thiếu khỏi chuỗi | `local/chain_complete.py` (DeepSeek, đọc cả trang) | đã chạy |
+| [2] | Giám khảo từng ứng viên | `local/chain_verify.py` (DeepSeek, chỉ chunk của ứng viên) | đã chạy |
+| [3] | Kiểm bằng mã (nằm trong `chain_verify.py`) | quote/năm trong chunk, trùng gold bằng từ chung ≥ 0,6 so với câu ngắn hơn, trùng `undated_mentions` | đã chạy |
+| Kiểm `derived` | Xác minh năm suy ra | chưa viết; nhận `derived_pending.jsonl` do [2] tạo | **chưa làm** |
+| Gộp | Thêm id vào chuỗi, tính lại đáp án bằng mã, bỏ câu có mốc mới thật | chạy thử trước, sao lưu và nhật ký như `gold_apply_edits.py` | **chưa làm** (với v7 gần như không có gì để gộp) |
+
+Lệnh: `WORKERS=6 PROFILE=deepseek_flash python3 -I local/chain_complete.py "$PWD" local/chain_check/<tên> v7`, rồi `PROFILE=deepseek_flash WORKERS=4 python3 -I local/chain_verify.py "$PWD" local/chain_check/<tên> local/chain_check/<tên_verdict>`. Chỉ dùng DeepSeek (không có tiền cho hai model).
+
+**2. Thay đổi prompt sinh câu hỏi.**
+
+| Bản | Nội dung | Số câu (không tính `work`) |
+|---|---|---|
+| v5 | bản cũ (`sinh_cau_hoi_v5.md`) | 262 (list 79, first_last_next 87, order_gap 70, summary 26) |
+| v6 | thêm "Bổ sung v6": A chuỗi đầy đủ (duyệt toàn bộ `events`, đối chiếu `P.txt`, bỏ câu nếu nghi thiếu), B mốc cờ/`undated_mentions` xen chuỗi thì bỏ hoặc thu hẹp, C `order_gap` chỉ hỏi khoảng cách năm giữa hai mốc nêu tên, D bỏ tiêu chí mơ hồ kiểu `work`, E ghi `criterion`, `window_from/to`, `flagged_ids`, F tự kiểm | 172 (60 / 67 / 40 / 5) |
+| v7 | v6 + G hướng dẫn riêng cho `summary` (tổng hợp đầy đủ trong một giai đoạn hẹp, 3–8 mốc, không gồm cả đầu lẫn cuối một nhiệm kỳ) + H chỉ ghi file của trang được giao | 179 (63 / 50 / 46 / 20) |
+
+Nguyên nhân v6 chỉ còn 5 câu `summary` (suy đoán có cơ sở, chưa hỏi Haiku): luật "chuỗi đầy đủ" khiến loại tổng hợp-chọn-điểm-chính (14 trong 26 câu `summary` v5 có mốc cùng `track` và `label` ngoài chuỗi) không còn hợp lệ; 9 trong 26 có mốc cờ xen (cận trên, tính theo `track`).
+
+**3. So ba bộ bằng cùng prompt [1] mới** (lượt có ứng viên thật = có ứng viên ngoài `quote_not_in_chunk`/`year_not_in_chunk`):
+
+| | v5 | v6 | v7 |
+|---|---|---|---|
+| Lượt kiểm | 192 | 132 | 133 |
+| Lượt có ứng viên thật | 31 (16%) | 7 (5%) | 5 (4%) |
+| list | 18/79 | 4/60 | 3/63 |
+| first_last_next | 6/87 | 1/67 | 2/50 |
+| summary | 7/26 | 2/5 | 0/20 |
+
+"0/20" = trong 20 câu `summary`, 0 câu có ứng viên. Chênh 5% so với 4% (v6, v7) là nhiễu. Chưa đo nhiễu giữa các lần chạy [1]. Kết luận: v6 và v7 có chuỗi đầy đủ hơn v5 rõ rệt theo chỉ số này; v7 hơn v6 ở số `summary`.
+
+**4. [2] và [3] trên ứng viên của v7.** 9 ứng viên; 3 bị loại vì `year_not_in_chunk` (Panufnik); giám khảo xét 6: 2 trùng trong chuỗi (Real Madrid `e117`, Mercury News `e62`; [1] báo nhầm), 1 trùng gold (Panair `e12`), 3 trùng `undated_mentions` (David_Young "Act of 2017", hai mốc Leahy). **Không ca nào buộc thêm mốc vào chuỗi hoặc bỏ câu.** Lần thử trên mẫu 30 ca của prompt [2] mới: `auto_accept` từ 9 xuống 3.
+
+**5. Sửa prompt và mã.**
+- [1]: bỏ "no inferred dates" (đổi thành "năm cùng câu; nếu không thì vẫn báo, `derived=true`"); nhận thêm mọi mốc gold ngoài chuỗi (`ALREADY RECORDED`, kèm cờ) và `undated_mentions`; thêm trường `recorded_id` (id gold, `undated`, hoặc null) để phân loại mốc gold bị quên khỏi chuỗi; bỏ dự phòng "cùng ngày". Lần sửa đầu viết "đừng báo cái đã có" làm mất ứng viên loại "gold quên" (8 xuống 1), đã sửa lại.
+- [2]: giám khảo phải duyệt từng mốc đã biết và điền `same_fact_ids` (thay `duplicate_of` tùy chọn), chép nguyên `date_sentence`; `explicit` nghĩa là năm cùng câu với sự kiện; không tính thống kê, kế hoạch, sự kiện của thực thể khác.
+- [3]: trùng gold bằng mã (cùng năm, từ chung ≥ 0,6 so với câu ngắn hơn; gold chỉ có mốc cờ thì thêm điều kiện cùng chunk), trùng `undated_mentions`, `auto_accept` đòi `date_sentence` chứa năm.
+- `check_questions.py`: thêm phiên bản `v6`, `v7`; với `first_last_next` (v5 trở lên) kiểm "lộ năm" chỉ so với `answer_ids`, không so với mốc neo (báo động giả ở Mercury News câu 1: năm 1967 là năm mốc neo, đáp án là 1994).
+
+**6. Đổi tên trạng thái `quote_fail`** (vì gộp hai lỗi khác nhau): `quote_not_in_chunk` (trích dẫn không có trong chunk) và `year_not_in_chunk` (trích dẫn đúng nhưng năm không có trong chunk, tức model tự suy). Với `year_not_in_chunk`, [2] không gọi giám khảo mà ghi vào `derived_pending.jsonl` (trạng thái `derived_pending`) để chuyển sang bước kiểm `derived` sau này. Kết quả cũ (`quote_fail`) vẫn đọc được: script tách theo `quote_ok`/`year_ok`. Phân bố trên các lần chạy: v7 3/3 là `year_not_in_chunk`; v5 4 ca trích dẫn sai và 5 ca thiếu năm. Ba ca Panufnik v7 (Sinfonia Rustica 1948, Standard of Labour 1950, Polonia Restituta 1991) đều là sự kiện có thật nhưng chunk không nêu năm; đã đối chiếu và việc loại là đúng (hai ca còn lại có trong `undated_mentions` hoặc gold gắn ngày sáng tác).
+
+**7. Điểm yếu đã biết.**
+- Giám khảo coi năm nằm trong tên riêng ("Act of 2017") là ngày; chưa sửa.
+- Giám khảo chưa phân biệt được sự kiện của thực thể khác với của chính trang (ví dụ Panufnik 1962, cái chết của Ward).
+- `recorded_id` do model tự khai; [1] báo nhầm 2 trong 4 ca "gold quên" ở v7 (mốc đã nằm trong chuỗi), may nhờ [2], [3] bắt được.
+- Checker chưa bắt: mốc cờ xen chuỗi theo `criterion` (đếm thô 38/133 câu v7, cận trên), chuỗi đầy đủ.
+- v7: 3 trang rỗng (`Line_15_Beijing_Subway`, `SCM_Gloria_Buz_u`, `Ich_bin_ein_Star__Holt_mich_hier_raus_`) và thiếu file `New_South_Wales_C38_class_locomotive`; `Irina_Levitina` có 17 cảnh báo text trùng (gold các mốc title giống hệt nhau).
+- Các khẳng định "gold thiếu mốc" trong báo cáo agent (Real Madrid EuroLeague 1964–1980, Panair, New Orleans/Houston Astros, Condor 24,9%) chưa kiểm với chunk.
+
+**8. Việc tiếp theo (đề xuất).** (a) Người dùng đọc mẫu khoảng 15 câu v7 (ưu tiên 20 câu `summary` mới và các câu agent nêu là còn nghi: Leahy L2/L3, Campaign C1, Real Madrid R8, Condor C2, Panair P5). (b) Viết bước kiểm `derived` (kiểm lười, chỉ cho mốc trong `derived_pending.jsonl`). (c) Chạy [1] thêm một lần trên v7 để đo nhiễu. (d) Viết bước gộp, chạy thử. (e) Chưa chốt: né hẳn mốc `approx_year_loose`, ingest v10 và model ingest, `derived_date` ở `order_gap`.
