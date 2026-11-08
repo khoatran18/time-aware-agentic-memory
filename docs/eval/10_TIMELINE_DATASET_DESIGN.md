@@ -1145,3 +1145,98 @@ Hệ quả: đáp án của `summary` và `list` là chính danh sách `gold_eve
 *Prompt v8 (`local/prompts/sinh_cau_hoi_v8.md`, chưa chạy).* v7 cộng mục I: viết `criterion` trước rồi viết câu hỏi từ nó; mỗi cụm trong câu hỏi ("or", "each", "a named ...") phải ánh xạ vào `criterion`; duyệt mọi mốc cùng `track` và ghi lý do cho mốc nằm giữa chuỗi mà bị loại (nếu gold chỉ có một vế thì hỏi một vế); câu hỏi chung thì chuỗi phải đủ mọi mốc thuộc loại đó, muốn chuỗi nhỏ thì nêu tên; mốc phải đúng loại sự kiện (không dùng "từ chức" thay "bầu cử"); `summary` ít nhất 3 mốc. Đầu ra `local/questions/v8/`; `check_questions.py` đã nhận phiên bản `v8`.
 
 *Chưa chốt:* xử lý tay Campaign q2 và Steele_Hall q3 (bỏ hay viết lại); có chạy v8 hay dùng v7 và sửa tay; cải tiến [1b] (ví dụ cho model biết hai cách đọc "passed to a successor") hay bỏ; đo nhiễu [1] bằng lần chạy thứ hai (không bắt buộc).
+
+**Bổ sung 10.5as (2026-11-08, đề xuất): chạy v8 trên 50 trang cũ, so v7 với v8 bằng bước A, B, C; thử lại trên 50 trang mới.** Mọi nhận xét là của một người đọc, mẫu nhỏ, chưa đo nhiễu giữa hai lần sinh.
+
+**1. v8 trên 50 trang cũ (cùng trang với v7).** Haiku, 2 session, mỗi session 5 agent × 5 trang.
+
+| | v7 | v8 |
+|---|---|---|
+| Câu | 179 | 171 |
+| list / first_last_next / order_gap / summary | 63 / 50 / 46 / 20 | 63 / 46 / 43 / 19 |
+| Checker | 0 lỗi, 28 cảnh báo | 2 lỗi, 12 cảnh báo |
+
+Hai lỗi checker của v8 (Bill_Goldberg:3, Washington_Spirit:2) cùng dạng: câu viết "(... in any order)" kèm năm trùng gold; năm không lộ đáp án nhưng checker chặn. Chưa quyết sửa checker hay bỏ ngoặc. Bốn trang rỗng (Georges_Duby, Ich_bin_ein_Star, SCM_Gloria_Buz_u, NSW_C38).
+
+**2. [1] trên v8.** 4/128 lượt có ứng viên thật (khoảng 3%), so với v5 16%, v6 5%, v7 4%. Sáu ứng viên, không cái nào buộc sửa (năm suy từ câu khác, năm trong tên luật, khoảng năm, mâu thuẫn nguồn, mốc ngoài chuỗi do câu hỏi mơ hồ, model tự bác). Như đã ghi ở 10.5aq, [1] không bắt được lỗi nội dung, nên ít ứng viên không chứng minh chuỗi đầy đủ.
+
+**3. Ba lỗi nội dung cũ của v7 đã hết ở v8** (Campaign q2 đưa thêm `e7`; Batty q4 `criterion` khớp ba ủy ban; Steele_Hall `list` Senate gồm "resigned"). Lỗi mới: Steele_Hall q3 `summary`, `e11` (1972-03-15) và `e12` (1973) cùng là một lần từ chức khỏi LCL, bị hai chunk ghi hai năm nên đếm đôi.
+
+**4. Bước A (`local/chain_span_stats.py`): đếm mốc gold nằm giữa mốc đầu và mốc cuối của chuỗi nhưng ngoài chuỗi.** Hai mức: cùng `label` (bỏ label trống) và cùng `track` (bỏ `other`, vốn là thùng chung chiếm khoảng 30% mốc). Lần chạy đầu cho 68% vì label trống và `other` khớp tất cả; sau sửa:
+
+| Tập | Câu có mốc cùng label ngoài chuỗi | Cùng track |
+|---|---|---|
+| 45 trang cũ chung: v7 / v8 | 11/132 (8,3%) / 14/128 (10,9%) | 46% / 53% |
+| 50 trang mới: v7n / v8n | 21/190 (11,1%) / 16/215 (7,4%) | 47% / 49% |
+
+Chênh nằm trong nhiễu và đổi chiều giữa hai tập. Phần lớn báo nhầm (mốc "kết thúc" khi câu hỏi "bắt đầu", giải khác cùng track). Bước A chỉ là chỉ báo thô.
+
+**5. Bước B (đọc tay 20 câu bị bước A đánh dấu trên 50 trang cũ).** Không câu nào thiếu mốc thật ở cả hai bản. Điểm yếu: Real_Madrid v8 q3 (`e97`, `e100` là "is head coach" nhưng tính như bổ nhiệm); Fort_Tilden v8 q1 (câu ghép hai loại sự kiện); Vindobona v8 q2 (cửa sổ "mid-1960s" mơ hồ, `e7` là 1964); David_Young `e16`, `e20` bị loại khỏi `list` vì "không phải phiếu" nhưng dùng trong q3, q7 (chưa kiểm chunk).
+
+**6. Bước C (đọc mù 44 câu, 22 mỗi bản, loại các trang đã đọc, trên 50 trang cũ).** Ba lỗi nhẹ, không lỗi thiếu mốc: Condor `summary` v8 (`e29` thông báo và `e31` hoàn tất cùng một vụ sáp nhập, đếm đôi); Panair `list` v7 (`e16` "first overnight service" không phải tuyến mới); Talk_im_Turm `list` v8 (`e5` có cờ `source_inconsistent`, `e10` `approximate`, cả hai nằm trong chuỗi). Tám câu `order_gap` đều đúng.
+
+**7. Thử lại trên 50 trang mới.** 50 trang lấy từ `tune`, khác hẳn 50 trang cũ (đối chiếu bằng mã: giao rỗng, 0 trang thuộc `valid`), **cùng một bộ trang cho v7n và v8n** để so cặp (`local/prompts/pages_new50.json`; 4 session Haiku, đầu ra `local/questions/v7n/`, `v8n/`). Prompt thêm lưu ý "gold chưa được soát: không dùng mốc có `text` không khớp chunk, báo id". **Gold của 50 trang này chưa soát** (50 trang cũ đã được Haiku soát), nên lỗi có thể do gold chứ không do sinh câu hỏi.
+
+| | v7n | v8n |
+|---|---|---|
+| Câu | 254 | 277 |
+| list / first_last_next / order_gap / summary | 82 / 70 / 64 / 38 | 78 / 85 / 62 / 52 |
+| Trang có câu | 50/50 | 50/50 |
+| Checker | 0 lỗi, 27 cảnh báo | 0 lỗi, 37 cảnh báo |
+| [1]: lượt có ứng viên thật | 11/190 (5,8%) | 8/215 (3,7%) |
+| Câu `summary` đúng 3 mốc | 11/38 | 26/52 |
+
+Đọc từng ứng viên của [1]: phần lớn trùng mốc đã có trong chuỗi hoặc nằm ngoài cửa sổ của câu. Còn lại, **chuỗi thiếu mốc thật** (chuỗi thiếu mốc nghĩa là có mốc thỏa tiêu chí của câu hỏi, đã có ngày rõ trong chunk, nhưng không nằm trong `gold_event_ids` của câu, nên đáp án của `list`/`summary` thiếu):
+- v7n, gold thiếu mốc nên chuỗi thiếu (2 câu, [2][3] xác nhận `auto_accept`): Cochran:2 (thiếu ba lần Distinguished Flying Cross 1947–1964), Sam_Selvon:1 (thiếu Chaconia Medal 1994; câu Sam_Selvon:2 dạng "next" không đổi đáp án). Hai ca [1] báo nhưng **không** phải thiếu mốc: Meet_the_Press:5 (cả bốn tổng thống Carter 1980, Clinton 1997, Obama 2008, Trump 2019 đã có trong chuỗi, `e15`, `e24`, `e30`, `e38`; [1] khai sai `recorded_id`) và Eliot_Engel:3 (giải Human Rights Campaign 2002 là điểm đánh giá 100%, [2] loại).
+- v7n, gold có mốc nhưng chuỗi bỏ sót, theo đánh giá của người đọc (2 câu): Rams:1 (hỏi "chuyển sang thành phố khác" nhưng thiếu `e28`, 1980, từ Coliseum ở Los Angeles sang Anaheim); Sirotkin:1 (thiếu `e10`, 7/2013 vào Sauber làm test driver, trong khi `e12` "remained Sauber test driver 2014" có trong chuỗi).
+- v8n: không có ca thiếu thật. Các agent v8 thu hẹp cửa sổ để tránh vùng gold thiếu (Sam_Selvon cửa sổ trước 1970 loại Chaconia 1994; Friedman cửa sổ từ 1970 loại Loeb 1968; Rams đặt cận dưới giữa thập niên 1990 loại draft 1983). Đây đúng là tác dụng của mục I: phải ghi lý do loại mốc cùng track.
+
+Theo luật hiện hành (hướng b, không sửa gold), các câu v7n thiếu mốc ở trên phải bỏ.
+
+Đọc mù 48 câu (24 mỗi bản): v7n 4 lỗi nhẹ (Charles_Lee `list` có `e15` mang cờ `source_inconsistent`; MS_GNV `summary` có `e1` cùng cờ; Chicago_Red_Stars `summary` đếm NWSL hai lần, co-founded 2012-11 và began playing 2013; Meet_the_Press `summary` 1948–1959 chỉ có 3 mốc trong khi gold còn "first guest Farley", "MLK interview" không ngày). v8n 2 lỗi nhẹ (Good_Game `summary` có mốc cuối "addition to the team" không chắc là field reporter; Polugaevsky `order_gap` hai mốc 1977 và 1980 dùng chung câu trích "the 1977 and 1980 cycles" nên phụ thuộc gold). Atlanta_Dream v8n `e33`, `e63` nghi vì câu trích gold không nói việc chuyển sân; đã đối chiếu chunk, cả hai có câu hỗ trợ nên không tính lỗi. Không câu v8n nào thiếu mốc; tám câu `order_gap` đọc đều đúng.
+
+**8. Kết luận (đề xuất, chưa kiểm chứng).** Trên 50 trang cũ hai bản ngang nhau về chất lượng chuỗi, v8 nhỉnh nhẹ vì ba lỗi đã biết đã hết. Trên 50 trang mới v8 hơn rõ ở lỗi thiếu mốc (v7n 4 câu trên 190, gồm 2 do gold thiếu và 2 chuỗi bỏ sót; v8n 0 trên 215). Đề xuất dùng **v8 làm bản chính**. Giới hạn: một người đọc; các phán đoán Rams:1 `e28` và Sirotkin:1 `e10` là của người đọc; chưa chạy [2], [3] trên ứng viên của v7n, v8n; chưa đo nhiễu giữa hai lần sinh; v8 cho nhiều `summary` đúng 3 mốc (nhẹ) và nhiều cảnh báo checker hơn.
+
+**9. Việc tiếp theo (đề xuất).** (a) Người dùng quyết v8 hay v7 làm bản chính. (b) Xử lý bốn câu lỗi (Steele_Hall q3, Condor, Panair, Talk_im_Turm) và hai lỗi checker "any order". (c) Nếu giữ v7n: bỏ hai câu do gold thiếu (Cochran:2, Sam_Selvon:1) và thêm id vào chuỗi cho hai câu bỏ sót (Rams:1 `e28`, Sirotkin:1 `e10`) qua bước gộp. (d) Viết bước kiểm `derived` và bước gộp (chạy thử trước). (e) Sửa checker: `summary` có cả đầu lẫn cuối một giai đoạn, mốc cờ hoặc mâu thuẫn nguồn trong cùng một `summary`, mốc thông báo cộng hoàn tất. (f) Sửa giám khảo [2]: năm trong tên riêng, sự kiện thực thể khác. (g) Soát gold 50 trang mới trước khi dùng làm tập đánh giá.
+
+**Bổ sung 10.5at (2026-11-08, đề xuất): [2][3] trên v7n, v8n và v8; soát gold 50 trang mới; vai trò của [1][2][3]; quy ước đã thống nhất.** Một người đọc, mỗi phép đo một lần chạy.
+
+**1. [2][3] (DeepSeek, `local/chain_check/{v7n_v,v8n_v,v_v8}`).**
+
+| | v7n | v8n | v7 (cũ) | v8 (cũ) |
+|---|---|---|---|---|
+| Ứng viên vào [2] | 22 | 17 | 6 | 6 |
+| Trùng mốc đã trong chuỗi | 11 | 10 | 2 | 1 |
+| Trùng gold ngoài chuỗi | 4 | 5 | 1 | 2 |
+| Trùng mục không ngày | 1 | 1 | 3 | 2 |
+| `reject` | 3 | 1 | 0 | 1 |
+| `auto_accept` (ngày rõ, ngoài gold) | 3 | 0 | 0 | 0 |
+| Chờ kiểm `derived` | 6 | 1 | 3 | 0 |
+
+Đóng góp thực: v7n 2 câu cần thêm id vào chuỗi (Rams:1 `e28`, Sirotkin:1 `e10`, cả hai `duplicate_of_gold` hợp lệ) và 2 câu phải bỏ (Cochran:2 DFC 1947–1964; Sam_Selvon:1 Chaconia 1994; câu Sam_Selvon:2 dạng "next" không đổi đáp án). v8n, v7, v8: 0. Các ca `duplicate_of_gold` còn lại đều đúng khi để ngoài chuỗi (Imperial `e19`: cờ `derived_date` và ngoài cửa sổ; Rams:2 `e54`: chào bán; Becquerel: thành viên viện hàn lâm không phải chức vụ; Atlanta `e6`: sân đầu tiên; MS_GNV `e22`: ngoài cửa sổ; Panair `e12`: nhận máy bay; PEN `e3`: tạp chí, câu hỏi nói chương trình/festival; Washington `e21`: năm 2018, ngoài cửa sổ "sau 2018").
+
+**Đính chính.** Ở 10.5as mục 7 (bản đầu) tôi liệt Meet_the_Press:5 và Eliot_Engel:3 là gold thiếu mốc: **sai**. Cả bốn tổng thống (Carter 1980, Clinton 1997, Obama 2008, Trump 2019) đã có trong chuỗi (`e15`, `e24`, `e30`, `e38`), [1] khai sai `recorded_id`; [2] xếp `duplicate_in_chain`. Eliot_Engel:3: giải Human Rights Campaign 2002 là điểm đánh giá 100%, [2] loại. Đã sửa mục 7.
+
+**2. Soát gold 50 trang mới** (DeepSeek `local/gold_review_ds.py`, kết quả `local/gold_review/ds_new50/`, vòng đầu; tôi đọc lại từng đề xuất và đối chiếu chunk ở các ca nghi). 37 đề xuất trên 22 trang, 28 trang sạch, 0 đề xuất không qua kiểm quote/id.
+- Mốc thiếu có năm rõ (13, không rơi vào câu hỏi nào hiện có): Vologda 8 (1553, 1554, 1666, 1692, 1722, 1924, 1936-12, 1780), ACS_Poli 4 (hai Cúp, á quân 2008–09, phá sản 2018–19; đều theo mùa nên xấp xỉ), Alemannia 1 (xuống hạng 2007, năm suy ra).
+- `same_text` thật: Arnulf `e16`, `e17`, `e40`.
+- DeepSeek đọc sai: Sarah_Palfrey_Cooke `e17` (Betz thua Cooke 1941, gold đúng), Masters `e13` (Hendry thắng 9–8, gold đúng). Đã đối chiếu và không phải lỗi: Charles_Lee `e33`, Desmond `e25`/`e26`, Good_Game `e13`, Hugh_Scott `e26`, Josep_Rull `e27`.
+- Nhẹ về câu chữ, chưa kiểm từng cái: John_Mann và Rush_Holt `e1` (suy quê quán từ quốc tịch), Hasselhoff `e106`, Friedman `e36`, Whitney `e24`, Leuna `e24`, London `e1`, MS_GNV `e14`, Sam_Selvon `e32`, Lev `e25`, Quelli `e10`.
+- Giới hạn: soát theo trang không thay được kiểm chuỗi theo câu; ví dụ Cochran và Sam_Selvon do [1][2][3] bắt, không phải soát gold.
+
+**3. Vai trò của [1][2][3] (nhận định, đề xuất).** Cải thiện chuỗi đầy đủ đến từ **prompt v5 → v8**, không phải từ [1][2][3]: [1] báo ứng viên thật ở v5 16% (31/192), v6 5%, v7 4%, v8 3%; 50 trang mới v7n 5,8%, v8n 3,7%. [1][2][3] là **công cụ đo và kiểm định**, không sửa dữ liệu: chúng định lượng được lỗi của v5, cho biết loại lỗi để viết luật v6–v8, và so được các bản prompt. Trên gold đã soát (50 trang cũ) chúng đóng góp 0; trên gold chưa soát (50 trang mới) chúng bắt được 4 câu (2 thêm, 2 bỏ). [1] một mình thổi phồng số thiếu (khai sai `recorded_id`; Meet_the_Press báo 4 mốc đã có trong chuỗi), nên [2][3] bắt buộc. [1] không thấy lỗi nội dung (chuỗi lệch nghĩa, đếm đôi: Campaign q2, Steele_Hall q3, Condor), chỉ đọc tay mới thấy.
+
+**4. So v5 với v7/v8** (cùng prompt [1] mới). Số câu trên 50 trang: v5 262 (list 79, first_last_next 87, order_gap 70, summary 26), v7 179, v8 171. Lượt có ứng viên: `list` 23% (v5) → 5% (v7), `first_last_next` 7% → 4%. Giảm số câu 32–35% là do luật chuỗi đầy đủ (14/26 `summary` của v5 có mốc cùng track và label ngoài chuỗi). Chưa đọc mù v5 cùng chuẩn nên chưa so được chất lượng nội dung câu; 16% là cận trên.
+
+**5. Cơ cấu loại câu hiện có** (docs chưa đặt tỷ lệ theo loại; mục tiêu chỉ là tune 300, valid 300, test 400 câu, khoảng 8 đến 9 câu mỗi thực thể): v8 + v8n 448 câu = list 31%, first_last_next 29%, order_gap 23%, summary 16%; v7 + v7n 433 câu = 33% / 28% / 25% / 13%. Hiện chỉ khoảng 4 đến 4,5 câu mỗi trang, thấp hơn mục tiêu; 100 trang này chưa kiểm thuộc split nào. `list` và `summary` dùng chung cách chấm (đáp án là danh sách `gold_event_ids` theo thời gian); khác nhau ở khung hỏi: `summary` ≥3 mốc, ≤8 mốc, một giai đoạn hoặc chủ đề hẹp; `list` ≥2, ≤10 mốc. Cách chấm hai loại ở bước đánh giá vẫn chưa chốt (mục 6: `summary` chấm bằng độ phủ sự kiện).
+
+**6. v7 hay v8 (đề xuất, chưa chốt).** Nghiêng v8: ngang v7 khi gold đủ; ít rủi ro hơn khi gold thiếu (v7n 4 câu thiếu mốc trên 190, v8n 0 trên 215); v8 cho nhiều `first_last_next`/`summary` hơn nhưng nhiều `summary` đúng 3 mốc (26/52). Cách đặt cửa sổ gần như giống (`summary`: cửa sổ năm 61–85%, neo vào sự kiện 0–19%); "câu v8 gượng hơn" chỉ là ấn tượng từ vài ví dụ (Sam_Selvon "trước 1970", Friedman, Rams), chưa đo. Sau khi có bước gộp, sáu câu v7n kia chỉ còn 4 việc (2 thêm, 2 bỏ) nên khoảng cách còn nhỏ. Giới hạn: một người đọc, mỗi bản sinh một lần, chưa đo nhiễu.
+
+**7. Quy ước đã thống nhất với người dùng (2026-11-08).**
+- **Không thêm mốc vào gold timeline.** Lý do: gold dùng chung cho mọi câu của trang, thêm mốc có thể đổi đáp án câu khác; và công cụ chỉ bắt một phần mốc thiếu nên bổ sung sẽ thiên lệch.
+- **Chỉ điều chỉnh chuỗi đáp án của từng câu** (`gold_event_ids`, `group_event_ids`, tính lại `answer_ids`): mốc có trong gold, ngày rõ, bỏ sót thì thêm id; mốc `derived` đã được bước kiểm `derived` xác nhận thì dùng được (đề xuất: chỉ ở `list`/`summary`, không ở `first_last_next`/`order_gap`); mốc không có trong gold thì bỏ câu.
+- **Mốc mới, có ngày rõ, ngoài gold** ghi vào `dataset/eval/timeline_pilot/extras/<Trang>.json` (đã đề xuất ở 10.5aq, thư mục chưa tạo), để tính precision của ingest, không để làm đáp án. Hiện có 2 mốc từ [1] (Cochran, Sam_Selvon), 13 mốc từ soát gold. Hai trang đó chưa từng qua ingest nào (các lần thử ingest `outline_trial` chỉ có 10 trang khác), nên `extras` chưa có tác dụng gì đến precision.
+- **Precision ingest** báo ba mức (bản 9, tập C, 5 trang): chặt 62,6%, vừa 73,9%, rộng 93,4%; chỉ số chính đề xuất là precision theo tài liệu (bản 8: 90,1%, bản 9: 100%, mẫu nhỏ, một người đọc, chưa kiểm độc lập).
+- Soát gold 50 trang mới do người dùng bảo mình tự làm (không dùng Haiku). Hai prompt `do_gold_review_haiku_N1/N2.md` soạn nhầm, không dùng.
+
+**8. Việc tiếp theo.** (a) Người dùng chốt v8 hay v7. (b) Viết bước kiểm `derived`, bước gộp (chạy thử, sao lưu, nhật ký) và ghi `extras/`. (c) Xử lý bốn câu lỗi (Steele_Hall q3, Condor, Panair, Talk_im_Turm) và hai lỗi checker "any order" (Bill_Goldberg:3, Washington_Spirit:2). (d) Sửa checker: `summary` có cả đầu lẫn cuối một giai đoạn, mốc cờ hoặc mâu thuẫn nguồn trong cùng một `summary`, mốc thông báo cộng hoàn tất. (e) Sửa giám khảo [2]: năm trong tên riêng, sự kiện thực thể khác. (f) Tùy chọn: lần sinh thứ hai của v7 và v8 trên cùng 50 trang mới để đo nhiễu; đọc mù v5 cùng chuẩn để so chất lượng nội dung.
