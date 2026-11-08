@@ -1,0 +1,487 @@
+{
+ "events": [
+  {
+   "text": "Rainier Brewing Company was founded.",
+   "chunk": 0,
+   "date_text": "1884",
+   "date": "1884",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#0"
+  },
+  {
+   "text": "The Seattle site had been brewing beer.",
+   "chunk": 0,
+   "date_text": "1878",
+   "date": "1878",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#0"
+  },
+  {
+   "text": "The company was sold to Strohs.",
+   "chunk": 0,
+   "date_text": "late 1990s",
+   "date": null,
+   "approximate": true,
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#0"
+  },
+  {
+   "text": "The brewery was closed by Pabst.",
+   "chunk": 0,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#0"
+  },
+  {
+   "text": "The green T was removed by Tullys.",
+   "chunk": 3,
+   "date_text": "September 30 , 2013",
+   "date": "2013-09-30",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#3"
+  },
+  {
+   "text": "A red neon replica R returned to the top of the brewery.",
+   "chunk": 3,
+   "date_text": "October 24 , 2013",
+   "date": "2013-10-24",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#3"
+  },
+  {
+   "text": "A.B. Rabbeson opened Washington Brewery.",
+   "chunk": 4,
+   "date_text": "1854",
+   "date": "1854",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#4"
+  },
+  {
+   "text": "Rabbeson renamed his brewery Seattle Brewery.",
+   "chunk": 4,
+   "date_text": "1872",
+   "date": "1872",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#4"
+  },
+  {
+   "text": "They launched Rainier beer.",
+   "chunk": 4,
+   "date_text": "1878",
+   "date": "1878",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#4"
+  },
+  {
+   "text": "John Kopp and Andrew Hemrich founded Seattle Brewing and Malting.",
+   "chunk": 4,
+   "date_text": "1883",
+   "date": "1883",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#4"
+  },
+  {
+   "text": "Rabbeson sold his brewery, along with the Rainier brand, to Kopp and Hemrich.",
+   "chunk": 4,
+   "date_text": "1888",
+   "date": "1888",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#4"
+  },
+  {
+   "text": "Kopp and Hemrich produced Rainier beer in Washington until 1916.",
+   "chunk": 5,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The state of Washington enacted its own prohibition.",
+   "chunk": 5,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "They opened a brewery in San Francisco.",
+   "chunk": 5,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "They brewed Rainier beer in San Francisco until 1920.",
+   "chunk": 5,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The 18th amendment was ratified.",
+   "chunk": 5,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The brewery was purchased by Lethbridge, Alberta brewers Fritz and Emil Sick.",
+   "chunk": 6,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#6"
+  },
+  {
+   "text": "Fritz and Emil Sick repurchased the Rainier brand.",
+   "chunk": 6,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#6"
+  },
+  {
+   "text": "The brewery began brewing Rainier.",
+   "chunk": 6,
+   "date_text": "1935",
+   "date": "1935",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#6"
+  },
+  {
+   "text": "The brewery went through several names, such as Sicks Seattle Brewing and Malting and Sicks Rainier Brewing Company, during the 1935–1977 period.",
+   "chunk": 6,
+   "date_text": "1935",
+   "date": "1935",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#6"
+  },
+  {
+   "text": "The brewery's period of going through several names ended in 1977.",
+   "chunk": 6,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#6"
+  },
+  {
+   "text": "Sicks' branch brewery in Spokane closed.",
+   "chunk": 8,
+   "date_text": "1962",
+   "date": "1962",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#8"
+  },
+  {
+   "text": "Rainier came packaged in a series of decorative beer cans known as the Rainier Jubilee Series.",
+   "chunk": 9,
+   "date_text": "1952",
+   "date": "1952",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#9"
+  },
+  {
+   "text": "Rainier's use of decorative Jubilee Series cans ended.",
+   "chunk": 9,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#9"
+  },
+  {
+   "text": "A set of Christmas cans was marketed in late 1952.",
+   "chunk": 9,
+   "date_text": "late 1952",
+   "date": "1952",
+   "approximate": true,
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#9"
+  },
+  {
+   "text": "A set of Christmas cans was marketed again in late 1953.",
+   "chunk": 9,
+   "date_text": "late 1953",
+   "date": "1953",
+   "approximate": true,
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#9"
+  },
+  {
+   "text": "Rainier ran a number of memorable television ads in the Pacific Northwest during the 1970s.",
+   "chunk": 12,
+   "date_text": "the 1970s",
+   "date": null,
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#12"
+  },
+  {
+   "text": "A commercial ad featuring a motorcycle that revved Raiiiiiiiii-nieeeeeeeer-Beeeeeeeer was notable in the late 1970s.",
+   "chunk": 14,
+   "date_text": "late 1970s",
+   "date": null,
+   "approximate": true,
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#14"
+  },
+  {
+   "text": "The brewery was sold to G. Heileman Brewing Company.",
+   "chunk": 20,
+   "date_text": "In 1977",
+   "date": "1977",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#20"
+  },
+  {
+   "text": "Pabst closed the brewery.",
+   "chunk": 20,
+   "date_text": "in 1999",
+   "date": "1999",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#20"
+  },
+  {
+   "text": "The Olympia Brewing Company closed.",
+   "chunk": 20,
+   "date_text": "in 2003",
+   "date": "2003",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#20"
+  },
+  {
+   "text": "Sleeman Breweries acquired Stroh Canada, which owned the Canadian rights to brands including Rainier.",
+   "chunk": 21,
+   "date_text": "In 1999",
+   "date": "1999",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#21"
+  },
+  {
+   "text": "Rainier was awarded a silver medal by the Great American Beer Festival in the category of Best American Light Lager.",
+   "chunk": 22,
+   "date_text": "In 1987",
+   "date": "1987",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "The GABF recognized Rainier with the gold medal for Best American-Style Lager.",
+   "chunk": 22,
+   "date_text": "1990",
+   "date": "1990",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "The GABF recognized Rainier with the gold medal for Best American-Style Lager.",
+   "chunk": 22,
+   "date_text": "1998",
+   "date": "1998",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "The GABF recognized Rainier with the gold medal for Best American-Style Lager.",
+   "chunk": 22,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "Rainier received silver medals in the same category.",
+   "chunk": 22,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "Rainier received silver medals in the same category.",
+   "chunk": 22,
+   "date_text": "2005",
+   "date": "2005",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#22"
+  },
+  {
+   "text": "A large red neon R logo sign was created.",
+   "chunk": 24,
+   "date_text": "In 1953",
+   "date": "1953",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#24"
+  },
+  {
+   "text": "Tullys leased the brewery and replaced the iconic R with a green neon Tullys T sign.",
+   "chunk": 25,
+   "date_text": "in 2000",
+   "date": "2000",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#25"
+  },
+  {
+   "text": "Tullys decided to replace the green T with a replica of the red R sign.",
+   "chunk": 25,
+   "date_text": "September 18 , 2013",
+   "date": "2013-09-18",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#25"
+  },
+  {
+   "text": "The green T sign was removed.",
+   "chunk": 26,
+   "date_text": "September 30 , 2013",
+   "date": "2013-09-30",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#26"
+  },
+  {
+   "text": "The new red R sign was installed.",
+   "chunk": 26,
+   "date_text": "October 24 , 2013",
+   "date": "2013-10-24",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#26"
+  },
+  {
+   "text": "The Rainier Brewery had the R restored.",
+   "chunk": 27,
+   "date_text": "November 2013",
+   "date": "2013-11",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#27"
+  },
+  {
+   "text": "Mudhoney was photographed with cans of Rainier Beer.",
+   "chunk": 28,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#28"
+  },
+  {
+   "text": "A black bear received media attention for consuming 36 cans of Rainier beer.",
+   "chunk": 30,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#30"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "A commercial ad featuring a motorcycle that revved Raiiiiiiiii-nieeeeeeeer-Beeeeeeeer was notable in the early 1980s.",
+   "chunk": 14,
+   "date_text": "early 1980s",
+   "date": null,
+   "approximate": true,
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#14",
+   "reason": "duplicate"
+  }
+ ]
+}

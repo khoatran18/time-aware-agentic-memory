@@ -1,0 +1,417 @@
+{
+ "events": [
+  {
+   "text": "Wilhelm Liebknecht was born.",
+   "chunk": 0,
+   "date_text": "29 March 1826",
+   "date": "1826-03-29",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#0"
+  },
+  {
+   "text": "Wilhelm Liebknecht died.",
+   "chunk": 0,
+   "date_text": "7 August 1900",
+   "date": "1900-08-07",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#0"
+  },
+  {
+   "text": "Wilhelm Liebknecht was born in Giessen.",
+   "chunk": 1,
+   "date_text": "1826",
+   "date": "1826",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#1"
+  },
+  {
+   "text": "Liebknecht's parents died.",
+   "chunk": 1,
+   "date_text": "1832",
+   "date": "1832",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#1"
+  },
+  {
+   "text": "Liebknecht began going to school at the Gymnasium of Giessen.",
+   "chunk": 1,
+   "date_text": "1832",
+   "date": "1832",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#1"
+  },
+  {
+   "text": "Liebknecht's schooling at the Gymnasium of Giessen ended.",
+   "chunk": 1,
+   "date_text": "1842",
+   "date": "1842",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#1"
+  },
+  {
+   "text": "Liebknecht found himself in Switzerland as a civil war began in that country.",
+   "chunk": 3,
+   "date_text": "1847",
+   "date": "1847",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#3"
+  },
+  {
+   "text": "Liebknecht hurried to the scene when revolution erupted in Paris.",
+   "chunk": 4,
+   "date_text": "February 1848",
+   "date": "1848-02",
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#4"
+  },
+  {
+   "text": "Liebknecht was arrested in Baden and charged with treason during the expedition.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#4"
+  },
+  {
+   "text": "A mob secured Liebknecht's release on the eve of his trial.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Liebknecht's"
+   ],
+   "cid": "/wiki/Wilhelm_Liebknecht#4"
+  },
+  {
+   "text": "Liebknecht became a member of the Badische Volkswehr and an adjutant of Gustav von Struve.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#4"
+  },
+  {
+   "text": "Liebknecht fought in the ill-fated Reichverfassungskämpfe.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#4"
+  },
+  {
+   "text": "After the revolutionaries' defeat, Liebknecht escaped to Switzerland.",
+   "chunk": 5,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#5"
+  },
+  {
+   "text": "Liebknecht became a leading member of the Genfer Arbeiterverein, where he met Friedrich Engels.",
+   "chunk": 5,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#5"
+  },
+  {
+   "text": "Liebknecht was arrested for his initiatives to unite Switzerlands German workers associations.",
+   "chunk": 6,
+   "date_text": "1850",
+   "date": "1850",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht was banished from the country.",
+   "chunk": 6,
+   "date_text": "1850",
+   "date": "1850",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht relocated his exile to London.",
+   "chunk": 6,
+   "date_text": "1850",
+   "date": "1850",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht stayed in London from 1850.",
+   "chunk": 6,
+   "date_text": "1850",
+   "date": "1850",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht's stay in London ended in 1862.",
+   "chunk": 6,
+   "date_text": "1862",
+   "date": "1862",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht returned to Germany after an amnesty for the participants in the revolution of 1848.",
+   "chunk": 6,
+   "date_text": "1862",
+   "date": "1862",
+   "approximate": false,
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#6"
+  },
+  {
+   "text": "Liebknecht began working for the magazine Der Social-Demokrat.",
+   "chunk": 8,
+   "date_text": "1864",
+   "date": "1864",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#8"
+  },
+  {
+   "text": "Liebknecht's work for Der Social-Demokrat ended.",
+   "chunk": 8,
+   "date_text": "1865",
+   "date": "1865",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#8"
+  },
+  {
+   "text": "Liebknecht founded the Sächsische Volkspartei with August Bebel.",
+   "chunk": 8,
+   "date_text": "1867",
+   "date": "1867",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#8"
+  },
+  {
+   "text": "Liebknecht founded the Social Democratic Workers Party of Germany in Eisenach.",
+   "chunk": 9,
+   "date_text": "1869",
+   "date": "1869",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#9"
+  },
+  {
+   "text": "The Franco-Prussian War began.",
+   "chunk": 10,
+   "date_text": "1870",
+   "date": "1870",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#10"
+  },
+  {
+   "text": "Liebknecht and Bebel were arrested and charged with treason.",
+   "chunk": 10,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#10"
+  },
+  {
+   "text": "Liebknecht and Bebel were convicted and sentenced to two years of imprisonment in a fortress.",
+   "chunk": 12,
+   "date_text": "1872",
+   "date": "1872",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#12"
+  },
+  {
+   "text": "Liebknecht was re-elected to the Reichstag.",
+   "chunk": 13,
+   "date_text": "1874",
+   "date": "1874",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  },
+  {
+   "text": "Liebknecht played a key role in the merger of the SDAP and Lassalles ADAV into the Socialist Workers Party of Germany in Gotha.",
+   "chunk": 13,
+   "date_text": "1875",
+   "date": "1875",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  },
+  {
+   "text": "Liebknecht became publisher of the newly founded party organ Vorwärts.",
+   "chunk": 13,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  },
+  {
+   "text": "The German government outlawed Liebknechts party.",
+   "chunk": 14,
+   "date_text": "From 1878",
+   "date": "1878",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#14"
+  },
+  {
+   "text": "The SPD emerged from outlawry with 20% of the vote in the Reichstag election.",
+   "chunk": 14,
+   "date_text": "1890",
+   "date": "1890",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#14"
+  },
+  {
+   "text": "Liebknecht became editor-in-chief of Vorwärts and one of the originators of the SPDs new Marxist-inspired party platform.",
+   "chunk": 15,
+   "date_text": "1891",
+   "date": "1891",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#15"
+  },
+  {
+   "text": "Liebknecht died aged 74 in Charlottenburg, a suburb of Berlin.",
+   "chunk": 16,
+   "date_text": "7 August 1900",
+   "date": "1900-08-07",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#16"
+  },
+  {
+   "text": "50,000 people joined his funeral procession.",
+   "chunk": 16,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#16"
+  },
+  {
+   "text": "Robert Blum und Seine Zeit was published in Nürnberg.",
+   "chunk": 17,
+   "date_text": "1896",
+   "date": "1896",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  },
+  {
+   "text": "Ein Blick in die Neue Welt was published in Stuttgart.",
+   "chunk": 17,
+   "date_text": "1887",
+   "date": "1887",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  },
+  {
+   "text": "Die Emscher Depesche oder wie Kriege gemacht werden was published in Nürnberg.",
+   "chunk": 17,
+   "date_text": "1895",
+   "date": "1895",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  },
+  {
+   "text": "Robert Owen: Sein Leben und sozialpolitischen Wirken was published in Nürnberg.",
+   "chunk": 17,
+   "date_text": "1892",
+   "date": "1892",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  },
+  {
+   "text": "Zur Grund- und Bodenfrage was published in Leipzig.",
+   "chunk": 17,
+   "date_text": "1876",
+   "date": "1876",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  },
+  {
+   "text": "Karl Marx: Biographical Memoirs was published in Chicago.",
+   "chunk": 17,
+   "date_text": "1906",
+   "date": "1906",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#17"
+  }
+ ],
+ "dropped": []
+}

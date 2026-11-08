@@ -1,0 +1,821 @@
+{
+ "events": [
+  {
+   "text": "The department ranked 7th in the Times Higher Education 2020 subject world rankings.",
+   "chunk": 0,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#0"
+  },
+  {
+   "text": "The Computer Unit was formed, led by Stanley Gill.",
+   "chunk": 1,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#1"
+  },
+  {
+   "text": "The postgraduate Centre for Computing and Automation came into being and consumed the Computer Unit.",
+   "chunk": 1,
+   "date_text": "1966",
+   "date": "1966",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#1"
+  },
+  {
+   "text": "Gill left for industry and the department was renamed The Department of Computing and Control.",
+   "chunk": 2,
+   "date_text": "1970",
+   "date": "1970",
+   "approximate": false,
+   "section": 1,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#2"
+  },
+  {
+   "text": "Manny Lehman joined the department.",
+   "chunk": 3,
+   "date_text": "1972",
+   "date": "1972",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#3"
+  },
+  {
+   "text": "The first intake for the course took place.",
+   "chunk": 3,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#3"
+  },
+  {
+   "text": "The first graduates of the course graduated.",
+   "chunk": 3,
+   "date_text": "1976",
+   "date": "1976",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#3"
+  },
+  {
+   "text": "The department moved to the Huxley Building.",
+   "chunk": 5,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#5"
+  },
+  {
+   "text": "Westcott's term as head of department came to an end and the position was given to Lehman.",
+   "chunk": 5,
+   "date_text": "1979",
+   "date": "1979",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#5"
+  },
+  {
+   "text": "Keith Clark co-founded Logic Programming Associates.",
+   "chunk": 7,
+   "date_text": "1980",
+   "date": "1980",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#7"
+  },
+  {
+   "text": "The size of the logic programming group had grown to 50.",
+   "chunk": 7,
+   "date_text": "1985",
+   "date": "1985",
+   "approximate": true,
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#7"
+  },
+  {
+   "text": "Lehman's term came up for renewal and he was not reappointed.",
+   "chunk": 8,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#8"
+  },
+  {
+   "text": "The William Penney Laboratory was constructed.",
+   "chunk": 9,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#9"
+  },
+  {
+   "text": "IC-PARC was founded.",
+   "chunk": 9,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#9"
+  },
+  {
+   "text": "IC-PARC span out to create Parc Technologies.",
+   "chunk": 9,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#9"
+  },
+  {
+   "text": "The centre was shut down.",
+   "chunk": 9,
+   "date_text": "2005",
+   "date": "2005",
+   "approximate": false,
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#9"
+  },
+  {
+   "text": "The department ranked seventh in the world in the Times Higher Education 2020 subject rankings.",
+   "chunk": 13,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#13"
+  },
+  {
+   "text": "The department ranked third in the UK in the Times Higher Education 2020 subject rankings.",
+   "chunk": 13,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#13"
+  },
+  {
+   "text": "The department ranked third on the Complete University Guides 2020 computer science table.",
+   "chunk": 13,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#13"
+  },
+  {
+   "text": "The department ranked fourth in The Guardians 2020 computer science university subject rankings.",
+   "chunk": 13,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#13"
+  },
+  {
+   "text": "DoCSoc was refounded.",
+   "chunk": 16,
+   "date_text": "1986",
+   "date": "1986",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#16"
+  },
+  {
+   "text": "DoCSoc ran a magazine Whats up DoC?.",
+   "chunk": 16,
+   "date_text": "1995",
+   "date": "1995",
+   "approximate": true,
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#16"
+  },
+  {
+   "text": "The student magazine was called Data.",
+   "chunk": 16,
+   "date_text": "1997",
+   "date": "1997",
+   "approximate": true,
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#16"
+  },
+  {
+   "text": "ICHack had over 300 participants.",
+   "chunk": 15,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#15"
+  },
+  {
+   "text": "Stanley Gill was head of department.",
+   "chunk": 17,
+   "date_text": "1964-66",
+   "date": "1964",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Stanley Gill and John Westcott were heads of department.",
+   "chunk": 17,
+   "date_text": "1966-1970",
+   "date": "1966",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Stanley Gill and John Westcott's headship ended.",
+   "chunk": 17,
+   "date_text": "1966-1970",
+   "date": "1970",
+   "approximate": false,
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Westcott's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "John Westcott was head of department.",
+   "chunk": 17,
+   "date_text": "1966-79",
+   "date": "1966",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Manny Lehman was head of department.",
+   "chunk": 17,
+   "date_text": "1979-84",
+   "date": "1979",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Bruce Sayers was head of department.",
+   "chunk": 17,
+   "date_text": "1984-89",
+   "date": "1984",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Tom Maibaum was head of department.",
+   "chunk": 17,
+   "date_text": "1989-97",
+   "date": "1989",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Robert Kowalski was head of department.",
+   "chunk": 17,
+   "date_text": "1997-99",
+   "date": "1997",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Jeff Kramer was head of department.",
+   "chunk": 17,
+   "date_text": "1999-2004",
+   "date": "1999",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Jeff Kramer's headship ended.",
+   "chunk": 17,
+   "date_text": "1999-2004",
+   "date": "2004",
+   "approximate": false,
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Kramer's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Jeff Magee was head of department.",
+   "chunk": 17,
+   "date_text": "2004-2010",
+   "date": "2004",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Jeff Magee's headship ended.",
+   "chunk": 17,
+   "date_text": "2004-2010",
+   "date": "2010",
+   "approximate": false,
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Magee's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Susan Eisenbach was head of department.",
+   "chunk": 17,
+   "date_text": "2010-2016",
+   "date": "2010",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Susan Eisenbach's headship ended.",
+   "chunk": 17,
+   "date_text": "2010-2016",
+   "date": "2016",
+   "approximate": false,
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Eisenbach's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17"
+  },
+  {
+   "text": "Daniel Rueckert was head of department.",
+   "chunk": 18,
+   "date_text": "2016–2020",
+   "date": "2016",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#18"
+  },
+  {
+   "text": "Daniel Rueckert's headship ended.",
+   "chunk": 18,
+   "date_text": "2016–2020",
+   "date": "2020",
+   "approximate": false,
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Rueckert's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#18"
+  },
+  {
+   "text": "Abbas Edalat became Professor.",
+   "chunk": 19,
+   "date_text": "1997",
+   "date": "1997",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#19"
+  },
+  {
+   "text": "Alexander A. L. Wolf became Professor.",
+   "chunk": 19,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#19"
+  },
+  {
+   "text": "Peter G. Harrison became Professor.",
+   "chunk": 20,
+   "date_text": "1972",
+   "date": "1972",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#20"
+  },
+  {
+   "text": "Philippa Gardner became Professor of Theoretical Computer Science.",
+   "chunk": 21,
+   "date_text": "2009",
+   "date": "2009",
+   "approximate": false,
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#21"
+  },
+  {
+   "text": "Samson Abramsky became a Lecturer.",
+   "chunk": 22,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Samson Abramsky's term as Lecturer ended.",
+   "chunk": 22,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Abramsky's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Samson Abramsky became a Reader.",
+   "chunk": 22,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Samson Abramsky's term as Reader ended.",
+   "chunk": 22,
+   "date_text": "1990",
+   "date": "1990",
+   "approximate": false,
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Abramsky's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Samson Abramsky became a Professor.",
+   "chunk": 22,
+   "date_text": "1990",
+   "date": "1990",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Samson Abramsky's term as Professor ended.",
+   "chunk": 22,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Abramsky's"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "László Bélády spent 1974 in the department.",
+   "chunk": 22,
+   "date_text": "1974",
+   "date": "1974",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Dov Gabbay became a Professor.",
+   "chunk": 22,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "George Coulouris became a Lecturer.",
+   "chunk": 22,
+   "date_text": "1965",
+   "date": "1965",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22"
+  },
+  {
+   "text": "Bashar Ahmad Nuseibeh received an MSc.",
+   "chunk": 23,
+   "date_text": "1989",
+   "date": "1989",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#23"
+  },
+  {
+   "text": "Bashar Ahmad Nuseibeh received a PhD.",
+   "chunk": 23,
+   "date_text": "1994",
+   "date": "1994",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#23"
+  },
+  {
+   "text": "Chris Harrison won University Challenge.",
+   "chunk": 23,
+   "date_text": "1996",
+   "date": "1996",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#23"
+  },
+  {
+   "text": "Gavin Estcourt won University Challenge.",
+   "chunk": 23,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#23"
+  },
+  {
+   "text": "Guido Jouret received a PhD.",
+   "chunk": 23,
+   "date_text": "1991",
+   "date": "1991",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#23"
+  },
+  {
+   "text": "Jeff Magee received a PhD.",
+   "chunk": 24,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#24"
+  },
+  {
+   "text": "John Shawe-Taylor received an MSc.",
+   "chunk": 25,
+   "date_text": "1987?",
+   "date": "1987",
+   "approximate": true,
+   "section": 9,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Leslie Valiant won the Turing award.",
+   "chunk": 25,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Mark Harman received an MEng.",
+   "chunk": 25,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Richard Veryard received an MSc.",
+   "chunk": 25,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Siegfried Hodgson won University Challenge.",
+   "chunk": 25,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Teo Chee Hean received an MSc.",
+   "chunk": 25,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#25"
+  },
+  {
+   "text": "Logic Programming Associates was cofounded by Keith Clark.",
+   "chunk": 26,
+   "date_text": "1980",
+   "date": "1980",
+   "approximate": false,
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#26"
+  },
+  {
+   "text": "Imperial Software Technologies was created by Manny Lehman.",
+   "chunk": 26,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#26"
+  },
+  {
+   "text": "Parc Technologies was acquired by Cisco for $9m.",
+   "chunk": 26,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#26"
+  },
+  {
+   "text": "GraphicsFuzz was acquired by Google.",
+   "chunk": 26,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#26"
+  },
+  {
+   "text": "FaceSoft raised £500k in funding.",
+   "chunk": 26,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#26"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Stanley Gill's headship ended.",
+   "chunk": 17,
+   "date_text": "1964-66",
+   "date": "1966",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "John Westcott's headship ended.",
+   "chunk": 17,
+   "date_text": "1966-79",
+   "date": "1979",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "Manny Lehman's headship ended.",
+   "chunk": 17,
+   "date_text": "1979-84",
+   "date": "1984",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "Bruce Sayers's headship ended.",
+   "chunk": 17,
+   "date_text": "1984-89",
+   "date": "1989",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "Tom Maibaum's headship ended.",
+   "chunk": 17,
+   "date_text": "1989-97",
+   "date": "1997",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "Robert Kowalski's headship ended.",
+   "chunk": 17,
+   "date_text": "1997-99",
+   "date": "1999",
+   "approximate": false,
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#17",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "Dov Gabbay's term as Professor ended.",
+   "chunk": 22,
+   "date_text": "98",
+   "date": "1998",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22",
+   "reason": "year_not_in_page"
+  },
+  {
+   "text": "George Coulouris's term as Lecturer ended.",
+   "chunk": 22,
+   "date_text": "75",
+   "date": "1975",
+   "approximate": false,
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Department_of_Computing,_Imperial_College_London#22",
+   "reason": "year_not_in_page"
+  }
+ ]
+}
