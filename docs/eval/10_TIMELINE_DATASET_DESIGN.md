@@ -1044,3 +1044,23 @@ Hai model khớp kết luận cuối ở 54/101. DeepSeek chạy lại 30 ca: 29
 Số bản 9 chỉ nghĩa là người đọc không thấy mốc sai nào trong 5 trang; mẫu nhỏ, một người đọc, chưa nên viết như kết luận. Khác biệt thật là số mốc sai (21 so với 0), khớp với chỗ prompt bản 9 đã sửa; cách tính cứng cũ (60,4% so với 62,6%) không lộ ra điều đó. Precision theo tài liệu cũng không phản ánh rủi ro mốc thừa chen vào đáp án; rủi ro đó thuộc về giám khảo.
 
 **Chưa làm.** Bước kiểm derived (chờ tiêu chí); bước gộp và tính lại đáp án bằng mã; sửa `chain_complete.py`, `chain_verify.py`, `check_questions.py` theo trên; tạo `derived_verified.json` và thư mục `extras/`; chạy lại [1] với prompt mới rồi [2] trên mẫu 30 ca để so; chưa đo mức khớp cờ `approximate_date` giữa gold và ingest.
+
+**Bổ sung 10.5aq (cùng ngày, đề xuất, chưa viết mã): tách `approximate_date` và hàm `date_kind` dùng chung.**
+
+*Vấn đề.* Gold và ingest đều chỉ có một nhãn `approximate_date`, nhưng nó gộp hai thứ khác nhau (phân loại thô bằng regex trên trích dẫn, 389 mốc gold, chưa đọc từng mốc): năm đúng nhưng phần trong năm mơ hồ ("late 1909", "spring of 1910", "early 2017"; khoảng 139 mốc) và năm có thể lệch ("circa/c. 1949", "by/after/before 1928", "8 or 9 September", "between X and Y", mùa giải "2013–14" ghi ở năm bắt đầu trong khi việc xảy ra cuối mùa; khoảng 250 mốc). Ingest còn coi "by/after" là approximate, trong khi gold có khoảng 317 mốc kiểu "After a poor season in 1994…" gắn `derived_date`; hai bên chưa đồng nhất.
+
+*Đề xuất (hướng Y, đã chọn).* Không thêm nhãn mới vào gold hay ingest (gold không sửa, ingest không chạy lại). Viết một hàm mã `date_kind` chạy trên trích dẫn (và `date_text` với ingest), dùng chung cho cả hai bên, ra: `explicit` | `derived` (kiểm riêng) | `approx_year_ok` | `approx_year_loose` | `none`.
+
+| Loại câu | `approx_year_ok` | `approx_year_loose` |
+|---|---|---|
+| `list`, `summary` | dùng | dùng |
+| `first_last_next` | dùng, trừ khi cùng năm với mốc kế cận trong chuỗi | không dùng |
+| `order_gap` (đếm theo năm lịch) | dùng | không dùng |
+
+*Cơ chế hàm (đề xuất, theo thứ tự ưu tiên).* (1) `date` rỗng → `none`; không cờ → `explicit`; cờ `derived_date` → xử lý ở bước kiểm derived. (2) Với mốc `approximate_date`: nếu trích dẫn khớp bất kỳ mẫu "năm không chắc" (circa/c./ca./around/about/approximately, by/before/after/until/between, "X or Y", khoảng năm dạng `2013–14` hay mùa giải) → `approx_year_loose` (loose thắng khi cùng lúc khớp cả hai nhóm). (3) Nếu khớp mẫu "phần trong năm" (early/mid/late/spring/summer/autumn/winter, beginning/end of) và năm của `date` nằm trong cùng câu → `approx_year_ok`. (4) Còn lại → `approx_year_loose`.
+
+*Khi nào coi là nghi ngờ (đều xếp `loose`, an toàn hơn):* khớp cả mẫu loose lẫn mẫu ok; không khớp mẫu nào; năm của `date` không nằm trong trích dẫn; trích dẫn quá ngắn để thấy ngữ cảnh câu; các trích dẫn của cùng mốc cho kết quả khác nhau; "between"/"from X to Y" mơ hồ. Chỉnh regex bằng cách đọc mẫu khoảng 15 mốc.
+
+*Phạm vi ảnh hưởng.* Hàm chỉ quyết định mốc nào được làm đáp án hoặc neo của câu hỏi (sinh câu, `check_questions.py`, giám khảo). Không đổi nội dung gold, không đổi kết quả ingest, và không ảnh hưởng cách chấm recall (khớp theo ngày và chunk, không theo loại). Muốn đơn giản hơn có thể né hẳn mốc `loose` ở mọi loại câu; chưa chọn.
+
+*Danh sách quy ước đã thống nhất (2026-11-08, đề xuất).* Bỏ 4 nhóm `work` (Duby, Breitscheidplatz, Journal_de_20_heures, Maidan) và xử lý câu Rezidor; derived đã kiểm dùng được (năm viết tắt do mã tính lại; cụm tương đối và năm câu trước cần câu neo cùng chunk, cách tối đa 2 câu, judge chép nguyên và mã kiểm; neo ở chunk khác thì không dùng); kiểm derived lười, chỉ cho mốc [1] đề xuất; `first_last_next` bỏ mốc derived cùng năm với mốc kế cận; `order_gap` chưa mở cho derived; "đã kiểm" lưu theo mốc ở `local/derived_verified.json`, không sửa gold; chỉ dùng DeepSeek, người đọc mẫu khoảng 15 ca để chỉnh prompt; giám khảo tha mốc thừa mà tài liệu xác nhận; `extras/<Trang>.json` ghi mốc ngày rõ ngoài phạm vi gold, dùng đo precision theo tài liệu và cho giám khảo; mốc mới thật không vào gold, bỏ câu; không sửa chữ câu hỏi.
