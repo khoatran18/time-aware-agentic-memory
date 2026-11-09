@@ -1240,3 +1240,67 @@ Theo luật hiện hành (hướng b, không sửa gold), các câu v7n thiếu 
 - Soát gold 50 trang mới do người dùng bảo mình tự làm (không dùng Haiku). Hai prompt `do_gold_review_haiku_N1/N2.md` soạn nhầm, không dùng.
 
 **8. Việc tiếp theo.** (a) Người dùng chốt v8 hay v7. (b) Viết bước kiểm `derived`, bước gộp (chạy thử, sao lưu, nhật ký) và ghi `extras/`. (c) Xử lý bốn câu lỗi (Steele_Hall q3, Condor, Panair, Talk_im_Turm) và hai lỗi checker "any order" (Bill_Goldberg:3, Washington_Spirit:2). (d) Sửa checker: `summary` có cả đầu lẫn cuối một giai đoạn, mốc cờ hoặc mâu thuẫn nguồn trong cùng một `summary`, mốc thông báo cộng hoàn tất. (e) Sửa giám khảo [2]: năm trong tên riêng, sự kiện thực thể khác. (f) Tùy chọn: lần sinh thứ hai của v7 và v8 trên cùng 50 trang mới để đo nhiễu; đọc mù v5 cùng chuẩn để so chất lượng nội dung.
+
+### Bổ sung 10.5au Trạng thái của [1][2][3], bảy ca `derived_pending` và cờ trong gold, ingest, câu hỏi (2026-11-09, **ghi nhận kết quả đo; phần cách sửa là đề xuất, chưa code**)
+
+Số liệu của một người đọc; các nhận định về nguyên nhân ghi "chưa kiểm chứng" khi chưa chạy thử.
+
+**1. Các trạng thái và nhãn.**
+
+*Tầng 1, [1] (`chain_complete.py`) gán theo thứ tự ưu tiên:*
+
+| Trạng thái | Nghĩa | Số ứng viên (6 lần chạy, v5 đến v8n) | Ví dụ |
+|---|---|---|---|
+| `quote_not_in_chunk` | trích dẫn không nằm nguyên văn trong chunk (bỏ khoảng trắng, không phân biệt hoa thường) | 2 (và 16 ca nhãn cũ `quote_fail`, gộp hai lỗi) | Cochran, Rams: [1] ghép hoặc diễn đạt lại câu |
+| `year_not_in_chunk` | quote đúng, nhưng chuỗi năm của `date` không có trong quote lẫn chunk | 7 | Alemannia: quote "…in 1990 fell…", `date` 1970 |
+| `excluded_on_purpose` | mốc thuộc danh sách câu hỏi loại có chủ ý | 0 | — |
+| `in_gold_not_in_group` | mốc có trong gold nhưng ngoài chuỗi | 52 | Rams:1 `e28` (Anaheim 1980) |
+| `undated_only` | chỉ khớp `undated_mentions` | 25 | Eliot_Engel (đặt tên đường) |
+| `new_not_in_gold` | không có ở đâu | 24 | Cochran: Distinguished Flying Cross 1947–1964 |
+
+*Tầng 2, [2][3] (`chain_verify.py`):* `quote_not_in_chunk` bị bỏ, không gọi giám khảo; `year_not_in_chunk` không gọi giám khảo mà ghi vào `derived_pending.jsonl`; các trạng thái còn lại đi vào giám khảo [2] (trả `same_fact_ids`, `date_sentence`, `date_basis`, `meets_type`, `in_window`, `verdict`) rồi mã [3] (quote và năm trong chunk, trùng gold bằng từ chung ≥ 0,6 so với câu ngắn hơn, trùng `undated_mentions`).
+
+*Nhãn cuối:* thứ tự quyết định: quote hoặc năm không có trong chunk → `reject_code`; trùng mốc → `duplicate_in_chain` (trong chuỗi) hoặc `duplicate_of_gold` (ngoài chuỗi); trùng undated → `duplicate_of_undated`; giám khảo chấp nhận, `date_basis = explicit`, năm nằm trong `date_sentence`, `meets_type` và `in_window` → `auto_accept`; chấp nhận nhưng ngày không cùng câu → `derived_candidate`; `reject` → `reject`; còn lại → `human`. Phân bố: v7n 22 ca (`duplicate_in_chain` 11, `duplicate_of_gold` 4, `duplicate_of_undated` 1, `reject` 3, `auto_accept` 3); v8n 17 ca (10, 5, 1, 1, 0). `auto_accept` và `derived_candidate` chỉ là nhãn trong `verdicts.jsonl`, không có mã nào thực thi gì từ chúng; việc thêm id hay bỏ câu cho đến nay do mình đọc từng ca.
+
+*Lưu ý về `duplicate_in_chain`:* [1] được đưa `KNOWN EVENTS` nhưng vẫn báo lại mốc đã có trong chuỗi, kèm `recorded_id` sai (ví dụ Meet_the_Press `e25`). Đây là lỗi của [1], chưa kiểm chứng nguyên nhân. Còn `duplicate_of_gold` là báo theo thiết kế: prompt [1] bảo vẫn báo mốc gold ngoài chuỗi, vì người làm gold có thể quên đưa vào chuỗi; thực tế trong các ca đã xét, chuỗi đúng và [1] hiểu tiêu chí rộng hơn câu hỏi (Alemannia `e21` ngày 1970 ngoài khoảng "1960s"; Department_of_Computing `e7` không phải lần bổ nhiệm đầu).
+
+**2. Tách `derived_pending` (đã sửa `chain_verify.py`).** `derived_pending` chỉ có nghĩa "[1] đưa một ngày mà chuỗi năm đó không có trong chunk", gồm cả năm suy ra hợp lý lẫn năm model đoán. Đổi thành `pending_year_in_other_chunk` (trang có chuỗi năm ở chunk khác) và `pending_year_nowhere` (không có ở đâu), kèm `year_chunks`. Chỉ là phân loại bằng mã, không đủ để biết ca nào thật (xem bảng dưới). Script `local/chain_pending.py` chạy giám khảo [2] riêng cho các ca pending và không gán nhãn cuối. Ranh giới chunk cắt câu giữa chừng (Meet_the_Press: chunk 36 kết thúc "on February", chunk 37 mở "8, 2004") làm quote và năm nằm hai chunk; ghép chunk kế tiếp khi kiểm là hướng có thể thử (chưa làm).
+
+**3. Bảy ca pending (6 ở v7n, 1 ở v8n), đọc chunk và chạy giám khảo: không ca nào là mốc mới.**
+
+| Ca | Trạng thái | Nội dung chunk | Kết luận |
+|---|---|---|---|
+| Alemannia:2 (1970) | `year_nowhere` | không có năm; 1970 suy bằng phép tính từ "1967–68… next year… following season" | thật, đã có trong gold `e21` (`derived_date`), ngoài khoảng "1960s" nên chuỗi `e16, e20` đúng |
+| Department_of_Computing:1 (1970) | `year_in_other_chunk` | "Westcott became the head"; "In 1970" ở chunk liền trước | thật, đã có `e7`, không phải lần bổ nhiệm đầu nên chuỗi `e2, e4, e14` đúng |
+| Meet_the_Press:5 (2004-02-08) | `year_in_other_chunk` | ngày bị cắt ngang ranh giới chunk | thật, ngày rõ, đã có trong chuỗi (`e25`) |
+| Charles_Lee:2 (1762) | `year_nowhere` | không có năm | không dùng được (năm không có trong trang) |
+| Eliot_Engel:4 (2008) | `year_in_other_chunk` | 2008 là năm độc lập của Kosovo, không phải năm đặt tên đường | không dùng được |
+| Rush_Holt:3 (2009; v8n: 2010) | `year_in_other_chunk` | không có ngày cho phiếu H.R. 7060; năm lấy từ phiếu khác ở chunk liền kề; cùng quote mà v7n và v8n cho hai năm khác nhau | không dùng được |
+
+Hạn chế: giám khảo chỉ đọc một chunk; ba ca `date_basis = none` có thể có ngày suy từ chunk khác mà giám khảo không thấy (chưa kiểm chứng ở Engel). Hai chuỗi Alemannia và Department_of_Computing do giám khảo khai `in_window = True` cho Alemannia là sai; chuỗi gốc đúng.
+
+**4. Cờ trong gold, ingest và câu hỏi.**
+- `events` trong gold có ba cờ `derived_date`, `approximate_date`, `source_inconsistent` (do agent Haiku gán theo quy ước, `check.py` bỏ kiểm quote-chứa-năm cho `derived_date`, người đọc sửa lỗi gán). `undated_mentions` là danh sách chuỗi chữ thuần, không có nhãn: sự kiện không có năm, chỉ thập niên hoặc thế kỷ, mùa giải kiểu cũ (tune và V1–V10), tên vật bị mất; nếu ngày suy ra được thì đi vào `events` với `derived_date`.
+- Năm viết tắt: khoảng thời gian có hai đầu lưu thành hai mốc với quote giống nhau; mốc kết thúc mang `derived_date` ("1903–07" → `e5` năm 1907 ở Atlético Madrid). Quét gold: 110 mốc có ngày bằng năm cuối của một quote viết tắt (regex thô, có thể lẫn mùa giải).
+- Luật prompt v8: `derived_date` không dùng ở bất kỳ câu nào; `approximate_date` và `source_inconsistent` cấm ở `order_gap` và `first_last_next`; ở `list`/`summary`, `approximate_date` được dùng (ghi `flagged_ids`) còn `source_inconsistent` prompt không nói. Mục B: mốc cờ thỏa tiêu chí và nằm xen trong khoảng của chuỗi thì bỏ câu hoặc thu hẹp phạm vi. Checker chỉ kiểm cờ trên các id đã dùng, không quét mốc cờ xen giữa.
+- **Lỗ hổng `source_inconsistent`:** 6 câu của v8+v8n dùng cờ này (v7 3, v8 5, v7n 2, v8n 1; đều `list`/`summary`): Humongous_Entertainment:1, Talk_im_Turm:1, Jimmy_Lai:1, Sevilla_FC_Puerto_Rico:1, Steele_Hall:3, Charles_Lee_general:2 (v8n) và các câu của v7 (Sevilla:2 ...). Chưa kiểm xem `flagged_ids` có ghi đủ không.
+- **Ingest (`outline_trial/pass3_p9.py`)**: không phân biệt `source_inconsistent`. Cờ ingest: `derived_date` (mã gán khi chuỗi năm không nằm trong chunk), `approximate_date` (model khai), `date_text_not_in_chunk`, `month_from_date_text`. `derived_date` của gold (năm không cùng câu, Haiku gán) và của ingest (năm không trong chunk) **định nghĩa khác nhau**, gold có nhiều mốc `derived_date` hơn; ingest bỏ mốc nếu chuỗi năm không có trong cả trang (`year_not_in_page`), nên mốc kết thúc viết tắt ("1829" trong "1827–29") sẽ bị bỏ (đọc mã, chưa chạy).
+
+**5. Đề xuất sửa (chưa làm).** (a) `chain_complete.py`: nhận dạng năm viết tắt ("1827–29" → 1829) khi tính `year_ok`. (b) `chain_verify.py`: chạy kiểm trùng bằng mã (cùng chunk, cùng ngày với mốc gold) trước khi đẩy vào pending; cho giám khảo đọc cả các ca `quote_not_in_chunk`. (c) Ingest: nhận dạng năm viết tắt để nhất quán với gold, và thống nhất định nghĩa `derived_date` giữa gold và ingest. (d) Prompt v8 + checker: quyết định `source_inconsistent` ở `list`/`summary`; thêm kiểm mốc cờ xen giữa chuỗi.
+
+**6. Nếu v8/v8n có ca thật thì xử lý thế nào (đề xuất, chưa code; bộ chính là v8+v8n, hiện [1][2][3] cho 0 ca cần sửa).** Giữ quyết định "không thêm vào gold". `auto_accept` và `derived_candidate` chỉ là nhãn; việc dưới đây do người đọc kết luận rồi một bước gộp (chưa viết) thực hiện.
+
+| Mốc [1] báo | Nhãn thường gặp sau [2][3] | Xử lý câu hỏi | Ghi vào |
+|---|---|---|---|
+| Có trong gold, ngoài chuỗi, thỏa tiêu chí của câu | `duplicate_of_gold` (đọc tay: thiếu chuỗi thật) | thêm id vào chuỗi, tính lại `answer_ids` | chỉ đáp án câu hỏi |
+| Không có trong gold, ngày rõ cùng câu | `auto_accept` | bỏ câu (hướng b) | `extras` (date, text, chunk, quote, reason, source) |
+| Không có trong gold, ngày suy ra, đã qua bước kiểm derived | `derived_candidate` hoặc pending đã kiểm | bỏ câu nếu mốc nằm trong khoảng của chuỗi và thỏa tiêu chí (mục B) | `extras` kèm cờ `derived` |
+| Có ngày rõ trong văn bản nhưng gold chỉ để trong `undated_mentions` (gold ghi nhầm) | `undated_only` → `auto_accept` | như dòng 2 | `extras` |
+| Không có ngày rõ và không có trong `undated_mentions` (ví dụ Charles_Lee, Rush_Holt) | `reject` hoặc `date_basis = none` | không đổi | không ghi; giữ trong `verdicts.jsonl` |
+| Trùng undated (`duplicate_of_undated`) | — | không đổi | không ghi |
+
+Ghi chú: ứng viên [1] luôn mang `date` (kể cả khi `recorded_id = undated`), nên `undated_only` + `auto_accept` nghĩa là gold bỏ sót ngày, không phải mốc không ngày. Mốc không ngày và không có trong `undated_mentions` thì chưa có chỗ ghi nào; nếu cần đo precision ingest đầy đủ thì phải thêm một nơi (chưa quyết).
+
+**7. Ingest và `undated_mentions`.** `pass3_p9.py` vẫn xuất sự kiện `date = None` (không có biểu thức thời gian, hoặc xóa ngày thập niên/thế kỷ). Trong `pass3.py` (bản cũ) khi chấm các sự kiện không ngày bị bỏ qua (`if not e["date"]: continue`), chỉ được đếm vào `undated_extracted`; các script `score2.py`, `score3.py`, `score_recall.py` không dùng `undated_mentions`. Vì vậy chưa có đối chiếu sự kiện ingest không ngày với `undated_mentions`; chưa kiểm chứng precision ba mức (đọc tay) đã tính các sự kiện đó hay chưa.
+
+**8. Kiểm chạy.** `chain_verify.py` sau khi tách trạng thái pending chạy end-to-end (`LIMIT=1`, 1 lời gọi DeepSeek, đầu vào `v7n_1`): ra 6 ca pending được phân loại (`pending_year_nowhere` 2, `pending_year_in_other_chunk` 4) và 1 ca giám khảo (`reject`); khớp với phân loại bằng `chain_pending.py`. Việc tách pending bằng mã (quét chuỗi năm trong các chunk của trang) không gọi LLM.
