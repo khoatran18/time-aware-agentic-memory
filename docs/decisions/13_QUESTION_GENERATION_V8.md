@@ -41,4 +41,4 @@ So v7 với v8 trên 50 trang cũ (v7 179 câu, v8 171) và trên 50 trang mới
 
 ## Trạng thái
 
-Đã chốt dùng v8 (2026-11-08). Phần xử lý chuỗi và `extras` là đề xuất, chưa code.
+Đã chốt dùng v8 (2026-11-08). Phần xử lý chuỗi và `extras` là đề xuất, chưa code. **Cập nhật 2026-11-10:** bộ chính chuyển sang v9 (`14_CHAIN_CHECK_AND_FLAGS.md` mục 13); v8 và v8n giữ làm đối chứng, các chốt khác của file này giữ nguyên.
