@@ -69,7 +69,7 @@ llm = get_llm_for_role(cfg, "generation")   # tra roles -> profile -> chat model
 - **9router** (proxy tương thích OpenAI) dùng lại provider `openai` với `base_url`, không cần code mới. Profile `9router` có trong `llm.profiles` của dev và prod, `model_id` đang để mẫu (`<điền ...>`) nên dùng sớm sẽ báo `model_id chưa điền`; chưa gán cho role nào. URL mặc định `http://localhost:20128/v1` và tên model/combo chưa kiểm chứng, cần đối chiếu dashboard 9router.
 - **Đọc nội dung trả lời bằng `message.text`, không dùng `message.content`:** `.content` có thể là `str` hoặc danh sách khối (Claude khi có tool call/thinking), còn `.text` luôn là `str` đã ghép. Mọi model đều có `invoke`, `ainvoke`, `with_structured_output`, `bind_tools`; việc structured output/tool calling chạy được hay không còn tùy model phía sau (nhất là qua router), cần thử khi làm profiler.
 - **Tiêm phụ thuộc:** `profiler`, `generation`, `time_extraction` nhận LLM qua tham số; chỉ chỗ lắp ráp (`pipeline/builder.py`, `scripts/*`) gọi `get_llm_for_role`. Hàm nhận `cfg` tường minh, không đọc config toàn cục.
-- **Chưa làm:** log mỗi lệnh gọi LLM (role, profile, độ trễ, số token) theo kế hoạch §4.3; sẽ bọc bằng callback khi có chỗ gọi LLM thật. Chưa gọi API thật nào (không cần key để chạy test).
+- **Đã làm (2026-11-10):** đo mỗi lệnh gọi LLM (profile, E2E, số token, lỗi/429, thử lại) bằng callback `LlmMetrics` trong `src/tam/llm/metrics.py`, ghi `llm_calls.jsonl`; tóm tắt bằng `scripts/llm_stats.py`; TTFT/TPOT qua `measure_stream`. Chi tiết ở `src/tam/llm/README.md`. Chưa chạy trên API thật để đối chiếu số.
 
 ### Lưu ý khi dùng
 

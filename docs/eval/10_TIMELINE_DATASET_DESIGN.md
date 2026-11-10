@@ -1306,3 +1306,28 @@ Ghi chú: ứng viên [1] luôn mang `date` (kể cả khi `recorded_id = undate
 **8. Kiểm chạy.** `chain_verify.py` sau khi tách trạng thái pending chạy end-to-end (`LIMIT=1`, 1 lời gọi DeepSeek, đầu vào `v7n_1`): ra 6 ca pending được phân loại (`pending_year_nowhere` 2, `pending_year_in_other_chunk` 4) và 1 ca giám khảo (`reject`); khớp với phân loại bằng `chain_pending.py`. Việc tách pending bằng mã (quét chuỗi năm trong các chunk của trang) không gọi LLM.
 
 **9. Ghi vào decisions.** Sơ đồ các tầng gán trạng thái, bảng hành động sau nhãn, đề xuất luật cờ cho câu hỏi và cho precision ingest, cùng quyết định "precision bỏ qua mốc không ngày", ghi ở `docs/decisions/14_CHAIN_CHECK_AND_FLAGS.md`.
+
+### Bổ sung 10.5av Sinh câu hỏi v9 và kiểm chuỗi [1][2][3] (2026-11-10, **ghi nhận kết quả đo; số liệu của một người đọc, mỗi phép đo một lần chạy**)
+
+**1. Chạy.** Prompt `local/prompts/sinh_cau_hoi_v9.md` (= v8 + cấm `source_inconsistent` ở cả 4 loại, luật mốc cờ gần chuỗi ±2 năm với trường `flagged_nearby_ids`, mục J không đếm đôi một sự kiện, bốn lỗi cũ của v8, mục M `first`/`last` chỉ hỏi đúng phần đáp án), 4 session Haiku × 5 agent × 5 trang. Chỉ **Session 3 và 4** (50 trang mới) đã chạy; Session 1–2 (50 trang cũ) chưa. Checker: `check_questions.py v9` (thêm lỗi `source_inconsistent` mọi loại, thiếu `flagged_nearby_ids`, `summary` có cả bắt đầu và kết thúc cùng quote; cảnh báo mốc cờ gần chuỗi chưa khai và hai id chữ trùng cao cùng chunk; năm trong ngoặc "in any order" không tính là lộ đáp án; câu `first`/`last` có chữ "second" báo lỗi).
+
+**2. Số câu (50 trang mới, cùng trang với v8n).**
+
+| | v9 | v8n |
+|---|---|---|
+| Tổng | 204 | 277 |
+| list / first_last_next / summary / order_gap | 96 / 48 / 19 / 41 | 78 / 85 / 52 / 62 |
+| list + summary | 115 | 130 |
+| Trang ≤2 câu | 7 | 0 |
+
+Gộp `list` và `summary` (cùng logic đáp án: danh sách mọi mốc thỏa tiêu chí) thì giảm 12%, không phải `summary` giảm 63%. Phân bố số id: `summary` 3 id từ 26 xuống 5, `list` 2–3 id tăng; hợp với việc Haiku đẩy chuỗi ngắn sang nhãn `list` (suy luận, chưa kiểm chứng). Giảm tổng 26% chủ yếu ở `first_last_next` (−37) và `order_gap` (−21).
+
+**3. So từng câu với v8n (phép khớp thô: ≥50% id trùng hoặc cùng loại chung ≥2 id; chưa kiểm chứng).** 156/277 câu v8n có câu tương ứng ở v9, 121 mất, v9 có 69 câu mới. Trong 121 câu mất: 35 có mốc cờ cùng track trong ±2 năm quanh chuỗi, 1 dùng `source_inconsistent`, 85 không có mốc cờ gần (chủ yếu Haiku chọn câu khác giữa hai lần sinh; nhiễu giữa hai lần sinh cùng một prompt chưa đo). Vậy luật mới chỉ có thể giải thích tối đa khoảng 13% câu v8n; phần còn lại chưa có bằng chứng là do luật.
+
+**4. Chất lượng (đọc tay 22 câu ngẫu nhiên + mọi câu `summary`/`first_last_next` ở dạng chữ).** Không câu nào dùng `source_inconsistent` hay `derived_date`; 1 câu dùng `approximate_date` (Veliky_Novgorod:1, `summary`, có khai). 0 lỗi lộ năm, 0 quote lạ. Lỗi thật: hai câu `first` hỏi thêm "which came second" (Veliky_Novgorod:2, Lenin_Peak:3), đã sửa chữ câu (bỏ vế "second", đáp án giữ nguyên); v8 có một ca tương tự (Werner_Hartmann, chưa sửa). Còn: Department_of_Computing:2–3 viết "mid-2000s" nhưng cửa sổ bắt đầu 2004; ACS_Poli_Timi_oara:1,3,5 dùng chung một chuỗi; nhiều chuỗi chỉ 2 mốc. Haiku đề nghị người dùng quyết: Sirotkin e19/e21 và e29/e32 (đề xuất giữ cả hai, vì chức danh hoặc năm khác nhau); Veliky e21 (Treaty of Stolbovo, `derived_date`) không tính là đổi chủ (đề xuất giữ nguyên); Milton e40/e41 (cùng năm 1988); Charles_Lee e6; Good_Game e19; Leuna "reorganisations" e50.
+
+**5. [1][2][3] cho v9 (một lần chạy DeepSeek, `deepseek_flash`).** [1]: 163 câu (list 96, first_last_next 48, summary 19; `order_gap` không qua [1]), 0 lỗi gọi; 5 câu có ứng viên thật (v8n: 8 câu trên 215 lượt kiểm). Trạng thái ứng viên: `undated_only` 3, `new_not_in_gold` 3, `in_gold_not_in_group` 2, `year_not_in_chunk` 1, `quote_not_in_chunk` 1. [2][3]: 8 ứng viên, kết quả cuối `duplicate_in_chain` 5, `duplicate_of_gold` 1, `reject` 1, `auto_accept` 1, `pending_year_nowhere` 1. Mốc `auto_accept` duy nhất: Vologda:4, "Northern Krai abolished and divided" (1936-12), **chưa đọc chunk để xác nhận**. `pending_year_nowhere`: Alemannia_Aachen:3, năm 1970 không có trong văn bản. `reject`: Sam_Selvon:1 (Chaconia 1994, ngoài cửa sổ "before the 1980s"). Chưa đọc mù chuỗi v9, nên chưa kết luận chất lượng chuỗi hơn v8n.
+
+**6. Chưa làm.** Session 1–2 (50 trang cũ); đọc chunk Vologda:4; áp quyết định cho các câu Haiku đề nghị; quyết gộp `list`/`summary`; đo nhiễu bằng cách sinh hai lần cùng prompt.
+
+**7. Đo hiệu năng LLM (2026-11-10).** Log của [1][2] cũ không có mốc thời gian hay token nên không tính được TTFT/TPOT/E2E/p50–p99/TPM; đã thêm `src/tam/llm/metrics.py` (xem `src/tam/llm/README.md`). Các lượt [1][2][3] đã chạy không chạy lại.

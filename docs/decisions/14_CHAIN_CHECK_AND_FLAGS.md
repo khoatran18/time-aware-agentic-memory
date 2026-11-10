@@ -8,6 +8,7 @@ Bối cảnh và số liệu chi tiết: `docs/eval/10_TIMELINE_DATASET_DESIGN.m
 
 - **Precision ingest bỏ qua sự kiện không ngày** (`date = None`): không tính đúng, không tính sai. Các số precision cũ (bản 9, tập C) tính cả 14 mốc không ngày vào mẫu số; tính lại với mẫu số 197: chặt 67,0%, vừa 79,2%, rộng 100% (số cũ: 62,6%, 73,9%, 93,4%).
 - Bộ chính là v8 + v8n; v7 và v7n chưa cần sửa chuỗi (người dùng, 2026-11-09).
+- **Luật cờ trong câu hỏi: mức 2 = quy tắc 1 + quy tắc 2** (mục 4; người dùng chốt 2026-11-09). Độ lệch ±2 năm vẫn là giả định chưa đo. Việc viết prompt v9 và sửa checker: `docs/pending/01_QUESTION_PROMPT_V9.md`.
 
 ## 2. Sơ đồ các tầng gán trạng thái
 
@@ -51,7 +52,7 @@ Gold có 11.980 mốc trên 355 trang: 1165 `derived_date`, 389 `approximate_dat
 
 Hiện 6 câu của v8+v8n dùng `source_inconsistent` (Humongous:1, Jimmy_Lai:1, Sevilla:1, Talk_im_Turm:1, Steele_Hall:3, Charles_Lee_general:2 ở v8n). Đọc nội dung: Steele_Hall:3 sai (đếm đôi), Talk_im_Turm:1 mơ hồ, Jimmy_Lai:1 đáng ngờ, ba câu còn lại ổn.
 
-**Đề xuất hai quy tắc cho cả bốn loại:**
+**Hai quy tắc cho cả bốn loại (mức 2, đã chốt 2026-11-09):**
 1. Mốc `source_inconsistent` không nằm trong đáp án và không làm điểm neo.
 2. Nếu mốc cờ B thỏa tiêu chí của câu (`criterion`) và nằm gần chuỗi thì đáp án phải không đổi khi B dịch ±2 năm (độ lệch giả định, chưa đo):
    - `list`/`summary`: khoảng của câu phải loại hẳn B (kết thúc trước d−2 hoặc bắt đầu sau d+2).
@@ -106,9 +107,24 @@ Phương án đo (đề xuất): chạy v9 trên cùng 100 trang tune như v7/v8
 
 ## 10. Danh sách việc còn lại (tổng hợp)
 
-- Prompt v9 và cập nhật `check_questions.py` (luật cờ, hai lỗi "any order" Bill_Goldberg:3 và Washington_Spirit:2, `summary` đầu+cuối, mốc cờ xen giữa chuỗi).
+- ~~Prompt v9 và cập nhật `check_questions.py`~~ **Đã viết và chạy Session 3–4 (2026-11-10); kết quả ở `docs/eval/10` mục 10.5av.** Còn: Session 1–2, đọc chunk Vologda:4, quyết các câu Haiku đề nghị, gộp `list`/`summary`.
 - Bước kiểm derived, bước gộp chuỗi, tạo `extras/` (và có đưa 13 mốc thiếu của soát gold 50 trang mới vào đó hay không).
 - Sửa [1] và [2]: năm viết tắt, kiểm trùng bằng mã trước khi đẩy pending, đưa `quote_not_in_chunk` vào giám khảo, ghép chunk kế tiếp khi câu bị cắt ngang ranh giới; giám khảo xét sai `in_window` (Alemannia), năm trong tên riêng, sự kiện của thực thể khác.
 - Ingest: thống nhất định nghĩa `derived_date` với gold; nhận dạng năm viết tắt; bước gộp mốc trùng trong timeline; đối chiếu mốc ingest không ngày với `undated_mentions`; chọn model ingest (hiện chỉ DeepSeek); tính lại precision bản 8 theo quy tắc mới, thêm người đọc thứ hai.
 - Dữ liệu: 23 trang gold có tên file mất ký tự có dấu (ví dụ `S_rgio_Concei_o`) nên không khớp tự động vào `tune`/`valid` bằng tên; khớp tự động cho tune 179, valid 153 (còn 23 trang chưa gán); `test_clean` (186 trang) chưa có gold; `valid` (167 trang) có gold nhưng chưa sinh câu hỏi.
 - Chưa quyết: cách chấm `list` so với `summary`; tỷ lệ theo loại câu; soát gold 50 trang mới bằng người đọc thứ hai; quyết định xử lý mâu thuẫn trong cùng trang (mục 8).
+
+## 11. Công cụ đã viết cho bước kiểm derived, gộp và `extras` (2026-11-09, đã chạy thử, chưa áp thật)
+
+- **`local/chain_derived.py`** (kiểm derived, lười): đọc `derived_pending.jsonl` của [2][3] và `results.jsonl` của [1]; thứ tự: (1) mã nhận dạng năm viết tắt, (2) mã loại trùng gold (cùng chunk + cùng ngày + chữ chung ≥ 0,6), (3) giám khảo DeepSeek cho các ca còn lại. Ra `local/derived_verified.json`. Chạy trên 7 ca pending của v7n/v8n: `duplicate_of_gold` 2 (Alemannia `e21` bằng giám khảo; Department_of_Computing bằng mã, nhưng mã cũng ghi nhầm `e6` vì chung cụm "Department of Computing and Control", nên mã trùng bằng chữ chung có thể ghi dư id), `duplicate_in_chain` 1 (Meet_the_Press `e25`), `no_date_stated` 4 (Charles_Lee, Engel, Rush_Holt ×2); 0 mốc mới; 6 lời gọi LLM, 0 ca năm viết tắt.
+- **`local/chain_apply.py`** (gộp): áp **quyết định đã duyệt** từ file JSON do người đọc viết (`add_ids` hoặc `drop` kèm `extra`), không tự suy từ nhãn `auto_accept`. Mặc định chạy thử, không ghi gì; `--apply` sao lưu `<page>.jsonl.bak_apply`, ghi nhật ký `local/chain_apply_log.jsonl`, bỏ câu vào `<set>/_dropped.jsonl` (thẻ q của các câu sau trong trang dịch xuống 1), ghi `dataset/eval/timeline_pilot/extras/<page>.json`. `list`/`summary`: thêm id giữ thứ tự thời gian, chặn nếu vượt trần 10/8; `first_last_next`: thêm vào `group_event_ids`, tính lại đáp án theo subtype, **không áp** nếu đáp án đổi hoặc có hòa ngày (báo cần quyết định).
+- Chạy thử với `local/chain_decisions_v7n_test.json` (bốn quyết định thật của v7n: Rams:1 thêm `e28`, Sirotkin:1 thêm `e10`, bỏ Cochran:2 và Sam_Selvon:1 kèm hai mục `extras`): đều ra "ÁP" ở chế độ thử, chưa ghi gì; thư mục `extras/` chưa tạo. Chưa áp thật vì bộ chính là v8/v8n (0 ca cần sửa) và v7n chưa cần.
+
+## 12. Chốt về mốc derived và mốc mới trong đáp án (người dùng, 2026-11-09)
+
+- **Derived đã có trong gold và [2] duyệt** (năm lấy từ chính chunk hoặc từ năm viết tắt do mã tính; năm phải suy từ chunk khác thì không cho): thêm id vào đáp án của câu đó, không đổi gold. Khi sinh câu hỏi, mốc `derived_date` vẫn không làm điểm neo và Haiku không dựa vào nó làm đáp án.
+- **Derived mới chưa có trong gold:** chỉ ghi `extras` (để tính precision ingest); không vào đáp án; bỏ câu nếu nó nằm trong khoảng chuỗi và thỏa tiêu chí.
+- **Mốc ngày rõ cùng câu nhưng chưa có trong gold** (kiểu Cochran DFC, Sam_Selvon Chaconia): bỏ câu, ghi `extras` (hướng b, giữ như cũ).
+- **Chưa chốt, không phải việc trước mắt:** giữ câu và thêm id kiểu `extra_<trang>_<n>` / `answer_extra` cho mốc ngày rõ mới; điều kiện nhất quán và lý do hoãn ở `docs/pending/01_QUESTION_PROMPT_V9.md`.
+- Việc kéo theo (chưa làm): `local/chain_apply.py` hiện chưa cho `add_ids` với mốc mang cờ; cần cho phép khi quyết định ghi `verified_derived: true` và vẫn chặn mốc `source_inconsistent`. Ba ca `in_gold_not_in_group` mang `derived_date` (Bill_Goldberg:4, Department_of_Computing:1 của v7n, Air_Component_Command:8) chưa được đọc.
+
