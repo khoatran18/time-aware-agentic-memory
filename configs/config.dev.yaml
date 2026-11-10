@@ -62,6 +62,16 @@ llm:
       temperature: 0                   # chỉ có tác dụng khi tắt thinking (theo trang DeepSeek, thinking bỏ qua temperature, không báo lỗi)
       structured_output: false         # DeepSeek không hỗ trợ response_format kiểu json_schema của langchain: gọi thường kèm schema JSON rồi đọc JSON (tam/llm/structured.py)
       extra_body: {thinking: {type: "disabled"}}   # tắt thinking cho rẻ và nhanh; bỏ dòng này để bật lại (mặc định của DeepSeek là bật)
+    opencode_deepseek_flash:           # DeepSeek V4.1 Flash qua OpenCode Go (API tương thích OpenAI), tách khỏi deepseek_flash (API DeepSeek trực tiếp); chưa gọi thử
+      provider: "openai"
+      model_id: "deepseek-v4.1-flash"
+      api_key: "${OPENCODE_API_KEY:-}"
+      base_url: "https://opencode.ai/inference/go/openai/v1"   # theo opencode.ai/docs/go; endpoint đầy đủ là .../openai/v1/chat/completions
+      temperature: 0
+      timeout: 120
+      structured_output: false         # như deepseek_flash: gọi thường kèm schema JSON rồi đọc JSON (tam/llm/structured.py); chưa kiểm chứng OpenCode có nhận response_format hay không
+      # extra_body: {thinking: {type: "disabled"}}   # chưa kiểm chứng OpenCode có chuyển tiếp trường này cho DeepSeek không; thử rồi mới bật
+      # cache_model: không đặt: khóa cache theo model_id "deepseek-v4.1-flash", khác deepseek_flash ("deepseek-flash"), nên không dùng chung cache với API trực tiếp
     google_gemma26:                    # Gemma 4 26B (MoE, ~4B tham số hoạt động) gọi thẳng; hạn mức 30 RPM, 16K TPM
       provider: "google"
       model_id: "gemma-4-26b-a4b-it"
