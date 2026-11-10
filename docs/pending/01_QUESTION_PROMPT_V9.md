@@ -1,6 +1,6 @@
 # Prompt sinh câu hỏi v9 và checker đi kèm (đã viết 2026-11-09; Session 3–4 đã chạy 2026-11-10, kết quả ở docs/eval/10 mục 10.5av)
 
-**Trạng thái:** `local/prompts/sinh_cau_hoi_v9.md` (4 session × 5 agent × 5 trang = 100 trang tune, ra `local/questions/v9/`) và `local/questions/check_questions.py v9` đã viết; chưa chạy Haiku. Checker v9: lỗi nếu dùng `source_inconsistent` ở mọi loại, thiếu `flagged_nearby_ids`, `summary` có cả mốc bắt đầu và kết thúc cùng quote; cảnh báo mốc cờ cùng track trong ±2 năm chưa khai, hai id chữ trùng cao ngày khác nhau; năm trong ngoặc "in any order" không còn tính là lộ đáp án (sửa Bill_Goldberg:3, Washington_Spirit:2). Mục "Dự định sửa" bên dưới đã thực hiện, trừ việc mốc cờ "cùng loại với criterion" vẫn cần người đọc.
+**Trạng thái:** `local/prompts/sinh_cau_hoi_v9.md` (4 session × 5 agent × 5 trang = 100 trang tune, ra `local/questions/v9/`) và `local/questions/check_questions.py v9` đã viết; đã chạy cả 4 session Haiku (Session 3–4 ngày 2026-11-10, Session 1–2 cùng ngày; 364 câu trên 100 trang, 0 lỗi checker; so v8 ở docs/eval/10 mục 10.5aw; chờ người dùng quyết v9 hay v8 làm bản chính). Checker v9: lỗi nếu dùng `source_inconsistent` ở mọi loại, thiếu `flagged_nearby_ids`, `summary` có cả mốc bắt đầu và kết thúc cùng quote; cảnh báo mốc cờ cùng track trong ±2 năm chưa khai, hai id chữ trùng cao ngày khác nhau; năm trong ngoặc "in any order" không còn tính là lộ đáp án (sửa Bill_Goldberg:3, Washington_Spirit:2). Mục "Dự định sửa" bên dưới đã thực hiện, trừ việc mốc cờ "cùng loại với criterion" vẫn cần người đọc.
 
 "v9 câu hỏi" là prompt cho các session Haiku (cùng loại với `local/prompts/sinh_cau_hoi_v7.md`, `_v8.md`), khác với "bản 9 của ingest" (`pass3_p9.py`). Quyết định hiện hành: dùng v8 (`decisions/13`); v9 chỉ thay v8 nếu đo tốt hơn.
 
@@ -49,3 +49,9 @@ Phân loại theo nơi mốc nằm:
 - Nếu sau này số ca tăng (ví dụ valid/test có gold chưa soát kỹ), đáng cân nhắc phương án giữ câu: mốc ngày rõ nhưng chưa có trong gold đáng tin ngang mốc gold (quote đã được mã và giám khảo kiểm), còn derived mới thì kém tin hơn nên giữ bỏ câu.
 - Điều kiện để phương án giữ câu nhất quán giữa các câu cùng trang: sau khi tạo `extras`, phải chạy lại [1] cho **mọi** câu liên quan của trang với `extras` được đưa vào danh sách `ALREADY RECORDED`; nếu không thì câu khác có tiêu chí khớp mốc đó sẽ thiếu mốc trong đáp án trong khi câu đầu có. Hiện [1] chỉ đưa gold ngoài chuỗi vào `ALREADY RECORDED`, chưa có `extras`.
 - Cần định nghĩa rõ "[2] duyệt derived" (xem luật chặt ở trên) trước khi dùng.
+
+## Ghi chú về `criterion` và quy tắc 2 (người dùng nhắc, 2026-11-10)
+- Trường `criterion` hiện chỉ để Haiku tự kiểm nghĩa đen và để người đọc đối chiếu; **không có mã nào dùng nó**. Quy tắc 2 cần biết mốc cờ B "cùng loại sự kiện với `criterion`" hay không, mà mã không kiểm được (`local/flag_rules.py` dùng track/label làm đại diện nên đếm dư: trên v8+v8n báo 10 câu, đọc tay thì 0 câu vi phạm thật).
+- Hướng có thể làm sau (chưa chốt, chưa làm): một bước kiểm nhỏ bằng giám khảo DeepSeek, mỗi cặp (`criterion`, text của B) hỏi "B có thỏa criterion không", chỉ chạy trên các ca mã báo (cỡ vài chục lời gọi). Hoặc giữ cách hiện tại: mã báo, người đọc quyết.
+- `criterion` còn hữu ích cho [1]: câu hỏi đưa vào [1] đã kèm cả câu hỏi, nhưng [1] không đọc `criterion`; chưa thử đưa nó vào prompt [1].
+

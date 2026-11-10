@@ -97,3 +97,14 @@ def test_measure_stream_ttft(tmp_path, monkeypatch):
 
     row = metrics.measure_stream(S(), [("human", "q")])
     assert row["ttft_s"] >= 0.02 and row["output_tokens"] == 2 and row["tokens_exact"] and row["tpot_s"] is not None
+
+
+def test_cached_from_reads_cache_read_and_none_when_absent():
+    """`_cached_from` lấy `input_token_details.cache_read`; không có thì None."""
+    from types import SimpleNamespace as NS
+
+    def resp(usage):
+        return NS(generations=[[NS(message=NS(usage_metadata=usage))]])
+
+    assert metrics._cached_from(resp({"input_tokens": 10, "input_token_details": {"cache_read": 7}})) == 7
+    assert metrics._cached_from(resp({"input_tokens": 10})) is None

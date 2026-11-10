@@ -74,6 +74,20 @@ def _usage_from(response: Any) -> tuple[int | None, int | None]:
     return None, None
 
 
+def _cached_from(response: Any) -> int | None:
+    """Số token vào trúng cache phía nhà cung cấp (DeepSeek: `input_token_details.cache_read`), hoặc None nếu API không báo."""
+    try:
+        for gens in response.generations:
+            for gen in gens:
+                usage = getattr(getattr(gen, "message", None), "usage_metadata", None) or {}
+                details = usage.get("input_token_details") or {}
+                if "cache_read" in details:
+                    return details["cache_read"]
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 class LlmMetrics(BaseCallbackHandler):
     """Callback của langchain: mỗi lần model được gọi thật (kể cả lần thử lại) ghi một dòng `llm_call`."""
 
@@ -97,7 +111,7 @@ class LlmMetrics(BaseCallbackHandler):
         tin, tout = _usage_from(response)
         e2e = None if t0 is None else time.perf_counter() - t0
         record({"kind": "llm_call", "profile": self.profile, "ok": True, "e2e_s": e2e, "input_tokens": tin,
-                "output_tokens": tout, "tokens_per_s": (tout / e2e if tout and e2e else None)})
+                "output_tokens": tout, "cached_input_tokens": _cached_from(response), "tokens_per_s": (tout / e2e if tout and e2e else None)})
 
     def on_llm_error(self, error: BaseException, *, run_id: UUID, **kwargs: Any) -> None:
         """Ghi một lần gọi lỗi, kèm mã HTTP nếu có (429 = chạm giới hạn)."""
@@ -192,7 +206,8 @@ def summarize(path: Path) -> dict[str, Any]:
         "e2e_call_s": pcts(calls, "e2e_s"), "e2e_invoke_s": pcts(invokes, "e2e_s"),
         "tokens_per_s": pcts(calls, "tokens_per_s"),
         "ttft_s": pcts(streams, "ttft_s"), "tpot_s": pcts(streams, "tpot_s"),
-        "input_tokens": tin, "output_tokens": tout, "wall_s": span,
+        "input_tokens": tin, "output_tokens": tout, "cached_input_tokens": sum(r.get("cached_input_tokens") or 0 for r in calls),
+        "wall_s": span,
         "throughput_calls_per_s": (len(calls) / span if span else None),
         "throughput_out_tokens_per_s": (tout / span if span else None),
         "RPM_avg": (len(calls) / minutes if minutes else None), "TPM_avg": ((tin + tout) / minutes if minutes else None),
