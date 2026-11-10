@@ -15,6 +15,7 @@ from langchain_core.language_models.chat_models import BaseChatModel
 
 from tam.config.loader import Config
 from tam.config.logging import get_logger
+from tam.llm import metrics as _metrics
 from tam.llm import providers as _providers  # noqa: F401  (nạp provider để chúng tự đăng ký)
 from tam.llm.registry import LLM_PROVIDERS
 
@@ -51,6 +52,7 @@ def get_llm(cfg: Config, profile_name: str) -> BaseChatModel:
         extra["structured_output"] = False
     if extra:
         model.metadata = {**(model.metadata or {}), **extra}
+    _metrics.attach(model, profile_name)  # đo E2E/token/lỗi mỗi lần gọi (tam/llm/metrics.py)
     logger.info("Tạo LLM profile=%s provider=%s model_id=%s", profile_name, provider, profile.get("model_id"))
     return model
 

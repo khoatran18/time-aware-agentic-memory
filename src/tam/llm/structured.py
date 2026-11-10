@@ -16,6 +16,7 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from pydantic import BaseModel
 
 from tam.config.logging import get_logger
+from tam.llm import metrics
 from tam.llm.cache import PREVIEW_CHARS, CacheStore
 
 logger = get_logger(__name__)
@@ -113,11 +114,20 @@ def invoke_structured(
     `key_messages`: nội dung dùng để tính khóa thay cho `messages` (vd bỏ phần phụ thuộc ngày hiện tại).
     `cacheable`: nhận kết quả, trả False thì không ghi vào cache.
     """
+    t_start = time.perf_counter()
+    attempts_made = 0
+
+    def _log(outcome: str, *, cache_hit: bool = False) -> None:
+        """Ghi một dòng `invoke`: cả lần gọi hàm (gồm thử lại, chờ backoff, cache hit)."""
+        metrics.record({"kind": "invoke", "schema": schema.__name__, "model": _model_id(llm), "outcome": outcome,
+                        "cache_hit": cache_hit, "attempts": attempts_made, "e2e_s": time.perf_counter() - t_start})
+
     key = None
     if cache is not None:
         key = cache.key(schema.__name__, _model_id(llm), json.dumps(key_messages or messages, ensure_ascii=False))
         cached = cache.get(key)
         if cached is not None:
+            _log("cache_hit", cache_hit=True)
             return schema.model_validate(cached)
     schema_note = (
         "Reply with ONLY a JSON object (no markdown, no commentary) matching this JSON schema:\n"
@@ -126,6 +136,7 @@ def invoke_structured(
     fallback_messages = [*messages, ("human", schema_note)]
     use_structured = _uses_structured_output(llm)
     for attempt in range(1, max_attempts + 1):
+        attempts_made = attempt
         try:
             try:
                 if not use_structured:
@@ -139,8 +150,13 @@ def invoke_structured(
             if cache is not None and key is not None and (cacheable is None or cacheable(result)):
                 cache.put(key, result.model_dump(mode="json"), meta={
                     "schema": schema.__name__, "model": _model_id(llm), "preview": _preview(messages)})
+            _log("ok")
             return result
+        except LlmUnavailable:
+            _log("unavailable")
+            raise
         except ValueError as exc:
             logger.warning("LLM trả JSON không hợp lệ (lần %d/%d): %s", attempt, max_attempts, str(exc)[:200])
     logger.error("Bỏ sau %d lần thử: LLM không trả JSON hợp lệ", max_attempts)
+    _log("invalid_json")
     return None
