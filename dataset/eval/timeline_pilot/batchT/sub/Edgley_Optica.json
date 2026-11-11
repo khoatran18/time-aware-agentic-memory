@@ -1,0 +1,151 @@
+{
+  "page_id": "/wiki/Edgley_Optica",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1974",
+      "grain": "year",
+      "track": "work",
+      "text": "Optica project began with Edgley Aircraft Limited as its company.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#1", "role": "both", "quote": "The Optica project began in 1974 with a company"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1974",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Edgley Aircraft Limited formed by John Edgley.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#1", "role": "both", "quote": "The Optica project began in 1974 with a company"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1979-12-14",
+      "grain": "day",
+      "track": "work",
+      "text": "Optica made maiden flight, flown by Squadron Leader Angus McVitie.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#6", "role": "both", "quote": "made its maiden flight on 14 December 1979"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1982",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Institutional investors bought into the Optica project.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#1", "role": "both", "quote": "In 1982 , institutional investors bought into the project and set up a production line at Old Sarum Airfield"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1982",
+      "grain": "year",
+      "track": "location",
+      "text": "Production line set up at Old Sarum Airfield, Wiltshire.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#1", "role": "both", "quote": "In 1982 , institutional investors bought into the project and set up a production line at Old Sarum Airfield"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1983",
+      "grain": "year",
+      "track": "work",
+      "text": "Optica, upgraded to Lycoming IO-540 engine, entered production.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#6", "role": "both", "quote": "entered production in 1983"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1985",
+      "grain": "year",
+      "track": "work",
+      "text": "First customer Optica aircraft delivered, about three years after 1982.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#1", "role": "both", "quote": "and the first customer aircraft was delivered"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "1985-02-08",
+      "grain": "day",
+      "track": "work",
+      "text": "Edgley Aircraft obtained initial UK Civil Aviation Authority certification.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#6", "role": "both", "quote": "Edgley Aircraft Limited obtained its initial Civil Aviation Authority certification on 8 February 1985"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2007",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Optica and Sprint offered to John Edgley, who formed AeroElvira Limited.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#9", "role": "both", "quote": "in 2007 , they were offered to John Edgley"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2008-06-03",
+      "grain": "day",
+      "track": "work",
+      "text": "AeroElvira returned G-BOPO to service as UK demonstrator.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#9", "role": "both", "quote": "with a first return-to-service flight on 3 June 2008"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2016-12",
+      "grain": "month",
+      "track": "other",
+      "label": "valuation",
+      "text": "InterFlight Global completed its valuation of the dormant Optica.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#10", "role": "both", "quote": "In December 2016 , InterFlight Global completed its valuation"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017-06",
+      "grain": "month",
+      "track": "other",
+      "label": "letter_of_intent",
+      "text": "InterFlight Global delivered an LOI to AeroElvira to continue due diligence.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#10", "role": "both", "quote": "in June 2017 , delivered an LOI to AeroElvira"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2018",
+      "grain": "year",
+      "track": "work",
+      "text": "InterFlight Global modified Optica relaunch efforts and identified an OEM partner.",
+      "evidence": [
+        {"chunk_id": "/wiki/Edgley_Optica#10", "role": "both", "quote": "At the end of 2018 , IFG modified its initial program re-launch efforts"}
+      ],
+      "flag": "approximate_date"
+    }
+  ],
+  "undated_mentions": [
+    "Edgley Aircraft went into receivership and John Edgley was forced out (no date)",
+    "New owners completed production-line aircraft and Optica entered service (no date)",
+    "Ten Optica aircraft destroyed in arson attack at factory (no date)",
+    "Construction of a 23rd Optica begun but not completed (no date)",
+    "FLS Aerospace (Lovaux Ltd) took over Optica and Sprint rights (no date)",
+    "Lovaux cancelled Optica and Sprint projects (no date)",
+    "Manufacturer issued service bulletin calling for fan hub inspection (no date)",
+    "UK CAA issued Mandatory Airworthiness Notice on fan hub cracks (no date)",
+    "Optica fan replaced by Hoffmann Propeller design (no date)"
+  ]
+}

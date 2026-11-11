@@ -1567,3 +1567,18 @@ Nguồn: `batchT/sub/` (bản Haiku, chưa copy sang `rev/`, chưa soát). Số 
 - Báo cáo session 28 coi việc dùng Edit là "lệnh ngoài quy định": thực ra prompt chỉ cấm `sed -i`, Edit hợp lệ.
 
 **4. Chưa kiểm chứng:** agent có mở thư mục cấm không (không đọc transcript); sót/sai từng trang (chỉ đọc 4 trang: HMAS_Wollongong, Tingmissartoq, Ilya_Ponomarev, USAFE phần đầu, và 30 mốc đầu U_101).
+
+### 10.5bg Gold test_clean session 31–38 và tổng kết 186 trang (2026-11-11)
+
+Nguồn: `batchT/sub/` (bản Haiku). Số đếm từ file. **Mới chỉ có `rev/` cho session 1–10 (50 trang); 136 trang còn lại (session 11–38) chưa copy sang `rev/`, chưa soát.**
+
+**1. Session 31–38 (36 trang):** đủ file, JSON hợp lệ, `check.py` 0 lỗi, số agent báo khớp file. 1505 mốc (42/trang, cao hơn session 11–30). Cờ: 170 `derived_date`, **137 `approximate_date`** (9%, cao hơn các lượt trước), 7 `source_inconsistent`, 1191 không cờ. Không có mốc BC.
+- `approximate_date` dồn ở trang bóng đá theo mùa giải: UD_Las_Palmas 49/84, 1_FC_K_ln 32/79, Gary_Mills 11/62, Lana_Turner 8/83, FCI_Levadia 8/56. Theo luật checker, mốc này bị chặn ở `order_gap`/`first_last_next` (còn dùng được ở `list`/`summary`), nên các trang này ít câu thứ tự.
+- `derived_date` cao ở trang tàu ngầm U_123 27/48, trang đội bóng/đơn vị: 1_FC_K_ln 17/79, 2_17th_Battalion 15/43, Friedrich_Guggenberger 14/45, Lana_Turner 14/83.
+- Mật độ (mốc/chunk) cao: Sven_Wollter 5,19 (83/16 chunk, tiểu sử diễn viên kiểu danh sách năm), FCI_Levadia 3,11, UD_Las_Palmas 3,23, National_Library_of_Serbia 3,05, Cho_Yoon_sun 2,67. Thấp: Many_a_Slip 0,31 (5 mốc, 6 undated), Princess_Victoria_Melita 0,43, Office_for_Foreign_Relations 0,44 (4 mốc/4 undated), Guy_Gabaldon 0,66 (19 mốc, 22 undated). Chưa đọc các trang này.
+- Friedrich_Guggenberger: lần kiểm đầu lỗi e11 (quote không có năm); agent đổi cờ `source_inconsistent` thành `derived_date` ("9 September", năm 1941 suy ra từ ngữ cảnh; mâu thuẫn với e6 "19 September 1940"). Cả hai cờ đều bị loại khỏi câu hỏi, nên không đổi kết quả sinh câu, nhưng đúng guide thì e11 là `source_inconsistent` (như SMS_Cormoran e5 ở session 1–10). Chưa sửa.
+- Báo cáo session 32 nói `sub/` có 180 file "chưa rõ nguồn 25 file": do các session chạy song song; cuối cùng `sub/` có đúng 186 file, khớp danh sách (không thiếu, không thừa).
+
+**2. Tổng kết gold test_clean (186 trang, `sub/`):** 6236 mốc (1–10: 1762 ở `sub/` và 1764 ở `rev/`; 11–20: 1614; 21–30: 1355; 31–38: 1505). Cờ: 714 `derived_date` (11,5%), 296 `approximate_date` (4,7%), 71 `source_inconsistent`, 5155 không cờ. Mốc BC trong `sub/`: 1 (Cueva_de_las_Manos; `rev/` có 3). `check.py` 0 lỗi cả 186 trang (chỉ kiểm cấu trúc, không kiểm sót/sai nội dung).
+
+**3. Còn phải làm trước khi sinh câu hỏi test_clean:** copy 136 trang sang `rev/` và soát (chờ người dùng quyết mức soát); quyết định nới luật `derived_date` hay không (10.5bf); viết prompt sinh câu hỏi (v9 + không dùng mốc `date` âm).

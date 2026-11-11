@@ -1,0 +1,178 @@
+{"page_id": "/wiki/FCI_Levadia_Tallinn",
+ "events": [
+  {"id": "e1", "date": "1998", "grain": "year", "track": "other", "label": "honour", "text": "Club won the 1998 Esiliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#15", "role": "both", "quote": "Esiliiga - Winners ( 1 ) : 1998"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "The club won the 1998 Esiliiga"}]},
+  {"id": "e2", "date": "1998", "grain": "year", "track": "affiliation", "text": "Promoted to the Meistriliiga after the 1998 Esiliiga",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "The club won the 1998 Esiliiga and were promoted to the Meistriliiga"}]},
+  {"id": "e3", "date": "1998-10-22", "grain": "day", "track": "other", "label": "founding", "text": "Levadia founded after Levada Group sponsored Olümp",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "Levadia was founded on 22 October 1998"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#1", "role": "both", "quote": "Founded as Levadia in Maardu in 1998"}]},
+  {"id": "e4", "date": "1999", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Cup (1998–99 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "In 1999 , Levadia became the first team to win the Meistriliiga , the Estonian Cup"}]},
+  {"id": "e5", "date": "1999", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "In 1999 , Levadia became the first team to win the Meistriliiga"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#15", "role": "both", "quote": "Meistriliiga - Winners ( 9 ) : 1999 , 2000"}]},
+  {"id": "e6", "date": "1999", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "Estonian Supercup - Winners ( 7 ) : 1999 , 2000 , 2001"}]},
+  {"id": "e7", "date": "1999-01", "grain": "month", "track": "role", "text": "Sergei Ratnikov appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "In January 1999 , Sergei Ratnikov was appointed as manager"}]},
+  {"id": "e8", "date": "2000", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Club won the Estonian Cup in treble year (1999–2000 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "both", "quote": "Levadia managed to repeat their success by winning another treble in the following year"}]},
+  {"id": "e9", "date": "2000", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#15", "role": "both", "quote": "Meistriliiga - Winners ( 9 ) : 1999 , 2000"}]},
+  {"id": "e10", "date": "2000", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "Estonian Supercup - Winners ( 7 ) : 1999 , 2000 , 2001"}]},
+  {"id": "e11", "date": "2000", "grain": "year", "track": "role", "flag": "approximate_date", "text": "Ratnikov sacked after 2000–01 Champions League qualifying loss",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#2", "role": "date", "quote": "In the 2000–01"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#3", "role": "description", "quote": "Following the loss to Shakhtar Donetsk , Ratnikov was sacked"}]},
+  {"id": "e12", "date": "2001", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "Estonian Supercup - Winners ( 7 ) : 1999 , 2000 , 2001"}]},
+  {"id": "e13", "date": "2001", "grain": "year", "track": "role", "text": "Valeri Bondarenko appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "In 2001 , Valeri Bondarenko was appointed as a manager"}]},
+  {"id": "e14", "date": "2001-11", "grain": "month", "track": "role", "text": "Bondarenko replaced by Pasi Rautiainen as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "in November 2001 , Bondarenko was replaced by Pasi Rautiainen"}]},
+  {"id": "e15", "date": "2002", "grain": "year", "track": "role", "flag": "derived_date", "text": "Rautiainen resigned as manager after the 2002 season",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "After the season , Rautiainen resigned"}]},
+  {"id": "e16", "date": "2003", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2003–04 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2003–04"}]},
+  {"id": "e17", "date": "2003-01", "grain": "month", "track": "role", "text": "Franco Pancheri appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "replaced by Franco Pancheri in January 2003"}]},
+  {"id": "e18", "date": "2003-06", "grain": "month", "track": "role", "text": "Pancheri sacked as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "before he was sacked in June 2003"}]},
+  {"id": "e19", "date": "2003-06", "grain": "month", "track": "role", "flag": "derived_date", "text": "Tarmo Rüütli appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#4", "role": "both", "quote": "He was replaced by Tarmo Rüütli"}]},
+  {"id": "e20", "date": "2004", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2004–05 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2004–05"}]},
+  {"id": "e21", "date": "2004", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "both", "quote": "Under Rüütli , Levadia won the league in the 2004 season"}]},
+  {"id": "e22", "date": "2004", "grain": "year", "track": "location", "text": "Club moved to Tallinn",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "both", "quote": "In 2004 , Levadia moved to Tallinn"}]},
+  {"id": "e23", "date": "2004", "grain": "year", "track": "location", "text": "Club began playing home matches at Kadriorg Stadium",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#13", "role": "both", "quote": "From 2004 to 2018 , Levadia played at Kadriorg Stadium"}]},
+  {"id": "e24", "date": "2006", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2006–07 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2006–07"}]},
+  {"id": "e25", "date": "2006", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "both", "quote": "Levadia won two more Meistriliiga titles in 2006 and 2007"}]},
+  {"id": "e26", "date": "2007", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "both", "quote": "Levadia won two more Meistriliiga titles in 2006 and 2007"}]},
+  {"id": "e27", "date": "2008-03", "grain": "month", "track": "role", "text": "Rüütli hired by Estonian Football Association to coach national team",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "both", "quote": "In March 2008 , Rüütli was hired by the Estonian Football Association"}]},
+  {"id": "e28", "date": "2008-03", "grain": "month", "track": "role", "flag": "derived_date", "text": "Igor Prins took over as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#6", "role": "date", "quote": "In March 2008 , Rüütli was hired by the Estonian Football Association"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "description", "quote": "his assistant Igor Prins took over as manager"}]},
+  {"id": "e29", "date": "2008", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "Under Prins , Levadia won two consecutive Meistriliiga titles in 2008 and 2009"}]},
+  {"id": "e30", "date": "2009", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "Under Prins , Levadia won two consecutive Meistriliiga titles in 2008 and 2009"}]},
+  {"id": "e31", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Cup (2009–10 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "and an Estonian Cup in 2010"}]},
+  {"id": "e32", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2001 , 2010 , 2013 , 2015 , 2018"}]},
+  {"id": "e33", "date": "2010-08", "grain": "month", "track": "role", "text": "Igor Prins sacked as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "In August 2010 , Prins was sacked due to disagreements with the board and replaced by Levadia II manager Aleksandr Puštov"}]},
+  {"id": "e34", "date": "2010-08", "grain": "month", "track": "role", "text": "Aleksandr Puštov appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "In August 2010 , Prins was sacked due to disagreements with the board and replaced by Levadia II manager Aleksandr Puštov"}]},
+  {"id": "e35", "date": "2011", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2011–12 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "The club won the 2011–12 Estonian Cup"}]},
+  {"id": "e36", "date": "2011-07", "grain": "month", "track": "role", "text": "Aleksandr Puštov sacked as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "In July 2011 , Puštov was sacked after disappointing results"}]},
+  {"id": "e37", "date": "2011-07", "grain": "month", "track": "role", "text": "Sergei Hohlov-Simson appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#7", "role": "both", "quote": "In July 2011 , Puštov was sacked after disappointing results"}]},
+  {"id": "e38", "date": "2011-12", "grain": "month", "track": "role", "text": "Marko Kristal appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "In December 2011 , Marko Kristal was appointed as manager"}]},
+  {"id": "e39", "date": "2013", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "Levadia won the Meistriliiga title in the 2013 season"}]},
+  {"id": "e40", "date": "2013", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2001 , 2010 , 2013 , 2015 , 2018"}]},
+  {"id": "e41", "date": "2013", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2013–14 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2013–14"}]},
+  {"id": "e42", "date": "2014", "grain": "year", "track": "other", "label": "honour", "text": "Club retained the Meistriliiga title",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "The team defended their title in 2014"}]},
+  {"id": "e43", "date": "2015", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2001 , 2010 , 2013 , 2015 , 2018"}]},
+  {"id": "e44", "date": "2015-11", "grain": "month", "track": "role", "text": "Ratnikov announced as returning manager replacing Kristal",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "In November 2015 , it was announced that Sergei Ratnikov will return to Levadia"}]},
+  {"id": "e45", "date": "2016-07", "grain": "month", "track": "role", "text": "Ratnikov sacked as manager after loss to Pärnu",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "both", "quote": "lasted until July 2016 , when he was sacked following a 0–1 loss to Pärnu Linnameeskond"}]},
+  {"id": "e46", "date": "2016-07", "grain": "month", "track": "role", "flag": "derived_date", "text": "Igor Prins returned as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#9", "role": "date", "quote": "lasted until July 2016 , when he was sacked"},
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#10", "role": "description", "quote": "replaced by another returning manager , Igor Prins"}]},
+  {"id": "e47", "date": "2017", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2017–18 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2017–18"}]},
+  {"id": "e48", "date": "2017", "grain": "year", "track": "other", "label": "merger", "text": "Levadia and FCI Tallinn merged their first teams",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#1", "role": "both", "quote": "In 2017 , Levadias first team merged with FCI Tallinn , and became FCI Levadia"}]},
+  {"id": "e49", "date": "2017", "grain": "year", "track": "naming", "text": "Club renamed FCI Levadia",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#1", "role": "both", "quote": "In 2017 , Levadias first team merged with FCI Tallinn , and became FCI Levadia"}]},
+  {"id": "e50", "date": "2017", "grain": "year", "track": "role", "flag": "derived_date", "text": "Aleksandar Rogić appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#10", "role": "both", "quote": "2017 season , Levadia and FCI Tallinn merged their first teams , becoming FCI Levadia , with FCI Tallinns Aleksandar Rogić taking over as manager"}]},
+  {"id": "e51", "date": "2018", "grain": "year", "track": "other", "label": "honour", "text": "Club won the Estonian Supercup",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2001 , 2010 , 2013 , 2015 , 2018"}]},
+  {"id": "e52", "date": "2018", "grain": "year", "track": "location", "text": "Club ended playing at Kadriorg Stadium",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#13", "role": "both", "quote": "From 2004 to 2018 , Levadia played at Kadriorg Stadium"}]},
+  {"id": "e53", "date": "2019-09-15", "grain": "day", "track": "role", "text": "Aleksandar Rogić sacked after disappointing results",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#10", "role": "both", "quote": "On 15 September 2019 , Rogić was sacked after disappointing results"}]},
+  {"id": "e54", "date": "2019-09-15", "grain": "day", "track": "role", "text": "Vladimir Vassiljev took over as caretaker manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#10", "role": "both", "quote": "On 15 September 2019 , Rogić was sacked after disappointing results , with assistant coach Vladimir Vassiljev taking over as caretaker manager"}]},
+  {"id": "e55", "date": "2019-11", "grain": "month", "track": "role", "text": "Martin Reim appointed as manager",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#10", "role": "both", "quote": "In November 2019 , former Estonia head coach and record cap holder Martin Reim was appointed as manager"}]},
+  {"id": "e56", "date": "2020", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Club won the Estonian Cup (2020–21 season)",
+   "evidence": [
+    {"chunk_id": "/wiki/FCI_Levadia_Tallinn#16", "role": "both", "quote": "2020–21"}]}
+ ],
+ "undated_mentions": []}
