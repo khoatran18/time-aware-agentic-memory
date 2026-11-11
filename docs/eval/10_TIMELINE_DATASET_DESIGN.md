@@ -1582,3 +1582,32 @@ Nguồn: `batchT/sub/` (bản Haiku). Số đếm từ file. **Mới chỉ có `
 **2. Tổng kết gold test_clean (186 trang, `sub/`):** 6236 mốc (1–10: 1762 ở `sub/` và 1764 ở `rev/`; 11–20: 1614; 21–30: 1355; 31–38: 1505). Cờ: 714 `derived_date` (11,5%), 296 `approximate_date` (4,7%), 71 `source_inconsistent`, 5155 không cờ. Mốc BC trong `sub/`: 1 (Cueva_de_las_Manos; `rev/` có 3). `check.py` 0 lỗi cả 186 trang (chỉ kiểm cấu trúc, không kiểm sót/sai nội dung).
 
 **3. Còn phải làm trước khi sinh câu hỏi test_clean:** copy 136 trang sang `rev/` và soát (chờ người dùng quyết mức soát); quyết định nới luật `derived_date` hay không (10.5bf); viết prompt sinh câu hỏi (v9 + không dùng mốc `date` âm).
+
+### 10.5bh Đọc gap 15 trang đầu bảng của test_clean (session 11–38) và so guide v6/v7 của tune (2026-11-11)
+
+**1. Phương pháp và giới hạn.** Mã `local/gold_gap_sub.py` (chỉ đọc `batchT/sub/`) liệt kê câu trong chunk có năm (1000–2099) mà không quote nào của gold và không dòng `undated_mentions` nào phủ (khớp đoạn 6 từ liên tiếp). Đây là **ứng viên mốc sót**, không phải xác nhận: một sự kiện có thể đã được ghi bằng câu khác nói cùng việc; nhiều câu là thống kê/kết quả trận/đơn vị con mà guide v7 loại. Tổng 1485 câu chưa phủ trên 136 trang (10 trang 0 gap). Tôi đọc 15 trang đầu bảng; **chưa đọc từng chunk**, chỉ đọc gap (đã lọc câu "first time since", "consecutive", thống kê dân số) và, cho 3 trang, danh sách mốc.
+
+**2. Trang đã đọc gap và nhận xét** (số trong ngoặc: gap / mốc gold):
+- Nick_Saban (65/45): mốc theo mùa/danh hiệu đủ; ứng viên sót: 1 Jan 2007 gặp Alabama, 27 Nov 2006 Alabama sa thải Shula, 7 Nov 1998; còn lại chủ yếu kết quả trận (guide loại).
+- Gary_Mills (57/62): gap chủ yếu số liệu mùa giải (guide loại); không thấy sót rõ.
+- USAFE (57/48): gap chủ yếu đơn vị con (EAMC, AMF, 86th FG, SAC), tuyên bố bên ngoài; ứng viên: 12 May 1949 dỡ phong tỏa, 22 Apr 1946 C-47 bị bắn hạ (bỏ theo guide: sự kiện của thực thể khác).
+- Boris_Nemtsov (55/52): gap phần lớn là mô tả/đánh giá; ứng viên: 10 Mar 2010 ký bản tuyên ngôn "Putin must go", 2002 danh sách con tin (chưa kiểm chứng có nằm trong mốc sau e45).
+- P_bram (52/27): ứng viên sót rõ: đường sắt 1875, liên hoan Dvořák 1969, phòng kinh tế huyện 1993, tuyến hành quyết 1942.
+- Province_of_Brandenburg (42/75): gần như toàn danh sách huyện (guide loại), không thấy sót lớn.
+- Wellington_Somerset (39/13): hầu hết là tổ chức con trong thị trấn (trường, ngân hàng, nhà máy, câu lạc bộ); ứng viên cấp thị trấn: rạp Wellesley 1937, báo 1860, đài tưởng niệm đặt móng 1817/hoàn thành 1854, nhà máy Fox 1772.
+- St_Bartholomew (38/29): phần lớn lịch sử khu vực Prospect Hill (thực thể khác: guide loại); ứng viên: 1836 Church Act (bối cảnh), hồ chứa Prospect 1888.
+- John_Conyers (36/51): nhiều gap về vợ Monica Conyers (2009 bị buộc tội, 2010 án 37 tháng, 2013 ra tù), Congressional Progressive Caucus 1991: ứng viên (thực thể khác là Monica; guide không ghi sự kiện của người khác).
+- Loveland_Ohio (32/34): ứng viên sót rõ: xưởng giấy 1810, đường sắt đặc quyền 1846 và xong 1850, đại hội trại 1876, tụ họp KKK 1972–73, USA Cycling 1998, thuê tuyến 2004, cháy nhà hát 20/10/2008.
+- Wheel_of_Fortune (29/84): ứng viên: Woolery rời 1981 Sajak thay, Sajak rời bản mạng Jan 1989, 4 Mar 1997 Rosie O'Donnell đồng dẫn, 1 Apr 1997 đổi việc với Trebek, Nov 2019 White thay Sajak; nhiều ca có thể đã có mốc quanh (không đối chiếu từng mốc).
+- 1_Hanover_Square (28/41): ứng viên: India House mua 1914, tuyến Third Avenue El mở 1878/đóng 1950, quỹ India House 1999 (một phần là sự kiện của tổ chức/tuyến khác).
+- Princess_Victoria_Melita (27/32): ứng viên rõ: cưới 1894 (nếu chưa có), con gái Elisabeth chết 1903, Nữ hoàng Victoria mất 1901 (bối cảnh), Kira sinh 1909 (ngày sinh con theo guide: không ghi), 1917 sang Phần Lan, 1923 suy sụp thần kinh của chồng.
+- Lana_Turner (24/83): ứng viên: con gái Cheryl sinh 25 Jul 1943 (ngày sinh con, guide loại), Oscars 26 Mar 1958 (bối cảnh e66); còn lại là tên phim (guide loại).
+- Cutty_Sark (24/45): ứng viên: bán 1895 đổi tên Ferreira (kiểm có trong mốc không), thay ky 1920s, ảnh 2007.
+- Klamath (27/5), Ouagadougou (14/8), Ghaziabad (14/10): đã đọc gap. Klamath: danh sách khu dân cư cũ (guide loại); Ouagadougou: trường đại học 1974, công viên 1930s/2001, chợ cháy 2003 là ứng viên; Ghaziabad "founded in 1740" cần kiểm (câu cắt ở "a.d.").
+
+**3. Kết luận (ước lượng, chưa kiểm chứng).**
+- Không trang nào hỏng nặng; ca sót thật xuất hiện ở hầu hết trang đã đọc (khoảng 3–10 ứng viên mỗi trang), phù hợp mức sót 2–10% của các đợt trước, nhưng tôi **không đếm được tỉ lệ sót** vì không phân biệt được "sót" với "guide loại" bằng mã.
+- Các ứng viên chạm "thực thể khác" (Monica Conyers, tổ chức con, khu vực) đúng quy ước guide, không phải lỗi.
+- Đề xuất: không chạy lại Haiku. Rủi ro sót chỉ làm hỏng câu hỏi khi mốc sót nằm trong chuỗi của câu; đó là việc của bước [1][2][3] (`chain_complete`/`chain_verify`) sau khi sinh câu hỏi, chạy trên câu của test_clean (tốn API, cần hỏi trước). Chưa đọc: 121 trang còn lại của 136 (xem gap bằng `local/gold_gap_sub.py`), cả 5 trang Wheel_of_Fortune/1_Hanover_Square/Princess_Victoria_Melita/Lana_Turner/Cutty_Sark mới đọc 22 gap đầu.
+
+**4. Guide v6 so với v7 (tune).** Không có tài liệu đo trực tiếp sự khác biệt về chất lượng. Khác biệt về quy ước: v7 gộp toàn bộ quy ước của session B (di cảo, mất tên, bản dịch, "revised", hành động lập pháp, bài giảng, triển lãm, giải từng năm, rating, kết quả trận, việc của thực thể khác, "giữa X và Y", mục Timeline nhiều ngày lẻ) và thêm 3 quy ước từ V11 (không ghi tai nạn từng máy bay của hãng; năm TCN thiên văn; mùa giải ghi `approximate_date`). Mùa giải ở tune và V1–V10 để vào `undated_mentions`. Các trang B1–B11 của v6 đã được session B đối chiếu bằng quy ước đó nên gần v7; v1–v3 (25 trang) thiếu `derived_date` và quy ước mới nhất. Số câu v9 hiện có theo nhóm (đếm file `local/questions/v9/<Trang>.jsonl`): v3 23, v4 139, v5 26, v6 390; v1, v2 (15 trang) không có file câu hỏi v9. Nếu gen lại gold tune: ưu tiên v1–v3 (25 trang) bằng v7; v4–v5 (50 trang) tùy chọn; giữ v6 (128 trang). Lưu ý: gen lại làm đổi id mốc nên câu hỏi v9 của các trang đó phải sinh lại.
