@@ -1,0 +1,92 @@
+{"page_id": "/wiki/Phil_Twyford",
+ "events": [
+  {"id": "e1", "date": "1963-05-04", "grain": "day", "track": "other", "label": "birth",
+   "text": "Phil Twyford born in New Zealand.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#0", "role": "both", "quote": "born 4 May 1963"},
+    {"chunk_id": "/wiki/Phil_Twyford#1", "role": "date", "quote": "Twyford was born in 1963"}
+   ]},
+  {"id": "e2", "date": "2005", "grain": "year", "track": "other", "label": "candidacy",
+   "text": "Stood for North Shore electorate at the election, placed second.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#2", "role": "both", "quote": "Twyford stood for election in the North Shore electorate at the 2005"}
+   ]},
+  {"id": "e3", "date": "2008", "grain": "year", "track": "role",
+   "text": "Elected as a list MP, entering Parliament.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#0", "role": "date", "quote": "He has been a member of parliament since 2008"},
+    {"chunk_id": "/wiki/Phil_Twyford#2", "role": "both", "quote": "in 2008 he was elected as a list MP"}
+   ]},
+  {"id": "e4", "date": "2009", "grain": "year", "track": "work",
+   "text": "Local Government (Protection of Auckland Assets) Amendment Bill drawn from ballot; failed first reading.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#4", "role": "both", "quote": "In 2009 , Twyfords Local Government ( Protection of Auckland Assets ) Amendment Bill was drawn from the members ballot"}
+   ]},
+  {"id": "e5", "date": "2010-09", "grain": "month", "track": "work",
+   "text": "Depleted Uranium (Prohibition) Bill drawn from the members ballot.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#5", "role": "both", "quote": "In September 2010 , his Depleted Uranium ( Prohibition ) Bill"}
+   ]},
+  {"id": "e6", "date": "2012-06", "grain": "month", "track": "work",
+   "text": "Depleted Uranium (Prohibition) Bill debated; failed to advance on a tied vote.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#5", "role": "both", "quote": "It was debated in June 2012 , and failed to advance on a tied vote"}
+   ]},
+  {"id": "e7", "date": "2017", "grain": "year", "track": "role", "flag": "derived_date",
+   "text": "Elected Cabinet Minister; appointed Minister of Housing and Urban Development and Minister of Transport.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#7", "role": "date", "quote": "Sixth Labour Government , 2017–present"},
+    {"chunk_id": "/wiki/Phil_Twyford#7", "role": "description", "quote": "elected as a Cabinet Minister by the Labour Party caucus"}
+   ]},
+  {"id": "e8", "date": "2017", "grain": "year", "track": "role",
+   "text": "Ended role as Labour spokesperson for Housing and Auckland Issues.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#6", "role": "both", "quote": "Associate Spokesperson for the Environment until 2017"}
+   ]},
+  {"id": "e9", "date": "2018-05-24", "grain": "day", "track": "role",
+   "text": "Dismissed from Civil Aviation portfolio after unauthorized phone call on a flight.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#8", "role": "both", "quote": "On 24 May 2018 , Twyford was dismissed from his Civil Aviation portfolio"}
+   ]},
+  {"id": "e10", "date": "2018-05-24", "grain": "day", "track": "role", "flag": "derived_date",
+   "text": "Offered to resign as Transport Minister; resignation refused by PM Ardern.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#8", "role": "date", "quote": "On 24 May 2018"},
+    {"chunk_id": "/wiki/Phil_Twyford#8", "role": "description", "quote": "Twyford also offered to resign as Transport Minister"}
+   ]},
+  {"id": "e11", "date": "2019-06-27", "grain": "day", "track": "role",
+   "text": "Shuffled out as Housing Minister, replaced by Megan Woods.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#9", "role": "both", "quote": "On 27 June 2019 , in Prime Minister Jacinda Arderns first major reshuffle"}
+   ]},
+  {"id": "e12", "date": "2019-06-27", "grain": "day", "track": "role",
+   "text": "Became Minister of Economic Development in the reshuffle.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#9", "role": "both", "quote": "On 27 June 2019 , in Prime Minister Jacinda Arderns first major reshuffle"}
+   ]},
+  {"id": "e13", "date": "2020", "grain": "year", "track": "role",
+   "text": "Retained Te Atatū seat in the general election, defeating National's Alfred Ngaro.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#10", "role": "date", "quote": "During the 2020 New Zealand general election"},
+    {"chunk_id": "/wiki/Phil_Twyford#10", "role": "description", "quote": "Twyford retained his seat in Te Atatū"}
+   ]},
+  {"id": "e14", "date": "2020", "grain": "year", "track": "role", "flag": "derived_date",
+   "text": "Dropped from Prime Minister Ardern's Cabinet after the election.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#11", "role": "both", "quote": "Following the election , Twyford was dropped from Prime Minister Arderns Cabinet"}
+   ]},
+  {"id": "e15", "date": "2020", "grain": "year", "track": "role", "flag": "derived_date",
+   "text": "Given Disarmament and Arms Control and Minister of State for Trade and Export Growth portfolios as Minister outside Cabinet.",
+   "evidence": [
+    {"chunk_id": "/wiki/Phil_Twyford#11", "role": "both", "quote": "Following the election , Twyford was dropped from Prime Minister Arderns Cabinet"}
+   ]}
+ ],
+ "undated_mentions": [
+  "Founding director of Oxfam New Zealand (no date)",
+  "Worked as a journalist and trade union organiser (no date)",
+  "Representative on Labour's policy council before entering Parliament (no date)",
+  "Appointed Labour spokesperson for Disarmament and Arms Control and Auckland Issues, and associate spokesperson for Foreign Affairs (no date)",
+  "Member of the Transport and Industrial Relations Committee (no date)",
+  "Labour representative on the select committee for the Auckland Law Reform bill (no date)",
+  "Appointed Labour Spokesperson for Housing and Auckland Issues (no start date)"
+ ]}

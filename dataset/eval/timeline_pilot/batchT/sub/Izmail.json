@@ -1,0 +1,30 @@
+{
+  "page_id": "/wiki/Izmail",
+  "events": [
+    {"id": "e1", "date": "1484", "grain": "year", "track": "ownership_structure", "text": "Ottoman state conquered the territory, becoming an Ottoman protectorate.", "evidence": [{"chunk_id": "/wiki/Izmail#4", "role": "both", "quote": "In 1484 , the Ottoman state conquered the territory"}]},
+    {"id": "e2", "date": "1538", "grain": "year", "track": "ownership_structure", "text": "Territory came under direct Ottoman rule.", "evidence": [{"chunk_id": "/wiki/Izmail#4", "role": "both", "quote": "under direct rule from 1538"}]},
+    {"id": "e3", "date": "1569", "grain": "year", "track": "location", "text": "Sultan Selim II settled Izmail with his Nogai subjects.", "evidence": [{"chunk_id": "/wiki/Izmail#4", "role": "both", "quote": "In 1569 Sultan Selim II settled Izmail with his Nogai subjects"}]},
+    {"id": "e4", "date": "1770", "grain": "year", "track": "other", "label": "capture", "text": "Russian general Nicholas Repnin took the fortress of Izmail.", "evidence": [{"chunk_id": "/wiki/Izmail#5", "role": "both", "quote": "After Russian general Nicholas Repnin took the fortress of Izmail in 1770"}]},
+    {"id": "e5", "date": "1790-12-22", "grain": "day", "track": "other", "label": "siege", "text": "Alexander Suvorov successfully stormed the fortress of Izmail.", "evidence": [{"chunk_id": "/wiki/Izmail#5", "role": "both", "quote": "the Russian Army commander Alexander Suvorov successfully stormed it on 22 December 1790"}]},
+    {"id": "e6", "date": "1792", "grain": "year", "track": "ownership_structure", "text": "Izmail returned to the Ottoman Empire at the end of the war.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Izmail#5", "role": "date", "quote": "during the Russo-Turkish War of 1787–1792"}, {"chunk_id": "/wiki/Izmail#8", "role": "description", "quote": "At the end of the war , Izmail was returned to the Ottoman Empire"}]},
+    {"id": "e7", "date": "1809-09-14", "grain": "day", "track": "other", "label": "capture", "text": "Russian forces took Izmail for the third time.", "evidence": [{"chunk_id": "/wiki/Izmail#8", "role": "both", "quote": "Russian forces took it for the third time on 14 September 1809"}]},
+    {"id": "e8", "date": "1812", "grain": "year", "track": "ownership_structure", "text": "Izmail ceded to Russia with Bessarabia by Treaty of Bucharest.", "evidence": [{"chunk_id": "/wiki/Izmail#8", "role": "both", "quote": "After it was ceded to Russia with the rest of Bessarabia by the 1812 Treaty of Bucharest"}]},
+    {"id": "e9", "date": "1877", "grain": "year", "track": "ownership_structure", "text": "Russia regained control of Izmail after the Russo-Turkish War.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Izmail#10", "role": "both", "quote": "Russia gained control of Izmail again after the Russo-Turkish War of 1877–1878"}]},
+    {"id": "e10", "date": "1918-01-22", "grain": "day", "track": "other", "label": "occupation", "text": "Romanian Army occupied the city after a skirmish.", "evidence": [{"chunk_id": "/wiki/Izmail#10", "role": "both", "quote": "the city was occupied by the Romanian Army on 22 January 1918"}]},
+    {"id": "e11", "date": "1940", "grain": "year", "track": "other", "label": "occupation", "text": "Soviet Red Army occupied the town.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "In 1940 , and again during World War II , it was occupied by the Soviet Red Army"}]},
+    {"id": "e12", "date": "1940", "grain": "year", "track": "affiliation", "text": "Izmail Oblast formed; the town became its administrative center.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "Izmail Oblast was formed in 1940 and the town remained its administrative center"}]},
+    {"id": "e13", "date": "1940-08", "grain": "month", "track": "location", "text": "Town included in the Ukrainian SSR.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "included ( August 1940 ) in the Ukrainian SSR"}]},
+    {"id": "e14", "date": "1941", "grain": "year", "track": "other", "label": "occupation", "text": "Romanian Army began occupying the region during Operation Barbarossa.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "the region was occupied in 1941–1944 by the Romanian Army"}]},
+    {"id": "e15", "date": "1944", "grain": "year", "track": "other", "label": "occupation", "text": "Romanian occupation of the region ended.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "the region was occupied in 1941–1944 by the Romanian Army"}]},
+    {"id": "e16", "date": "1954", "grain": "year", "track": "affiliation", "text": "Oblast merged into Odessa Oblast; town lost administrative center role.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "both", "quote": "the oblast was merged to Odessa Oblast in 1954"}]},
+    {"id": "e17", "date": "1991-08-24", "grain": "day", "track": "location", "text": "Izmail became part of independent Ukraine.", "evidence": [{"chunk_id": "/wiki/Izmail#12", "role": "date", "quote": "Since 24 August 1991 , Izmail has been"}, {"chunk_id": "/wiki/Izmail#13", "role": "description", "quote": "part of independent Ukraine"}]}
+  ],
+  "undated_mentions": [
+    "Fortress built by Genoese merchants (12th century)",
+    "Briefly under Wallachia (14th century)",
+    "Under Moldavian rule from end of 14th century",
+    "Main Ottoman fortress in Budjak region (early 16th century)",
+    "Returned to Principality of Moldavia after Russia lost Crimean War",
+    "Town rebuilt thoroughly after cession to Russia"
+  ]
+}

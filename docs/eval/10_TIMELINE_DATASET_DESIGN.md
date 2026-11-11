@@ -1522,3 +1522,48 @@ Mức giảm của v9 so với v8 xuất hiện ở trang mới (−26%), không
 (d) Kiểm một lần (chỉ đọc, không gọi API) xem chunk TCN có lọt vào kho với `start_time` dương sai không (đếm chunk có "BC" mà vẫn có `start_time`).
 (e) Prompt sinh câu hỏi test_clean (chưa viết) dặn: không dùng mốc có `date` bắt đầu "-".
 (f) Không đề xuất: lưu năm âm bằng kiểu số (`decisions/05` đã loại), sửa prompt ingest (mất dưới 0,3% chunk).
+
+### 10.5be Gold test_clean session 11–20: thống kê và xem xét (2026-11-11)
+
+Nguồn: `dataset/eval/timeline_pilot/batchT/sub/` (bản Haiku, chưa copy sang `rev/`, chưa soát). Số đếm từ file, không lấy từ báo cáo agent.
+
+**1. Thống kê**
+- 50 trang (đúng danh sách `pages_gold_test_clean.json`), không thiếu file, không JSON hỏng; `check.py` 0 lỗi. `sub/` có 100 file (session 1–20).
+- 1614 mốc (trung bình 32/trang). Cờ: 140 `derived_date`, 43 `approximate_date`, 14 `source_inconsistent`, 1417 không cờ. Không có mốc `date` âm (BC).
+- Cộng session 1–10 (1764 mốc, đã soát): 100 trang, 3378 mốc.
+- Nhiều mốc nhất: Wheel_of_Fortune 84, Erich_Topp 81, Luis_Eduardo_Aute 78, Western_Military_District_Sweden 68, Internet_Architecture_Board 64, VP_29 62. Ít nhất: Vice_President_of_Afghanistan 3, Klamath 5, Clarice_Phelps 7, Pennsylvania_E44 7, Ouagadougou 8, Nyuksensky 8.
+- `derived_date` nhiều: Headhunterz 23/53, Erich_Topp 15/81, Nick_Saban 11/45, No_73_Squadron 11/31, Boris_Nemtsov 10/52.
+
+**2. Xem xét**
+- Số agent báo khớp file ở cả 10 session (không có lệch kiểu "14/17" của đợt 1–10).
+- Trang mật độ thấp (mốc/chunk), nghi sót: Ouagadougou 0.26, Wellington_Somerset 0.23, Pennsylvania_E44 0.35, Clarice_Phelps 0.33, P_bram 0.33, Klamath 0.42, Nick_Saban 0.45. Đã đọc nhanh Ouagadougou, Wellington, Clarice_Phelps: có vẻ hợp lý (trang địa danh/tiểu sử nhiều phần không có năm); các trang còn lại chưa đọc.
+- Trang mật độ cao: Louis_Francis_Salzman 4.0, Western_Military_District_Sweden 4.0 (có thể là bảng chỉ huy; chưa kiểm từng dòng).
+- 4 trang session 19 có 0 undated (Klamath, Western_Military_District, VP_Afghanistan, John_Francis_Charles) và Chicago_Stadium, The_Fifer, Young_Union, VP_29: chưa kiểm chứng là đúng bảng hay agent bỏ sót.
+- Ouagadougou e1, e2 cùng `1441`: câu `order_gap` giữa hai mốc này có thể bị trùng ngày (checker câu hỏi sẽ chặn).
+- Headhunterz: agent báo chạy lệnh kiểm một lần nhưng phải sửa (≥ 2 lần chạy). DRB_Class_50 đổi "150s" thành "Romanian-built copies" vì check nhận nhầm là mốc thập kỷ. Pskov e1 `0903` là định dạng đúng.
+- Chưa kiểm chứng: agent có mở thư mục cấm/chạy lệnh lạ không (không đọc transcript); sót/sai từng trang (chỉ đọc 3 trang).
+
+**3. Việc tiếp:** copy sang `rev/` và soát các trang nghi ngờ ở trên (chờ người dùng chọn mức soát); session 21–38.
+
+### 10.5bf Gold test_clean session 21–30: thống kê và cờ `derived_date` ở trang tàu ngầm (2026-11-11)
+
+Nguồn: `batchT/sub/` (bản Haiku, chưa copy sang `rev/`, chưa soát). Số đếm từ file.
+
+**1. Thống kê**
+- 50 trang đúng danh sách, không thiếu file/JSON hỏng, `check.py` 0 lỗi; `sub/` có 150 file. Số agent báo khớp file.
+- 1355 mốc (27/trang). Cờ: 260 `derived_date` (19%), 60 `approximate_date`, 26 `source_inconsistent`, 1009 không cờ. Không có mốc BC.
+- Cộng session 1–30: 150 trang, 4733 mốc (1764 + 1614 + 1355).
+- Mật độ thấp (mốc/chunk): Ghaziabad 0.31, Niigata_Prefecture 0.38, Li_Kwoh_ting 0.41, USAFE 0.48, Loveland_Ohio 0.51, Cutty_Sark 0.51 (chưa đọc). Mật độ cao: U_101 2.74, Miller_M_Duris 2.58, Bengt_Holmström 2.27, Ajit_Rudra 2.2.
+- Mốc trùng ngày làm `order_gap` bị chặn (`dup_text`/cùng ngày): HMAS_Wollongong e9–e11 cùng `1946-02-11`, e12–e14 cùng `1950-04`; Tingmissartoq e5/e6 cùng `1955`; U_101 e27/e28 là cùng một sự kiện hai lần (cùng ngày, cùng quote).
+
+**2. `derived_date` tăng mạnh: 19% (session 21–30) so với 8,7% (session 11–20)**
+- Dồn vào trang tàu ngầm: U_101 57/74, U_66 32/53, U_155 21/38, U_38 15/42, U_35 8/23 (U_120 ở session 11: 3/26). Trang khác: Calcio_Catania 15/49 (+16 `approximate_date`), Hermann_Fegelein 19/65, Cutty_Sark 10/45, Reinhard_Scheer 10/47.
+- Đã đọc U_101 (30 mốc đầu, từng quote): cờ **đúng theo guide v7** (mục "ngày tháng không có năm trong câu, năm rõ từ câu trước"). Ví dụ e6 "She sailed again from Kiel on 21 May", e8 "On the 23rd", e22 "on 19 August": quote không có năm, năm lấy từ đầu đoạn; không thấy gắn thừa. Vậy đây không phải lỗi gắn cờ mà là hệ quả của văn phong trang U-boat (uboat.net) và của luật `derived_date` là lỗi ở mọi loại câu hỏi.
+- Hệ quả đo được (số mốc không cờ trên tổng): U_101 13/74, U_155 16/38, U_66 19/53, U_35 15/23, U_38 27/42, U_120 23/26. Số mốc dùng được cho câu hỏi còn ít hơn nữa (loại thêm `approximate_date`, `source_inconsistent` tùy loại, mốc trùng ngày), nên 5 trang U-boat sẽ sinh ít câu `first_last_next`/`order_gap`, nhiều khả năng chỉ còn `list`/`summary` trên số ít mốc.
+- Chưa kiểm chứng: có nên nới luật cho `derived_date` kiểu "ngày-tháng + năm từ ngữ cảnh liền kề" (độ tin cậy cao, khác với suy ngược từ "the following year") thay vì chặn hết. Đây là quyết định chưa chốt (cần quyết trước khi sinh câu hỏi test_clean; không sửa `check_questions.py` khi chưa được bảo).
+
+**3. Chấm USAFE (session 28)**
+- Agent bỏ mốc của đơn vị con (EAMC, AMF, 86th FG, phi đội/cánh di chuyển), hoạt động SAC, tuyên bố de Gaulle 1966, REDCOSTE 1968, quyết định NATO 1979 (thực thể khác); e2/e3 gắn `source_inconsistent`; mục "8 tháng 1", "9–10 tháng 9" không năm để vào undated; e15 đổi "F-80s" thành "Lockheed fighters" để qua `check.py`. Đều theo guide, chưa kiểm chứng từng trường hợp.
+- Báo cáo session 28 coi việc dùng Edit là "lệnh ngoài quy định": thực ra prompt chỉ cấm `sed -i`, Edit hợp lệ.
+
+**4. Chưa kiểm chứng:** agent có mở thư mục cấm không (không đọc transcript); sót/sai từng trang (chỉ đọc 4 trang: HMAS_Wollongong, Tingmissartoq, Ilya_Ponomarev, USAFE phần đầu, và 30 mốc đầu U_101).

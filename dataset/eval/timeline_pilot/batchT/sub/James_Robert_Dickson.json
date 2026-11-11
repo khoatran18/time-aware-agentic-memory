@@ -1,0 +1,213 @@
+{
+  "page_id": "/wiki/James_Robert_Dickson",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1832-11-30",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Plymouth, Devon, England",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#1", "role": "both", "quote": "Dickson was born on 30 November 1832 in Plymouth , Devon , England"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1854",
+      "grain": "year",
+      "track": "location",
+      "text": "Arrived in Australia during the Victorian gold rush",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#1", "role": "both", "quote": "Dickson arrived in Australia in 1854 during the Victorian gold rush"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1862",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved to the Colony of Queensland",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#1", "role": "both", "quote": "He moved to the Colony of Queensland in 1862"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1873",
+      "grain": "year",
+      "track": "role",
+      "text": "Elected to Queensland Legislative Assembly for Enoggera",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "Dickson was elected as a member of the Legislative Assembly of Queensland for Enoggera in 1873"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1876",
+      "grain": "year",
+      "track": "role",
+      "text": "Made Secretary for Public Works and Mines under Arthur Macalister",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "He was made Secretary for Public Works and Mines in 1876 under Arthur Macalister"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1876",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Treasurer",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "was Treasurer 1876–79"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1879",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Treasurer",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "was Treasurer 1876–79"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1883",
+      "grain": "year",
+      "track": "role",
+      "text": "Began second term as Treasurer after Griffith became Premier",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "was Treasurer again 1883–87 after Griffith became Premier"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1887",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended second term as Treasurer",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "was Treasurer again 1883–87 after Griffith became Premier"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1888",
+      "grain": "year",
+      "track": "role",
+      "text": "Lost his seat in the Legislative Assembly",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "He lost his seat in 1888"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1891-11",
+      "grain": "month",
+      "track": "other",
+      "label": "honour",
+      "text": "Elected a Fellow of the Royal Geographical Society",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#8", "role": "both", "quote": "He was elected a Fellow of the Royal Geographical Society in November 1891"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1892",
+      "grain": "year",
+      "track": "role",
+      "text": "Re-elected for Bulimba",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#3", "role": "both", "quote": "was again elected for Bulimba in 1892"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1897",
+      "grain": "year",
+      "track": "role",
+      "text": "Attained position of Secretary for Railways",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#4", "role": "both", "quote": "attained the positions of Secretary for Railways in 1897"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1898",
+      "grain": "year",
+      "track": "role",
+      "text": "Began term as Postmaster-General and Home Secretary",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#4", "role": "both", "quote": "Postmaster-General and Home Secretary 1898–99"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1898-09",
+      "grain": "month",
+      "track": "role",
+      "text": "Made Premier of Queensland after death of Thomas Byrnes",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#4", "role": "both", "quote": "In September 1898 , after the death of Thomas Byrnes he was made Premier"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1899",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended term as Postmaster-General and Home Secretary",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#4", "role": "both", "quote": "Postmaster-General and Home Secretary 1898–99"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1901-01-01",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed Minister for Defence in first federal ministry under Edmund Barton",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#6", "role": "both", "quote": "Dickson was appointed Minister for Defence in the first federal ministry under Edmund Barton on 1 January 1901"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1901-01-01",
+      "grain": "day",
+      "track": "other",
+      "label": "honour",
+      "text": "Appointed Knight Commander of the Order of St Michael and St George",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#8", "role": "both", "quote": "appointed a Knight Commander of the Order of St Michael and St George in the New Years Honours List 1 January 1901"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1901-01-10",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died after being taken ill at the Commonwealth inaugural ceremonies in Sydney",
+      "evidence": [
+        {"chunk_id": "/wiki/James_Robert_Dickson#0", "role": "date", "quote": "10 January 1901"},
+        {"chunk_id": "/wiki/James_Robert_Dickson#6", "role": "description", "quote": "he died after being taken ill at the Commonwealths inaugural ceremonies"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Junior clerk at the City of Glasgow Bank",
+    "Worked for the Bank of Australasia, then Rae, Dickson & Co.",
+    "Worked for an estate agent, then as auctioneer and land agent",
+    "Built Toorak House, a villa overlooking the Brisbane River",
+    "Educated at the High School of Glasgow",
+    "Briefly Opposition Leader in the absence of Sir Samuel Griffith",
+    "Member of the Continuous Ministry (late 1890s)",
+    "Served as Chief Secretary under Robert Philp"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "page_id": "Richard_Sanderson_MP",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1784-01-04",
+      "grain": "day",
+      "track": "other",
+      "label": "baptism",
+      "text": "Sanderson baptised in Doncaster area",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#0", "role": "both", "quote": "baptised 4 January 1784"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1827",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Sanderson began operating his own bill-broking business in London",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#3", "role": "both", "quote": "By 1827 , Sanderson was operating as a bill broker but at his own business"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1829",
+      "grain": "year",
+      "track": "role",
+      "text": "Won by-election to become MP for Colchester",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#6", "role": "both", "quote": "Sanderson first became Member of Parliament ( MP ) for Colchester at a by-election in 1829"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1829-04-28",
+      "grain": "day",
+      "track": "role",
+      "text": "Took his seat as MP for Colchester",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#7", "role": "both", "quote": "Having taken his seat on 28 April 1829"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1830",
+      "grain": "year",
+      "track": "role",
+      "text": "Withdrew from the Colchester general election candidacy at a late stage",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#9", "role": "both", "quote": "As the 1830 general election approached , Sanderson sought to retain the seat but was forced to pull out"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "1830-06",
+      "grain": "month",
+      "track": "other",
+      "label": "vote",
+      "text": "Voted to abolish the death penalty for forgery",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#8", "role": "both", "quote": "then voting in that manner in June 1830"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1831",
+      "grain": "year",
+      "track": "role",
+      "text": "Stood again for Colchester at general election, polled third and lost",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#9", "role": "both", "quote": "At the general election a year later , he again sought to represent the seat"},
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#10", "role": "description", "quote": "Regardless , Sanderson polled third and was not elected"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "1832",
+      "grain": "year",
+      "track": "role",
+      "text": "Returned as MP for Colchester at general election with most votes",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#11", "role": "both", "quote": "returned to the seat a year later , at the 1832 general election"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1833",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Charlotte Matilda Manners-Sutton",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#0", "role": "both", "quote": "In 1833 , he married Charlotte Matilda Manners-Sutton"},
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#11", "role": "description", "quote": "married the Commons Speakers daughter"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1837",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved his business to King William Street, London",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#4", "role": "both", "quote": "In 1837 , Sanderson moved his business to King William Street , London"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1847",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "His business suspended payment",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#4", "role": "both", "quote": "in 1847 , that business then had to suspend payment"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1847",
+      "grain": "year",
+      "track": "role",
+      "text": "Lost the Colchester seat at the 1847 general election",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#11", "role": "both", "quote": "held it for another 15 years until 1847 , when he was ranked third in the poll"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1848",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "His business resumed trading",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#4", "role": "both", "quote": "before being able to trade again in early 1848"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e14",
+      "date": "1857-10-28",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Sanderson died at Hazlewood, Hertfordshire",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#0", "role": "both", "quote": "died 28 October 1857"},
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#12", "role": "both", "quote": "Sanderson died in 1857 at Hazlewood in Hertfordshire"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1857-11-11",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "His business, then Sanderson, Sandeman and Company, failed with large debts",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#5", "role": "both", "quote": "Just two weeks after his death in 1857 , the business"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e16",
+      "date": "1863",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Algernon Robert Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Algernon Robert Sanderson ( 1844–1863 )"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1885",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Richard Manners Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#0", "role": "both", "quote": "Richard Manners Sanderson ( 1835–1885 )"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1919",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Percy Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Percy Sanderson ( 1842-1919 )"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1923",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Thomas Sanderson, 1st Baron Sanderson, died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#1", "role": "both", "quote": "Thomas Sanderson , 1st Baron Sanderson ( 1841–1923 )"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1929",
+      "grain": "year",
+      "track": "family",
+      "text": "Daughter Charlotte Louisa Gertrude Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Charlotte Louisa Gertrude Sanderson ( 1843-1929 )"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1931",
+      "grain": "year",
+      "track": "family",
+      "text": "Daughter Matilda Amy Frances Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Matilda Amy Frances Sanderson ( c1852-1931 )"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1932",
+      "grain": "year",
+      "track": "family",
+      "text": "Daughter Lucy Fanny Mary Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Lucy Fanny Mary Sanderson ( c1846-1932 )"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1932",
+      "grain": "year",
+      "track": "family",
+      "text": "Son Edward Manners Sanderson died",
+      "evidence": [
+        {"chunk_id": "/wiki/Richard_Sanderson_(MP)#2", "role": "both", "quote": "Edward Manners Sanderson ( 1847-1932 )"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Born near Doncaster, Yorkshire (no date given)",
+    "Became a clerk in London bill-broking firm Richardson, Overend and Company (early adult life, no date)",
+    "Voted to block Daniel O'Connell from taking his seat at Clare without the Oath of Supremacy (one of his first votes, no exact date)",
+    "Petitioned for abolition of the death penalty for forgery (no date given)"
+  ]
+}

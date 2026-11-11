@@ -1,0 +1,119 @@
+{
+ "page_id": "/wiki/Minna_Canth",
+ "events": [
+  {"id": "e1", "date": "1844-03-19", "grain": "day", "track": "other", "label": "birth",
+   "text": "Born in Tampere, Finland, as Ulrika Wilhelmina Johnson.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#0", "role": "both", "quote": "born Ulrika Wilhelmina Johnson , 19 March 1844"},
+    {"chunk_id": "/wiki/Minna_Canth#3", "role": "description", "quote": "Canth was born in Tampere to Gustaf Vilhelm Johnsson"}
+   ]},
+  {"id": "e2", "date": "1853", "grain": "year", "track": "location",
+   "text": "Family relocated to Kuopio when father took charge of Finlaysons shop.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#3", "role": "both", "quote": "In 1853 his father was given charge of Finlaysons textile shop in Kuopio and the entire family relocated there"}
+   ]},
+  {"id": "e3", "date": "1863", "grain": "year", "track": "education",
+   "text": "Began studies at the newly founded Jyväskylä Teacher Seminary.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#4", "role": "both", "quote": "In 1863 she began her studies at the recently founded Jyväskylä Teacher Seminary"}
+   ]},
+  {"id": "e4", "date": "1865", "grain": "year", "track": "family",
+   "text": "Married her natural sciences teacher Johan Ferdinand Canth.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "In 1865 she married her natural sciences teacher , Johan Ferdinand Canth"}
+   ]},
+  {"id": "e5", "date": "1865", "grain": "year", "track": "education",
+   "text": "Had to drop out of the Seminary after marrying.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "In 1865 she married her natural sciences teacher , Johan Ferdinand Canth ( 1835–1879 ) , and had to drop out of the Seminary"}
+   ]},
+  {"id": "e6", "date": "1876", "grain": "year", "track": "affiliation",
+   "text": "Canths forced to leave Keski-Suomi newspaper after controversy.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#6", "role": "both", "quote": "In 1876 the Canths were forced to leave the paper"}
+   ]},
+  {"id": "e7", "date": "1877", "grain": "year", "track": "affiliation",
+   "text": "Employed by the competing newspaper Päijänne.",
+   "flag": "derived_date",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#6", "role": "both", "quote": "they were , however , both employed by the competing Päijänne the following year"}
+   ]},
+  {"id": "e8", "date": "1877", "grain": "year", "track": "work",
+   "text": "First works of fiction published in the pages of Päijänne.",
+   "flag": "derived_date",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#6", "role": "both", "quote": "Minna published her first works of fiction on the pages of Päijänne"}
+   ]},
+  {"id": "e9", "date": "1878", "grain": "year", "track": "work",
+   "text": "First book, Novelleja ja kertomuksia, a collection of short stories, published.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#6", "role": "both", "quote": "compiled in her first book , Novelleja ja kertomuksia , in 1878"}
+   ]},
+  {"id": "e10", "date": "1879", "grain": "year", "track": "family",
+   "text": "Husband Johan Ferdinand Canth died, leaving her a widow.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "her husband Johan died in 1879"}
+   ]},
+  {"id": "e11", "date": "1885", "grain": "year", "track": "work",
+   "text": "Play Työmiehen vaimo (The Workers Wife) written and premiered.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#9", "role": "both", "quote": "Minna Canths most important works are the plays Työmiehen vaimo ( The Workers Wife ) from 1885"}
+   ]},
+  {"id": "e12", "date": "1889", "grain": "year", "track": "family",
+   "text": "Daughter Hanna died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Hanna ( 1870–1889 )"}
+   ]},
+  {"id": "e13", "date": "1895", "grain": "year", "track": "work",
+   "text": "Play Anna Liisa written.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#9", "role": "both", "quote": "Anna Liisa , penned in 1895"}
+   ]},
+  {"id": "e14", "date": "1897-05-12", "grain": "day", "track": "other", "label": "death",
+   "text": "Died suddenly of a heart attack at her home in Kuopio, aged 53.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#7", "role": "both", "quote": "Canth died suddenly of a heart attack at the age of 53 on May 12 , 1897 at her home in Kuopio"}
+   ]},
+  {"id": "e15", "date": "1911", "grain": "year", "track": "family",
+   "text": "Daughter Anni died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Anni ( 1866–1911 )"}
+   ]},
+  {"id": "e16", "date": "1929", "grain": "year", "track": "family",
+   "text": "Son Jussi died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Jussi ( 1874–1929 )"}
+   ]},
+  {"id": "e17", "date": "1943", "grain": "year", "track": "family",
+   "text": "Daughter Maiju died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Maiju ( 1872–1943 )"}
+   ]},
+  {"id": "e18", "date": "1944", "grain": "year", "track": "family",
+   "text": "Daughter Elli died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Elli ( 1868–1944 )"}
+   ]},
+  {"id": "e19", "date": "1959", "grain": "year", "track": "family",
+   "text": "Son Pekka died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Pekka ( 1876–1959 )"}
+   ]},
+  {"id": "e20", "date": "1969", "grain": "year", "track": "family",
+   "text": "Daughter Lyyli died.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#5", "role": "both", "quote": "Lyyli ( 1880–1969 )"}
+   ]},
+  {"id": "e21", "date": "2010", "grain": "year", "track": "work",
+   "text": "English translation of The Burglary and The House of Roinila published by Aspasia Books.",
+   "evidence": [
+    {"chunk_id": "/wiki/Minna_Canth#14", "role": "both", "quote": "Translated into English by Richard Impola . Aspasia Books , Beaverton 2010"}
+   ]}
+ ],
+ "undated_mentions": [
+  "began writing career at the newspaper Keski-Suomi (before 1876)",
+  "attended school at Finlaysons factory intended for workers' children",
+  "attended various girls' schools in Kuopio",
+  "buried in a family grave at Kuopio Cemetery"
+ ]
+}

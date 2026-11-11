@@ -1,0 +1,29 @@
+{
+ "page_id": "/wiki/Shelter_Island_(Hong_Kong)",
+ "events": [
+  {"id": "e1", "date": "1863", "grain": "year", "track": "other", "label": "documented",
+   "text": "Island name appeared in a sailing directions book.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#3", "role": "both", "quote": "The name Shelter island also appeared in a book for sailing directions that published in 1863"}]},
+  {"id": "e2", "date": "1866", "grain": "year", "track": "other", "label": "documented",
+   "text": "Island appeared on Volonteri's map, marked Ngau Tau Chü.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#1", "role": "both", "quote": "The island appeared in a map drawn by Father Simeone Volonteri in 1866"}]},
+  {"id": "e3", "date": "1898", "grain": "year", "track": "location",
+   "text": "Region containing the island ceded to Colony of Hong Kong.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#3", "role": "both", "quote": "The island was part of a larger region that ceded to the Colony of Hong Kong in 1898"}]},
+  {"id": "e4", "date": "1910", "grain": "year", "track": "other", "label": "documented",
+   "text": "Island described as high in Asiatic Pilot publication.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#3", "role": "both", "quote": "In Asiatic Pilot by the U.S . Hydrographic Office in 1910"}]},
+  {"id": "e5", "date": "2011", "grain": "year", "track": "other", "label": "incident",
+   "text": "Mortar shell discovered on a beach of the island.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#4", "role": "both", "quote": "In 2011 , a mortar shell was discovered on a beach of the island"}]},
+  {"id": "e6", "date": "2014", "grain": "year", "track": "other", "label": "proposal",
+   "text": "Country and Marine Parks Board proposed a marine park including the island; not realized.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#9", "role": "both", "quote": "was proposed by the Country and Marine Parks Board , a consultative body for the government in 2014"}]},
+  {"id": "e7", "date": "2018", "grain": "year", "track": "other", "label": "proposal",
+   "text": "WWF proposed Port Shelter Marine Protected Area including the island.",
+   "evidence": [{"chunk_id": "/wiki/Shelter_Island_(Hong_Kong)#9", "role": "both", "quote": "In 2018 , World Wide Fund for Nature also proposed to establish the Port Shelter Marine Protected Area"}]}
+ ],
+ "undated_mentions": [
+  "Island used by a drug lord and associates to hide goods (1970s)",
+  "District administration transferred to Sai Kung District Office after World War II"
+ ]}

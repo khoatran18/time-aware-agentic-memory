@@ -1,0 +1,153 @@
+{
+  "page_id": "/wiki/Nora_Ephron",
+  "events": [
+    {"id": "e1", "date": "1941-05-19", "grain": "day", "track": "other", "label": "birth", "text": "Born in New York City to a Jewish family.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#0", "role": "date", "quote": "May 19 , 1941"},
+       {"chunk_id": "/wiki/Nora_Ephron#3", "role": "description", "quote": "Ephron was born in New York City to a Jewish family"}
+     ]},
+    {"id": "e2", "date": "1958", "grain": "year", "track": "education", "text": "Graduated from Beverly Hills High School.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#5", "role": "both", "quote": "She graduated from Beverly Hills High School in 1958"}
+     ]},
+    {"id": "e3", "date": "1962", "grain": "year", "track": "education", "text": "Graduated from Wellesley College with a political science degree.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#5", "role": "both", "quote": "from Wellesley College in Massachusetts , in 1962 with a degree in political science"}
+     ]},
+    {"id": "e4", "date": "1962", "grain": "year", "track": "affiliation", "text": "Worked briefly as an intern in the White House under Kennedy.", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#6", "role": "both", "quote": "After graduating from Wellesley College in 1962 , Ephron worked briefly as an intern"}
+     ]},
+    {"id": "e5", "date": "1970", "grain": "year", "track": "work", "text": "Essay collection Wallflower at the Orgy published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "Wallflower at the Orgy ( 1970 )"}
+     ]},
+    {"id": "e6", "date": "1975", "grain": "year", "track": "work", "text": "Essay collection Crazy Salad published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "Crazy Salad : Some Things About Women ( 1975 )"}
+     ]},
+    {"id": "e7", "date": "1975", "grain": "year", "track": "work", "text": "The Boston Photographs published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "The Boston Photographs ( 1975 )"}
+     ]},
+    {"id": "e8", "date": "1976", "grain": "year", "track": "family", "text": "Married journalist Carl Bernstein.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#24", "role": "both", "quote": "In 1976 , she married journalist Carl Bernstein"}
+     ]},
+    {"id": "e9", "date": "1978", "grain": "year", "track": "work", "text": "Essay collection Scribble, Scribble published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "Scribble , Scribble : Notes on the Media ( 1978 )"}
+     ]},
+    {"id": "e10", "date": "1979", "grain": "year", "track": "family", "text": "Discovered Bernstein's affair with Margaret Jay while pregnant with Max.", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#24", "role": "both", "quote": "In 1979 , Ephron had a toddler son , Jacob , and was pregnant with her second son Max when she discovered Bernsteins affair"}
+     ]},
+    {"id": "e11", "date": "1983", "grain": "year", "track": "work", "text": "Coscripted the film Silkwood with Alice Arlen.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#11", "role": "both", "quote": "In 1983 , Ephron coscripted the film Silkwood with Alice Arlen"}
+     ]},
+    {"id": "e12", "date": "1983", "grain": "year", "track": "work", "text": "Novel Heartburn published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#12", "role": "both", "quote": "Ephrons novel Heartburn was published in 1983"},
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "Heartburn ( 1983 , a novel )"}
+     ]},
+    {"id": "e13", "date": "1984", "grain": "year", "track": "other", "label": "award", "text": "Nominated for Oscar Best Original Screenplay for Silkwood.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#11", "role": "both", "quote": "Ephron and Arlen were nominated for Best Original Screenplay in 1984"}
+     ]},
+    {"id": "e14", "date": "1986", "grain": "year", "track": "work", "text": "Heartburn film adaptation released; she wrote the screenplay.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#12", "role": "both", "quote": "The film adaptation was released in 1986"},
+       {"chunk_id": "/wiki/Nora_Ephron#24", "role": "both", "quote": "made into a 1986 Mike Nichols film"}
+     ]},
+    {"id": "e15", "date": "1986", "grain": "year", "track": "work", "text": "Wrote screenplay for When Harry Met Sally.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#13", "role": "both", "quote": "Ephron wrote the script for the romantic comedy When Harry Met Sally.. . in 1986"}
+     ]},
+    {"id": "e16", "date": "1987", "grain": "year", "track": "family", "text": "Married screenwriter Nicholas Pileggi.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#26", "role": "both", "quote": "Ephron was married for more than 20 years to screenwriter Nicholas Pileggi , from 1987 until her death in 2012"}
+     ]},
+    {"id": "e17", "date": "1989", "grain": "year", "track": "work", "text": "When Harry Met Sally released, directed by Rob Reiner.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#13", "role": "both", "quote": "The film released in 1989 , was directed by Rob Reiner"}
+     ]},
+    {"id": "e18", "date": "1989", "grain": "year", "track": "work", "text": "Appeared as a wedding guest in Crimes and Misdemeanors.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#36", "role": "both", "quote": "She is credited as being a wedding guest in Crimes and Misdemeanors ( 1989 )"}
+     ]},
+    {"id": "e19", "date": "1990", "grain": "year", "track": "other", "label": "award", "text": "When Harry Met Sally script nominated for Oscar Best Writing.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#14", "role": "both", "quote": "Ephrons script was nominated for the 1990 Oscar in Best Writing"}
+     ]},
+    {"id": "e20", "date": "1992", "grain": "year", "track": "work", "text": "Directorial debut This Is My Life released.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#15", "role": "both", "quote": "Ephrons directorial debut was the 1992 film This Is My Life"}
+     ]},
+    {"id": "e21", "date": "1992", "grain": "year", "track": "work", "text": "Appeared as a dinner party guest in Husbands and Wives.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#36", "role": "both", "quote": "as a Dinner Party Guest in Husbands and Wives ( 1992 )"}
+     ]},
+    {"id": "e22", "date": "1993", "grain": "year", "track": "work", "text": "Directed and wrote Sleepless in Seattle.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#16", "role": "both", "quote": "In 1993 , Ephron directed and wrote the script for the romantic comedy Sleepless in Seattle"}
+     ]},
+    {"id": "e23", "date": "1998", "grain": "year", "track": "work", "text": "Released You've Got Mail, which she wrote and directed.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#18", "role": "both", "quote": "In 1998 , Ephron released the film You’ve Got Mail"}
+     ]},
+    {"id": "e24", "date": "2002", "grain": "year", "track": "work", "text": "First produced play Imaginary Friends staged.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#1", "role": "both", "quote": "Her first produced play , Imaginary Friends ( 2002 )"},
+       {"chunk_id": "/wiki/Nora_Ephron#23", "role": "both", "quote": "Ephrons 2002 play Imaginary Friends"}
+     ]},
+    {"id": "e25", "date": "2002", "grain": "year", "track": "other", "label": "award", "text": "Imaginary Friends named among 10 best plays of 2002-03 NY season.", "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#1", "role": "both", "quote": "was honored as one of the 10 best plays of the 2002–03 New York theatre season"}
+     ]},
+    {"id": "e26", "date": "2006", "grain": "year", "track": "other", "label": "diagnosis", "text": "Diagnosed with acute myeloid leukemia; did not disclose it.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#32", "role": "both", "quote": "In 2006 , Ephron was diagnosed with acute myeloid leukemia"}
+     ]},
+    {"id": "e27", "date": "2006", "grain": "year", "track": "work", "text": "Essay collection I Feel Bad About My Neck published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "I Feel Bad About My Neck : And Other Thoughts on Being a Woman ( 2006 )"}
+     ]},
+    {"id": "e28", "date": "2007", "grain": "year", "track": "other", "label": "award", "text": "Received Golden Plate Award of the American Academy of Achievement.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#20", "role": "both", "quote": "In 2007 , Ephron received the Golden Plate Award of the American Academy of Achievement"}
+     ]},
+    {"id": "e29", "date": "2009", "grain": "year", "track": "work", "text": "Directed and co-wrote the screenplay for Julie & Julia.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#21", "role": "both", "quote": "In 2009 , Ephron directed and co-wrote the screenplay for Julie & Julia"}
+     ]},
+    {"id": "e30", "date": "2010", "grain": "year", "track": "work", "text": "Essay collection I Remember Nothing published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "I Remember Nothing : And Other Reflections ( 2010 )"}
+     ]},
+    {"id": "e31", "date": "2012-06-26", "grain": "day", "track": "other", "label": "death", "text": "Died in Manhattan from pneumonia, complication of leukemia.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#32", "role": "both", "quote": "On June 26 , 2012 , Ephron died in Manhattan from pneumonia"}
+     ]},
+    {"id": "e32", "date": "2013", "grain": "year", "track": "work", "text": "Collection The Most of Nora Ephron published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Nora_Ephron#37", "role": "both", "quote": "The Most of Nora Ephron ( 2013 )"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Won BAFTA Award for Best Original Screenplay for When Harry Met Sally (date not stated)",
+    "Academy Award nomination for Sleepless in Seattle screenplay (date not stated)",
+    "Co-authored Drama Desk Award-winning play Love, Loss, and What I Wore (date not stated)",
+    "Accepted mail-girl position at Newsweek after being refused a writing job (date not stated)",
+    "Took part in class action lawsuit against Newsweek for sexual discrimination (date not stated)",
+    "Quit Newsweek after being barred from writing (date not stated)",
+    "Joined New York Post as reporter, worked there five years (date not stated)",
+    "Wrote women's issues column for Esquire (date not stated)",
+    "Rewrote script for All the President's Men in the mid-1970s",
+    "Offered first screenwriting job, for a television movie (date not stated)",
+    "First marriage to Dan Greenburg ended in divorce after nine years (date not stated)",
+    "Divorce from Carl Bernstein (date not stated)",
+    "Regular blogger and part-time editor for the Huffington Post (date not stated)",
+    "Revealed Deep Throat's identity to her son and others (date not stated)"
+  ]
+}

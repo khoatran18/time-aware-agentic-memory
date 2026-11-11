@@ -1,0 +1,199 @@
+{
+  "page_id": "/wiki/Oliver_Bulleid",
+  "events": [
+    {"id": "e1", "date": "1882-09-19", "grain": "day", "track": "other", "label": "birth",
+     "text": "Oliver Bulleid born in Invercargill, New Zealand.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#0", "role": "date", "quote": "( 19 September 1882 – 25 April 1970 )"},
+       {"chunk_id": "/wiki/Oliver_Bulleid#1", "role": "description", "quote": "He was born in Invercargill , New Zealand"}
+     ]},
+    {"id": "e2", "date": "1889", "grain": "year", "track": "location",
+     "text": "Mother returned with Bulleid to Llanfyllin, Wales, after father's death.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#1", "role": "both", "quote": "On the death of his father in 1889 , his mother returned to Llanfyllin , Wales"}
+     ]},
+    {"id": "e3", "date": "1901", "grain": "year", "track": "affiliation",
+     "text": "Joined Great Northern Railway at Doncaster as an apprentice.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#1", "role": "both", "quote": "In 1901 , after a technical education at Accrington Grammar School , he joined the Great Northern Railway"}
+     ]},
+    {"id": "e4", "date": "1905", "grain": "year", "track": "role",
+     "text": "Became assistant to the Locomotive Running Superintendent at GNR, after apprenticeship.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#1", "role": "date", "quote": "In 1901 , after a technical education at Accrington Grammar School"},
+       {"chunk_id": "/wiki/Oliver_Bulleid#2", "role": "description", "quote": "he became the assistant to the Locomotive Running Superintendent"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e5", "date": "1906", "grain": "year", "track": "role",
+     "text": "Became Doncaster Works manager at GNR, a year after the assistant post.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#1", "role": "date", "quote": "In 1901 , after a technical education at Accrington Grammar School"},
+       {"chunk_id": "/wiki/Oliver_Bulleid#2", "role": "description", "quote": "and a year later , the Doncaster Works manager"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e6", "date": "1908", "grain": "year", "track": "affiliation",
+     "text": "Left GNR to work in Paris for Westinghouse as Test Engineer.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#2", "role": "both", "quote": "In 1908 , he left to work in Paris with the French division of Westinghouse Electric Corporation"}
+     ]},
+    {"id": "e7", "date": "1908", "grain": "year", "track": "family",
+     "text": "Married Marjorie Ivatt, youngest daughter of Henry Ivatt.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#2", "role": "both", "quote": "Later that year , he married Marjorie Ivatt"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e8", "date": "1910", "grain": "year", "track": "affiliation",
+     "text": "Brief period working for the Board of Trade arranging exhibitions.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#3", "role": "both", "quote": "A brief period working for the Board of Trade followed from 1910"}
+     ]},
+    {"id": "e9", "date": "1912-12", "grain": "month", "track": "role",
+     "text": "Rejoined GNR as personal assistant to Nigel Gresley, the new CME.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#3", "role": "both", "quote": "In December 1912 , he rejoined the GNR as Personal Assistant to Nigel Gresley"}
+     ]},
+    {"id": "e10", "date": "1923", "grain": "year", "track": "role",
+     "text": "After Grouping, brought back to Doncaster as Gresley's assistant at LNER.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#5", "role": "both", "quote": "The Grouping , in 1923 , of Britains financially troubled railways"}
+     ]},
+    {"id": "e11", "date": "1934", "grain": "year", "track": "other", "label": "trip",
+     "text": "Trip to Belgium with Gresley, Stanier and Hawksworth to see a locomotive.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#3", "role": "both", "quote": "to Belgium , in 1934 , to see a metre-gauge bogie locomotive"}
+     ]},
+    {"id": "e12", "date": "1937", "grain": "year", "track": "role",
+     "text": "Accepted post of Chief Mechanical Engineer of the Southern Railway.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#6", "role": "both", "quote": "In 1937 , Bulleid accepted the post of CME of the Southern Railway"}
+     ]},
+    {"id": "e13", "date": "1938", "grain": "year", "track": "work",
+     "text": "Gained approval to build the Merchant Navy class Pacifics.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#8", "role": "both", "quote": "In 1938 , Bulleid gained approval to build the Merchant Navy class of modern 4-6-2 Pacifics"}
+     ]},
+    {"id": "e14", "date": "1941", "grain": "year", "track": "work",
+     "text": "First Merchant Navy locomotive, 21C1 Channel Packet, built.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#11", "role": "both", "quote": "The first Merchant Navy , 21C1 Channel Packet , was built in 1941"}
+     ]},
+    {"id": "e15", "date": "1941", "grain": "year", "track": "work",
+     "text": "Designed bodies for electric locomotive CC1.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#13", "role": "both", "quote": "He designed the bodies for the two electric locomotives CC1 and CC2 in 1941 and 1945"}
+     ]},
+    {"id": "e16", "date": "1942", "grain": "year", "track": "work",
+     "text": "Q1 Austerity 0-6-0 freight locomotive design appeared.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#11", "role": "both", "quote": "His other major steam locomotive design , the Q1 Austerity 0-6-0 freight engine , appeared in 1942"}
+     ]},
+    {"id": "e17", "date": "1942-08-17", "grain": "day", "track": "work",
+     "text": "Patent GB547156 on locomotive steam engine valve gear published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#23", "role": "both", "quote": "GB547156 , published 17 August 1942"}
+     ]},
+    {"id": "e18", "date": "1942-08-17", "grain": "day", "track": "work",
+     "text": "Patent GB547180 on piston slide valves published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#23", "role": "both", "quote": "GB547180 , published 17 August 1942"}
+     ]},
+    {"id": "e19", "date": "1945", "grain": "year", "track": "work",
+     "text": "West Country and Battle of Britain light Pacifics followed.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#11", "role": "both", "quote": "The West Country and Battle of Britain slightly smaller light Pacifics followed in 1945"}
+     ]},
+    {"id": "e20", "date": "1946", "grain": "year", "track": "role",
+     "text": "Elected president of the Institution of Mechanical Engineers.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "Bulleid was elected president of the Institution of Mechanical Engineers for 1946"}
+     ]},
+    {"id": "e21", "date": "1948", "grain": "year", "track": "role",
+     "text": "Tenure as CME of the Southern Railway ended at nationalisation.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#0", "role": "both", "quote": "between 1937 and the 1948 nationalisation"}
+     ]},
+    {"id": "e22", "date": "1949", "grain": "year", "track": "work",
+     "text": "Leader, his final steam locomotive design for the SR, appeared.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#14", "role": "both", "quote": "His final steam locomotive design for the SR was the unconventional Leader , appearing in 1949"}
+     ]},
+    {"id": "e23", "date": "1949", "grain": "year", "track": "work",
+     "text": "Delivery of 26 amended shunter locomotives began (range 1949-1952).",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#6", "role": "both", "quote": "Between 1949 and 1952 , a further 26 of Bulleids amended version of these locomotives were delivered"}
+     ]},
+    {"id": "e24", "date": "1949", "grain": "year", "track": "affiliation",
+     "text": "Became consulting engineer to CIÉ, Irish state transport authority.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#17", "role": "both", "quote": "having been a consulting engineer to CIÉ since 1949"}
+     ]},
+    {"id": "e25", "date": "1949", "grain": "year", "track": "other", "label": "honour",
+     "text": "Appointed CBE in the New Year Honours.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "He was appointed CBE in the 1949 New Year Honours"}
+     ]},
+    {"id": "e26", "date": "1949-01-21", "grain": "day", "track": "work",
+     "text": "Patent GB616445 on locomotive and like steam boilers published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#23", "role": "both", "quote": "GB616445 , published 21 January 1949"}
+     ]},
+    {"id": "e27", "date": "1950-02", "grain": "month", "track": "role",
+     "text": "Appointed Chief Mechanical Engineer of CIÉ.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#17", "role": "both", "quote": "In February 1950 , Bulleid was appointed CME of Córas Iompair Éireann"}
+     ]},
+    {"id": "e28", "date": "1952", "grain": "year", "track": "work",
+     "text": "Delivery of 26 amended shunter locomotives completed.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#6", "role": "both", "quote": "Between 1949 and 1952 , a further 26 of Bulleids amended version of these locomotives were delivered"}
+     ]},
+    {"id": "e29", "date": "1958", "grain": "year", "track": "role",
+     "text": "Retired from engineering work.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "Bulleid retired in 1958 , moving to Belstone in Devon"}
+     ]},
+    {"id": "e30", "date": "1958", "grain": "year", "track": "location",
+     "text": "Moved to Belstone in Devon after retiring.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "Bulleid retired in 1958 , moving to Belstone in Devon"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e31", "date": "1959-09-02", "grain": "day", "track": "work",
+     "text": "Patent GB819493 on railway vehicle brake apparatus published.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#23", "role": "both", "quote": "GB819493 , published 2 September 1959"}
+     ]},
+    {"id": "e32", "date": "1967", "grain": "year", "track": "other", "label": "honour",
+     "text": "Awarded honorary Doctorate of Science by the University of Bath.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "He was awarded an Honorary Doctorate of Science by the University of Bath in 1967"}
+     ]},
+    {"id": "e33", "date": "1967", "grain": "year", "track": "location",
+     "text": "Moved to Malta shortly after the Bath honour.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "Shortly after , he moved to Malta"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e34", "date": "1970-04-25", "grain": "day", "track": "other", "label": "death",
+     "text": "Died in Malta, aged 87.",
+     "evidence": [
+       {"chunk_id": "/wiki/Oliver_Bulleid#0", "role": "date", "quote": "( 19 September 1882 – 25 April 1970 )"},
+       {"chunk_id": "/wiki/Oliver_Bulleid#20", "role": "both", "quote": "where he died in 1970 aged 87"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Joined the British Army in the First World War, rising to rank of Major",
+    "Returned to the GNR as Manager of the Wagon and Carriage Works after the war",
+    "Promoted to Assistant Works Manager and Chief Draughtsman at Westinghouse",
+    "Technical education at Accrington Grammar School (no date)",
+    "Oversaw construction of three 350 hp diesel-electric shunters (no date)",
+    "Designed the 4DD double-deck units towards the end of SR tenure",
+    "Briefly CME of British Railways Southern Region",
+    "Left British Railways (no date)",
+    "President of the Institution of Locomotive Engineers, Institute of Welding and Smeatonian Society (no dates)",
+    "Led the first major CIÉ dieselisation programme (no date)",
+    "Developed two prototype peat-burning steam locomotives (no date)",
+    "Two prototype diesel-electric locomotives appeared (no date)",
+    "Moved to Exmouth after Belstone (no date)"
+  ]
+}

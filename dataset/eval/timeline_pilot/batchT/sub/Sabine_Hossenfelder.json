@@ -1,0 +1,61 @@
+{
+ "page_id": "/wiki/Sabine_Hossenfelder",
+ "events": [
+  {"id": "e1", "date": "1976-09-18", "grain": "day", "track": "other", "label": "birth",
+   "text": "Sabine Hossenfelder born; German author and theoretical physicist.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#0", "role": "both", "quote": "born 18 September 1976"}]},
+  {"id": "e2", "date": "1997", "grain": "year", "track": "education",
+   "text": "Completed undergraduate degree at Goethe-Universität Frankfurt.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#1", "role": "both", "quote": "completed her undergraduate degree in 1997"}]},
+  {"id": "e3", "date": "2000", "grain": "year", "track": "education",
+   "text": "Completed Masters thesis under Walter Greiner in Frankfurt.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#1", "role": "both", "quote": "which she completed in 2000"}]},
+  {"id": "e4", "date": "2003", "grain": "year", "track": "education",
+   "text": "Received doctorate at Goethe-Universität under Horst Stöcker.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#1", "role": "both", "quote": "received her doctorate from the same institution in 2003"}]},
+  {"id": "e5", "date": "2004", "grain": "year", "track": "affiliation",
+   "text": "Postdoctoral researcher at GSI Darmstadt; stayed in Germany until 2004.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#2", "role": "both", "quote": "remained in Germany until 2004 as a postdoctoral researcher"}]},
+  {"id": "e6", "date": "2006", "grain": "year", "track": "work",
+   "text": "Began keeping a freelance popular science blog.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#6", "role": "both", "quote": "has kept a blog since 2006"}]},
+  {"id": "e7", "date": "2007", "grain": "year", "track": "other", "label": "involvement",
+   "text": "Became involved with the Experimental Search for Quantum Gravity conference series.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#3", "role": "both", "quote": "Since 2007 she has been involved with the annual conference series"}]},
+  {"id": "e8", "date": "2009", "grain": "year", "track": "role",
+   "text": "Joined Nordita Institute, Sweden, as Assistant Professor.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#2", "role": "both", "quote": "She joined Nordita Institute for Theoretical Physics , Sweden , in 2009 as an Assistant Professor"}]},
+  {"id": "e9", "date": "2015", "grain": "year", "track": "affiliation",
+   "text": "Employed by Frankfurt Institute for Advanced Studies; leads Analog Systems group.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#3", "role": "both", "quote": "She has been employed by the Frankfurt Institute for Advanced Studies since 2015"}]},
+  {"id": "e10", "date": "2016", "grain": "year", "track": "other", "label": "consulting",
+   "text": "Offered paid physics consultation through her blog.",
+   "evidence": [
+    {"chunk_id": "/wiki/Sabine_Hossenfelder#6", "role": "both", "quote": "In 2016 , Hossenfelder offered to"},
+    {"chunk_id": "/wiki/Sabine_Hossenfelder#7", "role": "description", "quote": "act as a physics consultant on her blog"}
+   ]},
+  {"id": "e11", "date": "2017", "grain": "year", "track": "work",
+   "text": "Created cards featuring pioneering quantum physicists.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#7", "role": "both", "quote": "In 2017 she created cards featuring pioneering quantum physicists"}]},
+  {"id": "e12", "date": "2018", "grain": "year", "track": "role",
+   "text": "Research Fellow at Frankfurt Institute for Advanced Studies.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#2", "role": "both", "quote": "In 2018 she was a Research Fellow at the Frankfurt Institute for Advanced Studies"}]},
+  {"id": "e13", "date": "2018", "grain": "year", "track": "work",
+   "text": "German edition Das hässliche Universum published.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#9", "role": "both", "quote": "Her 2018 book , Lost in Math , was also published in German"}]},
+  {"id": "e14", "date": "2018-06", "grain": "month", "track": "work",
+   "text": "Lost in Math published by Basic Books.",
+   "evidence": [
+    {"chunk_id": "/wiki/Sabine_Hossenfelder#8", "role": "both", "quote": "released in June 2018"},
+    {"chunk_id": "/wiki/Sabine_Hossenfelder#11", "role": "both", "quote": "Lost in Math : How Beauty Leads Physics Astray , Basic Books , June 2018"}
+   ]},
+  {"id": "e15", "date": "2018-08", "grain": "month", "track": "work",
+   "text": "Co-authored Is Dark Matter Real? article in Scientific American.",
+   "evidence": [{"chunk_id": "/wiki/Sabine_Hossenfelder#11", "role": "both", "quote": "Scientific American , vol . 319 , no . 2 ( August 2018 )"}]}
+ ],
+ "undated_mentions": [
+  "Began Masters degree at Goethe-Universität Frankfurt (no date given)",
+  "Moved to North America and completed research fellowships at University of Arizona, UC Santa Barbara and Perimeter Institute",
+  "Co-organized the Science in the 21st Century workshop (no date given)"
+ ]
+}
