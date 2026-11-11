@@ -1,0 +1,99 @@
+{
+  "page_id": "SMS_Cormoran_1909",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1909",
+      "grain": "year",
+      "track": "work",
+      "text": "Ryazan built at Schichau shipyard in Elbing for the Russian merchant fleet.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#2", "role": "both", "quote": "Ryazan was built at the Schichau shipyard in Elbing , Imperial Germany in 1909"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1914-08-04",
+      "grain": "day",
+      "track": "ownership_structure",
+      "text": "Ryazan captured by German light cruiser off Korea, first WWI prize of Russia.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#3", "role": "both", "quote": "The Ryazan was captured southeast of the Korean peninsula by the German light cruiser on 4 August 1914"},
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#0", "role": "both", "quote": "she was captured by the German light cruiser on 4 August 1914"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1914-08-10",
+      "grain": "day",
+      "track": "location",
+      "text": "Cormoran II left Tsingtao harbor and sailed into the South Pacific.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#5", "role": "both", "quote": "On 10 August 1914 , the new Cormoran ( or Cormoran II ) left Tsingtao harbor"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1914-08-10",
+      "grain": "day",
+      "track": "location",
+      "text": "Cormoran forced to seek port at Apra Harbor, Guam (date conflicts with later source).",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#0", "role": "both", "quote": "forced to seek port at Apra Harbor on the U.S . territory of Guam on 10 August 1914"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e5",
+      "date": "1914-12-14",
+      "grain": "day",
+      "track": "location",
+      "text": "Cormoran forced to seek refuge at Apra Harbor, Guam (date conflicts with earlier source).",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#5", "role": "both", "quote": "forcing her to seek refuge in Apra Harbor , in the U.S . Territory of Guam , on 14 December"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e6",
+      "date": "1917-04-07",
+      "grain": "day",
+      "track": "other",
+      "label": "war",
+      "text": "Guam officers informed Cormoran of the state of war and ordered her surrendered.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#9", "role": "both", "quote": "On the morning of April 7 , 1917 word reached Guam by telegraph cable"},
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#10", "role": "description", "quote": "The U.S . officers informed Zuckschwerdt that the Cormoran would be treated as"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1917-04-07",
+      "grain": "day",
+      "track": "other",
+      "label": "scuttling",
+      "text": "Cormoran scuttled by an explosive device in her coal bunker in Apra Harbor.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#9", "role": "date", "quote": "On the morning of April 7 , 1917 word reached Guam by telegraph cable"},
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#11", "role": "description", "quote": "Minutes after the Americans left , an explosion aboard Cormoran hurtled debris across the harbor"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e8",
+      "date": "1975",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage",
+      "text": "Wreck of the ship placed on the National Register of Historic Places.",
+      "evidence": [
+        {"chunk_id": "/wiki/SMS_Cormoran_(1909)#17", "role": "both", "quote": "In 1975 , the wreck itself was placed on the NHRP because of her association with World War I"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Converted into an armed raider and renamed Cormoran II at Tsingtao (date not stated)",
+    "Standoff with US authorities at Apra Harbor, Guam, crew treated as guests (date not stated)",
+    "US Navy limited salvage operation; ship bell recovered (date not stated)"
+  ]
+}

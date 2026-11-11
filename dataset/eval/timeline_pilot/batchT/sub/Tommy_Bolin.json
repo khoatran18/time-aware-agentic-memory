@@ -1,0 +1,131 @@
+{"page_id": "/wiki/Tommy_Bolin",
+ "events": [
+  {"id": "e1", "date": "1951-08-01", "grain": "day", "track": "other", "label": "birth",
+   "text": "Tommy Bolin born in Sioux City, Iowa.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "date", "quote": "Thomas Richard Bolin ( August 1 , 1951 – December 4 , 1976 )"},
+    {"chunk_id": "/wiki/Tommy_Bolin#1", "role": "description", "quote": "Tommy Bolin was born in Sioux City , Iowa , United States"}
+   ]},
+  {"id": "e2", "date": "1964", "grain": "year", "track": "affiliation",
+   "text": "Joined Denny and The Triumphs at age thirteen.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#1", "role": "both", "quote": "asked to join another band called Denny and The Triumphs , in 1964"}
+   ]},
+  {"id": "e3", "date": "1969", "grain": "year", "track": "affiliation",
+   "text": "Joined the band Zephyr.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "both", "quote": "played with Zephyr ( from 1969 to 1971 )"}
+   ]},
+  {"id": "e4", "date": "1971", "grain": "year", "track": "affiliation",
+   "text": "Left the band Zephyr.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "both", "quote": "played with Zephyr ( from 1969 to 1971 )"}
+   ]},
+  {"id": "e5", "date": "1972", "grain": "year", "track": "affiliation",
+   "text": "Formed the fusion band Energy.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#5", "role": "both", "quote": "In 1972 , the 20-year old Bolin formed the fusion jazz-rock-blues band Energy"}
+   ]},
+  {"id": "e6", "date": "1973", "grain": "year", "track": "affiliation",
+   "text": "Joined the James Gang, replacing Domenic Troiano.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "both", "quote": "The James Gang ( from 1973 to 1974 )"},
+    {"chunk_id": "/wiki/Tommy_Bolin#6", "role": "both", "quote": "1973 found Bolin replacing Domenic Troiano"}
+   ]},
+  {"id": "e7", "date": "1973", "grain": "year", "track": "work",
+   "text": "Recorded the James Gang album Bang.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#6", "role": "both", "quote": "He recorded two James Gang records : Bang in 1973 and Miami in 1974"}
+   ]},
+  {"id": "e8", "date": "1974", "grain": "year", "track": "work",
+   "text": "Recorded the James Gang album Miami.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#6", "role": "both", "quote": "He recorded two James Gang records : Bang in 1973 and Miami in 1974"}
+   ]},
+  {"id": "e9", "date": "1974", "grain": "year", "track": "affiliation",
+   "text": "Left the James Gang after the Miami tour.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "both", "quote": "The James Gang ( from 1973 to 1974 )"},
+    {"chunk_id": "/wiki/Tommy_Bolin#8", "role": "description", "quote": "After the Miami tour , Bolin wanted out of the James Gang"}
+   ]},
+  {"id": "e10", "date": "1975", "grain": "year", "track": "other", "label": "session work", "flag": "approximate_date",
+   "text": "Guest studio guitarist for Moxy during recording of their debut album.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#8", "role": "both", "quote": "At the start of 1975 , Bolin was a guest studio guitarist for Canadian band Moxy"}
+   ]},
+  {"id": "e11", "date": "1975", "grain": "year", "track": "ownership_structure",
+   "text": "Signed with Nemperor Records to record a solo album.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#10", "role": "both", "quote": "Later in 1975 , Bolin signed with Nemperor records"}
+   ]},
+  {"id": "e12", "date": "1975", "grain": "year", "track": "affiliation",
+   "text": "Joined Deep Purple after Ritchie Blackmore left.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "both", "quote": "Deep Purple ( from 1975 to 1976 )"},
+    {"chunk_id": "/wiki/Tommy_Bolin#10", "role": "description", "quote": "During the recording of this album , he was contacted by Deep Purple"}
+   ]},
+  {"id": "e13", "date": "1975-10", "grain": "month", "track": "work",
+   "text": "Deep Purple album Come Taste the Band released; Bolin wrote most tracks.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#12", "role": "both", "quote": "Come Taste the Band was released in October 1975"}
+   ]},
+  {"id": "e14", "date": "1975-11", "grain": "month", "track": "work", "flag": "derived_date",
+   "text": "Solo album Teaser released.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#12", "role": "both", "quote": "Bolins solo album Teaser was released in November"}
+   ]},
+  {"id": "e15", "date": "1976", "grain": "year", "track": "ownership_structure", "flag": "approximate_date",
+   "text": "Signed with CBS Records.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#16", "role": "both", "quote": "By mid-1976 , CBS Records signed Bolin"}
+   ]},
+  {"id": "e16", "date": "1976", "grain": "year", "track": "work", "flag": "approximate_date",
+   "text": "Deep Purple concert recorded in Long Beach, California.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#14", "role": "both", "quote": "made in Long Beach , California in early 1976"}
+   ]},
+  {"id": "e17", "date": "1976-03", "grain": "month", "track": "affiliation",
+   "text": "Left Deep Purple as the band disbanded.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#15", "role": "both", "quote": "After Deep Purple disbanded in March 1976"}
+   ]},
+  {"id": "e18", "date": "1976-09", "grain": "month", "track": "work", "flag": "derived_date",
+   "text": "Second solo album Private Eyes released.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#16", "role": "both", "quote": "The album was released in September"}
+   ]},
+  {"id": "e19", "date": "1976-12-03", "grain": "day", "track": "other", "label": "concert",
+   "text": "Opened for Jeff Beck at his final show, in Miami.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#17", "role": "both", "quote": "he opened for Beck on December 3 , 1976 in Miami"}
+   ]},
+  {"id": "e20", "date": "1976-12-04", "grain": "day", "track": "other", "label": "death",
+   "text": "Died from an overdose of heroin and other substances.",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#0", "role": "date", "quote": "December 4 , 1976"},
+    {"chunk_id": "/wiki/Tommy_Bolin#18", "role": "description", "quote": "Hours later , Bolin died from an overdose of heroin"}
+   ]},
+  {"id": "e21", "date": "1995", "grain": "year", "track": "work",
+   "text": "Deep Purple Long Beach concert recording released (title missing in source).",
+   "evidence": [
+    {"chunk_id": "/wiki/Tommy_Bolin#14", "role": "both", "quote": "released in 1995 as"}
+   ]}
+ ],
+ "undated_mentions": [
+  "began playing with The Miserlous",
+  "Denny and The Triumphs renamed A Patch of Blue",
+  "moved to Boulder, Colorado in his late teens",
+  "played in American Standard before joining Zephyr",
+  "briefly reunited with David and Candy Givens in the 4-Nikators",
+  "took nearly a year off from music after the 4-Nikators",
+  "played on Billy Cobham's album Spectrum between the two James Gang albums",
+  "session work for Alphonse Mouzon's album Mind Transplant",
+  "toured with Carmine Appice and The Good Rats",
+  "coached by The Beach Boys on his solo album vocals",
+  "Australian, Japanese and US tours with Deep Purple after Come Taste the Band",
+  "concert in Tokyo where he passed out before playing",
+  "Last Concert in Japan live album released",
+  "Tommy Bolin Band formed after Deep Purple disbanded",
+  "supporting tour for Private Eyes",
+  "buried in Calvary Cemetery, Sioux City, Iowa"
+ ]}

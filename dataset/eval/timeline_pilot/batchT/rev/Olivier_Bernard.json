@@ -1,0 +1,128 @@
+{
+  "page_id": "/wiki/Olivier_Bernard",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1979-10-14",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Olivier Bernard born in Paris area, French footballer's birth",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#0", "role": "both", "quote": "born 14 October 1979"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2000-08",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Joined Newcastle United on a free transfer from Lyon",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#3", "role": "both", "quote": "joined on a free transfer from Lyon in late-August 2000"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2005",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Southampton contract expired and was not renewed after relegation",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#5", "role": "both", "quote": "When Southampton were relegated to the Championship in 2005"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2005-01-31",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Left Newcastle United after a dispute over contract negotiations",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#5", "role": "both", "quote": "Bernard left Newcastle on 31 January 2005 to join Southampton"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2005-01-31",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Joined Southampton on a five-month contract",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#5", "role": "both", "quote": "Bernard left Newcastle on 31 January 2005 to join Southampton"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2005-09-01",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Signed a two-year deal with Rangers",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#6", "role": "both", "quote": "signed a two-year deal with Rangers on 1 September 2005"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2006",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Released by Rangers after one season, made surplus by new manager",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#6", "role": "date", "quote": "signed a two-year deal with Rangers on 1 September 2005"},
+        {"chunk_id": "/wiki/Olivier_Bernard#6", "role": "description", "quote": "he was released after being made surplus to requirements"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2006-09-01",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Re-signed with Newcastle United after reneging on Leeds agreement",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#7", "role": "both", "quote": "Bernard re-signed for them on 1 September 2006"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2007-05-16",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Released from Newcastle contract; announced he would not play next season",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#0", "role": "both", "quote": "leaving Newcastle United on 16 May 2007"},
+        {"chunk_id": "/wiki/Olivier_Bernard#9", "role": "both", "quote": "on 16 May 2007 it was announced that"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2008-06",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Trained with Toronto FC to keep his fitness up",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#10", "role": "both", "quote": "He trained with Toronto FC to keep his fitness up in June 2008"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2013-12",
+      "grain": "month",
+      "track": "ownership_structure",
+      "text": "Purchased non-league Durham City and became owner and chairman",
+      "evidence": [
+        {"chunk_id": "/wiki/Olivier_Bernard#13", "role": "both", "quote": "In December 2013 it was announced that Bernard had purchased non-league Durham City and become owner and chairman of the club"},
+        {"chunk_id": "/wiki/Olivier_Bernard#0", "role": "description", "quote": "He is currently the owner and CEO of Durham City"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Joined Lyon academy at age 13 (no date)",
+    "Rejected professional contract from Lyon (no date)",
+    "Lyon compensation demand overturned by European Court of Justice ruling, ten years later (no anchor date)",
+    "Loan to Darlington in the 2000–01 season (season mark)",
+    "Retired from football due to hip injury, after May 2007 (no exact date)"
+  ]
+}

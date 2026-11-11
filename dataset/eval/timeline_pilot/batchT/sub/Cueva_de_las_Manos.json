@@ -1,0 +1,94 @@
+{
+  "page_id": "/wiki/Cueva_de_las_Manos",
+  "events": [
+    {
+      "id": "e1",
+      "date": "-7299",
+      "grain": "year",
+      "track": "work",
+      "text": "Earliest cave art, radiocarbon dated to about 7300 BC (Group A).",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#1", "role": "both", "quote": "radiocarbon dated to about 7300 BC"},
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#14", "role": "both", "quote": "radiocarbon dated to about 7300 BC"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "0700",
+      "grain": "year",
+      "track": "other",
+      "label": "occupation",
+      "text": "Site is last inhabited, possibly by ancestors of the Tehuelche.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#2", "role": "both", "quote": "The site was last inhabited around 700 AD"},
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#10", "role": "both", "quote": "The site was last inhabited around 700 AD"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "0700",
+      "grain": "year",
+      "track": "work",
+      "text": "Stylistic Group C (Rio Pinturas IV) begins, last cave art style.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#31", "role": "both", "quote": "begins around 700 AD"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "1941",
+      "grain": "year",
+      "track": "other",
+      "label": "first documentation",
+      "text": "Father Alberto Maria de Agostini first writes about the site.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#10", "role": "both", "quote": "first wrote about the site in 1941 AD"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1964",
+      "grain": "year",
+      "track": "other",
+      "label": "research",
+      "text": "Carlos Gradin's team begins major research and excavation at the site.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#2", "role": "both", "quote": "conducted the most important research on the site in 1964"},
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#33", "role": "both", "quote": "conducted the most profound research on the site in 1964"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1993",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage designation",
+      "text": "Cueva de las Manos listed as a National Historic Site in Argentina.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#33", "role": "both", "quote": "listed as a National Historic Site since 1993"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1999",
+      "grain": "year",
+      "track": "other",
+      "label": "heritage designation",
+      "text": "Cueva de las Manos named a UNESCO World Heritage Site.",
+      "evidence": [
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#2", "role": "both", "quote": "World Heritage Site in 1999"},
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#33", "role": "both", "quote": "listed as a World Heritage Site since 1999"},
+        {"chunk_id": "/wiki/Cueva_de_las_Manos#34", "role": "both", "quote": "its inclusion on the UNESCO World Heritage list in 1999"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Art dated to a span between 11,000 and 7,000 BC (millennia-scale period)",
+    "Toldense people lived in the caves until the third or second millennium BC",
+    "Group B (new cultural group) born around 5,000 BC, with its art beginning before 5,000 BC",
+    "Group B/B1 cultural group activity ends around 1,300 BC"
+  ]
+}

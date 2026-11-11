@@ -1,0 +1,43 @@
+{
+ "page_id": "/wiki/George_A._White",
+ "events": [
+  {"id": "e1", "date": "1880-07-18", "grain": "day", "track": "other", "label": "birth", "text": "George Ared White born in Saline County, Illinois.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "George Ared White was born on July 18 , 1880 , in Saline County , Illinois ."}]},
+  {"id": "e2", "date": "1895-08-01", "grain": "day", "track": "affiliation", "text": "Enlisted in the Utah National Guard as a musician.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "On August 1 , 1895 , he enlisted in the Utah National Guard as a musician ."}]},
+  {"id": "e3", "date": "1898-06", "grain": "month", "track": "affiliation", "text": "Discharged to enlist in U.S. Volunteers for Spanish-American War.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "He was discharged in June 1898 in order to enlist"}]},
+  {"id": "e4", "date": "1898-12", "grain": "month", "track": "affiliation", "text": "Discharged from Federal service after Spanish-American War.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "He remained in Federal service until discharged in December 1898 ."}]},
+  {"id": "e5", "date": "1899", "grain": "year", "track": "affiliation", "text": "Re-enlisted in the Guard.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "White re-enlisted in the Guard in 1899"}]},
+  {"id": "e6", "date": "1903", "grain": "year", "track": "affiliation", "text": "Discharged from the Guard.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "both", "quote": "before being discharged in 1903 ."}]},
+  {"id": "e7", "date": "1907-08-04", "grain": "day", "track": "affiliation", "text": "Enlisted in the 3d Infantry, Oregon National Guard.", "evidence": [{"chunk_id": "/wiki/George_A._White#1", "role": "description", "quote": "He moved to Oregon , where he enlisted in the 3d Infantry , Oregon"}, {"chunk_id": "/wiki/George_A._White#2", "role": "date", "quote": "National Guard on August 4 , 1907 ."}]},
+  {"id": "e8", "date": "1907-08-05", "grain": "day", "track": "role", "text": "Promoted to first lieutenant.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/George_A._White#2", "role": "both", "quote": "The next day he was promoted to first lieutenant ."}]},
+  {"id": "e9", "date": "1911-03-21", "grain": "day", "track": "role", "text": "Promoted to captain.", "evidence": [{"chunk_id": "/wiki/George_A._White#2", "role": "both", "quote": "White was promoted to Captain on March 21 , 1911 ."}]},
+  {"id": "e10", "date": "1915-02-01", "grain": "day", "track": "role", "text": "Appointed Adjutant General of Oregon.", "evidence": [{"chunk_id": "/wiki/George_A._White#3", "role": "both", "quote": "White was appointed Adjutant General of Oregon on February 1 , 1915 ."}]},
+  {"id": "e11", "date": "1916-06", "grain": "month", "track": "affiliation", "text": "Began Mexican border service, ending February 1917.", "evidence": [{"chunk_id": "/wiki/George_A._White#3", "role": "both", "quote": "After service on the Mexican border from June 1916 to February 1917"}]},
+  {"id": "e12", "date": "1917-09-10", "grain": "day", "track": "role", "text": "Re-entered federal service with rank of major.", "evidence": [{"chunk_id": "/wiki/George_A._White#4", "role": "both", "quote": "He re-entered federal service on September 10 , 1917 , with the rank of major"}]},
+  {"id": "e13", "date": "1917-09-10", "grain": "day", "track": "role", "text": "Assigned Assistant Adjutant General of the 41st Division.", "evidence": [{"chunk_id": "/wiki/George_A._White#4", "role": "both", "quote": "He re-entered federal service on September 10 , 1917 , with the rank of major"}]},
+  {"id": "e14", "date": "1918-01", "grain": "month", "track": "affiliation", "text": "Began service in France, ending June 1919.", "evidence": [{"chunk_id": "/wiki/George_A._White#5", "role": "both", "quote": "White served in France from January 1918 to June 1919 ."}]},
+  {"id": "e15", "date": "1918-11-13", "grain": "day", "track": "role", "text": "Promoted to lieutenant colonel.", "evidence": [{"chunk_id": "/wiki/George_A._White#5", "role": "both", "quote": "He was promoted to lieutenant colonel on November 13 , 1918 ."}]},
+  {"id": "e16", "date": "1919-02-16", "grain": "day", "track": "other", "label": "founding", "text": "One of 20 officers credited with founding The American Legion.", "evidence": [{"chunk_id": "/wiki/George_A._White#10", "role": "both", "quote": "White was one of 20 officers at the Allied Officers Club , Rue Faubourg St . Honore , on February 16 , 1919"}]},
+  {"id": "e17", "date": "1919-07-23", "grain": "day", "track": "affiliation", "text": "Separated from Federal service.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "White was separated from Federal service on July 23 , 1919"}]},
+  {"id": "e18", "date": "1920-04-15", "grain": "day", "track": "role", "text": "Resumed duties as Adjutant General of Oregon.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "resumed his duties as Adjutant General on April 15 , 1920"}]},
+  {"id": "e19", "date": "1920-06-23", "grain": "day", "track": "role", "text": "Promoted to colonel in Oregon National Guard.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "promoted to colonel on June 23 , 1920 ."}]},
+  {"id": "e20", "date": "1920-06-23", "grain": "day", "track": "role", "text": "Assumed command of the 82nd Infantry Brigade.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "He assumed command of the 82nd Infantry Brigade , a brigade composed of Oregon troops , the same day"}]},
+  {"id": "e21", "date": "1925", "grain": "year", "track": "education", "text": "Began attending Command and General Staff School, ending 1926.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "White attended the Command and General Staff School from 1925 to 1926"}]},
+  {"id": "e22", "date": "1926", "grain": "year", "track": "education", "text": "Ended attendance at Command and General Staff School.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "both", "quote": "White attended the Command and General Staff School from 1925 to 1926"}]},
+  {"id": "e23", "date": "1928", "grain": "year", "track": "other", "label": "training", "text": "Took part in War College training seminars.", "evidence": [{"chunk_id": "/wiki/George_A._White#6", "role": "description", "quote": "took part in training seminars organized by the War College in"}, {"chunk_id": "/wiki/George_A._White#7", "role": "date", "quote": "1928 ."}]},
+  {"id": "e24", "date": "1930-01-03", "grain": "day", "track": "role", "text": "Promoted to major general.", "evidence": [{"chunk_id": "/wiki/George_A._White#7", "role": "both", "quote": "On January 3 , 1930 , he was promoted to major general and appointed to command the 41st Division ."}]},
+  {"id": "e25", "date": "1930-01-03", "grain": "day", "track": "role", "text": "Appointed to command the 41st Division.", "evidence": [{"chunk_id": "/wiki/George_A._White#7", "role": "both", "quote": "On January 3 , 1930 , he was promoted to major general and appointed to command the 41st Division ."}]},
+  {"id": "e26", "date": "1934-07-09", "grain": "day", "track": "other", "label": "award", "text": "Awarded French Grand Cross of the Legion of Honor.", "evidence": [{"chunk_id": "/wiki/George_A._White#10", "role": "both", "quote": "he was awarded the French Grand Cross of the Legion of Honor on July 9 , 1934 ."}]},
+  {"id": "e27", "date": "1941-11-23", "grain": "day", "track": "other", "label": "death", "text": "Died at his home in Clackamas, Oregon.", "evidence": [{"chunk_id": "/wiki/George_A._White#12", "role": "both", "quote": "He died at his home in Clackamas , Oregon , on November 23 , 1941 ."}]}
+ ],
+ "undated_mentions": [
+  "promoted to sergeant, later first sergeant, Utah National Guard (no date)",
+  "obtained leave of absence to command an Oregon cavalry troop during Mexican border service (no date)",
+  "resumed post as Oregon Adjutant General after Mexican border service (no date)",
+  "subsequently posted to General Headquarters, AEF (no date)",
+  "appointed Knight of the French Order of the Black Star (no date)",
+  "promoted to brigadier general (no date)",
+  "became first national vice commander of The American Legion (no date)",
+  "founded The American Legion magazine and became its first editor (no date)",
+  "became ill during maneuvers at Hunter Liggett (no date)"
+ ]
+}

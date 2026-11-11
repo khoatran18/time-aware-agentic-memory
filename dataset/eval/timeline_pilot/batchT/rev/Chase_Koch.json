@@ -1,0 +1,118 @@
+{
+  "page_id": "/wiki/Chase_Koch",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1977-06-15",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Charles Chase Koch was born in Wichita, Kansas.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#0", "role": "both", "quote": "born June 15 , 1977"},
+        {"chunk_id": "/wiki/Chase_Koch#1", "role": "both", "quote": "was born on June 15 , 1977"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1993-09",
+      "grain": "month",
+      "track": "other",
+      "label": "vehicular homicide",
+      "text": "Koch ran a red light and struck a boy, who died; later pled guilty to misdemeanor.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#3", "role": "both", "quote": "In September 1993 , at the age 16 , Koch ran a red light in Wichita"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2006",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Koch began working for Koch Nitrogen Company as regional manager.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#6", "role": "both", "quote": "In 2006 , Koch began working for Koch Nitrogen Company"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2010",
+      "grain": "year",
+      "track": "family",
+      "text": "Koch married Annie Breitenbach, a former neonatal nurse.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#16", "role": "both", "quote": "In 2010 , Koch married Annie Breitenbach"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2010",
+      "grain": "year",
+      "track": "location",
+      "text": "Koch purchased a 70-acre property in Wichita for $3 million.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#16", "role": "both", "quote": "that Koch purchased for $3 million in 2010"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2013",
+      "grain": "year",
+      "track": "role",
+      "text": "Koch was appointed president of Koch Fertilizer.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#6", "role": "both", "quote": "He was appointed president of Koch Fertilizer in 2013"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2013",
+      "grain": "year",
+      "track": "role",
+      "text": "Koch became a member of the board of Koch Industries.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#15", "role": "both", "quote": "Since 2013 he has been a member of the board of Koch Industries"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2015",
+      "grain": "year",
+      "track": "work",
+      "text": "Koch was involved in an antipoverty initiative instructing nonprofits.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#11", "role": "both", "quote": "2015 , for example , he was involved in an antipoverty initiative"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2018-05",
+      "grain": "month",
+      "track": "other",
+      "label": "retreat",
+      "text": "Koch led a weekend retreat in Vail, Colorado for young professionals.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#12", "role": "both", "quote": "In May 2018 , in Vail , Colorado , Koch led a weekend retreat"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Koch became president of newly founded Koch Disruptive Technologies.",
+      "evidence": [
+        {"chunk_id": "/wiki/Chase_Koch#7", "role": "both", "quote": "In 2018 , he became president of the newly founded Koch Disruptive Technologies"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "attended Wichita Collegiate School",
+    "first job at age 15 at Koch's feed yard in Syracuse, Kansas",
+    "graduated from Texas A&M University with a B.S. in marketing",
+    "returned to Wichita and began working for Koch Industries at age 25 or 26",
+    "later named executive vice president of Koch Agronomic Services",
+    "member of the board of the Charles Koch Foundation",
+    "chairman of New Leaders"
+  ]
+}

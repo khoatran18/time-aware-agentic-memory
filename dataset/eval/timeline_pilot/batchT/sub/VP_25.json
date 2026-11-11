@@ -1,0 +1,112 @@
+{
+ "page_id": "/wiki/VP-25",
+ "events": [
+  {"id": "e1", "date": "1944-04-20", "grain": "day", "track": "other", "label": "founding", "text": "Squadron established as Patrol Squadron 25 at NAAS Harvey Point, North Carolina.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#0", "role": "both", "quote": "established as Patrol Squadron 25 ( VP-25 ) on 20 April 1944"},
+    {"chunk_id": "/wiki/VP-25#1", "role": "both", "quote": "20 April 1944 : VP-25 was established at NAAS Harvey Point , North Carolina"}
+  ]},
+  {"id": "e2", "date": "1944-04-20", "grain": "day", "track": "affiliation", "text": "Squadron placed under operational control of FAW-5.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#1", "role": "both", "quote": "20 April 1944 : VP-25 was established at NAAS Harvey Point , North Carolina , under the operational control of FAW-5"}
+  ]},
+  {"id": "e3", "date": "1944-04-20", "grain": "day", "track": "other", "label": "aircraft_type", "text": "Squadron assigned PBM-3D as its aircraft type.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#13", "role": "both", "quote": "PBM-3D - 20 April 1944"}
+  ]},
+  {"id": "e4", "date": "1944-06-26", "grain": "day", "track": "location", "text": "Squadron sent to NAS Key West, Florida, for ASW training.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#1", "role": "both", "quote": "26 June 1944 : The squadron was sent to NAS Key West , Florida"}
+  ]},
+  {"id": "e5", "date": "1944-07-04", "grain": "day", "track": "location", "text": "Squadron returned to NAAS Harvey Point after training.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#1", "role": "both", "quote": "returning to NAAS Harvey Point on 4 July 1944"}
+  ]},
+  {"id": "e6", "date": "1944-08-18", "grain": "day", "track": "location", "text": "Squadron departed Harvey Point for NAS Alameda, California.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#1", "role": "both", "quote": "The squadron remained at NAAS Harvey Point until 18 August 1944 , when it departed for NAS Alameda , California"}
+  ]},
+  {"id": "e7", "date": "1944-08-21", "grain": "day", "track": "location", "text": "Squadron reported to FAW-14 at NAS Alameda for orders.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#2", "role": "both", "quote": "21 August – 29 September 1944 : VP-25 reported to FAW-14 , NAS Alameda for orders"},
+    {"chunk_id": "/wiki/VP-25#14", "role": "both", "quote": "NAS Alameda , California - 21 August 1944"}
+  ]},
+  {"id": "e8", "date": "1944-09-15", "grain": "day", "track": "location", "text": "Squadron departed for Hawaii and arrived at NAS Kaneohe Bay.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#2", "role": "both", "quote": "Orders were issued for departure on 15 September 1944"},
+    {"chunk_id": "/wiki/VP-25#14", "role": "both", "quote": "NAS Kaneohe Bay , Hawaii - 15 September 1944"}
+  ]},
+  {"id": "e9", "date": "1944-10-01", "grain": "day", "track": "naming", "text": "Squadron redesignated Patrol Bombing Squadron 25 (VPB-25).", "evidence": [
+    {"chunk_id": "/wiki/VP-25#0", "role": "both", "quote": "redesignated Patrol Bombing Squadron 25 ( VPB-25 ) on 1 October 1944"},
+    {"chunk_id": "/wiki/VP-25#3", "role": "both", "quote": "1 October – 14 November 1944 : VP-25 was redesignated VPB-25"}
+  ]},
+  {"id": "e10", "date": "1944-10-01", "grain": "day", "track": "affiliation", "text": "Squadron placed under operational control of FAW-2.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#3", "role": "both", "quote": "1 October – 14 November 1944 : VP-25 was redesignated VPB-25 , coming under the operational control of FAW-2"}
+  ]},
+  {"id": "e11", "date": "1944-11-14", "grain": "day", "track": "location", "text": "Squadron received orders to report to the combat zone.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#3", "role": "both", "quote": "until orders were received for the squadron to report to the combat zone on 14 November 1944"}
+  ]},
+  {"id": "e12", "date": "1944-11-15", "grain": "day", "track": "location", "text": "Squadron departed Hawaii for San Pedro Bay, Leyte, Philippines.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#4", "role": "both", "quote": "15 November – 1 December 1944 : VPB-25 departed Hawaii for San Pedro Bay , Leyte , Philippines"}
+  ]},
+  {"id": "e13", "date": "1944-12-01", "grain": "day", "track": "other", "label": "combat_operations", "text": "Squadron began its first daytime combat sector patrols.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#4", "role": "both", "quote": "VPB-25 began its first daytime combat sector patrols on 1 December 1944"}
+  ]},
+  {"id": "e14", "date": "1944-12-25", "grain": "day", "track": "location", "text": "Squadron ordered to transfer operations to Mangarin Bay, Mindoro.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#5", "role": "both", "quote": "25–29 December 1944 : VPB-25 received orders to transfer its operations to Mangarin Bay , Mindoro , Philippines"}
+  ]},
+  {"id": "e15", "date": "1944-12-29", "grain": "day", "track": "location", "text": "Squadron aircrews flew from San Pedro Bay to rejoin at Mangarin Bay.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#5", "role": "both", "quote": "On 29 December 1944 , the squadron aircrews flew from San Pedro Bay to rejoin the rest of the squadron"}
+  ]},
+  {"id": "e16", "date": "1944-12-30", "grain": "day", "track": "other", "label": "operations", "flag": "derived_date", "text": "Squadron began sector searches from Mangarin Bay.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#5", "role": "both", "quote": "The squadron began conducting sector searches from the new location the next day"}
+  ]},
+  {"id": "e17", "date": "1945-02-06", "grain": "day", "track": "location", "text": "Squadron transferred to Jinamoc Seaplane Base, Leyte.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#7", "role": "both", "quote": "6–25 February 1945 : VPB-25 was transferred to Jinamoc Seaplane Base , Leyte , Philippines"}
+  ]},
+  {"id": "e18", "date": "1945-02-06", "grain": "day", "track": "affiliation", "text": "Squadron placed under operational control of FAW-10 for courier flights.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#7", "role": "both", "quote": "6–25 February 1945 : VPB-25 was transferred to Jinamoc Seaplane Base , Leyte , Philippines , under the operational control of FAW-10"}
+  ]},
+  {"id": "e19", "date": "1945-02-06", "grain": "day", "track": "other", "label": "aircraft_type", "text": "Squadron assigned new Martin PBM-3D2 Mariner aircraft.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#13", "role": "both", "quote": "PBM-3D2 - 6 February 1945"},
+    {"chunk_id": "/wiki/VP-25#7", "role": "description", "quote": "After receiving and checking out its new Martin PBM-3D2 Mariners"}
+  ]},
+  {"id": "e20", "date": "1945-03-07", "grain": "day", "track": "location", "text": "Mangarin Bay detachment ordered to relocate to Manila Bay.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#8", "role": "both", "quote": "7 March 1945 : The squadron’s Mangarin Bay detachment received orders to relocate to Manila Bay"}
+  ]},
+  {"id": "e21", "date": "1945-06-24", "grain": "day", "track": "location", "text": "Cavite detachment relocated to Lingayen Gulf, relieving VPB-17.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#9", "role": "both", "quote": "24–28 June 1945 : The Cavite detachment was relocated to Lingayen Gulf"}
+  ]},
+  {"id": "e22", "date": "1945-06-28", "grain": "day", "track": "other", "label": "operations", "text": "Black Cat nighttime antishipping operations commenced.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#9", "role": "both", "quote": "Operations commenced with the squadron conducting Black Cat , nighttime , operations against enemy shipping on 28 June 1945"}
+  ]},
+  {"id": "e23", "date": "1945-07-09", "grain": "day", "track": "location", "text": "Cavite detachment transferred to Puerto Princesa, Palawan.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#10", "role": "both", "quote": "9 July 1945 : The Cavite detachment was transferred to Puerto Princesa , Palawan , Philippines"}
+  ]},
+  {"id": "e24", "date": "1945-07-23", "grain": "day", "track": "location", "text": "Cavite detachment relieved and rejoined squadron at Lingayen Gulf.", "flag": "derived_date", "evidence": [
+    {"chunk_id": "/wiki/VP-25#10", "role": "both", "quote": "This detachment was relieved on 23 July to rejoin the rest of the squadron at Lingayen Gulf"}
+  ]},
+  {"id": "e25", "date": "1945-08-20", "grain": "day", "track": "location", "text": "Half of squadron shifted to USS San Pablo at Lingayen Gulf.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#11", "role": "both", "quote": "20 August – 3 September 1945 : USS San Pablo arrived on station at Lingayen Gulf to relieve USS Currituck"}
+  ]},
+  {"id": "e26", "date": "1945-09-03", "grain": "day", "track": "location", "text": "Tawi-Tawi detachment shifted to the relieving tender.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#11", "role": "both", "quote": "USS Pocomoke was relieved by on 3 September 1945 , and the Tawi-Tawi detachment shifted aboard the latter"}
+  ]},
+  {"id": "e27", "date": "1946-03-22", "grain": "day", "track": "affiliation", "text": "Squadron assigned duty with occupation forces in Japan.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#12", "role": "both", "quote": "22 March 1946 : VPB-25 was assigned duty with the occupation forces in Japan through 1 May 1946"}
+  ]},
+  {"id": "e28", "date": "1946-05", "grain": "month", "track": "location", "text": "Home port assigned as NAS Kaneohe Bay, Hawaii.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#14", "role": "both", "quote": "NAS Kaneohe Bay - May 1946"}
+  ]},
+  {"id": "e29", "date": "1946-05", "grain": "month", "track": "location", "text": "Home port assigned as NAS Alameda, California.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#14", "role": "both", "quote": "NAS Alameda - May 1946"}
+  ]},
+  {"id": "e30", "date": "1946-05-01", "grain": "day", "track": "affiliation", "text": "Squadron occupation duty in Japan ended.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#12", "role": "both", "quote": "assigned duty with the occupation forces in Japan through 1 May 1946"}
+  ]},
+  {"id": "e31", "date": "1946-05-15", "grain": "day", "track": "naming", "text": "Squadron redesignated Patrol Squadron 25 (VP-25).", "evidence": [
+    {"chunk_id": "/wiki/VP-25#0", "role": "both", "quote": "redesignated Patrol Squadron 25 ( VP-25 ) on 15 May 1946"}
+  ]},
+  {"id": "e32", "date": "1946-06-28", "grain": "day", "track": "other", "label": "disestablishment", "text": "Squadron disestablished.", "evidence": [
+    {"chunk_id": "/wiki/VP-25#0", "role": "both", "quote": "disestablished on 28 June 1946"},
+    {"chunk_id": "/wiki/VP-25#12", "role": "both", "quote": "28 June 1946 : VP-25 was disestablished"}
+  ]}
+ ],
+ "undated_mentions": [
+  "Further operational training near Hilo Bay, Hawaii",
+  "Dumbo air-sea rescue missions from Lingayen Gulf",
+  "Tawi-Tawi detachment antishipping and surveillance patrols"
+ ]
+}
