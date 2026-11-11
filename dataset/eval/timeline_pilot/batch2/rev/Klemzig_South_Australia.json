@@ -1,79 +1,18 @@
 {
  "page_id": "/wiki/Klemzig,_South_Australia",
  "events": [
-  {
-   "id": "e1",
-   "date": "1838",
-   "grain": "year",
-   "track": "other",
-   "label": "founding",
-   "text": "Klemzig founded by German emigrants on land offered by Angas.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Klemzig,_South_Australia#12",
-     "role": "both",
-     "quote": "In 1838 , Klemzig was founded by these emigrants"
-    }
-   ]
-  },
-  {
-   "id": "e2",
-   "date": "1838-10",
-   "grain": "month",
-   "track": "location",
-   "text": "First Old Lutheran emigrant groups began arriving at Port Misery.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Klemzig,_South_Australia#11",
-     "role": "both",
-     "quote": "between October 1838 and January 1839"
-    }
-   ]
-  },
-  {
-   "id": "e3",
-   "date": "1839-01",
-   "grain": "month",
-   "track": "location",
-   "text": "Arrivals of first Old Lutheran emigrant groups at Port Misery ended.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Klemzig,_South_Australia#11",
-     "role": "both",
-     "quote": "between October 1838 and January 1839"
-    }
-   ]
-  },
-  {
-   "id": "e4",
-   "date": "1917",
-   "grain": "year",
-   "track": "naming",
-   "text": "Klemzig renamed Gaza during anti-German sentiment in WWI.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Klemzig,_South_Australia#13",
-     "role": "both",
-     "quote": "In 1917 Klemzig was renamed Gaza"
-    }
-   ]
-  },
-  {
-   "id": "e5",
-   "date": "1935-12-12",
-   "grain": "day",
-   "track": "naming",
-   "text": "Klemzig name reinstated under South Australia Nomenclature Act 1935.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Klemzig,_South_Australia#13",
-     "role": "both",
-     "quote": "Klemzig was re-instated as the suburb name with the enactment of the South Australia Nomenclature Act of 1935 on 12 December 1935"
-    }
-   ]
-  }
+  {"id": "e1", "date": "1838", "grain": "year", "track": "other", "label": "founding",
+   "text": "Klemzig founded by German emigrants on land offered by George Fife Angas.",
+   "evidence": [{"chunk_id": "/wiki/Klemzig,_South_Australia#12", "role": "both", "quote": "In 1838 , Klemzig was founded by these emigrants"}]},
+  {"id": "e2", "date": "1838-10", "grain": "month", "track": "location",
+   "text": "First Old Lutheran emigrants arrive at Port Misery, Oct 1838 to Jan 1839.",
+   "evidence": [{"chunk_id": "/wiki/Klemzig,_South_Australia#11", "role": "both", "quote": "The first groups of Old Lutheran emigrants arrived in Port Misery between October 1838 and January 1839"}]},
+  {"id": "e3", "date": "1917", "grain": "year", "track": "naming",
+   "text": "Klemzig renamed Gaza, commemorating the Third Battle of Gaza.",
+   "evidence": [{"chunk_id": "/wiki/Klemzig,_South_Australia#13", "role": "both", "quote": "In 1917 Klemzig was renamed Gaza"}]},
+  {"id": "e4", "date": "1935-12-12", "grain": "day", "track": "naming",
+   "text": "Klemzig reinstated as suburb name under the South Australia Nomenclature Act.",
+   "evidence": [{"chunk_id": "/wiki/Klemzig,_South_Australia#13", "role": "both", "quote": "Klemzig was re-instated as the suburb name with the enactment of the South Australia Nomenclature Act of 1935 on 12 December 1935"}]}
  ],
- "undated_mentions": [
-  "Residents petitioned the South Australian Government to reinstate the name Gaza during World War II; requests were denied."
- ]
+ "undated_mentions": ["Residents of Klemzig petitioned the South Australian Government during World War II to re-instate the name Gaza; requests denied."]
 }

@@ -192,3 +192,11 @@ Bối cảnh và số liệu ở `docs/eval/10` mục 10.5ax (288 câu trên 88 
 2. **GIỮ `extras/`:** `dataset/eval/timeline_pilot/extras/<Trang>.json` ghi các mốc có thật trong chunk, ngày rõ, gold không có, **để khi đo precision của ingest không bị phạt oan** (ingest ra mốc đó thì không tính là sai). Người dùng đã nhắc nhiều lần: **không còn đề xuất bỏ `extras`**. Các đề xuất "không cần `extras`" ở `decisions/14` mục 178(5) và `docs/pending/03` là của Claude, **đã bị bác**. Quy tắc ghi: mỗi quyết định `drop` do mốc mới (ngày rõ hoặc derived đã kiểm) vào `chain_apply.py` phải kèm `extra`; mốc BC không ghi `extras` (không dùng cho ingest, `decisions/05`).
 3. Việc này không đổi đáp án của câu hỏi; `extras` chỉ phục vụ đo ingest.
 4. **Không nới luật `dup_text`** cho `first_and_last`/`last_and_previous` (người dùng, 2026-11-11): 4 câu đã bỏ vì lý do này cứ bỏ, không khôi phục.
+
+## 19. Thay gold tune v1–v3 bằng bản gen lại guide v7 (người dùng chốt "thay", 2026-11-11)
+
+1. **Đã thay** gold của 25 trang tune v1–v3 (pilot5 5, pilot10 10, batch2 10) bằng bản Haiku guide v7 (`regen_v1v3/sub/`, trước đó tên `batchR`; kết quả ở `docs/eval/10` mục 10.5bj, 10.5bk). Bản mới đặt ở `pilot5/rev/`, `pilot10/rev/`, `batch2/rev/` (pilot5 trước đó chỉ có `me/`; `pilot5/me/` giữ nguyên làm bản gốc viết tay).
+2. **Bản cũ lưu** ở `dataset/eval/timeline_pilot/old_gold_v1v3/{pilot5_me,pilot10_rev,batch2_rev}/<Trang>.json` (25 file) để khôi phục.
+3. **Câu hỏi v9 của 10 trang batch2 đã gỡ** (id mốc đổi): chuyển sang `local/questions/v9/_replaced_gold_v3/` (23 câu: Aero_Union, August_Maus, CS_Aerostar_Bacau, First_Air_Group, Klemzig_South_Australia, Lev_Polugaevsky, Martin_de_Gurrea_y_Aragon, Quelli_che_il_Calcio, Thomas_Fearnley, Toungoo_dynasty). `check_questions.py v9` 0 lỗi sau khi gỡ. 25 trang này hiện **chưa có câu v9** (pilot5 và pilot10 chưa từng có), cần sinh câu mới nếu muốn giữ số câu tune.
+4. Thư mục gen lại đổi tên `batchR` thành `regen_v1v3` để `check_questions.py` (glob `batch*/in`) không gặp bản chép `in/` trùng; prompt `local/prompts/gold_regen_v1v3_v7.md` đã sửa đường dẫn.
+5. Gold mới chưa soát nội dung kỹ (mục 10.5bk có các mốc cũ biến mất); không thêm mốc nào vào gold mới.

@@ -1,0 +1,65 @@
+{
+  "page_id": "/wiki/Many_a_Slip_(radio_series)",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1964",
+      "grain": "year",
+      "track": "work",
+      "text": "Show first broadcast on the BBC Light Programme, starting its run",
+      "evidence": [
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#0", "role": "both", "quote": "broadcast from 1964 to 1979"},
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#8", "role": "both", "quote": "From its inception in 1964 , Many a Slip was broadcast on the BBC Light Programme"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1969-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Original broadcast moved to BBC Radio 4, repeats moved to BBC Radio 2",
+      "evidence": [
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#8", "role": "both", "quote": "In July 1969 , this changed , with the original broadcast now on BBC Radio 4"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1970",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "BBC Radio 2 stopped broadcasting the weekly repeats",
+      "evidence": [
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#8", "role": "both", "quote": "Radio 2 stopped broadcasting the weekly repeats in 1970"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1978",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Lance Percival returned to the panel after David Nixon's death",
+      "evidence": [
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#1", "role": "both", "quote": "When Nixon died in 1978 , Percival returned to the show"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1979",
+      "grain": "year",
+      "track": "work",
+      "text": "Show ended its run",
+      "evidence": [
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#0", "role": "both", "quote": "broadcast from 1964 to 1979"},
+        {"chunk_id": "/wiki/Many_a_Slip_(radio_series)#2", "role": "both", "quote": "remained until the show ended in 1979"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "early 1970s: Katharine Whitehorn and Paul Jennings replaced Isobel Barnett and Richard Murdoch as panellists",
+    "after one series: Tim Rice and Gillian Reynolds replaced Whitehorn and Jennings as panellists",
+    "when the annual radio series returned: David Nixon replaced Lance Percival as panellist",
+    "mid-1960s: show tried out on television for one series",
+    "1980s: show broadcast on Saturday nights on RNZ National, New Zealand",
+    "late 1990s: BBC recorded a pilot at the Radio Theatre, Broadcasting House"
+  ]
+}

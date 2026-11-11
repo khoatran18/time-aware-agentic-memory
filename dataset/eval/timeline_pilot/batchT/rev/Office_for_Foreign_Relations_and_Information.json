@@ -1,0 +1,67 @@
+{
+  "page_id": "/wiki/Office_for_Foreign_Relations_and_Information",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1994",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Service made an independent institution by Act 153/1994, out of Interior Ministry portfolio.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Office_for_Foreign_Relations_and_Information#2",
+          "role": "both",
+          "quote": "Act No . 153/1994 Coll . on intelligence services of the Czech Republic which made the service an independent institution"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1996",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Shortwave numbers station (OLX callsign) run under UZSI ended operation.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Office_for_Foreign_Relations_and_Information#8",
+          "role": "both",
+          "quote": "The station ran under ÚZSI until 1996 ."
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2014",
+      "grain": "year",
+      "track": "role",
+      "text": "Jiří Šašek served as director of the agency (term 2014-2018 begins).",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Office_for_Foreign_Relations_and_Information#7",
+          "role": "both",
+          "quote": "Jiří Šašek 2014-2018"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2018",
+      "grain": "year",
+      "track": "role",
+      "text": "Jiří Šašek's term as director of the agency ended.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Office_for_Foreign_Relations_and_Information#7",
+          "role": "both",
+          "quote": "Jiří Šašek 2014-2018"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Agency was called Office for Foreign Relations and Information of the Federal Ministry of the Interior before Czech independence (no date)",
+    "Began operating a shortwave numbers station under the OLX callsign (start date not stated)",
+    "Marek Šimandl became current director (appointment date not stated)",
+    "Former directors Oldřich Černý, Petr Zeman, Jiří Lang, Karel Randák, Ivo Schwarz and František Bublan (tenure dates not stated)"
+  ]
+}

@@ -1,214 +1,37 @@
 {
- "page_id": "CS_Aerostar_Bacău",
+ "page_id": "/wiki/CS_Aerostar_Bacău",
  "events": [
-  {
-   "id": "e1",
-   "date": "1977",
-   "grain": "year",
-   "track": "other",
-   "label": "founding",
-   "text": "Club founded as Aripile Bacău.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#3",
-     "role": "both",
-     "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings ) the club was enrolled directly in the Divizia C"
-    }
-   ]
-  },
-  {
-   "id": "e2",
-   "date": "1977",
-   "grain": "year",
-   "track": "affiliation",
-   "text": "Enrolled directly in Divizia C, second series.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#3",
-     "role": "both",
-     "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings ) the club was enrolled directly in the Divizia C"
-    }
-   ]
-  },
-  {
-   "id": "e3",
-   "date": "1982",
-   "grain": "year",
-   "track": "naming",
-   "text": "Name changed back to Aripile Bacău.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#4",
-     "role": "both",
-     "quote": "In the summer of 1982 the club ownership decided to change the teams name back to the old one"
-    }
-   ]
-  },
-  {
-   "id": "e4",
-   "date": "1985",
-   "grain": "year",
-   "track": "affiliation",
-   "text": "Promoted for the first time to Divizia B, end of 1984–85 season.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#5",
-     "role": "both",
-     "quote": "promoted for the first time in the Divizia B at the end of the 1984–85 season"
-    }
-   ],
-   "flag": "derived_date"
-  },
-  {
-   "id": "e5",
-   "date": "1988",
-   "grain": "year",
-   "track": "naming",
-   "text": "Name changed to Aripile, dropping Victoria.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#8",
-     "role": "both",
-     "quote": "In the summer of 1988 , with the occasion of promotion , Aripile Victoria became again just Aripile"
-    }
-   ]
-  },
-  {
-   "id": "e6",
-   "date": "1992",
-   "grain": "year",
-   "track": "affiliation",
-   "text": "Relegated to the third league after the 1991–92 season.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#9",
-     "role": "both",
-     "quote": "1991–92 – 16th , the last result meaning also the relegation to the third league"
-    }
-   ],
-   "flag": "derived_date"
-  },
-  {
-   "id": "e7",
-   "date": "1992",
-   "grain": "year",
-   "track": "naming",
-   "text": "Club renamed Aerostar Bacău, matching parent company rename.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#10",
-     "role": "both",
-     "quote": "A notable event occurred in the summer of 1992 , when the club changed its name in Aerostar Bacău"
-    }
-   ]
-  },
-  {
-   "id": "e8",
-   "date": "1995",
-   "grain": "year",
-   "track": "other",
-   "label": "founding",
-   "text": "Club refounded as Aerostar Bacău, enrolled in Divizia D.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#11",
-     "role": "both",
-     "quote": "After one year of inactivity the club was refounded with the same name of Aerostar Bacău , in the summer of 1995"
-    }
-   ]
-  },
-  {
-   "date": "1995",
-   "grain": "year",
-   "track": "role",
-   "label": "",
-   "text": "Doru Damaschin became the new club president",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#11",
-     "role": "both",
-     "quote": "in the summer of 1995 . The Airmen were enrolled in the Divizia D , having in the lead also a new president , in the person of Doru Damaschin"
-    }
-   ],
-   "id": "e9"
-  },
-  {
-   "id": "e10",
-   "date": "1999",
-   "grain": "year",
-   "track": "affiliation",
-   "text": "Promoted back to Divizia C, end of 1998–99 season.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#11",
-     "role": "both",
-     "quote": "promoted back to Divizia C at the end of the 1998–99 season"
-    }
-   ],
-   "flag": "derived_date"
-  },
-  {
-   "id": "e11",
-   "date": "2017",
-   "grain": "year",
-   "track": "other",
-   "label": "funding",
-   "text": "Received financial support from Municipality of Bacău for promotion push.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
-     "role": "date",
-     "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"
-    },
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
-     "role": "description",
-     "quote": "Aerostar has also received financial support from the Municipality of Bacău"
-    }
-   ]
-  },
-  {
-   "id": "e12",
-   "date": "2017",
-   "grain": "year",
-   "track": "role",
-   "text": "Cristian Popovici chosen as new manager of the team.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
-     "role": "date",
-     "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"
-    },
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#14",
-     "role": "description",
-     "quote": "Cristian Popovici was chosen to be the new manager of the team"
-    }
-   ]
-  },
-  {
-   "date": "2018",
-   "grain": "year",
-   "track": "affiliation",
-   "label": "",
-   "text": "Promoted back to Liga II",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/CS_Aerostar_Bacău#15",
-     "role": "both",
-     "quote": "Aerostar promoted back to Liga II after 26 years of absence and 18 years after its return in the Liga III , in 1999"
-    }
-   ],
-   "flag": "derived_date",
-   "id": "e13"
-  }
+  {"id": "e1", "date": "1976", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga IV Bacău County title, 1976–77 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Liga IV – Bacău County - Winners ( 3 ) : 1976–77 , 1979–80 , 1998–99"}], "flag": "approximate_date"},
+  {"id": "e2", "date": "1977", "grain": "year", "track": "other", "label": "founding", "text": "Founded as Aripile Bacău", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#1", "role": "both", "quote": "Founded in 1977 as Aripile Bacău"}, {"chunk_id": "/wiki/CS_Aerostar_Bacău#3", "role": "both", "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings )"}]},
+  {"id": "e3", "date": "1977", "grain": "year", "track": "affiliation", "text": "Enrolled directly in Divizia C, second series", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#3", "role": "both", "quote": "Founded in 1977 as Aripile Bacău ( The Bacău Wings ) the club was enrolled directly in the Divizia C"}]},
+  {"id": "e4", "date": "1979", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga IV Bacău County title, 1979–80 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Liga IV – Bacău County - Winners ( 3 ) : 1976–77 , 1979–80 , 1998–99"}], "flag": "approximate_date"},
+  {"id": "e5", "date": "1982", "grain": "year", "track": "naming", "text": "Renamed back to Aripile Bacău", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#4", "role": "both", "quote": "In the summer of 1982 the club ownership decided to change the teams name back to the old one"}], "flag": "approximate_date"},
+  {"id": "e6", "date": "1984", "grain": "year", "track": "affiliation", "text": "Promoted for the first time to Divizia B", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#5", "role": "both", "quote": "promoted for the first time in the Divizia B at the end of the 1984–85 season"}], "flag": "approximate_date"},
+  {"id": "e7", "date": "1984", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga III title, 1984–85 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Winners ( 4 ) : 1984–85 , 1987–88 , 2017–18 , 2019–20"}], "flag": "approximate_date"},
+  {"id": "e8", "date": "1987", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga III title, 1987–88 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Winners ( 4 ) : 1984–85 , 1987–88 , 2017–18 , 2019–20"}], "flag": "approximate_date"},
+  {"id": "e9", "date": "1988", "grain": "year", "track": "naming", "text": "Renamed back to Aripile, after promotion", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#8", "role": "both", "quote": "In the summer of 1988 , with the occasion of promotion , Aripile Victoria became again just Aripile"}], "flag": "approximate_date"},
+  {"id": "e10", "date": "1991", "grain": "year", "track": "affiliation", "text": "Relegated to the third tier after 1991–92 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#9", "role": "both", "quote": "1991–92 – 16th , the last result meaning also the relegation to the third league"}], "flag": "approximate_date"},
+  {"id": "e11", "date": "1992", "grain": "year", "track": "naming", "text": "Renamed Aerostar Bacău", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#10", "role": "both", "quote": "in the summer of 1992 , when the club changed its name in Aerostar Bacău"}], "flag": "approximate_date"},
+  {"id": "e12", "date": "1995", "grain": "year", "track": "other", "label": "refounding", "text": "Refounded with the same name, Aerostar Bacău", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#1", "role": "both", "quote": "In the summer of 1995 , the side was refounded with the same name"}, {"chunk_id": "/wiki/CS_Aerostar_Bacău#11", "role": "both", "quote": "refounded with the same name of Aerostar Bacău , in the summer of 1995"}], "flag": "approximate_date"},
+  {"id": "e13", "date": "1995", "grain": "year", "track": "affiliation", "text": "Enrolled in Divizia D, fourth tier", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#11", "role": "both", "quote": "in the summer of 1995 . The Airmen were enrolled in the Divizia D"}], "flag": "approximate_date"},
+  {"id": "e14", "date": "1995", "grain": "year", "track": "role", "text": "Doru Damaschin became new club president", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#11", "role": "both", "quote": "in the summer of 1995 . The Airmen were enrolled in the Divizia D , having in the lead also a new president"}], "flag": "approximate_date"},
+  {"id": "e15", "date": "1998", "grain": "year", "track": "affiliation", "text": "Promoted back to Divizia C", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#11", "role": "both", "quote": "promoted back to Divizia C at the end of the 1998–99 season"}], "flag": "approximate_date"},
+  {"id": "e16", "date": "1998", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga IV Bacău County title, 1998–99 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Liga IV – Bacău County - Winners ( 3 ) : 1976–77 , 1979–80 , 1998–99"}], "flag": "approximate_date"},
+  {"id": "e17", "date": "2017", "grain": "year", "track": "other", "label": "funding", "text": "Received financial support from Municipality of Bacău", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#14", "role": "both", "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"}, {"chunk_id": "/wiki/CS_Aerostar_Bacău#14", "role": "description", "quote": "Aerostar has also received financial support from the Municipality of Bacău"}], "flag": "approximate_date"},
+  {"id": "e18", "date": "2017", "grain": "year", "track": "role", "text": "Cristian Popovici chosen as new manager", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#14", "role": "both", "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"}, {"chunk_id": "/wiki/CS_Aerostar_Bacău#14", "role": "description", "quote": "Cristian Popovici was chosen to be the new manager of the team"}], "flag": "approximate_date"},
+  {"id": "e19", "date": "2017", "grain": "year", "track": "affiliation", "text": "Promoted back to Liga II after 26 years", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#14", "role": "date", "quote": "In the summer of 2017 due to the lack of strong football clubs in the city"}, {"chunk_id": "/wiki/CS_Aerostar_Bacău#15", "role": "description", "quote": "Aerostar promoted back to Liga II after 26 years of absence"}], "flag": "derived_date"},
+  {"id": "e20", "date": "2017", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga III title, 2017–18 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Winners ( 4 ) : 1984–85 , 1987–88 , 2017–18 , 2019–20"}], "flag": "approximate_date"},
+  {"id": "e21", "date": "2019", "grain": "year", "track": "other", "label": "honour", "text": "Won Liga III title, 2019–20 season", "evidence": [{"chunk_id": "/wiki/CS_Aerostar_Bacău#17", "role": "both", "quote": "Winners ( 4 ) : 1984–85 , 1987–88 , 2017–18 , 2019–20"}], "flag": "approximate_date"}
  ],
  "undated_mentions": [
-  "Renamed Victoria IRA Bacău after one season absence and promotion to Divizia C (no date stated)",
-  "Renamed Aripile Victoria Bacău at end of first Divizia B season (no date stated)",
-  "Relegated from Divizia B as first team below the red line (no date stated)",
-  "Signed Ionuț Mihălăchioaie and Cătălin Vraciu (no date stated in chunk)",
-  "Dissolved after exclusion from Divizia C (no date stated)",
-  "Excluded from Divizia C over financial problems during the 1993–94 season (season-level, not placeable in a year)"
+  "early 1990s: company and club renamed Aerostar",
+  "1993–94 season: excluded from Divizia C for financial problems, bankruptcy, then dissolved",
+  "relegated to fourth tier after second Divizia C season (season not dated)",
+  "after one season of absence: promoted back to Divizia C and renamed Victoria IRA Bacău (season not dated)",
+  "1985–86 first Divizia B season: relegated below red line and renamed Aripile Victoria Bacău at season end",
+  "season results: 1980–81 (6th), 1981–82 (5th), 1982–83 (2nd), 1983–84 (one point behind leader), 1987–88 (13th), 1989–90 (8th), 1990–91 (13th), 1992–93 (4th)",
+  "Liga III runners-up: 1982–83, 1983–84, 2007–08",
+  "season results: 2nd 2007–08; 3rd 1999–2000, 2003–04, 2004–05; 4th 2005–06, 2014–15, 2016–17; 5th 2006–07; 6th 2011–12; 7th 2001–02, 2008–09, 2015–16; 9th 2000–01, 2002–03, 2012–13; 10th 2010–11; 11th 2013–14; 12th 2009–10",
+  "signing of Ionuț Mihălăchioaie and Cătălin Vraciu (no date stated)"
  ]
 }

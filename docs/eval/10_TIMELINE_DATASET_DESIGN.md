@@ -1611,3 +1611,60 @@ Nguồn: `batchT/sub/` (bản Haiku). Số đếm từ file. **Mới chỉ có `
 - Đề xuất: không chạy lại Haiku. Rủi ro sót chỉ làm hỏng câu hỏi khi mốc sót nằm trong chuỗi của câu; đó là việc của bước [1][2][3] (`chain_complete`/`chain_verify`) sau khi sinh câu hỏi, chạy trên câu của test_clean (tốn API, cần hỏi trước). Chưa đọc: 121 trang còn lại của 136 (xem gap bằng `local/gold_gap_sub.py`), cả 5 trang Wheel_of_Fortune/1_Hanover_Square/Princess_Victoria_Melita/Lana_Turner/Cutty_Sark mới đọc 22 gap đầu.
 
 **4. Guide v6 so với v7 (tune).** Không có tài liệu đo trực tiếp sự khác biệt về chất lượng. Khác biệt về quy ước: v7 gộp toàn bộ quy ước của session B (di cảo, mất tên, bản dịch, "revised", hành động lập pháp, bài giảng, triển lãm, giải từng năm, rating, kết quả trận, việc của thực thể khác, "giữa X và Y", mục Timeline nhiều ngày lẻ) và thêm 3 quy ước từ V11 (không ghi tai nạn từng máy bay của hãng; năm TCN thiên văn; mùa giải ghi `approximate_date`). Mùa giải ở tune và V1–V10 để vào `undated_mentions`. Các trang B1–B11 của v6 đã được session B đối chiếu bằng quy ước đó nên gần v7; v1–v3 (25 trang) thiếu `derived_date` và quy ước mới nhất. Số câu v9 hiện có theo nhóm (đếm file `local/questions/v9/<Trang>.jsonl`): v3 23, v4 139, v5 26, v6 390; v1, v2 (15 trang) không có file câu hỏi v9. Nếu gen lại gold tune: ưu tiên v1–v3 (25 trang) bằng v7; v4–v5 (50 trang) tùy chọn; giữ v6 (128 trang). Lưu ý: gen lại làm đổi id mốc nên câu hỏi v9 của các trang đó phải sinh lại.
+
+### 10.5bi Đọc gold v4–v5 của tune (50 trang) và câu hỏi/đáp án v9 của chúng (2026-11-11)
+
+**Phạm vi.** v4 = `batch3`–`batch6` (40 trang), v5 = `batch7` (10 trang), đọc từ `rev/`. Đã in và đọc toàn bộ danh sách mốc (id, ngày, cờ, 32 ký tự đầu của text) của 50 trang và cả 164 câu v9 với id, đáp án, ngày của chuỗi. **Không đọc lại từng chunk**; việc đối chiếu mốc với chunk chỉ qua `check.py` (0 lỗi) và gap tự động (`local/gold_gap_sub.py` logic, chạy trên `rev/`). Không sửa file nào.
+
+**1. Số liệu.** 1539 mốc (cờ: 156 `derived_date`, 35 `approximate_date`, 23 `source_inconsistent`, 1 cờ gộp); 164 câu: `list` 56, `first_last_next` 49, `order_gap` 40, `summary` 19 (checker 0 lỗi). 7 trang 0 câu: Ich_bin_ein_Star (8 mốc), The_Dark_Eye (27), USS_LCS_L_3_102 (15, nhiều cờ), Minuta_slavy (7), Pelican_Island (5), British_Rail_Class_40 (25), German_submarine_U_254 (8, gần hết có cờ). D__band_ có 85 mốc nhưng chỉ 1 câu; Technical_University_Leuna_Merseburg 82 mốc có 11 câu (6,7% số câu của cả nhóm).
+
+**2. Đáp án (đã kiểm lại số học trên các câu đọc).** Mọi câu `order_gap` đọc được đều đúng hiệu năm (đếm năm lịch); mọi `first`/`last`/`next`/`first_and_last`/`last_and_previous` đúng thứ tự ngày của chuỗi; không phát hiện câu sai đáp án rõ. Câu `list`/`summary` đúng với tiêu chí ghi trong câu ở các trang đọc, trừ các câu nghi dưới đây.
+
+**3. Câu nghi (chưa xác nhận sai; cần quyết hoặc sửa lời):**
+- The_One_Show:3 (`last_and_previous`, "presenters leaving or starting a leave"): mốc e48 (2019-12-04, "Matt Baker announced he would leave") không nằm trong chuỗi nhưng câu không loại thông báo; nếu tính e48 thì đáp án đổi (e48, e49 thay vì e47, e49). Mơ hồ.
+- Meet_the_Press:4 (`list`, thay đổi phim trường): chuỗi có e23 (1996 "experimental HD set", thử nghiệm) và e33 (2010 thử nghiệm HD) cùng e34 (bộ mới); việc tính bản thử là "thay đổi" chưa rõ.
+- Alemannia_Aachen:1 (`list`, danh hiệu vô địch trước 1990): e10 (1938 "Finished atop their division") bị loại, có thể là danh hiệu hạng; Alemannia_Aachen:3 có e4 (gia nhập hiệp hội, không phải xếp hạng giải) trong nhóm.
+- Vindobona:2 (cửa sổ 1964–1979 "mid-1960s") lấy cả e7 năm 1964: biên của cụm "mid-1960s" mơ hồ.
+- Jerzy_Buzek:1: e27 "Lost 2001 parliamentary elections and stepped back" tính là bầu cử "contested" (chưa kiểm chứng).
+- Veliky_Novgorod:1 dùng e20 `approximate_date` trong `summary` (hợp luật, đã khai `flagged_ids`; mục treo cũ `Veliky_Novgorod:2 e20` vẫn còn). Stefan_He_e:4 còn cửa sổ chữ cũ.
+
+**4. Gold (mốc).** Gap tự động: 472 câu chưa phủ trên 50 trang, 4 trang 0 gap; đầu bảng Eliot_Engel 39, Hanover 39, Minuta_slavy 38, Veliky_Novgorod 29, British_Rail_Class_40 27. Đã đọc gap 5 trang đầu: phần lớn là danh sách (giám khảo khách mời của Minuta_slavy, hạng mục kiến trúc, tai nạn từng đầu máy: guide loại), thống kê dân số, bối cảnh. Ứng viên mốc sót thật (chưa kiểm chứng đã có mốc quanh chưa): Eliot_Engel (22 Dec 2010 ký Truth in Caller ID Act; 19 Dec 2007 luật năng lượng), Hanover (1887 phát minh đĩa nhạc, 4/1945 quân đồng minh tới, 2013 mở lại cung điện, 2010 khu Yukon Bay), Veliky_Novgorod (1293 lập pháo đài Viborg). Mốc lạ: Allsang_pa_Skansen e12 ("also hosted in 2003 (listed...)", mốc suy từ danh sách); các cặp cùng ngày (Meet_the_Press e2–e4, 1947-11-06). Cờ `derived_date` 156/1539 (10%) làm mất mốc dùng được (Matthias_Blübaum 36/50, Jacqueline_Cochran, Talk_im_Turm).
+
+**5. Kết luận (ước lượng).** Chất lượng v4–v5 nhìn chung ổn: đáp án đúng, câu nghi chủ yếu mơ hồ về lời, mốc sót ít ở 5 trang đã đọc gap. Điểm cần cân nhắc: (a) 7 trang 0 câu và D__band_ 1 câu trên 85 mốc: có thể sinh thêm câu `list` nếu cần số lượng; (b) sửa lời hoặc bỏ 4–5 câu nghi nếu muốn chặt; (c) chưa đọc 45 trang còn lại của gap, chưa đối chiếu chunk.
+
+### 10.5bj Gen lại gold tune v1–v3 bằng guide v7 (`batchR`, 5 session, 2026-11-11)
+
+Nguồn: `dataset/eval/timeline_pilot/batchR/sub/` (bản Haiku mới, 25 trang) so với gold cũ (`pilot5/me`, `pilot10/rev`, `batch2/rev`, không bị sửa). Số đếm từ file.
+
+**1. Kết quả chạy.** Đủ 25 file, JSON hợp lệ, `check.py` 0 lỗi; số agent báo khớp file. Gold mới **696 mốc** (cũ 776). Cờ mới: 39 `derived_date`, 31 `approximate_date`, 13 `source_inconsistent`, 613 không cờ; cờ cũ: 17 `derived_date`, 1 `approximate_date`, 14 `source_inconsistent`, 744 không cờ.
+
+**2. Theo nhóm guide cũ** (mốc mới/cũ; `derived_date` mới/cũ):
+- v1 (`pilot5`, 5 trang): 169/236; derived 10/0.
+- v2 (`pilot10`, 10 trang): 288/301; derived 8/0.
+- v3 (`batch2`, 10 trang): 239/239; derived 21/17.
+- Gold cũ v1, v2 chưa có quy ước `derived_date` (0 cờ), gold mới có 18 cờ ở hai nhóm này: đúng mục đích gen lại (checker chặn được các mốc này).
+- `approximate_date` tăng 1 lên 31 do v7 ghi "early/mid/circa" và mùa giải thành mốc có cờ.
+
+**3. Chênh lệch lớn từng trang** (mới/cũ): Ernst_Hechler 37/60, Mike_Bongiorno 49/68, World_Union_for_Progressive_Judaism 17/34, Lev_Polugaevsky 18/26, Great_Tower_Neuwerk 20/27, Telekids 15/20 (giảm nhiều ở v1: guide v7 chặt hơn, loại việc của thực thể khác); CS_Aerostar_Bacau 21/13, Martin_de_Gurrea 16/13 (tăng). Chưa đọc để biết bản nào đúng hơn.
+
+**4. Điểm cần kiểm.**
+- Nhiều trang có số mốc mới bằng đúng số mốc cũ (Butch_Levy 26/26, Aero_Union 19/19, August_Maus 38/38, Quelli_che_il_Calcio 26/26, Malvik 15/15, First_Air_Group 47/47, Seibu_Shinjuku 18/18, Frederick_Ralph_Sharp 21/21, John_Henry_Whitley 21/21). Đếm số `text` trùng chính xác (không phân biệt hoa thường): hầu hết 0, nhưng Carl_Ehrensvard 24/34, August_Maus 12/38, John_Henry_Whitley 10/21, Seibu 6/18 trùng. Có thể do cùng nguồn chunk và guide, hoặc agent mở gold cũ trái cấm; **chưa kiểm chứng** (không đọc transcript).
+- Chưa soát nội dung gold mới; chưa đối chiếu từng trang với cũ.
+- Báo cáo session: số undated cao ở Butch_Levy (10/26), Frederick_Ralph_Sharp (11/21), Lev_Polugaevsky (10/18); Klemzig chỉ 4 mốc (cũ 5).
+
+**5. Quyết định chờ.** Có thay gold tune v1–v3 bằng `batchR` hay không. Nếu thay: câu hỏi v9 của 25 trang phải sinh lại (id mốc đổi; v3 đang có 23 câu v9, v1 và v2 chưa có câu). Chưa copy `batchR/sub` sang `rev/` nào.
+
+### 10.5bk Kiểm gold v1–v3 mới sau khi thay (2026-11-11)
+
+**Việc đã làm:** chép gold mới vào `pilot5/rev`, `pilot10/rev`, `batch2/rev`; bản cũ ở `old_gold_v1v3/`; gỡ 10 file câu v9 của batch2 (23 câu) sang `local/questions/v9/_replaced_gold_v3/`; đổi tên `batchR` thành `regen_v1v3` (xem `decisions/14` mục 19). `check.py` DIR=rev 0 lỗi cả ba thư mục; `check_questions.py v9` 0 lỗi, cảnh báo 640 và 6 quote không thấy trong chunk (các trang Ludwig_Mond, Monica_s_Gang, Nana_Okada, Sherif_Ashraf…, không thuộc 25 trang này; số cảnh báo trước đó chưa đối chiếu).
+
+**Mốc cũ không còn ở bản mới.** So theo ngày/quote: 65 mốc cũ không có mốc mới cùng ngày, không cùng quote, không nằm trong `undated_mentions`. Phần lớn đúng guide v7 (sự kiện của tàu/đơn vị/tổ chức khác): Ernst_Hechler 21 (huấn luyện, hành trình tàu U-870, tuần dương hạm Emden/Karlsruhe), World_Union_for_Progressive_Judaism 13 (UAHC, Union of Liberal Rabbis, Jewish Religious Union: thực thể khác), Mike_Bongiorno (kết thúc từng chương trình). **Ca có vẻ là sót thật của bản mới (chưa kiểm chứng với chunk):**
+- Great_Tower_Neuwerk: 1360 hỏa hoạn và trùng tu lớn, 1909 phá ngọn hải đăng nhỏ, 1971 bảo vệ đồi (9 mốc cũ mất).
+- Quelli_che_il_Calcio: 1993 Fabio Fazio và Marino Bartoletti bắt đầu dẫn chương trình.
+- Toungoo_dynasty: 1740 Mon nổi dậy ở Hạ Miến.
+- Regius_Professor_Civil_Law: 2006-02 hết khuyết ghế.
+- Mike_Bongiorno: quốc tang 2009-09-12 (và việc trộm mộ 2011: di cảo/sau khi mất, theo guide có thể loại).
+- Lev_Polugaevsky: 1995 sách Sicilian Love, 1969 chuẩn bị trận cho Spassky.
+Mốc mới thêm: CS_Aerostar_Bacau +8 mốc mùa giải gắn `approximate_date` (đúng quy ước v7; bị chặn ở `order_gap`/`first_last_next`).
+
+**Rủi ro còn lại.** Bản mới giảm 80 mốc (696 so với 776), một phần là loại bỏ đúng quy ước, một phần sót; `approximate_date` tăng nên các trang mùa giải ít câu thứ tự. Tune hiện có thể dùng cả v1–v3 mới (có `derived_date`) nhưng 25 trang chưa có câu.

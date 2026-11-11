@@ -1,0 +1,192 @@
+{
+  "page_id": "/wiki/Frederica_Wilson",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1942-11-05",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born Frederica Smith in Miami, Florida.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#0", "role": "both", "quote": "born Frederica Patricia Smith , November 5 , 1942"},
+        {"chunk_id": "/wiki/Frederica_Wilson#3", "role": "both", "quote": "Wilson was born Frederica Smith on November 5 , 1942"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1963",
+      "grain": "year",
+      "track": "education",
+      "text": "Earned bachelor of arts degree from Fisk University.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#3", "role": "both", "quote": "earned her bachelor of arts degree from Fisk University in 1963"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1963",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Paul Wilson.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#23", "role": "both", "quote": "Wilson married Paul Wilson in 1963"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1972",
+      "grain": "year",
+      "track": "education",
+      "text": "Earned master of arts degree from the University of Miami.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#3", "role": "both", "quote": "her master of arts degree from the University of Miami in 1972"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1988",
+      "grain": "year",
+      "track": "family",
+      "text": "Husband Paul Wilson died; she was widowed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#23", "role": "both", "quote": "was widowed when he died in 1988"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1992",
+      "grain": "year",
+      "track": "role",
+      "text": "Left principal post to serve on Miami-Dade County School Board.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#3", "role": "both", "quote": "In 1992 she left her position as principal to serve on the Miami-Dade County School Board"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1998",
+      "grain": "year",
+      "track": "role",
+      "text": "Began representing 104th district in Florida House of Representatives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "represented the 104th district in the Florida House of Representatives from 1998 to 2002"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2002",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended service in Florida House of Representatives (104th district).",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "represented the 104th district in the Florida House of Representatives from 1998 to 2002"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2002",
+      "grain": "year",
+      "track": "role",
+      "text": "Began representing 33rd district in Florida Senate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "She then represented the 33rd district in the Florida Senate from 2002"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2006",
+      "grain": "year",
+      "track": "role",
+      "text": "Served as Minority Leader Pro Tempore in Florida legislature.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "She served as Minority Leader Pro Tempore in 2006"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2008",
+      "grain": "year",
+      "track": "role",
+      "text": "Voted for Obama and Biden as a Florida presidential elector.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "she voted for Obama and Joe Biden in 2008 as one of Floridas presidential electors"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2010",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended Florida Senate service upon election to Congress.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#5", "role": "both", "quote": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2010",
+      "grain": "year",
+      "track": "role",
+      "flag": "derived_date",
+      "text": "Won Democratic nomination for Florida's 17th district seat vacated by Kendrick Meek.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#6", "role": "both", "quote": "When Kendrick Meek retired from Floridas 17th congressional district to run for the United States Senate in 2010"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2010-11-02",
+      "grain": "day",
+      "track": "role",
+      "text": "Won general election to the US House seat without opposition.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#6", "role": "both", "quote": "She won the general election on November 2 , 2010 , without electoral opposition"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2011",
+      "grain": "year",
+      "track": "role",
+      "text": "Began serving as member of the US House of Representatives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#0", "role": "both", "quote": "member of the United States House of Representatives since 2011"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2012",
+      "grain": "year",
+      "track": "other",
+      "label": "proposal",
+      "text": "Proposed banning tutoring companies from exploiting vulnerable children.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#9", "role": "both", "quote": "proposing in 2012 that tutoring companies be banned from exploiting vulnerable children"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2019-12-18",
+      "grain": "day",
+      "track": "other",
+      "label": "vote",
+      "text": "Voted to impeach President Donald Trump in the House.",
+      "evidence": [
+        {"chunk_id": "/wiki/Frederica_Wilson#22", "role": "both", "quote": "On December 18 , 2019 , Wison voted to impeach President Donald J . Trump"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Principal of Skyway Elementary School, Miami (no date)",
+    "Started the 5,000 Role Models of Excellence mentoring program (no exact date, during school board membership)",
+    "Served as Minority Whip in the Florida legislature (no date)",
+    "Committee assignments: Foreign Affairs; Science, Space and Technology and subcommittees (no date)",
+    "Caucus memberships: Congressional Black Caucus, Arts, NextGen 9-1-1, Progressive, Medicare for All (no date)",
+    "South Atlantic Regional Director, Alpha Kappa Alpha Sorority (no date)",
+    "Part of coalition launching anti-hazing campaign after 2011 death of Robert Champion Jr. (no exact date)",
+    "Named to The Grio 100 (list titled 'for 2012'; no award date)",
+    "Led effort to expedite bill naming Miami FBI field office after two slain agents (no exact date)",
+    "Asked Speaker John Boehner to waive House head-covering ban (during his tenure, no date)"
+  ]
+}

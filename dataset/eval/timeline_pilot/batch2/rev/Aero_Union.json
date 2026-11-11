@@ -1,12 +1,13 @@
 {
- "page_id": "Aero_Union",
+ "page_id": "/wiki/Aero_Union",
  "events": [
   {
    "id": "e1",
    "date": "1960",
    "grain": "year",
-   "track": "work",
-   "text": "Newton and Foy began their first fire season flying a surplus B-25 Mitchell.",
+   "track": "other",
+   "label": "predecessor",
+   "text": "Newton and Foy's first fire season with a surplus B-25 Mitchell",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
@@ -20,58 +21,52 @@
    "date": "1960",
    "grain": "year",
    "track": "naming",
-   "text": "Newton and Foy operated that season under the name Western Air Industries.",
+   "text": "Operated that season under the name Western Air Industries",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
-     "role": "date",
-     "quote": "In 1960 Dale Newton and Dick Foy"
-    },
-    {
-     "chunk_id": "/wiki/Aero_Union#1",
-     "role": "description",
+     "role": "both",
      "quote": "Newton & Foy operated for that season under the name Western Air Industries"
     }
-   ]
+   ],
+   "flag": "derived_date"
   },
   {
+   "id": "e3",
    "date": "1961",
    "grain": "year",
    "track": "ownership_structure",
-   "label": "",
-   "text": "Purchased first two B-17 Flying Fortresses",
+   "text": "Bought first two B-17 Flying Fortresses",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
      "role": "both",
-     "quote": "The following year they purchased their first two B-17 Flying Fortresses"
+     "quote": "The following year they purchased their first two B-17 Flying Fortresses and changed their name to Aero Union"
     }
    ],
-   "flag": "derived_date",
-   "id": "e3"
+   "flag": "derived_date"
   },
   {
+   "id": "e4",
    "date": "1961",
    "grain": "year",
    "track": "naming",
-   "label": "",
-   "text": "Company renamed Aero Union",
+   "text": "Changed the company name to Aero Union",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
      "role": "both",
-     "quote": "changed their name to Aero Union"
+     "quote": "The following year they purchased their first two B-17 Flying Fortresses and changed their name to Aero Union"
     }
    ],
-   "flag": "derived_date",
-   "id": "e4"
+   "flag": "derived_date"
   },
   {
    "id": "e5",
    "date": "1962",
    "grain": "year",
    "track": "location",
-   "text": "Moved operations from Redding, California to Chico.",
+   "text": "Moved operations from Redding, California to Chico",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
@@ -84,9 +79,8 @@
    "id": "e6",
    "date": "1975",
    "grain": "year",
-   "track": "other",
-   "label": "fleet",
-   "text": "Began using Douglas C-54 aircraft as tankers and general support aircraft.",
+   "track": "ownership_structure",
+   "text": "Began using Douglas C-54 aircraft as tankers and general support aircraft",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
@@ -100,23 +94,22 @@
    "date": "1987",
    "grain": "year",
    "track": "other",
-   "label": "grounding",
-   "text": "C-119 fleet, including some Aero Union aircraft, grounded over safety concerns.",
+   "text": "C-119 firefighting fleet, including some Aero Union aircraft, grounded over safety concerns.",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#3",
      "role": "both",
      "quote": "was grounded in 1987 due to safety concerns"
     }
-   ]
+   ],
+   "label": "grounding"
   },
   {
    "id": "e8",
    "date": "2000",
    "grain": "year",
-   "track": "other",
-   "label": "fleet",
-   "text": "Period of Douglas C-54 use as tankers and support aircraft ended.",
+   "track": "ownership_structure",
+   "text": "Ended use of Douglas C-54 aircraft as tankers and general support aircraft",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#1",
@@ -130,7 +123,7 @@
    "date": "2007-07",
    "grain": "month",
    "track": "work",
-   "text": "Delivered the first production MAFFS II unit to the USFS.",
+   "text": "Delivered first production MAFFS II unit to the USFS",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#12",
@@ -140,27 +133,26 @@
    ]
   },
   {
+   "id": "e10",
    "date": "2007-08",
    "grain": "month",
    "track": "work",
-   "label": "",
-   "text": "MAFFS II flight testing took place",
+   "text": "MAFFS II flight testing",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#12",
      "role": "both",
-     "quote": "with flight testing that following August"
+     "quote": "Aero Union delivered the first production unit to the USFS in July , 2007 , with flight testing that following August"
     }
    ],
-   "flag": "derived_date",
-   "id": "e10"
+   "flag": "derived_date"
   },
   {
    "id": "e11",
    "date": "2010-06",
    "grain": "month",
    "track": "location",
-   "text": "Announced plans to move most operations to McClellan Airfield near Sacramento.",
+   "text": "Announced plan to move the majority of operations to McClellan Airfield",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#2",
@@ -174,7 +166,7 @@
    "date": "2010-07",
    "grain": "month",
    "track": "work",
-   "text": "MAFFS II used for the first time on a fire.",
+   "text": "MAFFS II used for the first time on a fire",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#12",
@@ -188,12 +180,12 @@
    "date": "2010-09",
    "grain": "month",
    "track": "location",
-   "text": "Relocation of operations to McClellan Airfield began.",
+   "text": "Relocation of operations to McClellan Airfield began",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#2",
      "role": "both",
-     "quote": "The relocation began in September 2010 but ended abruptly with the closure of the company"
+     "quote": "The relocation began in September 2010"
     }
    ]
   },
@@ -203,7 +195,7 @@
    "grain": "month",
    "track": "other",
    "label": "disclosure",
-   "text": "Voluntarily disclosed that its planes were not current on inspections.",
+   "text": "Voluntarily disclosed to the USFS that planes were not current on inspections",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#6",
@@ -216,8 +208,9 @@
    "id": "e15",
    "date": "2011-07-29",
    "grain": "day",
-   "track": "affiliation",
-   "text": "US Forest Service canceled its six-plane contract with Aero Union.",
+   "track": "other",
+   "label": "contract_cancelled",
+   "text": "USFS announced cancellation of six-plane contract after failed safety inspections",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#6",
@@ -227,10 +220,26 @@
    ]
   },
   {
+   "id": "e16",
    "date": "2011-08",
    "grain": "month",
-   "track": "ownership_structure",
-   "label": "",
+   "track": "other",
+   "label": "closure",
+   "text": "Informed employees they were out of work and operations were shutting down",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Aero_Union#6",
+     "role": "both",
+     "quote": "Less than a month later Aero Union informed its employees that they were out of work"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e17",
+   "date": "2011-08",
+   "grain": "month",
+   "track": "location",
    "text": "Failed to make lease payments to the City of Chico",
    "evidence": [
     {
@@ -239,15 +248,14 @@
      "quote": "August Aero Union failed to make its lease payments to the City of Chico"
     }
    ],
-   "flag": "derived_date",
-   "id": "e16"
+   "flag": "derived_date"
   },
   {
+   "id": "e18",
    "date": "2011-09",
    "grain": "month",
    "track": "location",
-   "label": "",
-   "text": "City of Chico declared the lease invalid",
+   "text": "City of Chico declared the facility lease invalid",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#7",
@@ -255,15 +263,14 @@
      "quote": "the lease was declared invalid by the city that September"
     }
    ],
-   "flag": "derived_date",
-   "id": "e17"
+   "flag": "derived_date"
   },
   {
-   "id": "e18",
+   "id": "e19",
    "date": "2012-02",
    "grain": "month",
    "track": "ownership_structure",
-   "text": "PMI auctioned Aero Union aircraft assets and intellectual property.",
+   "text": "PMI held an auction of Aero Union aircraft assets and firefighting systems",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#8",
@@ -273,11 +280,11 @@
    ]
   },
   {
-   "id": "e19",
+   "id": "e20",
    "date": "2012-05",
    "grain": "month",
    "track": "ownership_structure",
-   "text": "Auction of tools and equipment held; most of it sold.",
+   "text": "Auction of tools and equipment (no aircraft or intellectual property)",
    "evidence": [
     {
      "chunk_id": "/wiki/Aero_Union#8",
@@ -288,15 +295,14 @@
   }
  ],
  "undated_mentions": [
-  "Last round of layoffs reduced staff to five people",
-  "Participated in the USFS airtanker scandal as one of six contractors",
-  "Acquired aircraft through the USFS exchange program at no cost; titles transferred",
-  "Dismantled some aircraft for parts and exchanged other planes with the USFS",
-  "Made an out-of-court settlement with the government over its actions (later challenged in court)",
-  "Informed employees they were out of work and the company was shutting down (less than a month after the cancellation)",
-  "Shut down all facilities, websites and points of contact; assumed out of business",
-  "Former Aero Union Tanker 23 acquired by Airstrike Firefighters (no date)",
-  "Developed the improved MAFFS II system under USFS contract (no date given)",
-  "Relocation ended abruptly with the closure of the company"
+  "Aero Union was one of six contractors in the USFS airtanker scandal",
+  "USFS organized an exchange deal of grounded C-119s for C-130A and P-3 aircraft with contractors",
+  "Aero Union exchanged other aircraft with the USFS and dismantled some for parts",
+  "At least four aircraft dismantled for parts by Aero Union and TBM",
+  "Out-of-court settlement with the government over its actions, later challenged in court",
+  "Only two aircraft bid in the February 2012 auction; bids rejected as too low",
+  "Former Aero Union Tanker 23 acquired by Airstrike Firefighters",
+  "Last round of layoffs reduced staff to 5 people",
+  "Completely shut down all facilities, websites and points of contact"
  ]
 }

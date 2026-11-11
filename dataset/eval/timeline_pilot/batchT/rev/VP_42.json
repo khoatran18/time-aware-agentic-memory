@@ -1,0 +1,954 @@
+{
+ "page_id": "/wiki/VP-42",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1944-04-07",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Established as Patrol Squadron 22 (VP-22) at NAAS Harvey Point.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "established as Patrol Squadron 22 ( VP-22 ) on 7 April 1944"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#1",
+     "role": "both",
+     "quote": "7 April – 10 June 1944 : VP-22 was established at NAAS Harvey Point"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1944-04-07",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned: NAAS Harvey Point, North Carolina.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#28",
+     "role": "both",
+     "quote": "NAAS Harvey Point , North Carolina – 7 April 1944"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1944-06-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to NAS Key West, Florida for ASW training.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#1",
+     "role": "both",
+     "quote": "Harvey Point until 1 June 1944 , when the squadron was relocated to NAS Key West , Florida"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1944-06-10",
+   "grain": "day",
+   "track": "location",
+   "text": "Completed ASW course and returned to NAAS Harvey Point.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#1",
+     "role": "both",
+     "quote": "The course was completed on 10 June 1944 , and the squadron returned to NAAS Harvey Point"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1944-07",
+   "grain": "month",
+   "track": "other",
+   "label": "aircraft",
+   "text": "Assigned PBM-3D Mariner seaplanes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#27",
+     "role": "both",
+     "quote": "PBM-3D – July 1944"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1944-07-12",
+   "grain": "day",
+   "track": "location",
+   "text": "Received orders to NAS Alameda, California, for trans-Pacific preparation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#2",
+     "role": "both",
+     "quote": "12–18 July 1944 : The squadron received orders to NAS Alameda , California"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1944-07-12",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Came under operational control of FAW-8 during trans-Pacific preparation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#2",
+     "role": "date",
+     "quote": "12–18 July 1944 : The squadron received orders to NAS Alameda , California"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#3",
+     "role": "description",
+     "quote": "the squadron came under the control of FAW-8"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1944-07-18",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned: NAS Alameda, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#28",
+     "role": "both",
+     "quote": "NAS Alameda , California – 18 July 1944"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1944-08-25",
+   "grain": "day",
+   "track": "location",
+   "text": "Aircrews departed for NAS Kaneohe Bay, Hawaii; home port assigned.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#4",
+     "role": "both",
+     "quote": "25 August – October 1944 : VP-22 ground personnel had departed on board ship"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#28",
+     "role": "both",
+     "quote": "NAS Kaneohe Bay , Hawaii – 25 August 1944"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1944-10-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Patrol Bombing Squadron 22 (VPB-22).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "redesignated Patrol Bombing Squadron 22 ( VPB-22 ) on 1 October 1944"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1944-10-10",
+   "grain": "day",
+   "track": "location",
+   "text": "Transferred to Parry Island seaplane base, Eniwetok, under FAW-2.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#5",
+     "role": "both",
+     "quote": "10 October 1944 : VPB-22 was transferred to Parry Island seaplane base"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1944-11-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to Kossol Passage, Palau.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#6",
+     "role": "both",
+     "quote": "30 November 1944 : The squadron was relocated to Kossol Passage , Palau"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1945-01-22",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated from Palau to Ulithi Atoll.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#6",
+     "role": "both",
+     "quote": "22 January 1945 : VPB-22 was relocated from Palau to Ulithi Atoll"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1945-03-07",
+   "grain": "day",
+   "track": "other",
+   "label": "combat",
+   "text": "Began bombing raids on Japanese-held Yap, with patrols around Nugla Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#7",
+     "role": "both",
+     "quote": "7 March – 4 May 1945 : The squadron again took part in bombing raids on the Japanese-held island of Yap"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1945-05-04",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Administrative and operational control transferred to FAW-18.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#7",
+     "role": "both",
+     "quote": "On 4 May 1945 , administrative and operational control of the squadron was transferred to FAW-18"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1945-05-25",
+   "grain": "day",
+   "track": "other",
+   "label": "training",
+   "text": "Temporarily withdrawn from combat for sonobuoy ASW training.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#8",
+     "role": "both",
+     "quote": "25 May – 1 June 1945 : VPB-22 was temporarily withdrawn from combat and patrol missions"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1945-06-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Squadron completed its training and recommenced long-range reconnaissance and ASW patrols.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#8",
+     "role": "both",
+     "quote": "On 1 June 1945 , the squadron completed its training and recommenced long-range reconnaissance and ASW patrols"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1945-06-23",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to Saipan and based ashore as transients.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#8",
+     "role": "both",
+     "quote": "23 June 1945 : The squadron relocated to Saipan and based ashore as transients"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1945-06-25",
+   "grain": "day",
+   "track": "location",
+   "text": "Six crews and aircraft detached as advance party to Parry Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#9",
+     "role": "both",
+     "quote": "25 June 1945 : Six crews and aircraft were detached as an advance party to Parry Island"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1945-06-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Remainder of squadron joined the detachment at Parry Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#9",
+     "role": "both",
+     "quote": "The remainder of the squadron joined the detachment at Parry Island on 30 June 1945"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1945-08-07",
+   "grain": "day",
+   "track": "location",
+   "text": "Transferred back to Saipan, into transient quarters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "both",
+     "quote": "7 August 1945 : VPB-22 was transferred back to Saipan"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1945-08-09",
+   "grain": "day",
+   "track": "location",
+   "text": "Advance party of six aircraft proceeded to Chimu Wan, Okinawa.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "date",
+     "quote": "7 August 1945 : VPB-22 was transferred back to Saipan"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "description",
+     "quote": "On 9 August an advance party of six aircraft proceeded to Chimu Wan , Okinawa"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e23",
+   "date": "1945-08-16",
+   "grain": "day",
+   "track": "location",
+   "text": "Moved from USS Cumberland Sound to an unstated destination.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "date",
+     "quote": "7 August 1945 : VPB-22 was transferred back to Saipan"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "description",
+     "quote": "On 16 August the squadron moved from Cumberland Sound to"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e24",
+   "date": "1945-08-19",
+   "grain": "day",
+   "track": "location",
+   "text": "Remainder of squadron arrived by 19 August and shifted to Cumberland Sound quarters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "date",
+     "quote": "7 August 1945 : VPB-22 was transferred back to Saipan"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#10",
+     "role": "description",
+     "quote": "The remainder of the squadron arrived on by 19 August"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e25",
+   "date": "1945-09-01",
+   "grain": "day",
+   "track": "other",
+   "label": "operations",
+   "text": "Commenced long-range patrols from Chimu Wan, Okinawa.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#11",
+     "role": "both",
+     "quote": "1 September 1945 : The squadron commenced operations from Chimu Wan , Okinawa"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1945-09-16",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to NAS Sangley Point, Philippines, to avoid a tropical storm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#11",
+     "role": "date",
+     "quote": "1 September 1945 : The squadron commenced operations from Chimu Wan , Okinawa"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#11",
+     "role": "description",
+     "quote": "when the squadron was relocated to NAS Sangley Point , Philippines , to avoid a tropical storm"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e27",
+   "date": "1945-09-23",
+   "grain": "day",
+   "track": "location",
+   "text": "Flew to Sasebo, Japan, where USS Norton Sound was at anchor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#12",
+     "role": "both",
+     "quote": "23 September 1945 : USS Norton Sound had steamed ahead to Sasebo , Japan"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1945-09-30",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Transferred to operational and administrative control of FAW-17.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#12",
+     "role": "both",
+     "quote": "On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-17"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1945-12-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Recalled to NAS Kaneohe Bay pending transport back to the United States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#13",
+     "role": "both",
+     "quote": "1 December 1945 : The squadron was recalled to NAS Kaneohe Bay"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1945-12-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned: NAS San Diego, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#28",
+     "role": "both",
+     "quote": "NAS San Diego , California – 1 December 1945"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1945-12-05",
+   "grain": "day",
+   "track": "location",
+   "text": "All hands departed for NAS San Diego for rest and rehabilitation leave.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#13",
+     "role": "date",
+     "quote": "1 December 1945 : The squadron was recalled to NAS Kaneohe Bay"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#13",
+     "role": "description",
+     "quote": "all hands departed for NAS San Diego for rest and rehabilitation leave"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e32",
+   "date": "1946-01-20",
+   "grain": "day",
+   "track": "other",
+   "label": "reformed",
+   "text": "Reformed at NAS San Diego for training and ferry command duties.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#14",
+     "role": "both",
+     "quote": "20 January 1946 : VPB-22 was reformed at NAS San Diego for training and duties as a ferry command"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1946-05-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Patrol Squadron 22 (VP-22).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 22 ( VP-22 ) on 15 May 1946"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1946-11-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Medium Patrol Squadron (Seaplane) 2 (VP-MS-2).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "redesignated Medium Patrol Squadron ( Seaplane ) 2 ( VP-MS-2 ) on 15 November 1946"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1947-02-03",
+   "grain": "day",
+   "track": "other",
+   "label": "training",
+   "text": "VP-MS-2 began seaplane handling, refueling and towing training.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#14",
+     "role": "both",
+     "quote": "3 February – 28 April 1947 : VP-MS-2 was transferred to for seaplane handling"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1947-10-20",
+   "grain": "day",
+   "track": "location",
+   "text": "Began split deployment to Buckner Bay, Yokosuka and Tsingtao.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#15",
+     "role": "both",
+     "quote": "20 October 1947 – 30 April 1948 : The squadron began a split deployment to Buckner Bay , Okinawa"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1948-02-27",
+   "grain": "day",
+   "track": "location",
+   "text": "Administrative command relocated to Tanapag Harbor, Saipan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#15",
+     "role": "both",
+     "quote": "On 27 February 1948 , the administrative command relocated to Tanapag Harbor , Saipan"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1948-04-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Returned to NAS San Diego.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#15",
+     "role": "both",
+     "quote": "The squadron returned to NAS San Diego on 30 April 1948"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1948-09-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Patrol Squadron 42 (VP-42).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 42 ( VP-42 ) on 1 September 1948"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1950-07-14",
+   "grain": "day",
+   "track": "location",
+   "text": "Departed NAS San Diego for NAF Iwakuni, Japan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#16",
+     "role": "both",
+     "quote": "14 July 1950 – April 1951 : VP-42 departed NAS San Diego for NAF Iwakuni , Japan"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1950-07-19",
+   "grain": "day",
+   "track": "location",
+   "text": "Transferred to NAF Yokosuka for 24-hour ASW patrols of Japan-Korea shipping lanes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#16",
+     "role": "date",
+     "quote": "14 July 1950 – April 1951 : VP-42 departed NAS San Diego for NAF Iwakuni , Japan"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#16",
+     "role": "description",
+     "quote": "the squadron was immediately transferred to NAF Yokosuka"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e42",
+   "date": "1950-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Returned to NAF Iwakuni for the rest of the deployment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#16",
+     "role": "both",
+     "quote": "At the end of August 1950 the squadron returned to NAF Iwakuni"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e43",
+   "date": "1951-04",
+   "grain": "month",
+   "track": "location",
+   "text": "Returned to NAS San Diego.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#17",
+     "role": "both",
+     "quote": "The squadron returned to NAS San Diego in April 1951"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1951-11-22",
+   "grain": "day",
+   "track": "location",
+   "text": "Returned to Iwakuni for another deployment to the Korean combat zone.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#18",
+     "role": "both",
+     "quote": "22 November 1951 – June 1952 : VP-42 returned to Iwakuni , for another deployment"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1952-03-15",
+   "grain": "day",
+   "track": "other",
+   "label": "operations",
+   "text": "Conducted advanced base operations from Chinhae Air Base, South Korea.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#18",
+     "role": "both",
+     "quote": "On 15 March 1952 , the squadron conducted advanced base operations from Chinhae Air Base"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1952-04",
+   "grain": "month",
+   "track": "location",
+   "text": "Returned to Iwakuni in early April.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#18",
+     "role": "date",
+     "quote": "On 15 March 1952 , the squadron conducted advanced base operations from Chinhae Air Base"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#18",
+     "role": "description",
+     "quote": "returning to Iwakuni in early April"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e47",
+   "date": "1952-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Returned to its home port.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#18",
+     "role": "both",
+     "quote": "The squadron returned to its home port in June 1952"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1953-11",
+   "grain": "month",
+   "track": "other",
+   "label": "aircraft",
+   "text": "Assigned P5M aircraft.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#27",
+     "role": "both",
+     "quote": "P5M – November 1953"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1963-04",
+   "grain": "month",
+   "track": "other",
+   "label": "aircraft",
+   "text": "Received first SP-2E Neptune, replacing the SP-5B Marlin by end of August 1963.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#20",
+     "role": "both",
+     "quote": "April 1963 : VP-42 received its first SP-2E Neptune"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#27",
+     "role": "both",
+     "quote": "SP-2E – April 1963"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1964-06-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Deployed to MCAS Iwakuni as first land-based Neptune squadron.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#20",
+     "role": "both",
+     "quote": "1 June 1964 : VP-42 deployed for the first time as a land-based Neptune squadron to MCAS Iwakuni"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1964-06-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned: NAS Whidbey Island, Washington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#28",
+     "role": "both",
+     "quote": "NAS Whidbey Island , Washington – 30 June 1964"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1964-11",
+   "grain": "month",
+   "track": "other",
+   "label": "aircraft",
+   "text": "Assigned SP-2H Neptune airframe.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#27",
+     "role": "both",
+     "quote": "SP-2H – November 1964"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1964-11",
+   "grain": "month",
+   "track": "other",
+   "label": "training",
+   "text": "Assisted training of Japanese aircrews on SP-2E Neptune, with VP-28.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#22",
+     "role": "both",
+     "quote": "November 1964 : VP-42 and VP-28 assisted in the training of Japanese aircrews"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1964-11-17",
+   "grain": "day",
+   "track": "location",
+   "text": "Returned to the U.S. and based at NAS Whidbey Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#21",
+     "role": "both",
+     "quote": "17 November 1964 : Upon its return to the U.S , the squadron was based at NAS Whidbey Island"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1965-10-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Deployed to MCAS Iwakuni; Operation Market Time from Cam Ranh Bay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#23",
+     "role": "both",
+     "quote": "1 October 1965 – April 1966 : VP-42 deployed to MCAS Iwakuni , Japan"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1966-01-28",
+   "grain": "day",
+   "track": "other",
+   "label": "operations",
+   "text": "Provided support for Operation Double Eagle amphibious landings near Quang Ngai City.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#23",
+     "role": "date",
+     "quote": "amphibious landings conducted near Quảng Ngai City , South Vietnam , from 28 January to 1 March 1966"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#23",
+     "role": "description",
+     "quote": "VP-42 also provided support for Operation Double Eagle"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1967-04-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Relieved VP-17 at NS Sangley Point; one detachment sent to Tan Son Nhut.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#24",
+     "role": "both",
+     "quote": "1 April – December 1967 : VP-42 relieved VP-17 at NS Sangley Point"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1967-05-30",
+   "grain": "day",
+   "track": "location",
+   "text": "Remainder of squadron transferred to Cam Ranh Bay Naval Air Facility for Market Time patrols.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#24",
+     "role": "date",
+     "quote": "1 April – December 1967 : VP-42 relieved VP-17 at NS Sangley Point"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#24",
+     "role": "description",
+     "quote": "the remainder of the squadron transferred to Cam Ranh Bay Naval Air Facility"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e59",
+   "date": "1967-12-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Returned to NAS North Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#24",
+     "role": "both",
+     "quote": "The squadron returned to NAS North Island on 1 December 1967"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1968-03-10",
+   "grain": "day",
+   "track": "location",
+   "text": "Final deployment to WestPac, based at NS Sangley Point and Cam Ranh Bay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#26",
+     "role": "both",
+     "quote": "10 March 1968 : The squadron conducted its final deployment to WestPac"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1969-09-26",
+   "grain": "day",
+   "track": "other",
+   "label": "disestablished",
+   "text": "Disestablished at NAS Whidbey Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-42#0",
+     "role": "both",
+     "quote": "disestablished on 26 September 1969"
+    },
+    {
+     "chunk_id": "/wiki/VP-42#26",
+     "role": "both",
+     "quote": "26 September 1969 : VP-42 was disestablished at NAS Whidbey Island"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

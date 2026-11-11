@@ -1,0 +1,106 @@
+{
+  "page_id": "/wiki/Mosby_Monroe_Parsons",
+  "events": [
+    {"id": "e1", "date": "1822-05-21", "grain": "day", "track": "other", "label": "birth",
+     "text": "Born in Charlottesville, Virginia.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#0", "role": "both", "quote": "Mosby Monroe Parsons ( May 21 , 1822 – August 15 , 1865 )"},
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#1", "role": "description", "quote": "Mosby Monroe Parsons was born in Charlottesville , Virginia"}
+     ]},
+    {"id": "e2", "date": "1835", "grain": "year", "track": "location",
+     "text": "Family moved to Cole County, Missouri, when he was 13.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#1", "role": "both", "quote": "When he was 13 , his parents moved to Cole County , Missouri"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e3", "date": "1837", "grain": "year", "track": "location",
+     "text": "Moved to Jefferson City, Missouri, his home thereafter.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#1", "role": "both", "quote": "Two years later , they moved again to Jefferson City , which Parsons would thereafter make his home"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e4", "date": "1846", "grain": "year", "track": "other", "label": "bar admission",
+     "text": "Admitted to the bar after reading law.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#1", "role": "both", "quote": "As a young man , Mosby read law and was admitted to the bar in 1846"}
+     ]},
+    {"id": "e5", "date": "1847-02-28", "grain": "day", "track": "other", "label": "military action",
+     "text": "Cited for gallantry at the Battle of Sacramento.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#2", "role": "both", "quote": "at the Battle of Sacramento on February 28 , 1847"},
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#1", "role": "description", "quote": "was cited for gallantry"}
+     ]},
+    {"id": "e6", "date": "1850-09-18", "grain": "day", "track": "family",
+     "text": "Married Mary Wells.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#3", "role": "both", "quote": "Parsons married Mary Wells on September 18 , 1850"}
+     ]},
+    {"id": "e7", "date": "1853", "grain": "year", "track": "family",
+     "text": "Wife Mary Wells died about three years after the marriage.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#3", "role": "both", "quote": "However , his wife died just three years later"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e8", "date": "1856", "grain": "year", "track": "role",
+     "text": "Elected to the Missouri state legislature.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#3", "role": "both", "quote": "In 1856 was elected to the state legislature"}
+     ]},
+    {"id": "e9", "date": "1858", "grain": "year", "track": "role",
+     "text": "Became Missouri state senator, serving until the Civil War.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#3", "role": "both", "quote": "He became a Missouri state senator in 1858"}
+     ]},
+    {"id": "e10", "date": "1862-11-05", "grain": "day", "track": "role",
+     "text": "Commissioned brigadier general of the Confederacy.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#5", "role": "both", "quote": "commissioned a brigadier general of the Confederacy on November 5 , 1862"}
+     ]},
+    {"id": "e11", "date": "1862-12", "grain": "month", "track": "other", "label": "battle",
+     "text": "Led his infantry brigade at Prairie Grove, Arkansas.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#5", "role": "both", "quote": "led his infantry brigade in the Battle of Prairie Grove , Arkansas , one month later"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e12", "date": "1863-07-04", "grain": "day", "track": "other", "label": "battle",
+     "text": "His brigade participated in the attack at Helena, Arkansas.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#5", "role": "both", "quote": "His force would participate in the attack at Helena , Arkansas on July 4 , 1863"}
+     ]},
+    {"id": "e13", "date": "1864", "grain": "year", "track": "other", "label": "battle",
+     "text": "Assisted Richard Taylor against Banks in the Red River Campaign (Pleasant Hill).",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#5", "role": "both", "quote": "assisted Richard Taylor in thwarting Union Major General Nathaniel Banks Red River Campaign of 1864"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e14", "date": "1864-04-30", "grain": "day", "track": "role",
+     "text": "Appointed major general by Kirby Smith; never confirmed by Davis.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#6", "role": "both", "quote": "a major general by Trans-Mississippi Departmental Commander Kirby Smith on April 30 , 1864"}
+     ]},
+    {"id": "e15", "date": "1865-08-15", "grain": "day", "track": "other", "label": "death",
+     "text": "Murdered by Captain Dario Garza near China, Nuevo León, Mexico.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#0", "role": "both", "quote": "Parsons was murdered by Captain Dario Garza , at the head of a body of Mexican soldiers , on or about August 15 , 1865"},
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#7", "role": "both", "quote": "were murdered by Captain Dario Garza , at the head of a body of Mexican soldiers , on or about August 15 , 1865"}
+     ],
+     "flag": "approximate_date"},
+    {"id": "e16", "date": "1868", "grain": "year", "track": "other", "label": "claim",
+     "text": "Son and sister sued the Mexican government over his murder.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#9", "role": "both", "quote": "In 1868 , Parsons son ( Kearny Parsons ) and sister ( Mildred Standish )"}
+     ]},
+    {"id": "e17", "date": "1875", "grain": "year", "track": "other", "label": "claim",
+     "text": "Claimants awarded judgment of about US$50,000 in gold each.",
+     "evidence": [
+       {"chunk_id": "/wiki/Mosby_Monroe_Parsons#9", "role": "both", "quote": "In 1875 , a judgment in the amount of almost US$50,000.00 in gold was awarded"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Appointed brigadier general commanding the Sixth Division, Missouri State Guard",
+    "Led his division at Carthage and the Battle of Wilsons Creek",
+    "Served as a volunteer captain in the Mexican–American War",
+    "Served as United States District Attorney for western Missouri",
+    "Opposed Steele's Camden Expedition and took part in the Battle of Jenkins Ferry"
+  ]
+}

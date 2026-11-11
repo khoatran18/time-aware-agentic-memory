@@ -1,0 +1,124 @@
+{
+  "page_id": "/wiki/Nyuksensky_District",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1708",
+      "grain": "year",
+      "track": "location",
+      "text": "Area included into Archangelgorod Governorate under Peter the Great's reform.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#6",
+          "role": "both",
+          "quote": "In the course of the administrative reform carried out in 1708 by Peter the Great , the area was included into Archangelgorod Governorate"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1796",
+      "grain": "year",
+      "track": "location",
+      "text": "Area became part of Vologda Governorate, Velikoustyugsky Uyezd.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#6",
+          "role": "both",
+          "quote": "The latter was abolished in 1796 , and the part of it which included Nyuksenitsa became Vologda Governorate"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1918",
+      "grain": "year",
+      "track": "location",
+      "text": "Area transferred to the newly established Northern Dvina Governorate.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#6",
+          "role": "both",
+          "quote": "In 1918 , the area was transferred to the newly established Northern Dvina Governorate"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1924-06-10",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Nyuksensky District established, incorporating areas of former uyezds.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#7",
+          "role": "both",
+          "quote": "Nyuksensky District was established on June 10 , 1924"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1928-02-27",
+      "grain": "day",
+      "track": "naming",
+      "text": "District renamed Sukhonsky District.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#7",
+          "role": "both",
+          "quote": "On February 27 , 1928 , it was renamed Sukhonsky District"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1931-07-30",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Nyuksensky District re-established by merging Sukhonsky and Kokshengsky Districts.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#7",
+          "role": "both",
+          "quote": "On July 30 , 1931 , Sukhonsky and Kokshengsky Districts were merged , and Nyuksensky District was re-established"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1935",
+      "grain": "year",
+      "track": "location",
+      "text": "Tarnogsky District split off from Nyuksensky District.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#7",
+          "role": "both",
+          "quote": "In 1935 , Tarnogsky District was split off from Nyuksensky District"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1937",
+      "grain": "year",
+      "track": "location",
+      "text": "Northern Oblast split; district remained in Vologda Oblast.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Nyuksensky_District#8",
+          "role": "both",
+          "quote": "in 1937 , Northern Oblast itself was split into Arkhangelsk Oblast and Vologda Oblast"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Area colonized by the Novgorod Republic (Totma) and Vladimir-Suzdal Principality (Veliky Ustyug)",
+    "Area became part of the Grand Duchy of Moscow after the fall of Novgorod",
+    "Cattle farming in crisis after the fall in the 1990s"
+  ]
+}

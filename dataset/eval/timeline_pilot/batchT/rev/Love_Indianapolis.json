@@ -1,0 +1,42 @@
+{
+ "page_id": "/wiki/Love_(Indianapolis)",
+ "events": [
+  {"id": "e1", "date": "1965", "grain": "year", "track": "work",
+   "text": "Indiana designs the original LOVE Christmas card for MoMA, basis of the sculpture.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#5", "role": "both", "quote": "original 1965 Christmas card design for MoMA"}]},
+  {"id": "e2", "date": "1970", "grain": "year", "track": "work",
+   "text": "LOVE sculpture created and fabricated in North Haven, Connecticut by Lippincott.",
+   "evidence": [
+    {"chunk_id": "/wiki/Love_(Indianapolis)#0", "role": "both", "quote": "It was created in 1970 as the first sculptural form"},
+    {"chunk_id": "/wiki/Love_(Indianapolis)#8", "role": "both", "quote": "LOVE was executed in North Haven , Connecticut , in 1970 by Lippincott , Inc."}
+   ]},
+  {"id": "e3", "date": "1970", "grain": "year", "track": "location",
+   "text": "Sculpture first installed on main plaza of Indianapolis Museum of Art.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#8", "role": "both", "quote": "the sculpture was originally installed on the main plaza at the Indianapolis Museum of Art in 1970"}]},
+  {"id": "e4", "date": "1971", "grain": "year", "track": "location",
+   "text": "Sculpture loaned to New York City, exhibited in Central Park.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#8", "role": "both", "quote": "exhibited in Central Park for the 1971 holiday season"}]},
+  {"id": "e5", "date": "1972", "grain": "year", "track": "location",
+   "text": "Sculpture returns to Indianapolis, shown in front of Indiana National Bank building.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#9", "role": "both", "quote": "Upon the artworks return to Indianapolis in 1972"}]},
+  {"id": "e6", "date": "1975", "grain": "year", "track": "ownership_structure",
+   "text": "Sculpture acquired and accessioned into IMA collection via Friends gift.",
+   "evidence": [
+    {"chunk_id": "/wiki/Love_(Indianapolis)#0", "role": "both", "quote": "since it was acquired in 1975"},
+    {"chunk_id": "/wiki/Love_(Indianapolis)#11", "role": "both", "quote": "officially accessioned into the IMAs collection in 1975"}
+   ]},
+  {"id": "e7", "date": "2005", "grain": "year", "track": "location",
+   "text": "Sculpture restored after museum expansion and temporarily placed in Pulliam Court.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#10", "role": "both", "quote": "In 2005 , after a major museum expansion , the sculpture was restored and temporarily placed in the museums Pulliam Court"}]},
+  {"id": "e8", "date": "2006", "grain": "year", "track": "location",
+   "text": "Sculpture blasted to remove corrosion, then re-installed outdoors.",
+   "evidence": [{"chunk_id": "/wiki/Love_(Indianapolis)#16", "role": "both", "quote": "In 2006 the sculpture was blasted with an inert medium"}]}
+ ],
+ "undated_mentions": [
+  "late 1960s: pirated versions of the design began to appear",
+  "Indiana's attempt to copyright the design was rejected (undated)",
+  "sculpture spent nearly a year on Boston city hall plaza (after 1970 installation, undated)",
+  "sculpture briefly displayed on mall behind Eli Lilly and Company administration building (after 1972, undated)",
+  "sculpture moved outdoors to main sculpture courtyard (after 2005, undated)"
+ ]
+}

@@ -1,0 +1,157 @@
+{
+  "page_id": "/wiki/Wellington,_Somerset",
+  "events": [
+    {
+      "id": "e1",
+      "date": "0899",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Edward the Elder granted Weolingtun land to Bishop Asser",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#8", "role": "both", "quote": "In a grant of between 899 and 909 Edward the Elder gave the land then known as Weolingtun"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "1086",
+      "grain": "year",
+      "track": "naming",
+      "text": "Name changed to Walintone by the Domesday Book",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#1", "role": "both", "quote": "its name had changed to Walintone by the time of the Domesday Book of 1086"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1086",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Estate owned by Gisa, Bishop of Wells",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#8", "role": "both", "quote": "By the time of the Domesday Book of 1086 , the name had changed to Walintone and the estate was owned by Gisa"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1215",
+      "grain": "year",
+      "track": "other",
+      "label": "town charter",
+      "text": "Royal charter gave Wellington town status",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#1", "role": "both", "quote": "Wellington became a town under a royal charter of 1215"},
+        {"chunk_id": "/wiki/Wellington,_Somerset#11", "role": "both", "quote": "A royal charter of 1215 gave Wellington its status as a town"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1548",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Manor sold to Edward Seymour, 1st Duke of Somerset",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#11", "role": "both", "quote": "In 1548 , the manor was sold to Edward Seymour , 1st Duke of Somerset"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1731",
+      "grain": "year",
+      "track": "other",
+      "label": "fire",
+      "text": "Fire in the town; major rebuilding followed",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#1", "role": "both", "quote": "Major rebuilding took place following a fire in the town in 1731"},
+        {"chunk_id": "/wiki/Wellington,_Somerset#13", "role": "both", "quote": "Major rebuilding took place in the town following a fire in 1731"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1835",
+      "grain": "year",
+      "track": "other",
+      "label": "transport",
+      "text": "Grand Western Canal reached the town",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#5", "role": "both", "quote": "The Grand Western Canal reached the town in 1835"},
+        {"chunk_id": "/wiki/Wellington,_Somerset#16", "role": "both", "quote": "the Grand Western Canal reaching the town in 1835"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1843-05-01",
+      "grain": "day",
+      "track": "other",
+      "label": "railway",
+      "text": "Bristol and Exeter Railway reached the town; station opened",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#16", "role": "both", "quote": "Wellington station was opened when the Bristol and Exeter Railway reached the town on 1 May 1843"},
+        {"chunk_id": "/wiki/Wellington,_Somerset#42", "role": "both", "quote": "The town was served by Wellington railway station on the Bristol and Exeter Railway from 1 May 1843 until 5 October 1964"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1903",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Fox family gave Wellington Park to the town",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#29", "role": "both", "quote": "Wellington Park was a gift from the Quaker Fox family to the town in 1903"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1932",
+      "grain": "year",
+      "track": "other",
+      "label": "railway",
+      "text": "Wellington station rebuilt with two loop lines",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#16", "role": "both", "quote": "but was rebuilt in 1932 when two loop lines were put in"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1964-10-05",
+      "grain": "day",
+      "track": "other",
+      "label": "railway",
+      "text": "Wellington railway station closed",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#17", "role": "both", "quote": "the station closed on 5 October 1964"},
+        {"chunk_id": "/wiki/Wellington,_Somerset#42", "role": "both", "quote": "until 5 October 1964"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1974",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Wellington Town Council formed as successor parish",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#23", "role": "both", "quote": "formed as a successor parish to Wellington Urban District Council in 1974"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2009",
+      "grain": "year",
+      "track": "other",
+      "label": "railway",
+      "text": "Campaign started to reopen the railway station",
+      "evidence": [
+        {"chunk_id": "/wiki/Wellington,_Somerset#42", "role": "both", "quote": "A campaign was started to reopen the railway station in 2009"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Bronze Age occupation at Longforth Farm near Tonedale",
+    "Building at Longforth Farm occupied in the 12th-14th century",
+    "Manor house built by John Popham and his descendants, destroyed in the English Civil War",
+    "Manor under protection of John Popham by the end of the 16th century",
+    "Turnpikes arrived in the area in the 18th century",
+    "Large housing growth on the south side of the town in the 1970s"
+  ]
+}

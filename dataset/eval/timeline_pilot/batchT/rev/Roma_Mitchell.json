@@ -1,0 +1,188 @@
+{
+  "page_id": "Roma_Mitchell",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1913-10-02",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Adelaide, South Australia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#2", "role": "both", "quote": "Roma Mitchell was born in Adelaide , South Australia , on 2 October 1913"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1935",
+      "grain": "year",
+      "track": "other",
+      "label": "admission",
+      "text": "Admitted as a barrister.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#3", "role": "both", "quote": "Mitchell was admitted as a barrister in 1935"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1962",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed a Queen's Counsel.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#3", "role": "both", "quote": "In 1962 she was appointed a Queens Counsel"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1965",
+      "grain": "year",
+      "track": "role",
+      "text": "Made a Justice of the Supreme Court of South Australia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#3", "role": "both", "quote": "Mitchell was made a Justice of the Supreme Court of South Australia in 1965"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1971-06-12",
+      "grain": "day",
+      "track": "other",
+      "label": "honour",
+      "text": "Appointed Commander of the Order of the British Empire (CBE).",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#6", "role": "both", "quote": "appointed a Commander of the Order of the British Empire ( CBE ) on 12 June 1971"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1981",
+      "grain": "year",
+      "track": "role",
+      "text": "Became a member of the Council for the Order of Australia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "a member of the Council for the Order of Australia from 1981 to 1990"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1982-06-12",
+      "grain": "day",
+      "track": "other",
+      "label": "honour",
+      "text": "Raised to Dame Commander of the Order of the British Empire (DBE).",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#6", "role": "both", "quote": "raised to Dame Commander of the Order of the British Empire ( DBE ) on 12 June 1982"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1983",
+      "grain": "year",
+      "track": "role",
+      "text": "Became Chancellor of the University of Adelaide.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "Chancellor of the University of Adelaide from 1983 to 1990"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1983",
+      "grain": "year",
+      "track": "role",
+      "text": "Retired as a judge of the Supreme Court of South Australia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#3", "role": "both", "quote": "when she retired 18 years later in 1983"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1990",
+      "grain": "year",
+      "track": "role",
+      "text": "Chancellor of the University of Adelaide term ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "Chancellor of the University of Adelaide from 1983 to 1990"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1990",
+      "grain": "year",
+      "track": "role",
+      "text": "Membership of the Council for the Order of Australia ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "a member of the Council for the Order of Australia from 1981 to 1990"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1991",
+      "grain": "year",
+      "track": "role",
+      "text": "Became Governor of South Australia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "Mitchell was Governor of South Australia from 1991 to 1996"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1991-01-26",
+      "grain": "day",
+      "track": "other",
+      "label": "honour",
+      "text": "Appointed Companion of the Order of Australia (AC).",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#7", "role": "both", "quote": "On 26 January 1991 , Mitchell was appointed a Companion of the Order of Australia"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1996",
+      "grain": "year",
+      "track": "role",
+      "text": "Governor of South Australia term ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#5", "role": "both", "quote": "Mitchell was Governor of South Australia from 1991 to 1996"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1999",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "Statue of her erected in Prince Henry Gardens, Adelaide.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#8", "role": "both", "quote": "A statue of Dame Roma , in Prince Henry Gardens , directly outside Government House , Adelaide , was erected in 1999"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2000-01-01",
+      "grain": "day",
+      "track": "other",
+      "label": "honour",
+      "text": "Made Commander of the Royal Victorian Order (CVO).",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#7", "role": "both", "quote": "She was made a Commander of the Royal Victorian Order ( CVO ) on 1 January 2000"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2000-03-05",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died.",
+      "evidence": [
+        {"chunk_id": "/wiki/Roma_Mitchell#0", "role": "both", "quote": "( 2 October 1913 – 5 March 2000 )"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Alumna of St Aloysius Convent College, Adelaide, and the University of Adelaide (education, no date)",
+    "Practising barrister and lecturer in Family law at the University of Adelaide (no date)",
+    "Private investiture of her honour at her bedside by the Governor-General (no date)"
+  ]
+}

@@ -1,0 +1,428 @@
+{
+ "page_id": "/wiki/Great_Tower_Neuwerk",
+ "events": [
+  {
+   "date": "1300",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "construction of the tower started",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#1",
+     "role": "both",
+     "quote": "was started in 1300"
+    }
+   ],
+   "id": "e1"
+  },
+  {
+   "date": "1310",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "tower completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#1",
+     "role": "both",
+     "quote": "It was completed after ten years in 1310"
+    },
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#0",
+     "role": "both",
+     "quote": "Completed in 1310"
+    }
+   ],
+   "id": "e2"
+  },
+  {
+   "date": "1360",
+   "grain": "year",
+   "track": "other",
+   "label": "fire",
+   "text": "fire destroyed wooden elements, major reconstruction",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#1",
+     "role": "both",
+     "quote": "The fire in the 1360s"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "date": "1474",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "lead roof replaced by copper",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#2",
+     "role": "both",
+     "quote": "replaced by copper in 1474"
+    }
+   ],
+   "id": "e4"
+  },
+  {
+   "date": "1539",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Carta Marina shows fire beacon",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#7",
+     "role": "both",
+     "quote": "as early as 1539"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "date": "1558",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "roof replaced by tiled roof",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#2",
+     "role": "both",
+     "quote": "replaced in 1558 by a tiled roof"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "date": "1600",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Johann Rist resided at Neuwerk (1600s)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#13",
+     "role": "both",
+     "quote": "In the 1600s Royal Protestant Imperial Count Palatine Johann Rist resided at Neuwerk"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "date": "1644",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "open coal fire beacon mentioned",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#7",
+     "role": "both",
+     "quote": "not until 1644"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "date": "1761",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "1000 tons Scottish coal per year starts",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#7",
+     "role": "both",
+     "quote": "starting from 1761"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "date": "1814-12-20",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "tower turned into a lighthouse",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#8",
+     "role": "both",
+     "quote": "December 20 , 1814"
+    },
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#6",
+     "role": "both",
+     "quote": "turned into a lighthouse in 1814"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1825-07",
+   "grain": "month",
+   "track": "other",
+   "label": "survey",
+   "text": "northernmost point of Gauss triangulation of Hannover",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#3",
+     "role": "both",
+     "quote": "in July 1825"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "date": "1870",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "kerosene used as lamp fuel",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#8",
+     "role": "both",
+     "quote": "kerosene starting 1870"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "date": "1892",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "fresnel lens installed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#8",
+     "role": "both",
+     "quote": "installed 1892"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "lamp improved",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#8",
+     "role": "both",
+     "quote": "improved in 1908"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "date": "1909",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "small lighthouse torn down",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#12",
+     "role": "both",
+     "quote": "The small lighthouse was torn down in 1909"
+    }
+   ],
+   "id": "e15"
+  },
+  {
+   "date": "1916",
+   "grain": "year",
+   "track": "other",
+   "label": "military",
+   "text": "copper roof used for military purposes",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#2",
+     "role": "both",
+     "quote": "used for military purposes in 1916"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "date": "1920",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Gechter initiated use as school hostel",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#13",
+     "role": "both",
+     "quote": "in 1920"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "date": "1924",
+   "grain": "year",
+   "track": "other",
+   "label": "heritage",
+   "text": "protected under cultural heritage management",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#5",
+     "role": "both",
+     "quote": "protected under cultural heritage management since 1924"
+    }
+   ],
+   "id": "e18"
+  },
+  {
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "hostel use switched to neighboring barn",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#13",
+     "role": "both",
+     "quote": "switched to the neighboring barn 1924"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "date": "1942",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "first electrified",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#8",
+     "role": "both",
+     "quote": "first electrified in 1942"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "upgraded to propane",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#9",
+     "role": "both",
+     "quote": "upgraded to propane in 1949"
+    }
+   ],
+   "id": "e21"
+  },
+  {
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "heritage",
+   "text": "dwelling hill protected",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#5",
+     "role": "both",
+     "quote": "the surrounding dwelling hill since 1971"
+    }
+   ],
+   "id": "e22"
+  },
+  {
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "legacy",
+   "text": "triangulation shown on last 10 DM note series (start)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#3",
+     "role": "both",
+     "quote": "10 Deutsche Mark note ( 1989–2001 )"
+    }
+   ],
+   "id": "e23"
+  },
+  {
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "legacy",
+   "text": "last 10 DM note series (end)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#3",
+     "role": "both",
+     "quote": "10 Deutsche Mark note ( 1989–2001 )"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "halogen lamp replaced electric lamp",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#9",
+     "role": "both",
+     "quote": "Halogen lamp in fall 2007"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "date": "2014-01-01",
+   "grain": "day",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "decommissioned, turned over to Hamburg Port Authority",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#10",
+     "role": "both",
+     "quote": "decommissioned on January 1 , 2014"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "date": "2014-02-10",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "replaced by LED, officially shut down",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#9",
+     "role": "both",
+     "quote": "On February 10 , 2014 it was replaced by LED"
+    },
+    {
+     "chunk_id": "/wiki/Great_Tower_Neuwerk#10",
+     "role": "both",
+     "quote": "On February 10 , 2014 it was officially shut down"
+    }
+   ],
+   "id": "e27"
+  }
+ ],
+ "undated_mentions": [
+  "bird warden from Verein Jordsand lived in attic for many years"
+ ]
+}

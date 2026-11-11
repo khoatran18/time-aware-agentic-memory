@@ -1,0 +1,272 @@
+{
+ "page_id": "Seibu_Shinjuku_Line",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1895",
+   "grain": "year",
+   "track": "work",
+   "text": "Northward extension to Kawagoe opened, first part of the Shinjuku Line.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#5",
+     "role": "both",
+     "quote": "opened in 1895"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1920",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mergers and name changes of the Kawagoe Railway began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#5",
+     "role": "both",
+     "quote": "Following several mergers and name changes between 1920 and 1922"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1922",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Mergers concluded; Kawagoe Railway became part of Seibu Railway.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#5",
+     "role": "both",
+     "quote": "Following several mergers and name changes between 1920 and 1922"
+    },
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#6",
+     "role": "description",
+     "quote": "the Kawagoe Railway became part of the Seibu Railway"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1927",
+   "grain": "year",
+   "track": "work",
+   "text": "Seibu built new dual-track, 1,500 V DC electrified Murayama Line.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#7",
+     "role": "both",
+     "quote": "In 1927 , Seibu Railway built its new dual track"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Higashi-Murayama to Tokorozawa double-tracking began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "was double-tracked between 1950 and 1958"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1952",
+   "grain": "year",
+   "track": "work",
+   "text": "Dual-track extension from Takadanobaba to Seibu-Shinjuku completed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#9",
+     "role": "both",
+     "quote": "In 1952 , a dual-track extension from Takadanobaba to Seibu-Shinjuku Station was completed"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1952",
+   "grain": "year",
+   "track": "naming",
+   "text": "Line renamed the Shinjuku Line, integrating Murayama Line and Kawagoe Line section.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#9",
+     "role": "both",
+     "quote": "In 1952 , a dual-track extension from Takadanobaba to Seibu-Shinjuku Station was completed . At this time the line was renamed the Shinjuku Line"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1958",
+   "grain": "year",
+   "track": "work",
+   "text": "Higashi-Murayama to Tokorozawa double-tracking ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "was double-tracked between 1950 and 1958"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "Tokorozawa to Irimagawa double-tracking began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "with the Tokorozawa to Irimagawa section double-tracked between 1967 and 1975"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1975",
+   "grain": "year",
+   "track": "work",
+   "text": "Tokorozawa to Irimagawa double-tracking ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "with the Tokorozawa to Irimagawa section double-tracked between 1967 and 1975"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1977",
+   "grain": "year",
+   "track": "work",
+   "text": "Seibu-Shinjuku Station expanded to include a high-rise hotel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#9",
+     "role": "description",
+     "quote": "Seibu-Shinjuku Station was expanded to include a"
+    },
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#10",
+     "role": "both",
+     "quote": "high-rise hotel in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1980",
+   "grain": "year",
+   "track": "work",
+   "text": "Double-tracking of remaining line sections began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "was double-tracked between 1980 and 1991"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Double-tracking of remaining line sections ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#8",
+     "role": "both",
+     "quote": "was double-tracked between 1980 and 1991"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Underground express line plan to Kami-Shakujii indefinitely postponed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#12",
+     "role": "both",
+     "quote": "This plan was indefinitely postponed in 1995"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "station numbering",
+   "text": "Station numbering introduced; Shinjuku Line stations prefixed with SS.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#13",
+     "role": "both",
+     "quote": "Station numbering was introduced on all Seibu Railway lines during fiscal 2012"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2012-06-30",
+   "grain": "day",
+   "track": "work",
+   "text": "Limited-stop services abolished with revised timetable.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#13",
+     "role": "both",
+     "quote": "From the start of the revised timetable on 30 June 2012"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2018-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Haijima Liner all-seat reserved service started, Haijima only.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#2",
+     "role": "both",
+     "quote": "operation of the all-seat reserved train Haijima Liner using the Seibu 40000 series EMU has been started from March 2018"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2020-03-14",
+   "grain": "day",
+   "track": "work",
+   "text": "Limited-stop service reinstated for weekend and holiday services.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Seibu_Shinjuku_Line#13",
+     "role": "both",
+     "quote": "From the timetable revision on 14 March 2020"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "1960s: Seibu's negotiation with Teito Rapid Transit Authority for through service failed; Chuo Main Line through operation chosen instead.",
+  "1980s: Seibu drew up a plan for an underground express line between Seibu-Shinjuku and Kami-Shakujii."
+ ]
+}

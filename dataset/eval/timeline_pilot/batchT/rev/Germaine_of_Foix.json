@@ -1,0 +1,161 @@
+{
+  "page_id": "/wiki/Germaine_of_Foix",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1488",
+      "grain": "year",
+      "track": "other",
+      "label": "birth",
+      "text": "Germaine of Foix was born.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#0",
+          "role": "both",
+          "quote": "Germaine of Foix ( ; ; 1488 – 15 October 1536 )"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1506-03",
+      "grain": "month",
+      "track": "family",
+      "text": "Married King Ferdinand II of Aragon in March 1506.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#3",
+          "role": "both",
+          "quote": "between Ferdinand ( aged 54 ) and Germaine ( aged 18 ) , took place in March 1506"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1516",
+      "grain": "year",
+      "track": "family",
+      "text": "Ferdinand II died, leaving Germaine a widow.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#7",
+          "role": "both",
+          "quote": "Ferdinand died after two years of health problems in 1516 , leaving Germaine a widow"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1517",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved from Aragon to Castile to join the court of Charles V.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#8",
+          "role": "both",
+          "quote": "Germaine moved from Aragon to Castile to join his court as well"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1519",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved with Charles V from Castile to Aragon.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#10",
+          "role": "both",
+          "quote": "Charles V , Germaine , and Charles Vs sister Eleanor moved from Castile to Aragon in 1519"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1523",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed jointly with her husband as viceroys of Valencia.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#11",
+          "role": "both",
+          "quote": "In 1523 Charles V appointed the couple jointly viceroys of Valencia"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1524-12",
+      "grain": "month",
+      "track": "other",
+      "label": "pardon",
+      "text": "Signed a pardon officially ending persecution of rebellion participants.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#11",
+          "role": "date",
+          "quote": "In December 1524 ,"
+        },
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#12",
+          "role": "description",
+          "quote": "Germaine signed a pardon that officially ended the persecution of all former participants in the rebellion"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1525",
+      "grain": "year",
+      "track": "family",
+      "text": "Her first husband, Johann of Brandenburg-Ansbach, died.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#14",
+          "role": "both",
+          "quote": "Next year after Johanns death in 1525"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1526",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Ferdinand, Duke of Calabria.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#14",
+          "role": "both",
+          "quote": "Next year after Johanns death in 1525 , Germaine married Ferdinand , Duke of Calabria"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e10",
+      "date": "1536-10-15",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died in Liria.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Germaine_of_Foix#15",
+          "role": "both",
+          "quote": "Germaine died on 15 October 1536 in Liria"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Treaty of Blois: Louis XII agreed to her marriage to Ferdinand (no date stated)",
+    "Married margrave Johann of Brandenburg-Ansbach in Germany (no date stated)",
+    "Moved her court to Valencia (no date stated)",
+    "Reportedly signed death warrants of 100 former rebels (no date stated)"
+  ]
+}

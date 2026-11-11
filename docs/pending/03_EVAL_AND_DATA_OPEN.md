@@ -1,5 +1,46 @@
 # Đánh giá và dữ liệu: việc chưa chốt
 
+
+## Tổng hợp trạng thái cuối ngày 2026-11-11 (đọc phần này trước; chi tiết ở các dòng bên dưới và `docs/eval/10` mục 10.5bb–10.5bk)
+
+**A. Đã làm hôm nay**
+- Gold test_clean: đủ 186 trang ở `dataset/eval/timeline_pilot/batchT/sub/` (6236 mốc, `check.py` 0 lỗi). Chỉ session 1–10 (50 trang, 1764 mốc) đã soát và nằm ở `batchT/rev/`.
+- Sửa `tools/check.py` (số có dấu phẩy); luật TCN trong `check_questions.py`; bỏ Han_dynasty:2; v9 checker 0 lỗi.
+- Phân loại `derived_date` a/b (`docs/process/10_DERIVED_DATE_CLASSIFICATION.md`, mã `local/derived_classify.py`, kết quả `dataset/eval/timeline_pilot/derived_classify/`).
+- Mã gợi ý mốc sót `local/gold_gap_sub.py`; đã đọc gap 15 trang đầu bảng của test_clean.
+- Đọc gold + 164 câu v4–v5 của tune (10.5bi): đáp án đúng, 5 câu nghi.
+- Gen lại gold tune v1–v3 (25 trang) bằng guide v7 rồi **đã thay** (`decisions/14` mục 19; bản cũ ở `old_gold_v1v3/`; thư mục `regen_v1v3`; 23 câu v9 của batch2 gỡ sang `local/questions/v9/_replaced_gold_v3/`).
+- Quyết định đã chốt (người dùng): không nới `derived_date`; giữ `extras/` (để tính precision khi ingest); không nới `dup_text` (4 câu cứ bỏ); thay gold tune v1–v3 (`decisions/14` mục 18, 19).
+
+**B. Đang dở**
+- Soát gold test_clean: 136 trang (session 11–38) còn ở `sub/`, chưa copy sang `rev/`; mới đọc gap 15 trang đầu bảng (118 trang chưa đọc; 5 trang cuối mới đọc 22 gap đầu).
+- Gold tune v1–v3 mới chưa soát nội dung: 65 mốc cũ biến mất (có vẻ sót thật: Great_Tower_Neuwerk 1360/1909/1971, Quelli_che_il_Calcio 1993, Toungoo_dynasty 1740, Regius_Professor 2006-02, Mike_Bongiorno quốc tang 2009, Lev_Polugaevsky 1995); nghi agent mở gold cũ ở Carl_Ehrensvard, August_Maus.
+- 25 trang tune v1–v3 chưa có câu v9 (pilot5, pilot10 chưa từng có; 23 câu batch2 đã gỡ). Tune v9 còn khoảng 549 câu.
+- Sửa nhỏ gold test_clean đã biết nhưng chưa làm: Friedrich_Guggenberger e11 (cờ nên là `source_inconsistent`), U_101 e27/e28 (trùng), cờ mùa giải Inter_Milan e50/e51.
+
+**C. Chờ quyết (người dùng)**
+1. Mức soát 136 trang test_clean: đề xuất không chạy lại Haiku, copy `sub/` sang `rev/` kèm sửa nhỏ, rồi dựa vào bước [1][2][3] sau khi sinh câu hỏi.
+2. Có sinh câu v9 mới cho 25 trang tune v1–v3 không.
+3. 5 câu nghi v4–v5: sửa lời hoặc bỏ (The_One_Show:3, Meet_the_Press:4, Alemannia_Aachen:1, Vindobona:2, Jerzy_Buzek:1).
+4. Loại mốc `date` âm khỏi so sánh ingest-gold; kiểm chunk TCN có lọt vào kho với `start_time` dương không (chỉ đọc).
+5. Sửa guide trước khi dùng tiếp (ngày sinh con, tai nạn máy bay của hãng; `CLOUD_STATE.md`).
+6. Chấm `list`/`summary` (gộp hay giữ); ranh giới với Cơ chế 3.
+
+**D. Việc kế tiếp (theo thứ tự đề xuất)**
+1. Chọn mức soát (C.1), copy `sub/` sang `rev/` cho 136 trang test_clean.
+2. Viết prompt sinh câu hỏi test_clean (v9 + dặn không dùng mốc `date` âm, bỏ câu "1/3" của prompt cũ); chạy sinh câu; đếm số câu mỗi trang (trang U-boat có thể ít).
+3. Bước B ([1] `chain_complete`, [2] `chain_verify` DeepSeek, [3] mã) cho câu chưa qua + test_clean: đo mẫu 20 câu với `TAM_LLM_METRICS_FILE` và **hỏi người dùng trước khi gọi API**.
+4. Soát gold tune v1–v3 mới (65 mốc biến mất) rồi sinh câu cho 25 trang.
+
+**E. Chưa đọc / chưa kiểm chứng (liệt kê để khỏi quên)**
+- Gap test_clean: 118 trang chưa đọc; ứng viên mốc sót mới là gợi ý, chưa đối chiếu với mốc quanh.
+- Gap tune v4–v5: 45 trang chưa đọc; chưa đối chiếu từng chunk.
+- Phân loại derived: chưa đọc `a_far`, `a_weakrel`, `c_*` (235 mốc), `b_anchor_prev_chunk` (50); người đọc thứ hai cho loại a.
+- Agent có mở thư mục cấm không (không đọc transcript) ở cả test_clean và regen.
+- 640 cảnh báo và 6 quote không thấy trong chunk của `check_questions.py v9` (chưa đối chiếu với trước đó).
+- Gold tune v6 (128 trang) chưa soát lại; v1–v3 cũ đã thay.
+- Chưa commit: xem lệnh git ở cuối phiên (check.py, `batchT/sub`, docs, `derived_classify`, `regen_v1v3`, `old_gold_v1v3`, `pilot*/rev`, `batch2/rev`).
+
 - **Chấm `list` so với `summary`:** cả hai có đáp án là tập sự kiện gold theo thứ tự thời gian, chỉ khác khung câu hỏi. Cách chấm của hệ thống chưa quyết (`list`: khớp tập, kèm thứ tự?; `summary`: độ bao phủ sự kiện, ai chấm, ngưỡng?). Người dùng (2026-11-09): sẽ xem xét thêm, có thể gộp hai loại sau nếu cần, vì lõi vẫn là danh sách các sự kiện trong chunk.
 - **Tỷ lệ theo loại câu** chưa đặt trong docs. Hiện v8+v8n 448 câu: `list` 31%, `first_last_next` 29%, `order_gap` 23%, `summary` 16%. Mục tiêu tham khảo: tune 300, valid 300, test 400 câu, khoảng 8–9 câu mỗi thực thể (hiện khoảng 4,5 mỗi trang).
 - **Dữ liệu:** `valid` (167 trang) có gold, cả 167 trang đã sinh câu v9 (582 câu sau khi bỏ câu yếu; trước đó 591 câu: 12 trang ở Session 5–8, 100 trang ở Session 9–12, 55 trang ở Session 13–15; xem `docs/eval/10` mục 10.5ay, 10.5az); `test_clean` (186 trang) chưa có gold; 23 trang gold có tên file mất ký tự có dấu nên không gán tự động vào tune/valid bằng tên.
@@ -23,4 +64,23 @@
 - **Phân loại `derived_date` a/b (ghi 2026-11-11, `docs/process/10_DERIVED_DATE_CLASSIFICATION.md`):** mã `local/derived_classify.py`, kết quả `dataset/eval/timeline_pilot/derived_classify/` (kèm bản chụp cờ cũ). Trên test_clean: a chặt 49/713 mốc derived (6,9%); trang U-boat gần như không có loại a vì chunk không chứa năm. **Chưa làm/chưa kiểm chứng:** đọc `a_far`, `a_weakrel` (23), `c_*` (235, kể cả 49 ca `c_exact`: cờ có vẻ thừa), `b_anchor_prev_chunk` (50: có cho neo ở chunk liền trước không), kiểm lại mẫu `b_relative`/`b_no_anchor` tìm ca nhầm; chạy trên tune/valid gold; đo số câu thực sự cứu được; người đọc thứ hai cho loại a; **ĐÃ CHỐT KHÔNG NỚI** (`decisions/14` mục 18); không cần phân loại trên tune/valid.
 - **Soát gold test_clean 136 trang (session 11–38) bằng gợi ý tự động (ghi 2026-11-11):** mã `local/gold_gap_sub.py` (chỉ đọc `batchT/sub/`, không sửa; `python3 -I local/gold_gap_sub.py` xếp hạng, `--list <Trang>` in câu): câu chunk có năm mà không quote nào/undated phủ. Kết quả: 1485 câu chưa phủ trên 136 trang (nhiều dương tính giả: thống kê, kết quả mùa giải, đơn vị con theo guide v7), 10 trang 0 gap. Xếp hạng đầu: Nick_Saban 65, Gary_Mills 57, USAFE 57, Boris_Nemtsov 55, P_bram 52, Province_of_Brandenburg 42, Wellington_Somerset 39, St_Bartholomew 38, John_Conyers 36, Loveland_Ohio 32. **Đã đọc gap của 6 trang** (Klamath, Wellington, Ouagadougou, Nick_Saban 24 câu đầu, P_bram 24 câu đầu, Ghaziabad 24 câu đầu): có ca sót thật (Nick_Saban "November 27, 2006 Alabama announced firing of Mike Shula" và "November 7, 1998"; P_bram đường sắt 1875, liên hoan Dvořák 1969, phòng kinh tế 1993; Ghaziabad "founded in 1740" cần kiểm vì câu cắt ở "a.d."); nhiều ca là hợp guide v7 (đơn vị con: trường, ngân hàng, nhà máy trong trang Wellington; danh sách làng/khu của Klamath; thống kê). **Chưa đọc gap** 130 trang còn lại; chưa quyết thêm mốc vào `rev/` hay không (chỉ dẫn hiện hành: không thêm vào gold tune/valid; test_clean chưa chốt).
 - **Đã đọc gap 15 trang đầu bảng (2026-11-11, `docs/eval/10` mục 10.5bh):** Nick_Saban, Gary_Mills, USAFE, Boris_Nemtsov, P_bram, Province_of_Brandenburg, Wellington, St_Bartholomew, John_Conyers, Loveland, Wheel_of_Fortune, 1_Hanover_Square, Princess_Victoria_Melita, Lana_Turner, Cutty_Sark (+ Klamath, Ouagadougou, Ghaziabad). Có ứng viên sót thật ở hầu hết trang (3–10/trang), nhiều ca là loại theo guide v7. **Chưa đọc:** 118 trang còn lại; 5 trang cuối danh sách mới đọc 22 gap đầu; chưa đối chiếu ứng viên với mốc quanh. **Chờ quyết:** đề xuất không chạy lại Haiku, copy `sub/`→`rev/` cho 136 trang (kèm sửa nhỏ Guggenberger e11, U_101 e27/e28) rồi dựa vào bước [1][2][3] sau khi sinh câu hỏi; gen lại gold tune v1–v3 (25 trang) bằng v7 (câu hỏi các trang đó phải sinh lại).
+- **Gen lại gold tune v1–v3 bằng guide v7 (ĐÃ CHẠY 5 session 2026-11-11, kết quả `docs/eval/10` mục 10.5bj: 25 trang, 696 mốc mới so với 776 cũ, `check.py` 0 lỗi; derived 39 mới so với 17 cũ, approximate 31 so với 1; chưa soát, chưa thay gold tune, cần kiểm nghi agent mở gold cũ ở các trang trùng text như Carl_Ehrensvard 24/34). Phần chuẩn bị ban đầu: 25 trang (pilot5 5, pilot10 10, batch2 10; 11–25 chunk mỗi trang). Thư mục mới `dataset/eval/timeline_pilot/batchR/` (`in/` 25 file chép từ ba batch cũ, `sub/` trống, `GUIDE_v7.md`); gold cũ ở `pilot5/me`, `pilot10/rev`, `batch2/rev` giữ nguyên, không ghi đè. Prompt chung `local/prompts/gold_regen_v1v3_v7.md` (người dùng nói "chạy session N", N=1–5, 5 agent Haiku mỗi session) + danh sách `local/prompts/pages_gold_regen_v1v3.json` (seed 7501). Sau khi chạy: đếm lại từ `batchR/sub/`, `check.py`, so với gold cũ (số mốc, cờ `derived_date`), soát, rồi quyết thay gold tune; thay thì câu hỏi v9 của các trang đó (v3 23 câu; v1, v2 chưa có câu v9) phải sinh lại vì id mốc đổi.
+- **ĐÃ THAY gold tune v1–v3 (người dùng 2026-11-11; `decisions/14` mục 19, `docs/eval/10` mục 10.5bk):** gold mới ở `pilot5/rev`, `pilot10/rev`, `batch2/rev`; bản cũ ở `dataset/eval/timeline_pilot/old_gold_v1v3/`; thư mục gen lại là `regen_v1v3`. 23 câu v9 của 10 trang batch2 đã gỡ sang `local/questions/v9/_replaced_gold_v3/`; **25 trang chưa có câu v9, cần sinh câu mới** (pilot5, pilot10 chưa từng có). **Chưa soát:** 65 mốc cũ biến mất (có vẻ sót thật: Great_Tower_Neuwerk 1360/1909/1971, Quelli_che_il_Calcio 1993, Toungoo_dynasty 1740, Regius_Professor 2006-02, Mike_Bongiorno quốc tang 2009, Lev_Polugaevsky 1995) và nghi agent mở gold cũ (Carl_Ehrensvard, August_Maus trùng text).
+- **Đọc gold + câu v4–v5 của tune, 50 trang, 164 câu (2026-11-11, `docs/eval/10` mục 10.5bi, chỉ đọc):** đáp án đúng ở các câu đọc, không thấy sai rõ. **Câu nghi chờ quyết (sửa lời hoặc bỏ):** The_One_Show:3 (e48 thông báo rời bị bỏ ngoài chuỗi, đáp án đổi nếu tính), Meet_the_Press:4 (bộ thử HD), Alemannia_Aachen:1 (e10 1938 đứng đầu hạng), Vindobona:2 (biên "mid-1960s" lấy 1964), Jerzy_Buzek:1 (e27 chưa kiểm chứng), Veliky_Novgorod:1 e20 `approximate_date` (hợp luật). **Chưa làm:** đối chiếu từng chunk; đọc gap 45 trang còn lại (472 câu chưa phủ trên 50 trang); 7 trang 0 câu (Ich_bin_ein_Star, The_Dark_Eye, USS_LCS_L_3_102, Minuta_slavy, Pelican_Island, British_Rail_Class_40, U_254) và D__band_ 1 câu trên 85 mốc; ứng viên mốc sót Eliot_Engel (22/12/2010, 19/12/2007), Hanover (1887, 4/1945, 2013, 2010), Veliky_Novgorod (1293). Gold tune v4–v5 chưa gen lại (đề xuất chỉ gen lại v1–v3).
 - **Mốc TCN (ghi 2026-11-11, `docs/eval/10` mục 10.5bd, `decisions/14` mục 17):** gold 30 mốc âm trên 13744 (Han_dynasty 27, Cueva 3); chunk nhắc TCN khoảng 48 trên 16740 (0,29%, 11 trang trên 556, regex nhầm vài ca). Đã làm: luật checker, bỏ Han_dynasty:2. Chờ người dùng: (a) loại mốc `date` âm khỏi phần so sánh ingest-gold khi đo precision/recall; (b) kiểm xem chunk TCN có lọt vào kho với `start_time` sai không (chỉ đọc); (c) dặn prompt sinh câu hỏi test_clean không dùng mốc âm khi viết prompt.
+
+## Vá gold tune v1–v3 mới theo v7 (2026-11-11, chiều)
+
+- Gold cũ: pilot5 dùng GUIDE_v1 (không có mục KHÔNG ghi, không cờ, không luật thập kỷ/khoảng thời gian), pilot10 dùng GUIDE_v2 và batch2 dùng GUIDE_v3 (hai bản giống hệt nhau). Gold mới dùng GUIDE_v7. Phần lớn mốc "biến mất" là mốc v1–v3 ghi nhưng v7 cấm: mốc của thực thể khác (chi nhánh, thành phố, con tàu), chuyến đi của tàu/máy bay, thống kê, bài viết của chính nhân vật, giải truy tặng, mốc mùa giải, ngày kết thúc của hoạt động tham gia.
+- Chỉ vá mốc v7 cho ghi mà bản mới sót. Công cụ `local/gold_patch_v1v3.py`, spec ở `local/gold_patch_v1v3/<Trang>.json`; bản chưa vá giữ ở `dataset/eval/timeline_pilot/regen_v1v3/sub/`, bản đã vá ở `pilot5|pilot10|batch2/rev/`. Chạy lại tool luôn vá từ bản chưa vá. `check.py` 0 lỗi trên 25 trang.
+- Đã vá 24 mốc / 9 trang: Ernst_Hechler +8, Great_Tower_Neuwerk +3, Mike_Bongiorno +3, Regius_Professor_Civil_Law +4, Carl_Ehrensvard +2, Telekids +1, First_Air_Group +1, Aero_Union +1, Toungoo_dynasty +1.
+- Không vá (đúng theo v7): World_Union_for_Progressive_Judaism (mốc của các chi nhánh/liên đoàn khác), Klemzig (chuyến tàu), Real_Audiencia (thị trấn/tỉnh khác), Derek_Barton, August_Maus, CS_Aerostar_Bacau, Lev_Polugaevsky, Martin_de_Gurrea, Quelli_che_il_Calcio, Thomas_Fearnley, Butch_Levy, Malvik, Southern_Military_District, John_Henry_Whitley, Frederick_Ralph_Sharp, Seibu_Shinjuku_Line, Great_Tower_Neuwerk 1909/1971.
+- Việc còn lại: các mốc vá là phán đoán của tôi (ví dụ 1987 máy bay C-119 ở Aero_Union, 1740 ở Toungoo, 1994-12-31 ở Telekids), người dùng có thể bỏ nếu không đồng ý. Test_clean (136 trang) chưa vá: 161 câu có ngày đầy đủ chưa phủ trên 53 trang (Nick_Saban, Boris_Nemtsov, Wellington_Somerset, Gary_Mills, USAFE...). 25 trang tune v1–v3 vẫn chưa có câu v9.
+
+## Vá gold test_clean theo v7 (2026-11-11, chiều)
+
+- `batchT/rev/` đã đủ 186 trang (136 trang session 11–38 copy từ `sub/`, 50 trang session 1–10 giữ bản đã soát). `check.py` 0 lỗi.
+- Đọc 47 trang có từ 2 câu ngày đầy đủ chưa phủ (tool `gold_gap_sub.py`) và thêm bằng `local/gold_patch_v1v3.py` (spec ở `local/gold_patch_v1v3/`, `dir=batchT`, vá từ `batchT/sub/`). Kết luận: phần lớn câu "chưa phủ" là mốc v7 cấm (trận đấu, chuyến tàu/lượt tuần tra, phát biểu của chính nhân vật, việc của người khác, ngày sinh con, giải/vinh danh sau khi mất), gold đã nhất quán với v7; không phải sót.
+- Đã thêm 10 mốc / 9 trang: Boris_Nemtsov 2017-06 (xét xử vụ giết), Laurette_Onkelinx 2011-12-06, VP_29 1941-07-03 và 07-07, VP_42 1945-06-01, Cutty_Sark 2008-09-30, Princess_Victoria_Melita 1995-03-07, The_Cycle 2012-08-16, UD_Las_Palmas 2001-12-22, Jim_Prentice 2016-10-28 (tang lễ).
+- Sửa nhỏ: U_101 bỏ e28 (trùng e27, cùng quote). Không đổi cờ Guggenberger e11 sang `source_inconsistent` vì `check.py` chỉ miễn quote thiếu năm khi cờ là `derived_date` (cờ đơn); để nguyên. Inter_Milan e50/e51 chưa sửa (chưa nhớ lỗi cụ thể, cần đọc lại).
+- Chưa đọc: ~89 trang có dưới 2 câu ngày đầy đủ chưa phủ; câu chỉ có năm của các trang top (Nick_Saban, P_bram...) đọc lướt, không thêm. Mốc vá là phán đoán của tôi, người dùng có thể bỏ.

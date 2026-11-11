@@ -1,0 +1,65 @@
+{"page_id": "/wiki/The_Fifer",
+ "events": [
+  {"id": "e1", "date": "1866", "grain": "year", "track": "work", "text": "Manet began work on the painting in Paris after his Spain trip.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#0", "role": "both", "quote": "made in 1866"},
+     {"chunk_id": "/wiki/The_Fifer#1", "role": "both", "quote": "Upon his return to Paris in 1866 , he began work on a new painting"}
+   ]},
+  {"id": "e2", "date": "1866", "grain": "year", "track": "other", "label": "salon_rejection", "text": "Le fifre was rejected by the jury of the Salon of 1866.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#3", "role": "both", "quote": "was rejected by the jury of the Salon of 1866"}
+   ]},
+  {"id": "e3", "date": "1867-05", "grain": "month", "track": "work", "text": "Manet personally funded and mounted a pavilion exhibition including Le fifre.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#3", "role": "both", "quote": "in May 1867 , Manet personally funded and mounted an exhibition of his own work"}
+   ]},
+  {"id": "e4", "date": "1872", "grain": "year", "track": "ownership_structure", "text": "The painting was acquired by Durand-Ruell.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#5", "role": "both", "quote": "The painting was acquired by Durand-Ruell in 1872"}
+   ]},
+  {"id": "e5", "date": "1873", "grain": "year", "track": "ownership_structure", "text": "Jean-Baptiste Faure became the owner of the painting.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#5", "role": "both", "quote": "Between 1873 and 1893 , the painting was owned by Manets friend"}
+   ]},
+  {"id": "e6", "date": "1884", "grain": "year", "track": "work", "text": "The painting was included in a large Manet exhibition.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#5", "role": "both", "quote": "It was included in a large exhibition of Manets work in 1884"}
+   ]},
+  {"id": "e7", "date": "1893", "grain": "year", "track": "ownership_structure", "text": "Durand-Ruell acquired the painting again.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#5", "role": "both", "quote": "acquired by Durand-Ruell in 1872 and again in 1893"}
+   ]},
+  {"id": "e8", "date": "1893", "grain": "year", "track": "ownership_structure", "text": "Jean-Baptiste Faure's ownership of the painting ended.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#5", "role": "both", "quote": "Between 1873 and 1893 , the painting was owned by Manets friend"}
+   ]},
+  {"id": "e9", "date": "1911", "grain": "year", "track": "ownership_structure", "text": "The painting was accepted by the French government and entered national collections.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#6", "role": "both", "quote": "entered the national collections in 1911"}
+   ]},
+  {"id": "e10", "date": "1914", "grain": "year", "track": "location", "text": "The painting was displayed at the Louvre.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#6", "role": "both", "quote": "It was displayed at the Louvre from 1914 until 1947"}
+   ]},
+  {"id": "e11", "date": "1947", "grain": "year", "track": "location", "text": "The painting was relocated to the Musée du Jeu de Paume.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#6", "role": "both", "quote": "until 1947 , when it was relocated to the Musée du Jeu de Paume"}
+   ]},
+  {"id": "e12", "date": "1983", "grain": "year", "track": "work", "text": "The painting was included in a Manet retrospective at the Grand Palais.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#6", "role": "both", "quote": "included in the sweeping Manet retrospective held at the Grand Palais in 1983"}
+   ]},
+  {"id": "e13", "date": "1986", "grain": "year", "track": "location", "text": "The painting was moved to the Musée d'Orsay, its current home.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#7", "role": "both", "quote": "In 1986 , it was moved to its current home in the Musée dOrsay"}
+   ]},
+  {"id": "e14", "date": "2017", "grain": "year", "track": "location", "text": "The painting was on loan to the Louvre Abu Dhabi.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#7", "role": "both", "quote": "in 2017 and 2018 it was on loan to the Louvre Abu Dhabi museum"}
+   ]},
+  {"id": "e15", "date": "2018", "grain": "year", "track": "location", "text": "The painting was on loan to the Louvre Abu Dhabi.",
+   "evidence": [
+     {"chunk_id": "/wiki/The_Fifer#7", "role": "both", "quote": "in 2017 and 2018 it was on loan to the Louvre Abu Dhabi museum"}
+   ]}
+ ],
+ "undated_mentions": []}

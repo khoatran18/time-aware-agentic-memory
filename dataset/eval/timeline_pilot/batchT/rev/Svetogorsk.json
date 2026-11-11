@@ -1,0 +1,40 @@
+{"page_id": "/wiki/Svetogorsk",
+ "events": [
+  {"id": "e1", "date": "1887", "grain": "year", "track": "other", "label": "founding",
+   "text": "Town founded (as Enso) to serve a paper mill.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#1", "role": "both", "quote": "the town was founded in 1887 to serve a paper mill"}]},
+  {"id": "e2", "date": "1940", "grain": "year", "track": "location",
+   "text": "Moscow Peace Treaty ceded Enso to Soviet Union; border left factory on Soviet side.",
+   "evidence": [
+    {"chunk_id": "/wiki/Svetogorsk#2", "role": "description", "quote": "The territory was ceded by Finland to the Soviet Union by the Moscow Peace Treaty"},
+    {"chunk_id": "/wiki/Svetogorsk#10", "role": "both", "quote": "In the 1940 Moscow Peace Treaty , the new Finnish-Soviet border was deliberately drawn"}
+   ]},
+  {"id": "e3", "date": "1940-03", "grain": "month", "track": "location",
+   "text": "Enso became part of Yaskinsky District.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#4", "role": "both", "quote": "In March 1940 , Enso became a part of Yaskinsky District"}]},
+  {"id": "e4", "date": "1941", "grain": "year", "track": "location",
+   "text": "Finns recaptured Enso during the Continuation War (began).",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#5", "role": "both", "quote": "Enso was recaptured by Finns between 1941 and 1944"}]},
+  {"id": "e5", "date": "1944", "grain": "year", "track": "location",
+   "text": "Finnish recapture ended; Enso ceded again to Soviets by Moscow Armistice.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#5", "role": "both", "quote": "Enso was recaptured by Finns between 1941 and 1944"}]},
+  {"id": "e6", "date": "1944-11-24", "grain": "day", "track": "location",
+   "text": "Yaskinsky District, including the town, transferred to Leningrad Oblast.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#6", "role": "both", "quote": "On November 24 , 1944 , Yaskinsky District was transferred from Karelo-Finnish SSR to Leningrad Oblast"}]},
+  {"id": "e7", "date": "1947", "grain": "year", "track": "location",
+   "text": "Paris Peace Treaty formalized Enso's secession to Soviet Union.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#5", "role": "both", "quote": "This secession was formalized after signing the Paris Peace Treaty in 1947"}]},
+  {"id": "e8", "date": "1949-01-13", "grain": "day", "track": "naming",
+   "text": "Finnish place names replaced; Enso renamed Svetogorsk.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#6", "role": "both", "quote": "on January 13 , 1949 , all Finnish names of the localities were replaced with Russian names"}]},
+  {"id": "e9", "date": "1960-12-09", "grain": "day", "track": "location",
+   "text": "Lesogorsky District abolished and merged into Vyborgsky District.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#6", "role": "both", "quote": "On December 9 , 1960 , Lesogorsky District was abolished and merged into Vyborgsky District"}]},
+  {"id": "e10", "date": "2008-04-18", "grain": "day", "track": "other", "label": "protest",
+   "text": "About 500 residents protested with road barricade on Finnish-Russian border.",
+   "evidence": [{"chunk_id": "/wiki/Svetogorsk#8", "role": "both", "quote": "On April 18 , 2008 , about five hundred inhabitants of Svetogorsk participated in a protest"}]}
+ ],
+ "undated_mentions": [
+  "Border map redrawn so that it bends at Enso, after the Winter War (no date stated)",
+  "Sister city agreement with Imatra, Finland (no date stated)"
+ ]}

@@ -1,0 +1,49 @@
+{
+  "page_id": "/wiki/Vice_President_of_Afghanistan",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1978-04",
+      "grain": "month",
+      "track": "role",
+      "text": "began as Vice Chairman of Revolutionary Council, deputy head of state",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Vice_President_of_Afghanistan#0",
+          "role": "both",
+          "quote": "of the Revolutionary Council between April 1978 and April 1988"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1988-04",
+      "grain": "month",
+      "track": "role",
+      "text": "ended term as Vice Chairman of Revolutionary Council, deputy head of state",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Vice_President_of_Afghanistan#0",
+          "role": "both",
+          "quote": "of the Revolutionary Council between April 1978 and April 1988"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2004",
+      "grain": "year",
+      "track": "role",
+      "text": "Vice Presidents began being elected on the same ticket as the President",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Vice_President_of_Afghanistan#2",
+          "role": "both",
+          "quote": "After 2004 , Vice Presidents are elected on the same ticket as the President"
+        }
+      ],
+      "flag": "approximate_date"
+    }
+  ],
+  "undated_mentions": []
+}

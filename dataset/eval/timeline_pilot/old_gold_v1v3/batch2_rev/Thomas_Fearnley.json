@@ -1,0 +1,479 @@
+{
+ "page_id": "Thomas_Fearnley",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1802-12-27",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Frederikshald (now Halden), Norway.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#0",
+     "role": "both",
+     "quote": "27 December 1802 – 16 January 1842"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#1",
+     "role": "description",
+     "quote": "Thomas Fearnley was born in Frederikshald ( now Halden ) in Østfold , Norway"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1814",
+   "grain": "year",
+   "track": "education",
+   "text": "Began attending National Cadet Corps (Landkadettkorpset).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "attended National Cadet Corps ( Landkadettkorpset ) from 1814 to 1819"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1819",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended attendance at National Cadet Corps.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "attended National Cadet Corps ( Landkadettkorpset ) from 1814 to 1819"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1819",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studies at Norwegian National Academy of Craft and Art Industry.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Norwegian National Academy of Craft and Art Industry ( Den kongelige Tegneskole ) ( 1819–1821 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1821",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended studies at Norwegian National Academy of Craft and Art Industry.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Norwegian National Academy of Craft and Art Industry ( Den kongelige Tegneskole ) ( 1819–1821 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1821",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studies at Art Academy in Copenhagen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Art Academy ( Kunstakadamie ) in Copenhagen ( 1821–1823 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1823",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended studies at Art Academy in Copenhagen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Art Academy ( Kunstakadamie ) in Copenhagen ( 1821–1823 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1823",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studies at Art Academy in Stockholm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Art Academy ( Konstakadamien ) in Stockholm ( 1823–27 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1823",
+   "grain": "year",
+   "track": "location",
+   "text": "Left Copenhagen for Stockholm in autumn.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "Fearnley left Copenhagen bound for Stockholm in the autumn of 1823"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1824",
+   "grain": "year",
+   "track": "location",
+   "text": "Began study tours in Norway.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "He conducted study tours in Norway ( 1824-1826 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1826",
+   "grain": "year",
+   "track": "location",
+   "text": "Ended study tours in Norway.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "He conducted study tours in Norway ( 1824-1826 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1827",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended studies at Art Academy in Stockholm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#4",
+     "role": "both",
+     "quote": "Art Academy ( Konstakadamien ) in Stockholm ( 1823–27 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e13",
+   "date": "1827",
+   "grain": "year",
+   "track": "location",
+   "text": "Began a stay in Copenhagen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "After another stay in Copenhagen from 1827 to 1828"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1828",
+   "grain": "year",
+   "track": "location",
+   "text": "Ended the stay in Copenhagen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "After another stay in Copenhagen from 1827 to 1828"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1828",
+   "grain": "year",
+   "track": "location",
+   "text": "Made a new Norwegian trip in autumn.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "both",
+     "quote": "a new Norwegian trip in the autumn of 1828"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1829",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studying under Johan Christian Dahl in Dresden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "description",
+     "quote": "was a student of Dahl in Dresden"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#6",
+     "role": "date",
+     "quote": "1829–1830 ) as well as befriending the German painter"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1830",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended studying under Dahl in Dresden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#5",
+     "role": "description",
+     "quote": "was a student of Dahl in Dresden"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#6",
+     "role": "date",
+     "quote": "1829–1830 ) as well as befriending the German painter"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1830",
+   "grain": "year",
+   "track": "location",
+   "text": "Began living in Munich.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#6",
+     "role": "both",
+     "quote": "He lived in Munich ( 1830–32 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1832",
+   "grain": "year",
+   "track": "location",
+   "text": "Ended living in Munich.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#6",
+     "role": "both",
+     "quote": "He lived in Munich ( 1830–32 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e20",
+   "date": "1832-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Went from Venice to Rome.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#7",
+     "role": "both",
+     "quote": "During September 1832 , he went from Venice to Rome"
+    }
+   ]
+  },
+  {
+   "date": "1833",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Visited Sicily",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#7",
+     "role": "both",
+     "quote": "visited Sicily the following summer"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e21"
+  },
+  {
+   "id": "e22",
+   "date": "1835",
+   "grain": "year",
+   "track": "location",
+   "text": "Went to Paris in summer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#7",
+     "role": "both",
+     "quote": "He went to Paris in the summer of 1835"
+    }
+   ]
+  },
+  {
+   "date": "1836",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Visited London",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#7",
+     "role": "both",
+     "quote": "visited London the next year"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e23"
+  },
+  {
+   "id": "e24",
+   "date": "1837",
+   "grain": "year",
+   "track": "work",
+   "text": "Painted Labrofossen, a notable work now in the National Gallery in Oslo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#9",
+     "role": "both",
+     "quote": "Labrofossen ( 1837 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1838",
+   "grain": "year",
+   "track": "work",
+   "text": "Painted Grindelwaldgletsjeren, a notable work in the National Gallery in Oslo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#9",
+     "role": "both",
+     "quote": "Grindelwaldgletsjeren ( 1838 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1839",
+   "grain": "year",
+   "track": "work",
+   "text": "Painted Slinde Birken, a notable work in the National Gallery in Oslo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#9",
+     "role": "both",
+     "quote": "Slinde Birken ( 1839 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1839",
+   "grain": "year",
+   "track": "location",
+   "text": "Took a study tour to Sognefjord and Hardangerfjord with Andreas Achenbach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#7",
+     "role": "both",
+     "quote": "During the summer of 1839 he was on a study tour to the Sognefjord and Hardangerfjord"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#8",
+     "role": "description",
+     "quote": "painter Andreas Achenbach"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1840",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Cecilia Catharine Andresen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#2",
+     "role": "both",
+     "quote": "In 1840 , he married Cecilia Catharine Andresen"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1841",
+   "grain": "year",
+   "track": "location",
+   "text": "Went with his wife to Amsterdam for the birth of their child.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#2",
+     "role": "both",
+     "quote": "In the autumn of 1841 , the couple went to Amsterdam for the birth of their only child"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1842-01-16",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died of typhoid at 39.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#0",
+     "role": "date",
+     "quote": "27 December 1802 – 16 January 1842"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#11",
+     "role": "both",
+     "quote": "Fearnley contracted typhoid and died in January 1842 when he was only 39 years old"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1922",
+   "grain": "year",
+   "track": "other",
+   "label": "reburial",
+   "text": "His remains were moved to Vår Frelsers gravlund in Oslo, arranged by his son.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Fearnley#11",
+     "role": "both",
+     "quote": "In 1922 , his son arranged to have his fathers mortal remains moved to Vår Frelsers gravlund in Oslo"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "traveled extensively in the 1830s (decade)",
+  "met Johan Christian Dahl in Sogn during the 1824–1826 Norway study tours (no exact date)",
+  "received several orders from the Swedish royal family and court (no exact date)",
+  "initially buried at Südlicher Friedhof in Munich (after 1842, no exact date)"
+ ]
+}

@@ -1,227 +1,69 @@
 {
  "page_id": "/wiki/Real_Audiencia_of_Guatemala",
  "events": [
-  {
-   "id": "e1",
-   "date": "1542-11-20",
-   "grain": "day",
-   "track": "other",
-   "label": "founding",
-   "text": "Created as Audiencia of Los Confines of Guatemala and Nicaragua by royal decree.",
+  {"id": "e1", "date": "1542-11-20", "grain": "day", "track": "other", "label": "founding",
+   "text": "Audiencia of Los Confines of Guatemala and Nicaragua created by royal decree.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#6",
-     "role": "both",
-     "quote": "An Audiencia of Los Confines of Guatemala and Nicaragua was created by a royal decree of November 20 , 1542"
-    },
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#1",
-     "role": "both",
-     "quote": "The Audiencia was initially created by decrees of November 20 , 1542 and September 13 , 1543"
-    }
-   ]
-  },
-  {
-   "id": "e2",
-   "date": "1543-09-13",
-   "grain": "day",
-   "track": "location",
-   "text": "Decree ordered the Audiencia to move to Valladolid de Comayagua.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#1", "role": "both", "quote": "initially created by decrees of November 20 , 1542 and September 13 , 1543"},
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#6", "role": "both", "quote": "was created by a royal decree of November 20 , 1542"}
+   ]},
+  {"id": "e2", "date": "1543", "grain": "year", "track": "other", "label": "jurisdiction",
+   "text": "Establishment of the Audiencia defined the kingdom's territory, most of Central America.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#7",
-     "role": "both",
-     "quote": "The September 13 , 1543 , decree ordered that the new Audiencia move to Valladolid de Comayagua"
-    }
-   ]
-  },
-  {
-   "id": "e3",
-   "date": "1544-05-16",
-   "grain": "day",
-   "track": "location",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#5", "role": "both", "quote": "In 1543 establishment of the Audiencia defined the territory of the kingdom"}
+   ]},
+  {"id": "e3", "date": "1543-09-13", "grain": "day", "track": "location",
+   "text": "Decree ordered the new Audiencia to move to Valladolid de Comayagua.",
+   "evidence": [
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#7", "role": "both", "quote": "The September 13 , 1543 , decree ordered that the new Audiencia move to Valladolid de Comayagua"}
+   ]},
+  {"id": "e4", "date": "1544-05-16", "grain": "day", "track": "location",
    "text": "Audiencia provisionally moved to Gracias a Dios.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8",
-     "role": "both",
-     "quote": "The Audiencia provisionally moved to Gracias a Dios on May 16 , 1544"
-    }
-   ]
-  },
-  {
-   "id": "e4",
-   "date": "1548-10-25",
-   "grain": "day",
-   "track": "location",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8", "role": "both", "quote": "The Audiencia provisionally moved to Gracias a Dios on May 16 , 1544"}
+   ]},
+  {"id": "e5", "date": "1548-10-25", "grain": "day", "track": "location",
    "text": "Royal decree ordered the Audiencia's return to Santiago de Guatemala.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8",
-     "role": "both",
-     "quote": "until the royal decrees of October 25 , 1548 and June 1 , 1549 , ordered its return to Santiago de Guatemala"
-    }
-   ]
-  },
-  {
-   "id": "e5",
-   "date": "1549-06-01",
-   "grain": "day",
-   "track": "location",
-   "text": "Royal decree ordered the Audiencia's return to Santiago de Guatemala.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8", "role": "both", "quote": "royal decrees of October 25 , 1548"}
+   ]},
+  {"id": "e6", "date": "1549-06-01", "grain": "day", "track": "location",
+   "text": "Second royal decree ordered the Audiencia's return to Santiago de Guatemala.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8",
-     "role": "both",
-     "quote": "until the royal decrees of October 25 , 1548 and June 1 , 1549 , ordered its return to Santiago de Guatemala"
-    }
-   ]
-  },
-  {
-   "id": "e6",
-   "date": "1550",
-   "grain": "year",
-   "track": "ownership_structure",
-   "text": "Yucatán was finally added to the Audiencia's district.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8", "role": "both", "quote": "June 1 , 1549 , ordered its return to Santiago de Guatemala"}
+   ]},
+  {"id": "e7", "date": "1550-07-07", "grain": "day", "track": "other", "label": "jurisdiction",
+   "text": "Royal decree reiterated separating Yucatan from Mexico into the Guatemala Audiencia.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#7",
-     "role": "both",
-     "quote": "but this was not accomplished until 1550"
-    }
-   ]
-  },
-  {
-   "id": "e7",
-   "date": "1550-07-07",
-   "grain": "day",
-   "track": "ownership_structure",
-   "text": "Royal decree reiterated separating Yucatán from Mexico into Guatemala's Audiencia.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8",
-     "role": "both",
-     "quote": "A royal decree of July 7 , 1550 , reiterated that Yucatán be separated"
-    }
-   ]
-  },
-  {
-   "id": "e8",
-   "date": "1553-01-20",
-   "grain": "day",
-   "track": "ownership_structure",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8", "role": "both", "quote": "A royal decree of July 7 , 1550 , reiterated that Yucatán be separated from the Audiencia of Mexico"}
+   ]},
+  {"id": "e8", "date": "1553-01-20", "grain": "day", "track": "other", "label": "jurisdiction",
    "text": "Decree transferred the province of Soconusco to the Guatemala Audiencia.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8",
-     "role": "both",
-     "quote": "Finally a decree of January 20 , 1553 , transferred the province of Soconusco to the Guatemala Audiencia"
-    }
-   ]
-  },
-  {
-   "id": "e9",
-   "date": "1563-09-08",
-   "grain": "day",
-   "track": "location",
-   "text": "Philip II decreed the Audiencia move to Panama.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#8", "role": "both", "quote": "a decree of January 20 , 1553 , transferred the province of Soconusco to the Guatemala Audiencia"}
+   ]},
+  {"id": "e9", "date": "1563-09-08", "grain": "day", "track": "location",
+   "text": "Philip II decreed the Audiencia move to Panama, abolishing the Guatemala audiencia.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#9",
-     "role": "both",
-     "quote": "On September 8 , 1563 , Philip II decreed that the Audiencia move to Panama"
-    }
-   ]
-  },
-  {
-   "id": "e10",
-   "date": "1563-09-08",
-   "grain": "day",
-   "track": "other",
-   "label": "abolition",
-   "text": "Decree abolished the separate Audiencia for Guatemala.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#9", "role": "both", "quote": "On September 8 , 1563 , Philip II decreed that the Audiencia move to Panama"}
+   ]},
+  {"id": "e10", "date": "1568-01-15", "grain": "day", "track": "other", "label": "reestablishment",
+   "text": "Decree reestablished the Audiencia of Guatemala with its 1563 jurisdiction.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#9",
-     "role": "both",
-     "quote": "On September 8 , 1563 , Philip II decreed that the Audiencia move to Panama"
-    }
-   ]
-  },
-  {
-   "id": "e11",
-   "date": "1563-09-08",
-   "grain": "day",
-   "track": "ownership_structure",
-   "text": "Remaining former territories transferred to the Audiencia of Mexico.",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#10", "role": "both", "quote": "On January 15 , 1568 , a decree reestablished the Audiencia of Guatemala"}
+   ]},
+  {"id": "e11", "date": "1569-01-25", "grain": "day", "track": "other", "label": "jurisdiction",
+   "text": "Royal decree transferred Soconusco from the Audiencia of Mexico to Guatemala.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#9",
-     "role": "both",
-     "quote": "On September 8 , 1563 , Philip II decreed that the Audiencia move to Panama"
-    }
-   ]
-  },
-  {
-   "id": "e12",
-   "date": "1568-01-15",
-   "grain": "day",
-   "track": "other",
-   "label": "reestablishment",
-   "text": "Decree reestablished the Audiencia of Guatemala with its 1563 jurisdiction, minus Yucatán.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#10",
-     "role": "both",
-     "quote": "On January 15 , 1568 , a decree reestablished the Audiencia of Guatemala"
-    }
-   ]
-  },
-  {
-   "id": "e13",
-   "date": "1569-01-25",
-   "grain": "day",
-   "track": "ownership_structure",
-   "text": "Royal decree transferred Soconusco back from the Mexico Audiencia to Guatemala.",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#10",
-     "role": "both",
-     "quote": "A royal decree of January 25 , 1569 , transferred once again the governorate of Soconusco"
-    }
-   ]
-  },
-  {
-   "id": "e14",
-   "date": "1786",
-   "grain": "year",
-   "track": "role",
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#10", "role": "both", "quote": "A royal decree of January 25 , 1569 , transferred once again the governorate of Soconusco"}
+   ]},
+  {"id": "e12", "date": "1786", "grain": "year", "track": "role", "flag": "derived_date",
    "text": "Audiencia president became superintendente general and de facto intendant of Guatemala.",
    "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#15",
-     "role": "both",
-     "quote": "As part of the Bourbon Reforms in 1786 the crown established a series of intendancies in the area"
-    }
-   ]
-  },
-  {
-   "date": "1786",
-   "grain": "year",
-   "track": "ownership_structure",
-   "label": "",
-   "text": "Crown established intendancies in the area (Bourbon Reforms)",
-   "evidence": [
-    {
-     "chunk_id": "/wiki/Real_Audiencia_of_Guatemala#15",
-     "role": "both",
-     "quote": "in 1786 the crown established a series of intendancies"
-    }
-   ],
-   "id": "e15"
-  }
+    {"chunk_id": "/wiki/Real_Audiencia_of_Guatemala#15", "role": "both", "quote": "As part of the Bourbon Reforms in 1786 the crown established a series of intendancies in the area"}
+   ]}
  ],
  "undated_mentions": [
-  "The capital (seat) of the Audiencia moved several times in the first decade of its existence."
+  "Yucatán was a permanent territory of the Audiencia of Mexico until the beginning of the 19th century"
  ]
 }

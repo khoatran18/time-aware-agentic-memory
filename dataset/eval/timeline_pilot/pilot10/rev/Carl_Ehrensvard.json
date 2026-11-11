@@ -10,14 +10,14 @@
    "text": "Born at Tosterup Castle, Tomelilla Municipality, Sweden.",
    "evidence": [
     {
-     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#0",
-     "role": "both",
-     "quote": "Count Carl August Ehrensvärd ( 16 September 1858 – 16 February 1944 )"
-    },
-    {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#1",
      "role": "both",
      "quote": "Ehrensvärd was born on 16 September 1858 at Tosterup Castle"
+    },
+    {
+     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#0",
+     "role": "both",
+     "quote": "16 September 1858 – 16 February 1944"
     }
    ]
   },
@@ -36,7 +36,7 @@
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#6",
      "role": "both",
-     "quote": "1878 – Acting sub-lieutenant ( underlöjtnant )"
+     "quote": "1878 – Acting sub-lieutenant"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "date": "1889",
    "grain": "year",
    "track": "role",
-   "text": "Promoted to lieutenant (kapten).",
+   "text": "Promoted to lieutenant (kapten) in the Swedish Navy.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
@@ -132,7 +132,7 @@
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
      "role": "both",
-     "quote": "and to commander in 1903"
+     "quote": "to commander in 1903"
     },
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#6",
@@ -146,7 +146,7 @@
    "date": "1904",
    "grain": "year",
    "track": "role",
-   "text": "Became head of the Military Office, Ministry for Naval Affairs.",
+   "text": "Began heading Military Office of the Ministry for Naval Affairs.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
@@ -178,8 +178,7 @@
    "id": "e11",
    "date": "1905",
    "grain": "year",
-   "track": "other",
-   "label": "honour",
+   "track": "affiliation",
    "text": "Became member of the Royal Swedish Academy of War Sciences.",
    "evidence": [
     {
@@ -194,12 +193,12 @@
    "date": "1906",
    "grain": "year",
    "track": "role",
-   "text": "Became chief of the shipyard in Karlskrona.",
+   "text": "Ended heading Military Office of the Ministry for Naval Affairs.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
      "role": "both",
-     "quote": "Ehrensvärd was chief of the shipyard in Karlskrona in 1906"
+     "quote": "He was head of the Military Office of the Ministry for Naval Affairs from 1904 to 1906"
     }
    ]
   },
@@ -208,12 +207,12 @@
    "date": "1906",
    "grain": "year",
    "track": "role",
-   "text": "Ended tenure as head of the Military Office, Ministry for Naval Affairs.",
+   "text": "Became chief of the shipyard in Karlskrona.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
      "role": "both",
-     "quote": "He was head of the Military Office of the Ministry for Naval Affairs from 1904 to 1906"
+     "quote": "Ehrensvärd was chief of the shipyard in Karlskrona in 1906"
     }
    ]
   },
@@ -252,12 +251,12 @@
    "date": "1907-12-04",
    "grain": "day",
    "track": "role",
-   "text": "Became Council of State and head of the Ministry for Naval Affairs.",
+   "text": "Became Council of State member and head of Ministry for Naval Affairs.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
      "role": "both",
-     "quote": "from 4 December 1907 to 30 June 1910"
+     "quote": "head of the Ministry for Naval Affairs from 4 December 1907 to 30 June 1910"
     },
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#0",
@@ -270,8 +269,7 @@
    "id": "e17",
    "date": "1908",
    "grain": "year",
-   "track": "other",
-   "label": "honour",
+   "track": "affiliation",
    "text": "Became honorary member of the Royal Swedish Society of Naval Sciences.",
    "evidence": [
     {
@@ -304,14 +302,14 @@
    "text": "Promoted to rear admiral.",
    "evidence": [
     {
+     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
+     "role": "both",
+     "quote": "admiral in 1910 and appointed station commander in Stockholm"
+    },
+    {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
      "role": "description",
      "quote": "Ehrensvärd then promoted to rear"
-    },
-    {
-     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
-     "role": "date",
-     "quote": "admiral in 1910"
     },
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#6",
@@ -321,27 +319,26 @@
    ]
   },
   {
+   "id": "e20",
    "date": "1910",
    "grain": "year",
    "track": "role",
-   "label": "",
-   "text": "Appointed station commander in Stockholm",
+   "text": "Appointed station commander in Stockholm.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
      "role": "both",
      "quote": "admiral in 1910 and appointed station commander in Stockholm"
     }
-   ],
-   "id": "e20"
+   ]
   },
   {
    "id": "e21",
    "date": "1910-06-30",
    "grain": "day",
    "track": "role",
-   "text": "Ended tenure as Council of State and head of the Ministry for Naval Affairs.",
    "flag": "source_inconsistent",
+   "text": "Ended term as head of Ministry for Naval Affairs (lead says 1911).",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
@@ -351,11 +348,11 @@
    ]
   },
   {
+   "id": "e22",
    "date": "1911",
    "grain": "year",
    "track": "role",
-   "label": "",
-   "text": "Minister for Naval Affairs term ended (intro gives 1907–1911)",
+   "text": "Minister for Naval Affairs term ended (lead gives 1907–1911).",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#0",
@@ -363,8 +360,7 @@
      "quote": "Minister for Naval Affairs 1907–1911"
     }
    ],
-   "flag": "source_inconsistent",
-   "id": "e22"
+   "flag": "source_inconsistent"
   },
   {
    "id": "e23",
@@ -403,14 +399,14 @@
    "text": "Promoted to vice admiral.",
    "evidence": [
     {
-     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
-     "role": "description",
-     "quote": "promoted to vice admiral"
-    },
-    {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#6",
      "role": "both",
      "quote": "1917 – Vice admiral"
+    },
+    {
+     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
+     "role": "description",
+     "quote": "the year after Ehrensvärd was promoted to vice admiral"
     }
    ]
   },
@@ -433,7 +429,7 @@
    "date": "1919",
    "grain": "year",
    "track": "role",
-   "text": "Became commanding admiral and station commander in Karlskrona.",
+   "text": "Began as commanding admiral and station commander in Karlskrona.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#4",
@@ -462,7 +458,7 @@
    "date": "1923",
    "grain": "year",
    "track": "role",
-   "text": "Ended tenure as commanding admiral and station commander in Karlskrona.",
+   "text": "Ended command as admiral and station commander in Karlskrona.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#4",
@@ -473,6 +469,21 @@
   },
   {
    "id": "e30",
+   "date": "1923",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Retired from the navy, three years before promotion to full admiral.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#4",
+     "role": "both",
+     "quote": "promoted to full admiral in 1926 , three years after he retired from the navy"
+    }
+   ]
+  },
+  {
+   "id": "e31",
    "date": "1924",
    "grain": "year",
    "track": "role",
@@ -486,7 +497,7 @@
    ]
   },
   {
-   "id": "e31",
+   "id": "e32",
    "date": "1926",
    "grain": "year",
    "track": "role",
@@ -495,7 +506,7 @@
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#4",
      "role": "both",
-     "quote": "promoted to full admiral in 1926"
+     "quote": "Ehrensvärd was promoted to full admiral in 1926"
     },
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#6",
@@ -505,11 +516,10 @@
    ]
   },
   {
-   "id": "e32",
+   "id": "e33",
    "date": "1928",
    "grain": "year",
    "track": "other",
-   "label": "award",
    "text": "Received King Gustaf V's Jubilee Commemorative Medal.",
    "evidence": [
     {
@@ -517,10 +527,11 @@
      "role": "both",
      "quote": "King Gustaf Vs Jubilee Commemorative Medal ( 1928 )"
     }
-   ]
+   ],
+   "label": "award"
   },
   {
-   "id": "e33",
+   "id": "e34",
    "date": "1928-06-16",
    "grain": "day",
    "track": "other",
@@ -535,7 +546,7 @@
    ]
   },
   {
-   "id": "e34",
+   "id": "e35",
    "date": "1937-05-14",
    "grain": "day",
    "track": "other",
@@ -550,38 +561,23 @@
    ]
   },
   {
-   "id": "e35",
+   "id": "e36",
    "date": "1944-02-16",
    "grain": "day",
    "track": "other",
    "label": "death",
-   "text": "Died.",
+   "text": "Death of Carl August Ehrensvärd.",
    "evidence": [
     {
      "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#0",
      "role": "both",
-     "quote": "Count Carl August Ehrensvärd ( 16 September 1858 – 16 February 1944 )"
+     "quote": "16 September 1858 – 16 February 1944"
     }
    ]
   }
  ],
  "undated_mentions": [
-  "Grand Cross of the Order of Leopold",
-  "Grand Cross of the Order of the Crown",
-  "Grand Cross of the Order of the White Rose of Finland",
-  "Grand Cross of the Order of the Crown of Italy",
-  "Grand Cross of the Order of the Three Stars",
-  "Grand Cross of the Order of Saint-Charles",
-  "Grand Cross of the Order of Orange-Nassau with swords",
-  "Knight First Class of the Order of the Red Eagle",
-  "Knight First Class of the Order of Saint Anna",
-  "Grand Cross of the Order of Charles III",
-  "Grand Cross of the Legion of Honour",
-  "1st Degree of the Cross of Liberty",
-  "Knight 2nd Class of the Order of the Crown",
-  "2nd Class, Third Grade of the Order of the Double Dragon",
-  "Knight 1st Class of the Order of St. Olav",
-  "Knight of the Military Order of Saint James of the Sword",
-  "First adjutant of Gustaf V of Sweden (no date)"
+  "First adjutant of Gustaf V of Sweden (no date given)",
+  "Undated orders and honours (Red Eagle 1st Class; Crown 2nd Class; Saint James of the Sword; Leopold, Crown, Three Stars, Saint-Charles, Orange-Nassau, Crown of Italy, White Rose of Finland, Charles III, Legion of Honour Grand Crosses; Saint Anna 1st Class; Cross of Liberty 1st Degree; Double Dragon 2nd Class 3rd Grade; St. Olav 1st Class)"
  ]
 }
