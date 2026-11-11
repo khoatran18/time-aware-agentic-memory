@@ -1,0 +1,162 @@
+#!/usr/bin/env python3 -I
+"""Phân loại mốc gold có cờ derived_date thành loại a (năm lấy từ ngữ cảnh liền kề, chặt) và b/khác.
+
+KHÔNG sửa gold. Đọc batchT (rev/ nếu có, không thì sub/) + in/<Trang>.txt, ghi:
+  local/derived_classify/<ngày>_classes.jsonl   (mỗi mốc derived một dòng: class, lý do, neo năm)
+  local/derived_classify/<ngày>_flags_snapshot.jsonl (bản cũ: page,id,date,flag của mọi mốc có cờ, để khôi phục)
+Chạy: python3 -I local/derived_classify.py [--out-tag TAG]
+Định nghĩa loại a (tất cả phải đúng):
+  1. mốc có cờ derived_date (cờ gộp vẫn tính) và không có approximate/source_inconsistent đi kèm;
+  2. mọi quote vai `date`/`both` đều nằm trong chunk của nó và KHÔNG chứa năm 4 chữ số;
+  3. quote có ngày+tháng tường minh ("21 May", "May 21") khớp ngày/tháng của `date` (grain day -> a_day),
+     hoặc có đúng tên tháng khớp (grain month -> a_month);
+  4. không có từ tương đối trong câu chứa quote (following, next, later, same, ...);
+  5. trong CÙNG chunk, trước quote có một năm neo (token năm đứng sau tháng hoặc sau in/during/by/since/...),
+     cách quote <= WINDOW ký tự, bằng năm của `date`, giữa neo và quote không có năm khác,
+     và các tháng nhắc giữa neo và quote không giảm (không qua năm mới).
+"""
+import json, re, os, sys, glob, datetime
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+T = os.path.join(ROOT, 'dataset/eval/timeline_pilot/batchT')
+WINDOW = 700
+FAR_D = 300   # loại a chặt: neo cách quote <= 300 ký tự và <= 2 dấu câu ' . ' (xa hơn -> a_far, cần đọc)
+FAR_S = 2
+MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december']
+ABBR = {m[:3]: i+1 for i, m in enumerate(MONTHS)}
+ABBR['sept'] = 9
+MNUM = {m: i+1 for i, m in enumerate(MONTHS)}
+MNUM.update(ABBR)
+MN = r'(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)\.?'
+DM1 = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?' + MN + r'\b')
+DM2 = re.compile(r'\b' + MN + r'\s+(\d{1,2})(?:st|nd|rd|th)?\b(?!\d)')
+YEAR = re.compile(r'(?<![\d,.])(1[0-9]{3}|20[0-9]{2})(?![\d])(?!\s*(?:tons?|m\b|km|kg|men|ft|nm|hp|kW|mm|cm))')
+YR_ABBR = re.compile(r'\b(1[0-9]{3}|20[0-9]{2})\s*[–-]\s*\d{2}\b')
+REL = re.compile(r"\b(following|next|previous|previously|later|earlier|same|afterwards?|thereafter|ago|prior|that (?:year|month|day|week|summer|winter|spring|autumn)|this (?:year|month))\b", re.I)
+WEAK = re.compile(r"\b(before|after|until|then|since|while|when)\b", re.I)
+PREC = re.compile(r'(?:\b(?:in|In|during|During|by|By|since|Since|from|From|of|early|late|mid|until|to|for|For|On|on)\s*)$')
+# tên tháng nhắc lẻ (không kèm ngày) để kiểm tra thứ tự tháng
+def months_in(s):
+    out = []
+    for m in re.finditer(MN, s):
+        name = m.group(1)
+        if name == 'May':
+            ctx = s[max(0, m.start()-8):m.end()+4]
+            if not re.search(r'(\d\s*(?:st|nd|rd|th)?\s*(?:of\s+)?May|May\s+\d|(?:in|In|of|early|late|mid|during|until|to|from|by)\s+May)', ctx):
+                continue
+        out.append((m.start(), MNUM[name.lower().rstrip('.')]))
+    return out
+def valid_day(y, m, d):
+    try: datetime.date(y, m, d); return True
+    except ValueError: return False
+def norm(s): return re.sub(r'\s+', ' ', s).strip()
+def load_chunks(page):
+    p = os.path.join(T, 'in', page + '.txt')
+    chunks = {}; cur = None
+    for line in open(p, encoding='utf-8'):
+        m = re.match(r'=== CHUNK (.+?) ===\s*$', line)
+        if m:
+            cur = m.group(1); chunks[cur] = []; continue
+        if cur is not None: chunks[cur].append(line.rstrip('\n'))
+    # bỏ dòng đầu "Page | Section" của mỗi chunk
+    return {k: norm(' '.join(v[1:])) for k, v in chunks.items()}
+def find_quote(text, q):
+    q = norm(q)
+    i = text.find(q)
+    return i, q
+def sentence_of(text, i, q):
+    s = text.rfind('. ', 0, i); s = 0 if s < 0 else s + 2
+    e = text.find(' .', i + len(q)); e = len(text) if e < 0 else e + 2
+    return text[s:e]
+def classify(ev, chunks):
+    weak = None; far = False
+    flag = ev.get('flag') or ''
+    if 'approximate_date' in flag or 'source_inconsistent' in flag:
+        return 'x_mixed_flag', 'cờ gộp có approximate/source_inconsistent', None
+    date = ev['date']
+    if date.startswith('-'): return 'x_bc', 'mốc BC', None
+    parts = date.split('-'); Y = int(parts[0]); M = int(parts[1]) if len(parts) > 1 else None; D = int(parts[2]) if len(parts) > 2 else None
+    dq = [v for v in ev['evidence'] if v.get('role') in ('both', 'date')]
+    if not dq: return 'x_no_date_quote', 'không có quote vai date/both', None
+    anchors = []
+    for v in dq:
+        cid, q = v['chunk_id'], v['quote']
+        text = chunks.get(cid)
+        if text is None: return 'x_chunk_missing', cid, None
+        i, qn = find_quote(text, q)
+        if i < 0: return 'x_quote_not_found', qn[:60], None
+        if YEAR.search(qn):
+            ys_q = {int(x) for x in YEAR.findall(qn)}
+            if Y in ys_q and M is not None:
+                dmq = [(int(m.group(1)), MNUM[m.group(2).lower().rstrip('.')]) for m in DM1.finditer(qn)] + [(int(m.group(2)), MNUM[m.group(1).lower().rstrip('.')]) for m in DM2.finditer(qn)]
+                mq = [m for _, m in months_in(qn)]
+                if D is not None and (D, M) in dmq: return 'c_exact_day', 'quote chứa đủ ngày/tháng/năm trùng date (cờ có vẻ thừa)', None
+                if D is None and M in mq: return 'c_exact_month', 'quote chứa đủ tháng/năm trùng date (cờ có vẻ thừa)', None
+            return 'c_year_in_quote', 'quote có năm nhưng không khớp đầy đủ date', None
+        if YR_ABBR.search(qn): return 'b_abbrev_year', 'năm viết tắt', None
+        sent = sentence_of(text, i, qn)
+        if REL.search(sent): return 'b_relative', 'từ tương đối trong câu: ' + REL.search(sent).group(0), None
+        # ngày+tháng trong quote
+        dms = [(int(m.group(1)), MNUM[m.group(2).lower().rstrip('.')]) for m in DM1.finditer(qn)]
+        dms += [(int(m.group(2)), MNUM[m.group(1).lower().rstrip('.')]) for m in DM2.finditer(qn)]
+        qmon = [m for _, m in months_in(qn)]
+        if D is not None:
+            if not dms: return 'x_no_day_month', 'quote không có ngày+tháng tường minh', None
+            if (D, M) not in dms: return 'x_dm_mismatch', f'quote {dms} khác date {D}/{M}', None
+            kind = 'a_day'
+        else:
+            if M is None: return 'x_year_grain', 'grain năm', None
+            if M not in qmon: return 'x_month_mismatch', f'quote {qmon} khác tháng {M}', None
+            kind = 'a_month'
+        # neo năm trong cùng chunk, trước quote
+        pre = text[:i]
+        lo = max(0, i - WINDOW)
+        ys = [m for m in YEAR.finditer(pre)]
+        if not ys:
+            # neo ở chunk liền trước (cùng trang)? chỉ ghi nhận, KHÔNG tính là loại a
+            keys = list(chunks.keys()); k = keys.index(cid)
+            if k > 0:
+                prev = chunks[keys[k-1]]; py = list(YEAR.finditer(prev))
+                if py and len(prev) - py[-1].end() <= WINDOW and int(py[-1].group(1)) == Y:
+                    return 'b_anchor_prev_chunk', f'neo {Y} ở chunk liền trước, cách {len(prev)-py[-1].end()} ký tự', None
+            return 'b_no_anchor', 'không có năm trước quote trong chunk', None
+        last = ys[-1]
+        if i - last.end() > WINDOW: return 'b_anchor_far', f'neo cách {i-last.end()} ký tự', None
+        if int(last.group(1)) != Y: return 'b_anchor_year_differs', f'neo {last.group(1)} khác {Y}', None
+        before = pre[:last.start()]
+        mo = re.search(MN + r'\s*(?:\d{1,2}(?:st|nd|rd|th)?\s*,?\s*)?$', before) or re.search(r'(\d{1,2}(?:st|nd|rd|th)?\s+(?:of\s+)?)' + MN + r'\s*,?\s*$', before)
+        if not (mo or PREC.search(before)): return 'b_anchor_context', 'năm neo không đứng sau tháng/giới từ ngày', None
+        if any(not valid_day(Y, m_, d_) for d_, m_ in dms): return 'x_invalid_day', f'ngày không tồn tại trong quote {dms}', None
+        seg = pre[last.end():]
+        anchor_month = MNUM[(mo.group(1) if mo.re.pattern.startswith(MN) else mo.group(2)).lower().rstrip('.')] if mo else 0
+        seq = [anchor_month] + [m for _, m in months_in(seg)] + [M]
+        seq = [x for x in seq if x]
+        if any(b < a for a, b in zip(seq, seq[1:])): return 'b_month_rollover', f'tháng giảm {seq}', None
+        if i - last.end() > FAR_D or pre[last.end():].count(' . ') > FAR_S: far = True
+        anchors.append(f'[d={i-last.end()} s={pre[last.end():].count(" . ")}] ' + pre[max(0, last.start()-40):last.end()+10] + ' ... ' + text[i:i+len(qn)][:60])
+        if WEAK.search(sent): weak = WEAK.search(sent).group(0)
+    if weak: kind = kind.replace('a_', 'a_weakrel_')
+    if far: kind = kind.replace('a_', 'a_far_', 1) if not weak else kind + '_far'
+    return kind, 'ok', ' || '.join(anchors)
+def main():
+    tag = datetime.date.today().isoformat()
+    if '--out-tag' in sys.argv: tag = sys.argv[sys.argv.index('--out-tag') + 1]
+    outdir = os.path.join(ROOT, 'local/derived_classify'); os.makedirs(outdir, exist_ok=True)
+    P = json.load(open(os.path.join(ROOT, 'local/prompts/pages_gold_test_clean.json')))
+    pages = [p for s in P['sessions'].values() for p in s]
+    cls = open(os.path.join(outdir, f'{tag}_classes.jsonl'), 'w'); snap = open(os.path.join(outdir, f'{tag}_flags_snapshot.jsonl'), 'w')
+    cnt = {}
+    for p in pages:
+        gp = os.path.join(T, 'rev', p + '.json')
+        src = 'rev'
+        if not os.path.exists(gp): gp = os.path.join(T, 'sub', p + '.json'); src = 'sub'
+        g = json.load(open(gp)); chunks = load_chunks(p)
+        for e in g['events']:
+            if e.get('flag'):
+                snap.write(json.dumps({'page': p, 'src': src, 'id': e['id'], 'date': e['date'], 'flag': e['flag']}, ensure_ascii=False) + '\n')
+            if 'derived_date' in (e.get('flag') or ''):
+                c, why, anc = classify(e, chunks)
+                cnt[c] = cnt.get(c, 0) + 1
+                cls.write(json.dumps({'page': p, 'src': src, 'id': e['id'], 'date': e['date'], 'flag': e['flag'], 'class': c, 'why': why, 'anchor': anc,
+                                      'quote': ' || '.join(v['quote'] for v in e['evidence'] if v.get('role') in ('both', 'date')), 'text': e['text']}, ensure_ascii=False) + '\n')
+    print(json.dumps(dict(sorted(cnt.items(), key=lambda x: -x[1])), indent=1), sum(cnt.values()))
+main()
