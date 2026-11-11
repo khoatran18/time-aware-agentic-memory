@@ -1,38 +1,536 @@
 {
  "page_id": "/wiki/Cho_Yoon-sun",
  "events": [
-  {"id": "e1", "date": "1965-07-22", "grain": "day", "track": "other", "label": "birth", "text": "Cho Yoon-sun was born in Seoul.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#0", "role": "both", "quote": "born 22 July 1965"}, {"chunk_id": "/wiki/Cho_Yoon-sun#1", "role": "both", "quote": "was born on 22 July 1965 in Seoul"}]},
-  {"id": "e2", "date": "1984", "grain": "year", "track": "education", "text": "Graduated from Sehwa Girls High School.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#1", "role": "both", "quote": "graduating in 1984"}]},
-  {"id": "e3", "date": "1988", "grain": "year", "track": "education", "text": "Received bachelor's degree in International Relations from Seoul National University.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#1", "role": "both", "quote": "received her bachelors degree in International Relations in 1988"}]},
-  {"id": "e4", "date": "1991", "grain": "year", "track": "other", "label": "bar admission", "text": "Passed the Korean bar examination.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "both", "quote": "She passed the Korean bar in 1991"}]},
-  {"id": "e5", "date": "1991", "grain": "year", "track": "affiliation", "text": "Joined Kim and Chang Law Firm, later becoming a partner.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "date", "quote": "She passed the Korean bar in 1991"}, {"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "description", "quote": "joined the Kim and Chang Law Firm where she became a partner"}]},
-  {"id": "e6", "date": "2001", "grain": "year", "track": "education", "text": "Received Master of Laws degree from Columbia Law School.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#1", "role": "both", "quote": "received her Master of Laws degree in 2001"}]},
-  {"id": "e7", "date": "2002", "grain": "year", "track": "role", "text": "Worked as spokesperson for Lee Choi-chang during presidential election.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "both", "quote": "During the 2002 South Korean presidential election she worked as a spokesperson"}]},
-  {"id": "e8", "date": "2006", "grain": "year", "track": "affiliation", "text": "Left Kim and Chang Law Firm.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "both", "quote": "She left Kim & Chang in 2006"}]},
-  {"id": "e9", "date": "2006", "grain": "year", "track": "affiliation", "text": "Joined Citibank Korea as General Counsel and managing director.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "date", "quote": "She left Kim & Chang in 2006"}, {"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "description", "quote": "to work for Citibank Korea where she became General Counsel and a managing director"}]},
-  {"id": "e10", "date": "2008", "grain": "year", "track": "affiliation", "text": "Left Citibank Korea.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "both", "quote": "She left Citibank Korea in 2008"}]},
-  {"id": "e11", "date": "2008", "grain": "year", "track": "role", "text": "Elected to the 18th South Korean National Assembly.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#2", "role": "both", "quote": "She left Citibank Korea in 2008 when she was elected to the 18th South Korean National Assembly"}]},
-  {"id": "e12", "date": "2008", "grain": "year", "track": "other", "label": "award", "text": "Meeting Opera at an Arts Gallery chosen as Cultural Book of the Year.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#11", "role": "both", "quote": "Meeting Opera at an Arts Gallery , which was chosen by the Ministry of Culture as the Cultural Book of the Year for 2008"}]},
-  {"id": "e13", "date": "2010", "grain": "year", "track": "other", "label": "founding", "text": "Helped establish the Korean War Memorial Foundation with Baek Sun-yeop.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#3", "role": "both", "quote": "In 2010 , together with General Baek Sun-yeop , Cho helped establish the Korean War Memorial Foundation"}]},
-  {"id": "e14", "date": "2010-07", "grain": "month", "track": "role", "text": "Began serving as vice-chairperson of the Korean War Memorial Foundation.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#3", "role": "both", "quote": "vice-chairperson of the foundation from July 2010 to March 2013"}]},
-  {"id": "e15", "date": "2010-07", "grain": "month", "track": "role", "text": "Became goodwill ambassador for KOICA.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#3", "role": "both", "quote": "Beginning in July 2010 , she acted as a goodwill ambassador for the Korea International Cooperation Agency"}]},
-  {"id": "e16", "date": "2011", "grain": "year", "track": "work", "text": "Published the book Culture is the Answer.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#11", "role": "both", "quote": "Culture is the Answer ( 2011 )"}]},
-  {"id": "e17", "date": "2013", "grain": "year", "track": "role", "text": "Appointed Minister of Gender Equality and Family.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "both", "quote": "In 2013 , she was appointed as South Koreas Minister of Gender Equality and Family"}]},
-  {"id": "e18", "date": "2013-03", "grain": "month", "track": "role", "text": "Ended term as vice-chairperson of the foundation.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#3", "role": "both", "quote": "vice-chairperson of the foundation from July 2010 to March 2013"}]},
-  {"id": "e19", "date": "2014", "grain": "year", "track": "role", "text": "Left the Minister of Gender Equality and Family post.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "both", "quote": "In 2014 , Cho left the ministry to become President Park Geun-hyes Senior Secretary for Political Affairs"}]},
-  {"id": "e20", "date": "2014", "grain": "year", "track": "role", "text": "Appointed Senior Secretary for Political Affairs to President Park Geun-hye.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "both", "quote": "In 2014 , Cho left the ministry to become President Park Geun-hyes Senior Secretary for Political Affairs"}]},
-  {"id": "e21", "date": "2015", "grain": "year", "track": "role", "text": "Resigned as Senior Secretary for Political Affairs.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "both", "quote": "she resigned that post in 2015 after failing to meet the presidents goals"}]},
-  {"id": "e22", "date": "2015", "grain": "year", "track": "affiliation", "text": "Taught for a year at Sungshin Women's University College of Law.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "date", "quote": "she resigned that post in 2015"}, {"chunk_id": "/wiki/Cho_Yoon-sun#4", "role": "description", "quote": "Cho then taught for a year at Sungshin Womens Universitys College of Law"}]},
-  {"id": "e23", "date": "2016-08", "grain": "month", "track": "role", "text": "Appointed Minister of Culture, Sports and Tourism.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#5", "role": "both", "quote": "In August 2016 , President Park appointed Cho as the new Minister of Culture , Sports and Tourism"}]},
-  {"id": "e24", "date": "2016-12", "grain": "month", "track": "other", "label": "charge", "text": "Charged with helping to create a political blacklist of artists.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#7", "role": "date", "quote": "In December 2016 , as part of the continued investigation of corruption under President Park Geun-hye"}, {"chunk_id": "/wiki/Cho_Yoon-sun#7", "role": "description", "quote": "Cho was charged with helping to create the list , although she denied it"}]},
-  {"id": "e25", "date": "2017-01", "grain": "month", "track": "role", "text": "Resigned as Minister of Culture, Sports and Tourism.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#5", "role": "both", "quote": "She resigned the post in January 2017"}]},
-  {"id": "e26", "date": "2017-01", "grain": "month", "track": "other", "label": "arrest", "text": "Arrested on corruption and perjury charges.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#7", "role": "both", "quote": "In January 2017 , Cho was arrested on corruption and perjury charges"}]},
-  {"id": "e27", "date": "2017-02", "grain": "month", "track": "other", "label": "indictment", "text": "Formally indicted on abuse of power, coercion and perjury charges.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#7", "role": "date", "quote": "In January 2017 , Cho was arrested on corruption and perjury charges"}, {"chunk_id": "/wiki/Cho_Yoon-sun#7", "role": "description", "quote": "In February formal indictments were issued charging her with abuse of power , coercion and perjury"}]},
-  {"id": "e28", "date": "2017-07-27", "grain": "day", "track": "other", "label": "conviction", "text": "Convicted of perjury for lying about the blacklist to the National Assembly.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "both", "quote": "On 27 July 2017 , Cho was convicted of perjury"}]},
-  {"id": "e29", "date": "2017-07-27", "grain": "day", "track": "other", "label": "release", "text": "Prison term suspended and released from jail.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "date", "quote": "On 27 July 2017 , Cho was convicted of perjury"}, {"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "description", "quote": "The Seoul Central District Court suspended her prison term and released her from jail the same day"}]},
-  {"id": "e30", "date": "2018-01-23", "grain": "day", "track": "other", "label": "conviction", "text": "Convicted of role in drawing up plans to blacklist over 10,000 artists.", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "both", "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans to blacklist"}]},
-  {"id": "e31", "date": "2018-01-23", "grain": "day", "track": "other", "label": "arrest", "text": "Arrested in the courtroom after conviction.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "date", "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans"}, {"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "description", "quote": "She was arrested in the courtroom"}]},
-  {"id": "e32", "date": "2018-01-23", "grain": "day", "track": "other", "label": "sentence", "text": "Sentenced to two more years of prison.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "date", "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans"}, {"chunk_id": "/wiki/Cho_Yoon-sun#9", "role": "description", "quote": "was sentenced to two more years of prison"}]}
+  {
+   "id": "e1",
+   "date": "1965-07-22",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Cho Yoon-sun was born in Seoul.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#0",
+     "role": "both",
+     "quote": "born 22 July 1965"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#1",
+     "role": "both",
+     "quote": "was born on 22 July 1965 in Seoul"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1984",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from Sehwa Girls High School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#1",
+     "role": "both",
+     "quote": "graduating in 1984"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1988",
+   "grain": "year",
+   "track": "education",
+   "text": "Received bachelor's degree in International Relations from Seoul National University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#1",
+     "role": "both",
+     "quote": "received her bachelors degree in International Relations in 1988"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "bar admission",
+   "text": "Passed the Korean bar examination.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "both",
+     "quote": "She passed the Korean bar in 1991"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Kim and Chang Law Firm, later becoming a partner.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "date",
+     "quote": "She passed the Korean bar in 1991"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "description",
+     "quote": "joined the Kim and Chang Law Firm where she became a partner"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2001",
+   "grain": "year",
+   "track": "education",
+   "text": "Received Master of Laws degree from Columbia Law School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#1",
+     "role": "both",
+     "quote": "received her Master of Laws degree in 2001"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Worked as spokesperson for Lee Choi-chang during presidential election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "both",
+     "quote": "During the 2002 South Korean presidential election she worked as a spokesperson"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Kim and Chang Law Firm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "both",
+     "quote": "She left Kim & Chang in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Citibank Korea as General Counsel and managing director.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "date",
+     "quote": "She left Kim & Chang in 2006"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "description",
+     "quote": "to work for Citibank Korea where she became General Counsel and a managing director"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Citibank Korea.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "both",
+     "quote": "She left Citibank Korea in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected to the 18th South Korean National Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#2",
+     "role": "both",
+     "quote": "She left Citibank Korea in 2008 when she was elected to the 18th South Korean National Assembly"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Meeting Opera at an Arts Gallery chosen as Cultural Book of the Year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#11",
+     "role": "both",
+     "quote": "Meeting Opera at an Arts Gallery , which was chosen by the Ministry of Culture as the Cultural Book of the Year for 2008"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Helped establish the Korean War Memorial Foundation with Baek Sun-yeop.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#3",
+     "role": "both",
+     "quote": "In 2010 , together with General Baek Sun-yeop , Cho helped establish the Korean War Memorial Foundation"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2010-07",
+   "grain": "month",
+   "track": "role",
+   "text": "Began serving as vice-chairperson of the Korean War Memorial Foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#3",
+     "role": "both",
+     "quote": "vice-chairperson of the foundation from July 2010 to March 2013"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2010-07",
+   "grain": "month",
+   "track": "role",
+   "text": "Became goodwill ambassador for KOICA.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#3",
+     "role": "both",
+     "quote": "Beginning in July 2010 , she acted as a goodwill ambassador for the Korea International Cooperation Agency"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "text": "Published the book Culture is the Answer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#11",
+     "role": "both",
+     "quote": "Culture is the Answer ( 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Minister of Gender Equality and Family.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "both",
+     "quote": "In 2013 , she was appointed as South Koreas Minister of Gender Equality and Family"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2013-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended term as vice-chairperson of the foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#3",
+     "role": "both",
+     "quote": "vice-chairperson of the foundation from July 2010 to March 2013"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Left the Minister of Gender Equality and Family post.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "both",
+     "quote": "In 2014 , Cho left the ministry to become President Park Geun-hyes Senior Secretary for Political Affairs"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Senior Secretary for Political Affairs to President Park Geun-hye.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "both",
+     "quote": "In 2014 , Cho left the ministry to become President Park Geun-hyes Senior Secretary for Political Affairs"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned as Senior Secretary for Political Affairs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "both",
+     "quote": "she resigned that post in 2015 after failing to meet the presidents goals"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Taught for a year at Sungshin Women's University College of Law.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "date",
+     "quote": "she resigned that post in 2015"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#4",
+     "role": "description",
+     "quote": "Cho then taught for a year at Sungshin Womens Universitys College of Law"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2016-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed Minister of Culture, Sports and Tourism.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#5",
+     "role": "both",
+     "quote": "In August 2016 , President Park appointed Cho as the new Minister of Culture , Sports and Tourism"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2016-12",
+   "grain": "month",
+   "track": "other",
+   "label": "charge",
+   "text": "Charged with helping to create a political blacklist of artists.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#7",
+     "role": "date",
+     "quote": "In December 2016 , as part of the continued investigation of corruption under President Park Geun-hye"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#7",
+     "role": "description",
+     "quote": "Cho was charged with helping to create the list , although she denied it"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2017-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Resigned as Minister of Culture, Sports and Tourism.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#5",
+     "role": "both",
+     "quote": "She resigned the post in January 2017"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2017-01",
+   "grain": "month",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested on corruption and perjury charges.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#7",
+     "role": "both",
+     "quote": "In January 2017 , Cho was arrested on corruption and perjury charges"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2017-02",
+   "grain": "month",
+   "track": "other",
+   "label": "indictment",
+   "text": "Formally indicted on abuse of power, coercion and perjury charges.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#7",
+     "role": "date",
+     "quote": "In January 2017 , Cho was arrested on corruption and perjury charges"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#7",
+     "role": "description",
+     "quote": "In February formal indictments were issued charging her with abuse of power , coercion and perjury"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2017-07-27",
+   "grain": "day",
+   "track": "other",
+   "label": "conviction",
+   "text": "Convicted of perjury for lying about the blacklist to the National Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "both",
+     "quote": "On 27 July 2017 , Cho was convicted of perjury"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2017-07-27",
+   "grain": "day",
+   "track": "other",
+   "label": "release",
+   "text": "Prison term suspended and released from jail.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "date",
+     "quote": "On 27 July 2017 , Cho was convicted of perjury"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "description",
+     "quote": "The Seoul Central District Court suspended her prison term and released her from jail the same day"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2018-01-23",
+   "grain": "day",
+   "track": "other",
+   "label": "conviction",
+   "text": "Convicted of role in drawing up plans to blacklist over 10,000 artists.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "both",
+     "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans to blacklist"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2018-01-23",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested in the courtroom after conviction.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "date",
+     "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "description",
+     "quote": "She was arrested in the courtroom"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2018-01-23",
+   "grain": "day",
+   "track": "other",
+   "label": "sentence",
+   "text": "Sentenced to two more years of prison.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "date",
+     "quote": "On 23 January 2018 , Cho was convicted of her role in drawing up plans"
+    },
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#9",
+     "role": "description",
+     "quote": "was sentenced to two more years of prison"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2018-08",
+   "grain": "month",
+   "track": "other",
+   "text": "Prosecutors asked the court to sentence Cho to six years in a separate corruption case.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cho_Yoon-sun#10",
+     "role": "both",
+     "quote": "In August 2018 , in a separate corruption case involving funds from the National Intelligence Service , prosecutors asked the court to sentence Cho to serve six years in prison"
+    }
+   ],
+   "label": "trial"
+  }
  ],
- "undated_mentions": ["has published two books", "married attorney Park Seong-yeop"]
+ "undated_mentions": [
+  "has published two books",
+  "married attorney Park Seong-yeop"
+ ]
 }

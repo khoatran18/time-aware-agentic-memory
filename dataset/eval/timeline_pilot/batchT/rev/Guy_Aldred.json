@@ -1,55 +1,748 @@
-{"page_id": "/wiki/Guy_Aldred",
+{
+ "page_id": "/wiki/Guy_Aldred",
  "events": [
-  {"id": "e1", "date": "1886-11-05", "grain": "day", "track": "other", "label": "birth", "text": "Guy Aldred born in Clerkenwell, London", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#0", "role": "date", "quote": "5 November 1886 – 16 October 1963"}, {"chunk_id": "/wiki/Guy_Aldred#1", "role": "description", "quote": "Aldred was born in Clerkenwell , London"}]},
-  {"id": "e2", "date": "1894", "grain": "year", "track": "other", "label": "communion", "text": "Took communion at St Anne and St Agnes church", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#3", "role": "both", "quote": "where he took communion in 1894"}]},
-  {"id": "e3", "date": "1902", "grain": "year", "track": "other", "label": "founding", "text": "Co-founded Christian Social Mission as Holloway Boy Preacher", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#4", "role": "date", "quote": "At the age of 15 ( 1902 )"}, {"chunk_id": "/wiki/Guy_Aldred#5", "role": "description", "quote": "he co-founded the Christian Social Mission , opening shortly after his 16th birthday"}], "flag": "derived_date"},
-  {"id": "e4", "date": "1902-12-20", "grain": "day", "track": "other", "label": "meeting", "text": "Granted audience by Charles Voysey, start of friendship", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#6", "role": "both", "quote": "granted an audience on 20 December 1902"}]},
-  {"id": "e5", "date": "1903-01", "grain": "month", "track": "other", "label": "meeting", "text": "Reverend George Martin visits Guy and asks to meet him", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#7", "role": "both", "quote": "In January 1903 the Reverend George Martin , an Anglican priest , visited Guy"}]},
-  {"id": "e6", "date": "1903", "grain": "year", "track": "affiliation", "text": "Left Christian Social Mission after last pulpit sermon", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#7", "role": "date", "quote": "In January 1903 the Reverend George Martin"}, {"chunk_id": "/wiki/Guy_Aldred#7", "role": "description", "quote": "He soon gave his last sermon from the pulpit and left the Christian Social Mission"}], "flag": "derived_date"},
-  {"id": "e7", "date": "1904", "grain": "year", "track": "other", "label": "founding", "text": "Founded the Theistic Mission, meeting every Sunday", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#8", "role": "both", "quote": "In 1904 he founded the Theistic Mission"}]},
-  {"id": "e8", "date": "1904-08", "grain": "month", "track": "naming", "text": "Meeting banner changed to The Clerkenwell Freethought Mission", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#8", "role": "both", "quote": "By August , the meeting banner was changed to read The Clerkenwell Freethought Mission"}], "flag": "derived_date"},
-  {"id": "e9", "date": "1906", "grain": "year", "track": "affiliation", "text": "Left the Social Democratic Federation", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#13", "role": "both", "quote": "but left in 1906"}]},
-  {"id": "e10", "date": "1906", "grain": "year", "track": "work", "text": "Published pamphlet The Possibility and Philosophy of Anarchist Communism", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "The Possibility and Philosophy of Anarchist Communism , 1906"}]},
-  {"id": "e11", "date": "1907", "grain": "year", "track": "work", "text": "Published pamphlet Logics and Economics of the Class Struggle", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "Logics and Economics of the Class Struggle , 1907"}]},
-  {"id": "e12", "date": "1907", "grain": "year", "track": "work", "text": "Published pamphlet Open Letter to a Constitutional Imbecile", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "Open Letter to a Constitutional Imbecile , 1907"}]},
-  {"id": "e13", "date": "1907", "grain": "year", "track": "work", "text": "Published pamphlet The Basis and Exodus of Bourgeois Sectarianism", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "The Basis and Exodus of Bourgeois Sectarianism , 1907"}]},
-  {"id": "e14", "date": "1907", "grain": "year", "track": "work", "text": "Published pamphlet Sex Oppression", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "Sex Oppression , 1907"}]},
-  {"id": "e15", "date": "1908", "grain": "year", "track": "work", "text": "Published pamphlet Anarchism, Socialism and Social Revolution", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "Anarchism , Socialism and Social Revolution , 1908"}]},
-  {"id": "e16", "date": "1908", "grain": "year", "track": "work", "text": "Published pamphlet From Anglican Boy-Preacher to Anarchist Socialist Impossibilist", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#20", "role": "both", "quote": "From Anglican Boy-Preacher to Anarchist Socialist Impossibilist , 1908"}]},
-  {"id": "e17", "date": "1911", "grain": "year", "track": "work", "text": "Published Trade Unionism and the Class War", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#21", "role": "both", "quote": "Trade Unionism and the Class War , 1911"}]},
-  {"id": "e18", "date": "1912", "grain": "year", "track": "work", "text": "Published Richard Carlile: His Battle for the Free Press, Bakunin Press", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "The Bukunin Press , 1912"}]},
-  {"id": "e19", "date": "1913", "grain": "year", "track": "work", "text": "Edited Bakunin's Writings", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "Bakunins Writings ( ed ) , 1913"}]},
-  {"id": "e20", "date": "1920", "grain": "year", "track": "work", "text": "Published Communism and Religion", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "Communism and Religion , 1920"}]},
-  {"id": "e21", "date": "1921", "grain": "year", "track": "other", "label": "founding", "text": "Founded the Anti-Parliamentary Communist Federation (APCF)", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#13", "role": "both", "quote": "founded the Anti-Parliamentary Communist Federation ( APCF ) in 1921"}]},
-  {"id": "e22", "date": "1922", "grain": "year", "track": "location", "text": "Settled permanently in Glasgow", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#17", "role": "both", "quote": "Aldred settled permanently in Glasgow in 1922"}]},
-  {"id": "e23", "date": "1924", "grain": "year", "track": "work", "text": "Published Socialism and Parliament", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "Socialism and Parliament , 1924"}]},
-  {"id": "e24", "date": "1924", "grain": "year", "track": "family", "text": "Finally parted from partner Rose Witcop", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#17", "role": "both", "quote": "finally parting in 1924"}]},
-  {"id": "e25", "date": "1926-02-02", "grain": "day", "track": "family", "label": "marriage", "text": "Legal marriage to Rose Witcop", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#17", "role": "both", "quote": "they had a legal marriage on 2 February 1926"}]},
-  {"id": "e26", "date": "1928", "grain": "year", "track": "work", "text": "Published Socialism and Parliament Part I (revised edition)", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "Socialism and Parliament Part I : The Burning Question of Today ( revised edition , 1928 )"}]},
-  {"id": "e27", "date": "1928", "grain": "year", "track": "work", "text": "Published Socialism and Parliament Part II: Government by Labour", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "Socialism and Parliament Part II : Government by Labour , 1928"}]},
-  {"id": "e28", "date": "1929", "grain": "year", "track": "work", "text": "Published At Grips with War", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "At Grips with War , 1929"}]},
-  {"id": "e29", "date": "1932", "grain": "year", "track": "affiliation", "text": "Split with the APCF", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#14", "role": "both", "quote": "In 1932 he split with the APCF"}]},
-  {"id": "e30", "date": "1932", "grain": "year", "track": "work", "text": "Published John Maclean", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#22", "role": "both", "quote": "John Maclean , 1932"}]},
-  {"id": "e31", "date": "1933", "grain": "year", "track": "work", "text": "Published revised edition of Life of Bakunin", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#23", "role": "both", "quote": "Life of Bakunin ( Revised Edition ) , 1933"}]},
-  {"id": "e32", "date": "1934", "grain": "year", "track": "work", "text": "Published Towards Social Revolution? Whither the ILP?", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Towards Social Revolution? : Whither the ILP? , 1934"}]},
-  {"id": "e33", "date": "1934", "grain": "year", "track": "work", "text": "Published Socialism and the Pope", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Socialism and the Pope , 1934"}]},
-  {"id": "e34", "date": "1935", "grain": "year", "track": "work", "text": "Published For Communism", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "For Communism , 1935"}]},
-  {"id": "e35", "date": "1938", "grain": "year", "track": "work", "text": "Published Against Terrorism in the Workers Struggle", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Against Terrorism in the Workers Struggle , 1938"}]},
-  {"id": "e36", "date": "1940", "grain": "year", "track": "work", "text": "Published The Rebel and his Disciple", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "The Rebel and his Disciple , 1940"}]},
-  {"id": "e37", "date": "1940", "grain": "year", "track": "work", "text": "Published Historical and Traditional Christianity", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Historical and Traditional Christianity 1940"}]},
-  {"id": "e38", "date": "1940", "grain": "year", "track": "work", "text": "Published Studies in Communism", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Studies in Communism , 1940"}]},
-  {"id": "e39", "date": "1940", "grain": "year", "track": "work", "text": "Published Dogmas Discarded", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Dogmas Discarded , 1940"}]},
-  {"id": "e40", "date": "1940", "grain": "year", "track": "work", "text": "Published Pioneers of Anti-Parliamentarianism", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Pioneers of Anti-Parliamentarianism , 1940"}]},
-  {"id": "e41", "date": "1940", "grain": "year", "track": "work", "text": "Published Why Jesus Wept", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Why Jesus Wept , 1940"}]},
-  {"id": "e42", "date": "1940", "grain": "year", "track": "work", "text": "Published The Conscientious Objector, The Tribunal and After", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "The Conscientious Objector , The Tribunal and After , 1940"}]},
-  {"id": "e43", "date": "1942", "grain": "year", "track": "work", "text": "Published Convict 9653 - Eugene Debs", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Convict 9653 - Eugene Debs , 1942"}]},
-  {"id": "e44", "date": "1943", "grain": "year", "track": "work", "text": "Published Communism: The Story of the Communist Party", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#24", "role": "both", "quote": "Communism : The Story of the Communist Party , 1943"}]},
-  {"id": "e45", "date": "1944", "grain": "year", "track": "work", "text": "Published A Call to Manhood, 26 Essays", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#25", "role": "both", "quote": "A Call to Manhood : 26 Essays , 1944"}]},
-  {"id": "e46", "date": "1945", "grain": "year", "track": "work", "text": "Published Sown in Dishonour", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#26", "role": "both", "quote": "Sown in Dishonour , 1945"}]},
-  {"id": "e47", "date": "1945", "grain": "year", "track": "work", "text": "Published Peace Now and Forever", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#26", "role": "both", "quote": "Peace Now and Forever , 1945"}]},
-  {"id": "e48", "date": "1948", "grain": "year", "track": "work", "text": "Published Rex v. Aldred, Report of Trials for Sedition", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#26", "role": "both", "quote": "Rex v . Aldred - Report of Trials for Sedition , 1909 and 1912 , 1948"}]},
-  {"id": "e49", "date": "1955-12", "grain": "month", "track": "work", "text": "Began issuing No Traitors Gait autobiography in 19 parts", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#26", "role": "both", "quote": "( Issued in 19 parts between December 1955 and June 1963 )"}]},
-  {"id": "e50", "date": "1963-10-16", "grain": "day", "track": "other", "label": "death", "text": "Died in Western Infirmary, Glasgow, aged 76", "evidence": [{"chunk_id": "/wiki/Guy_Aldred#18", "role": "both", "quote": "Guy Aldred died , almost penniless , in the Western Infirmary , Glasgow , on 16 October 1963"}]}
+  {
+   "id": "e1",
+   "date": "1886-11-05",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Guy Aldred born in Clerkenwell, London",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#0",
+     "role": "date",
+     "quote": "5 November 1886 – 16 October 1963"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Aldred#1",
+     "role": "description",
+     "quote": "Aldred was born in Clerkenwell , London"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1894",
+   "grain": "year",
+   "track": "other",
+   "label": "communion",
+   "text": "Took communion at St Anne and St Agnes church",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#3",
+     "role": "both",
+     "quote": "where he took communion in 1894"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1902",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded Christian Social Mission as Holloway Boy Preacher",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#4",
+     "role": "date",
+     "quote": "At the age of 15 ( 1902 )"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Aldred#5",
+     "role": "description",
+     "quote": "he co-founded the Christian Social Mission , opening shortly after his 16th birthday"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1902-12-20",
+   "grain": "day",
+   "track": "other",
+   "label": "meeting",
+   "text": "Granted audience by Charles Voysey, start of friendship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#6",
+     "role": "both",
+     "quote": "granted an audience on 20 December 1902"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1903-01",
+   "grain": "month",
+   "track": "other",
+   "label": "meeting",
+   "text": "Reverend George Martin visits Guy and asks to meet him",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#7",
+     "role": "both",
+     "quote": "In January 1903 the Reverend George Martin , an Anglican priest , visited Guy"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1903",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Christian Social Mission after last pulpit sermon",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#7",
+     "role": "date",
+     "quote": "In January 1903 the Reverend George Martin"
+    },
+    {
+     "chunk_id": "/wiki/Guy_Aldred#7",
+     "role": "description",
+     "quote": "He soon gave his last sermon from the pulpit and left the Christian Social Mission"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e7",
+   "date": "1904",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded the Theistic Mission, meeting every Sunday",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#8",
+     "role": "both",
+     "quote": "In 1904 he founded the Theistic Mission"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1904-08",
+   "grain": "month",
+   "track": "naming",
+   "text": "Meeting banner changed to The Clerkenwell Freethought Mission",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#8",
+     "role": "both",
+     "quote": "By August , the meeting banner was changed to read The Clerkenwell Freethought Mission"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1906",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left the Social Democratic Federation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#13",
+     "role": "both",
+     "quote": "but left in 1906"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1906",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet The Possibility and Philosophy of Anarchist Communism",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "The Possibility and Philosophy of Anarchist Communism , 1906"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1907",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet Logics and Economics of the Class Struggle",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "Logics and Economics of the Class Struggle , 1907"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1907",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet Open Letter to a Constitutional Imbecile",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "Open Letter to a Constitutional Imbecile , 1907"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1907",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet The Basis and Exodus of Bourgeois Sectarianism",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "The Basis and Exodus of Bourgeois Sectarianism , 1907"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1907",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet Sex Oppression",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "Sex Oppression , 1907"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet Anarchism, Socialism and Social Revolution",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "Anarchism , Socialism and Social Revolution , 1908"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "text": "Published pamphlet From Anglican Boy-Preacher to Anarchist Socialist Impossibilist",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#20",
+     "role": "both",
+     "quote": "From Anglican Boy-Preacher to Anarchist Socialist Impossibilist , 1908"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1911",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Trade Unionism and the Class War",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#21",
+     "role": "both",
+     "quote": "Trade Unionism and the Class War , 1911"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1912",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Richard Carlile: His Battle for the Free Press, Bakunin Press",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "The Bukunin Press , 1912"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1913",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited Bakunin's Writings",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "Bakunins Writings ( ed ) , 1913"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1920",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Communism and Religion",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "Communism and Religion , 1920"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1921",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded the Anti-Parliamentary Communist Federation (APCF)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#13",
+     "role": "both",
+     "quote": "founded the Anti-Parliamentary Communist Federation ( APCF ) in 1921"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1922",
+   "grain": "year",
+   "track": "location",
+   "text": "Settled permanently in Glasgow",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#17",
+     "role": "both",
+     "quote": "Aldred settled permanently in Glasgow in 1922"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1924",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Socialism and Parliament",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "Socialism and Parliament , 1924"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1924",
+   "grain": "year",
+   "track": "family",
+   "text": "Finally parted from partner Rose Witcop",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#17",
+     "role": "both",
+     "quote": "finally parting in 1924"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1926-02-02",
+   "grain": "day",
+   "track": "family",
+   "label": "marriage",
+   "text": "Legal marriage to Rose Witcop",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#17",
+     "role": "both",
+     "quote": "they had a legal marriage on 2 February 1926"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Socialism and Parliament Part I (revised edition)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "Socialism and Parliament Part I : The Burning Question of Today ( revised edition , 1928 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Socialism and Parliament Part II: Government by Labour",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "Socialism and Parliament Part II : Government by Labour , 1928"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1929",
+   "grain": "year",
+   "track": "work",
+   "text": "Published At Grips with War",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "At Grips with War , 1929"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1932",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Split with the APCF",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#14",
+     "role": "both",
+     "quote": "In 1932 he split with the APCF"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1932",
+   "grain": "year",
+   "track": "work",
+   "text": "Published John Maclean",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#22",
+     "role": "both",
+     "quote": "John Maclean , 1932"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1933",
+   "grain": "year",
+   "track": "work",
+   "text": "Published revised edition of Life of Bakunin",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#23",
+     "role": "both",
+     "quote": "Life of Bakunin ( Revised Edition ) , 1933"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1934",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Towards Social Revolution? Whither the ILP?",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Towards Social Revolution? : Whither the ILP? , 1934"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1934",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Socialism and the Pope",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Socialism and the Pope , 1934"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1935",
+   "grain": "year",
+   "track": "work",
+   "text": "Published For Communism",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "For Communism , 1935"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1938",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Against Terrorism in the Workers Struggle",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Against Terrorism in the Workers Struggle , 1938"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Rebel and his Disciple",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "The Rebel and his Disciple , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Historical and Traditional Christianity",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Historical and Traditional Christianity 1940"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Studies in Communism",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Studies in Communism , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Dogmas Discarded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Dogmas Discarded , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Pioneers of Anti-Parliamentarianism",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Pioneers of Anti-Parliamentarianism , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Why Jesus Wept",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Why Jesus Wept , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1940",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Conscientious Objector, The Tribunal and After",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "The Conscientious Objector , The Tribunal and After , 1940"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1942",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Convict 9653 - Eugene Debs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Convict 9653 - Eugene Debs , 1942"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1943",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Communism: The Story of the Communist Party",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#24",
+     "role": "both",
+     "quote": "Communism : The Story of the Communist Party , 1943"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1944",
+   "grain": "year",
+   "track": "work",
+   "text": "Published A Call to Manhood, 26 Essays",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#25",
+     "role": "both",
+     "quote": "A Call to Manhood : 26 Essays , 1944"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1945",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Sown in Dishonour",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#26",
+     "role": "both",
+     "quote": "Sown in Dishonour , 1945"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1945",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Peace Now and Forever",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#26",
+     "role": "both",
+     "quote": "Peace Now and Forever , 1945"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Rex v. Aldred, Report of Trials for Sedition",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#26",
+     "role": "both",
+     "quote": "Rex v . Aldred - Report of Trials for Sedition , 1909 and 1912 , 1948"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1955-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Began issuing No Traitors Gait autobiography in 19 parts",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#26",
+     "role": "both",
+     "quote": "( Issued in 19 parts between December 1955 and June 1963 )"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1963-10-16",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Western Infirmary, Glasgow, aged 76",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#18",
+     "role": "both",
+     "quote": "Guy Aldred died , almost penniless , in the Western Infirmary , Glasgow , on 16 October 1963"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1964-05-04",
+   "grain": "day",
+   "track": "other",
+   "text": "Remains cremated at the Maryhill Crematorium, Glasgow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Guy_Aldred#18",
+     "role": "both",
+     "quote": "His remains were cremated at the Maryhill Crematorium , Glasgow on 4 May 1964"
+    }
+   ],
+   "label": "cremation"
+  }
  ],
  "undated_mentions": [
   "Attended Iron Infants School, then Hugh Middleton Higher Grade School (undated)",
@@ -66,4 +759,5 @@
   "Sentenced to twelve months hard labour over Indian Sociologist printing (undated)",
   "Published Margaret Sanger's Family Limitation with Rose Witcop; stock ordered destroyed (undated)",
   "Founded Workers Open Forum after the 1932 split (after 1932, date not stated)"
- ]}
+ ]
+}

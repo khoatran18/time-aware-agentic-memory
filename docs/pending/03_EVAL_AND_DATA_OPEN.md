@@ -1,6 +1,31 @@
 # Đánh giá và dữ liệu: việc chưa chốt
 
 
+## CẬP NHẬT chiều–tối 2026-11-11 (đọc trước; thay các mục "việc kế tiếp" của phần tổng hợp phía dưới)
+
+**1. Đã làm (kể từ phần tổng hợp phía dưới)**
+- Kiểm gold tune v1–v3 mới (25 trang, guide v7) và test_clean (186 trang). Hình thức: `check.py` 0 lỗi cả hai. Nội dung: so mốc cũ với mới, chạy tool gap (`local/gold_gap_sub.py`), tự đọc câu chưa phủ.
+- Phát hiện: gold tune v1–v3 mới nhiều mốc "biến mất" (87 mốc cũ), phần lớn do v1–v3 ghi mốc mà v7 cấm (mốc thực thể khác, chuyến tàu/máy bay, thống kê, bài viết/phát biểu của nhân vật, giải truy tặng, mốc mùa giải, ngày kết thúc hoạt động tham gia). Guide: pilot5 = v1 (không có mục KHÔNG ghi, không cờ), pilot10 = v2 và batch2 = v3 (hai bản giống hệt nhau), gold mới = v7.
+- Vá tune v1–v3: 24 mốc / 9 trang (Ernst_Hechler +8, Great_Tower_Neuwerk +3, Mike_Bongiorno +3, Regius_Professor_Civil_Law +4, Carl_Ehrensvard +2, Telekids/First_Air_Group/Aero_Union/Toungoo_dynasty +1). Không vá 16 trang còn lại vì đúng theo v7 (WUPJ, Klemzig, Real_Audiencia...). Tool: `local/gold_patch_v1v3.py` (spec `local/gold_patch_v1v3/<Trang>.json`; bản chưa vá ở `regen_v1v3/sub/`, bản vá ở `pilot5|pilot10|batch2/rev/`).
+- Test_clean: copy `batchT/sub/` sang `batchT/rev/` cho 136 trang (rev đủ 186); vá 13 mốc / 12 trang (Boris_Nemtsov, Laurette_Onkelinx, VP_29 +2, VP_42, Cutty_Sark, Princess_Victoria_Melita, The_Cycle, UD_Las_Palmas, Jim_Prentice, Guy_Aldred, Cho_Yoon_sun, Nick_Saban). U_101 bỏ e28 (trùng e27). Inter_Milan e50/e51 đổi cờ sang `approximate_date`. Kết luận: phần lớn câu "chưa phủ" của tool gap là mốc v7 cấm hoặc đã có mốc (quote khác), không phải sót.
+- Đọc nốt các lớp derived_date chưa ai đọc (`a_far` 15, `a_weakrel` 23, type a chặt 49 đọc lần hai, `b_anchor_prev_chunk` 16 mẫu, `c_exact_*` 49, `c_year_in_quote` 22 mẫu): không thấy phân loại sai; `c_exact_*` và một phần `c_year_in_quote` có cờ thừa (quote đã chứa ngày), không sửa theo quyết định giữ cờ cũ.
+- Mục "agent tune có mở gold cũ không": chưa thấy dấu hiệu (văn bản trùng chủ yếu là câu chép sát chunk; không có chú thích riêng của gold cũ xuất hiện lại); không chứng minh phủ định được vì không có log phiên Haiku.
+- Viết prompt sinh câu v9 cho 25 trang tune v1–v3: `local/prompts/sinh_cau_hoi_v9_tune_v1v3.md` (1 session, 5 agent × 5 trang). Sửa `local/questions/check_questions.py` (`load_page`) để tìm gold ở cả `batch*` và `pilot*` (trước đó trang `pilot5`/`pilot10` không load được nên chưa từng có câu v9).
+
+**2. Đã kiểm gì, ra gì (tóm tắt)**
+- `check.py` (mã): tune 25 trang 0 lỗi; test_clean 186 trang 0 lỗi (kể cả sau mọi lần vá).
+- Số liệu: test_clean 186 trang, 6247 mốc sau vá (trước 6236); 52 text trùng trong trang (`dup_text`, tự lọc khi sinh câu); 1 mốc TCN ở 1 trang (phải lọc); derived_date 714, approximate_date 296, source_inconsistent 71.
+- Tune v1–v3 mới: 696 mốc trước vá, 720 sau vá.
+- Tool gap trên test_clean: 1485 câu có năm chưa phủ; 161 có ngày đầy đủ (53 trang) sau đọc chỉ thêm được 13 mốc.
+
+**3. Chưa làm / còn dở**
+- Chờ người dùng chạy session sinh câu v9 cho 25 trang tune (prompt ở trên), rồi tôi chạy `python3 -I local/questions/check_questions.py v9` (ghi đè `checked.jsonl`) và đọc báo cáo agent.
+- Viết prompt sinh câu test_clean (v9, không dùng mốc `date` âm, bỏ câu "1/3" của prompt cũ) và chạy bước B ([1] chain_complete, [2] chain_verify, [3] mã) trên test_clean: đo mẫu ~20 câu bằng `TAM_LLM_METRICS_FILE`, báo chi phí, hỏi người dùng trước khi gọi API.
+- Chưa quyết (đợi người dùng): sửa hay bỏ 5 câu nghi v4–v5 (The_One_Show:3, Meet_the_Press:4, Alemannia_Aachen:1, Vindobona:2, Jerzy_Buzek:1); lọc mốc TCN khi đo ingest và kiểm chunk TCN có lọt vào kho với `start_time` dương không (chỉ đọc); sửa guide (ngày sinh con, tai nạn máy bay của hãng); cách chấm `list`/`summary` và ranh giới Mechanism 3.
+- Chưa đọc/chưa kiểm chứng: câu chỉ có năm của các trang top test_clean chỉ lọc theo mốc đã có, chưa đọc từng câu của mọi trang; gold tune v6 (128 trang) chưa soát; tune v4–v5 (45 trang) gap chưa đọc; baseline 640 warning và 6 quote không tìm thấy của checker; mốc vá của tôi (ví dụ Aero_Union 1987, Toungoo 1740, Telekids 1994-12-31) là phán đoán, người dùng có thể bỏ.
+- Chưa commit (người dùng commit): `batchT/rev/` (4 trang mới sửa), `docs/pending/03_EVAL_AND_DATA_OPEN.md`; `local/` bị gitignore.
+
+
 ## Tổng hợp trạng thái cuối ngày 2026-11-11 (đọc phần này trước; chi tiết ở các dòng bên dưới và `docs/eval/10` mục 10.5bb–10.5bk)
 
 **A. Đã làm hôm nay**
@@ -84,3 +109,17 @@
 - Đã thêm 10 mốc / 9 trang: Boris_Nemtsov 2017-06 (xét xử vụ giết), Laurette_Onkelinx 2011-12-06, VP_29 1941-07-03 và 07-07, VP_42 1945-06-01, Cutty_Sark 2008-09-30, Princess_Victoria_Melita 1995-03-07, The_Cycle 2012-08-16, UD_Las_Palmas 2001-12-22, Jim_Prentice 2016-10-28 (tang lễ).
 - Sửa nhỏ: U_101 bỏ e28 (trùng e27, cùng quote). Không đổi cờ Guggenberger e11 sang `source_inconsistent` vì `check.py` chỉ miễn quote thiếu năm khi cờ là `derived_date` (cờ đơn); để nguyên. Inter_Milan e50/e51 chưa sửa (chưa nhớ lỗi cụ thể, cần đọc lại).
 - Chưa đọc: ~89 trang có dưới 2 câu ngày đầy đủ chưa phủ; câu chỉ có năm của các trang top (Nick_Saban, P_bram...) đọc lướt, không thêm. Mốc vá là phán đoán của tôi, người dùng có thể bỏ.
+
+## Đọc nốt test_clean gold và kiểm tra nghi ngờ gold cũ ở tune (2026-11-11, tối)
+
+- Mục 1 (89 trang còn lại): đọc các câu có ngày đầy đủ hoặc tháng-năm chưa phủ. Thêm 3 mốc: Guy_Aldred 1964-05-04 (hỏa táng), Cho_Yoon_sun 2018-08 (công tố đề nghị án), Nick_Saban 2007-01-01 (gặp Alabama). Còn lại là mốc v7 cấm hoặc mốc của người/thực thể khác. Tổng test_clean đã vá 13 mốc / 12 trang. `check.py` 0 lỗi cả 186 trang.
+- Mục 2 (câu chỉ có năm): lọc 270 câu có động từ sự kiện, kiểm tra từng trang bằng cách so với mốc đã có trong gold. Hầu hết đã có mốc (tool gap báo dư vì quote khác). Không thêm mốc nào; Mission_San_Miguel 1833 (đạo luật thế tục hóa) bỏ vì quote chưa khớp, giá trị thấp.
+- Mục 3: Inter_Milan e50/e51 đổi cờ `derived_date` thành `approximate_date` (mốc "mùa đầu của Mourinho", năm 2008 là năm bắt đầu mùa, đúng luật mùa giải của v7). Quote vẫn chứa năm 2008, `check.py` qua.
+- Mục 4 (lớp derived chưa đọc): đọc đủ 15 `a_far`, 23 `a_weakrel`, 49 type a chặt (đọc lần hai), 16 `b_anchor_prev_chunk`, 49 `c_exact_*`, 22 mẫu `c_year_in_quote`. Không thấy phân loại sai. Kết quả: type a (chặt) và `a_far`/`a_weakrel` đều có năm suy ra hợp lý từ neo cùng chunk; type a chặt không có ca nào sai (đã đối chiếu thêm Vuk_Drašković e18 và Roger_Moore e96 với chunk). Lớp `c_exact_day/month` (49 mốc) thường có cờ `derived_date` thừa vì quote đã chứa ngày đầy đủ; `c_year_in_quote` hỗn hợp (một số đúng là suy ra, ví dụ Inter_Milan 2004→2005, một số cờ thừa, ví dụ Cho_Yoon_sun e5 1991). Không sửa cờ (quyết định giữ cờ cũ); `derived_date` vẫn cấm trong mọi câu hỏi, nên cờ thừa chỉ làm mất ứng viên, không gây sai câu.
+- Mục 5 (tune v1–v3, agent có mở gold cũ không): không có bằng chứng. Văn bản trùng giữa gold cũ và mới (Carl_Ehrensvard 25/35, August_Maus 13/38, John_Henry_Whitley 10/21) gần như luôn là câu chép sát chunk: trong mọi trang chỉ có tối đa 4 mốc trùng chứa từ ngoài quote, và Carl chỉ có 2. Không có chú thích riêng của gold cũ ("date as printed", "(1950s)", "as printed"...) nào xuất hiện lại ở gold mới; Ernst_Hechler cũ 60 mốc, mới 37, 0 mốc trùng nguyên văn. Không thể chứng minh phủ định vì không có log của phiên Haiku (người dùng chạy), nên đây là "chưa thấy dấu hiệu".
+
+## Prompt sinh câu v9 cho 25 trang tune v1–v3 (2026-11-11, tối)
+
+- Đã viết `local/prompts/sinh_cau_hoi_v9_tune_v1v3.md` (1 session, 5 agent × 5 trang, Haiku do người dùng chạy). Khối subagent lấy từ `sinh_cau_hoi_v9_valid3.md`, đổi đường dẫn gold thành `DIR/rev/P.json` (DIR = `pilot5`, `pilot10` hoặc `batch2`) và thêm mục N (không dùng mốc `date` âm; guide v7 dùng một mốc cho hoạt động; `label` lạ chỉ gom khi ≥3 mốc).
+- Đã sửa `local/questions/check_questions.py` (`load_page`) để tìm gold ở cả `batch*` và `pilot*`; trước đó trang `pilot5`/`pilot10` không load được nên chưa từng có câu v9. Chưa chạy checker; chạy `python3 -I local/questions/check_questions.py v9` sau khi có câu (ghi đè `checked.jsonl`).
+- Chờ người dùng chạy session; sau đó chạy checker, đọc báo cáo agent và xử lý id nghi sai.

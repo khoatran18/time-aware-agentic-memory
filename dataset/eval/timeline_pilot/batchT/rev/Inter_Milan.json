@@ -1,102 +1,1591 @@
 {
  "page_id": "/wiki/Inter_Milan",
  "events": [
-  {"id": "e1", "date": "1908", "grain": "year", "track": "work", "text": "Giorgio Muggiani designs the club's first logo.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#50", "role": "both", "quote": "was responsible for the design of the first Inter logo in 1908"}]},
-  {"id": "e2", "date": "1908-03-09", "grain": "day", "track": "other", "label": "founding", "text": "Club founded as Football Club Internazionale after schism with Milan.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#1", "role": "date", "quote": "Founded in 1908 following a schism"}, {"chunk_id": "/wiki/Inter_Milan#5", "role": "both", "quote": "The club was founded on 9 March 1908 as Football Club Internazionale"}]},
-  {"id": "e3", "date": "1910", "grain": "year", "track": "other", "label": "honour", "text": "Won first Serie A championship.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#6", "role": "both", "quote": "The club won its first championship in 1910"}]},
-  {"id": "e4", "date": "1920", "grain": "year", "track": "other", "label": "honour", "text": "Won second Serie A championship.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#6", "role": "both", "quote": "The club won its first championship in 1910 and its second in 1920"}]},
-  {"id": "e5", "date": "1922", "grain": "year", "track": "other", "label": "relegation_avoided", "text": "Avoided relegation by winning two play-offs.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#6", "role": "both", "quote": "In 1922 , Inter was at risk of relegation to the second division"}]},
-  {"id": "e6", "date": "1928", "grain": "year", "track": "naming", "text": "Forced to merge with Unione Sportiva Milanese; renamed Ambrosiana.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#54", "role": "both", "quote": "In 1928 , Inters name and philosophy made the ruling Fascist Party uneasy"}, {"chunk_id": "/wiki/Inter_Milan#7", "role": "description", "quote": "forced to merge with the Unione Sportiva Milanese and was renamed"}]},
-  {"id": "e7", "date": "1929", "grain": "year", "track": "naming", "text": "Renamed Associazione Sportiva Ambrosiana; black-and-blue jerseys restored.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#7", "role": "both", "quote": "In 1929 , the new club chairman Oreste Simonotti changed the clubs name"}]},
-  {"id": "e8", "date": "1931", "grain": "year", "track": "naming", "text": "Renamed Associazione Sportiva Ambrosiana-Inter under chairman Pozzani.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#7", "role": "date", "quote": "and in 1931 new"}, {"chunk_id": "/wiki/Inter_Milan#8", "role": "description", "quote": "chairman Pozzani caved in to shareholder pressure and changed the name to Associazione Sportiva Ambrosiana-Inter"}]},
-  {"id": "e9", "date": "1938", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Won first Coppa Italia (1938–39 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#9", "role": "both", "quote": "Their first Coppa Italia ( Italian Cup ) was won in 1938–39"}]},
-  {"id": "e10", "date": "1940", "grain": "year", "track": "other", "label": "honour", "text": "Won fifth league title.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#9", "role": "both", "quote": "A fifth championship followed in 1940"}]},
-  {"id": "e11", "date": "1947", "grain": "year", "track": "location", "text": "Began sharing San Siro stadium with Milan as joint tenant.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#59", "role": "both", "quote": "since 1947 it has been shared with Inter"}]},
-  {"id": "e12", "date": "1953", "grain": "year", "track": "other", "label": "honour", "text": "Won sixth league title.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#9", "role": "both", "quote": "winning its sixth championship in 1953 and its seventh in 1954"}]},
-  {"id": "e13", "date": "1954", "grain": "year", "track": "other", "label": "honour", "text": "Won seventh league title.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#9", "role": "both", "quote": "winning its sixth championship in 1953 and its seventh in 1954"}]},
-  {"id": "e14", "date": "1960", "grain": "year", "track": "role", "text": "Helenio Herrera joins as manager from Barcelona.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#10", "role": "both", "quote": "In 1960 , manager Helenio Herrera joined Inter from Barcelona"}]},
-  {"id": "e15", "date": "1963", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won league title in Herrera's third season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#10", "role": "date", "quote": "In 1960 , manager Helenio Herrera joined Inter from Barcelona"}, {"chunk_id": "/wiki/Inter_Milan#11", "role": "description", "quote": "first in his third season"}]},
-  {"id": "e16", "date": "1964", "grain": "year", "track": "other", "label": "honour", "text": "Won European Cup, first of back-to-back wins.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#11", "role": "both", "quote": "back-to-back European Cup victory in 1964 and"}]},
-  {"id": "e17", "date": "1964", "grain": "year", "track": "other", "label": "honour", "text": "Won Intercontinental Cup against Independiente.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#13", "role": "date", "quote": "In 1964 , Inter reached the European Cup Final"}, {"chunk_id": "/wiki/Inter_Milan#13", "role": "description", "quote": "then the team won the Intercontinental Cup against Independiente"}]},
-  {"id": "e18", "date": "1965", "grain": "year", "track": "other", "label": "honour", "text": "Won second consecutive European Cup, beating Benfica.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#11", "role": "description", "quote": "back-to-back European Cup victory in 1964 and"}, {"chunk_id": "/wiki/Inter_Milan#12", "role": "date", "quote": "1965 , earning him the title il Mago"}]},
-  {"id": "e19", "date": "1965", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won Intercontinental Cup against Independiente again.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#13", "role": "date", "quote": "A year later , Inter repeated the feat"}, {"chunk_id": "/wiki/Inter_Milan#13", "role": "description", "quote": "and then again beat Independiente in the Intercontinental Cup"}]},
-  {"id": "e20", "date": "1967", "grain": "year", "track": "naming", "text": "Renamed Football Club Internazionale Milano.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#14", "role": "date", "quote": "In 1967 , with Jair gone and Suárez injured"}, {"chunk_id": "/wiki/Inter_Milan#14", "role": "description", "quote": "During that year the club changed its name to Football Club Internazionale Milano"}]},
-  {"id": "e21", "date": "1971", "grain": "year", "track": "other", "label": "honour", "text": "Won eleventh league title.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#15", "role": "both", "quote": "Inter managed to win their eleventh league title in 1971"}]},
-  {"id": "e22", "date": "1977", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Won Coppa Italia (1977–78 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#15", "role": "both", "quote": "in 1977–78 and 1981–82"}]},
-  {"id": "e23", "date": "1980", "grain": "year", "track": "other", "label": "honour", "text": "Won twelfth league title.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#15", "role": "both", "quote": "and their twelfth in 1980"}]},
-  {"id": "e24", "date": "1981", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Won Coppa Italia (1981–82 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#15", "role": "both", "quote": "in 1977–78 and 1981–82"}]},
-  {"id": "e25", "date": "1989", "grain": "year", "track": "other", "label": "honour", "text": "Won Serie A championship.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#16", "role": "both", "quote": "Inter captured the 1989 Serie A championship"}]},
-  {"id": "e26", "date": "1989", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won first Supercoppa Italiana, at start of season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#16", "role": "date", "quote": "Inter captured the 1989 Serie A championship"}, {"chunk_id": "/wiki/Inter_Milan#16", "role": "description", "quote": "winning their first Supercoppa Italiana at the start of the season"}]},
-  {"id": "e27", "date": "1991", "grain": "year", "track": "other", "label": "honour", "text": "Won UEFA Cup.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#17", "role": "both", "quote": "three UEFA Cup victories in 1991 , 1994 and 1998"}]},
-  {"id": "e28", "date": "1994", "grain": "year", "track": "other", "label": "honour", "text": "Won UEFA Cup.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#17", "role": "both", "quote": "three UEFA Cup victories in 1991 , 1994 and 1998"}]},
-  {"id": "e29", "date": "1995", "grain": "year", "track": "ownership_structure", "text": "Massimo Moratti takes over the club from Ernesto Pellegrini.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#18", "role": "both", "quote": "With Massimo Morattis takeover from Ernesto Pellegrini in 1995"}]},
-  {"id": "e30", "date": "1997", "grain": "year", "track": "affiliation", "text": "Signed Ronaldo from Barcelona for world-record fee.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#18", "role": "both", "quote": "£19.5 million for Ronaldo from Barcelona in 1997"}]},
-  {"id": "e31", "date": "1998", "grain": "year", "track": "role", "flag": "approximate_date", "text": "Coach Luigi Simoni sacked early in 1998–99 season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#20", "role": "both", "quote": "sacked the much-loved coach Luigi Simoni after only a few games into the 1998–99 season"}]},
-  {"id": "e32", "date": "1999", "grain": "year", "track": "affiliation", "flag": "derived_date", "text": "Signed Christian Vieri from Lazio for world-record fee.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#18", "role": "both", "quote": "£31 million for Christian Vieri from Lazio two years later"}]},
-  {"id": "e33", "date": "1999", "grain": "year", "track": "role", "flag": "derived_date", "text": "Marcello Lippi appointed coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#21", "role": "both", "quote": "The following season , Moratti appointed former Juventus manager Marcello Lippi"}]},
-  {"id": "e34", "date": "1999", "grain": "year", "track": "work", "flag": "approximate_date", "text": "Club crest reduced in size to add name and foundation year.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#50", "role": "both", "quote": "Starting at the 1999–2000 season , the original club crest was reduced in size"}]},
-  {"id": "e35", "date": "2000", "grain": "year", "track": "role", "flag": "derived_date", "text": "Marcello Lippi sacked after a single game of the season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#22", "role": "both", "quote": "Lippi was sacked after only a single game of the new season"}]},
-  {"id": "e36", "date": "2000", "grain": "year", "track": "role", "flag": "derived_date", "text": "Marco Tardelli appointed coach replacing Lippi.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#22", "role": "both", "quote": "Marco Tardelli , chosen to replace Lippi , failed to improve results"}]},
-  {"id": "e37", "date": "2004-07-08", "grain": "day", "track": "role", "text": "Roberto Mancini appointed head coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#26", "role": "both", "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"}]},
-  {"id": "e38", "date": "2005", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won Coppa Italia in Mancini's first season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#26", "role": "date", "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"}, {"chunk_id": "/wiki/Inter_Milan#26", "role": "description", "quote": "as well as winning the Coppa Italia and later the Supercoppa Italiana"}]},
-  {"id": "e39", "date": "2005", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won Supercoppa Italiana in Mancini's first season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#26", "role": "date", "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"}, {"chunk_id": "/wiki/Inter_Milan#26", "role": "description", "quote": "as well as winning the Coppa Italia and later the Supercoppa Italiana"}]},
-  {"id": "e40", "date": "2005", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Awarded 2005–06 Serie A title retrospectively.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#27", "role": "both", "quote": "Inter were awarded the 2005–06 Serie A championship retrospectively"}]},
-  {"id": "e41", "date": "2005-04-12", "grain": "day", "track": "other", "label": "incident", "flag": "derived_date", "text": "Champions League quarter-final second leg abandoned after Inter supporter's flare.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#67", "role": "both", "quote": "the abandonment of the second leg of the 2004–05 Champions League quarter-final"}]},
-  {"id": "e42", "date": "2006", "grain": "year", "track": "ownership_structure", "text": "Reverse merger with intermediate holding company Inter Capital.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#79", "role": "both", "quote": "reversed merger with an intermediate holding company , Inter Capital S.r.l . in 2006"}]},
-  {"id": "e43", "date": "2006", "grain": "year", "track": "ownership_structure", "text": "Sold brand to new subsidiary Inter Brand S.r.l.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#82", "role": "both", "quote": "In 2006 Inter sold its brand to the new subsidiary , Inter Brand S.r.l."}]},
-  {"id": "e44", "date": "2006-05-11", "grain": "day", "track": "other", "label": "honour", "text": "Retained Coppa Italia by beating Roma on aggregate.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#26", "role": "both", "quote": "On 11 May 2006 , Inter retained their Coppa Italia title"}]},
-  {"id": "e45", "date": "2006-06", "grain": "month", "track": "ownership_structure", "text": "Pirelli sold 15.26% of club shares to Moratti family.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#79", "role": "both", "quote": "In June 2006 , the shirt sponsor and the minority shareholder of the club , Pirelli , sold 15.26% shares"}]},
-  {"id": "e46", "date": "2007", "grain": "year", "track": "work", "text": "Club logo returned to pre-1999–2000 design.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#52", "role": "both", "quote": "In 2007 , the logo was returned to the pre-1999–2000 era"}]},
-  {"id": "e47", "date": "2007", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Won third consecutive Scudetto (2007–08 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#30", "role": "both", "quote": "On the final day of the 2007–08 Serie A season"}]},
-  {"id": "e48", "date": "2007-04-22", "grain": "day", "track": "other", "label": "honour", "text": "Won second consecutive Scudetto, first on field since 1989.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#27", "role": "both", "quote": "On 22 April 2007 , Inter won their second consecutive Scudetto"}]},
-  {"id": "e49", "date": "2008", "grain": "year", "track": "role", "flag": "derived_date", "text": "Roberto Mancini sacked after 2007–08 season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#30", "role": "date", "quote": "On the final day of the 2007–08 Serie A season"}, {"chunk_id": "/wiki/Inter_Milan#30", "role": "description", "quote": "Mancini , however , was sacked soon after due to his previous announcement to leave the club"}]},
-  {"id": "e50", "date": "2008", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won Supercoppa Italiana in Mourinho's first season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#31", "role": "date", "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"}, {"chunk_id": "/wiki/Inter_Milan#31", "role": "description", "quote": "In his first season , the Nerazzurri won a Suppercoppa Italiana"}]},
-  {"id": "e51", "date": "2008", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won fourth consecutive Scudetto (2008–09 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#31", "role": "date", "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"}, {"chunk_id": "/wiki/Inter_Milan#31", "role": "description", "quote": "and a fourth consecutive title"}]},
-  {"id": "e52", "date": "2008-06-02", "grain": "day", "track": "role", "text": "José Mourinho appointed head coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#31", "role": "both", "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"}]},
-  {"id": "e53", "date": "2009", "grain": "year", "track": "other", "label": "honour", "flag": "approximate_date", "text": "Won Serie A title by two points over Roma (2009–10 season).", "evidence": [{"chunk_id": "/wiki/Inter_Milan#33", "role": "both", "quote": "Inter also won the 2009–10 Serie A title by two points over Roma"}]},
-  {"id": "e54", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "Won UEFA Champions League, beating Bayern Munich 2–0 in final.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#1", "role": "both", "quote": "and then another in 2010"}]},
-  {"id": "e55", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "Won Coppa Italia, beating Roma 1–0 in final.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#33", "role": "both", "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"}]},
-  {"id": "e56", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "First Italian team to win the treble.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#33", "role": "date", "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"}, {"chunk_id": "/wiki/Inter_Milan#33", "role": "description", "quote": "This made Inter the first Italian team to win the treble"}]},
-  {"id": "e57", "date": "2010", "grain": "year", "track": "role", "flag": "derived_date", "text": "José Mourinho leaves for Real Madrid at end of season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#33", "role": "date", "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"}, {"chunk_id": "/wiki/Inter_Milan#33", "role": "description", "quote": "At the end of the season , Mourinho left the club to manage Real Madrid"}]},
-  {"id": "e58", "date": "2010", "grain": "year", "track": "role", "flag": "derived_date", "text": "Rafael Benítez appointed coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#33", "role": "date", "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"}, {"chunk_id": "/wiki/Inter_Milan#33", "role": "description", "quote": "he was replaced by Rafael Benítez"}]},
-  {"id": "e59", "date": "2010-08-21", "grain": "day", "track": "other", "label": "honour", "text": "Won Supercoppa Italiana, beating Roma 3–1.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#34", "role": "both", "quote": "On 21 August 2010 , Inter defeated Roma 3–1 and won the 2010 Supercoppa Italiana"}]},
-  {"id": "e60", "date": "2010-12", "grain": "month", "track": "other", "label": "honour", "text": "Won FIFA Club World Cup for the first time.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#34", "role": "both", "quote": "In December 2010 , they claimed the FIFA Club World Cup for the first time"}]},
-  {"id": "e61", "date": "2010-12-23", "grain": "day", "track": "role", "text": "Rafael Benítez sacked.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#34", "role": "both", "quote": "on 23 December 2010 , due to their declining performance in Serie A"}]},
-  {"id": "e62", "date": "2010-12-24", "grain": "day", "track": "role", "flag": "derived_date", "text": "Leonardo appointed coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#34", "role": "date", "quote": "on 23 December 2010 , due to their declining performance in Serie A"}, {"chunk_id": "/wiki/Inter_Milan#34", "role": "description", "quote": "He was replaced by Leonardo the following day"}]},
-  {"id": "e63", "date": "2011", "grain": "year", "track": "other", "label": "honour", "flag": "derived_date", "text": "Won Coppa Italia under Leonardo.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#35", "role": "date", "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"}, {"chunk_id": "/wiki/Inter_Milan#35", "role": "description", "quote": "lead them to Coppa Italia title"}]},
-  {"id": "e64", "date": "2011", "grain": "year", "track": "role", "flag": "derived_date", "text": "Leonardo resigns at end of season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#35", "role": "date", "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"}, {"chunk_id": "/wiki/Inter_Milan#36", "role": "description", "quote": "resigned and was followed by new managers Gian Piero Gasperini"}]},
-  {"id": "e65", "date": "2011", "grain": "year", "track": "role", "flag": "derived_date", "text": "Gian Piero Gasperini hired as manager.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#35", "role": "date", "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"}, {"chunk_id": "/wiki/Inter_Milan#36", "role": "description", "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"}]},
-  {"id": "e66", "date": "2011", "grain": "year", "track": "role", "flag": "derived_date", "text": "Claudio Ranieri hired as manager.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#35", "role": "date", "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"}, {"chunk_id": "/wiki/Inter_Milan#36", "role": "description", "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"}]},
-  {"id": "e67", "date": "2011", "grain": "year", "track": "role", "flag": "derived_date", "text": "Andrea Stramaccioni hired as manager.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#35", "role": "date", "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"}, {"chunk_id": "/wiki/Inter_Milan#36", "role": "description", "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"}]},
-  {"id": "e68", "date": "2012-08-01", "grain": "day", "track": "ownership_structure", "text": "Announced Moratti will sell minority stake to Chinese consortium.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#37", "role": "both", "quote": "On 1 August 2012 , the club announced that Moratti was to sell a minority interest"}]},
-  {"id": "e69", "date": "2012-08-01", "grain": "day", "track": "work", "text": "Agreement formed with China Railway Construction for new stadium project.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#37", "role": "description", "quote": "an agreement was formed with China Railway Construction Corporation Limited for a new stadium project"}, {"chunk_id": "/wiki/Inter_Milan#37", "role": "date", "quote": "On 1 August 2012 , the club announced"}]},
-  {"id": "e70", "date": "2013-05-24", "grain": "day", "track": "role", "text": "Walter Mazzarri appointed coach replacing Stramaccioni.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#37", "role": "description", "quote": "Walter Mazzarri was appointed to replace Stramaccioni as the manager"}, {"chunk_id": "/wiki/Inter_Milan#38", "role": "date", "quote": "on 24 May 2013 , having ended his tenure at Napoli"}]},
-  {"id": "e71", "date": "2013-10-15", "grain": "day", "track": "ownership_structure", "text": "Indonesian consortium led by Erick Thohir acquires 70% stake.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#39", "role": "both", "quote": "On 15 October 2013 , an Indonesian consortium"}]},
-  {"id": "e72", "date": "2013-12-02", "grain": "day", "track": "other", "label": "partnership", "text": "Strategic partnership with D.C. United announced.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#41", "role": "both", "quote": "announced on 2 December 2013 that Inter and D.C . United had formed strategic partnership"}]},
-  {"id": "e73", "date": "2014", "grain": "year", "track": "work", "text": "Adopted predominantly black home kit with thin blue pinstripes.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#55", "role": "both", "quote": "In 2014 , the club adopted a predominantly black home kit"}]},
-  {"id": "e74", "date": "2014-07", "grain": "month", "track": "work", "text": "Club decided to undertake a rebranding of its logo.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#52", "role": "both", "quote": "This version was used until July 2014 , when the club decided to undertake a rebranding"}]},
-  {"id": "e75", "date": "2014-11-14", "grain": "day", "track": "role", "text": "Roberto Mancini returns as club manager.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#42", "role": "both", "quote": "Roberto Mancini returned as the club manager on 14 November 2014"}]},
-  {"id": "e76", "date": "2015", "grain": "year", "track": "work", "flag": "derived_date", "text": "Returned to a more traditional kit design.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#55", "role": "date", "quote": "In 2014 , the club adopted a predominantly black home kit"}, {"chunk_id": "/wiki/Inter_Milan#55", "role": "description", "quote": "before returning to a more traditional design the following season"}]},
-  {"id": "e77", "date": "2015", "grain": "year", "track": "other", "label": "sanction", "text": "UEFA sanctions Inter for Financial Fair Play breach; fined €6 million.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#95", "role": "both", "quote": "In 2015 Inter and Roma were the only two Italian clubs that were sanctioned by the UEFA"}]},
-  {"id": "e78", "date": "2015", "grain": "year", "track": "other", "label": "probation", "text": "Agreed three-year aggregate break-even probation period.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#95", "role": "both", "quote": "Inter agreed to have a three-year aggregate break-even from 2015 to 2018"}]},
-  {"id": "e79", "date": "2016-06-06", "grain": "day", "track": "ownership_structure", "text": "Suning Holdings Group acquires majority stake in the club.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#43", "role": "both", "quote": "On 6 June 2016 , Suning Holdings Group"}]},
-  {"id": "e80", "date": "2016-06-28", "grain": "day", "track": "ownership_structure", "text": "Extraordinary general meeting approves the Suning deal.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#43", "role": "both", "quote": "The deal was approved by an extraordinary general meeting on 28 June 2016"}]},
-  {"id": "e81", "date": "2016-08", "grain": "month", "track": "role", "flag": "derived_date", "text": "Frank de Boer appointed coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#44", "role": "date", "quote": "On 8 August 2016 , Inter parted company with head coach Roberto Mancini"}, {"chunk_id": "/wiki/Inter_Milan#44", "role": "description", "quote": "He was replaced by Frank de Boer"}]},
-  {"id": "e82", "date": "2016-08-08", "grain": "day", "track": "role", "text": "Roberto Mancini leaves by mutual consent.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#44", "role": "both", "quote": "On 8 August 2016 , Inter parted company with head coach Roberto Mancini"}]},
-  {"id": "e83", "date": "2016-11", "grain": "month", "track": "role", "flag": "derived_date", "text": "Stefano Pioli takes over as coach.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#44", "role": "description", "quote": "The successor , Stefano Pioli"}, {"chunk_id": "/wiki/Inter_Milan#44", "role": "date", "quote": "who was sacked on 1 November 2016"}]},
-  {"id": "e84", "date": "2016-11-01", "grain": "day", "track": "role", "text": "Frank de Boer sacked after 11 Serie A games.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#44", "role": "both", "quote": "who was sacked on 1 November 2016"}]},
-  {"id": "e85", "date": "2017", "grain": "year", "track": "role", "flag": "derived_date", "text": "Stefano Pioli departs before end of 2016–17 season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#45", "role": "date", "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"}, {"chunk_id": "/wiki/Inter_Milan#45", "role": "description", "quote": "he and the club parted away before seasons end"}]},
-  {"id": "e86", "date": "2017-04-21", "grain": "day", "track": "other", "label": "sanction", "text": "UEFA keeps squad-size reduction sanction on Inter.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#99", "role": "date", "quote": "On 21 April 2017 , Inter announced that their net loss"}, {"chunk_id": "/wiki/Inter_Milan#99", "role": "description", "quote": "UEFA also announced that the reduction of squad size of Inter in European competitions would not be lifted yet"}]},
-  {"id": "e87", "date": "2017-06-09", "grain": "day", "track": "role", "text": "Luciano Spalletti appointed manager on two-year contract.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#45", "role": "both", "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed as Inter manager"}]},
-  {"id": "e88", "date": "2018", "grain": "year", "track": "other", "label": "probation", "text": "Break-even probation period (2015–2018) ends.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#95", "role": "both", "quote": "Inter agreed to have a three-year aggregate break-even from 2015 to 2018"}]},
-  {"id": "e89", "date": "2018-05", "grain": "month", "track": "other", "label": "qualification", "flag": "derived_date", "text": "Clinched UEFA Champions League group stage spot.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#45", "role": "date", "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"}, {"chunk_id": "/wiki/Inter_Milan#45", "role": "description", "quote": "eleven months later Inter clinched a UEFA Champions League group stage spot"}]},
-  {"id": "e90", "date": "2018-06", "grain": "month", "track": "other", "label": "sanction", "text": "UEFA repeats squad-size reduction announcement for Inter.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#99", "role": "both", "quote": "Same announcement was made by UEFA in June 2018"}]},
-  {"id": "e91", "date": "2018-08", "grain": "month", "track": "role", "flag": "derived_date", "text": "Contract with Spalletti extended to 2021.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#45", "role": "date", "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"}, {"chunk_id": "/wiki/Inter_Milan#45", "role": "description", "quote": "in August the club extended the contract with Spalletti to"}]},
-  {"id": "e92", "date": "2018-10-26", "grain": "day", "track": "role", "text": "Steven Zhang appointed club president.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#47", "role": "both", "quote": "On 26 October 2018 , Steven Zhang was appointed as new president of the club"}]},
-  {"id": "e93", "date": "2019", "grain": "year", "track": "role", "flag": "derived_date", "text": "Luciano Spalletti sacked after 2018–19 season.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#47", "role": "both", "quote": "After the 2018–19 Serie A season , despite Inter finishing 4th , Spaletti was sacked"}]},
-  {"id": "e94", "date": "2019-01-25", "grain": "day", "track": "ownership_structure", "text": "LionRock Capital agrees to acquire 31.05% of Inter shares.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#47", "role": "both", "quote": "On 25 January 2019 , the club officially announced that LionRock Capital from Hong Kong reached an agreement"}]},
-  {"id": "e95", "date": "2019-05-31", "grain": "day", "track": "role", "text": "Antonio Conte appointed coach on three-year deal.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#48", "role": "both", "quote": "On 31 May 2019 , Inter appointed former Juventus and Italian manager Antonio Conte"}]},
-  {"id": "e96", "date": "2021-05-02", "grain": "day", "track": "other", "label": "honour", "text": "Confirmed Serie A champions for first time in eleven years.", "evidence": [{"chunk_id": "/wiki/Inter_Milan#49", "role": "both", "quote": "Following Atalantas draw against Sassuolo on 2 May 2021"}]}
+  {
+   "id": "e1",
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "text": "Giorgio Muggiani designs the club's first logo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#50",
+     "role": "both",
+     "quote": "was responsible for the design of the first Inter logo in 1908"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1908-03-09",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Club founded as Football Club Internazionale after schism with Milan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#1",
+     "role": "date",
+     "quote": "Founded in 1908 following a schism"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#5",
+     "role": "both",
+     "quote": "The club was founded on 9 March 1908 as Football Club Internazionale"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1910",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won first Serie A championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#6",
+     "role": "both",
+     "quote": "The club won its first championship in 1910"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1920",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won second Serie A championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#6",
+     "role": "both",
+     "quote": "The club won its first championship in 1910 and its second in 1920"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1922",
+   "grain": "year",
+   "track": "other",
+   "label": "relegation_avoided",
+   "text": "Avoided relegation by winning two play-offs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#6",
+     "role": "both",
+     "quote": "In 1922 , Inter was at risk of relegation to the second division"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1928",
+   "grain": "year",
+   "track": "naming",
+   "text": "Forced to merge with Unione Sportiva Milanese; renamed Ambrosiana.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#54",
+     "role": "both",
+     "quote": "In 1928 , Inters name and philosophy made the ruling Fascist Party uneasy"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#7",
+     "role": "description",
+     "quote": "forced to merge with the Unione Sportiva Milanese and was renamed"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1929",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Associazione Sportiva Ambrosiana; black-and-blue jerseys restored.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#7",
+     "role": "both",
+     "quote": "In 1929 , the new club chairman Oreste Simonotti changed the clubs name"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1931",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Associazione Sportiva Ambrosiana-Inter under chairman Pozzani.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#7",
+     "role": "date",
+     "quote": "and in 1931 new"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#8",
+     "role": "description",
+     "quote": "chairman Pozzani caved in to shareholder pressure and changed the name to Associazione Sportiva Ambrosiana-Inter"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1938",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won first Coppa Italia (1938–39 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#9",
+     "role": "both",
+     "quote": "Their first Coppa Italia ( Italian Cup ) was won in 1938–39"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1940",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won fifth league title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#9",
+     "role": "both",
+     "quote": "A fifth championship followed in 1940"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1947",
+   "grain": "year",
+   "track": "location",
+   "text": "Began sharing San Siro stadium with Milan as joint tenant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#59",
+     "role": "both",
+     "quote": "since 1947 it has been shared with Inter"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won sixth league title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#9",
+     "role": "both",
+     "quote": "winning its sixth championship in 1953 and its seventh in 1954"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1954",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won seventh league title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#9",
+     "role": "both",
+     "quote": "winning its sixth championship in 1953 and its seventh in 1954"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1960",
+   "grain": "year",
+   "track": "role",
+   "text": "Helenio Herrera joins as manager from Barcelona.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#10",
+     "role": "both",
+     "quote": "In 1960 , manager Helenio Herrera joined Inter from Barcelona"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1963",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won league title in Herrera's third season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#10",
+     "role": "date",
+     "quote": "In 1960 , manager Helenio Herrera joined Inter from Barcelona"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#11",
+     "role": "description",
+     "quote": "first in his third season"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won European Cup, first of back-to-back wins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#11",
+     "role": "both",
+     "quote": "back-to-back European Cup victory in 1964 and"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Intercontinental Cup against Independiente.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#13",
+     "role": "date",
+     "quote": "In 1964 , Inter reached the European Cup Final"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#13",
+     "role": "description",
+     "quote": "then the team won the Intercontinental Cup against Independiente"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won second consecutive European Cup, beating Benfica.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#11",
+     "role": "description",
+     "quote": "back-to-back European Cup victory in 1964 and"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#12",
+     "role": "date",
+     "quote": "1965 , earning him the title il Mago"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won Intercontinental Cup against Independiente again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#13",
+     "role": "date",
+     "quote": "A year later , Inter repeated the feat"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#13",
+     "role": "description",
+     "quote": "and then again beat Independiente in the Intercontinental Cup"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1967",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Football Club Internazionale Milano.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#14",
+     "role": "date",
+     "quote": "In 1967 , with Jair gone and Suárez injured"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#14",
+     "role": "description",
+     "quote": "During that year the club changed its name to Football Club Internazionale Milano"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won eleventh league title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#15",
+     "role": "both",
+     "quote": "Inter managed to win their eleventh league title in 1971"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won Coppa Italia (1977–78 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#15",
+     "role": "both",
+     "quote": "in 1977–78 and 1981–82"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1980",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won twelfth league title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#15",
+     "role": "both",
+     "quote": "and their twelfth in 1980"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won Coppa Italia (1981–82 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#15",
+     "role": "both",
+     "quote": "in 1977–78 and 1981–82"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Serie A championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#16",
+     "role": "both",
+     "quote": "Inter captured the 1989 Serie A championship"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won first Supercoppa Italiana, at start of season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#16",
+     "role": "date",
+     "quote": "Inter captured the 1989 Serie A championship"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#16",
+     "role": "description",
+     "quote": "winning their first Supercoppa Italiana at the start of the season"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won UEFA Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#17",
+     "role": "both",
+     "quote": "three UEFA Cup victories in 1991 , 1994 and 1998"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won UEFA Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#17",
+     "role": "both",
+     "quote": "three UEFA Cup victories in 1991 , 1994 and 1998"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1995",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Massimo Moratti takes over the club from Ernesto Pellegrini.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#18",
+     "role": "both",
+     "quote": "With Massimo Morattis takeover from Ernesto Pellegrini in 1995"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1997",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed Ronaldo from Barcelona for world-record fee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#18",
+     "role": "both",
+     "quote": "£19.5 million for Ronaldo from Barcelona in 1997"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "flag": "approximate_date",
+   "text": "Coach Luigi Simoni sacked early in 1998–99 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#20",
+     "role": "both",
+     "quote": "sacked the much-loved coach Luigi Simoni after only a few games into the 1998–99 season"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "flag": "derived_date",
+   "text": "Signed Christian Vieri from Lazio for world-record fee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#18",
+     "role": "both",
+     "quote": "£31 million for Christian Vieri from Lazio two years later"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Marcello Lippi appointed coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#21",
+     "role": "both",
+     "quote": "The following season , Moratti appointed former Juventus manager Marcello Lippi"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "flag": "approximate_date",
+   "text": "Club crest reduced in size to add name and foundation year.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#50",
+     "role": "both",
+     "quote": "Starting at the 1999–2000 season , the original club crest was reduced in size"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Marcello Lippi sacked after a single game of the season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#22",
+     "role": "both",
+     "quote": "Lippi was sacked after only a single game of the new season"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Marco Tardelli appointed coach replacing Lippi.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#22",
+     "role": "both",
+     "quote": "Marco Tardelli , chosen to replace Lippi , failed to improve results"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2004-07-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Roberto Mancini appointed head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "both",
+     "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won Coppa Italia in Mancini's first season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "date",
+     "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "description",
+     "quote": "as well as winning the Coppa Italia and later the Supercoppa Italiana"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won Supercoppa Italiana in Mancini's first season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "date",
+     "quote": "On 8 July 2004 , Inter appointed former Lazio coach Roberto Mancini"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "description",
+     "quote": "as well as winning the Coppa Italia and later the Supercoppa Italiana"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Awarded 2005–06 Serie A title retrospectively.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#27",
+     "role": "both",
+     "quote": "Inter were awarded the 2005–06 Serie A championship retrospectively"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2005-04-12",
+   "grain": "day",
+   "track": "other",
+   "label": "incident",
+   "flag": "derived_date",
+   "text": "Champions League quarter-final second leg abandoned after Inter supporter's flare.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#67",
+     "role": "both",
+     "quote": "the abandonment of the second leg of the 2004–05 Champions League quarter-final"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2006",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Reverse merger with intermediate holding company Inter Capital.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#79",
+     "role": "both",
+     "quote": "reversed merger with an intermediate holding company , Inter Capital S.r.l . in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2006",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Sold brand to new subsidiary Inter Brand S.r.l.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#82",
+     "role": "both",
+     "quote": "In 2006 Inter sold its brand to the new subsidiary , Inter Brand S.r.l."
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2006-05-11",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Retained Coppa Italia by beating Roma on aggregate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#26",
+     "role": "both",
+     "quote": "On 11 May 2006 , Inter retained their Coppa Italia title"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2006-06",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Pirelli sold 15.26% of club shares to Moratti family.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#79",
+     "role": "both",
+     "quote": "In June 2006 , the shirt sponsor and the minority shareholder of the club , Pirelli , sold 15.26% shares"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Club logo returned to pre-1999–2000 design.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#52",
+     "role": "both",
+     "quote": "In 2007 , the logo was returned to the pre-1999–2000 era"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won third consecutive Scudetto (2007–08 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#30",
+     "role": "both",
+     "quote": "On the final day of the 2007–08 Serie A season"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2007-04-22",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Won second consecutive Scudetto, first on field since 1989.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#27",
+     "role": "both",
+     "quote": "On 22 April 2007 , Inter won their second consecutive Scudetto"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Roberto Mancini sacked after 2007–08 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#30",
+     "role": "date",
+     "quote": "On the final day of the 2007–08 Serie A season"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#30",
+     "role": "description",
+     "quote": "Mancini , however , was sacked soon after due to his previous announcement to leave the club"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won Supercoppa Italiana in Mourinho's first season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#31",
+     "role": "date",
+     "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#31",
+     "role": "description",
+     "quote": "In his first season , the Nerazzurri won a Suppercoppa Italiana"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won fourth consecutive Scudetto (2008–09 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#31",
+     "role": "date",
+     "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#31",
+     "role": "description",
+     "quote": "and a fourth consecutive title"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2008-06-02",
+   "grain": "day",
+   "track": "role",
+   "text": "José Mourinho appointed head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#31",
+     "role": "both",
+     "quote": "On 2 June 2008 , Inter appointed former Porto and Chelsea boss José Mourinho"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "approximate_date",
+   "text": "Won Serie A title by two points over Roma (2009–10 season).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "both",
+     "quote": "Inter also won the 2009–10 Serie A title by two points over Roma"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won UEFA Champions League, beating Bayern Munich 2–0 in final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#1",
+     "role": "both",
+     "quote": "and then another in 2010"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Coppa Italia, beating Roma 1–0 in final.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "both",
+     "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "First Italian team to win the treble.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "date",
+     "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "description",
+     "quote": "This made Inter the first Italian team to win the treble"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "José Mourinho leaves for Real Madrid at end of season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "date",
+     "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "description",
+     "quote": "At the end of the season , Mourinho left the club to manage Real Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Rafael Benítez appointed coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "date",
+     "quote": "the 2010 Coppa Italia by defeating the same side 1–0 in the final"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#33",
+     "role": "description",
+     "quote": "he was replaced by Rafael Benítez"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2010-08-21",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Supercoppa Italiana, beating Roma 3–1.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#34",
+     "role": "both",
+     "quote": "On 21 August 2010 , Inter defeated Roma 3–1 and won the 2010 Supercoppa Italiana"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2010-12",
+   "grain": "month",
+   "track": "other",
+   "label": "honour",
+   "text": "Won FIFA Club World Cup for the first time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#34",
+     "role": "both",
+     "quote": "In December 2010 , they claimed the FIFA Club World Cup for the first time"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2010-12-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Rafael Benítez sacked.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#34",
+     "role": "both",
+     "quote": "on 23 December 2010 , due to their declining performance in Serie A"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2010-12-24",
+   "grain": "day",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Leonardo appointed coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#34",
+     "role": "date",
+     "quote": "on 23 December 2010 , due to their declining performance in Serie A"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#34",
+     "role": "description",
+     "quote": "He was replaced by Leonardo the following day"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2011",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "flag": "derived_date",
+   "text": "Won Coppa Italia under Leonardo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "date",
+     "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "description",
+     "quote": "lead them to Coppa Italia title"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Leonardo resigns at end of season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "date",
+     "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#36",
+     "role": "description",
+     "quote": "resigned and was followed by new managers Gian Piero Gasperini"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Gian Piero Gasperini hired as manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "date",
+     "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#36",
+     "role": "description",
+     "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Claudio Ranieri hired as manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "date",
+     "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#36",
+     "role": "description",
+     "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Andrea Stramaccioni hired as manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#35",
+     "role": "date",
+     "quote": "On 6 March 2011 , Leonardo set a new Italian Serie A record"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#36",
+     "role": "description",
+     "quote": "new managers Gian Piero Gasperini , Claudio Ranieri and Andrea Stramaccioni , all hired during the following season"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "2012-08-01",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Announced Moratti will sell minority stake to Chinese consortium.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#37",
+     "role": "both",
+     "quote": "On 1 August 2012 , the club announced that Moratti was to sell a minority interest"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "2012-08-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Agreement formed with China Railway Construction for new stadium project.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#37",
+     "role": "description",
+     "quote": "an agreement was formed with China Railway Construction Corporation Limited for a new stadium project"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#37",
+     "role": "date",
+     "quote": "On 1 August 2012 , the club announced"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "2013-05-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Walter Mazzarri appointed coach replacing Stramaccioni.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#37",
+     "role": "description",
+     "quote": "Walter Mazzarri was appointed to replace Stramaccioni as the manager"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#38",
+     "role": "date",
+     "quote": "on 24 May 2013 , having ended his tenure at Napoli"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "2013-10-15",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Indonesian consortium led by Erick Thohir acquires 70% stake.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#39",
+     "role": "both",
+     "quote": "On 15 October 2013 , an Indonesian consortium"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "2013-12-02",
+   "grain": "day",
+   "track": "other",
+   "label": "partnership",
+   "text": "Strategic partnership with D.C. United announced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#41",
+     "role": "both",
+     "quote": "announced on 2 December 2013 that Inter and D.C . United had formed strategic partnership"
+    }
+   ]
+  },
+  {
+   "id": "e73",
+   "date": "2014",
+   "grain": "year",
+   "track": "work",
+   "text": "Adopted predominantly black home kit with thin blue pinstripes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#55",
+     "role": "both",
+     "quote": "In 2014 , the club adopted a predominantly black home kit"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "2014-07",
+   "grain": "month",
+   "track": "work",
+   "text": "Club decided to undertake a rebranding of its logo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#52",
+     "role": "both",
+     "quote": "This version was used until July 2014 , when the club decided to undertake a rebranding"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "2014-11-14",
+   "grain": "day",
+   "track": "role",
+   "text": "Roberto Mancini returns as club manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#42",
+     "role": "both",
+     "quote": "Roberto Mancini returned as the club manager on 14 November 2014"
+    }
+   ]
+  },
+  {
+   "id": "e76",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "flag": "derived_date",
+   "text": "Returned to a more traditional kit design.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#55",
+     "role": "date",
+     "quote": "In 2014 , the club adopted a predominantly black home kit"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#55",
+     "role": "description",
+     "quote": "before returning to a more traditional design the following season"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "sanction",
+   "text": "UEFA sanctions Inter for Financial Fair Play breach; fined €6 million.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#95",
+     "role": "both",
+     "quote": "In 2015 Inter and Roma were the only two Italian clubs that were sanctioned by the UEFA"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "probation",
+   "text": "Agreed three-year aggregate break-even probation period.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#95",
+     "role": "both",
+     "quote": "Inter agreed to have a three-year aggregate break-even from 2015 to 2018"
+    }
+   ]
+  },
+  {
+   "id": "e79",
+   "date": "2016-06-06",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Suning Holdings Group acquires majority stake in the club.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#43",
+     "role": "both",
+     "quote": "On 6 June 2016 , Suning Holdings Group"
+    }
+   ]
+  },
+  {
+   "id": "e80",
+   "date": "2016-06-28",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Extraordinary general meeting approves the Suning deal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#43",
+     "role": "both",
+     "quote": "The deal was approved by an extraordinary general meeting on 28 June 2016"
+    }
+   ]
+  },
+  {
+   "id": "e81",
+   "date": "2016-08",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Frank de Boer appointed coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "date",
+     "quote": "On 8 August 2016 , Inter parted company with head coach Roberto Mancini"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "description",
+     "quote": "He was replaced by Frank de Boer"
+    }
+   ]
+  },
+  {
+   "id": "e82",
+   "date": "2016-08-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Roberto Mancini leaves by mutual consent.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "both",
+     "quote": "On 8 August 2016 , Inter parted company with head coach Roberto Mancini"
+    }
+   ]
+  },
+  {
+   "id": "e83",
+   "date": "2016-11",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Stefano Pioli takes over as coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "description",
+     "quote": "The successor , Stefano Pioli"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "date",
+     "quote": "who was sacked on 1 November 2016"
+    }
+   ]
+  },
+  {
+   "id": "e84",
+   "date": "2016-11-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Frank de Boer sacked after 11 Serie A games.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#44",
+     "role": "both",
+     "quote": "who was sacked on 1 November 2016"
+    }
+   ]
+  },
+  {
+   "id": "e85",
+   "date": "2017",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Stefano Pioli departs before end of 2016–17 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "date",
+     "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "description",
+     "quote": "he and the club parted away before seasons end"
+    }
+   ]
+  },
+  {
+   "id": "e86",
+   "date": "2017-04-21",
+   "grain": "day",
+   "track": "other",
+   "label": "sanction",
+   "text": "UEFA keeps squad-size reduction sanction on Inter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#99",
+     "role": "date",
+     "quote": "On 21 April 2017 , Inter announced that their net loss"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#99",
+     "role": "description",
+     "quote": "UEFA also announced that the reduction of squad size of Inter in European competitions would not be lifted yet"
+    }
+   ]
+  },
+  {
+   "id": "e87",
+   "date": "2017-06-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Luciano Spalletti appointed manager on two-year contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "both",
+     "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed as Inter manager"
+    }
+   ]
+  },
+  {
+   "id": "e88",
+   "date": "2018",
+   "grain": "year",
+   "track": "other",
+   "label": "probation",
+   "text": "Break-even probation period (2015–2018) ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#95",
+     "role": "both",
+     "quote": "Inter agreed to have a three-year aggregate break-even from 2015 to 2018"
+    }
+   ]
+  },
+  {
+   "id": "e89",
+   "date": "2018-05",
+   "grain": "month",
+   "track": "other",
+   "label": "qualification",
+   "flag": "derived_date",
+   "text": "Clinched UEFA Champions League group stage spot.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "date",
+     "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "description",
+     "quote": "eleven months later Inter clinched a UEFA Champions League group stage spot"
+    }
+   ]
+  },
+  {
+   "id": "e90",
+   "date": "2018-06",
+   "grain": "month",
+   "track": "other",
+   "label": "sanction",
+   "text": "UEFA repeats squad-size reduction announcement for Inter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#99",
+     "role": "both",
+     "quote": "Same announcement was made by UEFA in June 2018"
+    }
+   ]
+  },
+  {
+   "id": "e91",
+   "date": "2018-08",
+   "grain": "month",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Contract with Spalletti extended to 2021.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "date",
+     "quote": "On 9 June 2017 , former Roma coach Luciano Spalletti was appointed"
+    },
+    {
+     "chunk_id": "/wiki/Inter_Milan#45",
+     "role": "description",
+     "quote": "in August the club extended the contract with Spalletti to"
+    }
+   ]
+  },
+  {
+   "id": "e92",
+   "date": "2018-10-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Steven Zhang appointed club president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#47",
+     "role": "both",
+     "quote": "On 26 October 2018 , Steven Zhang was appointed as new president of the club"
+    }
+   ]
+  },
+  {
+   "id": "e93",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Luciano Spalletti sacked after 2018–19 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#47",
+     "role": "both",
+     "quote": "After the 2018–19 Serie A season , despite Inter finishing 4th , Spaletti was sacked"
+    }
+   ]
+  },
+  {
+   "id": "e94",
+   "date": "2019-01-25",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "LionRock Capital agrees to acquire 31.05% of Inter shares.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#47",
+     "role": "both",
+     "quote": "On 25 January 2019 , the club officially announced that LionRock Capital from Hong Kong reached an agreement"
+    }
+   ]
+  },
+  {
+   "id": "e95",
+   "date": "2019-05-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Antonio Conte appointed coach on three-year deal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#48",
+     "role": "both",
+     "quote": "On 31 May 2019 , Inter appointed former Juventus and Italian manager Antonio Conte"
+    }
+   ]
+  },
+  {
+   "id": "e96",
+   "date": "2021-05-02",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Confirmed Serie A champions for first time in eleven years.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Inter_Milan#49",
+     "role": "both",
+     "quote": "Following Atalantas draw against Sassuolo on 2 May 2021"
+    }
+   ]
+  }
  ],
  "undated_mentions": [
   "After World War II the club regained its original name",
