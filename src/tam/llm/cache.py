@@ -18,6 +18,7 @@ import json
 import os
 import sqlite3
 import tempfile
+import threading
 from abc import ABC, abstractmethod
 from collections.abc import Iterator
 from datetime import datetime, timezone
@@ -65,14 +66,18 @@ class SqliteCache(CacheStore):
     Bật WAL và chờ khóa tối đa 30 giây, nên chạy ingestion và Profiler song song không hỏng dữ liệu.
     """
 
-    def __init__(self, path: str | Path, *, refresh: bool = False) -> None:
-        """`refresh=True`: bỏ qua mục đã có (luôn coi là chưa có) nhưng vẫn ghi đè kết quả mới."""
+    def __init__(self, path: str | Path, *, refresh: bool = False, threadsafe: bool = False) -> None:
+        """`refresh=True`: bỏ qua mục đã có (luôn coi là chưa có) nhưng vẫn ghi đè kết quả mới.
+
+        `threadsafe=True`: một kết nối dùng chung giữa các luồng (`check_same_thread=False`) và mọi truy cập qua một khóa; cần khi gọi từ
+        `ThreadPoolExecutor` (vd `scripts/run_agent_search.py --workers N`)."""
         self._path = Path(path)
         self._path.parent.mkdir(parents=True, exist_ok=True)
         self._refresh = refresh
         self.hits = 0
         self.misses = 0
-        self._db = sqlite3.connect(self._path, timeout=30)
+        self._lock = threading.RLock()
+        self._db = sqlite3.connect(self._path, timeout=30, check_same_thread=not threadsafe)
         self._db.execute("PRAGMA journal_mode=WAL")
         self._db.execute(
             "CREATE TABLE IF NOT EXISTS cache (key TEXT PRIMARY KEY, schema TEXT, model TEXT, created_at TEXT, "
@@ -82,30 +87,33 @@ class SqliteCache(CacheStore):
 
     def get(self, key: str) -> dict[str, Any] | None:
         """Giá trị đã lưu hoặc None."""
-        if not self._refresh:
-            row = self._db.execute("SELECT value FROM cache WHERE key = ?", (key,)).fetchone()
-            if row is not None:
-                try:
-                    value = json.loads(row[0])
-                    self.hits += 1
-                    return value
-                except ValueError:
-                    logger.warning("Cache hỏng, bỏ qua: %s", key)
-        self.misses += 1
-        return None
+        with self._lock:
+            if not self._refresh:
+                row = self._db.execute("SELECT value FROM cache WHERE key = ?", (key,)).fetchone()
+                if row is not None:
+                    try:
+                        value = json.loads(row[0])
+                        self.hits += 1
+                        return value
+                    except ValueError:
+                        logger.warning("Cache hỏng, bỏ qua: %s", key)
+            self.misses += 1
+            return None
 
     def put(self, key: str, value: dict[str, Any], meta: dict[str, str] | None = None) -> None:
         """Ghi hoặc ghi đè một mục."""
         meta = meta or {}
-        self._db.execute(
-            "INSERT OR REPLACE INTO cache (key, schema, model, created_at, preview, value) VALUES (?, ?, ?, ?, ?, ?)",
-            (key, meta.get("schema"), meta.get("model"), _now(), meta.get("preview"), json.dumps(value, ensure_ascii=False)),
-        )
-        self._db.commit()
+        with self._lock:
+            self._db.execute(
+                "INSERT OR REPLACE INTO cache (key, schema, model, created_at, preview, value) VALUES (?, ?, ?, ?, ?, ?)",
+                (key, meta.get("schema"), meta.get("model"), _now(), meta.get("preview"), json.dumps(value, ensure_ascii=False)),
+            )
+            self._db.commit()
 
     def count(self) -> int:
         """Số mục đang lưu."""
-        return self._db.execute("SELECT COUNT(*) FROM cache").fetchone()[0]
+        with self._lock:
+            return self._db.execute("SELECT COUNT(*) FROM cache").fetchone()[0]
 
     def entries(self) -> Iterator[tuple[str, dict[str, Any]]]:
         """(khóa, mục) theo thời gian ghi, mục = {schema, model, created_at, preview, value}; dùng để dựng bản JSON."""

@@ -129,20 +129,30 @@ def attach(llm: Any, profile: str) -> Any:
     return llm
 
 
-def measure_stream(llm: Any, messages: list[tuple[str, str]], *, label: str = "") -> dict[str, Any]:
-    """Đo một lần gọi bằng streaming: TTFT, TPOT, tokens/s, E2E. Đường riêng cho bài đo hiệu năng.
+def _has_output(chunk: Any) -> bool:
+    """Chunk có phần đầu ra thật (chữ, lời gọi công cụ hoặc chuỗi suy luận). Lượt chỉ gọi công cụ có `content` rỗng nhưng vẫn là token đầu ra."""
+    return bool(getattr(chunk, "content", "") or getattr(chunk, "tool_call_chunks", None)
+                or (getattr(chunk, "additional_kwargs", None) or {}).get("reasoning_content"))
 
-    TTFT = t(chunk có nội dung đầu) - t_gửi. TPOT = (t_cuối - t_đầu) / (số token ra - 1); số token ra lấy từ
-    `usage_metadata` nếu API trả, không thì đếm số chunk có nội dung (xấp xỉ, ghi `tokens_exact=False`).
+
+def stream_collect(llm: Any, messages: Any) -> tuple[list[Any], dict[str, Any]]:
+    """Gọi `llm.stream(messages)`, trả về (các chunk, số đo): TTFT, TPOT, tokens/s, E2E, token vào/ra/cache.
+
+    TTFT = t(chunk đầu ra đầu tiên) - t_gửi. TPOT = (t_cuối - t_đầu) / (số token ra - 1); số token ra lấy từ `usage_metadata` nếu API trả,
+    không thì đếm số chunk có đầu ra (xấp xỉ, `tokens_exact=False`). Không ghi file: người gọi quyết định ghi ở đâu.
     """
     t_send = time.perf_counter()
     t_first = t_last = None
-    n_chunks, usage_out, usage_in = 0, None, None
+    n_chunks, usage_out, usage_in, cached = 0, None, None, None
+    chunks: list[Any] = []
     for chunk in llm.stream(messages):
+        chunks.append(chunk)
         usage = getattr(chunk, "usage_metadata", None)
         if usage:
             usage_in, usage_out = usage.get("input_tokens", usage_in), usage.get("output_tokens", usage_out)
-        if getattr(chunk, "content", ""):
+            details = usage.get("input_token_details") or {}
+            cached = details.get("cache_read", cached)
+        if _has_output(chunk):
             now = time.perf_counter()
             t_first = t_first or now
             t_last = now
@@ -151,10 +161,16 @@ def measure_stream(llm: Any, messages: list[tuple[str, str]], *, label: str = ""
     n_out = usage_out if usage_out else n_chunks
     ttft = None if t_first is None else t_first - t_send
     gen = None if t_first is None or t_last is None else t_last - t_first
-    row = {"kind": "stream", "label": label, "ttft_s": ttft, "e2e_s": t_done - t_send, "output_tokens": n_out,
-           "input_tokens": usage_in, "tokens_exact": bool(usage_out),
-           "tpot_s": (gen / (n_out - 1) if gen is not None and n_out > 1 else None),
+    row = {"ttft_s": ttft, "e2e_s": t_done - t_send, "output_tokens": n_out, "input_tokens": usage_in, "cached_input_tokens": cached,
+           "tokens_exact": bool(usage_out), "tpot_s": (gen / (n_out - 1) if gen is not None and n_out > 1 else None),
            "tokens_per_s": (n_out / gen if gen and n_out else None)}
+    return chunks, row
+
+
+def measure_stream(llm: Any, messages: list[tuple[str, str]], *, label: str = "") -> dict[str, Any]:
+    """Đo một lần gọi bằng streaming (đường riêng cho bài đo hiệu năng) và ghi một dòng `kind="stream"`."""
+    _, core = stream_collect(llm, messages)
+    row = {"kind": "stream", "label": label, **core}
     record(row)
     return row
 

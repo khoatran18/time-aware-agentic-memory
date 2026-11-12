@@ -23,7 +23,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from profile_eval import PacedCache, Pacer  # noqa: E402
 
-from tam.config.loader import load_config  # noqa: E402
+from tam.config.loader import Config, load_config  # noqa: E402
 from tam.config.logging import get_logger, get_run_dir, setup_logging  # noqa: E402
 from tam.embedding.factory import get_embedder  # noqa: E402
 from tam.generation.answerer import Answerer, is_refusal  # noqa: E402
@@ -55,6 +55,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--run", required=True, help="thư mục output của lần chạy evaluate.py (có predictions.jsonl)")
     ap.add_argument("--subset", required=True)
+    ap.add_argument("--collection", default="", help="tên collection Qdrant (mặc định theo --subset; vd tune_base dùng tam_chunks_dev_tune)")
     ap.add_argument("--prompt", choices=["v1", "v2", "v3", "v4"], default="v1")
     ap.add_argument("--profile", default="google_35", help="profile LLM trong config (llm.profiles)")
     ap.add_argument("--top-k", type=int, default=15, help="số chunk đưa vào ngữ cảnh mỗi câu")
@@ -72,6 +73,13 @@ def main() -> None:
     cfg = load_config()
     setup_logging(cfg)
     run_dir = get_run_dir()
+    llm_cfg = cfg
+    prof = cfg.llm.profiles[args.profile]
+    if prof.get("session_header"):  # vd OpenCode Go: thiếu x-opencode-session thì 400 MissingSessionID; một mã phiên cho cả lần chạy
+        data = cfg.to_dict(masked=False)
+        hdrs = data["llm"]["profiles"][args.profile].setdefault("default_headers", {})
+        hdrs[prof["session_header"]] = f"{run_dir.name}-answers"
+        llm_cfg = Config(data)
     subset = json.loads((ROOT / "dataset" / "eval" / f"{args.subset}_subset.json").read_text(encoding="utf-8"))
     cases = {c["idx"]: c for c in subset["cases"]}
     preds = [json.loads(l) for l in (ROOT / args.run / "predictions.jsonl").read_text(encoding="utf-8").splitlines()]
@@ -84,7 +92,7 @@ def main() -> None:
         preds = [p for p in preds if p["id"] in keep_ids]
     if args.limit:
         preds = preds[: args.limit]
-    store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset))
+    store = QdrantStore.from_config(cfg, get_embedder(cfg), collection_for(cfg, args.subset, args.collection or None))
     chunk_lock = threading.Lock()
     chunk_cache: dict[str, object] = {}
 
@@ -107,7 +115,7 @@ def main() -> None:
             return
         if not hasattr(local, "answerer"):
             local.cache = PacedCache(ROOT / "data" / "llm_cache" / "cache.sqlite", pacer)
-            local.answerer = Answerer(get_llm(cfg, args.profile), version=args.prompt, cache=local.cache)
+            local.answerer = Answerer(get_llm(llm_cfg, args.profile), version=args.prompt, cache=local.cache)
         ctxs = [context(p) for p in batch]
         questions = [cases[p["id"]]["question_hard"] for p in batch]
         try:

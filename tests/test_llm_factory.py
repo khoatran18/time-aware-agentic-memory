@@ -99,3 +99,24 @@ def test_google_profile_timeout_is_passed():
     llm = build({"model_id": "gemini-3.5-flash-lite", "api_key": "x", "temperature": 0, "timeout": 90})
     assert llm.timeout == 90
     assert build({"model_id": "gemini-3.5-flash-lite", "api_key": "x"}).timeout is None
+
+
+def test_openai_stream_usage_is_opt_in(monkeypatch):
+    monkeypatch.setenv("OPENCODE_API_KEY", "dummy")  # profile thật cần khóa; giá trị giả, không gọi mạng
+    """Có `base_url` tùy chỉnh thì langchain-openai mặc định không xin `usage` khi streaming; profile đặt `stream_usage: true` thì bật."""
+    base = {"provider": "openai", "model_id": "m", "api_key": "k", "base_url": "http://localhost:1/v1"}
+    assert get_llm(cfg(p=base), "p")._should_stream_usage() is False
+    assert get_llm(cfg(p={**base, "stream_usage": True}), "p")._should_stream_usage() is True
+    assert get_llm(load_config_with_agent(), "p")._should_stream_usage() is True
+
+
+def load_config_with_agent():
+    """Profile `opencode_deepseek_flash` thật của config.dev.yaml (khóa giả), đổi tên thành `p`."""
+    real = load_config("dev")
+    return Config({"llm": {"profiles": {"p": real.llm.profiles.opencode_deepseek_flash.to_dict(masked=False)}, "roles": {"generation": "p"}}})
+
+
+def test_openai_default_headers_passed_through():
+    base = {"provider": "openai", "model_id": "m", "api_key": "k", "base_url": "http://localhost:1/v1"}
+    assert get_llm(cfg(p={**base, "default_headers": {"User-Agent": "my-agent/1.0"}}), "p").default_headers == {"User-Agent": "my-agent/1.0"}
+    assert get_llm(cfg(p=base), "p").default_headers is None
