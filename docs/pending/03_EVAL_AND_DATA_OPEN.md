@@ -1,6 +1,42 @@
 # Đánh giá và dữ liệu: việc chưa chốt
 
 
+## CẬP NHẬT 2026-11-12: sinh và soát câu hỏi v9 (đọc trước; thay mục "việc kế tiếp" của phần 2026-11-11)
+
+**1. Đã làm**
+- **Tune v1–v3 (25 trang, gold viết lại bằng v7):** Session 16 (5 agent Haiku × 5 trang) sinh 96 câu. Checker 0 lỗi. Soát tay rồi bỏ 7 câu (WUPJ Q4 nhãn lẫn; Mike_Bongiorno Q1 text Telegatto trùng; Telekids Q1 đáp án 1 năm; 4 câu `next` có nhóm 2 mốc: Sharp:3, Whitley:6, Regius:5, Toungoo:2), sửa WUPJ Q2 (thêm "Among the dated events…"), sửa tên Nordenskiöld, Nøstmo, Trøndelag, Österdahl (giữ Odqvist vì gold ghi vậy). Còn 89 câu, Klemzig và Telekids rỗng.
+- **Test_clean (186 trang, `batchT/rev`):** viết 8 prompt `local/prompts/sinh_cau_hoi_v9_clean_S1..S8.md` (40 agent, mỗi agent 4–5 trang; mục N: không dùng `date` âm, nhãn `other` chỉ gom khi ≥3 mốc cùng nhãn, tên riêng đúng dấu, `why_needs_multiple` có dấu). Người dùng chạy đủ 8 session. 186/186 trang có file câu hỏi, 13 trang rỗng.
+- **Sửa hàng loạt sau checker (bản sao `*.jsonl.bak_edit3`):** bỏ 65 câu (10 `first_and_last` nhóm 2 mốc, 2 câu Gary_Mills dùng mốc trùng text làm neo, 53 câu `next/last/first` nhóm 2 mốc); Mbaye_Jacques_Diop:3 đổi "between 1975 and 1982" thành "between the mid-1970s and the early 1980s"; thêm "in any order" cho 41 câu `list`/`summary` có mốc cùng ngày; 6 câu `order_gap` đổi "How many years" thành "How many calendar years".
+- **Soát tay (bản sao `*.jsonl.bak_edit4`):** đọc hết 112 câu có mốc cờ nằm trong khoảng chuỗi + 94 cảnh báo sát biên, 74 cặp "chữ trùng cao" nằm cùng một câu, 8 chuỗi hòa đầu/cuối, và các câu phụ thuộc phán đoán. Bỏ thêm 5 câu: U_66:2 (thiếu e16 `derived_date` sau Drumbeat), Inter_Milan:6 (thiếu danh hiệu 1930, 1938: chunk chỉ ghi mốc 1940 là "fifth title"), Myles_Deering:5 (e21 và e22 mâu thuẫn ngày thăng chuẩn tướng), Moeslim_Taher:4 (2 mốc, còn một chức không ngày), Phil_Twyford:1 (mốc 2020 chỉ suy luận).
+- **Kiểm các vấn đề gold agent báo:** Guggenberger "thiếu label" là SAI (21 mốc `other` đều có label; toàn batchT 0 mốc `other` thiếu label; ít câu do cờ `derived_date`). Iron Cross e6/e11 là mâu thuẫn thật của chunk, đã bị loại. Berga e8, Many_a_Slip e4: vô hại. National_Library e16/e17 ("listed as director") nên gắn `source_inconsistent`, nhưng không câu nào dùng nên bỏ qua (người dùng quyết không ghi và không sửa).
+
+**2. Kết quả**
+- **v9 sau cùng:** 1861 câu, 0 LỖI, 1120 cảnh báo. Test_clean 665 câu / 186 trang, 13 trang rỗng. Loại câu test_clean: `list` ~219, `order_gap` ~214, `first_last_next` ~166, `summary` ~71 (số trước đợt bỏ 5 câu cuối).
+- Không câu test_clean nào dùng mốc `date` âm hoặc mốc `derived_date`/`source_inconsistent` làm đáp án.
+
+**3. Nhận xét**
+- Câu hỏi ít (3,6 câu/trang) và lệch về `order_gap`/`first_last_next` vì: `track work` bị loại, mốc `derived_date` chặn chuỗi, `undated_mentions` chặn chuỗi, v7 chỉ giữ một mốc cho hoạt động. Đây là cái giá đã chấp nhận (không nới `derived_date`).
+- Báo cáo của agent Haiku KHÔNG đáng tin để đếm (agent 9 báo 17 câu, thực 19; agent 20 phân loại sai) và hay tự khẳng định "lỗi gold" mà không kiểm. Chỉ tin số của checker, đánh dấu "chưa kiểm chứng" mọi khẳng định về gold cho đến khi mở file.
+- Phần lớn cảnh báo "mốc cờ gần chuỗi chưa khai" là mốc khác loại (kết thúc so với bắt đầu, người khác, giải khác) nên đáp án không đổi; chỉ 3 câu thật sự sai chuỗi đã bỏ.
+- Cảnh báo "chữ trùng cao" ở mức cặp (210) phần lớn là sự kiện thật khác nhau cùng mẫu câu (huy chương, nhiệm kỳ, danh hiệu); không có trường hợp đếm đôi trong cùng một câu.
+
+**4. Chưa làm**
+- **Bước B (cần DeepSeek, hỏi trước khi gọi):** `chain_complete`, `chain_verify` trên mẫu khoảng 20 câu test_clean với `TAM_LLM_METRICS_FILE`, báo chi phí, rồi mới quyết chạy toàn bộ.
+- Soát tay chưa phủ hết 665 câu: chỉ đọc nhóm bị cảnh báo hoặc do agent đánh dấu nghi.
+- Câu hỏi tune v4–v6 (các trang cũ): chưa soát lại theo cách này. 815 cảnh báo "mốc cờ gần chuỗi" của cả v9 chưa xem hết ngoài test_clean.
+- 5 câu v4–v5 nghi ngờ (The_One_Show:3, Meet_the_Press:4, Alemannia_Aachen:1, Vindobona:2, Jerzy_Buzek:1) vẫn chờ quyết định.
+- Lọc mốc `date` âm khi đo ingest với gold, kiểm chunk TCN có vào store với `start_time` dương không (chỉ đọc).
+- Chấm điểm `list` so với `summary`, ranh giới với Mechanism 3.
+
+**5. Dự định (theo thứ tự)**
+1. Hỏi người dùng rồi chạy bước B trên mẫu 20 câu, báo chi phí.
+2. Chạy hệ thống trên test_clean với câu hỏi v9 (cần quyết định chi phí API trước).
+3. Chấm riêng các câu có `flagged_ids` không rỗng khi báo điểm.
+4. Soát tune v4–v6 và 5 câu nghi ngờ khi còn thời gian.
+
+**6. Trạng thái commit**
+- Mọi thay đổi gần đây nằm trong `local/` (gitignored), trừ ghi chú này. Chỉ `docs/pending/03_EVAL_AND_DATA_OPEN.md` thay đổi để commit.
+
 ## CẬP NHẬT chiều–tối 2026-11-11 (đọc trước; thay các mục "việc kế tiếp" của phần tổng hợp phía dưới)
 
 **1. Đã làm (kể từ phần tổng hợp phía dưới)**
