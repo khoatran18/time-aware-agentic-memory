@@ -1,6 +1,62 @@
 # Đánh giá và dữ liệu: việc chưa chốt
 
 
+## CẬP NHẬT 2026-11-12 (sau): bước B mẫu 20 câu bằng OpenCode, lưu câu hỏi v9, việc còn lại (đọc trước)
+
+**1. Đã làm**
+- Lưu bộ câu hỏi v9 vào git: `dataset/eval/timeline_pilot/questions_v9/` (553 file `.jsonl` + `README.md`), trùng khớp `local/questions/v9/` lúc 2026-11-12 (1861 câu: tune 639, valid 557, test_clean 665). Không copy `checked.jsonl`, `_*.jsonl`, `.bak*`. Gold, `extras/`, `derived_classify/`, `tools/` vốn đã tracked. Mã (`local/check_questions.py`, `local/chain_*.py`) và prompt (`local/prompts/`) vẫn chỉ ở `local/`.
+- Bước B trên mẫu 20 nhóm test_clean (10 trang, seed 7) bằng profile `opencode_deepseek_flash` (model `deepseek-v4.1-flash`, lần gọi đầu tiên của profile này): 26 lần gọi, 0 lỗi. Đã thêm hàm đặt header `x-opencode-session` vào `local/chain_complete.py` và `local/chain_verify.py` (thiếu thì OpenCode trả 400 `MissingSessionID`; `get_llm` không tự đặt, chỉ `scripts/run_agent_search.py` đặt).
+
+**2. Kết quả mẫu**
+- [1]: 18/20 nhóm không có ứng viên; Chicago_Stadium:2 có 4, Herbert_Schultze:0 có 2. [2]+[3]: cả 6 bị loại (4 `duplicate_of_gold`, 2 `duplicate_in_chain`). Đọc tay cả 6: đều là báo động giả (Chicago: 4 mốc 1977–1978 trước cửa sổ từ 1979; Schultze: cùng sự kiện, ngày công bố khác ngày hiệu lực). Không câu nào cần bỏ hay thêm id.
+- Nhận xét: `in_window` của verifier sai ở 3 ứng viên Chicago (ghi true dù trước 1979), nhưng kết luận vẫn đúng nhờ lọc trùng gold. Mẫu nhỏ, chưa suy ra cho cả bộ.
+
+**3. Thông số đo (nguồn `TAM_LLM_METRICS_FILE`)**
+- [1]: 20 lần gọi, 107.152 token vào, 33.656 ra (trung bình khoảng 5.400 vào, 1.700 ra). [2]: 6 lần gọi, 8.631 vào, 3.558 ra. Tổng khoảng $0,04 ngoài giờ cao điểm theo giá OpenCode ($0,15 vào / $0,60 ra mỗi triệu token; gấp đôi 08–11h và 13–17h giờ Việt Nam).
+- Một lần gọi chậm nhất 149 giây. Tổng thời gian chạy chưa đo. Output trung bình cao, nghi thinking đang bật (dòng `extra_body` của profile đang là chú thích; chưa kiểm chứng).
+
+**4. Việc còn lại (số theo bộ v9 hiện tại; "nhóm" = 1 request [1])**
+
+| Tập | Tổng | Chưa qua [1] |
+|---|---|---|
+| test_clean | 149 trang, 452 nhóm | đã chạy xong (4d) |
+| valid | 128 trang, 346 nhóm | đã chạy xong (4c) |
+| tune v1–v3 | 21 trang, 65 nhóm | 18 trang, 59 nhóm |
+| tune cũ (v4–v9) | 144 trang, 408 nhóm | 54 trang, 148 nhóm |
+| Cộng | 442 trang, 1271 nhóm | 349 trang, 985 nhóm |
+
+- Request [1]: khoảng 985 (chỉ phần chưa có) hoặc khoảng 1.250 (chạy lại cả tune cũ). Request [2]: 1 mỗi ứng viên, ước 70–300 (chưa kiểm chứng; mẫu này 6/20 nhóm, lần v9_1 cũ khoảng 11/163). Chi phí ước khoảng $1,8 cho [1] ngoài giờ cao điểm cộng dưới $0,5 cho [2] (ước thô).
+- "Đã qua" của tune cũ (90 trang) tính theo trang trong `local/chain_check/`; một số lần chạy dùng phiên bản câu hỏi cũ (v5–v8), nên chưa chắc khớp từng câu v9 hiện tại (chưa kiểm chứng).
+- `chain_complete` chỉ kiểm `first_last_next`, `list`, `summary`; không kiểm `order_gap` (chuỗi chỉ 2 mốc).
+- Các file `local/chain_decisions_v9_valid*_apply.json` là quyết định theo lỗi checker, không phải kết quả [1][2][3]; valid chưa có lần [1][2][3] nào.
+
+**4b. Đã chạy [1][2][3] cho tune còn lại (2026-11-12, `opencode_deepseek_flash`, 20 luồng)**
+- 213 nhóm / 75 trang (54 trang tune cũ chưa từng chạy + 21 trang v1–v3), 0 lỗi. [1]: 883.940 token vào, 167.278 ra (khoảng $0,23 ngoài giờ cao điểm). [2]: 14 ứng viên. Kết quả ở `local/chain_check/oc_tune_rest_4/` và `oc_tune_rest_4v/`; cache ở `data/llm_cache/chain/` (cache riêng, `SqliteCache(threadsafe=True)`).
+- Đọc tay 10 nhóm có ứng viên: chỉ **Butch_Levy:0 thiếu mốc thật** (câu nguồn ghi cả Northwest AAU 1937 và 1938, gold e2/e3 chỉ ghi phần trung học) → ĐÃ BỎ (v9 còn 1860 câu, tune 638, checker 0 lỗi; bản sao `.bak_edit5`, ghi vào `_dropped.jsonl`). Real_Audiencia_of_Guatemala:0 (e10 tái lập Audiencia 1568, nguồn không nói trụ sở) GIỮ NGUYÊN theo quyết định của người dùng; các ứng viên còn lại là báo động giả.
+- Sửa mã (chỉ trong `local/`): `chain_complete.py` và `chain_verify.py` tìm cả `pilot*` (trước đó chết ở trang v1–v3), dùng cache, `chain_complete.py` ghi dần `results.partial.jsonl` và có chế độ `DRY=1` kiểm đầu vào không gọi API; thêm header OpenCode.
+- Test_clean: đã chạy xong ở mục 4d.
+
+**4c. Đã chạy [1][2][3] cho valid (2026-11-12, `opencode_deepseek_flash`, 30 luồng)**
+- 346 nhóm / 128 trang, 0 lỗi, cả 346 lần gọi nằm trong cache `data/llm_cache/chain/`. [1]: 1.956.836 token vào, 284.048 ra (khoảng $0,46 ngoài giờ cao điểm). [2]: 16 ứng viên. Kết quả: `local/chain_check/oc_valid_1/` ([1]) và `oc_valid_1v/` ([2][3]).
+- Người dùng cho phép thêm thẳng mốc thật vào `extras/` hoặc id vào chuỗi câu hỏi. Đọc tay 11 nhóm có ứng viên, chỉ 2 câu cần sửa: **Sergio_P_rez:0** thêm e25 (2012-09-28, xác nhận thay thế Hamilton ở McLaren) vào `gold_event_ids` (nay 8 mốc; mốc đã có trong gold nhưng thiếu trong chuỗi); **Meg_Whitman:4** bỏ câu vì tin Sacramento Bee 2010 (không đi bầu 28 năm) thỏa tiêu chí nhưng không có trong gold, mốc ghi vào `extras/Meg_Whitman.json`. Bản sao `.bak_edit6`.
+- Không sửa: Willy_Hernang_mez:3 (dòng "2019 World Cup :" trong nguồn không ghi huy chương nên verifier sai), Igor_Grabar:5 (e4 là `derived_date`), Igor_Grabar:4 (e35 "chỉ huy ủy ban" không phải bổ nhiệm), Francis_H_Case:3 (tiêu chí không gồm biểu quyết hay kết thúc nhiệm kỳ), David_Jolly:0 (năm suy từ câu trước), Lee_Nogan:2 (mùa giải), các ứng viên còn lại trùng chuỗi hoặc gold.
+- v9 sau đợt này: 1859 câu (tune 638, valid 556, test_clean 665), checker 0 lỗi.
+**4d. Đã chạy [1][2][3] cho test_clean (2026-11-12, `opencode_deepseek_flash`, 30 luồng)**
+- 452 nhóm / 149 trang (chạy lại cả 20 nhóm mẫu vì mẫu chưa có cache), 0 lỗi, cả 452 lần gọi nằm trong cache `data/llm_cache/chain/`. [1]: 2.559.911 token vào, 408.520 ra (khoảng $0,63 ngoài giờ cao điểm). [2]: 30 ứng viên (chưa tổng kết chi phí). Kết quả: `local/chain_check/oc_test_1/` ([1]) và `oc_test_1v/` ([2][3]).
+- 20 nhóm có ứng viên; đọc tay cả 30 ứng viên bằng `local/chain_review.py` và đọc nguồn: **không câu nào cần sửa, bỏ hay thêm vào `extras/`**. Lý do: ngoài cửa sổ của câu (Chicago_Stadium, Gary_Mills, All_Nippon_Airways là đổi tên chứ không phải lập công ty con), tiêu chí loại trừ (Embassy_of_Canada loại chức quyền, National_Library_of_Serbia loại mốc "listed as director", VP_25 loại việc tái nhập căn cứ cũ), mốc `derived_date` hoặc `source_inconsistent` bị cấm (Inter_Milan, Niigata, 6th_Combined_Arms_Army, Pinchas_Zukerman), mốc ước lượng cùng sự kiện với mốc đã có trong chuỗi (Calcio_Catania e15 với e16, UD_Las_Palmas), hoặc trùng chuỗi (Herbert_Schultze, SBB, VP_29).
+- Bốn ứng viên mới chưa có trong gold đều bị loại: Lisa_Marie_Presley:3 và :7, Pierre_Gasly:3, Steve_Sidwell:0 có năm suy ra từ câu trước (cấm `derived_date`), Wheel_of_Fortune:1 là mở rộng nhiệm vụ chứ không phải bắt đầu làm announcer. Steve_Sidwell:0 lưu ý: bản ký hợp đồng một năm với Brighton sau khi Stoke cho ra đi (2016) không có ngày rõ nên không vào đáp án.
+- v9 giữ nguyên 1859 câu (tune 638, valid 556, test_clean 665).
+
+- Quy định thêm mốc sau [1][2][3] (người dùng chốt 2026-11-12): mốc đã có trong gold, thỏa tiêu chí, không `derived_date`/`source_inconsistent` → thêm id vào `gold_event_ids`; mốc chưa có trong gold → ghi `extras/<Trang>.json` và bỏ câu; ngày suy ra hoặc theo mùa → không thêm. Không sửa gold `rev/`.
+- Công cụ mới `local/chain_review.py <repo> <verdicts_dir> [auto|gold|all]` (không gọi API; chạy ngay sau [2], trước khi sửa file câu hỏi vì chỉ số `qi` lệch sau khi bỏ câu): liệt kê ứng viên `duplicate_of_gold` có mốc gold NGOÀI chuỗi và ứng viên `auto_accept` kèm câu hỏi, tiêu chí, chuỗi, trích dẫn. Lý do: verifier gộp "đã có trong gold" với "đã có trong chuỗi" (Sergio_P_rez:0 bị che) và `in_window` của nó không đáng tin.
+- Quy định thêm mốc sau [1][2][3] (người dùng chốt 2026-11-12): mốc đã có trong gold, thỏa tiêu chí, không `derived_date`/`source_inconsistent` → thêm id vào `gold_event_ids`; mốc chưa có trong gold → ghi `extras/<Trang>.json` và bỏ câu; ngày suy ra hoặc theo mùa → không thêm. Không sửa gold `rev/`.
+- Công cụ mới `local/chain_review.py <repo> <verdicts_dir> [auto|gold|all]` (không gọi API): liệt kê ứng viên `duplicate_of_gold` có mốc gold NGOÀI chuỗi và ứng viên `auto_accept` kèm câu hỏi, tiêu chí, chuỗi, trích dẫn. Lý do: verifier gộp "đã có trong gold" với "đã có trong chuỗi" (Sergio_P_rez:0 bị che) và `in_window` của nó không đáng tin.
+
+**5. Chờ người dùng**
+- Chạy phần chưa có (985 nhóm) hay chạy lại cả tune cũ (khoảng 1.250); số luồng (`WORKERS`, mặc định 4); chạy ngoài giờ cao điểm cho rẻ.
+- Sau khi chạy xong [1][2][3] (có thể bỏ/sửa câu): copy lại `local/questions/v9/` sang `questions_v9/` để bản lưu không cũ.
+- Commit (người dùng tự làm): `dataset/eval/timeline_pilot/questions_v9` và file ghi chú này.
+
 ## CẬP NHẬT 2026-11-12: sinh và soát câu hỏi v9 (đọc trước; thay mục "việc kế tiếp" của phần 2026-11-11)
 
 **1. Đã làm**
