@@ -45,17 +45,36 @@
 - 452 nhóm / 149 trang (chạy lại cả 20 nhóm mẫu vì mẫu chưa có cache), 0 lỗi, cả 452 lần gọi nằm trong cache `data/llm_cache/chain/`. [1]: 2.559.911 token vào, 408.520 ra (khoảng $0,63 ngoài giờ cao điểm). [2]: 30 ứng viên (chưa tổng kết chi phí). Kết quả: `local/chain_check/oc_test_1/` ([1]) và `oc_test_1v/` ([2][3]).
 - 20 nhóm có ứng viên; đọc tay cả 30 ứng viên bằng `local/chain_review.py` và đọc nguồn: **không câu nào cần sửa, bỏ hay thêm vào `extras/`**. Lý do: ngoài cửa sổ của câu (Chicago_Stadium, Gary_Mills, All_Nippon_Airways là đổi tên chứ không phải lập công ty con), tiêu chí loại trừ (Embassy_of_Canada loại chức quyền, National_Library_of_Serbia loại mốc "listed as director", VP_25 loại việc tái nhập căn cứ cũ), mốc `derived_date` hoặc `source_inconsistent` bị cấm (Inter_Milan, Niigata, 6th_Combined_Arms_Army, Pinchas_Zukerman), mốc ước lượng cùng sự kiện với mốc đã có trong chuỗi (Calcio_Catania e15 với e16, UD_Las_Palmas), hoặc trùng chuỗi (Herbert_Schultze, SBB, VP_29).
 - Bốn ứng viên mới chưa có trong gold đều bị loại: Lisa_Marie_Presley:3 và :7, Pierre_Gasly:3, Steve_Sidwell:0 có năm suy ra từ câu trước (cấm `derived_date`), Wheel_of_Fortune:1 là mở rộng nhiệm vụ chứ không phải bắt đầu làm announcer. Steve_Sidwell:0 lưu ý: bản ký hợp đồng một năm với Brighton sau khi Stoke cho ra đi (2016) không có ngày rõ nên không vào đáp án.
-- v9 giữ nguyên 1859 câu (tune 638, valid 556, test_clean 665).
+- Soát tay mẫu ngẫu nhiên 60 câu test_clean (seed 11, 15 câu mỗi loại): 0 lỗi nội dung (ước tỉ lệ lỗi dưới khoảng 5%, độ tin cậy 95%, chỉ là quy tắc "ba trên n"). Lọc 7 câu có ứng viên `derived_date` chưa vào gold: **bỏ Steve_Sidwell:0 và Pierre_Gasly:3** (đáp án list/summary chắc chắn thiếu một mục có ngày chỉ suy ra), giữ Lisa_Marie_Presley:3 (buổi vinh danh trùng ngày e31), Lisa_Marie_Presley:7, Ludwig_Martens:2, Inter_Milan:0, Pinchas_Zukerman:1 (không đổi đáp án). Bản sao `.bak_edit7`, ghi `_dropped.jsonl`.
+- v9 sau soát: 1857 câu (tune 638, valid 556, test_clean 663), checker 0 lỗi.
 
 - Quy định thêm mốc sau [1][2][3] (người dùng chốt 2026-11-12): mốc đã có trong gold, thỏa tiêu chí, không `derived_date`/`source_inconsistent` → thêm id vào `gold_event_ids`; mốc chưa có trong gold → ghi `extras/<Trang>.json` và bỏ câu; ngày suy ra hoặc theo mùa → không thêm. Không sửa gold `rev/`.
 - Công cụ mới `local/chain_review.py <repo> <verdicts_dir> [auto|gold|all]` (không gọi API; chạy ngay sau [2], trước khi sửa file câu hỏi vì chỉ số `qi` lệch sau khi bỏ câu): liệt kê ứng viên `duplicate_of_gold` có mốc gold NGOÀI chuỗi và ứng viên `auto_accept` kèm câu hỏi, tiêu chí, chuỗi, trích dẫn. Lý do: verifier gộp "đã có trong gold" với "đã có trong chuỗi" (Sergio_P_rez:0 bị che) và `in_window` của nó không đáng tin.
 - Quy định thêm mốc sau [1][2][3] (người dùng chốt 2026-11-12): mốc đã có trong gold, thỏa tiêu chí, không `derived_date`/`source_inconsistent` → thêm id vào `gold_event_ids`; mốc chưa có trong gold → ghi `extras/<Trang>.json` và bỏ câu; ngày suy ra hoặc theo mùa → không thêm. Không sửa gold `rev/`.
 - Công cụ mới `local/chain_review.py <repo> <verdicts_dir> [auto|gold|all]` (không gọi API): liệt kê ứng viên `duplicate_of_gold` có mốc gold NGOÀI chuỗi và ứng viên `auto_accept` kèm câu hỏi, tiêu chí, chuỗi, trích dẫn. Lý do: verifier gộp "đã có trong gold" với "đã có trong chuỗi" (Sergio_P_rez:0 bị che) và `in_window` của nó không đáng tin.
 
+**4e. Tổng kết đã làm trong ngày 2026-11-12 (phần sau) và nhận xét**
+
+*Đã làm:*
+1. Lưu bộ câu hỏi v9 (1859 câu) vào git ở `dataset/eval/timeline_pilot/questions_v9/`; gold và `extras/` vốn đã tracked.
+2. Chạy [1][2][3] bằng `opencode_deepseek_flash` (lần đầu dùng profile này, chạy được sau khi thêm header `x-opencode-session`) cho cả ba tập: mẫu 20 nhóm test_clean, tune 213 nhóm, valid 346 nhóm, test_clean 452 nhóm. Tổng khoảng 1.000 lần gọi [1] và 60 lần gọi [2], không lỗi gọi; tổng chi phí [1] khoảng $1,3 ngoài giờ cao điểm (0,23 + 0,46 + 0,63, cộng mẫu).
+3. Áp kết quả: bỏ Butch_Levy:0 và Meg_Whitman:4, thêm e25 vào Sergio_P_rez:0, ghi `extras/Meg_Whitman.json`; Real_Audiencia_of_Guatemala:0 giữ nguyên.
+4. Sửa `local/chain_complete.py` và `local/chain_verify.py`: tìm cả `pilot*`, dùng cache riêng `data/llm_cache/chain/` (`SqliteCache(threadsafe=True)`), ghi dần `results.partial.jsonl`, chế độ `DRY=1`, header OpenCode. Thêm `local/chain_review.py`.
+
+*Nhận xét:*
+- Chất lượng câu hỏi tốt: trên 1.011 nhóm chỉ 4 câu cần thay đổi (3 sửa/bỏ ở tune và valid, 0 ở test_clean), tức khoảng 0,4%. Điều này cho thấy lọc ở bước sinh và soát tay trước đó đã hiệu quả; bước [1][2][3] chủ yếu xác nhận chứ ít sửa.
+- Ứng viên thật hiếm và phần lớn do tiêu chí hoặc luật ngày: ngoài cửa sổ, tiêu chí loại trừ, `derived_date`, ngày theo mùa. Gần như mọi báo động giả của [1] đều bị [2][3] hoặc `chain_review.py` lọc đúng.
+- Điểm yếu của verifier: gộp "đã có trong gold" với "đã có trong chuỗi" (nhãn `duplicate_of_gold`, che mất Sergio_P_rez:0), `in_window` sai, `auto_accept` sai (Willy_Hernang_mez:3). Phải đọc tay ứng viên.
+- Rủi ro còn lại: câu có sự kiện thật nhưng ngày chỉ suy ra (vd Steve_Sidwell:0, Lisa_Marie_Presley:7) được giữ vì luật cấm `derived_date`; đáp án của chúng có thể thiếu một mốc không đo được. "Đã qua [1]" của 90 trang tune cũ là theo trang, một phần dùng phiên bản câu cũ (chưa kiểm chứng từng câu).
+- Chi phí OpenCode thấp (khoảng $0,4 mỗi 100 nhóm) và không gặp giới hạn tốc độ ở 30 luồng; hạn mức riêng của `deepseek-v4.1-flash` chưa kiểm chứng (trang `opencode.ai/docs/go` không liệt kê).
+- Các lỗi tôi gây ra và đã sửa: không kiểm file tồn tại trước khi chạy (script chết do `pilot*`), để `cache=None` (mất 123 lần gọi, khoảng vài cent), cache SQLite không chia sẻ giữa luồng (cả lượt lỗi trước khi gọi API). Bài học: chạy `DRY=1` và kiểm cache bằng nhiều luồng trước khi chạy thật.
+
 **5. Chờ người dùng**
-- Chạy phần chưa có (985 nhóm) hay chạy lại cả tune cũ (khoảng 1.250); số luồng (`WORKERS`, mặc định 4); chạy ngoài giờ cao điểm cho rẻ.
-- Sau khi chạy xong [1][2][3] (có thể bỏ/sửa câu): copy lại `local/questions/v9/` sang `questions_v9/` để bản lưu không cũ.
-- Commit (người dùng tự làm): `dataset/eval/timeline_pilot/questions_v9` và file ghi chú này.
+- Chạy hệ thống trên test_clean với câu hỏi v9 (cần quyết định chi phí, hỏi trước khi gọi API); chấm riêng câu có `flagged_ids` không rỗng.
+- 5 câu v4–v5 nghi ngờ (The_One_Show:3, Meet_the_Press:4, Alemannia_Aachen:1, Vindobona:2, Jerzy_Buzek:1); lọc mốc `date` âm khi đo ingest; cách chấm `list` so với `summary`.
+- Soát tay mẫu ngẫu nhiên cho tune và valid (chưa làm); chạy hệ thống theo thứ tự tune, valid, rồi test_clean sau cùng (người dùng 2026-11-12: chưa test trên tune/valid nên chưa chạy test_clean).
+- Sau mỗi lần bỏ/sửa câu: copy lại `local/questions/v9/` sang `questions_v9/`.
+- Commit (người dùng tự làm): `dataset/eval/timeline_pilot/questions_v9`, `extras/Meg_Whitman.json` và file ghi chú này.
 
 ## CẬP NHẬT 2026-11-12: sinh và soát câu hỏi v9 (đọc trước; thay mục "việc kế tiếp" của phần 2026-11-11)
 
