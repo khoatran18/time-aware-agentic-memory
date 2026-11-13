@@ -1,6 +1,6 @@
 # Câu hỏi v9 (Mechanism 2, Timeline Summarization)
 
-Bản lưu của `local/questions/v9/` tại 2026-11-12 (checker `check_questions.py v9`: 0 lỗi; đã bỏ Butch_Levy:0, Meg_Whitman:4, Steve_Sidwell:0, Pierre_Gasly:3 , thêm e25 vào Sergio_P_rez:0 và e10 vào Alemannia_Aachen:0 sau bước [1][2][3] và soát mẫu). Mỗi trang một file `<Trang>.jsonl`, mỗi dòng một câu; id mốc (`gold_event_ids`, `group_event_ids`, `answer_ids`, `flagged_*`) tham chiếu gold cùng trang ở `../batch*/rev/<Trang>.json` (tune v1–v3: `../pilot5`, `../pilot10`, `../batch2`).
+Bản lưu của `local/questions/v9/` tại 2026-11-12 (checker `check_questions.py v9`: 0 lỗi; đã bỏ Butch_Levy:0, Meg_Whitman:4, Steve_Sidwell:0, Pierre_Gasly:3 , thêm e25 vào Sergio_P_rez:0 và e10 vào Alemannia_Aachen:0 và e10 vào Casus_Belli_magazine:0, sửa lời Vindobona_train:1, Lower_Norrland_Military_District:1, Real_Madrid_Baloncesto:0, The_Mercury_News:1 sau bước [1][2][3] và soát mẫu). Mỗi trang một file `<Trang>.jsonl`, mỗi dòng một câu; id mốc (`gold_event_ids`, `group_event_ids`, `answer_ids`, `flagged_*`) tham chiếu gold cùng trang ở `../batch*/rev/<Trang>.json` (tune v1–v3: `../pilot5`, `../pilot10`, `../batch2`).
 
 | Tập | Gold | Câu | Trang có câu |
 |---|---|---|---|
