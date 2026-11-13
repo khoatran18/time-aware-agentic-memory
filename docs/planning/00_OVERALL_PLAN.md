@@ -195,3 +195,15 @@ Dữ liệu: bộ local 40 câu (8 domain × 5, 37 trang) chỉ để kiểm tra
 | Dữ liệu đa nguồn cho CC3 hiếm | Đã quyết: bỏ đa nguồn, giữ Evolution và Falsehood, tự tạo bộ từ lịch sử Wikidata/Wikipedia; xem [`decisions/09`](../decisions/09_CONFLICT_RESOLUTION_SCOPE.md) |
 | Hiệu quả decay phụ thuộc λ, W1/W2 | Quét tham số trên bộ local, kiểm chứng trên bộ thật |
 | Có dùng LangGraph, ReAct, lớp hội thoại hay không | Đề xuất ở mục 4.1, chưa chốt; phụ thuộc phạm vi đồ án và bộ câu hỏi đánh giá |
+
+## Định vị đồ án và việc tiếp theo (ghi 2026-11-14, thảo luận; chưa chốt với thầy hướng dẫn)
+
+**Loại đồ án:** thiết kế hệ thống và đánh giá thực nghiệm, không phải tái hiện bài báo và không đề xuất thuật toán mới. Quy trình: nghiên cứu phương pháp → thiết kế kiến trúc riêng → cải tiến và đo trên dữ liệu thật → hệ thống chạy được. Hiện ở giữa bước ba; bước bốn mới có nguyên mẫu (Qdrant, Neo4j, ingest còn là script, retriever và agent riêng).
+
+**Đóng góp (theo mức chắc chắn):** (1) kiến trúc tích hợp ba cơ chế với bất biến thời gian riêng (Cơ chế 1, 2 có mã và số đo; Cơ chế 3 và router chưa); (2) bộ dữ liệu và cách đo tự dựng (timeline gold, câu hỏi v9, thước đo ingest), đóng góp rõ nhất hiện nay; (3) so sánh vector, graph, cả trang, agent kèm chi phí (một phần); (4) điều chỉnh các ý của DyG-RAG, TA-RAG, TG-RAG cho dữ liệu Wikipedia nhỏ, kèm ghi chú phần nào không chuyển được. Từng thành phần riêng lẻ (nút sự kiện, đi dọc theo thời gian, tách cửa sổ thời gian, agent search) mượn từ nghiên cứu có sẵn.
+
+**Rủi ro luận điểm:** trang TimeQA nhỏ (trung vị khoảng 1.200 từ), nên agent search hoặc "cả trang" có thể ngang hay hơn graph về độ đúng (tune: cả trang ingest 127/143, graph 120 đến 121, vector top-k 110). Nếu vậy lập luận chuyển sang chi phí, độ trễ, tái lập, chặn rò rỉ tương lai và khả năng mở rộng. Chưa có phép đo đầu-cuối so với plain RAG thật trên valid và test.
+
+**Việc có thể làm (chưa chốt):**
+- Agent có công cụ graph (`timeline_lookup` bọc `Neo4jStore.cell_events`, `events_of_chunks`) so với agent chỉ có text thô, cùng mô hình, 143 câu v9 tune (tối đa khoảng 715 lần gọi mỗi cấu hình; hỏi trước khi chạy). Xem `02_AGENT_SEARCH_BASELINE.md`.
+- Hướng hệ thống dùng lâu dài: đưa ingest vào `src` kèm kiểm thử; đường cập nhật khi chunk đổi (Cơ chế 3, `decisions/09`); nối Query Profiler và router; chọn trang khi câu hỏi không nêu thực thể; kiểm thử và cấu hình thật cho Neo4j; đo valid và test sau khi đóng băng.

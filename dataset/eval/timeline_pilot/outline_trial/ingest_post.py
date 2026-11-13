@@ -73,7 +73,7 @@ def compat(a, b):
 
 
 # ---- 3. gộp trùng ----------------------------------------------------------------------
-def merge(events, thr=0.9, thr_same=0.8, guard=True, names=True):
+def merge(events, thr=0.9, thr_same=0.8, guard=True, names=True, tracks=True):
     """Gộp mốc ingest trùng: ngày tương thích, cùng phase (nếu cả hai xác định), chữ giống >= thr.
     Không gộp khi một bên có số năm khác bên kia trong text. Giữ ngày chi tiết hơn; cid gộp vào `cids`."""
     out = []
@@ -83,6 +83,7 @@ def merge(events, thr=0.9, thr_same=0.8, guard=True, names=True):
             if not compat(m["date"], e["date"]): continue
             p1, p2 = phase(m["text"]), phase(e["text"])
             if "?" not in (p1, p2) and p1 != p2: continue
+            if tracks and m.get("track") and e.get("track") and "other" not in (m["track"], e["track"]) and m["track"] != e["track"]: continue  # hai việc khác loại (đổi tên vs đổi chủ sở hữu) cùng ngày
             y1, y2 = set(re.findall(r"(?<!\d)\d{4}(?!\d)", m["text"])), set(re.findall(r"(?<!\d)\d{4}(?!\d)", e["text"]))
             if y1 and y2 and y1 != y2: continue
             if guard:

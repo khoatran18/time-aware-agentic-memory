@@ -292,3 +292,16 @@ flowchart TD
 | Nâng cao | Event Graph + Time-CoT | DyG-RAG (01) |
 | Nâng cao | Bi-Level Temporal Graph, Incremental Update | TG-RAG (04) |
 | Phụ lục / Phản biện | Hybrid Vector-Graph (Pointer + Boomerang) chống Context Window Explosion | Nhóm đề xuất (03) |
+
+---
+
+## Áp dụng cho bộ dữ liệu của đồ án (2026-11-14, sau khi dựng graph Neo4j và đo trên tune)
+
+**Đính chính mục 02 (TA-RAG).** Ghi chú tóm tắt ở trên mô tả "truy xuất riêng từng bucket". Theo ghi chú chi tiết (`benchmarks_for_comparison/02_REPRODUCIBLE_METHODS.md`, mục 2.1) thì TA-RAG tạo một câu truy vấn cho mỗi **tháng** trong khoảng hỏi, lấy **trung bình** các vector thành một vector, tìm **một lần**, lọc chunk có khoảng giao, lấy top-k rồi sắp theo ngày đăng. Chưa kiểm lại bài gốc.
+
+**Phần mỗi bài gắn với bộ dữ liệu của nó, không chuyển thẳng được:**
+- **TA-RAG (ADQAB):** bucket cố định theo **tháng** (cứng trong mã, `freq='MS'`) vì kho là tin tài chính, mỗi mã mỗi tháng một bài, câu hỏi ở mức năm/tháng. Trang Wikipedia thưa và dài ngắn khác nhau nên **không dùng bucket cố định**. Chỉ giữ ý "phủ đều thời gian"; nếu thử thì chia ngân sách theo nhóm có số nút bằng nhau (chưa thử, tham số chưa có căn cứ).
+- **TG-RAG (ECT-QA):** transcript earnings call nhiều công ty, nhiều quý, cùng thực thể ở nhiều tài liệu, nên bộ tứ và cây thời gian có lợi. Dữ liệu của đồ án mỗi trang một chủ thể nên lợi ích nối thực thể gần như không có; một dòng bộ tứ khoảng 10 token so với một câu mô tả khoảng 12 token. **Không làm bộ tứ ở giai đoạn này.**
+- **DyG-RAG (TimeQA hard, TempReason, ComplexTR):** cùng nền Wikipedia/Wikidata nên gần nhất. Accuracy TimeQA 58,78 so với Vanilla RAG 37,58; Qwen2.5-14B, BGE-M3. Số do tác giả báo cáo, chưa tái lập.
+
+**Đo của đồ án (tune, 143 câu v9; xem `eval/10` mục 10.5bl.15):** graph đi dọc ô hơn nút của chunk top-k (đủ mốc 133 so với 121; đúng 121 so với 110). Lọc thời gian bằng quy tắc: đủ mốc 135. Suy track từ từ khóa làm lọc cứng: đủ mốc 114 (không dùng). Token của timeline graph khoảng 640 đến 690, trong khi 8 chunk khoảng 760 (chunk TimeQA nhỏ, khoảng 95 token), nên lợi thế của graph ở độ phủ, không ở token.

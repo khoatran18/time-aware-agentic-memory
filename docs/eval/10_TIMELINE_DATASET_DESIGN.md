@@ -1834,3 +1834,16 @@ Thời gian: hậu xử lý bằng code 1,4 giây cho cả 11 cấu hình × 15 
 - Trang chọn đúng 143/143 (vì truy vấn có tên trang). Timeline đưa cho LLM chứa đủ mốc đáp án: 133/143 (graph) so với 121/143 (vector).
 - Đi dọc ô hơn nút của chunk tìm được 10 câu (list +5, summary +3, order_gap +2) với thêm khoảng 220 token; vẫn dưới 1.000 token. Còn kém cả trang ingest 7 câu và gold 18 câu.
 - Hạn chế: một người chạy, không đo nhiễu; truy vấn có tên trang (chưa đo chọn trang khi không có); chưa đo tier 2 riêng; ô theo `track` thô; mới trên tune.
+
+**Thêm cách thứ ba: lọc thời gian bằng quy tắc (`src/tam/retrieval/timeline/window.py`, 2026-11-14).** Tách khoảng năm từ câu hỏi (năm, thập niên, early/mid/late, before/after/up to/between/from...onward), bound nới để không loại mốc biên; truyền vào `cell_events` trước khi cắt 40 nút. Không tốn lần gọi để tách. 23 câu có timeline khác nên 23 lần gọi LLM mới (cache miss 23; một lần chạy lại cấu hình graph đổi một prompt).
+
+| Cấu hình | Đúng | Đủ mốc | list | summary | F1 từng phần | Nút TB | Token TB |
+|---|---|---|---|---|---|---|---|
+| vector (nút của chunk top-k) | 110/143 | 121 | 27/43 | 9/20 | 0,856 | 22,4 | 466 |
+| graph, không lọc thời gian | 121/143 | 133 | 33/43 | 12/20 | 0,913 | 31,4 | 686 |
+| **graph + lọc thời gian (quy tắc)** | 121/143 | **135** | 33/43 | 11/20 | **0,926** | **29,0** | **636** |
+
+- Tách được khoảng ở 24 câu; gold có window ở 34 câu (sót 10); biên khớp trong ±1 năm so với window gold ở 13/24 câu có cả hai. Số câu bị cắt 40 nút giảm từ 54 xuống 39.
+- Lọc thời gian chỉ giúp được khoảng 1/4 số câu (câu không nêu khoảng không đổi), nên chênh lệch nhỏ: đủ mốc +2, F1 từng phần +0,013, đúng +0.
+
+**Suy track từ câu hỏi (2026-11-14, `src/tam/retrieval/timeline/track.py`, từ khóa; không LLM).** Suy được track ở 123/143 câu; track của mốc đáp án nằm trong track suy ra ở 94/123 câu, 29 câu có track đáp án nằm ngoài (nhãn track của ingest và câu hỏi lệch nhau, hay gộp nhiều loại). Lọc cứng theo track suy ra: nút TB 29,0 → 19,4 nhưng "đủ mốc" **135 → 114** (mất 21 câu). Dùng track suy ra chỉ để xếp hạng khi cắt 40 nút: "đủ mốc" 135, không đổi so với lọc thời gian. Kết luận: không dùng lọc theo track suy ra từ từ khóa; chưa thử LLM suy track.
