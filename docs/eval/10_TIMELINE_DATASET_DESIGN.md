@@ -1668,3 +1668,169 @@ Nguồn: `dataset/eval/timeline_pilot/batchR/sub/` (bản Haiku mới, 25 trang)
 Mốc mới thêm: CS_Aerostar_Bacau +8 mốc mùa giải gắn `approximate_date` (đúng quy ước v7; bị chặn ở `order_gap`/`first_last_next`).
 
 **Rủi ro còn lại.** Bản mới giảm 80 mốc (696 so với 776), một phần là loại bỏ đúng quy ước, một phần sót; `approximate_date` tăng nên các trang mùa giải ít câu thứ tự. Tune hiện có thể dùng cả v1–v3 mới (có `derived_date`) nhưng 25 trang chưa có câu.
+
+
+### 10.5bl Ingest: sửa mã, bộ ghép mới, nhãn bản 10a/10b/10c và hai cách xử lý bản sao Lead (2026-11-12, 2026-11-13, **thử nghiệm, chưa chốt**; số liệu của một người đọc, mỗi cấu hình một lần chạy)
+
+Tập đo: 15 trang A, B, C (483 mốc gold, 61 câu v9), đều thuộc `tune`; A và C đã dùng để chỉnh prompt nên chỉ kiểm hồi quy, chưa phải bằng chứng tổng quát. Mã: `outline_trial/ingest_post.py` (cứu năm viết tắt, gộp, ghép tối ưu), `pass3_p10.py` (10a), `pass3_p10b.py`, `pass3_p10c.py`; thư mục `out_p10_ds_*`, `out_p10b_ds_*`, `out_p10c_ds_*` (kèm `llm_calls.jsonl`). Script chấm nằm ở `local/ingest_eval/` (gitignore). Gọi LLM qua cache `data/llm_cache/ingest/` và `judge/`.
+
+**1. Baseline bản 9 sau sửa mã và bộ ghép mới.** Lỗi `year_not_in_page` do năm cuối khoảng viết tắt ("1855–70"): mã cứu được 12 mốc (10 ở Archaeologia Cambrensis); hai mốc `year_not_in_page` khác là năm suy ra, loại đúng. Ghép một-một tối ưu (Hungarian), ngày chỉ cần tương thích (`1826` khớp `1826-03-29`). Recall nghiêm 436/483 (90,3%) lên 448/483 (92,8%); precision (mẫu số mốc có ngày) 67,2%. Các số ước trước đó (precision 74,5%, recall 95%) là lạc quan vì gộp theo chữ chỉ bớt được 9 mốc. Bộ gộp theo chữ nới hơn làm mất 2 đến 3 mốc gold (hai huy chương cùng năm: cá nhân và đồng đội); dùng bản chặt (cùng chunk giống 0,8 hoặc cùng tên riêng).
+
+**2. Bản 10a/10b.** Thêm trường `track`, `phase`, `kind`, `subject`, `object`, `quote`; không thêm luật loại trừ. 10a: `kind=result` quá rộng (48 mốc gold danh hiệu bị gán `result`), lọc theo `kind` làm recall rơi từ 94,8% xuống 85,3%. 10b thu hẹp `result` (kết quả một trận, một chặng, một mùa; danh hiệu và huy chương là `occurrence`).
+
+| | p9 | 10b | 10b + lọc `kind`/`subject` |
+|---|---|---|---|
+| Khớp / recall nghiêm | 448 / 92,8% | 449 / 93,0% | 439 / 90,9% |
+| Precision | 67,2% | 68,2% | 76,7% |
+| Câu rủi ro (/61) | 14 | 9 | 9 |
+| Thiếu mốc trong chuỗi đáp án | 3 | 0 | 2 |
+
+Chi phí mỗi lần chạy 15 trang: 135 lần gọi `deepseek_flash` (khoảng 326 nghìn token vào, 77 nghìn ra). 10b mất 11 mốc gold so với 10a mà không liên quan câu đã sửa: phần lớn là dao động giữa hai lần chạy; theo quy tắc đã chốt không đo nhiễu nên không tách được. Track khớp gold 407/449.
+
+**3. Ảnh hưởng lên câu hỏi** (kiểm từ khóa, chưa đọc tay hết): 14/61 câu rủi ro ở p9 (23%), 9/61 ở 10b. Nguyên nhân còn lại: bản sao của mốc chuỗi, mốc thừa cùng loại, `kind` gán nhầm ở rìa (Sirotkin "Remained Sauber test driver" thành `state`; Irina "Challenger" thành `result`), chuyển giao liên tiếp bị tách thành "kết thúc cũ + bắt đầu mới" (First_Air_Group: gold một mốc "rank changed"). Độ mịn ngày không gây lỗi câu nào.
+
+**4. Vì sao còn mốc thừa.** 209 mốc có ngày không khớp gold ở 10b: 160 mốc riêng, 49 mốc là bản viết lại của mốc đã ghép (thường ở chunk khác), 48 trong 49 khác nhau ở `object`. `object` không ổn định làm khóa gộp; nới khóa bớt 25 mốc nhưng mất 10 đến 11 mốc gold. Lead (mục 0) chỉ chiếm 70/726 mốc nhưng dính 16/32 cặp bản sao.
+
+**5. LLM chấm (`opencode_deepseek_flash`, cùng họ model với ingest nên có thể thiên vị; chưa kiểm chéo bằng Google).** 209 mốc không khớp: `out_of_scope` 150 (72%), `duplicate` 47 (22%), `in_scope_missing` 10 (5%), `unsupported` 2 (1%). Precision theo gold 68,2%; trung thực với trang 99,7%; trong phạm vi và không trùng 90,4%. Sau lọc `kind`, 79 mốc `out_of_scope` và 46 mốc `duplicate` vẫn lọt qua. 179 cặp so bằng LLM: đúng 61/68 cặp chắc chắn khác nhau (90%), sai 4, bỏ 3; gộp 32 cặp `same` cho precision 71,0% và recall 92,5% (mất 2 mốc gold). 45 lần gọi, 84 nghìn token vào, 126 nghìn ra (chưa tắt thinking).
+
+**6. Hai cách xử lý bản sao Lead (15 trang, so với 10b).**
+
+| | 10b | A: 10c (Lead trích sau, kèm danh sách đã có) | B: so cặp Lead bằng LLM |
+|---|---|---|---|
+| Khớp / recall | 449 / 93,0% | 445 / 92,1% | 447 / 92,5% |
+| Precision | 68,2% | 69,3% | 70,1% |
+| Câu rủi ro / thiếu chuỗi | 9 / 0 | 11 / 2 | 8 / 0 |
+| Lần gọi mới | | 16 | 14 |
+
+A làm LLM bỏ cả mốc không trùng (Mannheim 1774, 1880; Higgins 1999, 2004), lặp lại tiền lệ bản 5 và 7: **không dùng A**. B nhích precision 1 điểm, không mất chuỗi, nhưng lợi ích nhỏ (gộp khoảng 20 mốc, trong khi 46 mốc `duplicate` lọt qua lọc). Chưa chốt có đưa B vào quy trình.
+
+**Chưa làm / chưa chốt.** Kiểm chéo bằng Google (khoảng 8 lần gọi: 59 mốc `duplicate`/`in_scope_missing`/`unsupported` và 32 cặp `same`); chạy 10b trên 20 trang tune mới chưa dùng (khoảng 238 lần gọi, để có bằng chứng không bị lệch vì A, C); gộp so cặp LLM cho toàn bộ cặp ứng viên (179 cặp + 98 cặp Lead, đã có kết quả, chưa gộp); nạp graph giữ mốc bị lọc ở mức ưu tiên thấp thay vì bỏ; gộp "kết thúc cũ + bắt đầu mới" cùng ngày thành một mốc chuyển giao; định nghĩa `kind` cho "thi đấu giải" (gold giữ "Played the Superfinal", ingest coi là kết quả); `derived_date` ingest gắn 18 mốc, gold có 65.
+
+**7. Chỉ số theo tầng (2026-11-13; 15 trang, 483 gold, 61 câu v9; một người chấm; không gọi LLM thêm).** Các tầng: S0 = đầu ra ingest sau kiểm hợp lệ; S1 = + gộp bằng quy tắc (`merge_keyed`, `merge`); S2 = + gộp theo kết quả LLM so cặp đã có (179 cặp thường + 98 cặp Lead, chỉ có cho 10b vì chỉ số mốc phụ thuộc đầu ra ingest); S3 = nạp graph, lọc cứng (bỏ mốc không có `kind` là change/occurrence và `subject` là self/part_of_self); S4 = nạp graph, lọc mềm (mốc bị lọc vẫn có mặt ở tầng ưu tiên thấp; precision chỉ tính mốc chính, recall tìm trong cả hai tầng). "Recall không derived" = trên 418 gold không có cờ `derived_date`. Số câu rủi ro: thiếu mốc chuỗi / mốc sinh đôi / mốc cùng loại / tổng.
+
+| Prompt | Tầng | Mốc chính | Mốc thấp | Recall | Recall không derived | Precision (mốc có ngày) | Câu rủi ro |
+|---|---|---|---|---|---|---|---|
+| p9 | S0 | 739 | | 92,8% | 96,2% | 66,3% | 3 / 10 / 13 / 16 |
+| p9 | S1 | 730 | | 92,8% | 96,2% | 67,2% | 3 / 8 / 12 / 14 |
+| 10a | S0 | 755 | | 95,0% | 97,8% | 66,6% | 0 / 10 / 13 / 16 |
+| 10a | S1 | 736 | | 94,8% | 97,6% | 68,4% | 0 / 1 / 12 / 13 |
+| 10b | S0 | 741 | | 93,0% | 96,7% | 66,7% | 0 / 9 / 9 / 14 |
+| 10b | S1 | 726 | | 93,0% | 96,7% | 68,2% | 0 / 4 / 8 / 9 |
+| 10b | S2 | 691 | | 92,1% | 95,9% | 71,4% | 0 / 0 / 7 / 7 |
+| 10b | S3 | 592 | | 89,9% | 94,3% | 80,7% | 2 / 0 / 5 / 7 |
+| **10b** | **S4** | 592 | 99 | **92,1%** | **95,9%** | 80,7% | **0 / 0 / 5 / 5** |
+| 10c | S0 | 721 | | 92,1% | 95,7% | 68,0% | 2 / 8 / 9 / 15 |
+| 10c | S1 | 709 | | 92,1% | 95,7% | 69,3% | 2 / 4 / 9 / 11 |
+
+Lưu ý: S0 của p9 không có `merge_keyed` (p9 không có `object`), và p9 không có `kind` nên không có S3, S4; 10a không có S3 vì nhãn `result` quá rộng. S4 chưa đo trên truy xuất thật, chỉ trên phép ghép với gold. Kết quả S2 gộp nhầm 6 cặp mà gold biết là hai mốc khác nhau (4 cặp thường, 2 cặp Lead), làm mất 4 gold.
+
+**8. Nguyên nhân mất recall và precision ở S3 (10b + so cặp + lọc cứng).**
+
+Mất 49/483 gold: 18 gold có mốc ingest cùng ngày nhưng chunk ngoài evidence gold; 9 chunk có trích mốc khác nhưng không có mốc này; 11 bị lọc phạm vi (`result/self` 6, `occurrence/other` 3, `statement` 1, `state` 1); 5 bị loại lúc ingest (`date_text_year_mismatch` 3 ở Department of Computing, `year_not_in_page` 2 ở Fearnley); 4 do so cặp LLM gộp nhầm; 2 chunk không có mốc nào. Chưa khớp có ngày: 104 mốc: `out_of_scope` 71 (`other_entity` 34, `statistic` 22), `duplicate` 22, `in_scope_missing` 9 (gold thiếu), `unsupported` 2. 71 mốc `out_of_scope` đều có `kind` là change/occurrence và `subject` là self/part_of_self theo ingest: lọc `kind`/`subject` không chặn được. Chưa tách được "ingest gán nhãn sai" và "LLM chấm hiểu `part_of_self` chặt hơn".
+
+**9. Gold `derived_date` bị mất (25/65; 40/65 đã khớp).** Kiểm bằng `local/ingest_eval/derived_lost.py` (không gọi LLM): năm của ngày gold có trong chính chunk evidence ở **19** mốc, có ở chunk khác trong trang ở 4 mốc, không có trong trang ở 2 mốc (Fearnley "the following summer", "Visits London"). Nghĩa là cờ `derived_date` của gold không có nghĩa "năm không nằm trong chunk": hai cờ cùng tên (gold, ingest) định nghĩa khác nhau. Chỉ 2/25 mốc là ngày thực sự do người ghi tính ra. Với 25 mốc, ingest đã có mốc cùng ngày (khớp được ngày) ở 20 mốc; nguyên nhân mất: 14 mốc đã được ghép cho gold khác (ghép một-một: ví dụ Department of Computing, gold có "term ends 1989" và "term starts 1989" nhưng ingest chỉ có "was head starting 1989"; Aleksandra e11, e12 cùng 2011 cạnh tranh một mốc), 6 mốc ở chunk ngoài evidence gold. Kết luận: mất recall "derived" phần lớn là vấn đề **mốc kết thúc và mốc bắt đầu cùng ngày** và ghép theo chunk, không phải do ingest không suy được ngày. Recall không derived (94,3% ở S3) vì vậy chỉ là số phụ, không dùng để bỏ qua nhóm lỗi này.
+
+**10. Bản 10d (2026-11-13, **thử nghiệm, không dùng**; một lần chạy).** = 10b + `kind=statistic`, quy tắc `subject=other` cho việc của thực thể khác (kèm ví dụ), quy tắc "khoảng thời gian không năm cụ thể thì `date` null". Chạy bằng `opencode_deepseek_flash` (thinking còn bật, 20 luồng), **khác profile với 10b (`deepseek_flash`)**, nên chênh lệch lẫn tác dụng của prompt và của model/profile. 135 lần gọi, 0 lỗi, khoảng 357 nghìn token vào và 904 nghìn token ra (thinking). Lần chạy đầu bị dừng giữa chừng (107/135 đã vào cache), chạy tiếp bằng cache.
+
+| 15 trang | 10b S1 + lọc cứng | 10d S1 + lọc cứng | 10b S1 | 10d S1 |
+|---|---|---|---|---|
+| Recall / recall không derived | 90,9% / | 85,3% / 91,1% | 93,0% / 96,7% | 91,9% / 97,6% |
+| Precision | 76,7% | 76,6% | 68,2% | 65,7% |
+| Câu rủi ro (thiếu / đôi / cùng loại / tổng) | 2 / 4 / 6 / 9 | 4 / 3 / 8 / 12 | 0 / 4 / 8 / 9 | 0 / 3 / 9 / 9 |
+
+Không cải thiện: precision sau lọc không đổi (76,6% so với 76,7%), recall sau lọc giảm 5,6 điểm, câu rủi ro 12/61 so với 9/61. Phân bố nhãn: `statistic` chỉ 10 mốc (LLM hầu như không dùng), `result` tăng 54 lên 83, `state` 7 lên 18, `subject=part_of_self` tăng 114 lên 203 (quy tắc `other` làm LLM đẩy sang part_of_self thay vì other). Lỗi riêng: ở Archaeologia_Cambrensis, 18 mốc bị loại `date_text_year_mismatch` vì LLM chép `date_text` cả khoảng ("1846–9") chứ không chỉ phần cuối ("9") như prompt dặn; 10b không có lỗi này (42 mốc giữ, 0 loại). Chưa tách được tác dụng prompt với tác dụng profile OpenCode. Tầng S2 (so cặp LLM) không có cho 10d. Kết luận: **không đưa 10d vào quy trình**; giữ 10b (+ lọc mềm) làm bản ứng viên. Muốn thử lại phần `kind=statistic` cần chạy bằng `deepseek_flash` để cùng profile với 10b.
+
+**11. Bản 10b trên 20 trang tune mới và đọc tay câu rủi ro (2026-11-13; một lần chạy; không so cặp LLM nên không có tầng S2).**
+
+*Chạy.* 20 trang tune không thuộc A, B, C, không thuộc `reserved_*`, có câu v9 (3 trang mỗi batch tối đa; chọn ngẫu nhiên có hạt giống, trang có 4 đến 16 lần gọi; thư mục `out_p10b_ds_F`): Lower_Norrland_Military_District, Razorfish_company, Pelican_Faberg_egg, Sam_Selvon, Masters_snooker, David_Young_Iowa_politician, Eastern_Army_Division, Jerzy_Buzek, Luftflotte_1, Lev_Polugaevsky, Lothar_von_Trotha, The_News_Quiz, Journal_de_20_heures, Charles_Holden, Technical_University_Leuna_Merseburg, President_of_Uruguay, St_Luke_s_Anglican_Church_Liverpool, First_Things, Washington_Spirit, Bohemond_IV_of_Antioch. 669 gold, 82 câu. `deepseek_flash`, 10 luồng, 165 lần gọi, 0 lỗi, 0 trúng cache, 401 nghìn token vào, 101 nghìn ra. Không chạy p9 trên các trang này nên không có đối chứng.
+
+| Tầng | Mốc chính / thấp | Recall | Recall không derived | Precision | Câu rủi ro (thiếu / đôi / cùng loại / tổng, /82) |
+|---|---|---|---|---|---|
+| S0 ingest | 983 | 97,2% | 98,2% | 70,3% | 4 / 11 / 24 / 30 |
+| S1 gộp quy tắc | 944 | 97,0% | 98,1% | 73,3% | 6 / 5 / 21 / 25 |
+| S3 lọc cứng | 823 | 91,9% | 93,9% | 79,2% | 11 / 5 / 19 / 26 |
+| S4 lọc mềm | 823 / 121 | 97,0% | 98,1% | 79,2% | 6 / 5 / 19 / 23 |
+
+So với 15 trang đã chỉnh: recall và precision tương đương hoặc cao hơn (S1: 97,0% / 73,3% so với 93,0% / 68,2%), nhưng **số câu rủi ro cao hơn nhiều** (S1: 25/82 = 30% so với 9/61 = 15%; S4: 23/82 so với 5/61) và **còn 6 câu thiếu mốc chuỗi ở S4** (0/61 ở 15 trang). Lọc cứng làm tệ hơn (11 câu thiếu chuỗi). Chuỗi thiếu ở S4 gồm 5 mốc gold: 4 mốc có mốc ingest cùng ngày nằm trong chunk evidence nhưng bị ghép một-một cho gold khác hoặc bị gộp (Razorfish e14 "Renamed SBI.Razorfish", Journal_de_20_heures e3, Technical_University_Leuna_Merseburg e61 và e68: nhiều mốc "section formed" cùng năm), 1 mốc cùng ngày nhưng chunk khác (Charles_Holden e62). Nghĩa là "0 câu thiếu chuỗi" ở 15 trang chưa tổng quát hoá được.
+
+*Đọc tay 5 câu "cùng loại" ở S4 của 15 trang (`local/ingest_eval/risky_q.py`).* 3/5 là câu `first_last_next` (Karlsøy "most recent change", Maidan "name came last", Maidan "next after Kalinin"): mốc nhiễu cùng hoặc sớm hơn mốc đáp án, **đáp án theo thứ tự ngày không đổi**. 2/5 là câu `list` có thể sai: (a) Maidan "list each name the square was given": trang có hai nguồn, danh sách "Timeline of the square's names" (1869 … 1977) và đoạn văn ("1976–77 … renamed October Revolution Square"); ingest trích cả hai, mốc 1976 (lấy năm đầu của khoảng 1976–77) lệch ngày với gold 1977, mốc "Council (Parliament) Square 1876" là bản dịch khác của "Dumskaya ploshchad" (gold e3), mốc "Kalinin Square 1935" trùng gold e9: ba mốc sinh đôi mà độ giống chữ dưới ngưỡng gộp, có thể làm danh sách tên thừa hoặc trùng; (b) First_Air_Group "list points at which the commander's rank was set": nhiễu là hai mốc `end` ("colonel ended 1941", "major general ended 1994") trùng ngày với mốc bắt đầu tương ứng, có thể chen vào danh sách nhưng không thêm ngày mới. Kết luận đọc tay (một người, không chạy LLM đọc): rủi ro thật nằm ở câu `list` khi có mốc sinh đôi khác ngày hoặc khác chữ; câu `first_last_next` ít bị ảnh hưởng. Chưa chạy bước đọc đáp án bằng LLM để xác nhận.
+
+*Kết luận.* Ingest 10b (+ lọc mềm) **chưa đủ** để coi là xong: phần chuỗi bị thiếu ở trang mới (6/82) lớn hơn ở trang đã chỉnh (0/61). Hai nguyên nhân chính: ghép một-một và gộp quy tắc nuốt các mốc cùng năm cùng kiểu ("section formed", "renamed"), và mốc sinh đôi khác ngày hoặc khác chữ. Phép đo vẫn do một người, từ khóa.
+
+**12. Cải tiến sau mục 11 và đo tác động lên câu trả lời (2026-11-13; một lần chạy mỗi cấu hình; `opencode_deepseek_flash` 20 luồng; cache và `llm_calls*.jsonl` đủ).**
+
+*(2) Sửa gộp quy tắc.* `ingest_post.merge(..., tracks=True)` không gộp hai mốc khác `track` (cả hai khác `other`) cùng ngày: Razorfish "taken private by SBI Group" (ownership_structure) và "renamed SBI.Razorfish" (naming) bị gộp vì cùng bộ tên riêng. Ở 15 trang không đổi số liệu; ở 20 trang mới số câu thiếu mốc chuỗi 6 giảm còn 4, recall +0,2 điểm.
+
+*(4) Đọc tay 20 câu có nhiễu ở 20 trang mới (S4, 10b).* 11 câu không đổi đáp án (hỏi mốc đầu, cuối, kế tiếp hoặc khoảng cách: mốc nhiễu cùng ngày hoặc ngoài khoảng, hoặc không liên quan chủ đề); 9 câu `list`/`summary` có mốc sinh đôi hoặc mốc thừa: 7 là bản viết lại của mốc đáp án (Buzek, Technical_University, Bohemond, Masters, David_Young, News_Quiz), 2 là mốc sai thật (Pelican egg "purchase ended 1938" thành mốc kết thúc không có trong gold; Charles_Holden "medal for 1929" gán năm 1929 trong khi trao năm 1931).
+
+*(1) Bản 10e = 10b + quy tắc "một câu liệt kê nhiều thứ cùng năm thì mỗi thứ một mốc"* (`pass3_p10e.py`; **chạy bằng OpenCode, khác profile với 10b**; 300 lần gọi, 0 lỗi, 759 nghìn token vào, 1,99 triệu ra). Không so cặp LLM cho 10e.
+
+| Tập | Tầng | 10b recall / precision / câu rủi ro | 10e recall / precision / câu rủi ro |
+|---|---|---|---|
+| 15 trang (/61) | S1 | 93,0% / 68,2% / 9 | 95,7% / 67,0% / 19 |
+| 15 trang | S4 | 92,1% / 80,7% / 5 (có so cặp) | 95,7% / 75,6% / 17 (không so cặp) |
+| 20 trang (/82) | S1 | 97,0% / 73,3% / 25 (thiếu chuỗi 6) | 95,7% / 73,7% / 21 (thiếu chuỗi 5) |
+| 20 trang | S4 | 97,0% / 79,2% / 23 | 95,7% / 80,5% / 21 |
+
+Không kết luận được: 10e có recall cao hơn ở 15 trang (+2,7) nhưng nhiều mốc sinh đôi hơn (11 so với 4 câu), thấp hơn ở 20 trang; khác profile nên chưa tách được tác dụng prompt. Còn 5 câu thiếu chuỗi ở 20 trang.
+
+*(3) So cặp LLM cho 20 trang mới* (18 + 14 lần gọi; **LLM bỏ sót nhiều verdict: 46/150 cặp thường, 51/94 cặp Lead**, so với 12/179 và 2/98 ở 15 trang, nên gộp chưa đầy đủ). Với verdict có được: 10b S4 từ 23 xuống 18 câu rủi ro, precision 79,2% lên 81,9%, recall 97,0% giữ nguyên.
+
+*(5) Đọc đáp án bằng LLM* (`local/ingest_eval/reader.py`): LLM nhận timeline (gold hoặc ingest 10b) và câu hỏi v9, trả về id các mốc; chấm bằng cách ánh xạ mốc ingest sang gold (ghép một-một hoặc mốc sinh đôi giống chữ ≥ 0,4); đúng khi tập mốc trùng đáp án và không có mốc thừa không ánh xạ được. Mỗi câu một lần gọi (428 lần; 491 nghìn token vào, 217 nghìn ra; 0 lỗi). Tầng ingest: S1 = gộp quy tắc, không lọc; S3 = + so cặp LLM (đã có) + lọc cứng. Số câu trả lời đúng:
+
+| Tập | gold (trần) | ingest S1 | ingest S3 |
+|---|---|---|---|
+| 20 trang mới (82 câu) | 80 (97,6%) | 65 (79,3%) | 68 (82,9%) |
+| 15 trang (61 câu) | 58 (95,1%) | 53 (86,9%) | 52 (85,2%) |
+
+Mất so với trần: khoảng 12 đến 15 điểm ở 20 trang mới, khoảng 8 đến 10 điểm ở 15 trang, hầu hết ở câu `list` và `summary` (20 trang, S3: list 20/27, summary 6/12; `first_last_next` 21/22, `order_gap` 21/21). Kiểm tay các câu sai: (a) **chấm có thiên lệch bất lợi cho ingest**: David_Young "list election results" LLM chọn đúng 4 mốc (2014, 2016, 2018, 2020) nhưng 3 mốc là bản viết lại của gold (giống chữ < 0,4) nên bị tính "mốc thừa/thiếu"; (b) mốc sinh đôi làm câu trả lời trùng (Masters: "field expanded to 12" xuất hiện hai lần); (c) lỗi thật của ingest: David_Young "last result" LLM chọn 2018 vì mốc 2020 ghi "challenged … unsuccessful" không nói "lost the election"; (d) lỗi của người đọc: 3/61 và 2/82 câu sai ngay cả khi đọc timeline gold, và có 2 câu LLM trả danh sách rỗng ở S3 (Maidan, Brian Higgins) dù mốc có trong timeline. Ba lần chấm lại từ cache cho cùng kết quả 53/52 ở 15 trang, lần chạy đầu in 52 cho S1 chưa rõ vì sao (chênh 1 câu). Chưa đo tầng S4 (mốc ưu tiên thấp) trên đọc đáp án, và chưa chạy đọc đáp án cho 10e.
+
+*Kết luận mục 12.* Ingest hiện làm mất khoảng 10 đến 15 điểm độ chính xác trả lời so với timeline gold, phần lớn ở `list`/`summary` vì mốc sinh đôi và mốc thừa, không phải ở câu so sánh ngày. Phép đo này có thiên lệch bất lợi (ánh xạ mốc), nên con số thật khả năng cao hơn. Cải tiến prompt 10e chưa cho kết luận. Việc có hiệu quả nhất trong các thứ đã đo: so cặp LLM (23 xuống 18 câu rủi ro) và lọc mềm.
+
+**13. Hướng đề xuất cho ingest (2026-11-13; **chưa làm, chưa chốt**).** Không đổi prompt: 10d, 10e không tốt hơn 10b và lẫn profile OpenCode. Giữ 10b chạy bằng `deepseek_flash` (thinking tắt, trung vị 2 s mỗi lần gọi, khoảng 9 lần gọi mỗi trang). Thêm các bước sau ingest:
+
+1. Gộp quy tắc: `merge_keyed` + `merge(tracks=True)` (đã làm).
+2. **Dọn mốc sinh đôi** (chưa làm): (a) điều kiện cần: cùng `track`, cùng `phase`, ngày tương thích (lệch tối đa một năm khi một bên dịch từ khoảng "1976–77" hoặc "for YEAR" thì đưa sang LLM, không gộp thẳng); (b) veto không gộp: tên riêng, số liệu hoặc năm khác nhau, khác `subject`/`kind`, cặp từ đối lập (cá nhân và đồng đội, vàng và bạc, first và second); (c) gộp thẳng khi cosine embedding rất cao (embedding cục bộ `bge_small_en`, ngưỡng chọn trên tune từ 52 cặp LLM "same" và 68 cặp gold biết chắc khác nhau) và cùng `object` hoặc cùng bộ tên riêng; (d) vùng giữa: LLM so cặp, lô khoảng 10 cặp, hỏi lại verdict bị bỏ sót, thử chạy bằng `deepseek_flash`. Sau gộp: ngày chi tiết nhất, gộp `cids`, giữ câu có trích dẫn đầy đủ nhất, ghi mốc nguồn. Ví dụ cần gộp: Maidan "Council (Parliament) Square 1876" và "Dumskaya Ploshchad 1876"; "Kalinin Square 1935" nói hai lần; David_Young "Won 2014 election against Appel" và "defeated Appel 53% to 42%"; Technical_University "assumed office as last rector" và "term began 1992". Không gộp: bắt đầu và kết thúc, cá nhân và đồng đội, hai người cùng chức, huy chương khác hạng, mốc khác `track` cùng ngày. Rủi ro: so cặp cũ gộp nhầm 6 cặp gold khác nhau (mất 4 gold).
+3. **Nạp graph** (chưa đo trên truy xuất thật): lọc mềm; mốc end và start cùng ngày, cùng track gộp thành mốc chuyển giao (chưa có số liệu).
+
+Thời gian: hậu xử lý bằng code 1,4 giây cho cả 11 cấu hình × 15 trang; so cặp OpenCode trung vị 14 s mỗi lần gọi (khoảng 2 lần gọi mỗi trang), chậm hơn ingest `deepseek_flash` (2 s). Embedding cục bộ chưa đo. Việc tiếp theo, theo thứ tự: (1a) chấm đọc đáp án theo nội dung, không gọi LLM; (2a) đo độ phủ của cổng chọn cặp trên các mốc trùng đã chấm; (2b) embedding làm cổng gộp, đo lại; (1b) LLM chấm các câu bất đồng (khoảng 20 đến 40 lần gọi); (2c) hỏi lại verdict thiếu, chạy lại đọc đáp án (khoảng 60 đến 110 lần gọi; hỏi người dùng trước khi chạy).
+
+#### 10.5bl.14 Chấm lại đọc đáp án theo nội dung và đo cổng chọn cặp (2026-11-13, không gọi LLM; `local/ingest_eval/regrade.py`, `gate.py`)
+
+**Chấm theo nội dung.** Dùng lại mốc LLM đã chọn (428 lần đọc, không đọc lại). Mốc ingest được chọn tính là đúng gold `g` nếu khớp chặt như cũ, hoặc ngày tương thích và (chung chunk evidence với chữ giống ≥ 0,05, hoặc chữ giống `jacc_u` ≥ 0,15). Phân loại: matched, sinh đôi (dup), thừa thật (không ứng với gold nào).
+
+| Tập, tầng | Gold | Ingest S1: cũ → nội dung | Ingest S3 (lọc cứng): cũ → nội dung |
+|---|---|---|---|
+| 20 trang tune mới (82 câu) | 80 | 65 → **73** | 68 → **69** |
+| 15 trang A, B, C (61 câu) | 58 | 53 → **54** | 52 → **52** |
+
+- Phép chấm cũ bất lợi cho ingest ở 20 trang mới (+8 câu), gần như không ở 15 trang (+1). Mất thật so với gold còn khoảng 7 câu (S1, 20 trang) và 4 câu (15 trang), tức 5 đến 9 điểm, không phải 10 đến 15.
+- Câu sai do ingest ở S1: 8 (20 trang) và 4 (15 trang). Nguyên nhân: **thiếu mốc** 6 và 3, chọn sai mốc 2 và 1, thừa thật 1 và 1. Sinh đôi hầu như không làm sai đáp án (2 câu ở 20 trang S1, 0 ở 15 trang).
+- Lọc cứng (S3) kém S1: 69 so với 73 (20 trang). Lọc mềm (S4) chưa đo bằng đọc đáp án.
+- Hệ quả: nút thắt của đáp án là ingest **thiếu mốc** (liệt kê cùng ngày, Technical_University, Razorfish, Washington_Spirit), không phải mốc sinh đôi.
+
+**Cổng chọn cặp (15 trang, 660 cặp ngày tương thích).** Dương: 62 cặp (47 mốc LLM nhãn `duplicate` ghép với mốc khớp gold, cộng cặp LLM `same`); âm: 245 cặp cùng khớp hai gold khác nhau.
+- Cổng hiện tại (phase bằng nhau + chữ giống ≥ 0,15 hoặc chung `object`, hoặc cặp Lead): bắt **49/62 (79%)** dương, chọn 235 cặp (72/245 âm vào). Sót 13: câu viết lại khác chữ ("entered the race" / "ran for Congress"), end/start cùng ngày khác phase.
+- Embedding `bge-small-en`: cos dương p10/p50/p90 = 0,62/0,76/0,89; cos âm = 0,53/0,67/0,81, max 0,99 (huy chương under-14 cá nhân và đồng đội). **Hai phân bố chồng nhau, không dùng để tự quyết gộp.** Chỉ dùng làm cổng chọn cặp để gửi LLM.
+- Cổng cũ OR cos ≥ 0,6: bắt 62/62 nhưng 509 cặp (2,2 lần cổng cũ); OR cos ≥ 0,7: 55/62, 335 cặp; OR cos ≥ 0,65: 57/62, 419 cặp. Lợi suất giảm nhanh; chưa có lý do thêm cổng embedding.
+- Kết luận: không làm cổng embedding tự gộp; tăng gộp hiệu quả hơn bằng cách hỏi lại verdict LLM bị bỏ sót (46/150 và 51/94 ở 20 trang mới). Dọn sinh đôi ít ảnh hưởng đáp án; ưu tiên chuyển sang **thiếu mốc**.
+
+#### 10.5bl.15 Graph Neo4j và truy xuất Cơ chế 2 trên tune (2026-11-13, một người chạy, mỗi cấu hình một lần)
+
+**Dựng:** `src/tam/stores/graph/neo4j_store.py` (Page, Cell = (trang, `track`), Event, Chunk; cạnh `HAS_CELL`, `IN_CELL`, `FROM_CHUNK`; `TIẾP_THEO` dựng lúc truy vấn theo `date`), `src/tam/ingestion/events/{post,nodes}.py` (gộp quy tắc → gộp cặp LLM có chặn phase/track/năm → `tier` → `node_id` băm), `src/tam/retrieval/timeline/retriever.py` (hybrid dense+BM25, RRF; nút vào từ chunk top 8; trang = nhiều phiếu nhất; đi ô của các track nút vào; tier 1, tier 2 khi tier 1 rỗng hoặc khớp ≥ 2 từ; tối đa 40 nút). Container `tam-neo4j` (neo4j 5.26, chỉ bind localhost, dữ liệu `data/neo4j/`, cấu hình `graph_store` trong `config.dev.yaml`). Script: `local/ingest_eval/graph_build.py`, `graph_eval.py`.
+- Id chunk ingest và Qdrant (`tam_chunks_dev_tune`) cùng định dạng `/wiki/Trang#N`: 873/889 chunk có trong Qdrant (16 thiếu), 1/1671 mốc không có chunk nào trong Qdrant.
+- 35 trang tune nạp được 1470 nút, 157 ô, 548 chunk. Cặp cổng có verdict 361/451 trước; hỏi lại 90 cặp thiếu (lô 10) chỉ được 42, hỏi lại 48 (lô 6) được 20; còn 28 cặp không có verdict (coi là không gộp). Gộp cặp: 86 cặp `same`, 74 gộp, 7 bị chặn vì năm, 1 vì track, 0 vì phase.
+- Số lần gọi LLM: bước 2 khoảng 28 lần (metrics 56 dòng), bước 4 286 lần (OpenCode, 20 luồng, cache miss 286).
+
+**Đo (143 câu v9 tune; truy vấn = tên trang + câu hỏi, vì câu v9 không nêu tên thực thể; LLM đọc timeline rồi chọn nút; chấm theo nội dung như 10.5bl.14):**
+
+| Cấu hình | Đúng | list | summary | first/last/next | order_gap | F1 từng phần (list+summary) | Nút TB | Token TB |
+|---|---|---|---|---|---|---|---|---|
+| Vector top-k: nút của chunk tìm được | 110/143 | 27/43 | 9/20 | 41/45 | 33/35 | 0,856 | 22,4 | 466 |
+| Vector → graph: đi dọc ô (đề xuất) | **120/143** | 32/43 | 12/20 | 41/45 | 35/35 | **0,912** | 31,4 | 686 |
+| (tham chiếu) cả trang ingest S1, chưa qua truy xuất | 127/143 | | | | | | | |
+| (tham chiếu) timeline gold | 138/143 | | | | | | | |
+
+- Trang chọn đúng 143/143 (vì truy vấn có tên trang). Timeline đưa cho LLM chứa đủ mốc đáp án: 133/143 (graph) so với 121/143 (vector).
+- Đi dọc ô hơn nút của chunk tìm được 10 câu (list +5, summary +3, order_gap +2) với thêm khoảng 220 token; vẫn dưới 1.000 token. Còn kém cả trang ingest 7 câu và gold 18 câu.
+- Hạn chế: một người chạy, không đo nhiễu; truy vấn có tên trang (chưa đo chọn trang khi không có); chưa đo tier 2 riêng; ô theo `track` thô; mới trên tune.

@@ -179,3 +179,11 @@ logging:
   module_levels:                  # hạ mức log của thư viện ồn
     httpx: "WARNING"
     qdrant_client: "WARNING"
+
+# ================================================================
+# Neo4j (Cơ chế 2: graph sự kiện; container tam-neo4j, chỉ bind localhost; mật khẩu dev cục bộ)
+# ================================================================
+graph_store:
+  url: "${NEO4J_URL:-bolt://127.0.0.1:7687}"
+  user: "${NEO4J_USER:-neo4j}"
+  password: "${NEO4J_PASSWORD:-tamdevlocal1}"
