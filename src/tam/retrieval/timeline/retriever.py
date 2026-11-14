@@ -61,7 +61,7 @@ class TimelineRetriever:
         ev = [e for e in self.graph.cell_events(page) if e["node_id"] in ids]
         return dict(page=page, events=ev[: self.max_events], chunks=chunks)
 
-    def graph_timeline(self, query: str, window: tuple[str | None, str | None] | None = None, question: str | None = None, track_mode: str = "filter") -> dict:
+    def graph_timeline(self, query: str, window: tuple[str | None, str | None] | None = None, question: str | None = None, track_mode: str = "filter", cut: str = "kw") -> dict:
         """`window` = (từ năm, đến năm) tách từ câu hỏi (parse_window); None = không lọc thời gian. `question` (nếu có): suy track từ câu hỏi (infer_tracks) thay cho track của nút vào; không khớp thì dùng track của nút vào."""
         chunks = self.search_chunks(query); page, entries = self._entries(chunks)
         if not page:
@@ -75,7 +75,11 @@ class TimelineRetriever:
         t2 = [e for e in self.graph.cell_events(page, tracks=tracks, date_from=wf, date_to=wt, max_tier=2) if e["tier"] == 2]
         q = toks(query); extra = [e for e in t2 if not t1 or len(toks(e["text"]) & q) >= 2]
         ev = t1 + extra
-        if len(ev) > self.max_events:  # cắt theo độ khớp từ khóa câu hỏi, giữ tier 1 trước
+        if len(ev) > self.max_events and cut == "bins":  # cắt theo nhóm: chia dãy đã sắp theo ngày thành max_events nhóm bằng số mốc, mỗi nhóm giữ mốc khớp từ khóa nhất (tier thấp trước)
+            ev.sort(key=lambda e: (e["date"], e["phase"])); n = len(ev); m = self.max_events
+            groups = [ev[i * n // m:(i + 1) * n // m] for i in range(m)]
+            ev = [min(g, key=lambda e: (e["tier"], -len(toks(e["text"]) & q))) for g in groups if g]
+        elif len(ev) > self.max_events:  # cắt theo độ khớp từ khóa câu hỏi, giữ tier 1 trước
             ev = sorted(ev, key=lambda e: (e["tier"], e["track"] not in qt, -len(toks(e["text"]) & q)))[: self.max_events]  # track suy ra chỉ dùng xếp hạng khi cắt
         ev.sort(key=lambda e: (e["date"], e["phase"]))
         return dict(page=page, events=ev, chunks=chunks, tier2=sum(1 for e in ev if e["tier"] == 2), tracks=tracks, window=window)
