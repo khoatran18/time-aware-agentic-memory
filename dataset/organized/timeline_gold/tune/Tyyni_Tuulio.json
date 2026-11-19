@@ -1,0 +1,256 @@
+{
+ "page_id": "Tyyni_Tuulio",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1892-08-28",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Karvia, Finland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#0",
+     "role": "both",
+     "quote": "28 August 1892 , in Karvia"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1911",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from high school.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "She graduated from high school in 1911"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1916",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned her bachelor's degree.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "earned her bachelors degree in 1916"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1917",
+   "grain": "year",
+   "track": "family",
+   "text": "Married linguist Oiva Tuulio.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#4",
+     "role": "both",
+     "quote": "She married linguist Oiva Tuulio in 1917"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1927",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned her master's degree.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "her masters degree in 1927"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1948",
+   "grain": "year",
+   "track": "work",
+   "text": "Published biography of Sophie Mannerheim.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "Sophie Mannerheim ( 1948 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Published biography of Ottilia Stenbäck.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "Ottilia Stenbäck ( 1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1957",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received an award from the Finnish Cultural Foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#3",
+     "role": "both",
+     "quote": "In 1957 , she received an award from the Finnish Cultural Foundation"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1959",
+   "grain": "year",
+   "track": "work",
+   "text": "Published biography of Alexandra Gripenberg.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "Alexandra Gripenberg ( 1959 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Awarded an honorary doctorate by the University of Helsinki.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#3",
+     "role": "both",
+     "quote": "in 1960 , she was awarded an honorary doctorate by the University of Helsinki"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "Began publishing two-volume biography of Maila Talvio.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "Maila Talvio ( 2 volumes , 1963–1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Finished publishing two-volume biography of Maila Talvio.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "Maila Talvio ( 2 volumes , 1963–1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1966",
+   "grain": "year",
+   "track": "work",
+   "text": "Began publishing three-volume memoirs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "She also wrote memoirs in three volumes ( 1966–1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Finished publishing three-volume memoirs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "She also wrote memoirs in three volumes ( 1966–1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Published essay collection Fredrikan Suomi on Runeberg circle women.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#1",
+     "role": "both",
+     "quote": "In 1979 , she published a collection of essays titled"
+    },
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#2",
+     "role": "description",
+     "quote": "Fredrikan Suomi about Fredrika Runeberg"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received the State translation prize.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#3",
+     "role": "both",
+     "quote": "In 1985 , she received the State translation prize"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1991-06-09",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Helsinki.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyyni_Tuulio#0",
+     "role": "both",
+     "quote": "9 June 1991 , in Helsinki"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Buried in Hietaniemi Cemetery, Helsinki (no date stated)"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+  "page_id": "Joseph_Chaikov",
+  "events": [
+    {"id": "e1", "date": "1888", "grain": "year", "track": "other", "label": "birth",
+     "text": "Joseph Chaikov was born (Kiev, per biography).",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#0", "role": "both", "quote": "1888 – 1979 ) was a Russian Imperial and Soviet Russian sculptor"},
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "description", "quote": "Born in Kiev ( present-day Kyiv , Ukraine )"}
+     ]},
+    {"id": "e2", "date": "1910", "grain": "year", "track": "education",
+     "text": "Began studying in Paris.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "both", "quote": "studied in Paris in the years 1910 through 1914"}
+     ]},
+    {"id": "e3", "date": "1912", "grain": "year", "track": "other", "label": "founding",
+     "text": "Co-founded Mahmad, a group of young Jewish artists.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "both", "quote": "In 1912 he co-founded a group of young Jewish artists called Mahmad"}
+     ]},
+    {"id": "e4", "date": "1912", "grain": "year", "track": "work",
+     "text": "Published a Hebrew-language magazine named Mahmad.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "both", "quote": "In 1912 he co-founded a group of young Jewish artists called Mahmad , and published a Hebrew-language magazine with that name"}
+     ]},
+    {"id": "e5", "date": "1913", "grain": "year", "track": "other", "label": "exhibition",
+     "text": "Participated in the Salon d'Automne.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "both", "quote": "in 1913 he participated in the Salon dAutomne"}
+     ]},
+    {"id": "e6", "date": "1914", "grain": "year", "track": "location",
+     "text": "Returned to Kiev.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#2", "role": "both", "quote": "He returned to Kiev in 1914"}
+     ]},
+    {"id": "e7", "date": "1914", "grain": "year", "track": "education",
+     "text": "Ended his Paris studies.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#1", "role": "both", "quote": "studied in Paris in the years 1910 through 1914"}
+     ]},
+    {"id": "e8", "date": "1921", "grain": "year", "track": "work",
+     "text": "Published the Yiddish-language book Skulptur.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#2", "role": "both", "quote": "In 1921 he published the Yiddish-language book Skulptur"}
+     ]},
+    {"id": "e9", "date": "1923", "grain": "year", "track": "location",
+     "text": "Moved to Moscow.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#3", "role": "both", "quote": "moved to Moscow to teach at Vkhutemas from 1923 to 1930"}
+     ]},
+    {"id": "e10", "date": "1923", "grain": "year", "track": "affiliation",
+     "text": "Began teaching at Vkhutemas in Moscow.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#3", "role": "both", "quote": "moved to Moscow to teach at Vkhutemas from 1923 to 1930"}
+     ]},
+    {"id": "e11", "date": "1929", "grain": "year", "track": "role",
+     "text": "Became head of the Society of Russian Sculptors.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#3", "role": "both", "quote": "From 1929 Chaikov was the head of the Society of Russian Sculptors"}
+     ]},
+    {"id": "e12", "date": "1930", "grain": "year", "track": "affiliation",
+     "text": "Ended teaching at Vkhutemas.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#3", "role": "both", "quote": "moved to Moscow to teach at Vkhutemas from 1923 to 1930"}
+     ]},
+    {"id": "e13", "date": "1932", "grain": "year", "track": "other", "label": "style change",
+     "text": "Turned back to Socialist Realism and produced classically styled work.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#3", "role": "both", "quote": "In 1932 , after the end of the period of artistic freedom , all of these cubists turned back to Socialist Realism"}
+     ]},
+    {"id": "e14", "date": "1937", "grain": "year", "track": "work",
+     "text": "His frieze People of the USSR shown at the 1937 Paris Exposition.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#4", "role": "both", "quote": "his work was prominently shown at the two Soviet worlds fair pavilions , for the 1937 Paris Exposition"}
+     ]},
+    {"id": "e15", "date": "1939", "grain": "year", "track": "work",
+     "text": "His work shown at the 1939 New York World's Fair.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#4", "role": "both", "quote": "for the 1937 Paris Exposition and the 1939 New York Worlds Fair"}
+     ]},
+    {"id": "e16", "date": "1954", "grain": "year", "track": "work", "flag": "approximate_date",
+     "text": "Created the golden Friendship of the Nations fountain in Moscow (with others).",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#7", "role": "both", "quote": "The golden Friendship of the Nations fountain at the All-Russia Exhibition Centre , Moscow , circa 1954"}
+     ]},
+    {"id": "e17", "date": "1959", "grain": "year", "track": "other", "label": "honour",
+     "text": "Named an Honored Artist of the USSR.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#6", "role": "both", "quote": "He was named an Honored Artist of the USSR in 1959"}
+     ]},
+    {"id": "e18", "date": "1979", "grain": "year", "track": "other", "label": "death",
+     "text": "Died in Moscow.",
+     "evidence": [
+       {"chunk_id": "/wiki/Joseph_Chaikov#0", "role": "both", "quote": "1888 – 1979 ) was a Russian Imperial and Soviet Russian sculptor"},
+       {"chunk_id": "/wiki/Joseph_Chaikov#6", "role": "description", "quote": "He died in Moscow"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Co-founded the Jewish socialist Kultur Lige in Kiev (no date)",
+    "1930s",
+    "2000s"
+  ]
+}

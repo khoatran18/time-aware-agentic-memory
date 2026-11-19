@@ -1,0 +1,337 @@
+{
+  "page_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1864-07-19",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Sir John Francis Charles de Salis born in 1864.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#0", "role": "both", "quote": "( 19 July 1864 – 14 January 1939 ) was an Anglo-Irish British diplomat and landowner"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1877",
+      "grain": "year",
+      "track": "education",
+      "text": "Began education at Eton.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "After being educated at Eton ( 1877–1882 , Edward Compton Austen Leighs house )"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1882",
+      "grain": "year",
+      "track": "education",
+      "text": "Ended education at Eton.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "After being educated at Eton ( 1877–1882 , Edward Compton Austen Leighs house )"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1886-11-20",
+      "grain": "day",
+      "track": "role",
+      "text": "Nominated attaché in the diplomatic service.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "he was nominated an attaché in the diplomatic service on 20 November 1886"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1887-01-14",
+      "grain": "day",
+      "track": "other",
+      "label": "examination",
+      "text": "Passed a competitive diplomatic examination.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "He passed a competitive examination on 14 January 1887"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1888-06-12",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed attaché at Brussels.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "On 12 June 1888 he was appointed to Brussels as an attaché"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1889-01-14",
+      "grain": "day",
+      "track": "role",
+      "text": "Promoted to Third Secretary.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "promoted to Third Secretary on 14 January 1889"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1890",
+      "grain": "year",
+      "track": "family",
+      "text": "Married Hélène Marie de Riquet, Comtesse de Caraman-Chimay.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#9", "role": "both", "quote": "He married in 1890 Hélène Marie de Riquet"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1892-04-24",
+      "grain": "day",
+      "track": "location",
+      "text": "Began service in Madrid.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "From 24 April 1892 he served in Madrid"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1893-08-22",
+      "grain": "day",
+      "track": "role",
+      "text": "Promoted to Second Secretary.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "promoted to Second Secretary on 22 August 1893"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1894-08",
+      "grain": "month",
+      "track": "location",
+      "text": "Began service in Cairo under Lord Cromer.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2", "role": "both", "quote": "From August 1894 he served in Cairo under Lord Cromer"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1895-04-02",
+      "grain": "day",
+      "track": "other",
+      "label": "allowance",
+      "text": "Granted an allowance for knowledge of Arabic.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "he was granted an allowance for knowledge of Arabic on 2 April 1895"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1897",
+      "grain": "year",
+      "track": "location",
+      "text": "Was in Berlin in autumn.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "In autumn 1897 he was in Berlin"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1899",
+      "grain": "year",
+      "track": "location",
+      "text": "Was in Brussels.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "in 1899 in Brussels"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1901",
+      "grain": "year",
+      "track": "role",
+      "text": "Became head of chancery in Athens.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "from 1901 in Athens , as head of chancery ( dealing with the Macedonian problem )"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1901",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began employment at the Foreign Office in London.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "He was employed between 1901–06 at the Foreign Office in London"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1902-05-31",
+      "grain": "day",
+      "track": "family",
+      "text": "His wife Hélène de Riquet died.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#9", "role": "both", "quote": "Comtesse de Caraman-Chimay ( 18 August 1864 – 31 May 1902 )"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1904-04-01",
+      "grain": "day",
+      "track": "role",
+      "text": "Promoted to First Secretary.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "He was promoted to First Secretary on 1 April 1904"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1905-09-07",
+      "grain": "day",
+      "track": "role",
+      "text": "Appointed British delegate for Romanian commercial convention negotiation.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "appointed a British Delegate for negotiation of a new Commercial Convention with Romania on 7 September 1905"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1906",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended employment at the Foreign Office in London.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "both", "quote": "He was employed between 1901–06 at the Foreign Office in London"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1906-07-01",
+      "grain": "day",
+      "track": "role",
+      "text": "Began service as Berlin chargé d'affaires and counsellor of embassy.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "description", "quote": "He served as Berlin chargé daffaires and counsellor of embassy from"},
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "date", "quote": "1 July 1906 to 1911"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1908-10",
+      "grain": "month",
+      "track": "other",
+      "label": "conference",
+      "text": "British delegate at the International Copyright Conference, Berlin.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "a British delegate at the International Copyright Conference at Berlin , October–November 1908"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1911",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended service as Berlin chargé d'affaires and counsellor of embassy.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#3", "role": "description", "quote": "He served as Berlin chargé daffaires and counsellor of embassy from"},
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "date", "quote": "1 July 1906 to 1911"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "1911",
+      "grain": "year",
+      "track": "work",
+      "text": "Authored Report on German Finances (Cd. 5465-19).",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#16", "role": "both", "quote": "J . F . C . De Salis , Report on German Finances , Cd . 5465-19 , 1911"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "1911-11",
+      "grain": "month",
+      "track": "role",
+      "text": "Began service as Envoy Extraordinary to the King of Montenegro at Cettinjé.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "From November 1911 to 1916 he served as Envoy Extraordinary and Minister Plenipotentiary"}
+      ]
+    },
+    {
+      "id": "e26",
+      "date": "1916",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended service as Envoy to Montenegro.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "From November 1911 to 1916 he served as Envoy Extraordinary and Minister Plenipotentiary"}
+      ]
+    },
+    {
+      "id": "e27",
+      "date": "1916",
+      "grain": "year",
+      "track": "role",
+      "text": "Began special mission as Envoy to the Holy See.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "Envoy Extraordinary and Minister Plenipotentiary on a special mission to the Holy See in 1916–1923"}
+      ]
+    },
+    {
+      "id": "e28",
+      "date": "1919",
+      "grain": "year",
+      "track": "role",
+      "text": "Sent by British Government to investigate Serbian occupation of Montenegro.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#5", "role": "both", "quote": "In 1919 the British Government sent de Salis to investigate the Serbian occupation of Montenegro"}
+      ]
+    },
+    {
+      "id": "e29",
+      "date": "1920-04",
+      "grain": "month",
+      "track": "other",
+      "label": "arrest",
+      "text": "Alleged arrest and imprisonment by the Serbians, reported by the New York Times.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#7", "role": "both", "quote": "In April 1920 , months after the possible event , an alleged arrest and imprisonment by the Serbians"},
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#14", "role": "both", "quote": "New York Times , 4 April 1920 ( De Salis arrested by Serbs )"}
+      ]
+    },
+    {
+      "id": "e30",
+      "date": "1923",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended special mission as Envoy to the Holy See.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "Envoy Extraordinary and Minister Plenipotentiary on a special mission to the Holy See in 1916–1923"}
+      ]
+    },
+    {
+      "id": "e31",
+      "date": "1931",
+      "grain": "year",
+      "track": "role",
+      "text": "Became a member of the Malta Royal Commission.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#4", "role": "both", "quote": "He was a member of the 1931 Malta Royal Commission"}
+      ]
+    },
+    {
+      "id": "e32",
+      "date": "1939-01-14",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Sir John Francis Charles de Salis died.",
+      "evidence": [
+        {"chunk_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#0", "role": "both", "quote": "( 19 July 1864 – 14 January 1939 ) was an Anglo-Irish British diplomat and landowner"}
+      ]
+    }
+  ],
+  "undated_mentions": []
+}

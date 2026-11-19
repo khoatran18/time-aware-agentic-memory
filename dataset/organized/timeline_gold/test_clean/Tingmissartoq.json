@@ -1,0 +1,117 @@
+{
+  "page_id": "/wiki/Tingmissartoq",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1931-09-19",
+      "grain": "day",
+      "track": "other",
+      "label": "flight",
+      "text": "First Orient flight reached final stop at Lotus Lake near Nanking",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#3",
+          "role": "both",
+          "quote": "with its final stop on Lotus Lake near Nanking made on September 19"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e2",
+      "date": "1933",
+      "grain": "year",
+      "track": "other",
+      "label": "service",
+      "text": "Plane reused in Pan American-led international air-route survey",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#6",
+          "role": "both",
+          "quote": "Tingmissartoq was to see action again in 1933"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1933-07-09",
+      "grain": "day",
+      "track": "other",
+      "label": "flight",
+      "text": "Second survey flight took off from New York City",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#7",
+          "role": "both",
+          "quote": "he took off from New York City on July 9 in the rebuilt craft"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1933-12-19",
+      "grain": "day",
+      "track": "other",
+      "label": "flight",
+      "text": "Second survey flight returned to New York after 30,000 miles",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#11",
+          "role": "both",
+          "quote": "They returned to New York on December 19"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1955",
+      "grain": "year",
+      "track": "location",
+      "text": "Left display at American Museum of Natural History, New York City",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#12",
+          "role": "both",
+          "quote": "was on display in the American Museum of Natural History in New York City until 1955"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1955",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Acquired by National Museum of the United States Air Force, Dayton, Ohio",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#12",
+          "role": "both",
+          "quote": "until 1955 , when it was acquired by the National Museum of the United States Air Force"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1959",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Transferred to the Smithsonian Institution",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Tingmissartoq#12",
+          "role": "both",
+          "quote": "It was transferred to the Smithsonian Institution in 1959"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "1930s: flown by Charles and Anne Morrow Lindbergh (decade only)",
+    "Named Tingmissartoq by an Inuit boy in Godthaab (Nuuk), Greenland (no date)",
+    "Built to specifications sometime between 1929 and 1931 (range, no exact date)",
+    "Capsized while being lowered into the Yangtze River from a British carrier at Hankow (no date)",
+    "Wing damaged by a ship cable at Hankow, requiring return to the United States for repairs (no date)"
+  ]
+}

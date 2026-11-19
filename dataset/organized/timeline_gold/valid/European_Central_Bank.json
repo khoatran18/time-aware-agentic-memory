@@ -1,0 +1,582 @@
+{
+ "page_id": "European_Central_Bank",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1219-06-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "ECB recorded as established on this date, conflicting with other source",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#8",
+     "role": "both",
+     "quote": "It was established on 1 June 1219"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e2",
+   "date": "1998",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "initial capital allocation key determined by population and GDP",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#5",
+     "role": "both",
+     "quote": "The initial capital allocation key was determined in 1998"
+    },
+    {
+     "chunk_id": "/wiki/European_Central_Bank#75",
+     "role": "both",
+     "quote": "the initial capital allocation key was determined in 1998"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1998-06-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "formally replaced the EMI as successor institution",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#8",
+     "role": "both",
+     "quote": "The ECB formally replaced the EMI on 1 June 1998"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e4",
+   "date": "1998-10",
+   "grain": "month",
+   "track": "other",
+   "label": "policy",
+   "text": "Governing Council defined price stability as inflation below 2%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#48",
+     "role": "both",
+     "quote": "The Governing Council in October 1998 defined price stability as inflation of under 2%"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1999-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "full powers",
+   "text": "ECB exercised full powers with introduction of the euro",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#8",
+     "role": "both",
+     "quote": "did not exercise its full powers until the introduction of the euro on 1 January 1999"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2003-05",
+   "grain": "month",
+   "track": "other",
+   "label": "policy",
+   "text": "clarified price stability as inflation below but close to 2%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#48",
+     "role": "both",
+     "quote": "In May 2003 , following a thorough review of the ECBs monetary policy strategy , the Governing Council clarified"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2003-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Trichet replaced Duisenberg as ECB President",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#11",
+     "role": "both",
+     "quote": "Trichet replaced Duisenberg as President in November 2003"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2004-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Jose Manuel Gonzalez-Paramo joined Executive Board",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#66",
+     "role": "both",
+     "quote": "a Spanish member of the Executive Board since June 2004"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2005",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "minimum BBB- credit rating set for sovereign bond collateral",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#15",
+     "role": "both",
+     "quote": "a decision by the ECB made in 2005 introduced a minimum credit rating"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2009-12-01",
+   "grain": "day",
+   "track": "other",
+   "label": "status",
+   "text": "ECB gained official status as EU institution under Lisbon Treaty",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#4",
+     "role": "both",
+     "quote": "On 1 December 2009 , the Treaty of Lisbon entered into force"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2010-05-10",
+   "grain": "day",
+   "track": "work",
+   "text": "announced Securities Market Programme for sovereign bond purchases",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#17",
+     "role": "both",
+     "quote": "the ECB announced on 10 May 2010 , the launch of a Securities Market Programme"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2010-10-15",
+   "grain": "day",
+   "track": "other",
+   "label": "correspondence",
+   "text": "Trichet sent secret letter to Irish finance minister on ELA",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#26",
+     "role": "both",
+     "quote": "On 15 October and 6 November 2010 , the ECB President Jean-Claude Trichet sent two secret letters"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2010-11-06",
+   "grain": "day",
+   "track": "other",
+   "label": "correspondence",
+   "text": "Trichet sent second secret letter to Irish finance minister on ELA",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#26",
+     "role": "both",
+     "quote": "On 15 October and 6 November 2010 , the ECB President Jean-Claude Trichet sent two secret letters"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2011-04",
+   "grain": "month",
+   "track": "other",
+   "label": "policy rate",
+   "text": "raised main interest rate from 1% to 1.25%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#28",
+     "role": "both",
+     "quote": "In April 2011 , the ECB raised interest rates for the first time since 2008"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2011-07",
+   "grain": "month",
+   "track": "other",
+   "label": "policy rate",
+   "text": "raised main interest rate to 1.50%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#28",
+     "role": "both",
+     "quote": "with a further increase to 1.50% in July 2011"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2011-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Board member Jurgen Stark resigned in protest over SMP",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#20",
+     "role": "both",
+     "quote": "In September 2011 , ECBs Board member Jürgen Stark , resigned in protest"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2011-11-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Mario Draghi replaced Trichet as ECB President",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#30",
+     "role": "both",
+     "quote": "On 1 November 2011 , Mario Draghi replaced Jean-Claude Trichet as President of the ECB"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2012-09-06",
+   "grain": "day",
+   "track": "work",
+   "text": "announced Outright Monetary Transactions bond purchase programme",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#34",
+     "role": "both",
+     "quote": "on 6 September 2012 the ECB announced the Outright Monetary Transactions programme"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "supervision",
+   "text": "took charge of supervising systemically relevant eurozone banks",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#54",
+     "role": "both",
+     "quote": "since 2013 , the ECB has been put in charge of supervising systemically relevant banks"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "agreement",
+   "text": "interinstitutional agreement with European Parliament on banking supervision",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#93",
+     "role": "both",
+     "quote": "In 2013 , an interinstitutional agreement was reached between the ECB and the European Parliament"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2013-11",
+   "grain": "month",
+   "track": "other",
+   "label": "policy rate",
+   "text": "policy rate reached historically low 0.25%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#28",
+     "role": "both",
+     "quote": "reaching the historically low 0.25% in November 2013"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "publication",
+   "text": "began publishing accounts of monetary policy meetings",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#96",
+     "role": "both",
+     "quote": "Since 2014 , the ECB has published accounts of its monetary policy meetings"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e23",
+   "date": "2014-09-04",
+   "grain": "day",
+   "track": "other",
+   "label": "policy rate",
+   "text": "cut policy rate from 0.15% to 0.05%",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#28",
+     "role": "both",
+     "quote": "on 4 September 2014 the central bank reduced the rates by two thirds"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014-09-04",
+   "grain": "day",
+   "track": "work",
+   "text": "announced CBPP3 and ABSPP asset purchase programmes",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#37",
+     "role": "both",
+     "quote": "the ECB announced on 4 September 2014 the launch of two bond buying purchases programmes"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2014-11",
+   "grain": "month",
+   "track": "location",
+   "text": "moved into new purpose-built headquarters in Frankfurt",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#36",
+     "role": "both",
+     "quote": "In November 2014 , the bank moved into its new premises"
+    },
+    {
+     "chunk_id": "/wiki/European_Central_Bank#99",
+     "role": "both",
+     "quote": "The bank moved to a new purpose-built headquarters in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2014-11",
+   "grain": "month",
+   "track": "location",
+   "text": "Eurotower building dedicated to ECB supervisory activities",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#36",
+     "role": "both",
+     "quote": "In November 2014 , the bank moved into its new premises , while the Eurotower building was dedicated"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2015-01",
+   "grain": "month",
+   "track": "other",
+   "label": "publication",
+   "text": "began publishing summaries of Governing Council deliberations",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#70",
+     "role": "both",
+     "quote": "Since January 2015 , the ECB has published on its website a summary of the Governing Council deliberations"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e28",
+   "date": "2015-01-22",
+   "grain": "day",
+   "track": "work",
+   "text": "announced extension to full quantitative easing including sovereign bonds",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#38",
+     "role": "both",
+     "quote": "On 22 January 2015 , the ECB announced an extension of those programmes"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2015-03-09",
+   "grain": "day",
+   "track": "work",
+   "text": "quantitative easing programme started at 60 billion euros per month",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#38",
+     "role": "both",
+     "quote": "The programme was started on 9 March 2015"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "communication",
+   "text": "introduced symmetry into inflation target communication",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#49",
+     "role": "both",
+     "quote": "Since 2016 , the European Central Banks President has further adjusted its communication"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2016-06-08",
+   "grain": "day",
+   "track": "work",
+   "text": "added corporate bonds to asset purchases via CSPP",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#39",
+     "role": "both",
+     "quote": "On 8 June 2016 , the ECB added corporate bonds to its asset purchases portfolio"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2019-01",
+   "grain": "month",
+   "track": "work",
+   "text": "corporate sector purchase programme halted for 11 months",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#39",
+     "role": "both",
+     "quote": "While the programme was halted for 11 months in January 2019"
+    }
+   ]
+  },
+  {
+   "date": "2019-07",
+   "grain": "month",
+   "track": "role",
+   "label": null,
+   "text": "EU leaders nominated Christine Lagarde to replace Mario Draghi as ECB President",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#40",
+     "role": "both",
+     "quote": "In July 2019 , EU leaders nominated Christine Lagarde to replace Mario Draghi as ECB President"
+    }
+   ],
+   "id": "e33"
+  },
+  {
+   "id": "e34",
+   "date": "2019-11",
+   "grain": "month",
+   "track": "work",
+   "text": "restarted net corporate bond purchases",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#39",
+     "role": "both",
+     "quote": "the ECB restarted net purchases in November 2019"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2019-11-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Christine Lagarde took over ECB Presidency from Draghi",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#40",
+     "role": "both",
+     "quote": "formally took over the ECBs Presidency on 1 November 2019"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2020-03",
+   "grain": "month",
+   "track": "work",
+   "text": "launched Pandemic Emergency Purchase Programme of 1350 billion euros",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#44",
+     "role": "both",
+     "quote": "In March 2020 , the ECB responded quickly and boldly by launching a package of measures"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2020-12",
+   "grain": "month",
+   "track": "work",
+   "text": "PEPP extended by additional 500 billion euros",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#44",
+     "role": "both",
+     "quote": "The PEPP was extended to cover an additional €500 billion in December 2020"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2020-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Frank Elderson succeeded Yves Mersch on Executive Board",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/European_Central_Bank#68",
+     "role": "both",
+     "quote": "In December 2020 , Frank Elderson succeeded to Yves Mersch at the ECBs board"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Establishment by the Treaty of Amsterdam (no date)",
+  "EMI established at start of second stage of EMU (no date)",
+  "Wim Duisenberg became first ECB President (no date)",
+  "Duisenberg succeeded Alexandre Lamfalussy as EMI head (no date)",
+  "Launch of LTRO 1% three-year loans to banks (no date)",
+  "Lagarde launched strategic review of monetary policy strategy (no date)",
+  "Re-launch of TLTRO loans to banks (no date)",
+  "Reactivation of currency swap lines with central banks (no date)",
+  "Yves Mersch appointed to Executive Board replacing Gonzalez-Paramo (no date)",
+  "Policy rate cut to 0.00%, lowest on record (no date)"
+ ]
+}

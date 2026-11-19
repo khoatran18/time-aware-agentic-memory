@@ -1,0 +1,745 @@
+{
+ "page_id": "William_D._Leahy",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1875-05-06",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Hampton, Iowa to an Irish-American family.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#0",
+     "role": "both",
+     "quote": "( May 6 , 1875 – July 20 , 1959 )"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#5",
+     "role": "description",
+     "quote": "From an Irish-American family , Leahy was born in Hampton , Iowa"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1893",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated high school, then attended the United States Naval Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#5",
+     "role": "both",
+     "quote": "after graduating high school in 1893 he attended the United States Naval Academy"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1897",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from the Naval Academy, 15th of 47 in class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#5",
+     "role": "both",
+     "quote": "graduating 15th in his class of 47 in 1897"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#36",
+     "role": "both",
+     "quote": "United States Naval Academy Midshipman – Class of 1897"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1898-07-03",
+   "grain": "day",
+   "track": "other",
+   "label": "battle",
+   "text": "Participated in the Battle of Santiago during the Spanish–American War.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#6",
+     "role": "both",
+     "quote": "in the spring of 1898 to participate in the Battle of Santiago on July 3"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1899-07-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Commissioned as Ensign in the US Navy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#7",
+     "role": "both",
+     "quote": "commissioned Ensign on July 1 , 1899"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1902",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to the United States from the Asiatic Station.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#7",
+     "role": "both",
+     "quote": "He returned to the United States in 1902"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1902",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became a member of the Military Order of the Dragon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#7",
+     "role": "both",
+     "quote": "He returned to the United States in 1902 and became a member of the Military Order of the Dragon"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1904-02-03",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Louise Tennent Harrington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#31",
+     "role": "both",
+     "quote": "Leahy met Louise Tennent Harrington , whom he married on 3 February 1904"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1907",
+   "grain": "year",
+   "track": "role",
+   "text": "Began two years as instructor, Physics and Chemistry, Naval Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#9",
+     "role": "both",
+     "quote": "Beginning in 1907 , he served as instructor in the Department of Physics and Chemistry"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1909",
+   "grain": "year",
+   "track": "role",
+   "text": "Went to sea as navigator of an armored cruiser, Pacific Fleet.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#9",
+     "role": "both",
+     "quote": "He went to sea in 1909 and served as navigator of the armored cruiser in the Pacific Fleet"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1911-10-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Served as naval aide to President William Howard Taft.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#9",
+     "role": "both",
+     "quote": "On October 18 , 1911 , Lt . Cmdr . Leahy served as naval aide to President William Howard Taft"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1912",
+   "grain": "year",
+   "track": "role",
+   "text": "Chief of Staff to the Commander, Naval Forces in Nicaragua.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#9",
+     "role": "both",
+     "quote": "During the American Occupation of Nicaragua in 1912 , he was Chief of Staff to the Commander"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1912",
+   "grain": "year",
+   "track": "role",
+   "text": "Came ashore in Washington as Assistant Director of Gunnery Exercises.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#11",
+     "role": "both",
+     "quote": "Late in 1912 , he came ashore in Washington as Assistant Director of Gunnery Exercises and Engineering Competitions"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e14",
+   "date": "1913",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Assigned to the Bureau of Navigation as a detail officer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#11",
+     "role": "both",
+     "quote": "In 1913 , he was assigned to the Bureau of Navigation as a detail officer"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1915",
+   "grain": "year",
+   "track": "role",
+   "text": "Took command of a dispatch gunboat.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#11",
+     "role": "both",
+     "quote": "where he served until 1915 . At that time , he took command of the dispatch gunboat"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1917",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior Aide on staff of Commander Squadron Three, Atlantic Fleet.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#11",
+     "role": "both",
+     "quote": "He was in that assignment in early 1917 in West Indian waters and had additional duty as Senior Aide on"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#12",
+     "role": "description",
+     "quote": "the Staff of Commander Squadron Three of the Patrol Force Atlantic Fleet"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1918",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded the Navy Cross during this transport tour.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#13",
+     "role": "date",
+     "quote": "in April 1918 went to command"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#13",
+     "role": "description",
+     "quote": "It was during this tour that he was awarded the Navy Cross"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1918",
+   "grain": "year",
+   "track": "role",
+   "text": "Became director of Gunnery Exercises in the Navy Department.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#13",
+     "role": "both",
+     "quote": "he came ashore in 1918 and served for three years as director of Gunnery Exercises and Engineering Competition in the Navy Department"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1918-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Commanded a transport carrying troops to France (ex-Princess Alice).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#13",
+     "role": "both",
+     "quote": "in April 1918 went to command , formerly Princess Alice , transporting troops to France"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "text": "Went to sea in command of flagship, naval detachment in Turkish waters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#14",
+     "role": "both",
+     "quote": "In 1921 , he went to sea in command of , flagship of the naval detachment in Turkish waters"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1922",
+   "grain": "year",
+   "track": "role",
+   "text": "Additional duty as commander, Control Force.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#14",
+     "role": "both",
+     "quote": "and in 1922 further additional duty as commander , Control Force"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Became director of Officer Personnel, Bureau of Navigation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "from 1923 to 1926 , he served as director of Officer Personnel in the Bureau of Navigation"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1926",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term as director of Officer Personnel, Bureau of Navigation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "from 1923 to 1926 , he served as director of Officer Personnel in the Bureau of Navigation"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1927",
+   "grain": "year",
+   "track": "role",
+   "text": "Reached flag rank.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "In 1927 , he reached flag rank and became chief of the Bureau of Ordnance"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1927",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Chief of the Bureau of Ordnance.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "In 1927 , he reached flag rank and became chief of the Bureau of Ordnance"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1931",
+   "grain": "year",
+   "track": "role",
+   "text": "Left the Bureau of Ordnance after almost four years as chief.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "After almost four years , he went to sea in 1931 as Commander Destroyers Scouting Force"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1931",
+   "grain": "year",
+   "track": "role",
+   "text": "Went to sea as Commander, Destroyers Scouting Force.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#15",
+     "role": "both",
+     "quote": "After almost four years , he went to sea in 1931 as Commander Destroyers Scouting Force"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1933",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Chief of the Bureau of Navigation in Washington.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#16",
+     "role": "both",
+     "quote": "In 1933 , Leahy came ashore in Washington as Chief of the Bureau of Navigation for two years"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended two-year term as Chief of the Bureau of Navigation.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#16",
+     "role": "both",
+     "quote": "In 1933 , Leahy came ashore in Washington as Chief of the Bureau of Navigation for two years"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Commander in Chief, Battle Force; hoisted four-star flag.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#16",
+     "role": "both",
+     "quote": "In 1936 , he hoisted his four-star flag on as Commander in Chief Battle Force"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1937-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed Chief of Naval Operations (CNO) and took oath of office.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#1",
+     "role": "both",
+     "quote": "As Chief of Naval Operations from 1937 to 1939"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#17",
+     "role": "both",
+     "quote": "appointed Chief of Naval Operations ( CNO ) , took the oath of office in January 1937"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1939-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Retired from the Navy, ending tenure as Chief of Naval Operations.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#17",
+     "role": "both",
+     "quote": "to serve until August 1939 when he was placed on the retired list"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#37",
+     "role": "both",
+     "quote": "as he retired from the Navy in August 1939"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1939-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed and began service as Governor of Puerto Rico.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#18",
+     "role": "both",
+     "quote": "From September 1939 to November 1940 , Leahy served as Governor of Puerto Rico"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#1",
+     "role": "both",
+     "quote": "he was appointed in 1939 by his close friend President Franklin D . Roosevelt as Governor of Puerto Rico"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1940",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service as US Ambassador to France.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#1",
+     "role": "both",
+     "quote": "the United States Ambassador to France 1940–42"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1940-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended service as Governor of Puerto Rico.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#18",
+     "role": "both",
+     "quote": "From September 1939 to November 1940 , Leahy served as Governor of Puerto Rico"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1941",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Ambassador to France after France's capitulation to Germany.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#20",
+     "role": "both",
+     "quote": "in 1941 following that countrys capitulation to Germany"
+    }
+   ]
+  },
+  {
+   "date": "1942-04-21",
+   "grain": "day",
+   "track": "family",
+   "label": "",
+   "text": "Wife Louise Harrington Leahy died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#31",
+     "role": "both",
+     "quote": "died with Leahy at her side on 21 April 1942"
+    }
+   ],
+   "id": "e37"
+  },
+  {
+   "id": "e38",
+   "date": "1942-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Recalled from the Ambassadorship to France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#20",
+     "role": "both",
+     "quote": "He was recalled in May 1942"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1942-07-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Chief of Staff to the Commander in Chief; also head of the Joint Chiefs of Staff.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#22",
+     "role": "both",
+     "quote": "On July 6 , 1942 , Leahy was appointed Chief of Staff to the Commander in Chief"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1944-06-06",
+   "grain": "day",
+   "track": "location",
+   "text": "Spent D-Day in his hometown of Hampton, Iowa as deception.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#24",
+     "role": "both",
+     "quote": "Leahy spent D-Day , June 6 , 1944 , in his home town of Hampton , Iowa"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1944-07",
+   "grain": "month",
+   "track": "other",
+   "label": "conference",
+   "text": "Accompanied Roosevelt to the Pacific Strategy Conference in Hawaii.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#25",
+     "role": "both",
+     "quote": "In July 1944 , Leahy accompanied President Roosevelt to the Pacific Strategy Conference in Hawaii"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1944-12-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Promoted to Fleet Admiral, most senior of seven five-star officers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#26",
+     "role": "both",
+     "quote": "Leahy was promoted to the rank of Fleet Admiral on December 15 , 1944"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1945-02",
+   "grain": "month",
+   "track": "other",
+   "label": "conference",
+   "text": "Personal aide to Roosevelt at the Yalta Conference.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#27",
+     "role": "both",
+     "quote": "Leahy accompanied President Roosevelt as his personal aide to the Yalta Conference in February 1945"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1945-07",
+   "grain": "month",
+   "track": "other",
+   "label": "conference",
+   "text": "Went with President Truman to the Potsdam Conference.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#27",
+     "role": "both",
+     "quote": "Five months later , he went with President Truman to the Potsdam Conference"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1945-11-21",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Invested as Honorary Knight Grand Cross, Order of the Bath.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#37",
+     "role": "both",
+     "quote": "invested as an Honorary Knight Grand Cross of the Military Division of the Most Honorable Order of the Bath on November 21 , 1945"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1949-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Retired from the Navy again, final retirement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#29",
+     "role": "both",
+     "quote": "Leahy again retired from the Navy in March 1949"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Published his war memoirs, I Was There.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#29",
+     "role": "description",
+     "quote": "The following year , he published his war memoirs , I Was There"
+    },
+    {
+     "chunk_id": "/wiki/William_D._Leahy#39",
+     "role": "both",
+     "quote": "Based on His Notes and Diaries Made at the Time ( 1950 )"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1959-07-20",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at the US Naval Hospital in Bethesda, Maryland, aged 84.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/William_D._Leahy#33",
+     "role": "both",
+     "quote": "Leahy died at the U.S . Naval Hospital in Bethesda , Maryland , July 20 , 1959"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Executive Officer of a vessel for almost a year before April 1918",
+  "Commanded a gunboat on the Asiatic Station during the Philippine–American War and Boxer Rebellion (no exact year)",
+  "Given command of Mine Squadron One after the Turkish–Greek war (no year)",
+  "Commanded a battleship for one year (c. 1926–27, no exact year)",
+  "Promoted to vice admiral and made Commander Battleships Battle Force (between 1933 and 1936, no year)",
+  "Mediated between the US Navy and the Puerto Rican government over the transfer of Vieques and Culebra (no year)"
+ ]
+}

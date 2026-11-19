@@ -1,0 +1,150 @@
+{
+  "page_id": "/wiki/Gerard_Bilders",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1838-12-09",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Gerard Bilders born in Utrecht.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#0", "role": "both", "quote": "( 9 December 1838 – 8 March 1865 )"},
+        {"chunk_id": "/wiki/Gerard_Bilders#1", "role": "description", "quote": "Bilders was born in Utrecht"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1856",
+      "grain": "year",
+      "track": "location",
+      "text": "Stopped living in Utrecht, his birthplace.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#1", "role": "both", "quote": "where he lived until 1856"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1856",
+      "grain": "year",
+      "track": "other",
+      "label": "study",
+      "text": "Frequently visited Mauritshuis in The Hague to study and copy Potter and Ruisdael.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#9", "role": "both", "quote": "At the end of 1856 and beginning of 1857 Gerard Bilders was frequently visiting the Mauritshuis in The Hague"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "1857",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved to The Hague.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#1", "role": "both", "quote": "In 1857 Gerard moved to The Hague"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1857",
+      "grain": "year",
+      "track": "education",
+      "text": "Began studying at the Academy of Visual Arts in The Hague.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#3", "role": "both", "quote": "Bilders studied at the Academy of Visual Arts in The Hague from about 1857 to 1859"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e6",
+      "date": "1857",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned to live in Oosterbeek.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#8", "role": "both", "quote": "returned to Oosterbeek from 1857 - 1864"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1858-09",
+      "grain": "month",
+      "track": "other",
+      "label": "travel",
+      "text": "First voyage to Switzerland/France; painted in the Savoy with artist friends.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#5", "role": "both", "quote": "as of September 1858 , when he painted there together with some artist-friends in open air"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1859",
+      "grain": "year",
+      "track": "education",
+      "text": "Ended his studies at the Academy of Visual Arts in The Hague.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#3", "role": "both", "quote": "Bilders studied at the Academy of Visual Arts in The Hague from about 1857 to 1859"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1859",
+      "grain": "year",
+      "track": "work",
+      "text": "Painted goats in his father's forest landscape, commissioned by a Russian art-seller.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#4", "role": "both", "quote": "in 1859 by painting some goats in a large forest-landscape of his father"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1859",
+      "grain": "year",
+      "track": "work",
+      "text": "Began painting the countryside around Leiden, often meadows with cattle.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#6", "role": "both", "quote": "Later in 1859 he began painting in the county-area around Leiden"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1860",
+      "grain": "year",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Visited the Brussels Exposition Générale des Beaux-Arts with his father; met Barbizon painters.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#5", "role": "both", "quote": "In 1860 they traveled together to the Exposition Générale des Beaux-Arts in Brussel"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1864",
+      "grain": "year",
+      "track": "location",
+      "text": "Left Oosterbeek, ending his stay there.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#8", "role": "both", "quote": "returned to Oosterbeek from 1857 - 1864"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1865-03-08",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died in Amsterdam of tuberculosis, aged 26.",
+      "evidence": [
+        {"chunk_id": "/wiki/Gerard_Bilders#0", "role": "both", "quote": "( 9 December 1838 – 8 March 1865 )"},
+        {"chunk_id": "/wiki/Gerard_Bilders#8", "role": "description", "quote": "He died in Amsterdam because of tuberculosis"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Received first drawing lessons from his father (undated)",
+    "Pupil of landscape and animal painter Charles Humbert in Switzerland (undated)",
+    "Second voyage to Switzerland/France (undated)",
+    "Met Anton Mauve and Willem Maris in Oosterbeek (undated)"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+ "page_id": "/wiki/Arnolfini_Portrait",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1434",
+   "grain": "year",
+   "track": "work",
+   "text": "Jan van Eyck completes and signs the oil painting, dated 1434.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#0",
+     "role": "both",
+     "quote": "is a 1434 oil painting on oak panel by the Early Netherlandish painter Jan van Eyck ."
+    },
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#2",
+     "role": "both",
+     "quote": "Signed and dated by van Eyck in 1434"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1516",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Don Diego de Guevara gives the portrait to Margaret of Austria.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#56",
+     "role": "both",
+     "quote": "By 1516 he had given the portrait to Margaret of Austria"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e3",
+   "date": "1530",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Painting inherited by Margaret's niece Mary of Hungary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#58",
+     "role": "both",
+     "quote": "In 1530 the painting was inherited by Margarets niece Mary of Hungary"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1558",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Painting inherited by Philip II of Spain after Mary's death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#58",
+     "role": "both",
+     "quote": "inventory taken after her death in 1558 , when it was inherited by Philip II of Spain"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1599",
+   "grain": "year",
+   "track": "location",
+   "text": "German visitor sees the painting in the Alcazar Palace, Madrid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#58",
+     "role": "both",
+     "quote": "In 1599 a German visitor saw it in the Alcazar Palace in Madrid"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1794",
+   "grain": "year",
+   "track": "location",
+   "text": "Painting moved to the Palacio Nuevo, Madrid, after the Alcazar fire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#61",
+     "role": "both",
+     "quote": "by 1794 had been moved to the Palacio Nuevo"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1816",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Painting in London, in the possession of Colonel James Hay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#61",
+     "role": "both",
+     "quote": "In 1816 the painting was in London , in the possession of Colonel James Hay"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1818",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Prince Regent returns the painting to Hay after two years on approval.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#63",
+     "role": "both",
+     "quote": "before eventually returning it in 1818"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1828",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Hay gives the painting to a friend to look after.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#63",
+     "role": "both",
+     "quote": "Around 1828 , Hay gave it to a friend to look after"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e10",
+   "date": "1841",
+   "grain": "year",
+   "track": "work",
+   "text": "Painting included in a public exhibition arranged by Hay.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#63",
+     "role": "both",
+     "quote": "until he arranged for it to be included in a public exhibition in 1841"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1842",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Bought by the National Gallery, London, as inventory number 186.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#2",
+     "role": "both",
+     "quote": "The painting was bought by the National Gallery in London in 1842"
+    },
+    {
+     "chunk_id": "/wiki/Arnolfini_Portrait#63",
+     "role": "both",
+     "quote": "It was bought the following year ( 1842 ) by the recently formed National Gallery"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Philip the Good commissioned Jan van Eyck to portray Arnolfini (tapestry order; undated)",
+  "Don Diego de Guevara came to own the portrait (before 1516; no exact date)"
+ ]
+}

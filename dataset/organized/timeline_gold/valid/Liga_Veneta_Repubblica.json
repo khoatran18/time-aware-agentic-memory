@@ -1,0 +1,627 @@
+{
+ "page_id": "Liga_Veneta_Repubblica",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Liga Veneta Repubblica emerged as a split from Liga Veneta.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "The LVR emerged in 1998 as a split from Liga Veneta"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#4",
+     "role": "description",
+     "quote": "left the party and launched Liga Veneta Repubblica ( LVR )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini begins term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 1998–2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Mariangelo Foggiato begins term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Mariangelo Foggiato ( 1998–1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Mariangelo Foggiato ends term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Mariangelo Foggiato ( 1998–1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Donato Manfroi begins term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Donato Manfroi ( 1999–2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999-08",
+   "grain": "month",
+   "track": "other",
+   "label": "alliance",
+   "text": "Comencini signed a pact with Galan's centre-right coalition support.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#5",
+     "role": "both",
+     "quote": "with whom Comencini signed a pact in August 1999"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini ends term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 1998–2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Ettore Beggiato begins term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Ettore Beggiato ( 2000–2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Donato Manfroi ends term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Donato Manfroi ( 1999–2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini begins term as national president (list date).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 2000–2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2000",
+   "grain": "year",
+   "track": "naming",
+   "text": "Party renamed Veneti dEuropa.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "changed its name to Veneti dEuropa ( after the merger with Future Veneto in 2000 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#8",
+     "role": "description",
+     "quote": "whose name was changed to Veneti dEuropa"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "merger",
+   "text": "Party merged with Future Veneto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "after the merger with Future Veneto in 2000"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#8",
+     "role": "description",
+     "quote": "as the LVR merged with Future Veneto"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Ettore Beggiato ends term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Ettore Beggiato ( 2000–2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Giorgio Vido elected national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Giorgio Vido ( 2001–2003 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#10",
+     "role": "both",
+     "quote": "In 2001 the party , at the time led by the Venetist historian Beggiato"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini elected national president (text date).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#10",
+     "role": "both",
+     "quote": "In 2001 the party , at the time led by the Venetist historian Beggiato"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2001",
+   "grain": "year",
+   "track": "naming",
+   "text": "Party renamed Liga Fronte Veneto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "Liga Fronte Veneto ( after the merger with Fronte Marco Polo in 2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "merger",
+   "text": "Party merged with Fronte Marco Polo into Liga Fronte Veneto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#10",
+     "role": "both",
+     "quote": "In 2001 the party , at the time led by the Venetist historian Beggiato"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "after the merger with Fronte Marco Polo in 2001"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Giorgio Vido ends term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Giorgio Vido ( 2001–2003 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#12",
+     "role": "both",
+     "quote": "In 2003 Beggiato replaced Vido as national secretary"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Ettore Beggiato begins second term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Ettore Beggiato ( 2003–2004 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#12",
+     "role": "both",
+     "quote": "In 2003 Beggiato replaced Vido as national secretary"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Ettore Beggiato ends second term as national secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Ettore Beggiato ( 2003–2004 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#12",
+     "role": "both",
+     "quote": "In 2004 Beggiato tried to lead the party into North-East Project"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini elected national secretary again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 2004–2018 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#13",
+     "role": "description",
+     "quote": "secretary and Morosin national president"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini ends term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 2000–2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Alessio Morosin begins term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Alessio Morosin ( 2004–2007 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#13",
+     "role": "description",
+     "quote": "secretary and Morosin national president"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2004",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Beggiato, Foggiato and Munaretto group switched to North-East Project.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#12",
+     "role": "both",
+     "quote": "In 2004 Beggiato tried to lead the party into North-East Project"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "alliance",
+   "text": "Comencini forged alliance with The Union coalition for general election.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#15",
+     "role": "both",
+     "quote": "For the 2006 general election Comencini forged an alliance"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Alessio Morosin ends term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Alessio Morosin ( 2004–2007 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2007",
+   "grain": "year",
+   "track": "naming",
+   "text": "Party returned to its original name, Liga Veneta Repubblica.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#1",
+     "role": "both",
+     "quote": "It finally assumed again the original title in 2007"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#16",
+     "role": "description",
+     "quote": "the party returned to its original name"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2008-10",
+   "grain": "month",
+   "track": "other",
+   "label": "alliance",
+   "text": "Party signed coalition pact with PNE and Venetian Independence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#17",
+     "role": "both",
+     "quote": "In October 2008 the LVR signed a coalition pact with North-East Project ( PNE )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "Gian Pietro Piotto begins term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Gian Pietro Piotto ( 2009–2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2010",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Silvano Polo's independentist wing left to join Party of the Venetians.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#19",
+     "role": "both",
+     "quote": "For the 2010 regional election , after having formed Veneto Freedom ( VL )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2010",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Sartore and Vido's left-wing faction formed Liga Veneto Autonomo.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#19",
+     "role": "both",
+     "quote": "For the 2010 regional election , after having formed Veneto Freedom ( VL )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2013-07",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Party joined Let Veneto Decide cross-party committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#22",
+     "role": "both",
+     "quote": "In July 2013 the LVR joined Let Veneto Decide"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2014-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Party became founding member of United for Independent Veneto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#23",
+     "role": "both",
+     "quote": "In March 2014 the party was a founding member of United for Independent Veneto"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini steps down as national secretary.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 2004–2018 )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#26",
+     "role": "both",
+     "quote": "Sometime in 2018 Comencini stepped down as secretary"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Gianluigi Sette begins term as national secretary.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Gianluigi Sette ( 2018–present )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#26",
+     "role": "description",
+     "quote": "being replaced by Gianluigi Sette"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Gian Pietro Piotto ends term as national president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Gian Pietro Piotto ( 2009–2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Fabrizio Comencini begins term as national president again.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#29",
+     "role": "both",
+     "quote": "Fabrizio Comencini ( 2018–present )"
+    },
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#26",
+     "role": "description",
+     "quote": "becoming president instead"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2020",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Party entered alliance with Liga Veneta for the regional election.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liga_Veneta_Repubblica#27",
+     "role": "both",
+     "quote": "For the 2020 regional election the party entered in alliance with the LV"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Adriano Bertaso of North-East Union joined the party for a while (no date)",
+  "Formed Veneto Freedom (VL) with other Venetist parties before the 2010 regional election (no date)",
+  "Joint list Independence We Veneto (INV) formed for the 2015 regional election (formation date not stated)"
+ ]
+}

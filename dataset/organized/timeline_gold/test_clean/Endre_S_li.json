@@ -1,0 +1,131 @@
+{
+  "page_id": "/wiki/Endre_Süli",
+  "events": [
+    {"id": "e1", "date": "2002", "grain": "year", "track": "role", "text": "Became Chair of the Society for the Foundations of Computational Mathematics.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "description", "quote": "was Chair of the Society for the Foundations of Computational Mathematics"},
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "date", "quote": "( 2002–2005 )"}
+     ]},
+    {"id": "e2", "date": "2005", "grain": "year", "track": "role", "text": "Ended term as Chair of the Society for the Foundations of Computational Mathematics.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "description", "quote": "was Chair of the Society for the Foundations of Computational Mathematics"},
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "date", "quote": "( 2002–2005 )"}
+     ]},
+    {"id": "e3", "date": "2005", "grain": "year", "track": "role", "text": "Became co-Editor-in-Chief of the IMA Journal of Numerical Analysis.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#3", "role": "both", "quote": "Since 2005 Süli has been co-Editor-in-Chief of the IMA Journal of Numerical Analysis"}
+     ]},
+    {"id": "e4", "date": "2006", "grain": "year", "track": "other", "label": "invited_speaker", "text": "Invited speaker at the International Congress of Mathematicians in Madrid.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "He was invited speaker at the International Congress of Mathematicians in Madrid in 2006"}
+     ]},
+    {"id": "e5", "date": "2007", "grain": "year", "track": "other", "label": "honour", "text": "Became Fellow of the Institute of Mathematics and its Applications (FIMA).",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "Fellow of the Institute of Mathematics and its Applications ( FIMA , 2007 )"}
+     ]},
+    {"id": "e6", "date": "2009", "grain": "year", "track": "other", "label": "honour", "text": "Became Foreign Member of the Serbian Academy of Sciences and Arts.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "Foreign Member of the Serbian Academy of Sciences and Arts ( 2009 )"}
+     ]},
+    {"id": "e7", "date": "2010", "grain": "year", "track": "other", "label": "honour", "text": "Became Fellow of the European Academy of Sciences.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "Fellow of the European Academy of Sciences ( 2010 )"}
+     ]},
+    {"id": "e8", "date": "2010", "grain": "year", "track": "role", "text": "Began membership on Scientific Advisory Board of the Archimedes Center, University of Crete.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Archimedes Center for Modeling , Analysis and Computation at the University of Crete ( 2010–2014 )"}
+     ]},
+    {"id": "e9", "date": "2011", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the Charlemagne Distinguished Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "Charlemagne Distinguished Lecture ( 2011 )"}
+     ]},
+    {"id": "e10", "date": "2011", "grain": "year", "track": "other", "label": "award", "text": "Received the IMA Service Award.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "IMA Service Award ( 2011 )"}
+     ]},
+    {"id": "e11", "date": "2011", "grain": "year", "track": "role", "text": "Began membership on Scientific Steering Committee of the Isaac Newton Institute.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Isaac Newton Institute for Mathematical Sciences at the University of Cambridge ( 2011–2014 )"}
+     ]},
+    {"id": "e12", "date": "2012", "grain": "year", "track": "role", "text": "Began Professorship Hospitus at Charles University in Prague.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "Professor Hospitus Universitatis Carolinae Pragensis , Charles University in Prague ( 2012– )"}
+     ]},
+    {"id": "e13", "date": "2013", "grain": "year", "track": "role", "text": "Became Distinguished Visiting Chair Professor at Shanghai Jiao Tong University.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "Distinguished Visiting Chair Professor Shanghai Jiao Tong University ( 2013 )"}
+     ]},
+    {"id": "e14", "date": "2013", "grain": "year", "track": "role", "text": "Became President of SIAM United Kingdom and Republic of Ireland Section.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "President , SIAM United Kingdom and Republic of Ireland Section ( 2013–2015 )"}
+     ]},
+    {"id": "e15", "date": "2014", "grain": "year", "track": "role", "text": "Ended membership on Scientific Advisory Board of the Archimedes Center.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Archimedes Center for Modeling , Analysis and Computation at the University of Crete ( 2010–2014 )"}
+     ]},
+    {"id": "e16", "date": "2014", "grain": "year", "track": "role", "text": "Ended membership on Scientific Steering Committee of the Isaac Newton Institute.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Isaac Newton Institute for Mathematical Sciences at the University of Cambridge ( 2011–2014 )"}
+     ]},
+    {"id": "e17", "date": "2014", "grain": "year", "track": "role", "text": "Began membership on Scientific Council of SMAI.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Société de Mathématiques Appliquées et Industrielles ( SMAI ) ( 2014–2020 )"}
+     ]},
+    {"id": "e18", "date": "2015", "grain": "year", "track": "role", "text": "Ended term as President of SIAM United Kingdom and Republic of Ireland Section.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "President , SIAM United Kingdom and Republic of Ireland Section ( 2013–2015 )"}
+     ]},
+    {"id": "e19", "date": "2015", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the London Mathematical Society/New Zealand Mathematical Society Forder Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "London Mathematical Society/New Zealand Mathematical Society Forder Lecturer ( 2015 )"}
+     ]},
+    {"id": "e20", "date": "2015", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the Aziz Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "Aziz Lecture ( 2015 )"}
+     ]},
+    {"id": "e21", "date": "2016", "grain": "year", "track": "role", "text": "Began membership on Scientific Advisory Board of the Berlin Mathematical School.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Berlin Mathematical School ( 2016–2018 )"}
+     ]},
+    {"id": "e22", "date": "2016", "grain": "year", "track": "other", "label": "honour", "text": "Became Fellow of the Society for Industrial and Applied Mathematics.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "Fellow of the Society for Industrial and Applied Mathematics ( 2016 )"}
+     ]},
+    {"id": "e23", "date": "2016", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the BIMOS Distinguished Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#2", "role": "both", "quote": "BIMOS Distinguished Lecture ( 2016"}
+     ]},
+    {"id": "e24", "date": "2016", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the John von Neumann Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#3", "role": "both", "quote": "John von Neumann Lecture ( 2016 )"}
+     ]},
+    {"id": "e25", "date": "2018", "grain": "year", "track": "other", "label": "lecture", "text": "Gave the Sibe Mardešić Lecture.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#3", "role": "both", "quote": "Sibe Mardešić Lecture ( 2018 )"}
+     ]},
+    {"id": "e26", "date": "2018", "grain": "year", "track": "role", "text": "Ended membership on Scientific Advisory Board of the Berlin Mathematical School.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Berlin Mathematical School ( 2016–2018 )"}
+     ]},
+    {"id": "e27", "date": "2020", "grain": "year", "track": "role", "text": "Ended membership on Scientific Council of SMAI.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#4", "role": "both", "quote": "Société de Mathématiques Appliquées et Industrielles ( SMAI ) ( 2014–2020 )"}
+     ]},
+    {"id": "e28", "date": "2020", "grain": "year", "track": "other", "label": "honour", "text": "Became Member of Academia Europaea.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "a Member of the Academia Europaea ( 2020 )"}
+     ]},
+    {"id": "e29", "date": "2021", "grain": "year", "track": "other", "label": "honour", "text": "Became Fellow of the Royal Society.",
+     "evidence": [
+       {"chunk_id": "/wiki/Endre_Süli#1", "role": "both", "quote": "a Fellow of the Royal Society ( 2021 )"}
+     ]}
+  ],
+  "undated_mentions": [
+    "educated at the University of Belgrade",
+    "British Council Visiting Student at the University of Reading and St Catherines College, Oxford",
+    "member of the Scientific Committee of the Mathematisches Forschungsinstitut Oberwolfach (undated, present tense)",
+    "member of the Scientific Advisory Board of the Berlin Mathematics Research Center MATH+ (undated, present tense)",
+    "member of the Board of the Doctoral School for Mathematical and Physical Sciences for Advanced Materials and Technologies, Scuola Superiore Meridionale, University of Naples (undated, present tense)",
+    "Delegate of Oxford University Press (undated, present tense)"
+  ]
+}

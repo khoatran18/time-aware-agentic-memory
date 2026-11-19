@@ -1,0 +1,127 @@
+{
+  "page_id": "/wiki/Archives_station",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1983-04-30",
+      "grain": "day",
+      "track": "other",
+      "label": "opening",
+      "text": "Station service began, coinciding with rail extension to Pentagon.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#2", "role": "both", "quote": "Service began on April 30 , 1983 ."}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "2004",
+      "grain": "year",
+      "track": "naming",
+      "text": "Station renamed Archives–Navy Memorial–Penn Quarter.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#3", "role": "both", "quote": "In 2004 , it was renamed Archives–Navy Memorial–Penn Quarter"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2004",
+      "grain": "year",
+      "track": "other",
+      "label": "film appearance",
+      "text": "Station referenced in Disney film National Treasure.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#7", "role": "both", "quote": "In 2004 , the station was referenced in the Disney film National Treasure"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2005",
+      "grain": "year",
+      "track": "other",
+      "label": "signage",
+      "text": "New signage installed following the 2004 renaming.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#3", "role": "both", "quote": "New signage was installed accordingly in 2005"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2007",
+      "grain": "year",
+      "track": "other",
+      "label": "film appearance",
+      "text": "Station entrance featured in film Breach.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#7", "role": "both", "quote": "The station entrance was also featured in the 2007 film Breach"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2011-11-03",
+      "grain": "day",
+      "track": "naming",
+      "text": "Navy Memorial and Penn Quarter moved to subtitle; station named Archives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#3", "role": "both", "quote": "leaving Archives as the main name , on November 3 , 2011"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2012",
+      "grain": "year",
+      "track": "other",
+      "label": "signage",
+      "flag": "approximate_date",
+      "text": "New signage installed following the late-2011 second renaming.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#3", "role": "both", "quote": "in late-spring 2012 , following the late-2011 second renaming"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2020-03-26",
+      "grain": "day",
+      "track": "other",
+      "label": "closure",
+      "text": "Station closed due to COVID-19 pandemic (closure began).",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#4", "role": "both", "quote": "From March 26 , 2020 until June 28 , 2020 , this station was closed"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2020-06-28",
+      "grain": "day",
+      "track": "other",
+      "label": "closure",
+      "text": "COVID-19 pandemic closure of station ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#4", "role": "both", "quote": "From March 26 , 2020 until June 28 , 2020 , this station was closed"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2021-01-15",
+      "grain": "day",
+      "track": "other",
+      "label": "closure",
+      "flag": "derived_date",
+      "text": "Station closed due to security concerns over 2020 Inauguration (began).",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#4", "role": "both", "quote": "Between January 15 to January 21 , 2021 , this station was closed"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2021-01-21",
+      "grain": "day",
+      "track": "other",
+      "label": "closure",
+      "text": "Security-related closure for 2020 Inauguration ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Archives_station#4", "role": "both", "quote": "Between January 15 to January 21 , 2021 , this station was closed"}
+      ]
+    }
+  ],
+  "undated_mentions": ["originally named Archives–Navy Memorial (no date given)"]
+}

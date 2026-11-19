@@ -1,0 +1,2831 @@
+{
+ "page_id": "PFC_Levski_Sofia",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1911",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Sport Club Levski, predecessor, founded by Sofia secondary school students",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#3",
+     "role": "both",
+     "quote": "Sport Club Levski was founded in 1911"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1914",
+   "grain": "year",
+   "track": "other",
+   "label": "match",
+   "text": "Lost first official match 0-2 to FC 13 Sofia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#4",
+     "role": "both",
+     "quote": "In 1914 , Levski lost its first official match against FC 13 Sofia"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1914-05-24",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Football department founded as part of Levski Sofia sports club",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#0",
+     "role": "both",
+     "quote": "The club was founded on 24 May 1914"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1914-05-24",
+   "grain": "day",
+   "track": "other",
+   "label": "registration",
+   "text": "Sport Club Levski officially registered",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#3",
+     "role": "both",
+     "quote": "the club was officially registered on 24 May 1914"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1921",
+   "grain": "year",
+   "track": "role",
+   "text": "Boris Vasilev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Boris Vasilev ( 1921–23 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1921-09-18",
+   "grain": "day",
+   "track": "other",
+   "label": "match",
+   "text": "Won first championship match 3-1 against Athletic Sofia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#4",
+     "role": "both",
+     "quote": "Levski won the first match in the championship in the 1921–22 season , held on 18 September 1921"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1922",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "First club crest designed by Mincho Kachulev",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#39",
+     "role": "both",
+     "quote": "The first club crest was designed by Mincho Kachulev in 1922"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Boris Vasilev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Boris Vasilev ( 1921–23 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1923",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won league by first place after 3-2 win over Slavia Sofia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#5",
+     "role": "both",
+     "quote": "team captured first place in the league in 1923"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1923",
+   "grain": "year",
+   "track": "role",
+   "text": "Mihail Borisov becomes manager, 1923-24 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Mihail Borisov ( 1923–24 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1924",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Successfully defended league title the following season",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#5",
+     "role": "both",
+     "quote": "successfully defended the title the following season"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1924",
+   "grain": "year",
+   "track": "role",
+   "text": "Boris Vasilev returns as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Boris Vasilev ( 1924–27 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1927",
+   "grain": "year",
+   "track": "role",
+   "text": "Boris Vasilev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Boris Vasilev ( 1924–27 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e14",
+   "date": "1927",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Kachev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Kachev ( 1927–32 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1929",
+   "grain": "year",
+   "track": "other",
+   "label": "status",
+   "text": "Became first semi-professional football club in Bulgaria",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "In 1929 , Levski became the first semi-professional football club in Bulgaria"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1929",
+   "grain": "year",
+   "track": "other",
+   "label": "match",
+   "text": "Met first international opponents, Gallipoli and Kuban Istanbul",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "The same year Levski met its first international opponents"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1930",
+   "grain": "year",
+   "track": "other",
+   "label": "trophy",
+   "text": "Won Ulpia Serdica Cup 1930-1932; trophy permanently awarded",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "Between 1930 and 1932 , Levski won"
+    },
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#7",
+     "role": "description",
+     "quote": "the Ulpia Serdica Cup for three consecutive years and was permanently awarded the trophy"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1932",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Kachev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Kachev ( 1927–32 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e19",
+   "date": "1932",
+   "grain": "year",
+   "track": "role",
+   "text": "Tsvetan Genev becomes manager, 1932-33 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Tsvetan Genev ( 1932–33 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1933",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "The team went on to win the title in 1933 , 1937 and 1942"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1933",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev becomes manager (1933)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1933 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1934",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Karaivanov becomes manager (1934)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Georgi Karaivanov ( 1934 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1934",
+   "grain": "year",
+   "track": "role",
+   "text": "Rudolf Löwenfeld becomes manager, 1934-35 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Rudolf Löwenfeld ( 1934–35 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev becomes manager (1936)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1936 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "Kiril Yovovich becomes manager, 1936-37 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Kiril Yovovich ( 1936–37 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1937",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "The team went on to win the title in 1933 , 1937 and 1942"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1937",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev becomes manager, 1937-38 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1937–38 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1938",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitar Mutafchiev becomes manager, 1938-39 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Dimitar Mutafchiev ( 1938–39 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1939",
+   "grain": "year",
+   "track": "role",
+   "text": "Asen Panchev becomes manager, 1939-40 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Asen Panchev ( 1939–40 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1940",
+   "grain": "year",
+   "track": "role",
+   "text": "Miloš Strużka becomes manager, 1940-41 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Miloš Strużka ( 1940–41 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1941",
+   "grain": "year",
+   "track": "role",
+   "text": "Asen Panchev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Asen Panchev ( 1941–44 )"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1942",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#6",
+     "role": "both",
+     "quote": "The team went on to win the title in 1933 , 1937 and 1942"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1944",
+   "grain": "year",
+   "track": "role",
+   "text": "Asen Panchev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Asen Panchev ( 1941–44 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e34",
+   "date": "1944",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1944–48 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1946",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "After winning the championship in 1946 , 1947 , 1949 , 1950 and 1953"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1947",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "After winning the championship in 1946 , 1947 , 1949 , 1950 and 1953"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1948",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#47",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1944–48 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e38",
+   "date": "1948",
+   "grain": "year",
+   "track": "role",
+   "text": "Rizko Szomlaj becomes manager, 1948-49 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#48",
+     "role": "both",
+     "quote": "Rizko Szomlaj ( 1948–49 )"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1949",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Original crest in use until club renamed Dinamo",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#40",
+     "role": "both",
+     "quote": "was used by the club until 1949 , when it was renamed to Dinamo"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1949",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Hexagon emblem period begins",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#41",
+     "role": "both",
+     "quote": "From 1949 to 1956 , the emblem of the club was an irregular hexagon"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1949",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "After winning the championship in 1946 , 1947 , 1949 , 1950 and 1953"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1949",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Dinamo by authorities",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "In 1949 , the authorities changed the clubs name to Dinamo"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "After winning the championship in 1946 , 1947 , 1949 , 1950 and 1953"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Radoev becomes manager, 1950-51 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Ivan Radoev ( 1950–51 )"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1952",
+   "grain": "year",
+   "track": "role",
+   "text": "Ljubej Petkov becomes manager (1952)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Ljubej Petkov ( 1952 )"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "After winning the championship in 1946 , 1947 , 1949 , 1950 and 1953"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1953",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitar Mutafchiev becomes manager (1953)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Dimitar Mutafchiev ( 1953 )"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Spasov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Vasil Spasov ( 1954–56 )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Hexagon emblem period ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#41",
+     "role": "both",
+     "quote": "From 1949 to 1956 , the emblem of the club was an irregular hexagon"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Spasov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Vasil Spasov ( 1954–56 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e51",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Pachedzhiev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Georgi Pachedzhiev ( 1956–60 )"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1957",
+   "grain": "year",
+   "track": "naming",
+   "text": "Name reverted to Levski after de-Stalinization",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#8",
+     "role": "both",
+     "quote": "it was reverted in 1957"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1957",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Original logo restored",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#41",
+     "role": "both",
+     "quote": "From 1957 to 1968 the original logo of the club was restored"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1960",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Pachedzhiev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Georgi Pachedzhiev ( 1956–60 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e55",
+   "date": "1960",
+   "grain": "year",
+   "track": "role",
+   "text": "Kotse Georgiev becomes manager, 1960-61 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Kotse Georgiev ( 1960–61 )"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1961",
+   "grain": "year",
+   "track": "role",
+   "text": "Krastio Chakarov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Krastio Chakarov ( 1961–64 )"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Hristo Mladenov becomes manager, 1964-65 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Hristo Mladenov ( 1964–65 )"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Krastio Chakarov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Krastio Chakarov ( 1961–64 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e59",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#9",
+     "role": "both",
+     "quote": "winning the championship in 1965 , 1968 and 1970"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1965",
+   "grain": "year",
+   "track": "role",
+   "text": "Rudolf Vytlačil becomes manager, 1965-66 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Rudolf Vytlačil ( 1965–66 )"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Krastyo Chakarov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Krastyo Chakarov ( 1966–69 )"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1968",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#9",
+     "role": "both",
+     "quote": "winning the championship in 1965 , 1968 and 1970"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1968",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Original logo period ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#41",
+     "role": "both",
+     "quote": "From 1957 to 1968 the original logo of the club was restored"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Krastyo Chakarov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Krastyo Chakarov ( 1966–69 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e65",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Spasov becomes manager (1969)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Vasil Spasov ( 1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Rudolf Vytlačil becomes manager, 1969-70 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Rudolf Vytlačil ( 1969–70 )"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "1969",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Shield crest with Levski-Spartak letters adopted",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#42",
+     "role": "both",
+     "quote": "After the merger with Spartak Sofia in 1969 , the club crest has been a shield in blue and white"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "1969-01",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Forcibly merged with Spartak Sofia by Communist Party, placed under Interior Ministry",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#10",
+     "role": "both",
+     "quote": "In January 1969 , Levski was forcibly merged with Spartak Sofia"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "1969-01",
+   "grain": "month",
+   "track": "naming",
+   "text": "Renamed Levski-Spartak after merger",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#10",
+     "role": "both",
+     "quote": "In January 1969 , Levski was forcibly merged with Spartak Sofia"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "1970",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#9",
+     "role": "both",
+     "quote": "winning the championship in 1965 , 1968 and 1970"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "1971",
+   "grain": "year",
+   "track": "role",
+   "text": "Yoncho Arsov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Yoncho Arsov ( 1971–73 )"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Yoncho Arsov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Yoncho Arsov ( 1971–73 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e73",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitar Doychinov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Dimitar Doychinov ( 1973–75 )"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#11",
+     "role": "both",
+     "quote": "brought new league titles in 1974 , 1977 , 1979 , 1984 and 1985"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitar Doychinov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Dimitar Doychinov ( 1973–75 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e76",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vutsov becomes manager, 1975-76 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Ivan Vutsov ( 1975–76 )"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Spasov becomes manager, 1976-77 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#49",
+     "role": "both",
+     "quote": "Vasil Spasov ( 1976–77 )"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#11",
+     "role": "both",
+     "quote": "brought new league titles in 1974 , 1977 , 1979 , 1984 and 1985"
+    }
+   ]
+  },
+  {
+   "id": "e79",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vutsov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#50",
+     "role": "both",
+     "quote": "Ivan Vutsov ( 1977–80 )"
+    }
+   ]
+  },
+  {
+   "id": "e80",
+   "date": "1979",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#11",
+     "role": "both",
+     "quote": "brought new league titles in 1974 , 1977 , 1979 , 1984 and 1985"
+    }
+   ]
+  },
+  {
+   "id": "e81",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Hristo Mladenov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Hristo Mladenov ( 1980–82 )"
+    }
+   ]
+  },
+  {
+   "id": "e82",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vutsov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#50",
+     "role": "both",
+     "quote": "Ivan Vutsov ( 1977–80 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e83",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Dobromir Zhechev becomes manager, 1982-83 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Dobromir Zhechev ( 1982–83 )"
+    }
+   ]
+  },
+  {
+   "id": "e84",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Hristo Mladenov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Hristo Mladenov ( 1980–82 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e85",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Metodiev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Vasil Metodiev ( 1983–85 )"
+    }
+   ]
+  },
+  {
+   "id": "e86",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#11",
+     "role": "both",
+     "quote": "brought new league titles in 1974 , 1977 , 1979 , 1984 and 1985"
+    }
+   ]
+  },
+  {
+   "id": "e87",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#11",
+     "role": "both",
+     "quote": "brought new league titles in 1974 , 1977 , 1979 , 1984 and 1985"
+    }
+   ]
+  },
+  {
+   "id": "e88",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Championship title for 1985 suspended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#14",
+     "role": "both",
+     "quote": "The championship title of the club for 1985 was suspended"
+    }
+   ]
+  },
+  {
+   "id": "e89",
+   "date": "1985",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Vitosha by authorities after Cup final disruptions",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#13",
+     "role": "both",
+     "quote": "The name of the team was changed to Vitosha by the authorities following the disruptions during and after the Bulgarian Cup final in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e90",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Levski-Spartak shield crest used until 1985",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#42",
+     "role": "both",
+     "quote": "The football club used this crest until 1985"
+    }
+   ]
+  },
+  {
+   "id": "e91",
+   "date": "1985",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Metodiev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Vasil Metodiev ( 1983–85 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e92",
+   "date": "1985",
+   "grain": "year",
+   "track": "role",
+   "text": "Kiril Ivkov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Kiril Ivkov ( 1985–87 )"
+    }
+   ]
+  },
+  {
+   "id": "e93",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "cup",
+   "text": "Won national cup",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#14",
+     "role": "both",
+     "quote": "Levski won another cup and league titles in 1986 and 1988"
+    }
+   ]
+  },
+  {
+   "id": "e94",
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "text": "Pavel Panov becomes manager, 1986-87 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Pavel Panov ( 1986–87 )"
+    }
+   ]
+  },
+  {
+   "id": "e95",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Kiril Ivkov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Kiril Ivkov ( 1985–87 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e96",
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national league title",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#14",
+     "role": "both",
+     "quote": "Levski won another cup and league titles in 1986 and 1988"
+    }
+   ]
+  },
+  {
+   "id": "e97",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Metodiev becomes manager, 1988-89 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Vasil Metodiev ( 1988–89 )"
+    }
+   ]
+  },
+  {
+   "id": "e98",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Dobromir Zhechev becomes manager (1989)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Dobromir Zhechev ( 1989 )"
+    }
+   ]
+  },
+  {
+   "id": "e99",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Pavel Panov becomes manager, 1989-90 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Pavel Panov ( 1989–90 )"
+    }
+   ]
+  },
+  {
+   "id": "e100",
+   "date": "1990-01",
+   "grain": "month",
+   "track": "naming",
+   "text": "Restored original name",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#43",
+     "role": "both",
+     "quote": "In January 1990 , the club restored its original name and original logo"
+    }
+   ]
+  },
+  {
+   "id": "e101",
+   "date": "1990-01",
+   "grain": "month",
+   "track": "other",
+   "label": "crest",
+   "text": "Original logo restored",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#43",
+     "role": "both",
+     "quote": "In January 1990 , the club restored its original name and original logo"
+    }
+   ]
+  },
+  {
+   "id": "e102",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Vasil Metodiev becomes manager (1991)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Vasil Metodiev ( 1991 )"
+    }
+   ]
+  },
+  {
+   "id": "e103",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Dinko Dermendzhiev becomes manager (1991)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Dinko Dermendzhiev ( 1991 )"
+    }
+   ]
+  },
+  {
+   "id": "e104",
+   "date": "1992",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Vutov becomes manager, 1992-93 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Ivan Vutov ( 1992–93 )"
+    }
+   ]
+  },
+  {
+   "id": "e105",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship (first of three consecutive)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#15",
+     "role": "both",
+     "quote": "won three consecutive domestic national championships in 1993 , 1994 and 1995"
+    }
+   ]
+  },
+  {
+   "id": "e106",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Vasilev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Georgi Vasilev ( 1993–95 )"
+    }
+   ]
+  },
+  {
+   "id": "e107",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#15",
+     "role": "both",
+     "quote": "won three consecutive domestic national championships in 1993 , 1994 and 1995"
+    }
+   ]
+  },
+  {
+   "id": "e108",
+   "date": "1995",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won national championship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#15",
+     "role": "both",
+     "quote": "won three consecutive domestic national championships in 1993 , 1994 and 1995"
+    }
+   ]
+  },
+  {
+   "id": "e109",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Vasilev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Georgi Vasilev ( 1993–95 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e110",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Ivan Kyuchukov becomes manager, 1995-96 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Ivan Kyuchukov ( 1995–96 )"
+    }
+   ]
+  },
+  {
+   "id": "e111",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Tsvetkov becomes manager, 1996-97 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Georgi Tsvetkov ( 1996–97 )"
+    }
+   ]
+  },
+  {
+   "id": "e112",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Stefan Grozdanov becomes manager (1997)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Stefan Grozdanov ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e113",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Mihail Valchev becomes manager (1998)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#51",
+     "role": "both",
+     "quote": "Mihail Valchev ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e114",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Vyacheslav Hrozny becomes manager (1998)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#52",
+     "role": "both",
+     "quote": "Vyacheslav Hrozny ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e115",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "New shield logo introduced",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#43",
+     "role": "both",
+     "quote": "the club was forced to change it in 1998 , when a brand new shield logo was introduced"
+    }
+   ]
+  },
+  {
+   "id": "e116",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Angel Stankov becomes manager (1999)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Angel Stankov ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e117",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Ljupko Petrović becomes manager, 1999-00 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Ljupko Petrović ( 1999–00 )"
+    }
+   ]
+  },
+  {
+   "id": "e118",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Dimitar Dimitrov becomes manager (2000)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Dimitar Dimitrov ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e119",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Vladimir Fedotov becomes manager (2000)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Vladimir Fedotov ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e120",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Ljupko Petrović becomes manager, 2000-01 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Ljupko Petrović ( 2000–01 )"
+    }
+   ]
+  },
+  {
+   "id": "e121",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Todorov becomes manager (2001)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Georgi Todorov ( 2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e122",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Rüdiger Abramczik becomes manager (2002)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Rüdiger Abramczik ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e123",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Slavoljub Muslin becomes manager, 2002-03 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Slavoljub Muslin ( 2002–03 )"
+    }
+   ]
+  },
+  {
+   "id": "e124",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Todorov becomes manager (2003)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Georgi Todorov ( 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e125",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Georgi Vasilev becomes manager, 2003-04 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Georgi Vasilev ( 2003–04 )"
+    }
+   ]
+  },
+  {
+   "id": "e126",
+   "date": "2004-06-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Stanimir Stoilov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Stanimir Stoilov ( 1 June 2004 – 6 May 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e127",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "europe",
+   "text": "First Bulgarian club to reach UEFA Champions League group stage",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#1",
+     "role": "both",
+     "quote": "in 2006 , it became the first Bulgarian club to enter the group stage of the UEFA Champions League"
+    },
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#18",
+     "role": "description",
+     "quote": "thus became the first Bulgarian club to ever reach the group stage"
+    }
+   ]
+  },
+  {
+   "id": "e128",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Won legal dispute over historic emblem rights",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#45",
+     "role": "both",
+     "quote": "After winning the legal dispute for the rights to the historic emblem in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e129",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "crest",
+   "text": "Shield crest completely removed; classic square emblem used since",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#45",
+     "role": "both",
+     "quote": "Later that year , the shield crest was completely removed"
+    }
+   ]
+  },
+  {
+   "id": "e130",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Velislav Vutsov becomes manager (2008)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Velislav Vutsov ( 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e131",
+   "date": "2008-05-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Stanimir Stoilov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Stanimir Stoilov ( 1 June 2004 – 6 May 2008 )"
+    }
+   ]
+  },
+  {
+   "id": "e132",
+   "date": "2008-08-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Emil Velev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Emil Velev ( 16 August 2008 – 23 July 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e133",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "Antoni Zdravkov becomes manager, 2009-10 season",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Antoni Zdravkov ( 2009–10 )"
+    }
+   ]
+  },
+  {
+   "id": "e134",
+   "date": "2009-07-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Emil Velev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#53",
+     "role": "both",
+     "quote": "Emil Velev ( 16 August 2008 – 23 July 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e135",
+   "date": "2009-07-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Ratko Dostanić becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#54",
+     "role": "both",
+     "quote": "Ratko Dostanić ( 23 July 2009 – 19 October 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e136",
+   "date": "2009-10-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Ratko Dostanić leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#54",
+     "role": "both",
+     "quote": "Ratko Dostanić ( 23 July 2009 – 19 October 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e137",
+   "date": "2009-10-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 19 October 2009 – 30 June 2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e138",
+   "date": "2010-06-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 19 October 2009 – 30 June 2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e139",
+   "date": "2010-07-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Yasen Petrov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Yasen Petrov ( 1 July 2010 – 28 May 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e140",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Antoni Zdravkov becomes manager (2011)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Antoni Zdravkov ( 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e141",
+   "date": "2011-05-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Yasen Petrov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Yasen Petrov ( 1 July 2010 – 28 May 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e142",
+   "date": "2011-06-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 1 June 2011 – 3 November 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e143",
+   "date": "2011-11-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 1 June 2011 – 3 November 2011 )"
+    }
+   ]
+  },
+  {
+   "id": "e144",
+   "date": "2011-11-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Kostov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Nikolay Kostov ( 3 November 2011 – 27 March 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e145",
+   "date": "2012-03-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Kostov resigns as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Nikolay Kostov ( 3 November 2011 – 27 March 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e146",
+   "date": "2012-03-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov becomes interim manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( interim ) ( 27 March 2012 – 8 April 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e147",
+   "date": "2012-04-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Yasen Petrov becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Yasen Petrov ( 7 April 2012 – 30 May 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e148",
+   "date": "2012-04-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov interim spell ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Georgi Ivanov ( interim ) ( 27 March 2012 – 8 April 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e149",
+   "date": "2012-05-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Yasen Petrov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Yasen Petrov ( 7 April 2012 – 30 May 2012 )"
+    }
+   ]
+  },
+  {
+   "id": "e150",
+   "date": "2012-07-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Former player Ilian Iliev appointed manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Ilian Iliev ( 1 July 2012 – April 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e151",
+   "date": "2013-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Ilian Iliev sacked as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#55",
+     "role": "both",
+     "quote": "Ilian Iliev ( 1 July 2012 – April 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e152",
+   "date": "2013-04-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Mitov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#56",
+     "role": "both",
+     "quote": "Nikolay Mitov ( 12 April 2013 – 12 July 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e153",
+   "date": "2013-07-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Mitov resigns as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#56",
+     "role": "both",
+     "quote": "Nikolay Mitov ( 12 April 2013 – 12 July 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e154",
+   "date": "2013-07-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Slaviša Jokanović becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Slaviša Jokanović ( 15 July 2013 – October 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e155",
+   "date": "2013-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Slaviša Jokanović released as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Slaviša Jokanović ( 15 July 2013 – October 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e156",
+   "date": "2013-10-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Ivaylo Petev announced as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Ivaylo Petev ( 8 October 2013 – 9 October 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e157",
+   "date": "2013-10-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Ivaylo Petev leaves post after refusing to take charge",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Ivaylo Petev ( 8 October 2013 – 9 October 2013 )"
+    }
+   ]
+  },
+  {
+   "id": "e158",
+   "date": "2013-10-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Antoni Zdravkov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Antoni Zdravkov ( 10 October 2013 – 19 March 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e159",
+   "date": "2014-03-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Antoni Zdravkov sacked as manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Antoni Zdravkov ( 10 October 2013 – 19 March 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e160",
+   "date": "2014-03-20",
+   "grain": "day",
+   "track": "role",
+   "text": "Elin Topuzakov becomes caretaker manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Elin Topuzakov ( 20 March 2014 – June 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e161",
+   "date": "2014-05-23",
+   "grain": "day",
+   "track": "other",
+   "label": "event",
+   "text": "Supporters organize friendly vs Lazio marking club's 100th anniversary",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#35",
+     "role": "both",
+     "quote": "On 23 May 2014 , the club supporters organized a friendly game against Lazio"
+    }
+   ]
+  },
+  {
+   "id": "e162",
+   "date": "2014-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Elin Topuzakov leaves caretaker post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Elin Topuzakov ( 20 March 2014 – June 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e163",
+   "date": "2014-06",
+   "grain": "month",
+   "track": "role",
+   "text": "José Murcia becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "José Murcia ( June 2014 – 4 August 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e164",
+   "date": "2014-08-04",
+   "grain": "day",
+   "track": "role",
+   "text": "José Murcia leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "José Murcia ( June 2014 – 4 August 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e165",
+   "date": "2014-08-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 4 August 2014 – 22 December 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e166",
+   "date": "2014-12-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Ivanov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Georgi Ivanov ( 4 August 2014 – 22 December 2014 )"
+    }
+   ]
+  },
+  {
+   "id": "e167",
+   "date": "2014-12-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Stoycho Stoev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Stoycho Stoev ( 22 December 2014 – 15 May 2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e168",
+   "date": "2016-05-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Stoycho Stoev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Stoycho Stoev ( 22 December 2014 – 15 May 2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e169",
+   "date": "2016-05-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Ljupko Petrović becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Ljupko Petrović ( 16 May 2016 – 22 October 2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e170",
+   "date": "2016-10-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Ljupko Petrović leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#57",
+     "role": "both",
+     "quote": "Ljupko Petrović ( 16 May 2016 – 22 October 2016 )"
+    }
+   ]
+  },
+  {
+   "id": "e171",
+   "date": "2016-10-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Elin Topuzakov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#58",
+     "role": "both",
+     "quote": "Elin Topuzakov ( 22 October 2016 – 2 March 2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e172",
+   "date": "2017-03-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Elin Topuzakov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#58",
+     "role": "both",
+     "quote": "Elin Topuzakov ( 22 October 2016 – 2 March 2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e173",
+   "date": "2017-03-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Mitov becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Nikolay Mitov ( 2 March 2017 – 4 August 2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e174",
+   "date": "2017-08-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Nikolay Mitov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Nikolay Mitov ( 2 March 2017 – 4 August 2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e175",
+   "date": "2017-08-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Delio Rossi becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Delio Rossi ( 4 August 2017 – 25 July 2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e176",
+   "date": "2018-07-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Delio Rossi leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Delio Rossi ( 4 August 2017 – 25 July 2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e177",
+   "date": "2018-07-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Todor Simov becomes interim manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Todor Simov ( interim ) ( 25 July 2018 – 31 July 2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e178",
+   "date": "2018-07-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Todor Simov interim spell ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Todor Simov ( interim ) ( 25 July 2018 – 31 July 2018 )"
+    }
+   ]
+  },
+  {
+   "id": "e179",
+   "date": "2018-07-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Slaviša Stojanovič becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Slaviša Stojanovič ( 31 July 2018 – 21 January 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e180",
+   "date": "2019-01-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Slaviša Stojanovič leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Slaviša Stojanovič ( 31 July 2018 – 21 January 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e181",
+   "date": "2019-01-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Dermendzhiev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Georgi Dermendzhiev ( 21 January 2019 – 29 April 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e182",
+   "date": "2019-04-29",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Dermendzhiev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Georgi Dermendzhiev ( 21 January 2019 – 29 April 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e183",
+   "date": "2019-04-29",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Todorov becomes interim manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Georgi Todorov ( interim ) ( 29 April 2019 – 30 May 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e184",
+   "date": "2019-05-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Todorov interim spell ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Georgi Todorov ( interim ) ( 29 April 2019 – 30 May 2019 )"
+    }
+   ]
+  },
+  {
+   "id": "e185",
+   "date": "2019-05-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Petar Hubchev becomes manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Petar Hubchev ( 30 May 2019 – 11 June 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e186",
+   "date": "2020",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Nasko Sirakov takes majority of club shares; financial restructuring",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#36",
+     "role": "both",
+     "quote": "In the summer of 2020 , club legend Nasko Sirakov took charge of the majority of shares"
+    }
+   ]
+  },
+  {
+   "id": "e187",
+   "date": "2020-06-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Petar Hubchev leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#59",
+     "role": "both",
+     "quote": "Petar Hubchev ( 30 May 2019 – 11 June 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e188",
+   "date": "2020-06-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Todorov becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#60",
+     "role": "both",
+     "quote": "Georgi Todorov ( 11 June 2020 – 24 October 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e189",
+   "date": "2020-10-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Georgi Todorov leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#60",
+     "role": "both",
+     "quote": "Georgi Todorov ( 11 June 2020 – 24 October 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e190",
+   "date": "2020-10-24",
+   "grain": "day",
+   "track": "role",
+   "text": "Zhivko Milanov becomes interim manager",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#61",
+     "role": "both",
+     "quote": "Zhivko Milanov ( interim ) ( 24 October 2020 – 9 November 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e191",
+   "date": "2020-11-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Zhivko Milanov interim spell ends",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#61",
+     "role": "both",
+     "quote": "Zhivko Milanov ( interim ) ( 24 October 2020 – 9 November 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e192",
+   "date": "2020-11-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Slaviša Stojanovič becomes manager again",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#61",
+     "role": "both",
+     "quote": "Slaviša Stojanovič ( 10 November 2020 – 23 May 2021 )"
+    }
+   ]
+  },
+  {
+   "id": "e193",
+   "date": "2021-05-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Slaviša Stojanovič leaves manager post",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/PFC_Levski_Sofia#61",
+     "role": "both",
+     "quote": "Slaviša Stojanovič ( 10 November 2020 – 23 May 2021 )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "1965–66 European Cup: eliminated in first round by Benfica",
+  "1969–70 and 1976–77 European Cup Winners' Cup: quarter-finals",
+  "1975–76 UEFA Cup: quarter-finals",
+  "1976–77 European Cup Winners' Cup: defeated Barcelona in quarter-final",
+  "1983–84 UEFA Cup: eliminated VfB Stuttgart in first round",
+  "1984–85 European Cup: eliminated VfB Stuttgart in first round",
+  "1986–87 European Cup: quarter-finals",
+  "mid-1960s: domestic title regained",
+  "2005–06 UEFA Cup: quarter-finals",
+  "2006–07 UEFA Champions League group stage",
+  "2008–09 UEFA Champions League: qualified after CSKA licence refusal, eliminated by BATE",
+  "2009–10 UEFA Europa League group stage",
+  "2010–11 UEFA Europa League group stage",
+  "2011–12 UEFA Europa League: eliminated by Spartak Trnava",
+  "2012 Europa League: knocked out by FK Sarajevo",
+  "2013–14 Europa League: eliminated by Irtysh Pavlodar",
+  "2012–13 Bulgarian Cup final: lost on penalties to Beroe",
+  "Balkans Cup: runner-up twice (dates not stated)"
+ ]
+}

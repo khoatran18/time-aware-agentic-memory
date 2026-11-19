@@ -1,0 +1,334 @@
+{
+ "page_id": "Knox_Cunningham",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1909-04-03",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Sir Samuel Knox Cunningham, 1st Baronet, born.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#0",
+     "role": "both",
+     "quote": "Sir Samuel Knox Cunningham , 1st Baronet , QC ( 3 April 1909 – 29 July 1976 )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1931",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Went into business in Northern Ireland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "From 1931 Cunningham went into business in Northern Ireland"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1935-07-02",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Dorothy Enid Riley, JP.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "He married Dorothy Enid Riley JP on 2 July 1935"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1939",
+   "grain": "year",
+   "track": "education",
+   "text": "Called to the Bar by the Middle Temple.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "was called to the Bar by the Middle Temple in 1939"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1942",
+   "grain": "year",
+   "track": "education",
+   "text": "Called to the Bar in Northern Ireland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "called to the Bar in Northern Ireland in 1942"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1943",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Contested the Belfast West by-election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "He fought the Belfast West by-election in 1943"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1945",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Contested the same seat (Belfast West) at the general election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#3",
+     "role": "both",
+     "quote": "and the same seat in the 1945 general election"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1947",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became involved with the World Alliance of YMCAs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#4",
+     "role": "both",
+     "quote": "be involved with the World Alliance of YMCAs from 1947"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1949",
+   "grain": "year",
+   "track": "role",
+   "text": "Chairman of the National Council of the YMCA.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#4",
+     "role": "both",
+     "quote": "Chairman of the National Council of the YMCA in 1949"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1954",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected to Orpington Urban District Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#4",
+     "role": "both",
+     "quote": "In 1954 he was elected to Orpington Urban District Council"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Chosen as Ulster Unionist MP for South Antrim.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#5",
+     "role": "both",
+     "quote": "In the 1955 general election , Cunningham was chosen as the new Ulster Unionist MP for South Antrim"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as delegate to the Council of Europe and WEU Parliamentary Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#5",
+     "role": "both",
+     "quote": "He was a delegate to the Council of Europe and Western European Union Parliamentary Assembly from 1956 to 1959"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Parliamentary Private Secretary to Jocelyn Simon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#5",
+     "role": "both",
+     "quote": "He also served as Parliamentary Private Secretary to Jocelyn Simon , Financial Secretary to the Treasury , from 1958"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1959",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Made a Queen's Counsel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#5",
+     "role": "both",
+     "quote": "In 1959 he was made a Queens Counsel"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Picked by Harold Macmillan as Parliamentary Private Secretary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#6",
+     "role": "both",
+     "quote": "After the 1959 general election , Cunningham was picked by Prime Minister Harold Macmillan as his Parliamentary Private Secretary"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e16",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended delegate role to the Council of Europe and WEU Parliamentary Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#5",
+     "role": "both",
+     "quote": "He was a delegate to the Council of Europe and Western European Union Parliamentary Assembly from 1956 to 1959"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Decided to retire from Parliament at the 1970 general election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#7",
+     "role": "both",
+     "quote": "but decided to retire at the 1970 general election"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Provincial Grand Master of the Masonic Order in Gloucestershire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#7",
+     "role": "both",
+     "quote": "He was Provincial Grand Master of the Masonic Order in Gloucestershire from 1970-76"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1973",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Master of the Drapers Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#7",
+     "role": "both",
+     "quote": "He was Master of the Drapers Company in 1973–74"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term as Master of the Drapers Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#7",
+     "role": "both",
+     "quote": "He was Master of the Drapers Company in 1973–74"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e21",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term as Provincial Grand Master of the Masonic Order in Gloucestershire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#7",
+     "role": "both",
+     "quote": "He was Provincial Grand Master of the Masonic Order in Gloucestershire from 1970-76"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "1976-07-29",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died suddenly at Derhams House, Minchinhampton, aged sixty-seven.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Knox_Cunningham#8",
+     "role": "both",
+     "quote": "He died suddenly at Derhams House , Minchinhampton on 29 July 1976 at the age of sixty-seven"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Educated at Royal Belfast Academical Institution, Fettes College and Clare College, Cambridge (no dates)",
+  "Heavyweight boxing champion at Clare College (no date)",
+  "Later in the 1930s, studied law (decade only)",
+  "Served in the Scots Guards during the Second World War (no exact date)",
+  "After the war, mainly lived in Orpington (no exact date)",
+  "Later maintained a home, Derhams House near Minchinhampton (no date)",
+  "Member of the National Executive of the Conservative and Unionist Party (no date)",
+  "Awarded a baronetcy in Macmillan's resignation honours (no year stated)",
+  "Remained on the backbenches through the rest of the 1960s (decade only)",
+  "Member of the Apprentice Boys Club in Derry (no date)",
+  "Attended the 275th Anniversary of the shutting of the gates, Derry (no year)"
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "page_id": "St_Luke_s_Anglican_Church_Liverpool",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1818",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction begun; foundation stone laid; designed by Greenway, built by James Smith",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#0",
+     "role": "both",
+     "quote": "built from 1818 to 1820 by James Smith"
+    },
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#1",
+     "role": "both",
+     "quote": "St Lukes Church was built in 1818–1819"
+    },
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#2",
+     "role": "both",
+     "quote": "Its foundation stone was laid in 1818"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1819",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction recorded as ending in 1819 (source says built 1818–1819)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#1",
+     "role": "both",
+     "quote": "St Lukes Church was built in 1818–1819"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e3",
+   "date": "1819-10-18",
+   "grain": "day",
+   "track": "other",
+   "label": "first_service",
+   "text": "First service held; Robert Cartwright was first minister",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#2",
+     "role": "both",
+     "quote": "the first service was held on St . Lukes Day , 18 October 1819"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1820",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction recorded as ending in 1820 (source says built 1818 to 1820)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#0",
+     "role": "both",
+     "quote": "built from 1818 to 1820 by James Smith"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "date": "1820-12",
+   "grain": "month",
+   "track": "other",
+   "label": "visit",
+   "text": "Governor Macquarie attended a service",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#2",
+     "role": "both",
+     "quote": "Governor Macquarie attended a service in December 1820"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "1824",
+   "grain": "year",
+   "track": "work",
+   "text": "Church interior completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#7",
+     "role": "both",
+     "quote": "The interior was completed in 1824"
+    }
+   ]
+  },
+  {
+   "date": "1840",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Rectory replaced",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#1",
+     "role": "both",
+     "quote": "A rectory was built about the same time but was replaced in 1840"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1847",
+   "grain": "year",
+   "track": "role",
+   "text": "James Walker left Parramatta and became rector of St Lukes, Liverpool",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#6",
+     "role": "both",
+     "quote": "He left in 1847 to become the rector of St . Lukes at Liverpool"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1857",
+   "grain": "year",
+   "track": "work",
+   "text": "Chancel added to church",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#7",
+     "role": "both",
+     "quote": "The chancel was added in 1857"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1860",
+   "grain": "year",
+   "track": "work",
+   "text": "North porch enclosed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#7",
+     "role": "both",
+     "quote": "the porch on the north side , formerly supported by four timber columns , was enclosed in 1860"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1923",
+   "grain": "year",
+   "track": "work",
+   "text": "Portico replaced by a replica of Greenway's original portico",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#7",
+     "role": "description",
+     "quote": "but this , in turn , was replaced by a replica of the original portico"
+    },
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#8",
+     "role": "date",
+     "quote": "in 1923"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "consecration_oversight",
+   "text": "Oversight noticed at consecration centenary; church not consecrated in 1856",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#9",
+     "role": "both",
+     "quote": "An oversight was noticed during the 1956 centenary of consecration"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1975",
+   "grain": "year",
+   "track": "work",
+   "text": "Major restoration began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#9",
+     "role": "both",
+     "quote": "The church was subject to a major restoration between 1975 and 1978"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Major restoration ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#9",
+     "role": "both",
+     "quote": "The church was subject to a major restoration between 1975 and 1978"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1999-04-02",
+   "grain": "day",
+   "track": "other",
+   "label": "heritage_listing",
+   "text": "Added to NSW State Heritage Register",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#0",
+     "role": "both",
+     "quote": "It was added to the New South Wales State Heritage Register on 2 April 1999"
+    },
+    {
+     "chunk_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool#17",
+     "role": "both",
+     "quote": "was listed on the New South Wales State Heritage Register on 2 April 1999"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "James Smith took over construction from original builder Nathaniel Lucas at an early stage (date not stated)",
+  "Original portico replaced by a brick porch, 1870s",
+  "Vestries added, 1890s",
+  "Gallery added at unknown date, later removed",
+  "Building fully completed, early 1820s",
+  "Thwaites & Reed clock gifted by King George III (chunk 10) or George IV (chunk 14); date not stated"
+ ]
+}

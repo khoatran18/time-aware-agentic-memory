@@ -1,0 +1,177 @@
+{
+ "page_id": "Entropa",
+ "events": [
+  {
+   "id": "e1",
+   "date": "2009-01-05",
+   "grain": "day",
+   "track": "work",
+   "text": "Sculpture installed in presence of artist and crew, 5 to 11 January.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#8",
+     "role": "both",
+     "quote": "The sculpture was installed between 5 and 11 January 2009"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2009-01-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Sculpture informally unveiled.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#2",
+     "role": "both",
+     "quote": "The sculpture was unveiled informally on 12 January 2009"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2009-01-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Cerny admits he and two friends made the piece; artist identities fabricated.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#34",
+     "role": "both",
+     "quote": "On the evening of 13 January 2009 , Černý officially admitted that the piece was actually created entirely by him"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2009-01-14",
+   "grain": "day",
+   "track": "other",
+   "label": "presentation withdrawn",
+   "text": "Official Entropa presentation page withdrawn from Czech presidency website.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#47",
+     "role": "both",
+     "quote": "On 14 January 2009 , the official Entropa presentation page was withdrawn"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2009-01-15",
+   "grain": "day",
+   "track": "work",
+   "text": "Sculpture ceremonially launched despite authorship controversy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#47",
+     "role": "both",
+     "quote": "the sculpture was ceremonially launched on 15 January 2009"
+    },
+    {
+     "chunk_id": "/wiki/Entropa#2",
+     "role": "description",
+     "quote": "followed by its official media launch date three days later"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2009-01-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Bulgarian depiction covered with black fabric.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#24",
+     "role": "date",
+     "quote": "fabric on 20 January 2009"
+    },
+    {
+     "chunk_id": "/wiki/Entropa#23",
+     "role": "description",
+     "quote": "the Bulgarian depiction was covered with black"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2009-05-11",
+   "grain": "day",
+   "track": "location",
+   "text": "Removal of the sculpture from Justus Lipsius building begins.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#50",
+     "role": "both",
+     "quote": "The removal of the sculpture began on 11 May"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2009-05-14",
+   "grain": "day",
+   "track": "location",
+   "text": "Parts loaded into three trucks and transported to Prague.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#50",
+     "role": "both",
+     "quote": "on Thursday , 14 May loaded its parts into three trucks"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2009-06-11",
+   "grain": "day",
+   "track": "location",
+   "text": "Sculpture set up again and inaugurated at DOX centre, Prague.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#51",
+     "role": "both",
+     "quote": "The sculpture was set up again in the Centre of Contemporary Art DOX in Prague-Holešovice and inaugurated on 11 June 2009"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2010-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Begins exhibit at Techmania Science Center, Plzeň.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#2",
+     "role": "both",
+     "quote": "Between September 2010 and March 2012 , the sculpture was on exhibit at the Techmania Science Center in Plzeň"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2012-03",
+   "grain": "month",
+   "track": "location",
+   "text": "Exhibit at Techmania Science Center, Plzeň ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Entropa#2",
+     "role": "both",
+     "quote": "Between September 2010 and March 2012 , the sculpture was on exhibit at the Techmania Science Center in Plzeň"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Commissioned by the Czech Republic to mark its Council of the EU presidency (no date)",
+  "Originally displayed in the Justus Lipsius building, Brussels (no date)",
+  "Displayed at Techmania Science Center, Plzeň, as part of an EU exhibition (no date)"
+ ]
+}

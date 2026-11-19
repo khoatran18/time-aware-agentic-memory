@@ -1,0 +1,246 @@
+{
+ "page_id": "Frans_Hals_Museum",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1648",
+   "grain": "year",
+   "track": "other",
+   "label": "collection acquisition",
+   "text": "City council formally seized all Roman Catholic art, forming part of the collection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#8",
+     "role": "both",
+     "quote": "all Roman Catholic art was formally seized by the city council in 1648"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1754",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Society began renting a city hall room and furnishing it as a cabinet of curiosities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#9",
+     "role": "both",
+     "quote": "started to rent the Prinsenhof room of the city hall in 1754"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1768",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Society hired a man as curator, responsible for the whole collection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#10",
+     "role": "both",
+     "quote": "and in 1768 they hired a man as curator"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1777",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Society moved its collection to a renovated house on Grote Houtstraat.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#11",
+     "role": "both",
+     "quote": "In 1777 the Society moved its overflowing collection to a renovated house on the Grote Houtstraat"
+    },
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#13",
+     "role": "description",
+     "quote": "This move essentially split the collection"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1794",
+   "grain": "year",
+   "track": "other",
+   "label": "collection acquisition",
+   "text": "Napoleon disbanded the guilds; their large paintings, including Hals works, joined the collection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#13",
+     "role": "description",
+     "quote": "the next large group of paintings to join"
+    },
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#14",
+     "role": "both",
+     "quote": "the collection occurred when Napoleon disbanded the guilds in the Netherlands in 1794"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1862",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Museum was established in the former Dominican church cloisters, Haarlem.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#0",
+     "role": "both",
+     "quote": "The museum was established in 1862"
+    },
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#1",
+     "role": "both",
+     "quote": "The museum was founded in 1862 in the newly renovated former Dominican church cloisters"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1872",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "A work was sold from the municipal museum to a Brussels museum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#17",
+     "role": "both",
+     "quote": "made no effort to stop the sale of a to the Brussels museum in 1872"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1913",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Museum moved to the former town orphanage complex on Groot Heiligland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#1",
+     "role": "both",
+     "quote": "it moved to the recently vacated location of the town orphanage in 1913"
+    },
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#18",
+     "role": "both",
+     "quote": "that was transferred to the Groot Heiligland in 1913"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1913",
+   "grain": "year",
+   "track": "naming",
+   "label": "",
+   "text": "Museum took on the name of Frans Hals after moving to its present location.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#21",
+     "role": "both",
+     "quote": "after the move to the present location in 1913 , the museum took on the name of Frans Hals"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1950",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Museum split into two locations; modern art moved to Museum De Hallen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#0",
+     "role": "both",
+     "quote": "In 1950 , the museum was split in two locations"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1962",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Several paintings, including 1627 and 1630 militia group portraits, were formally given to the museum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#18",
+     "role": "both",
+     "quote": "A few of these were formally given to the museum in 1962"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1962",
+   "grain": "year",
+   "track": "other",
+   "label": "anniversary",
+   "text": "Museum celebrated its 100th anniversary as a municipal collection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#18",
+     "role": "both",
+     "quote": "In 1962 when the museum celebrated its 100th anniversary as a municipal"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2013",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Museum marked its 100th anniversary on Groot Heiligland with a Frans Hals exhibition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#19",
+     "role": "both",
+     "quote": "The museum celebrated its 100th anniversary on the Groot Heiligland in 2013"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2018",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Museum re-merged with Museum De Hallen into one museum with two locations.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Frans_Hals_Museum#2",
+     "role": "both",
+     "quote": "In 2018 the museum re-merged with Museum De Hallen to form a single museum called the Frans Hals Museum"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "1580s: over 100 artworks seized from Catholic churches entered the collection",
+  "mid-19th century: museum opened to the public via a separate entrance, back cloisters given an extra floor",
+  "late 19th century: museum became a pilgrimage site for young Impressionists",
+  "French occupation (no year): art collections of two institutions merged",
+  "Martin van Marum appointed curator of the Society (around 1777, no exact date)",
+  "early 20th century: military guild group portraits were cleaned",
+  "collection split into modern and classical sections (no exact date, before 1962)",
+  "1752: Dutch Society of Science founded (context, not a museum event)"
+ ]
+}

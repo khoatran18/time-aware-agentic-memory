@@ -1,0 +1,175 @@
+{
+  "page_id": "Esther_Ayuso",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1958-11",
+      "grain": "month",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Caracas, Venezuela.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#0", "role": "both", "quote": "born November 1958"},
+        {"chunk_id": "/wiki/Esther_Ayuso#2", "role": "description", "quote": "Esther Josefina Ayuso was born in Caracas , Venezuela"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1958-11",
+      "grain": "month",
+      "track": "location",
+      "text": "Family returned to Belize City shortly after her birth.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#0", "role": "date", "quote": "born November 1958"},
+        {"chunk_id": "/wiki/Esther_Ayuso#2", "role": "description", "quote": "Shortly after her birth , the family returned to Belize City in British Honduras"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e3",
+      "date": "1975",
+      "grain": "year",
+      "track": "education",
+      "text": "Graduated from St. Catherine's Academy High School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#2", "role": "both", "quote": "graduating in 1975"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1975",
+      "grain": "year",
+      "track": "location",
+      "text": "Travelled to Caracas to pursue architecture studies.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#2", "role": "date", "quote": "graduating in 1975"},
+        {"chunk_id": "/wiki/Esther_Ayuso#2", "role": "description", "quote": "That same year she travelled to Caracas with the aim of becoming an architect"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1983",
+      "grain": "year",
+      "track": "education",
+      "text": "Graduated with a technological architectural degree from UCV.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#3", "role": "both", "quote": "In 1983 she graduated with a technological architectural degree"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1983",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned to Venezuela after failing to find work in Belize.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#3", "role": "both", "quote": "returned to Venezuela in 1983"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1995",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left Professional Engineering Services as an architectural associate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#4", "role": "both", "quote": "where she remained until 1995 when she and her husband opened their private architectural practice"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1995",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Couple opened private architectural practice Arcade Ltd.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#4", "role": "both", "quote": "where she remained until 1995 when she and her husband opened their private architectural practice"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2000",
+      "grain": "year",
+      "track": "other",
+      "label": "hurricane_damage",
+      "text": "Arcade Ltd suffered hurricane damage; couple shifted to consultation work.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#5", "role": "both", "quote": "During Hurricane Keith in 2000 , Arcade Ltd . suffered severe damages"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2006",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Senator by Prime Minister Dean Barrow.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#6", "role": "both", "quote": "In 2006 , Ayuso was appointed by Prime Minister Dean Barrow to serve as a Senator"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2008",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed chair of the newly organized National Womens Commission.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#6", "role": "both", "quote": "In 2008 , after serving two years on the Senate , Ayuso was appointed chair of the newly organized National Womens Commission"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2008",
+      "grain": "year",
+      "track": "role",
+      "text": "Appointed Belize delegate to the Inter-American Commission of Women.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#6", "role": "date", "quote": "In 2008 , after serving two years on the Senate"},
+        {"chunk_id": "/wiki/Esther_Ayuso#6", "role": "description", "quote": "That same year she was also appointed to serve as Belizes delegate to the Inter-American Commission of Women"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e13",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Founding member of the Belize City Local Building Authority.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#8", "role": "both", "quote": "Ayuso was one of the founding members of the Belize City Local Building Authority that was organized in 2009"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2011",
+      "grain": "year",
+      "track": "work",
+      "text": "Ground broken for PICU at Karl Heusner Memorial Hospital, designed by her.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#8", "role": "both", "quote": "In 2011 , ground was broken for a Pediatric intensive care unit at Karl Heusner Memorial Hospital"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2015",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Appointed Officer of the Order of the British Empire.",
+      "evidence": [
+        {"chunk_id": "/wiki/Esther_Ayuso#0", "role": "both", "quote": "In 2015 she was awarded the Most Excellent Order of the"},
+        {"chunk_id": "/wiki/Esther_Ayuso#9", "role": "both", "quote": "In 2015 Ayuso was appointed an Officer of The Order of the British Empire"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Married a fellow architect in Caracas (no date given)",
+    "Started as architectural associate at Professional Engineering Services (no date given)",
+    "Returned to Belize after the 1992 coup attempts in Venezuela (no exact date)",
+    "Expanded Belize Medical Associates from a small clinic into a hospital (no date given)",
+    "Remodelled Cleopatra White and Matron Robert polyclinics (no date given)",
+    "Worked on Hoy Eye Clinic and several Atlantic Bank Ltd branches (no date given)"
+  ]
+}

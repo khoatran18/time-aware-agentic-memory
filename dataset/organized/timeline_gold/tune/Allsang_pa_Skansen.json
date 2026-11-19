@@ -1,0 +1,305 @@
+{
+ "page_id": "Allsång_på_Skansen",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1935",
+   "grain": "year",
+   "track": "work",
+   "text": "The show started on a small scale, about 50 in audience.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#0",
+     "role": "both",
+     "quote": "The show started in 1935 on a small scale"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1935",
+   "grain": "year",
+   "track": "role",
+   "text": "Sven Lilja began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1935–1950 : Sven Lilja"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Sven Lilja ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1935–1950 : Sven Lilja"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1956",
+   "grain": "year",
+   "track": "role",
+   "text": "Egon Kjerrman began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1956–1966 : Egon Kjerrman"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Egon Kjerrman ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1956–1966 : Egon Kjerrman"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Bosse Larsson began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1974–1993 : Bosse Larsson"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1979-08-03",
+   "grain": "day",
+   "track": "work",
+   "text": "Show began being broadcast by Sveriges Television.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#1",
+     "role": "both",
+     "quote": "Since 3 August 1979 the show has been broadcast by Sveriges Television"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1993",
+   "grain": "year",
+   "track": "role",
+   "text": "Bosse Larsson ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1974–1993 : Bosse Larsson"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Lasse Berghagen began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1994–2003 : Lasse Berghagen"
+    },
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#1",
+     "role": "description",
+     "quote": "When Lasse Berghagen took over as host"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "First SVT programme broadcast with 5.1 multichannel sound.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#1",
+     "role": "both",
+     "quote": "In 2003 , Allsång på Skansen was the first SVT programme that was broadcast with 5.1 multichannel sound"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Lasse Berghagen ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "1994–2003 : Lasse Berghagen"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Anders Lundin also hosted in 2003 (list note)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2004–2010 : Anders Lundin ( also 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Anders Lundin began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2004–2010 : Anders Lundin ( also 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "One of the first Swedish live programmes broadcast in HD.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#1",
+     "role": "both",
+     "quote": "In 2007 , it became one of the first Swedish live programmes broadcast in high-definition television"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Anders Lundin ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2004–2010 : Anders Lundin ( also 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Måns Zelmerlöw began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2011–2013 : Måns Zelmerlöw"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Måns Zelmerlöw ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2011–2013 : Måns Zelmerlöw"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Petra Marklund began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2014–2015 : Petra Marklund"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Petra Marklund ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2014–2015 : Petra Marklund"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2016",
+   "grain": "year",
+   "track": "role",
+   "text": "Sanna Nielsen began as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2016–2020 : Sanna Nielsen"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2020",
+   "grain": "year",
+   "track": "role",
+   "text": "Sanna Nielsen ended as host.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Allsång_på_Skansen#3",
+     "role": "both",
+     "quote": "2016–2020 : Sanna Nielsen"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

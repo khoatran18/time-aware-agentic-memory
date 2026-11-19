@@ -1,0 +1,284 @@
+{
+ "page_id": "/wiki/Eleni_Theocharous",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1953-06-24",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Amiantos, Cyprus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#0",
+     "role": "both",
+     "quote": "Theocharous was born in Amiantos on 24 June 1953"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Published first poetry collection 'Poetic Act and Political Co-Act'.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#7",
+     "role": "both",
+     "quote": "“Poetic Act and Political Co-Act” ( 1991 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1991",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received First State Prize for Poetry for first collection.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#7",
+     "role": "both",
+     "quote": "“Poetic Act and Political Co-Act” ( 1991 ) earned her the award of the First State Prize for Poetry"
+    },
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#10",
+     "role": "both",
+     "quote": "She has received the First State Award for Poetry twice ( 1991 and 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1992-09",
+   "grain": "month",
+   "track": "other",
+   "label": "festival",
+   "text": "Represented Cyprus at 18th World Biennial of Poetry in Liège, Belgium.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#8",
+     "role": "both",
+     "quote": "In September 1992 she represented Cyprus at the 18th World Biennial of Poetry in Liège"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Published second poetry collection 'Proxenos Thanatos Angele Mou'.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#7",
+     "role": "both",
+     "quote": "In 1995 , she published her second collection of poems"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Published third poetry collection 'Oi Megaloi Tritoi'.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#9",
+     "role": "both",
+     "quote": "In 1999 she published her third collection of poems"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded First State Prize for Poetry a second time, for 'Oi Megaloi Tritoi'.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#9",
+     "role": "both",
+     "quote": "In 1999 she published her third collection of poems"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e8",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received First State Award for Poetry a second time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#10",
+     "role": "both",
+     "quote": "She has received the First State Award for Poetry twice ( 1991 and 2000 )"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e9",
+   "date": "2001-05-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Elected DISY member of Cyprus House of Representatives for Limassol.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#1",
+     "role": "both",
+     "quote": "At the parliamentary elections of 27 May 2001 she was elected Member of the House of Representatives"
+    },
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#0",
+     "role": "both",
+     "quote": "Between 2001 and 2009 , Theocharous was a member House of Representatives of Cyprus for the Limassol constituency"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed by the House as observer to the European Parliament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#3",
+     "role": "both",
+     "quote": "In 2003 she was appointed by the House as observer to the European Parliament"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2006-05-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Re-elected Member of Cyprus House of Representatives for Limassol.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#1",
+     "role": "both",
+     "quote": "was re-elected at the parliamentary elections of 21 May 2006"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "Membership of Cyprus House of Representatives ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#0",
+     "role": "both",
+     "quote": "Between 2001 and 2009 , Theocharous was a member House of Representatives of Cyprus for the Limassol constituency"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected Member of the European Parliament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#0",
+     "role": "both",
+     "quote": "She was elected to the European Parliament in 2009"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2014",
+   "grain": "year",
+   "track": "role",
+   "text": "Re-elected Member of the European Parliament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#0",
+     "role": "both",
+     "quote": "re-elected in 2014 and served until 2019"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2016",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Launched splinter party Solidarity Movement, opposing Anastasiades' Cyprus approach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#4",
+     "role": "both",
+     "quote": "Mere months before the 2016 legislative election , Theocharous launched a splinter party"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e16",
+   "date": "2016-03-11",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "EVROKO announced it would merge into Solidarity Movement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#4",
+     "role": "both",
+     "quote": "On 11 March 2016 , it was announced that EVROKO would merge into the new party"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2019-05-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Lost her seat as MEP in the 2019 European Parliament election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#4",
+     "role": "date",
+     "quote": "On 26 May 2019 ,"
+    },
+    {
+     "chunk_id": "/wiki/Eleni_Theocharous#5",
+     "role": "both",
+     "quote": "Theocharous lost her seat as MEP in the 2019 European Parliament election"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Deputy chairwoman of House Standing Committees on Foreign Affairs and on Health Affairs",
+  "Member of House delegation to the Commonwealth Parliamentary Association",
+  "Member of the High Directorate of Médecins du Monde",
+  "Director of medical, environmental and provisionary projects, International Aid Fund, Brussels",
+  "Honorary president of Médecins du Monde - Cyprus",
+  "Member of UN Permanent Committee for Promotion of Co-operation between Palestinian and Israeli Doctors",
+  "Member of Executive Committee, International Union of Parliamentarians for the Defence of the Palestinian Cause",
+  "Third collection of short stories «Tempelokalokairo»",
+  "Fourth collection of poems «Ellinosyron Magon»",
+  "Gold Medal of Honour of Nagorno-Karabakh",
+  "Gold Medal of the Democritus University of Thrace",
+  "All Balkan Award of the Vardinoyiannis Foundation",
+  "Honorary doctorate, University of Minsk",
+  "Honorary doctorate, University of Syktyvkar",
+  "Margarette Golding award, Lions International",
+  "Paul Harris Fellow title, Rotary International"
+ ]
+}

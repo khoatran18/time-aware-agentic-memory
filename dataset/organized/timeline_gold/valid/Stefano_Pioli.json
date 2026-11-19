@@ -1,0 +1,465 @@
+{
+ "page_id": "Stefano_Pioli",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1965-10-20",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Italy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#0",
+     "role": "both",
+     "quote": "born 20 October 1965"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1984",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Made Serie A debut for Juventus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#1",
+     "role": "both",
+     "quote": "with whom he made his Serie A debut in 1984"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won Intercontinental Cup with Juventus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#20",
+     "role": "both",
+     "quote": "Intercontinental Cup : 1985"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Sold to Hellas Verona.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#1",
+     "role": "both",
+     "quote": "After being sold to Hellas Verona in 1987"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1989",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Fiorentina.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#1",
+     "role": "both",
+     "quote": "Pioli moved to Fiorentina in 1989"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "text": "Began coaching Bologna youth team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#4",
+     "role": "both",
+     "quote": "From 1999 to 2002 Pioli coached Bolognas youth team"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended playing career with Colorno.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#2",
+     "role": "both",
+     "quote": "he ended his career in 1999 with Colorno"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2002",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended Bologna youth coaching.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#4",
+     "role": "both",
+     "quote": "From 1999 to 2002 Pioli coached Bolognas youth team"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2004",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Modena (Serie B).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#4",
+     "role": "both",
+     "quote": "He moved to Modena , still of Serie B , in 2004"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "Named Parma head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#5",
+     "role": "both",
+     "quote": "In 2006 , Pioli was named as Parmas head coach"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2007-02-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Parma head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#5",
+     "role": "both",
+     "quote": "he was sacked on 12 February 2007"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2007-09-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Unveiled as Grosseto head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#6",
+     "role": "both",
+     "quote": "On 11 September 2007 , Pioli was unveiled as new head coach of Serie B club Grosseto"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2009-07",
+   "grain": "month",
+   "track": "role",
+   "text": "Left Piacenza as head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#6",
+     "role": "both",
+     "quote": "In July 2009 , he left Piacenza to join Sassuolo as new head coach of the neroverdi"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2009-07",
+   "grain": "month",
+   "track": "role",
+   "text": "Joined Sassuolo as head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#6",
+     "role": "both",
+     "quote": "In July 2009 , he left Piacenza to join Sassuolo as new head coach of the neroverdi"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2010-06-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Chievo head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#7",
+     "role": "both",
+     "quote": "On 10 June 2010 , Pioli was named head coach of Serie A club Chievo"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2011-06-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Palermo head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#8",
+     "role": "both",
+     "quote": "On 2 June 2011 , Pioli was named head coach of Serie A club Palermo"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2011-08-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Relieved of Palermo duties, 90 days after appointment.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#8",
+     "role": "both",
+     "quote": "but he was relieved of his duties just 90 days later"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2011-10-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Bologna head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#9",
+     "role": "both",
+     "quote": "On 4 October 2011 , Pioli was named new head coach of Bologna"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2014-01-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Removed as Bologna head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#9",
+     "role": "both",
+     "quote": "he was removed from his managerial duties on 8 January 2014"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2014-06-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Lazio head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#10",
+     "role": "both",
+     "quote": "On 12 June 2014 , it was confirmed Piolis appointment as new head coach of Lazio"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2015-06-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Offered new two-year contract with option year at Lazio.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#10",
+     "role": "both",
+     "quote": "On 11 June 2015 , he was offered a new 2-year contract"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2016-04-03",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Lazio head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#10",
+     "role": "both",
+     "quote": "On 3 April 2016 , Pioli was sacked after a 4–1 home defeat to city rivals Roma"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2016-11-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Inter head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#11",
+     "role": "both",
+     "quote": "On 8 November 2016 , Pioli was appointed as the new head coach of Internazionale"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2016-11-20",
+   "grain": "day",
+   "track": "other",
+   "label": "first match",
+   "text": "First competitive match as Inter head coach, a 2–2 draw with Milan.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#11",
+     "role": "both",
+     "quote": "On 20 November , Inter drew 2–2 against Milan"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2017-05-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Sacked as Inter head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#11",
+     "role": "both",
+     "quote": "He was sacked on 9 May 2017"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2017-06-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Named Fiorentina head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#13",
+     "role": "both",
+     "quote": "On 6 June 2017 , Pioli was named new head coach of Fiorentina"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2019-04-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Resigned as Fiorentina manager.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#13",
+     "role": "both",
+     "quote": "On 9 April 2019 , Pioli resigned as manager"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2019-10-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Milan head coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#14",
+     "role": "both",
+     "quote": "On 9 October 2019 , Pioli was appointed as the new coach of Milan"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2020-07-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Agreed two-year contract extension with Milan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#14",
+     "role": "both",
+     "quote": "On 21 July 2020 , Pioli reached an agreement with Milan for a two-year deal extension"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2020-11-14",
+   "grain": "day",
+   "track": "other",
+   "label": "health",
+   "text": "Tested positive for COVID-19.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#19",
+     "role": "both",
+     "quote": "On 14 November 2020 , Pioli , alongside his assistant Giacomo Murelli , tested positive for COVID-19"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2021-05-23",
+   "grain": "day",
+   "track": "other",
+   "label": "qualification",
+   "text": "Secured Champions League return for Milan, first time in seven seasons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Stefano_Pioli#14",
+     "role": "both",
+     "quote": "On 23 May 2021 , he secured a return to the Champions League for Milan"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Playing career began at Parma (no date stated)",
+  "Signed by Juventus (no date stated)",
+  "Juventus honours during his three seasons: league title, European Cup, European Super Cup, Intercontinental Cup (seasons not stated)",
+  "Serie C spells with Pistoiese and Fiorenzuola (seasons not stated)",
+  "Two seasons with Padova (no date stated)",
+  "Left Fiorentina after six years (year not stated)",
+  "Honour: Serie C1 1983–84 with Parma",
+  "Honour: Serie A 1985–86 with Juventus",
+  "Honour: European Cup 1984–85 with Juventus",
+  "Honour: Serie B 1993–94 with Fiorentina",
+  "Youth championship with Bologna Allievi Under-17 National Championship 2000–01",
+  "Winning a championship with Allievi Nazionalis youth team (no date stated)",
+  "Coached Chievo in 2002–03 season",
+  "Appointed head coach of Salernitana in 2003–04 season",
+  "Grosseto mid-table finish in first Serie B season (season result)",
+  "Head coach of Piacenza for 2008–09 Serie B season",
+  "Lazio third-place Serie A finish in first season (2014–15 season result)"
+ ]
+}

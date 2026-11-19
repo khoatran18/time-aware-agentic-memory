@@ -1,0 +1,109 @@
+{
+  "page_id": "/wiki/Emirate_of_Diriyah",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1744",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Emirate established after Abd al-Wahhab and Muhammad bin Saud form an alliance",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#0", "role": "both", "quote": "was established in the year 1744"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1744",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Abd al-Wahhab and Saud take an oath to achieve their goal",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#0", "role": "both", "quote": "In 1744 , both Abd al-Wahhab and Saud took an oath to achieve their goal"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1744",
+      "grain": "year",
+      "track": "role",
+      "text": "Muhammad bin Saud begins his rule as emir",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#7", "role": "both", "quote": "Emir Muhammad bin Saud 1744–1765"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1765",
+      "grain": "year",
+      "track": "role",
+      "text": "Muhammad bin Saud dies; leadership passes to Abdulaziz bin Muhammad",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#1", "role": "both", "quote": "died in 1765 , leaving the leadership to his son , Abdul-Aziz bin Muhammad"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1801",
+      "grain": "year",
+      "track": "other",
+      "label": "military campaign",
+      "text": "Emirate forces take Karbala, destroying the shrine and killing civilians",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#2", "role": "both", "quote": "as to gain command of the Shia holy city of Karbala in 1801"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1803",
+      "grain": "year",
+      "track": "role",
+      "text": "Emir Abdulaziz assassinated; Saud bin Abdulaziz succeeds as emir",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#2", "role": "both", "quote": "Abdulaziz was assassinated by a young Shia in 1803"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1803",
+      "grain": "year",
+      "track": "other",
+      "label": "military campaign",
+      "text": "Saud's forces sent to bring Hejaz under rule; Taif captured first",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#3", "role": "both", "quote": "In 1803 , eleven years after Wahhabs death , the son of Abdulaziz bin Muhammad"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1814",
+      "grain": "year",
+      "track": "role",
+      "text": "Saud bin Abdulaziz's reign ends; Abdullah bin Saud succeeds as emir",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#7", "role": "both", "quote": "Emir Saud bin Abdulaziz 1803–1814"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1818",
+      "grain": "year",
+      "track": "other",
+      "label": "surrender",
+      "text": "Diriyah surrenders to Ibrahim Pasha after a siege, ending the First Saudi State",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Emirate_of_Diriyah#5", "role": "both", "quote": "until it surrendered in the winter of 1818"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Ottoman–Saudi War begins after Muhammad Ali sends troops to Hejaz by sea",
+    "Saud forces bring the Asir highlands under their suzerainty",
+    "Ibrahim Pasha captures Nejd towns one after another",
+    "Capture of Mecca and Medina after Taif",
+    "Ibrahim ships Al Saud and Wahhabi clan members to Egypt and Istanbul",
+    "Abdullah bin Saud executed in Istanbul"
+  ]
+}

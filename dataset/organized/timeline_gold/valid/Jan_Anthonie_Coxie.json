@@ -1,0 +1,154 @@
+{
+  "page_id": "Jan_Anthonie_Coxie",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1660",
+      "grain": "year",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Mechelen, Flanders, c. 1660.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#0", "role": "both", "quote": "Jan Anthonie Coxie or Anthonie Coxie ( c . 1660 - 1720 )"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "1691",
+      "grain": "year",
+      "track": "other",
+      "label": "career",
+      "text": "Began his career in Mechelen, around 1691.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#3", "role": "both", "quote": "Jan Anthonie commenced his career in Mechelen around the year 1691"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "1691",
+      "grain": "year",
+      "track": "work",
+      "text": "Commissioned by Mechelen to paint portrait of Charles II of Spain.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#3", "role": "both", "quote": "That year he was commissioned by the city of Mechelen to make a portrait of Charles II of Spain"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1693",
+      "grain": "year",
+      "track": "work",
+      "text": "Painted Group Portrait of the FaydHerbe Family in an Architectural Setting.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#9", "role": "both", "quote": "Group Portrait of the FaydHerbe Family in an Architectural Setting ( in a private collection ) of 1693"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1698",
+      "grain": "year",
+      "track": "work",
+      "text": "Painted the figures in a landscape by Jacques d'Arthois for St. James Church, Bruges.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#3", "role": "both", "quote": "In 1698 he painted the figures in a landscape made by Jacques dArthois for the St . James Church in Bruges"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1699",
+      "grain": "year",
+      "track": "location",
+      "text": "Recorded as living and working in Amsterdam from 1699.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#4", "role": "both", "quote": "From 1699 onwards he is recorded in Amsterdam"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1703",
+      "grain": "year",
+      "track": "other",
+      "label": "citizenship",
+      "text": "Became poorter (citizen) of Amsterdam.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#4", "role": "both", "quote": "In 1703 he became poorter of Amsterdam"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1705",
+      "grain": "year",
+      "track": "location",
+      "text": "Left Amsterdam.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#6", "role": "both", "quote": "he left Amsterdam and is recorded in Berlin from 1705 to 1708"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1705",
+      "grain": "year",
+      "track": "location",
+      "text": "Recorded in Berlin from 1705, serving Frederick I of Prussia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#6", "role": "both", "quote": "he left Amsterdam and is recorded in Berlin from 1705 to 1708"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1708",
+      "grain": "year",
+      "track": "location",
+      "text": "Recorded presence in Berlin ends.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#6", "role": "both", "quote": "is recorded in Berlin from 1705 to 1708"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1713",
+      "grain": "year",
+      "track": "location",
+      "text": "Left Berlin for Mainz, where he worked for the court.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#7", "role": "both", "quote": "After the death of his patron , Coxie left Berlin for Mainz in 1713"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1713",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved from Mainz to Milan.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#7", "role": "both", "quote": "He did not stay in Mainz for long but moved around 1713 to Milan"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e13",
+      "date": "1720",
+      "grain": "year",
+      "track": "other",
+      "label": "death",
+      "text": "Died, probably in Milan.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jan_Anthonie_Coxie#7", "role": "both", "quote": "until his death , probably in Milan , in 1720"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Studied with his father Jan Coxie and with Charles Emmanuel Biset (education)",
+    "Born in Mechelen, some time between 1650 and 1670 (exact year unknown)",
+    "Became court painter of Frederick I of Prussia in Berlin",
+    "Decorated ceilings of Charlottenburg Palace and Berlin Palace for Frederick I",
+    "Painted walls and altarpiece in the Chapel at Charlottenburg Palace",
+    "Porcelain room ceiling frescos for Charlottenburg Palace (Berlin period)",
+    "Worked for the court in Mainz",
+    "Wybrand de Geest became his pupil",
+    "Amsterdam-period portraits of Nicolaas van der Meer and Antoni de Mestral"
+  ]
+}

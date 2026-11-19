@@ -1,0 +1,163 @@
+{
+  "page_id": "/wiki/British_Vogue",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1916",
+      "grain": "year",
+      "track": "work",
+      "text": "Magazine first published in London, autumn 1916.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#0", "role": "both", "quote": "published based in London since autumn 1916"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "1922",
+      "grain": "year",
+      "track": "role",
+      "text": "Elspeth Champcommunal ended her term as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#4", "role": "both", "quote": "Champcommunal held her editorial position until 1922"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1926",
+      "grain": "year",
+      "track": "role",
+      "text": "Alison Settle appointed as third editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#6", "role": "both", "quote": "its third editor , Alison Settle , was appointed in 1926"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1940",
+      "grain": "year",
+      "track": "role",
+      "text": "Audrey Withers began her term as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#7", "role": "both", "quote": "Audrey Withers ( editor from 1940 to 1960 )"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1944",
+      "grain": "year",
+      "track": "work",
+      "text": "Lee Miller sent to Normandy for wartime nursing article.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#7", "role": "both", "quote": "In 1944 , the American photographer Lee Miller persuaded Withers to send her to Normandy"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1960",
+      "grain": "year",
+      "track": "role",
+      "text": "Audrey Withers ended her term as editor.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#7", "role": "both", "quote": "Audrey Withers ( editor from 1940 to 1960 )"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1985",
+      "grain": "year",
+      "track": "role",
+      "text": "Anna Wintour began editing the British edition.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#7", "role": "both", "quote": "Dame Anna Wintour edited the British edition from 1985 to 1987"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1987",
+      "grain": "year",
+      "track": "role",
+      "text": "Anna Wintour finished editing the British edition.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#7", "role": "both", "quote": "Dame Anna Wintour edited the British edition from 1985 to 1987"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1992",
+      "grain": "year",
+      "track": "role",
+      "text": "Alexandra Shulman became Editor-in-Chief.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#8", "role": "both", "quote": "Alexandra Shulman was Editor-in-Chief of the magazine from 1992 to 2017"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2016",
+      "grain": "year",
+      "track": "work",
+      "text": "Shulman collaborated with Josh Olins on Catherine's centenary cover.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#8", "role": "date", "quote": "In 2016 , Shulman collaborated with"},
+        {"chunk_id": "/wiki/British_Vogue#9", "role": "description", "quote": "photographer Josh Olins to shoot Catherine , Duchess of Cambridge on the cover of Vogues centenary issue"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2017",
+      "grain": "year",
+      "track": "role",
+      "text": "Alexandra Shulman ended her term as Editor-in-Chief.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#8", "role": "both", "quote": "Alexandra Shulman was Editor-in-Chief of the magazine from 1992 to 2017"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2017-04-10",
+      "grain": "day",
+      "track": "role",
+      "text": "Edward Enninful confirmed as new editor-in-chief.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#10", "role": "both", "quote": "Edward Enninful was confirmed as the new editor-in-chief of British Vogue on 10 April 2017"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2017-12",
+      "grain": "month",
+      "track": "work",
+      "text": "Enninful's first issue as editor-in-chief, with Adwoa Aboah on cover.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#10", "role": "both", "quote": "Enninfuls first issue as editor-in-chief was 2017s December issue"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2019-09",
+      "grain": "month",
+      "track": "work",
+      "text": "Enninful collaborated with Meghan on the September issue.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#10", "role": "date", "quote": "In September 2019 ,"},
+        {"chunk_id": "/wiki/British_Vogue#11", "role": "description", "quote": "Enninful collaborated with Meghan , Duchess of Sussex on the September issue"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2020-09",
+      "grain": "month",
+      "track": "work",
+      "text": "September 2020 triple gatefold cover featured 20 activists.",
+      "evidence": [
+        {"chunk_id": "/wiki/British_Vogue#11", "role": "both", "quote": "The magazines September 2020 triple gatefold cover featured pictures of 20 activists"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Gold Millennium Issue featuring celebrities and supermodels such as Kate Moss (no explicit date)",
+    "Centenary cover photographs featured in National Portrait Gallery, London (no explicit date)",
+    "Magazine took part in reporting the Second World War (no explicit year)"
+  ]
+}

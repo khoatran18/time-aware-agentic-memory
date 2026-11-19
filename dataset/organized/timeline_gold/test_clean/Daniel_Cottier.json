@@ -1,0 +1,98 @@
+{
+ "page_id": "/wiki/Daniel_Cottier",
+ "events": [
+  {"id": "e1", "date": "1838", "grain": "year", "track": "other", "label": "birth",
+   "text": "Daniel Cottier born in Glasgow, son of Margaret McLean and Daniel Cottier.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "Daniel Cottier was born in 1838"}]},
+  {"id": "e2", "date": "1841", "grain": "year", "track": "location",
+   "text": "Recorded with his family in Carrick Street, Glasgow, in the census.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "In the Census of 1841 , he is recorded with his family in Carrick Street"}]},
+  {"id": "e3", "date": "1851", "grain": "year", "track": "role",
+   "text": "Working as an apprentice coach painter, living in North Woodside Road, Glasgow.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "By 1851 , he was working as an apprentice coach painter"}]},
+  {"id": "e4", "date": "1859", "grain": "year", "track": "location", "flag": "approximate_date",
+   "text": "Went to London, possibly working for stained glass makers Ward & Hughes.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#7", "role": "both", "quote": "Around 1859 he went to London"}]},
+  {"id": "e5", "date": "1861", "grain": "year", "track": "location",
+   "text": "Boarding in Francis Street, St Pancras, London.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "In 1861 , he was boarding in Francis Street , St Pancras , London"}]},
+  {"id": "e6", "date": "1861", "grain": "year", "track": "role",
+   "text": "Working as a glass designer in London.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "In 1861 , he was boarding in Francis Street , St Pancras , London , working as a glass designer"}]},
+  {"id": "e7", "date": "1862", "grain": "year", "track": "role",
+   "text": "Returned to Scotland as manager of Field & Allan, slaters, glaziers and decorators.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#9", "role": "both", "quote": "In 1862 Cottier returned to Scotland to accept an appointment as manager of Field & Allan"}]},
+  {"id": "e8", "date": "1862", "grain": "year", "track": "work", "flag": "approximate_date",
+   "text": "Oversaw glazing and decoration of Peddie and Kinnears Pilrig Parish Church, Leith.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#9", "role": "both", "quote": "oversaw the glazing and decoration of Peddie and Kinnears Pilrig Parish Church , Leith ( c . 1862–63 )"}]},
+  {"id": "e9", "date": "1864", "grain": "year", "track": "other", "label": "founding", "flag": "derived_date",
+   "text": "Opened his own business in Edinburgh, after two years managing Field & Allan.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#9", "role": "date", "quote": "In 1862 Cottier returned to Scotland to accept an appointment as manager of Field & Allan"},
+    {"chunk_id": "/wiki/Daniel_Cottier#10", "role": "description", "quote": "After managing Field & Allan for two years , Cottier felt sufficiently confident to open his own business in Edinburgh"}
+   ]},
+  {"id": "e10", "date": "1864", "grain": "year", "track": "location",
+   "text": "Art furnishing business opened branches in Edinburgh, Glasgow and London (to 1869).",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#1", "role": "both", "quote": "His art furnishing business opened branches in Edinburgh , Glasgow and London between 1864 and 1869"}]},
+  {"id": "e11", "date": "1866-06-15", "grain": "day", "track": "family",
+   "text": "Married Marion Millar Field in Edinburgh.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#3", "role": "both", "quote": "In 1866 , he married Marion Millar Field"},
+    {"chunk_id": "/wiki/Daniel_Cottier#11", "role": "both", "quote": "married Marion , the late William Fields daughter , in Edinburgh on 15 June 1866"}
+   ]},
+  {"id": "e12", "date": "1867", "grain": "year", "track": "other", "label": "award",
+   "text": "Armorial window received a prize at the Paris International Exhibition.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#12", "role": "both", "quote": "At the 1867 Paris International Exhibition , Cottiers armorial window received a prize"},
+    {"chunk_id": "/wiki/Daniel_Cottier#28", "role": "both", "quote": "had recently won a prize for the superb harmony of colours in his armorial window at the 1867"}
+   ]},
+  {"id": "e13", "date": "1867", "grain": "year", "track": "work",
+   "text": "Miriam and David stained glass window in the former Dowanhill Church, Glasgow.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#34", "role": "both", "quote": "including Miriam and David ( 1867 )"}]},
+  {"id": "e14", "date": "1869", "grain": "year", "track": "location",
+   "text": "Moved the centre of his activities to London.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#2", "role": "both", "quote": "by the time he moved to London in 1869"},
+    {"chunk_id": "/wiki/Daniel_Cottier#12", "role": "both", "quote": "in 1869 he moved the centre of his activities to London"}
+   ]},
+  {"id": "e15", "date": "1869", "grain": "year", "track": "other", "label": "founding",
+   "text": "Established Cottier and Company at 2 Langham Place, London, as art furniture makers.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#12", "role": "date", "quote": "Encouraged by his growing success , in 1869"},
+    {"chunk_id": "/wiki/Daniel_Cottier#12", "role": "description", "quote": "in partnership with Brydon , Wallace and John Bennett , he established Cottier and Company"}
+   ]},
+  {"id": "e16", "date": "1870", "grain": "year", "track": "work", "flag": "approximate_date",
+   "text": "Small naturalistic stained glass windows made for Prudhoe Hall.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#32", "role": "both", "quote": "Made around 1870 , they pre-date by ten years or more"}]},
+  {"id": "e17", "date": "1873", "grain": "year", "track": "location",
+   "text": "Opened branches in New York, Sydney and Melbourne; Sydney branch run with John Lamb Lyon.",
+   "evidence": [
+    {"chunk_id": "/wiki/Daniel_Cottier#1", "role": "both", "quote": "in 1873 he opened more branches in New York , Sydney and Melbourne"},
+    {"chunk_id": "/wiki/Daniel_Cottier#17", "role": "both", "quote": "In 1873 he opened a New York branch at 144 Fifth Avenue"},
+    {"chunk_id": "/wiki/Daniel_Cottier#22", "role": "both", "quote": "In 1873 Cottier began to export the Aesthetic Movement to Australia with the opening of a branch in Sydney"}
+   ]},
+  {"id": "e18", "date": "1873", "grain": "year", "track": "work",
+   "text": "Remained an active designer on several American projects until 1879.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#18", "role": "both", "quote": "Cottier remained an active designer on several American project between 1873–9"}]},
+  {"id": "e19", "date": "1873", "grain": "year", "track": "work",
+   "text": "Musician Angels window at St Machar's Cathedral, Aberdeen.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#14", "role": "both", "quote": "the Musician Angels at St Machars Cathedral , Aberdeen ( 1873 )"}]},
+  {"id": "e20", "date": "1877", "grain": "year", "track": "work", "flag": "approximate_date",
+   "text": "Window made for the main hall of William Sherman's house in Newport, Rhode Island.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#19", "role": "both", "quote": "An important window made in about 1877 for the main hall of the Newport , Rhode Island , house"}]},
+  {"id": "e21", "date": "1880", "grain": "year", "track": "work", "flag": "approximate_date",
+   "text": "Baptism of Christ window in Paisley Abbey.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#20", "role": "both", "quote": "the Baptism of Christ in Paisley Abbey , Renfreshire ( c . 1880 )"}]},
+  {"id": "e22", "date": "1891-04-15", "grain": "day", "track": "other", "label": "death",
+   "text": "Died of a heart attack aged 53 while visiting Jacksonville, Florida.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#24", "role": "both", "quote": "Cottier died of a heart attack on April 15 , 1891"}]},
+  {"id": "e23", "date": "1915", "grain": "year", "track": "ownership_structure",
+   "text": "His New York firm ceased operating as picture dealers.",
+   "evidence": [{"chunk_id": "/wiki/Daniel_Cottier#24", "role": "both", "quote": "His firm survived in New York as picture dealers until 1915"}]}
+ ],
+ "undated_mentions": [
+  "apprenticeship at a Glasgow glazing and decorating firm (1850s)",
+  "collaboration with Louis Comfort Tiffany and John La Farge (1880s)",
+  "son Archibald died of whooping cough aged 20 months (date not stated)"
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "page_id": "/wiki/Indianapolis_Indians",
+ "events": [
+  {"id": "e1", "date": "1902", "grain": "year", "track": "other", "label": "founding",
+   "text": "Indianapolis Indians franchise founded as original American Association member.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#0", "role": "both", "quote": "Founded in 1902 , the Indianapolis Indians are the second-oldest minor league franchise"},
+    {"chunk_id": "/wiki/Indianapolis_Indians#1", "role": "both", "quote": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902"}
+   ]},
+  {"id": "e2", "date": "1902", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won the first of 21 pennants, as American Association league champion.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#40", "role": "both", "quote": "1902 – League Champion"},
+    {"chunk_id": "/wiki/Indianapolis_Indians#2", "role": "description", "quote": "won 95 games and the first of 21 pennants"}
+   ]},
+  {"id": "e3", "date": "1917", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association league championship.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#40", "role": "both", "quote": "1917 – League Champion"}
+   ]},
+  {"id": "e4", "date": "1917", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Triple-A title, defeating the Toronto Maple Leafs 4-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#34", "role": "both", "quote": "1917 – Defeated the Toronto Maple Leafs , 4–1"}
+   ]},
+  {"id": "e5", "date": "1928", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association league championship.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#40", "role": "both", "quote": "1928 – League Champion"}
+   ]},
+  {"id": "e6", "date": "1928", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Little World Series, defeating the Rochester Red Wings 5-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#33", "role": "both", "quote": "1928 – Defeated the Rochester Red Wings , 5–1"}
+   ]},
+  {"id": "e7", "date": "1929", "grain": "year", "track": "ownership_structure",
+   "text": "Norm Perry took ownership of the team.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#3", "role": "both", "quote": "who took ownership of the team in 1929"}
+   ]},
+  {"id": "e8", "date": "1931", "grain": "year", "track": "work",
+   "text": "Perry built a new stadium on 16th Street, named Perry Stadium.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#3", "role": "both", "quote": "built a new stadium on 16th Street in 1931"}
+   ]},
+  {"id": "e9", "date": "1931-09-05", "grain": "day", "track": "work",
+   "text": "Indians played their first game at the new Perry Stadium.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#3", "role": "both", "quote": "the Indians playing their first game there on September 5 , 1931"}
+   ]},
+  {"id": "e10", "date": "1939", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cincinnati major league club begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Cincinnati ( 1939–41 , 1961 )"}
+   ]},
+  {"id": "e11", "date": "1941", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Cincinnati affiliation ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Cincinnati ( 1939–41 , 1961 )"}
+   ]},
+  {"id": "e12", "date": "1941-12", "grain": "month", "track": "ownership_structure",
+   "text": "Norm Perry sold the team to Frank McKinney and Donie Bush.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#4", "role": "both", "quote": "Norm Perry sold the team to Frank E . McKinney and Donie Bush in December 1941"}
+   ]},
+  {"id": "e13", "date": "1942", "grain": "year", "track": "naming",
+   "text": "Ballpark renamed Victory Field.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#3", "role": "both", "quote": "renamed Victory Field in 1942"}
+   ]},
+  {"id": "e14", "date": "1946", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Boston Braves begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Boston Braves ( 1946–47 )"}
+   ]},
+  {"id": "e15", "date": "1947", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Boston Braves affiliation ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Boston Braves ( 1946–47 )"}
+   ]},
+  {"id": "e16", "date": "1948", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Pittsburgh begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Pittsburgh ( 1948–1951 )"}
+   ]},
+  {"id": "e17", "date": "1951", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Pittsburgh ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Pittsburgh ( 1948–1951 )"}
+   ]},
+  {"id": "e18", "date": "1952", "grain": "year", "track": "ownership_structure",
+   "text": "Cleveland Indians purchase the team.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#5", "role": "both", "quote": "The Cleveland Indians purchased the team in 1952"}
+   ]},
+  {"id": "e19", "date": "1952", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cleveland begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Cleveland ( 1952–1956 )"}
+   ]},
+  {"id": "e20", "date": "1955-11-09", "grain": "day", "track": "ownership_structure",
+   "text": "Indians, Inc. receives certificate of incorporation from Indiana.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#6", "role": "both", "quote": "certificate of incorporation for Indians , Inc . was received from the state of Indiana on November 9 , 1955"}
+   ]},
+  {"id": "e21", "date": "1955-11-30", "grain": "day", "track": "ownership_structure", "flag": "derived_date",
+   "text": "Stockholders approve increase in authorized stock.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#8", "role": "both", "quote": "following stockholder approval on November 30"}
+   ]},
+  {"id": "e22", "date": "1955-12-05", "grain": "day", "track": "ownership_structure", "flag": "derived_date",
+   "text": "Authorized stock increased to 25,000 shares by Secretary of State.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#8", "role": "both", "quote": "was increased to 25,000 shares by the Secretary of State on December 5"}
+   ]},
+  {"id": "e23", "date": "1956", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Denver Bears 4-0.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#38", "role": "both", "quote": "1956 – Defeated the Denver Bears , 4–0"}
+   ]},
+  {"id": "e24", "date": "1956", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cleveland ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Cleveland ( 1952–1956 )"}
+   ]},
+  {"id": "e25", "date": "1956", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Junior World Series, defeating the Rochester Red Wings 4-0.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#33", "role": "both", "quote": "1956 – Defeated the Rochester Red Wings , 4–0"},
+    {"chunk_id": "/wiki/Indianapolis_Indians#9", "role": "both", "quote": "The Indians went on to win the 1956 Junior World Series by defeating the Rochester Red Wings"}
+   ]},
+  {"id": "e26", "date": "1957", "grain": "year", "track": "role",
+   "text": "Max Schumacher joins Indians front office as ticket manager.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#10", "role": "both", "quote": "Max Schumacher joined the Indians front office as ticket manager in 1957"}
+   ]},
+  {"id": "e27", "date": "1959", "grain": "year", "track": "role",
+   "text": "Max Schumacher adds publicity director duties.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#10", "role": "both", "quote": "He added the duties of publicity director in 1959"}
+   ]},
+  {"id": "e28", "date": "1960", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Philadelphia major league club.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Philadelphia ( 1960 )"}
+   ]},
+  {"id": "e29", "date": "1961", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cincinnati again.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Cincinnati ( 1939–41 , 1961 )"}
+   ]},
+  {"id": "e30", "date": "1961", "grain": "year", "track": "role",
+   "text": "Max Schumacher becomes club general manager, a post held through 1997.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#10", "role": "both", "quote": "became the clubs general manager in 1961"}
+   ]},
+  {"id": "e31", "date": "1961", "grain": "year", "track": "other", "label": "championship",
+   "text": "Team captures first of three straight pennants (1961-1963).",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "The team captured three straight pennants from 1961 to 1963"}
+   ]},
+  {"id": "e32", "date": "1962", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Chicago White Sox begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "the Chicago White Sox ( 1962–67 )"}
+   ]},
+  {"id": "e33", "date": "1963", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Team joins International League for one season.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "The Tribe joined the IL for one season before belonging to the Pacific Coast League from 1964 through 1968"}
+   ]},
+  {"id": "e34", "date": "1963", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won International League championship, defeating the Atlanta Crackers 4-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#35", "role": "both", "quote": "1963 – Defeated the Atlanta Crackers , 4–1"}
+   ]},
+  {"id": "e35", "date": "1964", "grain": "year", "track": "affiliation",
+   "text": "Team begins Pacific Coast League membership.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "belonging to the Pacific Coast League from 1964 through 1968"}
+   ]},
+  {"id": "e36", "date": "1967", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Chicago White Sox affiliation ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "the Chicago White Sox ( 1962–67 )"}
+   ]},
+  {"id": "e37", "date": "1968", "grain": "year", "track": "affiliation",
+   "text": "Team leaves Pacific Coast League.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "belonging to the Pacific Coast League from 1964 through 1968"}
+   ]},
+  {"id": "e38", "date": "1968", "grain": "year", "track": "affiliation",
+   "text": "Working agreement with Cincinnati Reds begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Beginning in 1968 they had a working agreement with the Cincinnati Reds that lasted through 1983"}
+   ]},
+  {"id": "e39", "date": "1969", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Team rejoins the American Association.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "At that point the Indians rejoined the American Association"}
+   ]},
+  {"id": "e40", "date": "1969", "grain": "year", "track": "role",
+   "text": "Max Schumacher named team president after Donie Bush retires.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#10", "role": "both", "quote": "Max was also named the teams President in 1969 following Bushs retirement"}
+   ]},
+  {"id": "e41", "date": "1969", "grain": "year", "track": "role",
+   "text": "Vern Rapp joins as team manager for seven years.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#11", "role": "both", "quote": "In 1969 , Vern Rapp joined as manager of the Indians for 7 years"}
+   ]},
+  {"id": "e42", "date": "1969-01", "grain": "month", "track": "role",
+   "text": "Donie Bush ends his term as first President of Indians, Inc.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#8", "role": "both", "quote": "He held that position until January 1969"}
+   ]},
+  {"id": "e43", "date": "1974", "grain": "year", "track": "role",
+   "text": "Howard Kellman becomes play-by-play voice of the Indians.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#41", "role": "both", "quote": "calling play-by-play for all but two seasons ( 1975 and 1980 ) since 1974"}
+   ]},
+  {"id": "e44", "date": "1982", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Omaha Royals 4-2.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1982 – Defeated the Omaha Royals , 4–2"}
+   ]},
+  {"id": "e45", "date": "1983", "grain": "year", "track": "affiliation",
+   "text": "Working agreement with Cincinnati Reds ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#12", "role": "both", "quote": "Beginning in 1968 they had a working agreement with the Cincinnati Reds that lasted through 1983"}
+   ]},
+  {"id": "e46", "date": "1986", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Denver Zephyrs 4-3.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1986 – Defeated the Denver Zephyrs , 4–3"}
+   ]},
+  {"id": "e47", "date": "1987", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Denver Zephyrs 4-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1987 – Defeated the Denver Zephyrs , 4–1"}
+   ]},
+  {"id": "e48", "date": "1988", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Omaha Royals 3-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1988 – Defeated the Omaha Royals , 3–1"}
+   ]},
+  {"id": "e49", "date": "1988", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Triple-A Classic, defeating the Rochester Red Wings 4-2.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#33", "role": "both", "quote": "1988 – Defeated the Rochester Red Wings , 4–2"}
+   ]},
+  {"id": "e50", "date": "1989", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won American Association championship, defeating the Omaha Royals 3-2.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1989 – Defeated the Omaha Royals , 3–2"}
+   ]},
+  {"id": "e51", "date": "1989", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Triple-A Classic, defeating the Richmond Braves 4-0.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#33", "role": "both", "quote": "1989 – Defeated the Richmond Braves , 4–0"}
+   ]},
+  {"id": "e52", "date": "1993", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cincinnati again begins.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#15", "role": "both", "quote": "affiliated again with Cincinnati from 1993 to 1999"}
+   ]},
+  {"id": "e53", "date": "1994", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won league championship, defeating the Nashville Sounds 3-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#36", "role": "both", "quote": "1994 – Defeated the Nashville Sounds , 3–1"}
+   ]},
+  {"id": "e54", "date": "1996-07", "grain": "month", "track": "location",
+   "text": "Team's home at Perry/Bush Stadium ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#3", "role": "both", "quote": "remained the Tribes home until July 1996"}
+   ]},
+  {"id": "e55", "date": "1996-07-11", "grain": "day", "track": "work",
+   "text": "Victory Field downtown ballpark opens, hosting Oklahoma City 89ers.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#17", "role": "both", "quote": "opened on July 11 , 1996 , as the Tribe hosted the Oklahoma City 89ers"}
+   ]},
+  {"id": "e56", "date": "1996-07-11", "grain": "day", "track": "location",
+   "text": "Team moves home to downtown Victory Field.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#17", "role": "both", "quote": "opened on July 11 , 1996 , as the Tribe hosted the Oklahoma City 89ers"}
+   ]},
+  {"id": "e57", "date": "1998", "grain": "year", "track": "affiliation",
+   "text": "Team returns to the International League.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#15", "role": "both", "quote": "In 1998 , Triple-A baseball expanded to 30 teams"}
+   ]},
+  {"id": "e58", "date": "1999", "grain": "year", "track": "affiliation",
+   "text": "Affiliation with Cincinnati ends.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#15", "role": "both", "quote": "affiliated again with Cincinnati from 1993 to 1999"}
+   ]},
+  {"id": "e59", "date": "2000", "grain": "year", "track": "affiliation",
+   "text": "Becomes top affiliate of the Milwaukee Brewers.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#15", "role": "both", "quote": "After becoming the top affiliate of the Milwaukee Brewers in 2000"}
+   ]},
+  {"id": "e60", "date": "2000", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won International League championship, defeating Scranton/Wilkes-Barre 3-2.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#35", "role": "both", "quote": "2000 – Defeated the Scranton/Wilkes-Barre Red Barons , 3–2"}
+   ]},
+  {"id": "e61", "date": "2000", "grain": "year", "track": "other", "label": "championship",
+   "text": "Won Triple-A World Series, defeating the Memphis Redbirds 3-1.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#33", "role": "both", "quote": "2000 – Defeated the Memphis Redbirds , 3–1"}
+   ]},
+  {"id": "e62", "date": "2001-07-11", "grain": "day", "track": "other", "label": "all-star game hosted",
+   "text": "Triple-A All-Star Game held at Victory Field.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#20", "role": "both", "quote": "On July 11 , 2001 representatives from all 30 Triple-A teams came to Indianapolis"}
+   ]},
+  {"id": "e63", "date": "2005", "grain": "year", "track": "affiliation", "flag": "derived_date",
+   "text": "Team leaves Brewers and joins Pittsburgh Pirates farm system.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#16", "role": "both", "quote": "join the Pittsburgh Pirates farm system for the first time since 1951"}
+   ]},
+  {"id": "e64", "date": "2021", "grain": "year", "track": "affiliation",
+   "text": "Organized into 20-team Triple-A East during MLB restructuring.",
+   "evidence": [
+    {"chunk_id": "/wiki/Indianapolis_Indians#23", "role": "both", "quote": "In conjunction with Major League Baseballs restructuring of Minor League Baseball in 2021"}
+   ]}
+ ],
+ "undated_mentions": [
+  "Robert E. Kirby obtained an option to buy the franchise from Cleveland (date not stated)",
+  "Stock sale to fund the purchase was organized (date not stated)",
+  "Stock sale closed in February after 20,488 shares bought (year not stated)",
+  "Donie Bush named first President of Indians, Inc. (date not stated)",
+  "Frank McKinney and Donie Bush ran the club for 10 seasons (dates not stated)",
+  "Affiliation with Montreal Expos (1980s, year not stated)",
+  "Four division titles, 1984-1989 (years not stated)",
+  "Two more pennants during Cincinnati affiliation 1993-1999 (years not stated)",
+  "Two American Association pennants during Vern Rapp tenure (years not stated)",
+  "Vern Rapp tenure ended after seven years (year not stated)"
+ ]
+}

@@ -1,0 +1,912 @@
+{
+ "page_id": "Humongous_Entertainment",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Humongous Entertainment formed by Shelley Day and Ron Gilbert in Woodinville.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#0",
+     "role": "both",
+     "quote": "Founded in 1992 , the company is best known"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#3",
+     "role": "both",
+     "quote": "Humongous Entertainment was formed by Shelley Day and Ron Gilbert in 1992"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1992",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt Joins the Parade.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt Joins the Parade ( 1992 )"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt Goes to the Moon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt Goes to the Moon ( 1993 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putts Fun Pack.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putts Fun Pack ( 1993 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Fatty Bears Birthday Surprise.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#16",
+     "role": "both",
+     "quote": "Fatty Bears Birthday Surprise ( 1993 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Fatty Bears Fun Pack.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#16",
+     "role": "both",
+     "quote": "Fatty Bears Fun Pack ( 1993 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt and Fatty Bears Activity Pack.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt and Fatty Bears Activity Pack ( 1994 )"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#16",
+     "role": "both",
+     "quote": "Putt-Putt and Fatty Bears Activity Pack ( 1994 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Freddi Fish and the Case of the Missing Kelp Seeds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#13",
+     "role": "both",
+     "quote": "Freddi Fish and the Case of the Missing Kelp Seeds ( 1994 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt Saves the Zoo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt Saves the Zoo ( 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Lets Explore the Airport.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#19",
+     "role": "both",
+     "quote": "Lets Explore the Airport ( 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Lets Explore the Farm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#19",
+     "role": "both",
+     "quote": "Lets Explore the Farm ( 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Lets Explore the Jungle.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#19",
+     "role": "both",
+     "quote": "Lets Explore the Jungle ( 1995 )"
+    }
+   ]
+  },
+  {
+   "date": "1995",
+   "grain": "year",
+   "track": "other",
+   "label": "division",
+   "text": "Cavedog Entertainment established as company division in Seattle",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#5",
+     "role": "both",
+     "quote": "In 1995 , Gilbert and Day established a company division , Cavedog Entertainment , in Seattle"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "id": "e14",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt and Peps Balloon-o-Rama.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt and Peps Balloon-o-Rama ( 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt and Peps Dog on a Stick.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt and Peps Dog on a Stick ( 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Freddi Fish and Luthers Maze Madness.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#13",
+     "role": "both",
+     "quote": "Freddi Fish and Luthers Maze Madness ( 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Freddi Fish and Luthers Water Worries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#13",
+     "role": "both",
+     "quote": "Freddi Fish and Luthers Water Worries ( 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1996-07-11",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Humongous Entertainment purchased by GT Interactive.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#1",
+     "role": "both",
+     "quote": "acquired by GT Interactive ( later renamed Infogrames , Inc. , then Atari , Inc. ) in July 1996"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#6",
+     "role": "both",
+     "quote": "On July 11 , 1996 , Humongous Entertainment was purchased by GT Interactive"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt Putt Travels Through Time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt Putt Travels Through Time ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Pajama Sams Sock Works.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#14",
+     "role": "both",
+     "quote": "Pajama Sams Sock Works ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Spy Fox in Dry Cereal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#15",
+     "role": "both",
+     "quote": "Spy Fox in Dry Cereal ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Big Thinkers Kindergarten.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#18",
+     "role": "both",
+     "quote": "Big Thinkers Kindergarten ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Big Thinkers 1st Grade.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#18",
+     "role": "both",
+     "quote": "Big Thinkers 1st Grade ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Baseball.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Baseball ( 1997 )"
+    }
+   ]
+  },
+  {
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Cavedog released Total Annihilation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#5",
+     "role": "both",
+     "quote": "and released Total Annihilation , a real-time strategy ( RTS ) game , in 1997"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "id": "e26",
+   "date": "1997-11",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Signed five-year worldwide deal with Nickelodeon for Blues Clues games.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#6",
+     "role": "both",
+     "quote": "In November 1997 , Humongous Entertainment signed a five-year worldwide deal with Nickelodeon"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt Enters the Race.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt Enters the Race ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Pajama Sams Lost & Found.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#14",
+     "role": "both",
+     "quote": "Pajama Sams Lost & Found ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Spy Fox in Cheese Chase.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#15",
+     "role": "both",
+     "quote": "Spy Fox in “Cheese Chase” ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Blues Birthday Adventure.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#17",
+     "role": "both",
+     "quote": "Blues Birthday Adventure ( 1998 )"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Soccer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Soccer ( 1998 )"
+    }
+   ]
+  },
+  {
+   "date": "1998",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Cavedog released two Total Annihilation expansion packs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#5",
+     "role": "both",
+     "quote": "This was followed by two expansion packs in 1998"
+    }
+   ],
+   "id": "e32"
+  },
+  {
+   "id": "e33",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Spy Fox in Hold the Mustard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#15",
+     "role": "both",
+     "quote": "Spy Fox in “Hold the Mustard” ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Blues ABC Time Activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#17",
+     "role": "both",
+     "quote": "Blues ABC Time Activities ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Blues 123 Time Activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#17",
+     "role": "both",
+     "quote": "Blues 123 Time Activities ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Blues Treasure Hunt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#17",
+     "role": "both",
+     "quote": "Blues Treasure Hunt ( 1999 )"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Football.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Football ( 1999 )"
+    }
+   ]
+  },
+  {
+   "date": "1999-11",
+   "grain": "month",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Parent GT Interactive acquired by Infogrames and renamed Infogrames, Inc.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#6",
+     "role": "both",
+     "quote": "In November 1999 , GT Interactive was acquired by Infogrames and renamed it Infogrames , Inc ."
+    }
+   ],
+   "id": "e38"
+  },
+  {
+   "id": "e39",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putts One-Stop Fun Shop.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putts One-Stop Fun Shop ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Putt-Putt Joins the Circus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#12",
+     "role": "both",
+     "quote": "Putt-Putt Joins the Circus ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Freddi Fishs One-Stop Fun Shop.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#13",
+     "role": "both",
+     "quote": "Freddi Fishs One-Stop Fun Shop ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Pajama Sams One-Stop Fun Shop.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#14",
+     "role": "both",
+     "quote": "Pajama Sams One-Stop Fun Shop ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Blues Reading Time Activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#17",
+     "role": "both",
+     "quote": "Blues Reading Time Activities ( 2000 ) - ( 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Pajama Sam: Games to Play On Any Day.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#14",
+     "role": "both",
+     "quote": "Pajama Sam : Games to Play On Any Day ( 2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Basketball.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Basketball ( 2001 )"
+    }
+   ]
+  },
+  {
+   "date": "2001",
+   "grain": "year",
+   "track": "affiliation",
+   "label": "",
+   "text": "Co-founders and many key employees left Humongous and formed Hulabee Entertainment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#7",
+     "role": "both",
+     "quote": "The founders soon left Humongous , alongside many other key employees , and formed a new studio , Hulabee Entertainment , in 2001"
+    }
+   ],
+   "id": "e46"
+  },
+  {
+   "id": "e47",
+   "date": "2001-06",
+   "grain": "month",
+   "track": "other",
+   "label": "layoffs",
+   "text": "Infogrames laid off 82 staff, over 40% of Humongous staff.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#7",
+     "role": "both",
+     "quote": "In June 2001 , Infogrames , Inc . laid off 82 personnel , over 40% of staff from Humongous Entertainment"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Hockey.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Hockey ( 2002 )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2002",
+   "grain": "year",
+   "track": "work",
+   "text": "Released MoonBase Commander.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#21",
+     "role": "both",
+     "quote": "MoonBase Commander ( 2002 )"
+    }
+   ]
+  },
+  {
+   "date": "2003-05",
+   "grain": "month",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Parent Infogrames, Inc. bought Hasbro Interactive and was renamed Atari, Inc.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#7",
+     "role": "date",
+     "quote": "In May 2003 , after Infogrames , Inc"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#8",
+     "role": "description",
+     "quote": "purchased Hasbro Interactive—which owned the rights to the Atari brand—the company was renamed Atari , Inc"
+    }
+   ],
+   "id": "e50"
+  },
+  {
+   "id": "e51",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Released Backyard Skateboarding.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#20",
+     "role": "both",
+     "quote": "Backyard Skateboarding ( 2004 )"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2005-08",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Sold to parent and majority stockholder Infogrames",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#1",
+     "role": "both",
+     "quote": "GT sold Humongous to its parent company , Infogrames ( later renamed Atari SA ) , in August 2005"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#8",
+     "role": "both",
+     "quote": "In August 2005 , facing financial struggles , Atari , Inc . sold Humongous Entertainment to majority stock holder Infogrames"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2006-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "dissolution",
+   "text": "Humongous Entertainment dissolved the day after its March 31, 2006 release deadline.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#8",
+     "role": "both",
+     "quote": "the company was dissolved the day after"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2009",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Humongous label titles published under Humongous name until this year (per source).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#9",
+     "role": "both",
+     "quote": "would go on to publish several titles under the Humongous name until 2009"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Humongous label publishing under Infogrames successor ended (per source).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#1",
+     "role": "both",
+     "quote": "continued publishing games under the Humongous label until 2013"
+    }
+   ]
+  },
+  {
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "bankruptcy",
+   "text": "Atari SA filed bankruptcy for Humongous, Inc. and other US subsidiaries",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#10",
+     "role": "both",
+     "quote": "filed bankruptcy for three of its American subsidiaries , Atari , Inc. , Atari Interactive and Humongous , Inc . in 2013"
+    }
+   ],
+   "id": "e56"
+  },
+  {
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "Backyard Sports series acquired by The Evergreen Group in the bankruptcy resolution",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#10",
+     "role": "both",
+     "quote": "the Backyard Sports series was acquired by The Evergreen Group"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e57"
+  },
+  {
+   "date": "2013",
+   "grain": "year",
+   "track": "ownership_structure",
+   "label": "",
+   "text": "MoonBase Commander acquired by Rebellion Developments in the bankruptcy resolution",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#10",
+     "role": "both",
+     "quote": "MoonBase Commander by Rebellion Developments"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e58"
+  },
+  {
+   "id": "e59",
+   "date": "2013-07-19",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Humongous brand and most game assets transferred to Tommo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#10",
+     "role": "both",
+     "quote": "the Humongous brand and most game assets were transferred to Tommo on July 19 , 2013"
+    },
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#2",
+     "role": "description",
+     "quote": "Tommo acquired the Humongous brand and all of its assets"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2014-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Tommo relaunched the Humongous.com website.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#10",
+     "role": "both",
+     "quote": "Tommo re-launched the Humongous.com website in January 2014"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2014-04",
+   "grain": "month",
+   "track": "work",
+   "text": "Titles re-released on Steam with Night Dive Studios, through August 2015.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Humongous_Entertainment#11",
+     "role": "both",
+     "quote": "re-release several Humongous Entertainment titles under the Humongous Entertainment label into digital distribution channels Steam , between April 2014 and August 2015"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Majesco released Wii ports of first installments of Junior Adventure series (no date stated)",
+  "Co-founders attempted to buy Humongous back from Infogrames; funding pulled (no date stated)",
+  "Infogrames transferred assets and brands to new Humongous, Inc. (no date stated)",
+  "Twelve game releases whose titles are missing from the source list (Freddi Fish 1996/1998/1999/2001, Pajama Sam 1996/1998/2000/2003, Spy Fox 1999/2001, Putt-Putt 2003, Blue's Clues 2000) not recorded as events"
+ ]
+}

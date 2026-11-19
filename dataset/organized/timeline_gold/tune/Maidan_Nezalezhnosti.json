@@ -1,0 +1,416 @@
+{
+ "page_id": "/wiki/Maidan_Nezalezhnosti",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1869",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square named Khreshchatyk Square (Khreshchatitskaya ploshchad).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#6",
+     "role": "both",
+     "quote": "1869 : Khreshchatyk Square ( Khreshchatitskaya ploshchad )"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1871",
+   "grain": "year",
+   "track": "naming",
+   "text": "Khreshchatyk Square name ended (used until 1871)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#14",
+     "role": "both",
+     "quote": "Until 1871 , it was called the Khreshchatitskaya Ploshchad"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1876",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square became known as Dumskaya Ploshchad (Duma Square).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#14",
+     "role": "both",
+     "quote": "In 1876 , the Kyiv City Duma building was built here"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1876",
+   "grain": "year",
+   "track": "work",
+   "text": "Kyiv City Duma building built on the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#14",
+     "role": "both",
+     "quote": "In 1876 , the Kyiv City Duma building was built here"
+    }
+   ]
+  },
+  {
+   "date": "1894",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Kyiv tram line reached the square",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#15",
+     "role": "both",
+     "quote": "reached the square in 1894"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "1913",
+   "grain": "year",
+   "track": "work",
+   "text": "Stolypin monument constructed in front of City Duma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#16",
+     "role": "both",
+     "quote": "In 1913 , in front of the City Duma , a monument of Pyotr Stolypin"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1917-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Stolypin monument stood on the square until March 1917.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#16",
+     "role": "both",
+     "quote": "it stood there until March 1917 at the dawn of the Revolutionary war"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1919",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square renamed Soviet Square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#17",
+     "role": "both",
+     "quote": "In 1919 , the square was renamed Soviet Square"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1935",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square renamed Kalinin Square after Mikhail Kalinin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#17",
+     "role": "both",
+     "quote": "From 1935 , it was called Kalinin Square"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1941",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square named Council (Parliament) Square (Dumska ploshcha).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#6",
+     "role": "both",
+     "quote": "1941 : Council ( Parliament ) Square ( Dumska ploshcha )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1943",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square named Kalinin Square again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#7",
+     "role": "both",
+     "quote": "1943 : Kalinin Square ( Ploshchad Kalinina )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1969",
+   "grain": "year",
+   "track": "other",
+   "label": "parades",
+   "text": "May Day demonstrations and parades on the square ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#20",
+     "role": "both",
+     "quote": "the square was used for demonstrations and parades in honor of May 1 ( until 1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1976",
+   "grain": "year",
+   "track": "work",
+   "text": "Much of the square rebuilt as part of metro construction.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#19",
+     "role": "both",
+     "quote": "In 1976-77 , as a part of metro construction , much of the square was again rebuilt"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1977",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square renamed Square of the October Revolution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#8",
+     "role": "both",
+     "quote": "1977 : Square of the October Revolution"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1977",
+   "grain": "year",
+   "track": "work",
+   "text": "Metro-related rebuilding of the square completed.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#19",
+     "role": "both",
+     "quote": "In 1976-77 , as a part of metro construction , much of the square was again rebuilt"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "protest",
+   "text": "Student Revolution on Granite protests and hunger strikes at the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#26",
+     "role": "both",
+     "quote": "In the autumn of 1990 , students protests and hunger strikes"
+    },
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#1",
+     "role": "both",
+     "quote": "the 1990 student Revolution on Granite"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1991",
+   "grain": "year",
+   "track": "naming",
+   "text": "Square given its current name, Independence Square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#3",
+     "role": "both",
+     "quote": "The square received its current name in 1991"
+    },
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#8",
+     "role": "both",
+     "quote": "1991 : Independence Square ( Maidan Nezalezhnosti )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "protest",
+   "text": "Ukraine without Kuchma protest campaign centred on the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#1",
+     "role": "both",
+     "quote": "the 2001 Ukraine without Kuchma"
+    },
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#22",
+     "role": "both",
+     "quote": "In 2001 , as the square was the major center of the Ukraine without Kuchma"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Extensive construction ordered; square fenced off and closed to protesters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#22",
+     "role": "both",
+     "quote": "In 2001 , as the square was the major center of the Ukraine without Kuchma"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "protest",
+   "text": "Orange Revolution protests; protesters pitched tents in the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#27",
+     "role": "both",
+     "quote": "During the Orange Revolution in late 2004"
+    },
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#1",
+     "role": "both",
+     "quote": "the 2004 Orange Revolution"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "rally",
+   "text": "Batkivshchyna party congress held at the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#30",
+     "role": "both",
+     "quote": "the 2009 Batkivshchyna party congress"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2013-11",
+   "grain": "month",
+   "track": "other",
+   "label": "protest",
+   "text": "Euromaidan protests began at the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#31",
+     "role": "both",
+     "quote": "Euromaidan protests beginning in November 2013"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2013-12-01",
+   "grain": "day",
+   "track": "other",
+   "label": "protest",
+   "text": "Square occupied by protesters day and night.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#31",
+     "role": "both",
+     "quote": "The square was covered in protesters all day and night since 1 December 2013"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014-01-27",
+   "grain": "day",
+   "track": "other",
+   "label": "incident",
+   "text": "Man found dead hanging from New Year tree on the square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#31",
+     "role": "both",
+     "quote": "On 27 January 2014 , Ukrainian police reported a 55-year-old man"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2014-02",
+   "grain": "month",
+   "track": "other",
+   "label": "protest",
+   "text": "Euromaidan ended with the February 2014 Ukrainian revolution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#31",
+     "role": "both",
+     "quote": "ending in the February 2014 Ukrainian revolution"
+    },
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#32",
+     "role": "both",
+     "quote": "The 2014 Ukrainian revolution of the following month"
+    }
+   ]
+  },
+  {
+   "date": "2014-02",
+   "grain": "month",
+   "track": "work",
+   "label": "",
+   "text": "Trade-Unions House severely damaged by fire",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Maidan_Nezalezhnosti#25",
+     "role": "both",
+     "quote": "Trade-Unions House was severely damaged during the fire in February 2014"
+    }
+   ],
+   "id": "e26"
+  }
+ ],
+ "undated_mentions": [
+  "Site called Perevisyshch until the 10th century",
+  "1830s: first wooden dwellings built on the site",
+  "1850s: stone buildings appeared on the site",
+  "First couple of years after the war: square completely rebuilt from scratch",
+  "Postwar: Kyiv Central Post Office and Trade-Union House built in the square",
+  "Hlobus underground shopping mall built under the square",
+  "Cubist October Revolution 60th-anniversary monument and fountain ensemble put up during the 1976-77 reconstruction",
+  "Yushchenko took a public oath at the square after his election"
+ ]
+}

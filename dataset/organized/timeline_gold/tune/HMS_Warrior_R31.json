@@ -1,0 +1,818 @@
+{
+ "page_id": "HMS_Warrior_R31",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1942-08-07",
+   "grain": "day",
+   "track": "work",
+   "text": "Contract to construct Warrior placed with Harland and Wolff, Belfast.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#9",
+     "role": "both",
+     "quote": "The contract to construct Warrior was placed on 7 August 1942"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "ordered in 1942 by the British Royal Navy"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1942-12-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Keel of Warrior laid down.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#9",
+     "role": "both",
+     "quote": "the keel was laid down on 12 December 1942"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1944-05-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Warrior launched.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#9",
+     "role": "both",
+     "quote": "The aircraft carrier was launched on 20 May 1944"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1945",
+   "grain": "year",
+   "track": "work",
+   "text": "Construction of Warrior finished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "Construction was finished in 1945"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1945-04",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Warrior acquired on loan by the Royal Canadian Navy, with option to purchase.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#11",
+     "role": "both",
+     "quote": "negotiations being finalised in April 1945 when Warrior and were acquired on loan with"
+    }
+   ]
+  },
+  {
+   "date": "1945-05",
+   "grain": "month",
+   "track": "work",
+   "label": "",
+   "text": "Negotiations completed with Canada for the naval air squadrons to man the carrier",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#12",
+     "role": "description",
+     "quote": "Negotiations were completed in May for the naval air squadrons that would be needed to man the aircraft carrier"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#11",
+     "role": "date",
+     "quote": "negotiations being finalised in April 1945"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e6"
+  },
+  {
+   "id": "e7",
+   "date": "1946-01-24",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Commissioned as HMCS Warrior under Captain Frank Houghton; loan to RCN begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#13",
+     "role": "both",
+     "quote": "commissioned as HMCS Warrior on 24 January 1946"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "loaned to the Royal Canadian Navy from 1946 to 1948"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1946-03",
+   "grain": "month",
+   "track": "work",
+   "text": "Sea trials of Warrior completed; flying trials at Spithead followed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#13",
+     "role": "both",
+     "quote": "Sea trials were completed in March"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e9",
+   "date": "1946-03-23",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Warrior officially joined the Canadian Atlantic Fleet.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#15",
+     "role": "both",
+     "quote": "having officially joined the Canadian Atlantic Fleet on 23 March"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e10",
+   "date": "1946-03-24",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior left Portsmouth for Canada, about a week before arrival at Halifax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#15",
+     "role": "both",
+     "quote": "Warrior entered Halifax harbour on 31 March 1946 , a week after leaving Portsmouth"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e11",
+   "date": "1946-03-31",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior entered Halifax harbour.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#15",
+     "role": "both",
+     "quote": "Warrior entered Halifax harbour on 31 March 1946"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1946-04",
+   "grain": "month",
+   "track": "other",
+   "label": "repairs",
+   "text": "Warrior spent April to May at Halifax fixing builder's defects.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#15",
+     "role": "both",
+     "quote": "April through May was spent alongside fixing builders defects"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e13",
+   "date": "1946-08-23",
+   "grain": "day",
+   "track": "other",
+   "label": "grounding",
+   "text": "Warrior ran aground at Pointe Sainte Antoine near Montreal; refloated same day.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#15",
+     "role": "both",
+     "quote": "on 23 August while transiting the St . Lawrence River , Warrior ran aground at"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#16",
+     "role": "description",
+     "quote": "Tugboats got the aircraft carrier unstuck from the mud bank she had run into the same day"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e14",
+   "date": "1946-11",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior transferred west to Esquimalt, British Columbia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#17",
+     "role": "both",
+     "quote": "The ship was transferred west to Esquimalt , British Columbia in November 1946"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1946-12",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior arrived at Esquimalt after visits to Bermuda, Acapulco, Mexico and San Diego.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#17",
+     "role": "both",
+     "quote": "before arriving in December"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e16",
+   "date": "1947",
+   "grain": "year",
+   "track": "other",
+   "label": "repairs",
+   "text": "Warrior spent most of mid-1947 at Halifax under repairs and short cruises.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#19",
+     "role": "both",
+     "quote": "Most of mid-1947 was spent undergoing repairs at Halifax"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e17",
+   "date": "1947-01-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Commodore Harry DeWolf took command of Warrior.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#17",
+     "role": "both",
+     "quote": "On 18 January 1947 , Commodore Harry DeWolf took command of Warrior"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1947-02",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior began voyage back to Halifax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#18",
+     "role": "both",
+     "quote": "In February 1947 , the aircraft carrier began her voyage back to Halifax"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1947-03-27",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior returned to Halifax.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#19",
+     "role": "both",
+     "quote": "Warrior returned to Halifax on 27 March"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e20",
+   "date": "1947-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior sailed for the United Kingdom to re-equip squadrons.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#19",
+     "role": "both",
+     "quote": "In August , Warrior sailed for the United Kingdom"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e21",
+   "date": "1947-08-28",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior returned to Halifax from the United Kingdom.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#20",
+     "role": "both",
+     "quote": "returning to Halifax on 28 August"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "1947-11",
+   "grain": "month",
+   "track": "other",
+   "label": "training",
+   "text": "Magnificent's air group (826 and 883 Squadrons) trained aboard Warrior off Nova Scotia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#20",
+     "role": "both",
+     "quote": "In November , Magnificents air group consisting of 826 and 883 Squadrons trained aboard Warrior"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e23",
+   "date": "1948-02-12",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior sailed for the UK.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#20",
+     "role": "both",
+     "quote": "The ship sailed for the UK on 12 February"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e24",
+   "date": "1948-02-20",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior arrived at Belfast.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#20",
+     "role": "both",
+     "quote": "arriving at Belfast on 20 February"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e25",
+   "date": "1948-03-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Warrior moved to Spithead, where aviation fuel was removed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#20",
+     "role": "both",
+     "quote": "On 1 March the ship moved to Spithead"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e26",
+   "date": "1948-03-23",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Warrior returned to the Royal Navy and recommissioned as HMS Warrior at Portsmouth.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#21",
+     "role": "both",
+     "quote": "Warrior was returned to the Royal Navy on 23 March 1948 at Portsmouth"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#22",
+     "role": "both",
+     "quote": "recommissioned as HMS Warrior on 23 March 1948"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "Warrior was returned to the Royal Navy in 1948"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1948-11",
+   "grain": "month",
+   "track": "other",
+   "label": "trials",
+   "text": "Aircraft landing trials with flexible rubber flight deck, running to March 1949.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#23",
+     "role": "both",
+     "quote": "The trials lasted from November 1948 to March 1949"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "In 1948–1949 , the ship was used in aircraft landing experiments"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1949-03",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Warrior paid off into reserve at Portsmouth after trials.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#23",
+     "role": "both",
+     "quote": "upon completion , Warrior was paid off into the reserve at Portsmouth"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e29",
+   "date": "1950-06",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Warrior reactivated from reserve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#24",
+     "role": "both",
+     "quote": "Warrior was reactivated in June 1950"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1950-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior departed for the Far East on the first troop and aircraft mission of the Korean War.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#24",
+     "role": "both",
+     "quote": "departing in August on the first such mission"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e31",
+   "date": "1951-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Warrior sailed to Cyprus with 16 Parachute Brigade embarked, amid Middle East crisis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#24",
+     "role": "both",
+     "quote": "In June 1951 , with 16 Parachute Brigade embarked , Warrior sailed to Cyprus"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1952",
+   "grain": "year",
+   "track": "other",
+   "label": "refit",
+   "text": "Warrior refitted at Devonport Dockyard during most of 1952 and 1953.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#24",
+     "role": "both",
+     "quote": "The ship underwent refit during most of 1952 and 1953 at Devonport Dockyard"
+    }
+   ]
+  },
+  {
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "refit",
+   "text": "Refit at Devonport Dockyard ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#24",
+     "role": "both",
+     "quote": "The ship underwent refit during most of 1952 and 1953 at Devonport Dockyard"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e33"
+  },
+  {
+   "id": "e34",
+   "date": "1954",
+   "grain": "year",
+   "track": "location",
+   "text": "Warrior deployed to the Far East, patrolling off Korea after the ceasefire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#25",
+     "role": "both",
+     "quote": "During 1954 Warrior was deployed to the Far East"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1954-09",
+   "grain": "month",
+   "track": "other",
+   "label": "refugee evacuation",
+   "text": "Warrior evacuated refugees from Haiphong, North Vietnam to Vung Tau, South Vietnam.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#25",
+     "role": "both",
+     "quote": "In September the ship was among those sent to evacuate non-Communist refugees"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e36",
+   "date": "1955",
+   "grain": "year",
+   "track": "other",
+   "label": "refit",
+   "text": "Refit at Devonport; angled flight deck of 5 degrees fitted for trials.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#27",
+     "role": "both",
+     "quote": "another refit was carried out in 1955 at Devonport"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e37",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "modernisation",
+   "text": "Angled flight deck installed during modernisation (source gives 1956).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+     "role": "both",
+     "quote": "including the installation of an angled flight deck in 1956"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e38",
+   "date": "1957",
+   "grain": "year",
+   "track": "other",
+   "label": "nuclear testing",
+   "text": "Warrior served as headquarters ship during nuclear testing at Christmas Island (Operation Grapple).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#1",
+     "role": "both",
+     "quote": "in 1957 , was used as the headquarters ship during nuclear testing at Christmas Island"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#29",
+     "role": "description",
+     "quote": "took part in Operation Grapple , the first British hydrogen bomb tests"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1958",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Warrior sold to the Argentine Navy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#1",
+     "role": "both",
+     "quote": "In 1958 , the vessel was sold to the Argentine Navy"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "Warrior was sold to Argentina in 1958"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1958-02",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Royal Navy decommissioned Warrior and offered her for sale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#29",
+     "role": "both",
+     "quote": "the Royal Navy decommissioned Warrior in February 1958"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1958-08-06",
+   "grain": "day",
+   "track": "naming",
+   "text": "Warrior renamed ARA Independencia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "renamed ARA Independencia on 6 August 1958"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1958-11-04",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Argentine naval ensign raised on the ship at Portsmouth.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "The Argentinian naval ensign was raised on 4 November at Portsmouth"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e43",
+   "date": "1958-12-10",
+   "grain": "day",
+   "track": "location",
+   "text": "Independencia sailed for Argentina.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "sailed for Argentina on 10 December"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e44",
+   "date": "1959-06-08",
+   "grain": "day",
+   "track": "other",
+   "label": "air operations",
+   "text": "Argentine Naval Aviation began air operations from Independencia, before commissioning.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "Argentine Naval Aviation began air operations from Independencia on 8 June 1959"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1959-07-08",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Commissioned into the Argentine Navy as ARA Independencia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "The ship was commissioned into the Argentine Navy on 8 July 1959"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#1",
+     "role": "both",
+     "quote": "entered Argentine service in 1959 as ARA Independencia"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1962-05",
+   "grain": "month",
+   "track": "other",
+   "label": "armament refit",
+   "text": "Anti-aircraft armament re-equipped with quadruple and double 40 mm mountings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#31",
+     "role": "both",
+     "quote": "In May 1962 the ship was however provided with one"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1963-08",
+   "grain": "month",
+   "track": "other",
+   "label": "jet operations",
+   "text": "First jet fighters of Argentine Naval Aviation operated from Independencia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#33",
+     "role": "both",
+     "quote": "starting from August 1963 which launched from Independencia"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1969",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Source states the aircraft carrier entered service (conflicts with 1959 Argentine commissioning).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#33",
+     "role": "both",
+     "quote": "After the aircraft carrier entered service in 1969"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e49",
+   "date": "1970",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Independencia placed in reserve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#1",
+     "role": "both",
+     "quote": "remained in service until 1970 when Independencia was placed in reserve"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#34",
+     "role": "both",
+     "quote": "reserve in 1970"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "scrapping",
+   "text": "Independencia scrapped.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#34",
+     "role": "both",
+     "quote": "She was scrapped in 1971"
+    },
+    {
+     "chunk_id": "/wiki/HMS_Warrior_(R31)#1",
+     "role": "description",
+     "quote": "The following year , the ship was sold for scrap"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Name changed from Brave to Warrior before construction began (no date)",
+  "Warrior reached Montreal and became the largest ship to visit that port to that date (no exact date)",
+  "Negotiations began to return Warrior to the RN when Magnificent became ready (no date)",
+  "Warrior and two other Canadian ships visited Havana, Cuba (no date)",
+  "Warrior sailed for Bermuda with Nootka for a naval exercise with the Royal Navy (no date)",
+  "Warrior sailed to Bermuda to be prepared for paying off (no date)",
+  "Warrior refitted at Devonport and fitted with a flexible flight deck, between March and November 1948 (no exact date)",
+  "Warrior served briefly as a training ship before Operation Grapple (no date)",
+  "Return voyage from the Grapple tests via Argentina with demonstrations to the Argentine Navy (no date)",
+  "Warrior armament reduced to twelve, then eight, 40 mm guns (no date)",
+  "Warrior awarded a South Vietnamese Presidential Citation for the refugee evacuation (no exact date)"
+ ]
+}

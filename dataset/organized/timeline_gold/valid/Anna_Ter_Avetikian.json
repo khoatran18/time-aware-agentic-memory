@@ -1,0 +1,193 @@
+{
+  "page_id": "Anna_Ter-Avetikian",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1908-10-23",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Yerevan, Erivan Governorate of the Russian Empire.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#1", "role": "both", "quote": "Anna Tigranovna Ter-Avetikian was born on 23 October 1908 in Yerevan"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1924",
+      "grain": "year",
+      "track": "education",
+      "text": "Enrolled in the Technical School of Yerevan State University to study architecture.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#3", "role": "both", "quote": "in 1924 , Ter-Avetikian enrolled in the Technical School of Yerevan State University"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1926",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Started working for Buniatian and Alexander Tamanian's architecture firm while studying.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#3", "role": "both", "quote": "In 1926 , simultaneously with her studies , she started working for"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1930",
+      "grain": "year",
+      "track": "education",
+      "text": "Graduated from the Technical School of Yerevan State University.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#3", "role": "both", "quote": "Ter-Avetikian graduated in 1930 and shortly thereafter ,"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1930",
+      "grain": "year",
+      "track": "family",
+      "text": "Married fellow architect shortly after graduating.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#3", "role": "date", "quote": "Ter-Avetikian graduated in 1930 and shortly thereafter ,"},
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#4", "role": "description", "quote": "married fellow architect"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1938",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "One of her designs won recognition at the Parisian international exhibit.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#5", "role": "both", "quote": "In 1938 , one of her designs won recognition at the Parisian"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1938",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Received designation as Laureate of the All-Union Review of Women Architects.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#5", "role": "both", "quote": "and that same year , received the designation Laureate of the All-Union Review"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1941",
+      "grain": "year",
+      "track": "role",
+      "text": "Began serving as Chair of the Armenian Union of Architects.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#5", "role": "both", "quote": "Between 1941 and 1943 , she served as the Chair of the Armenian Union of Architects"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1943",
+      "grain": "year",
+      "track": "role",
+      "text": "Ended service as Chair of the Armenian Union of Architects.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#5", "role": "both", "quote": "Between 1941 and 1943 , she served as the Chair of the Armenian Union of Architects"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1945",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Recognized by the Supreme Soviet of the Armenian SSR.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "In 1945 Ter-Avetikian was recognized by the Supreme Soviet of the Armenian Soviet Socialist Republic"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1948",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Her filmmakers building design won first prize in the All-Soviet Female Architects Competition.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#5", "role": "description", "quote": "Her design for the filmmakers building won the first prize in the"},
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#6", "role": "date", "quote": "1948 All-Soviet Female Architects Competition"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1956",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Again designated as a Laureate of the All-Union Review.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "in 1956 , she was again designated as a Laureate of the All-Union Review"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1968",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "Became an architect emeritus.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "In 1968 , Ter-Avetikian became an architect emeritus"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1972",
+      "grain": "year",
+      "track": "role",
+      "text": "Retired.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "she retired in 1972"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2002",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Received the Alexander Tamanian Gold Medal from the Republic of Armenia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "receiving the Alexander Tamanian Gold Medal in 2002"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2008",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Received the Gold Medal of Yerevan on her 100th birthday.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#9", "role": "both", "quote": "In 2008 , she received the Gold Medal of Yerevan"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "2013-01-16",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died in Yerevan, Armenia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Anna_Ter-Avetikian#11", "role": "both", "quote": "Ter-Avetikian died on 16 January 2013 in Yerevan"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Designed fire and police stations in Yerevan and the Sasuntsi Tavit cinema together with her husband (no date)",
+    "Later went to work with another design firm (no date)"
+  ]
+}

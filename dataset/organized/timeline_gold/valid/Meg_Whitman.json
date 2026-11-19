@@ -1,0 +1,643 @@
+{
+ "page_id": "Meg_Whitman",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1956-08-04",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Margaret Cushing Whitman born in the United States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#0",
+     "role": "both",
+     "quote": "born August 4 , 1956"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1974",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from Cold Spring Harbor High School after three years.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#7",
+     "role": "both",
+     "quote": "graduating after three years in 1974"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1977",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from Princeton University with an A.B. in economics.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#7",
+     "role": "both",
+     "quote": "She graduated with an A.B . in economics with honors from Princeton University in 1977"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1979",
+   "grain": "year",
+   "track": "education",
+   "text": "Obtained an M.B.A. from Harvard Business School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#8",
+     "role": "both",
+     "quote": "obtained an M.B.A . from Harvard Business School in 1979"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1979",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began career as brand manager at Procter & Gamble in Cincinnati.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#10",
+     "role": "both",
+     "quote": "began her career in 1979 as a brand manager at Procter & Gamble"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Became vice president of strategic planning at Walt Disney Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#10",
+     "role": "both",
+     "quote": "became vice president of strategic planning at The Walt Disney Company in 1989"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1991",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Stride Rite Corporation two years after Disney.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#10",
+     "role": "both",
+     "quote": "Two years later she joined the Stride Rite Corporation"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Became president and CEO of Florists Transworld Delivery.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#10",
+     "role": "both",
+     "quote": "becoming president and CEO of Florists Transworld Delivery in 1995"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1997-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Became general manager of Hasbro Playskool Division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#11",
+     "role": "both",
+     "quote": "starting in January 1997 , she oversaw global management and marketing"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1998-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Joined eBay; later served as its president and CEO.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#12",
+     "role": "both",
+     "quote": "Whitman joined eBay in March 1998"
+    },
+    {
+     "chunk_id": "/wiki/Meg_Whitman#1",
+     "role": "both",
+     "quote": "president and CEO of eBay from 1998 to 2008"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1998-03",
+   "grain": "month",
+   "track": "location",
+   "text": "Moved to Atherton, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#9",
+     "role": "both",
+     "quote": "She has lived in Atherton , California , since March 1998"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2001-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed to the board of Goldman Sachs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#26",
+     "role": "both",
+     "quote": "She was appointed to the board of Goldman Sachs in October 2001"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2002-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Resigned from the Goldman Sachs board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#26",
+     "role": "both",
+     "quote": "and then resigned in December 2002"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2004",
+   "grain": "year",
+   "track": "role",
+   "text": "Made several key changes in her eBay management team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#13",
+     "role": "both",
+     "quote": "In 2004 , Whitman made several key changes in her management team"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2005-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Picked John Donahoe as president of eBay Marketplaces.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#14",
+     "role": "both",
+     "quote": "Whitman picked John J . Donahoe for eBay in March 2005"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2006-12-21",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded a charitable foundation with husband Harsh.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#30",
+     "role": "both",
+     "quote": "Whitman founded a charitable foundation with husband Harsh on December 21 , 2006"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2007-06",
+   "grain": "month",
+   "track": "other",
+   "label": "incident",
+   "text": "Allegedly shoved subordinate Young Mi Kim before a Reuters interview.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#16",
+     "role": "both",
+     "quote": "In June 2007 , while preparing for an interview with Reuters , Whitman allegedly shoved her subordinate"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2007-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Resigned as CEO of eBay, remained on board.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#17",
+     "role": "both",
+     "quote": "Whitman resigned as CEO of eBay in November 2007"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e19",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "End of eBay CEO tenure, per the lead summary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#1",
+     "role": "both",
+     "quote": "president and CEO of eBay from 1998 to 2008"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e20",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Served on national finance team of Mitt Romney's 2008 campaign.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#33",
+     "role": "both",
+     "quote": "Whitman was a supporter of former Massachusetts Governor Mitt Romneys presidential campaign in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Joined John McCain's presidential campaign as national co-chair.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#33",
+     "role": "both",
+     "quote": "Whitman joined McCains presidential campaign as a national co-chair"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Inducted into the U.S. Business Hall of Fame.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#17",
+     "role": "both",
+     "quote": "She was inducted into the U.S . Business Hall of Fame in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended advisor role to new eBay CEO John Donahoe.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#17",
+     "role": "both",
+     "quote": "served as an advisor to new CEO John Donahoe until late 2008"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e24",
+   "date": "2009",
+   "grain": "year",
+   "track": "role",
+   "text": "Left boards of eBay Foundation, Summit Public Schools, P&G, DreamWorks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#26",
+     "role": "both",
+     "quote": "DreamWorks SKG , until early 2009"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e25",
+   "date": "2009-02-10",
+   "grain": "day",
+   "track": "other",
+   "label": "candidacy",
+   "text": "Announced she would run for governor of California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#37",
+     "role": "both",
+     "quote": "On February 10 , 2009 , Whitman announced she would run for governor of California"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Won the Republican primary for California governor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#3",
+     "role": "both",
+     "quote": "She won the Republican primary"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e27",
+   "date": "2010-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Released a political ad, 'A Lifetime in Politics A Legacy of Failure'.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#38",
+     "role": "both",
+     "quote": "In June 2010 , Whitman released a political ad"
+    }
+   ]
+  },
+  {
+   "date": "2010-09",
+   "grain": "month",
+   "track": "other",
+   "label": "scandal",
+   "text": "Nicky Diaz Santillan revealed she had worked as Whitman's housekeeper despite being undocumented",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#42",
+     "role": "both",
+     "quote": "In September 2010 , Nicky Diaz Santillan revealed that she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009 despite her status as an illegal worker"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "id": "e29",
+   "date": "2010-11-02",
+   "grain": "day",
+   "track": "other",
+   "label": "election",
+   "text": "Conceded the California gubernatorial election to Jerry Brown.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#40",
+     "role": "both",
+     "quote": "On November 2 , 2010 , at 11:35 pm , Whitman conceded the election"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2011-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Joined Hewlett-Packard board of directors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#19",
+     "role": "both",
+     "quote": "In January 2011 , Whitman joined Hewlett-Packards ( HP ) board of directors"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2011-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed part-time special adviser at Kleiner Perkins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#26",
+     "role": "both",
+     "quote": "In March 2011 , she was appointed a part-time special adviser at venture capital firm Kleiner Perkins"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2011-09-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Named CEO of Hewlett-Packard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#19",
+     "role": "both",
+     "quote": "She was named CEO on September 22 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2012",
+   "grain": "year",
+   "track": "role",
+   "text": "Senior member of Mitt Romney's 2012 presidential campaign.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#0",
+     "role": "both",
+     "quote": "was a senior member of Mitt Romneys presidential campaigns in both 2008 and 2012"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "announcement",
+   "text": "Announced HP would write down $8.8 billion of Autonomy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#20",
+     "role": "both",
+     "quote": "In 2012 , Whitman announced that HP would write down $8.8 billion"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2016",
+   "grain": "year",
+   "track": "role",
+   "text": "Finance co-chair of Chris Christie's presidential campaign.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#35",
+     "role": "both",
+     "quote": "During the 2016 Republican primaries , Whitman was finance co-chair of Chris Christies presidential campaign"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received an honorary doctorate from Carnegie Mellon University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#60",
+     "role": "both",
+     "quote": "In 2017 , Whitman was the Commencement speaker for Carnegie Mellon University and was awarded an honorary doctorate degree"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2017-07-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Stepped down as chair of HP Inc. board of directors.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#22",
+     "role": "both",
+     "quote": "On July 26 , 2017 , Whitman stepped down as chair of HP Inc.s board of directors"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2017-11-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Announced she would step down as HPE CEO.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#23",
+     "role": "both",
+     "quote": "On November 21 , 2017 it was announced Whitman was stepping down as the CEO of HPE"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Invested in and joined board of Immortals Gaming Club.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#28",
+     "role": "both",
+     "quote": "In 2018 , Meg Whitman invested in and joined the board of the eSports organization Immortals Gaming Club"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2018-02-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Stepped down as HPE CEO, effective this date.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#23",
+     "role": "both",
+     "quote": "effective February 1 , 2018"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "legal",
+   "text": "Testified in UK civil case over the Autonomy write-down.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#20",
+     "role": "both",
+     "quote": "The announcement eventually led to a civil case in the UK in 2019 at which Whitman testified"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2019-11",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Purchased a minority stake in FC Cincinnati.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#29",
+     "role": "both",
+     "quote": "In November 2019 , Meg Whitman purchased a minority stake in FC Cincinnati"
+    }
+   ]
+  },
+  {
+   "date": "2020-10",
+   "grain": "month",
+   "track": "role",
+   "label": "Quibi",
+   "text": "Quibi closed while she was its CEO",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Meg_Whitman#0",
+     "role": "both",
+     "quote": "She was also the CEO of Quibi before its closure in October 2020"
+    }
+   ],
+   "id": "e43"
+  }
+ ],
+ "undated_mentions": [
+  "Vice president of strategic planning at The Walt Disney Company throughout the 1980s",
+  "Executive at DreamWorks, Procter & Gamble and Hasbro in the 1990s",
+  "Consultant at Bain & Company, later senior vice president (no date)",
+  "Imported the UK children's show Teletubbies to the U.S. (no date)",
+  "Married Griffith Harsh IV (no date)",
+  "Whitman College named after her following a $30 million donation (no date)",
+  "CEO of Quibi (no start or end date)",
+  "Joined boards of Zipcar and Teach For America, re-joined P&G board, Survey Monkey board (no date)",
+  "Finance co-chair of Romney's exploratory committee (no date)",
+  "Settlement of $200,000 over the Young Mi Kim incident (no date)"
+ ]
+}

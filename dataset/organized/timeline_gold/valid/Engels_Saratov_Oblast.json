@@ -1,0 +1,139 @@
+{
+ "page_id": "Engels_Saratov_Oblast",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1747",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded as a sloboda named Pokrovskaya Sloboda by Ukrainian Chumak settlers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#3",
+     "role": "both",
+     "quote": "Engels was founded as a sloboda named Pokrovskaya Sloboda by Ukrainian Chumak settlers in 1747"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1914",
+   "grain": "year",
+   "track": "other",
+   "label": "town status",
+   "text": "Granted official town status.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#3",
+     "role": "both",
+     "quote": "It was granted official town status and renamed Pokrovsk ( ) in 1914"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1914",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Pokrovsk.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#3",
+     "role": "both",
+     "quote": "It was granted official town status and renamed Pokrovsk ( ) in 1914"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1918",
+   "grain": "year",
+   "track": "location",
+   "text": "Began serving as capital of the Volga German ASSR.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#4",
+     "role": "both",
+     "quote": "in 1918 it became the capital of the newly established Volga German Autonomous Soviet Socialist Republic"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1931",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Engels in honour of Friedrich Engels.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#0",
+     "role": "both",
+     "quote": "until it was renamed after Friedrich Engels in 1931"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1941",
+   "grain": "year",
+   "track": "location",
+   "text": "Ended service as capital of the Volga German ASSR.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#1",
+     "role": "both",
+     "quote": "of the Volga German Autonomous Soviet Socialist Republic from 1918 to 1941"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1941",
+   "grain": "year",
+   "track": "location",
+   "text": "City became part of Saratov Oblast after the ASSR was disestablished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#4",
+     "role": "both",
+     "quote": "The Volga German ASSR was disestablished in 1941 following the German invasion of the Soviet Union"
+    }
+   ]
+  },
+  {
+   "date": "2011-08-26",
+   "grain": "day",
+   "track": "other",
+   "label": "monument",
+   "text": "Monument to the Russian-German victims of repression unveiled in the city",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#5",
+     "role": "both",
+     "quote": "On August 26 , 2011 , a monument in honor of the Russian-German victims of repression within the Soviet Union was unveiled in the city"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "date": "2015-08",
+   "grain": "month",
+   "track": "other",
+   "label": "factory",
+   "text": "First Locomotive Company's factory inaugurated at Engels with a prototype Bombardier Traxx locomotive unveiled",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Engels,_Saratov_Oblast#9",
+     "role": "both",
+     "quote": "In August 2015 a prototype 1520 mm gauge Bombardier Traxx F120MS locomotive was unveiled at a ceremony to mark the inauguration of First Locomotive Companys factory at Engels"
+    }
+   ],
+   "id": "e9"
+  }
+ ],
+ "undated_mentions": [
+  "Ethnic Germans moved into the town in large numbers during the reign of Catherine the Great (no year given)",
+  "All Germans expelled from Engels after the Volga German ASSR was disestablished (no year given)"
+ ]
+}

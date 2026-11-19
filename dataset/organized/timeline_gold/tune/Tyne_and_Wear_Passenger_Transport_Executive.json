@@ -1,0 +1,59 @@
+{
+ "page_id": "Tyne_and_Wear_Passenger_Transport_Executive",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1974-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Tyne and Wear PTE (Nexus) replaced the Tyneside PTE as executive body.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#0",
+     "role": "both",
+     "quote": "It replaced the Tyneside PTE on 1 April 1974 ."
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2009-04",
+   "grain": "month",
+   "track": "work",
+   "text": "Nexus launched a Bus Strategy to improve the Tyne and Wear bus network.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5",
+     "role": "both",
+     "quote": "In April 2009 Nexus launched a Bus Strategy aimed at improving the bus network in Tyne and Wear"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2014-10",
+   "grain": "month",
+   "track": "other",
+   "label": "policy decision",
+   "text": "North East Combined Authority accepted Nexus recommendation for a Quality Contracts Scheme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5",
+     "role": "both",
+     "quote": "In October 2014 the North East Combined Authority accepted a recommendation from Nexus to"
+    },
+    {
+     "chunk_id": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#6",
+     "role": "description",
+     "quote": "take forward a Quality Contracts Scheme as the best means of meeting this objective ."
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Nexus launched the Pop smartcard brand (no date given)",
+  "Nexus led a North East smart ticketing roll-out with local councils (NESTI) (no date given)",
+  "All TravelShops closed after the coronavirus outbreak until further notice (no date given)"
+ ]
+}

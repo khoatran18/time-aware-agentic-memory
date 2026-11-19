@@ -1,0 +1,734 @@
+{
+ "page_id": "/wiki/Cutty_Sark",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1869",
+   "grain": "year",
+   "track": "work",
+   "text": "Built on the River Leven, Dumbarton, for the Jock Willis Shipping Line",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#0",
+     "role": "both",
+     "quote": "Built on the River Leven , Dumbarton , Scotland in 1869 for the Jock Willis Shipping Line"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1869-02-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Construction contract signed with Scott & Linton",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#12",
+     "role": "both",
+     "quote": "A contract for Cutty Sarks construction was signed on 1 February 1869 with the firm of Scott & Linton"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1869-11-22",
+   "grain": "day",
+   "track": "work",
+   "text": "Hull finally launched by Captain Moodie's wife after Dennys completed her",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#14",
+     "role": "both",
+     "quote": "which was finally launched on 22 November 1869 by Captain Moodies wife"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1869-12-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Towed downriver to Greenock to have running rigging installed",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#14",
+     "role": "both",
+     "quote": "then on 20 December towed downriver to Greenock to have her running rigging installed"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1870-02-16",
+   "grain": "day",
+   "track": "other",
+   "label": "voyage",
+   "text": "First tea round-trip voyage began from London to Shanghai under Captain Moodie",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#23",
+     "role": "both",
+     "quote": "Her first round trip voyage under captain George Moodie began 16 February 1870"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1870-06-25",
+   "grain": "day",
+   "track": "other",
+   "label": "voyage",
+   "text": "Return tea voyage began from Shanghai",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#24",
+     "role": "both",
+     "quote": "of tea from Shanghai , began 25 June , arriving 13 October in London via the Cape of Good Hope"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1870-10-13",
+   "grain": "day",
+   "track": "other",
+   "label": "voyage",
+   "text": "Tea voyage arrived in London via the Cape of Good Hope",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#24",
+     "role": "both",
+     "quote": "of tea from Shanghai , began 25 June , arriving 13 October in London via the Cape of Good Hope"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1872-06-18",
+   "grain": "day",
+   "track": "other",
+   "label": "race",
+   "text": "Race against Thermopylae began, both ships leaving Shanghai together",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#31",
+     "role": "both",
+     "quote": "Cutty Sarks well known race against Thermopylae took place in 1872 , the two ships leaving Shanghai together on 18 June"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1872-07-02",
+   "grain": "day",
+   "track": "other",
+   "label": "rudder loss",
+   "text": "Lost her rudder in a heavy gale after the Sunda Strait during the race",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#31",
+     "role": "both",
+     "quote": "Two weeks later Cutty Sark had built up a lead of some , but then lost her rudder in a heavy gale"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1872-10-18",
+   "grain": "day",
+   "track": "other",
+   "label": "voyage",
+   "text": "Arrived in London a week after Thermopylae, total passage 122 days",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#32",
+     "role": "both",
+     "quote": "The ship finally arrived in London on 18 October a week after Thermopylae"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1872-10-18",
+   "grain": "day",
+   "track": "role",
+   "text": "Captain Moodie replaced by Captain F. W. Moore after his last trip",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#32",
+     "role": "date",
+     "quote": "The ship finally arrived in London on 18 October"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#33",
+     "role": "description",
+     "quote": "He was replaced by Captain F . W . Moore"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1873",
+   "grain": "year",
+   "track": "role",
+   "text": "Captain W. E. Tiptaft assumed command",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#34",
+     "role": "both",
+     "quote": "Captain W . E . Tiptaft assumed command in 1873"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1877-11",
+   "grain": "month",
+   "track": "other",
+   "label": "storm damage",
+   "text": "Anchor failed in a great storm off Deal; damaged two other vessels, grounded, towed to Thames for repairs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#35",
+     "role": "both",
+     "quote": "In November 1877 the ship was anchored off Deal in the English Channel"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1877-12",
+   "grain": "month",
+   "track": "other",
+   "label": "voyage",
+   "text": "Sailed from London to Sydney, then to Shanghai with coal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#36",
+     "role": "both",
+     "quote": "In December 1877 the ship sailed from London to Sydney"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1878-04",
+   "grain": "month",
+   "track": "other",
+   "label": "voyage",
+   "text": "Arrived in Shanghai, where no return tea cargo was found",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#36",
+     "role": "both",
+     "quote": "where she took on coal for Shanghai , arriving there in April"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1878-10",
+   "grain": "month",
+   "track": "role",
+   "text": "James Wallace became master after Captain Tiptaft died in Shanghai",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#36",
+     "role": "both",
+     "quote": "The master , Captain Tiptaft , died in October while still in Shanghai and was replaced by the first mate , James Wallace"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1880",
+   "grain": "year",
+   "track": "work",
+   "text": "Yards shortened and stunsails removed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#37",
+     "role": "both",
+     "quote": "In 1880 yards were shortened and the stunsails removed"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1880",
+   "grain": "year",
+   "track": "other",
+   "label": "incident",
+   "text": "First Mate Sidney Smith killed seaman John Francis on board; crew ceased work",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#37",
+     "role": "both",
+     "quote": "Also in 1880 an incident occurred on board during which the First Mate Sidney Smith killed seaman John Francis"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1880",
+   "grain": "year",
+   "track": "role",
+   "text": "William Bruce replaced Wallace as master",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#37",
+     "role": "date",
+     "quote": "Also in 1880 an incident occurred on board"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#37",
+     "role": "description",
+     "quote": "He was replaced as Master by William Bruce"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1882-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Captain and mate suspended after New York inquiry and replaced by Captain Moore",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#38",
+     "role": "both",
+     "quote": "An inquiry in New York in April 1882 resulted in the captain and mate being suspended"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1883-12",
+   "grain": "month",
+   "track": "other",
+   "label": "voyage",
+   "text": "Departed Newcastle, New South Wales with wool; arrived London in 83 days",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#39",
+     "role": "both",
+     "quote": "In December 1883 , Cutty Sark departed Newcastle , New South Wales with 4,289 bales of wool"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1885",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Run between England and New South Wales under the agency of Dangar, Gedye & Co. (to 1893)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#40",
+     "role": "both",
+     "quote": "From 1885 to 1893 , Cutty Sark was run between England and New South Wales"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1885",
+   "grain": "year",
+   "track": "role",
+   "text": "Richard Woodget appointed captain",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#40",
+     "role": "both",
+     "quote": "In 1885 Richard Woodget was appointed captain"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1889-07",
+   "grain": "month",
+   "track": "other",
+   "label": "overtook steamship",
+   "text": "Overtaken-steamship log records Cutty Sark overtaking it at 17 knots at night",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#41",
+     "role": "both",
+     "quote": "In July 1889 the log of the modern passenger steamship recorded that when steaming at 15–16 knots"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1895",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Sold by Jock Willis to Portuguese firm Joaquim Antunes Ferreira for £1,250",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#1",
+     "role": "both",
+     "quote": "the ship was sold to the Portuguese company Ferreira and Co . in 1895"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#42",
+     "role": "both",
+     "quote": "In 1895 Jock Willis sold Cutty Sark to the Portuguese firm Joaquim Antunes Ferreira for £1,250"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1895",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Ferreira after the new owning firm",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#1",
+     "role": "both",
+     "quote": "sold to the Portuguese company Ferreira and Co . in 1895 and renamed Ferreira"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#42",
+     "role": "description",
+     "quote": "She was renamed Ferreira after the firm"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1916-05",
+   "grain": "month",
+   "track": "other",
+   "label": "dismasting",
+   "text": "Dismasted off the Cape of Good Hope; later re-rigged as barquentine",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#43",
+     "role": "both",
+     "quote": "In May 1916 she was dismasted off the Cape of Good Hope"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1922",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Purchased by retired sea captain Wilfred Dowman, who used her as a training ship from Falmouth",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#2",
+     "role": "both",
+     "quote": "purchased in 1922 by retired sea captain Wilfred Dowman"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#46",
+     "role": "description",
+     "quote": "Dowman persevered in his determination to buy the ship , which he did for £3,750"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1922",
+   "grain": "year",
+   "track": "naming",
+   "text": "Sold to new Lisbon owners and renamed Maria do Amparo",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#44",
+     "role": "date",
+     "quote": "In 1922 Ferreira was the last clipper operating anywhere in the world"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#44",
+     "role": "description",
+     "quote": "where she was sold to new owners and renamed Maria do Amparo"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1924",
+   "grain": "year",
+   "track": "other",
+   "label": "regatta",
+   "text": "Used as committee boat for the Fowey regatta week",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#47",
+     "role": "both",
+     "quote": "In 1924 she was used as committee boat for the regatta week in Fowey"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1936",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Given by Dowman's widow with £5000 to Thames Nautical Training College, HMS Worcester",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#47",
+     "role": "both",
+     "quote": "Dowman died in 1936 and the ship was given by Catharine Dowman , his widow"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1938",
+   "grain": "year",
+   "track": "location",
+   "text": "Transferred to Thames Nautical Training College at Greenhithe as auxiliary cadet training ship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#2",
+     "role": "both",
+     "quote": "was transferred to the Thames Nautical Training College , Greenhithe in 1938"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#48",
+     "role": "description",
+     "quote": "She was towed to Greenhithe by tug"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1950",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became surplus to requirements as a sail training ship at Greenhithe",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#49",
+     "role": "both",
+     "quote": "by 1950 she had become surplus to requirements"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1951-02",
+   "grain": "month",
+   "track": "location",
+   "text": "Temporarily moved for refit, then to the Festival of Britain at Deptford (to October)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#49",
+     "role": "both",
+     "quote": "From February to October 1951 she was temporarily moved first for a refit"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1952-01-30",
+   "grain": "day",
+   "track": "other",
+   "label": "collision",
+   "text": "Collided with an 800-ton tanker in the Thames; bowsprit and figurehead arm damaged, repaired at Shadwell",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#49",
+     "role": "both",
+     "quote": "On 30 January 1952 , the 800-ton tanker collided with Cutty Sarks bow in the Thames"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1953",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Given to the Cutty Sark Preservation Society",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#51",
+     "role": "both",
+     "quote": "In 1953 Cutty Sark was given to the Cutty Sark Preservation Society"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1953-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Foundation stone of the Greenwich dry dock laid by the Duke of Edinburgh",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#52",
+     "role": "both",
+     "quote": "The foundation stone of the dry dock was laid by The Duke of Edinburgh , patron of the Cutty Sark Preservation Society , in June 1953"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1954",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to permanent custom-built dry dock at Greenwich for public display",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#2",
+     "role": "both",
+     "quote": "By 1954 , she had ceased to be useful as a cadet ship and was transferred to permanent dry dock at Greenwich"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#51",
+     "role": "both",
+     "quote": "in 1954 she was moved to a custom-built dry dock at Greenwich"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2000",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Cutty Sark Trust replaced the Cutty Sark Society as the ship's custodian",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#54",
+     "role": "both",
+     "quote": "The Trust replaced the Society in 2000"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "Conservation and restoration project commenced, costed at £25 million",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#71",
+     "role": "both",
+     "quote": "The project was costed at £25 million when it commenced in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2007-05-21",
+   "grain": "day",
+   "track": "other",
+   "label": "fire",
+   "text": "Fire broke out while closed for conservation; burned for hours, most of the centre wooden structure lost",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#4",
+     "role": "both",
+     "quote": "first on 21 May 2007 while undergoing conservation"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#57",
+     "role": "both",
+     "quote": "On the morning of 21 May 2007 , Cutty Sark , which had been closed and partly dismantled"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2008-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Heritage Lottery Fund awarded the Trust a further £10 million for restoration",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#72",
+     "role": "both",
+     "quote": "In January 2008 , the Heritage Lottery Fund awarded the Cutty Sark Trust another £10 million"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2008-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Sammy Ofer donated the outstanding £3.3 million needed to fully restore the ship",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#72",
+     "role": "both",
+     "quote": "In June 2008 , Israeli shipping magnate Sammy Ofer donated the outstanding £3.3 million"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2008-09-30",
+   "grain": "day",
+   "track": "other",
+   "text": "London Fire Brigade announced conclusion of the investigation into the 2007 fire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#74",
+     "role": "both",
+     "quote": "On 30 September 2008 , the London Fire Brigade announced the conclusion of the investigation into the fire"
+    }
+   ],
+   "label": "fire"
+  },
+  {
+   "id": "e45",
+   "date": "2012-04-25",
+   "grain": "day",
+   "track": "work",
+   "text": "Restored and reopened to the public after conservation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#4",
+     "role": "both",
+     "quote": "She was restored and was reopened to the public on 25 April 2012"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2014-10-19",
+   "grain": "day",
+   "track": "other",
+   "label": "fire",
+   "text": "Smaller second fire on deck damaged part of deck three and hull timbers",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Cutty_Sark#4",
+     "role": "both",
+     "quote": "On 19 October 2014 she was damaged in a smaller fire"
+    },
+    {
+     "chunk_id": "/wiki/Cutty_Sark#61",
+     "role": "both",
+     "quote": "In a second incident on the morning of 19 October 2014 , another fire broke out on the deck"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Record 73-day London to Sydney outward passage (no date)",
+  "Denny & Brothers took over the contract after Scott & Linton ran out of money (1869, no exact date)",
+  "Opened to the public as a historic survivor, visitors rowed out (1920s-1930s)",
+  "Placed on the Buildings At Risk Register following the 2007 fire (no exact date)",
+  "Early 2000s: serious corrosion concerns about the iron internal structure (decade-level)"
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "page_id": "Veliky_Novgorod",
+ "events": [
+  {
+   "id": "e1",
+   "date": "0859",
+   "grain": "year",
+   "track": "other",
+   "label": "first_mention",
+   "text": "City first mentioned in Sofia First Chronicle, per charter",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#2",
+     "role": "both",
+     "quote": "The Sofia First Chronicle makes initial mention of it in 859"
+    },
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#2",
+     "role": "both",
+     "quote": "The Charter of Veliky Novgorod recognizes 859 as the year when the city was first mentioned"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e2",
+   "date": "0862",
+   "grain": "year",
+   "track": "other",
+   "label": "first_mention",
+   "text": "City first mentioned in Novgorod First Chronicle",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#2",
+     "role": "both",
+     "quote": "the Novgorod First Chronicle first mentions it in 862"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e3",
+   "date": "1010",
+   "grain": "year",
+   "track": "role",
+   "text": "Yaroslav the Wise began reign as Prince of Novgorod",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#9",
+     "role": "both",
+     "quote": "who sat as Prince of Novgorod from 1010 to 1019"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1019",
+   "grain": "year",
+   "track": "role",
+   "text": "Yaroslav the Wise ended reign as Prince of Novgorod",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#9",
+     "role": "both",
+     "quote": "who sat as Prince of Novgorod from 1010 to 1019"
+    }
+   ]
+  },
+  {
+   "date": "1080",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Visby merchants established trading post Gutagard in Novgorod",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#12",
+     "role": "both",
+     "quote": "At Novgorod in 1080 , Visby merchants established a trading post"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "1136",
+   "grain": "year",
+   "track": "role",
+   "text": "Novgorodians dismissed Prince Vsevolod Mstislavich",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#13",
+     "role": "both",
+     "quote": "In 1136 , the Novgorodians dismissed their prince Vsevolod Mstislavich"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1136",
+   "grain": "year",
+   "track": "other",
+   "label": "republic_beginning",
+   "text": "Traditional beginning of the Novgorod Republic",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#13",
+     "role": "date",
+     "quote": "In 1136 , the Novgorodians dismissed their prince Vsevolod Mstislavich"
+    },
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#13",
+     "role": "description",
+     "quote": "The year is seen as the traditional beginning of the Novgorod Republic"
+    }
+   ]
+  },
+  {
+   "date": "1229",
+   "grain": "year",
+   "track": "other",
+   "label": "privileges",
+   "text": "German merchants at Novgorod granted privileges",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#12",
+     "role": "both",
+     "quote": "in 1229 , German merchants at Novgorod were granted certain privileges"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "id": "e9",
+   "date": "1240",
+   "grain": "year",
+   "track": "other",
+   "label": "military_attacks",
+   "text": "German knights and Danish and Swedish lords began attacks, 1240-1242",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#25",
+     "role": "both",
+     "quote": "launched a series of uncoordinated attacks in 1240–1242"
+    }
+   ]
+  },
+  {
+   "date": "1240",
+   "grain": "year",
+   "track": "other",
+   "label": "battle",
+   "text": "Swedish army defeated in the Battle of the Neva (Novgorodian sources)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#26",
+     "role": "both",
+     "quote": "a Swedish army was defeated in the Battle of the Neva in 1240"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "date": "1242",
+   "grain": "year",
+   "track": "other",
+   "label": "battle",
+   "text": "Baltic German campaigns ended in failure after the Battle on the Ice",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#26",
+     "role": "both",
+     "quote": "The Baltic German campaigns ended in failure after the Battle on the Ice in 1242"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "1259",
+   "grain": "year",
+   "track": "other",
+   "label": "mongol_census",
+   "text": "Mongol tax-collectors and census-takers arrived in the city",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#23",
+     "role": "both",
+     "quote": "In 1259 , Mongol tax-collectors and census-takers arrived in the city"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1323-08-12",
+   "grain": "day",
+   "track": "other",
+   "label": "treaty",
+   "text": "Sweden and Novgorod signed Treaty of Nöteborg, setting border",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#26",
+     "role": "both",
+     "quote": "On August 12 , 1323 , Sweden and Novgorod signed the Treaty of Nöteborg"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1478",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ivan III annexed the city to the Grand Duchy of Moscow",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#27",
+     "role": "both",
+     "quote": "Eventually Ivan III forcibly annexed the city to the Grand Duchy of Moscow in 1478"
+    },
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#51",
+     "role": "both",
+     "quote": "Novgorods conquest by Ivan III in 1478"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1478",
+   "grain": "year",
+   "track": "other",
+   "label": "veche",
+   "text": "The Veche assembly was dissolved",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#27",
+     "role": "both",
+     "quote": "in 1478 . The Veche was dissolved and a significant part of Novgorods aristocracy"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e16",
+   "date": "1478",
+   "grain": "year",
+   "track": "other",
+   "label": "deportation",
+   "text": "Significant part of aristocracy and merchants deported to central Russia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#27",
+     "role": "both",
+     "quote": "in 1478 . The Veche was dissolved and a significant part of Novgorods aristocracy"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "date": "1494",
+   "grain": "year",
+   "track": "other",
+   "label": "kontor",
+   "text": "Hanseatic League kontor closed and goods seized by Muscovite forces",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#27",
+     "role": "both",
+     "quote": "The Hanseatic League kontor was closed in 1494"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1570",
+   "grain": "year",
+   "track": "other",
+   "label": "massacre",
+   "text": "Ivan the Terrible sacked the city and deported its elite",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#29",
+     "role": "both",
+     "quote": "remained so until the famine of the 1560s and the Massacre of Novgorod in 1570"
+    }
+   ]
+  },
+  {
+   "date": "1603",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "German trading post reestablished",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#30",
+     "role": "both",
+     "quote": "The German trading post was reestablished in 1603"
+    }
+   ],
+   "id": "e19"
+  },
+  {
+   "id": "e20",
+   "date": "1611",
+   "grain": "year",
+   "track": "other",
+   "label": "submission",
+   "text": "Novgorodians submitted to Swedish troops led by De la Gardie",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#31",
+     "role": "both",
+     "quote": "submitted to Swedish troops led by Jacob De la Gardie in the summer of 1611"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e21",
+   "date": "1617",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "City restituted to Muscovy by Treaty of Stolbovo",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#31",
+     "role": "both",
+     "quote": "The city was restituted to Muscovy six years later by the Treaty of Stolbovo"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e22",
+   "date": "1727",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Made administrative center of Novgorod Governorate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#34",
+     "role": "both",
+     "quote": "In 1727 , Novgorod was made the administrative center of Novgorod Governorate"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1927",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Novgorod Governorate administrative division ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#34",
+     "role": "both",
+     "quote": "This administrative division existed until 1927"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1927",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began as part of Leningrad Oblast",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#34",
+     "role": "both",
+     "quote": "Between 1927 and 1944 , the city was a part of Leningrad Oblast"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1941-08-15",
+   "grain": "day",
+   "track": "other",
+   "label": "occupation",
+   "text": "City occupied by the German Army during World War II",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#35",
+     "role": "both",
+     "quote": "On August 15 , 1941 , during World War II , the city was occupied by the German Army"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1944",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended membership in Leningrad Oblast",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#34",
+     "role": "both",
+     "quote": "Between 1927 and 1944 , the city was a part of Leningrad Oblast"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1944",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became administrative center of newly formed Novgorod Oblast",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#34",
+     "role": "both",
+     "quote": "and then became the administrative center of the newly formed Novgorod Oblast"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e28",
+   "date": "1944-01-19",
+   "grain": "day",
+   "track": "other",
+   "label": "liberation",
+   "text": "Red Army took control of the city (source wording truncated)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#35",
+     "role": "both",
+     "quote": "The Red Army the city on January 19 , 1944"
+    }
+   ]
+  },
+  {
+   "date": "1964",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Museum of wooden architecture established at Vitoslavlitsy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#53",
+     "role": "both",
+     "quote": "a museum of wooden architecture was established in 1964"
+    }
+   ],
+   "id": "e29"
+  },
+  {
+   "id": "e30",
+   "date": "1992",
+   "grain": "year",
+   "track": "other",
+   "label": "heritage_listing",
+   "text": "Recognized as UNESCO World Heritage Site",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#0",
+     "role": "both",
+     "quote": "UNESCO recognized Novgorod as a World Heritage Site in 1992"
+    },
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#35",
+     "role": "both",
+     "quote": "In 1992 , the chief monuments of the city and the surrounding area were inscribed on the UNESCO World Heritage Site list"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Trolleybus network began operating in the city",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#56",
+     "role": "both",
+     "quote": "The trolleybus network , which currently consists of five routes , started operating in 1995"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1999",
+   "grain": "year",
+   "track": "naming",
+   "text": "City officially renamed Veliky Novgorod",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#36",
+     "role": "both",
+     "quote": "In 1999 , the city was officially renamed Veliky Novgorod"
+    }
+   ]
+  },
+  {
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "airport",
+   "text": "Yurievo commercial airport decommissioned",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Veliky_Novgorod#55",
+     "role": "both",
+     "quote": "Yurievo was decommissioned in 2006"
+    }
+   ],
+   "id": "e33"
+  }
+ ],
+ "undated_mentions": [
+  "Capital of the Novgorod Republic at its peak (14th century)",
+  "Veliky part eventually added to city name (no date)",
+  "Town itself dated from end of 10th century",
+  "Four Viking kings sought refuge in Novgorod (no date)",
+  "Easternmost Hanseatic kontor in Novgorod (13th century)",
+  "Moscow grand princes collected tribute in Novgorod (no date)",
+  "Struggles against Swedish, Danish, German crusaders (from 13th century)",
+  "Ushkuiniki pirate raids (14th century)",
+  "Famine of the 1560s",
+  "Boris Godunov restored trade privileges (last decade of 16th century)",
+  "Certain elective offices restored after abolition by Ivan III (no date)"
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "page_id": "Milan_Metro_Line_2",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1968",
+   "grain": "year",
+   "track": "work",
+   "text": "Predecessor Linee celeri dellAdda fast tramway opened from Cimiano to Gorgonzola.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#3",
+     "role": "both",
+     "quote": "opened in 1968 from Cimiano up to Gorgonzola"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "ET245 rolling stock introduced on the line with its opening.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#5",
+     "role": "both",
+     "quote": "which was introduced in 1969 with the opening of the line"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1969-09",
+   "grain": "month",
+   "track": "work",
+   "text": "First section from Caiazzo to Cascina Gobba opened.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#3",
+     "role": "both",
+     "quote": "The first part of the line , from Caiazzo to Cascina Gobba , was opened on September 1969"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "300/400 Series trains begin delivery and manufacture.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#8",
+     "role": "both",
+     "quote": "As the 300/400 Series trains were delivered starting from 1970"
+    },
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "The three-doors 300/400 Series trains were manufactured between 1970 and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1972",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Section incorporated into the newly created Metro line.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#3",
+     "role": "both",
+     "quote": "After few years , in 1972 , the section was included in the newly born Metro line"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1981",
+   "grain": "year",
+   "track": "work",
+   "text": "300/400 Series manufacturing ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "manufactured between 1970 and 1981"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "Section extended to Gessate, the present terminus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#3",
+     "role": "both",
+     "quote": "The same section was extended in 1985 up to Gessate"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "350 Series rolling stock introduced with four doors per car.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "in 1985 the 350 Series was introduced"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "350 Series production begins in two batches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "350 Series trains were produced in 2 batches between 1985 and 1991"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Three experimental 500 Series trains introduced to test inverters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "In 1987 the 500 Series was introduced"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "350 Series production ends after two batches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#9",
+     "role": "both",
+     "quote": "350 Series trains were produced in 2 batches between 1985 and 1991"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2009-04",
+   "grain": "month",
+   "track": "work",
+   "text": "First AnsaldoBreda Meneghino train introduced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#7",
+     "role": "both",
+     "quote": "The first train was introduced in April 2009"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "3000 Series Leonardo trains follow, jointly replacing older stock.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Milan_Metro_Line_2#7",
+     "role": "both",
+     "quote": "In 2015 , the 3000 Series Leonardo followed"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Line 2 provisionally operated with 100/200 Series trains transferred from Line 1 (no date stated)",
+  "Some original ET245 trains renewed in recent years (no date stated)",
+  "Planned Cologno to Vimercate extension works halted for lack of funds (no date stated)"
+ ]
+}

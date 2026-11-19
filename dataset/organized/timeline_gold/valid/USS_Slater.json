@@ -1,0 +1,253 @@
+{
+  "page_id": "USS_Slater",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1943-03-09",
+      "grain": "day",
+      "track": "work",
+      "text": "USS Slater laid down at Tampa Shipbuilding Company, Florida.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#5", "role": "both", "quote": "USS Slater was laid down on 9 March 1943"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1944",
+      "grain": "year",
+      "track": "other",
+      "label": "convoy escort",
+      "text": "Escorted two convoys to the United Kingdom in the latter part of 1944.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#6", "role": "both", "quote": "In the latter part of 1944 , Slater escorted two convoys to the United Kingdom"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "1944-02-20",
+      "grain": "day",
+      "track": "other",
+      "label": "christening",
+      "text": "Ship christened by Lenora Slater, mother of the namesake.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#5", "role": "both", "quote": "she was christened on 20 Feb 1944 by Lenora Slater"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1944-02-20",
+      "grain": "day",
+      "track": "work",
+      "text": "USS Slater launched.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#5", "role": "both", "quote": "launched on 20 February 1944"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1944-05-01",
+      "grain": "day",
+      "track": "work",
+      "text": "USS Slater commissioned into the United States Navy.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#5", "role": "both", "quote": "The ship was commissioned on 1 May 1944"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1944-06",
+      "grain": "month",
+      "track": "other",
+      "label": "shakedown cruise",
+      "text": "Shakedown cruise near Bermuda.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#6", "role": "both", "quote": "After a shakedown cruise near Bermuda in June 1944"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1945-01",
+      "grain": "month",
+      "track": "other",
+      "label": "convoy escort",
+      "text": "Continued convoy escort service begins.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#6", "role": "both", "quote": "She continued serving in this capacity from January 1945 until May 1945"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1945-05",
+      "grain": "month",
+      "track": "other",
+      "label": "convoy escort",
+      "text": "Convoy escort service ends.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#6", "role": "both", "quote": "She continued serving in this capacity from January 1945 until May 1945"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1945-06-28",
+      "grain": "day",
+      "track": "location",
+      "text": "Passed through the Panama Canal on the way to the Pacific.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#7", "role": "both", "quote": "She went through the Panama Canal on 28 June 1945"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1945-09",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Joined Task Unit 33.2.4 at Manila and escorted it to Yokohama.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#7", "role": "both", "quote": "From there she joined Task Unit 33.2.4 at Manila in September"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e11",
+      "date": "1947",
+      "grain": "year",
+      "track": "other",
+      "label": "deactivation",
+      "text": "Placed in the reserve fleet at Green Cove Springs, Florida.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#7", "role": "description", "quote": "Slater was placed in the reserve fleet at Green Cove Springs ,"},
+        {"chunk_id": "/wiki/USS_Slater#8", "role": "date", "quote": "Florida in 1947"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1951-03-01",
+      "grain": "day",
+      "track": "affiliation",
+      "text": "Transferred to the Hellenic Navy under the Truman Doctrine.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#9", "role": "both", "quote": "On 1 March 1951 , Slater was transferred to the Hellenic Navy under the Truman Doctrine"},
+        {"chunk_id": "/wiki/USS_Slater#0", "role": "description", "quote": "the ship was transferred to Greece and renamed Aetos"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1951-03-01",
+      "grain": "day",
+      "track": "naming",
+      "text": "Renamed Aetos (Eagle) with pennant D01 in Greek service.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#9", "role": "both", "quote": "On 1 March 1951 , Slater was transferred to the Hellenic Navy under the Truman Doctrine , and renamed Aetos"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1961",
+      "grain": "year",
+      "track": "other",
+      "label": "filming",
+      "text": "Ship appeared in Greek film Alice in the Navy while in Greek service.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#13", "role": "both", "quote": "Alice in the Navy , filmed in 1961"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1991",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Decommissioned from the Hellenic Navy as Aetos.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#9", "role": "both", "quote": "Aetos was decommissioned in 1991"},
+        {"chunk_id": "/wiki/USS_Slater#0", "role": "both", "quote": "Decommissioned in 1991"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1991",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Greece donated the ship to the Destroyer Escort Sailors Association.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#9", "role": "both", "quote": "Aetos was decommissioned in 1991 , and Greece donated the ship to the Destroyer Escort Sailors Association"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e17",
+      "date": "1993",
+      "grain": "year",
+      "track": "location",
+      "text": "Towed by a Russian tugboat from Crete to New York City.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#10", "role": "both", "quote": "A Russian ocean-going tugboat towed the ship from Crete to New York City in 1993"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1997-10-26",
+      "grain": "day",
+      "track": "location",
+      "text": "Arrived at the Port of Albany, New York, as a museum ship.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#10", "role": "both", "quote": "On Sunday 26 October 1997 , Slater arrived at the Port of Albany"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1998-05-07",
+      "grain": "day",
+      "track": "other",
+      "label": "heritage listing",
+      "text": "Listed on the National Register of Historic Places.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#12", "role": "both", "quote": "On 7 May 1998 , Slater was listed on the National Register of Historic Places"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2006-01",
+      "grain": "month",
+      "track": "other",
+      "label": "fire",
+      "text": "Welder accidentally started a fire aboard, causing minor damage.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#10", "role": "both", "quote": "In January 2006 , a welder accidentally started a fire"},
+        {"chunk_id": "/wiki/USS_Slater#11", "role": "description", "quote": "aboard Slater which caused some minor damage to the ship"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2008-08",
+      "grain": "month",
+      "track": "other",
+      "label": "filming",
+      "text": "Part of Japanese film Orion in Midsummer filmed on board.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#13", "role": "both", "quote": "In August 2008 part of the Japanese film Orion in Midsummer was filmed on board"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "2019-09-10",
+      "grain": "day",
+      "track": "other",
+      "label": "collision",
+      "text": "Struck by the Hudson River touring ship Dutch Apple.",
+      "evidence": [
+        {"chunk_id": "/wiki/USS_Slater#2", "role": "both", "quote": "USS Slater was struck by the Hudson River touring ship Dutch Apple on 10 September 2019"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Sent to Key West to serve as target ship and sonar school ship (after June 1944)",
+    "Headed to the Pacific after the war in Europe ended",
+    "Stopped at San Diego before sailing to Pearl Harbor (1945)",
+    "Second Panama Canal passage en route to Norfolk for deactivation",
+    "Destroyer escort sailors donated more than a quarter of a million dollars to bring Slater to the United States",
+    "Albany, New York chosen as permanent home for the ship",
+    "Repairs completed within a few months after the 2006 fire",
+    "Refits: depth-charge racks and K-guns removed, twin Bofors 40 mm guns added, single 20 mm guns replaced with twin mounts"
+  ]
+}

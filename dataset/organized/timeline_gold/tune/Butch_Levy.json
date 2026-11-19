@@ -1,0 +1,131 @@
+{
+  "page_id": "/wiki/Butch_Levy",
+  "events": [
+    {"id": "e1", "date": "1921-02-19", "grain": "day", "track": "other", "label": "birth", "text": "Butch Levy born in Minneapolis, Minnesota",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#0", "role": "both", "quote": "February 19 , 1921 – February 9 , 1999"},
+       {"chunk_id": "/wiki/Butch_Levy#3", "role": "both", "quote": "Levy was born to Abraham Levy and Rose Shapiro on February 19 , 1921"}
+     ]},
+    {"id": "e2", "date": "1937", "grain": "year", "track": "other", "label": "award", "text": "Won Minnesota high school heavyweight wrestling championship",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#3", "role": "both", "quote": "He was the 1937 and 1938 Minnesota high school and Northwest AAU heavyweight wrestling champion"}
+     ]},
+    {"id": "e3", "date": "1938", "grain": "year", "track": "other", "label": "award", "text": "Won Minnesota high school heavyweight wrestling championship again",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#3", "role": "both", "quote": "He was the 1937 and 1938 Minnesota high school and Northwest AAU heavyweight wrestling champion"}
+     ]},
+    {"id": "e4", "date": "1939", "grain": "year", "track": "affiliation", "text": "Began playing for Minnesota Golden Gophers college football",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "Levy played for the Minnesota Golden Gophers from 1939 to 1941"}
+     ]},
+    {"id": "e5", "date": "1940", "grain": "year", "track": "other", "label": "award", "text": "Earned All-American honors", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "while Levy earned All-American honors both years"}
+     ]},
+    {"id": "e6", "date": "1941", "grain": "year", "track": "other", "label": "award", "text": "Earned AP All-Western Conference first team recognition",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "He garnered AP All-Western Conference first team recognition his senior year in 1941"}
+     ]},
+    {"id": "e7", "date": "1941", "grain": "year", "track": "other", "label": "award", "text": "Won NCAA heavyweight wrestling championship, first Golden Gopher to do so",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#0", "role": "both", "quote": "The 1941 NCAA heavyweight wrestling champion"},
+       {"chunk_id": "/wiki/Butch_Levy#5", "role": "both", "quote": "winning the NCAA heavyweight championship in 1941"}
+     ]},
+    {"id": "e8", "date": "1941", "grain": "year", "track": "other", "label": "award", "text": "Earned All-American honors", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#5", "role": "both", "quote": "also earned All-American honors the same year"},
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "while Levy earned All-American honors both years"}
+     ]},
+    {"id": "e9", "date": "1941", "grain": "year", "track": "affiliation", "text": "Ended playing career for Minnesota Golden Gophers",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "Levy played for the Minnesota Golden Gophers from 1939 to 1941"}
+     ]},
+    {"id": "e10", "date": "1942", "grain": "year", "track": "affiliation", "text": "Selected by Cleveland Rams in the 1942 NFL Draft",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#0", "role": "both", "quote": "in the fourth round of the 1942 NFL Draft"},
+       {"chunk_id": "/wiki/Butch_Levy#7", "role": "both", "quote": "Levy was selected by the Cleveland Rams of the NFL with the 27th pick in the 1942 NFL Draft"}
+     ]},
+    {"id": "e11", "date": "1942", "grain": "year", "track": "other", "label": "award", "text": "Won AAU heavyweight wrestling championship",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#0", "role": "both", "quote": "1942 AAU champion"},
+       {"chunk_id": "/wiki/Butch_Levy#5", "role": "both", "quote": "He won the AAU heavyweight championship in wrestling in 1942"}
+     ]},
+    {"id": "e12", "date": "1942", "grain": "year", "track": "other", "label": "award", "text": "Named to Chicago College All-Star Game",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#4", "role": "both", "quote": "He was named to the Chicago College All-Star Game in 1942"}
+     ]},
+    {"id": "e13", "date": "1942", "grain": "year", "track": "other", "label": "award", "text": "Lettered in baseball for Minnesota Golden Gophers",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#5", "role": "both", "quote": "Levy also lettered in baseball for the Golden Gophers in 1942"}
+     ]},
+    {"id": "e14", "date": "1944-01", "grain": "month", "track": "family", "text": "Married Loretta Lucky Bellson",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#12", "role": "both", "quote": "Levy married Loretta Lucky Bellson in January 1944"}
+     ]},
+    {"id": "e15", "date": "1945-12-16", "grain": "day", "track": "other", "label": "award", "text": "Rams won NFL Championship against Washington Redskins",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#8", "role": "both", "quote": "The Rams won the NFL Championship against the Washington Redskins on December 16 , 1945"},
+       {"chunk_id": "/wiki/Butch_Levy#1", "role": "description", "quote": "winning the NFL Championship"}
+     ]},
+    {"id": "e16", "date": "1946", "grain": "year", "track": "location", "text": "Followed Rams when they moved to Los Angeles",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "When the Rams moved to Los Angeles in 1946 , Levy followed"}
+     ]},
+    {"id": "e17", "date": "1946-03", "grain": "month", "track": "affiliation", "text": "Signed one-year contract with Los Angeles Rams",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "signing a one-year contract in March 1946"}
+     ]},
+    {"id": "e18", "date": "1947", "grain": "year", "track": "affiliation", "text": "Began playing for Los Angeles Dons in AAFC",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#1", "role": "both", "quote": "from 1947 to 1948"},
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "from 1947 to 1948"}
+     ]},
+    {"id": "e19", "date": "1948", "grain": "year", "track": "affiliation", "text": "Ended playing career with Los Angeles Dons in AAFC",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#1", "role": "both", "quote": "from 1947 to 1948"},
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "from 1947 to 1948"}
+     ]},
+    {"id": "e20", "date": "1948", "grain": "year", "track": "other", "label": "award", "text": "Earned First Team All-AAFC honors", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#1", "role": "both", "quote": "earning First Team All-AAFC honors in the latter year"},
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "earning All-AAFC first team honors in his final year"}
+     ]},
+    {"id": "e21", "date": "1948", "grain": "year", "track": "other", "label": "retirement", "text": "Retired from professional football",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#9", "role": "both", "quote": "He retired from professional football at the end of the 1948 season"}
+     ]},
+    {"id": "e22", "date": "1950", "grain": "year", "track": "other", "label": "tour", "text": "Met Pat OConnor during wrestling tour in New Zealand",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#10", "role": "both", "quote": "Levy met amateur wrestler Pat OConnor from New Zealand during a wrestling tour in Pats home country in 1950"}
+     ]},
+    {"id": "e23", "date": "1991", "grain": "year", "track": "other", "label": "illness", "text": "Suffered a brain tumor",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#12", "role": "both", "quote": "He suffered a brain tumor in 1991"}
+     ]},
+    {"id": "e24", "date": "1994", "grain": "year", "track": "other", "label": "honour", "text": "Inducted into University of Minnesota M Club Hall of Fame",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#6", "role": "both", "quote": "He was inducted into the University of Minnesotas M Club Hall of Fame in 1994"}
+     ]},
+    {"id": "e25", "date": "1997", "grain": "year", "track": "family", "text": "Wife Lucky died",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#12", "role": "both", "quote": "Lucky died in 1997"}
+     ]},
+    {"id": "e26", "date": "1999-02-09", "grain": "day", "track": "other", "label": "death", "text": "Died of cancer at his home in Minneapolis",
+     "evidence": [
+       {"chunk_id": "/wiki/Butch_Levy#0", "role": "both", "quote": "February 19 , 1921 – February 9 , 1999"},
+       {"chunk_id": "/wiki/Butch_Levy#14", "role": "both", "quote": "Levy died of cancer on February 9 , 1999"}
+     ]}
+  ],
+  "undated_mentions": [
+    "attended West High School in Minneapolis (no date)",
+    "enlisted in the United States Navy and played for the Great Lakes Bluejackets (no date)",
+    "served three years in the United States Navy during World War II",
+    "broken foot midway through the 1941-42 season",
+    "graduated with a bachelor's degree in economics (no date)",
+    "became a professional wrestler in the AWA after football (no date)",
+    "two-time NWA World Tag Team champion (no date)",
+    "sold father's plumbing business in the late 1960s and became insurance agent for Bankers Life",
+    "became a stockbroker in the 1970s",
+    "later worked for Piper Jaffray (no date)"
+  ]
+}

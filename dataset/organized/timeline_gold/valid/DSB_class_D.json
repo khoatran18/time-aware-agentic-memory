@@ -1,0 +1,153 @@
+{
+ "page_id": "DSB_class_D",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1901",
+   "grain": "year",
+   "track": "work",
+   "text": "DSB ordered the first class D engine.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#2",
+     "role": "both",
+     "quote": "the first D class engine was ordered in 1901"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1902",
+   "grain": "year",
+   "track": "work",
+   "text": "Delivery of class D engines to DSB began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#0",
+     "role": "both",
+     "quote": "from the start of its delivery in 1902"
+    },
+    {
+     "chunk_id": "/wiki/DSB_class_D#4",
+     "role": "both",
+     "quote": "DSB acquired in total 100 D class engines between 1902 and 1922"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1910",
+   "grain": "year",
+   "track": "work",
+   "text": "Second series of class D engines delivered, in two versions (D II, D III).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#5",
+     "role": "both",
+     "quote": "The next series of engines delivered from 1910–1922"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1917",
+   "grain": "year",
+   "track": "work",
+   "text": "16 class D engines bought from Baldwin using part of the sale proceeds.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#4",
+     "role": "both",
+     "quote": "sold the Danish West Indies to The US in 1917 and part of the money was used to buy 16 class D engines"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1922",
+   "grain": "year",
+   "track": "work",
+   "text": "Delivery of class D engines ended; 100 units in total.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#4",
+     "role": "both",
+     "quote": "DSB acquired in total 100 D class engines between 1902 and 1922"
+    },
+    {
+     "chunk_id": "/wiki/DSB_class_D#5",
+     "role": "both",
+     "quote": "The next series of engines delivered from 1910–1922"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1925",
+   "grain": "year",
+   "track": "work",
+   "text": "DSB began modernizing D I and some D II engines into D IV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#6",
+     "role": "both",
+     "quote": "DSB decided between 1925 and 1950 to modernize all D I and some D II engines"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Modernization of D I and D II engines into D IV ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#6",
+     "role": "both",
+     "quote": "DSB decided between 1925 and 1950 to modernize all D I and some D II engines"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1967",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "Last few class D engines withdrawn from minor branch lines.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#8",
+     "role": "both",
+     "quote": "Few class D engines could still be found in service on the minor DSB branch lines until around 1967"
+    }
+   ]
+  },
+  {
+   "date": "1970",
+   "grain": "year",
+   "track": "other",
+   "label": "withdrawal",
+   "text": "DSB abandoned steam; only D 825 and D 826 were still serviceable",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/DSB_class_D#1",
+     "role": "both",
+     "quote": "Only two class D engines were serviceable when DSB abandoned steam in 1970"
+    }
+   ],
+   "id": "e9"
+  }
+ ],
+ "undated_mentions": [
+  "start of the 1950s: class D ceased to be the freight backbone",
+  "1950s: first non-modernized D III locomotives started to be withdrawn",
+  "end of the 1950s: class D swansong as diesel deliveries (MY, MX) began",
+  "start of the 1960s: MX diesel delivery marked the swansong for class D",
+  "first half of the 1960s: massive withdrawal of class D",
+  "undated: five surviving class D locomotives preserved (D 802, D 825, D 826, D 857, D 871)"
+ ]
+}

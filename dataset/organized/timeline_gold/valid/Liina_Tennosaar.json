@@ -1,0 +1,429 @@
+{
+ "page_id": "Liina_Tennosaar",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1965-05-23",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born; Estonian stage, film and television actress",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#0",
+     "role": "both",
+     "quote": "born 23 May 1965"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1982",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from primary and secondary schools in Tallinn",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#2",
+     "role": "both",
+     "quote": "attended primary and secondary schools in Tallinn , graduating in 1982"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Television debut as Mari in Püha Susanna ehk meistrite kool",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#5",
+     "role": "both",
+     "quote": "as Mari in the Ago-Endrik Kerge directed 1983 Soviet-Estonian comedy television feature-length film Püha Susanna ehk meistrite kool"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1984",
+   "grain": "year",
+   "track": "family",
+   "label": "marriage",
+   "text": "Married actor Heino Seljamaa (first marriage)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#11",
+     "role": "both",
+     "quote": "her first marriage was to actor , puppeteer and singer Heino Seljamaa from 1984"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1986",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated in acting from Tallinn State Conservatory",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#2",
+     "role": "both",
+     "quote": "graduating in 1986"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1986",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began two-year engagement at Vanemuine theatre in Tartu",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#2",
+     "role": "date",
+     "quote": "graduating in 1986"
+    },
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "description",
+     "quote": "Following graduation , Liina Tennosaar began a two year engagement at the Vanemuine theatre in Tartu"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Aili Tõru in television film Võtmeküsimus",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#5",
+     "role": "both",
+     "quote": "the role of Aili Tõru in the 1986 Ago-Endrik Kerge directed television drama film Võtmeküsimus"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Mari in historical television film Tants aurukatla ümber",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#5",
+     "role": "both",
+     "quote": "the role of Mari in the 1987 Peeter Simm directed historical dramatic television film Tants aurukatla ümber"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1988",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Engagement at Vanemuine theatre in Tartu ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "began a two year engagement at the Vanemuine theatre in Tartu , ending in 1988"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Feature film debut as Juuli in Sügis",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#8",
+     "role": "both",
+     "quote": "made her feature film debut in 1990"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1993",
+   "grain": "year",
+   "track": "family",
+   "label": "divorce",
+   "text": "Divorced Heino Seljamaa",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#11",
+     "role": "both",
+     "quote": "from 1984 until their divorce in 1993"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1993",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Engagement at Endla Theatre in Pärnu ended",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1993",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received unnamed award for role of Josie Hogan at Endla Theatre",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#4",
+     "role": "both",
+     "quote": "In 1993 , she received the for her portrayal of the character Josie Hogan"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Small role in Finnish-Estonian comedy Hysteria",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#8",
+     "role": "both",
+     "quote": "a small role in the 1993 Pekka Karjalainen directed comedy Hysteria"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began engagement at Vanalinnastuudio in Tallinn",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "from 1996 until 2001 , she was engaged at the Vanalinnastuudio in Tallinn"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Tiiu in ETV series Õnne 13 until 1999",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#7",
+     "role": "both",
+     "quote": "From 1997 until 1999 , she played the character of Tiiu on the popular , long-running ETV television drama Õnne 13"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1998",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began engagement as actress at Endla Theatre in Pärnu",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2001",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Engagement at Vanalinnastuudio in Tallinn ended",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "from 1996 until 2001 , she was engaged at the Vanalinnastuudio in Tallinn"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Became a freelance actor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#3",
+     "role": "both",
+     "quote": "Since 2001 , she has been a freelance actor"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in TV film Taksirengit",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#5",
+     "role": "both",
+     "quote": "In 2004 , she appeared in the feature-length television film Taksirengit"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Small role in drama Sügisball",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#9",
+     "role": "both",
+     "quote": "In 2007 , she appeared in a small role in the Veiko Õunpuu directed drama Sügisball"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Viire in road movie comedy Jan Uuspõld läheb Tartusse",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#9",
+     "role": "both",
+     "quote": "That same year she appeared as Viire in the Andres Maimik and Rain Tolk directed road movie comedy"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Played main character's mother in drama Taarka",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#9",
+     "role": "both",
+     "quote": "a role in the 2008 Ain Mäeots directed drama Taarka"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2008",
+   "grain": "year",
+   "track": "family",
+   "label": "divorce",
+   "text": "Divorced Sten Zupping",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#11",
+     "role": "both",
+     "quote": "Tennosaar and Zupping divorced in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2008",
+   "grain": "year",
+   "track": "family",
+   "label": "relationship",
+   "text": "Began relationship with actor and director Egon Nuter",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#11",
+     "role": "both",
+     "quote": "She has been in a relationship with theater and film actor and theater director Egon Nuter since 2008"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Toomas's mother in drama-thriller Vasha",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#10",
+     "role": "both",
+     "quote": "Toomas mother in the Hannu Salonen directed drama-thriller Vasha in 2009"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Riina in drama Deemonid",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#10",
+     "role": "both",
+     "quote": "Riina , in the Ain Mäeots directed drama Deemonid in 2012"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2017",
+   "grain": "year",
+   "track": "work",
+   "text": "Played Inga in TV3 mystery-drama series Merivälja",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#7",
+     "role": "both",
+     "quote": "In 2017 , she appeared as Inga in the TV3 mystery-drama series Merivälja"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2020",
+   "grain": "year",
+   "track": "work",
+   "text": "Appeared in comedy Asjad, millest me ei räägi",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Liina_Tennosaar#10",
+     "role": "both",
+     "quote": "the Andrejs Ekis and Tanel Ingi directed 2020 comedy Asjad"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "second marriage to actor Sten Zupping (no date given)"
+ ]
+}

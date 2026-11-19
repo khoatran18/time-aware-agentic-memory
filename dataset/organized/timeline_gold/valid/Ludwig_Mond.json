@@ -1,0 +1,193 @@
+{
+  "page_id": "Ludwig_Mond",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1839-03-07",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Kassel, Germany; German-born chemist and industrialist.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#0", "role": "both", "quote": "Ludwig Mond ( 7 March 1839 – 11 December 1909 ) was a German-born chemist"},
+        {"chunk_id": "/wiki/Ludwig_Mond#1", "role": "description", "quote": "Ludwig Mond was born into a Jewish family in Kassel , Germany"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1862",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Moved to England to work at John Hutchinson & Co factory in Widnes.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#1", "role": "both", "quote": "before coming to England to work at the factory of John Hutchinson & Co in Widnes in 1862"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1864",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began working for P. Smits & de Wolf firm in Utrecht.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#1", "role": "description", "quote": "He worked in Utrecht for the firm of P ."},
+        {"chunk_id": "/wiki/Ludwig_Mond#2", "role": "both", "quote": "Smits & de Wolf from 1864 to 1867 and then returned to Widnes"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1866-10",
+      "grain": "month",
+      "track": "family",
+      "text": "Married his cousin Frida Löwenthal in Cologne.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#9", "role": "both", "quote": "In October 1866 Mond married his cousin Frida Löwenthal"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1867",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left Smits & de Wolf in Utrecht and returned to Widnes.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#2", "role": "both", "quote": "Smits & de Wolf from 1864 to 1867 and then returned to Widnes"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1872",
+      "grain": "year",
+      "track": "other",
+      "label": "contact",
+      "text": "Got in touch with Belgian industrialist Ernest Solvay about the ammonia-soda process.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#3", "role": "both", "quote": "In 1872 Mond got in touch with the Belgian industrialist Ernest Solvay"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1873",
+      "grain": "year",
+      "track": "affiliation",
+      "flag": "derived_date",
+      "text": "Went into partnership with John Brunner to commercialise the Solvay process.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#3", "role": "both", "quote": "The following year he went into partnership with the industrialist John Brunner"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1873",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "flag": "derived_date",
+      "text": "Established Brunner Mond & Company, building a factory at Winnington, Northwich.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#3", "role": "both", "quote": "They established the business of Brunner Mond & Company , building a factory at Winnington , Northwich"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1880",
+      "grain": "year",
+      "track": "work",
+      "flag": "approximate_date",
+      "text": "Turned the Solvay soda ash process into a commercially sound process.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#3", "role": "both", "quote": "by 1880 he had turned it into a commercially sound process"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1880",
+      "grain": "year",
+      "track": "other",
+      "label": "naturalisation",
+      "text": "Took British nationality.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#9", "role": "both", "quote": "In 1880 he took British nationality"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1884",
+      "grain": "year",
+      "track": "location",
+      "text": "Family moved from Winnington to London.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#9", "role": "both", "quote": "in 1884 they moved to London"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1888",
+      "grain": "year",
+      "track": "role",
+      "text": "Elected president of the Society of Chemical Industry.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#6", "role": "both", "quote": "of which he was elected president in 1888"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1890",
+      "grain": "year",
+      "track": "location",
+      "flag": "approximate_date",
+      "text": "Began spending most winters in Rome at his Palazzo Zuccari home.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#9", "role": "both", "quote": "From the early 1890s on, he spent most of his winters in Rome"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1891",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "Elected Fellow of the Royal Society.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#6", "role": "both", "quote": "He was elected to the Royal Society in 1891"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1904",
+      "grain": "year",
+      "track": "location",
+      "text": "Rome home Palazzo Zuccari bought in the name of his wife's friend Henriette Hertz.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#9", "role": "both", "quote": "This home , the Palazzo Zuccari , was first leased and then ( 1904 ) bought in the name of his wifes"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1909-12-11",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died at his London home, The Poplars, Avenue Road.",
+      "evidence": [
+        {"chunk_id": "/wiki/Ludwig_Mond#0", "role": "both", "quote": "Ludwig Mond ( 7 March 1839 – 11 December 1909 ) was a German-born chemist"},
+        {"chunk_id": "/wiki/Ludwig_Mond#10", "role": "description", "quote": "He died in his London home , The Poplars , Avenue Road , near Regents Park"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Studied chemistry at Marburg (under Kolbe) and Heidelberg (under Bunsen), never gained a degree",
+    "Worked in factories in Germany and the Netherlands",
+    "Formed partnership with John Hutchinson in Widnes and developed a sulphur recovery method",
+    "Discovered nickel carbonyl, basis of the Mond process",
+    "Founded the Mond Nickel Company",
+    "Helped expand Lancashire Chemical Society into the Society of Chemical Industry (with Henry Roscoe)",
+    "Elected member of the German Chemical Society and the Società Reale of Naples",
+    "Received honorary doctorates from Padua, Heidelberg, Manchester and Oxford",
+    "Awarded grand cordon of the Order of the Crown of Italy",
+    "Benefactor to scientific organisations (Royal Society, Accademia dei Lincei, Royal Institution)",
+    "Became largest producer of soda ash in the world (within 20 years of the partnership)",
+    "Left bequests in his will to Kassel and Jewish charities, and old master paintings to the National Gallery London",
+    "Buried with Jewish rites at St Pancras cemetery"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+ "page_id": "Republic_of_Cospaia",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1440",
+   "grain": "year",
+   "track": "other",
+   "label": "independence",
+   "text": "Cospaia declared independence after an unmentioned strip escaped the Florence sale.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#0",
+     "role": "both",
+     "quote": "independent from 1440 to 1826"
+    },
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#1",
+     "role": "both",
+     "quote": "It unexpectedly gained independence in 1440"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1484",
+   "grain": "year",
+   "track": "other",
+   "label": "recognition",
+   "text": "Florence and the Papal States formally recognized Cospaia's autonomy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#2",
+     "role": "both",
+     "quote": "In 1484 its autonomy was formally recognized by both Florence and the Papal States"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1718",
+   "grain": "year",
+   "track": "location",
+   "text": "Council moved its meetings from the Valenti house to the Church of the Annunciation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#12",
+     "role": "both",
+     "quote": "in the Valenti house until 1718 , when the council began to meet in the Church of the Annunciation"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1826-05-25",
+   "grain": "day",
+   "track": "location",
+   "text": "Cospaia was divided between Tuscany and the Papal States by treaty.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#4",
+     "role": "both",
+     "quote": "On May 25 , 1826 , Cospaia was divided between Tuscany and the Papal States"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e5",
+   "date": "1826-06-26",
+   "grain": "day",
+   "track": "location",
+   "text": "Cospaia submitted by act and became part of the Papal States.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Republic_of_Cospaia#14",
+     "role": "both",
+     "quote": "on 26 June 1826 , with an act of submission by fourteen representatives of the republic"
+    }
+   ],
+   "flag": "source_inconsistent"
+  }
+ ],
+ "undated_mentions": []
+}

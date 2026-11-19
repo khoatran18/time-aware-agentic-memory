@@ -1,0 +1,257 @@
+{
+ "page_id": "Journal_de_20_heures",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1967-09-15",
+   "grain": "day",
+   "track": "work",
+   "text": "Predecessor programmes of the news show began broadcasting on television.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#0",
+     "role": "both",
+     "quote": "which have been broadcast successively since 15 September 1967 on television"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1975-01-06",
+   "grain": "day",
+   "track": "work",
+   "text": "Le Journal d'Antenne 2 first aired every evening at 8 p.m.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#1",
+     "role": "both",
+     "quote": "installed Le Journal dAntenne 2 every evening at 8 p.m . on 6 January 1975"
+    }
+   ]
+  },
+  {
+   "date": "1975-01-06",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Jean-Marie Cavada was the first presenter",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#1",
+     "role": "date",
+     "quote": "installed Le Journal dAntenne 2 every evening at 8 p.m . on 6 January 1975"
+    },
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#1",
+     "role": "description",
+     "quote": "Jean-Marie Cavada was the first presenter"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Jacques Sallebert entrusted the presentation to Patrick Poivre d'Arvor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "In 1976 , Jacques Sallebert entrusted the presentation to Patrick Poivre dArvor"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Christine Ockrent shared the presentation with Poivre d'Arvor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "but who was to share the presentation of this edition with Christine Ockrent in 1983"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1985",
+   "grain": "year",
+   "track": "role",
+   "text": "Bernard Rapp and Claude Sérillon began presenting the programme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "Bernard Rapp and Claude Sérillon succeeded them from 1985 to 1987"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1987",
+   "grain": "year",
+   "track": "role",
+   "text": "Bernard Rapp and Claude Sérillon ended their presentation period.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "Bernard Rapp and Claude Sérillon succeeded them from 1985 to 1987"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1987-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Henri Sannier began presenting the programme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "then Henri Sannier from September 1987"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1988-09",
+   "grain": "month",
+   "track": "role",
+   "text": "Henri Sannier was replaced by Christine Ockrent as presenter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#2",
+     "role": "both",
+     "quote": "In September 1988 , he was replaced by Christine Ockrent"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1992-09-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Paul Amar was entrusted with presenting the programme on France 2.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#3",
+     "role": "both",
+     "quote": "On 7 September 1992 , Antenne 2 became France 2 and the Managing Editor entrusted Paul Amar"
+    }
+   ]
+  },
+  {
+   "date": "1992-09-07",
+   "grain": "day",
+   "track": "naming",
+   "label": "",
+   "text": "Antenne 2 became France 2",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#3",
+     "role": "both",
+     "quote": "On 7 September 1992 , Antenne 2 became France 2"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "1994-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Paul Amar was dismissed following a debate he organized.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#3",
+     "role": "both",
+     "quote": "He was dismissed following a pathetic debate he organized between Bernard Tapie and Jean-Marie Le Pen in June 1994"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "David Pujadas was recruited from LCI to present the programme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#4",
+     "role": "both",
+     "quote": "In 2001 , the new Chief Information Officer Olivier Mazerolle recruited David Pujadas"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2016-12",
+   "grain": "month",
+   "track": "other",
+   "label": "controversy",
+   "text": "The programme stated a Sevran bar was banned for women, sparking debate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#9",
+     "role": "both",
+     "quote": "In December 2016 , 20 Heures stated that a bar in the municipality of Sevran"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2017-06-08",
+   "grain": "day",
+   "track": "role",
+   "text": "David Pujadas presented the programme for the last time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#5",
+     "role": "both",
+     "quote": "On Thursday , June 8 , 2017 , David Pujadas presented 20 Heures for the last time"
+    }
+   ]
+  },
+  {
+   "date": "2017-09-10",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "20h30 le dimanche began airing after 20 Heures on Sundays",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#6",
+     "role": "both",
+     "quote": "September 10 , 2017 , after 20 Heures , for about 30 minutes on Sundays comes 20h30 le dimanche"
+    }
+   ],
+   "id": "e16"
+  },
+  {
+   "id": "e17",
+   "date": "2018",
+   "grain": "year",
+   "track": "role",
+   "text": "Alexandra Bensaïd replaced François Lenglet as presenter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Journal_de_20_heures#7",
+     "role": "both",
+     "quote": "In 2018 , Alexandra Bensaïd replaced François Lenglet"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Jean-Michel Folon was the first credited on the programme (no date).",
+  "Bruno Masure and Daniel Bilalian replaced Paul Amar as alternating presenters (no date).",
+  "Bondy Blog showed that the programme's claim about the Sevran bar was not the case (no date)."
+ ]
+}

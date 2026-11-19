@@ -1,0 +1,903 @@
+{
+ "page_id": "/wiki/D._R._Shackleton_Bailey",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1917-12-10",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#0",
+     "role": "both",
+     "quote": "10 December 1917 – 28 November 2005"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1944",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Returned to Caius College as a fellow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#1",
+     "role": "both",
+     "quote": "He returned to Caius as a fellow in 1944"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1948",
+   "grain": "year",
+   "track": "role",
+   "text": "Obtained a lectureship in Tibetan at Cambridge University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#1",
+     "role": "both",
+     "quote": "in 1948 obtained a lectureship in Tibetan at Cambridge University"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1951",
+   "grain": "year",
+   "track": "work",
+   "text": "Published edition of Satapancasatka of Matrceta.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#8",
+     "role": "both",
+     "quote": "With an introduction , English translation and notes . ( 1951 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1955",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Jesus College, Cambridge as Director of Studies in Classics.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#1",
+     "role": "date",
+     "quote": "In 1955"
+    },
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#2",
+     "role": "description",
+     "quote": "he migrated to Jesus College , Cambridge , where , as Director of Studies in Classics"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1958",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Elected Fellow of the British Academy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "In 1958 he earned the double honour of a fellowship of the British Academy"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1958",
+   "grain": "year",
+   "track": "education",
+   "text": "Awarded Litt.D. degree by Cambridge University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "In 1958 he earned the double honour of a fellowship of the British Academy"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1958",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Propertiana.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "Propertiana ( Cambridge , 1958 )"
+    }
+   ]
+  },
+  {
+   "date": "1958",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Began Oxford OCT edition of Cicero Epistulae (4 volumes)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "Oxford , OCT , 1958-1982"
+    }
+   ],
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1961",
+   "grain": "year",
+   "track": "work",
+   "text": "Recensed volume 2.ii of Cicero Epistulae for OCT.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "rec . D.R.Sh.-B. , 1961"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1963",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Visited Harvard's Classics department.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "whose Classics department he had visited in 1963"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1964",
+   "grain": "year",
+   "track": "role",
+   "text": "Began four-year stint at Caius as Bursar and Senior Bursar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#2",
+     "role": "both",
+     "quote": "He spent four more years at Caius from 1964 to 1968"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Began Cicero Letters to Atticus edition, seven volumes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "ed . Cicero : Letters to Atticus 7 v . ( Cambridge , 1965–70 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1967",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Hilary Ann Bardwell.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#4",
+     "role": "both",
+     "quote": "In 1967 he married Hilary Ann Bardwell"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1968",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to University of Michigan at Ann Arbor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#2",
+     "role": "date",
+     "quote": "In 1968"
+    },
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "description",
+     "quote": "he crossed the Atlantic , specifically to the University of Michigan at Ann Arbor"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1968",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended Bursar and Senior Bursar service at Caius.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#2",
+     "role": "both",
+     "quote": "He spent four more years at Caius from 1964 to 1968"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "Completed Cicero Letters to Atticus edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "ed . Cicero : Letters to Atticus 7 v . ( Cambridge , 1965–70 )"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e18",
+   "date": "1975",
+   "grain": "year",
+   "track": "family",
+   "text": "Marriage to Hilary Ann Bardwell dissolved.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#4",
+     "role": "both",
+     "quote": "this marriage was dissolved in 1975"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Elected Fellow of American Academy of Arts and Sciences.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "He was elected a Fellow of the American Academy of Arts and Sciences in 1975"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1976",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Harvard University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "in 1976 he moved to Harvard University"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1976",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Professor of Greek and Latin at Harvard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "in 1976 he moved to Harvard University ( whose Classics department he had visited in 1963 ) , first as Professor of Greek and Latin"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1977",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Epistulae ad familiares edition, two volumes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "ed . Cicero : Epistulae ad familiares 2 v . ( Cambridge , 1977 )"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1978",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received Goodwin Award for Merit from American Philological Association.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "which awarded him the Goodwin Award for Merit in 1978"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Published translation of Cicero's letters to his friends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "trans . Cicero’s letters to his friends ( Atlanta , 1978 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1978",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Penguin edition of Cicero's Letters to Atticus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#10",
+     "role": "both",
+     "quote": "Cicero’s Letters to Atticus 2 v . ( Penguin , 1978 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Began first term as editor of Harvard Studies in Classical Philology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "He twice served as the editor of Harvard Studies in Classical Philology ( 1980-1981 and 1983-1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1981",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended first term as editor of Harvard Studies in Classical Philology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "He twice served as the editor of Harvard Studies in Classical Philology ( 1980-1981 and 1983-1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1982",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Profile of Horace.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "Profile of Horace ( Harvard , 1982 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1982",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Anthologia Latina fascicle 1 edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "ed . Anthologia Latina I fasc . 1 : Libri Salmasiani aliorumque carmina ( Stuttgart , 1982 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1982",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Pope Professor of Latin Language and Literature at Harvard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "then ( from 1982 ) as Pope Professor of the Latin Language and Literature"
+    }
+   ]
+  },
+  {
+   "date": "1982",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Completed Oxford OCT edition of Cicero Epistulae (4 volumes)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#9",
+     "role": "both",
+     "quote": "Oxford , OCT , 1958-1982"
+    }
+   ],
+   "id": "e31"
+  },
+  {
+   "id": "e32",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Began second term as editor of Harvard Studies in Classical Philology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "He twice served as the editor of Harvard Studies in Classical Philology ( 1980-1981 and 1983-1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1984",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received honorary Litt.D. from Dublin University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "he also held an honorary Litt.D . from Dublin University , awarded in 1984"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1985",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded British Academy Kenyon Medal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#5",
+     "role": "both",
+     "quote": "whose Kenyon Medal he would be awarded in 1985"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1985",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended second term as editor of Harvard Studies in Classical Philology.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "He twice served as the editor of Harvard Studies in Classical Philology ( 1980-1981 and 1983-1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Q. Horati Flacci Opera edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "ed . Q . Horati Flacci Opera ( Stuttgart , 1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Cicero Philippics edition and translation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "ed . and trans . Cicero : Philippics ( Chapel Hill , 1986 )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1987",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Epistulae ad Atticum edition, two volumes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "ed . M . Tulli Ciceronis Epistulae ad Atticum 2 v. ( Stuttgart , 1987 )"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Retired from Harvard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "In 1988 he retired from Harvard and became an Adjunct Professor at the University of Michigan"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Adjunct Professor at University of Michigan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#3",
+     "role": "both",
+     "quote": "In 1988 he retired from Harvard and became an Adjunct Professor at the University of Michigan"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Epistulae ad Familiares edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#11",
+     "role": "both",
+     "quote": "ed . M . Tulli Ciceronis Epistulae ad Familiares ( Stuttgart , 1988 )"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Epistulae ad Q. Fratrem and related fragments edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#12",
+     "role": "both",
+     "quote": "ed . M . Tulli Ciceronis Epistulae ad Q . Fratrem , ad M . Brutum , Commentariolum petitionis , fragmenta epistularum ( Stuttgart , 1988 )"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Lucan De bello civili edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "ed . M . Annaei Lucani De bello civili libri X ( Stuttgart , 1988 ; 1997²"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Onomasticon to Cicero's speeches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "Onomasticon to Cicero’s speeches ( Stuttgart , 1988 , 1991²"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Quintilian Declamationes minores edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "ed . M . Fabii Quintiliani Declamationes minores ( Stuttgart , 1989 )"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Martial epigrammata edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "ed . M . Valerii Martialis epigrammata ( 1990 )"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Published second edition of Onomasticon to Cicero's speeches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "Onomasticon to Cicero’s speeches ( Stuttgart , 1988 , 1991²"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Back from Exile, translation of six speeches.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "trans . Cicero . Back from Exile : Six Speeches upon his Return ( Atlanta , 1991 )"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1994",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Kristine Zvirbulis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#4",
+     "role": "both",
+     "quote": "In 1994 he married Kristine Zvirbulis"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Homoeoteleuton in Latin dactylic verse.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "Homoeoteleuton in Latin dactylic verse ( Stuttgart , 1994 )"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1995",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Onomasticon to Cicero's letters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#14",
+     "role": "both",
+     "quote": "Onomasticon to Cicero’s letters ( Stuttgart , 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Onomasticon to Cicero's treatises.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#15",
+     "role": "both",
+     "quote": "Onomasticon to Cicero’s treatises ( Stuttgart , 1996 )"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Selected classical papers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#15",
+     "role": "both",
+     "quote": "Selected classical papers ( Ann Arbor , 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1997",
+   "grain": "year",
+   "track": "work",
+   "text": "Published second edition of Lucan De bello civili.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#13",
+     "role": "both",
+     "quote": "ed . M . Annaei Lucani De bello civili libri X ( Stuttgart , 1988 ; 1997²"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2000",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Valerius Maximus edition and translation, Loeb series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#15",
+     "role": "both",
+     "quote": "ed . and trans . Valerius Maximus : Memorable doings and sayings 2 v . ( Loeb Classical Library #s 492 , 493 , Harvard UP , 2000 )"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Cicero Letters to friends edition, Loeb series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#15",
+     "role": "both",
+     "quote": "ed . and trans . Cicero : Letters to friends 3 v . ( Loeb Classical Library #s 205 , 216 , 230 , Harvard UP , 2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Statius Silvae edition and translation, Loeb series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#16",
+     "role": "both",
+     "quote": "ed . and trans . Statius : Silvae ( Loeb Classical Library #206 , Harvard UP , 2003 ; corrected ed . 2015 )"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Statius Thebaid Books 1-7 edition and translation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#17",
+     "role": "both",
+     "quote": "ed . and trans . Statius : Thebaid Books 1-7 ( Loeb Classical Library #207 , Harvard UP , 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Statius Thebaid Books 8-12 and Achilleid edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#17",
+     "role": "both",
+     "quote": "ed . and trans . Statius : Thebaid Books 8-12 ; Achilleid ( Loeb Classical Library #498 , Harvard UP , 2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2005-11-28",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#0",
+     "role": "both",
+     "quote": "10 December 1917 – 28 November 2005"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Quintilian Lesser Declamations edition, Loeb series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#17",
+     "role": "both",
+     "quote": "ed . and trans . Quintilian : The Lesser Declamations 2 v . ( Loeb Classical Library #s 500 , 501 , Harvard UP , 2006 )"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "text": "Published corrected edition of Statius Silvae.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/D._R._Shackleton_Bailey#16",
+     "role": "both",
+     "quote": "corrected ed . 2015"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Educated at Lancaster Royal Grammar School",
+  "Read Classics and then Oriental Studies at Gonville & Caius College, Cambridge",
+  "Spent the years of the Second World War at Bletchley Park",
+  "Member of the American Philological Association",
+  "Member of the American Academy of Arts and Letters",
+  "Honorary member of the Society for the Promotion of Roman Studies",
+  "Honorary fellow of Gonville and Caius College",
+  "Prepared many Loeb editions in retirement"
+ ]
+}

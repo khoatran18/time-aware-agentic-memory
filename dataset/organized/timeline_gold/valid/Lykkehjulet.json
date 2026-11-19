@@ -1,0 +1,354 @@
+{
+ "page_id": "/wiki/Lykkehjulet",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1988",
+   "grain": "year",
+   "track": "work",
+   "text": "Danish version of Wheel of Fortune first airs as an imported American format",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#0",
+     "role": "both",
+     "quote": "Airing in 1988 , the show was the first big American game show to be imported to Denmark"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Michael Meyerheim hosts the first season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#0",
+     "role": "date",
+     "quote": "Airing in 1988 , the show was the first big American game show to be imported to Denmark"
+    },
+    {
+     "chunk_id": "/wiki/Lykkehjulet#1",
+     "role": "description",
+     "quote": "The host during the first season was Michael Meyerheim"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e3",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Pia Dresner serves as letter-turning co-host in the first season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#0",
+     "role": "date",
+     "quote": "Airing in 1988 , the show was the first big American game show to be imported to Denmark"
+    },
+    {
+     "chunk_id": "/wiki/Lykkehjulet#1",
+     "role": "description",
+     "quote": "Pia Dresner as the letter-turning co-host"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1988",
+   "grain": "year",
+   "track": "naming",
+   "text": "Free Spin token is called Joker in 1988 before becoming Ekstra Tur",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#8",
+     "role": "both",
+     "quote": "Known as an Ekstra Tur , ( Joker in 1988 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Bengt Burg begins hosting the show",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#1",
+     "role": "both",
+     "quote": "Thereafter , the show was hosted by Bengt Burg from 1989 to 2000"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Carina Jensen begins as letter-turning co-host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#2",
+     "role": "both",
+     "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )"
+    }
+   ]
+  },
+  {
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Top wheel value in round 2 raised to 2,500 kroner",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#4",
+     "role": "both",
+     "quote": "value amounts originally ranged from 100 to 1,500 kroner ( 2,500 starting in round 2 in 1989 )"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Top value becomes 3,000 kr in round 1 and 5,000 kr from round 2 onwards",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#5",
+     "role": "both",
+     "quote": "Beginning in 1990 , the top value was 3,000 kr . in Round 1 then 5,000 kr . from Round 2 onwards"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "id": "e9",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Carina Jensen ends her run as letter-turning co-host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#2",
+     "role": "both",
+     "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1995",
+   "grain": "year",
+   "track": "role",
+   "text": "Maria Hirse begins as letter-turning co-host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#2",
+     "role": "both",
+     "quote": "and Maria Hirse ( 1995–2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Bonus round changes so the player picks one of three round envelopes",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#9",
+     "role": "both",
+     "quote": "By 1996 , the player chose one of three round envelopes"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Fallit/10,000/Fallit wedge placed on the wheel in round three",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#5",
+     "role": "both",
+     "quote": "In 1999 , the Fallit/10,000/Fallit wedge would be placed on the wheel in the third round"
+    }
+   ]
+  },
+  {
+   "date": "1999",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Top value becomes 5,000 kr in every round",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#5",
+     "role": "both",
+     "quote": "By 1999 , the top value was 5,000 kr . in every round"
+    }
+   ],
+   "id": "e13"
+  },
+  {
+   "id": "e14",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Bengt Burg ends his hosting run",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#1",
+     "role": "both",
+     "quote": "Thereafter , the show was hosted by Bengt Burg from 1989 to 2000"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Puzzleboard changes from trilon letters to an electronic form",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#10",
+     "role": "both",
+     "quote": "In 2001 , the puzzleboard was changed to an electronic form ."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Maria Hirse ends her run as letter-turning co-host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#2",
+     "role": "both",
+     "quote": "and Maria Hirse ( 1995–2001 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2001",
+   "grain": "year",
+   "track": "role",
+   "text": "Lars Herlow hosts the final season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#1",
+     "role": "both",
+     "quote": "The final season in 2001 season was hosted by Lars Herlow"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "cancellation",
+   "text": "Show is cancelled after 3,599 episodes due to declining viewership",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#2",
+     "role": "both",
+     "quote": "The show ran for 3,599 episodes until it was cancelled in 2001"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Video wall introduced behind the contestants",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#12",
+     "role": "both",
+     "quote": "2001 was also the first and only year the show introduced a video wall behind the contestants"
+    }
+   ]
+  },
+  {
+   "date": "2001",
+   "grain": "year",
+   "track": "other",
+   "label": "format change",
+   "text": "Top values changed to 2,500 points in round one, 7,500 in rounds two and three, 10,000 in round four",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#5",
+     "role": "both",
+     "quote": "In 2001 , the top values were 2,500 points in round one , 7,500 in rounds two and three and 10,000 between two garbage cans in round four"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2018-10",
+   "grain": "month",
+   "track": "work",
+   "text": "Series returns on TV2 as a revival",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#13",
+     "role": "both",
+     "quote": "In October 2018 , the series returned on TV2 ."
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2018-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Mikkel Kryger hosts the revival",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#13",
+     "role": "both",
+     "quote": "In October 2018 , the series returned on TV2 ."
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e23",
+   "date": "2018-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Stephania Potalivo co-hosts the revival",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Lykkehjulet#13",
+     "role": "both",
+     "quote": "In October 2018 , the series returned on TV2 ."
+    }
+   ],
+   "flag": "derived_date"
+  }
+ ],
+ "undated_mentions": [
+  "Keld Heick short stint as host, 1996-1997 season (season mark, no exact date)",
+  "Announcers Ole Jacobsen, then Henrik Hannibal, later Dennis Johannesson (no dates)"
+ ]
+}

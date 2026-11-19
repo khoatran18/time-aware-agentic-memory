@@ -1,0 +1,329 @@
+{
+  "page_id": "Monica_s_Gang",
+  "events": [
+    {"id": "e1", "date": "1959", "grain": "year", "track": "work", "text": "Newspaper strip with Blu and Franklin launched in Folha da Manha; Sousa creates first characters",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#1", "role": "both", "quote": "launched by the newspaper Folha da Manhã in 1959"},
+       {"chunk_id": "/wiki/Monica's_Gang#4", "role": "both", "quote": "Maurício de Sousa , then reporter for Folha da Manhã , in 1959"}
+     ]},
+    {"id": "e2", "date": "1960", "grain": "year", "track": "work", "text": "Characters gain ground in children's magazine Zaz Traz (Editora Outubro)",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#5", "role": "both", "quote": "the following year of 1960 , the characters gained ground through the childrens magazine Zaz Traz"}
+     ]},
+    {"id": "e3", "date": "1960", "grain": "year", "track": "work", "text": "Magazines featuring the characters are canceled", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#5", "role": "both", "quote": "However , the magazines were canceled that same year ."}
+     ]},
+    {"id": "e4", "date": "1961", "grain": "year", "track": "work", "text": "Jimmy Five becomes protagonist of own newspaper strips beside Blu and Franklin",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#6", "role": "both", "quote": "has become protagonist of their own strips of newspaper next to Blu and Franklin in 1961"}
+     ]},
+    {"id": "e5", "date": "1963", "grain": "year", "track": "work", "text": "Monica created as supporting character in Jimmy Five strips",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#6", "role": "both", "quote": "So to avoid further controversy , in 1963 Monica was created"}
+     ]},
+    {"id": "e6", "date": "1963", "grain": "year", "track": "work", "text": "Sousa begins new comic projects with other characters (Zezinho, Cavern Clan, Bug-a-Booo, etc.)",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#7", "role": "both", "quote": "Also in 1963 , Mauricio began to create new projects of comic strips"}
+     ]},
+    {"id": "e7", "date": "1970", "grain": "year", "track": "work", "text": "Characters return in a monthly comic magazine published by Abril",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#9", "role": "both", "quote": "a monthly comic magazine from 1970 , by publisher Abril"},
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "Firstly , they were published by Editora Abril , from 1970 to 1986"}
+     ]},
+    {"id": "e8", "date": "1973", "grain": "year", "track": "work", "text": "Jimmy Five magazine launched three years after the Monica magazine", "flag": "derived_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#9", "role": "date", "quote": "monthly comic magazine from 1970 , by publisher Abril"},
+       {"chunk_id": "/wiki/Monica's_Gang#10", "role": "description", "quote": "soon came to Jimmy Five magazine three years later"}
+     ]},
+    {"id": "e9", "date": "1975", "grain": "year", "track": "work", "text": "Comics published in Germany under the name Fratz und Freunde",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#50", "role": "both", "quote": "In Germany , comics were published between 1975 and 1980"}
+     ]},
+    {"id": "e10", "date": "1976", "grain": "year", "track": "work", "text": "Complete animated stories begin to be produced",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#27", "role": "both", "quote": "complete stories began to be produced in 1976"}
+     ]},
+    {"id": "e11", "date": "1979", "grain": "year", "track": "work", "text": "Live-action TV/video special released (title missing in source)",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#29", "role": "both", "quote": "two TV and video specials in live-action : ( 1979 )"}
+     ]},
+    {"id": "e12", "date": "1980", "grain": "year", "track": "work", "text": "German comics under Fratz und Freunde title end",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#50", "role": "both", "quote": "published between 1975 and 1980 under the name Fratz und Freunde"}
+     ]},
+    {"id": "e13", "date": "1982", "grain": "year", "track": "work", "text": "First film released, produced with Black & White & Color, distributed by Embrafilme",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#11", "role": "both", "quote": "The first film was only released in 1982"}
+     ]},
+    {"id": "e14", "date": "1982", "grain": "year", "track": "work", "text": "Compilation As Aventuras da Turma da Monica released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "As Aventuras da Turma da Mônica ( 1982 )"}
+     ]},
+    {"id": "e15", "date": "1982", "grain": "year", "track": "work", "text": "Smudge gets its own magazine",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#13", "role": "both", "quote": "Smudge ( 1982 )"}
+     ]},
+    {"id": "e16", "date": "1982", "grain": "year", "track": "work", "text": "Chuck Billy gets its own magazine",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#13", "role": "both", "quote": "Chuck Billy ( 1982 )"}
+     ]},
+    {"id": "e17", "date": "1983", "grain": "year", "track": "work", "text": "Animated feature film A Princesa e o Robo released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#29", "role": "both", "quote": "A Princesa e o Robô ( 1983 )"}
+     ]},
+    {"id": "e18", "date": "1986", "grain": "year", "track": "work", "text": "Compilation As Novas Aventuras da Turma da Monica released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "As Novas Aventuras da Turma da Mônica ( 1986 )"}
+     ]},
+    {"id": "e19", "date": "1986", "grain": "year", "track": "work", "text": "Compilation Monica e a Sereia do Rio released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "Mônica e a Sereia do Rio ( 1986 )"}
+     ]},
+    {"id": "e20", "date": "1986", "grain": "year", "track": "ownership_structure", "text": "Abril's publication of the series ends",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "Editora Abril , from 1970 to 1986"}
+     ]},
+    {"id": "e21", "date": "1987", "grain": "year", "track": "work", "text": "Compilation O Bicho-Papao released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "O Bicho-Papão ( 1987 )"}
+     ]},
+    {"id": "e22", "date": "1987", "grain": "year", "track": "ownership_structure", "text": "Editora Globo begins publishing the series",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "then Editora Globo , from 1987 to 2006"}
+     ]},
+    {"id": "e23", "date": "1988", "grain": "year", "track": "work", "text": "Direct-to-video compilation A Estrelinha Magica released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "A Estrelinha Mágica ( 1988 , direct-to-video )"}
+     ]},
+    {"id": "e24", "date": "1989", "grain": "year", "track": "work", "text": "Maggy gets its own magazine",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#13", "role": "both", "quote": "Maggy ( 1989 )"}
+     ]},
+    {"id": "e25", "date": "1989", "grain": "year", "track": "work", "text": "Live-action TV/video special A Radio do Chico Bento released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#29", "role": "both", "quote": "A Rádio do Chico Bento ( 1989 )"}
+     ]},
+    {"id": "e26", "date": "1990", "grain": "year", "track": "work", "text": "Direct-to-video compilation Chico Bento, Oia a Onca! released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "Chico Bento , Óia a Onça ! ( 1990 , direct-to-video )"}
+     ]},
+    {"id": "e27", "date": "1992", "grain": "year", "track": "work", "text": "Direct-to-video compilation O Natal de Todos Nos released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "O Natal de Todos Nós ( 1992 , direct-to-video )"}
+     ]},
+    {"id": "e28", "date": "1993-01", "grain": "month", "track": "work", "text": "Monica-themed amusement park opens at Eldorado Shopping in Sao Paulo",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#13", "role": "both", "quote": "A Monica-themed amusement park was created in 1993 in São Paulo"},
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "both", "quote": "It was opened in January 1993"}
+     ]},
+    {"id": "e29", "date": "1995", "grain": "year", "track": "work", "text": "CD-ROM with short stories Monica Dentuca released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#41", "role": "both", "quote": "Mônica Dentuça ( 1995 )"}
+     ]},
+    {"id": "e30", "date": "1996", "grain": "year", "track": "work", "text": "CD-ROM with minigames Cebolinha e Floquinho released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#41", "role": "both", "quote": "Cebolinha e Floquinho ( 1996 )"}
+     ]},
+    {"id": "e31", "date": "1996", "grain": "year", "track": "work", "text": "Direct-to-video compilation Quadro a Quadro released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "Quadro a Quadro ( 1996 , direct-to-video )"}
+     ]},
+    {"id": "e32", "date": "1997", "grain": "year", "track": "work", "text": "Direct-to-video compilation Videogibi: O Monico released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#30", "role": "both", "quote": "Videogibi : O Mônico ( 1997 , direct-to-video )"}
+     ]},
+    {"id": "e33", "date": "1997", "grain": "year", "track": "work", "text": "Comics published in Indonesia under the title Monika dan kawan kawan",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#50", "role": "description", "quote": "In Indonesia , the series is published under the title Monika dan kawan kawan"},
+       {"chunk_id": "/wiki/Monica's_Gang#51", "role": "date", "quote": "since 1997 , along the comic books of the characters Jimmi Lima"}
+     ]},
+    {"id": "e34", "date": "1998", "grain": "year", "track": "work", "text": "Direct-to-video compilation Videogibi: O Plano Sangrento released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#31", "role": "both", "quote": "Videogibi : O Plano Sangrento ( 1998 , direct-to-video )"}
+     ]},
+    {"id": "e35", "date": "1998", "grain": "year", "track": "work", "text": "Direct-to-video compilation Videogibi: O Estranho Soro do Dr. X released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Videogibi : O Estranho Soro do Dr . X ( 1998 , direct-to-video )"}
+     ]},
+    {"id": "e36", "date": "1998", "grain": "year", "track": "work", "text": "CD-ROM with short stories A Roca do Chico Bento released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#41", "role": "both", "quote": "A Roça do Chico Bento ( 1998 )"}
+     ]},
+    {"id": "e37", "date": "1998", "grain": "year", "track": "work", "text": "Parque da Monica of Curitiba created",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "both", "quote": "The Parque da Mônica of Curitiba and of Rio de Janeiro were also created , in 1998 and 2001"}
+     ]},
+    {"id": "e38", "date": "1999", "grain": "year", "track": "work", "text": "Direct-to-video compilation Videogibi: A Ilha Misteriosa released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Videogibi : A Ilha Misteriosa ( 1999 , direct-to-video )"}
+     ]},
+    {"id": "e39", "date": "1999", "grain": "year", "track": "work", "text": "Series of shorts with the characters debuts on Rede Globo",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#28", "role": "both", "quote": "In 1999 , a series of shorts with the characters debuted in childrens programming Rede Globo"}
+     ]},
+    {"id": "e40", "date": "2000", "grain": "year", "track": "other", "label": "closure", "text": "Parque da Monica of Curitiba closed",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "both", "quote": "but both were closed , in 2000 and 2005 , respectively"}
+     ]},
+    {"id": "e41", "date": "2001", "grain": "year", "track": "work", "text": "Parque da Monica of Rio de Janeiro created",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "both", "quote": "The Parque da Mônica of Curitiba and of Rio de Janeiro were also created , in 1998 and 2001"}
+     ]},
+    {"id": "e42", "date": "2002", "grain": "year", "track": "work", "text": "Recovery direct-to-video compilation Colecao Grandes Aventuras released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Coleção Grandes Aventuras da Turma da Mônica ( 2002 , recovery direct-to-video including new episodes )"}
+     ]},
+    {"id": "e43", "date": "2004", "grain": "year", "track": "work", "text": "Compilation released (title missing in source)",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "( 2004 ) - Cine Gibi 2 ( 2005 , direct-to-video )"}
+     ]},
+    {"id": "e44", "date": "2004", "grain": "year", "track": "work", "text": "Cartoon Network begins airing new episodes exclusively",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#28", "role": "both", "quote": "A regular broadcast the series on TV only occurred in 2004 after negotiations with the Cartoon Network"}
+     ]},
+    {"id": "e45", "date": "2005", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 2 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Cine Gibi 2 ( 2005 , direct-to-video )"}
+     ]},
+    {"id": "e46", "date": "2005", "grain": "year", "track": "other", "label": "closure", "text": "Parque da Monica of Rio de Janeiro closed",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "both", "quote": "but both were closed , in 2000 and 2005 , respectively"}
+     ]},
+    {"id": "e47", "date": "2006", "grain": "year", "track": "work", "text": "Park's own comic book ends; replaced by Turma da Monica magazine",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#44", "role": "date", "quote": "Until the end of 2006 , it"},
+       {"chunk_id": "/wiki/Monica's_Gang#45", "role": "description", "quote": "had its own comic book , featuring adventures of Monicas gang at the park"}
+     ]},
+    {"id": "e48", "date": "2006", "grain": "year", "track": "ownership_structure", "text": "Editora Globo's publication of the series ends",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "then Editora Globo , from 1987 to 2006"}
+     ]},
+    {"id": "e49", "date": "2007", "grain": "year", "track": "ownership_structure", "text": "Panini Comics begins publishing the series",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#3", "role": "both", "quote": "has been published by Panini Comics since 2007"},
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "From 2007 on , Panini Comics was chosen to keep the publications"}
+     ]},
+    {"id": "e50", "date": "2007", "grain": "year", "track": "work", "text": "Animated feature film Uma Aventura no Tempo released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#29", "role": "both", "quote": "Uma Aventura no Tempo ( 2007 )"}
+     ]},
+    {"id": "e51", "date": "2007", "grain": "year", "track": "work", "text": "Comics distributed to schools in China",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#51", "role": "both", "quote": "In China the comics were distributed to schools in 2007"}
+     ]},
+    {"id": "e52", "date": "2008", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 3 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Cine Gibi 3 : Planos Infalíveis ( 2008 , direct-to-video )"}
+     ]},
+    {"id": "e53", "date": "2008", "grain": "year", "track": "work", "text": "Manga-style spin-off Monica Teen created",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#3", "role": "both", "quote": "In 2008 , a spin-off series , Monica Teen , was created"},
+       {"chunk_id": "/wiki/Monica's_Gang#13", "role": "both", "quote": "In 2008 the franchise has received a manga-style comic entitled Monica Teen"}
+     ]},
+    {"id": "e54", "date": "2009", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 4 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Cine Gibi 4 : Meninos e Meninas ( 2009 , direct-to-video )"}
+     ]},
+    {"id": "e55", "date": "2009-07", "grain": "month", "track": "location", "text": "Mall asks for the park's area back (announced by Sousa)",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#46", "role": "both", "quote": "Mauricio de Sousa had already announced that the mall had requested the area back on July 2009"}
+     ]},
+    {"id": "e56", "date": "2010", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 5 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#32", "role": "both", "quote": "Cine Gibi 5 : Luzes , Câmera , Ação ! ( 2010 , direct-to-video )"}
+     ]},
+    {"id": "e57", "date": "2010", "grain": "year", "track": "work", "text": "Rede Globo begins showing regular series episodes",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#28", "role": "both", "quote": "which would display the regular series episodes only between the years 2010 and 2014"}
+     ]},
+    {"id": "e58", "date": "2010", "grain": "year", "track": "location", "text": "Park removed from Eldorado Shopping Center", "flag": "approximate_date",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#46", "role": "both", "quote": "The park was removed from Eldorado Shopping Center on early 2010"}
+     ]},
+    {"id": "e59", "date": "2011", "grain": "year", "track": "work", "text": "Direct-to-video compilation Se Liga na Turma da Monica Volume 1 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#33", "role": "both", "quote": "Se Liga na Turma da Mônica - Volume 1 ( 2011 , direct-to-video )"}
+     ]},
+    {"id": "e60", "date": "2011", "grain": "year", "track": "other", "label": "award", "text": "One of the comic albums in China awarded in children's literature",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#51", "role": "both", "quote": "in 2011 one of the albums was awarded to childrens literature"}
+     ]},
+    {"id": "e61", "date": "2012", "grain": "year", "track": "work", "text": "Direct-to-video compilation Se Liga na Turma da Monica Volume 2 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#34", "role": "both", "quote": "Se Liga na Turma da Mônica - Volume 2 ( 2012 , direct-to-video )"}
+     ]},
+    {"id": "e62", "date": "2012", "grain": "year", "track": "work", "text": "iPhone application Quero Ser da Turma da Monica released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#43", "role": "both", "quote": "In 2012 , the application for iPhones Quero Ser da Turma da Mônica"}
+     ]},
+    {"id": "e63", "date": "2013", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 6 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#34", "role": "both", "quote": "Cine Gibi 6 - Hora do Banho ( 2013 , direct-to-video )"}
+     ]},
+    {"id": "e64", "date": "2013", "grain": "year", "track": "work", "text": "Coelhadas da Monica puzzle game released for iOS and Android",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#43", "role": "both", "quote": "In 2013 a game was released for iOS and Android called Coelhadas da Mônica"}
+     ]},
+    {"id": "e65", "date": "2013", "grain": "year", "track": "other", "label": "merchandising", "text": "Franchise relaunched as an e-commerce portal",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#48", "role": "both", "quote": "In 2013 , the franchise was restarted in the form of an e-commerce portal"}
+     ]},
+    {"id": "e66", "date": "2013-07-17", "grain": "day", "track": "naming", "text": "Series renamed Monica Toy from the episode Hiccups",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#36", "role": "both", "quote": "From the episode Hiccups ( released on July 17 , 2013 )"}
+     ]},
+    {"id": "e67", "date": "2013-10-07", "grain": "day", "track": "work", "text": "Monica Toy series premieres on Cartoon Network",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#36", "role": "both", "quote": "On October 7 , 2013 , the series premiered on Cartoon Network"}
+     ]},
+    {"id": "e68", "date": "2014", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 7 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#34", "role": "both", "quote": "Cine Gibi 7 - Bagunça Animal ( 2014 , direct-to-video )"}
+     ]},
+    {"id": "e69", "date": "2014", "grain": "year", "track": "work", "text": "Jogo do Cascao (Smudge Game) platform game released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#43", "role": "both", "quote": "And in 2014 , the game Jogo do Cascão ( The Smudge Game ) was released"}
+     ]},
+    {"id": "e70", "date": "2014", "grain": "year", "track": "work", "text": "Rede Globo stops showing regular series episodes",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#28", "role": "both", "quote": "only between the years 2010 and 2014"}
+     ]},
+    {"id": "e71", "date": "2015", "grain": "year", "track": "work", "text": "Smartphone app with more than 500 comic editions released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#25", "role": "both", "quote": "In 2015 was released an app"},
+       {"chunk_id": "/wiki/Monica's_Gang#26", "role": "description", "quote": "for smartphones gathering more than 500 editions of comics franchise for download"}
+     ]},
+    {"id": "e72", "date": "2015", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 8 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#34", "role": "both", "quote": "Cine Gibi 8 - Tá Brincando ? ( 2015 , direct-to-video )"}
+     ]},
+    {"id": "e73", "date": "2016", "grain": "year", "track": "work", "text": "Direct-to-video compilation Cine Gibi 9 released",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#34", "role": "both", "quote": "Cine Gibi 9 - Vamos Fazer de Conta ! ( 2016 , direct-to-video )"}
+     ]},
+    {"id": "e74", "date": "2019-06-27", "grain": "day", "track": "work", "text": "Live-action film Turma da Monica: Lacos released in Brazilian cinemas",
+     "evidence": [
+       {"chunk_id": "/wiki/Monica's_Gang#37", "role": "both", "quote": "In 2019 , in cooperation with Paris Filmes , Globo Filmes and Paramount Pictures , Mauricio de Sousa Produções released in Brazilian cinemas the movie"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Bidu comic published by Editora Continental (no date)",
+    "Title changed to Monica and Turma da Monica (no date)",
+    "Contract with footballer Pele for a character based on him (no date)",
+    "Founding of Estudios Mauricio de Sousa (no date)",
+    "Thunder character in food-company commercials, late 1960s",
+    "First attempts at a Monica's Gang cartoon, late 1960s",
+    "Advertising-boy appearances on TV, mid-1960s",
+    "Monica dolls by Trol Company, late 1960s",
+    "Thunder as mascot of Cica tomato sauce, late 1960s",
+    "Toy lines by various companies, since the 1970s",
+    "Lojinha da Monica and Trenzinho da Monica stores, 1980s",
+    "Three Monica video games for Master System and Mega Drive, 1990s",
+    "Two CD-ROM comic-creation titles with Monica and Chuck Billy (no date)",
+    "Italian DVD releases and Rai Due broadcast, 1990s",
+    "UK comics published as Frizz and Friends for a short time (no date)",
+    "German Monica und Ihre Freunde title, years after 1980 (no date)",
+    "Chinese cartoon adaptation, years after 2007 (no date)"
+  ]
+}

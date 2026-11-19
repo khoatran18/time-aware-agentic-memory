@@ -1,0 +1,590 @@
+{
+ "page_id": "Charles_Lee_general",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1747-04-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Purchased commission as ensign in his father's regiment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#3",
+     "role": "both",
+     "quote": "purchased a commission on April 9 , 1747 for Charles as"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1751-05-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Received or purchased lieutenant's commission in the 44th",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#5",
+     "role": "both",
+     "quote": "on May 2 , 1751 he received ( or purchased ) a lieutenants commission in the 44th"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1754",
+   "grain": "year",
+   "track": "location",
+   "text": "Sent with his regiment to North America for the French and Indian War",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#5",
+     "role": "both",
+     "quote": "He was sent with the regiment to North America in 1754"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1755",
+   "grain": "year",
+   "track": "other",
+   "label": "battle",
+   "text": "Was with Braddock at the defeat at the Monongahela",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#5",
+     "role": "both",
+     "quote": "He was with Braddock at his defeat at the Battle of the Monongahela in 1755"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1756-06-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Purchased captain's commission in the 44th for 900 pounds",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#8",
+     "role": "both",
+     "quote": "On June 11 , 1756 Lee purchased a Captains commission in the 44th"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1757",
+   "grain": "year",
+   "track": "other",
+   "label": "expedition",
+   "text": "Took part in expedition against the French fortress of Louisbourg",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#8",
+     "role": "both",
+     "quote": "The following year he took part in an expedition against the French fortress of Louisbourg"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1758-07-01",
+   "grain": "day",
+   "track": "other",
+   "label": "wounded",
+   "text": "Wounded in failed assault on Fort Ticonderoga",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#8",
+     "role": "both",
+     "quote": "on July 1 , 1758 he was wounded in a failed assault on Fort Ticonderoga"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1759",
+   "grain": "year",
+   "track": "other",
+   "label": "capture",
+   "text": "Took part in capture of Fort Niagara",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#8",
+     "role": "both",
+     "quote": "took part in the capture of Fort Niagara in 1759"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1760",
+   "grain": "year",
+   "track": "other",
+   "label": "capture",
+   "text": "Took part in capture of Montreal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#8",
+     "role": "both",
+     "quote": "took part in the capture of Fort Niagara in 1759 and Montreal in 1760"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1763",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to England after the Peace of Paris",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#11",
+     "role": "both",
+     "quote": "Lee returned to England in 1763 following the Peace of Paris"
+    }
+   ]
+  },
+  {
+   "date": "1763",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Regiment disbanded; retired on half pay as a major after return to England",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#11",
+     "role": "both",
+     "quote": "His regiment was disbanded and he was retired on half pay as a major"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "1765",
+   "grain": "year",
+   "track": "role",
+   "text": "Served as aide-de-camp under King Stanislaus II",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#12",
+     "role": "both",
+     "quote": "In 1765 , Lee served as an aide-de-camp under King Stanislaus II"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1769",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to Poland after failing to win promotion in Britain",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#12",
+     "role": "both",
+     "quote": "in 1769 he returned to Poland"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1772-05-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Promoted to lieutenant colonel while still inactive",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#11",
+     "role": "both",
+     "quote": "On 26 May 1772 , although still inactive , he was promoted to lieutenant colonel"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1773",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved to North America and bought an estate in Virginia",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#1",
+     "role": "both",
+     "quote": "Lee moved to North America in 1773 and bought an estate in Virginia"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#13",
+     "role": "both",
+     "quote": "He moved to the colonies in 1773"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1775",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Volunteered to serve with rebel forces in the American War of Independence",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#1",
+     "role": "both",
+     "quote": "in 1775 , he volunteered to serve with rebel forces"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1775",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Purchased estate worth 3,000 pounds in Berkeley County",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#13",
+     "role": "both",
+     "quote": "in 1775 purchased an estate worth £3,000 in Berkeley County"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1776",
+   "grain": "year",
+   "track": "other",
+   "label": "battle",
+   "text": "Forces under his command repulsed British attempt to capture Charleston",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#2",
+     "role": "both",
+     "quote": "In 1776 , forces under his command repulsed a British attempt to capture Charleston"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1776",
+   "grain": "year",
+   "track": "role",
+   "text": "Named commander of the Canadian Department (never served in it)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#15",
+     "role": "both",
+     "quote": "in 1776 , he was named commander of the so-called Canadian Department"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1776",
+   "grain": "year",
+   "track": "role",
+   "text": "Became second-in-command of the Continental Army when Ward resigned",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#14",
+     "role": "both",
+     "quote": "succeeded to second-in-command in 1776 when Ward resigned due to ill health"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1776-12-12",
+   "grain": "day",
+   "track": "other",
+   "label": "captured",
+   "text": "Captured by British troops at Whites Tavern, Basking Ridge, New Jersey",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#19",
+     "role": "both",
+     "quote": "On December 12 , Lee was captured by British troops at Whites Tavern in Basking Ridge , New Jersey"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#2",
+     "role": "description",
+     "quote": "Later that year , he was captured by British cavalry under Banastre Tarleton"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1777-03-29",
+   "grain": "day",
+   "track": "other",
+   "label": "manuscript",
+   "text": "Wrote plan for British commissioners while a prisoner of war",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#49",
+     "role": "both",
+     "quote": "discovered a manuscript dated March 29 , 1777 , written by Lee while he was the guest of the British as a prisoner of war"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1778-04",
+   "grain": "month",
+   "track": "other",
+   "label": "released",
+   "text": "Released on parole in a prisoner exchange",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#20",
+     "role": "both",
+     "quote": "Lee was released on parole as part of a prisoner exchange in early April 1778"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1778-05-21",
+   "grain": "day",
+   "track": "role",
+   "text": "Returned to duty as Washington's second-in-command",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#22",
+     "role": "both",
+     "quote": "returned to duty with the Continental Army as Washingtons second-in-command on May 21"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1778-06",
+   "grain": "month",
+   "track": "other",
+   "label": "war council",
+   "text": "Argued at second war council against a major battle",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#22",
+     "role": "date",
+     "quote": "In June , as the British evacuated Philadelphia"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#23",
+     "role": "description",
+     "quote": "At the second council , Lee argued the Continental Army was no match for the British Army"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1778-06-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Took over command of the vanguard at Englishtown",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#26",
+     "role": "both",
+     "quote": "Lee took over on June 27 at Englishtown"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1778-06-28",
+   "grain": "day",
+   "track": "other",
+   "label": "battle",
+   "text": "Battle of Monmouth: Lee's vanguard attack miscarried and forced a retreat",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#28",
+     "role": "both",
+     "quote": "When news arrived at 05:00 on June 28 that the British were moving , Lee led the vanguard towards Monmouth Court House"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#2",
+     "role": "description",
+     "quote": "During the Battle of Monmouth later that year , Lee led an assault on the British that miscarried"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#39",
+     "role": "description",
+     "quote": "Lee fought the counter-attacking British in a rearguard action that lasted no more than thirty minutes"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1778-06-28",
+   "grain": "day",
+   "track": "other",
+   "label": "confrontation",
+   "text": "Washington confronted Lee over the disordered retreat at Monmouth",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#28",
+     "role": "date",
+     "quote": "When news arrived at 05:00 on June 28"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#37",
+     "role": "description",
+     "quote": "Washington asked without pleasantries , I desire to know , sir , what is the reason"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1778-06-28",
+   "grain": "day",
+   "track": "role",
+   "text": "Relieved of command by Steuben at Englishtown",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#28",
+     "role": "date",
+     "quote": "When news arrived at 05:00 on June 28"
+    },
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#40",
+     "role": "description",
+     "quote": "At 15:00 , Steuben arrived at Englishtown and relieved Lee of command"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1778-06-30",
+   "grain": "day",
+   "track": "other",
+   "label": "letter",
+   "text": "Sent insolent letter to Washington blaming him and demanding apology",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#41",
+     "role": "both",
+     "quote": "on June 30 , after protesting his innocence to all who would listen , Lee wrote an insolent letter to Washington"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1778-07-04",
+   "grain": "day",
+   "track": "other",
+   "label": "court-martial",
+   "text": "Court-martial convened on three charges",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#43",
+     "role": "both",
+     "quote": "The court convened on July 4 , and three charges were laid before Lee"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1778-08-12",
+   "grain": "day",
+   "track": "other",
+   "label": "court-martial",
+   "text": "Court-martial trial concluded",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#43",
+     "role": "both",
+     "quote": "The trial concluded on August 12"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1778-12-05",
+   "grain": "day",
+   "track": "other",
+   "label": "verdict",
+   "text": "Found guilty on all three counts; verdict confirmed by Congress",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#43",
+     "role": "both",
+     "quote": "the verdict was confirmed by Congress on December 5"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1780",
+   "grain": "year",
+   "track": "role",
+   "text": "Letter to Congress led to termination of his army service",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#46",
+     "role": "both",
+     "quote": "In 1780 , Lee sent such a poorly received letter to Congress that it terminated his service with the army"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1782-10-02",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died of fever in a tavern in Philadelphia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Charles_Lee_(general)#47",
+     "role": "both",
+     "quote": "he was stricken with fever and died in a tavern on October 2 , 1782"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Born in Darnhall, Cheshire, England (date not stated)",
+  "Attended King Edward VI School, Bury St Edmunds, and later schooling in Switzerland (date not stated)",
+  "Reported for duty with his regiment in Ireland after schooling (date not stated)",
+  "Married the daughter of a Mohawk chief (date not stated)",
+  "Sold his commission after the Seven Years War and served in Polish army (date not stated)",
+  "Transferred to the 103rd Foot as major and served as lieutenant colonel in Portuguese army (date not stated)",
+  "Distinguished himself at the Battle of Vila Velha under John Burgoyne (date not stated)",
+  "Duel in which he lost two fingers and killed his opponent (date not stated)",
+  "Saw action in the Russo-Turkish War (date not stated)",
+  "Appointed Major-General and third in line for Continental Army command (date not stated)",
+  "Appointed first commander of the Southern Department and served six months (date not stated)",
+  "Oversaw fortification of Charleston and the defence of Fort Sullivan, acclaimed as hero (date not stated)",
+  "Lobbied Congress for promotion to lieutenant general and submitted army reorganisation plan (date not stated)",
+  "Declined command of the vanguard before later accepting it (date not stated)",
+  "Greeted by Washington at Valley Forge on way to York (date not stated)",
+  "Sent to Long Island to recuperate and attacked by a surgeon (date not stated)",
+  "Duel with John Laurens in which he was wounded (date not stated)",
+  "Demanded court-martial after Washington's reply (date not stated)",
+  "Washington ordered his arrest (date not stated)",
+  "Suspended from the army for one year after court-martial (date not stated)",
+  "Retired to his Prato Rio property in the Shenandoah Valley (date not stated)",
+  "Buried in the churchyard of Christ Church, Philadelphia (date not stated)",
+  "Bequeathed his property to his sister Sidney Lee (date not stated)",
+  "Fort Lee (New Jersey), Lee (Massachusetts), Lee (New Hampshire) and Leetown named for him during his life (date not stated)"
+ ]
+}

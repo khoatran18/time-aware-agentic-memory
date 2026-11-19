@@ -1,0 +1,136 @@
+{
+  "page_id": "Expobank_CZ",
+  "events": [
+    {"id": "e1", "date": "1991", "grain": "year", "track": "other", "label": "founding",
+     "text": "Bank founded as Swiss-Hungarian joint venture named InterBank",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#0", "role": "both", "quote": "founded in 1991"},
+       {"chunk_id": "/wiki/Expobank_CZ#1", "role": "both", "quote": "The original bank was established in 1991"}
+     ]},
+    {"id": "e2", "date": "1991", "grain": "year", "track": "other", "label": "founding",
+     "text": "Predecessor Dresdner Bank CZ founded as BNP and Dresdner Bank joint venture",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#4", "role": "both", "quote": "Dresdner Bank CZ a.s . was founded in 1991 as a joint venture of the French"}
+     ]},
+    {"id": "e3", "date": "1991-09-03", "grain": "day", "track": "other", "label": "license",
+     "text": "Predecessor BNP-Dresdner Bank obtained banking license",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#4", "role": "both", "quote": "under the original name BNP-Dresdner Bank ( ČSFR ) a.s . obtained a banking license on 3.9.1991"}
+     ]},
+    {"id": "e4", "date": "1991-12-28", "grain": "day", "track": "other", "label": "license",
+     "text": "Bank obtained its original banking license",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#1", "role": "both", "quote": "obtained a banking license on 28.12.1991"}
+     ]},
+    {"id": "e5", "date": "1993", "grain": "year", "track": "ownership_structure",
+     "text": "Period of shareholder structure changes begins",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#2", "role": "both", "quote": "Between 1993 and 1997 a number of changes in the shareholder structure took place"}
+     ]},
+    {"id": "e6", "date": "1997", "grain": "year", "track": "ownership_structure",
+     "text": "Bayerische Landesbank becomes majority shareholder; transition stabilizes",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#2", "role": "both", "quote": "this transition period stabilized at the end of 1997 , when the German Bayerische Landesbank became the majority shareholder"}
+     ]},
+    {"id": "e7", "date": "2001", "grain": "year", "track": "ownership_structure",
+     "text": "Dresdner Bank AG becomes sole shareholder of Dresdner Bank CZ",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#4", "role": "both", "quote": "In 2001 Dresdner Bank AG became the sole shareholder of the bank"}
+     ]},
+    {"id": "e8", "date": "2003-09", "grain": "month", "track": "ownership_structure",
+     "text": "BAWAG becomes sole shareholder of Interbank",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#2", "role": "both", "quote": "In September 2003 , BAWAG became the sole shareholder of Interbank a.s ."}
+     ]},
+    {"id": "e9", "date": "2003-11-04", "grain": "day", "track": "naming",
+     "text": "Predecessor re-licensed under new name Dresdner Bank CZ a.s.",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#4", "role": "both", "quote": "under the name Dresdner Bank CZ a.s . on 4.11.2003"}
+     ]},
+    {"id": "e10", "date": "2004-02-13", "grain": "day", "track": "naming",
+     "text": "Bank re-licensed under the name Interbanka, a.s.",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#1", "role": "both", "quote": "was received under the name Interbanka , akciová společnost ( joint-stock company ) on 13 . 2 . 2004"}
+     ]},
+    {"id": "e11", "date": "2004-06", "grain": "month", "track": "naming",
+     "text": "Bank renamed BAWAG Bank CZ a.s.",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#2", "role": "both", "quote": "and in June 2004 the bank was renamed BAWAG Bank CZ a.s ."}
+     ]},
+    {"id": "e12", "date": "2004-09", "grain": "month", "track": "ownership_structure",
+     "text": "BAWAG acquires 100% of Dresdner Bank CZ shares",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#2", "role": "both", "quote": "In September 2004 , BAWAG acquired 100% of the shares of another bank on the"},
+       {"chunk_id": "/wiki/Expobank_CZ#3", "role": "description", "quote": "Czech market - Dresdner Bank CZ a.s ."}
+     ]},
+    {"id": "e13", "date": "2005-03-31", "grain": "day", "track": "other", "label": "merger",
+     "text": "Dresdner Bank CZ ceases to exist, merged into BAWAG Bank CZ",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#5", "role": "both", "quote": "ceased to exist on 31 March 2005 as a result of the merger with BAWAG Bank CZ a.s"}
+     ]},
+    {"id": "e14", "date": "2005-05-06", "grain": "day", "track": "other", "label": "license",
+     "text": "Banking license supplemented",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#1", "role": "both", "quote": "and was supplemented on 6.5.2005"}
+     ]},
+    {"id": "e15", "date": "2008-09", "grain": "month", "track": "ownership_structure",
+     "text": "LBBW becomes sole shareholder of the bank",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#6", "role": "both", "quote": "In September 2008 , another change occurred when German Landesbank Baden-Württemberg ( LBBW ) became the sole shareholder"}
+     ]},
+    {"id": "e16", "date": "2008-09", "grain": "month", "track": "naming",
+     "text": "Bank renamed LBBW Bank CZ a.s. as part of LBBW Group",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#6", "role": "both", "quote": "In September 2008 , another change occurred when German Landesbank Baden-Württemberg ( LBBW ) became the sole shareholder"}
+     ]},
+    {"id": "e17", "date": "2014", "grain": "year", "track": "ownership_structure",
+     "text": "Igor Kim becomes majority shareholder and owner",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#0", "role": "both", "quote": "Since 2014 , the Russian entrepreneur Igor Kim has been the majority shareholder and owner"},
+       {"chunk_id": "/wiki/Expobank_CZ#7", "role": "both", "quote": "Since the end of 2014 , Igor Kim has been the majority owner of the Czech bank"}
+     ]},
+    {"id": "e18", "date": "2014-01", "grain": "month", "track": "ownership_structure",
+     "text": "LBBW agrees to sell the bank to Expobank owned by Igor Kim",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#7", "role": "both", "quote": "In January 2014 , LBBW agreed to sell LBBW Bank CZ to the Russian bank Expobank"}
+     ]},
+    {"id": "e19", "date": "2014-10-15", "grain": "day", "track": "naming",
+     "text": "Business name changed to Expobank CZ a.s.",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#7", "role": "both", "quote": "On 15 . 10 . 2014 the business name of the bank was changed to Expobank CZ a.s"}
+     ]},
+    {"id": "e20", "date": "2014-11", "grain": "month", "track": "other", "label": "restructuring",
+     "text": "Branch network reduced",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#7", "role": "both", "quote": "At the end of November 2014 , the branch network has been reduced"}
+     ]},
+    {"id": "e21", "date": "2016-03", "grain": "month", "track": "ownership_structure",
+     "text": "Bank repurchases EAST Portfolio s.r.o., acquiring 100% stake",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#8", "role": "both", "quote": "In March 2016 , Expobank CZ a.s . repurchased EAST Portfolio , s.r.o ."}
+     ]},
+    {"id": "e22", "date": "2017-03", "grain": "month", "track": "ownership_structure",
+     "text": "Bank becomes sole shareholder of Marfin Bank, entering Serbian market",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#8", "role": "both", "quote": "In March 2017 Expobank CZ a.s . was the first Czech bank to enter the Serbian market"}
+     ]},
+    {"id": "e23", "date": "2018-10", "grain": "month", "track": "work",
+     "text": "Bank announces opening of cryptocurrency trading and investing services",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#8", "role": "both", "quote": "In October 2018 , Expobank announced the opening of its Cryptocurrency trading and investing services"}
+     ]},
+    {"id": "e24", "date": "2019-04", "grain": "month", "track": "location",
+     "text": "Bank based in Trimaran building, Pankrác, Prague",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#9", "role": "both", "quote": "Since April 2019 , Expobank CZ has been based in the Trimaran building"}
+     ]},
+    {"id": "e25", "date": "2019-08", "grain": "month", "track": "location",
+     "text": "Branch moves from Wenceslas Square to City Element building, Pankrác",
+     "evidence": [
+       {"chunk_id": "/wiki/Expobank_CZ#9", "role": "both", "quote": "In August 2019 , a branch that had been located on Wenceslas Square in Prague moved to the neighboring City Element building"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Dresdner Bank CZ a.s. renamed BAWAG International Bank CZ a.s. (no date stated, before 31 March 2005)"
+  ]
+}

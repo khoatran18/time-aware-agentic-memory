@@ -1,0 +1,439 @@
+{
+ "page_id": "Volvo_9700",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1998",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Volvo acquired Carrus; its models then sold in Europe under other names.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#2",
+     "role": "both",
+     "quote": "After Carrus was acquired by Volvo in 1998"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "9700 range introduced as replacement for Carrus Star and Vector/Regal models.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#0",
+     "role": "both",
+     "quote": "It was introduced in 2001 as a replacement for the Carrus Star and Vector/Regal models"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2001",
+   "grain": "year",
+   "track": "naming",
+   "text": "Volvo unified all earlier models under the single name Volvo 9700.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#2",
+     "role": "both",
+     "quote": "In 2001 Volvo gathered all the different models to one name , Volvo 9700"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "9700HD serial production started, summer 2001.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#2",
+     "role": "description",
+     "quote": "Serial production of 9700H and"
+    },
+    {
+     "chunk_id": "/wiki/Volvo_9700#3",
+     "role": "both",
+     "quote": "9700HD started in the summer of 2001"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "9700S came into production, autumn 2001.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#3",
+     "role": "both",
+     "quote": "9700HD started in the summer of 2001 , while 9700S came into production in the autumn"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Body model also offered on Carrus Star 503/603 chassis in Nordic countries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#10",
+     "role": "both",
+     "quote": "In 2001 and 2002 , the body model was also available on other chassises"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Volvo Polska plant in Wroclaw started production of 9700H and 9700HD.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#3",
+     "role": "both",
+     "quote": "In 2003 production also started at Volvo Polska Sp . z o.o . in Wrocław , Poland"
+    }
+   ]
+  },
+  {
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "regulation",
+   "text": "EU and EEA limited maximum length of a two-axle vehicle to 13.5 m, affecting these models",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#7",
+     "role": "both",
+     "quote": "However , in 2003 the European Union and European Economic Area limited the maximum length of a"
+    }
+   ],
+   "id": "e8"
+  },
+  {
+   "id": "e9",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Small batch of 9700S built on B7R chassis for a Finnish operator.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#6",
+     "role": "both",
+     "quote": "a small batch of 9700S were built on B7R chassis in 2004 for a Finnish operator"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Model received a minor facelift.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#9",
+     "role": "both",
+     "quote": "In 2004 the model received a minor facelift"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2004",
+   "grain": "year",
+   "track": "naming",
+   "text": "Finnish plants renamed: Tampere and Turku factories.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#9",
+     "role": "both",
+     "quote": "That year the Finnish plants were renamed"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2006",
+   "grain": "year",
+   "track": "work",
+   "text": "9700 NG (New Generation) revealed.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#12",
+     "role": "both",
+     "quote": "The Volvo 9700 NG , also known as 9700 New/Next Generation was revealed in the autumn of 2006"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "9700 NG awarded Coach of the Year 2008 by European bus journalists.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#12",
+     "role": "both",
+     "quote": "In 2007 , the 9700 NG was awarded the title Coach of the Year 2008"
+    }
+   ]
+  },
+  {
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Second generation Volvo 9900 became a full member of the 9700 family",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#24",
+     "role": "both",
+     "quote": "When the second generation was introduced in 2007 , it became a full member of the 9700 family"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "2008-10-01",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Volvo closed its operations in Finland, including the Tampere plant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#12",
+     "role": "both",
+     "quote": "On 1 October 2008 , Volvo closed their operations in Finland"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2008-10-01",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Lieto plant sold back to Finnish investors, mostly Carrus-related.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#12",
+     "role": "both",
+     "quote": "The Tampere plant closed and the Lieto plant was sold back to Finnish investors"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2008-10-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Lieto plant's new name became Carrus Delta Oy.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#12",
+     "role": "date",
+     "quote": "On 1 October 2008 , Volvo closed their operations in Finland"
+    },
+    {
+     "chunk_id": "/wiki/Volvo_9700#13",
+     "role": "description",
+     "quote": "The new name became Carrus Delta Oy"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Higher-power engines moved from B12B to B13R chassis after Euro V.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#14",
+     "role": "both",
+     "quote": "until late 2009 when Euro V emission requirements were enforced"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "9700 available in North America via Prevost network, 45 tri-axle coach.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#27",
+     "role": "both",
+     "quote": "the Volvo 9700 has been available as a 45 ( 13.7 m ) tri-axle coach in North America since 2009"
+    }
+   ]
+  },
+  {
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Wroclaw-built Volvo 9500 introduced as low-price alternative at IAA Hannover",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#22",
+     "role": "both",
+     "quote": "The Wrocław-built Volvo 9500 was introduced as a low-price alternative at IAA Hannover in 2010"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "text": "9700S restriction to B12B/B9R chassis ended with B11R introduction.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#15",
+     "role": "both",
+     "quote": "B11R in 2011 , the 9700S could only be delivered with 340 hp ( B12B ) or 380 hp ( B9R )"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2012-11",
+   "grain": "month",
+   "track": "work",
+   "text": "9700 UG (Upgrade) first revealed for Nordic markets.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#16",
+     "role": "both",
+     "quote": "The Volvo 9700 UG , also known as 9700 Upgrade , was first revealed in November 2012"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2013",
+   "grain": "year",
+   "track": "work",
+   "text": "Finnish production switched entirely to the UG version.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#16",
+     "role": "both",
+     "quote": "the production at the plant in Finland was all changed to UG by early 2013"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2013",
+   "grain": "year",
+   "track": "work",
+   "text": "Third generation 9700 Grand presented, designed for Mexico.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#26",
+     "role": "both",
+     "quote": "Third generation was presented in 2013 , known as 9700 Grand"
+    }
+   ]
+  },
+  {
+   "date": "2015",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Volvo 9800 launched as replacement for the Mexican market",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#1",
+     "role": "both",
+     "quote": "In 2015 , the Volvo 9800 was launched as a replacement for the Mexican market"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "date": "2018-03",
+   "grain": "month",
+   "track": "work",
+   "label": null,
+   "text": "Double-decker Volvo 9800DD launched",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#1",
+     "role": "both",
+     "quote": "followed by the double-decker 9800DD in March 2018"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "id": "e27",
+   "date": "2018-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Fourth generation 9700 unveiled.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#18",
+     "role": "both",
+     "quote": "The fourth generation 9700 was unveiled in May 2018"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2020-02",
+   "grain": "month",
+   "track": "work",
+   "text": "Double-decker 9700DD launched on Volvo B11RLE chassis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#18",
+     "role": "both",
+     "quote": "A double decker version of the fourth generation 9700 , the 9700DD , was launched in February 2020"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2021",
+   "grain": "year",
+   "track": "work",
+   "text": "Lower 4 m-height 9700DD version launched.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Volvo_9700#18",
+     "role": "both",
+     "quote": "a lower , 4 m-height version was launched a year later"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Rollout of the UG generation to the rest of Europe postponed to the autumn Euro VI chassis introduction (year not stated)"
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "page_id": "/wiki/Mission_San_Miguel_Arcángel",
+ "events": [
+  {"id": "e1", "date": "1797-07-25", "grain": "day", "track": "other", "label": "founding", "text": "Franciscan fathers founded Mission San Miguel Arcángel",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#0", "role": "both", "quote": "It was established on July 25 , 1797 by the Franciscan order"},
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#3", "role": "both", "quote": "Father Fermín Lasuén and Father Buenaventura Sitjar founded the mission on July 25 , 1797"}
+   ]},
+  {"id": "e2", "date": "1798", "grain": "year", "track": "work", "text": "Small original chapel replaced by a new chapel",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#3", "role": "both", "quote": "In 1798 the small chapel was replaced"},
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#6", "role": "description", "quote": "The first chapel on the site was replaced within a year of its construction by a larger adobe chapel"}
+   ]},
+  {"id": "e3", "date": "1806", "grain": "year", "track": "other", "label": "fire", "text": "Adobe chapel burned in a fire",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#6", "role": "both", "quote": "a larger adobe chapel , which burned in the 1806 fire"}
+   ]},
+  {"id": "e4", "date": "1816", "grain": "year", "track": "work", "text": "Construction of the new mission church began",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#3", "role": "both", "quote": "From 1816 to 1818 a new church was constructed"},
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#6", "role": "both", "quote": "The current mission church was built between 1816 and 1818"}
+   ]},
+  {"id": "e5", "date": "1818", "grain": "year", "track": "work", "text": "Construction of the current mission church completed",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#3", "role": "both", "quote": "From 1816 to 1818 a new church was constructed"},
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#6", "role": "both", "quote": "The current mission church was built between 1816 and 1818"}
+   ]},
+  {"id": "e6", "date": "1859", "grain": "year", "track": "ownership_structure", "text": "U.S. government returned the mission to the Catholic Church",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#5", "role": "both", "quote": "In 1859 the U.S . government returned the mission to the Catholic Church"}
+   ]},
+  {"id": "e7", "date": "1878", "grain": "year", "track": "affiliation", "text": "Church reactivated the mission",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#5", "role": "both", "quote": "In 1878 the Church reactivated the mission"}
+   ]},
+  {"id": "e8", "date": "1878", "grain": "year", "track": "role", "text": "Philip Farrelly took up residence as first pastor of the mission",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#5", "role": "both", "quote": "In 1878 the Church reactivated the mission , and Rev . Philip Farrelly took up residence"}
+   ]},
+  {"id": "e9", "date": "1928", "grain": "year", "track": "ownership_structure", "text": "Mission returned to the Franciscan Padres",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#5", "role": "both", "quote": "In 1928 the mission was returned to the Franciscan Padres"}
+   ]},
+  {"id": "e10", "date": "1971", "grain": "year", "track": "other", "label": "heritage", "text": "Mission placed on the National Register of Historic Places",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#2", "role": "both", "quote": "The mission was put on the National Register of Historic Places in 1971"}
+   ]},
+  {"id": "e11", "date": "2003", "grain": "year", "track": "other", "label": "closure", "text": "Mission closed to the public for six years after the San Simeon earthquake", "flag": "derived_date",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#1", "role": "both", "quote": "After being closed to the public for six years due to the 2003 San Simeon earthquake"}
+   ]},
+  {"id": "e12", "date": "2006", "grain": "year", "track": "other", "label": "heritage", "text": "Mission named a National Historic Landmark",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#2", "role": "both", "quote": "was named to a National Historic Landmark in 2006"}
+   ]},
+  {"id": "e13", "date": "2009-09-29", "grain": "day", "track": "other", "label": "reopening", "text": "Church reopened to the public after closure",
+   "evidence": [
+    {"chunk_id": "/wiki/Mission_San_Miguel_Arcángel#1", "role": "both", "quote": "the church reopened on September 29 , 2009"}
+   ]}
+ ],
+ "undated_mentions": ["Mission land sold off after the 1833 Mexican secularization act"]
+}

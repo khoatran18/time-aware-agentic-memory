@@ -1,0 +1,26 @@
+{
+  "page_id": "Niva_magazine",
+  "events": [
+    {"id": "e1", "date": "1870", "grain": "year", "track": "other", "label": "founding", "text": "Niva founded by A. F. Marx; begins publication", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#0", "role": "both", "quote": "it lasted from 1870 to 1918"}, {"chunk_id": "/wiki/Niva_(magazine)#1", "role": "description", "quote": "It was founded by A . F . Marx"}]},
+    {"id": "e2", "date": "1870", "grain": "year", "track": "role", "text": "Viktor Klyushnikov begins as editor (with interruptions)", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Viktor Klyushnikov ( 1870 to 1892 , with interruptions )"}]},
+    {"id": "e3", "date": "1875", "grain": "year", "track": "role", "text": "Dmitry Stakheev begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Dmitry Stakheev ( 1875—1877 )"}]},
+    {"id": "e4", "date": "1877", "grain": "year", "track": "role", "text": "Dmitry Stakheev ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Dmitry Stakheev ( 1875—1877 )"}]},
+    {"id": "e5", "date": "1878", "grain": "year", "track": "role", "text": "Fedor Berg begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Fedor Berg ( 1878—1887 )"}]},
+    {"id": "e6", "date": "1887", "grain": "year", "track": "role", "text": "Fedor Berg ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Fedor Berg ( 1878—1887 )"}]},
+    {"id": "e7", "date": "1892", "grain": "year", "track": "role", "text": "Viktor Klyushnikov ends as editor (with interruptions)", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Viktor Klyushnikov ( 1870 to 1892 , with interruptions )"}]},
+    {"id": "e8", "date": "1892", "grain": "year", "track": "role", "text": "Mikhail Volkonsky begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Mikhail Volkonsky ( 1892—1894 )"}]},
+    {"id": "e9", "date": "1894", "grain": "year", "track": "role", "text": "Mikhail Volkonsky ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Mikhail Volkonsky ( 1892—1894 )"}]},
+    {"id": "e10", "date": "1895", "grain": "year", "track": "role", "text": "Alexei Tikhonov-Lugovoi begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Alexei Tikhonov-Lugovoi ( 1895—1897 )"}]},
+    {"id": "e11", "date": "1897", "grain": "year", "track": "role", "text": "Alexei Tikhonov-Lugovoi ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Alexei Tikhonov-Lugovoi ( 1895—1897 )"}]},
+    {"id": "e12", "date": "1897", "grain": "year", "track": "role", "text": "Rostislav Sementkovsky begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Rostislav Sementkovsky ( 1897—1904 )"}]},
+    {"id": "e13", "date": "1904", "grain": "year", "track": "role", "text": "Rostislav Sementkovsky ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Rostislav Sementkovsky ( 1897—1904 )"}]},
+    {"id": "e14", "date": "1910", "grain": "year", "track": "role", "text": "Valerian Ivchenko-Svetlov begins as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Valerian Ivchenko-Svetlov ( 1910—1916 )"}]},
+    {"id": "e15", "date": "1916", "grain": "year", "track": "role", "text": "Valerian Ivchenko-Svetlov ends as editor", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#6", "role": "both", "quote": "Valerian Ivchenko-Svetlov ( 1910—1916 )"}]},
+    {"id": "e16", "date": "1916", "grain": "year", "track": "ownership_structure", "text": "Niva's publisher bought by literary entrepreneur Ivan Sytin", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#8", "role": "both", "quote": "which was bought by the literary entrepreneur Ivan Sytin in 1916"}]},
+    {"id": "e17", "date": "1918-09", "grain": "month", "track": "other", "label": "closure", "text": "Niva closed by the Bolsheviks", "evidence": [{"chunk_id": "/wiki/Niva_(magazine)#0", "role": "both", "quote": "it lasted from 1870 to 1918"}, {"chunk_id": "/wiki/Niva_(magazine)#8", "role": "both", "quote": "was closed by the Bolsheviks in September 1918"}]}
+  ],
+  "undated_mentions": [
+    "Science and literature supplements and a children's section added to Niva (no date given)",
+    "Leo Tolstoy's Resurrection first serialized in Niva (no date given)"
+  ]
+}

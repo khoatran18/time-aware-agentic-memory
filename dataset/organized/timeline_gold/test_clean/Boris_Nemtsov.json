@@ -1,0 +1,824 @@
+{
+ "page_id": "/wiki/Boris_Nemtsov",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1959-10-09",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Sochi.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#0",
+     "role": "both",
+     "quote": "9 October 195927 February 2015"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#10",
+     "role": "both",
+     "quote": "Boris Yefimovich Nemtsov was born in Sochi in 1959"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1976",
+   "grain": "year",
+   "track": "education",
+   "text": "Began physics studies at Gorky State University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#11",
+     "role": "both",
+     "quote": "From 1976 to 1981 , Nemtsov studied physics at N . I . Lobachevsky State University"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1981",
+   "grain": "year",
+   "track": "education",
+   "text": "Completed physics degree at Gorky State University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#11",
+     "role": "both",
+     "quote": "receiving a degree in 1981"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1985",
+   "grain": "year",
+   "track": "education",
+   "text": "Defended PhD dissertation in physics and mathematics.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#12",
+     "role": "both",
+     "quote": "Aged 25 in 1985 , he defended his dissertation for a PhD in Physics and Mathematics"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1986",
+   "grain": "year",
+   "track": "other",
+   "label": "protest",
+   "text": "Organized protest movement that blocked a nuclear-fired boiler plant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#13",
+     "role": "both",
+     "quote": "In the wake of the Chernobyl disaster in 1986 , Nemtsov organized a protest movement"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Ran unsuccessfully for Soviet Congress of Peoples Deputies.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#14",
+     "role": "both",
+     "quote": "In 1989 , Nemtsov unsuccessfully ran for the Soviet Congress of Peoples Deputies"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected to Supreme Soviet of the Russian Republic.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#14",
+     "role": "both",
+     "quote": "In Russias first free elections of 1990 , he ran for the Supreme Soviet of the Russian Republic"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Member of the Congress of Peoples Deputies.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "Nemtsov was also a member of the Congress of Peoples Deputies ( 1990 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1990",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Reform Coalition and Centre-Left groups in parliament.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#14",
+     "role": "both",
+     "quote": "Once in Parliament he joined the Reform Coalition and Centre-Left political groups"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1991",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Yeltsin's presidential representative in Nizhny Novgorod.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#15",
+     "role": "both",
+     "quote": "After those events , Yeltsin rewarded Nemtsovs loyalty with the position of presidential representative"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1991-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed Governor of Nizhny Novgorod region by Yeltsin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#16",
+     "role": "both",
+     "quote": "In November 1991 , Yeltsin appointed him Governor of the Nizhny Novgorod region"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "first governor of the Nizhny Novgorod Oblast ( 1991–97 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1993-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Elected to the Federation Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#20",
+     "role": "both",
+     "quote": "In December 1993 , Nemtsov was elected to the Federation Council"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1995-03-10",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded Medal of the Order For Merit to the Fatherland, Second class.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#99",
+     "role": "both",
+     "quote": "Medal of the Order For Merit to the Fatherland , Second class , ( 10 March 1995 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1995-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Re-elected Governor of Nizhny Novgorod region by popular vote.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#16",
+     "role": "both",
+     "quote": "He was re-elected to that position by popular vote in December 1995"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "other",
+   "label": "petition",
+   "text": "Brought Yeltsin a petition with one million signatures against the first Chechnya war.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#21",
+     "role": "both",
+     "quote": "In 1996 , Nemtsov brought Yeltsin a petition with one million signatures"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1997-03",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed First Deputy Prime Minister of Russia, responsible for energy reform.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#22",
+     "role": "both",
+     "quote": "In March 1997 , Nemtsov was appointed First Deputy Prime Minister of the Russian Federation"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "Vice Premier of Russia and Security Council member from 1997 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Served as Minister of Fuel and Energy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "Later he worked in the government of Russia as Minister of Fuel and Energy ( 1997 )"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended first governorship of Nizhny Novgorod Oblast.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "first governor of the Nizhny Novgorod Oblast ( 1991–97 )"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "Federation Council term ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#5",
+     "role": "both",
+     "quote": "Federation Council ( 1993–97 )"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded the Young Russia movement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "In 1998 , he founded the Young Russia movement"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1998",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded the coalition group Right Cause.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "In 1998 , he co-founded the coalition group Right Cause"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Term as Vice Premier and Security Council member ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "Vice Premier of Russia and Security Council member from 1997 to 1998"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1998",
+   "grain": "year",
+   "track": "role",
+   "text": "Reappointed Deputy Prime Minister; resigned shortly afterwards.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#26",
+     "role": "both",
+     "quote": "After the dismissal of Prime Minister Victor Chernomyrdin in 1998 , Nemtsov was reappointed Deputy Prime Minister"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1999-08",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded the Union of Right Forces liberal coalition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#28",
+     "role": "both",
+     "quote": "In August 1999 , Nemtsov became one of the co-founders of the Union of Right Forces"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#4",
+     "role": "both",
+     "quote": "in 1999 , he co-formed Union of Right Forces"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1999-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Elected to the State Duma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#28",
+     "role": "both",
+     "quote": "in December 1999 . Nemtsov himself was elected to the State Duma"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2000-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Became Deputy Speaker of the State Duma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#28",
+     "role": "both",
+     "quote": "became its Deputy Speaker in February 2000"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2000-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Elected leader of the Union of Right Forces party and its parliamentary group.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#28",
+     "role": "both",
+     "quote": "In May 2000 , Sergei Kiriyenko resigned and Nemtsov was elected leader of the party"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2001-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Party congress confirmed him as Union of Right Forces leader.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#28",
+     "role": "description",
+     "quote": "Over 70% of delegates at the Union of Rightist Forces congress in May"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#29",
+     "role": "date",
+     "quote": "2001 confirmed him as party leader"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2003",
+   "grain": "year",
+   "track": "role",
+   "text": "State Duma term ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#5",
+     "role": "both",
+     "quote": "State Duma ( 1999–2003 )"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2004-01",
+   "grain": "month",
+   "track": "role",
+   "text": "Resigned from the Union of Right Forces party leadership.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#32",
+     "role": "both",
+     "quote": "In January 2004 , Nemtsov resigned from the party leadership"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2004-01",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded Committee 2008, an opposition umbrella group.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#33",
+     "role": "both",
+     "quote": "Later the same month , he co-founded Committee 2008"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2004-02",
+   "grain": "month",
+   "track": "role",
+   "text": "Appointed director of Neftyanoi Bank and chairman of Neftyanoi Concern.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#34",
+     "role": "both",
+     "quote": "In February 2004 , Nemtsov was appointed as a director of the Neftyanoi Bank"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2005-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Stepped down from bank and concern positions.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#34",
+     "role": "both",
+     "quote": "Nemtsov subsequently stepped down from both his positions"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2006-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Relieved of duties as free-lance presidential adviser to Yushchenko.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#38",
+     "role": "both",
+     "quote": "until October 2006 , when the office of the Ukrainian president announced that Nemtsov had been relieved"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2007-11-25",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested during unauthorized protest near the State Hermitage Museum.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#49",
+     "role": "both",
+     "quote": "Nemtsov was arrested on 25 November 2007"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2007-11-25",
+   "grain": "day",
+   "track": "other",
+   "label": "release",
+   "text": "Released later the same day.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#49",
+     "role": "both",
+     "quote": "Nemtsov was released later that day"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2007-12-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Withdrew candidacy for the 2008 presidential election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#39",
+     "role": "both",
+     "quote": "On 26 December 2007 , Nemtsov withdrew his candidacy for the 2008 election"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2008-12-13",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded the Solidarnost opposition movement with Garry Kasparov.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#40",
+     "role": "both",
+     "quote": "On 13 December 2008 , Nemtsov and Garry Kasparov co-founded the political opposition movement Solidarnost"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2009-03-12",
+   "grain": "day",
+   "track": "role",
+   "text": "Announced candidacy for mayor of Sochi.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#41",
+     "role": "both",
+     "quote": "At a Solidarnost meeting on 12 March 2009 , Nemtsov announced that he would run for mayor of Sochi"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2009-03-23",
+   "grain": "day",
+   "track": "other",
+   "label": "attack",
+   "text": "Attacked with ammonium chloride by Nashi members.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#41",
+     "role": "both",
+     "quote": "led Nashi members to attack him with ammonium chloride on 23 March 2009"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2009-03-26",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received Honorary sign of Nizhny Novgorod Region Legislative Assembly for Merit.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#99",
+     "role": "both",
+     "quote": "Honorary sign of the Legislative Assembly of Nizhny Novgorod Region Merit ( 26 March 2009 )"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2009-04-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Came second in Sochi mayoral election; contested the result.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#44",
+     "role": "both",
+     "quote": "On 27 April 2009 , it was announced that the acting Sochi mayor"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2010-09",
+   "grain": "month",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-formed the For Russia without Lawlessness and Corruption party.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#45",
+     "role": "both",
+     "quote": "in September 2010 , together with Vladimir Ryzhkov , Mikhail Kasyanov and Vladimir Milov"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#6",
+     "role": "both",
+     "quote": "In 2010 , he co-formed the coalition For Russia without Lawlessness and Corruption"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2010-12",
+   "grain": "month",
+   "track": "naming",
+   "text": "Party transformed into the Peoples Freedom Party.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#45",
+     "role": "both",
+     "quote": "which , three months later was transformed into the Peoples Freedom Party"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2010-12-31",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested with other opposition leaders at a rally.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#50",
+     "role": "both",
+     "quote": "On 31 December 2010 , he was arrested with other opposition leaders"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2011-01",
+   "grain": "month",
+   "track": "other",
+   "label": "lawsuit",
+   "text": "Filed suit over Putin's statement before Moscow City Court; dismissed the following month.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#46",
+     "role": "both",
+     "quote": "In January 2011 , Nemtsov , Milov and Ryzhkov brought suit over Putins statement"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2011-01-02",
+   "grain": "day",
+   "track": "other",
+   "label": "sentence",
+   "text": "Sentenced to 15 days in jail.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#50",
+     "role": "both",
+     "quote": "He was sentenced on 2 January 2011 to 15 days in jail"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2011-05",
+   "grain": "month",
+   "track": "other",
+   "label": "registration",
+   "text": "Party submitted registration application to the Ministry of Justice.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#45",
+     "role": "both",
+     "quote": "In May 2011 , the party submitted an application for registration to the Ministry of Justice"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2011-06",
+   "grain": "month",
+   "track": "other",
+   "label": "registration",
+   "text": "Party registration application denied.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#45",
+     "role": "both",
+     "quote": "but one month later it was denied"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2011-12-06",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested with about one hundred demonstrators at Moscow protests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#54",
+     "role": "both",
+     "quote": "During the 6 December 2011 protests in Moscow , Nemtsov was arrested"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2012",
+   "grain": "year",
+   "track": "role",
+   "text": "Became co-chair of RPR-PARNAS (Republican Party of Russia - People's Freedom Party).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#6",
+     "role": "both",
+     "quote": "Beginning in 2012 , Nemtsov was co-chair of the Republican Party of Russia"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2015-02-27",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Assassinated by gunfire on a bridge near the Kremlin in Moscow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#0",
+     "role": "both",
+     "quote": "Nemtsov was assassinated on 27 February 2015"
+    },
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#76",
+     "role": "both",
+     "quote": "at 23:31 local time on 27 February 2015 , Nemtsov was shot several times from behind"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2017-06",
+   "grain": "month",
+   "track": "other",
+   "text": "Five Chechnya-born men found guilty of agreeing to kill Nemtsov.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Boris_Nemtsov#1",
+     "role": "both",
+     "quote": "In late June 2017 , five Chechnya-born men were found guilty by a jury in a Moscow court"
+    }
+   ],
+   "label": "trial",
+   "flag": "approximate_date"
+  }
+ ],
+ "undated_mentions": [
+  "Forced to resign as Deputy Prime Minister in Chubais economic team (no date given)",
+  "Introduced to Bill Clinton by Yeltsin as his chosen successor (no exact date)",
+  "Baptized as an infant in the Russian Orthodox Church",
+  "Charged with disobeying police and swearing (no date given)",
+  "Filed complaint with European Court of Human Rights, accepted under urgent procedure (no date given)",
+  "Criminal case over April 2014 remark on Putin, later requalified as administrative offence",
+  "Appointed economic adviser to Yushchenko shortly after the Orange Revolution (no exact date)"
+ ]
+}

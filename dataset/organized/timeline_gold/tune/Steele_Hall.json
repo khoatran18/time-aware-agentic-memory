@@ -1,0 +1,412 @@
+{
+ "page_id": "Steele_Hall",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1928-11-30",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#0",
+     "role": "both",
+     "quote": "Raymond Steele Hall ( born 30 November 1928 )"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#4",
+     "role": "both",
+     "quote": "Hall was born on 30 November 1928 in Balaklava"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1956",
+   "grain": "year",
+   "track": "family",
+   "text": "Married schoolteacher Anne Fletcher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#23",
+     "role": "both",
+     "quote": "Hall married schoolteacher Anne Fletcher in 1956"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1959",
+   "grain": "year",
+   "track": "role",
+   "text": "Elected LCL member for Gouger; state parliamentarian until 1974.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "Hall was a state parliamentarian from 1959 to 1974"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#5",
+     "role": "both",
+     "quote": "member for Gouger ( later renamed Goyder ) at the 1959 election"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1966",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Liberal and Country League leader.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "serving as Liberal and Country League ( LCL ) leader from 1966 to 1972"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#5",
+     "role": "description",
+     "quote": "Hall rose through the LCL parliamentary ranks to assume party leadership"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1968",
+   "grain": "year",
+   "track": "work",
+   "text": "Began distributing fluoridated water in South Australia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#13",
+     "role": "both",
+     "quote": "Hall also began the distribution of fluoridated water in South Australia in 1968"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1968-04-17",
+   "grain": "day",
+   "track": "role",
+   "text": "Sworn in as Premier of South Australia.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#8",
+     "role": "both",
+     "quote": "defeated in the legislature on 17 April , and Hall was sworn in as premier later that day"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Served as his own Treasurer for two months.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#14",
+     "role": "both",
+     "quote": "Hall served as his own Treasurer for two months in 1970"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1970-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Labor regained power; Hall's premiership ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#14",
+     "role": "both",
+     "quote": "forcing an election for June 1970"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1972",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended Liberal and Country League leadership.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "serving as Liberal and Country League ( LCL ) leader from 1966 to 1972"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1972",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded the Liberal Movement party.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "In 1972 he founded the Liberal Movement"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1972-03-15",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Resigned from the Liberal and Country League.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#16",
+     "role": "both",
+     "quote": "resigning from the LCL on 15 March 1972"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1973",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Resigned from the LCL as the Liberal Movement split from it.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "resigned from the LCL when the LM split from the LCL in 1973"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Resigned state seat to contest the federal election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#1",
+     "role": "both",
+     "quote": "until he resigned his seat in 1974"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Won federal Senate seat for the Liberal Movement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#17",
+     "role": "both",
+     "quote": "Hall won a federal Senate seat for the Liberal Movement at the double dissolution 1974 election"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#0",
+     "role": "both",
+     "quote": "served in the federal Parliament as a senator for South Australia from 1974 to 1977"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Voted with Labor against deferral of supply bills.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#17",
+     "role": "both",
+     "quote": "During the 1975 Australian constitutional crisis , though opposed to the Whitlam government , Hall joined Labor"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1975",
+   "grain": "year",
+   "track": "role",
+   "text": "Re-elected as senator.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#18",
+     "role": "both",
+     "quote": "Hall was re-elected at the 1975 election"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1976-06",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Rejoined the Liberal Party after the LM reintegrated into the LCL.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#18",
+     "role": "both",
+     "quote": "He became a member of the Liberal Party in June 1976"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#3",
+     "role": "both",
+     "quote": "After the LM disbanded in 1976 he rejoined the Liberal Party"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1977-11-16",
+   "grain": "day",
+   "track": "role",
+   "text": "Resigned Senate seat to unsuccessfully contest Hawker.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#18",
+     "role": "both",
+     "quote": "He resigned from the Senate on 16 November 1977"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#3",
+     "role": "both",
+     "quote": "he resigned from the senate in 1977 to contest the seat of Hawker"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1978",
+   "grain": "year",
+   "track": "family",
+   "text": "Divorced Anne Fletcher.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#23",
+     "role": "both",
+     "quote": "They were divorced in 1978"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1978",
+   "grain": "year",
+   "track": "family",
+   "text": "Married research assistant Joan Bullock.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#23",
+     "role": "both",
+     "quote": "They were divorced in 1978 , and later that year he married his research assistant Joan Bullock"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1981",
+   "grain": "year",
+   "track": "role",
+   "text": "Won Boothby by-election as Liberal Party candidate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#3",
+     "role": "both",
+     "quote": "In 1981 he won the seat of Boothby at the 1981 by-election"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#19",
+     "role": "both",
+     "quote": "Hall won the 1981 Boothby by-election as the Liberal Partys candidate"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1983",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Shadow Special Minister of State.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#21",
+     "role": "both",
+     "quote": "appointed him to the frontbench as Shadow Special Minister of State in 1983"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1984",
+   "grain": "year",
+   "track": "role",
+   "text": "Not reappointed to the frontbench after the election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#21",
+     "role": "both",
+     "quote": "was not reappointed to the frontbench after the 1984 election"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1988-08",
+   "grain": "month",
+   "track": "other",
+   "label": "vote",
+   "text": "Crossed the floor to vote with Labor against a race-based immigration criterion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#19",
+     "role": "both",
+     "quote": "In August 1988 , after the then opposition leader John Howard expressed his wish to control Asian immigration"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1996",
+   "grain": "year",
+   "track": "role",
+   "text": "Retired as Boothby member at the 1996 election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steele_Hall#20",
+     "role": "both",
+     "quote": "Hall held Boothby until his retirement at the 1996 election"
+    },
+    {
+     "chunk_id": "/wiki/Steele_Hall#3",
+     "role": "both",
+     "quote": "remained the Liberal member for Boothby until his retirement in 1996"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Sponsored an electoral reform bill expanding the House of Assembly to 47 seats",
+  "Helped the Dunstan Government introduce adult suffrage and proportional representation for Legislative Council elections",
+  "Supported Labor's three electoral reform Bills at the Joint Sitting of Parliament",
+  "Attended primary school in Owen",
+  "Graduated from Balaklava High School",
+  "Worked on the family property in Owen",
+  "Was instrumental in blocking Robert Hill's Liberal preselection for Boothby"
+ ]
+}

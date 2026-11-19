@@ -1,0 +1,160 @@
+{
+  "page_id": "Pat_Sullivan_film_producer",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1885-02-22",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Pat Sullivan born, later Australian-American cartoonist and producer",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#0",
+          "role": "both",
+          "quote": "Patrick Peter Pat Sullivan ( 22 February 1885"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1909",
+      "grain": "year",
+      "track": "location",
+      "text": "Left Australia, spent a few months in London, England",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#2",
+          "role": "both",
+          "quote": "Around 1909 , Sullivan left Australia"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "1910",
+      "grain": "year",
+      "track": "location",
+      "text": "Moved to the United States",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#2",
+          "role": "both",
+          "quote": "before moving to the United States around 1910"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "1914",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined Raoul Barré's new animated cartoon studio",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#2",
+          "role": "both",
+          "quote": "When Marriner died in 1914 , Sullivan joined the new animated cartoon studio set up by Raoul Barré"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1915",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Fired by Raoul Barré for general incompetence",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#2",
+          "role": "both",
+          "quote": "In 1915 , Sullivan was fired by Barre for general incompetence"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1917",
+      "grain": "year",
+      "track": "other",
+      "label": "conviction",
+      "text": "Convicted of second-degree rape; served 9 months in prison",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#9",
+          "role": "both",
+          "quote": "In 1917 , Sullivan was convicted of rape in the second degree"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1920-03",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Signed contract as animator with Paramount Studios",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#13",
+          "role": "both",
+          "quote": "signed a contract as an animator with Paramount Studios in March 1920"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1928",
+      "grain": "year",
+      "track": "work",
+      "text": "Finally agreed to use sound in Felix the Cat cartoons",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#4",
+          "role": "both",
+          "quote": "by late 1928 , Sullivan , after years of refusing to convert Felix to sound , finally agreed to use sound"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e9",
+      "date": "1933",
+      "grain": "year",
+      "track": "work",
+      "text": "Relented and announced Felix would return with sound",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#4",
+          "role": "both",
+          "quote": "Sullivan relented in 1933 , and announced that Felix would return in sound"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1933-02-15",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died in New York City of alcoholism and pneumonia, aged 47",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pat_Sullivan_(film_producer)#7",
+          "role": "both",
+          "quote": "Sullivan died on 15 February 1933 in New York City at age 47"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "worked as assistant to cartoonist William Marriner",
+    "drew four strips of his own",
+    "decided to start his own studio",
+    "made Sammy Johnsin series based on a Marriner strip",
+    "series of shorts starring The Tramp",
+    "created characters: Felix the Cat (disputed), Great Idea Jerry, Old Pop Perkins, Johnny Boston Beans, Obliging Oliver"
+  ]
+}

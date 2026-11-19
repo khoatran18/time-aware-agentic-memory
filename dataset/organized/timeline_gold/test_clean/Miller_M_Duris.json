@@ -1,0 +1,337 @@
+{
+  "page_id": "/wiki/Miller_M._Duris",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1928-03-02",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Born in Rainier, Oregon.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#0", "role": "date", "quote": "( March 2 , 1928 – March 23 , 2014 )"},
+        {"chunk_id": "/wiki/Miller_M._Duris#1", "role": "both", "quote": "Miller Michael Duris was born on March 2 , 1928 , in Rainier , Oregon"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1945",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined the United States Navy at age 17.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#1", "role": "both", "quote": "joined the United States Navy at the age of 17 in 1945"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1948-10-11",
+      "grain": "day",
+      "track": "family",
+      "text": "Married Celestine Sally Weverka.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#2", "role": "both", "quote": "the two married on October 11 , 1948"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1949",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left the United States Navy.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#1", "role": "both", "quote": "before leaving the Navy in 1949"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1951",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began working at Tektronix as a technical writer.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#2", "role": "both", "quote": "starting working for Tektronix in 1951"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1959",
+      "grain": "year",
+      "track": "location",
+      "text": "Family moved to Virginia.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#2", "role": "both", "quote": "the family moved to Virginia in 1959"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1967",
+      "grain": "year",
+      "track": "location",
+      "text": "Returned to Hillsboro, Oregon.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#2", "role": "both", "quote": "but returned to Hillsboro in 1967"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1969",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Started the Pigtail-Ponytail softball group for girls.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#2", "role": "description", "quote": "He started"},
+        {"chunk_id": "/wiki/Miller_M._Duris#3", "role": "both", "quote": "the Pigtail-Ponytail softball group for girls in 1969"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1969",
+      "grain": "year",
+      "track": "role",
+      "text": "Entered politics and was appointed to Hillsboro City Council.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "In 1969 , he entered politics and was appointed to the Hillsboro City Council"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1970-11",
+      "grain": "month",
+      "track": "role",
+      "text": "Re-elected to Hillsboro City Council, running unopposed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "He won re-election to the council in November 1970"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1971",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Began owning Millers Sweet Shop.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "he owned Millers Sweet Shop from 1971 to 1974"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1972-11",
+      "grain": "month",
+      "track": "role",
+      "flag": "derived_date",
+      "text": "Won Hillsboro mayoral election over Kenneth Stuart.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "Duris then ran for mayor in 1972 , defeating Kenneth Stuart in the November election"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1973-01-02",
+      "grain": "day",
+      "track": "role",
+      "text": "Took office as mayor of Hillsboro.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "taking office on January 2 , 1973"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1974",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Ended ownership of Millers Sweet Shop.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "he owned Millers Sweet Shop from 1971 to 1974"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1974-11",
+      "grain": "month",
+      "track": "role",
+      "text": "Re-elected mayor of Hillsboro over A. T. Antonelli.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "In November 1974 , he won re-election over A . T . Antonelli"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1975",
+      "grain": "year",
+      "track": "other",
+      "label": "legal",
+      "text": "Land-use lawsuit reached Oregon Court of Appeals; he and co-defendants prevailed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#5", "role": "both", "quote": "the case reaching the Oregon Court of Appeals in 1975"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1976-05",
+      "grain": "month",
+      "track": "role",
+      "flag": "derived_date",
+      "text": "Won Democratic nomination for at-large Washington County commissioner.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#6", "role": "both", "quote": "He won the Democratic nomination over Deneice Won in the May primary"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1976-10-19",
+      "grain": "day",
+      "track": "other",
+      "label": "dedication",
+      "text": "Officiated at the dedication of Bicentennial Park.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#5", "role": "both", "quote": "he officiated at the dedication of Bicentennial Park on October 19 , 1976"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1976-11",
+      "grain": "month",
+      "track": "role",
+      "flag": "derived_date",
+      "text": "Won general election for at-large Washington County commissioner.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#6", "role": "both", "quote": "defeated Republican Allan Paterson in the general election in November"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1977",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left Tektronix.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#4", "role": "both", "quote": "left Tektronix in 1977"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1978-01-04",
+      "grain": "day",
+      "track": "role",
+      "text": "Elected chairman of the Washington County Commission.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#7", "role": "both", "quote": "On January 4 , 1978 , Duris was elected as chairman of the county commission"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1979-01",
+      "grain": "month",
+      "track": "role",
+      "flag": "derived_date",
+      "text": "Won election to reconstituted county commission for a special two-year term.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#7", "role": "both", "quote": "and then won election to the reconstituted commission in January"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1980",
+      "grain": "year",
+      "track": "role",
+      "text": "Ran for new at-large commissioner position in order to become chair.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#7", "role": "both", "quote": "Duris then ran for the new at-large commissioner position in 1980 in order to be chair"}
+      ]
+    },
+    {
+      "id": "e24",
+      "date": "1980-11",
+      "grain": "month",
+      "track": "role",
+      "text": "No longer chairperson of the county commission.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#8", "role": "both", "quote": "By November 1980 he was no longer the chairperson of the commission"}
+      ]
+    },
+    {
+      "id": "e25",
+      "date": "1981-01",
+      "grain": "month",
+      "track": "role",
+      "text": "Left office as county commissioner after losing chair race.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#8", "role": "both", "quote": "left office in January 1981"}
+      ]
+    },
+    {
+      "id": "e26",
+      "date": "1986-03",
+      "grain": "month",
+      "track": "role",
+      "text": "Ran for school board of Hillsboro Union High School District; did not win.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#8", "role": "both", "quote": "school board of the Hillsboro Union High School District ( now part of the Hillsboro School District ) in March 1986"}
+      ]
+    },
+    {
+      "id": "e27",
+      "date": "1988",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Remained involved with the girls softball group.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#3", "role": "both", "quote": "Duris remained involved in the group until 1988"}
+      ]
+    },
+    {
+      "id": "e28",
+      "date": "1988-03",
+      "grain": "month",
+      "track": "role",
+      "text": "Lost second attempt to join the same school board.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#9", "role": "both", "quote": "in March 1988 he lost a second attempt to join the same school board"}
+      ]
+    },
+    {
+      "id": "e29",
+      "date": "1991",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Retired from facilities manager job at Tuality Community Hospital.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#10", "role": "both", "quote": "began working as facilities manager for Tuality Community Hospital in Hillsboro , before retiring in 1991"}
+      ]
+    },
+    {
+      "id": "e30",
+      "date": "2009",
+      "grain": "year",
+      "track": "other",
+      "label": "sports",
+      "text": "Stopped playing in softball leagues.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#3", "role": "both", "quote": "himself played in softball leagues until 2009"}
+      ]
+    },
+    {
+      "id": "e31",
+      "date": "2014-03-23",
+      "grain": "day",
+      "track": "other",
+      "label": "death",
+      "text": "Died of Parkinson's disease at age 86.",
+      "evidence": [
+        {"chunk_id": "/wiki/Miller_M._Duris#0", "role": "date", "quote": "( March 2 , 1928 – March 23 , 2014 )"},
+        {"chunk_id": "/wiki/Miller_M._Duris#10", "role": "both", "quote": "Duris died on March 23 , 2014 , at the age of 86 after battling Parkinsons disease"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Served aboard USS Achernar during Navy service (no date)",
+    "Took electronics classes during Navy service, leading to Tektronix job (no date)",
+    "Began working for Hillsboro's Meltebekes Furniture after leaving the Navy (no date)",
+    "Began managing Tektronix Washington, D.C. office (no date)",
+    "Became member of Columbia Region Association of Governments while on county commission (no date)",
+    "Began working as facilities manager at Tuality Community Hospital after leaving politics (no date)",
+    "1970s and 1980s: served as mayor of Hillsboro and county commission chairman (decade summary)"
+  ]
+}

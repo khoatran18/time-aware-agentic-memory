@@ -1,0 +1,358 @@
+{
+ "page_id": "Thomas_Robert_Shannon_Broughton",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1900-02-17",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Corbetton, Ontario, Canada.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#0",
+     "role": "both",
+     "quote": "17 February 1900 – 17 September 1993"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#1",
+     "role": "both",
+     "quote": "Broughton was born in 1900 in Corbetton , Ontario"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1921",
+   "grain": "year",
+   "track": "education",
+   "text": "Received B.A. in classics from Victoria College, University of Toronto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#1",
+     "role": "both",
+     "quote": "There he received a B.A . in 1921 with honors in classics"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1922",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned M.A. degree.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#1",
+     "role": "both",
+     "quote": "He earned his M.A . in 1922"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1928",
+   "grain": "year",
+   "track": "education",
+   "text": "Received Ph.D. in Latin from Johns Hopkins University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#1",
+     "role": "both",
+     "quote": "where he received a Ph.D . in Latin in 1928"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1928",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began teaching at Bryn Mawr College.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#2",
+     "role": "both",
+     "quote": "Bryn Mawr College ( 1928-1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1929",
+   "grain": "year",
+   "track": "work",
+   "text": "Dissertation The Romanization of Africa Proconsularis published; reissued 1968.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#11",
+     "role": "both",
+     "quote": "The Romanization of Africa Proconsularis ( 1929 , reissued 1968 )"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1931",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Annie Leigh Hobson Broughton of Norfolk, Virginia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#3",
+     "role": "both",
+     "quote": "In 1931 , he married Annie Leigh Hobson Broughton"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1934",
+   "grain": "year",
+   "track": "work",
+   "text": "Published article Roman Landholding in Asia Minor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#11",
+     "role": "both",
+     "quote": "1934 . Roman Landholding in Asia Minor"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1936",
+   "grain": "year",
+   "track": "work",
+   "text": "Published article Was Sallust Fair to Cicero?",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#11",
+     "role": "both",
+     "quote": "1936 . Was Sallust Fair to Cicero ?"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1938",
+   "grain": "year",
+   "track": "work",
+   "text": "Contributed chapter Roman Asia Minor to Tenney Frank's Economic Survey of Ancient Rome.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#11",
+     "role": "both",
+     "quote": "Roman Asia Minor , in Tenney Frank , An Economic Survey of Ancient Rome IV ( 1938 )"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1946",
+   "grain": "year",
+   "track": "work",
+   "text": "Published article Notes on Roman Magistrates.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#12",
+     "role": "both",
+     "quote": "1946 . Notes on Roman Magistrates"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1951",
+   "grain": "year",
+   "track": "work",
+   "text": "Began publishing Magistrates of the Roman Republic, three volumes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#0",
+     "role": "both",
+     "quote": "Magistrates of the Roman Republic ( 1951-1986 )"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#4",
+     "role": "both",
+     "quote": "published 1951 to 1986"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Magistrates of the Roman Republic receives Goodwin Award of Merit.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#6",
+     "role": "both",
+     "quote": "In 1953 the Magistrates of the Roman Republic was recognized with the Charles J . Goodwin Awards of Merit"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1965",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Bryn Mawr College.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#2",
+     "role": "both",
+     "quote": "Bryn Mawr College ( 1928-1965 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1965",
+   "grain": "year",
+   "track": "role",
+   "text": "Became George L. Paddison Professor of Latin at UNC Chapel Hill.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#2",
+     "role": "both",
+     "quote": "serve as George L . Paddison Professor of Latin at the University of North Carolina at Chapel Hill ( 1965-1971 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1969",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received honorary LL.D. from Johns Hopkins University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#8",
+     "role": "both",
+     "quote": "Johns Hopkins University in 1969"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received honorary LL.D. from University of Toronto.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#8",
+     "role": "both",
+     "quote": "the University of Toronto in 1971"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1971",
+   "grain": "year",
+   "track": "role",
+   "text": "Retired from UNC Chapel Hill, ending Paddison professorship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#2",
+     "role": "both",
+     "quote": "Although he retired from UNC in 1971"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received honorary LL.D. from UNC Chapel Hill.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#8",
+     "role": "description",
+     "quote": "Three universities awarded him honorary LL.D . degrees"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#9",
+     "role": "date",
+     "quote": "in 1974"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "Completed Magistrates of the Roman Republic; final volume published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#4",
+     "role": "both",
+     "quote": "published 1951 to 1986 and requiring more than 30 years to complete"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1991",
+   "grain": "year",
+   "track": "work",
+   "text": "Published article Candidates Defeated in Roman Elections.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#13",
+     "role": "both",
+     "quote": "1991 . Candidates Defeated in Roman Elections"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1993-09-17",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died; spent final years working and advising students.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#0",
+     "role": "both",
+     "quote": "17 February 1900 – 17 September 1993"
+    },
+    {
+     "chunk_id": "/wiki/Thomas_Robert_Shannon_Broughton#2",
+     "role": "both",
+     "quote": "until his death in 1993"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Attended Victoria College, University of Toronto",
+  "Began teaching career at Victoria College, Toronto",
+  "Studied at University of Chicago",
+  "Rogers Fellow at Johns Hopkins University",
+  "Taught at Amherst College",
+  "Created Library Epigraphy Room at UNC Chapel Hill",
+  "Visiting professor at Johns Hopkins University",
+  "Simon F. Guggenheim Memorial Foundation Fellow",
+  "Fulbright research grant to Italy",
+  "Professor in charge of School of Classical Studies, American Academy in Rome",
+  "President of American Philological Association",
+  "Vice president of International Federation of Societies of Classical Studies for 10 years",
+  "Member of American Philosophical Society",
+  "Fellow of American Academy of Arts and Sciences",
+  "Honorary member of Society for the Promotion of Roman Studies",
+  "Corresponding member of German Archaeological Institute",
+  "Corresponding Fellow of British Academy"
+ ]
+}

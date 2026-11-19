@@ -1,0 +1,793 @@
+{
+ "page_id": "Eliot_Engel",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1947-02-18",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Eliot Lance Engel born.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "both",
+     "quote": "born February 18 , 1947"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1969",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated Hunter-Lehman College with BA in history.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#3",
+     "role": "both",
+     "quote": "In 1969 , Engel graduated from Hunter-Lehman College"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1969",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began teaching at Intermediate School 52.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#4",
+     "role": "both",
+     "quote": "He taught at Intermediate School 52 from 1969 to 1976"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1973",
+   "grain": "year",
+   "track": "education",
+   "text": "Received masters in guidance and counseling from the same institution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#3",
+     "role": "both",
+     "quote": "He subsequently received a masters degree in guidance and counseling in 1973"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1976",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended teaching at Intermediate School 52.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#4",
+     "role": "both",
+     "quote": "He taught at Intermediate School 52 from 1969 to 1976"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1977",
+   "grain": "year",
+   "track": "role",
+   "text": "Began term in New York State Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#6",
+     "role": "both",
+     "quote": "Engel was a member of the New York State Assembly from 1977 to 1988"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1977-03-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Won New York State Assembly special election.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#5",
+     "role": "both",
+     "quote": "on March 1 , 1977 , he won by 103 votes"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1987",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned Juris Doctor from New York Law School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#3",
+     "role": "both",
+     "quote": "In 1987 , he earned a Juris Doctor from New York Law School"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Ran for U.S. House in NY-19, defeated Biaggi in primary.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#7",
+     "role": "both",
+     "quote": "In 1988 , Engel ran for the U.S . House of Representatives in New Yorks 19th congressional district"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "Left New York State Assembly.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#6",
+     "role": "both",
+     "quote": "Engel was a member of the New York State Assembly from 1977 to 1988"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service as U.S. Representative from New York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "both",
+     "quote": "served as a U.S . representative from New York from 1989 to 2021"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Sponsored resolution declaring Jerusalem undivided capital of Israel.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "date",
+     "quote": "served as a U.S . representative from New York from 1989 to 2021"
+    },
+    {
+     "chunk_id": "/wiki/Eliot_Engel#43",
+     "role": "description",
+     "quote": "Shortly after entering Congress , he sponsored a resolution declaring Jerusalem the undivided capital of Israel"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1994",
+   "grain": "year",
+   "track": "role",
+   "text": "Won Democratic primary over musician Willie Colón.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#10",
+     "role": "both",
+     "quote": "In 1994 , he defeated musician Willie Colón 62%-38%"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1994",
+   "grain": "year",
+   "track": "work",
+   "text": "Authored law allowing State Department investigation of missing Americans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#48",
+     "role": "both",
+     "quote": "His 1994 law allowed the United States Department of State to conduct an investigation"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Authored resolution calling for Cyprus demilitarization.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#48",
+     "role": "both",
+     "quote": "authored a resolution in 1996 calling for its demilitarization"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2000",
+   "grain": "year",
+   "track": "role",
+   "text": "Won Democratic primary over State Senator Larry Seabrook.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#10",
+     "role": "both",
+     "quote": "In 2000 , Engel defeated State Senator Larry Seabrook"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote House resolution condemning Taliban forced marking of Hindus.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#54",
+     "role": "both",
+     "quote": "In early 2001 , he wrote the House resolution condemning the Taliban"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e18",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Voted for resolution authorizing use of force in Iraq.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#49",
+     "role": "both",
+     "quote": "In 2002 , although 133 members of the House of Representatives voted against it , Engel voted for the resolution"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2003",
+   "grain": "year",
+   "track": "work",
+   "text": "Authored Syria Accountability and Lebanese Sovereignty Restoration Act.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#36",
+     "role": "both",
+     "quote": "In 2003 , he authored the Syria Accountability and Lebanese Sovereignty Restoration Act"
+    }
+   ]
+  },
+  {
+   "date": "2003",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Voted against bill immunizing firearm manufacturers and dealers from civil liability",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#28",
+     "role": "both",
+     "quote": "He voted against a 2003 bill that immunized firearm manufacturers and dealers from civil liability for gun misuse"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2003-12-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Syria Accountability Act signed into law by President Bush.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#36",
+     "role": "both",
+     "quote": "which was signed into law by President George W . Bush on December 12 , 2003"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-introduced Fuel Choices for American Security Act with Jack Kingston.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#23",
+     "role": "both",
+     "quote": "In 2005 , Engel , along with Congressman Jack Kingston ( R-GA ) , introduced the Fuel Choices for American Security Act"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2007",
+   "grain": "year",
+   "track": "work",
+   "text": "Re-introduced Fuel Choices bill as the DRIVE Act.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#23",
+     "role": "both",
+     "quote": "later modified and re-introduced in 2007 as the DRIVE Act"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Became Co-Chair of Congressional Ad Hoc Committee on Irish Affairs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#51",
+     "role": "both",
+     "quote": "In 2007 , Engel became a Co-Chair of the Congressional Ad Hoc Committee on Irish Affairs"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received National Association of Public Hospitals Safety Net Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#69",
+     "role": "both",
+     "quote": "Engel received the National Association of Public Hospitals Safety Net Award in 2007"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2007",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received AIDS Institute National HIV/AIDS Care and Treatment Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#69",
+     "role": "both",
+     "quote": "Engel was presented with The AIDS Institute National HIV/AIDS Care and Treatment Award in 2007"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2007-05-17",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Received George Paraskevaides Award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#48",
+     "role": "both",
+     "quote": "Engel received the George Paraskevaides Award on May 17 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Authored ALS Registry Act.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#19",
+     "role": "both",
+     "quote": "In 2008 , Engel authored the ALS Registry Act"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named 2008 Distinguished Community Health Superhero.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#69",
+     "role": "both",
+     "quote": "is the 2008 Distinguished Community Health Superhero"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Honored by American Farm Bureau Federation as Friend of the Farm Bureau.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#70",
+     "role": "both",
+     "quote": "He was honored in 2008 by the American Farm Bureau Federation"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Lead Democrat on resolution condemning Palestinian rocket attacks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#43",
+     "role": "both",
+     "quote": "In 2008 , he was the lead Democrat on a resolution condemning Palestinian rocket attacks"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote resolution commending U.S.-Brazil Joint Action Plan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#54",
+     "role": "both",
+     "quote": "In 2008 , he wrote a resolution commending the U.S.-Brazil Joint Action Plan"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2008-07",
+   "grain": "month",
+   "track": "work",
+   "text": "Introduced Securing our Borders and Our Data Act (HR 6702).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#32",
+     "role": "both",
+     "quote": "Engel originally introduced the Securing our Borders and Our Data Act in July 2008"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "letter",
+   "text": "One of 53 members urging Obama to resume assault weapons import ban.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#29",
+     "role": "both",
+     "quote": "In 2009 , Engel was one of 53 members of Congress who signed a letter to President Barack Obama"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "Re-introduced Social Investment Act for the Americas.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#40",
+     "role": "both",
+     "quote": "re-introduced in 2009 , where it also died in committee"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2009-06-26",
+   "grain": "day",
+   "track": "work",
+   "text": "House passed American Clean Energy and Security Act he helped negotiate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#27",
+     "role": "both",
+     "quote": "HR 2454 , which passed the House on June 26 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2009-12-08",
+   "grain": "day",
+   "track": "work",
+   "text": "House passed Western Hemisphere Drug Policy Commission Act he sponsored.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#42",
+     "role": "both",
+     "quote": "was passed by the House on December 8 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote Partnering to Improve Maternity Care Quality Act.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#20",
+     "role": "both",
+     "quote": "In 2010 , Engel wrote the Partnering to Improve Maternity Care Quality Act"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote Gestational Diabetes Act of 2010.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#20",
+     "role": "both",
+     "quote": "In 2010 he also wrote the Gestational Diabetes Act of 2010"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "vote",
+   "text": "Voted to repeal Don't Ask, Don't Tell policy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#55",
+     "role": "both",
+     "quote": "In 2010 , he voted in 2010 to repeal the Dont Ask , Dont Tell policy"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "text": "Introduced bill protecting parents and children from faulty gun locks.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#29",
+     "role": "date",
+     "quote": "In 2011 , after 400,000 defective gun locks were recalled from the market"
+    },
+    {
+     "chunk_id": "/wiki/Eliot_Engel#30",
+     "role": "description",
+     "quote": "Engel introduced a bill intended to protect parents and children from faulty gun locks"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2011",
+   "grain": "year",
+   "track": "work",
+   "text": "Introduced Drug Testing Integrity Act.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#33",
+     "role": "both",
+     "quote": "In 2011 , Engel introduced the Drug Testing Integrity Act"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2011-11-11",
+   "grain": "day",
+   "track": "other",
+   "label": "honour",
+   "text": "Municipality of Peje gave Engel honorary citizen title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#70",
+     "role": "both",
+     "quote": "On November 11 , 2011 , the Municipality of Pejë , Kosovo , gave Engel the title of Honorary Citizen of Peje"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2012",
+   "grain": "year",
+   "track": "work",
+   "text": "Introduced Social Network Online Protection Act (SNOPA).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#35",
+     "role": "both",
+     "quote": "In 2012 , Engel introduced SNOPA , the Social Network Online Protection Act"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Became ranking member of House Foreign Affairs Committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "both",
+     "quote": "he previously was its ranking member from 2013"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "event",
+   "text": "Ended tradition of shaking hands with president at State of the Union.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#17",
+     "role": "both",
+     "quote": "This tradition ended in 2017 when he decided not to shake President Trumps hand"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2017-01",
+   "grain": "month",
+   "track": "work",
+   "text": "Introduced House resolution condemning UN Security Council Resolution 2334.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#45",
+     "role": "both",
+     "quote": "In January 2017 , Engel introduced a House resolution condemning the UN Security Council Resolution 2334"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2018",
+   "grain": "year",
+   "track": "work",
+   "text": "Reintroduced Gestational Diabetes legislation in 115th Congress.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#20",
+     "role": "both",
+     "quote": "In 2018 , he reintroduced the legislation in the 115th Congress for consideration"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2019",
+   "grain": "year",
+   "track": "role",
+   "text": "Took over as Chairman of House Foreign Affairs Committee.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "both",
+     "quote": "In 2019 , following Democratic gains in the 2018 elections , he took over as Chairman"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2019-03",
+   "grain": "month",
+   "track": "other",
+   "label": "letter",
+   "text": "Led lawmakers' letter to Secretary of State Pompeo on China.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#58",
+     "role": "both",
+     "quote": "In March 2019 , the group of lawmakers led by Engel wrote a letter to Secretary of State Mike Pompeo"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2019-07",
+   "grain": "month",
+   "track": "other",
+   "label": "honour",
+   "text": "Highway section in Kosovo and Albania named Eliot Engel Drive.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#71",
+     "role": "both",
+     "quote": "In July 2019 , the highway section M9.1 between Gjakove , Kosovo and SH22 Fierzë , Albania"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2020-07-17",
+   "grain": "day",
+   "track": "role",
+   "text": "Lost Democratic primary to Jamaal Bowman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#12",
+     "role": "both",
+     "quote": "The race was called for Bowman on July 17 , 2020"
+    },
+    {
+     "chunk_id": "/wiki/Eliot_Engel#1",
+     "role": "description",
+     "quote": "Engel was defeated in the Democratic primary by middle school principal Jamaal Bowman"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2021",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended service as U.S. Representative from New York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Eliot_Engel#0",
+     "role": "both",
+     "quote": "served as a U.S . representative from New York from 1989 to 2021"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Co-authored Harkin-Engel Protocol on West African cocoa child labor",
+  "Sponsored bill supporting the Day of Silence (111th Congress)",
+  "Introduced Calling Card Consumer Protection Act (109th Congress)",
+  "Introduced Open Fuel Standards Act alongside Kingston, Israel and Inglis",
+  "Reintroduced Securing our Borders and Our Data Act as HR 239 (111th Congress)",
+  "Introduced Social Investment and Economic Development Act for the Americas (110th Congress)",
+  "Sponsored Western Hemisphere Energy Compact Act",
+  "Stop Tuberculosis Now Act included in PEPFAR reauthorization",
+  "Reintroduced SNOPA (113th Congress)",
+  "Added to Albanian American Civic League lobby lineup (early 1990s)",
+  "First foreign dignitary to address Kosovo parliament",
+  "Street named after him in Peje"
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "page_id": "Johan_Gabriel_Oxenstierna",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1750-07-19",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born at Skenäs estate, Södermanland.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#0",
+     "role": "both",
+     "quote": "Count Johan Gabriel Oxenstierna ( 19 July 1750 – 29 July 1818 )"
+    },
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#1",
+     "role": "description",
+     "quote": "Johan Gabriel Oxenstierna was born at the Skenäs estate"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1762",
+   "grain": "year",
+   "track": "education",
+   "text": "Enrolled as a student at Uppsala University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#5",
+     "role": "both",
+     "quote": "In 1762 he was enrolled as a student at Uppsala University"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1766",
+   "grain": "year",
+   "track": "work",
+   "text": "Began writing a diary in French.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#6",
+     "role": "both",
+     "quote": "he did write a Diary between 1766 and 1768"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1767",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated from Uppsala with an administrative degree (kansliexamen).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#5",
+     "role": "both",
+     "quote": "from which he graduated in 1767 with an administrative degree"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1770",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed acting Commission Secretary in Vienna.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#8",
+     "role": "both",
+     "quote": "He was appointed acting Commission Secretary in Vienna in 1770"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1772",
+   "grain": "year",
+   "track": "role",
+   "text": "Made regular Commission Secretary in Vienna.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#8",
+     "role": "both",
+     "quote": "made the regular Commission Secretary in that city in 1772"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1774",
+   "grain": "year",
+   "track": "role",
+   "text": "Recalled to Stockholm by the king and made a Chamberlain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#10",
+     "role": "both",
+     "quote": "In 1774 he was recalled to Stockholm by the king and made a Chamberlain"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1774",
+   "grain": "year",
+   "track": "role",
+   "text": "Received titular office of second secretary of the Presidential office.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#10",
+     "role": "both",
+     "quote": "In 1774 he was recalled to Stockholm by the king and made a Chamberlain"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1778",
+   "grain": "year",
+   "track": "role",
+   "text": "Sent on diplomatic missions to several German states.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#10",
+     "role": "description",
+     "quote": "he was sent on diplomatic missions to"
+    },
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#11",
+     "role": "date",
+     "quote": "several German states in 1778"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1783",
+   "grain": "year",
+   "track": "role",
+   "text": "Made senior Chamberlain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#11",
+     "role": "both",
+     "quote": "He was made a senior Chamberlain in 1783"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1785",
+   "grain": "year",
+   "track": "role",
+   "text": "Became a Member of the College of the Chancellery, handling Pomerania and Wismar matters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#11",
+     "role": "both",
+     "quote": "a Member of the College of the Chancellery in 1785"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1786",
+   "grain": "year",
+   "track": "role",
+   "text": "Made a member of the Privy Council of Sweden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#11",
+     "role": "both",
+     "quote": "In 1786 , the king made him a member of the Privy Council of Sweden"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1786",
+   "grain": "year",
+   "track": "role",
+   "text": "Made President of the College of the Chancellery.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#11",
+     "role": "both",
+     "quote": "In 1786 , the king made him a member of the Privy Council of Sweden"
+    }
+   ]
+  },
+  {
+   "date": "1788",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Became a member of the Cabinet during the Russo-Swedish War",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#12",
+     "role": "both",
+     "quote": "in the absence of the king during the Russo-Swedish War ( 1788–1790 ) , he was a member of the Cabinet"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "1789",
+   "grain": "year",
+   "track": "role",
+   "text": "Privy Council dissolved and College of the Chancellery abolished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#12",
+     "role": "both",
+     "quote": "When the Privy Council was dissolved and the office of College of the Chancellery abolished in 1789"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1789",
+   "grain": "year",
+   "track": "role",
+   "text": "Made Head Steward for the queen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#12",
+     "role": "both",
+     "quote": "When the Privy Council was dissolved and the office of College of the Chancellery abolished in 1789"
+    }
+   ]
+  },
+  {
+   "date": "1790",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Membership of the Cabinet ended with the Russo-Swedish War",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#12",
+     "role": "both",
+     "quote": "in the absence of the king during the Russo-Swedish War ( 1788–1790 ) , he was a member of the Cabinet"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1792",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Made Riksmarskalk (Marshal of the Kingdom) shortly before the king's assassination.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#13",
+     "role": "both",
+     "quote": "until his assassination in 1792 , shortly before which Oxenstierna was made a Riksmarskalk"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1792",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "Left all public offices after the king's death, remaining Marshal at court.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#13",
+     "role": "both",
+     "quote": "until his assassination in 1792"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1798",
+   "grain": "year",
+   "track": "role",
+   "text": "Short comeback as cabinet member begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#14",
+     "role": "both",
+     "quote": "He made a short comeback as a cabinet member in 1798 and 1799"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1799",
+   "grain": "year",
+   "track": "role",
+   "text": "Short comeback as cabinet member ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#14",
+     "role": "both",
+     "quote": "He made a short comeback as a cabinet member in 1798 and 1799"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1801",
+   "grain": "year",
+   "track": "role",
+   "text": "Stepped down as Riksmarskalk.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#14",
+     "role": "both",
+     "quote": "In 1801 he stepped down as Riksmarskalk"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1804",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected member of the Royal Swedish Academy of Sciences.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#18",
+     "role": "both",
+     "quote": "He was elected a member of the Royal Swedish Academy of Sciences in 1804"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1809",
+   "grain": "year",
+   "track": "role",
+   "text": "Chairman of a committee during the Parliament of 1809.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#14",
+     "role": "both",
+     "quote": "accepted being chairman of a committee during the Parliament of 1809"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1815",
+   "grain": "year",
+   "track": "role",
+   "text": "Again chairman of a committee in Parliament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#14",
+     "role": "both",
+     "quote": "and again in 1815"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1818-07-29",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#0",
+     "role": "both",
+     "quote": "Count Johan Gabriel Oxenstierna ( 19 July 1750 – 29 July 1818 )"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1965",
+   "grain": "year",
+   "track": "work",
+   "text": "Diary published by Bokgillet publishers in Uppsala as Ljuva ungdomstid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Johan_Gabriel_Oxenstierna#6",
+     "role": "both",
+     "quote": "which was published in 1965 by Bokgillet publishers"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Employed at the Royal Chancellery (foreign correspondence department) after graduating from Uppsala",
+  "Member of the Swedish Academy, holding seat number 8",
+  "Translation of John Milton's Paradise Lost into Swedish",
+  "Mismanaged the funeral of Gustav III and the coronation of Charles XIII as Riksmarskalk"
+ ]
+}

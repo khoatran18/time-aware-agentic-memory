@@ -1,0 +1,116 @@
+{
+  "page_id": "Z_Pedro_footballer_born_1978",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1978-10-18",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "José Pedro Alves Salazar born in Portugal (Montijo, Setúbal)",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#0",
+          "role": "both",
+          "quote": "José Pedro Alves Salazar ( born 18 October 1978 )"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1996",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Started professional football at hometown club C.D. Montijo",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#1",
+          "role": "both",
+          "quote": "started playing professional football for his hometown club C.D . Montijo in 1996"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2003",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Vitória FC earned Primeira Liga return; he was influential",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#1",
+          "role": "both",
+          "quote": "Zé Pedro was influential in Vitória FCs 2003–04 campaign"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e4",
+      "date": "2009",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Belenenses relegated from Primeira Liga; he dealt with injuries",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#2",
+          "role": "both",
+          "quote": "remained first choice until the 2009–10 campaign , when he dealt with many injuries and the Lisbon side were also relegated"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e5",
+      "date": "2010-07",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Returned to Vitória Setúbal after a six-year absence",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#3",
+          "role": "both",
+          "quote": "In July 2010 , at nearly 32 years of age , Zé Pedro returned to Vitória Setúbal"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2013-01",
+      "grain": "month",
+      "track": "other",
+      "label": "debt settlement",
+      "text": "Belenenses settled a €160,000 debt owed to him",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#3",
+          "role": "both",
+          "quote": "previously , in January 2013 , Belenenses settled a €160.000 debt they had with him"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2013",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Left Vitória Setúbal at the end of the 2012–13 season",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Zé_Pedro_(footballer,_born_1978)#3",
+          "role": "both",
+          "quote": "He left at the end of the 2012–13 season"
+        }
+      ],
+      "flag": "derived_date"
+    }
+  ],
+  "undated_mentions": [
+    "Moved to F.C. Barreirense after 1996 and stayed five seasons in the third division (no year stated)",
+    "Split 2002–03 season duties between Boavista F.C. and A.D. Ovarense (season, no exact date)",
+    "Joined C.F. Os Belenenses after 2003–04 (no year stated)",
+    "2006–07 season: Belenenses finished fifth in league and were cup runners-up (season result)",
+    "Started manager career at Grupo Desportivo Alcochetense immediately after retiring (no date)",
+    "Joined Silas's coaching staff at C.F. Os Belenenses and Sporting CP (no date)"
+  ]
+}

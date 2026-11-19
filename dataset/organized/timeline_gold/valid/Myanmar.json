@@ -1,0 +1,1219 @@
+{
+ "page_id": "Myanmar",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1287",
+   "grain": "year",
+   "track": "other",
+   "label": "collapse",
+   "text": "Pagan Kingdom toppled by repeated Mongol invasions.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#25",
+     "role": "both",
+     "quote": "toppled the four-century-old kingdom in 1287"
+    }
+   ]
+  },
+  {
+   "date": "1437",
+   "grain": "year",
+   "track": "other",
+   "label": "Arakan",
+   "text": "Mrauk U unified the Arakan coastline for the first time",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#27",
+     "role": "both",
+     "quote": "Mrauk U unified the Arakan coastline for the first time in 1437"
+    }
+   ],
+   "id": "e2"
+  },
+  {
+   "id": "e3",
+   "date": "1481",
+   "grain": "year",
+   "track": "other",
+   "label": "disintegration",
+   "text": "Ava kingdom began to disintegrate under constant warfare.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#28",
+     "role": "both",
+     "quote": "and it slowly disintegrated from 1481 onward"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1527",
+   "grain": "year",
+   "track": "location",
+   "text": "Confederation of Shan States conquered Ava and ruled Upper Myanmar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#28",
+     "role": "both",
+     "quote": "In 1527 , the Confederation of Shan States conquered Ava"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1555",
+   "grain": "year",
+   "track": "location",
+   "text": "Shan rule over Upper Myanmar ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#28",
+     "role": "both",
+     "quote": "ruled Upper Myanmar until 1555"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1581",
+   "grain": "year",
+   "track": "other",
+   "label": "death",
+   "text": "Bayinnaung died; the Taungoo empire began to unravel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#30",
+     "role": "both",
+     "quote": "soon after Bayinnaungs death in 1581"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1599",
+   "grain": "year",
+   "track": "other",
+   "label": "collapse",
+   "flag": "approximate_date",
+   "text": "Taungoo empire completely collapsed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#30",
+     "role": "both",
+     "quote": "completely collapsing by 1599"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1613",
+   "grain": "year",
+   "track": "other",
+   "label": "military victory",
+   "text": "Taungoo dynasty defeated the Portuguese.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#32",
+     "role": "both",
+     "quote": "defeated the Portuguese in 1613 and Siam in 1614"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1614",
+   "grain": "year",
+   "track": "other",
+   "label": "military victory",
+   "text": "Taungoo dynasty defeated Siam.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#32",
+     "role": "both",
+     "quote": "defeated the Portuguese in 1613 and Siam in 1614"
+    }
+   ]
+  },
+  {
+   "date": "1740",
+   "grain": "year",
+   "track": "other",
+   "label": "Hanthawaddy",
+   "text": "The Mon of Lower Myanmar founded the Restored Hanthawaddy Kingdom",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#33",
+     "role": "both",
+     "quote": "In 1740 , the Mon of Lower Myanmar founded the Restored Hanthawaddy Kingdom"
+    }
+   ],
+   "id": "e10"
+  },
+  {
+   "id": "e11",
+   "date": "1752",
+   "grain": "year",
+   "track": "other",
+   "label": "dynasty ended",
+   "text": "Hanthawaddy forces sacked Ava, ending the Toungoo dynasty.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#33",
+     "role": "both",
+     "quote": "Hanthawaddy forces sacked Ava in 1752 , ending the 266-year-old Toungoo Dynasty"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1759",
+   "grain": "year",
+   "track": "other",
+   "label": "reunification",
+   "flag": "approximate_date",
+   "text": "Alaungpaya reunified Myanmar and Manipur.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#34",
+     "role": "both",
+     "quote": "by 1759 he had reunited all of Myanmar and Manipur"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1770",
+   "grain": "year",
+   "track": "other",
+   "label": "military campaigns",
+   "flag": "approximate_date",
+   "text": "Alaungpaya's heirs subdued Laos and won wars against Siam and Qing China.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#34",
+     "role": "both",
+     "quote": "By 1770 , Alaungpayas heirs had subdued much of Laos"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1785",
+   "grain": "year",
+   "track": "location",
+   "text": "Konbaung kingdom acquired Arakan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#35",
+     "role": "both",
+     "quote": "acquiring Arakan ( 1785 ) , Manipur ( 1814 ) and Assam ( 1817 )"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1814",
+   "grain": "year",
+   "track": "location",
+   "text": "Konbaung kingdom acquired Manipur.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#35",
+     "role": "both",
+     "quote": "acquiring Arakan ( 1785 ) , Manipur ( 1814 ) and Assam ( 1817 )"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1817",
+   "grain": "year",
+   "track": "location",
+   "text": "Konbaung kingdom acquired Assam.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#35",
+     "role": "both",
+     "quote": "acquiring Arakan ( 1785 ) , Manipur ( 1814 ) and Assam ( 1817 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1826",
+   "grain": "year",
+   "track": "location",
+   "text": "Burma lost Arakan, Manipur, Assam and Tenasserim to Britain.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#37",
+     "role": "both",
+     "quote": "In 1826 , Burma lost Arakan , Manipur , Assam and Tenasserim to the British"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1852",
+   "grain": "year",
+   "track": "location",
+   "text": "British seized Lower Burma in the Second Anglo-Burmese War.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#37",
+     "role": "both",
+     "quote": "In 1852 , the British easily seized Lower Burma"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1855",
+   "grain": "year",
+   "track": "other",
+   "label": "war ended",
+   "text": "Burma-Siam war ended in stalemate.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#35",
+     "role": "both",
+     "quote": "Burma and Siam went to war until 1855"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1875",
+   "grain": "year",
+   "track": "location",
+   "text": "Burma ceded the Karenni States, narrowly avoiding annexation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#37",
+     "role": "both",
+     "quote": "in 1875 narrowly avoided annexation by ceding the Karenni States"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1885",
+   "grain": "year",
+   "track": "location",
+   "flag": "source_inconsistent",
+   "text": "Britain annexed the remainder of Burma in the Third Anglo-Burmese War.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#37",
+     "role": "both",
+     "quote": "annexed the remainder of the country in the Third Anglo-Burmese War in 1885"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1886-01-01",
+   "grain": "day",
+   "track": "location",
+   "flag": "source_inconsistent",
+   "text": "Burma formally annexed and came under British rule.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#40",
+     "role": "both",
+     "quote": "being annexed on 1 January 1886"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1937-04-01",
+   "grain": "day",
+   "track": "other",
+   "label": "colony",
+   "text": "Burma became a separately administered British colony.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#43",
+     "role": "both",
+     "quote": "On 1 April 1937 , Burma became a separately administered colony of Great Britain"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1937-04-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Ba Maw became first Prime Minister and Premier of Burma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#43",
+     "role": "both",
+     "quote": "On 1 April 1937 , Burma became a separately administered colony of Great Britain , and Ba Maw became the first Prime Minister"
+    }
+   ]
+  },
+  {
+   "date": "1940",
+   "grain": "year",
+   "track": "other",
+   "label": "Burma Independence Army",
+   "text": "Aung San formed the Burma Independence Army in Japan",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#43",
+     "role": "both",
+     "quote": "In 1940 , before Japan formally entered the war , Aung San formed the Burma Independence Army in Japan"
+    }
+   ],
+   "id": "e25"
+  },
+  {
+   "id": "e26",
+   "date": "1942-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Japanese established a Burmese Executive Administration headed by Ba Maw.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#44",
+     "role": "both",
+     "quote": "A Burmese Executive Administration headed by Ba Maw was established by the Japanese in August 1942"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1944",
+   "grain": "year",
+   "track": "other",
+   "label": "offensives",
+   "flag": "approximate_date",
+   "text": "Allied offensives against Japanese forces in Burma began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#44",
+     "role": "both",
+     "quote": "Beginning in late 1944 , allied troops launched a"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1945-07",
+   "grain": "month",
+   "track": "other",
+   "label": "end of Japanese occupation",
+   "text": "Allied offensives ended Japanese rule in Burma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#45",
+     "role": "both",
+     "quote": "series of offensives that led to the end of Japanese rule in July 1945"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1947",
+   "grain": "year",
+   "track": "role",
+   "text": "Aung San became Deputy Chairman of the Executive Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#47",
+     "role": "both",
+     "quote": "In 1947 , Aung San became Deputy Chairman of the Executive Council of Myanmar"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1947",
+   "grain": "year",
+   "track": "other",
+   "label": "agreement",
+   "text": "Panglong Conference negotiated with ethnic leaders on unified independence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#47",
+     "role": "both",
+     "quote": "historic Panglong Conference negotiated with Bamar leader General Aung San and other ethnic leaders in 1947"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1947-07",
+   "grain": "month",
+   "track": "other",
+   "label": "assassination",
+   "text": "Political rivals assassinated Aung San and several cabinet members.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#47",
+     "role": "both",
+     "quote": "But in July 1947 , political rivals assassinated"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#48",
+     "role": "description",
+     "quote": "Aung San and several cabinet members"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1948-01-04",
+   "grain": "day",
+   "track": "other",
+   "label": "independence",
+   "text": "Burma became an independent republic.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "On 4 January 1948 , the nation became an independent republic"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1948-01-04",
+   "grain": "day",
+   "track": "naming",
+   "text": "Independent country named the Union of Burma.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "On 4 January 1948 , the nation became an independent republic"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1948-01-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Sao Shwe Thaik became first president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "On 4 January 1948 , the nation became an independent republic"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1948-01-04",
+   "grain": "day",
+   "track": "role",
+   "text": "U Nu became first prime minister.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "On 4 January 1948 , the nation became an independent republic"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Multi-party elections were held.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "multi-party elections were held in 1951–1952 , 1956 and 1960"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Multi-party elections were held.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "multi-party elections were held in 1951–1952 , 1956 and 1960"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Multi-party elections were held.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#49",
+     "role": "both",
+     "quote": "multi-party elections were held in 1951–1952 , 1956 and 1960"
+    }
+   ]
+  },
+  {
+   "date": "1961",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "U Thant, Burma's permanent representative to the UN, elected UN Secretary-General",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#51",
+     "role": "both",
+     "quote": "In 1961 , U Thant , the Union of Burmas Permanent Representative to the United Nations and former secretary to the prime minister , was elected Secretary-General of the United Nations"
+    }
+   ],
+   "id": "e39"
+  },
+  {
+   "id": "e40",
+   "date": "1962",
+   "grain": "year",
+   "track": "role",
+   "text": "Revolutionary council began ruling Burma under General Ne Win.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#53",
+     "role": "both",
+     "quote": "Between 1962 and 1974 , Myanmar was ruled by a revolutionary council"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1962-03-02",
+   "grain": "day",
+   "track": "role",
+   "text": "Military led by General Ne Win seized control in a coup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#53",
+     "role": "both",
+     "quote": "On 2 March 1962 , the military led by General Ne Win took control of Burma through a coup détat"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#52",
+     "role": "both",
+     "quote": "the military leadership staged a coup détat in 1962"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1962-07-07",
+   "grain": "day",
+   "track": "other",
+   "label": "crackdown",
+   "text": "Government broke up Rangoon University demonstrations, killing students.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#54",
+     "role": "both",
+     "quote": "On 7 July 1962 , the government broke up demonstrations at Rangoon University"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1974",
+   "grain": "year",
+   "track": "role",
+   "text": "Revolutionary council rule over Burma ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#53",
+     "role": "both",
+     "quote": "Between 1962 and 1974 , Myanmar was ruled by a revolutionary council"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "constitution",
+   "text": "New constitution of the Socialist Republic of the Union of Burma adopted.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#54",
+     "role": "both",
+     "quote": "A new constitution of the Socialist Republic of the Union of Burma was adopted in 1974"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1974",
+   "grain": "year",
+   "track": "other",
+   "label": "crackdown",
+   "text": "Military suppressed protests at the funeral of U Thant.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#55",
+     "role": "both",
+     "quote": "In 1974 , the military violently suppressed anti-government protests at the funeral of U Thant"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1975",
+   "grain": "year",
+   "track": "other",
+   "label": "protests suppressed",
+   "text": "Student protests were quickly suppressed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#55",
+     "role": "both",
+     "quote": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1976",
+   "grain": "year",
+   "track": "other",
+   "label": "protests suppressed",
+   "text": "Student protests were quickly suppressed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#55",
+     "role": "both",
+     "quote": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "protests suppressed",
+   "text": "Student protests were quickly suppressed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#55",
+     "role": "both",
+     "quote": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "text": "One-party rule under the BSPP ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#54",
+     "role": "both",
+     "quote": "Until 1988 , the country was ruled as a one-party system"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1988",
+   "grain": "year",
+   "track": "other",
+   "label": "8888 uprising",
+   "text": "Nationwide pro-democracy demonstrations, later called the 8888 Uprising.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#56",
+     "role": "both",
+     "quote": "In 1988 , unrest over economic mismanagement and political oppression"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1988",
+   "grain": "year",
+   "track": "role",
+   "flag": "derived_date",
+   "text": "General Saw Maung staged a coup and formed SLORC.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#56",
+     "role": "both",
+     "quote": "In 1988 , unrest over economic mismanagement and political oppression"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "martial law",
+   "text": "SLORC declared martial law after widespread protests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#56",
+     "role": "both",
+     "quote": "In 1989 , SLORC declared martial law after widespread protests"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1989-06-18",
+   "grain": "day",
+   "track": "naming",
+   "text": "SLORC changed the official English name to Myanmar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#9",
+     "role": "both",
+     "quote": "In 1989 , the military government officially changed the English translations"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#56",
+     "role": "description",
+     "quote": "SLORC changed the countrys official English name from the Socialist Republic of the Union of Burma to the Union of"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#57",
+     "role": "date",
+     "quote": "Myanmar on 18 June 1989 by enacting the adaptation of the expression law"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1990-05",
+   "grain": "month",
+   "track": "other",
+   "label": "election",
+   "text": "Free multiparty elections held; NLD won a large majority.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#58",
+     "role": "both",
+     "quote": "In May 1990 , the government held free multiparty elections for the first time in almost 30 years"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1997",
+   "grain": "year",
+   "track": "role",
+   "text": "SLORC replaced by the State Peace and Development Council.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#58",
+     "role": "both",
+     "quote": "continued to rule the nation as SLORC until 1997"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1997-06-23",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Myanmar admitted into the Association of Southeast Asian Nations.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#58",
+     "role": "date",
+     "quote": "On 23 June 1997 , Myanmar"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#59",
+     "role": "description",
+     "quote": "was admitted into the Association of Southeast Asian Nations"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2005-11",
+   "grain": "month",
+   "track": "location",
+   "text": "Military junta moved the national capital from Yangon to Pyinmana area.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#59",
+     "role": "both",
+     "quote": "moved the national capital from Yangon to a site near Pyinmana in November 2005"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2006-03-27",
+   "grain": "day",
+   "track": "location",
+   "text": "Military junta officially named the new capital Naypyidaw.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#59",
+     "role": "both",
+     "quote": "On 27 March 2006 , the military junta"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2007-08",
+   "grain": "month",
+   "track": "other",
+   "label": "Saffron Revolution",
+   "text": "Fuel price rise led to Buddhist-monk-led Saffron Revolution.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#60",
+     "role": "both",
+     "quote": "In August 2007 , an increase in the price of fuel led to the Saffron Revolution"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2007-09-26",
+   "grain": "day",
+   "track": "other",
+   "label": "crackdown",
+   "text": "Government cracked down on Buddhist monk protesters.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#60",
+     "role": "both",
+     "quote": "The government cracked down on them on 26 September 2007"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2008-05",
+   "grain": "month",
+   "track": "other",
+   "label": "disaster",
+   "text": "Cyclone Nargis caused extensive damage in the Irrawaddy delta.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#62",
+     "role": "both",
+     "quote": "In May 2008 , Cyclone Nargis caused extensive damage"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2008-05-10",
+   "grain": "day",
+   "track": "other",
+   "label": "referendum",
+   "text": "Constitutional referendum held.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#70",
+     "role": "both",
+     "quote": "the Burmese constitutional referendum of 2008 , held on 10 May 2008"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "2009-08",
+   "grain": "month",
+   "track": "other",
+   "label": "conflict",
+   "flag": "approximate_date",
+   "text": "Conflict broke out in Shan State between junta troops and ethnic groups.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#64",
+     "role": "both",
+     "quote": "In early August 2009 , a conflict broke out in Shan State"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "2009-08-08",
+   "grain": "day",
+   "track": "other",
+   "label": "refugee flight",
+   "flag": "derived_date",
+   "text": "As many as 10,000 civilians fled to Yunnan, China.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#64",
+     "role": "both",
+     "quote": "During 8–12 August , the first days of the conflict , as many as 10,000 Burmese civilians fled to Yunnan"
+    }
+   ]
+  },
+  {
+   "id": "e65",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "General elections held under the new constitution; disputed by opposition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#70",
+     "role": "both",
+     "quote": "general elections were held under the new constitution in 2010"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#72",
+     "role": "description",
+     "quote": "military-backed Union Solidarity and Development Party declared victory in the 2010 elections"
+    }
+   ]
+  },
+  {
+   "id": "e66",
+   "date": "2011-03-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Military junta officially dissolved.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#4",
+     "role": "both",
+     "quote": "In 2011 , the military junta was officially dissolved following a 2010 general election"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#72",
+     "role": "both",
+     "quote": "The military junta was dissolved on 30 March 2011"
+    }
+   ]
+  },
+  {
+   "id": "e67",
+   "date": "2011-12",
+   "grain": "month",
+   "track": "other",
+   "label": "diplomacy",
+   "text": "US Secretary of State Hillary Clinton visited Myanmar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#76",
+     "role": "both",
+     "quote": "the visit by United States Secretary of State Hillary Clinton in December 2011"
+    }
+   ]
+  },
+  {
+   "id": "e68",
+   "date": "2012-04",
+   "grain": "month",
+   "track": "other",
+   "label": "by-elections",
+   "text": "NLD won 43 of 45 seats in by-elections.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#77",
+     "role": "both",
+     "quote": "In the April 2012 by-elections , the NLD won 43 of the 45 available seats"
+    }
+   ]
+  },
+  {
+   "id": "e69",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "ASEAN chair bid",
+   "text": "ASEAN approved Myanmar's bid for ASEAN chair.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#76",
+     "role": "both",
+     "quote": "ASEANs approval of Myanmars bid for the position of ASEAN chair in 2014"
+    }
+   ]
+  },
+  {
+   "id": "e70",
+   "date": "2015-02",
+   "grain": "month",
+   "track": "other",
+   "label": "offensive",
+   "text": "Kokang offensive between Myanmar forces and ethnic Chinese rebels.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#68",
+     "role": "both",
+     "quote": "resulted in the Kokang offensive in February 2015"
+    }
+   ]
+  },
+  {
+   "id": "e71",
+   "date": "2015-11-08",
+   "grain": "day",
+   "track": "other",
+   "label": "election",
+   "text": "General elections; NLD won an absolute majority in both chambers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#78",
+     "role": "both",
+     "quote": "General elections were held on 8 November 2015"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#5",
+     "role": "both",
+     "quote": "In the 2015 election , Aung San Suu Kyis party won a majority in both houses"
+    }
+   ]
+  },
+  {
+   "id": "e72",
+   "date": "2016-02-01",
+   "grain": "day",
+   "track": "role",
+   "text": "New parliament convened.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#79",
+     "role": "both",
+     "quote": "The new parliament convened on 1 February 2016"
+    }
+   ]
+  },
+  {
+   "id": "e73",
+   "date": "2016-03-15",
+   "grain": "day",
+   "track": "role",
+   "text": "Htin Kyaw elected as first non-military president.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#79",
+     "role": "both",
+     "quote": "on 15 March 2016 , Htin Kyaw was elected as the first non-military president"
+    }
+   ]
+  },
+  {
+   "id": "e74",
+   "date": "2016-04-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Aung San Suu Kyi assumed the newly created role of state counsellor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#79",
+     "role": "both",
+     "quote": "On 6 April 2016 , Aung San Suu Kyi assumed the newly created role of state counsellor"
+    }
+   ]
+  },
+  {
+   "id": "e75",
+   "date": "2020-11-08",
+   "grain": "day",
+   "track": "other",
+   "label": "election",
+   "text": "NLD won the 2020 general election in a landslide.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#80",
+     "role": "both",
+     "quote": "won the 2020 Myanmar general election on 8 November in a landslide"
+    }
+   ]
+  },
+  {
+   "id": "e76",
+   "date": "2021-02-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Military seized power in a coup; State Counsellor Suu Kyi detained.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#5",
+     "role": "both",
+     "quote": "on 1 February 2021 , again seized power in a coup détat"
+    },
+    {
+     "chunk_id": "/wiki/Myanmar#85",
+     "role": "both",
+     "quote": "In the early morning of 1 February 2021"
+    }
+   ]
+  },
+  {
+   "id": "e77",
+   "date": "2021-02-02",
+   "grain": "day",
+   "track": "other",
+   "label": "protests",
+   "flag": "derived_date",
+   "text": "Thousands of protesters marched in Yangon; nationwide protests erupted.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#87",
+     "role": "both",
+     "quote": "By the second day of the coup"
+    }
+   ]
+  },
+  {
+   "id": "e78",
+   "date": "2021-03-15",
+   "grain": "day",
+   "track": "other",
+   "label": "martial law extended",
+   "flag": "approximate_date",
+   "text": "Military extended martial law into more parts of Yangon.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Myanmar#86",
+     "role": "both",
+     "quote": "By March 15 , 2021 the military leadership continued to extend martial law into more parts of Yangon"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Bamar people entered the upper Irrawaddy valley (9th century)",
+  "Homo erectus lived in the region as early as 750,000 years ago",
+  "Iron Age began with iron-working settlements (around 500 BCE)",
+  "First Pyu city-states emerged in central Myanmar (second century BCE)",
+  "Pagan Kingdom founded by Anawrahta (1050s–1060s)",
+  "Nanzhao attacks on the Pyu (750s–830s)",
+  "Bamar settlement at Bagan founded (mid-to-late 9th century)",
+  "Taungoo dynasty reunified the country (mid-16th century)",
+  "British East India Company seized administration after three Anglo-Burmese Wars (19th century)",
+  "Riots paralysed Rangoon until the 1930s",
+  "Release of Aung San Suu Kyi from house arrest (reforms since 2010, date not stated)",
+  "Establishment of the National Human Rights Commission (reforms since 2010, date not stated)",
+  "Amnesties for more than 200 political prisoners (reforms since 2010, date not stated)",
+  "New labour laws permitting unions and strikes (reforms since 2010, date not stated)",
+  "Relaxation of press censorship and regulation of currency practices (reforms since 2010, date not stated)",
+  "Abolition of laws that barred the NLD (before the 2012 by-elections, date not stated)",
+  "Military expelled NLD MPs from Naypyitaw after the 2021 coup (date not stated)"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+  "page_id": "/wiki/Bank_of_America_Plaza_(Atlanta)",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1991",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Building became NationsBank property after 1991 hostile takeover of C&S/Sovran by NCNB",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#1",
+          "role": "both",
+          "quote": "the 1991 hostile takeover of C&S/Sovran by NCNB"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1992",
+      "grain": "year",
+      "track": "work",
+      "text": "Building completed, then called NationsBank Plaza",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#0",
+          "role": "both",
+          "quote": "was completed in 1992 , when it was called NationsBank Plaza"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "2006",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "BentleyForbes acquired the building from Cousins Properties for $436 million",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#11",
+          "role": "both",
+          "quote": "BentleyForbes acquired the building from Cousins Properties in 2006"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2012",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "LNR and lenders acquired the property via foreclosure",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#11",
+          "role": "both",
+          "quote": "In 2012 , LNR and lenders acquired the property via foreclosure"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2013",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "CWCapital took over asset management of the building, representing bond holders",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#11",
+          "role": "both",
+          "quote": "In 2013 , CWCapital took over the asset management"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2014",
+      "grain": "year",
+      "track": "work",
+      "text": "Lobby, health club and conference facility renovation completed for $30 million",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#9",
+          "role": "both",
+          "quote": "In 2014 , a $30 million renovation to the lobby , health club , and conference facility was completed"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2016",
+      "grain": "year",
+      "track": "work",
+      "text": "Neighborhood improvements around the building completed at a cost of $1.04 million",
+      "flag": "approximate_date",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#7",
+          "role": "both",
+          "quote": "These neighborhood improvements were completed by 2016"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2016",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Fund managed by Shorenstein Properties acquired the building",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Bank_of_America_Plaza_(Atlanta)#11",
+          "role": "both",
+          "quote": "In 2016 , a fund managed by San Francisco-based Shorenstein Properties acquired the building"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Citizens & Southern National Bank merged with Sovran Bank during construction (no date)",
+    "LEED Silver certification awarded to the building (no date)",
+    "Metro Atlanta Chamber of Commerce E3 Liquid Assets water sustainability recognition (no date)",
+    "Midtown Alliance EcoDistrict Green Luminary recognition (no date)",
+    "CBRE Group hired to head leasing efforts (no date)"
+  ]
+}

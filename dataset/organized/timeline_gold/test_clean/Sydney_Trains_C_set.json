@@ -1,0 +1,140 @@
+{
+  "page_id": "/wiki/Sydney_Trains_C_set",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1986-07",
+      "grain": "month",
+      "track": "work",
+      "label": "",
+      "text": "First C set entered service from Mortdale Maintenance Depot",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#5", "role": "both", "quote": "The first set entered service in July 1986"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1988-12",
+      "grain": "month",
+      "track": "location",
+      "label": "",
+      "text": "All sets operating from Punchbowl depot as sets K40-K51",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#5", "role": "both", "quote": "by December 1988 , all were operating out of Punchbowl Maintenance Depot as sets K40-K51"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1990-12",
+      "grain": "month",
+      "track": "naming",
+      "label": "",
+      "text": "Chopper cars retargeted as sets C42-C54",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#6", "role": "both", "quote": "By December 1990 , they had been retargeted as C42-C54"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1991-01",
+      "grain": "month",
+      "track": "naming",
+      "label": "",
+      "text": "Cars reformed as 6-car sets numbered C1-C8",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#6", "role": "both", "quote": "In January 1991 , these were reformed as 6-car sets numbered C1-C8"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1991-06",
+      "grain": "month",
+      "track": "location",
+      "label": "",
+      "text": "All sets transferred to Hornsby Maintenance Depot",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#6", "role": "both", "quote": "By June 1991 , all had been transferred to Hornsby Maintenance Depot"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2001",
+      "grain": "year",
+      "track": "other",
+      "label": "reformation",
+      "text": "Sets reformed into seven 8-car sets",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#8", "role": "both", "quote": "In 2001 , the C sets were once again reformed into seven 8-car sets"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2017-07",
+      "grain": "month",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "All C sets withdrawn for inspection after asbestos found in circuit breaker panels",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#9", "role": "both", "quote": "In July 2017 , asbestos was found in the circuit breaker panels"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2017-11",
+      "grain": "month",
+      "track": "location",
+      "label": "",
+      "text": "All C sets begin operating out of Flemington Maintenance Depot",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#9", "role": "both", "quote": "Since November 2017 , all C Sets operated out of Flemington Maintenance Depot"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2020-09",
+      "grain": "month",
+      "track": "other",
+      "label": "phase-out",
+      "text": "Gradual phase-out of C sets begins, replaced by B sets",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#10", "role": "both", "quote": "gradually phased out from September 2020 to February 2021"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2021-02",
+      "grain": "month",
+      "track": "other",
+      "label": "phase-out",
+      "text": "Gradual phase-out of C sets ends, replaced by B sets",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#10", "role": "both", "quote": "gradually phased out from September 2020 to February 2021"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2021-02-26",
+      "grain": "day",
+      "track": "other",
+      "label": "final service",
+      "text": "C sets run final revenue timetabled service on Airport & South Line",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#10", "role": "both", "quote": "The C sets ran their final revenue timetabled service on 26 February 2021"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2021-03-06",
+      "grain": "day",
+      "track": "other",
+      "label": "farewell tour",
+      "text": "C sets farewell tour takes place",
+      "evidence": [
+        {"chunk_id": "/wiki/Sydney_Trains_C_set#10", "role": "both", "quote": "A farewell tour took place on 6 March 2021"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "During the late 1990s, all C sets were refurbished by A Goninan & Co as part of the CityDecker program"
+  ]
+}

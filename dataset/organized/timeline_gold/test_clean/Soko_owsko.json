@@ -1,0 +1,28 @@
+{
+ "page_id": "/wiki/Sokołowsko",
+ "events": [
+  {"id": "e1", "date": "1137", "grain": "year", "track": "location", "text": "Area acquired by Bohemia under Duke Soběslav I.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#3", "role": "both", "quote": "The area had originally been part of the County of Kłodzko , acquired by Bohemia under Duke Soběslav I in 1137"}]},
+  {"id": "e2", "date": "1250", "grain": "year", "track": "other", "label": "founding", "text": "Village probably founded by Benedictine monks from Police.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/Sokołowsko#3", "role": "both", "quote": "Sokołowsko was probably founded about 1250 by monks of the Benedictine Order"}]},
+  {"id": "e3", "date": "1357", "grain": "year", "track": "other", "label": "first record", "text": "Village first documented, in a deed listing villages of Radosno castle.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#4", "role": "both", "quote": "The first record of Girbrechtsdorff is documented in a 1357 deed"}]},
+  {"id": "e4", "date": "1526", "grain": "year", "track": "location", "text": "Area fell to the Habsburg Monarchy with the Bohemian kingdom.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#5", "role": "both", "quote": "With the Bohemian kingdom the area fell to the Habsburg Monarchy in 1526"}]},
+  {"id": "e5", "date": "1742", "grain": "year", "track": "location", "text": "Area seized by Prussia in the First Silesian War.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#5", "role": "both", "quote": "was seized by Prussia under King Frederick II in the First Silesian War of 1742"}]},
+  {"id": "e6", "date": "1815", "grain": "year", "track": "location", "text": "Görbersdorf became part of the Prussian Province of Silesia.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#5", "role": "both", "quote": "From 1815 Görbersdorf was part of the Prussian Province of Silesia"}]},
+  {"id": "e7", "date": "1849", "grain": "year", "track": "other", "label": "visit", "text": "Countess Maria von Colomb visited Görbersdorf and proposed a health resort.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#6", "role": "both", "quote": "until it was visited in 1849 by Countess Maria von Colomb"}]},
+  {"id": "e8", "date": "1854", "grain": "year", "track": "work", "text": "Opened the world's first tuberculosis sanatorium at Görbersdorf.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#6", "role": "both", "quote": "In 1854 she and Brehmer opened the worlds first sanatorium for the treatment of tuberculosis at Görbersdorf"}]},
+  {"id": "e9", "date": "1930", "grain": "year", "track": "work", "text": "Ski jumping hill opened at Görbersdorf.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#8", "role": "both", "quote": "a ski jumping hill was opened in 1930"}]},
+  {"id": "e10", "date": "1945", "grain": "year", "track": "naming", "text": "Görbersdorf renamed Sokołowsko, after Alfred Sokołowski.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#9", "role": "both", "quote": "In 1945 Görbersdorf , now belonging to Poland , was named Sokołowsko"}]},
+  {"id": "e11", "date": "1945", "grain": "year", "track": "location", "text": "Village came under Polish administration and became part of Poland.", "evidence": [{"chunk_id": "/wiki/Sokołowsko#9", "role": "both", "quote": "In 1945 Görbersdorf , now belonging to Poland , was named Sokołowsko"}]}
+ ],
+ "undated_mentions": [
+  "15th century: several possessors; village suffered from the Hussite Wars",
+  "Village passed to the Imperial counts of Hochberg at Książ (no exact date)",
+  "Village fell to Piast Duke Bolko II shortly after 1357 (no exact date)",
+  "Several further sanatoriums established in the following years (after 1854)",
+  "Post office and phone lines existed before 1888",
+  "Scandinavian guests introduced snow skiing at the beginning of the 20th century",
+  "Treatment profile broadened to all lung diseases, later dementia",
+  "1970s: transformation into Provincial Centre of Winter Sports, never completed",
+  "Village regained village status at the beginning of the 21st century",
+  "Archangel Michael chapel rebuilt by Renovabis (no exact date)"
+ ]
+}

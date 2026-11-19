@@ -1,0 +1,28 @@
+{
+  "page_id": "Alan_Bar",
+  "events": [
+    {"id": "e1", "date": "1985-06-22", "grain": "day", "track": "other", "label": "birth", "text": "Alan Baró Calabuig born, Spanish footballer.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#0", "role": "both", "quote": "born 22 June 1985"}]},
+    {"id": "e2", "date": "2006", "grain": "year", "track": "affiliation", "text": "Relegated from Segunda División B with UE Figueres.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#1", "role": "both", "quote": "suffering relegation from Segunda División B with the latter at the end of 2006–07"}], "flag": "approximate_date"},
+    {"id": "e3", "date": "2007-07-06", "grain": "day", "track": "affiliation", "text": "Moved to Alicante CF in Segunda División.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#1", "role": "both", "quote": "On 6 July 2007 , he moved to fellow league side Alicante CF"}]},
+    {"id": "e4", "date": "2008", "grain": "year", "track": "affiliation", "text": "Alicante CF earned promotion during his first season there.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#1", "role": "both", "quote": "playing 39 official games in his first season as the Valencians earned promotion"}], "flag": "derived_date"},
+    {"id": "e5", "date": "2009", "grain": "year", "track": "affiliation", "text": "Alicante CF relegated at end of his second season there.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#1", "role": "both", "quote": "in the second as they were relegated"}], "flag": "derived_date"},
+    {"id": "e6", "date": "2009", "grain": "year", "track": "affiliation", "text": "Moved to La Liga with CA Osasuna.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#2", "role": "both", "quote": "In the summer of 2009 , Baró moved to La Liga with CA Osasuna"}], "flag": "approximate_date"},
+    {"id": "e7", "date": "2010-01-24", "grain": "day", "track": "other", "label": "debut", "text": "Osasuna Copa del Rey debut; shortest career appearance record.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#2", "role": "both", "quote": "The following 24 January , away to the same opponents"}], "flag": "derived_date"},
+    {"id": "e8", "date": "2010-07-08", "grain": "day", "track": "affiliation", "text": "Signed two-year deal with Albacete Balompié.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#4", "role": "both", "quote": "On 8 July 2010 , Baró returned to Segunda División , signing a two-year deal at Albacete Balompié"}]},
+    {"id": "e9", "date": "2011", "grain": "year", "track": "affiliation", "text": "Albacete relegated at end of his one season there.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#4", "role": "both", "quote": "ending in relegation"}], "flag": "derived_date"},
+    {"id": "e10", "date": "2012-12-09", "grain": "day", "track": "other", "label": "first goal", "text": "Scored first SD Ponferradina goal against CD Mirandés.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#5", "role": "both", "quote": "scoring his first goal on 9 December 2012 in a 3–1 home victory over CD Mirandés"}]},
+    {"id": "e11", "date": "2015", "grain": "year", "track": "affiliation", "text": "SD Ponferradina relegated from Segunda División after four-year stay.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#5", "role": "both", "quote": "Baró started in 34 of his 35 appearances in 2015–16 , but the club was relegated"}], "flag": "approximate_date"},
+    {"id": "e12", "date": "2016-07-07", "grain": "day", "track": "affiliation", "text": "Joined Melbourne Victory FC as replacement for Matthieu Delpierre.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#6", "role": "both", "quote": "On 7 July 2016 , Baró joined Melbourne Victory FC"}]},
+    {"id": "e13", "date": "2017-05-12", "grain": "day", "track": "affiliation", "text": "Released by Melbourne Victory FC.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#6", "role": "both", "quote": "He was released on 12 May 2017"}]},
+    {"id": "e14", "date": "2017-05", "grain": "month", "track": "affiliation", "text": "Moved to Central Coast Mariners FC in A-League.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#6", "role": "both", "quote": "moving to fellow A-League side Central Coast Mariners FC late in that month"}], "flag": "derived_date"},
+    {"id": "e15", "date": "2017-09-23", "grain": "day", "track": "role", "text": "Announced as Central Coast Mariners captain.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#6", "role": "both", "quote": "On 23 September 2017 , Baró was announced as the latters captain"}]},
+    {"id": "e16", "date": "2018-06", "grain": "month", "track": "affiliation", "text": "Mutually terminated Central Coast Mariners contract.", "evidence": [{"chunk_id": "/wiki/Alan_Baró#6", "role": "both", "quote": "In June of the following year , the 33-year-old mutually terminated his contract"}], "flag": "derived_date"}
+  ],
+  "undated_mentions": [
+    "Began career with CF Peralada (no date)",
+    "Began career with UE Figueres (no date)",
+    "Registered to Osasuna reserves in the third level (no date)",
+    "Moved to SD Ponferradina in the third tier (no date)",
+    "Won promotion with SD Ponferradina via play-offs (season not stated)"
+  ]
+}

@@ -1,0 +1,553 @@
+{
+ "page_id": "Alemannia_Aachen",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1900-12-16",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Club founded by a group of eighteen high school students.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#2",
+     "role": "both",
+     "quote": "The club was founded on 16 December 1900 by a group of eighteen high school students"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1907",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won first championship in the Rhineland-Westphalia FA.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#5",
+     "role": "both",
+     "quote": "won its first championship there in 1907"
+    }
+   ]
+  },
+  {
+   "date": "1908",
+   "grain": "year",
+   "track": "work",
+   "label": "",
+   "text": "Old Tivoli stadium built",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#21",
+     "role": "both",
+     "quote": "it was built in 1908"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "1909",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined the Westdeutsche Fussball Verband.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#5",
+     "role": "both",
+     "quote": "before joining the newly formed Westdeutsche Fussball Verband in 1909"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1919",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Merged with Aachener Turnverein 1847 to form TSV Alemannia Aachen 1900.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#3",
+     "role": "both",
+     "quote": "In early 1919 Alemannia merged with Aachener Turnverein 1847"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e6",
+   "date": "1921",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Qualified for the Rheingauliga.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#5",
+     "role": "both",
+     "quote": "They qualified for the Rheingauliga in 1921"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1924",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Merger with Aachener Turnverein ended; clubs split again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#3",
+     "role": "both",
+     "quote": "the union was short-lived , with the clubs splitting again in 1924"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1928",
+   "grain": "year",
+   "track": "work",
+   "text": "Built their own stadium.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#5",
+     "role": "both",
+     "quote": "built their own stadium in 1928"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1929",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Gained admittance to the Oberliga.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#5",
+     "role": "both",
+     "quote": "earned admittance to the Oberliga the following year"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1938",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Finished atop their division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#6",
+     "role": "both",
+     "quote": "They finished atop their division in 1938"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1938",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "Advanced to the national final rounds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#6",
+     "role": "both",
+     "quote": "They finished atop their division in 1938 and advanced to the national final rounds"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1946",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Re-constituted itself after the Allied ban on organizations was lifted.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#9",
+     "role": "both",
+     "quote": "In 1946 , after World War II and the lifting of the ban placed by Allied occupation authorities on most types of organizations in Germany"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1946",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began play in second-tier Rheinbezirk.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#9",
+     "role": "both",
+     "quote": "In 1946 , after World War II and the lifting of the ban placed by Allied occupation authorities on most types of organizations in Germany"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1947",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Returned to first division play in the Oberliga West.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#9",
+     "role": "both",
+     "quote": "They returned to first division play in the Oberliga West the next year"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "cup final",
+   "text": "Reached DFB-Pokal final; lost 1-2 to Rot-Weiss Essen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#10",
+     "role": "both",
+     "quote": "advance to the DFB-Pokal final in 1953"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1963",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Placed in Regionalliga West (II) after Bundesliga formation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#10",
+     "role": "both",
+     "quote": "in 1963 , Alemannia found themselves in Regionalliga West ( II )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Regionalliga West (II) championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#19",
+     "role": "both",
+     "quote": "Regionalliga West ( II ) - Champions : 1964 , 1966–67"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "cup final",
+   "text": "Reached DFB-Pokal final; lost 0-2 to Borussia Dortmund.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#10",
+     "role": "both",
+     "quote": "In 1965 , they had another good run in German Cup competition , earning another final appearance"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1967",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Captured Regionalliga West (II) division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#11",
+     "role": "both",
+     "quote": "The club captured their division in 1967"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1967",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Promoted to the Bundesliga for the 1967-68 season.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#11",
+     "role": "both",
+     "quote": "were promoted to the Bundesliga ( I ) for the 1967–68 season"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1970",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated from Bundesliga after 18th-place finish; returned to Regionalliga West.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#11",
+     "role": "both",
+     "quote": "the following season was a disaster : the team earned only one point in play away from home and toppled to an 18th-place finish"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1990",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Fell to the third division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#11",
+     "role": "both",
+     "quote": "in 1990 fell still further to the third division"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1999",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Won Regionalliga West/Südwest (III) and gained promotion to the 2. Bundesliga.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#12",
+     "role": "date",
+     "quote": "In 1999 , the team played well and delivered an especially strong second half"
+    },
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#13",
+     "role": "description",
+     "quote": "their late trainer and winning the Regionalliga West/Südwest ( III )"
+    }
+   ]
+  },
+  {
+   "date": "1999",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Trainer Werner Fuchs died unexpectedly",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#12",
+     "role": "date",
+     "quote": "In 1999 , the team played well and delivered an especially strong second half"
+    },
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#12",
+     "role": "description",
+     "quote": "tragedy struck with the unexpected death of Fuchs"
+    }
+   ],
+   "id": "e24"
+  },
+  {
+   "id": "e25",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Middle Rhine Cup (Tiers III-V).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#19",
+     "role": "both",
+     "quote": "Middle Rhine Cup ( Tiers III-V ) - Winners : 1992–93 , 1993–94 , 1996–97 , 1998–99 , 2002 , 2006 , 2019"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2004",
+   "grain": "year",
+   "track": "location",
+   "text": "Played 2004 UEFA Cup matches at Cologne's RheinEnergieStadion.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#21",
+     "role": "both",
+     "quote": "The club played its 2004 UEFA Cup matches , however , in Colognes RheinEnergieStadion"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2004",
+   "grain": "year",
+   "track": "other",
+   "label": "tournament",
+   "text": "Advanced to UEFA Cup Round of 32; lost to AZ Alkmaar.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#21",
+     "role": "date",
+     "quote": "The club played its 2004 UEFA Cup matches"
+    },
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#15",
+     "role": "description",
+     "quote": "advancing to the Round of 32 before going out to eventual semi-finalists AZ Alkmaar"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Middle Rhine Cup (Tiers III-V).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#19",
+     "role": "both",
+     "quote": "Middle Rhine Cup ( Tiers III-V ) - Winners : 1992–93 , 1993–94 , 1996–97 , 1998–99 , 2002 , 2006 , 2019"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2006-04-16",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Earned promotion to the Bundesliga as the first team to do so in 2005-06.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#16",
+     "role": "both",
+     "quote": "On 16 April 2006 , Alemannia became the first team to earn promotion to the Bundesliga"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed Guido Buchwald as manager-trainer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#16",
+     "role": "both",
+     "quote": "In the middle of 2007 , the club appointed former German international"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e31",
+   "date": "2009-08",
+   "grain": "month",
+   "track": "work",
+   "text": "Opened the New Tivoli stadium.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#21",
+     "role": "both",
+     "quote": "In August 2009 Aachen opened a new stadium , the New Tivoli"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2012",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated from 2. Bundesliga.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#18",
+     "role": "both",
+     "quote": "being relegated from the 2 . Bundesliga in 2012"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "bankruptcy",
+   "text": "Entered bankruptcy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#0",
+     "role": "both",
+     "quote": "in late 2012 entered into bankruptcy"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e34",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Relegated from 3. Liga after the 2012-13 season.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#18",
+     "role": "both",
+     "quote": "from the 3 . Liga the season after"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Won Middle Rhine Cup (Tiers III-V).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Alemannia_Aachen#19",
+     "role": "both",
+     "quote": "Middle Rhine Cup ( Tiers III-V ) - Winners : 1992–93 , 1993–94 , 1996–97 , 1998–99 , 2002 , 2006 , 2019"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Christened FC Alemannia (naming, no date stated)",
+  "First game against Belgian side R. Dolhain F.C. (no date)",
+  "Advanced to final four of Westdeutsche championship playoffs (early 1930s)",
+  "Played several seasons in Gauliga Mittelrhein (late 1930s and early 1940s)",
+  "Demanded release of a jailed Jewish member (Nazi era, no year)",
+  "Reached DFB-Pokal final 2003-04 season, lost 2-3 to Werder Bremen",
+  "New executive board under president Horst Heinrichs, trainer Dieter Hecking, manager Jörg Schmadtke (no date)",
+  "Financial irregularities uncovered, club near bankruptcy (no date)",
+  "Guido Buchwald fired after 14 matches (2007, no exact date)",
+  "Jörg Schmadtke interim headcoach (2007, no exact date)",
+  "Jürgen Seeberger replaced as coach in winter break (no exact date)",
+  "Resumed play in tier IV Regionalliga West (2013-14 season)",
+  "Middle Rhine Cup win, 1992-93 season",
+  "Middle Rhine Cup win, 1993-94 season",
+  "Middle Rhine Cup win, 1996-97 season",
+  "Middle Rhine Cup win, 1998-99 season",
+  "Finished second in the Bundesliga 1968-69 (best ever result; season-level)"
+ ]
+}

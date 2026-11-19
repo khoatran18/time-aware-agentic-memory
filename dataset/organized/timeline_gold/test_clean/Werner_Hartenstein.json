@@ -1,0 +1,266 @@
+{
+  "page_id": "/wiki/Werner_Hartenstein",
+  "events": [
+    {"id": "e1", "date": "1908-02-27", "grain": "day", "track": "other", "label": "birth",
+     "text": "Born in Plauen, Kingdom of Saxony, German Empire.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#0", "role": "both", "quote": "Werner Hartenstein ( 27 February 1908 – 8 March 1943 ) was a German naval officer"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#3", "role": "both", "quote": "the Kingdom of Saxony , then a federated state of the German Empire , on 27 February 1908"}
+     ]},
+    {"id": "e2", "date": "1923", "grain": "year", "track": "other", "label": "confirmation",
+     "text": "Celebrated his confirmation.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#3", "role": "both", "quote": "He celebrated his confirmation in 1923"}
+     ]},
+    {"id": "e3", "date": "1926", "grain": "year", "track": "education",
+     "text": "Graduated from secondary school in Plauen with Abitur.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#3", "role": "both", "quote": "graduated from a humanities-oriented secondary school in Plauen with his diploma ( Abitur ) in 1926"}
+     ]},
+    {"id": "e4", "date": "1927-04-29", "grain": "day", "track": "education",
+     "text": "Matriculated at the University of Freiburg.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#4", "role": "both", "quote": "He matriculated at the University of Freiburg ( Albert-Ludwigs-Universität Freiburg ) in Freiburg im Breisgau on 29 April 1927"}
+     ]},
+    {"id": "e5", "date": "1928-04-01", "grain": "day", "track": "affiliation",
+     "text": "Began naval career with the Reichsmarine as member of Crew 28.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#5", "role": "both", "quote": "began his naval career with the Reichsmarine on 1 April 1928"}
+     ]},
+    {"id": "e6", "date": "1928-04-01", "grain": "day", "track": "education",
+     "text": "Began basic military training at Stralsund on the Baltic Sea.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#5", "role": "both", "quote": "in Stralsund ( 1 April 1928 – 30 June 1928 )"}
+     ]},
+    {"id": "e7", "date": "1928-07-01", "grain": "day", "track": "affiliation",
+     "text": "Transferred to the training ship Niobe.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#5", "role": "both", "quote": "transferred to the training ship Niobe ( 1 July 1928 – 15 October 1928 )"}
+     ]},
+    {"id": "e8", "date": "1928-10-11", "grain": "day", "track": "role",
+     "text": "Attained the rank of Seekadett (midshipman).",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#5", "role": "both", "quote": "attaining the rank of Seekadett ( midshipman ) on 11 October 1928"}
+     ]},
+    {"id": "e9", "date": "1928-10-15", "grain": "day", "track": "affiliation",
+     "text": "Left the training ship Niobe.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#5", "role": "both", "quote": "transferred to the training ship Niobe ( 1 July 1928 – 15 October 1928 )"}
+     ]},
+    {"id": "e10", "date": "1928-10-16", "grain": "day", "track": "affiliation",
+     "text": "Assigned to the cruiser Emden for a 14-month stay.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#6", "role": "both", "quote": "a 14-month stay on board the cruiser Emden ( 16 October 1928 – 3 January 1930 )"}
+     ]},
+    {"id": "e11", "date": "1930-01-01", "grain": "day", "track": "role",
+     "text": "Advanced to Fähnrich zur See (officer cadet).",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#6", "role": "both", "quote": "he advanced in rank to Fähnrich zur See ( officer cadet ) on 1 January 1930"}
+     ]},
+    {"id": "e12", "date": "1930-01-03", "grain": "day", "track": "affiliation",
+     "text": "Left the cruiser Emden.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#6", "role": "both", "quote": "a 14-month stay on board the cruiser Emden ( 16 October 1928 – 3 January 1930 )"}
+     ]},
+    {"id": "e13", "date": "1931-10-01", "grain": "day", "track": "affiliation",
+     "text": "Transferred to the light cruiser Köln.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#6", "role": "both", "quote": "transferring to the light cruiser Köln ( 1 October 1931 – 23 September 1934 )"}
+     ]},
+    {"id": "e14", "date": "1934-09-23", "grain": "day", "track": "affiliation",
+     "text": "Left the light cruiser Köln.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#6", "role": "both", "quote": "transferring to the light cruiser Köln ( 1 October 1931 – 23 September 1934 )"}
+     ]},
+    {"id": "e15", "date": "1936-09-30", "grain": "day", "track": "role",
+     "text": "Began service as first watch officer on a torpedo boat.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#8", "role": "both", "quote": "Hartenstein served as first watch officer on the torpedo boat from 30 September 1936 to 13 November 1938"}
+     ]},
+    {"id": "e16", "date": "1937", "grain": "year", "track": "other", "label": "patrol",
+     "text": "Patrols aboard Greif in Spanish waters during the Spanish Civil War, 1937-38.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#8", "role": "both", "quote": "Hartenstein participated in several patrols in 1937 and 1938 on board Greif"}
+     ],
+     "flag": "approximate_date"},
+    {"id": "e17", "date": "1937-06-01", "grain": "day", "track": "role",
+     "text": "Promoted to Kapitänleutnant.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#8", "role": "both", "quote": "He was promoted to Kapitänleutnant ( captain lieutenant ) on 1 June 1937"}
+     ]},
+    {"id": "e18", "date": "1938-11-13", "grain": "day", "track": "role",
+     "text": "Ended service as first watch officer on the torpedo boat.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#8", "role": "both", "quote": "Hartenstein served as first watch officer on the torpedo boat from 30 September 1936 to 13 November 1938"}
+     ]},
+    {"id": "e19", "date": "1938-11-20", "grain": "day", "track": "role",
+     "text": "Took command of a torpedo boat (name not stated).",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#9", "role": "both", "quote": "Hartenstein took command of torpedo boat on 20 November 1938"}
+     ]},
+    {"id": "e20", "date": "1939-06-06", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Spanish Cross in Bronze.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#8", "role": "both", "quote": "awarded the Spanish Cross in Bronze ( ) on 6 June 1939"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "Spanish Cross in Bronze ( 6 June 1939 )"}
+     ]},
+    {"id": "e21", "date": "1939-10", "grain": "month", "track": "role",
+     "text": "Switched torpedo boat command with Franz Kohlauf.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#9", "role": "both", "quote": "In October 1939 Hartenstein transferred and switched command of torpedo boat with Kapitänleutnant Franz Kohlauf"}
+     ]},
+    {"id": "e22", "date": "1939-10-26", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Return of Memel Commemorative Medal.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "The Return of Memel Commemorative Medal ( 26 October 1939 )"}
+     ]},
+    {"id": "e23", "date": "1939-11-16", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Iron Cross, 2nd Class.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "2nd Class ( 16 November 1939 )"}
+     ]},
+    {"id": "e24", "date": "1940-04-27", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Iron Cross, 1st Class.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "1st Class ( 27 April 1940 )"}
+     ]},
+    {"id": "e25", "date": "1940-11-06", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Return of Sudetenland Commemorative Medal.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "The Return of Sudetenland Commemorative Medal of 1 October 1938 ( 6 November 1940 )"}
+     ]},
+    {"id": "e26", "date": "1940-12-24", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Destroyer War Badge.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "Destroyer War Badge ( 24 December 1940 )"}
+     ]},
+    {"id": "e27", "date": "1941", "grain": "year", "track": "affiliation",
+     "text": "Transferred to the U-boat service.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#1", "role": "both", "quote": "he transferred to the U-boat service in 1941"}
+     ]},
+    {"id": "e28", "date": "1941-03-30", "grain": "day", "track": "role",
+     "text": "Command of torpedo boat Jaguar passed to Friedrich-Karl Paul.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#9", "role": "both", "quote": "On 30 March 1941 , command of Jaguar was given to Kapitänleutnant Friedrich-Karl Paul"}
+     ]},
+    {"id": "e29", "date": "1941-09-04", "grain": "day", "track": "role",
+     "text": "Given command of U-156, a Type IXC U-boat.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#10", "role": "both", "quote": "on 4 September 1941 was given command of U-156"}
+     ]},
+    {"id": "e30", "date": "1942-01-19", "grain": "day", "track": "other", "label": "command",
+     "text": "Commanded the Gruppe Neuland wolfpack on second patrol, including the Aruba attack.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#13", "role": "both", "quote": "On his second patrol ( 19 January 1942 – 17 March 1942 ) Hartenstein commanded a wolfpack of U-boats"}
+     ]},
+    {"id": "e31", "date": "1942-02-02", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the German Cross in Gold.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#10", "role": "both", "quote": "Hartenstein was awarded the German Cross in Gold ( ) on 2 February 1942"}
+     ]},
+    {"id": "e32", "date": "1942-02-16", "grain": "day", "track": "other", "label": "sinking",
+     "text": "Torpedoed the tanker Pedernales in San Nicolaas Harbour, Aruba; it burst into flames.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#15", "role": "both", "quote": "On 16 February , after observing the area for a few days"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e33", "date": "1942-02-16", "grain": "day", "track": "other", "label": "sinking",
+     "text": "Oranjestad hit by a second torpedo and sank about an hour later.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#15", "role": "both", "quote": "On 16 February , after observing the area for a few days"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#16", "role": "description", "quote": "She too burst into flames and sunk an hour later"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e34", "date": "1942-02-16", "grain": "day", "track": "other", "label": "attack",
+     "text": "Attacked the Texaco tanker Arkansas at Eagle Beach; partially sunk.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#15", "role": "both", "quote": "On 16 February , after observing the area for a few days"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#17", "role": "description", "quote": "U-156 attacked the Texaco-owned tanker SS Arkansas"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e35", "date": "1942-02-16", "grain": "day", "track": "other", "label": "incident",
+     "text": "Deck gun exploded during the Aruba attack, wounding the gunnery officer.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#15", "role": "both", "quote": "On 16 February , after observing the area for a few days"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#18", "role": "description", "quote": "ordered them to fire , the gun blew up"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e36", "date": "1942-03-17", "grain": "day", "track": "other", "label": "award",
+     "text": "Received the German Cross in Gold pinned on by Karl Dönitz.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#10", "role": "both", "quote": "Karl Dönitz personally pinned the award on Harteinsteins leather jacket on 17 March 1942"}
+     ]},
+    {"id": "e37", "date": "1942-03-17", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the U-boat War Badge.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#43", "role": "both", "quote": "U-boat War Badge ( 1939 ) ( 17 March 1942 )"}
+     ]},
+    {"id": "e38", "date": "1942-05-25", "grain": "day", "track": "other", "label": "sinking",
+     "text": "U-156 sank an unnamed ship (name not stated) on third patrol.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#19", "role": "both", "quote": "sank 12 ships and damaged a further two , including the on 25 May 1942"}
+     ]},
+    {"id": "e39", "date": "1942-06-01", "grain": "day", "track": "role",
+     "text": "Promoted to Korvettenkapitän.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#22", "role": "both", "quote": "On 1 June 1942 , Hartenstein was promoted to Korvettenkapitän"}
+     ]},
+    {"id": "e40", "date": "1942-06-06", "grain": "day", "track": "other", "label": "honour",
+     "text": "Mentioned in the Wehrmachtbericht for the third patrol.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#19", "role": "both", "quote": "This achievement earned Hartenstein a reference on 6 June 1942"}
+     ]},
+    {"id": "e41", "date": "1942-07-20", "grain": "day", "track": "other", "label": "honour",
+     "text": "Received a hero's welcome in Plauen with the U-156 crew.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#24", "role": "both", "quote": "received a heros welcome by the residents of Plauen on 20 July 1942"}
+     ]},
+    {"id": "e42", "date": "1942-08-27", "grain": "day", "track": "other", "label": "sinking",
+     "text": "Sank SS Clan Macwhirter west of Casablanca, killing nine crew.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#25", "role": "both", "quote": "After a two-day pursuit , U-156 found a straggler , the SS Clan Macwhirter"}
+     ],
+     "flag": "derived_date"},
+    {"id": "e43", "date": "1942-09-12", "grain": "day", "track": "other", "label": "sinking",
+     "text": "Torpedoed and sank RMS Laconia; then began rescuing survivors.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#27", "role": "both", "quote": "On 12 September 1942 U-156 was patrolling off the coast of West Africa"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#28", "role": "description", "quote": "Laconia sank at 23:23"}
+     ]},
+    {"id": "e44", "date": "1942-09-13", "grain": "day", "track": "other", "label": "message",
+     "text": "Radioed BdU for guidance; broadcast promise not to attack rescuers.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#29", "role": "both", "quote": "At 01:25 on 13 September 1942 Hartenstein radioed the Befehlshaber der U-Boote"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#30", "role": "description", "quote": "If any ship will assist the ship-wrecked Laconia crew , I will not attack"}
+     ]},
+    {"id": "e45", "date": "1942-09-16", "grain": "day", "track": "other", "label": "incident",
+     "text": "US Army B-24 attack forced Hartenstein to abandon the Laconia rescue.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#32", "role": "both", "quote": "Lieutenant James D . Harden ) at 12:32 on 16 September 1942"}
+     ]},
+    {"id": "e46", "date": "1942-09-17", "grain": "day", "track": "other", "label": "award",
+     "text": "Awarded the Knights Cross of the Iron Cross.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#34", "role": "both", "quote": "U-156 received a radio message on 17 September 1942"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#44", "role": "both", "quote": "Knights Cross of the Iron Cross on 17 September 1942 as Korvettenkapitän and commander of U-156"}
+     ]},
+    {"id": "e47", "date": "1942-09-19", "grain": "day", "track": "other", "label": "sinking",
+     "text": "Torpedoed the British ship Quebec City near Freetown; it sank.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#35", "role": "both", "quote": "On 19 September 1942 , U-156 was roughly south of Freetown"}
+     ]},
+    {"id": "e48", "date": "1943-03-08", "grain": "day", "track": "other", "label": "death",
+     "text": "Killed in action with the U-156 crew by US PBY Catalina depth charges.",
+     "evidence": [
+       {"chunk_id": "/wiki/Werner_Hartenstein#2", "role": "both", "quote": "were killed in action by depth charges from a US PBY Catalina aircraft on 8 March 1943"},
+       {"chunk_id": "/wiki/Werner_Hartenstein#38", "role": "both", "quote": "on 8 March 1943 , Hartenstein and the entire crew of U-156 were killed in action"}
+     ]}
+  ],
+  "undated_mentions": [
+    "Studied two semesters of jurisprudence before naval cadetship (no date)",
+    "Officer training courses at Naval Academy Mürwik and navigation cruises on Meteor (no date)",
+    "Courses at Wilhelmshaven and Kiel-Wik while serving on Köln (no date)",
+    "Torpedoed the destroyer Blakeley near Martinique on third patrol (no date)"
+  ]
+}

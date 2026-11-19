@@ -1,0 +1,362 @@
+{
+ "page_id": "Diane_Downs",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1955-08-07",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Phoenix, Arizona, to Wesley Linden and Willadene Frederickson.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#0",
+     "role": "both",
+     "quote": "born August 7 , 1955"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#2",
+     "role": "both",
+     "quote": "Diane Downs was born in Phoenix , Arizona , on August 7 , 1955"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1973-11-13",
+   "grain": "day",
+   "track": "family",
+   "label": "",
+   "text": "Married Steve Downs after running away from home.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#3",
+     "role": "both",
+     "quote": "On November 13 , 1973 , Diane married Steve Downs after running away from home"
+    }
+   ]
+  },
+  {
+   "date": "1974",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Daughter Christie Ann born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#3",
+     "role": "both",
+     "quote": "Their first child , Christie Ann , was born in 1974"
+    }
+   ],
+   "id": "e3"
+  },
+  {
+   "date": "1976",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Daughter Cheryl Lynn born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#3",
+     "role": "both",
+     "quote": "Cheryl Lynn followed in 1976"
+    }
+   ],
+   "id": "e4"
+  },
+  {
+   "date": "1979",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Son Stephen Daniel (Danny) born",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#3",
+     "role": "both",
+     "quote": "with Stephen Daniel being born in 1979"
+    }
+   ],
+   "id": "e5"
+  },
+  {
+   "id": "e6",
+   "date": "1980",
+   "grain": "year",
+   "track": "family",
+   "label": "",
+   "text": "Divorced Steve Downs, who suspected an affair.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#3",
+     "role": "both",
+     "quote": "The couple divorced in 1980"
+    }
+   ]
+  },
+  {
+   "date": "1982-05-08",
+   "grain": "day",
+   "track": "family",
+   "label": null,
+   "text": "Gave birth to a daughter through surrogacy and gave the child to her intended parents",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#4",
+     "role": "both",
+     "quote": "On May 8 , 1982 , Downs gave birth to a daughter through surrogacy"
+    }
+   ],
+   "id": "e7"
+  },
+  {
+   "id": "e8",
+   "date": "1983-05-19",
+   "grain": "day",
+   "track": "other",
+   "label": "crime",
+   "text": "Shot her three children and drove them to McKenzie-Willamette Hospital.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#5",
+     "role": "both",
+     "quote": "On May 19 , 1983 , Downs shot her three children"
+    }
+   ]
+  },
+  {
+   "date": "1984",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Gave birth to Amy Elizabeth about a month after her trial; the child was later seized and adopted",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#14",
+     "role": "both",
+     "quote": "gave birth to a girl , whom she named Amy Elizabeth , a month after her 1984 trial"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "1984-02-28",
+   "grain": "day",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested and charged with murder and attempted murder.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#10",
+     "role": "both",
+     "quote": "Downs was arrested on February 28 , 1984"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1984-06-17",
+   "grain": "day",
+   "track": "other",
+   "label": "conviction",
+   "text": "Convicted on all charges and sentenced to life plus 50 years.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#12",
+     "role": "both",
+     "quote": "Downs was convicted on all charges on June 17 , 1984"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#0",
+     "role": "both",
+     "quote": "She was convicted in 1984 and sentenced to life in prison plus fifty years"
+    }
+   ]
+  },
+  {
+   "date": "1986",
+   "grain": "year",
+   "track": "family",
+   "label": null,
+   "text": "Fred Hugi and his wife adopted her two surviving children",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#13",
+     "role": "both",
+     "quote": "He and his wife Joanne adopted them in 1986"
+    }
+   ],
+   "id": "e12"
+  },
+  {
+   "id": "e13",
+   "date": "1987",
+   "grain": "year",
+   "track": "other",
+   "label": "escape",
+   "text": "Briefly escaped custody and was recaptured.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#1",
+     "role": "both",
+     "quote": "Downs briefly escaped in 1987 and was recaptured"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "date": "1987",
+   "grain": "year",
+   "track": "other",
+   "label": "book",
+   "text": "Ann Rule published the book Small Sacrifices about Downs",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#19",
+     "role": "both",
+     "quote": "Author Ann Rule wrote the book Small Sacrifices ( 1987 ) detailing Downs life and murder trial"
+    }
+   ],
+   "id": "e14"
+  },
+  {
+   "id": "e15",
+   "date": "1988-07-11",
+   "grain": "day",
+   "track": "other",
+   "label": "escape",
+   "text": "Escaped from her cell in Oregon by scaling a razor wire fence.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#16",
+     "role": "both",
+     "quote": "She escaped from her cell in Oregon on July 11 , 1988 by scaling an 18-foot razor wire fence"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e16",
+   "date": "1988-07-21",
+   "grain": "day",
+   "track": "other",
+   "label": "recapture",
+   "text": "Recaptured after about ten days at large, during a 14-state manhunt.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#16",
+     "role": "date",
+     "quote": "She escaped from her cell in Oregon on July 11 , 1988"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#16",
+     "role": "description",
+     "quote": "For ten days Downs managed to escape despite a 14-state manhunt before she was recaptured"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "date": "1989",
+   "grain": "year",
+   "track": "other",
+   "label": "TV movie",
+   "text": "Made-for-TV movie Small Sacrifices aired on ABC",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#19",
+     "role": "both",
+     "quote": "aired on ABC in 1989"
+    }
+   ],
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1994",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Transferred to the California Department of Corrections after serving ten years.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#18",
+     "role": "both",
+     "quote": "In 1994 , after serving ten years , Downs was transferred"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2008-12-09",
+   "grain": "day",
+   "track": "other",
+   "label": "parole hearing",
+   "text": "First parole hearing; parole denied.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#21",
+     "role": "both",
+     "quote": "Her first parole hearing was on December 9 , 2008"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#1",
+     "role": "both",
+     "quote": "She was denied parole in December 2008"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#22",
+     "role": "description",
+     "quote": "she was denied parole"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2010-12-10",
+   "grain": "day",
+   "track": "other",
+   "label": "parole hearing",
+   "text": "Second parole hearing; parole denied again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#23",
+     "role": "both",
+     "quote": "Downs faced her second parole hearing on December 10 , 2010 , and was denied"
+    },
+    {
+     "chunk_id": "/wiki/Diane_Downs#1",
+     "role": "both",
+     "quote": "and again in December 2010"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2013",
+   "grain": "year",
+   "track": "location",
+   "label": "",
+   "text": "Transferred out of Valley State Prison for Women when the facility became all-male.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Diane_Downs#18",
+     "role": "both",
+     "quote": "but transferred out when the facility was converted to an all-male institution in 2013"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Graduated from Moon Valley High School, Phoenix, Arizona",
+  "Enrolled at Pacific Coast Baptist Bible College, Orange, California; expelled after one year",
+  "Employed by the United States Postal Service on mail routes in Cottage Grove, Oregon, before her arrest",
+  "Received an additional five-year sentence for the escape",
+  "Transferred to Clinton Correctional Facility for Women, New Jersey, after recapture",
+  "Earned an associate degree in General Studies while in prison"
+ ]
+}

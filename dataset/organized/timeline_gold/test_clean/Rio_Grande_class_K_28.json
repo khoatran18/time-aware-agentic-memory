@@ -1,0 +1,92 @@
+{
+  "page_id": "/wiki/Rio_Grande_class_K-28",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1923",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the class of ten K-28 locomotives by ALCO Schenectady begins.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#0", "role": "both", "quote": "built in 1923-1925 by the Schenectady Locomotive Works"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1924",
+      "grain": "year",
+      "track": "naming",
+      "text": "Class reclassified from E-4-148-S to K-28 during railroad reorganization.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#0", "role": "both", "quote": "were reclassified K-28 in 1924 when the railroad reorganized"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1925",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction of the K-28 class completed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#0", "role": "both", "quote": "built in 1923-1925 by the Schenectady Locomotive Works"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1925",
+      "grain": "year",
+      "track": "work",
+      "text": "Oahu Railway and Land Company receives first of four K-28 variant locomotives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#10", "role": "both", "quote": "ordered four locomotives of the same design which were delivered in 1925 and 1926"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1926",
+      "grain": "year",
+      "track": "work",
+      "text": "Oahu Railway and Land Company receives remaining K-28 variant locomotives.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#10", "role": "both", "quote": "ordered four locomotives of the same design which were delivered in 1925 and 1926"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1944",
+      "grain": "year",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "All seven US Army locomotives in Alaska and Yukon withdrawn from service.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#3", "role": "both", "quote": "All seven were withdrawn from service in 1944"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1946",
+      "grain": "year",
+      "track": "other",
+      "label": "scrapping",
+      "text": "Seven withdrawn US Army locomotives barged to Seattle for scrapping.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#3", "role": "description", "quote": "and were barged to Seattle"},
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#4", "role": "date", "quote": "in 1946 for scrapping"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1981",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Durango & Silverton inherits three remaining locomotives on taking over Silverton Branch.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rio_Grande_class_K-28#5", "role": "both", "quote": "The Durango & Silverton inherited these when it took over the Silverton Branch in 1981"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Seven locomotives purchased by the US Army during World War II and renumbered USA 250 to USA 256",
+    "Three remaining locomotives assigned to Durango-Silverton tourist trains from the 1950s onwards"
+  ]
+}

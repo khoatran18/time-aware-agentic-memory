@@ -1,0 +1,148 @@
+{
+  "page_id": "/wiki/Berga_Naval_Base",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1904",
+      "grain": "year",
+      "track": "location",
+      "text": "Hårsfjärden began permanent use as base for coastal fleet schools.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#1", "role": "both", "quote": "From 1904 , Hårsfjärden began to be used more permanently as a base for the Coastal Fleets combat"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1905",
+      "grain": "year",
+      "track": "work",
+      "text": "Decision made to set up a target depot at Vitsgarn for a combat school.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#1", "role": "both", "quote": "In 1905 it was decided to set up a target depot for a combat school at Vitsgarn"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1911",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Swedish state began gradually acquiring more land for the navy.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#1", "role": "date", "quote": "From 1911"},
+        {"chunk_id": "/wiki/Berga_Naval_Base#2", "role": "description", "quote": "the Swedish state gradually acquired more land for the navy"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1921",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Gradual navy land acquisition by the Swedish state ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#2", "role": "both", "quote": "to 1921 , the Swedish state gradually acquired more land for the navy"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1944",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Riksdag decided the state would acquire Berga Castle estate.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#4", "role": "date", "quote": "In 1944 ,"},
+        {"chunk_id": "/wiki/Berga_Naval_Base#5", "role": "description", "quote": "the Riksdag decided that the Swedish state would acquire Berga Castle"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1946-07-01",
+      "grain": "day",
+      "track": "other",
+      "label": "founding",
+      "text": "Berga Naval Training Schools began operations with teaching.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#6", "role": "both", "quote": "The Berga Naval Training Schools started operating in 1946"},
+        {"chunk_id": "/wiki/Berga_Naval_Base#7", "role": "both", "quote": "On 1 July 1946 , operations at Berga Naval Training Schools began"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1946-10-01",
+      "grain": "day",
+      "track": "other",
+      "label": "training programs",
+      "text": "Craftsmanship, economy and coastal artillery training programs began.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#7", "role": "both", "quote": "while the craftsmanship , economy and coastal artillery programs began on 1 October"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1946-10-21",
+      "grain": "day",
+      "track": "other",
+      "label": "event",
+      "text": "Crown Prince Gustaf Adolf inaugurated the Swedish Navy NCO School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#7", "role": "date", "quote": "On 21 October 1946 , His Royal"},
+        {"chunk_id": "/wiki/Berga_Naval_Base#8", "role": "description", "quote": "Highness Crown Prince Gustaf Adolf performed the inauguration of the Swedish Navy Non-Commissioned Officers School"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1948",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Submarine and ASW School began training at Berga.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#8", "role": "both", "quote": "In 1948–1949 , the Submarine and ASW School ( Ubåts- och ubåtsjaktskolan ) began training at Berga"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1949",
+      "grain": "year",
+      "track": "work",
+      "text": "Construction began on a torpedo and submarine training facility.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#8", "role": "both", "quote": "In the summer of 1949 , construction began on a facility for training"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "2004",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Base became training ground for the 1st Marine Regiment.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#8", "role": "both", "quote": "Following the Defence Act of 2004 , Berga Naval Base is the training ground for the 1st Marine Regiment"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2008",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Navy returned to the base via the 4th Naval Warfare Flotilla.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Berga_Naval_Base#9", "role": "both", "quote": "From autumn 2008 the navy has also returned in the form of the 4th Naval Warfare Flotilla"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "late 1800s: Swedish Navy began using Hårsfjärden as a training area",
+    "During World War I: target depots developed; bridges and other facilities built at Märsgarn",
+    "During World War II: Hårsfjärden and Muskö became southern archipelago center; naval port with seaplane and submarine facilities built",
+    "Exercises on Hårsfjärden intensified; decommissioned ships sunk as targets (no date given)",
+    "Berga Naval Training Schools formed by relocating training from Skeppsholmen to Berga",
+    "Hunting ground transformed into a training area after the 1944 acquisition",
+    "First wave of staff and families moved in after the 1946 start",
+    "Parts of training placed at the Valrossen submarine training facility",
+    "Whole block built in Västerhaninge for navy families"
+  ]
+}

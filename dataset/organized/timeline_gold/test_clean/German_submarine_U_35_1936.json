@@ -1,0 +1,273 @@
+{
+  "page_id": "/wiki/German_submarine_U-35_(1936)",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1935-03-25",
+      "grain": "day",
+      "track": "work",
+      "text": "Ordered by the Kriegsmarine as a Type VIIA U-boat.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#3", "role": "both", "quote": "U-35 was ordered by the Kriegsmarine on 25 March 1935"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1936-03-02",
+      "grain": "day",
+      "track": "work",
+      "text": "Keel laid down by Friedrich Krupp Germaniawerft at Kiel.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#0", "role": "both", "quote": "The submarine was laid down on 2 March 1936 by Friedrich Krupp Germaniawerft at Kiel"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#3", "role": "both", "quote": "Her keel was laid down on 2 March 1936 by Friedrich Krupp Germaniawerft in Kiel"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1936-09-24",
+      "grain": "day",
+      "track": "work",
+      "text": "Launched at Krupp Germaniawerft in Kiel.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#0", "role": "both", "quote": "launched on 24 September 1936"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1936-11-03",
+      "grain": "day",
+      "track": "work",
+      "text": "Commissioned into the Kriegsmarine.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#3", "role": "both", "quote": "She was launched on 24 September 1936 and commissioned on 3 November of that year under the command of Kptlt . Klaus Ewerth"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1936-11-03",
+      "grain": "day",
+      "track": "role",
+      "text": "Klaus Ewerth assumed command of U-35 at commissioning.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#3", "role": "both", "quote": "She was launched on 24 September 1936 and commissioned on 3 November of that year under the command of Kptlt . Klaus Ewerth"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1937",
+      "grain": "year",
+      "track": "other",
+      "label": "accident",
+      "text": "Rammed by a freighter.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#6", "role": "both", "quote": "She was rammed by a freighter in 1937"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1938",
+      "grain": "year",
+      "track": "other",
+      "label": "accident",
+      "text": "Near-fatal collision with sister boat U-30 during a peacetime drill.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#7", "role": "both", "quote": "During another peacetime drill in 1938 , her sister boat , U-30 , was involved in a near-fatal collision"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1938",
+      "grain": "year",
+      "track": "other",
+      "label": "accident",
+      "text": "Overrun and badly damaged by a pocket battleship.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#6", "role": "both", "quote": "overrun and badly damaged by the pocket battleship in 1938"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1939",
+      "grain": "year",
+      "track": "other",
+      "label": "accident",
+      "text": "Struck by an aircraft.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#6", "role": "both", "quote": "was struck by an aircraft in 1939"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1939-08-27",
+      "grain": "day",
+      "track": "other",
+      "label": "patrol",
+      "text": "Last pre-war patrol begins, sailing from Memel in the Baltic.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#8", "role": "both", "quote": "U-35s last pre-war patrol began on 27 August 1939"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1939-09-01",
+      "grain": "day",
+      "track": "other",
+      "label": "patrol",
+      "text": "Arrives at Kiel, ending the last pre-war patrol.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#8", "role": "both", "quote": "took her from Memel ( in the Baltic ) to Kiel , where she arrived on 1 September"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1939-09-09",
+      "grain": "day",
+      "track": "other",
+      "label": "patrol",
+      "text": "Departs Wilhelmshaven on her first war patrol.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#9", "role": "both", "quote": "The U-boat departed Wilhelmshaven on 9 September 1939"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1939-09-09",
+      "grain": "day",
+      "track": "other",
+      "label": "attack",
+      "text": "Attacked by British submarine torpedoes off Schiermonnikoog; escaped undamaged.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#9", "role": "date", "quote": "The U-boat departed Wilhelmshaven on 9 September 1939"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#9", "role": "description", "quote": "That day , the submarine fired the first British submarine torpedoes of the war when attacking U-35"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1939-09-18",
+      "grain": "day",
+      "track": "other",
+      "label": "sinking",
+      "text": "Sinks fishing trawler Arlita by gunfire after stopping a group of three trawlers.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#10", "role": "date", "quote": "On 18 September she stopped a group of three fishing trawlers west-north-west of St.Kilda"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#10", "role": "description", "quote": "She sank two with gunfire , the 326-ton Arlita"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1939-09-18",
+      "grain": "day",
+      "track": "other",
+      "label": "sinking",
+      "text": "Sinks fishing trawler Lord Minto by gunfire after confiscating its radio and gear.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#10", "role": "date", "quote": "On 18 September she stopped a group of three fishing trawlers west-north-west of St.Kilda"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#10", "role": "description", "quote": "the 295-ton Lord Minto after confiscating their radios and fishing gear"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1939-09-21",
+      "grain": "day",
+      "track": "other",
+      "label": "attack",
+      "text": "Fires torpedoes at Convoy OA-7; misses escorts, damages tanker Teakwood.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#11", "role": "both", "quote": "After 14:10 on 21 September , U-35 fired three torpedoes at Convoy OA-7"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1939-10-01",
+      "grain": "day",
+      "track": "other",
+      "label": "sinking",
+      "text": "Stops and sinks the Belgian merchant ship Suzon off Ushant.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#12", "role": "both", "quote": "At 18:45 on 1 October 1939 , 42 miles off Ushant , U-35 stopped the unarmed neutral"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1939-10-03",
+      "grain": "day",
+      "track": "other",
+      "label": "sinking",
+      "text": "Stops and sinks the Greek freighter Diamantis west of the Scilly Islands.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#13", "role": "both", "quote": "About 13:15 on 3 October , 40 miles west of the Scilly Islands , U-35 stopped the 4,990-ton Greek freighter Diamantis"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "1939-10-04",
+      "grain": "day",
+      "track": "other",
+      "label": "rescue",
+      "text": "Lands the 28 Greek sailors of Diamantis ashore at Ventry, Co. Kerry.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#15", "role": "both", "quote": "The next day , 4 October , U-35 was seen by people in Ventry and Ballymore"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#15", "role": "description", "quote": "The U-boat launched a dinghy and brought ashore the 28 Greek sailors from Diamantis"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "1939-10-12",
+      "grain": "day",
+      "track": "other",
+      "label": "patrol",
+      "text": "Returns to Wilhelmshaven after 34 days at sea.",
+      "flag": "derived_date",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#15", "role": "both", "quote": "The U-boat returned to Wilhelmshaven on 12 October after 34 days at sea"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "1939-10-16",
+      "grain": "day",
+      "track": "other",
+      "label": "media",
+      "text": "Featured on the cover of Life magazine.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#0", "role": "both", "quote": "The U-boat was featured on the cover of Life magazine on 16 October 1939"}
+      ]
+    },
+    {
+      "id": "e22",
+      "date": "1939-11-18",
+      "grain": "day",
+      "track": "other",
+      "label": "patrol",
+      "text": "Sails from Wilhelmshaven on her second and final war patrol.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#20", "role": "both", "quote": "U-35 sailed from Wilhelmshaven on her second and final war patrol on 18 November 1939"}
+      ]
+    },
+    {
+      "id": "e23",
+      "date": "1939-11-29",
+      "grain": "day",
+      "track": "other",
+      "label": "scuttling",
+      "text": "Scuttled by her crew in the North Sea after British destroyer depth charges; all 43 crew captured.",
+      "evidence": [
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#20", "role": "both", "quote": "On 29 November 1939 U-35 was scuttled by its crew in the North Sea"},
+        {"chunk_id": "/wiki/German_submarine_U-35_(1936)#2", "role": "both", "quote": "U-35 was scuttled just three months into World War II in November 1939"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Hans-Rudolf Rösing took U-35 on the first U-boat Atlantic patrol to Ponta Delgada, Azores",
+    "Pre-war patrols to Spain, Ceuta, Gibraltar and Morocco under Hermann Michahelles and Werner Lott",
+    "Otto Kretschmer briefly given command of U-35 after the death of Michahelles",
+    "Otto Kretschmer nearly drowned when left on deck while U-35 dived during maneuvers"
+  ]
+}

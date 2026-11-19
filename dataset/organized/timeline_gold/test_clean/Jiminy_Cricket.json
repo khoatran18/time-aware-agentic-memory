@@ -1,0 +1,226 @@
+{
+  "page_id": "/wiki/Jiminy_Cricket",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1883",
+      "grain": "year",
+      "track": "work",
+      "text": "Character first created by Carlo Collodi in his novel The Adventures of Pinocchio.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#0", "role": "both", "quote": "created by Italian writer Carlo Collodi for his 1883 childrens book The Adventures of Pinocchio"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1939",
+      "grain": "year",
+      "track": "work",
+      "text": "First comic appearance in Mickey Mouse Magazine.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#22", "role": "both", "quote": "first appearance in Mickey Mouse Magazine Vol . 5 No . 3 in 1939"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1940",
+      "grain": "year",
+      "track": "work",
+      "text": "Disney animated film Pinocchio released, Jiminy becoming a comical partner.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#0", "role": "both", "quote": "which Disney adapted into the animated film Pinocchio in 1940"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1940",
+      "grain": "year",
+      "track": "work",
+      "text": "Danish dub of the 1940 Pinocchio film, Jiminy voiced by John Price.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#33", "role": "both", "quote": "John Price ( Danish , 1940 version of the film )"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1947",
+      "grain": "year",
+      "track": "work",
+      "text": "Hosted the cartoon segments of the film Fun and Fancy Free.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#3", "role": "both", "quote": "( 1947 ) as the host"},
+        {"chunk_id": "/wiki/Jiminy_Cricket#2", "role": "description", "quote": "including in Fun and Fancy Free"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1947",
+      "grain": "year",
+      "track": "work",
+      "text": "Hosted a one-hour ABC Radio special.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#11", "role": "both", "quote": "The character also hosted a one-hour segment ABC Radio special in 1947"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1955",
+      "grain": "year",
+      "track": "work",
+      "text": "Began: several educational film series with him first shown on Mickey Mouse Club.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#13", "role": "both", "quote": "first shown on The Mickey Mouse Club from 1955 through 1959"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1959",
+      "grain": "year",
+      "track": "work",
+      "text": "Ended: showings of those educational film series on Mickey Mouse Club.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#13", "role": "both", "quote": "first shown on The Mickey Mouse Club from 1955 through 1959"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1973",
+      "grain": "year",
+      "track": "other",
+      "label": "voice_actor",
+      "text": "Eddie Carroll took over as Jiminy's voice after Clarence Nash.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#7", "role": "both", "quote": "until 1973 , when Eddie Carroll took over the role"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1978",
+      "grain": "year",
+      "track": "work",
+      "text": "Danish dub of the film version, Jiminy voiced by Ove Sprogøe.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#33", "role": "both", "quote": "Ove Sprogøe ( Danish , 1978 version of the film"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1983",
+      "grain": "year",
+      "track": "work",
+      "text": "Appeared as the Ghost of Christmas Past in Mickey's Christmas Carol.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#3", "role": "both", "quote": "in Mickeys Christmas Carol ( 1983 ) as the Ghost of Christmas Past"},
+        {"chunk_id": "/wiki/Jiminy_Cricket#17", "role": "description", "quote": "Jiminy appeared in Mickeys Christmas Carol as the Ghost of Christmas Past"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1987-10-13",
+      "grain": "day",
+      "track": "work",
+      "text": "Hosted the sing-along video The Bare Necessities.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#20", "role": "both", "quote": "The Bare Necessities ( October 13 , 1987 )"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "1988",
+      "grain": "year",
+      "track": "work",
+      "text": "Brief cameo in Who Framed Roger Rabbit.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#16", "role": "both", "quote": "In 1988 , he made a brief cameo in Who Framed Roger Rabbit"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1988-11-15",
+      "grain": "day",
+      "track": "work",
+      "text": "Hosted transition cards of the sing-along video Very Merry Christmas Songs.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#20", "role": "both", "quote": "Very Merry Christmas Songs ( November 15 , 1988"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "1992",
+      "grain": "year",
+      "track": "work",
+      "text": "Voiced Jiminy in the Pinocchio Read-Along Storybook.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#7", "role": "both", "quote": "Actor Hal Smith voiced Jiminy in the Pinocchio Read-Along Storybook in 1992"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "1992-06-19",
+      "grain": "day",
+      "track": "work",
+      "text": "Hosted the sing-along video Be Our Guest.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#20", "role": "both", "quote": "Be Our Guest ( June 19 , 1992 )"}
+      ]
+    },
+    {
+      "id": "e17",
+      "date": "1993-04-30",
+      "grain": "day",
+      "track": "work",
+      "text": "Hosted the sing-along video Friend Like Me.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#20", "role": "both", "quote": "Friend Like Me ( April 30 , 1993 )"}
+      ]
+    },
+    {
+      "id": "e18",
+      "date": "1994-03-13",
+      "grain": "day",
+      "track": "work",
+      "text": "Hosted the sing-along video Circle of Life (VHS version only).",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#20", "role": "both", "quote": "Circle of Life ( March 13 , 1994 ; VHS version only )"}
+      ]
+    },
+    {
+      "id": "e19",
+      "date": "2010",
+      "grain": "year",
+      "track": "other",
+      "label": "voice_actor",
+      "text": "Eddie Carroll's 37-year run as Jiminy's voice ended; Phil Snyder next voiced him.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#7", "role": "both", "quote": "Carroll played the role for 37 years , until his death in 2010"}
+      ]
+    },
+    {
+      "id": "e20",
+      "date": "2014",
+      "grain": "year",
+      "track": "other",
+      "label": "voice_actor",
+      "text": "Joe Ochman took over as Jiminy's voice after Phil Snyder's retirement.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#8", "role": "both", "quote": "In 2014 , Snyder announced his retirement from voice acting"}
+      ]
+    },
+    {
+      "id": "e21",
+      "date": "2016",
+      "grain": "year",
+      "track": "other",
+      "label": "voice_actor",
+      "text": "Japanese voice of Jiminy, Kaneta Kimotsuki, ended at his death.",
+      "evidence": [
+        {"chunk_id": "/wiki/Jiminy_Cricket#25", "role": "both", "quote": "Jiminy was voiced by Kaneta Kimotsuki until his death in 2016"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Voiced by Cliff Edwards through the 1960s",
+    "Appeared in four educational film series in the 1950s–70s",
+    "Sang two safety songs on The Mickey Mouse Club in the 1950s"
+  ]
+}

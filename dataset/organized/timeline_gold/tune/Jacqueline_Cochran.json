@@ -1,0 +1,761 @@
+{
+ "page_id": "Jacqueline_Cochran",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1906-05-11",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born; birth date given in article lead.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#0",
+     "role": "both",
+     "quote": "Jacqueline Cochran ( May 11 , 1906 – August 9 , 1980 ) was an American pilot"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1920",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Robert Cochran (circa 1920)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#3",
+     "role": "both",
+     "quote": "Circa 1920 , ( she would have been 13 or 14 ) , she married Robert Cochran"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e3",
+   "date": "1934",
+   "grain": "year",
+   "track": "other",
+   "label": "air race",
+   "text": "One of three women competing in MacRobertson Air Race.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#8",
+     "role": "both",
+     "quote": "she was one of three women to compete in the MacRobertson Air Race in 1934"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1936",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Floyd Odlum after his divorce.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#6",
+     "role": "both",
+     "quote": "whom she married in 1936 after his divorce"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1937",
+   "grain": "year",
+   "track": "other",
+   "label": "air race",
+   "text": "Only woman competing in the Bendix race.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#8",
+     "role": "both",
+     "quote": "In 1937 , she was the only woman to compete in the Bendix race"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1937",
+   "grain": "year",
+   "track": "other",
+   "label": "record",
+   "text": "Set a new women's world speed record.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#8",
+     "role": "both",
+     "quote": "That year , she also set a new womens world speed record"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1939",
+   "grain": "year",
+   "track": "other",
+   "label": "proposal",
+   "text": "Wrote Robert Olds suggesting women pilots fly non-combat missions.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#12",
+     "role": "date",
+     "quote": "In September , 1939"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#14",
+     "role": "description",
+     "quote": "That same year , Cochran wrote a letter to Lieutenant Colonel Robert Olds"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1939-09",
+   "grain": "month",
+   "track": "other",
+   "label": "proposal",
+   "text": "Wrote Eleanor Roosevelt proposing a women's flying division.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#12",
+     "role": "both",
+     "quote": "In September , 1939 , Cochran wrote to Eleanor Roosevelt"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1941",
+   "grain": "year",
+   "track": "other",
+   "label": "research",
+   "text": "Gathered data on US women pilots for Olds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#14",
+     "role": "both",
+     "quote": "In early 1941 , Olds asked Cochran to find out how many women pilots"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#15",
+     "role": "description",
+     "quote": "She used records from the Civil Aeronautics Administration to gather the data"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1941",
+   "grain": "year",
+   "track": "other",
+   "label": "record",
+   "text": "First woman to pilot a bomber across the North Atlantic.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#31",
+     "role": "both",
+     "quote": "the first woman to pilot a bomber across the North Atlantic ( in 1941 )"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#9",
+     "role": "description",
+     "quote": "Cochran was the first woman to fly a bomber across the Atlantic"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#10",
+     "role": "description",
+     "quote": "becoming the first woman to fly a bomber ( a Lockheed Hudson V ) across the Atlantic"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1942-03",
+   "grain": "month",
+   "track": "location",
+   "text": "Went to Britain with 25 women pilots to join ATA.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#19",
+     "role": "both",
+     "quote": "1942 they went to Britain with Cochran to join the ATA"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1942-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Returned from England after WAFS was authorized.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#20",
+     "role": "both",
+     "quote": "While Cochran was in England , in September 1942"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1943-06",
+   "grain": "month",
+   "track": "role",
+   "text": "Began service as Director of Women Pilots, Army Air Forces.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#48",
+     "role": "both",
+     "quote": "from June 1943 to December 1944 as Director of Women Pilots"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1943-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Became WASP director as WAFS and WFTD merged; supervised training.",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#21",
+     "role": "both",
+     "quote": "In August 1943 , the WAFS and the WFTD merged to create the Women Airforce Service Pilots"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#22",
+     "role": "both",
+     "quote": "from August 1943 to December 1944"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1944-12",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended WASP directorship and training supervision.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#22",
+     "role": "both",
+     "quote": "from August 1943 to December 1944"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#48",
+     "role": "both",
+     "quote": "from June 1943 to December 1944 as Director of Women Pilots"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1945-03-01",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Distinguished Service Medal announced in War Department press release",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#23",
+     "role": "both",
+     "quote": "a War Department press release dated March 1 , 1945"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1947",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Set six world speed records in F-51 (1947-1951)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#26",
+     "role": "both",
+     "quote": "she received three awards of the Distinguished Flying Cross for various achievements from 1947 to 1964"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#50",
+     "role": "both",
+     "quote": "for extraordinary achievement while participating in aerial flight from 1947 to 1951"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1948-09-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Joined Air Force Reserve as lieutenant colonel.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#26",
+     "role": "both",
+     "quote": "On September 9 , 1948 , Cochran joined the U.S . Air Force Reserve as a lieutenant colonel"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1949",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Became fourth US recipient of Turkish Aeronautical Association award.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#56",
+     "role": "both",
+     "quote": "In 1949 , Cochran became the"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#57",
+     "role": "description",
+     "quote": "fourth U.S . recipient of the Türk Hava Kurumus ( Turkish Aeronautical Association ) highest award"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded French Air Medal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#56",
+     "role": "both",
+     "quote": "awarding her in 1951 with the French Air Medal"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1951",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Boston Chamber of Commerce named her outstanding businesswoman.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#46",
+     "role": "both",
+     "quote": "Later , in 1951 , the Boston Chamber of Commerce voted her one of the 25 outstanding businesswomen"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1952",
+   "grain": "year",
+   "track": "other",
+   "label": "record",
+   "text": "Decided to challenge women's world speed record at age 47.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#28",
+     "role": "both",
+     "quote": "In 1952 , Cochran , at age 47 , decided to challenge the world speed record for women"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1952",
+   "grain": "year",
+   "track": "other",
+   "label": "rally",
+   "text": "Helped sponsor Eisenhower rally at Madison Square Garden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#40",
+     "role": "both",
+     "quote": "In the early part of 1952 , she and her husband helped sponsor a large rally at Madison Square Garden"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e24",
+   "date": "1953",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Associated Press named her Woman of the Year in Business.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#46",
+     "role": "both",
+     "quote": "In 1953 and 1954 , the Associated Press named her Woman of the Year in Business"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1953-05-18",
+   "grain": "day",
+   "track": "other",
+   "label": "record",
+   "text": "Set 100 km speed record, 1,050.15 km/h, in Sabre 3.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#28",
+     "role": "date",
+     "quote": "On 18 May 1953 , Cochran"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#29",
+     "role": "both",
+     "quote": "on May 18 , 1953 , at Rogers Dry Lake , California"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1953-05-18",
+   "grain": "day",
+   "track": "other",
+   "label": "record",
+   "text": "First woman to break the sound barrier, in Sabre 3.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#0",
+     "role": "both",
+     "quote": "the first woman to break the sound barrier on 18 May 1953"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1953-06-03",
+   "grain": "day",
+   "track": "other",
+   "label": "record",
+   "text": "Set 15 km closed-circuit record, 1078 km/h.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#29",
+     "role": "both",
+     "quote": "Later on 3 June , she set a new 15 km closed circuit record"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1954",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Associated Press named her Woman of the Year in Business.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#46",
+     "role": "both",
+     "quote": "In 1953 and 1954 , the Associated Press named her Woman of the Year in Business"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "candidacy",
+   "text": "Ran for Congress as Republican candidate, California 29th district.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#42",
+     "role": "both",
+     "quote": "Politically ambitious , Cochran ran for Congress in 1956 from Californias 29th Congressional District"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "candidacy",
+   "text": "Won Republican nomination in the 29th district.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#42",
+     "role": "both",
+     "quote": "Although she defeated a field of five male opponents to win the Republican nomination"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1956",
+   "grain": "year",
+   "track": "other",
+   "label": "election",
+   "text": "Lost general election to Dalip Singh Saund.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#42",
+     "role": "both",
+     "quote": "in the general election she lost a close election to Democratic candidate and first Asian-American congressman Dalip Singh Saund"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1958",
+   "grain": "year",
+   "track": "role",
+   "text": "Began term as president of the FAI.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#31",
+     "role": "both",
+     "quote": "the only woman ever to be president of the Fédération Aéronautique Internationale ( 1958–1961 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1961",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended term as president of the FAI.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#31",
+     "role": "both",
+     "quote": "the only woman ever to be president of the Fédération Aéronautique Internationale ( 1958–1961 )"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1961-08",
+   "grain": "month",
+   "track": "other",
+   "label": "record",
+   "text": "Set series of speed, distance, altitude records in Northrop T-38A (Aug-Oct 1961)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#30",
+     "role": "both",
+     "quote": "from August to October 1961"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1962",
+   "grain": "year",
+   "track": "role",
+   "text": "Began service on George Washington University board of trustees.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#46",
+     "role": "both",
+     "quote": "from 1962 until her passing in 1980"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1962-04",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Set 69 intercity/intercapital records New Orleans to Bonn; first woman to fly a jet across the Atlantic",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#52",
+     "role": "both",
+     "quote": "while participating in aerial flight during April 1962"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#53",
+     "role": "description",
+     "quote": "in addition to becoming the first woman to fly a jet aircraft across the Atlantic Ocean"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1962-07-17",
+   "grain": "day",
+   "track": "other",
+   "label": "testimony",
+   "text": "Argued against admitting women to astronaut program at House hearings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#36",
+     "role": "both",
+     "quote": "On 17 and 18 July 1962 , Representative Victor Anfuso ( D-NY ) convened public hearings"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e38",
+   "date": "1964",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Received Golden Plate Award of the American Academy of Achievement.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#59",
+     "role": "both",
+     "quote": "1964 , received the Golden Plate Award of the American Academy of Achievement"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1964-05",
+   "grain": "month",
+   "track": "other",
+   "label": "award",
+   "text": "Set three world speed records in F-104C Starfighter (May-June 1964)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#54",
+     "role": "both",
+     "quote": "during May and June 1964"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1965",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Inducted into International Aerospace Hall of Fame.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#59",
+     "role": "both",
+     "quote": "1965 , induction into the International Aerospace Hall of Fame"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1969",
+   "grain": "year",
+   "track": "role",
+   "text": "Promoted to colonel in Air Force Reserve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#26",
+     "role": "both",
+     "quote": "She was promoted to colonel in 1969 and retired in 1970"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Retired from Air Force Reserve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#26",
+     "role": "both",
+     "quote": "She was promoted to colonel in 1969 and retired in 1970"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1971",
+   "grain": "year",
+   "track": "other",
+   "label": "honour",
+   "text": "Inducted into National Aviation Hall of Fame.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#59",
+     "role": "both",
+     "quote": "1971 , induction into the National Aviation Hall of Fame"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1980",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended George Washington University trustee service at death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#46",
+     "role": "both",
+     "quote": "from 1962 until her passing in 1980"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1980-08-09",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died at her home in Indio, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#0",
+     "role": "both",
+     "quote": "Jacqueline Cochran ( May 11 , 1906 – August 9 , 1980 ) was an American pilot"
+    },
+    {
+     "chunk_id": "/wiki/Jacqueline_Cochran#44",
+     "role": "both",
+     "quote": "Cochran died on August 9 , 1980 at her home in Indio , California"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Flying lessons at Roosevelt Airfield in the early 1930s (decade only)",
+  "Obtained commercial pilot license within two years of starting lessons",
+  "Met Floyd Odlum, who offered to help fund a cosmetics business",
+  "Hairdresser work in Pensacola, then New York; job at Saks salon",
+  "Marilyn Monroe endorsed her lipstick line (no date)",
+  "Joined Wings for Britain before US entry into WWII (no exact date)",
+  "Worked for British Air Transport Auxiliary for several months",
+  "Attained rank of Flight Captain in the ATA (no date)",
+  "Won the Bendix race (no date stated)",
+  "Set transcontinental speed record and altitude records (no date)",
+  "Won five Harmon Trophies (no date)",
+  "Headed Women's Flying Training Detachment (no date)",
+  "Hired by a magazine to report on postwar events (no exact date)",
+  "Witnessed Yamashita's surrender in the Philippines (no date)",
+  "First non-Japanese woman to enter Japan after the War (no date)",
+  "Attended the Nuremberg Trials (no date)",
+  "First woman to go supersonic (no date)",
+  "Sponsor of the Mercury 13 program (1960s)",
+  "Flew the Goodyear Blimp (early 1960s)",
+  "Flew rally film to France for showing at Eisenhower headquarters (no date)",
+  "First woman to land and take off from an aircraft carrier (no date)",
+  "First woman to make a blind instrument landing (no date)",
+  "Only woman to receive the FAI Gold Medal (no date)",
+  "Elected to FAI board of directors (no date)",
+  "Director of Northwest Airlines (no date)",
+  "Awarded DFC and Legion of Merit by the Air Force (no date)",
+  "First woman honored with permanent display at USAF Academy (no date)"
+ ]
+}

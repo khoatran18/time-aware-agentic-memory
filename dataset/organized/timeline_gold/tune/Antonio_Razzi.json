@@ -1,0 +1,135 @@
+{
+ "page_id": "Antonio_Razzi",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1948-02-22",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "born near Chieti, Abruzzo, Italy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#0",
+     "role": "both",
+     "quote": "born 22 February 1948"
+    },
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#1",
+     "role": "both",
+     "quote": "Antonio Razzi was born near Chieti , Abruzzo in 1948"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2006",
+   "grain": "year",
+   "track": "role",
+   "text": "elected to the Chamber of Deputies for Italy of Values",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#1",
+     "role": "both",
+     "quote": "In 2006 was elected in the Chamber of Deputies"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2008",
+   "grain": "year",
+   "track": "role",
+   "text": "re-elected to the Chamber of Deputies in snap election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#1",
+     "role": "both",
+     "quote": "He was re-elected in the snap election held in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2011",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "left the opposition party Italy of Values",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#0",
+     "role": "both",
+     "quote": "Razzi became quite famous in 2011 , when he left the opposition party Italy of Values"
+    },
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#2",
+     "role": "both",
+     "quote": "In 2011 Razzi left IdV , which was probably the most anti-Berlusconi party"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2011",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "joined the centre-right group People and Territory",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#2",
+     "role": "both",
+     "quote": "In 2011 Razzi left IdV , which was probably the most anti-Berlusconi party in the Italian Parliament , to join People and Territory"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "elected to the Italian Senate for The People of Freedom",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#3",
+     "role": "both",
+     "quote": "In 2013 he was elected in the Italian Senate"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2017",
+   "grain": "year",
+   "track": "other",
+   "label": "visit",
+   "text": "visited Damascus and met Syrian President Bashar al-Assad",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#6",
+     "role": "both",
+     "quote": "Razzi also visited Damascus in 2017"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2018-01-23",
+   "grain": "day",
+   "track": "role",
+   "text": "Forza Italia decided not to renew his candidature for the 2018 election",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Antonio_Razzi#3",
+     "role": "both",
+     "quote": "On 23 January 2018 , the new Berlusconis party , Forza Italia , decided not to renew his candidature"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "emigrated to Emmen, Switzerland during the 1960s and worked as a textile worker",
+  "criticised Forza Italia's decision not to renew his candidature",
+  "press conference in Baku praising Azerbaijan's 2018 presidential election",
+  "had a key role in bringing North Korean footballer Han Kwang-Song to Italy"
+ ]
+}

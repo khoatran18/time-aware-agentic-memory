@@ -1,0 +1,585 @@
+{
+ "page_id": "Carrier_Air_Wing_Seven",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1943-07-20",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Established as Carrier Air Group Eighteen at NAS Alameda, California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#3",
+     "role": "both",
+     "quote": "originally established 20 July 1943 at Naval Air Station Alameda , California"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1945-09",
+   "grain": "month",
+   "track": "location",
+   "text": "Precursor air group transferred to NAS Quonset Point, Rhode Island.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#3",
+     "role": "both",
+     "quote": "In September 1945 , the air group transferred to Naval Air Station Quonset Point , Rhode Island"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1945-11-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "Navy changed designation scheme; CVG-18 re-designated CVAG-7.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#3",
+     "role": "both",
+     "quote": "On 15 November the Navy changed the designation scheme for its Carrier Air Groups and CVG-18 was re-designated CVAG-7"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1948-09-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Re-designated Carrier Air Group Seven (CVG-7).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#3",
+     "role": "both",
+     "quote": "On 1 September 1948 the designation scheme was again changed and the Air Group"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#4",
+     "role": "description",
+     "quote": "became Carrier Air Group Seven ( CVG-7 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1958",
+   "grain": "year",
+   "track": "location",
+   "text": "Moved from Quonset Point to NAS Oceana; became first all-jet air wing.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#6",
+     "role": "both",
+     "quote": "After moving from Quonset Point to Naval Air Station Oceana in 1958"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1963-12-20",
+   "grain": "day",
+   "track": "naming",
+   "text": "Carrier Air Groups became Wings; CVG-7 became Carrier Air Wing Seven (CVW-7).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#6",
+     "role": "both",
+     "quote": "On 20 December 1963 all Carrier Air Groups were re-designated Carrier Air Wings and CVG-7 became Carrier Air Wing Seven"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1966",
+   "grain": "year",
+   "track": "other",
+   "label": "deployments",
+   "text": "Began seven Mediterranean deployments aboard USS Independence, through 1977.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#6",
+     "role": "both",
+     "quote": "During the years from 1966 – 1977 the air wing completed seven Mediterranean deployments in USS Independence"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1978",
+   "grain": "year",
+   "track": "other",
+   "label": "training",
+   "text": "Shakedown and weapons training in Roosevelt Roads, Puerto Rico operating area.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#6",
+     "role": "both",
+     "quote": "In early 1978 , Air Wing Seven embarked in for shakedown and weapons training"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#7",
+     "role": "description",
+     "quote": "Roads , Puerto Rico operating area"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1978-03-01",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Permanently assigned to USS Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "both",
+     "quote": "On 1 March 1978 , Air Wing SEVEN became permanently assigned to USS Dwight D . Eisenhower"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1979-01",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed on Eisenhower's maiden Mediterranean voyage.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "both",
+     "quote": "deployed in January 1979 for IKEs maiden , Mediterranean voyage"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1980-04",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Indian Ocean deployment supporting Tehran hostage rescue operations, April to December 1980.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "both",
+     "quote": "From April through December 1980 , the air wing embarked for an Indian Ocean deployment"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1980-09",
+   "grain": "month",
+   "track": "other",
+   "label": "exercises",
+   "text": "Participated in NATO exercises in the North Atlantic.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "both",
+     "quote": "following in September and October by NATO exercises in the North Atlantic"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1982-01",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Mediterranean deployment including support for evacuation of Americans from Lebanon, to July 1982.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "both",
+     "quote": "From January to July 1982 , Air Wing Seven embarked for a Mediterranean deployment"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1983-04",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Mediterranean deployment with first over-water night F-14 intercept and Beirut peacekeeping support.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#8",
+     "role": "date",
+     "quote": "In April 1983 , the IKE/CVW-7 team"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#9",
+     "role": "description",
+     "quote": "began another Mediterranean deployment that included the first over water night intercept for an F-14"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1987",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "IKE/CVW-7 team reunited and worked up for deployment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#10",
+     "role": "both",
+     "quote": "Reunited in 1987 , the IKE/CVW-7 team worked up in preparation for Mediterranean Deployment"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1990",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployment became Red Sea excursion; first on scene to deter Iraqi aggression.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#10",
+     "role": "both",
+     "quote": "Mediterranean Deployment 2-90 became a Red Sea excursion as the IKE/CVW-7 Battle Group was the first on scene"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1991-09",
+   "grain": "month",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed to Persian Gulf for post-hostilities Operation Desert Storm.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#10",
+     "role": "date",
+     "quote": "In September 1991 CVW-7/IKE deployed to"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#11",
+     "role": "description",
+     "quote": "the Red Sea/Persian Gulf as part of post hostilities Operation Desert Storm"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1992-09",
+   "grain": "month",
+   "track": "other",
+   "label": "training",
+   "text": "Initially embarked for weapons system shakedown.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#12",
+     "role": "both",
+     "quote": "In September 1992 CVW-7 initially embarked in for a weapons system shakedown"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1994",
+   "grain": "year",
+   "track": "other",
+   "label": "commemoration",
+   "text": "Battle Group transited to Portsmouth, England for D-Day 50th anniversary commemoration.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#12",
+     "role": "both",
+     "quote": "the Battle Group transited to Portsmouth , England to participate in the Commemoration"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1994-05-20",
+   "grain": "day",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed aboard USS George Washington as component of Cruiser Destroyer Group Two.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#12",
+     "role": "both",
+     "quote": "The air wing deployed on USS George Washington as a component of Commander , Cruiser Destroyer Group Two on 20 May 1994"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1994-10-15",
+   "grain": "day",
+   "track": "other",
+   "label": "operations",
+   "text": "Persian Gulf operations Vigilant and Southern Watch resumed.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#13",
+     "role": "both",
+     "quote": "Persian Gulf Operations Vigilant and Southern Watch were resumed on 15 October 1994"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1994-11-17",
+   "grain": "day",
+   "track": "location",
+   "text": "Returned to Norfolk, Virginia, ending the deployment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#13",
+     "role": "description",
+     "quote": "USS George Washington/CVW-7 returned to"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#14",
+     "role": "both",
+     "quote": "a rainy Norfolk on 17 November 1994"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1996-09",
+   "grain": "month",
+   "track": "other",
+   "label": "preparations",
+   "text": "Began preparations for around-the-world deployment.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#15",
+     "role": "both",
+     "quote": "In September 1996 CVW-7 began preparations for a 26 February 1998 around the world deployment"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1998-02-26",
+   "grain": "day",
+   "track": "other",
+   "label": "deployment",
+   "text": "Around-the-world deployment as Joint Task Group 98-2 began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#15",
+     "role": "both",
+     "quote": "a 26 February 1998 around the world deployment"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2000",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed to Mediterranean Sea and Indian Ocean with Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#16",
+     "role": "both",
+     "quote": "In 2000 CVW-7 was again deployed with USS Dwight D . Eisenhower to the Mediterranean Sea"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2002",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed to same regions aboard USS John F. Kennedy and USS George Washington.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#16",
+     "role": "both",
+     "quote": "Two years later , the Wing was deployed to the same regions aboard USS John F . Kennedy"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2004-04-28",
+   "grain": "day",
+   "track": "other",
+   "label": "combat operations",
+   "text": "Squadrons flew combat sorties against insurgents in Fallujah, Operation Vigilant Resolve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#17",
+     "role": "both",
+     "quote": "As part of Operation Vigilant Resolve , on 28 April 2004 , Carrier Air Wing Seven squadrons"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Returned to Dwight D. Eisenhower, with deployments through 2007.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#16",
+     "role": "both",
+     "quote": "before finally returning to Dwight D . Eisenhower in 2006–2007"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2008-04",
+   "grain": "month",
+   "track": "other",
+   "label": "transit",
+   "text": "Strike fighter squadrons accompanied George Washington from Norfolk to San Diego.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "In April and May 2008 , CVW-7s strike fighter squadrons accompanied George Washington from Norfolk , Virginia"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed aboard Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#16",
+     "role": "both",
+     "quote": "Two deployments aboard Dwight D . Eisenhower followed in 2009 and 2010"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "Four deployments aboard Dwight D . Eisenhower followed in 2009 , 2010 , 2012 and 2013"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2010",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed aboard Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#16",
+     "role": "both",
+     "quote": "Two deployments aboard Dwight D . Eisenhower followed in 2009 and 2010"
+    },
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "Four deployments aboard Dwight D . Eisenhower followed in 2009 , 2010 , 2012 and 2013"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed aboard Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "Four deployments aboard Dwight D . Eisenhower followed in 2009 , 2010 , 2012 and 2013"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "deployment",
+   "text": "Deployed aboard Dwight D. Eisenhower.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "Four deployments aboard Dwight D . Eisenhower followed in 2009 , 2010 , 2012 and 2013"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Reassigned to an unnamed carrier (name missing in source).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "In 2015 , CVW-7 was reassigned to"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2015-11-16",
+   "grain": "day",
+   "track": "other",
+   "label": "deployment",
+   "text": "Scheduled deployment to U.S. 6th and 5th Fleet areas of operation begins.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "began a scheduled deployment to the U.S . 6th and 5th Fleet areas of operation on 16 November"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2018-05-22",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Assigned to an unnamed carrier (name missing in source).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carrier_Air_Wing_Seven#18",
+     "role": "both",
+     "quote": "On May 22 , 2018 CVW-7 was assigned to"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Korean War close air support strikes and interdiction missions from the deck of a carrier (no date; carrier name missing)",
+  "Combat operations against the Japanese during World War II (no specific date)",
+  "Operations Deny Flight and Sharp Guard in the Adriatic (no date)",
+  "Transit of the Suez Canal at maximum speed amid Iraqi troop movements (no date)",
+  "Turnover with IKE Battle Group north of the Suez Canal (no date)",
+  "Return to the Mediterranean Sea after Iraqi forces turned north (no date)",
+  "Return home after relief in Operation Desert Shield, then turnaround training (no date)"
+ ]
+}

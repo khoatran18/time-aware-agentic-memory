@@ -1,0 +1,920 @@
+{
+ "page_id": "/wiki/Beugró",
+ "events": [
+  {
+   "id": "e1",
+   "date": "2007-05-07",
+   "grain": "day",
+   "track": "work",
+   "text": "Unaired pilot episode recorded in Játékszín, Budapest.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#19",
+     "role": "both",
+     "quote": "An unaired pilot episode was recorded on May 7 , 2007 in Játékszín , Budapest"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2007-10-09",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 1 recording began at Centrál Színház.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "The first season was recorded between October 9 , 2007 and April 29 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2007-12-31",
+   "grain": "day",
+   "track": "work",
+   "text": "First episode aired on TV2 on New Years Eve.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#0",
+     "role": "both",
+     "quote": "It was first aired on December 31 , 2007 on TV2"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "both",
+     "quote": "The first episode was aired on New Years Eve in 2007 on TV2"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2008-03-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Unaired pilot uploaded to Videa video site.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "description",
+     "quote": "was uploaded on Videa ( a Hungarian video sharing website ) between March 13 and April 26"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "date",
+     "quote": "it started as a weekly series on March 14 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2008-03-14",
+   "grain": "day",
+   "track": "work",
+   "text": "Show started as a weekly series at 11 pm CET.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "both",
+     "quote": "it started as a weekly series on March 14 , 2008 starting at 11 pm ( CET )"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2008-04-26",
+   "grain": "day",
+   "track": "work",
+   "text": "Pilot upload period on Videa ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "description",
+     "quote": "was uploaded on Videa ( a Hungarian video sharing website ) between March 13 and April 26"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#4",
+     "role": "date",
+     "quote": "it started as a weekly series on March 14 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2008-05-06",
+   "grain": "day",
+   "track": "work",
+   "text": "TV2 announced it would not renew the show for a second season.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#5",
+     "role": "both",
+     "quote": "TV2 announced that it wont renew Beugró for a second season on May 6"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2008-08-25",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 2 recording began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "the second between August 25 and November 18 , 2008"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2008-09-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Show continued on m1 in association with Comedy Central, Saturdays 10 pm.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#6",
+     "role": "both",
+     "quote": "Beugró continued on m1 ( in association with Comedy Central ) on Saturdays at 10 pm from September 13"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2008-10-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Comedy Central Hungary began airing show reruns.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#6",
+     "role": "both",
+     "quote": "After Comedy Central Hungary started to broadcast ( October 1 ) it aired reruns of the show"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2008-10-31",
+   "grain": "day",
+   "track": "work",
+   "text": "Show moved to Friday 9 pm, after October 31.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#6",
+     "role": "date",
+     "quote": "After October 31"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "description",
+     "quote": "Beugró moved to Friday 9 pm"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2008-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Two more episodes aired at 9:20 pm, 14 episodes total.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "both",
+     "quote": "In December after a one-week break two more episodes aired at 9:20 pm"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2008-12-31",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "New Years Eve performance at Millenáris, Budapest.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "both",
+     "quote": "On New Years Eve the actors performed in Millenáris"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2009",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Show passed from public TV and Comedy Central to Cool TV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#0",
+     "role": "both",
+     "quote": "one year later ( in 2009 ) they passed it to Cool TV"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2009",
+   "grain": "year",
+   "track": "work",
+   "text": "First official board game published by Alter Játék and Keller & Mayer.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#24",
+     "role": "both",
+     "quote": "The first official board game for the show was published in autumn 2009 by Alter Játék and Keller & Mayer"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#9",
+     "role": "description",
+     "quote": "A board game version of the show was also published"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2009-01-24",
+   "grain": "day",
+   "track": "work",
+   "text": "Comedy Central five-hour Beugró reruns weekend, first of two.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "both",
+     "quote": "reruns of the show on January 24–25 and March 21–22 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2009-02-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 3 started with a New Years Eve performance at 10:40 pm.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "description",
+     "quote": "Season 3 started with the New Years Eve performance at 10:40 pm on Friday , February 13"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "date",
+     "quote": "March 21–22 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2009-03-21",
+   "grain": "day",
+   "track": "work",
+   "text": "Comedy Central five-hour Beugró reruns weekend, second of two.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#7",
+     "role": "both",
+     "quote": "reruns of the show on January 24–25 and March 21–22 , 2009"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2009-05-05",
+   "grain": "day",
+   "track": "other",
+   "label": "charity event",
+   "text": "Cast took part in a charity event with A Társulat actors.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#8",
+     "role": "both",
+     "quote": "On May 5 , the actors participated on a charity event with the actors from A Társulat"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2009-06-05",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 3 last aired episode, after Easter break.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#8",
+     "role": "both",
+     "quote": "After an Easter break the show aired at 8:20 pm until June 5"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2009-08-01",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "Cast performance at Coke Club, Siófok.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#8",
+     "role": "both",
+     "quote": "On August 1 , they had a performance in Coke Club , Siófok"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2009-10-08",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 2 released on DVD, 4 discs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#21",
+     "role": "both",
+     "quote": "First season 2 was released on October 8 , 2009 on 4 DVDs"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2009-10-16",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 4 began airing on Cool TV.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#9",
+     "role": "both",
+     "quote": "season 4 was aired on Cool TV between October 16 and December 18"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2009-11",
+   "grain": "month",
+   "track": "work",
+   "text": "Radio version started on Neo FM as Beugró+.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#9",
+     "role": "both",
+     "quote": "In November 2009 the radio version of the show was started on the newly founded Neo FM"
+    }
+   ]
+  },
+  {
+   "date": "2009-12",
+   "grain": "month",
+   "track": "work",
+   "label": "",
+   "text": "Board game sold out",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#25",
+     "role": "both",
+     "quote": "The game was sold out by December 2009"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e25"
+  },
+  {
+   "id": "e26",
+   "date": "2009-12-18",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 4 finished airing on Cool TV.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#9",
+     "role": "both",
+     "quote": "season 4 was aired on Cool TV between October 16 and December 18"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2009-12-27",
+   "grain": "day",
+   "track": "other",
+   "label": "live party",
+   "text": "First Beugró Live Party at Corvintető (year inferred as 2009).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#10",
+     "role": "both",
+     "quote": "On December 27 , the first Beugró Live Party with Péter Kálloy Molnár and Győző Szabó was organised on Corvintető"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Reruns broadcast on four channels during summer.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "During the summer of 2010 four channels broadcast the shows reruns"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2010-01-06",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "New Years Eve performance with Csaba Debreczeny, not recorded.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#10",
+     "role": "both",
+     "quote": "the New Years Eve performance ( not recorded ) on January 6–7 , 2010"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2010-01-12",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "Performance at Palace of Arts, Magyar Telekom event.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#10",
+     "role": "both",
+     "quote": "and in Palace of Arts at a Magyar Telekom event on January 12"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2010-02",
+   "grain": "month",
+   "track": "work",
+   "text": "Board game became available again.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#25",
+     "role": "both",
+     "quote": "was available again from February 2010"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2010-03-19",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 5 started, ten episodes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "Season 5 started on March 19 , 2010 and consisted of ten episodes"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2010-03-20",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "Cast performance at Hunguest Hotel Pelion, Tapolca.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "On the next day the actors performed in Hunguest Hotel Pelion in Tapolca"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2010-03-30",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 1 released on DVD, 3 discs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#21",
+     "role": "both",
+     "quote": "Season 1 came out next on March 30 , 2010 on 3 DVDs"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2010-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Board game refill pack Beugró Újratöltve released.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#25",
+     "role": "both",
+     "quote": "In May 2010 a new version was released with new situations"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2010-05-10",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "Two further unrecorded performances at Centrál Színház.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "Centrál Színház held two further performances that were not recorded by Cool TV on May 10–11"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2010-05-21",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 5 ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "Season 5 ended on May 21"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2010-05-24",
+   "grain": "day",
+   "track": "other",
+   "label": "live party",
+   "text": "Second Beugró Live Party.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#12",
+     "role": "both",
+     "quote": "was followed by the second Beugró Live Party on the 24th"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2010-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Board game Beugró 2 published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#25",
+     "role": "both",
+     "quote": "and in September 2010 Beugró 2"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2010-09-25",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Won Kamera Hungária Award for Best Comedy/Musical Series.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#13",
+     "role": "both",
+     "quote": "On September 25 , Beugró got the Kamera Hungária Award for Best Comedy/Musical Series"
+    }
+   ]
+  },
+  {
+   "date": "2010-09-27",
+   "grain": "day",
+   "track": "work",
+   "label": "",
+   "text": "Season 6 recording began",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "the sixth between September 27 and November 23 , 2010"
+    }
+   ],
+   "id": "e41"
+  },
+  {
+   "id": "e42",
+   "date": "2010-10-20",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 6 started, ten new episodes on Wednesdays.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#13",
+     "role": "both",
+     "quote": "Season 6 aired from October 20 , to December 22"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2010-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Radio version of the show ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#9",
+     "role": "description",
+     "quote": "titled Beugró+ which ended in"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#10",
+     "role": "date",
+     "quote": "2010 ."
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2010-12-22",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 6 finished airing.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#13",
+     "role": "both",
+     "quote": "Season 6 aired from October 20 , to December 22"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2011",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Viasat 3 bought the rights to the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#0",
+     "role": "both",
+     "quote": "In 2011 , Viasat 3 bought the rights of the show"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2011-01-21",
+   "grain": "day",
+   "track": "other",
+   "label": "performance",
+   "text": "Cast performed in Tapolca again, except Győző Szabó.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#13",
+     "role": "both",
+     "quote": "On January 21–23 , 2011 , the actors performed in Tapolca again"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2011-01-28",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Viasat 3 announced it would host season 7.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#14",
+     "role": "both",
+     "quote": "On January 28 , it was announced that Beugró would continue with season 7 on Viasat 3"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2011-02-21",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 7 recording began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "the seventh between February 21 and May 3 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2011-02-22",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 5 recording began (conflicts with its 2010 airdate).",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "the fifth between February , 22 and April 20 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2011-03-11",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 7 started, talent-show style.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#15",
+     "role": "both",
+     "quote": "The new season , which started on March 11 , 2011 at 9:15 pm"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2011-05-27",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 7 ended.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#15",
+     "role": "both",
+     "quote": "Season 7 ended on May 27"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2011-09-05",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 8 recording began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#20",
+     "role": "both",
+     "quote": "the eighth between September 5 and November 8 , 2011"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2011-09-16",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 8 (second Beugró plusz season) started airing.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#17",
+     "role": "both",
+     "quote": "The first eleven episodes aired at 9:15 pm on Fridays between September 16 and November 25"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2011-11-22",
+   "grain": "day",
+   "track": "work",
+   "text": "Monthly theatrical spin-off GyőrBe-Ugró started in Győr.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#18",
+     "role": "both",
+     "quote": "A monthly theatrical series started on November 22 , 2011 in Győr titled GyőrBe-Ugró"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2011-11-25",
+   "grain": "day",
+   "track": "work",
+   "text": "Season 8 finished airing.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#17",
+     "role": "both",
+     "quote": "between September 16 and November 25"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2012-01-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Last episode of the show aired.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#1",
+     "role": "both",
+     "quote": "The last episode was aired on January 1 , 2012"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#17",
+     "role": "description",
+     "quote": "while the last one"
+    },
+    {
+     "chunk_id": "/wiki/Beugró#18",
+     "role": "date",
+     "quote": "at 9:00 pm on January 1 , 2012"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2012-01-26",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Viasat 3 announced no further Beugró plusz episodes would be ordered.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#18",
+     "role": "both",
+     "quote": "On January 26 , Viasat 3 announced that it would not order any further Beugró plusz episodes"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "2017",
+   "grain": "year",
+   "track": "work",
+   "text": "Series revived by RTL II for a tenth anniversary season.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Beugró#1",
+     "role": "both",
+     "quote": "In late 2017 , RTL II—one of Cool TVs sister channels—revived the series for a tenth anniversary season"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Magyar Televízió and Comedy Central Hungary took the show over after its cancellation (no date)",
+  "Pilot episode included on the 2008 fall season DVD set",
+  "Beugró Klub fan club started in club Take5, Budapest (no date)",
+  "Episode length changed to 50 minutes and format made interactive, during the m1 period (no exact date)",
+  "Csaba Debreczeny announced as fifth official Beugró actor from season 5 (no date)",
+  "Channel named season 7 Beugró plusz (Stand-In Plus) (no date)",
+  "Season 7 set design, opening theme and opening sequence changed (no date)",
+  "Laura Ruttkay won the season 7 talent contest (no date)",
+  "Beugró TV webseries published during the summer break of 2011 (no exact date)",
+  "Laura Ruttkay joined the main cast for season 8 (no date)"
+ ]
+}

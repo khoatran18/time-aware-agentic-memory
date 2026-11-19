@@ -1,0 +1,184 @@
+{
+  "page_id": "/wiki/Robert_B._Wilson",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1937-05-16",
+      "grain": "day",
+      "track": "other",
+      "label": "birth",
+      "text": "Robert B. Wilson born in Geneva, Nebraska.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#0", "role": "both", "quote": "born May 16 , 1937"},
+        {"chunk_id": "/wiki/Robert_B._Wilson#2", "role": "both", "quote": "Wilson was born on May 16 , 1937 , in Geneva , Nebraska"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1959",
+      "grain": "year",
+      "track": "education",
+      "text": "Received A.B. from Harvard College.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#2", "role": "both", "quote": "He received his A.B . from Harvard College in 1959 ."}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1961",
+      "grain": "year",
+      "track": "education",
+      "text": "Completed M.B.A. at Harvard Business School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#2", "role": "both", "quote": "He then completed his M.B.A . in 1961 and his D.B.A . in 1963 from the Harvard Business School"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1963",
+      "grain": "year",
+      "track": "education",
+      "text": "Completed D.B.A. at Harvard Business School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#2", "role": "both", "quote": "He then completed his M.B.A . in 1961 and his D.B.A . in 1963 from the Harvard Business School"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1964",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Joined Stanford Business School faculty, remaining since.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#2", "role": "description", "quote": "He has been on the faculty of the Stanford Business School since"},
+        {"chunk_id": "/wiki/Robert_B._Wilson#3", "role": "date", "quote": "1964 ."}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1968",
+      "grain": "year",
+      "track": "work",
+      "text": "Published 'The Theory of the Syndicates' in Econometrica.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#5", "role": "both", "quote": "Wilsons 1968 Econometrica paper The Theory of the Syndicates"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1986",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "Conferred honorary Doctor of Economics by Norwegian School of Economics.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#11", "role": "both", "quote": "He was conferred an honorary Doctor of Economics degree in 1986"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1993",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began affiliated faculty membership at Harvard Law School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#3", "role": "both", "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "1993",
+      "grain": "year",
+      "track": "work",
+      "text": "Published book Nonlinear Pricing.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#6", "role": "both", "quote": "In 1993 , Wilson published a book on Nonlinear Pricing"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "1995",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won Leo Melamed Prize for Nonlinear Pricing.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#6", "role": "both", "quote": "The book won the 1995 Leo Melamed Prize"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1995",
+      "grain": "year",
+      "track": "other",
+      "label": "honour",
+      "text": "Conferred honorary Doctor of Laws by University of Chicago.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#11", "role": "both", "quote": "In 1995 , he was conferred an honorary Doctor of Laws degree"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "2001",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended affiliated faculty membership at Harvard Law School.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#3", "role": "both", "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2014",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won Golden Goose Award for auction design work.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#11", "role": "both", "quote": "In 2014 , Wilson won a Golden Goose Award"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2015",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Won BBVA Foundation Frontiers of Knowledge Award in Economics.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#12", "role": "both", "quote": "He has won the BBVA Foundation Frontiers of Knowledge Award ( 2015 )"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2018",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Awarded John J. Carty Award for the Advancement of Science.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#12", "role": "both", "quote": "he was awarded the 2018 John J . Carty Award for the Advancement of Science"}
+      ]
+    },
+    {
+      "id": "e16",
+      "date": "2020",
+      "grain": "year",
+      "track": "other",
+      "label": "award",
+      "text": "Co-recipient of 2020 Nobel Memorial Prize in Economics with Paul Milgrom.",
+      "evidence": [
+        {"chunk_id": "/wiki/Robert_B._Wilson#0", "role": "both", "quote": "He was jointly awarded the 2020 Nobel Memorial Prize in Economic Sciences"},
+        {"chunk_id": "/wiki/Robert_B._Wilson#9", "role": "both", "quote": "awarded Wilson and Paul Milgrom as the co-recipients of the 2020 Nobel Memorial Prize in Economics"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Graduated from Lincoln High School, Lincoln, Nebraska (no date)",
+    "Earned a full scholarship to Harvard University (no date)",
+    "Worked briefly at University of California, Los Angeles (no date)",
+    "Elected member of National Academy of Sciences (no date)",
+    "Designated distinguished fellow of American Economic Association (no date)",
+    "Fellow, former officer and Council member of Econometric Society (no date)"
+  ]
+}

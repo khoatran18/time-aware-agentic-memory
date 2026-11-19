@@ -1,0 +1,794 @@
+{
+ "page_id": "/wiki/The_One_Show",
+ "events": [
+  {
+   "id": "e1",
+   "date": "2006-08-14",
+   "grain": "day",
+   "track": "work",
+   "text": "Four-week trial run of the show began broadcasting on weeknights.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#8",
+     "role": "both",
+     "quote": "It was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "Launched with a pilot series in 2006"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2006-09-08",
+   "grain": "day",
+   "track": "work",
+   "text": "Four-week trial run of the show ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#8",
+     "role": "both",
+     "quote": "between 14 August and 8 September 2006"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2007",
+   "grain": "year",
+   "track": "role",
+   "text": "Adrian Chiles and Christine Bleakley began co-hosting partnership.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "the partnership of Adrian Chiles and Christine Bleakley from 2007 to 2010"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2007",
+   "grain": "year",
+   "track": "location",
+   "text": "Show moved from Birmingham to BBC Media Village, White City, London.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#25",
+     "role": "both",
+     "quote": "it was moved to BBC Media Village in White City , London , in 2007"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#9",
+     "role": "description",
+     "quote": "The show was moved from Birmingham to London"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2007-07-09",
+   "grain": "day",
+   "track": "work",
+   "text": "Show revamped and returned for a full series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#9",
+     "role": "both",
+     "quote": "the show returned for a full series after being revamped on 9 July 2007"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "leading to a full series from 2007"
+    }
+   ]
+  },
+  {
+   "date": "2007-07-09",
+   "grain": "day",
+   "track": "role",
+   "label": "",
+   "text": "Myleene Klass replaced Nadia Sawalha as co-host",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#9",
+     "role": "both",
+     "quote": "Sawalha was replaced by Myleene Klass"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e6"
+  },
+  {
+   "id": "e7",
+   "date": "2007-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Myleene Klass left the show to give birth.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#9",
+     "role": "both",
+     "quote": "Klass then left in August to give birth to her first child"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2007-08",
+   "grain": "month",
+   "track": "role",
+   "text": "Christine Bleakley replaced Klass as co-host.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#9",
+     "role": "both",
+     "quote": "was replaced by Christine Bleakley"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2009-03-18",
+   "grain": "day",
+   "track": "work",
+   "text": "400th episode aired, an hour long instead of 30 minutes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#11",
+     "role": "both",
+     "quote": "The shows 400th episode aired on 18 March 2009"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2009-05",
+   "grain": "month",
+   "track": "work",
+   "text": "Hour-long episode format successfully trialled.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#11",
+     "role": "both",
+     "quote": "after successfully trying the format in May 2009"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2009-09",
+   "grain": "month",
+   "track": "work",
+   "text": "Weekly 60-minute episodes began.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#11",
+     "role": "both",
+     "quote": "From September 2009 , The One Show included a 60-minute episode every week"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2009-12",
+   "grain": "month",
+   "track": "work",
+   "text": "Hour-long format run ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#11",
+     "role": "both",
+     "quote": "The hour-long format continued until December 2009"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Chiles and Bleakley co-hosting partnership ended.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "the partnership of Adrian Chiles and Christine Bleakley from 2007 to 2010"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2010-04-13",
+   "grain": "day",
+   "track": "work",
+   "text": "Revamp with an hour-long Friday episode announced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "both",
+     "quote": "On 13 April 2010 , it was announced the show was being revamped with an hour-long Friday episode , to be hosted by Chris Evans"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2010-04-13",
+   "grain": "day",
+   "track": "role",
+   "text": "Chris Evans announced as host of the hour-long Friday episode.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "both",
+     "quote": "On 13 April 2010 , it was announced the show was being revamped with an hour-long Friday episode , to be hosted by Chris Evans"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2010-04-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Adrian Chiles's departure from the show announced.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "both",
+     "quote": "this being announced on 19 April"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2010-04-30",
+   "grain": "day",
+   "track": "role",
+   "text": "Adrian Chiles made his last appearance on the show.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "both",
+     "quote": "his last appearance being on 30 April"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2010-05-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Jason Manford announced as Chiles's replacement.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "both",
+     "quote": "His replacement was announced on 26 May as Jason Manford"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2010-06-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Christine Bleakley's last show before the summer break.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#12",
+     "role": "description",
+     "quote": "Bleakley continued alongside stand-ins until the last show before the break"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#13",
+     "role": "date",
+     "quote": "June 2010"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2010-07-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Christine Bleakley's departure confirmed during the break.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#13",
+     "role": "both",
+     "quote": "with her departure confirmed during the break , on 8 July"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2010-07-12",
+   "grain": "day",
+   "track": "work",
+   "text": "Show returned after the break with stand-in presenters.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#14",
+     "role": "both",
+     "quote": "The show returned on 12 July with stand-in presenters"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2010-07-26",
+   "grain": "day",
+   "track": "role",
+   "text": "Alex Jones announced as new female co-host.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#14",
+     "role": "both",
+     "quote": "On 26 July , S4C presenter Alex Jones was announced as the new female co-host"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2010-08-16",
+   "grain": "day",
+   "track": "role",
+   "text": "New Jones and Manford co-hosting lineup debuted.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#14",
+     "role": "both",
+     "quote": "did not debut until the week beginning 16 August"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2010-08-20",
+   "grain": "day",
+   "track": "role",
+   "text": "Chris Evans presented his first Friday show as host.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#14",
+     "role": "both",
+     "quote": "Evans first show being Friday 20 August"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2010-11-17",
+   "grain": "day",
+   "track": "role",
+   "text": "Jason Manford's last show before resigning.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#15",
+     "role": "both",
+     "quote": "his last show had aired that Wednesday"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2010-11-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Jason Manford's resignation announced.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#15",
+     "role": "both",
+     "quote": "On Friday 19 November , it was announced Manford was resigning"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "text": "Chris Evans given co-host role for the pre-weekend edition.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#27",
+     "role": "both",
+     "quote": "Evans being handed the role of co-host for the pre-weekend edition in early 2011"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "date": "2011",
+   "grain": "year",
+   "track": "role",
+   "label": "",
+   "text": "Alex Jones and Matt Baker began co-hosting together",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "who hosted together between 2011 and 2020"
+    }
+   ],
+   "id": "e28"
+  },
+  {
+   "id": "e29",
+   "date": "2011-01-25",
+   "grain": "day",
+   "track": "role",
+   "text": "Matt Baker announced as Manford's replacement",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#17",
+     "role": "both",
+     "quote": "On 25 January 2011 , Matt Baker was announced as Manfords replacement"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "who hosted together between 2011 and 2020"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2011-02-23",
+   "grain": "day",
+   "track": "other",
+   "label": "incident",
+   "text": "Fire alarm at White City studios took programme off air; replaced by recording.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#26",
+     "role": "both",
+     "quote": "On 23 February 2011 , the fire alarm at the BBC White City studios went off"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2011-04",
+   "grain": "month",
+   "track": "work",
+   "text": "Hour-long format revived.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#11",
+     "role": "both",
+     "quote": "and was revived in April 2011"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2011-06-24",
+   "grain": "day",
+   "track": "other",
+   "label": "schedule",
+   "text": "Friday show unexpectedly moved to BBC Two after Wimbledon match overran.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#27",
+     "role": "both",
+     "quote": "on Friday 24 June 2011"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2011-11-30",
+   "grain": "day",
+   "track": "other",
+   "label": "controversy",
+   "text": "Over 21,000 complaints after Jeremy Clarkson's comments on the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#59",
+     "role": "both",
+     "quote": "On 30 November 2011 , over 21,000 complaints were received because Jeremy Clarkson made two allegedly offensive comments on the show"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2014-01",
+   "grain": "month",
+   "track": "other",
+   "label": "controversy",
+   "text": "Paul O'Grady interview on benefit reform drew complaints about lack of challenge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#61",
+     "role": "both",
+     "quote": "while being interviewed in January 2014 about the issue of benefit reform"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2014-01-06",
+   "grain": "day",
+   "track": "location",
+   "text": "Show began broadcasting from New Broadcasting House, London.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#16",
+     "role": "both",
+     "quote": "began broadcasting from New Broadcasting House on 6 January 2014"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#25",
+     "role": "both",
+     "quote": "It moved again to Broadcasting House in January 2014"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#0",
+     "role": "both",
+     "quote": "since 2014 the studio has been based in Broadcasting House"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2015-01-05",
+   "grain": "day",
+   "track": "other",
+   "label": "controversy",
+   "text": "Rita Ora's outfit on the show drew hundreds of complaints.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#62",
+     "role": "both",
+     "quote": "for a 5 January 2015 appearance on the show"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2015-01-26",
+   "grain": "day",
+   "track": "work",
+   "text": "First FA Cup draw performed on the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#18",
+     "role": "both",
+     "quote": "On 26 January 2015 , an FA Cup draw was performed on the show for the first time"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2015-06-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Chris Evans's departure from the show announced.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#17",
+     "role": "both",
+     "quote": "On 19 June 2015 it was announced Evans would be leaving"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2015-07-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Chris Evans presented his last show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#17",
+     "role": "both",
+     "quote": "his last show being 10 July 2015"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2015-07-17",
+   "grain": "day",
+   "track": "role",
+   "text": "Patrick Kielty became first guest presenter of the Friday show after Evans.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#17",
+     "role": "both",
+     "quote": "the first being Patrick Kielty ( on 17 July )"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2015-11-04",
+   "grain": "day",
+   "track": "other",
+   "label": "controversy",
+   "text": "Jimmy Carr's jokes on the episode referred to OFCOM.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#60",
+     "role": "both",
+     "quote": "Two jokes told by comedian Jimmy Carr on 4 November 2015 episode"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2016-02-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Extended one-hour tribute broadcast to Terry Wogan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#19",
+     "role": "both",
+     "quote": "On 1 February 2016 , the show broadcast an extended one-hour tribute"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2016-03-31",
+   "grain": "day",
+   "track": "work",
+   "text": "Tribute broadcast to comedian Ronnie Corbett.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#19",
+     "role": "both",
+     "quote": "on 31 March 2016 as a tribute to comedian Ronnie Corbett"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2016-05-17",
+   "grain": "day",
+   "track": "work",
+   "text": "25-minute EastEnders special broadcast live from Albert Square.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#20",
+     "role": "both",
+     "quote": "On 17 May 2016 , the show broadcast a 25-minute EastEnders special"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2017-01-06",
+   "grain": "day",
+   "track": "role",
+   "text": "Alex Jones presented her last show before maternity leave.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#21",
+     "role": "both",
+     "quote": "On 6 January 2017 , Jones presented her last show before going on maternity leave"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2017-01-09",
+   "grain": "day",
+   "track": "role",
+   "text": "Angela Scanlon and Michelle Ackerley took over hosting from Jones.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#21",
+     "role": "both",
+     "quote": "guest presenters Angela Scanlon and Michelle Ackerley began to take over for Jones effective 9 January"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2019-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Alex Jones went on maternity leave for the second time.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#22",
+     "role": "both",
+     "quote": "In April 2019 , Jones went on maternity leave for the second time"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2019-12-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Matt Baker announced he would leave the show in spring 2020.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#23",
+     "role": "both",
+     "quote": "On 4 December 2019 , Matt Baker announced he will leave the show in Spring 2020"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2020-03-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Matt Baker left the show.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#23",
+     "role": "both",
+     "quote": "Matt Baker left on 31 March 2020"
+    },
+    {
+     "chunk_id": "/wiki/The_One_Show#1",
+     "role": "both",
+     "quote": "who hosted together between 2011 and 2020"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2021-04-29",
+   "grain": "day",
+   "track": "role",
+   "text": "Jermaine Jenas and Ronan Keating confirmed as permanent hosts replacing rotating guests.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#23",
+     "role": "both",
+     "quote": "However on 29 April 2021 , it was confirmed that the rotating guest hosts would be replaced by Jermaine Jenas"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2021-05-10",
+   "grain": "day",
+   "track": "role",
+   "text": "Jenas and Keating began hosting from the week of 10 May.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/The_One_Show#24",
+     "role": "both",
+     "quote": "and Ronan Keating who will host on Thursday and Friday , from the week of 10 May"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Pilot transmitted from a temporary studio at The Mailbox, Birmingham",
+  "Replaced the Real Story and Holiday programmes in its schedule slot",
+  "Carol Thatcher's short-term roving reporter contract not renewed",
+  "The One Show apologised for the suicide comment made on the show",
+  "BBC altered guest arrangements to discourage jokes at the expense of minorities",
+  "BBC confirmed Matt Baker would not be replaced",
+  "BBC confirmed the show would move to high-definition after the summer break",
+  "Jermaine Jenas and Ronan Keating guest-hosted from the latter half of 2020"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+  "page_id": "/wiki/Pennsylvania_Railroad_class_E44",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1959",
+      "grain": "year",
+      "track": "work",
+      "text": "PRR placed an order with GE for 66 such locomotives.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#3",
+          "role": "both",
+          "quote": "resulting in an order for 66 such units in 1959"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1960",
+      "grain": "year",
+      "track": "work",
+      "text": "Production and delivery of E44 locomotives to the PRR began.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#0",
+          "role": "both",
+          "quote": "built by General Electric for the Pennsylvania Railroad between 1960 and 1963"
+        },
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#9",
+          "role": "both",
+          "quote": "took delivery of 66 E44s between 1960–63"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1963-07",
+      "grain": "month",
+      "track": "work",
+      "text": "Production of the E44 class ended with final unit 4465 completed.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#0",
+          "role": "both",
+          "quote": "built by General Electric for the Pennsylvania Railroad between 1960 and 1963"
+        },
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#19",
+          "role": "both",
+          "quote": "4465 was completed in July 1963"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1968",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "E44s passed to Penn Central after the merger and stayed in freight service.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#13",
+          "role": "both",
+          "quote": "After the 1968 Penn Central merger"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1970",
+      "grain": "year",
+      "track": "work",
+      "text": "The E44a upgrade program was terminated.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#6",
+          "role": "both",
+          "quote": "the E44a program was terminated in 1970 due to the Penn Central bankruptcy"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1976",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "E44s were passed to the newly formed Conrail.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#15",
+          "role": "both",
+          "quote": "In 1976 , they were passed to the newly formed Conrail"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1981",
+      "grain": "year",
+      "track": "other",
+      "label": "retirement",
+      "text": "All 66 E44s retired after Conrail ended electrified freight operations.",
+      "flag": "derived_date",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#15",
+          "role": "both",
+          "quote": "All 66 E44s were retired at that time"
+        },
+        {
+          "chunk_id": "/wiki/Pennsylvania_Railroad_class_E44#0",
+          "role": "description",
+          "quote": "all were retired by the mid-1980s"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Conrail swapped Ignitron rectifiers for silicon diodes in the late 1970s and early 1980s",
+    "22 units upgraded to E44a designation (no date given)",
+    "E44s acquired by Amtrak and NJ Transit (no date given)",
+    "Many E44s stored at Wilmington Shops and eventually scrapped in the early to mid-1990s",
+    "All E44s sold by NJ Transit to Amtrak (no date given)"
+  ]
+}

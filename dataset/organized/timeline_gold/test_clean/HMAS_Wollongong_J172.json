@@ -1,0 +1,36 @@
+{
+ "page_id": "/wiki/HMAS_Wollongong_(J172)",
+ "events": [
+  {"id": "e1", "date": "1941-01-29", "grain": "day", "track": "work", "text": "Laid down by Cockatoo Docks & Engineering Company.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#4", "role": "both", "quote": "Wollongong was laid down by Cockatoo Docks & Engineering Company on 29 January 1941"}]},
+  {"id": "e2", "date": "1941-07-05", "grain": "day", "track": "work", "text": "Launched, sponsored by the wife of Jack Beasley.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#4", "role": "both", "quote": "She was launched on 5 July 1941 , by the wife of Jack Beasley"}]},
+  {"id": "e3", "date": "1941-10-23", "grain": "day", "track": "affiliation", "text": "Commissioned into the Royal Australian Navy.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#4", "role": "both", "quote": "was commissioned into the RAN on 23 October 1941"}]},
+  {"id": "e4", "date": "1942-01-11", "grain": "day", "track": "location", "text": "Sent to Singapore.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#5", "role": "both", "quote": "On 11 January 1942 , she was sent to Singapore"}]},
+  {"id": "e5", "date": "1942-09-14", "grain": "day", "track": "affiliation", "text": "Sailed to Diego Garcia to join the British Eastern Fleet.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#7", "role": "both", "quote": "sailing on 14 September to Diego Garcia to join the British Eastern Fleet"}]},
+  {"id": "e6", "date": "1943-09", "grain": "month", "track": "other", "label": "combat", "text": "Shelled beached U-617 and received partial credit for its destruction.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#7", "role": "both", "quote": "In September 1943 , while in the Mediterranean , Wollongong was called on to shell the beached German submarine U-617"}]},
+  {"id": "e7", "date": "1945-02", "grain": "month", "track": "location", "text": "Returned to Australian waters.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#8", "role": "both", "quote": "Wollongong returned to Australian waters in February 1945"}]},
+  {"id": "e8", "date": "1945-12", "grain": "month", "track": "location", "text": "Returned to Australia from the Far East at end of 1945.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#8", "role": "both", "quote": "before returning to Australia at the end of 1945"}]},
+  {"id": "e9", "date": "1946-02-11", "grain": "day", "track": "affiliation", "text": "Decommissioned from the RAN in Sydney.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#10", "role": "both", "quote": "She was decommissioned in Sydney on 11 February 1946"}]},
+  {"id": "e10", "date": "1946-02-11", "grain": "day", "track": "affiliation", "text": "Recommissioned into the Royal Netherlands Navy.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#10", "role": "both", "quote": "was recommissioned into the RNLN , and renamed HNLMS Banda"}]},
+  {"id": "e11", "date": "1946-02-11", "grain": "day", "track": "naming", "text": "Renamed HNLMS Banda.", "flag": "derived_date", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#10", "role": "both", "quote": "was recommissioned into the RNLN , and renamed HNLMS Banda"}]},
+  {"id": "e12", "date": "1950-04", "grain": "month", "track": "affiliation", "text": "Left Royal Netherlands Navy service after remaining until April 1950.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#10", "role": "both", "quote": "The corvette remained with the RNLN until April 1950"}]},
+  {"id": "e13", "date": "1950-04", "grain": "month", "track": "affiliation", "text": "Transferred to the new Indonesian Navy.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#11", "role": "both", "quote": "The ship was transferred to the new Indonesian Navy in April 1950"}]},
+  {"id": "e14", "date": "1950-04", "grain": "month", "track": "naming", "text": "Renamed KRI Radjawali.", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#11", "role": "both", "quote": "The ship was transferred to the new Indonesian Navy in April 1950 , and was renamed KRI Radjawali"}]},
+  {"id": "e15", "date": "1968", "grain": "year", "track": "affiliation", "text": "Left service, scrapped later in Hong Kong.", "flag": "approximate_date", "evidence": [{"chunk_id": "/wiki/HMAS_Wollongong_(J172)#11", "role": "both", "quote": "The corvette left service in early 1968"}]}
+ ],
+ "undated_mentions": [
+  "Ordered by the British Admiralty but manned and commissioned into the RAN",
+  "Last Australian ship to leave Singapore before its surrender",
+  "Rear escort to a convoy fleeing Tanjong Priok, Batavia",
+  "Stood by a tanker that ran aground and was abandoned",
+  "Forced to sink a minesweeper that tried to turn back to the captured port",
+  "Broke off from convoy to escort the damaged SS British Judge",
+  "Ordered to Fremantle and served as escort ship",
+  "Entered the Atlantic twice to meet Mediterranean-bound convoys",
+  "Assigned to the British Pacific Fleet after returning in February 1945",
+  "Involved in the Battle of Okinawa",
+  "Anti-piracy patrols in the Far East after World War II",
+  "Received six battle honours for wartime service",
+  "Marked for transfer to the Royal Netherlands Navy after the war",
+  "Scrapped in Hong Kong"
+ ]
+}

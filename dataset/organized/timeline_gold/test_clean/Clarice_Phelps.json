@@ -1,0 +1,27 @@
+{
+ "page_id": "/wiki/Clarice_Phelps",
+ "events": [
+  {"id": "e1", "date": "2003", "grain": "year", "track": "education", "text": "Completed a Bachelor of Science in chemistry at Tennessee State University.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#2", "role": "both", "quote": "Phelps completed a Bachelor of Science degree in chemistry from Tennessee State University in 2003"}]},
+  {"id": "e2", "date": "2009-06", "grain": "month", "track": "affiliation", "text": "Joined Oak Ridge National Laboratory as a technician.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#5", "role": "both", "quote": "In June 2009 , Phelps joined Oak Ridge National Laboratory"}]},
+  {"id": "e3", "date": "2012-05", "grain": "month", "track": "work", "text": "Co-authored poster presentation on recovery and purification of berkelium-249.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#18", "role": "both", "quote": "Van Cleve , S.M. ; Boll , R.A. ; Phelps , C.E. ; Ezold , J.G . ( May 2012 )"}]},
+  {"id": "e4", "date": "2013-06", "grain": "month", "track": "work", "text": "Co-authored presentation on electrodeposition of actinide compounds at ACS National Meeting.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#18", "role": "both", "quote": "Torrico , M.N. ; Boll , R.A. ; Matos , M. ; Phelps , C.E . ( June 2013 )"}]},
+  {"id": "e5", "date": "2016-08", "grain": "month", "track": "work", "text": "Co-authored presentation on actinium-lanthanum separation at ACS National Meeting.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#19", "role": "both", "quote": "Phelps , C. ; Delmau , L. ; Boll , R. ; Hindman , C . ( August 2016 )"}]},
+  {"id": "e6", "date": "2017", "grain": "year", "track": "other", "label": "award", "text": "Received the YWCA Knoxville Tribute to Women Award in Technology, Research and Innovation.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#12", "role": "both", "quote": "Phelps received the 2017 YWCA Knoxville Tribute to Women Award in the category Technology , Research , and Innovation"}]},
+  {"id": "e7", "date": "2019", "grain": "year", "track": "other", "label": "honour", "text": "Featured in IUPAC's Periodic Table of Younger Chemists, associated with einsteinium.", "evidence": [{"chunk_id": "/wiki/Clarice_Phelps#13", "role": "both", "quote": "In 2019 , the International Union of Pure and Applied Chemistry ( IUPAC ) featured Phelps in the Periodic Table of Younger Chemists"}]}
+ ],
+ "undated_mentions": [
+  "Joined the United States Navy after failing to find employment following graduation",
+  "Enrolled in the Navy Nuclear Power School",
+  "Served as a non-commissioned officer in the Navy Nuclear Power Program aboard an aircraft carrier",
+  "Deployed twice aboard the aircraft carrier",
+  "Worked at Cole-Parmer in Chicago, Illinois, then returned to Tennessee",
+  "Promoted from technician to research associate and program manager at ORNL",
+  "Alumna of the Tennessee Aquatic Project and Development Group",
+  "Involved in the discovery of tennessine (element 117)",
+  "Recognized by IUPAC as the first African-American woman involved in discovery of a chemical element",
+  "Featured on the ORAU STEM stories program",
+  "Diversity chair of ORNL Educational Outreach Committee for Knox County Schools",
+  "Established ASCEND robotics and coding program for Knoxville high school students",
+  "Vice President of the board of Youth Outreach in STEM (YO-STEM)"
+ ]
+}

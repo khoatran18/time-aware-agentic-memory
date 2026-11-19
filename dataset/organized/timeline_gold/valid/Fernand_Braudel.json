@@ -1,0 +1,684 @@
+{
+ "page_id": "Fernand_Braudel",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1902-08-24",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Luméville-en-Ornois, Meuse, France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "both",
+     "quote": "24 August 1902 – 27 November 1985 ) was a French historian"
+    },
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#3",
+     "role": "description",
+     "quote": "Braudel was born in Luméville-en-Ornois"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1909",
+   "grain": "year",
+   "track": "location",
+   "text": "Family moved to Paris when Braudel was about seven.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#3",
+     "role": "both",
+     "quote": "At the age of 7 , his family moved to Paris"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e3",
+   "date": "1922",
+   "grain": "year",
+   "track": "education",
+   "text": "Awarded agrégé in history at the Sorbonne, around age 20.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#3",
+     "role": "both",
+     "quote": "where at the age of 20 he was awarded an agrégé in history"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1923",
+   "grain": "year",
+   "track": "work",
+   "text": "Began his Mediterranean project (1923-49, then 1949-66).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "both",
+     "quote": "The Mediterranean ( 1923–49 , then 1949–66 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1923",
+   "grain": "year",
+   "track": "work",
+   "text": "Began doctoral thesis on Philip II of Spain's foreign policy.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#4",
+     "role": "both",
+     "quote": "During this time , Braudel began his doctoral thesis on the foreign policy of King Philip II of Spain"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1923",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began teaching at the University of Algiers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#4",
+     "role": "date",
+     "quote": "1923 and 1932 , he became fascinated by the Mediterranean Sea"
+    },
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#3",
+     "role": "description",
+     "quote": "While teaching at the University of Algiers between"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1932",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended teaching at the University of Algiers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#4",
+     "role": "date",
+     "quote": "1923 and 1932 , he became fascinated by the Mediterranean Sea"
+    },
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#3",
+     "role": "description",
+     "quote": "While teaching at the University of Algiers between"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1932",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Began teaching at Paris lycées Pasteur, Condorcet and Henri-IV.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#4",
+     "role": "both",
+     "quote": "From 1932 to 1935 he taught in the Paris lycées"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1934",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Invited by Julio de Mesquita Filho to help found University of São Paulo.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#5",
+     "role": "both",
+     "quote": "in 1934 francophile Julio de Mesquita Filho invited anthropologist Claude Lévi-Strauss and Braudel to help establish one"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1935",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended teaching at Paris lycées.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#4",
+     "role": "both",
+     "quote": "From 1932 to 1935 he taught in the Paris lycées"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1937",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to Paris from Brazil.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#6",
+     "role": "both",
+     "quote": "In 1937 , Braudel returned to Paris from Brazil"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1937",
+   "grain": "year",
+   "track": "other",
+   "label": "meeting",
+   "text": "Met Lucien Febvre on the voyage back from Brazil.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#6",
+     "role": "both",
+     "quote": "on his way , he met Lucien Febvre , who was the co-founder of the influential Annales journal"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e13",
+   "date": "1938",
+   "grain": "year",
+   "track": "other",
+   "label": "Annales influence",
+   "text": "Fell under the influence of the Annales School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#6",
+     "role": "both",
+     "quote": "fell under the influence of the Annales School around 1938"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e14",
+   "date": "1938",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Entered École pratique des hautes études as history instructor.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#6",
+     "role": "both",
+     "quote": "Also around this time he entered the École pratique des hautes études as an instructor in history"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e15",
+   "date": "1939",
+   "grain": "year",
+   "track": "other",
+   "label": "military service",
+   "text": "Called up for military service at outbreak of war.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#8",
+     "role": "both",
+     "quote": "At the outbreak of war in 1939 , he was called up for military service"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1940",
+   "grain": "year",
+   "track": "other",
+   "label": "captured",
+   "text": "Taken prisoner by the Germans.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#8",
+     "role": "both",
+     "quote": "and in 1940 was taken prisoner by the Germans"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1940",
+   "grain": "year",
+   "track": "location",
+   "text": "Held at a POW camp in Mainz.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#8",
+     "role": "both",
+     "quote": "He was held at a POW camp in Mainz from 1940 to 1942"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1942",
+   "grain": "year",
+   "track": "location",
+   "text": "Transferred from Mainz to a POW camp near Lübeck.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#8",
+     "role": "both",
+     "quote": "from 1940 to 1942 before being transferred to a POW camp near Lübeck"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1942",
+   "grain": "year",
+   "track": "work",
+   "text": "Drafted La Méditerranée in the Lübeck POW camp.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#8",
+     "role": "both",
+     "quote": "While in that camp , Braudel drafted his great work La Méditerranée et le Monde Méditerranéen à lépoque de Philippe II"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e20",
+   "date": "1945",
+   "grain": "year",
+   "track": "role",
+   "text": "Became leader of the second generation of Annales historians.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#10",
+     "role": "both",
+     "quote": "Braudel became the leader of the second generation of Annales historians after 1945"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e21",
+   "date": "1947",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Co-founded Sixième Section at École Pratique des Hautes Études with Rockefeller funding.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#10",
+     "role": "both",
+     "quote": "In 1947 , with Febvre and Charles Morazé , Braudel obtained funding from the Rockefeller Foundation"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1949",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected to the Collège de France.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#14",
+     "role": "both",
+     "quote": "In 1949 , Braudel was elected to the Collège de France upon Febvres retirement"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1949",
+   "grain": "year",
+   "track": "work",
+   "text": "Published La Méditerranée, his first book.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#15",
+     "role": "both",
+     "quote": "His first book , La Méditerranée et le Monde Méditerranéen à lEpoque de Philippe II ( 1949 )"
+    },
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#39",
+     "role": "both",
+     "quote": "originally appeared in 1949"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1950",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-founded the academic journal Revue économique.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#14",
+     "role": "both",
+     "quote": "He co-founded the academic journal , Revue économique , in 1950"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1955",
+   "grain": "year",
+   "track": "work",
+   "text": "Began work on Civilization and Capitalism (1955-79).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "both",
+     "quote": "Civilization and Capitalism ( 1955–79 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1960",
+   "grain": "year",
+   "track": "other",
+   "label": "funding",
+   "text": "Received an additional $1 million from the Ford Foundation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#10",
+     "role": "both",
+     "quote": "He received an additional $1 million from the Ford Foundation in 1960"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1962",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Created the Fondation Maison des Sciences de l'Homme with Gaston Berger.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#11",
+     "role": "both",
+     "quote": "In 1962 , he and Gaston Berger used the Ford Foundation grant and government funds to create a new independent foundation"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1962",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote A History of Civilizations as a course basis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#12",
+     "role": "both",
+     "quote": "In 1962 , he wrote A History of Civilizations as the basis for a history course"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1962",
+   "grain": "year",
+   "track": "work",
+   "text": "French education ministry rejected his History of Civilizations manuscript.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#12",
+     "role": "both",
+     "quote": "its rejection of the traditional event-based narrative was too radical for the French ministry of education"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e30",
+   "date": "1967",
+   "grain": "year",
+   "track": "work",
+   "text": "First volume of Civilisation Matérielle, Économie et Capitalisme published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#22",
+     "role": "both",
+     "quote": "The first volume was published in 1967 , and was translated to English in 1973"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1968",
+   "grain": "year",
+   "track": "role",
+   "text": "Retired from his position.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#14",
+     "role": "both",
+     "quote": "He retired in 1968"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Ecrits sur l'Histoire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#39",
+     "role": "both",
+     "quote": "Ecrits sur lHistoire ( 1969 )"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1970",
+   "grain": "year",
+   "track": "role",
+   "text": "Began directing the Fondation Maison des Sciences de l'Homme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#11",
+     "role": "both",
+     "quote": "which Braudel directed from 1970 until his death"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1970",
+   "grain": "year",
+   "track": "work",
+   "text": "Began The Identity of France (1970-85), left unfinished.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "both",
+     "quote": "the unfinished Identity of France ( 1970–85 )"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1972",
+   "grain": "year",
+   "track": "role",
+   "text": "Gave up all editorial responsibility for the Annales journal.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#11",
+     "role": "both",
+     "quote": "In 1972 he gave up all editorial responsibility on the journal"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1972",
+   "grain": "year",
+   "track": "work",
+   "text": "English translation of Mediterranean, volume 1, by Sian Reynolds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#39",
+     "role": "both",
+     "quote": "transl . 1972 and 1973 by Sian Reynolds"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "English translation of Mediterranean, volume 2, by Sian Reynolds.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#39",
+     "role": "both",
+     "quote": "transl . 1972 and 1973 by Sian Reynolds"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "First volume of Civilisation Matérielle translated into English.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#22",
+     "role": "both",
+     "quote": "The first volume was published in 1967 , and was translated to English in 1973"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Last volume of the three-volume Civilization and Capitalism appeared.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#22",
+     "role": "both",
+     "quote": "The last of the three-volume work appeared in 1979"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1980",
+   "grain": "year",
+   "track": "work",
+   "text": "On History published, English translation of Ecrits sur l'Histoire.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#41",
+     "role": "both",
+     "quote": "On History ( 1980 ; English translation of Ecrits sur lHistoire by Siân Reynolds )"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1983",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Elected to the Académie française.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#14",
+     "role": "both",
+     "quote": "In 1983 , he was elected to the Académie française"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1985",
+   "grain": "year",
+   "track": "work",
+   "text": "La Dynamique du Capitalisme published.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#41",
+     "role": "both",
+     "quote": "La Dynamique du Capitalisme ( 1985 )"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1985-11-27",
+   "grain": "day",
+   "track": "role",
+   "text": "Directorship of the Fondation Maison des Sciences de l'Homme ended at his death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "date",
+     "quote": "24 August 1902 – 27 November 1985 ) was a French historian"
+    },
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#11",
+     "role": "description",
+     "quote": "which Braudel directed from 1970 until his death"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1985-11-27",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Fernand_Braudel#0",
+     "role": "both",
+     "quote": "24 August 1902 – 27 November 1985 ) was a French historian"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "dominant leader of the Annales School in the 1950s and 1960s (decade only)",
+  "member of the American Academy of Arts and Sciences (no date)",
+  "member of the Bavarian Academy of Sciences and Humanities (no date)",
+  "member of the Heidelberg Academy of Sciences and Humanities (no date)",
+  "member of the Hungarian Academy of Sciences (no date)",
+  "member of the Serbian Academy of Sciences and Arts (no date)",
+  "honorary degree, Université libre de Bruxelles (no date)",
+  "honorary degree, University of Cambridge (no date)",
+  "honorary degree, University of Chicago (no date)",
+  "honorary degree, University of Cologne (no date)",
+  "honorary degree, University of Geneva (no date)",
+  "honorary degree, Leiden University (no date)",
+  "honorary degree, University of Oxford (no date)",
+  "honorary degree, University of Padua (no date)",
+  "honorary degree, Complutense University of Madrid (no date)",
+  "honorary degree, Université de Montréal (no date)",
+  "honorary degree, University of Warsaw (no date)",
+  "honorary degree, Yale University (no date)"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "page_id": "/wiki/Quelli_che..._il_Calcio",
+ "events": [
+  {"id": "e1", "date": "1993-09-26", "grain": "day", "track": "work", "text": "Program debuted on Rai 3 as a sports-themed live show",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#2", "role": "both", "quote": "The broadcast debuted on Rai 3 on 26 September 1993"},
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#0", "role": "both", "quote": "initially broadcast on Rai 3 from 26 September 1993"}
+   ]},
+  {"id": "e2", "date": "1993-09-26", "grain": "day", "track": "role", "text": "Fabio Fazio began conducting, with Marino Bartoletti",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#2", "role": "both", "quote": "The broadcast debuted on Rai 3 on 26 September 1993 conducted by Fabio Fazio"}
+   ]},
+  {"id": "e3", "date": "1996", "grain": "year", "track": "affiliation", "text": "Roberto Vacca joined the show as a regular guest",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#9", "role": "date", "quote": "From 1996 to 1999 the"},
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#10", "role": "description", "quote": "engineer Professor Roberto Vacca joined the guests of Quelli che il calcio"}
+   ]},
+  {"id": "e4", "date": "1996", "grain": "year", "track": "work", "text": "Radio commentators' video wall moved behind the audience",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#4", "role": "both", "quote": "In 1996 the video wall with the radio commentators was moved"}
+   ]},
+  {"id": "e5", "date": "1997", "grain": "year", "track": "work", "text": "Radio commentators' video wall behind the conductor ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#4", "role": "both", "quote": "until 1997 , in fact , the faces of the radio commentators appeared on a large video wall"}
+   ]},
+  {"id": "e6", "date": "1997", "grain": "year", "track": "work", "text": "New match result shown in the upper part of the screen",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#6", "role": "both", "quote": "since 1997 the new result of the match appears in the upper part of the screen"}
+   ]},
+  {"id": "e7", "date": "1997", "grain": "year", "track": "affiliation", "text": "Maurizio Battista joined the show as comedian",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#11", "role": "both", "quote": "the comedian Maurizio Battista joined the show from 1997 to 1999"}
+   ]},
+  {"id": "e8", "date": "1998-05-17", "grain": "day", "track": "affiliation", "text": "Last broadcast on Rai 3",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#0", "role": "both", "quote": "initially broadcast on Rai 3 from 26 September 1993 to 17 May 1998"}
+   ]},
+  {"id": "e9", "date": "1998-09-13", "grain": "day", "track": "affiliation", "text": "Program moved to Rai 2, broadcast on Sunday afternoons",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#0", "role": "both", "quote": "subsequently on Rai 2 from 13 September 1998"}
+   ]},
+  {"id": "e10", "date": "1999", "grain": "year", "track": "affiliation", "text": "Maurizio Battista left the show",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#11", "role": "both", "quote": "the comedian Maurizio Battista joined the show from 1997 to 1999"}
+   ]},
+  {"id": "e11", "date": "1999", "grain": "year", "track": "affiliation", "text": "Maurizio Crozza took over as comedian from Battista", "flag": "derived_date",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#11", "role": "date", "quote": "the comedian Maurizio Battista joined the show from 1997 to 1999"},
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#11", "role": "description", "quote": "then leaving the space to Maurizio Crozza"}
+   ]},
+  {"id": "e12", "date": "1999", "grain": "year", "track": "affiliation", "text": "Roberto Vacca's regular guest period ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#9", "role": "date", "quote": "From 1996 to 1999 the"},
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#10", "role": "description", "quote": "engineer Professor Roberto Vacca joined the guests of Quelli che il calcio"}
+   ]},
+  {"id": "e13", "date": "2001-08-26", "grain": "day", "track": "role", "text": "Fabio Fazio's conduction ended with the ninth edition",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#12", "role": "both", "quote": "aired from 26 August 2001 to 5 May 2002"}
+   ]},
+  {"id": "e14", "date": "2001-08-26", "grain": "day", "track": "role", "text": "Simona Ventura took over as conductor",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#12", "role": "both", "quote": "aired from 26 August 2001 to 5 May 2002"}
+   ]},
+  {"id": "e15", "date": "2001", "grain": "year", "track": "affiliation", "text": "Gene Gnocchi added to the cast", "flag": "approximate_date",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#13", "role": "date", "quote": "Between 2001 and 2005"},
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#13", "role": "description", "quote": "the comedians Maurizio Crozza and Gene Gnocchi are added to the cast"}
+   ]},
+  {"id": "e16", "date": "2005", "grain": "year", "track": "work", "text": "Serie B results moved to Saturday broadcasts",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#5", "role": "both", "quote": "until 2005 , when they were moved to Saturday"}
+   ]},
+  {"id": "e17", "date": "2005", "grain": "year", "track": "work", "text": "Goal commentary switched from radio to studio journalists",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#6", "role": "both", "quote": "until 2005 by the radio broadcast Tutto il calcio minute by minute"}
+   ]},
+  {"id": "e18", "date": "2007", "grain": "year", "track": "affiliation", "text": "Gene Gnocchi's sketches presence ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#15", "role": "both", "quote": "Gene Gnocchi ( present until 2007 )"}
+   ]},
+  {"id": "e19", "date": "2009", "grain": "year", "track": "work", "text": "Totocalcio ticket stopped being shown during broadcasts",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#7", "role": "both", "quote": "until 2009 , the Totocalcio ticket was shown at the interval"}
+   ]},
+  {"id": "e20", "date": "2010", "grain": "year", "track": "work", "text": "Serie C results replaced Serie B results",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#5", "role": "both", "quote": "from 2010 are replaced by Series C"}
+   ]},
+  {"id": "e21", "date": "2011", "grain": "year", "track": "role", "text": "Simona Ventura's conduction ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2001 to 2011 by Simona Ventura"}
+   ]},
+  {"id": "e22", "date": "2011", "grain": "year", "track": "role", "text": "Victoria Cabello began conducting",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2011 to 2013 by Victoria Cabello"}
+   ]},
+  {"id": "e23", "date": "2013", "grain": "year", "track": "role", "text": "Victoria Cabello's conduction ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2011 to 2013 by Victoria Cabello"}
+   ]},
+  {"id": "e24", "date": "2013", "grain": "year", "track": "role", "text": "Nicola Savino began conducting",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2013 to 2017 by Nicola Savino"}
+   ]},
+  {"id": "e25", "date": "2017", "grain": "year", "track": "role", "text": "Nicola Savino's conduction ended",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2013 to 2017 by Nicola Savino"}
+   ]},
+  {"id": "e26", "date": "2017", "grain": "year", "track": "role", "text": "Luca e Paolo, with Mia Ceran, began conducting",
+   "evidence": [
+    {"chunk_id": "/wiki/Quelli_che..._il_Calcio#1", "role": "both", "quote": "from 2017 by the comic duo Luca and Paolo together"}
+   ]}
+ ],
+ "undated_mentions": ["fixed stadium connections during the first four years of broadcast"]
+}

@@ -1,0 +1,108 @@
+{
+  "page_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1927",
+      "grain": "year",
+      "track": "location",
+      "text": "Embassy initially housed in a Massachusetts Avenue house purchased in 1927.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#2", "role": "both", "quote": "in a house that had been purchased in 1927 from the widow of Clarence Moore"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1978",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Canadian government purchased a vacant lot on Pennsylvania Avenue for $5 million.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#3", "role": "both", "quote": "In 1978 , the Canadian government purchased a vacant lot on Pennsylvania Avenue NW for $5 million"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1989-05-03",
+      "grain": "day",
+      "track": "work",
+      "text": "Embassy building officially opened by Prime Minister Brian Mulroney.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#4", "role": "both", "quote": "The embassy building was officially opened by Prime Minister Brian Mulroney on May 3 , 1989"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "2014-09",
+      "grain": "month",
+      "track": "work",
+      "text": "Gallery hosted a special exhibit honouring the embassy's 25th anniversary.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#17", "role": "both", "quote": "In September 2014 , the gallery hosted a special exhibit honouring the embassys 25th anniversary"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "2016-03-03",
+      "grain": "day",
+      "track": "role",
+      "text": "David MacNaughton presented credentials to President Obama as ambassador.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#18", "role": "both", "quote": "who presented his credentials to President Barack Obama on March 3 , 2016"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "2017-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Kirsten Hillman began service as Deputy Ambassador in Washington.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#19", "role": "both", "quote": "Hillman served as Deputy Ambassador in Washington from August 2017 to August 2019"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "2019-08",
+      "grain": "month",
+      "track": "role",
+      "text": "David MacNaughton left the ambassador post.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#18", "role": "both", "quote": "MacNaughton left the post at the end of August 2019"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "2019-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Kirsten Hillman became Acting Ambassador to the United States.",
+      "flag": "approximate_date",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#18", "role": "both", "quote": "MacNaughton left the post at the end of August 2019 , and was replaced by Acting Ambassador"}
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2019-08",
+      "grain": "month",
+      "track": "role",
+      "text": "Kirsten Hillman's term as Deputy Ambassador in Washington ended.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#19", "role": "both", "quote": "from August 2017 to August 2019"}
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2020-03",
+      "grain": "month",
+      "track": "role",
+      "text": "Kirsten Hillman appointed Canada's Ambassador to the United States.",
+      "evidence": [
+        {"chunk_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.#19", "role": "both", "quote": "Kirsten Hillman was appointed Canadas Ambassador to the United States in March 2020"}
+      ]
+    }
+  ],
+  "undated_mentions": []
+}

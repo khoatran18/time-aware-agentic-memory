@@ -1,0 +1,176 @@
+{
+  "page_id": "/wiki/Rheidol_(locomotive)",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1896",
+      "grain": "year",
+      "track": "work",
+      "text": "Locomotive built by W.G. Bagnall in Staffordshire, England.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#0", "role": "both", "quote": "built by W.G . Bagnall in Staffordshire , England , in 1896"},
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#2", "role": "both", "quote": "originally built by W.G . Bagnalls in 1896"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1897-02",
+      "grain": "month",
+      "track": "work",
+      "text": "Locomotive completed and named Treze de Maio, order later cancelled.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#2", "role": "both", "quote": "It was completed and named by February 1897"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e3",
+      "date": "1897-08",
+      "grain": "month",
+      "track": "affiliation",
+      "text": "Began working on the Plynlimon and Hafan Tramway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#0", "role": "both", "quote": "the locomotive worked from August 1897 until 1899"},
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#5", "role": "date", "quote": "the Plynlimon and Hafan Tramway in August 1897"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1897-08",
+      "grain": "month",
+      "track": "naming",
+      "text": "Regauged and renamed Talybont before delivery to the tramway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#4", "role": "description", "quote": "it was regauged and renamed Talybont"},
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#5", "role": "date", "quote": "the Plynlimon and Hafan Tramway in August 1897"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e5",
+      "date": "1899",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended working on the Plynlimon and Hafan Tramway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#0", "role": "both", "quote": "the locomotive worked from August 1897 until 1899"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1899",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Talybont sold back to Bagnalls after the tramway closed.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#6", "role": "both", "quote": "closed in 1899 , just two years after opening . Talybont was then sold back to Bagnalls"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e7",
+      "date": "1900",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Began working on the Vale of Rheidol Railway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#1", "role": "both", "quote": "Vale of Rheidol Railway , which it did from 1900 until 1924 , when it was scrapped"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1900",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Talybont sold to contractors Pethick Bros of Plymouth.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#7", "role": "both", "quote": "Construction of the line started in 1900 , and Talybont was sold to the contractors"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e9",
+      "date": "1902",
+      "grain": "year",
+      "track": "work",
+      "text": "Returned to Bagnalls for further modifications.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#7", "role": "both", "quote": "After completion of the line in 1902 , the locomotive was returned to Bagnalls for further modifications , before it was named Rheidol"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e10",
+      "date": "1902",
+      "grain": "year",
+      "track": "naming",
+      "text": "Named Rheidol and became the railway's No. 3.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#7", "role": "both", "quote": "After completion of the line in 1902 , the locomotive was returned to Bagnalls for further modifications , before it was named Rheidol"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e11",
+      "date": "1904",
+      "grain": "year",
+      "track": "work",
+      "text": "Fitted with a conventional chimney.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#9", "role": "both", "quote": "In 1904 , the locomotive was fitted with a conventional chimney"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1923",
+      "grain": "year",
+      "track": "other",
+      "label": "withdrawn",
+      "text": "Locomotive withdrawn from service.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#9", "role": "both", "quote": "Rheidol was withdrawn in 1923"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e13",
+      "date": "1923",
+      "grain": "year",
+      "track": "naming",
+      "text": "Allocated Great Western Railway number 1198.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#9", "role": "both", "quote": "the Great Western Railway ( GWR ) in 1923 and the locomotive was allocated the number 1198"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "1924",
+      "grain": "year",
+      "track": "affiliation",
+      "text": "Ended working on the Vale of Rheidol Railway.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#1", "role": "both", "quote": "Vale of Rheidol Railway , which it did from 1900 until 1924 , when it was scrapped"}
+      ],
+      "flag": "source_inconsistent"
+    },
+    {
+      "id": "e15",
+      "date": "1924",
+      "grain": "year",
+      "track": "other",
+      "label": "scrapped",
+      "text": "Locomotive scrapped at Swindon Works.",
+      "evidence": [
+        {"chunk_id": "/wiki/Rheidol_(locomotive)#9", "role": "both", "quote": "scrapped at Swindon Works in 1924"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "ordered to work at a Brazilian sugar plantation (undated)",
+    "order for Brazilian sugar plantation cancelled before export (undated)",
+    "first change of gauge before the Plynlimon and Hafan Tramway service (undated)",
+    "second change of gauge (undated)",
+    "modification work to the cylinders (undated)",
+    "steel cab back fitted (undated)"
+  ]
+}

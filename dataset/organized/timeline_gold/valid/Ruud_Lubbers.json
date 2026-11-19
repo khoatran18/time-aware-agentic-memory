@@ -1,0 +1,452 @@
+{
+ "page_id": "/wiki/Ruud_Lubbers",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1939-05-07",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Rotterdam, Netherlands.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#9",
+     "role": "both",
+     "quote": "was born on 7 May 1939 in Rotterdam"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1962",
+   "grain": "year",
+   "track": "education",
+   "text": "Wrote 1962 thesis on productivity trends and balance of payments.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#9",
+     "role": "both",
+     "quote": "As suggested by the title of his 1962 thesis"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1962-10-10",
+   "grain": "day",
+   "track": "family",
+   "text": "Married Ria Hoogeweegen.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#37",
+     "role": "both",
+     "quote": "On 10 October 1962 , Lubbers married Ria Hoogeweegen"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1963-04",
+   "grain": "month",
+   "track": "role",
+   "text": "Began work as corporate director of a Rotterdam manufacturing company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "worked as a corporate director for the manufacturing company in Rotterdam from April 1963"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1965-01",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Began as trade association executive for the Christian Employers Association (NCW).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "trade association executive for the Christian Employers Association ( NCW ) from January 1965"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1973-05",
+   "grain": "month",
+   "track": "role",
+   "text": "Ended corporate director post at the Rotterdam manufacturing company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "from April 1963 until May 1973"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1973-05",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Ended trade association executive role at NCW.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "from January 1965 until May 1973"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1973-05-11",
+   "grain": "day",
+   "track": "role",
+   "text": "Appointed Minister of Economic Affairs in the Den Uyl cabinet.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "taking office on 11 May 1973"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#11",
+     "role": "both",
+     "quote": "From 11 May 1973 to 19 December 1977 , Ruud Lubbers was Minister of Economic Affairs"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1977-06-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Began term as Member of the House of Representatives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "both",
+     "quote": "elected as a Member of the House of Representatives after the election of 1977 serving from 8 June 1977 until"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1977-09-08",
+   "grain": "day",
+   "track": "role",
+   "text": "Ended first term as Member of the House of Representatives.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#1",
+     "role": "description",
+     "quote": "serving from 8 June"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#2",
+     "role": "date",
+     "quote": "8 September 1977"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1977-12-19",
+   "grain": "day",
+   "track": "role",
+   "text": "Left office as Minister of Economic Affairs in the Den Uyl government.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#11",
+     "role": "both",
+     "quote": "From 11 May 1973 to 19 December 1977 , Ruud Lubbers was Minister of Economic Affairs"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1977-12-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Returned as Member of the House of Representatives, frontbench spokesperson for Economic Affairs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#2",
+     "role": "both",
+     "quote": "returned as a Member of the House of Representatives on 22 December 1977"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1978-11-07",
+   "grain": "day",
+   "track": "role",
+   "text": "Became parliamentary leader of the CDA faction, succeeding Willem Aantjes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#2",
+     "role": "both",
+     "quote": "Lubbers was selected as his successor taking office on 7 November 1978"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1981",
+   "grain": "year",
+   "track": "role",
+   "text": "Selected as CDA leader and successor to Prime Minister Van Agt, who announced stepping down.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#3",
+     "role": "both",
+     "quote": "Shortly after the election of 1981"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1982-11-04",
+   "grain": "day",
+   "track": "role",
+   "text": "Became Prime Minister of the Netherlands, forming Cabinet Lubbers I.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#3",
+     "role": "both",
+     "quote": "became Prime Minister of the Netherlands taking office on 4 November 1982"
+    }
+   ]
+  },
+  {
+   "date": "1986",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "Formed Cabinet Lubbers II and continued as Prime Minister for a second term",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#3",
+     "role": "both",
+     "quote": "For the election of 1986 Lubbers served as Lijsttrekker"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e16"
+  },
+  {
+   "date": "1989",
+   "grain": "year",
+   "track": "role",
+   "label": null,
+   "text": "Formed Cabinet Lubbers III and continued as Prime Minister for a third term",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#4",
+     "role": "both",
+     "quote": "1989 Lubbers again served as Lijsttrekker and following another successful cabinet formation formed the Cabinet Lubbers III"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e17"
+  },
+  {
+   "id": "e18",
+   "date": "1993-10",
+   "grain": "month",
+   "track": "role",
+   "text": "Announced he would step down as party leader and not seek another term.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#4",
+     "role": "both",
+     "quote": "In October 1993 Lubbers announced he was stepping down as Leader"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1994-08-22",
+   "grain": "day",
+   "track": "role",
+   "text": "Left office as Prime Minister at installation of Cabinet Kok I.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#4",
+     "role": "both",
+     "quote": "He left office at the installation of the Cabinet Kok I on 22 August 1994"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1995-01-31",
+   "grain": "day",
+   "track": "role",
+   "text": "Granted the honorary title of Minister of State.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#7",
+     "role": "both",
+     "quote": "granted the honorary title of Minister of State on 31 January 1995"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1995-02",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Began as visiting professor at Tilburg University and Harvard JFK School of Government.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#5",
+     "role": "both",
+     "quote": "from February 1995 until December 2000"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#17",
+     "role": "both",
+     "quote": "From 1995 to 2000 , he taught Globalization Studies at Tilburg University"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2000-11",
+   "grain": "month",
+   "track": "role",
+   "text": "Nominated as next UN High Commissioner for Refugees.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#5",
+     "role": "both",
+     "quote": "In November 2000 Lubbers was nominated as the next United Nations High Commissioner for Refugees"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#18",
+     "role": "description",
+     "quote": "was appointed by the Secretary-General of the United Nations Kofi Annan to succeed Sadako Ogata"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2000-12",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Ended visiting professor posts at Tilburg University and Harvard JFK School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#5",
+     "role": "both",
+     "quote": "from February 1995 until December 2000"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#17",
+     "role": "both",
+     "quote": "From 1995 to 2000 , he taught Globalization Studies"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2001-01-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Began as UN High Commissioner for Refugees, heading UNHCR.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#19",
+     "role": "both",
+     "quote": "From 1 January 2001 , Lubbers headed the UNHCR"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#5",
+     "role": "both",
+     "quote": "serving from 1 January 2001 until 20 February 2005"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2004-05",
+   "grain": "month",
+   "track": "other",
+   "label": "complaint",
+   "text": "Accused of sexual harassment by UNHCR employee Cynthia Brzak.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#22",
+     "role": "both",
+     "quote": "In May 2004 , Lubbers was accused by Cynthia Brzak"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2005-02-20",
+   "grain": "day",
+   "track": "role",
+   "text": "Resigned as UN High Commissioner for Refugees amid harassment complaint.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#5",
+     "role": "both",
+     "quote": "serving from 1 January 2001 until 20 February 2005"
+    },
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#29",
+     "role": "both",
+     "quote": "resigned as High Commissioner on Sunday , 20 February 2005"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2010",
+   "grain": "year",
+   "track": "role",
+   "text": "Asked again to serve as informateur for the 2010 cabinet formation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#36",
+     "role": "both",
+     "quote": "For the 2010 Dutch cabinet formation"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2018-02-14",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died in Rotterdam of natural causes, aged 78.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Ruud_Lubbers#38",
+     "role": "both",
+     "quote": "Lubbers died in Rotterdam on 14 February 2018"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Joined management of family firm Lubbers Construction (no exact date)",
+  "Formed Cabinet Lubbers II and continued as Prime Minister after the 1986 election (no exact date)",
+  "Formed Cabinet Lubbers III and continued as Prime Minister after the 1989 election (no exact date)",
+  "Put forward as candidate for head of NATO after leaving office; US vetoed (no exact date)",
+  "Engaged with Earth Charter Initiative in follow-up to 1992 Earth Summit (no exact date)",
+  "Vice-chairman of Independent World Commission on the Oceans; chair of Globus institute (no exact date)",
+  "Responded to OIOS report with a letter denying misconduct (no exact date)",
+  "Secretary-General closed the complaint as unsubstantiated (no exact date)",
+  "Received first UNHCR Achievement Award at farewell meeting (no exact date)",
+  "Became informateur for Third Balkenende cabinet formation (no exact date)"
+ ]
+}

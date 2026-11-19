@@ -1,0 +1,60 @@
+{
+  "page_id": "/wiki/Klamath_County,_California",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1851",
+      "grain": "year",
+      "track": "other",
+      "label": "founding",
+      "text": "Klamath County established as a county of California, formed from Trinity County.",
+      "evidence": [
+        {"chunk_id": "/wiki/Klamath_County,_California#0", "role": "both", "quote": "Klamath County was a county of California from 1851 to 1874"}
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1854",
+      "grain": "year",
+      "track": "location",
+      "text": "County seat moved from Trinidad to Crescent City for larger population.",
+      "evidence": [
+        {"chunk_id": "/wiki/Klamath_County,_California#2", "role": "both", "quote": "In 1854 the county seat was moved to Crescent City"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1856",
+      "grain": "year",
+      "track": "location",
+      "text": "County seat moved inland to Orleans Bar, now Orleans.",
+      "evidence": [
+        {"chunk_id": "/wiki/Klamath_County,_California#2", "role": "both", "quote": "in 1856 , the county seat was moved inland , to Orleans Bar"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1857",
+      "grain": "year",
+      "track": "other",
+      "label": "boundary_change",
+      "text": "Del Norte County, including Crescent City, split off from Klamath County.",
+      "evidence": [
+        {"chunk_id": "/wiki/Klamath_County,_California#2", "role": "both", "quote": "In 1857 , Del Norte County , including Crescent City , was split off from Klamath County"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1874",
+      "grain": "year",
+      "track": "other",
+      "label": "abolition",
+      "text": "Klamath County abolished; territory divided between Siskiyou and Humboldt counties.",
+      "evidence": [
+        {"chunk_id": "/wiki/Klamath_County,_California#4", "role": "both", "quote": "In 1874 Klamath County was finally abolished , divided between Siskiyou and Humboldt counties"},
+        {"chunk_id": "/wiki/Klamath_County,_California#0", "role": "date", "quote": "from 1851 to 1874"}
+      ]
+    }
+  ],
+  "undated_mentions": []
+}

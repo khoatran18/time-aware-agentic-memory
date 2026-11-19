@@ -1,0 +1,1021 @@
+{
+ "page_id": "Nik_Stauskas",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1993-10-07",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born (Nikolas Tomas Stauskas).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#0",
+     "role": "both",
+     "quote": "born October 7 , 1993"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2009",
+   "grain": "year",
+   "track": "education",
+   "text": "Played for Loyola Catholic Secondary School until 2009.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#8",
+     "role": "both",
+     "quote": "Until 2009 , Stauskas played for Loyola Catholic Secondary School"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2009",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Played for Canada at 2009 FIBA Americas U-16 Championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#69",
+     "role": "both",
+     "quote": "Stauskas played for Canada in the 2009 FIBA Americas Under-16 Championship held in Argentina"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Helped Canada junior team win bronze medal (U-16 championship).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#69",
+     "role": "both",
+     "quote": "He helped lead the Canadian junior national team to a bronze medal"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2010",
+   "grain": "year",
+   "track": "education",
+   "text": "Transferred to St. Marks School the following year.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#10",
+     "role": "both",
+     "quote": "he transferred to St . Marks School the following year"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2011-03-26",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Made verbal commitment to Michigan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#11",
+     "role": "both",
+     "quote": "On March 26 , 2011 , Stauskas made a verbal commitment to Michigan"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2011-11",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Signed National Letter of Intent with Michigan.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#13",
+     "role": "both",
+     "quote": "At the time of their November 2011 National Letter of Intent signings"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named MVP of NEPSAC Class AA championship game.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#14",
+     "role": "both",
+     "quote": "59–53 2012 NEPSAC Class AA Championship game victory over Noels Tilton"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#2",
+     "role": "description",
+     "quote": "he was the championship games Most Valuable Player"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2012",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Selected to 2012 All-NEPSAC Class AA first team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#14",
+     "role": "both",
+     "quote": "He was selected to the 2012 All-NEPSAC Class AA first team"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2012-11-21",
+   "grain": "day",
+   "track": "other",
+   "label": "tournament",
+   "text": "Michigan won NIT Season Tip-Off tournament (Nov 21-23); Stauskas participated.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#16",
+     "role": "both",
+     "quote": "In the championship rounds of the 2012 NIT Season Tip-Off tournament at Madison Square Garden on November 21 and 23"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2012-11-26",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named Big Ten Freshman of the Week (1st time).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#16",
+     "role": "both",
+     "quote": "On November 26 , Stauskas earned Big Ten Freshman of the Week honors"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2012-12-01",
+   "grain": "day",
+   "track": "other",
+   "label": "milestone",
+   "text": "First career regular-season start.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#17",
+     "role": "both",
+     "quote": "On December 1 against Bradley , Stauskas made his first career regular season start"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2012-12-03",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Repeated as Big Ten Freshman of the Week (2nd time).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#18",
+     "role": "both",
+     "quote": "he repeated as Big Ten Freshman of the Week on December 3"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2012-12-03",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named Sports Illustrated National Freshman of the Week.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#18",
+     "role": "both",
+     "quote": "Stauskas also earned recognition from Sports Illustrated Seth Davis as National Freshman of the Week on December 3"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#3",
+     "role": "description",
+     "quote": "he was named Sports Illustrated National Freshman of the Week once"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2012-12-31",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned third Big Ten Freshman of the Week honor.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#18",
+     "role": "both",
+     "quote": "earning him his third Big Ten Freshman of the Week on December 31"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to South All-Regional Team at 2013 NCAA tournament.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#3",
+     "role": "both",
+     "quote": "During the 2013 NCAA Mens Division I Basketball Tournament , he earned South All-Regional Team recognition"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#24",
+     "role": "description",
+     "quote": "Stauskas joined McGary and Most Outstanding Player Trey Burke on the South All-Regional team"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2013-01-16",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named surprise player of first half of season by Sporting News.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#19",
+     "role": "both",
+     "quote": "On January 16 , Sporting News named Stauskas the surprise player of the first half of the year"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2013-01-31",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named to USBWA Wayman Tisdale Award top 12 midseason list.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#20",
+     "role": "both",
+     "quote": "On January 31 , Stauskas and Robinson were named to the Wayman Tisdale Award"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#21",
+     "role": "description",
+     "quote": "top 12 midseason list , recognizing their performances"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2013-04-08",
+   "grain": "day",
+   "track": "other",
+   "label": "tournament",
+   "text": "Michigan reached 2013 NCAA championship game, lost to Louisville.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#23",
+     "role": "both",
+     "quote": "Michigan advanced to the April 8 national championship game where the team lost to Louisville by an 82–76 margin"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named 2014 NCAA consensus All-American.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#3",
+     "role": "both",
+     "quote": "Stauskas went on to be named a 2014 NCAA Mens Basketball consensus All-American"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named 2014 All-American second team by Sporting News.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#37",
+     "role": "both",
+     "quote": "Stauskas was a 2014 NCAA Mens Basketball All-American second-team selection by the Sporting News"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to All-Midwest Regional team at 2014 NCAA tournament.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#35",
+     "role": "both",
+     "quote": "Stauskas and teammate Caris LeVert , joined Julius Randle"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Named to 2014 Big Ten Men's Basketball Tournament All-Tournament Team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#40",
+     "role": "both",
+     "quote": "Stauskas was named to the 2014 Big Ten"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#41",
+     "role": "description",
+     "quote": "Mens Basketball Tournament All-Tournament Team"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Drafted 8th overall by Sacramento Kings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#0",
+     "role": "both",
+     "quote": "drafted eighth overall in the 2014 NBA draft by the Sacramento Kings"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#49",
+     "role": "description",
+     "quote": "Stauskas was drafted 8th overall by the Sacramento Kings"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "championship",
+   "text": "Starting member of Kings' 2014 NBA Summer League champion team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#52",
+     "role": "both",
+     "quote": "During the 2014 NBA Summer League Stauskas was a starting member of the Summer League Champions"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2014-01-21",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned first Big Ten Player of the Week.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#29",
+     "role": "both",
+     "quote": "On January 21 , Stauskas earned his first Big Ten Conference Player of the Week recognition"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "2014-01-27",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned second Big Ten Player of the Week.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#31",
+     "role": "both",
+     "quote": "second Big Ten Player of the Week recognition as well as a CBS Sports National Player of the Week honor on January 27"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2014-01-27",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned CBS Sports National Player of the Week.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#31",
+     "role": "both",
+     "quote": "a CBS Sports National Player of the Week honor on January 27"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2014-01-28",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned Oscar Robertson National Player of the Week (USBWA).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#31",
+     "role": "both",
+     "quote": "Stauskas also earned Oscar Robertson National Player of the Week recognition from United States Basketball Writers Association on January 28"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2014-02-13",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named to Naismith College Player of the Year 30-man midseason watchlist.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#36",
+     "role": "both",
+     "quote": "On February 13 , Stauskas was one of four Big Ten players"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2014-02-24",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned third Big Ten Player of the Week.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#33",
+     "role": "both",
+     "quote": "earning his third Big Ten Player of the Week recognition on February 24"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2014-03-08",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Finalist for John R. Wooden Award.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#36",
+     "role": "both",
+     "quote": "On March 8 , Stauskas was one of two Big Ten players"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2014-03-10",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Earned fourth Big Ten Player of the Week (co-award with Shavon Shields).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#33",
+     "role": "both",
+     "quote": "On March 10 Stauskas earned his fourth Big Ten Player of the week"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "2014-03-11",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Named USBWA District V Player of the Year.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#40",
+     "role": "both",
+     "quote": "On March 11 Stauskas was named District V ( OH , IN , IL , MI , MN , WI ) Player of the Year"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "2014-03-12",
+   "grain": "day",
+   "track": "other",
+   "label": "award",
+   "text": "Listed on NABC Division I All-District 7 first team.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#40",
+     "role": "both",
+     "quote": "7 first team on March 12"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "2014-04-15",
+   "grain": "day",
+   "track": "other",
+   "label": "draft_declaration",
+   "text": "Declared for 2014 NBA draft (joint press conference, Big Ten Network).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#48",
+     "role": "date",
+     "quote": "the Big Ten Network , Stauskas declared for the 2014 NBA draft"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#47",
+     "role": "description",
+     "quote": "On April 15 , in a joint press conference with Robinson on"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2014-05",
+   "grain": "month",
+   "track": "other",
+   "label": "combine",
+   "text": "Attended NBA Draft Combine (measurements, strength and agility testing).",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#49",
+     "role": "both",
+     "quote": "At the May NBA Draft Combine , Stauskas opted to sit out of the shooting drills"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2014-05-05",
+   "grain": "day",
+   "track": "other",
+   "label": "appearance",
+   "text": "Threw ceremonial first pitch for Detroit Tigers.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#48",
+     "role": "both",
+     "quote": "On May 5 , Stauskas threw out the ceremonial first pitch for the Detroit Tigers at Comerica Park"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "2014-07-08",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed rookie scale contract with Sacramento Kings.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#52",
+     "role": "both",
+     "quote": "On July 8 , 2014 , Stauskas signed a rookie scale contract with the Sacramento Kings"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Represented Canada at 2015 FIBA Americas Championship.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#71",
+     "role": "both",
+     "quote": "He represented Canada at the 2015 FIBA Americas Championship"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "2015-03-24",
+   "grain": "day",
+   "track": "other",
+   "label": "nickname",
+   "text": "Received nickname Sauce Castillo via social media after closed captioning error.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#54",
+     "role": "both",
+     "quote": "24 , he received the nickname Sauce Castillo via social media after a closed captioning error"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#0",
+     "role": "description",
+     "quote": "Towards the end of his rookie season , Stauskas was tagged with the nickname Sauce"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "2015-07-10",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Traded to Philadelphia 76ers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#55",
+     "role": "both",
+     "quote": "On July 10 , 2015 , Stauskas was traded to the Philadelphia 76ers"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "2015-10-28",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Missed season opener with back spasms.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#55",
+     "role": "both",
+     "quote": "he missed the October 28 season opener with back spasms"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "2015-10-30",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "76ers debut: joined rotation with 12-point performance.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#56",
+     "role": "both",
+     "quote": "joined the young teams rotation in October 30 against the Utah Jazz with a 12-point debut performance"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "2015-11-02",
+   "grain": "day",
+   "track": "other",
+   "label": "starting_lineup",
+   "text": "Moved into 76ers starting lineup.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#56",
+     "role": "both",
+     "quote": "Stauskas moved into the starting lineup on November 2 against the Cleveland Cavaliers"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "2015-11-23",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Left knee contusion; sidelined for second half and road trip.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#58",
+     "role": "both",
+     "quote": "Stauskas had a left knee contusion on November 23 against the Minnesota Timberwolves"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "2016",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "76ers exercised fourth-year team option on Stauskas.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#62",
+     "role": "both",
+     "quote": "After the first week of the 2016–17 NBA season , the 76ers exercised the fourth-year team option"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "2016-01-04",
+   "grain": "day",
+   "track": "other",
+   "label": "starting_lineup",
+   "text": "Returned to 76ers starting lineup.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#61",
+     "role": "both",
+     "quote": "returned to the starting lineup for the 76ers on January 4 against the Timberwolves"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "2016-01-15",
+   "grain": "day",
+   "track": "other",
+   "label": "injury",
+   "text": "Injured in overtime vs Chicago Bulls; missed three games.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#61",
+     "role": "both",
+     "quote": "he was injured in overtime of the January 15 contest against the Chicago Bulls"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "2017-12-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Traded to Brooklyn Nets.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#63",
+     "role": "both",
+     "quote": "On December 7 , 2017 , Stauskas was traded , along with Jahlil Okafor"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "2017-12-15",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Nets debut: team-high 22 points.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#63",
+     "role": "both",
+     "quote": "In his debut for the Nets on December 15 , 2017"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "2018-07-05",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed with Portland Trail Blazers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#65",
+     "role": "both",
+     "quote": "On July 5 , 2018 , Stauskas signed with the Portland Trail Blazers"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "2018-10-18",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Trail Blazers debut in season opener (24 points off bench).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#65",
+     "role": "both",
+     "quote": "In his debut for the Trail Blazers in their season opener on October 18 , 2018"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "2019-02-04",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Traded to Cleveland Cavaliers (for Rodney Hood).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "both",
+     "quote": "On February 4 , 2019 , Stauskas was traded to the Cleveland Cavaliers"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "2019-02-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Acquired by Houston Rockets in three-team trade.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "both",
+     "quote": "Three days later , he was acquired by the Houston Rockets"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "2019-02-07",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Traded to Indiana Pacers the same day.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "both",
+     "quote": "Hours later , he was traded again , this time to the Indiana Pacers"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "2019-02-08",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Waived by Indiana Pacers.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "date",
+     "quote": "On February 4 , 2019 , Stauskas was traded to the Cleveland Cavaliers"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "description",
+     "quote": "He was waived by the Pacers on February 8"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e58",
+   "date": "2019-02-11",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed with Cleveland Cavaliers.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#66",
+     "role": "date",
+     "quote": "On February 11 , Stauskas signed"
+    },
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#67",
+     "role": "description",
+     "quote": "with the Cavaliers"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "2019-08-01",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed one-year deal with Kirolbet Baskonia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#68",
+     "role": "both",
+     "quote": "On August 1 , 2019 , Stauskas signed a one-year deal with Spanish EuroLeague club Kirolbet Baskonia"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "2020-02-12",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Baskonia and Stauskas agreed to terminate contract.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#68",
+     "role": "both",
+     "quote": "On February 12 , 2020 , Baskonia and Stauskas agreed to terminate the contract"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "2020-12-03",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Signed training camp contract with Milwaukee Bucks.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#68",
+     "role": "both",
+     "quote": "On December 3 , 2020 , Stauskas was signed to a training camp contract by the Milwaukee Bucks"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "2021-01-27",
+   "grain": "day",
+   "track": "affiliation",
+   "text": "Included on Raptors 905 roster.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Nik_Stauskas#68",
+     "role": "both",
+     "quote": "On January 27 , 2021 , Stauskas was included on the Raptors 905 roster"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Lindy's Sports preseason All-Big Ten second team (2013-14 season)",
+  "Big Ten Player of the Year (2013-14 season)",
+  "Unanimous first-team All-Big Ten, coaches and media (2013-14 season)",
+  "USA Today third-team All-American (2013-14 season)",
+  "NABC first-team All-American (2013-14 season)",
+  "Sports Illustrated and Bleacher Report second-team All-American (2013-14 season)",
+  "NBC Sports third-team selection (2013-14 season)",
+  "Associated Press second-team All-American, consensus All-American (2013-14 season)",
+  "John R. Wooden Award All-American Team (2013-14 season)",
+  "Tournament MVP, Puerto Rico Tip-Off (2013)",
+  "Played one-on-one vs Vince Carter at Raptors open practice (age 8 or 9)",
+  "Broken arm ended soccer attempt (age six)",
+  "Joined Toronto AAU team run by Ro Russell (around 2008-09)",
+  "Spent 2009-10 academic year at South Kent School",
+  "Missed 2009-10 basketball season due to hip injury",
+  "Invited to train with Canadian senior national team",
+  "Signed with agent Mark Bartelstein (2014, no exact date)",
+  "Right tibia stress reaction during 2015 preseason",
+  "Waived by Milwaukee Bucks at end of training camp (2020)"
+ ]
+}

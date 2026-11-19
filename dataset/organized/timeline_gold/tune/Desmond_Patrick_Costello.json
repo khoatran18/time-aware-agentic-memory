@@ -1,0 +1,465 @@
+{
+ "page_id": "Desmond_Patrick_Costello",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1912-01-31",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Born in Auckland, New Zealand.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#0",
+     "role": "date",
+     "quote": "( 31 January 1912 – 23 February 1964 )"
+    },
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#1",
+     "role": "description",
+     "quote": "Costello was born in Auckland"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1927",
+   "grain": "year",
+   "track": "education",
+   "text": "Passed university entrance examination.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#2",
+     "role": "both",
+     "quote": "passed his university entrance examination in 1927"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1928",
+   "grain": "year",
+   "track": "education",
+   "text": "Began studies at Auckland University College on scholarships.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#3",
+     "role": "both",
+     "quote": "From 1928 until 1931 , on more scholarships , he attended the Auckland University College"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1930",
+   "grain": "year",
+   "track": "education",
+   "text": "Completed BA at Auckland University College.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#3",
+     "role": "both",
+     "quote": "completing his BA in 1930"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1931",
+   "grain": "year",
+   "track": "education",
+   "text": "Ended attendance at Auckland University College.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#3",
+     "role": "both",
+     "quote": "From 1928 until 1931"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1931",
+   "grain": "year",
+   "track": "education",
+   "text": "Completed MA with first class honours in Greek and Latin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#3",
+     "role": "both",
+     "quote": "MA in 1931 with first class honours in Greek and Latin"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1932",
+   "grain": "year",
+   "track": "education",
+   "text": "Awarded postgraduate scholarship and went to Cambridge (Trinity College).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#4",
+     "role": "both",
+     "quote": "In 1932 Costello was awarded a postgraduate arts scholarship and went to Cambridge"
+    },
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#13",
+     "role": "both",
+     "quote": "since he had left in 1932"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1934",
+   "grain": "year",
+   "track": "education",
+   "text": "Left Trinity College, Cambridge, graduating with first class honours in classics.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#4",
+     "role": "both",
+     "quote": "until 1934 , graduating with first class honours in the classical tripos"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1935",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Became senior research scholar at Trinity College, Cambridge.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#5",
+     "role": "both",
+     "quote": "In 1935 Costello was a senior research scholar at Trinity"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1935",
+   "grain": "year",
+   "track": "family",
+   "text": "Married Bella (Bil) Lerner.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#5",
+     "role": "both",
+     "quote": "In 1935 Costello was a senior research scholar at Trinity , and married Bella ( Bil ) Lerner"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1936",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed lecturer in classics at University College of the South West, Exeter.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#7",
+     "role": "both",
+     "quote": "Costello was in 1936 appointed lecturer in classics at the University College of the South West"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1940",
+   "grain": "year",
+   "track": "role",
+   "text": "Dismissed from lectureship at Exeter over left-wing political activities.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#7",
+     "role": "both",
+     "quote": "a position from which he was dismissed in 1940"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1940",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Enlisted in 2nd New Zealand Division.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#7",
+     "role": "both",
+     "quote": "He then enlisted in 2nd New Zealand Division"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1941",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Sailed for Greece with 21st Battalion.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#7",
+     "role": "both",
+     "quote": "in the following year he sailed for Greece with 21st Battalion"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1942",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Seconded to Eighth Army GCHQ.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#8",
+     "role": "both",
+     "quote": "In 1942 he was seconded to Eighth Army GCHQ"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1944-05",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Seconded to New Zealand Department of External Affairs.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#9",
+     "role": "both",
+     "quote": "seconded to the New Zealand Department of External Affairs in May 1944"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1944-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Arrived in Moscow with the New Zealand Minister to open the new Legation.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#9",
+     "role": "both",
+     "quote": "in August arrived in Moscow with the New Zealand Minister"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1945",
+   "grain": "year",
+   "track": "role",
+   "text": "Recalled to the Army with rank of Major.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#9",
+     "role": "both",
+     "quote": "In 1945 he was recalled to the Army"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1945",
+   "grain": "year",
+   "track": "other",
+   "label": "mission",
+   "text": "Was one of a party sent to Poland on repatriation and reporting mission.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#9",
+     "role": "both",
+     "quote": "In 1945 he was recalled to the Army and as Major Costello was one of a party sent to Poland"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1945",
+   "grain": "year",
+   "track": "work",
+   "text": "Wrote report on Majdanek and Auschwitz camps while in Poland.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#9",
+     "role": "both",
+     "quote": "While in Poland , Costello visited and wrote a report on Majdanek concentration camp"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1946-07",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Member of New Zealand delegation at Paris Peace Conference (July to October 1946).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#10",
+     "role": "both",
+     "quote": "Between July and October 1946 he was a member of the New Zealand delegation"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1950",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Closed the New Zealand Legation in Moscow.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#10",
+     "role": "both",
+     "quote": "In 1950 Costello closed the Legation in Moscow"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1950",
+   "grain": "year",
+   "track": "location",
+   "text": "Paid his only visit to New Zealand since 1932.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#13",
+     "role": "both",
+     "quote": "In 1950 Costello paid his only visit to New Zealand"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1950",
+   "grain": "year",
+   "track": "other",
+   "label": "arrest",
+   "text": "Arrested for public drunkenness during New Zealand visit.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#13",
+     "role": "both",
+     "quote": "While there he was arrested for public drunkenness"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1950",
+   "grain": "year",
+   "track": "role",
+   "text": "Posted to Paris as First Secretary at New Zealand Legation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#15",
+     "role": "both",
+     "quote": "It was from Costellos time in Paris from 1950 to 1955"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Left Paris posting and New Zealand External Affairs service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#13",
+     "role": "both",
+     "quote": "In the event he did not leave until 1955"
+    },
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#16",
+     "role": "both",
+     "quote": "Costello stayed on in Paris until 1955"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1955",
+   "grain": "year",
+   "track": "role",
+   "text": "Appointed to the chair of Russian at the University of Manchester.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#17",
+     "role": "both",
+     "quote": "In 1955 Costello was appointed to the chair of Russian at the University of Manchester"
+    }
+   ]
+  },
+  {
+   "date": "1961",
+   "grain": "year",
+   "track": "other",
+   "label": "questioning",
+   "text": "Questioned about the Kroger passports after the 1961 spy arrests; denied knowledge",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#19",
+     "role": "both",
+     "quote": "When questioned after the arrests , he denied any knowledge of the Krogers"
+    },
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#18",
+     "role": "date",
+     "quote": "In 1961 several people were arrested in London and charged with spying"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e28"
+  },
+  {
+   "id": "e29",
+   "date": "1964-02-23",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died suddenly in Manchester, aged 52.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#17",
+     "role": "both",
+     "quote": "where he remained until his sudden death in 1964"
+    },
+    {
+     "chunk_id": "/wiki/Desmond_Patrick_Costello#0",
+     "role": "date",
+     "quote": "31 January 1912 – 23 February 1964"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Started school at the local Catholic school in Devonport",
+  "Transferred to Ponsonby school",
+  "Won scholarship and attended Auckland Grammar School",
+  "Elected a scholar of Trinity College, Cambridge",
+  "Won a one-year research studentship at the British School at Athens",
+  "Joined the Communist Party while at Cambridge",
+  "Claimed to have resigned from the Communist Party before the war",
+  "Evacuated to Crete and then Cairo",
+  "Attended officer training school and was commissioned second lieutenant",
+  "Joined the Long Range Desert Group",
+  "Transferred back to 2nd New Zealand Division as divisional intelligence officer; promoted captain",
+  "Got to know Boris Pasternak during Moscow posting",
+  "Helped get Doctor Zhivago manuscript to Pasternak's sisters in Oxford",
+  "Informed by Alister McIntosh that his career in External Affairs was finished",
+  "Posting to Paris as First Secretary arranged and allowed to proceed after Prime Minister Holland's reprimand",
+  "Observed meeting a Soviet agent shortly before his death (per MI5 file)"
+ ]
+}

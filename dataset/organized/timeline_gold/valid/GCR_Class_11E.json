@@ -1,0 +1,128 @@
+{
+ "page_id": "GCR_Class_11E",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1913",
+   "grain": "year",
+   "track": "work",
+   "text": "Ten Class 11E 4-4-0 locomotives built at Gorton workshops.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#0",
+     "role": "both",
+     "quote": "Ten were built in the railways own workshops at Gorton , Manchester during 1913"
+    },
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#2",
+     "role": "both",
+     "quote": "Ten were built in 1913"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1917",
+   "grain": "year",
+   "track": "naming",
+   "text": "Locomotive no. 429 renamed Sir Douglas Haig.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#9",
+     "role": "both",
+     "quote": "so in 1917 no . 429 was renamed Sir Douglas Haig"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1917",
+   "grain": "year",
+   "track": "naming",
+   "text": "Locomotive no. 437 renamed Prince George after King George V's fifth child.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#10",
+     "role": "both",
+     "quote": "Charles Stuart-Wortley was raised to the peerage as Baron Stuart of Wortley in 1917"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1919",
+   "grain": "year",
+   "track": "naming",
+   "text": "Locomotive no. 429 renamed a second time, to Prince Henry.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#9",
+     "role": "both",
+     "quote": "Sir Douglas was created Earl Haig in 1919"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1924",
+   "grain": "year",
+   "track": "naming",
+   "text": "LNER added 5000 to GCR class numbers after the 1923 Grouping.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#11",
+     "role": "both",
+     "quote": "this occurring in 1924–5"
+    }
+   ]
+  },
+  {
+   "date": "1927-02-27",
+   "grain": "day",
+   "track": "other",
+   "label": "accident",
+   "text": "No. 5437 Prince George, hauling an express passenger train, collided with a light engine in Yorkshire",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#6",
+     "role": "both",
+     "quote": "On 27 February 1927 , locomotive No . 5437 Prince George was hauling an express passenger train that was involved in a collision with a light engine at Yorkshire"
+    }
+   ],
+   "id": "e6"
+  },
+  {
+   "id": "e7",
+   "date": "1946",
+   "grain": "year",
+   "track": "naming",
+   "text": "Class renumbered 2650–9 under the 1946 renumbering.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#11",
+     "role": "both",
+     "quote": "Under the 1946 renumbering"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1948",
+   "grain": "year",
+   "track": "naming",
+   "text": "British Railways increased class numbers by 60000.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/GCR_Class_11E#11",
+     "role": "both",
+     "quote": "During 1948–50"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Class remained in service until the mid-1950s (withdrawal)"
+ ]
+}

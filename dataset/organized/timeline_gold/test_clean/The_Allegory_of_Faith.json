@@ -1,0 +1,168 @@
+{
+  "page_id": "/wiki/The_Allegory_of_Faith",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1670",
+      "grain": "year",
+      "track": "work",
+      "text": "Vermeer painted The Allegory of Faith, c. 1670-1672.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#0", "role": "both", "quote": "from about 1670–1672"}
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "1696",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Painting auctioned in the Dissius sale.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#23", "role": "both", "quote": "auctioned off in the Dissius sale of 1696"}
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1699",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Painting auctioned in Amsterdam after Swoll's death.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#23", "role": "both", "quote": "in 1699 , the painting was auctioned"}
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1718",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Painting auctioned again in Amsterdam.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#24", "role": "both", "quote": "was auctioned off in 1718 , again in Amsterdam"}
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1735",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Painting auctioned again.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#24", "role": "both", "quote": "It was auctioned again in 1735"}
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1749",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Painting auctioned in the Ietswaart sale.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#24", "role": "both", "quote": "in the Ietswaart sale of 1749"}
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1899",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Dealer Wächtler offered the painting for sale in Berlin.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#27", "role": "both", "quote": "In 1899 it was put up for sale by a dealer"}
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1899",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Abraham Bredius bought the painting for about DM 700.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#27", "role": "both", "quote": "That year Abraham Bredius bought it for about DM 700"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e9",
+      "date": "1899",
+      "grain": "year",
+      "track": "location",
+      "text": "Bredius loaned the painting to the Mauritshuis for about 24 years.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#27", "role": "date", "quote": "That year Abraham Bredius bought it for about DM 700"},
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#28", "role": "description", "quote": "Bredius then loaned the work to the Mauritshuis"}
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e10",
+      "date": "1923",
+      "grain": "year",
+      "track": "location",
+      "text": "Bredius gave the painting to Museum Boijmans Van Beuningen, Rotterdam, on long-term loan.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#28", "role": "both", "quote": "until 1923 when Bredius gave it to the Museum Boijmans Van Beuningen"}
+      ]
+    },
+    {
+      "id": "e11",
+      "date": "1928",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Bredius sold the painting via dealer Kleinberger to Michael Friedsam in New York.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#29", "role": "both", "quote": "In 1928 , he sold it through the dealer Kleinberger"}
+      ]
+    },
+    {
+      "id": "e12",
+      "date": "1931",
+      "grain": "year",
+      "track": "ownership_structure",
+      "text": "Friedsam bequeathed the painting to the Metropolitan Museum of Art, where it remains.",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#0", "role": "both", "quote": "It has been in the Metropolitan Museum of Art in New York since 1931"},
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#29", "role": "both", "quote": "bequeathed it in 1931 as part of the Friedsam Collection"}
+      ]
+    },
+    {
+      "id": "e13",
+      "date": "2012-09-27",
+      "grain": "day",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Loaned to Vermeer exhibition at Scuderie del Quirinale, Rome (to January 2013).",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#30", "role": "both", "quote": "which opened on September 27 , 2012 and ran through January 20 , 2013"}
+      ]
+    },
+    {
+      "id": "e14",
+      "date": "2014-10-30",
+      "grain": "day",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Loaned to Rembrandt and the Dutch Golden Age exhibition, Budapest (to February 2015).",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#30", "role": "both", "quote": "which opened on October 30 , 2014 and ran through February 15 , 2015"}
+      ]
+    },
+    {
+      "id": "e15",
+      "date": "2017-02-22",
+      "grain": "day",
+      "track": "other",
+      "label": "exhibition",
+      "text": "Loaned to Vermeer et les maîtres exhibition at the Louvre, Paris (to May 2017).",
+      "evidence": [
+        {"chunk_id": "/wiki/The_Allegory_of_Faith#31", "role": "both", "quote": "which opened on February 22 , 2017 and ran through May 22 , 2017"}
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "early 19th century: painting found its way to Austria",
+    "end of the 19th century: painting part of Ilya Ostroukhov (later Dmitry Shchukin) collection in Moscow",
+    "first known owner Herman Stoffelsz van Swoll (no date given)"
+  ]
+}

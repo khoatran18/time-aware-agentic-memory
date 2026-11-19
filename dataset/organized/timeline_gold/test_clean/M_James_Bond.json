@@ -1,0 +1,175 @@
+{
+  "page_id": "/wiki/M_(James_Bond)",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1898",
+      "grain": "year",
+      "track": "role",
+      "text": "Moriarty, disguised as M, runs the League in the 1898-era.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#37",
+          "role": "both",
+          "quote": "the 1898-era League ( led by Mina Harker ) was directed by Campion Bond"
+        }
+      ],
+      "flag": "approximate_date"
+    },
+    {
+      "id": "e2",
+      "date": "1967",
+      "grain": "year",
+      "track": "role",
+      "text": "McTarry (M) accidentally killed after ordering mortar strike on Bond's mansion.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#33",
+          "role": "both",
+          "quote": "The 1967 satire Casino Royale featured not one but two Ms"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1967",
+      "grain": "year",
+      "track": "role",
+      "text": "David Niven's Bond becomes the new M and orders agents renamed James Bond 007.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#33",
+          "role": "date",
+          "quote": "The 1967 satire Casino Royale featured not one but two Ms"
+        },
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#34",
+          "role": "description",
+          "quote": "Subsequently , Bond—played by David Niven—becomes the new M"
+        }
+      ],
+      "flag": "derived_date"
+    },
+    {
+      "id": "e4",
+      "date": "1979",
+      "grain": "year",
+      "track": "role",
+      "text": "Bernard Lee's tenure as M ends with Moonraker.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#14",
+          "role": "both",
+          "quote": "M was played by Bernard Lee from the first Bond film , Dr . No , until Moonraker ( 1979 )"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1983",
+      "grain": "year",
+      "track": "role",
+      "text": "Robert Brown begins playing M; listed tenure 1983–1989.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#19",
+          "role": "both",
+          "quote": "Robert Brown : 1983–1989"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1989",
+      "grain": "year",
+      "track": "role",
+      "text": "Robert Brown's tenure as M ends; listed tenure 1983–1989.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#19",
+          "role": "both",
+          "quote": "Robert Brown : 1983–1989"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1995",
+      "grain": "year",
+      "track": "role",
+      "text": "Judi Dench takes over as M, replacing Robert Brown.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#23",
+          "role": "date",
+          "quote": "Judi Dench : 1995–2015"
+        },
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#24",
+          "role": "description",
+          "quote": "the producers brought in Dame Judi Dench to take over as the new M"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1998",
+      "grain": "year",
+      "track": "role",
+      "text": "Barbara Mawdsley introduced as new M in The Facts of Death.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#13",
+          "role": "both",
+          "quote": "1998 novel The Facts of Death continued Messervys retirement"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "date": "2009",
+      "grain": "year",
+      "track": "role",
+      "text": "Emma Peel is the M of 2009 in the League's final volume.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#38",
+          "role": "both",
+          "quote": "the M of 2009 is an elderly Emma Peel"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "date": "2015",
+      "grain": "year",
+      "track": "role",
+      "text": "Judi Dench's tenure as M ends; listed 1995–2015, final Spectre video appearance.",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#23",
+          "role": "date",
+          "quote": "Judi Dench : 1995–2015"
+        },
+        {
+          "chunk_id": "/wiki/M_(James_Bond)#28",
+          "role": "description",
+          "quote": "Denchs M makes a final appearance in Spectre in a video will"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Bernard Lee begins as M in Dr. No (no year stated)",
+    "Sir Miles Messervy appointed head of MI6 after predecessor assassinated at his desk",
+    "M kidnapped from Quarterdeck in Colonel Sun (no year stated)",
+    "M kidnapped and rescued, then retires from MI6 in COLD (no year stated)",
+    "M (Dench) shot and killed at end of Skyfall (no year stated)",
+    "Gareth Mallory succeeds Dench as M after Skyfall (no year stated)",
+    "Mallory demoted and 00 Section dismantled in Spectre (no year stated)",
+    "M previously in charge of MI6 Hong Kong operations, 1990s (decade only)",
+    "Mycroft Holmes assumes role of M after Moriarty's death (no year stated)",
+    "Harry Lime as M in the 1950s-set League sequel (decade only)",
+    "Duchess revealed as M in Belinda Blinked book five, chapter eight (no year stated)"
+  ]
+}

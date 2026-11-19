@@ -1,0 +1,132 @@
+{
+ "page_id": "/wiki/Guy_Gabaldon",
+ "events": [
+  {"id": "e1", "date": "1926-03-22", "grain": "day", "track": "other", "label": "birth",
+   "text": "Guy Gabaldon born in Los Angeles, California.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#0", "role": "both", "quote": "Guy Louis Gabaldon ( March 22 , 1926 – August 31 , 2006 ) was a United States Marine"},
+    {"chunk_id": "/wiki/Guy_Gabaldon#2", "role": "description", "quote": "Gabaldon was born in Los Angeles , California ."}
+   ]},
+  {"id": "e2", "date": "1943-03-22", "grain": "day", "track": "affiliation",
+   "text": "Joined the United States Marine Corps on his 17th birthday.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#4", "role": "both", "quote": "On March 22 , 1943 , Gabaldons 17th birthday , he joined the United States Marine Corps"}
+   ]},
+  {"id": "e3", "date": "1944-07-08", "grain": "day", "track": "other", "label": "capture",
+   "text": "Captured two more Japanese guards on Saipan.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#11", "role": "both", "quote": "The next day , on July 8 , Gabaldon captured two more enemy guards"}
+   ],
+   "flag": "derived_date"},
+  {"id": "e4", "date": "1944-07-08", "grain": "day", "track": "other", "label": "surrender",
+   "text": "Over 800 Japanese soldiers and civilians surrendered to him on Saipan.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#11", "role": "both", "quote": "over eight hundred Japanese soldiers and civilians surrendered to Gabaldon"}
+   ],
+   "flag": "derived_date"},
+  {"id": "e5", "date": "1957", "grain": "year", "track": "other", "label": "tv appearance",
+   "text": "Invited guest on the NBC program This Is Your Life.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#19", "role": "both", "quote": "in 1957 , he was the invited guest of This is Your Life"}
+   ]},
+  {"id": "e6", "date": "1960", "grain": "year", "track": "work",
+   "text": "Hollywood film Hell to Eternity released, memorializing his Saipan actions.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#21", "role": "both", "quote": "in 1960 released the film Hell to Eternity"}
+   ]},
+  {"id": "e7", "date": "1960", "grain": "year", "track": "other", "label": "award",
+   "text": "Silver Star upgraded to the Navy Cross by the Marine Corps.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#0", "role": "both", "quote": "which was upgraded by the Marine Corps to the Navy Cross in 1960"},
+    {"chunk_id": "/wiki/Guy_Gabaldon#17", "role": "both", "quote": "In 1960 , the Marine Corps elevated his Silver Star Medal to the Navy Cross"}
+   ]},
+  {"id": "e8", "date": "1960-09-01", "grain": "day", "track": "other", "label": "tv appearance",
+   "text": "Appeared as himself on the CBS game show To Tell the Truth.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#19", "role": "both", "quote": "on the September 1 , 1960 episode of the CBS game show To Tell the Truth"}
+   ]},
+  {"id": "e9", "date": "1964", "grain": "year", "track": "other", "label": "candidacy",
+   "text": "Unsuccessfully ran for US Congress as a Republican in California.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#1", "role": "both", "quote": "In 1964 , he unsuccessfully ran for US Congressman in his Southern California district"},
+    {"chunk_id": "/wiki/Guy_Gabaldon#22", "role": "both", "quote": "In 1964 , Gabaldon unsuccessfully ran for the United States Congress as a Republican in California"}
+   ]},
+  {"id": "e10", "date": "1970", "grain": "year", "track": "location",
+   "text": "Moved to Saipan with his wife, starting a seafood business.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#22", "role": "both", "quote": "In 1970 , he moved to Saipan with his wife where he established a seafood business"}
+   ]},
+  {"id": "e11", "date": "1990", "grain": "year", "track": "work",
+   "text": "Authored and self-published the book Saipan: Suicide Island.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#1", "role": "both", "quote": "In 1990 , he authored a book entitled , Saipan : Suicide Island"},
+    {"chunk_id": "/wiki/Guy_Gabaldon#22", "role": "both", "quote": "In 1990 , he authored and self-published a book ; Saipan : Suicide Island"}
+   ]},
+  {"id": "e12", "date": "1995", "grain": "year", "track": "location",
+   "text": "Returned to California from Saipan.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#22", "role": "both", "quote": "In 1995 , he returned to California"}
+   ]},
+  {"id": "e13", "date": "2003", "grain": "year", "track": "location",
+   "text": "Moved to Old Town, Florida.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#23", "role": "both", "quote": "In 2003 , he moved to Old Town , Florida"}
+   ]},
+  {"id": "e14", "date": "2004-09", "grain": "month", "track": "other", "label": "honour",
+   "text": "Honored by the Pentagon at a ceremony for Hispanic American WWII veterans.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#24", "role": "both", "quote": "In September 2004 , Gabaldon was honored by the Pentagon"}
+   ]},
+  {"id": "e15", "date": "2005-11-12", "grain": "day", "track": "other", "label": "award",
+   "text": "Received the Chesty Puller Award from the WWII Veterans Committee.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#26", "role": "both", "quote": "On November 12 , 2005 , he was the recipient of the Chesty Puller Award"}
+   ]},
+  {"id": "e16", "date": "2006", "grain": "year", "track": "other", "label": "magazine cover",
+   "text": "Featured on the cover of the WWII Veterans Committee quarterly magazine.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#27", "role": "both", "quote": "That same year the World War II Veterans Committee in Washington , D.C. , featured Gabaldon on the cover of their quarterly magazine"}
+   ],
+   "flag": "derived_date"},
+  {"id": "e17", "date": "2006-07", "grain": "month", "track": "other", "label": "honour",
+   "text": "Honored by the National Council of La Raza.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#27", "role": "both", "quote": "Also in July , Gabaldon was honored by the National Council of La Raza"}
+   ],
+   "flag": "derived_date"},
+  {"id": "e18", "date": "2006-07-07", "grain": "day", "track": "other", "label": "honour",
+   "text": "Honored by Los Angeles Mayor Antonio Villaraigosa and the City Council.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#27", "role": "both", "quote": "On July 7 , 2006 , he was honored by Mayor Antonio Villaraigosa of Los Angeles"}
+   ]},
+  {"id": "e19", "date": "2006-08-31", "grain": "day", "track": "other", "label": "death",
+   "text": "Died of heart disease in Old Town, Florida.",
+   "evidence": [
+    {"chunk_id": "/wiki/Guy_Gabaldon#25", "role": "both", "quote": "On August 31 , 2006 , Gabaldon died in Old Town , Florida"}
+   ]}
+ ],
+ "undated_mentions": [
+  "Moved in with the Nakano family at age 12",
+  "Attended Japanese language school daily with the Nakano children",
+  "Joined the multi-ethnic Moe Gang",
+  "Worked at a cannery in Alaska",
+  "Basic training at Camp Pendleton",
+  "Completed Enlisted Marine Japanese Language School at Camp Elliot",
+  "Assigned to HQ and Service Company, 2nd Marine Regiment, as scout and observer",
+  "Began taking prisoners on the first night on Saipan",
+  "Reprimanded and threatened with court-martial for leaving his post",
+  "Returned with 50 Japanese prisoners and was allowed to act as lone wolf operator",
+  "Seriously wounded in an enemy machine gun ambush on Saipan",
+  "Recommended for the Medal of Honor by Captain John Schwabe",
+  "Awarded the Silver Star Medal",
+  "Honorable discharge from the Marine Corps for combat wounds",
+  "Struck and broke the jaw of an elderly Japanese civilian on Saipan",
+  "Moved to Mexico after returning to civilian life",
+  "First marriage to June Gabaldon ended in divorce",
+  "Met second wife Ohana Suzuki while working in Mexico",
+  "Captures verified on national program by Marine Corps intelligence officers",
+  "Served as adviser on the filming of Hell to Eternity",
+  "Became known as The Pied Piper of Saipan",
+  "Honored by resolutions from City of Los Angeles, City of Chicago and Commonwealth of Northern Marianas"
+ ]
+}

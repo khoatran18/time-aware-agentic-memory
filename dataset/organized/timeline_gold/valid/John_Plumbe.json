@@ -1,0 +1,509 @@
+{
+ "page_id": "/wiki/John_Plumbe",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1809-07-13",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "John Plumbe born in Castle Caereinion, Powys, Wales.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#0",
+     "role": "both",
+     "quote": "July 13 , 1809 – May 29 , 1857"
+    },
+    {
+     "chunk_id": "/wiki/John_Plumbe#1",
+     "role": "both",
+     "quote": "Plumbe was born in Castle Caereinion , Powys , Wales in 1809"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1821",
+   "grain": "year",
+   "track": "location",
+   "text": "Family moved to Philipsburg, Pennsylvania.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#1",
+     "role": "both",
+     "quote": "The family moved to Philipsburg , Pennsylvania in 1821"
+    }
+   ]
+  },
+  {
+   "date": "1829",
+   "grain": "year",
+   "track": "work",
+   "label": null,
+   "text": "Surveying sites for future railroad routes as a civil engineer",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#2",
+     "role": "both",
+     "quote": "by 1829 was surveying sites for future railroad routes"
+    }
+   ],
+   "flag": "approximate_date",
+   "id": "e3"
+  },
+  {
+   "id": "e4",
+   "date": "1836",
+   "grain": "year",
+   "track": "location",
+   "text": "Relocated to Wisconsin territory and became railroad advocate.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#2",
+     "role": "both",
+     "quote": "About 1836 he relocated to the Wisconsin territory"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1839",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Sketches of Iowa and Wisconsin in St. Louis.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "St . Louis : Chambers , Harris & Knapp , 1839"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1840",
+   "grain": "year",
+   "track": "other",
+   "label": "career",
+   "text": "Took up photography after seeing an itinerant daguerreotypist's work.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#4",
+     "role": "both",
+     "quote": "Plumbe took up photography in 1840"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1841",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "United States Photographic Institute in Boston listed under Plumbe franchise.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#8",
+     "role": "both",
+     "quote": "United States Photographic Institute ( 1841 )"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1841",
+   "grain": "year",
+   "track": "work",
+   "text": "Published instructions for Plumbe's patent daguerreotype apparatus in Boston.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "Plumbes patent improved Daguerreotype apparatus . Boston . 1841"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1844",
+   "grain": "year",
+   "track": "work",
+   "text": "Exhibited 35 daguerreotypes at Massachusetts Charitable Mechanic Association.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#13",
+     "role": "both",
+     "quote": "Massachusetts Charitable Mechanic Association , Quincy Hall , Boston , 1844"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1844",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Received silver medal for daguerreotypes at Massachusetts Charitable Mechanic Association.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#13",
+     "role": "both",
+     "quote": "Massachusetts Charitable Mechanic Association , Quincy Hall , Boston , 1844"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1845",
+   "grain": "year",
+   "track": "work",
+   "text": "Exhibited photographic work at American Institute fair, New York.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#13",
+     "role": "both",
+     "quote": "Fair of the American Institute , NY ( 1845 )"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1846",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Founded the National Publishing Company.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "In 1846 he founded the National Publishing Company"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1846",
+   "grain": "year",
+   "track": "work",
+   "text": "National Plumbeotype Gallery publication period begins.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "The National Plumbeotype Gallery , c . 1846-1847"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1846",
+   "grain": "year",
+   "track": "work",
+   "text": "Popular Magazine published by National Publishing Co. begins.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "Popular Magazine . National Publishing Co. , 1846-1847"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1847",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Sold his New York gallery to William H. Butler.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#12",
+     "role": "both",
+     "quote": "He sold his New York gallery to William H . Butler , his head man there , in 1847"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1847",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Began selling his part of the galleries he had established.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#12",
+     "role": "both",
+     "quote": "By 1847-1848 Plumbe sold his part of the galleries hed established"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1847",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Plumbeian.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "The Plumbeian . 1847"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1847",
+   "grain": "year",
+   "track": "work",
+   "text": "Popular Magazine publication period ends.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "Popular Magazine . National Publishing Co. , 1846-1847"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1847",
+   "grain": "year",
+   "track": "work",
+   "text": "National Plumbeotype Gallery publication period ends.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "The National Plumbeotype Gallery , c . 1846-1847"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1847-09-01",
+   "grain": "day",
+   "track": "work",
+   "text": "Project of a Railroad to the Pacific published in The Emancipator, Boston.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#15",
+     "role": "both",
+     "quote": "Plumbes Project of a Railroad to the Pacific . The Emancipator ( Boston ) . 09-01-1847"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1848",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "Completed sale of his part of the galleries.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#12",
+     "role": "both",
+     "quote": "By 1847-1848 Plumbe sold his part of the galleries hed established"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1849",
+   "grain": "year",
+   "track": "location",
+   "text": "Began living in California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "Plumbe lived in California from 1849 to 1854"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1849",
+   "grain": "year",
+   "track": "location",
+   "text": "Plumbes Daguerrean Rooms on Court Street, Boston, begins operating.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#8",
+     "role": "both",
+     "quote": "Plumbes Daguerrean Rooms , Court Street ( 1849–1850 )"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1850",
+   "grain": "year",
+   "track": "location",
+   "text": "Plumbes Daguerrean Rooms on Court Street, Boston, ceases operating.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#8",
+     "role": "both",
+     "quote": "Plumbes Daguerrean Rooms , Court Street ( 1849–1850 )"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1850",
+   "grain": "year",
+   "track": "location",
+   "text": "Plumbes Daguerrian Gallery on Washington Street begins operating.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#8",
+     "role": "both",
+     "quote": "Plumbes Daguerrian Gallery , Washington Street ( 1850–1851 )"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1850",
+   "grain": "year",
+   "track": "work",
+   "text": "Published a translation of papers on Sutter grant, Sacramento.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#16",
+     "role": "both",
+     "quote": "Sacramento , CA : 1850"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1850",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Memorial for Plumbe's Pacific Railroad.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#17",
+     "role": "both",
+     "quote": "Plumbes Memorial Pacific Railroad . 1850"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1851",
+   "grain": "year",
+   "track": "location",
+   "text": "Plumbes Daguerrian Gallery on Washington Street ceases operating.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#8",
+     "role": "both",
+     "quote": "Plumbes Daguerrian Gallery , Washington Street ( 1850–1851 )"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1851",
+   "grain": "year",
+   "track": "work",
+   "text": "Published memorial against Asa Whitney's railroad scheme.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#17",
+     "role": "both",
+     "quote": "Memorial Against Mr . Asa Whitneys Railroad Scheme . 1851"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1854",
+   "grain": "year",
+   "track": "location",
+   "text": "Left California.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "Plumbe lived in California from 1849 to 1854"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1854",
+   "grain": "year",
+   "track": "location",
+   "text": "Returned to Dubuque, Iowa.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "In 1854 returned to Dubuque , Iowa"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1855",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Possibly worked for photographer Mathew Brady.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "He may have worked for photographer Mathew Brady , c . 1855-1857"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1857",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Possible work for Mathew Brady ends.",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "He may have worked for photographer Mathew Brady , c . 1855-1857"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1857-05-29",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "John Plumbe died in Iowa, aged 48.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/John_Plumbe#0",
+     "role": "both",
+     "quote": "July 13 , 1809 – May 29 , 1857"
+    },
+    {
+     "chunk_id": "/wiki/John_Plumbe#14",
+     "role": "both",
+     "quote": "He died in Iowa in 1857 , at age 48"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "established a franchise of photography studios in the 1840s",
+  "created the plumbeotype lithographic process (no date)",
+  "studied civil engineering in his late teens (no year)",
+  "opened branches abroad in Liverpool, Paris and St Catharines (no date)",
+  "other galleries changed ownership soon after 1847 (no exact date)"
+ ]
+}

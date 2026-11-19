@@ -1,0 +1,454 @@
+{
+ "page_id": "/wiki/Steven_Ozment",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1939-02-21",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Steven Edgar Ozment born; later an American historian of early modern Germany.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#0",
+     "role": "both",
+     "quote": "Steven Edgar Ozment ( February 21 , 1939 – December 12 , 2019 ) was an American historian"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1960",
+   "grain": "year",
+   "track": "education",
+   "text": "Graduated with a BA after transferring to Hendrix College.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#1",
+     "role": "both",
+     "quote": "graduated with a BA in 1960"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1964",
+   "grain": "year",
+   "track": "education",
+   "text": "Obtained Bachelor of Divinity degree at Drew Theological School.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#1",
+     "role": "both",
+     "quote": "He obtained a Bachelor of Divinity degree at Drew Theological School in 1964"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1967",
+   "grain": "year",
+   "track": "education",
+   "text": "Earned PhD at Harvard University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#1",
+     "role": "both",
+     "quote": "and a PhD at Harvard University in 1967"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Homo spiritualis published by E.J. Brill, Leiden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#7",
+     "role": "both",
+     "quote": "Leiden : E.J . Brill , 1969"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1969",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited Jean Gerson selections, published by E.J. Brill, Leiden.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#7",
+     "role": "both",
+     "quote": "Leiden : E.J . Brill , 1969"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1971",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited The Reformation in Medieval Perspective, Quadrangle Books.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#7",
+     "role": "both",
+     "quote": "Chicago , IL : Quadrangle Books , 1971"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1973",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Mysticism and Dissent, Yale University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#8",
+     "role": "both",
+     "quote": "New Haven , CT : Yale University Press , 1973"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1975",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Reformation in the Cities, Yale University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#9",
+     "role": "both",
+     "quote": "New Haven , CT : Yale University Press , 1975"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1977",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Awarded a Guggenheim Fellowship in Renaissance history.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#3",
+     "role": "both",
+     "quote": "In 1977 , he was awarded a Guggenheim Fellowship"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1979",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored The Western Heritage (first edition, MacMillan).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#9",
+     "role": "both",
+     "quote": "co-author , The Western Heritage . New York , NY : MacMillan , 1979"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1980",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Age of Reform, 1250-1550, Yale University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#4",
+     "role": "both",
+     "quote": "His Age of Reform , 1250–1550 ( 1980 )"
+    },
+    {
+     "chunk_id": "/wiki/Steven_Ozment#10",
+     "role": "both",
+     "quote": "New Haven , CT : Yale University Press , 1980"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Schaff History Prize for The Age of Reform.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#4",
+     "role": "both",
+     "quote": "won the Schaff History Prize ( 1981 )"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1981",
+   "grain": "year",
+   "track": "other",
+   "label": "nomination",
+   "text": "Nominated for National Book Award for The Age of Reform.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#4",
+     "role": "both",
+     "quote": "was nominated for the 1981 National Book Award"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1982",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited Reformation Europe: A Guide to Research, Center for Reformation Research.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#11",
+     "role": "both",
+     "quote": "Center for Reformation Research , 1982"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1983",
+   "grain": "year",
+   "track": "work",
+   "text": "Published When Fathers Ruled, Harvard University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#11",
+     "role": "both",
+     "quote": "Cambridge , MA : Harvard University Press , 1983"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "Co-authored The Heritage of World Civilizations (first edition, MacMillan).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#11",
+     "role": "both",
+     "quote": "co-author , The Heritage of World Civilizations . New York , NY : MacMillan , 1986"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1986",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Magdalena and Balthasar, Simon & Schuster.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#12",
+     "role": "both",
+     "quote": "New York , NY : Simon & Schuster , 1986"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1989",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited Religion and Culture in the Renaissance and Reformation.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#13",
+     "role": "both",
+     "quote": "Sixteenth Century Journal Publishers , 1989"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1990",
+   "grain": "year",
+   "track": "role",
+   "text": "Began as McLean Professor of Ancient and Modern History at Harvard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#0",
+     "role": "both",
+     "quote": "From 1990 to 2015 , he was the McLean Professor"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1990",
+   "grain": "year",
+   "track": "work",
+   "text": "Edited and translated Three Behaim Boys, Yale University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#13",
+     "role": "both",
+     "quote": "New Haven , CT : Yale University Press , 1990"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1993",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Protestants: The Birth of a Revolution, Doubleday.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#13",
+     "role": "both",
+     "quote": "New York , NY : Doubleday , 1993"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "1996",
+   "grain": "year",
+   "track": "work",
+   "text": "Published The Bürgermeister's Daughter, St. Martin's Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#14",
+     "role": "both",
+     "quote": "New York , NY : St . Martins Press , 1996"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "1999",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Flesh and Spirit, Viking/Penguin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#15",
+     "role": "both",
+     "quote": "New York , NY : Viking/Penguin , 1999"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2001",
+   "grain": "year",
+   "track": "work",
+   "text": "Published Ancestors: The Loving Family in Old Europe, Harvard University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#15",
+     "role": "both",
+     "quote": "Cambridge , MA : Harvard University Press , 2001"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "2004",
+   "grain": "year",
+   "track": "work",
+   "text": "Published A Mighty Fortress, HarperCollins (New York edition).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#15",
+     "role": "both",
+     "quote": "New York , NY : HarperCollins , 2004"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e27",
+   "date": "2005",
+   "grain": "year",
+   "track": "work",
+   "text": "A Mighty Fortress came out (per prose; conflicts with 2004 listing).",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#5",
+     "role": "both",
+     "quote": "came out in 2005"
+    }
+   ],
+   "flag": "source_inconsistent"
+  },
+  {
+   "id": "e28",
+   "date": "2013-06",
+   "grain": "month",
+   "track": "work",
+   "text": "Published The Serpent and the Lamb, Yale University Press.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#5",
+     "role": "both",
+     "quote": "was published by Yale University Press in June , 2013"
+    },
+    {
+     "chunk_id": "/wiki/Steven_Ozment#16",
+     "role": "both",
+     "quote": "Yale University Press , 2013"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2015",
+   "grain": "year",
+   "track": "role",
+   "text": "Ended McLean Professorship at Harvard University.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#0",
+     "role": "both",
+     "quote": "From 1990 to 2015 , he was the McLean Professor"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2019-12-12",
+   "grain": "day",
+   "track": "other",
+   "label": "death",
+   "text": "Died; was Professor Emeritus at Harvard until his death.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Steven_Ozment#0",
+     "role": "both",
+     "quote": "until his death on December 12 , 2019"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "attended University of Arkansas on football scholarship",
+  "transferred to Hendrix College after two years",
+  "taught at University of Tübingen, Germany",
+  "taught at Yale University",
+  "taught at Stanford University",
+  "taught at Harvard University",
+  "married Elinor Pryor of Little Rock",
+  "married Andrea Foster of Norwich, NY",
+  "married Susanna Schweizer",
+  "lived in Newbury, MA"
+ ]
+}

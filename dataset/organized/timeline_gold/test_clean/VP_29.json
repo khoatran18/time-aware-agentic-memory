@@ -1,0 +1,1000 @@
+{
+ "page_id": "/wiki/VP-29",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1935-11",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Squadron assigned PM-2 flying boats",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#35",
+     "role": "both",
+     "quote": "PM-2 - November 1935"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1935-11-01",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "VP-14F established at NAS Norfolk, Virginia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "established as Patrol Squadron 14-F ( VP-14F ) on 1 November 1935"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#2",
+     "role": "both",
+     "quote": "1 Nov 1935 : VP-14F was established at NAS Norfolk , Virginia"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1935-11-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned to NAS Norfolk, Virginia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS Norfolk , Virginia - 1 November 1935"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1937-09-04",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Patrol Squadron 14 (VP-14)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 14 ( VP-14 ) on 4 September 1937"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1938-03-01",
+   "grain": "day",
+   "track": "other",
+   "label": "exercise",
+   "text": "VP-14 took part in Fleet Landing Exercise No. 4",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#2",
+     "role": "both",
+     "quote": "1 March 1938 : VP-14 participated in Fleet Landing Exercise No . 4"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1938-06",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Received 11 P2Y-2 aircraft from VP-10",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#3",
+     "role": "both",
+     "quote": "June 1938 : VP-14 received 11 P2Y-2s from VP-10"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#35",
+     "role": "both",
+     "quote": "P2Y-2 - Jun 1938"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1939-07-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Patrol Squadron 52 (VP-52)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 52 ( VP-52 ) on 1 July 1939"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1939-09-20",
+   "grain": "day",
+   "track": "other",
+   "label": "neutrality patrol",
+   "text": "VP-52 teamed with VP-53 on Neutrality Patrol off Norfolk",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#4",
+     "role": "both",
+     "quote": "By 20 September 1939 , the Neutrality Patrol was in effect ; VP-52 teamed with VP-53"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "1939-10-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to NS Charleston, South Carolina",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#4",
+     "role": "both",
+     "quote": "1 October 1939 : VP-52 was relocated to NS Charleston , South Carolina"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NS Charleston , South Carolina - 1 October 1939"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "1940-08",
+   "grain": "month",
+   "track": "location",
+   "text": "Operated from advanced bases at Parris Island and Winyah Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#5",
+     "role": "both",
+     "quote": "August – October 1940 : VP-52 operated from advanced bases at Parris Island"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "1940-12",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Exchanged P2Y-2 aircraft for new PBY-5 aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#6",
+     "role": "both",
+     "quote": "December 1940 – January 1941 : VP-52 exchanged its well-worn P2Y-2 aircraft"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#35",
+     "role": "both",
+     "quote": "PBY-5 - December 1940"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "1941-01-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated from NS Charleston to NAS Norfolk",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#8",
+     "role": "both",
+     "quote": "1 January 1941 : VP-52 relocated from NS Charleston to NAS Norfolk"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS Norfolk - 1 January 1941"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "1941-02-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Joined VP-51 at unfinished NAS San Juan, Puerto Rico",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#8",
+     "role": "both",
+     "quote": "1 February 1941 : VP-52 joined VP-51 at the unfinished Naval Air Station at San Juan , Puerto Rico"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "1941-03-01",
+   "grain": "day",
+   "track": "role",
+   "text": "Change of command held at NAS Norfolk",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#9",
+     "role": "both",
+     "quote": "1 March – 5 April 1941 : VP-52 held a change of command at NAS Norfolk"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "1941-05-05",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to NAS Quonset Point, Rhode Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#10",
+     "role": "both",
+     "quote": "5 May 1941 : VP-52 and VP-53 were relocated to NAS Quonset Point , Rhode Island"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS Quonset Point , Rhode Island - 5 May 1941"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "1941-05-15",
+   "grain": "day",
+   "track": "location",
+   "text": "Deployed to NAS Argentia, Newfoundland",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#11",
+     "role": "both",
+     "quote": "15 May 1941 : VP-52 deployed to NAS Argentia , Newfoundland"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "1941-05-24",
+   "grain": "day",
+   "track": "other",
+   "label": "operation",
+   "text": "All aircraft launched to search for the Bismarck",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#12",
+     "role": "both",
+     "quote": "24 May 1941 : all VP-52 aircraft were launched in the face of strong gales"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "1941-05-29",
+   "grain": "day",
+   "track": "location",
+   "text": "Deployed four aircraft to Reykjavik, Iceland",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#13",
+     "role": "both",
+     "quote": "29 May 1941 : VP-52 deployed four aircraft to Iceland"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "1941-06-08",
+   "grain": "day",
+   "track": "location",
+   "text": "Iceland detachment returned to NAS Argentia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#13",
+     "role": "both",
+     "quote": "the detachment returned to NAS Argentia on 8 June 1941"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "1941-06-25",
+   "grain": "day",
+   "track": "location",
+   "text": "Norfolk detachment rejoined squadron at NAS Argentia",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#11",
+     "role": "both",
+     "quote": "The Norfolk detachment rejoined the squadron at Argentia on 25 June 1941"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "1941-07-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated VP-72 as Support Force became Patrol Wing 7",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 72 ( VP-72 ) on 1 July 1941"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#14",
+     "role": "both",
+     "quote": "1 Jul 1941 : The Support Force was reorganized on this date to become Patrol Wing 7"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "1941-07-03",
+   "grain": "day",
+   "track": "other",
+   "text": "Four new PBY-5 aircraft of the squadron departed NAS Argentia for Reykjavik; one lost en route.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#14",
+     "role": "both",
+     "quote": "3 July 1941 : Four new PBY-5 aircraft recently received by the squadron departed NAS Argentia for Reykjavik"
+    }
+   ],
+   "label": "aircraft"
+  },
+  {
+   "id": "e23",
+   "date": "1941-07-07",
+   "grain": "day",
+   "track": "other",
+   "text": "The remaining three PBY-5 aircraft returned to NAS Argentia.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#14",
+     "role": "both",
+     "quote": "The remaining three returned to NAS Argentia on 7 July 1941"
+    }
+   ],
+   "label": "aircraft"
+  },
+  {
+   "id": "e24",
+   "date": "1941-12-09",
+   "grain": "day",
+   "track": "location",
+   "text": "Ordered to fly cross-country to NAS Alameda, California",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#15",
+     "role": "both",
+     "quote": "9 December 1941 : A few days after the Attack on Pearl Harbor"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "1941-12-21",
+   "grain": "day",
+   "track": "location",
+   "text": "Departed NAS Alameda for NAS Kaneohe Bay, Hawaii",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#16",
+     "role": "both",
+     "quote": "21–23 December 1941 : Seven squadron aircraft departed NAS Alameda on the 21st"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS Kaneohe Bay , Hawaii - 21 December 1941"
+    }
+   ]
+  },
+  {
+   "id": "e26",
+   "date": "1941-12-24",
+   "grain": "day",
+   "track": "other",
+   "label": "operation",
+   "text": "Squadron aircraft put on patrol from NAS Kaneohe Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#17",
+     "role": "both",
+     "quote": "24 December 1941 : Three squadron aircraft were put on patrol"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "date": "1941-12-24",
+   "grain": "day",
+   "track": "location",
+   "text": "Detachment of two aircraft flew to Johnston Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#17",
+     "role": "both",
+     "quote": "24 December 1941 : Three squadron aircraft were put on patrol"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "1942-03-14",
+   "grain": "day",
+   "track": "location",
+   "text": "Detachment of six aircraft deployed to Nouméa",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#18",
+     "role": "both",
+     "quote": "14 March – 23 May 1942 : VP-72 deployed a detachment to Nouméa"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "1942-04-30",
+   "grain": "day",
+   "track": "other",
+   "label": "training",
+   "text": "Patrol wing aircraft pooled; transition training on PBY-5A",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#19",
+     "role": "both",
+     "quote": "30 April 1942 : During this period , patrol wing aircraft at NAS Kaneohe Bay were pooled"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "1942-09-04",
+   "grain": "day",
+   "track": "location",
+   "text": "Began deploying to Luganville Seaplane Base, Espiritu Santo",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#20",
+     "role": "both",
+     "quote": "4 September – 7 October 1942 : VP-72 began deploying to Luganville Seaplane Base"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "1942-10-07",
+   "grain": "day",
+   "track": "other",
+   "label": "combat",
+   "text": "First action with the enemy; Lieutenant Cocowitch fired on",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#20",
+     "role": "both",
+     "quote": "On 7 October 1942 , the first action with the enemy took place"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "1942-12-17",
+   "grain": "day",
+   "track": "ownership_structure",
+   "text": "Ten PBY-5A replacement aircraft ferried from NAS Kaneohe Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#21",
+     "role": "both",
+     "quote": "17 December 1942 – 6 January 1943 : Ten new PBY-5A replacement aircraft were ferried"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#35",
+     "role": "both",
+     "quote": "PBY-5A - December 1942"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "1943-01-23",
+   "grain": "day",
+   "track": "other",
+   "label": "combat",
+   "text": "Claimed probable kill of a Japanese submarine in Solomons",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#22",
+     "role": "both",
+     "quote": "23 January 1943 : One Japanese submarine probable kill was claimed by a squadron aircraft"
+    }
+   ]
+  },
+  {
+   "id": "e34",
+   "date": "1943-06",
+   "grain": "month",
+   "track": "location",
+   "text": "Squadron relieved and began return to continental United States",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#22",
+     "role": "both",
+     "quote": "By mid-June 1943 , the squadron had been relieved and began its return to the continental United States"
+    }
+   ]
+  },
+  {
+   "id": "e35",
+   "date": "1943-07-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned to NAS San Diego, California",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS San Diego , California - 1 July 1943"
+    }
+   ]
+  },
+  {
+   "id": "e36",
+   "date": "1943-07-06",
+   "grain": "day",
+   "track": "other",
+   "label": "reformation",
+   "text": "Reformed at NAS San Diego for crew training",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#22",
+     "role": "both",
+     "quote": "It was reformed on 6 July 1943 , at NAS San Diego"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "1943-08-23",
+   "grain": "day",
+   "track": "location",
+   "text": "Completed trans-Pacific flight to NAS Kaneohe Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#23",
+     "role": "both",
+     "quote": "23 August 1943 : VP-72 completed its trans-Pacific flight from NAS San Diego to NAS Kaneohe Bay"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS Kaneohe Bay - 23 August 1943"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "1943-10-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Detachments deployed to Kanton, Baker, Johnston and Midway Islands",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#23",
+     "role": "both",
+     "quote": "until 1 October 1943 , when detachments were formed and deployed to Kanton"
+    }
+   ]
+  },
+  {
+   "id": "e39",
+   "date": "1943-11-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Half of squadron deployed to Funafuti",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#24",
+     "role": "both",
+     "quote": "1 November 1943 : The detachments rejoined the squadron at NAS Kaneohe Bay"
+    }
+   ]
+  },
+  {
+   "id": "e40",
+   "date": "1943-11-11",
+   "grain": "day",
+   "track": "location",
+   "text": "Kaneohe Bay detachment joined squadron at Funafuti",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#25",
+     "role": "both",
+     "quote": "11 November 1943 : The NAS Kaneohe Bay detachment joined the rest of the squadron at Funafuti"
+    }
+   ]
+  },
+  {
+   "id": "e41",
+   "date": "1943-12-01",
+   "grain": "day",
+   "track": "other",
+   "label": "mission change",
+   "text": "Missions shifted solely to Dumbo air-sea rescue",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#25",
+     "role": "both",
+     "quote": "By 1 December 1943 , the squadrons mission shifted solely to Dumbo missions"
+    }
+   ]
+  },
+  {
+   "id": "e42",
+   "date": "1944-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "mission change",
+   "text": "Duties changed to aerial minelaying",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#27",
+     "role": "both",
+     "quote": "1 January 1944 : The new year brought with it a change of duties for the squadron"
+    }
+   ]
+  },
+  {
+   "id": "e43",
+   "date": "1944-02-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Consolidated at Funafuti for maintenance",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#28",
+     "role": "both",
+     "quote": "1 February – 1 March 1944 : In February , the squadron was consolidated at Funafuti"
+    }
+   ]
+  },
+  {
+   "id": "e44",
+   "date": "1944-03-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Split into detachments at Makin, Kwajalein and Eniwetok",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#28",
+     "role": "both",
+     "quote": "By 1 March 1944 , VP-72 was again split into detachments operating from Makin"
+    }
+   ]
+  },
+  {
+   "id": "e45",
+   "date": "1944-06-08",
+   "grain": "day",
+   "track": "location",
+   "text": "Consolidated at Ebeye Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#29",
+     "role": "both",
+     "quote": "8 June 1944 : VP-72 was consolidated at Ebeye Island"
+    }
+   ]
+  },
+  {
+   "id": "e46",
+   "date": "1944-07-17",
+   "grain": "day",
+   "track": "location",
+   "text": "Relieved by VP-18 for return to NAS Kaneohe Bay",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#29",
+     "role": "both",
+     "quote": "17 July 1944 : VP-72 was relieved by VP-18 for return to NAS Kaneohe Bay"
+    }
+   ]
+  },
+  {
+   "id": "e47",
+   "date": "1944-08-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Arrived at San Diego; home port assigned to NAS San Diego",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#29",
+     "role": "both",
+     "quote": "1 August 1944 : The squadron arrived at San Diego"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAS San Diego - 1 August 1944"
+    }
+   ]
+  },
+  {
+   "id": "e48",
+   "date": "1944-09",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Assigned PB4Y-2 aircraft",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#35",
+     "role": "both",
+     "quote": "PB4Y-2 September 1944"
+    }
+   ]
+  },
+  {
+   "id": "e49",
+   "date": "1944-09-01",
+   "grain": "day",
+   "track": "other",
+   "label": "reformation",
+   "text": "Reformed at NAAS Brown Field under FAW-14 with seven crews",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#30",
+     "role": "both",
+     "quote": "1 September – 1 October 1944 : The squadron was reformed at NAAS Brown Field"
+    }
+   ]
+  },
+  {
+   "id": "e50",
+   "date": "1944-09-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Home port assigned to NAAS Brown Field, California",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#36",
+     "role": "both",
+     "quote": "NAAS Brown Field , California - 1 September 1944"
+    }
+   ]
+  },
+  {
+   "id": "e51",
+   "date": "1944-10-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated VPB-122",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "redesignated Patrol Bombing Squadron 122 ( VPB-122 ) on 1 October 1944"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#30",
+     "role": "both",
+     "quote": "On 1 October 1944 , VP-72 was redesignated VPB-122"
+    }
+   ]
+  },
+  {
+   "id": "e52",
+   "date": "1944-11-30",
+   "grain": "day",
+   "track": "other",
+   "label": "crew reassignment",
+   "text": "Six of seven crews reassigned to VPB-108",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#31",
+     "role": "both",
+     "quote": "30 November 1944 : Six of the seven VPB-122 crews were reassigned to VPB-108"
+    }
+   ]
+  },
+  {
+   "id": "e53",
+   "date": "1945-03",
+   "grain": "month",
+   "track": "other",
+   "label": "reactivation",
+   "text": "Squadron brought back up to strength with replacement crews",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#31",
+     "role": "both",
+     "quote": "replacement crews brought it back up to strength in early March 1945"
+    }
+   ]
+  },
+  {
+   "id": "e54",
+   "date": "1945-03-15",
+   "grain": "day",
+   "track": "location",
+   "text": "Relocated to NAAS Crows Landing, California",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#31",
+     "role": "both",
+     "quote": "15 March 1945 : VPB-122 was relocated to NAAS Crows Landing , California"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#37",
+     "role": "both",
+     "quote": "NAAS Crows Landing , California - 15 March 1945"
+    }
+   ]
+  },
+  {
+   "id": "e55",
+   "date": "1945-05",
+   "grain": "month",
+   "track": "other",
+   "label": "training",
+   "text": "Training completed",
+   "flag": "approximate_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#31",
+     "role": "both",
+     "quote": "Training was completed by the end of May 1945"
+    }
+   ]
+  },
+  {
+   "id": "e56",
+   "date": "1945-06-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Transferred to Ault Field, NAS Whidbey Island, Washington",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#32",
+     "role": "both",
+     "quote": "1 June 1945 : The squadron was transferred to Ault Field , NAS Whidbey Island , Washington"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#38",
+     "role": "both",
+     "quote": "NAS Whidbey Island , Washington - 1 June 1945"
+    }
+   ]
+  },
+  {
+   "id": "e57",
+   "date": "1945-07",
+   "grain": "month",
+   "track": "ownership_structure",
+   "text": "Received new PB4Y-2 aircraft",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#32",
+     "role": "both",
+     "quote": "New PB4Y-2s were received in July"
+    }
+   ]
+  },
+  {
+   "id": "e58",
+   "date": "1945-08-05",
+   "grain": "day",
+   "track": "location",
+   "text": "Deployed to Shemya Air Force Base, Aleutians",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#33",
+     "role": "both",
+     "quote": "5 August 1945 : VPB-122 deployed to Shemya Air Force Base , Aleutians"
+    }
+   ]
+  },
+  {
+   "id": "e59",
+   "date": "1945-10-01",
+   "grain": "day",
+   "track": "location",
+   "text": "Temporarily based at Casco Field, Attu Island",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#33",
+     "role": "both",
+     "quote": "1 October 1945 : VPB-122 was temporarily based at Casco Field , Attu Island"
+    }
+   ]
+  },
+  {
+   "id": "e60",
+   "date": "1946-05-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated VP-122",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 122 ( VP-122 ) on 15 May 1946"
+    }
+   ]
+  },
+  {
+   "id": "e61",
+   "date": "1946-11-15",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated Heavy Patrol Squadron (Landplane) 12 (VP-HL-12)",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#0",
+     "role": "description",
+     "quote": "redesignated Heavy Patrol Squadron ( Landplane ) 12 ( VP-HL-12 ) on"
+    },
+    {
+     "chunk_id": "/wiki/VP-29#1",
+     "role": "date",
+     "quote": "15 November 1946 ,"
+    }
+   ]
+  },
+  {
+   "id": "e62",
+   "date": "1948-06-02",
+   "grain": "day",
+   "track": "location",
+   "text": "VP-HL-12 deployed to NAS Kodiak, Alaska",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#34",
+     "role": "both",
+     "quote": "2 June 1948 : VP-HL-12 deployed to NAS Kodiak , Alaska"
+    }
+   ]
+  },
+  {
+   "id": "e63",
+   "date": "1948-09-01",
+   "grain": "day",
+   "track": "naming",
+   "text": "Redesignated VP-29",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#1",
+     "role": "both",
+     "quote": "redesignated Patrol Squadron 29 ( VP-29 ) on 1 September 1948"
+    }
+   ]
+  },
+  {
+   "id": "e64",
+   "date": "1950-01-18",
+   "grain": "day",
+   "track": "other",
+   "label": "disestablishment",
+   "text": "Squadron disestablished",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/VP-29#1",
+     "role": "both",
+     "quote": "disestablished on 18 January 1950"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": []
+}

@@ -1,0 +1,597 @@
+{
+ "page_id": "Dixie_State_University",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1911-09-19",
+   "grain": "day",
+   "track": "other",
+   "label": "founding",
+   "text": "Founded by LDS Church as St. George Stake Academy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#6",
+     "role": "both",
+     "quote": "on September 19 , 1911 , as St . George Stake Academy"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1916",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Dixie Normal College",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#6",
+     "role": "both",
+     "quote": "In 1916 , the academy , located in a region called Utahs Dixie by Brigham Young and local settlers , became Dixie Normal College"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "1923",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Dixie Junior College",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#6",
+     "role": "both",
+     "quote": "and then , in 1923 , the name was changed to Dixie Junior College"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "1933",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "LDS Church discontinued its support of the college",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#6",
+     "role": "both",
+     "quote": "In 1933 , the LDS Church discontinued its support of the college"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "1935",
+   "grain": "year",
+   "track": "ownership_structure",
+   "text": "State Board of Education took over funding of the school",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#8",
+     "role": "both",
+     "quote": "In 1935 , the State Board of Education took over the funding for the school"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "1957",
+   "grain": "year",
+   "track": "work",
+   "text": "Gymnasium finished on the new campus",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#9",
+     "role": "both",
+     "quote": "In 1957 , the gymnasium was finished"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "1963",
+   "grain": "year",
+   "track": "work",
+   "text": "Four other buildings ready on the new campus",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#9",
+     "role": "both",
+     "quote": "by 1963 four other buildings were ready for"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "1994",
+   "grain": "year",
+   "track": "location",
+   "text": "Baseball team began using Bruce Hurst Field as its home",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#40",
+     "role": "both",
+     "quote": "Dixie State University baseball has called Bruce Hurst Field their home since 1994"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2000",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Dixie State College",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#2",
+     "role": "both",
+     "quote": "In 2000 it became Dixie State College"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2007-09-07",
+   "grain": "day",
+   "track": "naming",
+   "text": "Board announced plan to petition University of Utah for a St. George name",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#11",
+     "role": "both",
+     "quote": "On September 7 , 2007 , Dixie State College Board of Trustees members announced"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2007-10-07",
+   "grain": "day",
+   "track": "naming",
+   "text": "College Board of Trustees approved the petition proposal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#11",
+     "role": "both",
+     "quote": "The proposal was approved by the Dixie State College Board of Trustees on October 7 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2007-10-14",
+   "grain": "day",
+   "track": "naming",
+   "text": "University of Utah Board of Trustees approved the proposal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#11",
+     "role": "both",
+     "quote": "and by the University of Utah Board of Trustees on October 14 , 2007"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2008",
+   "grain": "year",
+   "track": "work",
+   "text": "Nine field-level boxes added at the baseball field",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#41",
+     "role": "both",
+     "quote": "Nine field-level boxes were added in 2008"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2010",
+   "grain": "year",
+   "track": "work",
+   "text": "Frank Habibian Wrestling and Athletic Center constructed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#45",
+     "role": "both",
+     "quote": "The Frank Habibian Wrestling and Athletic Center was constructed in 2010"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2011",
+   "grain": "year",
+   "track": "naming",
+   "text": "Bill drafted to support transition to university status",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#12",
+     "role": "both",
+     "quote": "In 2011 , a bill was drafted for the review of the Utah State Legislature"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "Board of Trustees approved a campus-wide tobacco ban",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#14",
+     "role": "both",
+     "quote": "That same year the Board of Trustees approved a student-driven proposed campus-wide tobacco ban"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "DSU declined sorority and Greek-letter clubs proposal",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#16",
+     "role": "both",
+     "quote": "Also in 2013 , Dixie State University student Indigo Klabanoff pushed for the creation of a sorority"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2013-02-16",
+   "grain": "day",
+   "track": "naming",
+   "text": "Became Dixie State University by state law, signed by governor",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#14",
+     "role": "both",
+     "quote": "calling the new university into existence on February 16 , 2013"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#2",
+     "role": "both",
+     "quote": "In February 2013 the school officially became Dixie State University"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2014-01-01",
+   "grain": "day",
+   "track": "other",
+   "label": "policy",
+   "text": "Campus-wide tobacco ban took effect",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#15",
+     "role": "both",
+     "quote": "The ban went into effect on January 1 , 2014"
+    }
+   ]
+  },
+  {
+   "date": "2014-12",
+   "grain": "month",
+   "track": "other",
+   "label": "dismissal",
+   "text": "Theater professor Varlo Davenport received notice of dismissal and termination of employment",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#17",
+     "role": "both",
+     "quote": "In December 2014 , theater professor Varlo Davenport received a notice of dismissal and termination of employment"
+    }
+   ],
+   "id": "e20"
+  },
+  {
+   "id": "e21",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "University denied students' request to post satirical fliers",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#20",
+     "role": "both",
+     "quote": "In 2015 , in accordance with school policy , three students requested permission from the university"
+    }
+   ]
+  },
+  {
+   "id": "e22",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "lawsuit",
+   "text": "Three students filed federal lawsuit against the university",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#20",
+     "role": "both",
+     "quote": "The three students filed a lawsuit against Dixie State University in federal court"
+    }
+   ]
+  },
+  {
+   "id": "e23",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "policy",
+   "text": "Campus speech policies temporarily rescinded by president",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#20",
+     "role": "date",
+     "quote": "In 2015 , in accordance with school policy"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#21",
+     "role": "description",
+     "quote": "Shortly thereafter , President Williams announced that all campus policies that infringed upon free expression and free speech were temporarily rescinded"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "settlement",
+   "text": "University settled lawsuit, paid $50,000 and agreed to revise policies",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#20",
+     "role": "date",
+     "quote": "In 2015 , in accordance with school policy"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#21",
+     "role": "description",
+     "quote": "A few months later , Dixie State University settled the lawsuit with the three plaintiffs involved in the case"
+    }
+   ]
+  },
+  {
+   "id": "e25",
+   "date": "2016",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Football team joined the Rocky Mountain Athletic Conference",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#3",
+     "role": "both",
+     "quote": "The Trailblazers football team joined the Rocky Mountain Athletic Conference in 2016"
+    }
+   ]
+  },
+  {
+   "date": "2016",
+   "grain": "year",
+   "track": "other",
+   "label": "championship",
+   "text": "Men's soccer won the PacWest 2016 championship, first in school history",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#33",
+     "role": "both",
+     "quote": "Dixies Mens soccer team , won the PacWest 2016 championship by going 13–0 , for the first time in school history"
+    }
+   ],
+   "id": "e26"
+  },
+  {
+   "id": "e27",
+   "date": "2016-04-11",
+   "grain": "day",
+   "track": "naming",
+   "text": "Trailblazers athletic identity unveiled",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#28",
+     "role": "both",
+     "quote": "an identity which was unveiled on April 11 , 2016"
+    }
+   ]
+  },
+  {
+   "id": "e28",
+   "date": "2016-04-29",
+   "grain": "day",
+   "track": "other",
+   "label": "donation",
+   "text": "Legend Solar announced $10 million donation for stadium renovation",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#35",
+     "role": "both",
+     "quote": "On April 29 , 2016 , Legend Solar announced it a donation of $10 million"
+    }
+   ]
+  },
+  {
+   "id": "e29",
+   "date": "2016-09-01",
+   "grain": "day",
+   "track": "other",
+   "label": "mascot",
+   "text": "Brooks the Bison mascot made first public appearance",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#31",
+     "role": "both",
+     "quote": "who made his first appearance on September 1 , 2016"
+    }
+   ]
+  },
+  {
+   "id": "e30",
+   "date": "2018",
+   "grain": "year",
+   "track": "work",
+   "text": "Old tennis courts demolished for Human Performance Center",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#44",
+     "role": "both",
+     "quote": "Their old courts were demolished in 2018 to make room for the construction of the Human Performance Center"
+    }
+   ]
+  },
+  {
+   "id": "e31",
+   "date": "2018-01-26",
+   "grain": "day",
+   "track": "work",
+   "text": "Added first graduate degree program, Master of Accountancy",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#23",
+     "role": "both",
+     "quote": "On January 26 , 2018 , the university added its first graduate degree program"
+    }
+   ]
+  },
+  {
+   "id": "e32",
+   "date": "2018-04",
+   "grain": "month",
+   "track": "naming",
+   "text": "Legend Solar and the university parted ways over stadium naming",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#35",
+     "role": "date",
+     "quote": "In April 2018"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#36",
+     "role": "description",
+     "quote": "Legend Solar and Dixie State parted ways due to financial troubles for the solar company"
+    }
+   ]
+  },
+  {
+   "id": "e33",
+   "date": "2019",
+   "grain": "year",
+   "track": "work",
+   "text": "East grandstand of the stadium completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#37",
+     "role": "both",
+     "quote": "construction of an east grandstand ( completed in 2019 )"
+    }
+   ]
+  },
+  {
+   "date": "2019-08",
+   "grain": "month",
+   "track": "other",
+   "label": "fraternity",
+   "text": "Students created a nationally recognized chapter of Kappa Sigma Fraternity",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#27",
+     "role": "both",
+     "quote": "In August 2019 , students of DSU created a nationally recognized chapter of the Kappa Sigma Fraternity"
+    }
+   ],
+   "id": "e34"
+  },
+  {
+   "date": "2020-01",
+   "grain": "month",
+   "track": "naming",
+   "label": null,
+   "text": "Stadium named Greater Zion Stadium under naming-rights agreement with Washington County tourism office",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#36",
+     "role": "both",
+     "quote": "As of January 2020 , the Dixie State stadium is now known as Greater Zion Stadium"
+    }
+   ],
+   "id": "e35"
+  },
+  {
+   "id": "e36",
+   "date": "2020-07",
+   "grain": "month",
+   "track": "affiliation",
+   "text": "Began multi-year reclassification to NCAA Division I",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#28",
+     "role": "date",
+     "quote": "In July 2020 , Dixie"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#29",
+     "role": "description",
+     "quote": "State began the multi-year reclassification process to NCAA Division I"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "date": "2020-10",
+   "grain": "month",
+   "track": "work",
+   "text": "New stadium scoreboard and video board completed",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#37",
+     "role": "both",
+     "quote": "a new scoreboard and video board ( completed in October 2020 )"
+    }
+   ]
+  },
+  {
+   "id": "e38",
+   "date": "2020-12",
+   "grain": "month",
+   "track": "naming",
+   "text": "Board of Trustees voted to remove the word Dixie from the name",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Dixie_State_University#5",
+     "role": "both",
+     "quote": "In December 2020 , Dixie State Universitys board of trustees voted to remove the word Dixie from its name"
+    },
+    {
+     "chunk_id": "/wiki/Dixie_State_University#13",
+     "role": "both",
+     "quote": "In December 2020 , the universitys board of trustees unanimously voted to recommend removing the word Dixie from the schools name"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Later became a state school of the Utah System of Higher Education (no date)",
+  "State leaders proposed closing the college several times, 1935-1963 (no exact date)",
+  "Dixie Education Association raised funds to buy four blocks of land for new campus (no exact date)",
+  "Contracted Sorenson Advertising to study names for the institution (no date)",
+  "Hansen family funded stadium construction in the 1980s",
+  "West grandstand named Hansen Grandstand (no date)",
+  "Joined Western Athletic Conference (WAC), 2020-21 season",
+  "Men's basketball reached NCAA sweet sixteen, 2011 season",
+  "Women's volleyball NCAA tournament appearance, 2014 season",
+  "Women's softball runner-up at 2015 College World Series"
+ ]
+}

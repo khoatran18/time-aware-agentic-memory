@@ -1,0 +1,414 @@
+{
+ "page_id": "Carlos_Sainz_Jr",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1994-09-01",
+   "grain": "day",
+   "track": "other",
+   "label": "birth",
+   "text": "Carlos Sainz Jr. born in Madrid.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#0",
+     "role": "both",
+     "quote": "born 1 September 1994"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Asia-Pacific KF3 karting title.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#2",
+     "role": "both",
+     "quote": "In 2008 he won the Asia-Pacific KF3 title"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2009",
+   "grain": "year",
+   "track": "other",
+   "label": "award",
+   "text": "Won the Junior Monaco Kart Cup.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#2",
+     "role": "both",
+     "quote": "In 2009 he won the prestigious Junior Monaco Kart Cup"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2010",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Raced in Formula BMW Europe with EuroInternational team.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#3",
+     "role": "both",
+     "quote": "Sainz raced in Formula BMW Europe in 2010 with the EuroInternational team"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2012",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Raced British and European F3 championships for Carlin.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#0",
+     "role": "both",
+     "quote": "In 2012 Sainz raced in the British and European Formula 3 championships for Carlin"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#9",
+     "role": "both",
+     "quote": "During the 2012 season , Sainz raced in both British and Euro Series Formula 3 championships"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Signed with Arden to compete in GP3 series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#10",
+     "role": "both",
+     "quote": "In 2013 , Sainz signed with Arden to compete in the GP3 series"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2013",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "First raced in Formula Renault 3.5 series.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#19",
+     "role": "both",
+     "quote": "Sainz raced in Formula Renault 3.5 for the first time in 2013"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2013",
+   "grain": "year",
+   "track": "role",
+   "text": "Announced as test driver for Red Bull and Toro Rosso.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#23",
+     "role": "both",
+     "quote": "In 2013 , Sainz also announced as a test driver for both Red Bull and Toro Rosso"
+    }
+   ]
+  },
+  {
+   "date": "2013",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "First GP3 podium at Valencia, third place",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#15",
+     "role": "description",
+     "quote": "scoring a podium for the first time in GP3"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#10",
+     "role": "date",
+     "quote": "In 2013 , Sainz signed with Arden to compete in the GP3 series"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e9"
+  },
+  {
+   "id": "e10",
+   "date": "2014",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Switched to DAMS team in Formula Renault 3.5.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#21",
+     "role": "both",
+     "quote": "In 2014 , he switched teams to DAMS"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#0",
+     "role": "both",
+     "quote": "He raced for DAMS in the 2014 Formula Renault 3.5 season"
+    }
+   ]
+  },
+  {
+   "date": "2014",
+   "grain": "year",
+   "track": "other",
+   "label": "title",
+   "text": "Won the Formula Renault 3.5 championship with DAMS",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#0",
+     "role": "both",
+     "quote": "He raced for DAMS in the 2014 Formula Renault 3.5 season , winning the championship"
+    }
+   ],
+   "id": "e11"
+  },
+  {
+   "id": "e12",
+   "date": "2015",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Scuderia Toro Rosso as Formula One driver.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#23",
+     "role": "both",
+     "quote": "Toro Rosso ( 2015–2017 )"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#24",
+     "role": "both",
+     "quote": "in 2015 , following Daniil Kvyats promotion to Red Bull"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "debut",
+   "text": "Formula One debut at 2015 Australian Grand Prix, ninth place.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#24",
+     "role": "both",
+     "quote": "He qualified inside the top ten for his début , at the 2015 Australian Grand Prix"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2015",
+   "grain": "year",
+   "track": "other",
+   "label": "crash",
+   "text": "Crashed into barriers in Russian GP practice; spent night in hospital.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#24",
+     "role": "both",
+     "quote": "In the third free practice session of the 2015 Russian Grand Prix"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2017",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to Renault, replacing Jolyon Palmer.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#31",
+     "role": "both",
+     "quote": "Sainz moved to Renault beginning with the 2017 United States Grand Prix"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2017",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left Scuderia Toro Rosso after 2015-2017 spell.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#23",
+     "role": "both",
+     "quote": "Toro Rosso ( 2015–2017 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2019",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Moved to McLaren, replacing Fernando Alonso.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "Sainz moved to McLaren for the 2019 season"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#36",
+     "role": "description",
+     "quote": "Sainz moved to McLaren for the season , replacing Fernando Alonso"
+    }
+   ]
+  },
+  {
+   "id": "e18",
+   "date": "2019",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Ended contract with Red Bull Racing.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "2019 season , while at the same time ending his contract with Red Bull Racing"
+    }
+   ]
+  },
+  {
+   "id": "e19",
+   "date": "2019",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Maiden Formula One podium, finishing third.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "At the Sainz took his maiden Formula One podium finish with third"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#37",
+     "role": "description",
+     "quote": "earning Sainz his first podium in Formula One"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "Second place at Monza (Italian GP), career-best finish.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "Sainz added another podium by finishing second at Monza the following year"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#41",
+     "role": "description",
+     "quote": "He went on to finish second , his career best race finish and second podium"
+    }
+   ]
+  },
+  {
+   "id": "e21",
+   "date": "2020",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Left McLaren at end of season for Ferrari.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "before departing for Ferrari at the end of that season"
+    }
+   ]
+  },
+  {
+   "date": "2020",
+   "grain": "year",
+   "track": "other",
+   "label": "fastest lap",
+   "text": "First fastest lap in Formula One at the Styrian Grand Prix",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#39",
+     "role": "description",
+     "quote": "finished with his first fastest lap in Formula One"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#39",
+     "role": "date",
+     "quote": "2020 season Sainz began the season with a fifth place"
+    }
+   ],
+   "flag": "derived_date",
+   "id": "e22"
+  },
+  {
+   "id": "e23",
+   "date": "2021",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Joined Scuderia Ferrari on two-year contract.",
+   "flag": "derived_date",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#42",
+     "role": "both",
+     "quote": "Sainz joined Scuderia Ferrari on a two-year contract from the season"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "date": "2021",
+   "grain": "year",
+   "track": "other",
+   "label": "podium",
+   "text": "First Ferrari podium, second place at Monaco Grand Prix.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#1",
+     "role": "both",
+     "quote": "Sainz scored his third and latest podium by finishing second for Scuderia Ferrari at the 2021 Monaco Grand Prix"
+    },
+    {
+     "chunk_id": "/wiki/Carlos_Sainz_Jr.#42",
+     "role": "both",
+     "quote": "He took his third career podium and first with Ferrari at the 2021 Monaco Grand Prix"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Formula BMW Pacific guest drive at Sepang (no date)",
+  "Joined Red Bull Junior Team programme (no date)",
+  "Competed in UK Formula Renault Winter Cup (no date)",
+  "2008 Spanish Championship runner-up (season result)",
+  "2009 European KF3 Championship runner-up (season result)",
+  "2010 Formula BMW Europe 4th overall (season result)",
+  "2012 British F3 sixth overall, Euro Series ninth (season result)",
+  "2013 GP3 first podium, third at Valencia (season result)",
+  "2014 Formula Renault 3.5 championship title (season result)"
+ ]
+}

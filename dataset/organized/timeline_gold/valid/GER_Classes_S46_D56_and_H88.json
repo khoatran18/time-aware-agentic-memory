@@ -1,0 +1,137 @@
+{
+  "page_id": "GER_Classes_S46_D56_and_H88",
+  "events": [
+    {
+      "id": "e1",
+      "date": "1900",
+      "grain": "year",
+      "track": "work",
+      "text": "Pioneer No. 1900 Claud Hamilton took the rails, debut of the class",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#4",
+          "role": "both",
+          "quote": "of which the pioneer example , No . 1900 Claud Hamilton , took the rails in 1900"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "date": "1900",
+      "grain": "year",
+      "track": "work",
+      "text": "Pioneer No. 1900 Claud Hamilton exhibited at the Paris Exposition",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#6",
+          "role": "both",
+          "quote": "was much admired when it was exhibited at the 1900 Paris Exposition"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "date": "1903",
+      "grain": "year",
+      "track": "work",
+      "text": "D56 class built, evolving the design with a Belpaire firebox (1903-4 range start)",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#1",
+          "role": "both",
+          "quote": "The D56 class of 1903-4 evolved the design to include a square-topped Belpaire firebox"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "date": "1904",
+      "grain": "year",
+      "track": "work",
+      "text": "D56 class construction period ended (1903-4 range end)",
+      "flag": "derived_date",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#1",
+          "role": "both",
+          "quote": "The D56 class of 1903-4 evolved the design to include a square-topped Belpaire firebox"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "date": "1923",
+      "grain": "year",
+      "track": "work",
+      "text": "H88 class built, featuring a larger superheated boiler",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#1",
+          "role": "both",
+          "quote": "The H88 class of 1923 featured a larger superheated boiler"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "date": "1923",
+      "grain": "year",
+      "track": "other",
+      "label": "livery",
+      "text": "Class repainted in LNER apple green livery after the grouping",
+      "flag": "derived_date",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#15",
+          "role": "both",
+          "quote": "following the 1923 grouping the GER became part of the London and North Eastern Railway"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "date": "1945",
+      "grain": "year",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "Withdrawals of the class began",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#22",
+          "role": "both",
+          "quote": "Withdrawals of the class began in 1945"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "date": "1960",
+      "grain": "year",
+      "track": "other",
+      "label": "withdrawal",
+      "text": "Final member scrapped; class left with no survivors, last service use ended",
+      "evidence": [
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#22",
+          "role": "both",
+          "quote": "with the final member , a D16/3 , scrapped in 1960"
+        },
+        {
+          "chunk_id": "/wiki/GER_Classes_S46,_D56_and_H88#2",
+          "role": "both",
+          "quote": "members of the class were used on passenger and goods services throughout the Eastern Region until 1960"
+        }
+      ]
+    }
+  ],
+  "undated_mentions": [
+    "Most earlier members rebuilt by A. J. Hill (undated)",
+    "Earlier members rebuilt during Sir Nigel Gresley's tenure as CME (undated)",
+    "Royal locomotives 8783 and 8787 designated for the Royal Train (undated)",
+    "Later locos carried LNER numbers and tender lettering (undated)",
+    "Decorative valances removed from many locos in later years (undated)",
+    "Most locos repainted in unlined black with N E tender letters during the Second World War",
+    "BRITISH RAILWAYS tender lettering applied after 1948",
+    "Survivors carried lined and unlined black livery with later BR crest after 1956"
+  ]
+}

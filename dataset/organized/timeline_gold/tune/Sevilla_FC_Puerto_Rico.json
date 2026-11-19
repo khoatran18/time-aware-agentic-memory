@@ -1,0 +1,279 @@
+{
+ "page_id": "Sevilla_FC_Puerto_Rico",
+ "events": [
+  {
+   "id": "e1",
+   "date": "2006",
+   "grain": "year",
+   "track": "other",
+   "label": "founding",
+   "text": "Club founded as Puerto Rico Islanders B, farm team of Puerto Rico Islanders",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#0",
+     "role": "both",
+     "quote": "The club was founded in 2006 as a farm team for the Puerto Rico Islanders"
+    },
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#3",
+     "role": "both",
+     "quote": "The club was formed in 2006 as Puerto Rico Islanders B"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "2006",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Team played in the now defunct Liga Premier, 2006 to 2007",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#3",
+     "role": "both",
+     "quote": "played in the now defunct Liga Premier from 2006 to 2007"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "date": "2006",
+   "grain": "year",
+   "track": "location",
+   "text": "Began playing home games at Juan Ramon Loubriel Stadium, Bayamon",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#10",
+     "role": "both",
+     "quote": "Juan Ramon Loubriel Stadium ; Bayamon , Puerto Rico ( 2006–2007 )"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "date": "2007",
+   "grain": "year",
+   "track": "location",
+   "text": "Stopped using Juan Ramon Loubriel Stadium, Bayamon as home venue",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#10",
+     "role": "both",
+     "quote": "Juan Ramon Loubriel Stadium ; Bayamon , Puerto Rico ( 2006–2007 )"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "date": "2008",
+   "grain": "year",
+   "track": "affiliation",
+   "text": "Partnered with Spanish La Liga club Sevilla FC as affiliate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#0",
+     "role": "both",
+     "quote": "in 2008 partnered with the Spanish La Liga club Sevilla FC"
+    },
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#3",
+     "role": "both",
+     "quote": "In 2008 the club found a new affiliate in the shape of Sevilla FC of La Liga"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "date": "2008",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Sevilla Bayamon FC after partnership with Sevilla FC",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#3",
+     "role": "both",
+     "quote": "In 2008 the club found a new affiliate"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "date": "2008",
+   "grain": "year",
+   "track": "other",
+   "label": "kit change",
+   "text": "Adopted Sevilla FC uniforms and colors of white, purple, red and black",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#8",
+     "role": "both",
+     "quote": "In 2008 when they partnered with Sevilla FC of Spain they adopted this teams uniforms"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "date": "2008",
+   "grain": "year",
+   "track": "location",
+   "text": "Began playing home games at Alfredo Papo Alejandro Stadium, Juncos",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#10",
+     "role": "both",
+     "quote": "Alfredo Papo Alejandro Stadium ; Juncos , Puerto Rico ( 2008–2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "date": "2008-07-03",
+   "grain": "day",
+   "track": "other",
+   "label": "debut",
+   "text": "Sevilla FC made its debut, beating Huracan 1-0",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#5",
+     "role": "both",
+     "quote": "Sevilla FC debuted on 3 July 2008"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "date": "2008-07-20",
+   "grain": "day",
+   "track": "other",
+   "label": "first place",
+   "text": "Sevilla FC moved into first place in the league after beating Academia Quintana",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#5",
+     "role": "both",
+     "quote": "On 20 July 2008 , Sevilla FC defeated Academia Quintana to go into first place in the league"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "date": "2008-10-02",
+   "grain": "day",
+   "track": "other",
+   "label": "first place of stage",
+   "text": "Sevilla clinched first place of the second stage, beating Carolina Giants 6-0",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#6",
+     "role": "both",
+     "quote": "On 2 October 2008 , Sevilla defeated the Carolina Giants 6–0 to clinch the first place of this stage"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "date": "2008-10-18",
+   "grain": "day",
+   "track": "other",
+   "label": "championship",
+   "text": "Won the first Puerto Rico Soccer League Championship, 2-1 against River Plate",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#6",
+     "role": "both",
+     "quote": "On Saturday 18 October 2008 Sevilla won the first Puerto Rico Soccer League Championship 2–1 against River Plate"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "date": "2009",
+   "grain": "year",
+   "track": "location",
+   "text": "Team moved from Bayamon to Juncos",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#7",
+     "role": "both",
+     "quote": "In the 2009 season , the team moved to Juncos and were renamed Sevilla-FC Juncos"
+    },
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#0",
+     "role": "description",
+     "quote": "and moved a year later to Juncos"
+    },
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#11",
+     "role": "description",
+     "quote": "after it moved from Bayamon to Juncos due to financial problems"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "date": "2009",
+   "grain": "year",
+   "track": "naming",
+   "text": "Renamed Sevilla-FC Juncos",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#7",
+     "role": "both",
+     "quote": "In the 2009 season , the team moved to Juncos and were renamed Sevilla-FC Juncos"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "date": "2009",
+   "grain": "year",
+   "track": "ownership_structure",
+   "flag": "approximate_date",
+   "text": "City of Juncos bought the club after it folded, in time for the 2009 season",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#4",
+     "role": "both",
+     "quote": "the city of Juncos bought them in time for the 2009 season"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "date": "2010",
+   "grain": "year",
+   "track": "location",
+   "text": "Stopped using Alfredo Papo Alejandro Stadium, Juncos as home venue",
+   "flag": "source_inconsistent",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#10",
+     "role": "both",
+     "quote": "Alfredo Papo Alejandro Stadium ; Juncos , Puerto Rico ( 2008–2010 )"
+    }
+   ]
+  },
+  {
+   "id": "e17",
+   "date": "2011",
+   "grain": "year",
+   "track": "location",
+   "text": "Began playing home games at Josue Elevadito Gonzalez Stadium, Juncos",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/Sevilla_FC_Puerto_Rico#10",
+     "role": "both",
+     "quote": "Josué Elevadito González Stadium ; Juncos , Puerto Rico ( 2011–present )"
+    }
+   ]
+  }
+ ],
+ "undated_mentions": [
+  "Won both regular season and play-offs of inaugural 2008 season (season result, not dated)",
+  "Became one of the eight founders of the Puerto Rico Soccer League (no date given)",
+  "Club folded due to ownership problems before the 2009 season (no exact date)",
+  "Won regular season in 2011, lost play-off final on penalties to Leones (season result)",
+  "2009 season: finished 3rd and lost play-off semifinal to Bayamon FC (season result)"
+ ]
+}

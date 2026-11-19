@@ -1,0 +1,142 @@
+{
+ "page_id": "German_submarine_U-254",
+ "events": [
+  {
+   "id": "e1",
+   "date": "1941",
+   "grain": "year",
+   "track": "work",
+   "text": "Boat built at Vegesack shipyard for Kriegsmarine service.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#1",
+     "role": "both",
+     "quote": "Built in 1941 at Vegesack"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "date": "1942",
+   "grain": "year",
+   "track": "other",
+   "label": "training",
+   "text": "Began warm-up and training period in the Baltic Sea.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#1",
+     "role": "both",
+     "quote": "She conducted her warm-up and training period in the Baltic Sea in the first half of 1942"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e3",
+   "date": "1942-08-02",
+   "grain": "day",
+   "track": "other",
+   "label": "sinking",
+   "text": "Sank a small British freighter during her first patrol.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#5",
+     "role": "both",
+     "quote": "sinking a small British freighter on 2 August"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e4",
+   "date": "1942-10-03",
+   "grain": "day",
+   "track": "other",
+   "label": "sinking",
+   "text": "Sank American tanker Esso Williamsburg with one torpedo during second patrol.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#6",
+     "role": "both",
+     "quote": "on 3 October , after twelve days of cruising , she spotted the 11,000 ton American tanker Esso Williamsburg"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e5",
+   "date": "1942-10-09",
+   "grain": "day",
+   "track": "other",
+   "label": "sinking",
+   "text": "Sank an unnamed British ship with three torpedoes, all crew aboard.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#6",
+     "role": "both",
+     "quote": "This was followed six days later by another success in a similar area"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e6",
+   "date": "1942-11",
+   "grain": "month",
+   "track": "other",
+   "label": "patrol_departure",
+   "text": "Departed on third patrol after repairs, returning to North Atlantic routes.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#8",
+     "role": "both",
+     "quote": "After repairs , U-254 departed in late November 1942"
+    }
+   ],
+   "flag": "approximate_date"
+  },
+  {
+   "id": "e7",
+   "date": "1942-12",
+   "grain": "month",
+   "track": "other",
+   "label": "loss",
+   "text": "Lost in collision with U-221 during attack on Convoy HX 217; crew lost.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#8",
+     "role": "both",
+     "quote": "In December , the weather in the region is atrocious"
+    },
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#9",
+     "role": "description",
+     "quote": "41 of U-254s crew , who were spilled into the ocean as the boat heeled over and sank"
+    }
+   ],
+   "flag": "derived_date"
+  },
+  {
+   "id": "e8",
+   "date": "1942-12-08",
+   "grain": "day",
+   "track": "other",
+   "label": "convoy_orders",
+   "text": "Directed to attack Convoy HX 217.",
+   "evidence": [
+    {
+     "chunk_id": "/wiki/German_submarine_U-254#8",
+     "role": "both",
+     "quote": "to which she had been directed on 8 December"
+    }
+   ],
+   "flag": "derived_date"
+  }
+ ],
+ "undated_mentions": [
+  "Kptlt. Hans Gilardone commanded the boat for her whole career (no dates given)",
+  "Kptlt. Odo Loewe took command for second patrol during Gilardone's illness (no date)",
+  "Transfer from Kiel to new home base at Brest, first war patrol (no date)",
+  "Damaged by Norwegian depth charges during convoy attack on second patrol (no date)"
+ ]
+}
