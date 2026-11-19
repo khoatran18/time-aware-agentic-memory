@@ -122,19 +122,20 @@ for name in sys.argv[4:]:
             if e["chunk"] not in allowed: dropped.append(dict(e, reason="bad_chunk")); continue
             e["cid"] = chunks[e["chunk"]][0]; ct = chunks[e["chunk"]][2]; cn = norm(ct)
             dt, d = e["date_text"], e["date"]
+            if d and re.fullmatch(r"\d{3}(-\d{2}(-\d{2})?)?", d): d = e["date"] = "0" + d  # năm trước 1000: gold viết 0850, LLM trả 850
             if dt:
                 if norm(dt) not in cn:
                     if norm(dt) not in pagen: dropped.append(dict(e, reason="date_text_not_in_page")); continue
                     e["flags"].append("date_text_not_in_chunk")
                 ym = re.findall(r"(?<!\d)\d{4}(?!\d)", dt)
-                if d and ym and d[:4] not in ym: dropped.append(dict(e, reason="date_text_year_mismatch")); continue
+                if d and ym and d[:4].lstrip("0") not in ym: dropped.append(dict(e, reason="date_text_year_mismatch")); continue
                 if re.search(r"\d{3}0s|century|decade", dt, re.I) and d: e["flags"].append("decade_date_cleared"); e["date"] = d = None
             if d is not None:
                 if not FMT.match(d): dropped.append(dict(e, reason="bad_format")); continue
-                if not year_token(d[:4], raw):
-                    if dt and ip.expands_to(raw, d[:4], dt): e["flags"].append("year_expanded_from_range")  # năm cuối khoảng viết tắt ("1855–70")
+                if not year_token(d[:4].lstrip("0"), raw):
+                    if dt and ip.expands_to(raw, d[:4].lstrip("0"), dt): e["flags"].append("year_expanded_from_range")  # năm cuối khoảng viết tắt ("1855–70")
                     else: dropped.append(dict(e, reason="year_not_in_page")); continue
-                if not year_token(d[:4], ct): e["flags"].append("derived_date")
+                if not year_token(d[:4].lstrip("0"), ct): e["flags"].append("derived_date")
             if d and len(d) == 4 and dt and not e["approximate"]:
                 ms = {m: i + 1 for i, m in enumerate(MONTHS)}
                 found = {ms[m.lower()] for m in re.findall(r"\b(" + "|".join(MONTHS) + r")\b", dt, re.I)}
@@ -145,7 +146,7 @@ for name in sys.argv[4:]:
             if e["approximate"]: e["flags"].append("approximate_date")
             nums = [n.replace(",", "") for n in re.findall(r"\d[\d,\.]*\d|\d", e["text"])]
             ctn = ct.replace(",", "")
-            bad = [n for n in nums if n not in ctn and not (d and n == d[:4]) and n.rstrip(".") not in ctn]
+            bad = [n for n in nums if n not in ctn and not (d and n == d[:4].lstrip("0")) and n.rstrip(".") not in ctn]
             if bad: dropped.append(dict(e, reason="number_not_in_chunk:" + ",".join(bad))); continue
             words = re.findall(r"(?<=[a-z,] )[A-Z][\w'’-]{2,}", e["text"])
             missing = [wd for wd in words if wd not in raw]
