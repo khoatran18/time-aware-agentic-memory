@@ -189,3 +189,28 @@ Cùng quy trình với tune: sinh câu (`make_past_questions.py`) → LLM trả 
 - Hao hụt chủ yếu do `closed_leak` (hy4 trả lời được khi không có chunk): valid 199, test_clean 213 trên 550 câu.
 - test_clean-064 (F): chỗ sửa cũ (Drašković/Bulatović) không có câu đạt (câu thẳng `closed_leak`, câu `verify_false` bị chunk cũ tự mâu thuẫn). Đã thay bằng chỗ F khác cùng trang (`--redo --from-current --swap test_clean-064`; cờ `--swap` nay đưa edit vào danh sách làm lại dù đang đạt kiểm; test_clean-038 giữ nguyên câu cũ, chunk dựng lại, 0 lỗi ghép). Câu hỏi của 064 sinh lại. Bản trước lưu `edits_v8_pre064swap.jsonl`, `pre064/`. test_clean: bộ sạch **319** câu (`questions_v5.clean.jsonl`; C 80, E 91, F 68, A 80), **200/200** chỗ sửa có câu.
 - Hạn chế giống tune: kiểm rò rỉ chỉ với hy4; câu có/không (E current/historical, verify_false) không kiểm rò rỉ; một số câu A bù tay ở mức trang (`scope: same_page_other_chunk`).
+
+## Kế hoạch so sánh các hệ (2026-11-19, bàn xong, chi tiết làm rõ sau, chưa cài, chưa chạy)
+
+**Phạm vi chốt:** người dùng hỏi về thế giới theo thời gian (hiện tại, tại một mốc, timeline); kho phải đúng sau mỗi lần cập nhật. Câu về lịch sử của tài liệu ("trước đây trang ghi gì", "đã sửa gì") không đưa vào đánh giá chính (người dùng cuối hầu như không hỏi; `12` coi là ngoại lệ nhỏ). Dữ liệu mô phỏng cũng không có ca giữ bản cũ có ích, vì `real` là bản đầy đủ nên đã chứa lịch sử.
+
+**Ba hệ so sánh** (thêm hệ nào chắc thua thì bỏ: "không cập nhật" và Keep-all bị loại):
+
+| Hệ | Cách cập nhật | Chi phí LLM | Rủi ro / khác biệt |
+|---|---|---|---|
+| Replace-all | Xóa nút cả trang, nạp lại cả trang | Cao nhất (cả trang) | Mốc tham chiếu về độ sạch; nạp mức trang có bước gộp nút toàn trang |
+| Diff-replace | Diff chunk; xóa nút có `FROM_CHUNK` là chunk đổi; trích xuất lại chỉ chunk đó bằng prompt ingest thường; không có bước LLM quyết định | Thấp (chỉ chunk đổi) | Không thấy nút cũ: dễ lệch ở nút gộp nhiều chunk, nút lân cận; trích xuất lại có biến động |
+| Cơ chế 3 | Diff chunk; **một lượt LLM nhận văn bản chunk mới + các nút cũ của cả đoạn đổi (mở rộng sang nút cùng `Cell`)**, đề xuất giữ/sửa mốc/đóng `end_time`/vô hiệu/thêm; code kiểm tra trích dẫn, mốc, chuỗi (`12` mục 6) | Gần Diff-replace, hơn một chút token vào/ra | Nút cũ làm tham chiếu (có thể tốt hơn), nhưng LLM có thể bị neo vào nút cũ (giữ nút lỗi thời); nút mới do prompt cập nhật sinh nên có thể khác prompt ingest `10b` |
+
+**Cách so:** biểu đồ Pareto, trục độ chính xác và chi phí (lượt gọi, token), cùng phương pháp truy xuất ở cả ba hệ (`vec`, `graph`, `graph_tb`, `graph_tt`, và agent của cơ chế 2). Tách theo loại sửa C/E/F/A. Thêm chỉ số trạng thái: nút lỗi thời còn sót, nút bị đóng/vô hiệu nhầm, nút bị đổi dù không cần.
+
+**Bộ câu hỏi:**
+- Chính: câu cơ chế 2 trên các trang bị sửa (~190 trang/tập); tách riêng nhóm câu hỏi đúng sự kiện bị sửa (tune 56, valid 67, test_clean 63).
+- Phụ: bộ `mech3` (chỉ phân biệt hệ giữ nhiều bản với nhóm ghi đè, vì vector của cả ba hệ đều ghi đè nên giống nhau); câu cơ chế 1 trùng gold chunk với chunk sửa (tune 30, valid 24, test_clean 24), dùng làm kiểm hồi quy.
+- Độ phủ kiểm offline (200 chỗ sửa/tập): chunk sửa là bằng chứng của ≥1 sự kiện timeline 184/177/177; câu cơ chế 2 hỏi đúng sự kiện nằm trên câu sửa 56/67/63. Không cần sinh thêm câu graph-level.
+
+**Việc chưa chốt:** phạm vi mở rộng nút lân cận của cơ chế 3; Plain (nạp lại từng chunk không dọn) không còn là hệ riêng; nạp thử ~20 chỗ sửa vào kho riêng để đo tỉ lệ chỗ sửa "hiệu lực" (bản cũ có sinh nút khớp câu bị sửa) cần người dùng cho phép nạp kho.
+
+## Ghi chú: cơ chế 1 sẽ thử thêm bằng agentic search với vector (2026-11-19, làm sau)
+
+Câu cơ chế 1 (gold chunk trùng chunk sửa) và bộ `mech3` sẽ được thử thêm bằng **agentic search chỉ dùng vector** (agent tự gọi truy xuất vector nhiều lần), ngoài các phương pháp cố định. Chưa thiết kế, chưa chạy.
