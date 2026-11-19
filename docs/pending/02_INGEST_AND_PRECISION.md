@@ -20,3 +20,27 @@
 1. **Dọn trùng Lead/thân ở bước nạp, không ở ingest.** Thứ tự: gộp quy tắc → so cặp LLM theo cổng cũ → hỏi lại verdict thiếu (lô khoảng 10 cặp). Chặn không gộp: khác `phase` (end/start riêng), khác `track` (trừ `other`), số năm trong text mâu thuẫn. Giữ nút: ưu tiên mốc không phải Lead, lấy ngày dài hơn, hợp `cids`, lưu `merged_from` để lần ngược. Ghi chú: end và start giữ là hai nút riêng (timeline coi là hai sự kiện); chỉ liên kết bằng thứ tự trong ô. Cặp end/start mà LLM gán `same` phải bị chặn.
 2. **Lọc mềm bằng thuộc tính `tier` trên nút.** Tier 1: `kind` change/occurrence và `subject` self/part_of_self; tier 2: còn lại. Nạp cả hai. Truy vấn mặc định lấy tier 1; lấy thêm tier 2 khi tier 1 rỗng trong khoảng hỏi hoặc có nút tier 2 khớp từ khóa câu hỏi, xếp sau, trong phần ngân sách token còn lại. Việc đầu tiên khi đo graph: kiểm tra lọc mềm trên truy xuất thật.
 3. **`source_inconsistent`: bỏ qua, ingest chạy bình thường** (người dùng chốt 2026-11-13). Lý do: câu hỏi v9 không dùng mốc `source_inconsistent` làm đáp án (xem `03`), nên không ảnh hưởng đo. Không thêm nhận diện vào prompt, không dựng `conflict_group`. Nếu sau này cần (ranh giới với Cơ chế 3) thì mở lại.
+
+## Nguyên nhân ingest thiếu mốc, hướng sửa (2026-11-14; người dùng chốt: vẫn sửa ingest)
+
+Đối chiếu chunk gốc, mốc gold và đầu ra ingest thô (`out_p10b_ds_F/`, trường `dropped`; không gọi LLM) cho 4 câu graph sai. Washington, Journal và Leuna đều **0 mốc bị loại ở bước lọc**: LLM không trích ngay từ đầu (graph và gộp chỉ sao chép). Nguồn: phân tích agent B + graph (`planning/02` mục 11.15) và kiểm chứng riêng. Mới thấy ở 4 ca, **chưa đếm quy mô trên 35 trang**.
+
+| Lỗi | Ca | Chunk gốc | Nguyên nhân (prompt `pass3_p10b.py`) |
+|---|---|---|---|
+| A. Câu không có cụm thời gian riêng bị bỏ | Washington Spirit (playoff 2014, bán kết 2015), Journal de 20 heures (Cavada) | "…the 2014 making key acquisitions… Finishing 4th, … first NWSL Playoff appearance"; "…on 6 January 1975… Jean-Marie Cavada was the first presenter" | Prompt: "EVERY event … that the text **dates**"; `date_text` copy nguyên văn. Câu thừa hưởng ngày từ câu trước (cùng mùa, cùng ngày) không có cụm thời gian nên bị coi là không có ngày. Quy tắc lấy năm từ ngữ cảnh chỉ áp cho "later that year", "in March"… |
+| B. Danh sách chung một ngày bị nén | Technical University Leuna-Merseburg (1972: Economics, Mathematics…; 1976: Physics, Materials Sciences) | "New sections were formed in 1972 from the latter two: - Economics - Mathematics…"; 1976: câu dẫn ở chunk #23, các mục ở chunk #24 (không có năm) | "One item per event" không nói rõ mỗi mục danh sách là một mốc khi cả danh sách chung một ngày; mục danh sách không có năm nên bị coi như lỗi A; danh sách bị cắt ngang giữa hai chunk |
+| C. Hai năm trong một câu | Charles Holden | "won the London Architecture Medal for 1929 (awarded 1931)" | Ingest lấy 1929, gold lấy 1931. Quy tắc "winning the 2008 … event is an event of 2008" kéo về năm trong tên giải; chưa có quy tắc ưu tiên năm "awarded". Nhập nhằng: chưa chốt gold hay ingest đúng hơn |
+
+**Hướng sửa (chưa làm; sửa prompt 10b thành bản mới, chỉnh trên tune):**
+1. **A:** cho phép trích câu không có cụm thời gian khi nó tiếp nối cùng sự kiện hoặc cùng giai đoạn của câu có ngày trước đó trong cùng chunk hoặc cửa sổ; `date` lấy năm gần nhất trước, `date_text` = null, gắn cờ `date_inherited` để đo riêng. Rủi ro: tăng mốc thừa (precision); phải đo.
+2. **B:** quy tắc "danh sách dẫn bằng một câu có ngày: mỗi mục là một mốc riêng, ngày của câu dẫn, kể cả khi mục nằm ở chunk kế tiếp"; `quote` lấy mục danh sách.
+3. **C:** quy tắc "khi câu ghi cả năm đối tượng và năm trao/xảy ra ('for 1929 (awarded 1931)'), `date` là năm sự kiện xảy ra; năm kia nằm trong `text`".
+4. Đo lại trên tune bằng `local/ingest_eval/` (mốc gold mất, precision, đọc đáp án), sau đó chạy lại graph; hỏi người dùng trước khi chạy (đổi prompt thì không trúng cache; đếm số lần gọi bằng `DRY=1`).
+
+## Cache và thinking (2026-11-17)
+
+- **Vấn đề:** khóa cache LLM (`src/tam/llm/structured.py:127`) chỉ gồm schema, `model_id` và nội dung messages. `extra_body` của profile (như `thinking: {type: "disabled"}`) không nằm trong khóa. Đổi thinking mà chạy lại cùng prompt sẽ trúng cache cũ, không gọi mới, và kết quả vẫn là của lần sinh cũ.
+- **Hiện trạng thinking theo nhóm ingest 10b:** 35 trang tune đầu (API DeepSeek trực tiếp, `deepseek_flash`): tắt. 168 trang tune còn lại và so cặp qua OpenCode (`opencode_deepseek_flash`) trước 2026-11-17: không đặt `extra_body`, nên theo mặc định của DeepSeek (khả năng bật; một lần gọi trung vị 41 giây). Từ 2026-11-17 profile OpenCode đặt `thinking: disabled` (thử 6 lần gọi: 4 đến 15 giây).
+- **Cách tránh:** chạy lại bằng cache riêng. Script `pass3_p10b_oc.py` đọc biến môi trường `INGEST_CACHE` (mặc định `ingest`); lần ingest thinking tắt dùng `INGEST_CACHE=ingest_nothink` (thư mục `data/llm_cache/ingest_nothink/`), đầu ra `outline_trial/out_p10b_ds_T`, log `local/ingest_eval/judge_out/llm_calls_ingest_nothink_tune.jsonl`. Cache so cặp (`data/llm_cache/judge/`) chưa tách: cặp có nội dung giống hệt sẽ dùng lại verdict cũ.
+- **Cách sửa gốc (chưa làm, cần bạn chốt):** đưa băm của `extra_body` vào khóa cache khi profile có `extra_body`. Hậu quả: khóa của mọi lần gọi qua profile có `extra_body` (như `deepseek_flash`) đổi, cache cũ của chúng không còn trúng. Cách rẻ hơn: giữ khóa, thêm `cache_model` riêng cho mỗi biến thể thinking của profile.
+

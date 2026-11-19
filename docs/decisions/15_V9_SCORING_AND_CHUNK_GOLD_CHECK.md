@@ -39,7 +39,14 @@ Exact: order_gap 25/25, first_last_next 24/25, list 20/25, summary 20/25 (F1 0,9
 - Tiêu chí phải nói đúng chiều của sự kiện (báo là bên mua hay bị mua).
 - Mốc chỉ có "by <năm>", "at least <năm>" là cận, không phải ngày xảy ra: `at least` thành `approximate_date` (đã cờ); `by <năm>` chưa có cờ, **đề xuất** bỏ câu `order_gap` phụ thuộc trực tiếp vào năm đó (ACES_Colombia:3, Richard_Sanderson_MP:3), giữ câu `list` và ghi nhóm riêng. Chưa chốt.
 
-## 6. Việc còn lại
+## 6. Cập nhật 2026-11-13 (sau khi chạy valid, test_clean và 15 câu sửa)
 
-- Đã chạy chunk đúng cho toàn bộ 638 câu tune (ghi chú `pending/03` mục 4j: exact list 0,850, summary 0,794, first_last_next 0,966, order_gap 1,000; 5 ứng viên sửa, chưa sửa). Còn valid và test_clean nếu muốn; sửa theo luật mục 5.
-- Mức truy xuất thật (vector top-k, cả trang, chuỗi oracle) chưa chạy; cần chốt và hỏi chi phí trước.
+- Đã chạy chunk đúng cho cả ba tập (tune 638, valid 555, test_clean 662 lượt, cộng 15 lượt chạy lại câu đã sửa). Ghi chú chi tiết: `pending/03` mục 4k.
+- Sửa quy ước bộ chấm: ngày dạng khoảng có tên tháng lấy mốc đầu; tên tháng viết tắt ("Oct", "Sept") đọc được; mùa giải "YYYY–YY" khớp năm đầu hoặc năm sau (chỉ với gold chỉ-năm); thêm chỉ số bổ sung `exact_m2o` (mốc chuẩn gộp nhiều việc được khớp nhiều mốc dự đoán cùng ngày; không bao giờ thấp hơn `exact`). `exact` vẫn là số chính.
+- Bảng điểm chính thức: `python3 -I local/lvl1_report.py .` (không gọi LLM) ghép kết quả đã lưu với v9 hiện tại theo (trang, lời hỏi), chấm lại với gold hiện tại, ghi `local/lvl1/report_final.txt`. Số hiện tại (1850 câu, đủ 1850 có kết quả, exact; `exact_m2o` trong ngoặc): order_gap 0,998; first_last_next 0,964; list 0,901 (0,909); summary 0,883 (0,903); F1 0,973 đến 0,978. Câu có `flagged_ids`: list 0,875 (n=32), summary 0,875 (n=8). Mức này là trần (chunk đúng, không truy xuất) và đã chọn lọc vì các câu lỗi rõ đã bị sửa hoặc bỏ nên không so trực tiếp với số trước khi sửa.
+- Bổ sung 2026-11-13 (người dùng cho phép): chạy nốt 7 câu chưa có kết quả cho đúng lời hỏi hiện tại (Archaeologia_Cambrensis:1, Lower_Norrland_Military_District:1, Real_Madrid_Baloncesto:0, The_Mercury_News:0, Vindobona_train:1, Alemannia_Aachen:0, D_R_Shackleton_Bailey:4) bằng `opencode_deepseek_flash`, 7 lượt, 39 giây, 0 lỗi, kết quả `local/lvl1/run_fix7/`; cả 7 đạt (list 4/4, summary 3/3). Nay 1850 câu đều có kết quả cho lời hỏi hiện tại.
+- Gold `Dom_2` e44, e56, e63, e71, e75, e79 (Man of the Year for the Official Website): đã đối chiếu lại, năm và người thắng đầu khớp nguyên văn, không sai. e56, e71, e75 là đồng hạng mà gold chỉ ghi một người, nên nếu sinh câu chỉ dùng e44, e63, e79. Không động vào `rev/`; không câu v9 nào dùng nhóm này.
+
+## 7. Việc còn lại
+
+- Mức truy xuất thật (vector top-k, cả trang, chuỗi oracle) chưa chạy; cần chốt và hỏi chi phí trước. Mốc có `flagged_ids` đã báo riêng ở mục 6.
