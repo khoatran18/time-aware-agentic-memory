@@ -1,0 +1,298 @@
+{
+ "events": [
+  {
+   "text": "José Pedro Alves Salazar was born.",
+   "chunk": 0,
+   "date_text": "18 October 1978",
+   "date": "1978-10-18",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "José Pedro Alves Salazar ( born 18 October 1978 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#0"
+  },
+  {
+   "text": "José Pedro started playing professional football for his hometown club C.D. Montijo.",
+   "chunk": 1,
+   "date_text": "1996",
+   "date": "1996",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "C.D. Montijo",
+   "quote": "started playing professional football for his hometown club C.D . Montijo in 1996",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+  },
+  {
+   "text": "José Pedro moved to F.C. Barreirense.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "F.C. Barreirense",
+   "quote": "then moved to F.C . Barreirense",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+  },
+  {
+   "text": "José Pedro split duties between Boavista F.C. and A.D. Ovarense.",
+   "chunk": 1,
+   "date_text": "2002–03",
+   "date": "2002",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Boavista F.C.",
+   "quote": "He split duties in 2002–03 between Boavista F.C . and A.D . Ovarense",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+  },
+  {
+   "text": "Zé Pedro was influential in Vitória FC's campaign as the team earned a Primeira Liga return.",
+   "chunk": 1,
+   "date_text": "2003–04",
+   "date": "2003",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Vitória FC",
+   "quote": "Zé Pedro was influential in Vitória FCs 2003–04 campaign",
+   "section": 1,
+   "flags": [
+    "approximate_date",
+    "name_not_in_page:FC's"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+  },
+  {
+   "text": "José Pedro joined C.F. Os Belenenses.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "C.F. Os Belenenses",
+   "quote": "He subsequently joined C.F . Os Belenenses",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#1"
+  },
+  {
+   "text": "José Pedro scored eight league goals for a Belenenses final fifth-place in the league.",
+   "chunk": 2,
+   "date_text": "2006–07",
+   "date": "2006",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Belenenses",
+   "quote": "In 2006–07 , José Pedro scored eight league goals for a Belenenses final fifth-place in the league",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#2"
+  },
+  {
+   "text": "Belenenses were runners-up in the domestic cup.",
+   "chunk": 2,
+   "date_text": "2006–07",
+   "date": "2006",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "domestic cup",
+   "quote": "while they were also runners-up in the domestic cup",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#2"
+  },
+  {
+   "text": "José Pedro remained first choice until the 2009–10 campaign.",
+   "chunk": 2,
+   "date_text": "2009–10",
+   "date": "2009",
+   "approximate": true,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "remained first choice until the 2009–10 campaign",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#2"
+  },
+  {
+   "text": "The Lisbon side were relegated as second from bottom.",
+   "chunk": 2,
+   "date_text": "2009–10",
+   "date": "2009",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Lisbon side",
+   "quote": "the Lisbon side were also relegated as second from bottom",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#2"
+  },
+  {
+   "text": "Zé Pedro returned to Vitória Setúbal after a six-year absence.",
+   "chunk": 3,
+   "date_text": "July 2010",
+   "date": "2010-07",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vitória Setúbal",
+   "quote": "In July 2010 , at nearly 32 years of age , Zé Pedro returned to Vitória Setúbal",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#3"
+  },
+  {
+   "text": "Zé Pedro left Vitória Setúbal at the end of the 2012–13 season.",
+   "chunk": 3,
+   "date_text": "2012–13",
+   "date": "2012",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vitória Setúbal",
+   "quote": "He left at the end of the 2012–13 season",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#3"
+  },
+  {
+   "text": "Belenenses settled a €160.000 debt they had with him.",
+   "chunk": 3,
+   "date_text": "January 2013",
+   "date": "2013-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Belenenses",
+   "quote": "in January 2013 , Belenenses settled a €160.000 debt they had with him",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#3"
+  },
+  {
+   "text": "Zé Pedro started working as a manager immediately after retiring.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "manager",
+   "quote": "Zé Pedro started working as a manager immediately after retiring",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#4"
+  },
+  {
+   "text": "Zé Pedro was part of Silas' coaching staff at C.F. Os Belenenses.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "C.F. Os Belenenses",
+   "quote": "he was part of his former Belenenses teammate Silas coaching staff at C.F. Os Belenenses",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Silas'"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#4"
+  },
+  {
+   "text": "Zé Pedro was part of Silas' coaching staff at Sporting CP.",
+   "chunk": 4,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Sporting CP",
+   "quote": "and Sporting CP",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Silas'"
+   ],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#4"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "José Pedro repeated the individual feat.",
+   "chunk": 2,
+   "date_text": "the following season",
+   "date": "2007",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "He repeated the individual feat in the following season",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Zé_Pedro_(footballer,_born_1978)#2",
+   "reason": "year_not_in_page"
+  }
+ ]
+}

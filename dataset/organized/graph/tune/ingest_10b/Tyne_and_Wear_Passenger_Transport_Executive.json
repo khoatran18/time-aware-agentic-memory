@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Tyne and Wear PTE replaced the Tyneside PTE.",
+   "chunk": 0,
+   "date_text": "1 April 1974",
+   "date": "1974-04-01",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Tyneside PTE",
+   "quote": "It replaced the Tyneside PTE on 1 April 1974 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#0"
+  },
+  {
+   "text": "Nexus launched a Bus Strategy aimed at improving the bus network in Tyne and Wear.",
+   "chunk": 5,
+   "date_text": "In April 2009",
+   "date": "2009-04",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Bus Strategy",
+   "quote": "In April 2009 Nexus launched a Bus Strategy aimed at improving the bus network in Tyne and Wear",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5"
+  },
+  {
+   "text": "The North East Combined Authority accepted a recommendation from Nexus to take forward a Quality Contracts Scheme.",
+   "chunk": 5,
+   "date_text": "In October 2014",
+   "date": "2014-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Quality Contracts Scheme",
+   "quote": "In October 2014 the North East Combined Authority accepted a recommendation from Nexus to",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5"
+  },
+  {
+   "text": "Following the coronavirus outbreak all of the shops were closed until further notice.",
+   "chunk": 11,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "TravelShops",
+   "quote": "Following the coronavirus outbreak all of the shops were closed until further notice",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#11"
+  }
+ ],
+ "dropped": []
+}
