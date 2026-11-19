@@ -1,0 +1,298 @@
+{
+ "events": [
+  {
+   "text": "The position was created and assigned Cabinet rank during the administration of Richard Nixon.",
+   "chunk": 1,
+   "date_text": "during the administration of Richard Nixon",
+   "date": null,
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Cabinet rank",
+   "quote": "The position was created during the administration of Richard Nixon , where it was assigned Cabinet rank .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#1"
+  },
+  {
+   "text": "The position remained a Cabinet-level position until 1993.",
+   "chunk": 1,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Cabinet-level position",
+   "quote": "It remained a Cabinet-level position until 1993 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#1"
+  },
+  {
+   "text": "Rogers Morton briefly joined them as a domestic policy advisor in early 1976.",
+   "chunk": 1,
+   "date_text": "early 1976",
+   "date": "1976",
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Rogers Morton",
+   "quote": "with former United States Secretary of Commerce Rogers Morton briefly joining them as a domestic policy advisor in early 1976 .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#1"
+  },
+  {
+   "text": "The position was left vacant during Reagans second term as president.",
+   "chunk": 3,
+   "date_text": "during Reagans second term as president",
+   "date": null,
+   "approximate": true,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "Meese became United States attorney general during Reagans second term as president and the position was left vacant .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#3"
+  },
+  {
+   "text": "The position was left vacant in the first three years of President George H.W. Bushs term.",
+   "chunk": 4,
+   "date_text": "in the first three years of President George H.W. Bushs term",
+   "date": null,
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "The position was left vacant in the first three years of President George H.W. Bushs term .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#4"
+  },
+  {
+   "text": "In 1992, the position was filled by Clayton Yeutter.",
+   "chunk": 4,
+   "date_text": "In 1992",
+   "date": "1992",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Clayton Yeutter",
+   "quote": "In 1992 , it was filled by Clayton Yeutter following his resignation as chairman of the Republican National Committee .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#4"
+  },
+  {
+   "text": "During the Bill Clinton administration, the post became much more focused on communications.",
+   "chunk": 5,
+   "date_text": "During the Bill Clinton administration",
+   "date": null,
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "communications",
+   "quote": "During the Bill Clinton administration , the post became much more focused on communications .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#5"
+  },
+  {
+   "text": "Under the Obama administration, the position was initially abolished and the duties transferred to three senior advisors.",
+   "chunk": 6,
+   "date_text": "Under the Obama administration",
+   "date": null,
+   "approximate": true,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "three senior advisors",
+   "quote": "Under the Obama administration , the position was initially abolished and the duties of the office transferred to three senior advisors",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#6"
+  },
+  {
+   "text": "On January 6, 2011, President Obama appointed Rouse as counselor to the president.",
+   "chunk": 6,
+   "date_text": "January 6, 2011",
+   "date": "2011-01-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rouse",
+   "quote": "On January 6 , 2011 , President Obama appointed Rouse as counselor to the president",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#6"
+  },
+  {
+   "text": "John Podesta left the position to join the Hillary Clinton presidential campaign of 2016 as chairman.",
+   "chunk": 7,
+   "date_text": "2016",
+   "date": "2016",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hillary Clinton presidential campaign",
+   "quote": "John Podesta was the last person to hold the position before he left to join the Hillary Clinton presidential campaign of 2016 as chairman .",
+   "section": 1,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#7"
+  },
+  {
+   "text": "Soon after the 2016 election, President-elect Donald Trump announced his intention to name Kellyanne Conway to the position.",
+   "chunk": 8,
+   "date_text": "Soon after the 2016 election",
+   "date": "2016",
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Kellyanne Conway",
+   "quote": "Soon after the 2016 election , President-elect Donald Trump announced his intention to name his campaign manager during the general election , Kellyanne Conway",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#8"
+  },
+  {
+   "text": "Bannon was named to the Principals Committee of the National Security Council in a January 2017 executive order.",
+   "chunk": 8,
+   "date_text": "January 2017",
+   "date": "2017-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Principals Committee of the National Security Council",
+   "quote": "Bannon was named to the Principals Committee of the National Security Council in a January 2017 executive order",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#8"
+  },
+  {
+   "text": "Trump removed Bannon from the council.",
+   "chunk": 9,
+   "date_text": "April 2017",
+   "date": "2017-04",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "council",
+   "quote": "Trump removed Bannon from the council in April 2017",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#9"
+  },
+  {
+   "text": "Bannons departure from the White House.",
+   "chunk": 10,
+   "date_text": "August 2017",
+   "date": "2017-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "White House",
+   "quote": "After Bannons departure from the White House in August 2017",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#10"
+  },
+  {
+   "text": "Johnny DeStefano was given the title.",
+   "chunk": 10,
+   "date_text": "February 2018",
+   "date": "2018-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Johnny DeStefano",
+   "quote": "Johnny DeStefano was given the title in February 2018",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#10"
+  },
+  {
+   "text": "It was announced that Hope Hicks would return to the White House Office in the role.",
+   "chunk": 10,
+   "date_text": "February 2020",
+   "date": "2020-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Hope Hicks",
+   "quote": "In February 2020 , it was announced that former White House Communications Director Hope Hicks would return",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Counselor_to_the_President#10"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Soon after the 2016 election, President-elect Donald Trump announced his intention to name Steve Bannon as a senior counselor and chief strategist.",
+   "chunk": 8,
+   "date_text": "Soon after the 2016 election",
+   "date": "2016",
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Steve Bannon",
+   "quote": "Soon after the 2016 election , President-elect Donald Trump announced his intention to name his campaign CEO Steve Bannon as a senior counselor",
+   "section": 1,
+   "flags": [
+    "approximate_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Counselor_to_the_President#8",
+   "reason": "duplicate"
+  }
+ ]
+}

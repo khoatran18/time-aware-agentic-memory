@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Jiří Šašek's term as director began.",
+   "chunk": 7,
+   "date_text": "2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Jiří Šašek",
+   "quote": "Jiří Šašek 2014-2018",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Office_for_Foreign_Relations_and_Information#7"
+  },
+  {
+   "text": "Jiří Šašek's term as director ended.",
+   "chunk": 7,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Jiří Šašek",
+   "quote": "Jiří Šašek 2014-2018",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Office_for_Foreign_Relations_and_Information#7"
+  },
+  {
+   "text": "ÚZSI's operation of the OLX callsign station ended.",
+   "chunk": 8,
+   "date_text": "until 1996",
+   "date": "1996",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "OLX",
+   "quote": "The station ran under ÚZSI until 1996 .",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Office_for_Foreign_Relations_and_Information#8"
+  }
+ ],
+ "dropped": []
+}

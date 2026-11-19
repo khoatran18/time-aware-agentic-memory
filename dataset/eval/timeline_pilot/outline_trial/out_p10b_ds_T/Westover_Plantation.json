@@ -1,0 +1,173 @@
+{
+ "events": [
+  {
+   "text": "Westover Plantation was established.",
+   "chunk": 0,
+   "date_text": "c. 1730–1750",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Westover Plantation",
+   "quote": "Established in c. 1730–1750, it is the homestead of the Byrd family of Virginia.",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Westover_Plantation#0"
+  },
+  {
+   "text": "Sir John Pawlett demised most of Westover Plantation to Theodorick Bland of Westover for £170.",
+   "chunk": 2,
+   "date_text": "1665",
+   "date": "1665",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Westover Plantation",
+   "quote": "demised most of Westover Plantation in 1665 to Theodorick Bland of Westover for £170",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#2"
+  },
+  {
+   "text": "Theodorick Bland died.",
+   "chunk": 2,
+   "date_text": "1671",
+   "date": "1671",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Theodorick Bland",
+   "quote": "Bland lived on the property until his death in 1671",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#2"
+  },
+  {
+   "text": "The brothers conveyed 1,200 acres of the property to William Byrd I for £300 and 10,000 pounds of tobacco and cask.",
+   "chunk": 2,
+   "date_text": "1688",
+   "date": "1688",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "William Byrd I",
+   "quote": "conveyed 1,200 acres of the property to William Byrd I in 1688",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#2"
+  },
+  {
+   "text": "The mansion was thought to have been built c. 1730.",
+   "chunk": 3,
+   "date_text": "c . 1730",
+   "date": "1730",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "mansion",
+   "quote": "was thought to have built the mansion c . 1730",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Westover_Plantation#3"
+  },
+  {
+   "text": "The house was designated a National Historic Landmark.",
+   "chunk": 3,
+   "date_text": "1960",
+   "date": "1960",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "National Historic Landmark",
+   "quote": "part of the 1960 designation of the house as a National Historic Landmark",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#3"
+  },
+  {
+   "text": "Westover was sold out of the Byrd family after the death of William Byrd III's widow.",
+   "chunk": 7,
+   "date_text": "1814",
+   "date": "1814",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Byrd family",
+   "quote": "After the death of William Byrd IIIs widow in 1814 , Westover was sold out of the Byrd family",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:III's"
+   ],
+   "cid": "/wiki/Westover_Plantation#7"
+  },
+  {
+   "text": "Augustus Harrison Drewry lived at Westover until his death.",
+   "chunk": 8,
+   "date_text": "1899",
+   "date": "1899",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Westover",
+   "quote": "lived at Westover until his death in 1899",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#8"
+  },
+  {
+   "text": "Westover was acquired by United States diplomat Richard Teller Crane, II.",
+   "chunk": 9,
+   "date_text": "early 20th century",
+   "date": null,
+   "approximate": true,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Richard Teller Crane, II",
+   "quote": "In the early 20th century , Westover was acquired by United States diplomat Richard Teller Crane , II",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Westover_Plantation#9"
+  },
+  {
+   "text": "The site was damaged by Hurricane Isabel.",
+   "chunk": 9,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Hurricane Isabel",
+   "quote": "The site was damaged by Hurricane Isabel in 2003",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Westover_Plantation#9"
+  }
+ ],
+ "dropped": []
+}

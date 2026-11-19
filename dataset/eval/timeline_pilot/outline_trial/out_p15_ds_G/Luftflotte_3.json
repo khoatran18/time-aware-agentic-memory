@@ -1,0 +1,491 @@
+{
+ "events": [
+  {
+   "text": "Luftflotte 3 was formed from Luftwaffengruppenkommando 3 in Munich.",
+   "chunk": 0,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Luftwaffengruppenkommando 3",
+   "quote": "It was formed on 1 February 1939 from Luftwaffengruppenkommando 3 in Munich",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#0"
+  },
+  {
+   "text": "Luftflotte 3 was redesignated Luftwaffenkommando West.",
+   "chunk": 0,
+   "date_text": "26 September 1944",
+   "date": "1944-09-26",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Luftwaffenkommando West",
+   "quote": "and redesignated Luftwaffenkommando West ( Air Command West ) on 26 September 1944",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#0"
+  },
+  {
+   "text": "Luftwaffe special transport units (1944–45) based in Muhldorf, Bavaria",
+   "chunk": 22,
+   "date_text": "1944–45",
+   "date": "1944",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "state",
+   "subject": "part_of_self",
+   "object": "Muhldorf, Bavaria",
+   "quote": "Luftwaffe special transport units ( 1944–45 ) ; based in Muhldorf , Bavaria",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#22"
+  },
+  {
+   "text": "Generalfeldmarschall Hugo Sperrle's command began.",
+   "chunk": 27,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalfeldmarschall Hugo Sperrle , 1 February 1939 – 23 August 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Sperrle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalfeldmarschall Hugo Sperrle's command ended.",
+   "chunk": 27,
+   "date_text": "23 August 1944",
+   "date": "1944-08-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalfeldmarschall Hugo Sperrle , 1 February 1939 – 23 August 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Sperrle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generaloberst Otto Deßloch's command began.",
+   "chunk": 27,
+   "date_text": "23 August 1944",
+   "date": "1944-08-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generaloberst Otto Deßloch , 23 August 1944 – 22 September 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Deßloch's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generaloberst Otto Deßloch's command ended.",
+   "chunk": 27,
+   "date_text": "22 September 1944",
+   "date": "1944-09-22",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generaloberst Otto Deßloch , 23 August 1944 – 22 September 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Deßloch's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Alexander Holle's command began.",
+   "chunk": 27,
+   "date_text": "22 September 1944",
+   "date": "1944-09-22",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Alexander Holle , 22 September 1944 – 26 September 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Holle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Alexander Holle's command ended.",
+   "chunk": 27,
+   "date_text": "26 September 1944",
+   "date": "1944-09-26",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Alexander Holle , 22 September 1944 – 26 September 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Holle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Alexander Holle's command began.",
+   "chunk": 27,
+   "date_text": "28 September 1944",
+   "date": "1944-09-28",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Alexander Holle , 28 September 1944 – 15 November 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Holle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Alexander Holle's command ended.",
+   "chunk": 27,
+   "date_text": "15 November 1944",
+   "date": "1944-11-15",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Alexander Holle , 28 September 1944 – 15 November 1944",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Holle's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Joseph Schmid's command began.",
+   "chunk": 27,
+   "date_text": "16 November 1944",
+   "date": "1944-11-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Joseph Schmid , 16 November 1944 – 27 April 1945",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Schmid's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Joseph Schmid's command ended.",
+   "chunk": 27,
+   "date_text": "27 April 1945",
+   "date": "1945-04-27",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Joseph Schmid , 16 November 1944 – 27 April 1945",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Schmid's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Martin Harlinghausen's command began.",
+   "chunk": 27,
+   "date_text": "28 April 1945",
+   "date": "1945-04-28",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Martin Harlinghausen , 28 April 1945 – 8 May 1945",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Harlinghausen's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalleutnant Martin Harlinghausen's command ended.",
+   "chunk": 27,
+   "date_text": "8 May 1945",
+   "date": "1945-05-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": null,
+   "quote": "Generalleutnant Martin Harlinghausen , 28 April 1945 – 8 May 1945",
+   "section": 12,
+   "flags": [
+    "name_not_in_page:Harlinghausen's"
+   ],
+   "cid": "/wiki/Luftflotte_3#27"
+  },
+  {
+   "text": "Generalmajor Maximilian Ritter von Pohl became chief of staff on 1 February 1939.",
+   "chunk": 28,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Maximilian Ritter von Pohl",
+   "quote": "Generalmajor Maximilian Ritter von Pohl , 1 February 1939 – 10 June 1940",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Generalmajor Maximilian Ritter von Pohl's term as chief of staff ended on 10 June 1940.",
+   "chunk": 28,
+   "date_text": "10 June 1940",
+   "date": "1940-06-10",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Maximilian Ritter von Pohl",
+   "quote": "Generalmajor Maximilian Ritter von Pohl , 1 February 1939 – 10 June 1940",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Pohl's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Günther Korten became chief of staff on 11 June 1940.",
+   "chunk": 28,
+   "date_text": "11 June 1940",
+   "date": "1940-06-11",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Günther Korten",
+   "quote": "Oberst Günther Korten , 11 June 1940 – 31 December 1940",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Günther Korten's term as chief of staff ended on 31 December 1940.",
+   "chunk": 28,
+   "date_text": "31 December 1940",
+   "date": "1940-12-31",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Günther Korten",
+   "quote": "Oberst Günther Korten , 11 June 1940 – 31 December 1940",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Korten's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Generalmajor Karl Koller became chief of staff on 1 January 1941.",
+   "chunk": 28,
+   "date_text": "1 January 1941",
+   "date": "1941-01-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Karl Koller",
+   "quote": "Generalmajor Karl Koller , 1 January 1941 – 23 August 1943",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Generalmajor Karl Koller's term as chief of staff ended on 23 August 1943.",
+   "chunk": 28,
+   "date_text": "23 August 1943",
+   "date": "1943-08-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Karl Koller",
+   "quote": "Generalmajor Karl Koller , 1 January 1941 – 23 August 1943",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Koller's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Generalleutnant Hermann Plocher became chief of staff on 1 October 1943.",
+   "chunk": 28,
+   "date_text": "1 October 1943",
+   "date": "1943-10-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hermann Plocher",
+   "quote": "Generalleutnant Hermann Plocher , 1 October 1943 – 26 September 1944",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Generalleutnant Hermann Plocher's term as chief of staff ended on 26 September 1944.",
+   "chunk": 28,
+   "date_text": "26 September 1944",
+   "date": "1944-09-26",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hermann Plocher",
+   "quote": "Generalleutnant Hermann Plocher , 1 October 1943 – 26 September 1944",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Plocher's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Hans Wolters became chief of staff in September 1944.",
+   "chunk": 28,
+   "date_text": "September 1944",
+   "date": "1944-09",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hans Wolters",
+   "quote": "Oberst Hans Wolters , September 1944 – March 1945",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Hans Wolters's term as chief of staff ended in March 1945.",
+   "chunk": 28,
+   "date_text": "March 1945",
+   "date": "1945-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hans Wolters",
+   "quote": "Oberst Hans Wolters , September 1944 – March 1945",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Wolters's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Heinrich Wittmer became chief of staff in March 1945.",
+   "chunk": 28,
+   "date_text": "March 1945",
+   "date": "1945-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Heinrich Wittmer",
+   "quote": "Oberst Heinrich Wittmer , March 1945 – May 1945",
+   "section": 13,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#28"
+  },
+  {
+   "text": "Oberst Heinrich Wittmer's term as chief of staff ended in May 1945.",
+   "chunk": 28,
+   "date_text": "May 1945",
+   "date": "1945-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Heinrich Wittmer",
+   "quote": "Oberst Heinrich Wittmer , March 1945 – May 1945",
+   "section": 13,
+   "flags": [
+    "name_not_in_page:Wittmer's"
+   ],
+   "cid": "/wiki/Luftflotte_3#28"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Luftwaffe special transport units (1944–45) based in Muhldorf, Bavaria",
+   "chunk": 22,
+   "date_text": "1944–45",
+   "date": "1945",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "state",
+   "subject": "part_of_self",
+   "object": "Muhldorf, Bavaria",
+   "quote": "Luftwaffe special transport units ( 1944–45 ) ; based in Muhldorf , Bavaria",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_3#22",
+   "reason": "date_text_year_mismatch"
+  }
+ ]
+}

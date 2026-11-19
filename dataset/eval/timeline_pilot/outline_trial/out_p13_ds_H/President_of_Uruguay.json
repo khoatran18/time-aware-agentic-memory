@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The current president since 1 March 2020 is Luis Lacalle Pou.",
+   "chunk": 2,
+   "date_text": "1 March 2020",
+   "date": "2020-03-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Luis Lacalle Pou",
+   "quote": "The current president since 1 March 2020 is Luis Lacalle Pou",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/President_of_Uruguay#2"
+  },
+  {
+   "text": "Tabaré Vázquez died at the age of 80.",
+   "chunk": 10,
+   "date_text": "6 December 2020",
+   "date": "2020-12-06",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Tabaré Vázquez",
+   "quote": "The last President to die was Tabaré Vázquez , on 6 December 2020 at the age of 80 .",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/President_of_Uruguay#10"
+  },
+  {
+   "text": "Luis Batlle Berres and his wife chose this mansion as their official residence.",
+   "chunk": 11,
+   "date_text": "In 1947",
+   "date": "1947",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Suárez Residence",
+   "quote": "In 1947 , Luis Batlle Berres was already head of state , and at the suggestion of his wife they chose this mansion as their official",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/President_of_Uruguay#11"
+  }
+ ],
+ "dropped": []
+}

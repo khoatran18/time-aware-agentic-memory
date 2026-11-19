@@ -1,0 +1,383 @@
+{
+ "events": [
+  {
+   "text": "The art in the cave dates to between 11,000 to 7,000 BC.",
+   "chunk": 0,
+   "date_text": "11,000 to 7,000 BC",
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "art in the cave",
+   "quote": "The art in the cave dates to between 11,000 to 7,000 BC",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#0"
+  },
+  {
+   "text": "Some of the early artwork has been radiocarbon dated to about 7300 BC.",
+   "chunk": 1,
+   "date_text": "about 7300 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "early artwork",
+   "quote": "radiocarbon dated to about 7300 BC",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#1"
+  },
+  {
+   "text": "The site was last inhabited around 700 AD.",
+   "chunk": 2,
+   "date_text": "around 700 AD",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "the site",
+   "quote": "The site was last inhabited around 700 AD",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#2"
+  },
+  {
+   "text": "Carlos J. Gradin and his team conducted the most important research on the site in 1964.",
+   "chunk": 2,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Cueva de las Manos",
+   "quote": "conducted the most important research on the site in 1964",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#2"
+  },
+  {
+   "text": "The site was named a UNESCO World Heritage Site in 1999.",
+   "chunk": 2,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "UNESCO World Heritage Site",
+   "quote": "the site being named a United Nations Educational , Scientific and Cultural Organization ( UNESCO ) World Heritage Site in 1999",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#2"
+  },
+  {
+   "text": "The Toldense people lived in the caves until the third or second millennium BC.",
+   "chunk": 10,
+   "date_text": "the third or second millennium BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Toldense people",
+   "quote": "the long since vanished Toldense people who lived in the caves until the third or second millennium BC",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#10"
+  },
+  {
+   "text": "The site was last inhabited around 700 AD.",
+   "chunk": 10,
+   "date_text": "around 700 AD",
+   "date": "0700",
+   "approximate": true,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Las Manos site",
+   "quote": "The site was last inhabited around 700 AD",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#10"
+  },
+  {
+   "text": "Father Alberto Maria de Agostini first wrote about the site in 1941 AD.",
+   "chunk": 10,
+   "date_text": "1941 AD",
+   "date": "1941",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Father Alberto Maria de Agostini",
+   "quote": "Father Alberto Maria de Agostini first wrote about the site in 1941 AD",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#10"
+  },
+  {
+   "text": "The art dates to between 11,000 and 7,000 BC.",
+   "chunk": 12,
+   "date_text": "11,000",
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "The art dates to between 11,000 to 7,000 BC",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#12"
+  },
+  {
+   "text": "Some of the early artwork was radiocarbon dated to about 7300 BC.",
+   "chunk": 14,
+   "date_text": "about 7300 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "early artwork",
+   "quote": "early artwork that has been radiocarbon dated to about 7300 BC",
+   "section": 6,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#14"
+  },
+  {
+   "text": "A survey counted 829 left hands to 31 right hands.",
+   "chunk": 16,
+   "date_text": "in the 1970s",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "handprints",
+   "quote": "A survey in the 1970s counted 829 left hands to 31 right .",
+   "section": 7,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#16"
+  },
+  {
+   "text": "Stylistic Group A can be traced as far back to around 7,300 BC.",
+   "chunk": 26,
+   "date_text": "around 7,300 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Stylistic Group A",
+   "quote": "which can be traced as far back to around 7,300 BC",
+   "section": 12,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#26"
+  },
+  {
+   "text": "The eruption of the Hudson volcano around 4770/4675 BC caused the end of this stylistic group.",
+   "chunk": 28,
+   "date_text": "around 4770/4675 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Stylistic Group A",
+   "quote": "the eruption of the Hudson volcano around 4770/4675 BC caused the end of this stylistic group",
+   "section": 12,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#28"
+  },
+  {
+   "text": "A new cultural group entered the scene before 5,000 BC.",
+   "chunk": 28,
+   "date_text": "before 5,000 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "new cultural group",
+   "quote": "A new cultural group , entering the scene before 5,000 BC",
+   "section": 12,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#28"
+  },
+  {
+   "text": "The new cultural group lasted until around 1,300 BC.",
+   "chunk": 28,
+   "date_text": "around 1,300 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "new cultural group",
+   "quote": "until around 1,300 BC",
+   "section": 12,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#28"
+  },
+  {
+   "text": "Around 5,000 BC, Group B was born.",
+   "chunk": 29,
+   "date_text": "Around 5,000 BC",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Group B",
+   "quote": "Around 5,000 BC , Group B was born",
+   "section": 12,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#29"
+  },
+  {
+   "text": "Stylistic Group C, Río Pinturas IV, begins.",
+   "chunk": 31,
+   "date_text": "around 700 AD",
+   "date": "0700",
+   "approximate": true,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Stylistic Group C",
+   "quote": "Stylistic Group C , Río Pinturas IV , begins around 700 AD",
+   "section": 13,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cueva_de_las_Manos#31"
+  },
+  {
+   "text": "Carlos Gradin and his team conducted the most profound research on the site and began a 30-year-long study of the caves and their art.",
+   "chunk": 33,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Cueva de las Manos",
+   "quote": "conducted the most profound research on the site in 1964",
+   "section": 15,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#33"
+  },
+  {
+   "text": "Cueva de las Manos has been listed as a National Historic Site.",
+   "chunk": 33,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "National Historic Site",
+   "quote": "has been listed as a National Historic Site since 1993",
+   "section": 15,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#33"
+  },
+  {
+   "text": "Cueva de las Manos has been listed as a World Heritage Site.",
+   "chunk": 33,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "World Heritage Site",
+   "quote": "has also been listed as a World Heritage Site since 1999",
+   "section": 15,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#33"
+  },
+  {
+   "text": "The number of tourists visiting the site increased by a factor of four since its inclusion on the UNESCO World Heritage list.",
+   "chunk": 34,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "UNESCO World Heritage list",
+   "quote": "since its inclusion on the UNESCO World Heritage list in 1999",
+   "section": 15,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#34"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "The art dates to between 11,000 and 7,000 BC.",
+   "chunk": 12,
+   "date_text": "7,000 BC",
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "The art dates to between 11,000 to 7,000 BC",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Cueva_de_las_Manos#12",
+   "reason": "duplicate"
+  }
+ ]
+}

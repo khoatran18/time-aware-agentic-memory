@@ -1,0 +1,71 @@
+{
+ "events": [
+  {
+   "text": "Tyne and Wear PTE replaced the Tyneside PTE.",
+   "chunk": 0,
+   "date_text": "1 April 1974",
+   "date": "1974-04-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Tyneside PTE",
+   "quote": "It replaced the Tyneside PTE on 1 April 1974 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#0"
+  },
+  {
+   "text": "Tyne and Wear Metro trains are expected to be replaced in around 2023.",
+   "chunk": 4,
+   "date_text": "around 2023",
+   "date": "2023",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Tyne and Wear Metro",
+   "quote": "Trains will not be replaced within this programme, but are expected to be replaced in around 2023.",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#4"
+  },
+  {
+   "text": "Nexus launched a Bus Strategy in April 2009.",
+   "chunk": 5,
+   "date_text": "In April 2009",
+   "date": "2009-04",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Bus Strategy",
+   "quote": "In April 2009 Nexus launched a Bus Strategy aimed at improving the bus network in Tyne and Wear",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5"
+  },
+  {
+   "text": "The North East Combined Authority accepted a recommendation from Nexus to take forward a Quality Contracts Scheme in October 2014.",
+   "chunk": 5,
+   "date_text": "In October 2014",
+   "date": "2014-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Quality Contracts Scheme",
+   "quote": "In October 2014 the North East Combined Authority accepted a recommendation from Nexus to",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Tyne_and_Wear_Passenger_Transport_Executive#5"
+  }
+ ],
+ "dropped": []
+}

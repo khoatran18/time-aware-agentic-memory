@@ -1,0 +1,601 @@
+{
+ "events": [
+  {
+   "text": "Luftflotte 1 was formed from Luftwaffengruppenkommando 1 in Berlin.",
+   "chunk": 0,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Luftwaffengruppenkommando 1",
+   "quote": "It was formed 1 February 1939 from Luftwaffengruppenkommando 1 in Berlin .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#0"
+  },
+  {
+   "text": "Command offices were in Malpils, Latvia.",
+   "chunk": 0,
+   "date_text": "26 June 1944",
+   "date": "1944-06-26",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Malpils",
+   "quote": "with command offices in Malpils , Latvia , ( 26 June 1944 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#0"
+  },
+  {
+   "text": "Albert Kesselring became commanding officer.",
+   "chunk": 8,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Albert Kesselring",
+   "quote": "Generalfeldmarschall Albert Kesselring , 1 February 1939 – 11 January 1940",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Albert Kesselring's command ended.",
+   "chunk": 8,
+   "date_text": "11 January 1940",
+   "date": "1940-01-11",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Albert Kesselring",
+   "quote": "Albert Kesselring , 1 February 1939 – 11 January 1940",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Kesselring's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Hans-Jürgen Stumpff became commanding officer.",
+   "chunk": 8,
+   "date_text": "12 January 1940",
+   "date": "1940-01-12",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hans-Jürgen Stumpff",
+   "quote": "Generaloberst Hans-Jürgen Stumpff , 12 January 1940 – 10 May 1940",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Hans-Jürgen Stumpff's command ended.",
+   "chunk": 8,
+   "date_text": "10 May 1940",
+   "date": "1940-05-10",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Hans-Jürgen Stumpff",
+   "quote": "Hans-Jürgen Stumpff , 12 January 1940 – 10 May 1940",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Stumpff's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Wilhelm Wimmer became commanding officer.",
+   "chunk": 8,
+   "date_text": "11 May 1940",
+   "date": "1940-05-11",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Wilhelm Wimmer",
+   "quote": "General Wilhelm Wimmer , 11 May 1940 – 19 August 1940",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Wilhelm Wimmer's command ended.",
+   "chunk": 8,
+   "date_text": "19 August 1940",
+   "date": "1940-08-19",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Wilhelm Wimmer",
+   "quote": "Wilhelm Wimmer , 11 May 1940 – 19 August 1940",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Wimmer's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Alfred Keller became commanding officer.",
+   "chunk": 8,
+   "date_text": "20 August 1940",
+   "date": "1940-08-20",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Alfred Keller",
+   "quote": "Generaloberst Alfred Keller , 20 August 1940 – 12 June 1943",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Alfred Keller's command ended.",
+   "chunk": 8,
+   "date_text": "12 June 1943",
+   "date": "1943-06-12",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Alfred Keller",
+   "quote": "Alfred Keller , 20 August 1940 – 12 June 1943",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Keller's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Günther Korten became commanding officer.",
+   "chunk": 8,
+   "date_text": "12 June 1943",
+   "date": "1943-06-12",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Günther Korten",
+   "quote": "Generaloberst Günther Korten , 12 June 1943 – 23 August 1943",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Günther Korten's command ended.",
+   "chunk": 8,
+   "date_text": "23 August 1943",
+   "date": "1943-08-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Günther Korten",
+   "quote": "Günther Korten , 12 June 1943 – 23 August 1943",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Korten's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Kurt Pflugbeil became commanding officer.",
+   "chunk": 8,
+   "date_text": "24 August 1943",
+   "date": "1943-08-24",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Kurt Pflugbeil",
+   "quote": "General Kurt Pflugbeil , 24 August 1943 – 16 April 1945",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Kurt Pflugbeil's command ended.",
+   "chunk": 8,
+   "date_text": "16 April 1945",
+   "date": "1945-04-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Kurt Pflugbeil",
+   "quote": "Kurt Pflugbeil , 24 August 1943 – 16 April 1945",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Pflugbeil's"
+   ],
+   "cid": "/wiki/Luftflotte_1#8"
+  },
+  {
+   "text": "Wilhelm Speidel became Chief of staff.",
+   "chunk": 9,
+   "date_text": "1 February 1939",
+   "date": "1939-02-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Wilhelm Speidel",
+   "quote": "Generalmajor Wilhelm Speidel , 1 February 1939 – 19 December 1939",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Wilhelm Speidel's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "19 December 1939",
+   "date": "1939-12-19",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Wilhelm Speidel",
+   "quote": "Generalmajor Wilhelm Speidel , 1 February 1939 – 19 December 1939",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Speidel's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Ulrich Kessler became Chief of staff.",
+   "chunk": 9,
+   "date_text": "19 December 1939",
+   "date": "1939-12-19",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Ulrich Kessler",
+   "quote": "Generalleutnant Ulrich Kessler , 19 December 1939 – 25 April 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Ulrich Kessler's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "25 April 1940",
+   "date": "1940-04-25",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Ulrich Kessler",
+   "quote": "Generalleutnant Ulrich Kessler , 19 December 1939 – 25 April 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Kessler's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Heinz-Hellmuth von Wühlisch became Chief of staff.",
+   "chunk": 9,
+   "date_text": "1 May 1940",
+   "date": "1940-05-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Heinz-Hellmuth von Wühlisch",
+   "quote": "Oberst Heinz-Hellmuth von Wühlisch , 1 May 1940 – 9 May 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Heinz-Hellmuth von Wühlisch's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "9 May 1940",
+   "date": "1940-05-09",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Heinz-Hellmuth von Wühlisch",
+   "quote": "Oberst Heinz-Hellmuth von Wühlisch , 1 May 1940 – 9 May 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Wühlisch's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Robert Knauss became Chief of staff.",
+   "chunk": 9,
+   "date_text": "9 May 1940",
+   "date": "1940-05-09",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Robert Knauss",
+   "quote": "Generalmajor Dr . Robert Knauss , 9 May 1940 – 4 October 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Robert Knauss's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "4 October 1940",
+   "date": "1940-10-04",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Robert Knauss",
+   "quote": "Generalmajor Dr . Robert Knauss , 9 May 1940 – 4 October 1940",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Knauss's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Otto Schöbel became Chief of staff.",
+   "chunk": 9,
+   "date_text": "5 October 1940",
+   "date": "1940-10-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Otto Schöbel",
+   "quote": "Generalmajor Otto Schöbel , 5 October 1940 – 16 January 1941",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Otto Schöbel's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "16 January 1941",
+   "date": "1941-01-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Otto Schöbel",
+   "quote": "Generalmajor Otto Schöbel , 5 October 1940 – 16 January 1941",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Schöbel's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Heinz-Hellmuth von Wühlisch became Chief of staff.",
+   "chunk": 9,
+   "date_text": "16 January 1941",
+   "date": "1941-01-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Heinz-Hellmuth von Wühlisch",
+   "quote": "Generalmajor Heinz-Hellmuth von Wühlisch , 16 January 1941 – 13 October 1941",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Heinz-Hellmuth von Wühlisch's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "13 October 1941",
+   "date": "1941-10-13",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Heinz-Hellmuth von Wühlisch",
+   "quote": "Generalmajor Heinz-Hellmuth von Wühlisch , 16 January 1941 – 13 October 1941",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Wühlisch's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Herbert Rieckhoff became Chief of staff.",
+   "chunk": 9,
+   "date_text": "13 October 1941",
+   "date": "1941-10-13",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Herbert Rieckhoff",
+   "quote": "Generalmajor Herbert Rieckhoff , 13 October 1941 – 23 February 1943",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Herbert Rieckhoff's tenure as Chief of staff ended.",
+   "chunk": 9,
+   "date_text": "23 February 1943",
+   "date": "1943-02-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Herbert Rieckhoff",
+   "quote": "Generalmajor Herbert Rieckhoff , 13 October 1941 – 23 February 1943",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Rieckhoff's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#9"
+  },
+  {
+   "text": "Hans Detlef Herhudt von Rohden became Chief of staff.",
+   "chunk": 10,
+   "date_text": "23 February 1943",
+   "date": "1943-02-23",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Hans Detlef Herhudt von Rohden",
+   "quote": "Generalmajor Hans Detlef Herhudt von Rohden , 23 February 1943 – 24 August 1943",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#10"
+  },
+  {
+   "text": "Hans Detlef Herhudt von Rohden's tenure as Chief of staff ended.",
+   "chunk": 10,
+   "date_text": "24 August 1943",
+   "date": "1943-08-24",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Hans Detlef Herhudt von Rohden",
+   "quote": "Generalmajor Hans Detlef Herhudt von Rohden , 23 February 1943 – 24 August 1943",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Rohden's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#10"
+  },
+  {
+   "text": "Klaus Uebe became Chief of staff.",
+   "chunk": 11,
+   "date_text": "25 August 1943",
+   "date": "1943-08-25",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Klaus Uebe",
+   "quote": "Generalmajor Klaus Uebe , 25 August 1943 – 24 December 1944",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#11"
+  },
+  {
+   "text": "Klaus Uebe's tenure as Chief of staff ended.",
+   "chunk": 11,
+   "date_text": "24 December 1944",
+   "date": "1944-12-24",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Klaus Uebe",
+   "quote": "Generalmajor Klaus Uebe , 25 August 1943 – 24 December 1944",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Uebe's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#11"
+  },
+  {
+   "text": "Paul-Werner Hozzel became Chief of staff.",
+   "chunk": 11,
+   "date_text": "25 December 1944",
+   "date": "1944-12-25",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Paul-Werner Hozzel",
+   "quote": "Oberstleutnant Paul-Werner Hozzel , 25 December 1944 – 16 April 1945",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#11"
+  },
+  {
+   "text": "Paul-Werner Hozzel's tenure as Chief of staff ended.",
+   "chunk": 11,
+   "date_text": "16 April 1945",
+   "date": "1945-04-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Paul-Werner Hozzel",
+   "quote": "Oberstleutnant Paul-Werner Hozzel , 25 December 1944 – 16 April 1945",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Hozzel's,Chief"
+   ],
+   "cid": "/wiki/Luftflotte_1#11"
+  }
+ ],
+ "dropped": []
+}

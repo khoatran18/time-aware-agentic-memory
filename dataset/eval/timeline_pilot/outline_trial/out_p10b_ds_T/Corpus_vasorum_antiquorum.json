@@ -1,0 +1,209 @@
+{
+ "events": [
+  {
+   "text": "Edmond Pottier called a meeting of representatives from interested academies in Paris for May.",
+   "chunk": 4,
+   "date_text": "May",
+   "date": "1919-05",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Union Académique Internationale",
+   "quote": "He called a meeting of representatives from any interested academies in Paris for May , 1919 .",
+   "section": 1,
+   "flags": [
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#4"
+  },
+  {
+   "text": "The meeting voted the Union into existence.",
+   "chunk": 4,
+   "date_text": "1919",
+   "date": "1919",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Union",
+   "quote": "The meeting voted the Union into existence .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#4"
+  },
+  {
+   "text": "At a second meeting in October, bylaws were passed.",
+   "chunk": 4,
+   "date_text": "October",
+   "date": "1919-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "bylaws",
+   "quote": "At a second meeting in October , bylaws were passed",
+   "section": 1,
+   "flags": [
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#4"
+  },
+  {
+   "text": "After the second meeting the Union moved to Brussels.",
+   "chunk": 4,
+   "date_text": "October",
+   "date": "1919-10",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Brussels",
+   "quote": "after which the Union moved to Brussels",
+   "section": 1,
+   "flags": [
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#4"
+  },
+  {
+   "text": "Henri Pirenne was elected president of the Union.",
+   "chunk": 5,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "president of the Union",
+   "quote": "Henri Pirenne was elected president of the Union .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#5"
+  },
+  {
+   "text": "The first assembly of the academies was not until 1920.",
+   "chunk": 6,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "first assembly of the academies",
+   "quote": "The first assembly of the academies was not until 1920 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#6"
+  },
+  {
+   "text": "Project Number 1 was voted, being the Corpus Vasorum Antiquorum.",
+   "chunk": 6,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Corpus Vasorum Antiquorum",
+   "quote": "three were voted , Project Number 1 being the Corpus Vasorum Antiquorum .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#6"
+  },
+  {
+   "text": "The publisher of the first fascicle for the Louvre was published in 1922.",
+   "chunk": 8,
+   "date_text": "1922",
+   "date": "1922",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "first fascicle for the Louvre",
+   "quote": "He was also the publisher of the first fascicle for the Louvre in 1922 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#8"
+  },
+  {
+   "text": "By the end of 2007 a total of 350 volumes consisting of 40,000 fascicles were published.",
+   "chunk": 9,
+   "date_text": "the end of 2007",
+   "date": "2007",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "350 volumes",
+   "quote": "By the end of 2007 a total of 350 volumes consisting of 40,000 fascicles were published .",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#9"
+  },
+  {
+   "text": "Since 2004 all textual descriptions and images are freely accessible as a web-based database (CVA Online).",
+   "chunk": 10,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "CVA Online",
+   "quote": "Since 2004 all textual descriptions and images are freely accessible as a web-based database ( CVA Online ) .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#10"
+  },
+  {
+   "text": "The Austrian commission used a 3D-Scanner for documentation of vessel shapes for the first time in 2006.",
+   "chunk": 12,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "3D-Scanner",
+   "quote": "The Austrian commission used for the first-time of the CVA project a 3D-Scanner for documentation of vessel shapes in 2006 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#12"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "In the second half of 2019 rendings including rollouts were shown at the Louvre as part of the 100 years CVA exhibition.",
+   "chunk": 12,
+   "date_text": "the second half of 2019",
+   "date": "2019",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "100 years CVA exhibition",
+   "quote": "In the second half of 2019 rendings",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Corpus_vasorum_antiquorum#12",
+   "reason": "number_not_in_chunk:100"
+  }
+ ]
+}

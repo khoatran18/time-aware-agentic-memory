@@ -1,0 +1,236 @@
+{
+ "events": [
+  {
+   "text": "The club was founded as FC Buzău.",
+   "chunk": 1,
+   "date_text": "25 August 2016",
+   "date": "2016-08-25",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "FC Buzău",
+   "quote": "founded on 25 August 2016 , as FC Buzău",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/SCM_Gloria_Buzău#1"
+  },
+  {
+   "text": "The club was renamed as SCM Gloria Buzău.",
+   "chunk": 1,
+   "date_text": "summer of 2018",
+   "date": "2018",
+   "approximate": true,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "SCM Gloria Buzău",
+   "quote": "being renamed as SCM Gloria Buzău in the summer of 2018",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#1"
+  },
+  {
+   "text": "The club was included as the football section of the newly founded sports club SCM Gloria Buzău.",
+   "chunk": 1,
+   "date_text": "summer of 2018",
+   "date": "2018",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "SCM Gloria Buzău",
+   "quote": "in the summer of 2018 at once with the inclusion as the football section",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#1"
+  },
+  {
+   "text": "Ionel Turturică founded FC Buzău, which was enrolled in Liga V – Buzău County, after the bankruptcy of FC Gloria Buzău.",
+   "chunk": 7,
+   "date_text": "After the bankruptcy of FC Gloria Buzău",
+   "date": "2016",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "FC Buzău",
+   "quote": "After the bankruptcy of FC Gloria Buzău , businessman Ionel Turturică founded a new club , FC Buzău",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#7"
+  },
+  {
+   "text": "FC Buzău promoted to Liga IV after only one season.",
+   "chunk": 7,
+   "date_text": "After only one season",
+   "date": "2017",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga IV",
+   "quote": "After only one season , the new club , which also had players with many matches played for FC Gloria Buzău , promoted to Liga IV",
+   "section": 1,
+   "flags": [
+    "derived_date",
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#7"
+  },
+  {
+   "text": "FC Buzău was renamed as SCM Gloria Buzău in the summer of 2017.",
+   "chunk": 8,
+   "date_text": "In the summer of 2017",
+   "date": "2017",
+   "approximate": true,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "SCM Gloria Buzău",
+   "quote": "In the summer of 2017 FC Buzău was renamed as SCM Gloria Buzău",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#8"
+  },
+  {
+   "text": "SCM Gloria Buzău promoted to Liga II in the 2018–19 season after winning the first series of the third tier.",
+   "chunk": 9,
+   "date_text": "In the 2018–19 season",
+   "date": "2018",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga II",
+   "quote": "In the 2018–19 season of Liga III SCM Gloria managed to promote for the third consecutive year",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#9"
+  },
+  {
+   "text": "Liga III - Winners ( 1 ).",
+   "chunk": 13,
+   "date_text": "2018–19",
+   "date": "2018",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga III",
+   "quote": "Liga III - Winners ( 1 ) : 2018–19",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#13"
+  },
+  {
+   "text": "Liga IV – Buzău County - Winners ( 1 ).",
+   "chunk": 13,
+   "date_text": "2017–18",
+   "date": "2017",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga IV – Buzău County",
+   "quote": "Liga IV – Buzău County - Winners ( 1 ) : 2017–18",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#13"
+  },
+  {
+   "text": "Liga V – Buzău County - Winners ( 1 ).",
+   "chunk": 13,
+   "date_text": "2016–17",
+   "date": "2016",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga V – Buzău County",
+   "quote": "Liga V – Buzău County - Winners ( 1 ) : 2016–17",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SCM_Gloria_Buzău#13"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "SCM Gloria Buzău promoted to Liga III at the end of the 2017–18 season.",
+   "chunk": 8,
+   "date_text": "at the end of the 2017–18 season",
+   "date": "2018",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liga III",
+   "quote": "at the end of the 2017–18 season promoted again , this time in the Liga III",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/SCM_Gloria_Buzău#8",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "were winners of the Cupa României – Buzău County",
+   "chunk": 14,
+   "date_text": "2016–17",
+   "date": "2017",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Cupa României – Buzău County",
+   "quote": "Winners ( 1 ) : 2016–17",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/SCM_Gloria_Buzău#14",
+   "reason": "date_text_year_mismatch"
+  },
+  {
+   "text": "were runners-up in the Cupa României – Buzău County",
+   "chunk": 14,
+   "date_text": "2017–18",
+   "date": "2018",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Cupa României – Buzău County",
+   "quote": "Runners-up ( 1 ) : 2017–18",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/SCM_Gloria_Buzău#14",
+   "reason": "date_text_year_mismatch"
+  }
+ ]
+}
