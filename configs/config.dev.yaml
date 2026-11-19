@@ -73,7 +73,7 @@ llm:
       stream_usage: true               # streaming trả kèm token vào/ra (agent loop cần để đo và áp trần token); chưa kiểm chứng OpenCode nhận `stream_options`; lỗi thì đặt false rồi chạy agent với stream=False
       default_headers: {User-Agent: "tam-thesis-agent-eval/0.1"}   # OpenCode Go đòi client tự nhận diện bằng User-Agent riêng, không dùng tên SDK mặc định (opencode.ai/v2/docs/console/go)
       session_header: "x-opencode-session"   # tên header chứa mã phiên ổn định mỗi cuộc hội thoại (agent loop đặt = <lần chạy>-<query_id>); thiếu thì OpenCode trả 400 MissingSessionID. Không phải tham số của provider: scripts/run_agent_search.py đọc khóa này
-      # extra_body: {thinking: {type: "disabled"}}   # chưa kiểm chứng OpenCode có chuyển tiếp trường này cho DeepSeek không; thử rồi mới bật
+      extra_body: {thinking: {type: "disabled"}}   # tắt thinking như deepseek_flash (người dùng chốt 2026-11-17); chưa kiểm chứng OpenCode có chuyển tiếp trường này cho DeepSeek không (so thời gian một lần gọi để biết)
       # cache_model: không đặt: khóa cache theo model_id "deepseek-v4.1-flash", khác deepseek_flash ("deepseek-flash"), nên không dùng chung cache với API trực tiếp
     google_gemma26:                    # Gemma 4 26B (MoE, ~4B tham số hoạt động) gọi thẳng; hạn mức 30 RPM, 16K TPM
       provider: "google"
