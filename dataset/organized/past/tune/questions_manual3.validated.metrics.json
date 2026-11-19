@@ -1,0 +1,27 @@
+{
+ "run": "validate",
+ "model": "hy4-flash-free",
+ "thinking": "BẬT",
+ "workers": 30,
+ "cache_dir": "data/llm_cache/pastv_hy4-flash-free",
+ "calls": 6,
+ "cache_hits": 0,
+ "cache_misses": 6,
+ "wall_s": 16.3,
+ "stats": {
+  "tổng": 2,
+  "giữ": 0,
+  "closed_leak": 2,
+  "closed_leak:F/direct": 1,
+  "closed_leak:A/direct": 1,
+  "final": 0,
+  "final:C": 0,
+  "chỗ sửa còn câu:C": 0,
+  "final:E": 0,
+  "chỗ sửa còn câu:E": 0,
+  "final:F": 0,
+  "chỗ sửa còn câu:F": 0,
+  "final:A": 0,
+  "chỗ sửa còn câu:A": 0
+ }
+}

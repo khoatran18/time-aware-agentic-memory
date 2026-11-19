@@ -1,0 +1,39 @@
+{
+ "run": "metrics",
+ "model": "hy4-flash-free",
+ "thinking": "BẬT (hy4 bỏ qua thinking:disabled; chỉ reasoning_effort:none mới tắt, đã kiểm 2026-11-18)",
+ "workers": 30,
+ "cache_dir": "data/llm_cache/pastgen_hy4-flash-free",
+ "llm_calls_planned": 150,
+ "cache_hits": 0,
+ "cache_misses": 150,
+ "wall_s": 81.5,
+ "rows": 200,
+ "passed": 189,
+ "by_type": {
+  "C": {
+   "total": 50,
+   "passed": 50
+  },
+  "E": {
+   "total": 50,
+   "passed": 41
+  },
+  "F": {
+   "total": 50,
+   "passed": 48
+  },
+  "A": {
+   "total": 50,
+   "passed": 50
+  }
+ },
+ "fails": {
+  "end_still_present": 4,
+  "over_edit": 5,
+  "other_year_lost": 1,
+  "unchanged": 1,
+  "value_swap": 2,
+  "length_grew": 1
+ }
+}

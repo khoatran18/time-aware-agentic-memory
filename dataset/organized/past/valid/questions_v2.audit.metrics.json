@@ -1,0 +1,34 @@
+{
+ "run": "audit",
+ "model": "hy4-flash-free",
+ "thinking": "BẬT",
+ "cache_dir": "data/llm_cache/pastamb_hy4-flash-free",
+ "calls": 200,
+ "cache_hits": 188,
+ "cache_misses": 12,
+ "wall_s": 55.3,
+ "offline": {
+  "no_proper_noun": 2,
+  "long": 1
+ },
+ "stats": {
+  "tổng": 332,
+  "không_đánh_giá_được": 0,
+  "self_contained_false": 22,
+  "unique_answer_false": 56,
+  "ổn(cả hai true)": 271,
+  "mơ hồ:E": 36,
+  "mơ hồ:A": 11,
+  "mơ hồ:F": 7,
+  "mơ hồ:C": 7,
+  "clean": 304,
+  "clean:C": 77,
+  "clean chỗ sửa:C": 49,
+  "clean:E": 83,
+  "clean chỗ sửa:E": 50,
+  "clean:F": 66,
+  "clean chỗ sửa:F": 50,
+  "clean:A": 78,
+  "clean chỗ sửa:A": 49
+ }
+}

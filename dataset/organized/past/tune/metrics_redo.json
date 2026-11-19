@@ -1,0 +1,37 @@
+{
+ "run": "metrics_redo",
+ "model": "hy4-flash-free",
+ "thinking_sent": "disabled (extra_body của profile; chưa kiểm chứng model có nhận)",
+ "workers": 20,
+ "cache_dir": "data/llm_cache/pastgen_hy4-flash-free",
+ "llm_calls_planned": 18,
+ "cache_hits": 0,
+ "cache_misses": 18,
+ "wall_s": 60.0,
+ "rows": 201,
+ "passed": 173,
+ "by_type": {
+  "C": {
+   "total": 61,
+   "passed": 61
+  },
+  "E": {
+   "total": 60,
+   "passed": 32
+  },
+  "F": {
+   "total": 40,
+   "passed": 40
+  },
+  "A": {
+   "total": 40,
+   "passed": 40
+  }
+ },
+ "fails": {
+  "other_year_lost": 3,
+  "over_edit": 2,
+  "no_valid_E_candidate": 25,
+  "end_still_present": 1
+ }
+}
