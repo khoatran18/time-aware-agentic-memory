@@ -79,8 +79,9 @@ class VectorTools:
     """Cài đặt ba công cụ trên `store`; `retriever` (tùy chọn) là `TemporalRetriever` dựng với `top_k` = `k_cap`, dùng cho `temporal_search`."""
 
     def __init__(self, store: VectorStore, retriever: TemporalRetriever | None = None, *, k_cap: int = DEFAULT_K_CAP, rrf_k: int = 60,
-                 show_time: bool = True) -> None:
+                 show_time: bool = True, max_neighbors: int = MAX_NEIGHBORS) -> None:
         self._store, self._retriever, self._cap, self._rrf_k, self._show_time = store, retriever, k_cap, rrf_k, show_time
+        self._max_neighbors = max_neighbors
 
     def vector_search(self, query: str, mode: str = "hybrid", k: int = 5, offset: int = 0, start_before: str | None = None,
                       include_invalidated: bool = True) -> ToolResult:
@@ -110,7 +111,7 @@ class VectorTools:
 
     def read_chunk(self, chunk_id: str, neighbors: int = 0) -> ToolResult:
         """Chunk theo id, kèm tối đa `MAX_NEIGHBORS` chunk liền kề mỗi phía (cùng trang), xếp theo chỉ số đoạn."""
-        ids = [chunk_id, *neighbor_ids([chunk_id], min(neighbors, MAX_NEIGHBORS))]
+        ids = [chunk_id, *neighbor_ids([chunk_id], min(neighbors, self._max_neighbors))]
         got = self._store.get_chunks(ids)
         if not any(c.chunk_id == chunk_id for c in got):
             raise ToolError(f"không có chunk {chunk_id!r}")

@@ -367,3 +367,11 @@ def test_sqlite_cache_threadsafe_from_threads(tmp_path):
         list(pool.map(lambda i: cache.put(str(i), {"v": i}), range(50)))
         got = list(pool.map(lambda i: cache.get(str(i)), range(50)))
     assert got == [{"v": i} for i in range(50)] and cache.count() == 50
+
+
+def test_prompt_v5_is_json_timeline_format_and_tool_neutral():
+    v5 = (PROMPT_DIR / "agent_v5.md").read_text(encoding="utf-8")
+    assert '"kind": "number" | "events"' in v5 and "{t_now}" in v5 and "do not guess a date" in v5
+    for tool in ("grep", "read_page", "list_pages", "vector_search", "read_chunk", "events_of_chunk"):  # không nêu tên công cụ nào: dùng chung cho A, B và B + graph
+        assert tool not in v5
+    assert "2026-11-03" in load_system_prompt("2026-11-03", "v5")

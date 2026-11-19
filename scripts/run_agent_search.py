@@ -1,6 +1,6 @@
 """Chạy agent search kiểu A (kho text thuần, `data/text_corpus`) trên một bộ con câu hỏi TimeQA. GỌI LLM THẬT (role `agent`).
 
-Kiểu A (mặc định): grep/read_page trên text thuần. Kiểu B (`--kind B`): vector_search/read_chunk trên kho Qdrant đã có (collection theo split của câu hỏi, embed cục bộ).
+Kiểu A (mặc định): grep/read_page trên text thuần. Kiểu B (`--kind B`, thêm `--graph` cho timeline/events_of_chunk trên Neo4j): vector_search/read_chunk trên kho Qdrant đã có (collection theo split của câu hỏi, embed cục bộ).
 Ghi vào output/<timestamp>/: `run.log`, `agent_trace.jsonl`, `agent_calls.jsonl` (prompt, câu trả lời, TTFT/TPOT/token mỗi lần gọi), `llm_calls.jsonl`,
 `results.jsonl` (mỗi câu một dòng) và in tóm tắt.
 Ví dụ: python scripts/run_agent_search.py --n 1          # thử một câu
@@ -45,19 +45,33 @@ def build_vector_tools(cfg, cases: list[dict], args):
     name = args.collection or f"{cfg.vector_store.collection}_{splits.pop()}"
     store = QdrantStore.from_config(cfg, get_embedder(cfg), name)
     logger.info("Kiểu B: collection %s, k_cap=%d, show_time=%s", name, args.k_cap, not args.hide_time)
-    return VectorTools(store, None, k_cap=args.k_cap, show_time=not args.hide_time).tools()
+    tools = VectorTools(store, None, k_cap=args.k_cap, show_time=not args.hide_time, max_neighbors=args.max_neighbors).tools()
+    if args.graph:
+        from tam.stores.graph.neo4j_store import Neo4jStore
+        from tam.tools.graph_tools import GraphTools
+
+        tools += GraphTools(Neo4jStore.from_config(cfg), events_cap=args.events_cap, compact=args.compact_timeline, normalize_names=args.normalize_page_names, track_hint=args.track_hint, source_hint=args.source_hint).tools()
+    return tools
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--subset", default=str(ROOT / "dataset/eval/tune_base_subset.json"), help="bộ con có `cases` (mỗi case: idx, page_id, question_hard, targets, gold_chunk_ids)")
     ap.add_argument("--corpus", default=str(ROOT / "data/text_corpus"))
+    ap.add_argument("--events-cap", type=int, default=50, help="trần số mốc mỗi lần gọi timeline (mặc định 50)")
+    ap.add_argument("--compact-timeline", action="store_true", help="dòng timeline gọn: bỏ phase/track/kind/tier, chunk id rút còn #n")
+    ap.add_argument("--source-hint", action="store_true", help="timeline: mô tả công cụ nói mỗi dòng có chunk nguồn mà read_chunk đọc được")
+    ap.add_argument("--track-hint", action="store_true", help="timeline: tiêu đề nêu số sự kiện mỗi track, mô tả công cụ nhắc lọc theo track")
+    ap.add_argument("--normalize-page-names", action="store_true", help="timeline: chuẩn hóa tên trang theo luật đặt tên của graph")
+    ap.add_argument("--max-neighbors", type=int, default=5, help="trần `neighbors` của read_chunk (mặc định 5)")
     ap.add_argument("--kind", choices=["A", "B"], default="A", help="A = text thuần (grep/read_page); B = kho Qdrant (vector_search/read_chunk)")
     ap.add_argument("--collection", default="", help="kiểu B: tên collection Qdrant; mặc định tam_chunks_dev_<split> theo split của các câu hỏi")
     ap.add_argument("--k-cap", type=int, default=50, help="kiểu B: trần cứng của k trong vector_search")
+    ap.add_argument("--graph", action="store_true", help="kiểu B: thêm công cụ graph (timeline, events_of_chunk) trên Neo4j; graph hiện chỉ có 35 trang")
     ap.add_argument("--hide-time", action="store_true", help="kiểu B: ẩn khoảng hiệu lực của chunk khỏi kết quả (agent chỉ dựa vào văn bản)")
     ap.add_argument("--n", type=int, default=1, help="số câu lấy ngẫu nhiên")
     ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--per-type", type=int, default=0, help=">0: lấy ngần này câu mỗi `type` (bộ v9), thay cho --n; --n lớn hơn tổng số câu thì lấy hết")
     ap.add_argument("--question-field", default="question_hard")
     ap.add_argument("--t-now", default="2026-11-03", help="ngày hiện tại đưa vào prompt (như bộ test T_now ở docs/weekly_reports/week_6)")
     ap.add_argument("--max-steps", type=int, default=5, help="số lần gọi LLM tối đa mỗi câu")
@@ -70,6 +84,7 @@ def main() -> None:
     ap.add_argument("--workers", type=int, default=1, help="số câu chạy song song (mỗi câu một luồng, một mã phiên riêng)")
     ap.add_argument("--no-budget-notice", action="store_true", help="tắt báo số lượt còn lại và ép trả lời ở lượt cuối")
     ap.add_argument("--pick", default="", help="chỉ chạy các câu này, theo số thứ tự 1-based trong mẫu --n/--seed (vd 12,15,16,18,19)")
+    ap.add_argument("--no-thinking", action="store_true", help="tắt chế độ suy luận (extra_body thinking disabled); cache chuyển sang data/llm_cache/agent_nothink/ nếu --cache-dir để mặc định, vì khóa cache không chứa cờ này")
     ap.add_argument("--no-stream", action="store_true", help="gọi thường, không streaming (mất TTFT và TPOT)")
     ap.add_argument("--log-prompts", choices=["full", "delta", "off"], default="full")
     args = ap.parse_args()
@@ -78,9 +93,21 @@ def main() -> None:
     run_dir = setup_logging(cfg)
     role = cfg.llm.roles.agent
     session_header = cfg.llm.profiles[role].get("session_header")  # vd OpenCode Go: x-opencode-session
+    if args.no_thinking:
+        prof = cfg.llm.profiles[role]
+        prof._data["extra_body"] = {**(prof.get("extra_body") or {}), "thinking": {"type": "disabled"}}
+        if args.cache_dir == str(ROOT / "data/llm_cache/agent"):
+            args.cache_dir = str(ROOT / "data/llm_cache/agent_nothink")
     llm = get_llm_for_role(cfg, "agent")
     cases = json.loads(Path(args.subset).read_text(encoding="utf-8"))["cases"]
-    picked = random.Random(args.seed).sample(cases, min(args.n, len(cases)))
+    rng = random.Random(args.seed)
+    if args.per_type:
+        by_type: dict[str, list[dict]] = {}
+        for c in cases:
+            by_type.setdefault(str(c.get("type")), []).append(c)
+        picked = [c for t in sorted(by_type) for c in rng.sample(by_type[t], min(args.per_type, len(by_type[t])))]
+    else:
+        picked = rng.sample(cases, min(args.n, len(cases)))
     corpus = TextCorpus.load(args.corpus)
     positions = [int(x) for x in args.pick.split(",") if x.strip()] or list(range(1, len(picked) + 1))
     chosen = [(pos, picked[pos - 1]) for pos in positions]
@@ -97,10 +124,10 @@ def main() -> None:
     def run_one(item):
         i, case = item
         run = agent.run(case[args.question_field], query_id=f"q{i:03d}")
-        gold_chunks = set(case["gold_chunk_ids"])
-        first_seen = run.first_step_showing(case["targets"])
-        return i, case, run, {"i": i, "idx": case["idx"], "question": case[args.question_field], "targets": case["targets"], "answer": run.answer,
-                              "contains_target": contains(run.answer or "", case["targets"]) if run.answer else 0.0, "stop_reason": run.stop_reason,
+        gold_chunks = set(case.get("gold_chunk_ids", []))  # câu v9 (make_v9_graph_subset.py) không có targets chuỗi hay chunk gold: chấm bằng bộ chấm riêng
+        first_seen = run.first_step_showing(case.get("targets", []))
+        return i, case, run, {"i": i, "idx": case["idx"], "question": case[args.question_field], "targets": case.get("targets", []), "type": case.get("type"), "answer": run.answer,
+                              "contains_target": contains(run.answer or "", case["targets"]) if run.answer and case.get("targets") else 0.0, "stop_reason": run.stop_reason,
                               "steps": run.steps, "tool_calls": run.tool_calls, "input_tokens": run.input_tokens, "output_tokens": run.output_tokens,
                               "cached_input_tokens": run.cached_input_tokens, "cache_hits": run.cache_hits, "llm_time_s": round(run.llm_time_s, 3), "tool_time_s": round(run.tool_time_s, 3),
                               "wall_s": round(run.wall_s, 3), "ttft_s": [round(t, 3) for t in run.ttft_s],
@@ -110,13 +137,15 @@ def main() -> None:
 
     rows = []
     t0 = time.perf_counter()
-    with (run_dir / "results.jsonl").open("w", encoding="utf-8") as out, ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+    with (run_dir / "results.jsonl").open("w", encoding="utf-8") as out, (run_dir / "tool_texts.jsonl").open("w", encoding="utf-8") as ttout, ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         for i, case, run, row in pool.map(run_one, chosen):  # pool.map giữ thứ tự đầu vào; các câu vẫn chạy song song
             rows.append(row)
             out.write(json.dumps(row, ensure_ascii=False) + "\n")
             out.flush()
+            ttout.write(json.dumps({"idx": case["idx"], "tool_texts": run.tool_texts}, ensure_ascii=False) + "\n")  # văn bản công cụ trả về: để chấm "đủ mốc" offline
+            ttout.flush()
             print(f"[{i}/{len(picked)}] {run.stop_reason} steps={run.steps} tools={run.tool_calls} tokens={run.input_tokens}/{run.output_tokens} "
-                  f"wall={run.wall_s:.1f}s | {case[args.question_field][:80]} -> {(run.answer or '')[:80]!r} (gold {case['targets']})")
+                  f"wall={run.wall_s:.1f}s | {case[args.question_field][:80]} -> {(run.answer or '')[:80]!r} (gold {case.get('targets')})")
     total_wall = time.perf_counter() - t0
 
     ok = [r for r in rows if r["stop_reason"] == "answer"]
