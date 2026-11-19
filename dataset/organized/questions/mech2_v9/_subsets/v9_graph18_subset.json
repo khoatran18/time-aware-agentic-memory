@@ -1,0 +1,501 @@
+{
+ "source": "questions_v9 ∩ 18 pages added 2026-11-15",
+ "cases": [
+  {
+   "idx": "Arnulf_of_Carinthia:0",
+   "page_id": "/wiki/Arnulf_of_Carinthia",
+   "graph_page": "Arnulf_of_Carinthia",
+   "type": "list",
+   "question": "List the dated events in which Arnulf himself was elected, recognised or crowned as king or emperor, in time order.",
+   "question_hard": "Arnulf of Carinthia. List the dated events in which Arnulf himself was elected, recognised or crowned as king or emperor, in time order."
+  },
+  {
+   "idx": "Arnulf_of_Carinthia:1",
+   "page_id": "/wiki/Arnulf_of_Carinthia",
+   "graph_page": "Arnulf_of_Carinthia",
+   "type": "first_last_next",
+   "question": "Among the dated events in which Arnulf dealt with King Odo of France, which came first?",
+   "question_hard": "Arnulf of Carinthia. Among the dated events in which Arnulf dealt with King Odo of France, which came first?"
+  },
+  {
+   "idx": "August_Maus:0",
+   "page_id": "/wiki/August_Maus",
+   "graph_page": "August_Maus",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the naval ranks that August Maus was appointed or promoted to, in chronological order.",
+   "question_hard": "August Maus. Among the dated events recorded in the timeline, list the naval ranks that August Maus was appointed or promoted to, in chronological order."
+  },
+  {
+   "idx": "August_Maus:1",
+   "page_id": "/wiki/August_Maus",
+   "graph_page": "August_Maus",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline from October 1936 onward, list the assignments or transfers of August Maus to a specific cruiser, battleship, U-boat or flotilla, in chronological order.",
+   "question_hard": "August Maus. Among the dated events recorded in the timeline from October 1936 onward, list the assignments or transfers of August Maus to a specific cruiser, battleship, U-boat or flotilla, in chronological order."
+  },
+  {
+   "idx": "August_Maus:2",
+   "page_id": "/wiki/August_Maus",
+   "graph_page": "August_Maus",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the military decorations and badges that August Maus received, in chronological order.",
+   "question_hard": "August Maus. Among the dated events recorded in the timeline, list the military decorations and badges that August Maus received, in chronological order."
+  },
+  {
+   "idx": "August_Maus:3",
+   "page_id": "/wiki/August_Maus",
+   "graph_page": "August_Maus",
+   "type": "order_gap",
+   "question": "How many calendar years separate the start of August Maus's training at Marineschule Mürwik from the start of his training for U-boat commanders?",
+   "question_hard": "August Maus. How many calendar years separate the start of August Maus's training at Marineschule Mürwik from the start of his training for U-boat commanders?"
+  },
+  {
+   "idx": "Campaign_Against_Homophobia:0",
+   "page_id": "/wiki/Campaign_Against_Homophobia",
+   "graph_page": "Campaign_Against_Homophobia",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what were the first and the last changes in the presidency of the organisation?",
+   "question_hard": "Campaign Against Homophobia. Among the dated events recorded in the timeline, what were the first and the last changes in the presidency of the organisation?"
+  },
+  {
+   "idx": "Campaign_Against_Homophobia:1",
+   "page_id": "/wiki/Campaign_Against_Homophobia",
+   "graph_page": "Campaign_Against_Homophobia",
+   "type": "first_last_next",
+   "question": "After the change of presidency that ended Robert Biedroń's term, what was the next change of presidency among the dated events recorded in the timeline?",
+   "question_hard": "Campaign Against Homophobia. After the change of presidency that ended Robert Biedroń's term, what was the next change of presidency among the dated events recorded in the timeline?"
+  },
+  {
+   "idx": "Campaign_Against_Homophobia:2",
+   "page_id": "/wiki/Campaign_Against_Homophobia",
+   "graph_page": "Campaign_Against_Homophobia",
+   "type": "order_gap",
+   "question": "How many calendar years passed between the start of Robert Biedroń's presidency and the start of Agata Chaber's presidency?",
+   "question_hard": "Campaign Against Homophobia. How many calendar years passed between the start of Robert Biedroń's presidency and the start of Agata Chaber's presidency?"
+  },
+  {
+   "idx": "Carlos_Sainz_Jr:0",
+   "page_id": "/wiki/Carlos_Sainz_Jr.",
+   "graph_page": "Carlos_Sainz_Jr",
+   "type": "first_last_next",
+   "question": "Right after racing for Carlin in the British and European Formula 3 championships, which team did Carlos Sainz Jr. sign with next, among the dated events in the timeline?",
+   "question_hard": "Carlos Sainz Jr. Right after racing for Carlin in the British and European Formula 3 championships, which team did Carlos Sainz Jr. sign with next, among the dated events in the timeline?"
+  },
+  {
+   "idx": "Carlos_Sainz_Jr:1",
+   "page_id": "/wiki/Carlos_Sainz_Jr.",
+   "graph_page": "Carlos_Sainz_Jr",
+   "type": "first_last_next",
+   "question": "After he switched to DAMS in Formula Renault 3.5, which team did Carlos Sainz Jr. join next, among the dated events in the timeline?",
+   "question_hard": "Carlos Sainz Jr. After he switched to DAMS in Formula Renault 3.5, which team did Carlos Sainz Jr. join next, among the dated events in the timeline?"
+  },
+  {
+   "idx": "Carlos_Sainz_Jr:2",
+   "page_id": "/wiki/Carlos_Sainz_Jr.",
+   "graph_page": "Carlos_Sainz_Jr",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed from Carlos Sainz Jr.'s season racing for Carlin in British Formula 3 to his move to McLaren?",
+   "question_hard": "Carlos Sainz Jr. By calendar year, how many years passed from Carlos Sainz Jr.'s season racing for Carlin in British Formula 3 to his move to McLaren?"
+  },
+  {
+   "idx": "David_N_Livingstone:0",
+   "page_id": "/wiki/David_N._Livingstone",
+   "graph_page": "David_N_Livingstone",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the named lectures he delivered in the first decade of the 2000s, in chronological order (events with the same date in any order).",
+   "question_hard": "David N Livingstone. Among the dated events in the timeline, list the named lectures he delivered in the first decade of the 2000s, in chronological order (events with the same date in any order)."
+  },
+  {
+   "idx": "David_N_Livingstone:1",
+   "page_id": "/wiki/David_N._Livingstone",
+   "graph_page": "David_N_Livingstone",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the named awards and medals he received from learned societies, in chronological order.",
+   "question_hard": "David N Livingstone. Among the dated events in the timeline, list the named awards and medals he received from learned societies, in chronological order."
+  },
+  {
+   "idx": "David_N_Livingstone:2",
+   "page_id": "/wiki/David_N._Livingstone",
+   "graph_page": "David_N_Livingstone",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which named lecture he delivered most recently, and which named lecture came directly before it?",
+   "question_hard": "David N Livingstone. Among the dated events in the timeline, which named lecture he delivered most recently, and which named lecture came directly before it?"
+  },
+  {
+   "idx": "Diane_Downs:0",
+   "page_id": "/wiki/Diane_Downs",
+   "graph_page": "Diane_Downs",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the births of Diane Downs's children with Steve Downs, her first husband.",
+   "question_hard": "Diane Downs. Among the dated events in the timeline, summarize the births of Diane Downs's children with Steve Downs, her first husband."
+  },
+  {
+   "idx": "Diane_Downs:1",
+   "page_id": "/wiki/Diane_Downs",
+   "graph_page": "Diane_Downs",
+   "type": "order_gap",
+   "question": "How many years passed between Diane Downs's conviction on all charges after her trial and her first parole hearing?",
+   "question_hard": "Diane Downs. How many years passed between Diane Downs's conviction on all charges after her trial and her first parole hearing?"
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:0",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the events in which a person began serving as head of the Federal Office for Migration and Refugees, in chronological order.",
+   "question_hard": "Federal Office for Migration and Refugees. Among the dated events recorded in the timeline, list the events in which a person began serving as head of the Federal Office for Migration and Refugees, in chronological order."
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:1",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the first person to begin serving as head of the Federal Office for Migration and Refugees?",
+   "question_hard": "Federal Office for Migration and Refugees. Among the dated events recorded in the timeline, who was the first person to begin serving as head of the Federal Office for Migration and Refugees?"
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:2",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the next person to begin serving as head of the Federal Office for Migration and Refugees after Manfred Schmidt began his service?",
+   "question_hard": "Federal Office for Migration and Refugees. Among the dated events recorded in the timeline, who was the next person to begin serving as head of the Federal Office for Migration and Refugees after Manfred Schmidt began his service?"
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:3",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the most recent person to begin serving as head of the Federal Office for Migration and Refugees?",
+   "question_hard": "Federal Office for Migration and Refugees. Among the dated events recorded in the timeline, who was the most recent person to begin serving as head of the Federal Office for Migration and Refugees?"
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:4",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "order_gap",
+   "question": "Counting by calendar year, how many years passed between the founding of the Federal Office for Migration and Refugees and the release of preliminary audit results on asylum proceedings?",
+   "question_hard": "Federal Office for Migration and Refugees. Counting by calendar year, how many years passed between the founding of the Federal Office for Migration and Refugees and the release of preliminary audit results on asylum proceedings?"
+  },
+  {
+   "idx": "Federal_Office_for_Migration_and_Refugees:5",
+   "page_id": "/wiki/Federal_Office_for_Migration_and_Refugees",
+   "graph_page": "Federal_Office_for_Migration_and_Refugees",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the departures of the people who had served as head of the Federal Office for Migration and Refugees.",
+   "question_hard": "Federal Office for Migration and Refugees. Among the dated events recorded in the timeline, summarize the departures of the people who had served as head of the Federal Office for Migration and Refugees."
+  },
+  {
+   "idx": "Henri_Becquerel:0",
+   "page_id": "/wiki/Henri_Becquerel",
+   "graph_page": "Henri_Becquerel",
+   "type": "summary",
+   "question": "Among the dated events in the timeline about Henri Becquerel, summarize the medals and prizes he won.",
+   "question_hard": "Henri Becquerel. Among the dated events in the timeline about Henri Becquerel, summarize the medals and prizes he won."
+  },
+  {
+   "idx": "Henri_Becquerel:1",
+   "page_id": "/wiki/Henri_Becquerel",
+   "graph_page": "Henri_Becquerel",
+   "type": "list",
+   "question": "Among the dated events in the timeline about Henri Becquerel, list the learned societies to which he was elected as a member, in chronological order.",
+   "question_hard": "Henri Becquerel. Among the dated events in the timeline about Henri Becquerel, list the learned societies to which he was elected as a member, in chronological order."
+  },
+  {
+   "idx": "Henri_Becquerel:2",
+   "page_id": "/wiki/Henri_Becquerel",
+   "graph_page": "Henri_Becquerel",
+   "type": "order_gap",
+   "question": "How many years passed between Henri Becquerel becoming chief engineer in the Department of Bridges and Highways and his receiving the Nobel Prize in Physics?",
+   "question_hard": "Henri Becquerel. How many years passed between Henri Becquerel becoming chief engineer in the Department of Bridges and Highways and his receiving the Nobel Prize in Physics?"
+  },
+  {
+   "idx": "Humberto_De_la_Calle:0",
+   "page_id": "/wiki/Humberto_De_la_Calle",
+   "graph_page": "Humberto_De_la_Calle",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list in chronological order the events in which he was appointed to, or began a term in, a ministerial or ambassadorial post, counting only those after he resigned as vice president.",
+   "question_hard": "Humberto De la Calle. Among the dated events recorded in the timeline, list in chronological order the events in which he was appointed to, or began a term in, a ministerial or ambassadorial post, counting only those after he resigned as vice president."
+  },
+  {
+   "idx": "Humberto_De_la_Calle:1",
+   "page_id": "/wiki/Humberto_De_la_Calle",
+   "graph_page": "Humberto_De_la_Calle",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, after he resigned as vice president, which ministerial or ambassadorial post did he begin last?",
+   "question_hard": "Humberto De la Calle. Among the dated events recorded in the timeline, after he resigned as vice president, which ministerial or ambassadorial post did he begin last?"
+  },
+  {
+   "idx": "Humberto_De_la_Calle:2",
+   "page_id": "/wiki/Humberto_De_la_Calle",
+   "graph_page": "Humberto_De_la_Calle",
+   "type": "order_gap",
+   "question": "How many calendar years passed from his appointment as ambassador to the United Kingdom to his run as the Liberal Party/Indigenous Social Alliance Coalition candidate for the presidency, counting by calendar year?",
+   "question_hard": "Humberto De la Calle. How many calendar years passed from his appointment as ambassador to the United Kingdom to his run as the Liberal Party/Indigenous Social Alliance Coalition candidate for the presidency, counting by calendar year?"
+  },
+  {
+   "idx": "Josep_Rull:0",
+   "page_id": "/wiki/Josep_Rull",
+   "graph_page": "Josep_Rull",
+   "type": "list",
+   "question": "List the dated events in which Josep Rull began a term as a deputy of a parliament, or as an officer of a parliamentary chamber including a re-election to such a post, in time order.",
+   "question_hard": "Josep Rull. List the dated events in which Josep Rull began a term as a deputy of a parliament, or as an officer of a parliamentary chamber including a re-election to such a post, in time order."
+  },
+  {
+   "idx": "Josep_Rull:1",
+   "page_id": "/wiki/Josep_Rull",
+   "graph_page": "Josep_Rull",
+   "type": "list",
+   "question": "List the dated events in which Josep Rull headed an electoral list or a candidacy, in time order.",
+   "question_hard": "Josep Rull. List the dated events in which Josep Rull headed an electoral list or a candidacy, in time order."
+  },
+  {
+   "idx": "Josep_Rull:2",
+   "page_id": "/wiki/Josep_Rull",
+   "graph_page": "Josep_Rull",
+   "type": "order_gap",
+   "question": "How many calendar years passed between Josep Rull joining the Nationalist Youth of Catalonia in Terrassa and his joining the political party Democratic Convergence of Catalonia?",
+   "question_hard": "Josep Rull. How many calendar years passed between Josep Rull joining the Nationalist Youth of Catalonia in Terrassa and his joining the political party Democratic Convergence of Catalonia?"
+  },
+  {
+   "idx": "Josep_Rull:3",
+   "page_id": "/wiki/Josep_Rull",
+   "graph_page": "Josep_Rull",
+   "type": "list",
+   "question": "List the dated events in which a court order put Josep Rull into prison, in time order.",
+   "question_hard": "Josep Rull. List the dated events in which a court order put Josep Rull into prison, in time order."
+  },
+  {
+   "idx": "Josep_Rull:4",
+   "page_id": "/wiki/Josep_Rull",
+   "graph_page": "Josep_Rull",
+   "type": "first_last_next",
+   "question": "After Josep Rull was re-chosen as third secretary of the Catalan Parliament, which dated event came next in which he began a term as a deputy of a parliament or as an officer of a parliamentary chamber?",
+   "question_hard": "Josep Rull. After Josep Rull was re-chosen as third secretary of the Catalan Parliament, which dated event came next in which he began a term as a deputy of a parliament or as an officer of a parliamentary chamber?"
+  },
+  {
+   "idx": "Konrad_Wolf_Film_University_of_Babelsberg:0",
+   "page_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg",
+   "graph_page": "Konrad_Wolf_Film_University_of_Babelsberg",
+   "type": "list",
+   "question": "List, in chronological order, the changes to the institution's own name among the dated events recorded in the timeline (not changes to the title of its head).",
+   "question_hard": "Konrad Wolf Film University of Babelsberg. List, in chronological order, the changes to the institution's own name among the dated events recorded in the timeline (not changes to the title of its head)."
+  },
+  {
+   "idx": "Konrad_Wolf_Film_University_of_Babelsberg:1",
+   "page_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg",
+   "graph_page": "Konrad_Wolf_Film_University_of_Babelsberg",
+   "type": "list",
+   "question": "List, in chronological order, the dated events in which a new head (rector) took office, for the period from the late 1960s to the early 1990s.",
+   "question_hard": "Konrad Wolf Film University of Babelsberg. List, in chronological order, the dated events in which a new head (rector) took office, for the period from the late 1960s to the early 1990s."
+  },
+  {
+   "idx": "Konrad_Wolf_Film_University_of_Babelsberg:2",
+   "page_id": "/wiki/Konrad_Wolf_Film_University_of_Babelsberg",
+   "graph_page": "Konrad_Wolf_Film_University_of_Babelsberg",
+   "type": "order_gap",
+   "question": "How many calendar years passed between the institution's founding as a German film academy and its being granted university status?",
+   "question_hard": "Konrad Wolf Film University of Babelsberg. How many calendar years passed between the institution's founding as a German film academy and its being granted university status?"
+  },
+  {
+   "idx": "Luftflotte_3:0",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the events in which a person began serving as commanding officer of the air fleet (a second term counts as a new start), in chronological order.",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, list the events in which a person began serving as commanding officer of the air fleet (a second term counts as a new start), in chronological order."
+  },
+  {
+   "idx": "Luftflotte_3:1",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the events in which a person began serving as chief of staff of the air fleet, in chronological order.",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, list the events in which a person began serving as chief of staff of the air fleet, in chronological order."
+  },
+  {
+   "idx": "Luftflotte_3:2",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which person was the first to begin serving as commanding officer of the air fleet?",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, which person was the first to begin serving as commanding officer of the air fleet?"
+  },
+  {
+   "idx": "Luftflotte_3:3",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, immediately after Hermann Plocher began serving as chief of staff of the air fleet, who was the next person to begin serving in that post?",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, immediately after Hermann Plocher began serving as chief of staff of the air fleet, who was the next person to begin serving in that post?"
+  },
+  {
+   "idx": "Luftflotte_3:4",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "order_gap",
+   "question": "How many calendar years separate the start of Hugo Sperrle's tenure as commanding officer of the air fleet from the start of Martin Harlinghausen's tenure in that post?",
+   "question_hard": "Luftflotte 3. How many calendar years separate the start of Hugo Sperrle's tenure as commanding officer of the air fleet from the start of Martin Harlinghausen's tenure in that post?"
+  },
+  {
+   "idx": "Luftflotte_3:5",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the departures of commanding officers of the air fleet that occurred from the start of Alexander Holle's second term onward.",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, summarize the departures of commanding officers of the air fleet that occurred from the start of Alexander Holle's second term onward."
+  },
+  {
+   "idx": "Luftflotte_3:6",
+   "page_id": "/wiki/Luftflotte_3",
+   "graph_page": "Luftflotte_3",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the chief-of-staff departures that occurred from Günther Korten's departure onward.",
+   "question_hard": "Luftflotte 3. Among the dated events recorded in the timeline, summarize the chief-of-staff departures that occurred from Günther Korten's departure onward."
+  },
+  {
+   "idx": "Michael_Batty:0",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the fellowships of learned societies and academies he was elected or admitted to (events with the same date in any order).",
+   "question_hard": "Michael Batty. Among the dated events in the timeline, summarize the fellowships of learned societies and academies he was elected or admitted to (events with the same date in any order)."
+  },
+  {
+   "idx": "Michael_Batty:1",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the prizes, medals and awards he received from the early 2010s to the mid-2010s.",
+   "question_hard": "Michael Batty. Among the dated events in the timeline, summarize the prizes, medals and awards he received from the early 2010s to the mid-2010s."
+  },
+  {
+   "idx": "Michael_Batty:2",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline about schools and universities he began attending, which institution did he begin right after Quarry Bank High School for Boys?",
+   "question_hard": "Michael Batty. Among the dated events in the timeline about schools and universities he began attending, which institution did he begin right after Quarry Bank High School for Boys?"
+  },
+  {
+   "idx": "Michael_Batty:3",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "order_gap",
+   "question": "How many calendar years passed between his appointment to University College London and his becoming Bartlett Professor of Planning?",
+   "question_hard": "Michael Batty. How many calendar years passed between his appointment to University College London and his becoming Bartlett Professor of Planning?"
+  },
+  {
+   "idx": "Michael_Batty:4",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "first_last_next",
+   "question": "Among the dated events from the mid-1980s onward, which professorship did he take up immediately after moving to direct the NCGIA at SUNY-Buffalo?",
+   "question_hard": "Michael Batty. Among the dated events from the mid-1980s onward, which professorship did he take up immediately after moving to direct the NCGIA at SUNY-Buffalo?"
+  },
+  {
+   "idx": "Senate_of_Canada_Building:0",
+   "page_id": "/wiki/Senate_of_Canada_Building",
+   "graph_page": "Senate_of_Canada_Building",
+   "type": "order_gap",
+   "question": "How many calendar years passed between the federal government beginning to operate the building as the Government Conference Centre and the end of that federal operation?",
+   "question_hard": "Senate of Canada Building. How many calendar years passed between the federal government beginning to operate the building as the Government Conference Centre and the end of that federal operation?"
+  },
+  {
+   "idx": "Senate_of_Canada_Building:1",
+   "page_id": "/wiki/Senate_of_Canada_Building",
+   "graph_page": "Senate_of_Canada_Building",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which notable event, conference or exhibition staged inside the building came first?",
+   "question_hard": "Senate of Canada Building. Among the dated events in the timeline, which notable event, conference or exhibition staged inside the building came first?"
+  },
+  {
+   "idx": "Sevilla_FC_Puerto_Rico:0",
+   "page_id": "/wiki/Sevilla_FC_Puerto_Rico",
+   "graph_page": "Sevilla_FC_Puerto_Rico",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline about the club's home ground (starting or stopping use of a home stadium, or moving its home to another town), which one came first?",
+   "question_hard": "Sevilla FC Puerto Rico. Among the dated events in the timeline about the club's home ground (starting or stopping use of a home stadium, or moving its home to another town), which one came first?"
+  },
+  {
+   "idx": "Tryggve_Gran:0",
+   "page_id": "/wiki/Tryggve_Gran",
+   "graph_page": "Tryggve_Gran",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what was the earliest of Gran's assignments to an Antarctic expedition or its search parties?",
+   "question_hard": "Tryggve Gran. Among the dated events recorded in the timeline, what was the earliest of Gran's assignments to an Antarctic expedition or its search parties?"
+  },
+  {
+   "idx": "Tryggve_Gran:1",
+   "page_id": "/wiki/Tryggve_Gran",
+   "graph_page": "Tryggve_Gran",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which was the last change in Gran's commission, rank or service status in the Royal Flying Corps or Royal Air Force?",
+   "question_hard": "Tryggve Gran. Among the dated events recorded in the timeline, which was the last change in Gran's commission, rank or service status in the Royal Flying Corps or Royal Air Force?"
+  },
+  {
+   "idx": "Tryggve_Gran:2",
+   "page_id": "/wiki/Tryggve_Gran",
+   "graph_page": "Tryggve_Gran",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list Gran's marriages in date order.",
+   "question_hard": "Tryggve Gran. Among the dated events recorded in the timeline, list Gran's marriages in date order."
+  },
+  {
+   "idx": "Vindobona_train:0",
+   "page_id": "/wiki/Vindobona_(train)",
+   "graph_page": "Vindobona_train",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the occasions between the mid-1960s and the early 1970s when a railcar type began operating on the train.",
+   "question_hard": "Vindobona train. Among the dated events in the timeline, list the occasions between the mid-1960s and the early 1970s when a railcar type began operating on the train."
+  },
+  {
+   "idx": "Vindobona_train:1",
+   "page_id": "/wiki/Vindobona_(train)",
+   "graph_page": "Vindobona_train",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the occasions after the ÖBB Blue Lightning DMUs began operating the train and until the late 1970s when a railcar or DMU type stopped running on the train, either because its service ended or because it was replaced.",
+   "question_hard": "Vindobona train. Among the dated events in the timeline, list the occasions after the ÖBB Blue Lightning DMUs began operating the train and until the late 1970s when a railcar or DMU type stopped running on the train, either because its service ended or because it was replaced."
+  },
+  {
+   "idx": "Vindobona_train:2",
+   "page_id": "/wiki/Vindobona_(train)",
+   "graph_page": "Vindobona_train",
+   "type": "order_gap",
+   "question": "Counted by calendar year, how many years passed from Wien Mitte station becoming the train's terminus until the trains first passing through Berlin on the new North–South mainline?",
+   "question_hard": "Vindobona train. Counted by calendar year, how many years passed from Wien Mitte station becoming the train's terminus until the trains first passing through Berlin on the new North–South mainline?"
+  },
+  {
+   "idx": "William_Dwight_Whitney:0",
+   "page_id": "/wiki/William_Dwight_Whitney",
+   "graph_page": "William_Dwight_Whitney",
+   "type": "summary",
+   "question": "Among the dated events in the timeline about William Dwight Whitney, summarize the births of his children.",
+   "question_hard": "William Dwight Whitney. Among the dated events in the timeline about William Dwight Whitney, summarize the births of his children."
+  },
+  {
+   "idx": "William_Dwight_Whitney:1",
+   "page_id": "/wiki/William_Dwight_Whitney",
+   "graph_page": "William_Dwight_Whitney",
+   "type": "list",
+   "question": "Among the dated events in the timeline about William Dwight Whitney, list the learned societies and foreign orders he was elected to, in chronological order.",
+   "question_hard": "William Dwight Whitney. Among the dated events in the timeline about William Dwight Whitney, list the learned societies and foreign orders he was elected to, in chronological order."
+  },
+  {
+   "idx": "William_Dwight_Whitney:2",
+   "page_id": "/wiki/William_Dwight_Whitney",
+   "graph_page": "William_Dwight_Whitney",
+   "type": "order_gap",
+   "question": "How many years passed between Yale University offering William Dwight Whitney a professorship of Sanskrit and his receiving a doctoral degree from the University of Breslau?",
+   "question_hard": "William Dwight Whitney. How many years passed between Yale University offering William Dwight Whitney a professorship of Sanskrit and his receiving a doctoral degree from the University of Breslau?"
+  },
+  {
+   "idx": "William_Dwight_Whitney:3",
+   "page_id": "/wiki/William_Dwight_Whitney",
+   "graph_page": "William_Dwight_Whitney",
+   "type": "list",
+   "question": "Among the dated events in the timeline about William Dwight Whitney, list the degrees he completed, in chronological order.",
+   "question_hard": "William Dwight Whitney. Among the dated events in the timeline about William Dwight Whitney, list the degrees he completed, in chronological order."
+  }
+ ]
+}

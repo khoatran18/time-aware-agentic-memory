@@ -1,0 +1,1144 @@
+{
+ "source": "questions_v9 ∩ graph pages",
+ "dropped_pages": [
+  "Rainier_Brewing_Company"
+ ],
+ "cases": [
+  {
+   "idx": "Aleksandra_Goryachkina:0",
+   "page_id": "/wiki/Aleksandra_Goryachkina",
+   "graph_page": "Aleksandra_Goryachkina",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, after she first won the Russian Women's Championship title, when did she next win that title?",
+   "question_hard": "Aleksandra Goryachkina. Among the dated events in the timeline, after she first won the Russian Women's Championship title, when did she next win that title?"
+  },
+  {
+   "idx": "Aleksandra_Goryachkina:1",
+   "page_id": "/wiki/Aleksandra_Goryachkina",
+   "graph_page": "Aleksandra_Goryachkina",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize her medals at the World Youth Chess Championship and the European Youth Chess Championship before she turned 15 (events with the same date in any order).",
+   "question_hard": "Aleksandra Goryachkina. Among the dated events in the timeline, summarize her medals at the World Youth Chess Championship and the European Youth Chess Championship before she turned 15 (events with the same date in any order)."
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:0",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the starts of editorships (sole or joint) that began in the late nineteenth century, in chronological order.",
+   "question_hard": "Archaeologia Cambrensis. Among the dated events in the timeline, list the starts of editorships (sole or joint) that began in the late nineteenth century, in chronological order."
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:1",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the starts of editorships (sole or joint) from the beginning of the twentieth century up to the end of the 1940s, in chronological order; the ends of terms and mere listings of an editor for a single year are not included.",
+   "question_hard": "Archaeologia Cambrensis. Among the dated events in the timeline, summarize the starts of editorships (sole or joint) from the beginning of the twentieth century up to the end of the 1940s, in chronological order; the ends of terms and mere listings of an editor for a single year are not included."
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:2",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "first_last_next",
+   "question": "After J. Fisher began as editor, who began as editor next among the dated events?",
+   "question_hard": "Archaeologia Cambrensis. After J. Fisher began as editor, who began as editor next among the dated events?"
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:3",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "first_last_next",
+   "question": "Among the dated starts of editorships in the timeline (single-year listings not counted), who began most recently?",
+   "question_hard": "Archaeologia Cambrensis. Among the dated starts of editorships in the timeline (single-year listings not counted), who began most recently?"
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:4",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "order_gap",
+   "question": "How many years passed between Daniel Silvan Evans beginning as editor and William J. Britnell beginning as editor? Count by calendar year.",
+   "question_hard": "Archaeologia Cambrensis. How many years passed between Daniel Silvan Evans beginning as editor and William J. Britnell beginning as editor? Count by calendar year."
+  },
+  {
+   "idx": "Bohemond_IV_of_Antioch:0",
+   "page_id": "/wiki/Bohemond_IV_of_Antioch",
+   "graph_page": "Bohemond_IV_of_Antioch",
+   "type": "first_last_next",
+   "question": "After Cilician troops entered Antioch and installed Raymond-Roupen as prince, what was the next dated event in which the holder of the principality of Antioch changed?",
+   "question_hard": "Bohemond IV of Antioch. After Cilician troops entered Antioch and installed Raymond-Roupen as prince, what was the next dated event in which the holder of the principality of Antioch changed?"
+  },
+  {
+   "idx": "Bohemond_IV_of_Antioch:1",
+   "page_id": "/wiki/Bohemond_IV_of_Antioch",
+   "graph_page": "Bohemond_IV_of_Antioch",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the events in which his eldest son Raymond was killed, or his son Philip was married, imprisoned, or killed, in chronological order.",
+   "question_hard": "Bohemond IV of Antioch. Among the dated events in the timeline, list the events in which his eldest son Raymond was killed, or his son Philip was married, imprisoned, or killed, in chronological order."
+  },
+  {
+   "idx": "Bohemond_IV_of_Antioch:2",
+   "page_id": "/wiki/Bohemond_IV_of_Antioch",
+   "graph_page": "Bohemond_IV_of_Antioch",
+   "type": "order_gap",
+   "question": "How many calendar years passed between Bohemond's later meeting with Emperor Frederick II in Acre, which came after the Cyprus gathering, and his death (counted by calendar year)?",
+   "question_hard": "Bohemond IV of Antioch. How many calendar years passed between Bohemond's later meeting with Emperor Frederick II in Acre, which came after the Cyprus gathering, and his death (counted by calendar year)?"
+  },
+  {
+   "idx": "Brian_Higgins:0",
+   "page_id": "/wiki/Brian_Higgins",
+   "graph_page": "Brian_Higgins",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the dates on which he began serving in a legislative body, in chronological order: a city council, the state assembly, and the U.S. House.",
+   "question_hard": "Brian Higgins. Among the dated events in the timeline, list the dates on which he began serving in a legislative body, in chronological order: a city council, the state assembly, and the U.S. House."
+  },
+  {
+   "idx": "Brian_Higgins:1",
+   "page_id": "/wiki/Brian_Higgins",
+   "graph_page": "Brian_Higgins",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline about his academic degrees, which degree did he receive most recently?",
+   "question_hard": "Brian Higgins. Among the dated events in the timeline about his academic degrees, which degree did he receive most recently?"
+  },
+  {
+   "idx": "Brian_Higgins:2",
+   "page_id": "/wiki/Brian_Higgins",
+   "graph_page": "Brian_Higgins",
+   "type": "order_gap",
+   "question": "Measured in calendar years, how many years passed between his co-signed letter to President Obama urging that Social Security be kept and strengthened, and his introduction of House Resolution 3997 on Social Security Administration oversight?",
+   "question_hard": "Brian Higgins. Measured in calendar years, how many years passed between his co-signed letter to President Obama urging that Social Security be kept and strengthened, and his introduction of House Resolution 3997 on Social Security Administration oversight?"
+  },
+  {
+   "idx": "Charles_Holden:0",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the Royal Institute of British Architects (RIBA) medals Holden was awarded.",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, list in time order the Royal Institute of British Architects (RIBA) medals Holden was awarded."
+  },
+  {
+   "idx": "Charles_Holden:1",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the military ranks Holden was given during the First World War.",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, list in time order the military ranks Holden was given during the First World War."
+  },
+  {
+   "idx": "Charles_Holden:2",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the design, craft and commission bodies Holden joined as a member, from the First World War until the early 1930s.",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, list in time order the design, craft and commission bodies Holden joined as a member, from the First World War until the early 1930s."
+  },
+  {
+   "idx": "Charles_Holden:3",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the medals, honorary doctorates and designations Holden was awarded between the mid-1930s and the mid-1940s (events with the same date in any order).",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, summarize the medals, honorary doctorates and designations Holden was awarded between the mid-1930s and the mid-1940s (events with the same date in any order)."
+  },
+  {
+   "idx": "Charles_Holden:4",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "order_gap",
+   "question": "How many years passed between the RIBA Godwin Medal that Holden received to study architecture abroad and the RIBA Royal Gold Medal awarded for his body of work?",
+   "question_hard": "Charles Holden. How many years passed between the RIBA Godwin Medal that Holden received to study architecture abroad and the RIBA Royal Gold Medal awarded for his body of work?"
+  },
+  {
+   "idx": "David_Young_Iowa_politician:0",
+   "page_id": "/wiki/David_Young_(Iowa_politician)",
+   "graph_page": "David_Young_Iowa_politician",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the results of his U.S. House general elections (won or lost), in chronological order.",
+   "question_hard": "David Young Iowa politician. Among the dated events in the timeline, list the results of his U.S. House general elections (won or lost), in chronological order."
+  },
+  {
+   "idx": "David_Young_Iowa_politician:1",
+   "page_id": "/wiki/David_Young_(Iowa_politician)",
+   "graph_page": "David_Young_Iowa_politician",
+   "type": "first_last_next",
+   "question": "Among his U.S. House general-election results in the timeline, which one came last?",
+   "question_hard": "David Young Iowa politician. Among his U.S. House general-election results in the timeline, which one came last?"
+  },
+  {
+   "idx": "David_Young_Iowa_politician:2",
+   "page_id": "/wiki/David_Young_(Iowa_politician)",
+   "graph_page": "David_Young_Iowa_politician",
+   "type": "order_gap",
+   "question": "How many years passed between his first win in a U.S. House general election and his later comeback bid against Cindy Axne? Count by calendar year.",
+   "question_hard": "David Young Iowa politician. How many years passed between his first win in a U.S. House general election and his later comeback bid against Cindy Axne? Count by calendar year."
+  },
+  {
+   "idx": "David_Young_Iowa_politician:3",
+   "page_id": "/wiki/David_Young_(Iowa_politician)",
+   "graph_page": "David_Young_Iowa_politician",
+   "type": "order_gap",
+   "question": "How many years passed between his start as chief of staff to Senator Jim Bunning and his start as chief of staff to Senator Chuck Grassley?",
+   "question_hard": "David Young Iowa politician. How many years passed between his start as chief of staff to Senator Jim Bunning and his start as chief of staff to Senator Chuck Grassley?"
+  },
+  {
+   "idx": "David_Young_Iowa_politician:4",
+   "page_id": "/wiki/David_Young_(Iowa_politician)",
+   "graph_page": "David_Young_Iowa_politician",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize his votes and stated positions on repealing the Affordable Care Act, in chronological order.",
+   "question_hard": "David Young Iowa politician. Among the dated events in the timeline, summarize his votes and stated positions on repealing the Affordable Care Act, in chronological order."
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:0",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the heads of the department appointed from the mid-2000s onward, in chronological order.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, list the heads of the department appointed from the mid-2000s onward, in chronological order."
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:1",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "first_last_next",
+   "question": "Among the dated appointments as head of the department from the late 1980s onward, which was the most recent one?",
+   "question_hard": "Department of Computing Imperial College London. Among the dated appointments as head of the department from the late 1980s onward, which was the most recent one?"
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:2",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the ends of head-of-department terms from the mid-2000s onward.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, summarize the ends of head-of-department terms from the mid-2000s onward."
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:3",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the companies created by the department staff or spun out of its research centre, in chronological order.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, list the companies created by the department staff or spun out of its research centre, in chronological order."
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:4",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the units or centres that the department history records as formed or founded, in chronological order.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, list the units or centres that the department history records as formed or founded, in chronological order."
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:5",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "order_gap",
+   "question": "How many years, counted by calendar year, separated the formation of the Computer Unit from the founding of IC-PARC?",
+   "question_hard": "Department of Computing Imperial College London. How many years, counted by calendar year, separated the formation of the Computer Unit from the founding of IC-PARC?"
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:6",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "order_gap",
+   "question": "How many years separated the first intake for the BSc course from the graduation of its first students?",
+   "question_hard": "Department of Computing Imperial College London. How many years separated the first intake for the BSc course from the graduation of its first students?"
+  },
+  {
+   "idx": "Eastern_Army_Division:0",
+   "page_id": "/wiki/Eastern_Army_Division",
+   "graph_page": "Eastern_Army_Division",
+   "type": "list",
+   "question": "List, in chronological order, the commanding officers whose start of command is recorded among the dated events in the timeline.",
+   "question_hard": "Eastern Army Division. List, in chronological order, the commanding officers whose start of command is recorded among the dated events in the timeline."
+  },
+  {
+   "idx": "Eastern_Army_Division:1",
+   "page_id": "/wiki/Eastern_Army_Division",
+   "graph_page": "Eastern_Army_Division",
+   "type": "order_gap",
+   "question": "How many years separated the start of Åke Lundin's command and the start of Roland Ekenberg's command?",
+   "question_hard": "Eastern Army Division. How many years separated the start of Åke Lundin's command and the start of Roland Ekenberg's command?"
+  },
+  {
+   "idx": "Eastern_Army_Division:2",
+   "page_id": "/wiki/Eastern_Army_Division",
+   "graph_page": "Eastern_Army_Division",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which commanding officer's start of command came first?",
+   "question_hard": "Eastern Army Division. Among the dated events in the timeline, which commanding officer's start of command came first?"
+  },
+  {
+   "idx": "Eastern_Army_Division:3",
+   "page_id": "/wiki/Eastern_Army_Division",
+   "graph_page": "Eastern_Army_Division",
+   "type": "first_last_next",
+   "question": "Which commanding officer began command immediately after Bengt Selander began his command, among the dated events in the timeline?",
+   "question_hard": "Eastern Army Division. Which commanding officer began command immediately after Bengt Selander began his command, among the dated events in the timeline?"
+  },
+  {
+   "idx": "Eastern_Army_Division:4",
+   "page_id": "/wiki/Eastern_Army_Division",
+   "graph_page": "Eastern_Army_Division",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which two were the most recent occasions on which a commanding officer ended command?",
+   "question_hard": "Eastern Army Division. Among the dated events in the timeline, which two were the most recent occasions on which a commanding officer ended command?"
+  },
+  {
+   "idx": "First_Air_Group:0",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in chronological order the appointments of commanders of the air group before the 1970s.",
+   "question_hard": "First Air Group. Among the dated events in the timeline, list in chronological order the appointments of commanders of the air group before the 1970s."
+  },
+  {
+   "idx": "First_Air_Group:1",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the endings of commanders' terms after the 1970s (the endings, not the appointments).",
+   "question_hard": "First Air Group. Among the dated events in the timeline, summarize the endings of commanders' terms after the 1970s (the endings, not the appointments)."
+  },
+  {
+   "idx": "First_Air_Group:2",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which commander began a term earliest?",
+   "question_hard": "First Air Group. Among the dated events in the timeline, which commander began a term earliest?"
+  },
+  {
+   "idx": "First_Air_Group:3",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which commander began a term most recently?",
+   "question_hard": "First Air Group. Among the dated events in the timeline, which commander began a term most recently?"
+  },
+  {
+   "idx": "First_Air_Group:4",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "order_gap",
+   "question": "How many years passed between Bengt Nordenskiöld beginning his term as commander and Christer Salsing beginning his term? Count calendar years.",
+   "question_hard": "First Air Group. How many years passed between Bengt Nordenskiöld beginning his term as commander and Christer Salsing beginning his term? Count calendar years."
+  },
+  {
+   "idx": "First_Air_Group:5",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, which commander began a term directly after Gosta Odqvist began his term?",
+   "question_hard": "First Air Group. Among the dated events in the timeline, which commander began a term directly after Gosta Odqvist began his term?"
+  },
+  {
+   "idx": "First_Air_Group:6",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in chronological order the points at which the commander's rank was set to a new rank.",
+   "question_hard": "First Air Group. Among the dated events in the timeline, list in chronological order the points at which the commander's rank was set to a new rank."
+  },
+  {
+   "idx": "First_Things:0",
+   "page_id": "/wiki/First_Things",
+   "graph_page": "First_Things",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the start of each term as an executive or senior editor of the magazine, in chronological order; the two terms that begin in the same year may be listed in any order.",
+   "question_hard": "First Things. Among the dated events in the timeline, list the start of each term as an executive or senior editor of the magazine, in chronological order; the two terms that begin in the same year may be listed in any order."
+  },
+  {
+   "idx": "First_Things:1",
+   "page_id": "/wiki/First_Things",
+   "graph_page": "First_Things",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline that mark the start of a term as the magazine's top editor, which one came immediately after the start of Damon Linker's term?",
+   "question_hard": "First Things. Among the dated events in the timeline that mark the start of a term as the magazine's top editor, which one came immediately after the start of Damon Linker's term?"
+  },
+  {
+   "idx": "First_Things:2",
+   "page_id": "/wiki/First_Things",
+   "graph_page": "First_Things",
+   "type": "order_gap",
+   "question": "Measured in calendar years, how many years passed from the founding of the magazine to the end of Richard John Neuhaus's tenure as its editor-in-chief?",
+   "question_hard": "First Things. Measured in calendar years, how many years passed from the founding of the magazine to the end of Richard John Neuhaus's tenure as its editor-in-chief?"
+  },
+  {
+   "idx": "Irina_Levitina:0",
+   "page_id": "/wiki/Irina_Levitina",
+   "graph_page": "Irina_Levitina",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the titles the player won in team or pair events whose event name begins with 'World', in any order.",
+   "question_hard": "Irina Levitina. Among the dated events in the timeline, list the titles the player won in team or pair events whose event name begins with 'World', in any order."
+  },
+  {
+   "idx": "Irina_Levitina:1",
+   "page_id": "/wiki/Irina_Levitina",
+   "graph_page": "Irina_Levitina",
+   "type": "order_gap",
+   "question": "How many calendar years passed between her becoming World Women's Championship Challenger and her emigration to the United States?",
+   "question_hard": "Irina Levitina. How many calendar years passed between her becoming World Women's Championship Challenger and her emigration to the United States?"
+  },
+  {
+   "idx": "Jerzy_Buzek:0",
+   "page_id": "/wiki/Jerzy_Buzek",
+   "graph_page": "Jerzy_Buzek",
+   "type": "list",
+   "question": "List, in chronological order, the elections to the Polish Sejm or to the European Parliament that Jerzy Buzek contested, whether he won or lost them, among the dated events recorded in the timeline.",
+   "question_hard": "Jerzy Buzek. List, in chronological order, the elections to the Polish Sejm or to the European Parliament that Jerzy Buzek contested, whether he won or lost them, among the dated events recorded in the timeline."
+  },
+  {
+   "idx": "Jerzy_Buzek:1",
+   "page_id": "/wiki/Jerzy_Buzek",
+   "graph_page": "Jerzy_Buzek",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between the start of Jerzy Buzek's term as Prime Minister of Poland and the end of that term?",
+   "question_hard": "Jerzy Buzek. By calendar year, how many years passed between the start of Jerzy Buzek's term as Prime Minister of Poland and the end of that term?"
+  },
+  {
+   "idx": "Jerzy_Buzek:2",
+   "page_id": "/wiki/Jerzy_Buzek",
+   "graph_page": "Jerzy_Buzek",
+   "type": "list",
+   "question": "List, in chronological order, the moments when Jerzy Buzek began or resumed a phase of his Solidarity activism (legal or underground), among the dated events recorded in the timeline.",
+   "question_hard": "Jerzy Buzek. List, in chronological order, the moments when Jerzy Buzek began or resumed a phase of his Solidarity activism (legal or underground), among the dated events recorded in the timeline."
+  },
+  {
+   "idx": "Jerzy_Buzek:3",
+   "page_id": "/wiki/Jerzy_Buzek",
+   "graph_page": "Jerzy_Buzek",
+   "type": "list",
+   "question": "List, in chronological order, the prizes and awards that Jerzy Buzek won or received, among the dated events recorded in the timeline (events that fall in the same year may be listed in any order); honorary degrees, orders, fellowships and nominations are not counted.",
+   "question_hard": "Jerzy Buzek. List, in chronological order, the prizes and awards that Jerzy Buzek won or received, among the dated events recorded in the timeline (events that fall in the same year may be listed in any order); honorary degrees, orders, fellowships and nominations are not counted."
+  },
+  {
+   "idx": "Journal_de_20_heures:0",
+   "page_id": "/wiki/Journal_de_20_heures",
+   "graph_page": "Journal_de_20_heures",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the appointments of people to present the programme before the 1990s, including shared or replacement presenters.",
+   "question_hard": "Journal de 20 heures. Among the dated events in the timeline, summarize the appointments of people to present the programme before the 1990s, including shared or replacement presenters."
+  },
+  {
+   "idx": "Journal_de_20_heures:1",
+   "page_id": "/wiki/Journal_de_20_heures",
+   "graph_page": "Journal_de_20_heures",
+   "type": "first_last_next",
+   "question": "Among the dated presenter appointments before the 1990s in the timeline, which one was the most recent?",
+   "question_hard": "Journal de 20 heures. Among the dated presenter appointments before the 1990s in the timeline, which one was the most recent?"
+  },
+  {
+   "idx": "Journal_de_20_heures:2",
+   "page_id": "/wiki/Journal_de_20_heures",
+   "graph_page": "Journal_de_20_heures",
+   "type": "order_gap",
+   "question": "How many calendar years passed between Antenne 2 being renamed France 2 and David Pujadas being recruited from LCI to present the programme (by calendar year)?",
+   "question_hard": "Journal de 20 heures. How many calendar years passed between Antenne 2 being renamed France 2 and David Pujadas being recruited from LCI to present the programme (by calendar year)?"
+  },
+  {
+   "idx": "Karls_y:0",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the events in which a new mayor of Karlsøy began a term of office, in chronological order.",
+   "question_hard": "Karls y. Among the dated events recorded in the timeline, list the events in which a new mayor of Karlsøy began a term of office, in chronological order."
+  },
+  {
+   "idx": "Karls_y:1",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the first mayor of Karlsøy to begin a term?",
+   "question_hard": "Karls y. Among the dated events recorded in the timeline, who was the first mayor of Karlsøy to begin a term?"
+  },
+  {
+   "idx": "Karls_y:2",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which mayor of Karlsøy began a term immediately after Bent Gabrielsen began his term?",
+   "question_hard": "Karls y. Among the dated events recorded in the timeline, which mayor of Karlsøy began a term immediately after Bent Gabrielsen began his term?"
+  },
+  {
+   "idx": "Karls_y:3",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the most recent mayor of Karlsøy to begin a term?",
+   "question_hard": "Karls y. Among the dated events recorded in the timeline, who was the most recent mayor of Karlsøy to begin a term?"
+  },
+  {
+   "idx": "Karls_y:4",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "order_gap",
+   "question": "Counting by calendar year, how many years passed between the start of the earliest mayoral term in the timeline and the start of Mona Pedersen's term?",
+   "question_hard": "Karls y. Counting by calendar year, how many years passed between the start of the earliest mayoral term in the timeline and the start of Mona Pedersen's term?"
+  },
+  {
+   "idx": "Karls_y:5",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what was the most recent change to the municipality's boundaries or to the county it belongs to?",
+   "question_hard": "Karls y. Among the dated events recorded in the timeline, what was the most recent change to the municipality's boundaries or to the county it belongs to?"
+  },
+  {
+   "idx": "Karls_y:6",
+   "page_id": "/wiki/Karlsøy",
+   "graph_page": "Karls_y",
+   "type": "order_gap",
+   "question": "Counting by calendar year, how many years passed between the transfer of the southern Ullsfjord district out of the municipality and the separation of its western island district to form a new municipality?",
+   "question_hard": "Karls y. Counting by calendar year, how many years passed between the transfer of the southern Ullsfjord district out of the municipality and the separation of its western island district to form a new municipality?"
+  },
+  {
+   "idx": "Lev_Polugaevsky:0",
+   "page_id": "/wiki/Lev_Polugaevsky",
+   "graph_page": "Lev_Polugaevsky",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the Chess Olympiads in which he played for the Soviet national team, in chronological order.",
+   "question_hard": "Lev Polugaevsky. Among the dated events recorded in the timeline, list the Chess Olympiads in which he played for the Soviet national team, in chronological order."
+  },
+  {
+   "idx": "Lev_Polugaevsky:1",
+   "page_id": "/wiki/Lev_Polugaevsky",
+   "graph_page": "Lev_Polugaevsky",
+   "type": "order_gap",
+   "question": "How many calendar years passed between FIDE awarding him the International Grandmaster title and the Sicilian Defence tournament in Buenos Aires held for his 60th birthday?",
+   "question_hard": "Lev Polugaevsky. How many calendar years passed between FIDE awarding him the International Grandmaster title and the Sicilian Defence tournament in Buenos Aires held for his 60th birthday?"
+  },
+  {
+   "idx": "Lev_Polugaevsky:2",
+   "page_id": "/wiki/Lev_Polugaevsky",
+   "graph_page": "Lev_Polugaevsky",
+   "type": "order_gap",
+   "question": "How many years passed between Alexy Ivashin becoming his first teacher and the start of his training with Rashid Nezhmetdinov?",
+   "question_hard": "Lev Polugaevsky. How many years passed between Alexy Ivashin becoming his first teacher and the start of his training with Rashid Nezhmetdinov?"
+  },
+  {
+   "idx": "Lothar_von_Trotha:0",
+   "page_id": "/wiki/Lothar_von_Trotha",
+   "graph_page": "Lothar_von_Trotha",
+   "type": "list",
+   "question": "List, in chronological order, the marriages that Lothar von Trotha entered into, among the dated events recorded in the timeline.",
+   "question_hard": "Lothar von Trotha. List, in chronological order, the marriages that Lothar von Trotha entered into, among the dated events recorded in the timeline."
+  },
+  {
+   "idx": "Lothar_von_Trotha:1",
+   "page_id": "/wiki/Lothar_von_Trotha",
+   "graph_page": "Lothar_von_Trotha",
+   "type": "first_last_next",
+   "question": "Among the dated events about his marriages and the death of a spouse, which came directly after the death of his first wife?",
+   "question_hard": "Lothar von Trotha. Among the dated events about his marriages and the death of a spouse, which came directly after the death of his first wife?"
+  },
+  {
+   "idx": "Lothar_von_Trotha:2",
+   "page_id": "/wiki/Lothar_von_Trotha",
+   "graph_page": "Lothar_von_Trotha",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between his appointment as commander of colonial forces in German East Africa and his appointment as Commander in Chief of German South West Africa?",
+   "question_hard": "Lothar von Trotha. By calendar year, how many years passed between his appointment as commander of colonial forces in German East Africa and his appointment as Commander in Chief of German South West Africa?"
+  },
+  {
+   "idx": "Lower_Norrland_Military_District:0",
+   "page_id": "/wiki/Lower_Norrland_Military_District",
+   "graph_page": "Lower_Norrland_Military_District",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the occasions from the 1960s through the 1970s when a person took up the post of military commander of the district.",
+   "question_hard": "Lower Norrland Military District. Among the dated events in the timeline, summarize the occasions from the 1960s through the 1970s when a person took up the post of military commander of the district."
+  },
+  {
+   "idx": "Lower_Norrland_Military_District:1",
+   "page_id": "/wiki/Lower_Norrland_Military_District",
+   "graph_page": "Lower_Norrland_Military_District",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the occasions from 1960 to the mid-1970s when a person took up the post of chief of staff of the district.",
+   "question_hard": "Lower Norrland Military District. Among the dated events in the timeline, summarize the occasions from 1960 to the mid-1970s when a person took up the post of chief of staff of the district."
+  },
+  {
+   "idx": "Lower_Norrland_Military_District:2",
+   "page_id": "/wiki/Lower_Norrland_Military_District",
+   "graph_page": "Lower_Norrland_Military_District",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, when did the most recent appointment of a military commander take place, counting only appointments from the late 1970s onward?",
+   "question_hard": "Lower Norrland Military District. Among the dated events in the timeline, when did the most recent appointment of a military commander take place, counting only appointments from the late 1970s onward?"
+  },
+  {
+   "idx": "Lower_Norrland_Military_District:3",
+   "page_id": "/wiki/Lower_Norrland_Military_District",
+   "graph_page": "Lower_Norrland_Military_District",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline, when did the earliest appointment of a military commander of the district take place?",
+   "question_hard": "Lower Norrland Military District. Among the dated events in the timeline, when did the earliest appointment of a military commander of the district take place?"
+  },
+  {
+   "idx": "Lower_Norrland_Military_District:4",
+   "page_id": "/wiki/Lower_Norrland_Military_District",
+   "graph_page": "Lower_Norrland_Military_District",
+   "type": "order_gap",
+   "question": "Counted by calendar year, how many years passed from Harald Haegermark taking up the post of military commander until Rolf Wigur taking up that post?",
+   "question_hard": "Lower Norrland Military District. Counted by calendar year, how many years passed from Harald Haegermark taking up the post of military commander until Rolf Wigur taking up that post?"
+  },
+  {
+   "idx": "Luftflotte_1:0",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which change in command of Luftflotte 1 came immediately after Albert Kesselring left command?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, which change in command of Luftflotte 1 came immediately after Albert Kesselring left command?"
+  },
+  {
+   "idx": "Luftflotte_1:1",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which change in command of Luftflotte 1 came immediately after Wilhelm Wimmer left command?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, which change in command of Luftflotte 1 came immediately after Wilhelm Wimmer left command?"
+  },
+  {
+   "idx": "Luftflotte_1:2",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what were the two most recent changes in command of Luftflotte 1, in chronological order?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, what were the two most recent changes in command of Luftflotte 1, in chronological order?"
+  },
+  {
+   "idx": "Luftflotte_1:3",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what were the earliest and the most recent changes in command of Luftflotte 1?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, what were the earliest and the most recent changes in command of Luftflotte 1?"
+  },
+  {
+   "idx": "Luftflotte_1:4",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between Hans-Jürgen Stumpff taking command of Luftflotte 1 and Kurt Pflugbeil leaving command of it?",
+   "question_hard": "Luftflotte 1. By calendar year, how many years passed between Hans-Jürgen Stumpff taking command of Luftflotte 1 and Kurt Pflugbeil leaving command of it?"
+  },
+  {
+   "idx": "Luftflotte_1:5",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the first person to take command of Luftflotte 1?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, who was the first person to take command of Luftflotte 1?"
+  },
+  {
+   "idx": "Luftflotte_1:6",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list in chronological order the people who took command of Luftflotte 1.",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, list in chronological order the people who took command of Luftflotte 1."
+  },
+  {
+   "idx": "Luftflotte_1:7",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which change in the chief-of-staff post of Luftflotte 1 came immediately after Hans Detlef Herhudt von Rohden left that post?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, which change in the chief-of-staff post of Luftflotte 1 came immediately after Hans Detlef Herhudt von Rohden left that post?"
+  },
+  {
+   "idx": "Luftflotte_1:8",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the first person to take up the chief-of-staff post of Luftflotte 1?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, who was the first person to take up the chief-of-staff post of Luftflotte 1?"
+  },
+  {
+   "idx": "Luftflotte_1:9",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, who was the most recent person to take up the chief-of-staff post of Luftflotte 1?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, who was the most recent person to take up the chief-of-staff post of Luftflotte 1?"
+  },
+  {
+   "idx": "Luftflotte_1:10",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list in chronological order the people who took up the chief-of-staff post of Luftflotte 1, counting a return to the post as a separate entry.",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, list in chronological order the people who took up the chief-of-staff post of Luftflotte 1, counting a return to the post as a separate entry."
+  },
+  {
+   "idx": "Luftflotte_1:11",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the departures from the chief-of-staff post of Luftflotte 1 from Otto Schöbel's appointment onward.",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, summarize the departures from the chief-of-staff post of Luftflotte 1 from Otto Schöbel's appointment onward."
+  },
+  {
+   "idx": "Luftflotte_1:12",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between Wilhelm Speidel becoming chief of staff of Luftflotte 1 and Herbert Rieckhoff becoming chief of staff?",
+   "question_hard": "Luftflotte 1. By calendar year, how many years passed between Wilhelm Speidel becoming chief of staff of Luftflotte 1 and Herbert Rieckhoff becoming chief of staff?"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:0",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list each name the square was given, in chronological order. Do not include the moment a name stopped being used.",
+   "question_hard": "Maidan Nezalezhnosti. Among the dated events in the timeline, list each name the square was given, in chronological order. Do not include the moment a name stopped being used."
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:1",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "first_last_next",
+   "question": "Among the names the square was given in the dated events of the timeline, which name came last?",
+   "question_hard": "Maidan Nezalezhnosti. Among the names the square was given in the dated events of the timeline, which name came last?"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:2",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "first_last_next",
+   "question": "After the first time the square was called Kalinin Square, what name did it receive next among the dated events?",
+   "question_hard": "Maidan Nezalezhnosti. After the first time the square was called Kalinin Square, what name did it receive next among the dated events?"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:3",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "order_gap",
+   "question": "How many years passed between the square being renamed Soviet Square and the first time it was called Kalinin Square? Count by calendar year.",
+   "question_hard": "Maidan Nezalezhnosti. How many years passed between the square being renamed Soviet Square and the first time it was called Kalinin Square? Count by calendar year."
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:4",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the start of each named protest campaign centred on the square, in chronological order. Count each campaign once, at the year it began.",
+   "question_hard": "Maidan Nezalezhnosti. Among the dated events in the timeline, list the start of each named protest campaign centred on the square, in chronological order. Count each campaign once, at the year it began."
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:5",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "first_last_next",
+   "question": "Among the named protest campaigns centred on the square that the timeline dates, which began most recently?",
+   "question_hard": "Maidan Nezalezhnosti. Among the named protest campaigns centred on the square that the timeline dates, which began most recently?"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:6",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "first_last_next",
+   "question": "After the Ukraine without Kuchma protest campaign began, which named protest campaign centred on the square began next among the dated events?",
+   "question_hard": "Maidan Nezalezhnosti. After the Ukraine without Kuchma protest campaign began, which named protest campaign centred on the square began next among the dated events?"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:7",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "order_gap",
+   "question": "How many years passed between the start of the Revolution on Granite student protests at the square and the start of the Euromaidan protests there? Count by calendar year.",
+   "question_hard": "Maidan Nezalezhnosti. How many years passed between the start of the Revolution on Granite student protests at the square and the start of the Euromaidan protests there? Count by calendar year."
+  },
+  {
+   "idx": "Mannheim_Observatory:0",
+   "page_id": "/wiki/Mannheim_Observatory",
+   "graph_page": "Mannheim_Observatory",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline after the Napoleonic wars and in the nineteenth century, which takeover of the observatory's leadership came earliest, and which came latest?",
+   "question_hard": "Mannheim Observatory. Among the dated events in the timeline after the Napoleonic wars and in the nineteenth century, which takeover of the observatory's leadership came earliest, and which came latest?"
+  },
+  {
+   "idx": "Mannheim_Observatory:1",
+   "page_id": "/wiki/Mannheim_Observatory",
+   "graph_page": "Mannheim_Observatory",
+   "type": "first_last_next",
+   "question": "Among the dated events in the timeline after the Napoleonic wars and in the nineteenth century, which takeover of the observatory's leadership came directly after Bernhard Nicolai became Court Astronomer?",
+   "question_hard": "Mannheim Observatory. Among the dated events in the timeline after the Napoleonic wars and in the nineteenth century, which takeover of the observatory's leadership came directly after Bernhard Nicolai became Court Astronomer?"
+  },
+  {
+   "idx": "Mannheim_Observatory:2",
+   "page_id": "/wiki/Mannheim_Observatory",
+   "graph_page": "Mannheim_Observatory",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the deaths of the observatory's Court Astronomers.",
+   "question_hard": "Mannheim Observatory. Among the dated events in the timeline, list in time order the deaths of the observatory's Court Astronomers."
+  },
+  {
+   "idx": "Mannheim_Observatory:3",
+   "page_id": "/wiki/Mannheim_Observatory",
+   "graph_page": "Mannheim_Observatory",
+   "type": "order_gap",
+   "question": "How many calendar years passed from the decision to end the Institute to the observatory's cessation of operation at Mannheim (by calendar year)?",
+   "question_hard": "Mannheim Observatory. How many calendar years passed from the decision to end the Institute to the observatory's cessation of operation at Mannheim (by calendar year)?"
+  },
+  {
+   "idx": "Masters_snooker:0",
+   "page_id": "/wiki/Masters_(snooker)",
+   "graph_page": "Masters_snooker",
+   "type": "list",
+   "question": "List the players who made a maximum break at the Masters tournament, in chronological order, naming each player.",
+   "question_hard": "Masters snooker. List the players who made a maximum break at the Masters tournament, in chronological order, naming each player."
+  },
+  {
+   "idx": "Masters_snooker:1",
+   "page_id": "/wiki/Masters_(snooker)",
+   "graph_page": "Masters_snooker",
+   "type": "order_gap",
+   "question": "How many years passed between the tournament's move to the Wembley Conference Centre and its first staging at Wembley Arena?",
+   "question_hard": "Masters snooker. How many years passed between the tournament's move to the Wembley Conference Centre and its first staging at Wembley Arena?"
+  },
+  {
+   "idx": "Masters_snooker:2",
+   "page_id": "/wiki/Masters_(snooker)",
+   "graph_page": "Masters_snooker",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the changes made in the early 1980s to how many players were invited to the Masters or to the rule that selects the invited field.",
+   "question_hard": "Masters snooker. Among the dated events in the timeline, summarize the changes made in the early 1980s to how many players were invited to the Masters or to the rule that selects the invited field."
+  },
+  {
+   "idx": "Masters_snooker:3",
+   "page_id": "/wiki/Masters_(snooker)",
+   "graph_page": "Masters_snooker",
+   "type": "list",
+   "question": "List, in chronological order, the companies that were newly named as the tournament's sponsor after Benson & Hedges withdrew and before Dafabet's sponsorship ended.",
+   "question_hard": "Masters snooker. List, in chronological order, the companies that were newly named as the tournament's sponsor after Benson & Hedges withdrew and before Dafabet's sponsorship ended."
+  },
+  {
+   "idx": "Pelican_Faberg_egg:0",
+   "page_id": "/wiki/Pelican_(Fabergé_egg)",
+   "graph_page": "Pelican_Faberg_egg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the changes of ownership of the egg, in chronological order.",
+   "question_hard": "Pelican Faberg egg. Among the dated events in the timeline, list the changes of ownership of the egg, in chronological order."
+  },
+  {
+   "idx": "President_of_Uruguay:0",
+   "page_id": "/wiki/President_of_Uruguay",
+   "graph_page": "President_of_Uruguay",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between the choice of the Suárez Residence as the president's official residence and Luis Lacalle Pou taking office as president of Uruguay?",
+   "question_hard": "President of Uruguay. By calendar year, how many years passed between the choice of the Suárez Residence as the president's official residence and Luis Lacalle Pou taking office as president of Uruguay?"
+  },
+  {
+   "idx": "Razorfish_company:0",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the awards and rankings that Ad Age gave the agency, in chronological order.",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline, list the awards and rankings that Ad Age gave the agency, in chronological order."
+  },
+  {
+   "idx": "Razorfish_company:1",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the awards and rankings the agency or its work received before 2008 (events with the same date in any order).",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline, summarize the awards and rankings the agency or its work received before 2008 (events with the same date in any order)."
+  },
+  {
+   "idx": "Razorfish_company:2",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline about the company's own name, which name did it take next after being renamed SBI.Razorfish?",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline about the company's own name, which name did it take next after being renamed SBI.Razorfish?"
+  },
+  {
+   "idx": "Razorfish_company:3",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline about the company's own name, what were the first and the most recent times it was given a new name?",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline about the company's own name, what were the first and the most recent times it was given a new name?"
+  },
+  {
+   "idx": "Razorfish_company:4",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "order_gap",
+   "question": "How many calendar years passed between the company's founding in New York and its initial public offering?",
+   "question_hard": "Razorfish company. How many calendar years passed between the company's founding in New York and its initial public offering?"
+  },
+  {
+   "idx": "Sam_Selvon:0",
+   "page_id": "/wiki/Sam_Selvon",
+   "graph_page": "Sam_Selvon",
+   "type": "list",
+   "question": "Among the dated events in the timeline before the 1980s, list the fellowships and awards for literature that he received, in chronological order (honorary degrees not counted).",
+   "question_hard": "Sam Selvon. Among the dated events in the timeline before the 1980s, list the fellowships and awards for literature that he received, in chronological order (honorary degrees not counted)."
+  },
+  {
+   "idx": "Sergey_Sirotkin_racing_driver:0",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "graph_page": "Sergey_Sirotkin_racing_driver",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the occasions on which he was announced to, switched to, or returned to a team in the GP2 Series or the FIA Formula 2 Championship, in chronological order.",
+   "question_hard": "Sergey Sirotkin racing driver. Among the dated events in the timeline, list the occasions on which he was announced to, switched to, or returned to a team in the GP2 Series or the FIA Formula 2 Championship, in chronological order."
+  },
+  {
+   "idx": "Sergey_Sirotkin_racing_driver:1",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "graph_page": "Sergey_Sirotkin_racing_driver",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the occasions on which he took up or held a test, development, or reserve driver post with a Formula One team.",
+   "question_hard": "Sergey Sirotkin racing driver. Among the dated events in the timeline, summarize the occasions on which he took up or held a test, development, or reserve driver post with a Formula One team."
+  },
+  {
+   "idx": "Sergey_Sirotkin_racing_driver:2",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "graph_page": "Sergey_Sirotkin_racing_driver",
+   "type": "order_gap",
+   "question": "By calendar year, how many years separated his joining the Sauber Formula One team as a test driver and his announcement as a development driver for the Renault Sport F1 Team?",
+   "question_hard": "Sergey Sirotkin racing driver. By calendar year, how many years separated his joining the Sauber Formula One team as a test driver and his announcement as a development driver for the Renault Sport F1 Team?"
+  },
+  {
+   "idx": "St_Luke_s_Anglican_Church_Liverpool:0",
+   "page_id": "/wiki/St_Luke's_Anglican_Church,_Liverpool",
+   "graph_page": "St_Luke_s_Anglican_Church_Liverpool",
+   "type": "order_gap",
+   "question": "By calendar year, how many years passed between the first service held at St Luke's, Liverpool and James Walker becoming its rector?",
+   "question_hard": "St Luke s Anglican Church Liverpool. By calendar year, how many years passed between the first service held at St Luke's, Liverpool and James Walker becoming its rector?"
+  },
+  {
+   "idx": "Stefan_He_e:0",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the posts Heße took up within the Archdiocese of Cologne (appointments, elections and taking office, not the ends of posts and not the reaffirmation at the installation of the new archbishop), in chronological order; the two items from the same year may appear in either order (events with the same date in any order).",
+   "question_hard": "Stefan He e. Among the dated events in the timeline, list the posts Heße took up within the Archdiocese of Cologne (appointments, elections and taking office, not the ends of posts and not the reaffirmation at the installation of the new archbishop), in chronological order; the two items from the same year may appear in either order (events with the same date in any order)."
+  },
+  {
+   "idx": "Stefan_He_e:1",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "first_last_next",
+   "question": "After he was appointed Deputy Vicar General of the Archdiocese of Cologne, what post did he next take up there among the dated events?",
+   "question_hard": "Stefan He e. After he was appointed Deputy Vicar General of the Archdiocese of Cologne, what post did he next take up there among the dated events?"
+  },
+  {
+   "idx": "Stefan_He_e:2",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "first_last_next",
+   "question": "Among the posts he took up in the Archdiocese of Cologne in the dated events, which one came last, not counting the reaffirmation at the new archbishop's installation?",
+   "question_hard": "Stefan He e. Among the posts he took up in the Archdiocese of Cologne in the dated events, which one came last, not counting the reaffirmation at the new archbishop's installation?"
+  },
+  {
+   "idx": "Stefan_He_e:3",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the departures from posts (the end dates of appointments, not the starts) recorded before he was appointed Deputy Vicar General.",
+   "question_hard": "Stefan He e. Among the dated events in the timeline, summarize the departures from posts (the end dates of appointments, not the starts) recorded before he was appointed Deputy Vicar General."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:0",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the rectors who began a rectorship from the late 1950s until the institution closed, in chronological order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the rectors who began a rectorship from the late 1950s until the institution closed, in chronological order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:1",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the departures from the rectorship (the end of a rector's term) from the late 1950s to the mid-1970s.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, summarize the departures from the rectorship (the end of a rector's term) from the late 1950s to the mid-1970s."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:2",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "first_last_next",
+   "question": "Among the dated rector appointments from the late 1950s onward, which appointment came right after Rolf Landsberg's?",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated rector appointments from the late 1950s onward, which appointment came right after Rolf Landsberg's?"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:3",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "first_last_next",
+   "question": "Among the dated rector appointments from the late 1950s onward, which was the most recent one?",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated rector appointments from the late 1950s onward, which was the most recent one?"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:4",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the openings of the institutes whose names begin with 'Institute of Chemistry and Technology of'.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, summarize the openings of the institutes whose names begin with 'Institute of Chemistry and Technology of'."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:5",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the non-institute units that opened (the divisions and the university library), in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the non-institute units that opened (the divisions and the university library), in any order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:6",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the first doctorate and the first honorary doctorate the institution awarded, in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the first doctorate and the first honorary doctorate the institution awarded, in any order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:7",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the faculties that were awarded full promotion and habilitation rights, in chronological order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the faculties that were awarded full promotion and habilitation rights, in chronological order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:8",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the reorganisation events in which an institute was divided into two or formed by merging existing institutes, in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the reorganisation events in which an institute was divided into two or formed by merging existing institutes, in any order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:9",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the sections formed from the early to the mid 1970s, in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the sections formed from the early to the mid 1970s, in any order."
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:10",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "order_gap",
+   "question": "How many years, counted by calendar year, separated the institution founding from the legal stipulation of its closure?",
+   "question_hard": "Technical University Leuna Merseburg. How many years, counted by calendar year, separated the institution founding from the legal stipulation of its closure?"
+  },
+  {
+   "idx": "The_News_Quiz:0",
+   "page_id": "/wiki/The_News_Quiz",
+   "graph_page": "The_News_Quiz",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the hosts who began a term as chairman of the show during its first years, up to the early 1980s.",
+   "question_hard": "The News Quiz. Among the dated events in the timeline, list in time order the hosts who began a term as chairman of the show during its first years, up to the early 1980s."
+  },
+  {
+   "idx": "The_News_Quiz:1",
+   "page_id": "/wiki/The_News_Quiz",
+   "graph_page": "The_News_Quiz",
+   "type": "order_gap",
+   "question": "How many years passed between Barry Norman starting as chairman and Simon Hoggart returning as chairman?",
+   "question_hard": "The News Quiz. How many years passed between Barry Norman starting as chairman and Simon Hoggart returning as chairman?"
+  },
+  {
+   "idx": "Thomas_Fearnley:0",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which period of formal study or training did he begin first?",
+   "question_hard": "Thomas Fearnley. Among the dated events recorded in the timeline, which period of formal study or training did he begin first?"
+  },
+  {
+   "idx": "Thomas_Fearnley:1",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, which period of formal study or training did he begin last?",
+   "question_hard": "Thomas Fearnley. Among the dated events recorded in the timeline, which period of formal study or training did he begin last?"
+  },
+  {
+   "idx": "Thomas_Fearnley:2",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, after he began studying at the Art Academy in Copenhagen, which period of formal study or training began next?",
+   "question_hard": "Thomas Fearnley. Among the dated events recorded in the timeline, after he began studying at the Art Academy in Copenhagen, which period of formal study or training began next?"
+  },
+  {
+   "idx": "Thomas_Fearnley:3",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the periods of formal study or training that began before his period of study under Johan Christian Dahl in Dresden.",
+   "question_hard": "Thomas Fearnley. Among the dated events recorded in the timeline, summarize the periods of formal study or training that began before his period of study under Johan Christian Dahl in Dresden."
+  },
+  {
+   "idx": "Thomas_Fearnley:4",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "order_gap",
+   "question": "How many years passed between the start of his studies at the Norwegian National Academy of Craft and Art Industry and the start of his studies under Johan Christian Dahl in Dresden?",
+   "question_hard": "Thomas Fearnley. How many years passed between the start of his studies at the Norwegian National Academy of Craft and Art Industry and the start of his studies under Johan Christian Dahl in Dresden?"
+  },
+  {
+   "idx": "Toungoo_dynasty:0",
+   "page_id": "/wiki/Toungoo_dynasty",
+   "graph_page": "Toungoo_dynasty",
+   "type": "list",
+   "question": "Among the dated events recorded in the timeline, list the deaths of named individuals, in chronological order.",
+   "question_hard": "Toungoo dynasty. Among the dated events recorded in the timeline, list the deaths of named individuals, in chronological order."
+  },
+  {
+   "idx": "Washington_Spirit:0",
+   "page_id": "/wiki/Washington_Spirit",
+   "graph_page": "Washington_Spirit",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the players the team was named to through the NWSL player allocation or selected in the NWSL supplemental draft for its inaugural season, in chronological order.",
+   "question_hard": "Washington Spirit. Among the dated events in the timeline, list the players the team was named to through the NWSL player allocation or selected in the NWSL supplemental draft for its inaugural season, in chronological order."
+  },
+  {
+   "idx": "Washington_Spirit:1",
+   "page_id": "/wiki/Washington_Spirit",
+   "graph_page": "Washington_Spirit",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the team's NWSL playoff matches, including the final (events with the same date in any order).",
+   "question_hard": "Washington Spirit. Among the dated events in the timeline, summarize the team's NWSL playoff matches, including the final (events with the same date in any order)."
+  },
+  {
+   "idx": "Washington_Spirit:2",
+   "page_id": "/wiki/Washington_Spirit",
+   "graph_page": "Washington_Spirit",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the announcements and matches that set which stadium hosted the team's home games in the seasons after its Audi Field debut and before the 2021 season.",
+   "question_hard": "Washington Spirit. Among the dated events in the timeline, summarize the announcements and matches that set which stadium hosted the team's home games in the seasons after its Audi Field debut and before the 2021 season."
+  },
+  {
+   "idx": "Washington_Spirit:3",
+   "page_id": "/wiki/Washington_Spirit",
+   "graph_page": "Washington_Spirit",
+   "type": "order_gap",
+   "question": "How many years passed, by calendar year, from the Maryland SoccerPlex becoming the team's home venue to the team's debut at the newly opened Audi Field?",
+   "question_hard": "Washington Spirit. How many years passed, by calendar year, from the Maryland SoccerPlex becoming the team's home venue to the team's debut at the newly opened Audi Field?"
+  },
+  {
+   "idx": "Wilhelm_Liebknecht:0",
+   "page_id": "/wiki/Wilhelm_Liebknecht",
+   "graph_page": "Wilhelm_Liebknecht",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the socialist parties he co-founded or helped merge between the mid-1860s and the mid-1870s.",
+   "question_hard": "Wilhelm Liebknecht. Among the dated events in the timeline, summarize the socialist parties he co-founded or helped merge between the mid-1860s and the mid-1870s."
+  },
+  {
+   "idx": "Wilhelm_Liebknecht:1",
+   "page_id": "/wiki/Wilhelm_Liebknecht",
+   "graph_page": "Wilhelm_Liebknecht",
+   "type": "order_gap",
+   "question": "How many calendar years passed between his joining Lassalle's General German Workers Association and the merger of the SDAP and ADAV into the SAPD?",
+   "question_hard": "Wilhelm Liebknecht. How many calendar years passed between his joining Lassalle's General German Workers Association and the merger of the SDAP and ADAV into the SAPD?"
+  }
+ ]
+}

@@ -1,0 +1,2266 @@
+{
+ "name": "capability_probe_valid",
+ "seed": null,
+ "group_by": "type",
+ "n_cases": 100,
+ "page_ids": [
+  "/wiki/ACES_Colombia",
+  "/wiki/Alex_McLeish",
+  "/wiki/Alliance_of_Small_Island_States",
+  "/wiki/Bayerisches_Armeemuseum",
+  "/wiki/Big_Brother_(Swedish_TV_series)",
+  "/wiki/Carrier_Air_Wing_Seven",
+  "/wiki/Chelyabinsk",
+  "/wiki/Conrad_Theodor_van_Deventer",
+  "/wiki/Curt_von_François",
+  "/wiki/David_Jolly",
+  "/wiki/Dennis_Quaid",
+  "/wiki/Dixie_State_University",
+  "/wiki/EMD_SDP40F",
+  "/wiki/Eleni_Theocharous",
+  "/wiki/Exchange_and_Provost",
+  "/wiki/Expobank_CZ",
+  "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information",
+  "/wiki/Federation_of_the_Greens",
+  "/wiki/Gamvik",
+  "/wiki/Georgetown_Car_Barn",
+  "/wiki/Gerhard_Schröder",
+  "/wiki/Guy_Whittingham",
+  "/wiki/Helmut_Lang_(fashion_brand)",
+  "/wiki/Helsingin_Jalkapalloklubi",
+  "/wiki/Helsingin_Sanomat",
+  "/wiki/Igor_Grabar",
+  "/wiki/Ingrid_Schaffner",
+  "/wiki/International_Mathematical_Union",
+  "/wiki/James_Marape",
+  "/wiki/KF_Skënderbeu_Korçë",
+  "/wiki/La_Fortaleza",
+  "/wiki/Lee_Nogan",
+  "/wiki/Leeza_Gibbons",
+  "/wiki/Leimen_(Baden)",
+  "/wiki/Liga_Veneta_Repubblica",
+  "/wiki/Matthias_Platzeck",
+  "/wiki/Maurizio_Sarri",
+  "/wiki/Max_Planck_Institute_for_Astronomy",
+  "/wiki/Monica's_Gang",
+  "/wiki/Newton_D._Baker_House",
+  "/wiki/Nico_Hülkenberg",
+  "/wiki/Pakistan_Football_Federation",
+  "/wiki/Richmond_Kickers",
+  "/wiki/Scottish_National_Party",
+  "/wiki/Senate_of_the_Kingdom_of_Italy",
+  "/wiki/Sergio_Pérez",
+  "/wiki/Stord",
+  "/wiki/Sérgio_Conceição",
+  "/wiki/Thierry_Audel",
+  "/wiki/VA-15_(U.S._Navy)",
+  "/wiki/Valladolid",
+  "/wiki/Vologda_Governorate",
+  "/wiki/Walter_Mazzarri",
+  "/wiki/Wilhelm_Külz",
+  "/wiki/Willy_Hernangómez"
+ ],
+ "note": "100 câu viết tay trên trang valid (decisions/11 mục 1.3); kho tam_chunks_dev_valid; t_now cố định 2026-11-03; time_start/time_end chỉ là năm tham chiếu",
+ "cases": [
+  {
+   "idx": "vp_001",
+   "page_id": "/wiki/Guy_Whittingham",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who temporarily co-led Portsmouth with Guy Whittingham on 14 October 2011?",
+   "question_easy": "Who temporarily co-led Portsmouth with Guy Whittingham on 14 October 2011?",
+   "targets": [
+    "Stuart Gray"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Guy_Whittingham#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_002",
+   "page_id": "/wiki/Thierry_Audel",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which non-league side did Thierry Audel sign for on 27 June 2019?",
+   "question_easy": "Which non-league side did Thierry Audel sign for on 27 June 2019?",
+   "targets": [
+    "Brackley Town"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Thierry_Audel#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_003",
+   "page_id": "/wiki/EMD_SDP40F",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which new body took charge of most American long-distance rail services on 1 May 1971?",
+   "question_easy": "Which new body took charge of most American long-distance rail services on 1 May 1971?",
+   "targets": [
+    "Amtrak"
+   ],
+   "time_start": "1971",
+   "time_end": "1971",
+   "gold_chunk_ids": [
+    "/wiki/EMD_SDP40F#3"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_004",
+   "page_id": "/wiki/Expobank_CZ",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which affiliate absorbed the Czech BAWAG branch when it disappeared on 31 March 2005?",
+   "question_easy": "Which affiliate absorbed the Czech BAWAG branch when it disappeared on 31 March 2005?",
+   "targets": [
+    "BAWAG Bank CZ"
+   ],
+   "time_start": "2005",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/Expobank_CZ#5"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_005",
+   "page_id": "/wiki/James_Marape",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which cabinet post did James Marape give up on 11 April 2019?",
+   "question_easy": "Which cabinet post did James Marape give up on 11 April 2019?",
+   "targets": [
+    "Minister of Finance"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/James_Marape#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_006",
+   "page_id": "/wiki/Dixie_State_University",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Under what original name did the Utah college open its doors on 19 September 1911?",
+   "question_easy": "Under what original name did the Utah college open its doors on 19 September 1911?",
+   "targets": [
+    "St. George Stake Academy"
+   ],
+   "time_start": "1911",
+   "time_end": "1911",
+   "gold_chunk_ids": [
+    "/wiki/Dixie_State_University#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_007",
+   "page_id": "/wiki/VA-15_(U.S._Navy)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which naval aviation unit was set up in Bermuda on 10 January 1942?",
+   "question_easy": "Which naval aviation unit was set up in Bermuda on 10 January 1942?",
+   "targets": [
+    "Torpedo Squadron FOUR"
+   ],
+   "time_start": "1942",
+   "time_end": "1942",
+   "gold_chunk_ids": [
+    "/wiki/VA-15_(U.S._Navy)#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_008",
+   "page_id": "/wiki/David_Jolly",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What position on gay marriage did David Jolly announce on 21 July 2014?",
+   "question_easy": "What position on gay marriage did David Jolly announce on 21 July 2014?",
+   "targets": [
+    "same-sex marriage"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/David_Jolly#11"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_009",
+   "page_id": "/wiki/Igor_Grabar",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which Russian museum's governing body picked Igor Grabar as its curator-director on 2 April 1913?",
+   "question_easy": "Which Russian museum's governing body picked Igor Grabar as its curator-director on 2 April 1913?",
+   "targets": [
+    "Tretyakov Gallery"
+   ],
+   "time_start": "1913",
+   "time_end": "1913",
+   "gold_chunk_ids": [
+    "/wiki/Igor_Grabar#33"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_010",
+   "page_id": "/wiki/Matthias_Platzeck",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which political organisation did Matthias Platzeck enrol in on 6 June 1995?",
+   "question_easy": "Which political organisation did Matthias Platzeck enrol in on 6 June 1995?",
+   "targets": [
+    "SPD"
+   ],
+   "time_start": "1995",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/Matthias_Platzeck#5"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_011",
+   "page_id": "/wiki/Leeza_Gibbons",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "To which Californian council was Leeza Gibbons named on 14 November 2007?",
+   "question_easy": "To which Californian council was Leeza Gibbons named on 14 November 2007?",
+   "targets": [
+    "stem cell"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Leeza_Gibbons#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_012",
+   "page_id": "/wiki/Carrier_Air_Wing_Seven",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What was the air wing called when it was first set up on 20 July 1943?",
+   "question_easy": "What was the air wing called when it was first set up on 20 July 1943?",
+   "targets": [
+    "Carrier Air Group Eighteen"
+   ],
+   "time_start": "1943",
+   "time_end": "1943",
+   "gold_chunk_ids": [
+    "/wiki/Carrier_Air_Wing_Seven#3"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_013",
+   "page_id": "/wiki/Alex_McLeish",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which club chairman declared on 9 February 2006 that Alex McLeish would remain?",
+   "question_easy": "Which club chairman declared on 9 February 2006 that Alex McLeish would remain?",
+   "targets": [
+    "David Murray"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Alex_McLeish#26"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_014",
+   "page_id": "/wiki/Wilhelm_Külz",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who became Wilhelm Külz's fellow leader of the proposed liberal party on 17 March 1947?",
+   "question_easy": "Who became Wilhelm Külz's fellow leader of the proposed liberal party on 17 March 1947?",
+   "targets": [
+    "Theodor Heuss"
+   ],
+   "time_start": "1947",
+   "time_end": "1947",
+   "gold_chunk_ids": [
+    "/wiki/Wilhelm_Külz#8"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_015",
+   "page_id": "/wiki/La_Fortaleza",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What incident occurred beside the Puerto Rican governor's residence on 26 May 2004?",
+   "question_easy": "What incident occurred beside the Puerto Rican governor's residence on 26 May 2004?",
+   "targets": [
+    "hostage"
+   ],
+   "time_start": "2004",
+   "time_end": "2004",
+   "gold_chunk_ids": [
+    "/wiki/La_Fortaleza#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_016",
+   "page_id": "/wiki/Conrad_Theodor_van_Deventer",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which colonial-affairs ministry in The Hague placed van Deventer at the governor-general's disposal on 20 August 1880?",
+   "question_easy": "Which colonial-affairs ministry in The Hague placed van Deventer at the governor-general's disposal on 20 August 1880?",
+   "targets": [
+    "Ministry of Colonies"
+   ],
+   "time_start": "1880",
+   "time_end": "1880",
+   "gold_chunk_ids": [
+    "/wiki/Conrad_Theodor_van_Deventer#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_017",
+   "page_id": "/wiki/Helmut_Lang_(fashion_brand)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which Japanese company was set to take over the label, according to a statement on 17 March 2006?",
+   "question_easy": "Which Japanese company was set to take over the label, according to a statement on 17 March 2006?",
+   "targets": [
+    "Link Theory"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Helmut_Lang_(fashion_brand)#11"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_018",
+   "page_id": "/wiki/Maurizio_Sarri",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which Italian side hired Maurizio Sarri to coach on 9 July 2005?",
+   "question_easy": "Which Italian side hired Maurizio Sarri to coach on 9 July 2005?",
+   "targets": [
+    "Pescara"
+   ],
+   "time_start": "2005",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/Maurizio_Sarri#10"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_019",
+   "page_id": "/wiki/Eleni_Theocharous",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "For which party's list was Eleni Theocharous elected to the Cypriot parliament on 27 May 2001?",
+   "question_easy": "For which party's list was Eleni Theocharous elected to the Cypriot parliament on 27 May 2001?",
+   "targets": [
+    "DISY"
+   ],
+   "time_start": "2001",
+   "time_end": "2001",
+   "gold_chunk_ids": [
+    "/wiki/Eleni_Theocharous#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_020",
+   "page_id": "/wiki/ACES_Colombia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What alliance did the Colombian carrier help create on 20 May 2002 with two other airlines?",
+   "question_easy": "What alliance did the Colombian carrier help create on 20 May 2002 with two other airlines?",
+   "targets": [
+    "Alianza Summa"
+   ],
+   "time_start": "2002",
+   "time_end": "2002",
+   "gold_chunk_ids": [
+    "/wiki/ACES_Colombia#7"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_021",
+   "page_id": "/wiki/Sergio_Pérez",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Whose drive did Sergio Pérez take over at Sauber, as revealed on 4 October 2010?",
+   "question_easy": "Whose drive did Sergio Pérez take over at Sauber, as revealed on 4 October 2010?",
+   "targets": [
+    "Heidfeld"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Sergio_Pérez#21"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_022",
+   "page_id": "/wiki/Sérgio_Conceição",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What did Sérgio Conceição say on 13 October 2009 about his playing days?",
+   "question_easy": "What did Sérgio Conceição say on 13 October 2009 about his playing days?",
+   "targets": [
+    "retire"
+   ],
+   "time_start": "2009",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Sérgio_Conceição#13"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_023",
+   "page_id": "/wiki/Valladolid",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which railway between two Spanish cities was ceremonially opened on 22 December 2007?",
+   "question_easy": "Which railway between two Spanish cities was ceremonially opened on 22 December 2007?",
+   "targets": [
+    "Madrid–Valladolid"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Valladolid#45"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_024",
+   "page_id": "/wiki/Georgetown_Car_Barn",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What sort of businesses had their headquarters in the Georgetown building that began operation on 27 May 1897?",
+   "question_easy": "What sort of businesses had their headquarters in the Georgetown building that began operation on 27 May 1897?",
+   "targets": [
+    "trolley"
+   ],
+   "time_start": "1897",
+   "time_end": "1897",
+   "gold_chunk_ids": [
+    "/wiki/Georgetown_Car_Barn#9"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_025",
+   "page_id": "/wiki/Walter_Mazzarri",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which Italian side presented Walter Mazzarri as its trainer on 31 May 2007?",
+   "question_easy": "Which Italian side presented Walter Mazzarri as its trainer on 31 May 2007?",
+   "targets": [
+    "Sampdoria"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Walter_Mazzarri#8"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_026",
+   "page_id": "/wiki/Nico_Hülkenberg",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What role was Nico Hülkenberg given at Force India as of 26 January 2011?",
+   "question_easy": "What role was Nico Hülkenberg given at Force India as of 26 January 2011?",
+   "targets": [
+    "reserve driver"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Nico_Hülkenberg#25"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_027",
+   "page_id": "/wiki/Helsingin_Sanomat",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which English-language version of the Finnish daily came out on 14 September 1999?",
+   "question_easy": "Which English-language version of the Finnish daily came out on 14 September 1999?",
+   "targets": [
+    "International Edition"
+   ],
+   "time_start": "1999",
+   "time_end": "1999",
+   "gold_chunk_ids": [
+    "/wiki/Helsingin_Sanomat#11"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_028",
+   "page_id": "/wiki/Big_Brother_(Swedish_TV_series)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "For how many days did season one of the Swedish edition run, beginning 4 September 2000?",
+   "question_easy": "For how many days did season one of the Swedish edition run, beginning 4 September 2000?",
+   "targets": [
+    "103"
+   ],
+   "time_start": "2000",
+   "time_end": "2000",
+   "gold_chunk_ids": [
+    "/wiki/Big_Brother_(Swedish_TV_series)#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_029",
+   "page_id": "/wiki/Willy_Hernangómez",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which NBA club did Willy Hernangómez join on 30 November 2020?",
+   "question_easy": "Which NBA club did Willy Hernangómez join on 30 November 2020?",
+   "targets": [
+    "New Orleans Pelicans"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Willy_Hernangómez#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_030",
+   "page_id": "/wiki/Bayerisches_Armeemuseum",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who became head of the Bavarian army museum on 1 February 2010?",
+   "question_easy": "Who became head of the Bavarian army museum on 1 February 2010?",
+   "targets": [
+    "Ansgar Reiß"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Bayerisches_Armeemuseum#19"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_031",
+   "page_id": "/wiki/Senate_of_the_Kingdom_of_Italy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who was named the last head of the Italian upper chamber on 20 July 1944?",
+   "question_easy": "Who was named the last head of the Italian upper chamber on 20 July 1944?",
+   "targets": [
+    "Pietro Tomasi Della Torretta"
+   ],
+   "time_start": "1944",
+   "time_end": "1944",
+   "gold_chunk_ids": [
+    "/wiki/Senate_of_the_Kingdom_of_Italy#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_032",
+   "page_id": "/wiki/Stord",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who is Stord's current head of municipality?",
+   "question_easy": "Who is Stord's current head of municipality?",
+   "targets": [
+    "Gaute Straume Epland"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Stord#16"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_033",
+   "page_id": "/wiki/Stord",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed Stord's municipality 12 years ago?",
+   "question_easy": "Who headed Stord's municipality 12 years ago?",
+   "targets": [
+    "Liv Kari Eskeland"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/Stord#16"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2014-11-03"
+  },
+  {
+   "idx": "vp_034",
+   "page_id": "/wiki/Stord",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed Stord's municipality 20 years ago?",
+   "question_easy": "Who headed Stord's municipality 20 years ago?",
+   "targets": [
+    "Magne Rommetveit"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Stord#16"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "vp_035",
+   "page_id": "/wiki/Stord",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who heads Stord's municipality?",
+   "question_easy": "Who heads Stord's municipality?",
+   "targets": [
+    "Gaute Straume Epland"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Stord#16"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_036",
+   "page_id": "/wiki/Stord",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed Stord's municipality in 2019?",
+   "question_easy": "Who headed Stord's municipality in 2019?",
+   "targets": [
+    "Gaute Straume Epland"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Stord#16"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_037",
+   "page_id": "/wiki/Gamvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who is Gamvik's current mayor?",
+   "question_easy": "Who is Gamvik's current mayor?",
+   "targets": [
+    "Alf Normann Hansen"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Gamvik#9"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_038",
+   "page_id": "/wiki/Gamvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who ran Gamvik's municipality 9 years ago?",
+   "question_easy": "Who ran Gamvik's municipality 9 years ago?",
+   "targets": [
+    "Trond Einar Olaussen"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Gamvik#9"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2017-11-03"
+  },
+  {
+   "idx": "vp_039",
+   "page_id": "/wiki/Gamvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who is Gamvik's mayor?",
+   "question_easy": "Who is Gamvik's mayor?",
+   "targets": [
+    "Alf Normann Hansen"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Gamvik#9"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_040",
+   "page_id": "/wiki/Gamvik",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who was Gamvik's mayor in 2021?",
+   "question_easy": "Who was Gamvik's mayor in 2021?",
+   "targets": [
+    "Alf Normann Hansen"
+   ],
+   "time_start": "2021",
+   "time_end": "2021",
+   "gold_chunk_ids": [
+    "/wiki/Gamvik#9"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_041",
+   "page_id": "/wiki/Leimen_(Baden)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who currently runs Leimen's city government?",
+   "question_easy": "Who currently runs Leimen's city government?",
+   "targets": [
+    "Reinwald"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Leimen_(Baden)#5"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_042",
+   "page_id": "/wiki/Leimen_(Baden)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who ran Leimen's city government 15 years ago?",
+   "question_easy": "Who ran Leimen's city government 15 years ago?",
+   "targets": [
+    "Wolfgang Ernst"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Leimen_(Baden)#5"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2011-11-03"
+  },
+  {
+   "idx": "vp_043",
+   "page_id": "/wiki/Leimen_(Baden)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who runs Leimen's city government?",
+   "question_easy": "Who runs Leimen's city government?",
+   "targets": [
+    "Reinwald"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Leimen_(Baden)#5"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_044",
+   "page_id": "/wiki/Leimen_(Baden)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who ran Leimen's city government in 2018?",
+   "question_easy": "Who ran Leimen's city government in 2018?",
+   "targets": [
+    "Reinwald"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Leimen_(Baden)#5"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_045",
+   "page_id": "/wiki/Newton_D._Baker_House",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who lives in the Newton D. Baker House nowadays?",
+   "question_easy": "Who lives in the Newton D. Baker House nowadays?",
+   "targets": [
+    "Hudgens"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Newton_D._Baker_House#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_046",
+   "page_id": "/wiki/Newton_D._Baker_House",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who lived in the Newton D. Baker House 40 years ago?",
+   "question_easy": "Who lived in the Newton D. Baker House 40 years ago?",
+   "targets": [
+    "Yolande Bebeze Fox"
+   ],
+   "time_start": "1986",
+   "time_end": "1986",
+   "gold_chunk_ids": [
+    "/wiki/Newton_D._Baker_House#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1986-11-03"
+  },
+  {
+   "idx": "vp_047",
+   "page_id": "/wiki/Newton_D._Baker_House",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who lived in the Newton D. Baker House 55 years ago?",
+   "question_easy": "Who lived in the Newton D. Baker House 55 years ago?",
+   "targets": [
+    "Straight"
+   ],
+   "time_start": "1971",
+   "time_end": "1971",
+   "gold_chunk_ids": [
+    "/wiki/Newton_D._Baker_House#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1971-11-03"
+  },
+  {
+   "idx": "vp_048",
+   "page_id": "/wiki/Newton_D._Baker_House",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who lives in the Newton D. Baker House?",
+   "question_easy": "Who lives in the Newton D. Baker House?",
+   "targets": [
+    "Hudgens"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Newton_D._Baker_House#15"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_049",
+   "page_id": "/wiki/Newton_D._Baker_House",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who lived in the Newton D. Baker House in 2019?",
+   "question_easy": "Who lived in the Newton D. Baker House in 2019?",
+   "targets": [
+    "Hudgens"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Newton_D._Baker_House#15"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_050",
+   "page_id": "/wiki/Federation_of_the_Greens",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who spoke for the Italian Greens 32 years ago?",
+   "question_easy": "Who spoke for the Italian Greens 32 years ago?",
+   "targets": [
+    "Ripa di Meana"
+   ],
+   "time_start": "1994",
+   "time_end": "1994",
+   "gold_chunk_ids": [
+    "/wiki/Federation_of_the_Greens#37"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1994-11-03"
+  },
+  {
+   "idx": "vp_051",
+   "page_id": "/wiki/Federation_of_the_Greens",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who spoke for the Italian Greens 29 years ago?",
+   "question_easy": "Who spoke for the Italian Greens 29 years ago?",
+   "targets": [
+    "Manconi"
+   ],
+   "time_start": "1997",
+   "time_end": "1997",
+   "gold_chunk_ids": [
+    "/wiki/Federation_of_the_Greens#37"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1997-11-03"
+  },
+  {
+   "idx": "vp_052",
+   "page_id": "/wiki/Helsingin_Jalkapalloklubi",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who managed Helsinki's football club 80 years ago?",
+   "question_easy": "Who managed Helsinki's football club 80 years ago?",
+   "targets": [
+    "Nuutinen"
+   ],
+   "time_start": "1946",
+   "time_end": "1946",
+   "gold_chunk_ids": [
+    "/wiki/Helsingin_Jalkapalloklubi#46"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1946-11-03"
+  },
+  {
+   "idx": "vp_053",
+   "page_id": "/wiki/Helsingin_Jalkapalloklubi",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who managed Helsinki's football club 72 years ago?",
+   "question_easy": "Who managed Helsinki's football club 72 years ago?",
+   "targets": [
+    "Nordman"
+   ],
+   "time_start": "1954",
+   "time_end": "1954",
+   "gold_chunk_ids": [
+    "/wiki/Helsingin_Jalkapalloklubi#46"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1954-11-03"
+  },
+  {
+   "idx": "vp_054",
+   "page_id": "/wiki/Helsingin_Jalkapalloklubi",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who managed Helsinki's football club 69 years ago?",
+   "question_easy": "Who managed Helsinki's football club 69 years ago?",
+   "targets": [
+    "Lehtonen"
+   ],
+   "time_start": "1957",
+   "time_end": "1957",
+   "gold_chunk_ids": [
+    "/wiki/Helsingin_Jalkapalloklubi#46"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1957-11-03"
+  },
+  {
+   "idx": "vp_055",
+   "page_id": "/wiki/Helsingin_Jalkapalloklubi",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who managed Helsinki's football club 61 years ago?",
+   "question_easy": "Who managed Helsinki's football club 61 years ago?",
+   "targets": [
+    "Rytkönen"
+   ],
+   "time_start": "1965",
+   "time_end": "1965",
+   "gold_chunk_ids": [
+    "/wiki/Helsingin_Jalkapalloklubi#46"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1965-11-03"
+  },
+  {
+   "idx": "vp_056",
+   "page_id": "/wiki/Vologda_Governorate",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed the Vologda Governorate 114 years ago?",
+   "question_easy": "Who headed the Vologda Governorate 114 years ago?",
+   "targets": [
+    "Shramchenko"
+   ],
+   "time_start": "1912",
+   "time_end": "1912",
+   "gold_chunk_ids": [
+    "/wiki/Vologda_Governorate#21"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1912-11-03"
+  },
+  {
+   "idx": "vp_057",
+   "page_id": "/wiki/Scottish_National_Party",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who currently heads the Scottish National Party?",
+   "question_easy": "Who currently heads the Scottish National Party?",
+   "targets": [
+    "Sturgeon"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Scottish_National_Party#1"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_058",
+   "page_id": "/wiki/Scottish_National_Party",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who heads the Scottish National Party?",
+   "question_easy": "Who heads the Scottish National Party?",
+   "targets": [
+    "Sturgeon"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Scottish_National_Party#1"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_059",
+   "page_id": "/wiki/Scottish_National_Party",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who led the Scottish National Party in 2017?",
+   "question_easy": "Who led the Scottish National Party in 2017?",
+   "targets": [
+    "Sturgeon"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Scottish_National_Party#1"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_060",
+   "page_id": "/wiki/Richmond_Kickers",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who currently chairs the Richmond Kickers?",
+   "question_easy": "Who currently chairs the Richmond Kickers?",
+   "targets": [
+    "Ukrop"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Richmond_Kickers#1"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_061",
+   "page_id": "/wiki/Richmond_Kickers",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who chairs the Richmond Kickers?",
+   "question_easy": "Who chairs the Richmond Kickers?",
+   "targets": [
+    "Ukrop"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Richmond_Kickers#1"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_062",
+   "page_id": "/wiki/Richmond_Kickers",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who chaired the Richmond Kickers in 2010?",
+   "question_easy": "Who chaired the Richmond Kickers in 2010?",
+   "targets": [
+    "Ukrop"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Richmond_Kickers#1"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_063",
+   "page_id": "/wiki/Ingrid_Schaffner",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "At which foundation is Ingrid Schaffner presently engaged?",
+   "question_easy": "At which foundation is Ingrid Schaffner presently engaged?",
+   "targets": [
+    "Chinati"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Ingrid_Schaffner#2"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_064",
+   "page_id": "/wiki/Ingrid_Schaffner",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "At which foundation is Ingrid Schaffner engaged?",
+   "question_easy": "At which foundation is Ingrid Schaffner engaged?",
+   "targets": [
+    "Chinati"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Ingrid_Schaffner#2"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_065",
+   "page_id": "/wiki/Gerhard_Schröder",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which financial house does Gerhard Schröder currently advise?",
+   "question_easy": "Which financial house does Gerhard Schröder currently advise?",
+   "targets": [
+    "Rothschild"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Gerhard_Schröder#59"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_066",
+   "page_id": "/wiki/Gerhard_Schröder",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which financial house did Gerhard Schröder advise in 2012?",
+   "question_easy": "Which financial house did Gerhard Schröder advise in 2012?",
+   "targets": [
+    "Rothschild"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Gerhard_Schröder#59"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_067",
+   "page_id": "/wiki/Matthias_Platzeck",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which firm's oversight board does Matthias Platzeck currently lead?",
+   "question_easy": "Which firm's oversight board does Matthias Platzeck currently lead?",
+   "targets": [
+    "LEIPA"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Matthias_Platzeck#11"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_068",
+   "page_id": "/wiki/Matthias_Platzeck",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which firm's oversight board did Matthias Platzeck lead in 2018?",
+   "question_easy": "Which firm's oversight board did Matthias Platzeck lead in 2018?",
+   "targets": [
+    "LEIPA"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Matthias_Platzeck#11"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_069",
+   "page_id": "/wiki/Monica's_Gang",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which publisher currently produces Monica's Gang?",
+   "question_easy": "Which publisher currently produces Monica's Gang?",
+   "targets": [
+    "Panini"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Monica's_Gang#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_070",
+   "page_id": "/wiki/Monica's_Gang",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which publisher produces Monica's Gang?",
+   "question_easy": "Which publisher produces Monica's Gang?",
+   "targets": [
+    "Panini"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Monica's_Gang#3"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_071",
+   "page_id": "/wiki/Monica's_Gang",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which publisher produced Monica's Gang in 2012?",
+   "question_easy": "Which publisher produced Monica's Gang in 2012?",
+   "targets": [
+    "Panini"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Monica's_Gang#3"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_072",
+   "page_id": "/wiki/Willy_Hernangómez",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which team does Willy Hernangómez currently play for?",
+   "question_easy": "Which team does Willy Hernangómez currently play for?",
+   "targets": [
+    "New Orleans Pelicans"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Willy_Hernangómez#6"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_073",
+   "page_id": "/wiki/Willy_Hernangómez",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which team did Willy Hernangómez play for in 2022?",
+   "question_easy": "Which team did Willy Hernangómez play for in 2022?",
+   "targets": [
+    "New Orleans Pelicans"
+   ],
+   "time_start": "2022",
+   "time_end": "2022",
+   "gold_chunk_ids": [
+    "/wiki/Willy_Hernangómez#6"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_074",
+   "page_id": "/wiki/Bayerisches_Armeemuseum",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who currently directs the Bavarian army museum?",
+   "question_easy": "Who currently directs the Bavarian army museum?",
+   "targets": [
+    "Ansgar Reiß"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bayerisches_Armeemuseum#19"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_075",
+   "page_id": "/wiki/Bayerisches_Armeemuseum",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who directs the Bavarian army museum?",
+   "question_easy": "Who directs the Bavarian army museum?",
+   "targets": [
+    "Ansgar Reiß"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bayerisches_Armeemuseum#19"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_076",
+   "page_id": "/wiki/Bayerisches_Armeemuseum",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who directed the Bavarian army museum in 2015?",
+   "question_easy": "Who directed the Bavarian army museum in 2015?",
+   "targets": [
+    "Ansgar Reiß"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Bayerisches_Armeemuseum#19"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_077",
+   "page_id": "/wiki/Max_Planck_Institute_for_Astronomy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which jointly operated instrument does the Max Planck Institute for Astronomy rely on for observations?",
+   "question_easy": "Which jointly operated instrument does the Max Planck Institute for Astronomy rely on for observations?",
+   "targets": [
+    "Large Binocular Telescope"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Max_Planck_Institute_for_Astronomy#4"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_078",
+   "page_id": "/wiki/Max_Planck_Institute_for_Astronomy",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which jointly operated instrument did the Max Planck Institute for Astronomy rely on for observations in 2010?",
+   "question_easy": "Which jointly operated instrument did the Max Planck Institute for Astronomy rely on for observations in 2010?",
+   "targets": [
+    "Large Binocular Telescope"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Max_Planck_Institute_for_Astronomy#4"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_079",
+   "page_id": "/wiki/Exchange_and_Provost",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which patriotic society has looked after the Exchange and Provost building?",
+   "question_easy": "Which patriotic society has looked after the Exchange and Provost building?",
+   "targets": [
+    "Daughters of the American Revolution"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Exchange_and_Provost#6"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_080",
+   "page_id": "/wiki/Curt_von_François",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What is the former German colonial fort in Windhoek used as today?",
+   "question_easy": "What is the former German colonial fort in Windhoek used as today?",
+   "targets": [
+    "museum"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Curt_von_François#11"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_081",
+   "page_id": "/wiki/KF_Skënderbeu_Korçë",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "At which ground do the Albanian side Skënderbeu stage their home matches?",
+   "question_easy": "At which ground do the Albanian side Skënderbeu stage their home matches?",
+   "targets": [
+    "Skënderbeu Stadium"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/KF_Skënderbeu_Korçë#42"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_082",
+   "page_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed Germany's data protection office 45 years ago?",
+   "question_easy": "Who headed Germany's data protection office 45 years ago?",
+   "targets": [
+    "Hans Peter Bull"
+   ],
+   "time_start": "1981",
+   "time_end": "1981",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1981-11-03"
+  },
+  {
+   "idx": "vp_083",
+   "page_id": "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who headed Germany's data protection office 40 years ago?",
+   "question_easy": "Who headed Germany's data protection office 40 years ago?",
+   "targets": [
+    "Baumann"
+   ],
+   "time_start": "1986",
+   "time_end": "1986",
+   "gold_chunk_ids": [
+    "/wiki/Federal_Commissioner_for_Data_Protection_and_Freedom_of_Information#6"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1986-11-03"
+  },
+  {
+   "idx": "vp_084",
+   "page_id": "/wiki/Liga_Veneta_Repubblica",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who was national secretary of Liga Veneta Repubblica 27 years ago?",
+   "question_easy": "Who was national secretary of Liga Veneta Repubblica 27 years ago?",
+   "targets": [
+    "Comencini"
+   ],
+   "time_start": "1999",
+   "time_end": "1999",
+   "gold_chunk_ids": [
+    "/wiki/Liga_Veneta_Repubblica#29"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1999-11-03"
+  },
+  {
+   "idx": "vp_085",
+   "page_id": "/wiki/Liga_Veneta_Repubblica",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who was national secretary of Liga Veneta Repubblica 24 years ago?",
+   "question_easy": "Who was national secretary of Liga Veneta Repubblica 24 years ago?",
+   "targets": [
+    "Giorgio Vido"
+   ],
+   "time_start": "2002",
+   "time_end": "2002",
+   "gold_chunk_ids": [
+    "/wiki/Liga_Veneta_Repubblica#29"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2002-11-03"
+  },
+  {
+   "idx": "vp_086",
+   "page_id": "/wiki/Alliance_of_Small_Island_States",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which country chaired the Alliance of Small Island States 33 years ago?",
+   "question_easy": "Which country chaired the Alliance of Small Island States 33 years ago?",
+   "targets": [
+    "Vanuatu"
+   ],
+   "time_start": "1993",
+   "time_end": "1993",
+   "gold_chunk_ids": [
+    "/wiki/Alliance_of_Small_Island_States#24"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1993-11-03"
+  },
+  {
+   "idx": "vp_087",
+   "page_id": "/wiki/Alliance_of_Small_Island_States",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which country chaired the Alliance of Small Island States 30 years ago?",
+   "question_easy": "Which country chaired the Alliance of Small Island States 30 years ago?",
+   "targets": [
+    "Trinidad"
+   ],
+   "time_start": "1996",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Alliance_of_Small_Island_States#24"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1996-11-03"
+  },
+  {
+   "idx": "vp_088",
+   "page_id": "/wiki/Alliance_of_Small_Island_States",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which country chaired the Alliance of Small Island States 27 years ago?",
+   "question_easy": "Which country chaired the Alliance of Small Island States 27 years ago?",
+   "targets": [
+    "Samoa"
+   ],
+   "time_start": "1999",
+   "time_end": "1999",
+   "gold_chunk_ids": [
+    "/wiki/Alliance_of_Small_Island_States#24"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1999-11-03"
+  },
+  {
+   "idx": "vp_089",
+   "page_id": "/wiki/International_Mathematical_Union",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who currently presides over the International Mathematical Union?",
+   "question_easy": "Who currently presides over the International Mathematical Union?",
+   "targets": [
+    "Kenig"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/International_Mathematical_Union#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_090",
+   "page_id": "/wiki/International_Mathematical_Union",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who presides over the International Mathematical Union?",
+   "question_easy": "Who presides over the International Mathematical Union?",
+   "targets": [
+    "Kenig"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/International_Mathematical_Union#3"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_091",
+   "page_id": "/wiki/International_Mathematical_Union",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Who presided over the International Mathematical Union in 2021?",
+   "question_easy": "Who presided over the International Mathematical Union in 2021?",
+   "targets": [
+    "Kenig"
+   ],
+   "time_start": "2021",
+   "time_end": "2021",
+   "gold_chunk_ids": [
+    "/wiki/International_Mathematical_Union#3"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_092",
+   "page_id": "/wiki/Dennis_Quaid",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which broadcaster has aired Dennis Quaid's public-interest short films since their launch?",
+   "question_easy": "Which broadcaster has aired Dennis Quaid's public-interest short films since their launch?",
+   "targets": [
+    "Corporation for Public Broadcasting"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Dennis_Quaid#31"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_093",
+   "page_id": "/wiki/Dennis_Quaid",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which broadcaster airs Dennis Quaid's public-interest short films?",
+   "question_easy": "Which broadcaster airs Dennis Quaid's public-interest short films?",
+   "targets": [
+    "Corporation for Public Broadcasting"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Dennis_Quaid#31"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_094",
+   "page_id": "/wiki/Dennis_Quaid",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which broadcaster aired Dennis Quaid's public-interest short films in 2016?",
+   "question_easy": "Which broadcaster aired Dennis Quaid's public-interest short films in 2016?",
+   "targets": [
+    "Corporation for Public Broadcasting"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Dennis_Quaid#31"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_095",
+   "page_id": "/wiki/Pakistan_Football_Federation",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "On which FIFA body does the former Pakistani football president sit?",
+   "question_easy": "On which FIFA body does the former Pakistani football president sit?",
+   "targets": [
+    "Strategic Committee"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Pakistan_Football_Federation#14"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_096",
+   "page_id": "/wiki/Pakistan_Football_Federation",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "On which FIFA body did the former Pakistani football president sit in 2010?",
+   "question_easy": "On which FIFA body did the former Pakistani football president sit in 2010?",
+   "targets": [
+    "Strategic Committee"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Pakistan_Football_Federation#14"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_097",
+   "page_id": "/wiki/Lee_Nogan",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What job has Lee Nogan done since his playing days ended?",
+   "question_easy": "What job has Lee Nogan done since his playing days ended?",
+   "targets": [
+    "PE teacher"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Lee_Nogan#27"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_098",
+   "page_id": "/wiki/Lee_Nogan",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "What job did Lee Nogan do in 2015?",
+   "question_easy": "What job did Lee Nogan do in 2015?",
+   "targets": [
+    "PE teacher"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Lee_Nogan#27"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "vp_099",
+   "page_id": "/wiki/Chelyabinsk",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which kind of rail-bound public transport does Chelyabinsk have?",
+   "question_easy": "Which kind of rail-bound public transport does Chelyabinsk have?",
+   "targets": [
+    "tram"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chelyabinsk#37"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "vp_100",
+   "page_id": "/wiki/Chelyabinsk",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe_valid",
+   "source": "capability_probe_valid",
+   "question_hard": "Which kind of electric road public transport did Chelyabinsk run in 1950?",
+   "question_easy": "Which kind of electric road public transport did Chelyabinsk run in 1950?",
+   "targets": [
+    "trolleybus"
+   ],
+   "time_start": "1950",
+   "time_end": "1950",
+   "gold_chunk_ids": [
+    "/wiki/Chelyabinsk#37"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  }
+ ]
+}

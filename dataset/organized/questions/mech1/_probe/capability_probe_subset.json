@@ -1,0 +1,2255 @@
+{
+ "name": "capability_probe",
+ "seed": null,
+ "group_by": "type",
+ "n_cases": 100,
+ "page_ids": [
+  "/wiki/Archives_station",
+  "/wiki/Auditorium_Building_(Chicago)",
+  "/wiki/Bengt_Holmström",
+  "/wiki/Boris_Nemtsov",
+  "/wiki/British_Vogue",
+  "/wiki/Chase_Koch",
+  "/wiki/Chicago_Stadium",
+  "/wiki/Cho_Yoon-sun",
+  "/wiki/Cutty_Sark",
+  "/wiki/Edgley_Optica",
+  "/wiki/Embassy_of_Canada,_Washington,_D.C.",
+  "/wiki/Endre_Süli",
+  "/wiki/Erich_Topp",
+  "/wiki/Frederica_Wilson",
+  "/wiki/Gary_Mills_(footballer,_born_1961)",
+  "/wiki/German_submarine_U-101_(1940)",
+  "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono",
+  "/wiki/Herbert_Schultze",
+  "/wiki/Indianapolis_Indians",
+  "/wiki/Inter_Milan",
+  "/wiki/Internet_Architecture_Board",
+  "/wiki/Jim_Prentice",
+  "/wiki/Joachim_Löw",
+  "/wiki/John_Conyers",
+  "/wiki/Li_Kwoh-ting",
+  "/wiki/Loveland,_Ohio",
+  "/wiki/Mark_Levin",
+  "/wiki/National_Library_of_Serbia",
+  "/wiki/Niigata_Prefecture",
+  "/wiki/Nikolai_Kuznetsov_(admiral)",
+  "/wiki/Office_for_Foreign_Relations_and_Information",
+  "/wiki/Phil_Twyford",
+  "/wiki/Pinchas_Zukerman",
+  "/wiki/Policy_Planning_Staff_(France)",
+  "/wiki/Roma_Mitchell",
+  "/wiki/Walter_Veltroni",
+  "/wiki/Wheel_of_Fortune_(American_game_show)"
+ ],
+ "note": "100 câu viết tay (decisions/11 mục 1.3); kho = tam_chunks_dev_test_clean; t_now cố định 2026-11-03; time_start/time_end chỉ là năm tham chiếu để script cũ không lỗi, không phải nhãn khoảng hiệu lực",
+ "cases": [
+  {
+   "idx": "cp_001",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 24 October 2016?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 24 October 2016?",
+   "targets": [
+    "Hirohiko Izumida"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#14"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày cuối nhiệm kỳ"
+  },
+  {
+   "idx": "cp_002",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 25 October 2016?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 25 October 2016?",
+   "targets": [
+    "Ryuichi Yoneyama"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày đầu nhiệm kỳ kế"
+  },
+  {
+   "idx": "cp_003",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 1 January 2010?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 1 January 2010?",
+   "targets": [
+    "Hirohiko Izumida"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#14"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_004",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 12 June 2018?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 12 June 2018?",
+   "targets": [
+    "Hideyo Hanazumi"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày đầu"
+  },
+  {
+   "idx": "cp_005",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 3 March 1958?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 3 March 1958?",
+   "targets": [
+    "Kazuo Kitamura"
+   ],
+   "time_start": "1958",
+   "time_end": "1958",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_006",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture on 25 October 2004?",
+   "question_easy": "Who was the governor of Niigata Prefecture on 25 October 2004?",
+   "targets": [
+    "Hirohiko Izumida"
+   ],
+   "time_start": "2004",
+   "time_end": "2004",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#14"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày đầu"
+  },
+  {
+   "idx": "cp_007",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold on 1 January 2007?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold on 1 January 2007?",
+   "targets": [
+    "Minister of Aboriginal Affairs and Northern Development"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#21"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_008",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold on 13 August 2007?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold on 13 August 2007?",
+   "targets": [
+    "Minister of Aboriginal Affairs and Northern Development"
+   ],
+   "time_start": "2007",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#21"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày cuối"
+  },
+  {
+   "idx": "cp_009",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold on 6 February 2006?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold on 6 February 2006?",
+   "targets": [
+    "Minister of Aboriginal Affairs and Northern Development"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#21"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": "ngày đầu"
+  },
+  {
+   "idx": "cp_010",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold on 1 January 2010?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold on 1 January 2010?",
+   "targets": [
+    "Minister of Environment"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#1"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_011",
+   "page_id": "/wiki/Joachim_Löw",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which club did Joachim Löw manage on 1 February 2001?",
+   "question_easy": "Which club did Joachim Löw manage on 1 February 2001?",
+   "targets": [
+    "Adanaspor"
+   ],
+   "time_start": "2001",
+   "time_end": "2001",
+   "gold_chunk_ids": [
+    "/wiki/Joachim_Löw#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_012",
+   "page_id": "/wiki/Nikolai_Kuznetsov_(admiral)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What position did Nikolai Kuznetsov hold on 1 March 1937?",
+   "question_easy": "What position did Nikolai Kuznetsov hold on 1 March 1937?",
+   "targets": [
+    "naval attaché"
+   ],
+   "time_start": "1937",
+   "time_end": "1937",
+   "gold_chunk_ids": [
+    "/wiki/Nikolai_Kuznetsov_(admiral)#5"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_013",
+   "page_id": "/wiki/Gary_Mills_(footballer,_born_1961)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which club did Gary Mills manage on 1 June 2016?",
+   "question_easy": "Which club did Gary Mills manage on 1 June 2016?",
+   "targets": [
+    "Wrexham"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Gary_Mills_(footballer,_born_1961)#69"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_014",
+   "page_id": "/wiki/Inter_Milan",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the president of Inter Milan on 1 January 2019?",
+   "question_easy": "Who was the president of Inter Milan on 1 January 2019?",
+   "targets": [
+    "Steven Zhang"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Inter_Milan#47"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_015",
+   "page_id": "/wiki/Loveland,_Ohio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What was the name of the post office in Loveland, Ohio on 1 January 1840?",
+   "question_easy": "What was the name of the post office in Loveland, Ohio on 1 January 1840?",
+   "targets": [
+    "Obionsville"
+   ],
+   "time_start": "1840",
+   "time_end": "1840",
+   "gold_chunk_ids": [
+    "/wiki/Loveland,_Ohio#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_016",
+   "page_id": "/wiki/Loveland,_Ohio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What did the Obionsville Post Office change its name to on 14 January 1848?",
+   "question_easy": "What did the Obionsville Post Office change its name to on 14 January 1848?",
+   "targets": [
+    "Loveland Post Office"
+   ],
+   "time_start": "1848",
+   "time_end": "1848",
+   "gold_chunk_ids": [
+    "/wiki/Loveland,_Ohio#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_017",
+   "page_id": "/wiki/Walter_Veltroni",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which party did Walter Veltroni lead on 1 January 2009?",
+   "question_easy": "Which party did Walter Veltroni lead on 1 January 2009?",
+   "targets": [
+    "Democratic Party"
+   ],
+   "time_start": "2009",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Walter_Veltroni#0"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_018",
+   "page_id": "/wiki/Archives_station",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Why was Archives station closed on 1 May 2020?",
+   "question_easy": "Why was Archives station closed on 1 May 2020?",
+   "targets": [
+    "COVID-19"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Archives_station#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_019",
+   "page_id": "/wiki/Loveland,_Ohio",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which post office began operations in Loveland, Ohio on 24 October 1831?",
+   "question_easy": "Which post office began operations in Loveland, Ohio on 24 October 1831?",
+   "targets": [
+    "Obionsville"
+   ],
+   "time_start": "1831",
+   "time_end": "1831",
+   "gold_chunk_ids": [
+    "/wiki/Loveland,_Ohio#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_020",
+   "page_id": "/wiki/Boris_Nemtsov",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What sentence was Boris Nemtsov given on 2 January 2011?",
+   "question_easy": "What sentence was Boris Nemtsov given on 2 January 2011?",
+   "targets": [
+    "15 days"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Boris_Nemtsov#50"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_021",
+   "page_id": "/wiki/Boris_Nemtsov",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "On which bridge was Boris Nemtsov shot on 27 February 2015?",
+   "question_easy": "On which bridge was Boris Nemtsov shot on 27 February 2015?",
+   "targets": [
+    "Moskvoretsky"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Boris_Nemtsov#76"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_022",
+   "page_id": "/wiki/Roma_Mitchell",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What honour was Roma Mitchell appointed to on 12 June 1971?",
+   "question_easy": "What honour was Roma Mitchell appointed to on 12 June 1971?",
+   "targets": [
+    "Commander of the Order of the British Empire",
+    "CBE"
+   ],
+   "time_start": "1971",
+   "time_end": "1971",
+   "gold_chunk_ids": [
+    "/wiki/Roma_Mitchell#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_023",
+   "page_id": "/wiki/Roma_Mitchell",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What honour was Roma Mitchell raised to on 12 June 1982?",
+   "question_easy": "What honour was Roma Mitchell raised to on 12 June 1982?",
+   "targets": [
+    "Dame Commander of the Order of the British Empire",
+    "DBE"
+   ],
+   "time_start": "1982",
+   "time_end": "1982",
+   "gold_chunk_ids": [
+    "/wiki/Roma_Mitchell#6"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_024",
+   "page_id": "/wiki/Auditorium_Building_(Chicago)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What was the Auditorium Building in Chicago added to on 17 April 1970?",
+   "question_easy": "What was the Auditorium Building in Chicago added to on 17 April 1970?",
+   "targets": [
+    "National Register of Historic Places"
+   ],
+   "time_start": "1970",
+   "time_end": "1970",
+   "gold_chunk_ids": [
+    "/wiki/Auditorium_Building_(Chicago)#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_025",
+   "page_id": "/wiki/Auditorium_Building_(Chicago)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What was the Auditorium Building in Chicago designated on 15 September 1976?",
+   "question_easy": "What was the Auditorium Building in Chicago designated on 15 September 1976?",
+   "targets": [
+    "Chicago Landmark"
+   ],
+   "time_start": "1976",
+   "time_end": "1976",
+   "gold_chunk_ids": [
+    "/wiki/Auditorium_Building_(Chicago)#2"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_026",
+   "page_id": "/wiki/Cutty_Sark",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What happened to the Cutty Sark on 25 April 2012?",
+   "question_easy": "What happened to the Cutty Sark on 25 April 2012?",
+   "targets": [
+    "reopened to the public"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Cutty_Sark#4"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_027",
+   "page_id": "/wiki/Herbert_Schultze",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Where was Herbert Schultze presented with the Oak Leaves on 30 June 1941?",
+   "question_easy": "Where was Herbert Schultze presented with the Oak Leaves on 30 June 1941?",
+   "targets": [
+    "Wolfsschanze"
+   ],
+   "time_start": "1941",
+   "time_end": "1941",
+   "gold_chunk_ids": [
+    "/wiki/Herbert_Schultze#21"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_028",
+   "page_id": "/wiki/Erich_Topp",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "To which flotilla was Erich Topp transferred on 1 May 1940?",
+   "question_easy": "To which flotilla was Erich Topp transferred on 1 May 1940?",
+   "targets": [
+    "1st U-boat Flotilla"
+   ],
+   "time_start": "1940",
+   "time_end": "1940",
+   "gold_chunk_ids": [
+    "/wiki/Erich_Topp#12"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_029",
+   "page_id": "/wiki/German_submarine_U-101_(1940)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who commanded the German submarine U-101 on 25 October 1942?",
+   "question_easy": "Who commanded the German submarine U-101 on 25 October 1942?",
+   "targets": [
+    "Witzendorff"
+   ],
+   "time_start": "1942",
+   "time_end": "1942",
+   "gold_chunk_ids": [
+    "/wiki/German_submarine_U-101_(1940)#24"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_030",
+   "page_id": "/wiki/Cho_Yoon-sun",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of what was Cho Yoon-sun convicted on 27 July 2017?",
+   "question_easy": "Of what was Cho Yoon-sun convicted on 27 July 2017?",
+   "targets": [
+    "perjury"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Cho_Yoon-sun#9"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_031",
+   "page_id": "/wiki/Policy_Planning_Staff_(France)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who currently heads the Policy Planning Staff of France?",
+   "question_easy": "Who currently heads the Policy Planning Staff of France?",
+   "targets": [
+    "Manuel Lafont Rapnouil"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Policy_Planning_Staff_(France)#1"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_032",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the current governor of Niigata Prefecture?",
+   "question_easy": "Who is the current governor of Niigata Prefecture?",
+   "targets": [
+    "Hideyo Hanazumi"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_033",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture 15 years ago?",
+   "question_easy": "Who was the governor of Niigata Prefecture 15 years ago?",
+   "targets": [
+    "Hirohiko Izumida"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#14"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2011-11-03"
+  },
+  {
+   "idx": "cp_034",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture 10 years ago?",
+   "question_easy": "Who was the governor of Niigata Prefecture 10 years ago?",
+   "targets": [
+    "Ryuichi Yoneyama"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2016-11-03"
+  },
+  {
+   "idx": "cp_035",
+   "page_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the current mayor of Kåfjord?",
+   "question_easy": "Who is the current mayor of Kåfjord?",
+   "targets": [
+    "Lyngstad"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_036",
+   "page_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the mayor of Kåfjord 9 years ago?",
+   "question_easy": "Who was the mayor of Kåfjord 9 years ago?",
+   "targets": [
+    "Leiros"
+   ],
+   "time_start": "2017",
+   "time_end": "2017",
+   "gold_chunk_ids": [
+    "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2017-11-03"
+  },
+  {
+   "idx": "cp_037",
+   "page_id": "/wiki/Chicago_Stadium",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In whose residence is the Chicago Stadium organ currently located?",
+   "question_easy": "In whose residence is the Chicago Stadium organ currently located?",
+   "targets": [
+    "Phil Maloof"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chicago_Stadium#7"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_038",
+   "page_id": "/wiki/Pinchas_Zukerman",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What is Pinchas Zukerman's current position at the Royal Philharmonic Orchestra?",
+   "question_easy": "What is Pinchas Zukerman's current position at the Royal Philharmonic Orchestra?",
+   "targets": [
+    "Principal Guest Conductor"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Pinchas_Zukerman#4"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_039",
+   "page_id": "/wiki/Endre_Süli",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which journal is Endre Süli currently co-Editor-in-Chief of?",
+   "question_easy": "Which journal is Endre Süli currently co-Editor-in-Chief of?",
+   "targets": [
+    "IMA Journal of Numerical Analysis"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Endre_Süli#3"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_040",
+   "page_id": "/wiki/Bengt_Holmström",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "At which institution is Bengt Holmström currently on the faculty?",
+   "question_easy": "At which institution is Bengt Holmström currently on the faculty?",
+   "targets": [
+    "M.I.T"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bengt_Holmström#4"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_041",
+   "page_id": "/wiki/Chase_Koch",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which company's board is Chase Koch currently a member?",
+   "question_easy": "Of which company's board is Chase Koch currently a member?",
+   "targets": [
+    "Koch Industries"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chase_Koch#15"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_042",
+   "page_id": "/wiki/Frederica_Wilson",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which chamber of the United States Congress is Frederica Wilson currently a member?",
+   "question_easy": "Of which chamber of the United States Congress is Frederica Wilson currently a member?",
+   "targets": [
+    "House of Representatives"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Frederica_Wilson#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_043",
+   "page_id": "/wiki/Phil_Twyford",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which electorate does Phil Twyford currently represent?",
+   "question_easy": "Which electorate does Phil Twyford currently represent?",
+   "targets": [
+    "Te Atatū"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Phil_Twyford#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_044",
+   "page_id": "/wiki/Indianapolis_Indians",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is currently the Voice of the Tribe for the Indianapolis Indians?",
+   "question_easy": "Who is currently the Voice of the Tribe for the Indianapolis Indians?",
+   "targets": [
+    "Kellman"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Indianapolis_Indians#41"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_045",
+   "page_id": "/wiki/Wheel_of_Fortune_(American_game_show)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who currently handles the music direction of Wheel of Fortune?",
+   "question_easy": "Who currently handles the music direction of Wheel of Fortune?",
+   "targets": [
+    "Frankie Blue",
+    "John Hoke"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Wheel_of_Fortune_(American_game_show)#82"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_046",
+   "page_id": "/wiki/British_Vogue",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In which city is British Vogue currently published?",
+   "question_easy": "In which city is British Vogue currently published?",
+   "targets": [
+    "London"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/British_Vogue#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_047",
+   "page_id": "/wiki/Gary_Mills_(footballer,_born_1961)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which club did Gary Mills manage 11 years ago?",
+   "question_easy": "Which club did Gary Mills manage 11 years ago?",
+   "targets": [
+    "Wrexham"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Gary_Mills_(footballer,_born_1961)#69"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2015-11-03"
+  },
+  {
+   "idx": "cp_048",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold 17 years ago?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold 17 years ago?",
+   "targets": [
+    "Minister of Environment"
+   ],
+   "time_start": "2009",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#1"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2009-11-03"
+  },
+  {
+   "idx": "cp_049",
+   "page_id": "/wiki/Mark_Levin",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is Mark Levin currently married to?",
+   "question_easy": "Who is Mark Levin currently married to?",
+   "targets": [
+    "Julie Prince"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Mark_Levin#58"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_050",
+   "page_id": "/wiki/Walter_Veltroni",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which party did Walter Veltroni lead 18 years ago?",
+   "question_easy": "Which party did Walter Veltroni lead 18 years ago?",
+   "targets": [
+    "Democratic Party"
+   ],
+   "time_start": "2008",
+   "time_end": "2008",
+   "gold_chunk_ids": [
+    "/wiki/Walter_Veltroni#0"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2008-11-03"
+  },
+  {
+   "idx": "cp_051",
+   "page_id": "/wiki/Nikolai_Kuznetsov_(admiral)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What position did Nikolai Kuznetsov hold 90 years ago?",
+   "question_easy": "What position did Nikolai Kuznetsov hold 90 years ago?",
+   "targets": [
+    "naval attaché"
+   ],
+   "time_start": "1936",
+   "time_end": "1936",
+   "gold_chunk_ids": [
+    "/wiki/Nikolai_Kuznetsov_(admiral)#5"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1936-11-03"
+  },
+  {
+   "idx": "cp_052",
+   "page_id": "/wiki/Internet_Architecture_Board",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who chaired the Internet Architecture Board 10 years ago?",
+   "question_easy": "Who chaired the Internet Architecture Board 10 years ago?",
+   "targets": [
+    "Andrew Sullivan"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Internet_Architecture_Board#37"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2016-11-03"
+  },
+  {
+   "idx": "cp_053",
+   "page_id": "/wiki/National_Library_of_Serbia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the director of the National Library of Serbia 12 years ago?",
+   "question_easy": "Who was the director of the National Library of Serbia 12 years ago?",
+   "targets": [
+    "Jančić"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/National_Library_of_Serbia#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2014-11-03"
+  },
+  {
+   "idx": "cp_054",
+   "page_id": "/wiki/Office_for_Foreign_Relations_and_Information",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was a director of the Office for Foreign Relations and Information 10 years ago?",
+   "question_easy": "Who was a director of the Office for Foreign Relations and Information 10 years ago?",
+   "targets": [
+    "Šašek"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Office_for_Foreign_Relations_and_Information#7"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2016-11-03"
+  },
+  {
+   "idx": "cp_055",
+   "page_id": "/wiki/National_Library_of_Serbia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the director of the National Library of Serbia 20 years ago?",
+   "question_easy": "Who was the director of the National Library of Serbia 20 years ago?",
+   "targets": [
+    "Ugričić"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/National_Library_of_Serbia#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "cp_056",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture 70 years ago?",
+   "question_easy": "Who was the governor of Niigata Prefecture 70 years ago?",
+   "targets": [
+    "Kitamura"
+   ],
+   "time_start": "1956",
+   "time_end": "1956",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#12"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1956-11-03"
+  },
+  {
+   "idx": "cp_057",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which ministerial portfolio did Jim Prentice hold 20 years ago?",
+   "question_easy": "Which ministerial portfolio did Jim Prentice hold 20 years ago?",
+   "targets": [
+    "Minister of Aboriginal Affairs and Northern Development"
+   ],
+   "time_start": "2006",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#21"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2006-11-03"
+  },
+  {
+   "idx": "cp_058",
+   "page_id": "/wiki/Wheel_of_Fortune_(American_game_show)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who handled the music direction of Wheel of Fortune 15 years ago?",
+   "question_easy": "Who handled the music direction of Wheel of Fortune 15 years ago?",
+   "targets": [
+    "Frankie Blue",
+    "John Hoke"
+   ],
+   "time_start": "2011",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Wheel_of_Fortune_(American_game_show)#82"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2011-11-03"
+  },
+  {
+   "idx": "cp_059",
+   "page_id": "/wiki/Li_Kwoh-ting",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who currently holds the Li Kwoh-ting professorship in economic development at Stanford?",
+   "question_easy": "Who currently holds the Li Kwoh-ting professorship in economic development at Stanford?",
+   "targets": [
+    "Xueguang Zhou"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Li_Kwoh-ting#40"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_060",
+   "page_id": "/wiki/Edgley_Optica",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is currently seeking a strategic OEM partner for the Edgley Optica program?",
+   "question_easy": "Who is currently seeking a strategic OEM partner for the Edgley Optica program?",
+   "targets": [
+    "IFG"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Edgley_Optica#11"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_061",
+   "page_id": "/wiki/National_Library_of_Serbia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the director of the National Library of Serbia 30 years ago?",
+   "question_easy": "Who was the director of the National Library of Serbia 30 years ago?",
+   "targets": [
+    "Petrović"
+   ],
+   "time_start": "1996",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/National_Library_of_Serbia#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "1996-11-03"
+  },
+  {
+   "idx": "cp_062",
+   "page_id": "/wiki/Policy_Planning_Staff_(France)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who heads the Policy Planning Staff of France?",
+   "question_easy": "Who heads the Policy Planning Staff of France?",
+   "targets": [
+    "Manuel Lafont Rapnouil"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Policy_Planning_Staff_(France)#1"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_063",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who governs Niigata Prefecture?",
+   "question_easy": "Who governs Niigata Prefecture?",
+   "targets": [
+    "Hideyo Hanazumi"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_064",
+   "page_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the mayor of Kåfjord?",
+   "question_easy": "Who is the mayor of Kåfjord?",
+   "targets": [
+    "Lyngstad"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_065",
+   "page_id": "/wiki/Mark_Levin",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is Mark Levin married to?",
+   "question_easy": "Who is Mark Levin married to?",
+   "targets": [
+    "Julie Prince"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Mark_Levin#58"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_066",
+   "page_id": "/wiki/Pinchas_Zukerman",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What is Pinchas Zukerman's role at the Royal Philharmonic Orchestra?",
+   "question_easy": "What is Pinchas Zukerman's role at the Royal Philharmonic Orchestra?",
+   "targets": [
+    "Principal Guest Conductor"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Pinchas_Zukerman#4"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_067",
+   "page_id": "/wiki/Endre_Süli",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which journal is Endre Süli co-Editor-in-Chief of?",
+   "question_easy": "Which journal is Endre Süli co-Editor-in-Chief of?",
+   "targets": [
+    "IMA Journal of Numerical Analysis"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Endre_Süli#3"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_068",
+   "page_id": "/wiki/Bengt_Holmström",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "At which institution is Bengt Holmström on the faculty?",
+   "question_easy": "At which institution is Bengt Holmström on the faculty?",
+   "targets": [
+    "M.I.T"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Bengt_Holmström#4"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_069",
+   "page_id": "/wiki/Chase_Koch",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which company's board is Chase Koch a member?",
+   "question_easy": "Of which company's board is Chase Koch a member?",
+   "targets": [
+    "Koch Industries"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chase_Koch#15"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_070",
+   "page_id": "/wiki/Frederica_Wilson",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which chamber of the United States Congress is Frederica Wilson a member?",
+   "question_easy": "Of which chamber of the United States Congress is Frederica Wilson a member?",
+   "targets": [
+    "House of Representatives"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Frederica_Wilson#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_071",
+   "page_id": "/wiki/Phil_Twyford",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which electorate does Phil Twyford represent?",
+   "question_easy": "Which electorate does Phil Twyford represent?",
+   "targets": [
+    "Te Atatū"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Phil_Twyford#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_072",
+   "page_id": "/wiki/Chicago_Stadium",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In whose residence is the Chicago Stadium organ located?",
+   "question_easy": "In whose residence is the Chicago Stadium organ located?",
+   "targets": [
+    "Phil Maloof"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chicago_Stadium#7"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_073",
+   "page_id": "/wiki/Wheel_of_Fortune_(American_game_show)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who handles the music direction of Wheel of Fortune?",
+   "question_easy": "Who handles the music direction of Wheel of Fortune?",
+   "targets": [
+    "Frankie Blue",
+    "John Hoke"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Wheel_of_Fortune_(American_game_show)#82"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_074",
+   "page_id": "/wiki/British_Vogue",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In which city is British Vogue published?",
+   "question_easy": "In which city is British Vogue published?",
+   "targets": [
+    "London"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/British_Vogue#0"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_075",
+   "page_id": "/wiki/Indianapolis_Indians",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the Voice of the Tribe for the Indianapolis Indians?",
+   "question_easy": "Who is the Voice of the Tribe for the Indianapolis Indians?",
+   "targets": [
+    "Kellman"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Indianapolis_Indians#41"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_076",
+   "page_id": "/wiki/Li_Kwoh-ting",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who holds the Li Kwoh-ting professorship in economic development at Stanford?",
+   "question_easy": "Who holds the Li Kwoh-ting professorship in economic development at Stanford?",
+   "targets": [
+    "Xueguang Zhou"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Li_Kwoh-ting#40"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_077",
+   "page_id": "/wiki/Policy_Planning_Staff_(France)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who headed the Policy Planning Staff of France in December 2019?",
+   "question_easy": "Who headed the Policy Planning Staff of France in December 2019?",
+   "targets": [
+    "Manuel Lafont Rapnouil"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Policy_Planning_Staff_(France)#1"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_078",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the governor of Niigata Prefecture in March 2020?",
+   "question_easy": "Who was the governor of Niigata Prefecture in March 2020?",
+   "targets": [
+    "Hideyo Hanazumi"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_079",
+   "page_id": "/wiki/Pinchas_Zukerman",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What was Pinchas Zukerman's position at the Royal Philharmonic Orchestra in 2015?",
+   "question_easy": "What was Pinchas Zukerman's position at the Royal Philharmonic Orchestra in 2015?",
+   "targets": [
+    "Principal Guest Conductor"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Pinchas_Zukerman#4"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_080",
+   "page_id": "/wiki/Endre_Süli",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which journal was Endre Süli co-Editor-in-Chief of in 2012?",
+   "question_easy": "Which journal was Endre Süli co-Editor-in-Chief of in 2012?",
+   "targets": [
+    "IMA Journal of Numerical Analysis"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/Endre_Süli#3"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_081",
+   "page_id": "/wiki/Bengt_Holmström",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "At which institution was Bengt Holmström on the faculty in 2010?",
+   "question_easy": "At which institution was Bengt Holmström on the faculty in 2010?",
+   "targets": [
+    "M.I.T"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Bengt_Holmström#4"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_082",
+   "page_id": "/wiki/Chase_Koch",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which company's board was Chase Koch a member in 2016?",
+   "question_easy": "Of which company's board was Chase Koch a member in 2016?",
+   "targets": [
+    "Koch Industries"
+   ],
+   "time_start": "2016",
+   "time_end": "2016",
+   "gold_chunk_ids": [
+    "/wiki/Chase_Koch#15"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_083",
+   "page_id": "/wiki/Frederica_Wilson",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Of which chamber of the United States Congress was Frederica Wilson a member in 2015?",
+   "question_easy": "Of which chamber of the United States Congress was Frederica Wilson a member in 2015?",
+   "targets": [
+    "House of Representatives"
+   ],
+   "time_start": "2015",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Frederica_Wilson#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_084",
+   "page_id": "/wiki/Phil_Twyford",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which electorate did Phil Twyford represent in 2014?",
+   "question_easy": "Which electorate did Phil Twyford represent in 2014?",
+   "targets": [
+    "Te Atatū"
+   ],
+   "time_start": "2014",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/Phil_Twyford#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_085",
+   "page_id": "/wiki/Chicago_Stadium",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In whose residence was the Chicago Stadium organ located in 2005?",
+   "question_easy": "In whose residence was the Chicago Stadium organ located in 2005?",
+   "targets": [
+    "Phil Maloof"
+   ],
+   "time_start": "2005",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/Chicago_Stadium#7"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_086",
+   "page_id": "/wiki/Indianapolis_Indians",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who called play-by-play for the Indianapolis Indians in 1990?",
+   "question_easy": "Who called play-by-play for the Indianapolis Indians in 1990?",
+   "targets": [
+    "Kellman"
+   ],
+   "time_start": "1990",
+   "time_end": "1990",
+   "gold_chunk_ids": [
+    "/wiki/Indianapolis_Indians#41"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_087",
+   "page_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was the mayor of Kåfjord in 2020?",
+   "question_easy": "Who was the mayor of Kåfjord in 2020?",
+   "targets": [
+    "Lyngstad"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#10"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_088",
+   "page_id": "/wiki/Wheel_of_Fortune_(American_game_show)",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who handled the music direction of Wheel of Fortune in 2010?",
+   "question_easy": "Who handled the music direction of Wheel of Fortune in 2010?",
+   "targets": [
+    "Frankie Blue",
+    "John Hoke"
+   ],
+   "time_start": "2010",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Wheel_of_Fortune_(American_game_show)#82"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_089",
+   "page_id": "/wiki/British_Vogue",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "In which city was British Vogue published in 1960?",
+   "question_easy": "In which city was British Vogue published in 1960?",
+   "targets": [
+    "London"
+   ],
+   "time_start": "1960",
+   "time_end": "1960",
+   "gold_chunk_ids": [
+    "/wiki/British_Vogue#0"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_090",
+   "page_id": "/wiki/Embassy_of_Canada,_Washington,_D.C.",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which Canadian province's ministry operated a bureau in Washington in 1995?",
+   "question_easy": "Which Canadian province's ministry operated a bureau in Washington in 1995?",
+   "targets": [
+    "Quebec"
+   ],
+   "time_start": "1995",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/Embassy_of_Canada,_Washington,_D.C.#5"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_091",
+   "page_id": "/wiki/John_Conyers",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "What was the designation of John Conyers's bill to explore the effects of slavery in 2012?",
+   "question_easy": "What was the designation of John Conyers's bill to explore the effects of slavery in 2012?",
+   "targets": [
+    "H.R . 40",
+    "H.R. 40"
+   ],
+   "time_start": "2012",
+   "time_end": "2012",
+   "gold_chunk_ids": [
+    "/wiki/John_Conyers#20"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_092",
+   "page_id": "/wiki/Internet_Architecture_Board",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the current chair of the Internet Architecture Board?",
+   "question_easy": "Who is the current chair of the Internet Architecture Board?",
+   "targets": [
+    "Mirja Kühlewind"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Internet_Architecture_Board#37"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_093",
+   "page_id": "/wiki/Internet_Architecture_Board",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who chaired the Internet Architecture Board 8 years ago?",
+   "question_easy": "Who chaired the Internet Architecture Board 8 years ago?",
+   "targets": [
+    "Ted Hardie"
+   ],
+   "time_start": "2018",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/Internet_Architecture_Board#37"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": "2018-11-03"
+  },
+  {
+   "idx": "cp_094",
+   "page_id": "/wiki/Internet_Architecture_Board",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who chaired the Internet Architecture Board in June 2020?",
+   "question_easy": "Who chaired the Internet Architecture Board in June 2020?",
+   "targets": [
+    "Mirja Kühlewind"
+   ],
+   "time_start": "2020",
+   "time_end": "2020",
+   "gold_chunk_ids": [
+    "/wiki/Internet_Architecture_Board#37"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_095",
+   "page_id": "/wiki/Inter_Milan",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which company's agreement to acquire a 31.05% stake in Inter Milan was announced on 25 January 2019?",
+   "question_easy": "Which company's agreement to acquire a 31.05% stake in Inter Milan was announced on 25 January 2019?",
+   "targets": [
+    "LionRock"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Inter_Milan#47"
+   ],
+   "flags": [],
+   "type": "day",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_096",
+   "page_id": "/wiki/Edgley_Optica",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who was seeking a strategic OEM partner for the Edgley Optica program in December 2019?",
+   "question_easy": "Who was seeking a strategic OEM partner for the Edgley Optica program in December 2019?",
+   "targets": [
+    "IFG"
+   ],
+   "time_start": "2019",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Edgley_Optica#11"
+   ],
+   "flags": [],
+   "type": "open_end",
+   "t_now": null,
+   "note": ""
+  },
+  {
+   "idx": "cp_097",
+   "page_id": "/wiki/Edgley_Optica",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is seeking a strategic OEM partner for the Edgley Optica program?",
+   "question_easy": "Who is seeking a strategic OEM partner for the Edgley Optica program?",
+   "targets": [
+    "IFG"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Edgley_Optica#11"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_098",
+   "page_id": "/wiki/Chicago_Stadium",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Which school building incorporates two friezes from Chicago Stadium?",
+   "question_easy": "Which school building incorporates two friezes from Chicago Stadium?",
+   "targets": [
+    "Ignatius"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Chicago_Stadium#25"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_099",
+   "page_id": "/wiki/National_Library_of_Serbia",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the current director of the National Library of Serbia?",
+   "question_easy": "Who is the current director of the National Library of Serbia?",
+   "targets": [
+    "Blašković"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/National_Library_of_Serbia#18"
+   ],
+   "flags": [],
+   "type": "relative",
+   "t_now": "2026-11-03",
+   "note": ""
+  },
+  {
+   "idx": "cp_100",
+   "page_id": "/wiki/Office_for_Foreign_Relations_and_Information",
+   "relation": "",
+   "domain": "other",
+   "split": "capability_probe",
+   "source": "capability_probe",
+   "question_hard": "Who is the director of the Office for Foreign Relations and Information?",
+   "question_easy": "Who is the director of the Office for Foreign Relations and Information?",
+   "targets": [
+    "Marek Šimandl"
+   ],
+   "time_start": "2026",
+   "time_end": "2026",
+   "gold_chunk_ids": [
+    "/wiki/Office_for_Foreign_Relations_and_Information#7"
+   ],
+   "flags": [],
+   "type": "no_anchor",
+   "t_now": "2026-11-03",
+   "note": ""
+  }
+ ]
+}

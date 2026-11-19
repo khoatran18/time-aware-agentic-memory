@@ -1,0 +1,306 @@
+{
+ "source": "questions_v9 ∩ graph pages",
+ "dropped_pages": [
+  "Rainier_Brewing_Company"
+ ],
+ "cases": [
+  {
+   "idx": "Archaeologia_Cambrensis:3",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "first_last_next",
+   "question": "Among the dated starts of editorships in the timeline (single-year listings not counted), who began most recently?",
+   "question_hard": "Archaeologia Cambrensis. Among the dated starts of editorships in the timeline (single-year listings not counted), who began most recently?",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Charles_Holden:0",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the Royal Institute of British Architects (RIBA) medals Holden was awarded.",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, list in time order the Royal Institute of British Architects (RIBA) medals Holden was awarded.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "First_Things:0",
+   "page_id": "/wiki/First_Things",
+   "graph_page": "First_Things",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the start of each term as an executive or senior editor of the magazine, in chronological order; the two terms that begin in the same year may be listed in any order.",
+   "question_hard": "First Things. Among the dated events in the timeline, list the start of each term as an executive or senior editor of the magazine, in chronological order; the two terms that begin in the same year may be listed in any order.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Jerzy_Buzek:0",
+   "page_id": "/wiki/Jerzy_Buzek",
+   "graph_page": "Jerzy_Buzek",
+   "type": "list",
+   "question": "List, in chronological order, the elections to the Polish Sejm or to the European Parliament that Jerzy Buzek contested, whether he won or lost them, among the dated events recorded in the timeline.",
+   "question_hard": "Jerzy Buzek. List, in chronological order, the elections to the Polish Sejm or to the European Parliament that Jerzy Buzek contested, whether he won or lost them, among the dated events recorded in the timeline.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Journal_de_20_heures:0",
+   "page_id": "/wiki/Journal_de_20_heures",
+   "graph_page": "Journal_de_20_heures",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the appointments of people to present the programme before the 1990s, including shared or replacement presenters.",
+   "question_hard": "Journal de 20 heures. Among the dated events in the timeline, summarize the appointments of people to present the programme before the 1990s, including shared or replacement presenters.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Luftflotte_1:2",
+   "page_id": "/wiki/Luftflotte_1",
+   "graph_page": "Luftflotte_1",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline, what were the two most recent changes in command of Luftflotte 1, in chronological order?",
+   "question_hard": "Luftflotte 1. Among the dated events recorded in the timeline, what were the two most recent changes in command of Luftflotte 1, in chronological order?",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:0",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list each name the square was given, in chronological order. Do not include the moment a name stopped being used.",
+   "question_hard": "Maidan Nezalezhnosti. Among the dated events in the timeline, list each name the square was given, in chronological order. Do not include the moment a name stopped being used.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Razorfish_company:1",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the awards and rankings the agency or its work received before 2008 (events with the same date in any order).",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline, summarize the awards and rankings the agency or its work received before 2008 (events with the same date in any order).",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Razorfish_company:2",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline about the company's own name, which name did it take next after being renamed SBI.Razorfish?",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline about the company's own name, which name did it take next after being renamed SBI.Razorfish?",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Razorfish_company:3",
+   "page_id": "/wiki/Razorfish_(company)",
+   "graph_page": "Razorfish_company",
+   "type": "first_last_next",
+   "question": "Among the dated events recorded in the timeline about the company's own name, what were the first and the most recent times it was given a new name?",
+   "question_hard": "Razorfish company. Among the dated events recorded in the timeline about the company's own name, what were the first and the most recent times it was given a new name?",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Sergey_Sirotkin_racing_driver:0",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "graph_page": "Sergey_Sirotkin_racing_driver",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the occasions on which he was announced to, switched to, or returned to a team in the GP2 Series or the FIA Formula 2 Championship, in chronological order.",
+   "question_hard": "Sergey Sirotkin racing driver. Among the dated events in the timeline, list the occasions on which he was announced to, switched to, or returned to a team in the GP2 Series or the FIA Formula 2 Championship, in chronological order.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Sergey_Sirotkin_racing_driver:1",
+   "page_id": "/wiki/Sergey_Sirotkin_(racing_driver)",
+   "graph_page": "Sergey_Sirotkin_racing_driver",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the occasions on which he took up or held a test, development, or reserve driver post with a Formula One team.",
+   "question_hard": "Sergey Sirotkin racing driver. Among the dated events in the timeline, summarize the occasions on which he took up or held a test, development, or reserve driver post with a Formula One team.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Stefan_He_e:0",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the posts Heße took up within the Archdiocese of Cologne (appointments, elections and taking office, not the ends of posts and not the reaffirmation at the installation of the new archbishop), in chronological order; the two items from the same year may appear in either order (events with the same date in any order).",
+   "question_hard": "Stefan He e. Among the dated events in the timeline, list the posts Heße took up within the Archdiocese of Cologne (appointments, elections and taking office, not the ends of posts and not the reaffirmation at the installation of the new archbishop), in chronological order; the two items from the same year may appear in either order (events with the same date in any order).",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:9",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the sections formed from the early to the mid 1970s, in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the sections formed from the early to the mid 1970s, in any order.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Thomas_Fearnley:3",
+   "page_id": "/wiki/Thomas_Fearnley",
+   "graph_page": "Thomas_Fearnley",
+   "type": "summary",
+   "question": "Among the dated events recorded in the timeline, summarize the periods of formal study or training that began before his period of study under Johan Christian Dahl in Dresden.",
+   "question_hard": "Thomas Fearnley. Among the dated events recorded in the timeline, summarize the periods of formal study or training that began before his period of study under Johan Christian Dahl in Dresden.",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Washington_Spirit:1",
+   "page_id": "/wiki/Washington_Spirit",
+   "graph_page": "Washington_Spirit",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the team's NWSL playoff matches, including the final (events with the same date in any order).",
+   "question_hard": "Washington Spirit. Among the dated events in the timeline, summarize the team's NWSL playoff matches, including the final (events with the same date in any order).",
+   "subset_tag": "hard"
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:0",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the starts of editorships (sole or joint) that began in the late nineteenth century, in chronological order.",
+   "question_hard": "Archaeologia Cambrensis. Among the dated events in the timeline, list the starts of editorships (sole or joint) that began in the late nineteenth century, in chronological order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:1",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the starts of editorships (sole or joint) from the beginning of the twentieth century up to the end of the 1940s, in chronological order; the ends of terms and mere listings of an editor for a single year are not included.",
+   "question_hard": "Archaeologia Cambrensis. Among the dated events in the timeline, summarize the starts of editorships (sole or joint) from the beginning of the twentieth century up to the end of the 1940s, in chronological order; the ends of terms and mere listings of an editor for a single year are not included.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Archaeologia_Cambrensis:4",
+   "page_id": "/wiki/Archaeologia_Cambrensis",
+   "graph_page": "Archaeologia_Cambrensis",
+   "type": "order_gap",
+   "question": "How many years passed between Daniel Silvan Evans beginning as editor and William J. Britnell beginning as editor? Count by calendar year.",
+   "question_hard": "Archaeologia Cambrensis. How many years passed between Daniel Silvan Evans beginning as editor and William J. Britnell beginning as editor? Count by calendar year.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Bohemond_IV_of_Antioch:1",
+   "page_id": "/wiki/Bohemond_IV_of_Antioch",
+   "graph_page": "Bohemond_IV_of_Antioch",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the events in which his eldest son Raymond was killed, or his son Philip was married, imprisoned, or killed, in chronological order.",
+   "question_hard": "Bohemond IV of Antioch. Among the dated events in the timeline, list the events in which his eldest son Raymond was killed, or his son Philip was married, imprisoned, or killed, in chronological order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Charles_Holden:3",
+   "page_id": "/wiki/Charles_Holden",
+   "graph_page": "Charles_Holden",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the medals, honorary doctorates and designations Holden was awarded between the mid-1930s and the mid-1940s (events with the same date in any order).",
+   "question_hard": "Charles Holden. Among the dated events in the timeline, summarize the medals, honorary doctorates and designations Holden was awarded between the mid-1930s and the mid-1940s (events with the same date in any order).",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:0",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the heads of the department appointed from the mid-2000s onward, in chronological order.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, list the heads of the department appointed from the mid-2000s onward, in chronological order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:2",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the ends of head-of-department terms from the mid-2000s onward.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, summarize the ends of head-of-department terms from the mid-2000s onward.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Department_of_Computing_Imperial_College_London:3",
+   "page_id": "/wiki/Department_of_Computing,_Imperial_College_London",
+   "graph_page": "Department_of_Computing_Imperial_College_London",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the companies created by the department staff or spun out of its research centre, in chronological order.",
+   "question_hard": "Department of Computing Imperial College London. Among the dated events in the timeline, list the companies created by the department staff or spun out of its research centre, in chronological order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "First_Air_Group:1",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the endings of commanders' terms after the 1970s (the endings, not the appointments).",
+   "question_hard": "First Air Group. Among the dated events in the timeline, summarize the endings of commanders' terms after the 1970s (the endings, not the appointments).",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "First_Air_Group:4",
+   "page_id": "/wiki/First_Air_Group",
+   "graph_page": "First_Air_Group",
+   "type": "order_gap",
+   "question": "How many years passed between Bengt Nordenskiöld beginning his term as commander and Christer Salsing beginning his term? Count calendar years.",
+   "question_hard": "First Air Group. How many years passed between Bengt Nordenskiöld beginning his term as commander and Christer Salsing beginning his term? Count calendar years.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Maidan_Nezalezhnosti:5",
+   "page_id": "/wiki/Maidan_Nezalezhnosti",
+   "graph_page": "Maidan_Nezalezhnosti",
+   "type": "first_last_next",
+   "question": "Among the named protest campaigns centred on the square that the timeline dates, which began most recently?",
+   "question_hard": "Maidan Nezalezhnosti. Among the named protest campaigns centred on the square that the timeline dates, which began most recently?",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Mannheim_Observatory:2",
+   "page_id": "/wiki/Mannheim_Observatory",
+   "graph_page": "Mannheim_Observatory",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the deaths of the observatory's Court Astronomers.",
+   "question_hard": "Mannheim Observatory. Among the dated events in the timeline, list in time order the deaths of the observatory's Court Astronomers.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Stefan_He_e:3",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the departures from posts (the end dates of appointments, not the starts) recorded before he was appointed Deputy Vicar General.",
+   "question_hard": "Stefan He e. Among the dated events in the timeline, summarize the departures from posts (the end dates of appointments, not the starts) recorded before he was appointed Deputy Vicar General.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:0",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the rectors who began a rectorship from the late 1950s until the institution closed, in chronological order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the rectors who began a rectorship from the late 1950s until the institution closed, in chronological order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:4",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "summary",
+   "question": "Among the dated events in the timeline, summarize the openings of the institutes whose names begin with 'Institute of Chemistry and Technology of'.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, summarize the openings of the institutes whose names begin with 'Institute of Chemistry and Technology of'.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "Technical_University_Leuna_Merseburg:8",
+   "page_id": "/wiki/Technical_University_Leuna-Merseburg",
+   "graph_page": "Technical_University_Leuna_Merseburg",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the reorganisation events in which an institute was divided into two or formed by merging existing institutes, in any order.",
+   "question_hard": "Technical University Leuna Merseburg. Among the dated events in the timeline, list the reorganisation events in which an institute was divided into two or formed by merging existing institutes, in any order.",
+   "subset_tag": "graph_helps"
+  },
+  {
+   "idx": "The_News_Quiz:0",
+   "page_id": "/wiki/The_News_Quiz",
+   "graph_page": "The_News_Quiz",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list in time order the hosts who began a term as chairman of the show during its first years, up to the early 1980s.",
+   "question_hard": "The News Quiz. Among the dated events in the timeline, list in time order the hosts who began a term as chairman of the show during its first years, up to the early 1980s.",
+   "subset_tag": "graph_helps"
+  }
+ ],
+ "note": "Bộ con của v9_graph_subset: 'hard' = cả 3 cấu hình của họ sai; 'graph_helps' = vector sai, graph đúng (local/ingest_eval/judge_out/graph_eval.json)"
+}
