@@ -211,6 +211,25 @@ Cùng quy trình với tune: sinh câu (`make_past_questions.py`) → LLM trả 
 
 **Việc chưa chốt:** phạm vi mở rộng nút lân cận của cơ chế 3; Plain (nạp lại từng chunk không dọn) không còn là hệ riêng; nạp thử ~20 chỗ sửa vào kho riêng để đo tỉ lệ chỗ sửa "hiệu lực" (bản cũ có sinh nút khớp câu bị sửa) cần người dùng cho phép nạp kho.
 
+## Làm rõ đầu vào của Diff-replace và cơ chế 3 (2026-11-21, đã kiểm mã ingest, chưa cài)
+
+**Ingest thật làm gì** (`dataset/eval/timeline_pilot/outline_trial/pass3_p10b.py`, bản 10b): trích theo **mục** (section) của trang; mỗi mục chia cửa sổ ≤ 8 chunk (`WINDOW = 8`), mỗi cửa sổ một lượt LLM. Đầu vào: tên trang, tên mục, các chunk đánh số; chunk liền trước cửa sổ đưa vào dạng `(context only)` (không trích từ nó). Cần ngữ cảnh vì "later that year", "in March" suy năm từ chunk trước. Sau đó là bước mã cấp trang: lọc, gộp (`merge_keyed`, `merge`, cặp LLM `same`), `node_id`, `FROM_CHUNK`. Một chunk đứng riêng không đủ để trích đúng.
+
+**Diff-replace (sửa):**
+- Đầu vào: cửa sổ chứa chunk đổi, **bản mới**; chunk đổi là chunk cần trích, các chunk khác trong cửa sổ đánh dấu `(context only)` (cơ chế có sẵn của prompt 10b). Không có văn bản cũ, không có nút cũ, không có bước LLM quyết định.
+- Xóa: chỉ nút có mọi `FROM_CHUNK` nằm trong chunk đổi. Nút có `FROM_CHUNK` tới chunk khác chỉ gỡ cạnh, giữ nút.
+- Nút của chunk không đổi giữ nguyên nên không trôi `node_id`. Sau khi thay: chạy lại bước gộp cấp trang và dựng lại chuỗi `TIẾP_THEO`.
+- Chi phí: một lượt LLM, vào khoảng một cửa sổ (≤ 8 chunk).
+
+**Cơ chế 3 (làm rõ):** một lượt LLM nhận (a) chunk đổi **bản cũ và bản mới** (cách đổi), (b) các nút cũ trong phạm vi lân cận (dưới), (c) các chunk còn lại của cửa sổ bản mới làm ngữ cảnh. Đề xuất giữ/sửa/đóng `end_time`/vô hiệu/thêm; code kiểm như `12` mục 6. Khác Diff-replace ở chỗ có nút cũ + văn bản cũ làm tham chiếu và có quyết định giữ nút không đổi.
+
+**Phạm vi nút lân cận của cơ chế 3 (ba mức):**
+1. Chỉ nút của chunk đổi.
+2. **Nút của chunk đổi + nút kề trước và kề sau trong chuỗi `TIẾP_THEO` của cùng `Cell` (đang chọn mức này)**; đủ để chỉnh `end_time` và sửa chuỗi, kèm trần số nút mỗi lượt (đề xuất 20).
+3. Cả `Cell`.
+
+Chỉ chuyển sang mức 3 nếu mức 2 bỏ sót nhiều (đo bằng nút lỗi thời còn sót).
+
 ## Ghi chú: cơ chế 1 sẽ thử thêm bằng agentic search với vector (2026-11-19, làm sau)
 
 Câu cơ chế 1 (gold chunk trùng chunk sửa) và bộ `mech3` sẽ được thử thêm bằng **agentic search chỉ dùng vector** (agent tự gọi truy xuất vector nhiều lần), ngoài các phương pháp cố định. Chưa thiết kế, chưa chạy.
@@ -221,3 +240,24 @@ Câu cơ chế 1 (gold chunk trùng chunk sửa) và bộ `mech3` sẽ được 
 - **Thinking tắt cho mọi lần chạy** (chốt 2026-11-17, nhắc lại 2026-11-20): `deepseek-v4.1-flash` qua OpenCode chỉ cần `thinking: disabled`; `hy4-flash-free` bỏ qua trường đó, cần `reasoning_effort: none`. Mô hình agent giữ `deepseek-v4.1-flash` để so sánh được với các lần chạy cũ (g, h, i).
 - **Giới hạn OpenCode** hôm 20/11 khoảng 50 yêu cầu mỗi phút; dùng 20 luồng, chuẩn bị chạy bù khi có `llm_error` (mất kết nối). Chi tiết ở mục 7 của `eval/12`.
 - Chưa làm (đã bàn, chờ): module diff và bước cập nhật của cơ chế 3, nạp thử bản cũ vào kho riêng (cần người dùng cho phép), chạy lại g và h trên 619 câu, agent cho cơ chế 1 (text, text + vector) và câu giá trị cần prompt khác `v5`.
+
+## Pilot cơ chế 3: dựng trạng thái graph cũ cho 20 trang tune (2026-11-21, đã chạy)
+
+**Chốt cách chạy:** bốn bước chung cho cả ba hệ: (1) diff chunk, (2) cập nhật nút (khác nhau theo hệ), (3) gộp trùng cấp trang (chạy lại quy tắc, chỉ phán quyết cặp mới bằng LLM), (4) ghi lại graph cả trang. Vector không cần dựng bản cũ: cả ba hệ ghi đè theo `chunk_id` và kết thúc ở bản `real`; chỉ cần nếu cơ chế 3 cập nhật mốc thời gian của chunk (chưa làm).
+
+**Mẫu** (`scripts/m3_select_pilot.py`, seed 20261121, ra `dataset/organized/m3_state/tune/pilot.json`): 20 chỗ sửa trên 20 trang (một chỗ mỗi trang), 5 mỗi loại C/E/F/A, chỉ lấy chỗ sửa có ít nhất một câu cơ chế 2 đích (gold event có bằng chứng ở chunk sửa, cùng năm với sự kiện sửa). Ứng viên: C 11, E 6, F 11, A 10. Câu cơ chế 2 trên 20 trang: **79** (đích 23, cùng chunk 8, cùng trang 48); câu đích theo loại câu: list 11, order_gap 5, summary 4, first_last_next 3. Bộ `mech3` không dùng trong pilot (vector ba hệ giống nhau nên không phân biệt được ba hệ); câu cơ chế 1 trùng chunk sửa chỉ khoảng 3 câu.
+
+**Cách dựng bản cũ** (`scripts/m3_build_old.py`): văn bản trang cũ = trang `real` với chunk sửa thay bằng bản `@past`; chỉ **cửa sổ ingest chứa chunk sửa** (mục, cắt từng khúc 8 chunk từ đầu mục) được trích lại bằng **prompt 10b nguyên bản** (`pass3_p10b_oc.py`, exec bản vá chỉ lọc cửa sổ, file gốc không đổi); các cửa sổ khác dùng lại mốc thô `real`; chạy lại gộp cấp trang (cặp cũ lấy verdict đã lưu theo nội dung; cặp mới gọi `PAIR_PROMPT` của `local/ingest_eval/judge.py`, 25 cặp mỗi lượt). Mô hình `opencode_deepseek_flash`, **thinking tắt**, cache riêng `data/llm_cache/m3_ingest_nothink/`, `m3_pair_nothink/`. Cùng prompt và cùng điều kiện thinking với graph `real` (xem `pending/02` mục "Cache và thinking"), nên trạng thái cũ mô phỏng đúng cách graph thật được dựng.
+
+**Đã chạy:** 20 lượt trích cửa sổ (0 lỗi, 77 giây, trung vị 10,7 giây, 1.188 token ra) + 6 lượt gộp cặp = **26 lượt**. Kiểm trước không LLM: bản cũ của 20 trang chỉ khác `real` ở chunk sửa (20/20); thay mốc cửa sổ bằng chính mốc `real` rồi chạy gộp tái tạo đúng nút `real` ở 20/20 trang. Ra 1.098 nút cũ (`m3_state/tune/old/nodes/`), nạp vào **container Neo4j riêng `tam-neo4j-m3`** (cổng 7688, dữ liệu `data/neo4j_m3`); kho `real` (cổng 7687, 24.522 nút) không đổi. Neo4j bản Community chỉ có một database và ràng buộc duy nhất trên `Page.page`, `Chunk.chunk_id`, `Event.node_id`, nên bản cũ không đặt cạnh `real` được trong cùng database. Log lệnh gọi: `local/m3/llm_calls_old_*.jsonl`.
+
+**Kiểm chất lượng trạng thái cũ** (so token của câu cũ/câu mới với nút trong chunk sửa, thô):
+- C: 5/5 trang có nút chứa năm cũ; 2/5 (Josep_Rull, First_Air_Group) còn nút chứa token của năm mới (có thể là sự kiện khác cùng năm, chưa đọc tay).
+- E: 5/5 trang không còn nút "đã kết thúc" của bản mới (đúng: bản cũ ghi "còn tiếp diễn").
+- F: 4/5 trang có nút chứa giá trị sai (Scariolo, CBSs, Trinity, Hsinchu); Fulk_King_of_Jerusalem: câu cũ và mới không khác từ nào đủ 3 ký tự nên chỉ báo vô hiệu, chưa biết.
+- A: nút gần như không đổi nhưng lệch 0 đến 5 nút mỗi trang (nhiễu nền của lần trích lại, cùng prompt và cùng thinking tắt; Michael_Batty 5, các trang khác 0 đến 1). Kết quả ba hệ ở trang loại A nên đọc kèm mức này.
+- Ba trang cần đọc tay nếu muốn chắc: Fulk, Josep_Rull, First_Air_Group. Chưa làm.
+
+**Đáp án để chấm** chỉ số trạng thái (nút lỗi thời sót, nút đóng nhầm, nút đổi thừa): đề xuất dùng kết quả trích lại cửa sổ `real` cùng điều kiện (chính là đầu ra Window-replace) thay vì graph `real` lưu sẵn, để không lẫn nhiễu giữa các lần chạy LLM. Chưa chốt.
+
+**Chưa làm:** bộ lọc trang theo tập cho công cụ agent (cờ danh sách trang cho phép, áp cho text và graph) để kho cơ chế 3 tách biệt; ba hệ; prompt cập nhật của cơ chế 3 (cần viết mới, tiếng Anh); các cấu hình cố định (g, h, i...) trên kho cơ chế 3 (chưa đọc `v9_fixed_eval.py` xem nhận được tham số collection/Neo4j chưa).
