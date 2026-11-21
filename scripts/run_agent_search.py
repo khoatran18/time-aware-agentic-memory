@@ -64,7 +64,7 @@ def main() -> None:
     ap.add_argument("--track-hint", action="store_true", help="timeline: tiêu đề nêu số sự kiện mỗi track, mô tả công cụ nhắc lọc theo track")
     ap.add_argument("--normalize-page-names", action="store_true", help="timeline: chuẩn hóa tên trang theo luật đặt tên của graph")
     ap.add_argument("--max-neighbors", type=int, default=5, help="trần `neighbors` của read_chunk (mặc định 5)")
-    ap.add_argument("--kind", choices=["A", "B"], default="A", help="A = text thuần (grep/read_page); B = kho Qdrant (vector_search/read_chunk)")
+    ap.add_argument("--kind", choices=["A", "B", "C"], default="A", help="A = text thuần (grep/read_page); B = kho Qdrant (vector_search/read_chunk); C = B + text (đủ text, vector, và graph nếu thêm --graph)")
     ap.add_argument("--collection", default="", help="kiểu B: tên collection Qdrant; mặc định tam_chunks_dev_<split> theo split của các câu hỏi")
     ap.add_argument("--k-cap", type=int, default=50, help="kiểu B: trần cứng của k trong vector_search")
     ap.add_argument("--graph", action="store_true", help="kiểu B: thêm công cụ graph (timeline, events_of_chunk) trên Neo4j; graph hiện chỉ có 35 trang")
@@ -93,11 +93,14 @@ def main() -> None:
     run_dir = setup_logging(cfg)
     role = cfg.llm.roles.agent
     session_header = cfg.llm.profiles[role].get("session_header")  # vd OpenCode Go: x-opencode-session
+    default_cache = str(ROOT / "data/llm_cache/agent")
     if args.no_thinking:
         prof = cfg.llm.profiles[role]
         prof._data["extra_body"] = {**(prof.get("extra_body") or {}), "thinking": {"type": "disabled"}}
-        if args.cache_dir == str(ROOT / "data/llm_cache/agent"):
+        if args.cache_dir == default_cache:
             args.cache_dir = str(ROOT / "data/llm_cache/agent_nothink")
+    if args.kind == "C" and args.cache_dir in (default_cache, str(ROOT / "data/llm_cache/agent_nothink")):
+        args.cache_dir += "_C"   # kiểu C có bộ công cụ khác: cache riêng, không trộn với A/B (khóa cache không chứa danh sách công cụ)
     llm = get_llm_for_role(cfg, "agent")
     cases = json.loads(Path(args.subset).read_text(encoding="utf-8"))["cases"]
     rng = random.Random(args.seed)
@@ -113,13 +116,23 @@ def main() -> None:
     chosen = [(pos, picked[pos - 1]) for pos in positions]
     profile = cfg.llm.profiles[role]
     cache = None if args.no_cache else SqliteCache(Path(args.cache_dir) / "cache.sqlite", refresh=args.refresh_cache, threadsafe=True)
-    tools = text_tools(corpus) if args.kind == "A" else build_vector_tools(cfg, [c for _, c in chosen], args)
+    if args.kind == "A":
+        tools = text_tools(corpus)
+    else:
+        tools = build_vector_tools(cfg, [c for _, c in chosen], args)
+        if args.kind == "C":
+            tools = tools + text_tools(corpus)
     agent = AgentLoop(llm, tools, load_system_prompt(args.t_now, args.prompt), budget_notice=not args.no_budget_notice, cache=cache,
                       cache_model=str(profile.get("cache_model") or profile.get("model_id") or role), cache_salt=args.repeat_id, max_steps=args.max_steps, max_total_tokens=args.max_tokens,
                       stream=not args.no_stream, model_name=role, log_prompts=args.log_prompts,
                       request_headers=(lambda qid: {session_header: f"{run_dir.name}-{qid}"}) if session_header else None)
     logger.info("Chạy %d câu, role agent=%s, prompt=%s, budget_notice=%s, max_steps=%d, cache=%s (repeat_id=%s), %d trang trong kho text", len(chosen), role,
                 args.prompt, not args.no_budget_notice, args.max_steps, "tắt" if cache is None else args.cache_dir, args.repeat_id, len(corpus.pages))
+
+    (run_dir / "run_meta.json").write_text(json.dumps(dict(
+        kind=args.kind, graph=args.graph, tools=[t.name for t in tools], thinking="tắt" if args.no_thinking else "theo profile", role=role,
+        model=str(profile.get("model_id")), prompt=args.prompt, subset=args.subset, n_cases=len(chosen), workers=args.workers, max_steps=args.max_steps,
+        k_cap=args.k_cap, hide_time=args.hide_time, cache_dir=None if cache is None else args.cache_dir, t_now=args.t_now), ensure_ascii=False, indent=1), encoding="utf-8")
 
     def run_one(item):
         i, case = item
