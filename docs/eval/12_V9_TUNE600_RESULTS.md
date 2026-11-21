@@ -150,3 +150,28 @@ Theo loại, exact (a / b / d / f / f′ / f″ / g / h / i): `list` 0,635 / 0,6
 5. **Thời gian không so được giữa cấu hình và giữa các tập:** năm tiến trình chạy cùng lúc, d, f, f′, f″ chỉ có 10 luồng (tổng 1.100 s), nên thời gian chờ LLM lẫn tải. Độ trễ một lần gọi 3 đến 5 s là sàn cố định theo thời gian chờ token đầu tiên.
 
 Thư mục thô (chỉ có trên máy): a, b `output/20261117_175918`; d, f, f′, f″ `output/20261117_180117`; g (agent A) `output/20261117_175808_3`; h (agent B) `output/20261117_175808_2`; i (agent B + graph) `output/20261117_175808`. Mỗi thư mục có `run_meta.json`, `prompts.jsonl`, `system_prompt.txt`, `llm_calls.jsonl`, `results.jsonl`; agent thêm `agent_trace.jsonl`, `tool_texts.jsonl`, `agent_calls.jsonl`.
+
+## 7. Agent kiểu C (text + vector + graph) trên tune 619 câu (2026-11-20, thinking tắt)
+
+Thêm cấu hình **C**: agent có đủ ba nhóm công cụ (text `list_pages`/`grep`/`read_page`, vector `vector_search`/`read_chunk`, graph `timeline`/`events_of_chunk`). Cài bằng `--kind C` (kiểu A và B không đổi); mỗi lần chạy ghi thêm `run_meta.json` (kiểu, công cụ, thinking, mô hình, prompt, bộ câu, luồng, cache). Prompt `agent_v5.md` giữ nguyên (không nêu tên công cụ). Mô hình `deepseek-v4.1-flash` qua OpenCode, `extra_body: {thinking: {type: disabled}}` (đủ với model này, không cần `reasoning_effort`). Cache riêng `data/llm_cache/agent_nothink_C/` (khóa cache có `tools_key`, nên không lẫn với A/B).
+
+Lệnh: `python3 scripts/run_agent_search.py --subset dataset/eval/v9_graph_tune_subset.json --n 1000 --prompt v5 --workers 20 --no-thinking --kind C --graph --normalize-page-names` (chạy hai lượt: lượt sau chạy bù các câu `llm_error`, lấy phần đã xong từ cache). Thư mục kết quả cuối: `output/20261120_172436` (619/619 `answer`, 0 `llm_error`).
+
+| Cấu hình | exact | F1 | `first_last_next` | `list` | `order_gap` | `summary` | token vào/câu | lượt/câu | USD (619 câu) |
+|---|---|---|---|---|---|---|---|---|---|
+| **C** | **0,869** | 0,940 | 0,883 | 0,824 | 0,975 | 0,723 | 10.630 | 3,16 | khoảng 0,39 |
+| i (agent B + graph, 17/11) | 0,864 | 0,945 | 0,895 | 0,814 | 0,981 | 0,662 | 7.627 | 2,50 | 0,38 |
+
+**Nhận xét.**
+1. C chỉ ngang i (hơn 0,5 điểm exact, kém 0,5 điểm F1, trong khoảng dao động của một lần chạy); hơn ở `summary` (+6 điểm trên 65 câu), kém nhẹ ở `first_last_next`. Thêm công cụ text vào agent vector + graph không cải thiện đáng kể.
+2. **Không tiết kiệm token:** C tốn thêm khoảng 39% token vào và 0,66 lượt mỗi câu so với i (7 công cụ làm prompt dài hơn). USD gần bằng nhau vì khoảng 72% token vào là cache của nhà cung cấp (giá 0,003/triệu). Với trục chi phí là token thô, i vượt C. Có 79 câu dùng đủ 5 lượt.
+3. Trên 311 câu chung (C đã trả lời xong lúc dở dang, g và h trên 600 câu cũ): C 0,852, i 0,849, h 0,778, g 0,778. g, h chưa đo lại trên 619 câu và kho nạp bù 97 chunk.
+4. `cov_ch` của C (0,845) không so được với i (0,992): chỉ số dựa vào id `/wiki/X#n`, trong khi công cụ text dùng `[#n]` theo tên trang.
+
+**Giới hạn tốc độ OpenCode và lỗi mạng (ghi để chạy lại đúng cách).**
+- Chạy 100 luồng: 158 lần 429 trên 88 lần thành công, 183 câu `llm_error` trước khi dừng (không dùng, `output/20261120_110804`). Chạy 30 luồng cũng vẫn 429.
+- Giới hạn nhìn thấy trong log hôm 20/11 là khoảng **50 yêu cầu mỗi phút** (mỗi phút đúng 50 lần thành công và khoảng 20 lần 429), không phải giới hạn số luồng. Ngày 17/11 cùng dịch vụ cho khoảng 190 lần mỗi phút (i, 30 luồng) với 4% là 429. Chưa rõ lý do (đổi giới hạn, theo hạn mức đã dùng, hay chặn tạm sau đợt 100 luồng). Dùng **20 luồng** trở xuống.
+- 429 được thư viện OpenAI thử lại (2 lần, chờ 1 đến 46 giây); không đổi nội dung đáp án nhưng làm số đo thời gian chứa thời gian chờ, nên không dùng thời gian lần này so tốc độ.
+- Lỗi nặng hơn là **mất kết nối** (`ConnectError`, 143 lần trong tổng 146 câu `llm_error` của lần 20 luồng đầu): agent không chờ mà dừng cả câu (`stop_reason = llm_error`, `src/tam/agents/loop.py`), thư viện chỉ thử lại 2 lần trong khoảng 1 giây. Lượt lỗi không được ghi cache; chạy lại đúng lệnh phát lại các lượt đã xong từ cache rồi gọi thật tiếp từ lượt lỗi (kiểm: câu chết ở lượt 2 chạy lại thành dãy cache, cache, gọi thật), nên chạy bù cho cùng kết quả như không bị gián đoạn.
+- **Một câu có thể treo vô hạn** (q535 treo hơn 7 phút) và chặn 85 câu sau, vì `pool.map` ghi `results.jsonl` theo thứ tự câu. Cách xử lý: dừng tiến trình rồi chạy lại (các lượt xong nằm trong cache). Chưa sửa mã (ví dụ đặt hạn chót cho mỗi lần gọi hoặc tăng số lần thử lại).
+- Neo4j (`tam-neo4j`) tắt sau khi khởi động lại máy; bật lại bằng `docker start tam-neo4j` trước khi chạy agent có graph.

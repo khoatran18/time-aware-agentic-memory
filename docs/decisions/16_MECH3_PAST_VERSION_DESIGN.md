@@ -214,3 +214,10 @@ Cùng quy trình với tune: sinh câu (`make_past_questions.py`) → LLM trả 
 ## Ghi chú: cơ chế 1 sẽ thử thêm bằng agentic search với vector (2026-11-19, làm sau)
 
 Câu cơ chế 1 (gold chunk trùng chunk sửa) và bộ `mech3` sẽ được thử thêm bằng **agentic search chỉ dùng vector** (agent tự gọi truy xuất vector nhiều lần), ngoài các phương pháp cố định. Chưa thiết kế, chưa chạy.
+
+## Cập nhật 2026-11-20: cấu hình agent và hạ tầng chạy (liên quan so sánh các hệ cơ chế 3)
+
+- Đã có agent kiểu C (text + vector + graph) trong `scripts/run_agent_search.py` (`--kind C`); kết quả trên tune 619 câu cơ chế 2 và cách chạy: `docs/eval/12_V9_TUNE600_RESULTS.md` mục 7. C ngang agent B + graph về exact (0,869 so với 0,864) nhưng tốn thêm khoảng 39% token vào; chưa là điểm trên biên Pareto khi chi phí tính bằng token.
+- **Thinking tắt cho mọi lần chạy** (chốt 2026-11-17, nhắc lại 2026-11-20): `deepseek-v4.1-flash` qua OpenCode chỉ cần `thinking: disabled`; `hy4-flash-free` bỏ qua trường đó, cần `reasoning_effort: none`. Mô hình agent giữ `deepseek-v4.1-flash` để so sánh được với các lần chạy cũ (g, h, i).
+- **Giới hạn OpenCode** hôm 20/11 khoảng 50 yêu cầu mỗi phút; dùng 20 luồng, chuẩn bị chạy bù khi có `llm_error` (mất kết nối). Chi tiết ở mục 7 của `eval/12`.
+- Chưa làm (đã bàn, chờ): module diff và bước cập nhật của cơ chế 3, nạp thử bản cũ vào kho riêng (cần người dùng cho phép), chạy lại g và h trên 619 câu, agent cho cơ chế 1 (text, text + vector) và câu giá trị cần prompt khác `v5`.
