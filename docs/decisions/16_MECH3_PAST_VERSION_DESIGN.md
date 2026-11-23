@@ -261,3 +261,389 @@ Câu cơ chế 1 (gold chunk trùng chunk sửa) và bộ `mech3` sẽ được 
 **Đáp án để chấm** chỉ số trạng thái (nút lỗi thời sót, nút đóng nhầm, nút đổi thừa): đề xuất dùng kết quả trích lại cửa sổ `real` cùng điều kiện (chính là đầu ra Window-replace) thay vì graph `real` lưu sẵn, để không lẫn nhiễu giữa các lần chạy LLM. Chưa chốt.
 
 **Chưa làm:** bộ lọc trang theo tập cho công cụ agent (cờ danh sách trang cho phép, áp cho text và graph) để kho cơ chế 3 tách biệt; ba hệ; prompt cập nhật của cơ chế 3 (cần viết mới, tiếng Anh); các cấu hình cố định (g, h, i...) trên kho cơ chế 3 (chưa đọc `v9_fixed_eval.py` xem nhận được tham số collection/Neo4j chưa).
+
+## Kết quả pilot ba hệ trên tune (2026-11-21, một lần chạy mỗi hệ)
+
+**Phạm vi.** 19 chỗ sửa trên 19 trang (đã bỏ Fulk_King_of_Jerusalem: chunk đổi không có nút nào ở bản cũ vì sự kiện đã nằm ở chunk 0, nên chỗ sửa không tác động lên graph; lý do ghi ở mục `excluded` của `pilot.json`). 76 câu cơ chế 2, trong đó 72 câu nằm trong bộ `v9_graph_tune_subset.json` (4 câu của Carl_August không có trong bộ này), ghi ở `dataset/organized/m3_state/tune/subset.json`. Mã: `scripts/m3_diff.py` (bước 1), `m3_window_replace.py`, `m3_diff_replace.py`, `m3_update_prompt.py` + `m3_llm_update.py` (cơ chế 3), `m3_state_metrics.py`, `m3_agent_by_group.py`. Mọi lượt LLM: `deepseek-v4.1-flash` qua OpenCode, thinking tắt, cache riêng (`m3_ingest_nothink`, `m3_diffrep_nothink`, `m3_pair_nothink`, `m3_update_nothink`, `agent_m3_nothink`).
+
+**Ba hệ.** Bốn bước chung (diff chunk, cập nhật nút, gộp trùng cấp trang, tính lại `node_id` và ghi trang); chỉ bước 2 khác. Mỗi hệ bắt đầu từ cùng trạng thái cũ (`m3_state/tune/old`).
+- Window-replace: thay mốc cả cửa sổ 8 chunk bằng mốc trích bản mới. Trong pilot lấy mốc từ ingest `real` đã lưu (cùng prompt, cùng thinking tắt, cùng cửa sổ), kết quả trùng nút `real` 20/20 trang.
+- Diff-replace: trích lại chỉ chunk đổi (prompt 10b nguyên bản, 7 chunk kia gắn `(context only)`), bỏ mốc của chunk đổi, giữ mốc các chunk khác.
+- Cơ chế 3: một lượt LLM mỗi chỗ sửa, nhận chunk đổi bản cũ và bản mới, chunk khác trong cửa sổ làm context, nút cũ mức 2 (tối đa 20); trả về `edit` / `close` / `invalidate` / `add`; mã kiểm (bằng chứng và quote phải nằm nguyên văn trong bản mới, ngày hợp lệ, số có trong chunk). `close` đặt `end_time`, `invalidate` đặt `invalidated_at`, `add` thêm nút mới. Lần chạy đầu (4 chỗ) loại C bị `edit` thay vì `invalidate` cộng `add`; đã siết prompt (`edit` chỉ cho đổi cách diễn đạt, đổi ngày hay giá trị là `invalidate` cộng `add`; mốc kết thúc có `phase` `end`) rồi chạy đủ 20 chỗ. Bước 3 của cơ chế 3 trong pilot mới chỉ loại trùng theo `node_id`, chưa gộp cặp bằng LLM giữa mốc `add` và nút cũ.
+
+**Chỉ số trạng thái** (`m3_state_metrics.py`, không gọi LLM; so quote và giá trị cũ/mới của chỗ sửa với nút ở chunk đổi). `stale_open`: nút còn mang giá trị cũ mà không bị đóng hay vô hiệu; `new_present`: có nút mang giá trị mới; `lost_other` và `added_other`: nút ngoài chunk đổi bị mất hoặc mới xuất hiện (đổi thừa).
+
+| hệ | còn giá trị cũ (mở) | nút cũ đã đánh dấu | có giá trị mới (/19) | nút mất ngoài chỗ sửa | nút thêm ngoài chỗ sửa |
+|---|---|---|---|---|---|
+| bản cũ (đối chứng) | 15 | 0 | 3 | 0 | 0 |
+| Window-replace | 0 | 0 | 18 | 20 | 19 |
+| Diff-replace | 0 | 0 | 18 | 1 | 5 |
+| Cơ chế 3 | 1 | 10 | 17 | 0 | 0 |
+
+Ghi chú: cột "nút cũ đã đánh dấu" đếm nút còn mang giá trị cũ nhưng có `invalidated_at` hoặc `end_time` (chỉ số đếm theo giá trị cũ, nên không bằng tổng nút bị đánh dấu); trong kho m3 sau khi nạp cơ chế 3 có 9 nút `invalidated_at` và 2 nút `end_time`. Đổi thừa của Window-replace chủ yếu là nhiễu khi trích lại cả cửa sổ: nút ở 7 chunk không đổi đến từ một lần trích khác với bản cũ (so với bản cũ). Số này cần đọc là "nhiễu khi trích lại cả cửa sổ", không phải lỗi thay thế. Hạn chế của chỉ số: không phân biệt "đánh dấu đúng" với "đánh dấu nhầm", loại A khó đo (quote trùng cả hai câu; tune-139 không thể đo), giá trị cũ F so theo tên.
+
+**Đọc tay các trang nghi vấn.** Fulk: bỏ (xem trên). Josep_Rull và First_Air_Group: các token năm mới còn thấy ở bản cũ là của sự kiện khác (bầu cử, xét xử; Stenfeldt, colonel), không phải nút bị sửa; cả ba hệ xử lý chỗ sửa đúng. Cơ chế 3 để `phase` `point` cho mốc `add` của Josep_Rull, còn graph real và Diff-replace ghi `end`.
+
+**Chi phí cập nhật (bước 2 và gộp cặp, 20 chỗ sửa gồm Fulk; log lệnh gọi không gắn trang nên không tách Fulk ra).** Giá dùng như `scripts/score_agent_runs.py`: vào 0,15, cache 0,003, ra 0,60 USD mỗi triệu token (giờ thấp điểm). Không có token cache nhà cung cấp trong các lượt này (`cached_input_tokens` = 0).
+
+| hệ | lượt LLM | token vào | token ra | USD |
+|---|---|---|---|---|
+| Window-replace, đo thật (dùng mốc `real` lưu sẵn) | 0 | 0 | 0 | 0 |
+| Window-replace, ước lượng nếu chạy lại (cùng 20 cửa sổ, lượt trích cửa sổ bản cũ) | 20 | 51.963 | 23.906 | 0,0221 |
+| Diff-replace: trích | 20 | 52.302 | 9.131 | 0,0133 |
+| Diff-replace: gộp cặp mới | 8 | 4.483 | 458 | 0,0009 |
+| Diff-replace: tổng | 28 | 56.785 | 9.589 | 0,0142 |
+| Cơ chế 3 (prompt cuối) | 20 | 50.817 | 2.751 | 0,0093 |
+| Cơ chế 3, 4 lượt thử với prompt đầu (phát triển, không tính vào so sánh) | 4 | 10.283 | 545 | 0,0019 |
+
+Log ingest `real` (`llm_calls_ingest_p10b_*.jsonl`) không ghi trang hay cửa sổ nên không đọc riêng được 19 cửa sổ; con số ước lượng của Window-replace lấy từ lượt trích cửa sổ bản cũ (cùng prompt, cùng cửa sổ, 20 lượt đo thật). Cơ chế 3 có ít token ra nhất (khoảng 138 mỗi chỗ sửa so với 1.195 của Window-replace và 457 của Diff-replace) vì chỉ phải nêu quyết định.
+
+**Agent C trên 72 câu** (`--kind C --graph --prompt v5`, thinking tắt, 10 luồng cho Window-replace, 5 luồng cho hai hệ sau; Neo4j m3 cổng 7688 qua `--neo4j-url`; text và graph chỉ thấy 19 trang qua `--pages-file`; graph ẩn nút `invalidated_at` và ghi `(ended ...)` qua `--show-state`). Thư mục output: `20261121_125054` (Window-replace), `20261121_135241` (Diff-replace), `20261121_142450` (cơ chế 3). Không lỗi, không phải chạy lại.
+
+| | Window-replace | Diff-replace | Cơ chế 3 |
+|---|---|---|---|
+| exact (72 câu) | 0,931 (67) | 0,903 (65) | 0,931 (67) |
+| F1 | 0,973 | 0,967 | 0,974 |
+| nhóm đích (21) | 19 | 17 | 18 |
+| nhóm cùng chunk (6) | 6 | 6 | 6 |
+| nhóm cùng trang (45) | 42 | 42 | 43 |
+| loại C (24) / E (14) / F (19) / A (15) | 22 / 14 / 18 / 13 | 21 / 13 / 18 / 13 | 23 / 13 / 18 / 13 |
+| lượt LLM của agent (tổng, 72 câu) | 230 | 218 | 226 |
+| lượt gọi công cụ | 229 | 213 | 225 |
+| token vào (trong đó cache nhà cung cấp) | 804.799 (519.424) | 755.068 (390.528) | 775.097 (448.128) |
+| token ra | 20.646 | 19.494 | 20.330 |
+| USD (72 câu) | 0,0568 | 0,0675 | 0,0626 |
+
+Câu sai chung cả ba hệ: Good_Game_TV_program:0, Lenin_Peak:3, Michael_Batty:4, Real_Madrid_Baloncesto:0. Window-replace sai thêm Stefan_He_e:3; Diff-replace sai thêm First_Air_Group:6 và Marc_Bohan:3; cơ chế 3 sai thêm Marc_Bohan:3. Ghi chú đo: cache LLM cục bộ của agent dùng chung cho cả ba hệ (khóa gồm toàn bộ tin nhắn, kể cả kết quả công cụ), nên câu mà ba hệ trả kết quả công cụ giống nhau được phát lại; số token của các câu phát lại lấy từ lần gọi thật đầu tiên. Số câu phát lại hoàn toàn từ cache cục bộ: 5 (Window-replace), 19 (Diff-replace), 25 (cơ chế 3), nên chênh USD giữa các hệ phần nào phản ánh thứ tự chạy và mức cache nhà cung cấp, không chỉ chất lượng graph.
+
+**Kết luận tạm.** (1) Về độ chính xác của agent, ba hệ gần như bằng nhau (65 đến 67 trên 72, chênh 2 câu); mẫu nhỏ và mỗi hệ một lần chạy nên không đủ kết luận hệ nào hơn. (2) Khác biệt thật nằm ở trạng thái và chi phí cập nhật: Window-replace đổi thừa nhiều nhất (39 nút) và tốn nhiều token ra nhất nếu chạy lại; Diff-replace đổi thừa ít (6 nút) và tốn ít hơn; cơ chế 3 không đổi thừa, ít token ra nhất, và là hệ duy nhất giữ lại nút cũ được đánh dấu vô hiệu hay đã kết thúc. (3) Bộ 72 câu cơ chế 2 và agent C quá dễ để phân biệt các hệ; muốn thấy khác biệt thật cần câu hỏi trực tiếp về trạng thái cũ/mới hoặc các cấu hình cố định g/h/i.
+
+**Chưa làm (đã làm sau, xem mục cuối; g, h, i là agent, cấu hình cố định là f, f′, f″).** Chạy các cấu hình cố định cho ba hệ: cần lọc nút `invalidated_at` trong `TimelineRetriever` (hiện chỉ agent đọc được `--show-state`); `v9_fixed_eval.py` mới thêm biến `NEO4J_URL`. Đọc dấu vết các câu sai khác nhau (Stefan_He_e:3, Marc_Bohan:3, First_Air_Group:6). Bước 3 đầy đủ cho cơ chế 3 (gộp cặp bằng LLM giữa mốc `add` và nút cũ). Phân biệt "đánh dấu đúng" với "đánh dấu nhầm" trong chỉ số trạng thái.
+
+### Mở rộng 40 chỗ sửa mới và đọc tay cơ chế 3 (2026-11-21, 5 luồng, một lần chạy mỗi hệ)
+
+**Đọc tay 19 chỗ pilot (cơ chế 3):** 9 nút `invalidate` đều đúng (nút mang giá trị cũ); 14 mốc `add` đều có `quote` nằm nguyên văn trong bản mới. Lệch: Marc_Bohan (`close` một nút "được mời làm việc" bằng ngày rời hãng 1958), Hasselhoff (đổi CBS thành NBC bằng `edit`, đáng lẽ `invalidate` cộng `add`), MS_GNV_Azzurra (bỏ sót, nút cũ còn `quote` của câu cũ); ba mốc `add` để `phase` `point` thay vì `end`. Bước 3 đầy đủ (`--dedup`: ghép cặp mốc `add` với nút cũ qua cổng, phán quyết bằng prompt gộp cặp, `same` thì bỏ mốc `add` và hợp chunk nguồn): trên 19 chỗ có 1 cặp qua cổng, 0 gộp; trên 40 chỗ mới có 4 lượt gộp cặp (xem số trong bảng).
+
+**Đợt mở rộng** (`M3_STATE_NAME=m3_state_ext`, `scripts/m3_select_pilot.py --any-edit --exclude-state m3_state`, seed 20261122): 40 chỗ sửa trên 40 trang tune khác (10 mỗi loại C/E/F/A); không đòi câu cơ chế 2 đích (chỉ 7 chỗ có), nên **không chạy agent**, chỉ đo trạng thái và chi phí cập nhật. Điều kiện cũ chỉ còn 14 ứng viên nên phải nới. Selftest 40/40; dựng bản cũ 39 lượt trích (1 trúng cache) + 19 lượt gộp cặp.
+
+| hệ (40 chỗ) | còn giá trị cũ (mở) | nút cũ đã đánh dấu | có giá trị mới | nút mất ngoài chỗ sửa | nút thêm ngoài chỗ sửa |
+|---|---|---|---|---|---|
+| bản cũ | 48 | 0 | 1 | 0 | 0 |
+| Window-replace | 1 | 0 | 36 | 42 | 41 |
+| Diff-replace | 1 | 0 | 36 | 4 | 5 |
+| Cơ chế 3 | 6 | 23 | 33 | 2 | 0 |
+
+Chỉ số trạng thái đo bằng quote và giá trị nên có báo động giả và bỏ sót với cơ chế 3 (U-96 đếm 4 nút trùng năm cũ là sự kiện khác; USS_LCS, Mary_Raine đã `invalidate` và `add` đúng nhưng chỉ số báo không có giá trị mới). Kiểm bằng quy tắc hành động (C: có `invalidate` và `add`; E: có mốc `end` hoặc `close`; F: có `add`; A: không `invalidate`/`close`/`add`): **38/40 đúng**; hai chỗ hỏng là F ở 44_Union_Square và Supreme_Council_of_the_Armed_Forces (đổi tên tổ chức/giá trị trong câu không có nút nào ở bản cũ, LLM trả rỗng). Số `edit` của cơ chế 3: C 1, E 5, A 15.
+
+| chi phí cập nhật, 40 chỗ | lượt LLM | token vào | token ra | USD |
+|---|---|---|---|---|
+| Window-replace, ước lượng (lượt trích bản cũ cùng cửa sổ) | 39 | 99.325 | 35.751 | 0,0363 |
+| Diff-replace (40 trích + 11 gộp cặp) | 51 | 111.232 | 17.170 | 0,0269 |
+| Cơ chế 3 (40 cập nhật + 4 gộp cặp) | 44 | 99.219 | 7.259 | 0,0192 |
+
+Thứ tự theo đổi thừa và token ra lặp lại như trên 19 chỗ: Window-replace lớn nhất (83 nút, 35.751 token ra), Diff-replace nhỏ (9 nút, 17.170), cơ chế 3 nhỏ nhất (2 nút, 7.259). Chi phí cơ chế 3 vẫn là cận dưới vì chưa tính phần ngoài mốc `add`.
+
+### Sửa prompt cơ chế 3 hai lần và bỏ `edit` (2026-11-21, chạy lại 59 chỗ = 19 pilot + 40 mới)
+
+Ba bản (kết quả lưu ở `mech3_v1`, `mech3_v2`, `mech3` trong `m3_state` và `m3_state_ext`; kiểm bằng `scripts/m3_action_check.py`, `m3_state_metrics.py`):
+- **v1:** prompt đầu. `edit` dùng cho cả đổi giá trị (Hasselhoff: CBS đổi NBC) và đổi nghĩa (E: "đang tiếp diễn" thành "đã kết thúc").
+- **v2:** siết `edit` (chỉ khi mọi ngày, số, tên giữ nguyên), thêm "đọc lại bản mới và `add` mọi sự kiện chưa có nút", quy tắc `phase` `end`. Kết quả: F không có nút cũ được xử lý (44_Union_Square, Supreme_Council có `add`) nhưng `edit` sai vẫn còn (E 5, Hasselhoff).
+- **v3 (đang dùng):** bỏ hẳn `edit` khỏi schema và mã; diễn đạt lại thì để nguyên nút (không liệt kê); đổi dù một ngày/số/tên là `invalidate` cộng `add`; kết thúc là `close` cộng `add`.
+
+| 59 chỗ | v1 | v2 | v3 |
+|---|---|---|---|
+| đúng quy tắc hành động (C: `invalidate`+`add`; E: `end` hoặc `close`; F: `add`; A: không đổi) | 56 | 58 | 58 |
+| `edit` ở C / E / F | 2 / 5 / 1 | 3 / 5 / 1 | 0 |
+| mốc `add` có `phase` `end` / `point` ở C | 2 / 9 | 3 / 8 | 4 / 11 |
+| chi phí cập nhật (lượt LLM, token vào, token ra, USD) | 62, 158.729 (gồm gộp cặp) *, 10.070, 0,0299 | 62, 158.729, 10.070, 0,0299 | 64, 146.328, 8.296, 0,0269 |
+
+(* v1 đo ở lượt trước trên 20+40 chỗ: 44 lượt cho 40 chỗ mới, xem bảng chi phí phía trên.) v3 sửa được Hasselhoff (`invalidate` cộng `add` đúng, `phase` `end`), Josep_Rull (`phase` `end`), và E dùng `close` thay vì `edit`. Còn hỏng 1 chỗ: 44_Union_Square (F, đổi tên tổ chức trong câu không có nút nào) trả rỗng.
+
+Chỉ số trạng thái theo loại: C, E, F không tệ hơn v2 (C ở đợt mở rộng: còn giá trị cũ 5 xuống 1, nút đã đánh dấu 10 lên 14). **Loại A "xấu đi" theo chỉ số** (pilot: còn giá trị cũ 1 lên 4, có giá trị mới 3 xuống 0; mở rộng: còn giá trị cũ 0 lên 15, có giá trị mới 10 xuống 0) vì chỉ số so `quote` với câu cũ/mới và nút diễn đạt lại không còn được cập nhật `quote`. Đây là hệ quả của việc bỏ `edit`: nút A vẫn đúng nghĩa nhưng `quote` lệch văn bản mới (agent đọc `text` và chunk nguồn nên không ảnh hưởng). Nếu cần `quote` khớp bản mới thì cập nhật `quote` bằng mã (không qua LLM) khi nút diễn đạt lại.
+
+**Sửa chỉ số loại A (chốt 2026-11-21).** `quote` của nút chỉ dùng để kiểm lúc ingest/cập nhật (chống bịa, bằng chứng của mốc `add`) và làm đầu vào cho prompt gộp cặp; công cụ agent và các cấu hình cố định không đọc `quote`. Bỏ `edit` làm `quote` của nút diễn đạt lại (loại A) còn là câu cũ, vẫn đúng nghĩa. Chỉ số loại A không còn so `quote`: `new_present` = tập (ngày, phase) các nút ở chunk đổi không đổi so với bản cũ; `stale_open` = 0 theo định nghĩa. Số cuối cùng của cơ chế 3 (prompt v3), 59 chỗ sửa:
+
+| hệ | còn giá trị cũ | nút cũ đã đánh dấu | đúng ở chunk đổi (/59) | nút mất ngoài chỗ sửa | nút thêm ngoài chỗ sửa |
+|---|---|---|---|---|---|
+| Window-replace | 1 | 0 | 53 | 62 | 60 |
+| Diff-replace | 1 | 0 | 52 | 5 | 10 |
+| Cơ chế 3 | 3 | 41 | 51 | 3 | 0 |
+
+(Diff-replace: mất 1 + 4 = 5, thêm 5 + 5 = 10; cơ chế 3: mất 1 + 2 = 3, thêm 0.) Ba nút còn giá trị cũ của cơ chế 3 ở đợt 40 chỗ cần đọc tay (có thể là báo động giả kiểu U-96).
+
+### Hạ tầng thêm cho thử cơ chế 3 và việc còn lại (2026-11-21)
+
+**Cờ và biến mới (mặc định tắt, hành vi chung không đổi; test hiện có vẫn qua):** `run_agent_search.py`: `--pages-file <file tên trang>` (text và graph chỉ thấy các trang này; lọc theo tên đã chuẩn hóa), `--neo4j-url <bolt>` (trỏ graph khác, ví dụ Neo4j m3 cổng 7688), `--show-state` (công cụ `timeline` ẩn nút có `invalidated_at`, ghi `(ended <ngày>)` cho nút có `end_time`). `v9_fixed_eval.py`: biến môi trường `NEO4J_URL`. `neo4j_store.py`: `upsert_page` lưu thêm `end_time`, `invalidated_at` nếu có; `cell_events` trả thêm hai cột. Các script m3 đọc `M3_STATE_NAME` (mặc định `m3_state`, đợt mở rộng dùng `m3_state_ext`) và `M3_WORKERS`. Một container Neo4j m3 (7688) dùng chung cho cả ba hệ, nạp lần lượt theo trang (không mỗi hệ một container).
+
+**Chưa làm / chưa chốt:**
+1. (Đã làm, xem mục cuối) Các cấu hình cố định f, f′, f″ cho ba hệ: lọc nút `invalidated_at`/`end_time` trong `TimelineRetriever` (hiện chỉ công cụ agent có `--show-state`).
+2. Đọc tay 3 nút còn giá trị cũ của cơ chế 3 ở đợt 40 chỗ (có thể là báo động giả) và chỗ F hỏng 44_Union_Square (trả rỗng).
+3. Chạy cả tune (203 trang): ước khoảng 600 lượt LLM cho ba hệ (trích bản cũ, Diff-replace, cơ chế 3, cộng gộp cặp); cần chọn bộ câu hỏi đo trạng thái trực tiếp, vì agent C trên 72 câu không tách được ba hệ (65 đến 67 trên 72).
+4. Cơ chế 3: chi phí 0,0269 USD cho 59 chỗ là cận dưới (gộp cặp giữa mốc `add` và nút cũ chỉ tốn vài lượt; chưa tính trường hợp chunk đổi nhiều câu). Phần `invalidated_at`/`end_time` chưa vào thiết kế docs/design.
+5. Chưa commit: `dataset/organized/m3_state/`, `m3_state_ext/`, các script `scripts/m3_*.py`, sửa `run_agent_search.py`, `v9_fixed_eval.py`, `neo4j_store.py`, `graph_tools.py`, `text_corpus.py`, `docs/decisions/16`.
+
+
+## Cấu hình cố định f, f′, f″ trên pilot, ba container (2026-11-21)
+
+**Nhãn:** g, h, i là agent (A, B, B + graph); cấu hình cố định là a, b, d, f (`graph`), f′ (`graph_tb`), f″ (`graph_tt`) (`docs/eval/12`). Các ghi chú trước đây gọi nhầm "cấu hình cố định g/h/i".
+
+**Hạ tầng.** Ba container Neo4j, mỗi hệ một cái: Window-replace `tam-neo4j-wr` (7689), Diff-replace `tam-neo4j-dr` (7690), cơ chế 3 `tam-neo4j-m3` (7688); `real` (7687) không đụng. Vector dùng chung `tam_chunks_dev_tune` (chỉ tìm trang và chunk vào). Cờ mới, mặc định tắt: `TimelineRetriever(state_filter)` (`STATE_FILTER=1`: bỏ nút `invalidated_at`, thêm `(ended <ngày>)` cho nút có `end_time`), `NODES_FILE=none` (không lọc theo danh sách nút; chấm theo ngày và text nên `node_id` mới không bị phạt), `NEO4J_URL`. Script: `local/m3/run_fixed.sh`, `scripts/m3_fixed_by_group.py`.
+
+**Thiết lập.** 72 câu pilot (bộ câu hỏi Cơ chế 2 trên 19 trang, gold của `real` = đích của cập nhật); thinking tắt, cache `reader_nothink`, 5 luồng; mỗi cấu hình một lần; 164 prompt khác nhau mỗi lần chạy; 0 lỗi.
+
+| Hệ | Lọc | f (`graph`) | f′ (`graph_tb`) | f″ (`graph_tt`) |
+|---|---|---|---|---|
+| Window-replace | không | 0,597 | 0,653 | 0,639 |
+| Window-replace | có | 0,611 | 0,653 | 0,639 |
+| Diff-replace | không | 0,597 | 0,639 | 0,667 |
+| Diff-replace | có | 0,583 | 0,639 | 0,653 |
+| Cơ chế 3 | không | 0,583 | 0,639 | 0,625 |
+| Cơ chế 3 | có | 0,611 | 0,694 | 0,639 |
+
+**Đọc kết quả.** Ba hệ lệch nhau 0 đến 0,06 (1 đến 4 câu trên 72), cùng mức với tune 600 của `real` (f′ 0,70, f″ 0,61 đến 0,66). Lọc chỉ có tác dụng với cơ chế 3 (pilot có 11 nút bị đánh dấu: 10 `invalidated`, 1 `end_time`; hai hệ kia 0), nhưng hai hệ kia vẫn lệch 1 câu giữa có/không lọc (nhiễu, chưa kiểm chứng nguyên nhân), nên mức tăng 4 câu của cơ chế 3 ở f′ chưa kết luận được. Theo nhóm câu, nhóm đích (21 câu) 0,48 đến 0,62 ở mọi hệ, thấp hơn nhóm cùng trang (0,60 đến 0,76). Gold `real` là đáp án đúng cho trạng thái sau cập nhật (bản cũ mô phỏng được cập nhật lên đúng bản `real`), nên dùng được; câu đích thấp ở cả Window-replace (tái tạo đúng nút `real`) nghĩa là các câu này vốn khó, không phải do cập nhật hỏng.
+
+**Chưa có:** agent A, B, B + graph (g, h, i) trên ba hệ; chỉ có agent C (xem mục pilot trên).
+
+
+## Chạy toàn bộ tune, ba hệ (2026-11-21)
+
+> **Đính chính (2026-11-24):** số của agent (e′, agent C) trên mech3 trong mục này đã được chấm lại sau khi sửa luật chấm; dùng bảng ở mục "Kiểm tra cách chấm và đọc tay lỗi" ở cuối file. Số cấu hình cố định không đổi (qid dùng chung ảnh hưởng tối đa ±3 câu ở tune).
+
+**Thiết lập.** 97 chỗ sửa trên tập tune; bản cũ dựng lại từ đầu (`M3_STATE_NAME=m3_state_full`), rồi cập nhật cũ → mới bằng ba hệ (Window-replace, Diff-replace, Cơ chế 3 có `--dedup`). Năm container: `tam-neo4j` 7687 (real = Window-replace, chỉ đọc), `tam-neo4j-old` 7689, `tam-neo4j-dr` 7690, `tam-neo4j-m3` 7688; vector dùng chung `tam_chunks_dev_tune` (chỉ chứa bản real). 3 luồng, thinking tắt (`opencode_deepseek_flash`), cache riêng, 429 chờ 40 s rồi thử lại (tối đa 8). Log đầy đủ: `local/m3/full/` (`manifest.tsv`, `run_full.log`, `RUN_INFO.md`, `<bước>.log`). Câu hỏi: timeline 334 câu (`subset.json`), mech3 160 câu (`subset_mech3.json`). Chỉ đo cấu hình **có đọc graph** (d, f, f′, f″, e′); agent C đầy đủ chỉ để tham chiếu vì vector/text chỉ có bản real nên không đo được graph.
+
+**Trạng thái graph (đọc thẳng Neo4j, không LLM).**
+
+| Hệ | nút cũ còn mở | đã đóng/vô hiệu | nút mới có | mất thừa | thêm thừa |
+|---|---|---|---|---|---|
+| Bản cũ | 60 | 0 | 24 | 0 | 0 |
+| Window-replace | 2 | 0 | 86 | 173 | 189 |
+| Diff-replace | 2 | 0 | 83 | 24 | 9 |
+| Cơ chế 3 | 3 | 57 | 83 | 12 | 0 |
+
+**Mech3 (160 câu), độ chính xác.** Cột e′ là agent chỉ có `timeline`, `events_of_chunk`, `list_pages` (`--graph-only`, prompt v6). "Có lọc" = ẩn nút `invalidated_at` và ghi "(ended …)" (`STATE_FILTER=1` cho cấu hình cố định; `--show-state` cho agent). Mọi lượt agent của ba hệ cũ/mới chạy **có** `--show-state` (Window-replace và Diff-replace không có nút đánh dấu nên cờ không đổi gì).
+
+| Hệ | d | f | f′ | f″ | e′ |
+|---|---|---|---|---|---|
+| Bản cũ | 0,388 | 0,388 | 0,325 | 0,300 | 0,419 (67/160) |
+| Window-replace | 0,813 | 0,831 | 0,594 | 0,550 | 0,781 (125/160) |
+| Diff-replace | 0,800 | 0,788 | 0,581 | 0,506 | 0,775 (124/160) |
+| Cơ chế 3, có lọc | 0,800 | 0,769 | 0,556 | 0,494 | 0,769 (123/160) |
+| Cơ chế 3, không lọc | 0,588 | 0,544 | 0,438 | 0,419 | 0,588 (94/160) |
+
+(Chấm lại 2026-11-24 bằng luật đã sửa: câu từ chối không tính đúng, qid dùng chung được ghép đúng câu. Số cũ lệch vài câu; xem mục cuối "Kiểm tra cách chấm". Luôn trả "No" đúng 73/160 = 0,456. Agent C tune 156/160 ở cả bốn hệ.)
+
+e′ Cơ chế 3 theo loại, có lọc / không lọc (chấm lại): C 32/15 (trên 38), F 25/13 (trên 33), E 39/38 (trên 45), A 27/28 (trên 44). Lọc chủ yếu cứu loại C và F (giá trị cũ / sai từ đầu); loại A (diễn đạt lại) không đổi.
+
+**Ghi chú về dòng "không lọc".** Dòng "Cơ chế 3, không lọc" ở các bảng chỉ là phép tắt thử (ablation), **bỏ qua khi so sánh ba hệ**: không lọc nghĩa là truy xuất phớt lờ các dấu `end_time`/`invalidated_at` mà chính cơ chế 3 tạo ra, nên sai là hệ quả tất yếu, không phản ánh chất lượng cập nhật. Hai hệ kia gần như không có nút đánh dấu nên bộ lọc không tác dụng với chúng. So sánh chính dùng dòng "có lọc". Giữ lại dòng này chỉ để cho thấy các dấu đánh dấu thật sự được dùng (e′ 0,769 so với 0,588).
+
+**Kết luận.** (1) Cơ chế 3 chỉ ngang Window-replace và Diff-replace khi phía truy xuất đọc `end_time`/`invalidated_at`; không lọc thì kém khoảng 0,1 đến 0,2 ở cả cấu hình cố định lẫn agent. Đánh dấu ở ingest chỉ có giá trị khi truy xuất dùng nó. (2) Không lọc vẫn hơn bản cũ (e′ 0,588 so với 0,419) vì đã thêm nút mới. (3) Window-replace và Diff-replace ngang nhau ở mech3, Cơ chế 3 có lọc kém Window-replace khoảng 0,00 đến 0,06 (f 0,769 so với 0,831; f′ 0,556 so với 0,594; f″ 0,494 so với 0,550); Diff-replace ít đổi thừa hơn rất nhiều (mất/thêm 24/9 so với 173/189) và Cơ chế 3 ít nhất (12/0).
+
+**Timeline cố định (334 câu), exact / F1.**
+
+| Hệ | d | f | f′ | f″ |
+|---|---|---|---|---|
+| Bản cũ | 0,644/0,799 | 0,641/0,798 | 0,668/0,822 | 0,611/0,778 |
+| Window-replace | 0,644/0,802 | 0,665/0,808 | 0,698/0,832 | 0,626/0,789 |
+| Diff-replace | 0,650/0,804 | 0,662/0,808 | 0,674/0,825 | 0,623/0,782 |
+| Cơ chế 3, không lọc | 0,656/0,804 | 0,650/0,801 | 0,671/0,830 | 0,623/0,784 |
+| Cơ chế 3, có lọc | 0,659/0,801 | 0,647/0,793 | 0,674/0,818 | 0,629/0,786 |
+
+Chênh giữa các hệ nhỏ (nhiều nhất 0,03, ở f′); bộ timeline gần như không phân biệt được ba hệ và không đo nhiễu nên không kết luận hơn kém. F1 lấy trung bình trên các hàng có trường `f1` (không tính `order_gap`).
+
+**Agent C đầy đủ (tham chiếu, không đo graph).** Timeline 334 câu exact/F1: bản cũ 0,850/0,939; Window-replace 0,880/0,944; Diff-replace 0,856/0,943; Cơ chế 3 0,853/0,942 (khoảng 10,6 đến 10,8 nghìn token vào mỗi câu). Mech3 160 câu: cả bốn hệ 155/160 (cùng 5 câu sai). Agent gọi `timeline` ở 13/160 câu (8%), 147 câu chỉ dùng vector/text; ở 71 câu loại C/F kết quả công cụ chứa giá trị mới 70 lần kể cả bản cũ. Lượt mech3 của ba hệ sau bản cũ chạy 12 đến 17 giây vì cache agent dùng chung (token không phải số đo thật).
+
+**Lưu ý.** Chênh 155 và 153 ở agent C đã được giải thích (xem mục cuối): lỗi ghép dòng của `m3_agent_tool_usage.py` và luật chấm câu từ chối; số đúng là 156/160 ở cả bốn hệ. `run_meta.json` của các lượt agent cũ không ghi `show_state` (đã thêm trường từ lượt e′ không lọc; cache `agent_m3_graphonly_nostate_nothink`). Lượt e′ không lọc: `output/20261121_220211`.
+
+**Chưa làm.** Chi phí cập nhật ở quy mô 97 chỗ (từ `local/m3/llm_calls_*_m3_state_full.jsonl`); đọc tay các lỗi của Cơ chế 3 (3 nút cũ còn mở, 57 nút đánh dấu, ca đóng nhầm như `tune-049`); e′ cho timeline (chưa chạy, theo quyết định timeline không cần e′); chưa commit.
+
+### e′ trên tập timeline và tổng hợp so sánh (2026-11-23)
+
+**Chạy.** e′ (agent chỉ có công cụ graph, `--graph-only`) trên 334 câu timeline, prompt v5, `--show-state` (có lọc), thinking tắt, 5 luồng, OpenCode `deepseek-v4.1-flash`, cache riêng `data/llm_cache/agent_m3_graphonly_tl_nothink`. Bốn hệ chạy tuần tự (Old 7689, Window-replace 7687, Diff-replace 7690, Cơ chế 3 7688), cả 4 hệ 334/334 câu `answer`, không có `error`/`max`. Script `local/m3/full/run_eprime_tl.sh`, log `run_eprime_tl.log`.
+
+| Hệ | exact | F1 | first_last_next (93) | list (124) | order_gap (84) | summary (33) |
+|---|---|---|---|---|---|---|
+| Old | 0,769 | 0,890 | 0,849 | 0,710 | 0,833 | 0,606 |
+| Window-replace | 0,790 | 0,886 | 0,817 | 0,718 | 0,917 | 0,667 |
+| Diff-replace | 0,784 | 0,889 | 0,849 | 0,718 | 0,893 | 0,576 |
+| Cơ chế 3 (có lọc) | 0,799 | 0,898 | 0,860 | 0,734 | 0,881 | 0,667 |
+
+Cả bốn hệ chênh nhau trong 0,03 (tối đa khoảng 10 câu trên 334), không có phép đo nhiễu, nên không kết luận hệ nào thắng. Cơ chế 3 không làm hỏng câu timeline dù giữ nút cũ có đánh dấu.
+
+**Cơ chế 3 có thắng không.** Không. Đếm cấu hình có Cơ chế 3 (có lọc) cao nhất theo exact:
+
+| Tập | Cơ chế 3 cao nhất |
+|---|---|
+| Timeline (d, f, f′, f″, e′) | 3/5 (d, f″, e′; Window-replace thắng f, f′), chênh 0,003 đến 0,013 (1 đến 4 câu) |
+| Mech3 (d, f, f′, f″, e′) | 0/5 (Window-replace hoặc Diff-replace luôn ≥; e′ 0,812 so với 0,819) |
+
+Kết luận đúng: Cơ chế 3 **ngang** hai baseline khi truy xuất đọc dấu `end_time`/`invalidated_at`, và **ít đổi graph hơn nhiều** (mất/thêm 12/0 so với 173/189 và 24/9). Lợi thế nằm ở chất lượng graph và giữ lịch sử, không ở điểm QA.
+
+**Về dòng "không lọc".** Chỉ là phép tắt thử, không đưa vào so sánh ba hệ (xem ghi chú ở trên). Các bảng giữ dòng đó cho đầy đủ số liệu.
+
+**Token và thời gian (không dùng để so sánh).** Bốn hệ dùng chung một thư mục cache, nên các hệ chạy sau chủ yếu trúng cache và số token là số phát lại. Lượt gọi thật: Old 417, Cơ chế 3 378, Diff-replace khoảng 170 (975 bước trừ 795 trúng cache); Window-replace chưa đếm được (xem sự cố bên dưới). Tổng token vào/ra gần như bằng nhau (khoảng 2,2 triệu / 71 nghìn mỗi hệ).
+- **Thời gian có gồm 429.** SDK tự chờ rồi thử lại trong cùng một lượt gọi nên `e2e_s` và `ttft_s` gồm thời gian chờ. Hệ Old: trung vị `e2e` 2,1 giây nhưng trung bình 18,4 giây, 130 lượt trên 20 giây chiếm 93% tổng thời gian; Cơ chế 3: trung vị 2,4 giây, trung bình 6,1 giây, 62%. Các tổng như "llm_time 15,9 nghìn giây" chủ yếu là chờ 429, không so được giữa các hệ. Dùng trung vị `e2e` của lượt gọi thật (khoảng 2 giây) nếu cần thời gian một lượt. Chưa có trường tách riêng thời gian chờ thử lại.
+
+**Sự cố khi chạy.** (1) Bốn container Neo4j đã dừng sẵn, phải `docker start` lại. (2) Một lượt đầu 10 luồng không dừng hẳn và chạy chồng với lượt 5 luồng khoảng 25 phút, nên có một phần lượt gọi API bị trả hai lần (ước tính tối đa khoảng một lượt Old, dưới 1 USD theo giá 0,15/0,60). (3) Khi dọn tiến trình thừa tôi xóa nhầm thư mục `output/20261123_075510` của lượt Window-replace hợp lệ; kết quả được dựng lại bằng chạy lại từ cache (`output/20261123_081354`, 0 lần gọi API), và token/thời gian của hệ này dựng lại từ log `local/m3/full/eprime_tl_wr.log`.
+
+Thư mục kết quả e′ timeline: Old `20261123_072930`, Window-replace `20261123_081354`, Diff-replace `20261123_110044`, Cơ chế 3 `20261123_110327`. Cache và thinking: xem phần chạy ở trên.
+
+**Việc còn lại.** Chi phí cập nhật 97 chỗ (số lần gọi, token, USD); đọc tay 3 nút còn mở, 57 nút đánh dấu và các ca đóng nhầm (ví dụ `tune-049`); đối chiếu luật chấm agent C (155 so với 153); commit.
+
+### Chi phí (USD) của tune đầy đủ (2026-11-23)
+
+Giá: input 0,15, input đọc từ cache của API (`cached_input_tokens`, số API trả về, không phải cache cục bộ) 0,003, output 0,60 USD mỗi triệu token. Cache của API ở các lượt cập nhật đều bằng 0.
+
+**Cập nhật 97 chỗ sửa từ trạng thái cũ** (log `local/m3/llm_calls_*_tune_m3_state_full.jsonl`). Log chỉ ghi token của lượt **gọi thật**; 29 lượt trúng cache cục bộ (từ pilot) không có token trong log, nên cột "ước đủ 97" nhân số token trung bình mỗi lượt gọi thật với số lượt cần gọi.
+
+| Hệ | Bước | Lượt cần | Gọi thật | Token vào/ra đo được | USD đo được | Token vào/ra ước đủ | USD ước đủ |
+|---|---|---|---|---|---|---|---|
+| (nền) Dựng bản cũ | trích cửa sổ | 97 | 68 | 180.329 / 84.738 | 0,0779 | 257.300 / 120.900 | 0,111 |
+| | gộp cặp | 41 | 27 | (chung log với Diff-replace) | | 25.600 / 2.700 | 0,0055 |
+| Window-replace | trích cửa sổ (ước theo cửa sổ bản cũ) | 97 | – | không đo được | – | 257.300 / 120.900 | 0,111 |
+| | gộp cặp (ước theo bản cũ) | 41 | – | | | 25.600 / 2.700 | 0,0055 |
+| | **tổng** | | | | | | **khoảng 0,117** |
+| Diff-replace | trích chunk đổi | 97 | 68 | 181.735 / 27.605 | 0,0438 | 259.300 / 39.400 | 0,0625 |
+| | gộp cặp | 44 | 25 | | | 27.500 / 2.900 | 0,0059 |
+| | **tổng** | | | | | | **khoảng 0,068** |
+| Cơ chế 3 | quyết định (Update) | 97 | 68 | 167.725 / 10.345 | 0,0314 | 239.300 / 14.700 | 0,0447 |
+| | gộp cặp | 23 | 20 | 9.857 / 855 | 0,0020 | 11.300 / 1.000 | 0,0023 |
+| | **tổng** | | | 177.582 / 11.200 | **0,0334** | 250.600 / 15.700 | **khoảng 0,047** |
+
+- Cơ chế 3 rẻ nhất (ít token ra nhất, khoảng 150 mỗi chỗ sửa so với 1.250 của trích cả cửa sổ và 400 của Diff-replace); Diff-replace giữa; Window-replace đắt nhất (khoảng 2,5 lần Cơ chế 3). Cả ba dưới 0,12 USD cho 97 chỗ sửa.
+- **Window-replace không đo trực tiếp được.** Log ingest `real` (`local/ingest_eval/judge_out/llm_calls_ingest_p10b_*.jsonl`) không ghi trang hay cửa sổ (`query_id` là `-`) và là lượt chạy ngày 13 đến 15/11 (thinking có thể bật), nên không tách riêng được cửa sổ bị đổi. Số của Window-replace lấy từ lượt trích đúng các cửa sổ đó ở bản cũ (cùng prompt, cùng cửa sổ, chỉ khác chunk sửa), là ước lượng gần.
+- Mỗi bước trích dùng cùng cửa sổ đầu vào (khoảng 2.650 token), khác nhau ở output: nên chênh lệch giữa các hệ gần như hoàn toàn nằm ở token ra.
+
+**Agent e′ trên timeline (334 câu mỗi hệ)**, nếu gọi thật toàn bộ (token phát lại từ cache cục bộ, không phải số đã trả):
+
+| Hệ | Input | trong đó cache API | Output | USD |
+|---|---|---|---|---|
+| Old | 2.201.943 | 1.240.064 | 71.663 | 0,191 |
+| Window-replace | 2.204.360 | 1.292.032 | 71.831 | 0,184 |
+| Diff-replace | 2.195.515 | 1.204.352 | 71.473 | 0,195 |
+| Cơ chế 3 | 2.181.197 | 1.204.992 | 70.984 | 0,193 |
+
+Bốn hệ chênh nhau dưới 6%, không phân biệt được chi phí hỏi đáp giữa các hệ. Tiền thật đã trả thấp hơn vì chỉ lượt gọi thật bị tính.
+
+### Đọc tay lỗi của Cơ chế 3, tune đầy đủ (2026-11-23)
+
+Đọc 8 ca bị luật `m3_action_check.py` đánh dấu hỏng, 3 nút `stale_open` và vài ca `lost_other`/`new_present=0` (so đoạn sửa, nút LLM thấy, quyết định của LLM; không gọi LLM).
+
+| Nhóm | Ca | Nhận xét |
+|---|---|---|
+| Luật báo nhầm (Cơ chế 3 làm đúng) | tune-174, 191 (C), 073, 059 (F) | Không có nút cũ nào để vô hiệu (bản cũ không trích sự kiện bị sửa; 174, 191 vẫn `add` đúng mốc mới), hoặc chỗ sửa chỉ đổi tên thực thể không nằm trong nút nào (073: Tower of Antonia → David; 059: Botanical → Hortus) |
+| Bỏ sót (không thêm mốc mới) | tune-158 (C), 103 (F), 058 (F, có thể coi là trùng nút `N1`/`N3`) | LLM trả `changes=[]`, `add=[]` dù mốc đích chưa có trong graph cũ (158: "silence ended 1945"; 103: "relegated 1996–97") |
+| Sai hành động | tune-045 (E) | Bản cũ "has played for Dons since 1947" → mới "from 1947 to 1948". Đáng ra `close N2` (kết thúc 1948, tiến hóa); LLM `invalidate N2` rồi `add` mốc "1947–1948" (đánh là sai từ đầu, ẩn lịch sử). Đây đúng là nhầm Evolution với Falsehood |
+| `stale_open` thật | tune-049 (E) | Đóng nhầm `N3` ("led the team to playoffs in 2016", sự kiện `point`) thay vì `N1` ("Cooper was hired 2014", trạng thái `start` còn mở); `N1` vẫn mở |
+| `stale_open` giả | tune-186, 096 (C) | Nút sai đã vô hiệu đúng (`N3` 1984→1987; `N2` 2013→2012); nút bị tính còn mở là nút khác cùng chunk, trùng năm cũ nhưng đúng (Dickerson 1984 rushed; league began 2013) |
+
+Tóm lại trên 97 chỗ sửa: **1 sai hành động** (tune-045), **1 đóng nhầm nút** (tune-049), **2 đến 3 bỏ sót** (158, 103, có thể 058), còn lại đúng hoặc luật báo nhầm. `stale_open` thật là 1 chứ không phải 3. Hai lỗi có hành động sai đều là loại mà một ràng buộc nhẹ (chỉ `close` nút trạng thái `start`/còn mở; quan hệ đơn trị hay đa trị) bắt được; cả hai chỉ chiếm 2/97 nên chưa đủ để nói bắt buộc phải có ontology.
+
+`lost_other` (12 nút): sinh ra ở bước gộp lại cấp trang khi thêm mốc mới (mốc `add` trùng hoặc gộp với nút cũ), không phải xóa chủ động.
+
+**Chất lượng bản cũ.** Bản cũ do LLM trích lại cửa sổ từ văn bản cũ nên bản thân có thiếu và mâu thuẫn, không liên quan hệ cập nhật nào: nhiều sự kiện bị sửa vốn không có nút (191, 103, 158), và có nút mâu thuẫn nhau (tune-016: `N4` "Took ended 1981" cùng `N6` "Took began 1986" và `N16` "Took ended 1995"). Window-replace đổi 173 nút ngoài chỗ sửa vì trích lại cả cửa sổ cho kết quả khác nhau giữa các lần chạy, còn Diff-replace và Cơ chế 3 chỉ đụng nút gần chỗ sửa.
+
+### Có cần ontology cho Cơ chế 3 không (2026-11-23)
+
+**Quyết định: không đưa ontology vào bản làm trong đồ án; ghi thành hướng phát triển.**
+
+Lý do:
+1. **Không có bằng chứng cần.** Cơ chế 3 chỉ dùng LLM (không có ontology, không có luật đơn trị/đa trị) mà ngang Window-replace và Diff-replace trên tune 97 chỗ sửa. Trong lần đọc tay, chỉ 2/97 ca có hành động sai mà ràng buộc kiểu ontology bắt được: tune-045 (`invalidate` thay vì `close` một quan hệ đơn trị) và tune-049 (đóng nhầm nút `point` thay vì nút trạng thái còn mở). Cả hai bắt được bằng luật code đơn giản ở bước kiểm quyết định, không cần ontology.
+2. **Chỗ duy nhất ontology cần thật chưa có dữ liệu.** Loại câu "khoảng chồng lấn" (decision 11, mục 3.5: cũ `[1500, 1520]`, mới `[1505, 2025]`) cần biết quan hệ đơn trị hay đa trị. Bộ dữ liệu hiện có không có loại câu này; muốn đo phải dựng thêm câu và đáp án.
+3. **Chi phí thêm lớn.** Ontology nằm ở tầng ingest, dùng chung Cơ chế 2 và 3 (chuẩn hóa quan hệ, kiểm ràng buộc, gắn số phiên bản ontology vào dữ liệu đã nạp). Thêm sau nghĩa là nạp lại và đo lại cả Cơ chế 2.
+4. **Phạm vi đồ án.** Scope cho phép đi sâu 2 trong 3 cơ chế.
+
+**Khi nào mới cần ontology (giả thuyết, chưa kiểm).** Bộ dữ liệu càng rộng và phức tạp thì LLM đơn lẻ và luật code càng khó đủ: nhiều loại quan hệ cùng lúc (đơn trị lẫn đa trị), khoảng thời gian chồng lấn, nhiều miền, nhiều nguồn mâu thuẫn. Khi đó luật viết tay không mở rộng được từng miền, còn ontology khai báo một lần rồi dùng lại. Tune này (Wikipedia, một chỗ sửa mỗi trang, giá trị bị thay trực tiếp) không có các điều kiện đó, nên kết quả hiện tại không phản bác cũng không chứng minh được nhu cầu này.
+
+**Hướng phát triển.** Loại câu "khoảng chồng lấn" kèm ontology nhẹ (`:temporal`, `:exclusiveBy`, Turtle) trên bộ dữ liệu rộng hơn, và luật kiểm đơn giản trong lúc chờ ("chỉ `close` nút trạng thái còn mở"; "bản cũ nói hiện tại, bản mới có mốc kết thúc thì `close`, không `invalidate`").
+
+## Tập valid, ba hệ (2026-11-23 đến 24)
+
+> **Đính chính (2026-11-24):** số e′ và agent C trên mech3 của mục này đã chấm lại; dùng bảng ở mục "Kiểm tra cách chấm và đọc tay lỗi" ở cuối file. Số cấu hình cố định và timeline không đổi.
+
+**Thiết lập (đóng băng theo tune, không chỉnh lại sau khi thấy valid).** 93 chỗ sửa trên 93 trang valid (C 26, E 26, F 26, A 15; chọn bằng `m3_select_pilot.py --set valid --any-edit --per-type 26`, seed 20261121), 323 câu timeline, 147 câu mech3. Các hệ và cấu hình như tune: Old, Window-replace (= `real`), Diff-replace, Cơ chế 3 có `--dedup` (kết quả chính là bản **có lọc**; "không lọc" chỉ là phép tắt thử, bỏ qua khi so sánh); d / f / f′ / f″ cố định, e′ (agent chỉ công cụ graph) và agent C (số tham chiếu). 5 luồng, thinking tắt (`opencode_deepseek_flash`), **mỗi lần chạy một thư mục cache riêng** (`data/llm_cache/valid/<tên>`), nên token và thời gian là số thật. Script `local/m3/valid/run_valid.sh` (37 bước, tất cả xong, không bước nào thất bại); log, `stats.log`, `manifest.tsv` ở `local/m3/valid/`. Đã tách thời gian chờ thử lại 429 khỏi thời gian thật (`retry_wait_s`, `attempts`). Biến `M3_SET=valid` (mặc định `tune`) điều khiển các script.
+
+**Trạng thái graph.** Node cũ còn mở: Old 70, Window-replace 2, Diff-replace 2, Cơ chế 3 4. Mất / thêm thừa: Window-replace 116/91, Diff-replace 15/5, Cơ chế 3 8/0 (66 nút đánh dấu). Cùng chiều với tune.
+
+**Mech3 (147 câu, đúng / tổng):**
+
+| Hệ | d | f | f′ | f″ | e′ |
+|---|---|---|---|---|---|
+| Old | 55 | 52 | 38 | 31 | 66 |
+| Window-replace | 115 | 111 | 75 | 65 | 120 |
+| Diff-replace | 112 | 106 | 77 | 72 | 116 |
+| Cơ chế 3, có lọc | 113 | 97 | 75 | 68 | 115 |
+| Cơ chế 3, không lọc | 79 | 70 | 52 | 49 | 86 |
+
+Agent C (tham chiếu): Old 139, Window-replace 143, Diff-replace 144, Cơ chế 3 144. Luôn trả "No" đúng 65/147 = 0,442. Số e′ và agent C đã chấm lại bằng luật đã sửa (xem mục cuối).
+
+**Timeline (323 câu, exact / F1):**
+
+| Hệ | d | f | f′ | f″ | e′ | agent C |
+|---|---|---|---|---|---|---|
+| Old | 0,681/0,798 | 0,718/0,803 | 0,678/0,809 | 0,573/0,736 | 0,762/0,878 | 0,851/0,928 |
+| Window-replace | 0,743/0,836 | 0,762/0,825 | 0,734/0,833 | 0,616/0,747 | 0,839/0,924 | 0,858/0,945 |
+| Diff-replace | 0,724/0,820 | 0,759/0,825 | 0,715/0,814 | 0,610/0,741 | 0,820/0,914 | 0,864/0,944 |
+| Cơ chế 3, có lọc | 0,731/0,819 | 0,749/0,808 | 0,724/0,823 | 0,610/0,743 | 0,817/0,906 | 0,833/0,919 |
+| Cơ chế 3, không lọc | 0,712/0,812 | 0,743/0,814 | 0,712/0,811 | 0,604/0,743 | – | – |
+
+(e′ và agent C timeline chỉ chạy bản có lọc.)
+
+**Đọc kết quả.** Cơ chế 3 (có lọc) ngang hai baseline ở hầu hết cấu hình, kém vài điểm chứ không thắng: mech3 kém Window-replace 2 câu ở d, 14 câu ở f (97 so với 111), bằng ở f′, hơn 3 ở f″, kém 5 ở e′ (115 so với 120); timeline kém 0,01 đến 0,02 exact ở d, f, e′. Bản cũ thấp hơn hẳn trên mech3 (55 đến 72 so với 112 đến 127), còn trên timeline chỉ thấp hơn một chút. Không lọc kém bản có lọc khoảng 30 câu ở d và f, 29 ở e′. Kết quả lặp lại kết luận tune: Cơ chế 3 chỉ ngang khi truy xuất đọc dấu `end_time` / `invalidated_at`; mỗi cấu hình chạy một lần, không có phép đo nhiễu.
+
+**Chi phí valid** (lượt gọi thật, giá 0,15 / 0,003 / 0,60 USD mỗi triệu token; cache API là số API trả về): cập nhật khoảng 0,22 USD tổng (trích bản cũ 0,099, Diff-replace 0,062, quyết định Cơ chế 3 0,046, gộp cặp 0,014); bài test khoảng 3,0 USD (21.065 lượt gọi thật: mech3 cố định 0,23, e′ mech3 0,27 + 0,06 không lọc, timeline cố định 0,82, e′ timeline 0,68, agent C mech3 0,18, agent C timeline 0,77). Thời gian LLM gồm chờ 429 (khoảng 60% thời gian agent), thời gian thật tách ở `stats.log`.
+
+
+## Kiểm tra cách chấm và đọc tay lỗi (2026-11-24)
+
+### Lỗi tìm thấy ở luật chấm mech3 và cách xử lý
+
+| # | Lỗi | Ảnh hưởng | Xử lý |
+|---|---|---|---|
+| 1 | `m3_mech3_score.match` lấy từ yes/no **đầu tiên xuất hiện bất kỳ đâu** trong câu trả lời. Câu từ chối kiểu "I cannot determine this: **no** page about ... was found" bị đọc thành "No", nên được điểm khi gold là "No" | Phồng điểm của agent (540 trong 2.610 câu trả lời có/không ở valid là câu từ chối; 43 câu bị chấm khác luật gốc). Cấu hình cố định không ảnh hưởng (câu trả lời luôn mở đầu bằng Yes/No) | Câu không mở đầu bằng yes/no mà có cụm từ chối ("cannot determine", "no passage"...) tính sai. Bản cũ của script lưu ở `local/m3/m3_mech3_score.py.bak_2026-11-24` |
+| 2 | **qid dùng chung** ở tune: 14 qid ứng với hai câu hỏi khác nhau, `Q[qid]` giữ câu nạp sau, nên 6 dòng của subset tune bị chấm với đáp án của câu khác (valid không có, 0 dòng) | Tune: số cấu hình cố định thấp hơn thực 1 đến 3 câu | Đã sửa: dòng agent chọn câu có nội dung nằm trong `question`; dòng cấu hình cố định ghép theo vị trí (thứ tự dòng đúng bằng thứ tự câu x biến thể, script kiểm trước khi dùng): `getq`, `score` trong `m3_mech3_score.py` |
+| 3 | Câu verify_false có gold dạng "No, <giá trị đúng>" nhưng luật chỉ so cực tính (không đòi nêu giá trị) | Trả lời "No" không kèm giá trị đúng vẫn được điểm; **luôn trả "No" đúng 65/147 (0,44) ở valid, 73/160 (0,46) ở tune**, cao hơn điểm của bản cũ ở nhiều cấu hình (Old d 55/147) | Chưa đổi luật chính; thêm số chấm chặt (phải nêu đúng giá trị) ở bảng dưới, thứ hạng các hệ không đổi |
+| 4 | Câu giá trị chấm bằng độ phủ từ ≥ 70%, so khớp chuỗi con (số "17" khớp "2017") | Hơi dễ. Kiểm trên C/year: câu đúng nhưng còn chứa giá trị cũ rất hiếm (0 đến 1 trên 16, riêng agent không lọc 4/10) | Giữ, ghi chú |
+| 5 | `m3_agent_tool_usage.py` ghép dòng bằng `next(x ... if x["idx"] == idx)`, nên với idx trùng lấy nhầm dòng đầu | Giải thích chênh 155 và 153 ở agent C tune (nay hai script cùng gọi `match` nhưng tool_usage vẫn ghép sai các idx trùng, 152 so với 154) | Dùng `m3_mech3_score.py` làm số chính (156/160) |
+
+**Công thức timeline** (`v9_score.py`: exact = mọi mốc chuẩn khớp ngày tương thích và từ khóa, đúng thứ tự, không thừa; F1 chỉ tính trên dòng có mốc, nên câu `order_gap` không có F1): chạy `v9_score.py . selftest` (không LLM) trên 1.850 câu: đáp án mẫu đúng 100% (kể cả khi đảo thứ tự các mốc cùng ngày), cố ý bỏ một mốc, đảo thứ tự, thêm mốc thừa, sai số đều bị trừ điểm đúng như mong đợi (885/886 ca đảo thứ tự, còn lại 100%). Không thấy lỗi.
+
+### Số mech3 sau khi sửa (số câu đúng)
+
+| Hệ | Tune e′ | Tune agent C | Valid e′ | Valid agent C |
+|---|---|---|---|---|
+| Old | 67/160 (trước 74) | 156 | 66/147 (trước 72) | 139 (trước 140) |
+| Window-replace | 125 (trước 130) | 156 | 120 (trước 127) | 143 (trước 144) |
+| Diff-replace | 124 (trước 131) | 156 | 116 (trước 122) | 144 |
+| Cơ chế 3, có lọc | 123 (trước 130) | 156 | 115 (trước 125) | 144 |
+| Cơ chế 3, không lọc | 94 (trước 99) | – | 86 (trước 93) | – |
+
+Cơ chế 3 có lọc kém Window-replace 2 câu ở tune và 5 câu ở valid trên e′ (trước đây ngang). Cấu hình cố định của valid không đổi; của tune đổi vài câu do ghép đúng qid dùng chung (Old 62/62/52/48, Window-replace 130/133/95/88, Diff-replace 128/126/93/81, Cơ chế 3 có lọc 128/123/89/79, không lọc 94/87/70/67; trước đó thấp hơn 1 đến 3 câu), đã cập nhật ở bảng tune trên.
+
+**Chấm chặt (verify_false phải nêu đúng giá trị), valid, đúng / số đúng theo luật thường:**
+
+| Hệ | d | f | f′ | f″ | e′ | Agent C |
+|---|---|---|---|---|---|---|
+| Old | 37/55 | 35/52 | 22/38 | 17/31 | 46/66 | – |
+| Window-replace | 103/115 | 97/111 | 63/75 | 52/65 | 106/120 | 127/143 |
+| Diff-replace | 102/112 | 95/106 | 65/77 | 58/72 | 102/116 | – |
+| Cơ chế 3, có lọc | 99/113 | 82/97 | 61/75 | 53/68 | 101/115 | 129/144 |
+
+Điểm tụt 10 đến 18 câu nhưng thứ hạng giữ nguyên: Cơ chế 3 kém Window-replace nhẹ ở d, e′ (4 đến 5 câu), nhiều hơn ở f (15 câu).
+
+### Đọc tay lỗi trên valid
+
+**Luật kiểm hành động báo hỏng 8/93 ca:**
+
+| Nhóm | Ca | Nhận xét |
+|---|---|---|
+| Làm đúng, luật báo nhầm | valid-138, 002, 032 | 138: bản cũ không có nút nào để vô hiệu, LLM vẫn thêm đúng mốc mới; 002 và 032: thêm đúng mốc mới (1864, 1843) nhưng ở dạng `point`/`start` thay vì mốc kết thúc |
+| Bỏ sót (không thêm mốc mới) | valid-197 | "1905 → 1904": mốc "mua 40 đầu máy kết thúc" chưa có trong graph cũ, LLM không đổi gì |
+| Chi tiết không nằm trong nút | valid-191, 110, 130, 133 (F) | Chỗ sửa đổi tên thực thể trong chi tiết (Philadelphia → Pittsburgh, Italy → France, Los Angeles → Oakland, Tretyakov → Grabar Centre). Nút cũ vốn không chứa chi tiết đó nên LLM trả `changes=[]`, `add=[]` là hợp lý, nhưng graph mới (`real`) có chi tiết trong văn bản nút nên Window-replace trả lời được |
+
+**Nhận xét chung (tune và valid):**
+- Trên 190 chỗ sửa (97 tune + 93 valid), LLM **không lần nào dùng thao tác `edit`** (sửa trường của nút), chỉ `close`, `invalidate`, `add`. Chỗ sửa loại F (đổi chi tiết, tên) vì vậy thường không để lại dấu vết trong graph: Cơ chế 3 có giá trị mới ở 16/26 chỗ F so với 20/26 của hai baseline (valid), 17/26 so với 22 (tune). Đây là nguồn mất điểm chính.
+- Ở valid, trong 20 câu cấu hình f mà Window-replace đúng và Cơ chế 3 sai, 13 câu là loại F (đã đọc 4 câu mẫu: trả lời "UNKNOWN", chi tiết không có trong nút) và 3 câu E/historical.
+- **Dấu "(ended <ngày>)" gây nhầm ở câu lịch sử** (valid-004, 025, 002): mô hình thấy nút đã đóng và trả "No" cho câu "Was X married to Y in 1973?" dù nút còn hiệu lực đến 1974, và có câu trả lời mâu thuẫn ("No ... so in 1973 it was still..."). Dấu đánh dấu giúp câu hỏi hiện tại nhưng gây nhiễu câu hỏi quá khứ.
+- Với agent e′ (12 câu thua trên valid): 8 câu là loại F (5 verify_false, 3 direct; các câu mẫu đã đọc trả lời "cannot be determined" hoặc nêu sai tên), 3 câu E, 1 câu C; câu mẫu valid-002 hiểu sai mốc thời gian.
+
+**Kết luận sau kiểm tra.** Chỉ lỗi 1 (câu từ chối) làm đổi kết luận: Cơ chế 3 có lọc không còn ngang hẳn Window-replace trên e′ (kém 2 câu ở tune, 5 ở valid); ở cấu hình cố định ngang ở d (128 so với 130 ở tune, 113 so với 115 ở valid), kém ở f (10 câu ở tune, 14 ở valid) và f′, f″ (6 đến 9 câu ở tune, ngang ở valid); luôn cao hơn hẳn bản cũ và bản không lọc. Hai baseline thắng nhẹ ở cấu hình f nhờ graph `real` có chi tiết trong văn bản nút, còn Cơ chế 3 chỉ bổ sung mốc (`add`), không sửa văn bản nút (`edit` không bao giờ được dùng). Mức "luôn trả No" 0,44 đến 0,46 cần được ghi cùng mọi bảng mech3 khi so sánh.
