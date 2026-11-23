@@ -45,7 +45,7 @@ class Neo4jStore:
         """Ghi lại toàn bộ nút của một trang (xóa cũ trước); trả số nút."""
         self.clear_page(page)
         self._run("MERGE (:Page {page:$p})", p=page)
-        rows = [{**n, "key": f"{page}|{n['track']}", "merged_from": len(n.get("merged_from", [])), "flags": ",".join(n.get("flags", []))} for n in nodes]
+        rows = [{"end_time": None, "invalidated_at": None, **n, "key": f"{page}|{n['track']}", "merged_from": len(n.get("merged_from", [])), "flags": ",".join(n.get("flags", []))} for n in nodes]
         self._run(
             """
             UNWIND $rows AS r
@@ -54,7 +54,8 @@ class Neo4jStore:
             MERGE (p)-[:HAS_CELL]->(c)
             CREATE (e:Event {node_id: r.node_id, page: r.page, track: r.track, date: r.date, phase: r.phase, kind: r.kind,
                              subject: r.subject, object: r.object, text: r.text, quote: r.quote, tier: r.tier,
-                             is_lead: r.is_lead, approximate: r.approximate, flags: r.flags, merged: r.merged_from})
+                             is_lead: r.is_lead, approximate: r.approximate, flags: r.flags, merged: r.merged_from,
+                             end_time: r.end_time, invalidated_at: r.invalidated_at})
             CREATE (e)-[:IN_CELL]->(c)
             WITH e, r
             UNWIND r.cids AS cid
@@ -82,5 +83,6 @@ class Neo4jStore:
              "AND ($tracks IS NULL OR e.track IN $tracks) AND ($f IS NULL OR substring(e.date,0,4) >= $f) AND ($to IS NULL OR substring(e.date,0,4) <= $to) "
              "OPTIONAL MATCH (e)-[:FROM_CHUNK]->(k:Chunk) "
              "RETURN e.node_id AS node_id, e.date AS date, e.phase AS phase, e.track AS track, e.kind AS kind, e.subject AS subject, "
-             "e.tier AS tier, e.text AS text, e.quote AS quote, collect(k.chunk_id) AS cids ORDER BY e.date, e.phase")
+             "e.tier AS tier, e.text AS text, e.quote AS quote, e.end_time AS end_time, e.invalidated_at AS invalidated_at, "
+             "collect(k.chunk_id) AS cids ORDER BY e.date, e.phase")
         return self._run(q, p=page, tracks=tracks, f=date_from, to=date_to, t=max_tier)

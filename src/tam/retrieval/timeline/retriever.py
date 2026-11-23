@@ -24,8 +24,26 @@ def toks(t: str) -> set[str]:
 
 
 class TimelineRetriever:
-    def __init__(self, vec: VectorStore, graph: Neo4jStore, top_n: int = 10, k_entry: int = 8, max_events: int = 40) -> None:
+    def __init__(self, vec: VectorStore, graph: Neo4jStore, top_n: int = 10, k_entry: int = 8, max_events: int = 40, state_filter: bool = False, allowed_pages: set[str] | None = None) -> None:
         self.vec, self.graph, self.top_n, self.k_entry, self.max_events = vec, graph, top_n, k_entry, max_events
+        self.allowed_pages = allowed_pages  # tên trang đã chuẩn hóa (page_name(.., True)); chỉ trang này được chọn làm trang vào; None = mọi trang (mặc định)
+        self.state_filter = state_filter  # cơ chế 3: bỏ nút invalidated_at, thêm "(ended <ngày>)" cho nút có end_time; mặc định tắt (như cơ chế 2)
+
+    def _allowed(self, rows: list[dict]) -> list[dict]:
+        if self.allowed_pages is None:
+            return rows
+        from tam.tools.graph_tools import page_name
+        return [r for r in rows if page_name(r["page"], True) in self.allowed_pages]
+
+    def _state(self, rows: list[dict]) -> list[dict]:
+        if not self.state_filter:
+            return rows
+        out = []
+        for r in rows:
+            if r.get("invalidated_at"):
+                continue
+            out.append({**r, "text": f"{r['text']} (ended {r['end_time']})"} if r.get("end_time") else r)
+        return out
 
     def search_chunks(self, query: str) -> list[str]:
         """Hybrid dense + BM25, gộp RRF; trả chunk_id theo thứ hạng (không lọc thời gian)."""
@@ -39,10 +57,10 @@ class TimelineRetriever:
 
     def _entries(self, chunks: list[str]) -> tuple[str | None, list[dict]]:
         """Nút vào từ top chunk; trang = trang có nhiều nút vào nhất (trọng số theo thứ hạng chunk)."""
-        top = chunks[: self.k_entry]; rows = self.graph.events_of_chunks(top)
+        top = chunks[: self.k_entry]; rows = self._allowed(self.graph.events_of_chunks(top))
         by_chunk = {c: [] for c in top}
         for c in top:
-            by_chunk[c] = [r for r in self.graph.events_of_chunks([c])]
+            by_chunk[c] = self._allowed(self.graph.events_of_chunks([c]))
         vote: dict[str, float] = defaultdict(float)
         for r, c in enumerate(top):
             for e in by_chunk[c]:
@@ -58,7 +76,7 @@ class TimelineRetriever:
         if not page:
             return dict(page=None, events=[], chunks=chunks)
         ids = {e["node_id"] for e in entries}
-        ev = [e for e in self.graph.cell_events(page) if e["node_id"] in ids]
+        ev = self._state([e for e in self.graph.cell_events(page) if e["node_id"] in ids])
         return dict(page=page, events=ev[: self.max_events], chunks=chunks)
 
     def graph_timeline(self, query: str, window: tuple[str | None, str | None] | None = None, question: str | None = None, track_mode: str = "filter", cut: str = "kw") -> dict:
@@ -71,8 +89,8 @@ class TimelineRetriever:
         if qt and track_mode == "filter":
             tracks = sorted(qt)  # lọc cứng theo track suy ra từ câu hỏi (đo: làm mất mốc đáp án)
         wf, wt = window or (None, None)
-        t1 = self.graph.cell_events(page, tracks=tracks, date_from=wf, date_to=wt, max_tier=1)
-        t2 = [e for e in self.graph.cell_events(page, tracks=tracks, date_from=wf, date_to=wt, max_tier=2) if e["tier"] == 2]
+        t1 = self._state(self.graph.cell_events(page, tracks=tracks, date_from=wf, date_to=wt, max_tier=1))
+        t2 = self._state([e for e in self.graph.cell_events(page, tracks=tracks, date_from=wf, date_to=wt, max_tier=2) if e["tier"] == 2])
         q = toks(query); extra = [e for e in t2 if not t1 or len(toks(e["text"]) & q) >= 2]
         ev = t1 + extra
         if len(ev) > self.max_events and cut == "bins":  # cắt theo nhóm: chia dãy đã sắp theo ngày thành max_events nhóm bằng số mốc, mỗi nhóm giữ mốc khớp từ khóa nhất (tier thấp trước)

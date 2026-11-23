@@ -94,6 +94,10 @@ class TextCorpus:
             pages[name] = [Passage(name, i, t) for i, t in _parse(path.read_text(encoding="utf-8"))]
         return cls(pages)
 
+    def restrict(self, allowed: set[str], normalize) -> TextCorpus:
+        """Kho con chỉ gồm các trang có tên (đã chuẩn hóa bằng `normalize`) nằm trong `allowed`. Dùng để tách kho khi thử cơ chế 3."""
+        return TextCorpus({n: ps for n, ps in self.pages.items() if normalize(n) in allowed})
+
     # ---- công cụ ----
     def list_pages(self, contains: str | None = None, offset: int = 0, limit: int = 50) -> ToolResult:
         """Tên các trang (lọc theo chuỗi con không phân biệt hoa thường); có phân trang."""

@@ -61,9 +61,10 @@ class GraphTools:
     """`store`: `Neo4jStore` hoặc kho giả có `cell_events`, `events_of_chunks`."""
 
     def __init__(self, store: GraphReader, *, events_cap: int = EVENTS_CAP, compact: bool = False, normalize_names: bool = False,
-                 track_hint: bool = False, source_hint: bool = False) -> None:
-        """`compact`: dòng `số. ngày text <#chunk>` (bỏ phase, track/kind, tier; chunk id rút còn `#n`). `normalize_names`: chuẩn hóa tên trang theo luật của graph. `source_hint`: mô tả công cụ nói mỗi dòng có chunk nguồn mà `read_chunk` đọc được. `track_hint`: tiêu đề nêu số sự kiện mỗi track và mô tả công cụ nhắc có thể lọc theo track."""
+                 track_hint: bool = False, source_hint: bool = False, allowed_pages: set[str] | None = None, show_state: bool = False) -> None:
+        """`compact`: dòng `số. ngày text <#chunk>` (bỏ phase, track/kind, tier; chunk id rút còn `#n`). `normalize_names`: chuẩn hóa tên trang theo luật của graph. `source_hint`: mô tả công cụ nói mỗi dòng có chunk nguồn mà `read_chunk` đọc được. `track_hint`: tiêu đề nêu số sự kiện mỗi track và mô tả công cụ nhắc có thể lọc theo track. `allowed_pages`: chỉ cho xem các trang này (tên đã chuẩn hóa; None = mọi trang). `show_state`: ẩn sự kiện có `invalidated_at`, ghi `(ended <end_time>)` cho sự kiện có `end_time` (cơ chế 3); mặc định tắt = hành vi cũ."""
         self._store, self._cap, self._compact, self._normalize, self._hint, self._src = store, events_cap, compact, normalize_names, track_hint, source_hint
+        self._allowed, self._state = allowed_pages, show_state
 
     def timeline(self, page: str, track: list[str] | None = None, from_year: int | None = None, to_year: int | None = None,
                  max_events: int = DEFAULT_MAX_EVENTS, offset: int = 0) -> ToolResult:
@@ -71,7 +72,9 @@ class GraphTools:
         name = page_name(page, self._normalize)
         if from_year is not None and to_year is not None and from_year > to_year:
             raise ToolError(f"from_year ({from_year}) lớn hơn to_year ({to_year})")
-        rows = self._store.cell_events(name, tracks=track or None, date_from=_year(from_year), date_to=_year(to_year), max_tier=2)
+        rows = [] if self._allowed is not None and page_name(name, True) not in self._allowed else self._store.cell_events(name, tracks=track or None, date_from=_year(from_year), date_to=_year(to_year), max_tier=2)
+        if self._state:
+            rows = [r for r in rows if not r.get("invalidated_at")]
         if not rows:
             raise ToolError(f"không có sự kiện nào cho trang {name!r} với bộ lọc này (graph chỉ có một phần số trang)")
         k, off = min(max_events, self._cap), offset
@@ -90,10 +93,13 @@ class GraphTools:
             cids = list(r.get("cids") or [])
             ids.extend(cids)
             if self._compact:
-                lines.append(f"{i}. {r['date']} {r['text']} <{', '.join(_short_cid(c) for c in cids)}>")
+                lines.append(f"{i}. {r['date']} {r['text']}{self._ended(r)} <{', '.join(_short_cid(c) for c in cids)}>")
             else:
-                lines.append(f"{i}. {r['date']} [{r['phase']}] {r['track']}/{r['kind']} (tier {r['tier']}) {r['text']} <{', '.join(cids)}>")
+                lines.append(f"{i}. {r['date']} [{r['phase']}] {r['track']}/{r['kind']} (tier {r['tier']}) {r['text']}{self._ended(r)} <{', '.join(cids)}>")
         return ToolResult("\n".join(lines), tuple(dict.fromkeys(ids)), more)
+
+    def _ended(self, r: dict) -> str:
+        return f" (ended {r['end_time']})" if self._state and r.get("end_time") else ""
 
     def events_of_chunk(self, chunk_ids: list[str]) -> ToolResult:
         """Với mỗi chunk: trang và track của các sự kiện rút ra từ chunk đó (để nhảy sang `timeline`)."""
