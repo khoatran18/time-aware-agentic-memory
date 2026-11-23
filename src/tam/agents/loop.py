@@ -47,7 +47,7 @@ from langchain_core.messages import (
 from tam.config.logging import get_logger, get_run_dir, query_context
 from tam.generation.scoring import normalize
 from tam.llm.cache import PREVIEW_CHARS, CacheStore
-from tam.llm.metrics import stream_collect
+from tam.llm.metrics import retry_reset, retry_stats, stream_collect
 from tam.tools.base import AgentTool, ToolError
 
 logger = get_logger(__name__)
@@ -104,7 +104,9 @@ class AgentRun:
     input_tokens: int = 0
     output_tokens: int = 0
     cached_input_tokens: int = 0
-    llm_time_s: float = 0.0  # tổng thời gian các lượt gọi LLM (E2E, đo ở client)
+    llm_time_s: float = 0.0  # tổng thời gian các lượt gọi LLM (E2E, đo ở client; gồm thời gian chờ thử lại sau 429)
+    retry_wait_s: float = 0.0  # tổng thời gian mất cho các lần thử lại (429/5xx) trong llm_time_s; llm_time_s - retry_wait_s là thời gian thật
+    attempts: int = 0  # tổng số lần gửi HTTP (lượt LLM không trúng cache; bằng số lượt gọi thật nếu không có thử lại)
     tool_time_s: float = 0.0  # tổng thời gian chạy công cụ
     wall_s: float = 0.0
     ttft_s: list[float] = field(default_factory=list)  # TTFT từng lượt (chỉ lượt có số đo)
@@ -201,6 +203,8 @@ class AgentLoop:
                 run.output_tokens += m.get("output_tokens") or 0
                 run.cached_input_tokens += m.get("cached_input_tokens") or 0
                 run.llm_time_s += m["e2e_s"]
+                run.retry_wait_s += m.get("retry_wait_s") or 0.0
+                run.attempts += m.get("attempts") or 0
                 if m.get("ttft_s") is not None:
                     run.ttft_s.append(m["ttft_s"])
                 calls = list(ai.tool_calls or [])
@@ -228,7 +232,7 @@ class AgentLoop:
                         run.input_tokens, run.output_tokens, run.wall_s)
             self._emit(run, query_id, {"event": "end", "stop_reason": run.stop_reason, "steps": run.steps, "tool_calls": run.tool_calls,
                                        "input_tokens": run.input_tokens, "output_tokens": run.output_tokens,
-                                       "cached_input_tokens": run.cached_input_tokens, "cache_hits": run.cache_hits, "llm_time_s": round(run.llm_time_s, 4),
+                                       "cached_input_tokens": run.cached_input_tokens, "cache_hits": run.cache_hits, "llm_time_s": round(run.llm_time_s, 4), "retry_wait_s": round(run.retry_wait_s, 4), "attempts": run.attempts,
                                        "tool_time_s": round(run.tool_time_s, 4), "wall_s": round(run.wall_s, 4), "answer": run.answer})
         return run
 
@@ -261,10 +265,13 @@ class AgentLoop:
         if self._stream:
             chunks, m = stream_collect(llm, messages)
             return merge_chunks(chunks), m
+        retry_reset()
         t0 = time.perf_counter()
         ai = llm.invoke(messages)
+        e2e = time.perf_counter() - t0
+        rs = retry_stats(t0)
         usage = getattr(ai, "usage_metadata", None) or {}
-        return ai, {"ttft_s": None, "e2e_s": time.perf_counter() - t0, "output_tokens": usage.get("output_tokens"), "input_tokens": usage.get("input_tokens"),
+        return ai, {**rs, "e2e_net_s": e2e - rs["retry_wait_s"], "ttft_s": None, "e2e_s": e2e, "output_tokens": usage.get("output_tokens"), "input_tokens": usage.get("input_tokens"),
                     "cached_input_tokens": (usage.get("input_token_details") or {}).get("cache_read"), "tokens_exact": bool(usage.get("output_tokens")),
                     "tpot_s": None, "tokens_per_s": None}
 

@@ -33,6 +33,14 @@ from tam.tools.vector_tools import VectorTools
 logger = get_logger("run_agent_search")
 
 
+def load_allowed(path: str) -> set[str] | None:
+    """--pages-file -> tập tên trang đã chuẩn hóa (None nếu không đặt cờ)."""
+    if not path:
+        return None
+    from tam.tools.graph_tools import page_name
+    return {page_name(l, True) for l in Path(path).read_text(encoding="utf-8").splitlines() if l.strip()}
+
+
 def build_vector_tools(cfg, cases: list[dict], args):
     """Công cụ kiểu B trên kho Qdrant đã có. Collection = `tam_chunks_dev_<split>`; các câu hỏi phải cùng một split (mỗi lần chạy một kho)."""
     from tam.embedding.factory import get_embedder
@@ -50,7 +58,13 @@ def build_vector_tools(cfg, cases: list[dict], args):
         from tam.stores.graph.neo4j_store import Neo4jStore
         from tam.tools.graph_tools import GraphTools
 
-        tools += GraphTools(Neo4jStore.from_config(cfg), events_cap=args.events_cap, compact=args.compact_timeline, normalize_names=args.normalize_page_names, track_hint=args.track_hint, source_hint=args.source_hint).tools()
+        if args.neo4j_url:
+            from neo4j import GraphDatabase
+            store = Neo4jStore(GraphDatabase.driver(args.neo4j_url, auth=(cfg.graph_store.user, cfg.graph_store.password)))
+        else:
+            store = Neo4jStore.from_config(cfg)
+        allowed = load_allowed(args.pages_file)
+        tools += GraphTools(store, allowed_pages=allowed, show_state=args.show_state, events_cap=args.events_cap, compact=args.compact_timeline, normalize_names=args.normalize_page_names, track_hint=args.track_hint, source_hint=args.source_hint).tools()
     return tools
 
 
@@ -68,6 +82,10 @@ def main() -> None:
     ap.add_argument("--collection", default="", help="kiểu B: tên collection Qdrant; mặc định tam_chunks_dev_<split> theo split của các câu hỏi")
     ap.add_argument("--k-cap", type=int, default=50, help="kiểu B: trần cứng của k trong vector_search")
     ap.add_argument("--graph", action="store_true", help="kiểu B: thêm công cụ graph (timeline, events_of_chunk) trên Neo4j; graph hiện chỉ có 35 trang")
+    ap.add_argument("--pages-file", default="", help="file một tên trang (đã chuẩn hóa) mỗi dòng: text và graph chỉ thấy các trang này (cơ chế 3); mặc định không lọc")
+    ap.add_argument("--neo4j-url", default="", help="kiểu B --graph: bolt URL thay cho graph_store.url của config (vd bolt://127.0.0.1:7688 cho Neo4j m3)")
+    ap.add_argument("--graph-only", action="store_true", help="chỉ giữ công cụ graph (timeline, events_of_chunk) và list_pages (chỉ tên trang): câu trả lời chỉ phụ thuộc nút graph (đo trạng thái cơ chế 3); dùng --cache-dir riêng")
+    ap.add_argument("--show-state", action="store_true", help="graph: ẩn sự kiện invalidated_at, ghi (ended ...) cho sự kiện có end_time (cơ chế 3)")
     ap.add_argument("--hide-time", action="store_true", help="kiểu B: ẩn khoảng hiệu lực của chunk khỏi kết quả (agent chỉ dựa vào văn bản)")
     ap.add_argument("--n", type=int, default=1, help="số câu lấy ngẫu nhiên")
     ap.add_argument("--seed", type=int, default=1)
@@ -112,6 +130,9 @@ def main() -> None:
     else:
         picked = rng.sample(cases, min(args.n, len(cases)))
     corpus = TextCorpus.load(args.corpus)
+    if args.pages_file:
+        from tam.tools.graph_tools import page_name
+        corpus = corpus.restrict(load_allowed(args.pages_file), lambda n: page_name(n, True))
     positions = [int(x) for x in args.pick.split(",") if x.strip()] or list(range(1, len(picked) + 1))
     chosen = [(pos, picked[pos - 1]) for pos in positions]
     profile = cfg.llm.profiles[role]
@@ -122,6 +143,8 @@ def main() -> None:
         tools = build_vector_tools(cfg, [c for _, c in chosen], args)
         if args.kind == "C":
             tools = tools + text_tools(corpus)
+    if args.graph_only:
+        tools = [t for t in tools if t.name in {"timeline", "events_of_chunk", "list_pages"}]
     agent = AgentLoop(llm, tools, load_system_prompt(args.t_now, args.prompt), budget_notice=not args.no_budget_notice, cache=cache,
                       cache_model=str(profile.get("cache_model") or profile.get("model_id") or role), cache_salt=args.repeat_id, max_steps=args.max_steps, max_total_tokens=args.max_tokens,
                       stream=not args.no_stream, model_name=role, log_prompts=args.log_prompts,
@@ -132,7 +155,7 @@ def main() -> None:
     (run_dir / "run_meta.json").write_text(json.dumps(dict(
         kind=args.kind, graph=args.graph, tools=[t.name for t in tools], thinking="tắt" if args.no_thinking else "theo profile", role=role,
         model=str(profile.get("model_id")), prompt=args.prompt, subset=args.subset, n_cases=len(chosen), workers=args.workers, max_steps=args.max_steps,
-        k_cap=args.k_cap, hide_time=args.hide_time, cache_dir=None if cache is None else args.cache_dir, t_now=args.t_now), ensure_ascii=False, indent=1), encoding="utf-8")
+        k_cap=args.k_cap, hide_time=args.hide_time, show_state=args.show_state, cache_dir=None if cache is None else args.cache_dir, t_now=args.t_now), ensure_ascii=False, indent=1), encoding="utf-8")
 
     def run_one(item):
         i, case = item
@@ -142,7 +165,7 @@ def main() -> None:
         return i, case, run, {"i": i, "idx": case["idx"], "question": case[args.question_field], "targets": case.get("targets", []), "type": case.get("type"), "answer": run.answer,
                               "contains_target": contains(run.answer or "", case["targets"]) if run.answer and case.get("targets") else 0.0, "stop_reason": run.stop_reason,
                               "steps": run.steps, "tool_calls": run.tool_calls, "input_tokens": run.input_tokens, "output_tokens": run.output_tokens,
-                              "cached_input_tokens": run.cached_input_tokens, "cache_hits": run.cache_hits, "llm_time_s": round(run.llm_time_s, 3), "tool_time_s": round(run.tool_time_s, 3),
+                              "cached_input_tokens": run.cached_input_tokens, "cache_hits": run.cache_hits, "llm_time_s": round(run.llm_time_s, 3), "retry_wait_s": round(run.retry_wait_s, 3), "attempts": run.attempts, "tool_time_s": round(run.tool_time_s, 3),
                               "wall_s": round(run.wall_s, 3), "ttft_s": [round(t, 3) for t in run.ttft_s],
                               "gold_chunk_listed": bool(gold_chunks & set(run.chunk_ids)),  # chunk gold có trong danh sách trả về (lạc quan: grep chỉ trả đoạn trích)
                               "gold_text_step": first_seen, "saw_gold_text": first_seen is not None,  # lượt đầu tiên văn bản công cụ chứa chuỗi đáp án

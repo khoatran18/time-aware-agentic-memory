@@ -38,7 +38,7 @@ from tam.stores.vector.qdrant_store import QdrantStore  # noqa: E402
 DRY = os.environ.get("DRY") == "1"
 VARS = os.environ.get("VARIANTS", "vec,graph,graph_tb,graph_tt").split(",")
 SUBSET = os.environ.get("SUBSET", str(REPO / "dataset/eval/v9_graph203_subset.json"))
-COLLECTION = os.environ.get("COLLECTION", "tam_chunks_dev_tune")  # kho vector của split (tam_chunks_dev_valid cho valid)
+COLLECTION = os.environ.get("COLLECTION", f"tam_chunks_dev_{os.environ.get('M3_SET', 'tune')}")  # kho vector của split (tam_chunks_dev_valid cho valid)
 NODES_FILE = os.environ.get("NODES_FILE", str(REPO / "local/ingest_eval/judge_out/graph_nodes.json"))  # danh sách nút graph của các trang (graph_nodes_V.json cho valid)
 # Prompt của local/ingest_eval/reader.py (sao nguyên văn tại 2026-11-15 để tái hiện được dù file đó đổi; đổi chữ nào là đổi khóa cache).
 SYSTEM = """You answer a question about one subject using ONLY a dated timeline. Each line is "[id] date | text".
@@ -103,16 +103,20 @@ def write_meta(out_dir, cfg, prof, extra):
     except Exception:
         rev = ""
     meta = dict(started=datetime.datetime.now().isoformat(timespec="seconds"), profile=prof, model_id=P.get("model_id"), extra_body=eb, thinking="off" if (eb.get("thinking") or {}).get("type") == "disabled" else "on",
-                git_rev=rev, subset=SUBSET, workers=int(os.environ.get("WORKERS", "20")), env={k: os.environ[k] for k in ("VARIANTS", "K", "LIMIT", "COLLECTION", "NODES_FILE", "THINKING", "CACHE_DIR") if k in os.environ}, **extra)
+                git_rev=rev, subset=SUBSET, workers=int(os.environ.get("WORKERS", "20")), env={k: os.environ[k] for k in ("VARIANTS", "K", "LIMIT", "COLLECTION", "NODES_FILE", "STATE_FILTER", "NEO4J_URL", "ALLOWED_PAGES_FILE", "THINKING", "CACHE_DIR") if k in os.environ}, **extra)
     (out_dir / "run_meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1, default=lambda o: getattr(o, "_data", str(o))), encoding="utf-8")
     return meta
 
 
 def main():
     cfg = load_config()
-    vec = QdrantStore.from_config(cfg, get_embedder(cfg), collection=COLLECTION); gr = Neo4jStore.from_config(cfg)
-    R = TimelineRetriever(vec, gr)
-    NODES = json.load(open(NODES_FILE))
+    vec = QdrantStore.from_config(cfg, get_embedder(cfg), collection=COLLECTION); gr = Neo4jStore.from_config(cfg) if not os.environ.get("NEO4J_URL") else Neo4jStore(__import__("neo4j").GraphDatabase.driver(os.environ["NEO4J_URL"], auth=(cfg.graph_store.user, cfg.graph_store.password)))  # NEO4J_URL: graph khác (vd Neo4j m3, cơ chế 3)
+    ALLOWED = None
+    if os.environ.get("ALLOWED_PAGES_FILE"):  # chỉ các trang trong file (một tên mỗi dòng) được chọn làm trang vào (kho `real` có nhiều trang hơn kho cơ chế 3)
+        from tam.tools.graph_tools import page_name
+        ALLOWED = {page_name(l, True) for l in open(os.environ["ALLOWED_PAGES_FILE"], encoding="utf-8").read().splitlines() if l.strip()}
+    R = TimelineRetriever(vec, gr, state_filter=os.environ.get("STATE_FILTER") == "1", allowed_pages=ALLOWED)  # STATE_FILTER=1: lọc invalidated_at, ghi end_time (cơ chế 3)
+    NODES = None if NODES_FILE == "none" else json.load(open(NODES_FILE))  # NODES_FILE=none: không lọc theo danh sách nút, lấy hết nút Neo4j trả ra (ba hệ cơ chế 3)
     cases = json.load(open(SUBSET))["cases"][: int(os.environ.get("LIMIT", "100000"))]
     Q = {q["qid"]: q for q in V.load_questions(REPO)}; Egold = {}
     items = []
@@ -120,10 +124,10 @@ def main():
         q = Q[c["idx"]]; page = c["graph_page"]
         if page not in Egold:
             Egold[page] = V.load_gold(REPO, page)
-        ids = {x["node_id"] for x in NODES[page]}
+        ids = None if NODES is None else {x["node_id"] for x in NODES[page]}
         for v in VARS:
             t0 = time.perf_counter(); o = retrieve(R, v, c["question_hard"], q["question"]); t_ret = time.perf_counter() - t0
-            ev = {e["node_id"]: e for e in sorted(o["events"], key=lambda e: (e["date"], e["phase"])) if e["node_id"] in ids}
+            ev = {e["node_id"]: e for e in sorted(o["events"], key=lambda e: (e["date"], e["phase"])) if ids is None or e["node_id"] in ids}
             tl = "\n".join(f"[{n}] {e['date']} | {e['text']}" for n, e in ev.items())
             items.append(dict(qid=c["idx"], page=page, v=v, q=q, ev=ev, retrieval_s=t_ret, page_ok=o["page"] == page, human=f"TIMELINE\n{tl}\n\nQUESTION\n{q['question']}"))
     uniq = len({SYSTEM + i["human"] for i in items})

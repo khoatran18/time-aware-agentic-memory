@@ -88,6 +88,27 @@ def _cached_from(response: Any) -> int | None:
     return None
 
 
+_RT = threading.local()  # số lần gửi HTTP và mốc lần gửi cuối của lượt gọi LLM đang chạy ở luồng này (để tách thời gian chờ 429/thử lại)
+
+
+def retry_reset() -> None:
+    """Gọi trước mỗi lượt gọi LLM: xóa bộ đếm của luồng hiện tại."""
+    _RT.n, _RT.last = 0, None
+
+
+def retry_mark(*_: Any) -> None:
+    """Hook httpx (event `request`): mỗi lần SDK gửi HTTP (kể cả lần thử lại sau 429/5xx) ghi mốc."""
+    _RT.n, _RT.last = getattr(_RT, "n", 0) + 1, time.perf_counter()
+
+
+def retry_stats(t_send: float) -> dict[str, Any]:
+    """Số lần gửi và thời gian mất cho các lần thử lại: mốc lần gửi cuối trừ mốc gọi (gồm lần lỗi và thời gian chờ giữa các lần).
+    `e2e_net_s` = e2e trừ thời gian đó, tức thời gian của lần gửi thành công. Không có hook (số lần 0) thì trả về 0 lần, 0 giây."""
+    n, last = getattr(_RT, "n", 0), getattr(_RT, "last", None)
+    wait = (last - t_send) if (n > 1 and last is not None) else 0.0
+    return {"attempts": n, "retry_wait_s": wait}
+
+
 class LlmMetrics(BaseCallbackHandler):
     """Callback của langchain: mỗi lần model được gọi thật (kể cả lần thử lại) ghi một dòng `llm_call`."""
 
@@ -100,6 +121,7 @@ class LlmMetrics(BaseCallbackHandler):
     def on_chat_model_start(self, serialized: Any, messages: Any, *, run_id: UUID, **kwargs: Any) -> None:
         """Ghi mốc gửi."""
         self._start[run_id] = time.perf_counter()
+        retry_reset()
 
     def on_llm_start(self, serialized: Any, prompts: Any, *, run_id: UUID, **kwargs: Any) -> None:
         """Ghi mốc gửi (model không phải chat)."""
@@ -110,7 +132,8 @@ class LlmMetrics(BaseCallbackHandler):
         t0 = self._start.pop(run_id, None)
         tin, tout = _usage_from(response)
         e2e = None if t0 is None else time.perf_counter() - t0
-        record({"kind": "llm_call", "profile": self.profile, "ok": True, "e2e_s": e2e, "input_tokens": tin,
+        rs = retry_stats(t0) if t0 is not None else {}
+        record({"kind": "llm_call", "profile": self.profile, "ok": True, "e2e_s": e2e, **rs, "e2e_net_s": None if e2e is None else e2e - rs.get("retry_wait_s", 0.0), "input_tokens": tin,
                 "output_tokens": tout, "cached_input_tokens": _cached_from(response), "tokens_per_s": (tout / e2e if tout and e2e else None)})
 
     def on_llm_error(self, error: BaseException, *, run_id: UUID, **kwargs: Any) -> None:
@@ -141,6 +164,7 @@ def stream_collect(llm: Any, messages: Any) -> tuple[list[Any], dict[str, Any]]:
     TTFT = t(chunk đầu ra đầu tiên) - t_gửi. TPOT = (t_cuối - t_đầu) / (số token ra - 1); số token ra lấy từ `usage_metadata` nếu API trả,
     không thì đếm số chunk có đầu ra (xấp xỉ, `tokens_exact=False`). Không ghi file: người gọi quyết định ghi ở đâu.
     """
+    retry_reset()
     t_send = time.perf_counter()
     t_first = t_last = None
     n_chunks, usage_out, usage_in, cached = 0, None, None, None
@@ -161,7 +185,8 @@ def stream_collect(llm: Any, messages: Any) -> tuple[list[Any], dict[str, Any]]:
     n_out = usage_out if usage_out else n_chunks
     ttft = None if t_first is None else t_first - t_send
     gen = None if t_first is None or t_last is None else t_last - t_first
-    row = {"ttft_s": ttft, "e2e_s": t_done - t_send, "output_tokens": n_out, "input_tokens": usage_in, "cached_input_tokens": cached,
+    rs = retry_stats(t_send)
+    row = {**rs, "e2e_net_s": t_done - t_send - rs["retry_wait_s"], "ttft_net_s": None if ttft is None else ttft - rs["retry_wait_s"], "ttft_s": ttft, "e2e_s": t_done - t_send, "output_tokens": n_out, "input_tokens": usage_in, "cached_input_tokens": cached,
            "tokens_exact": bool(usage_out), "tpot_s": (gen / (n_out - 1) if gen is not None and n_out > 1 else None),
            "tokens_per_s": (n_out / gen if gen and n_out else None)}
     return chunks, row
