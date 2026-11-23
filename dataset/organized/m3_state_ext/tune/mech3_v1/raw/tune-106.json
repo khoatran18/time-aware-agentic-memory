@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "4a963563a6fac05b",
+  "N2": "ca2e9c8ddb314873",
+  "N3": "d387c1a781a62342",
+  "N4": "44e83c1172ae6087",
+  "N5": "3f7d6a3728582589"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "edit",
+    "evidence": "It was either in that same year ( 1934 ) at the Teatro Municipale in Bari , singing in La bohème",
+    "end_date": null,
+    "new_text": "Her formal debut occurred at the Teatro Municipale in Bari, singing in La bohème.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "It was either in that same year ( 1934 ) at the Teatro Municipale in Bari , singing in La bohème"
+   }
+  ],
+  "add": []
+ }
+}

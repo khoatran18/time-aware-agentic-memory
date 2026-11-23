@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Amalric secured Bohemund's ransom.",
+   "chunk": 14,
+   "date_text": "in 1165",
+   "date": "1165",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Bohemund's ransom",
+   "quote": "secured Bohemunds ransom in 1165",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Bohemund's"
+   ],
+   "cid": "/wiki/Amalric_of_Jerusalem#14"
+  },
+  {
+   "text": "Raymond remained in captivity until 1173.",
+   "chunk": 14,
+   "date_text": "until 1173",
+   "date": "1173",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "state",
+   "subject": "other",
+   "object": "captivity",
+   "quote": "Raymond remained in captivity until 1173",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Amalric_of_Jerusalem#14"
+  },
+  {
+   "text": "Amalric sent envoys to the Byzantine Empire seeking an alliance and a Byzantine wife.",
+   "chunk": 14,
+   "date_text": "1166",
+   "date": "1166",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Byzantine Empire",
+   "quote": "The year 1166 was relatively quiet , but Amalric sent envoys to the Byzantine Empire",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Amalric_of_Jerusalem#14"
+  }
+ ],
+ "dropped": []
+}

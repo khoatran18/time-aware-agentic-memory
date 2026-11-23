@@ -1,0 +1,30 @@
+{
+ "idmap": {
+  "N1": "87ceb394abf9303c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In 1913 , the building was granted to the Daughters of the American Revolution",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The building was granted to the Daughters of the American Revolution.",
+    "evidence": "In 1913 , the building was granted to the Daughters of the American Revolution",
+    "date_text": "1913",
+    "date": "1913",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Daughters of the American Revolution",
+    "quote": "In 1913 , the building was granted to the Daughters of the American Revolution"
+   }
+  ]
+ }
+}

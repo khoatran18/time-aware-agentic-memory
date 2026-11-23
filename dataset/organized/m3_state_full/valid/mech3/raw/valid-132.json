@@ -1,0 +1,58 @@
+{
+ "idmap": {
+  "N1": "ce4197879478f56e",
+  "N2": "b9af4a595396424b",
+  "N3": "0856ddec3370e4c5",
+  "N4": "91c57dc74d43d2f1",
+  "N5": "6f6ec602748f5283",
+  "N6": "04987a7af23b2df1",
+  "N7": "a1a124d394f1cc65",
+  "N8": "5e51576397c5a4b7",
+  "N9": "62cd9ac0457beaf6",
+  "N10": "7379212d5700ce4e"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+    "end_date": null
+   },
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Isaak Shvarts's term began on December 3, 1918.",
+    "evidence": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+    "date_text": "December 3 , 1918",
+    "date": "1918-12-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Isaak Shvarts",
+    "quote": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919"
+   },
+   {
+    "text": "Isaak Shvarts's term ended on April 2, 1919.",
+    "evidence": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+    "date_text": "April 2 , 1919",
+    "date": "1919-04-02",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Isaak Shvarts",
+    "quote": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919"
+   }
+  ]
+ }
+}

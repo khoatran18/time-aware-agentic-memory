@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Eric Dickerson was drafted in 1983 out of Southern Methodist University.",
+   "chunk": 49,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Eric Dickerson",
+   "quote": "Eric Dickerson , who was drafted in 1983 out of Southern Methodist University",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Los_Angeles_Rams#49"
+  },
+  {
+   "text": "In 1984, Dickerson rushed for 2,105 yards, setting an NFL record.",
+   "chunk": 49,
+   "date_text": "In 1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "2,105 yards",
+   "quote": "In 1984 , Dickerson rushed for 2,105 yards , setting an NFL record",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Los_Angeles_Rams#49"
+  },
+  {
+   "text": "Dickerson ended his five years for the Rams in 1987 by being traded to the Indianapolis Colts.",
+   "chunk": 49,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Indianapolis Colts",
+   "quote": "Dickerson ended his five hugely successful years for the Rams in 1987 by being traded to the Indianapolis Colts",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Los_Angeles_Rams#49"
+  },
+  {
+   "text": "Dickerson was the Rams career rushing leader until 2010.",
+   "chunk": 49,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "state",
+   "subject": "part_of_self",
+   "object": "Rams career rushing leader",
+   "quote": "Dickerson was the Rams career rushing leader until 2010",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Los_Angeles_Rams#49"
+  }
+ ],
+ "dropped": []
+}

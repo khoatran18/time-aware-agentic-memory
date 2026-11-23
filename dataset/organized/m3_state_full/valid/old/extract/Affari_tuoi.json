@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The show was previously known as Pacco Matto until June 2013.",
+   "chunk": 18,
+   "date_text": "June 2013",
+   "date": "2013-06",
+   "approximate": false,
+   "track": "naming",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Pacco Matto",
+   "quote": "Previously known as Pacco Matto ( crazy box ) until June 2013",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Affari_tuoi#18"
+  },
+  {
+   "text": "The show was known as La Matta until June 2014.",
+   "chunk": 18,
+   "date_text": "June 2014",
+   "date": "2014-06",
+   "approximate": false,
+   "track": "naming",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "La Matta",
+   "quote": "La Matta ( the madwoman ) until June 2014",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Affari_tuoi#18"
+  },
+  {
+   "text": "The show is currently known as Sgambetto.",
+   "chunk": 18,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Sgambetto",
+   "quote": "currently known as Sgambetto ( trip )",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Affari_tuoi#18"
+  }
+ ],
+ "dropped": []
+}

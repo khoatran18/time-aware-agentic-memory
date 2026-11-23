@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Gran was sent to a school in Lausanne, Switzerland for a year.",
+   "chunk": 1,
+   "date_text": "In 1900",
+   "date": "1900",
+   "approximate": false,
+   "track": "education",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "school in Lausanne",
+   "quote": "In 1900 , after school in Bergen and Lillehammer , Gran was sent to a school in Lausanne , Switzerland for a year",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Tryggve_Gran#1"
+  },
+  {
+   "text": "Gran entered naval college.",
+   "chunk": 2,
+   "date_text": "1905",
+   "date": "1905",
+   "approximate": false,
+   "track": "education",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "naval college",
+   "quote": "He entered naval college in 1905",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Tryggve_Gran#2"
+  },
+  {
+   "text": "Gran graduated.",
+   "chunk": 2,
+   "date_text": "the spring of 1910",
+   "date": "1910",
+   "approximate": true,
+   "track": "education",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "graduated in the spring of 1910",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Tryggve_Gran#2"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Gran met the German emperor Wilhelm II.",
+   "chunk": 1,
+   "date_text": "Three years later",
+   "date": "1903",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Wilhelm II",
+   "quote": "Three years later , he met the German",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Tryggve_Gran#1",
+   "reason": "year_not_in_page"
+  }
+ ]
+}

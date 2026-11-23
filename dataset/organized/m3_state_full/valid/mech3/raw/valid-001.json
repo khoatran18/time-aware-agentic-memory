@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "1e81f81f2709a5c5",
+  "N2": "836fe2e1539faa26"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "expanded from 2016 to 2018",
+    "end_date": "2018"
+   }
+  ],
+  "add": [
+   {
+    "text": "A. Le Coq Arena was expanded from 2016 to 2018.",
+    "evidence": "Opened in 2001 and expanded from 2016 to 2018",
+    "date_text": "2016 to 2018",
+    "date": "2018",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "subject": "part_of_self",
+    "object": "A. Le Coq Arena",
+    "quote": "Opened in 2001 and expanded from 2016 to 2018"
+   }
+  ]
+ }
+}

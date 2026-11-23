@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Erich Böhme hosted the last Talk im Turm programme for the Bundestag elections on 27 September 1998.",
+   "chunk": 2,
+   "date_text": "27 September 1998",
+   "date": "1998-09-27",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Talk im Turm",
+   "quote": "Böhme hosted the last Talk im Turm programme for the Bundestag elections on 27 September 1998",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Talk_im_Turm#2"
+  },
+  {
+   "text": "At the end of 1997 Böhme became co-host of Der Grüne Salon at the n-tv news channel.",
+   "chunk": 2,
+   "date_text": "at the end of 1997",
+   "date": "1997",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Der Grüne Salon",
+   "quote": "Already at the end of 1997 Böhme became co-host of the programme Der Grüne Salon",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Talk_im_Turm#2"
+  },
+  {
+   "text": "From 2000, Böhme continued a similar broadcasting format with Talk in Berlin.",
+   "chunk": 2,
+   "date_text": "From 2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Talk in Berlin",
+   "quote": "From 2000 , Böhme continued a similar broadcasting format with Talk in Berlin",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Talk_im_Turm#2"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "0dde11401aa3d76d",
+  "N2": "feba4c7947e678d3",
+  "N3": "ceb2abdbf4d9ef1c",
+  "N4": "f027a654698cac8a",
+  "N5": "7efee6c3c759d628"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The New Orleans Zephyrs remained in the American Association through 1997",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The New Orleans Zephyrs remained in the American Association through 1997.",
+    "evidence": "The New Orleans Zephyrs remained in the American Association through 1997",
+    "date_text": "1997",
+    "date": "1997",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "American Association",
+    "quote": "The New Orleans Zephyrs remained in the American Association through 1997"
+   }
+  ]
+ }
+}

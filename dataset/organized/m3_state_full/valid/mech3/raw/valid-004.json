@@ -1,0 +1,83 @@
+{
+ "idmap": {
+  "N1": "a1b087bbe49362f1",
+  "N2": "160025ae33170d4e"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "she was married to French actors Pierre Fabre from 1968 to 1974",
+    "end_date": "1974"
+   }
+  ],
+  "add": [
+   {
+    "text": "Karina was married to French actor Pierre Fabre from 1968 to 1974.",
+    "evidence": "she was married to French actors Pierre Fabre from 1968 to 1974",
+    "date_text": "from 1968 to 1974",
+    "date": "1968",
+    "approximate": false,
+    "track": "family",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Pierre Fabre",
+    "quote": "she was married to French actors Pierre Fabre from 1968 to 1974"
+   },
+   {
+    "text": "Karina's marriage to Pierre Fabre ended in 1974.",
+    "evidence": "Pierre Fabre from 1968 to 1974",
+    "date_text": "1974",
+    "date": "1974",
+    "approximate": false,
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Pierre Fabre",
+    "quote": "Pierre Fabre from 1968 to 1974"
+   },
+   {
+    "text": "Karina was married to French actor Daniel Duval from 1978 to 1981.",
+    "evidence": "Daniel Duval from 1978 to 1981",
+    "date_text": "from 1978 to 1981",
+    "date": "1978",
+    "approximate": false,
+    "track": "family",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Daniel Duval",
+    "quote": "Daniel Duval from 1978 to 1981"
+   },
+   {
+    "text": "Karina's marriage to Daniel Duval ended in 1981.",
+    "evidence": "Daniel Duval from 1978 to 1981",
+    "date_text": "1981",
+    "date": "1981",
+    "approximate": false,
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Daniel Duval",
+    "quote": "Daniel Duval from 1978 to 1981"
+   },
+   {
+    "text": "Karina was married to American film director Dennis Berry from 1982 until her death.",
+    "evidence": "to American film director Dennis Berry from 1982 until her death",
+    "date_text": "from 1982 until her death",
+    "date": "1982",
+    "approximate": false,
+    "track": "family",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Dennis Berry",
+    "quote": "to American film director Dennis Berry from 1982 until her death"
+   }
+  ]
+ }
+}

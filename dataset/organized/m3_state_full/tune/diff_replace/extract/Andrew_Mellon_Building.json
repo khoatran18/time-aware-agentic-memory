@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Andrew Mellon was Secretary of the Treasury.",
+   "chunk": 4,
+   "date_text": "1921",
+   "date": "1921",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Secretary of the Treasury",
+   "quote": "He was Secretary of the Treasury from 1921 to 1932 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Andrew_Mellon_Building#4"
+  },
+  {
+   "text": "Andrew Mellon's tenure as Secretary of the Treasury ended.",
+   "chunk": 4,
+   "date_text": "1932",
+   "date": "1932",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "Secretary of the Treasury",
+   "quote": "He was Secretary of the Treasury from 1921 to 1932 .",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Mellon's"
+   ],
+   "cid": "/wiki/Andrew_Mellon_Building#4"
+  },
+  {
+   "text": "Mellon made this his residence, occupying the top floor.",
+   "chunk": 4,
+   "date_text": "1922",
+   "date": "1922",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "top floor",
+   "quote": "occupying the top floor from 1922 until his death in 1937 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Andrew_Mellon_Building#4"
+  },
+  {
+   "text": "Mellon's residence ended with his death.",
+   "chunk": 4,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "top floor",
+   "quote": "occupying the top floor from 1922 until his death in 1937 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Andrew_Mellon_Building#4"
+  },
+  {
+   "text": "Mellon paid $21 million for paintings and sculptures owned by Sir Joseph Duveen.",
+   "chunk": 4,
+   "date_text": "1936",
+   "date": "1936",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Sir Joseph Duveen",
+   "quote": "In 1936 Mellon paid $21 million for paintings and sculptures owned by Sir Joseph Duveen",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Andrew_Mellon_Building#4"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "a55b2d2cb6e63fb4",
+  "N2": "35357cb7688d837f",
+  "N3": "42c90b2c02eb52b3",
+  "N4": "a2bc7454395fa7d8",
+  "N5": "f11fcc5059a13e14",
+  "N6": "029707235b73aeb0",
+  "N7": "5d1bb5baccd1ebd3",
+  "N8": "7e6952751b8fe9e9",
+  "N9": "d42c93221380b8a3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In 1905 , Booth sold the Canada Atlantic Railway to the Grand Trunk Railway .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Booth sold the Canada Atlantic Railway to the Grand Trunk Railway.",
+    "evidence": "In 1905 , Booth sold the Canada Atlantic Railway to the Grand Trunk Railway .",
+    "date_text": "In 1905",
+    "date": "1905",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "Grand Trunk Railway",
+    "quote": "In 1905 , Booth sold the Canada Atlantic Railway to the Grand Trunk Railway ."
+   }
+  ]
+ }
+}

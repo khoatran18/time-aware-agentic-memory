@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "0cfd15e60821f099",
+  "N2": "4e7f085c0e1870b9",
+  "N3": "5667779ea744503c",
+  "N4": "08f894282649efe3",
+  "N5": "9c010cd237f98b42",
+  "N6": "3e073c87014a8ba3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert on June 15 , 2008",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert.",
+    "evidence": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert on June 15 , 2008",
+    "date_text": "June 15 , 2008",
+    "date": "2008-06-15",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Meet the Press",
+    "quote": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert on June 15 , 2008"
+   }
+  ]
+ }
+}

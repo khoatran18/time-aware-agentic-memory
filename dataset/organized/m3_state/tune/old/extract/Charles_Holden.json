@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Charles Henry Holden was born.",
+   "chunk": 0,
+   "date_text": "12 May 1875",
+   "date": "1875-05-12",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Charles Henry Holden ( 12 May 1875 – 1 May 1960 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#0"
+  },
+  {
+   "text": "Charles Henry Holden died.",
+   "chunk": 0,
+   "date_text": "1 May 1960",
+   "date": "1960-05-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Charles Henry Holden ( 12 May 1875 – 1 May 1960 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#0"
+  },
+  {
+   "text": "Holden received the Royal Gold Medal for architecture.",
+   "chunk": 3,
+   "date_text": "1936",
+   "date": "1936",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Royal Gold Medal",
+   "quote": "He received the Royal Institute of British Architects ( RIBAs ) Royal Gold Medal for architecture in 1936",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#3"
+  },
+  {
+   "text": "Holden was made a Royal Designer for Industry.",
+   "chunk": 3,
+   "date_text": "1943",
+   "date": "1943",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Royal Designer for Industry",
+   "quote": "was made a Royal Designer for Industry in 1943",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#3"
+  }
+ ],
+ "dropped": []
+}

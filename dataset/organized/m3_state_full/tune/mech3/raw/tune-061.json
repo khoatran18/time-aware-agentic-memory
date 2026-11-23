@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "f1e798837f016f0a",
+  "N2": "93a8dadc2a0431fc",
+  "N3": "9d72374025a6bedb",
+  "N4": "b8a725379fad0b9c",
+  "N5": "27bb4cc74b66cef1"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "It was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "between 14 August and 8 September 2006",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The One Show was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006.",
+    "evidence": "It was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006",
+    "date_text": "14 August",
+    "date": "2006-08-14",
+    "approximate": false,
+    "track": "work",
+    "phase": "start",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "The One Show",
+    "quote": "It was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006"
+   },
+   {
+    "text": "The One Show's broadcast run between 14 August and 8 September 2006 ended.",
+    "evidence": "between 14 August and 8 September 2006",
+    "date_text": "8 September 2006",
+    "date": "2006-09-08",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "The One Show",
+    "quote": "between 14 August and 8 September 2006"
+   }
+  ]
+ }
+}

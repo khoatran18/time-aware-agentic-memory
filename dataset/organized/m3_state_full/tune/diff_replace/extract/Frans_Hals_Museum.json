@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "The Dutch Society of Science started to rent the Prinsenhof room of the city hall for its meetings.",
+   "chunk": 9,
+   "date_text": "1754",
+   "date": "1754",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Prinsenhof room",
+   "quote": "started to rent the Prinsenhof room of the city hall in 1754 for its meetings",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Frans_Hals_Museum#9"
+  },
+  {
+   "text": "The Society hired a man as curator.",
+   "chunk": 10,
+   "date_text": "1768",
+   "date": "1768",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "curator",
+   "quote": "in 1768 they hired a man as curator",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Frans_Hals_Museum#10"
+  },
+  {
+   "text": "The Society moved its overflowing collection to a renovated house on the Grote Houtstraat.",
+   "chunk": 11,
+   "date_text": "1777",
+   "date": "1777",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "Grote Houtstraat",
+   "quote": "In 1777 the Society moved its overflowing collection to a renovated house on the Grote Houtstraat",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Frans_Hals_Museum#11"
+  },
+  {
+   "text": "Napoleon disbanded the guilds in the Netherlands.",
+   "chunk": 14,
+   "date_text": "1794",
+   "date": "1794",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "guilds",
+   "quote": "Napoleon disbanded the guilds in the Netherlands in 1794",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Frans_Hals_Museum#14"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "db021bdea5b429c5",
+  "N2": "109930625a1157f4"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The area was ignored until 1843, when growing streams of wagons began flowing through the area in the summer.",
+    "evidence": "the area was ignored until 1843 , when growing streams of wagons began flowing through the area in the summer",
+    "date_text": "1843",
+    "date": "1843",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "City of Rocks",
+    "quote": "the area was ignored until 1843 , when growing streams of wagons began flowing through the area in the summer"
+   }
+  ]
+ }
+}

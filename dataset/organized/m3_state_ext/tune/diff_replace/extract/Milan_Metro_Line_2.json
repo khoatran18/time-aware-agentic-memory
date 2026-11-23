@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The first AnsaldoBreda Meneghino train was introduced.",
+   "chunk": 7,
+   "date_text": "April 2009",
+   "date": "2009-04",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "AnsaldoBreda Meneghino",
+   "quote": "The first train was introduced in April 2009 .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Milan_Metro_Line_2#7"
+  },
+  {
+   "text": "The 3000 Series Leonardo followed.",
+   "chunk": 7,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "3000 Series Leonardo",
+   "quote": "In 2015 , the 3000 Series Leonardo followed",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Milan_Metro_Line_2#7"
+  },
+  {
+   "text": "All the other stock is due to be retired.",
+   "chunk": 7,
+   "date_text": "2020",
+   "date": "2020",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "which is due to be retired by 2020",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Milan_Metro_Line_2#7"
+  }
+ ],
+ "dropped": []
+}

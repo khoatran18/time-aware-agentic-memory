@@ -1,0 +1,71 @@
+{
+ "events": [
+  {
+   "text": "The personal union of the United Kingdom and Hanover ended.",
+   "chunk": 18,
+   "date_text": "1837",
+   "date": "1837",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "personal union of the United Kingdom and Hanover",
+   "quote": "In 1837 , the personal union of the United Kingdom and Hanover ended",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hanover#18"
+  },
+  {
+   "text": "Hanover passed to William IV's brother, Ernest Augustus.",
+   "chunk": 18,
+   "date_text": "1837",
+   "date": "1837",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Ernest Augustus",
+   "quote": "Thus , Hanover passed to William IVs brother , Ernest Augustus",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:IV's"
+   ],
+   "cid": "/wiki/Hanover#18"
+  },
+  {
+   "text": "Hanover remained a kingdom until 1866.",
+   "chunk": 18,
+   "date_text": "1866",
+   "date": "1866",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "kingdom",
+   "quote": "remained a kingdom until 1866",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hanover#18"
+  },
+  {
+   "text": "Hanover was annexed by Prussia during the Austro-Prussian war.",
+   "chunk": 18,
+   "date_text": "1866",
+   "date": "1866",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Prussia",
+   "quote": "when it was annexed by Prussia during the Austro-Prussian war",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hanover#18"
+  }
+ ],
+ "dropped": []
+}

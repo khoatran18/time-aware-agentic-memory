@@ -1,0 +1,48 @@
+{
+ "idmap": {
+  "N1": "847acd2b6083971f",
+  "N2": "ad0e9bc3a2b97015",
+  "N3": "7f7a451db83af0cc",
+  "N4": "5f18aeef1f4b6fcf",
+  "N5": "2b52e7a3ec7cc0ad",
+  "N6": "cc7760c3ea76a728"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "The colour was used as school colour at the Scania Air Force Wing ( F 10 ) from 1 July 1998 to 31 December 2002",
+    "end_date": "2002-12-31"
+   }
+  ],
+  "add": [
+   {
+    "text": "The colour was used as school colour at the Uppland Air Force Wing (F 16) from 1 January 2003.",
+    "evidence": "at the Uppland Air Force Wing ( F 16 ) from 1 January 2003 to 31 December 2003",
+    "date_text": "1 January 2003",
+    "date": "2003-01-01",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Uppland Air Force Wing (F 16)",
+    "quote": "at the Uppland Air Force Wing ( F 16 ) from 1 January 2003 to 31 December 2003"
+   },
+   {
+    "text": "The colour was used as school colour at the Uppland Air Force Wing (F 16) to 31 December 2003.",
+    "evidence": "at the Uppland Air Force Wing ( F 16 ) from 1 January 2003 to 31 December 2003",
+    "date_text": "31 December 2003",
+    "date": "2003-12-31",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Uppland Air Force Wing (F 16)",
+    "quote": "at the Uppland Air Force Wing ( F 16 ) from 1 January 2003 to 31 December 2003"
+   }
+  ]
+ }
+}

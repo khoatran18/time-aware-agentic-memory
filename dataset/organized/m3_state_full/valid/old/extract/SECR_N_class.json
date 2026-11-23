@@ -1,0 +1,127 @@
+{
+ "events": [
+  {
+   "text": "The government passed the 1921 Railways Act.",
+   "chunk": 18,
+   "date_text": "1921",
+   "date": "1921",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "1921 Railways Act",
+   "quote": "the government passed the 1921 Railways Act",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/SECR_N_class#18"
+  },
+  {
+   "text": "The railways were grouped into the Big Four in 1923.",
+   "chunk": 18,
+   "date_text": "1923",
+   "date": "1923",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "Big Four",
+   "quote": "grouped the railways into the Big Four in 1923",
+   "section": 4,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/SECR_N_class#18"
+  },
+  {
+   "text": "By 1924, the prefabricated components stored at Woolwich formed 100 complete N class kits.",
+   "chunk": 19,
+   "date_text": "By 1924",
+   "date": "1924",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "N class kits",
+   "quote": "By 1924 , the prefabricated components stored at Woolwich formed 100 complete N class kits",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SECR_N_class#19"
+  },
+  {
+   "text": "The Southern Railway undertook trials in early 1924 to compare the performance of its freight locomotives.",
+   "chunk": 20,
+   "date_text": "early 1924",
+   "date": "1924",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "trials",
+   "quote": "undertook trials in early 1924 to compare the performance of its freight locomotives",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/SECR_N_class#20"
+  },
+  {
+   "text": "The Southern Railway bought fifty Woolwich kits for assembly at Eastleigh between June 1924 and August 1925.",
+   "chunk": 21,
+   "date_text": "June 1924",
+   "date": "1924-06",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "fifty Woolwich kits",
+   "quote": "bought fifty Woolwich kits for assembly at Eastleigh between June 1924 and August 1925",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/SECR_N_class#21"
+  },
+  {
+   "text": "The Southern Railway's purchase of fifty Woolwich kits for assembly at Eastleigh ended in August 1925.",
+   "chunk": 21,
+   "date_text": "August 1925",
+   "date": "1925-08",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "fifty Woolwich kits",
+   "quote": "between June 1924 and August 1925",
+   "section": 4,
+   "flags": [
+    "name_not_in_page:Railway's"
+   ],
+   "cid": "/wiki/SECR_N_class#21"
+  },
+  {
+   "text": "The prototype W class was produced in 1932 from N class parts.",
+   "chunk": 23,
+   "date_text": "1932",
+   "date": "1932",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "W class",
+   "quote": "The prototype W class was produced in 1932 from N class parts",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/SECR_N_class#23"
+  }
+ ],
+ "dropped": []
+}

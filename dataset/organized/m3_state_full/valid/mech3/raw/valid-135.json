@@ -1,0 +1,52 @@
+{
+ "idmap": {
+  "N1": "49537140a1985bff",
+  "N2": "8cd7798c754ee608",
+  "N3": "0ae9b2044e567b9a",
+  "N4": "fbe5d5d24afc1994"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Southern Railway bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925.",
+    "evidence": "bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925",
+    "date_text": "June 1924",
+    "date": "1924-06",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Southern Railway",
+    "quote": "bought fifty Woolwich kits for assembly at Ashford between June 1924 and August 1925"
+   },
+   {
+    "text": "The Southern Railway's purchase of fifty Woolwich kits for assembly at Ashford ended in August 1925.",
+    "evidence": "between June 1924 and August 1925",
+    "date_text": "August 1925",
+    "date": "1925-08",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Southern Railway",
+    "quote": "between June 1924 and August 1925"
+   }
+  ]
+ }
+}

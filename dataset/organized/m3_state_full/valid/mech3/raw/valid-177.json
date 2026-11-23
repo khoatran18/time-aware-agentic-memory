@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "f9508811f0f1d0ca",
+  "N2": "69af39c40dbb764b",
+  "N3": "ec030c29d4d7ce12",
+  "N4": "7b3bca4ff2654cda",
+  "N5": "8e3d0f312090149a",
+  "N6": "3c96c2fe2f0fc3b1"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "was scheduled to begin filming in May 2020",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Filming was scheduled to begin in May 2020.",
+    "evidence": "was scheduled to begin filming in May 2020",
+    "date_text": "May 2020",
+    "date": "2020-05",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "statement",
+    "subject": "part_of_self",
+    "object": "Reagan",
+    "quote": "was scheduled to begin filming in May 2020"
+   }
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "events": [
+  {
+   "text": "Puigdemont became a journalist.",
+   "chunk": 2,
+   "date_text": "1982",
+   "date": "1982",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "journalist",
+   "quote": "he became a journalist in 1982",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont became director of the Catalan News Agency.",
+   "chunk": 2,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Catalan News Agency",
+   "quote": "director of the Catalan News Agency from 1999 to 2002",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont's directorship of the Catalan News Agency ended.",
+   "chunk": 2,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Catalan News Agency",
+   "quote": "director of the Catalan News Agency from 1999 to 2002",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont became director of Girona's House of Culture.",
+   "chunk": 2,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gironas House of Culture",
+   "quote": "director of Gironas House of Culture from 2002 to 2004",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Girona's"
+   ],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont's directorship of Girona's House of Culture ended.",
+   "chunk": 2,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gironas House of Culture",
+   "quote": "director of Gironas House of Culture from 2002 to 2004",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Girona's"
+   ],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont joined the Democratic Convergence of Catalonia (CDC).",
+   "chunk": 2,
+   "date_text": "1980",
+   "date": "1980",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Democratic Convergence of Catalonia",
+   "quote": "joining the nationalist Democratic Convergence of Catalonia ( CDC ) , the predecessor to the PDeCAT , in 1980",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  },
+  {
+   "text": "Puigdemont gave up journalism to pursue a career in politics.",
+   "chunk": 2,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "journalism",
+   "quote": "He gave up journalism to pursue a career in politics in 2006",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Carles_Puigdemont#2"
+  }
+ ],
+ "dropped": []
+}

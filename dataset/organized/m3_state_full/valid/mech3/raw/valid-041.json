@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "ce4927d4a18e546b",
+  "N2": "73fe79b6e00493d3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "Riggs Library was the main library of Georgetown University from 1891 to 1970",
+    "end_date": "1970"
+   }
+  ],
+  "add": [
+   {
+    "text": "Riggs Library was replaced by Lauinger Library.",
+    "evidence": "until being replaced by Lauinger Library",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Lauinger Library",
+    "quote": "until being replaced by Lauinger Library"
+   }
+  ]
+ }
+}

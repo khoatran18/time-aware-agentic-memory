@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "00c8c7ffb597bb75",
+  "N2": "25d32cf5cd2ab214",
+  "N3": "8317b71085911dca",
+  "N4": "0a5e5d32d0e87c4a",
+  "N5": "994a49bbe60c2abe",
+  "N6": "063abfd5ca3fbaaa",
+  "N7": "e40ce466ad47f7f3",
+  "N8": "da61d3154d62291f",
+  "N9": "a4d2f914a4806257",
+  "N10": "0a55bda809fecbd2",
+  "N11": "d041e6e06dad97b2"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Lubbers left office as Prime Minister of the Netherlands on 22 August 1994.",
+    "evidence": "served as Prime Minister of the Netherlands from 4 November 1982 to 22 August 1994",
+    "date_text": "22 August 1994",
+    "date": "1994-08-22",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Prime Minister of the Netherlands",
+    "quote": "served as Prime Minister of the Netherlands from 4 November 1982 to 22 August 1994"
+   }
+  ]
+ }
+}

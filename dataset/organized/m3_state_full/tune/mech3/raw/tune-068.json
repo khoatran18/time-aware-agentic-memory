@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "b75a9541c79cb0c9",
+  "N2": "ba5688e1d0443769",
+  "N3": "88a592d241a16f44",
+  "N4": "fe2c1e3658c97b43",
+  "N5": "617c1e88d9d4b61b",
+  "N6": "c5b5e8787ecd37fd",
+  "N7": "a3b68dfb3dbc0995",
+  "N8": "90c6a8329a14bb63"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "at the n-tv news channel",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Böhme became co-host of Der Grüne Salon at the n-tv news channel.",
+    "evidence": "Already at the end of 1997 Böhme became co-host of the programme Der Grüne Salon at Heinz Eggerts side at the n-tv news channel",
+    "date_text": "end of 1997",
+    "date": "1997",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Der Grüne Salon",
+    "quote": "Already at the end of 1997 Böhme became co-host of the programme Der Grüne Salon"
+   }
+  ]
+ }
+}

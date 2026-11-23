@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "e648be586b245e26",
+  "N2": "92373d088ae9658d",
+  "N3": "8f60c72b19f2849f",
+  "N4": "a5934236350f9f04",
+  "N5": "f63686e137c2c3aa",
+  "N6": "220480012976c546"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "forming the Classical Association in 1903",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Sonnenschein formed the Classical Association with John Percival Postgate in 1903.",
+    "evidence": "forming the Classical Association in 1903",
+    "date_text": "1903",
+    "date": "1903",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Classical Association",
+    "quote": "forming the Classical Association in 1903"
+   }
+  ]
+ }
+}

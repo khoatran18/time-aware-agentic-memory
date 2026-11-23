@@ -1,0 +1,44 @@
+{
+ "idmap": {
+  "N1": "ca0dd5d8b48d1e79",
+  "N2": "599d978bb9c6f7e7"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945",
+    "end_date": "1945"
+   }
+  ],
+  "add": [
+   {
+    "text": "Selvon was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945.",
+    "evidence": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945",
+    "date_text": "1940",
+    "date": "1940",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Royal Naval Reserve",
+    "quote": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945"
+   },
+   {
+    "text": "Selvon's work as a wireless operator with the Royal Naval Reserve ended in 1945.",
+    "evidence": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945",
+    "date_text": "1945",
+    "date": "1945",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Royal Naval Reserve",
+    "quote": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945"
+   }
+  ]
+ }
+}

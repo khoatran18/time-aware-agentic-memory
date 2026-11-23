@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "9c97dafe46076e48",
+  "N2": "62ea4b88ccb57149",
+  "N3": "64a6f3aa7583f5c0"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Bottum served as editor through October 2010, when he was forced out.",
+    "evidence": "Bottum served through October 2010 , when he was forced out",
+    "date_text": "October 2010",
+    "date": "2010-10",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Bottum",
+    "quote": "Bottum served through October 2010 , when he was forced out"
+   },
+   {
+    "text": "Nuechterlein returned from retirement to become interim editor.",
+    "evidence": "Nuechterlein returned from retirement to become interim editor",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Nuechterlein",
+    "quote": "Nuechterlein returned from retirement to become interim editor"
+   }
+  ]
+ }
+}

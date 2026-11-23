@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Liebknecht was re-elected to the Reichstag.",
+   "chunk": 13,
+   "date_text": "1874",
+   "date": "1874",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Reichstag",
+   "quote": "After being re-elected to the Reichstag in 1874",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  },
+  {
+   "text": "Liebknecht played a key role in the merger of the SDAP and Lassalles ADAV into the Socialist Workers Party of Germany in Gotha.",
+   "chunk": 13,
+   "date_text": "1875",
+   "date": "1875",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Socialist Workers Party of Germany",
+   "quote": "merger of the SDAP and Lassalles ADAV into the Socialist Workers Party of Germany",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  },
+  {
+   "text": "Liebknecht became publisher of the newly founded party organ Vorwärts.",
+   "chunk": 13,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vorwärts",
+   "quote": "He also became publisher of the newly founded party organ Vorwärts",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Liebknecht#13"
+  }
+ ],
+ "dropped": []
+}

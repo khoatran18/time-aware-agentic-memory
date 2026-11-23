@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "The Wasa Star was sold to the Norwegian operator Larvik Line.",
+   "chunk": 7,
+   "date_text": "29 August 1983",
+   "date": "1983-08-29",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Larvik Line",
+   "quote": "On 29 August 1983 , after the various conflicting charter agreements were resolved , the Wasa Star was sold to the Norwegian operator Larvik Line .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/MS_GNV_Azzurra#7"
+  },
+  {
+   "text": "She left Landskrona.",
+   "chunk": 7,
+   "date_text": "13 January 1984",
+   "date": "1984-01-13",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Landskrona",
+   "quote": "She left Landskrona on 13 January 1984 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/MS_GNV_Azzurra#7"
+  },
+  {
+   "text": "She was renamed MS Peter Wessel.",
+   "chunk": 7,
+   "date_text": "March of the same year",
+   "date": "1984-03",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "MS Peter Wessel",
+   "quote": "In March of the same year she was renamed MS Peter Wessel",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/MS_GNV_Azzurra#7"
+  },
+  {
+   "text": "She started operating on the Larvik–Frederikshavn route.",
+   "chunk": 7,
+   "date_text": "March of the same year",
+   "date": "1984-03",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Larvik–Frederikshavn route",
+   "quote": "started operating on the Larvik–Frederikshavn route",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/MS_GNV_Azzurra#7"
+  }
+ ],
+ "dropped": []
+}

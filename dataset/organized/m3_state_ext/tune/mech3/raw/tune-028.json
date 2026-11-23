@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "b19f2dc0cf4085b8",
+  "N2": "1bd6a18a88c77dd2",
+  "N3": "c02e73f46b343a4b",
+  "N4": "ff61c50700a8ec6c",
+  "N5": "c88ab84c4978d6c4",
+  "N6": "b096d9594598fd93",
+  "N7": "5d9de66d09bbf579"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "close",
+    "evidence": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932",
+    "end_date": "1932"
+   }
+  ],
+  "add": [
+   {
+    "text": "His service as captain in the 16th Battalion, London Regiment ended in 1932.",
+    "evidence": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932",
+    "date_text": "1932",
+    "date": "1932",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "16th Battalion, London Regiment",
+    "quote": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932"
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "events": [
+  {
+   "text": "He promoted a law ending conscription from 2007.",
+   "chunk": 8,
+   "date_text": "2007",
+   "date": "2007",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "law ending conscription",
+   "quote": "law ending conscription from 2007",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "He was in office during severe flooding in 2005 that the Army helped combat.",
+   "chunk": 8,
+   "date_text": "2005",
+   "date": "2005",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "severe flooding",
+   "quote": "He was in office during severe flooding in 2005 that the Army helped combat .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "He affirmed his commitment to Romania's participation in the Iraq War and the War in Afghanistan in 2005.",
+   "chunk": 8,
+   "date_text": "2005",
+   "date": "2005",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Iraq War and the War in Afghanistan",
+   "quote": "affirming his commitment to Romanias participation in both the Iraq War and the War in Afghanistan in 2005",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Romania's"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "The following year he sought Romania's withdrawal from Iraq.",
+   "chunk": 8,
+   "date_text": "the following year",
+   "date": "2006",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Romanias withdrawal from Iraq",
+   "quote": "the following year he sought Romanias withdrawal from Iraq",
+   "section": 2,
+   "flags": [
+    "derived_date",
+    "name_not_in_page:Romania's"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  }
+ ],
+ "dropped": []
+}

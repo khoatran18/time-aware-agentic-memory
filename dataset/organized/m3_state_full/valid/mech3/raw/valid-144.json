@@ -1,0 +1,68 @@
+{
+ "idmap": {
+  "N1": "831ef7f68b8e4d12",
+  "N2": "4c71d9927fc2c804",
+  "N3": "be537b7e0fd7c0a4",
+  "N4": "96e78a7f078dbb27",
+  "N5": "020ccf80e7ef4a2f",
+  "N6": "1dfa26997d47ca00",
+  "N7": "25a6718567214165",
+  "N8": "298f13ae87917f99",
+  "N9": "5e54086d06d2be82",
+  "N10": "802b7189c434fa18",
+  "N11": "8ef9b5a6a9113d94",
+  "N12": "a3ecc3b30d4d4f7b",
+  "N13": "cb17afc2fbfe347b",
+  "N14": "393763ae5f342fd4",
+  "N15": "c5983ac868e6f80b",
+  "N16": "b8246325744c66d1",
+  "N17": "24584b8c5a27e105",
+  "N18": "5bb53c0cd179544d",
+  "N19": "a8f9f5f451472286",
+  "N20": "e7d983de0f547870"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Michael Russell , 1994–1999",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Michael Russell , 1994–1999",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Michael Russell served as Chief Executive Officer.",
+    "evidence": "Michael Russell , 1994–1999",
+    "date_text": "1994",
+    "date": "1994",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Chief Executive Officer",
+    "quote": "Michael Russell , 1994–1999"
+   },
+   {
+    "text": "Michael Russell's term as Chief Executive Officer ended.",
+    "evidence": "Michael Russell , 1994–1999",
+    "date_text": "1999",
+    "date": "1999",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Chief Executive Officer",
+    "quote": "Michael Russell , 1994–1999"
+   }
+  ]
+ }
+}

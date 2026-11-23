@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "f1bc467bad97a557",
+  "N2": "1b4d3902e054f9ab",
+  "N3": "80fdc04b3a10a7d7"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In 1938 , Gertude Stein wrote that it was painted at the great moment of the harlequin period",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Gertrude Stein wrote that the painting was painted at the great moment of the harlequin period.",
+    "evidence": "In 1938 , Gertude Stein wrote that it was painted at the great moment of the harlequin period",
+    "date_text": "In 1938",
+    "date": "1938",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "statement",
+    "subject": "other",
+    "object": "Gertrude Stein",
+    "quote": "In 1938 , Gertude Stein wrote that it was painted at the great moment of the harlequin period"
+   }
+  ]
+ }
+}

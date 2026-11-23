@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Greenbelt News Review was established as a volunteer cooperative.",
+   "chunk": 0,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Greenbelt News Review",
+   "quote": "was established in 1937 as a volunteer cooperative",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Greenbelt_News_Review#0"
+  },
+  {
+   "text": "The newspaper was originally named the Greenbelt Cooperator.",
+   "chunk": 0,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "naming",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Greenbelt Cooperator",
+   "quote": "was originally named the Greenbelt Cooperator",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Greenbelt_News_Review#0"
+  },
+  {
+   "text": "The newspaper's name was changed.",
+   "chunk": 0,
+   "date_text": "1954",
+   "date": "1954",
+   "approximate": false,
+   "track": "naming",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Greenbelt Cooperator",
+   "quote": "until its name was changed in 1954",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Greenbelt_News_Review#0"
+  }
+ ],
+ "dropped": []
+}

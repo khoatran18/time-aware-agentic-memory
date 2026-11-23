@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "3ca2322d6bc938fc",
+  "N2": "2f7ad15ce5642c77",
+  "N3": "8d29195292fd6e15",
+  "N4": "165a287ff09d6305"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The peak was discovered in 1871 and originally named Mount Kaufmann",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The peak was discovered and originally named Mount Kaufmann.",
+    "evidence": "The peak was discovered in 1871 and originally named Mount Kaufmann",
+    "date_text": "1871",
+    "date": "1871",
+    "approximate": false,
+    "track": "naming",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Mount Kaufmann",
+    "quote": "The peak was discovered in 1871 and originally named Mount Kaufmann"
+   }
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idmap": {
+  "N1": "3bbdcd4c107faed0",
+  "N2": "f19f2ee5087420d1",
+  "N3": "455b124223891645",
+  "N4": "fc319a66a13ae949"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He spent four more years at Caius from 1964 to 1968",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   },
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "He spent four more years at Caius from 1964 to 1968",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He spent four more years at Caius from 1964 to 1968.",
+    "evidence": "He spent four more years at Caius from 1964 to 1968",
+    "date_text": "1964",
+    "date": "1964",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Caius",
+    "quote": "He spent four more years at Caius from 1964 to 1968"
+   },
+   {
+    "text": "His time at Caius ended in 1968.",
+    "evidence": "He spent four more years at Caius from 1964 to 1968",
+    "date_text": "1968",
+    "date": "1968",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Caius",
+    "quote": "He spent four more years at Caius from 1964 to 1968"
+   }
+  ]
+ }
+}

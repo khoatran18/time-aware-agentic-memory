@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Goldberg retired from professional wrestling.",
+   "chunk": 4,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "professional wrestling",
+   "quote": "After first retiring from professional wrestling in 2004",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#4"
+  },
+  {
+   "text": "Goldberg began working as a commentator for EliteXC.",
+   "chunk": 4,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "EliteXC",
+   "quote": "After first retiring from professional wrestling in 2004 , he began working as a commentator for the mixed martial arts promotion EliteXC",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#4"
+  },
+  {
+   "text": "Goldberg hosted 26 episodes of Garage Mahal on the DIY Network.",
+   "chunk": 4,
+   "date_text": "from 2009 to 2011",
+   "date": "2009",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Garage Mahal",
+   "quote": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#4"
+  },
+  {
+   "text": "Goldberg's hosting of Garage Mahal on the DIY Network ended.",
+   "chunk": 4,
+   "date_text": "from 2009 to 2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Garage Mahal",
+   "quote": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#4"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Samuel Dickson Selvon was born in San Fernando in the south of Trinidad.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "San Fernando",
+   "quote": "Samuel Dickson Selvon was born in San Fernando in the south of Trinidad",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Sam_Selvon#1"
+  },
+  {
+   "text": "Selvon was a wireless operator with the local branch of the Royal Naval Reserve.",
+   "chunk": 1,
+   "date_text": "1940",
+   "date": "1940",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Naval Reserve",
+   "quote": "He was a wireless operator with the local branch of the Royal Naval Reserve from 1940 to 1945",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Sam_Selvon#1"
+  },
+  {
+   "text": "Selvon's service as a wireless operator with the Royal Naval Reserve ended.",
+   "chunk": 1,
+   "date_text": "1945",
+   "date": "1945",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Naval Reserve",
+   "quote": "from 1940 to 1945 during the Second World War",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Sam_Selvon#1"
+  }
+ ],
+ "dropped": []
+}

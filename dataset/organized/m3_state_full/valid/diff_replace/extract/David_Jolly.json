@@ -1,0 +1,107 @@
+{
+ "events": [
+  {
+   "text": "David Wilson Jolly was born.",
+   "chunk": 0,
+   "date_text": "October 31, 1972",
+   "date": "1972-10-31",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "David Wilson Jolly ( born October 31 , 1972 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/David_Jolly#0"
+  },
+  {
+   "text": "Jolly began serving as the U.S. Representative for Florida's 13th congressional district.",
+   "chunk": 0,
+   "date_text": "2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "U.S. Representative for Floridas 13th congressional district",
+   "quote": "served as the U.S . Representative for Floridas 13th congressional district , based in Pinellas County , from 2014 to 2017",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Florida's"
+   ],
+   "cid": "/wiki/David_Jolly#0"
+  },
+  {
+   "text": "Jolly's service as the U.S. Representative for Florida's 13th congressional district ended.",
+   "chunk": 0,
+   "date_text": "2017",
+   "date": "2017",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "U.S. Representative for Floridas 13th congressional district",
+   "quote": "from 2014 to 2017",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Florida's"
+   ],
+   "cid": "/wiki/David_Jolly#0"
+  },
+  {
+   "text": "Jolly won the race for Young's seat in a special election against Democrat Alex Sink.",
+   "chunk": 0,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Youngs seat",
+   "quote": "He won the race for Youngs seat in a special election against Democrat Alex Sink .",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Young's"
+   ],
+   "cid": "/wiki/David_Jolly#0"
+  },
+  {
+   "text": "Jolly was subsequently reelected, winning 75 percent of the vote.",
+   "chunk": 0,
+   "date_text": "November 2014",
+   "date": "2014-11",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "He was subsequently reelected in November 2014 , winning 75 percent of the vote",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/David_Jolly#0"
+  },
+  {
+   "text": "Jolly was unseated by former Governor Charlie Crist.",
+   "chunk": 0,
+   "date_text": "2016",
+   "date": "2016",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "but was unseated in 2016 by former Governor Charlie",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/David_Jolly#0"
+  }
+ ],
+ "dropped": []
+}

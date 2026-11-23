@@ -1,0 +1,1062 @@
+{
+ "set": "tune",
+ "seed": 20261121,
+ "per_type": 5,
+ "window": 8,
+ "edits": [
+  {
+   "edit_id": "tune-102",
+   "type": "C",
+   "page": "Josep_Rull",
+   "chunk_id": "/wiki/Josep_Rull#2",
+   "event": {
+    "date": "2019-05-18",
+    "text": "He resigned as member of the Parliament of Catalonia.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "he resigned as member of the Parliament of Catalonia on 18 May 2019"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List the dated events in which Josep Rull began a term as a deputy of a parliament, or as an officer of a parliamentary chamber including a re-election to such a post, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List the dated events in which Josep Rull headed an electoral list or a candidacy, in time order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Josep Rull joining the Nationalist Youth of Catalonia in Terrassa and his joining the political party Democratic Convergence of Catalonia?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "List the dated events in which a court order put Josep Rull into prison, in time order."
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "After Josep Rull was re-chosen as third secretary of the Catalan Parliament, which dated event came next in which he began a term as a deputy of a parliament or as an officer of a parliamentary chamber?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Josep Rull",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Josep_Rull#0",
+     "/wiki/Josep_Rull#1",
+     "/wiki/Josep_Rull#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "tune-132",
+   "type": "C",
+   "page": "Lenin_Peak",
+   "chunk_id": "/wiki/Lenin_Peak#3",
+   "event": {
+    "date": "1871",
+    "text": "The peak was discovered and originally named Mount Kaufmann.",
+    "track": "naming",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "The peak was discovered in 1871 and originally named Mount Kaufmann"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the events in which the peak was given an official name, in chronological order."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated official naming events for the peak, which one came directly after the peak was named for the Soviet revolutionary leader Vladimir Lenin?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the first ascent of the mountain and its first high-speed, first solo, and first winter ascents, in chronological order (the two events of the same year in any order)."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated summit ascents of the mountain, which ascent came earliest?"
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated summit ascents of the mountain, summarize those made by a climbing team under a named leader."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Names",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Lenin_Peak#3",
+     "/wiki/Lenin_Peak#4",
+     "/wiki/Lenin_Peak#5",
+     "/wiki/Lenin_Peak#6",
+     "/wiki/Lenin_Peak#7",
+     "/wiki/Lenin_Peak#8",
+     "/wiki/Lenin_Peak#9",
+     "/wiki/Lenin_Peak#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 21
+  },
+  {
+   "edit_id": "tune-069",
+   "type": "C",
+   "page": "Stefan_He_e",
+   "chunk_id": "/wiki/Stefan_Heße#4",
+   "event": {
+    "date": "2012-03-16",
+    "text": "He became Vicar General.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "On March 16 , 2012 , he became Vicar General ."
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the posts Heße took up within the Archdiocese of Cologne (appointments, elections and taking office, not the ends of posts and not the reaffirmation at the installation of the new archbishop), in chronological order; the two items from the same year may appear in either order (events with the same date in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "After he was appointed Deputy Vicar General of the Archdiocese of Cologne, what post did he next take up there among the dated events?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the posts he took up in the Archdiocese of Cologne in the dated events, which one came last, not counting the reaffirmation at the new archbishop's installation?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the departures from posts (the end dates of appointments, not the starts) recorded before he was appointed Deputy Vicar General."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Biography",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Stefan_Heße#1",
+     "/wiki/Stefan_Heße#2",
+     "/wiki/Stefan_Heße#3",
+     "/wiki/Stefan_Heße#4"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 28
+  },
+  {
+   "edit_id": "tune-123",
+   "type": "C",
+   "page": "Vindobona_train",
+   "chunk_id": "/wiki/Vindobona_(train)#11",
+   "event": {
+    "date": "2006-05-28",
+    "text": "With the opening of Berlin Hauptbahnhof, trains passed through Berlin via the new North–South mainline.",
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "quote": "With the opening of Berlin Hauptbahnhof on 28 May 2006 , trains passed through Berlin via the new North–South mainline"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Counted by calendar year, how many years passed from Wien Mitte station becoming the train's terminus until the trains first passing through Berlin on the new North–South mainline?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the occasions between the mid-1960s and the early 1970s when a railcar type began operating on the train."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the occasions after the ÖBB Blue Lightning DMUs began operating the train and until the late 1970s when a railcar or DMU type stopped running on the train, either because its service ended or because it was replaced."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "EuroCity",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Vindobona_(train)#11",
+     "/wiki/Vindobona_(train)#12",
+     "/wiki/Vindobona_(train)#13",
+     "/wiki/Vindobona_(train)#14"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "tune-198",
+   "type": "C",
+   "page": "First_Air_Group",
+   "chunk_id": "/wiki/First_Air_Group#10",
+   "event": {
+    "date": "1994",
+    "text": "The commander's rank of major general ended in 1994.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Between 1941 and 1994 , the commander had the rank of major general"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 6,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the points at which the commander's rank was set to a new rank."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the appointments of commanders of the air group before the 1970s."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the endings of commanders' terms after the 1970s (the endings, not the appointments)."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which commander began a term earliest?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which commander began a term most recently?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many years passed between Bengt Nordenskiöld beginning his term as commander and Christer Salsing beginning his term? Count calendar years."
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which commander began a term directly after Gosta Odqvist began his term?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Commanding officers",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/First_Air_Group#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "tune-037",
+   "type": "E",
+   "page": "Greenbelt_News_Review",
+   "chunk_id": "/wiki/Greenbelt_News_Review#0",
+   "event": {
+    "date": "1954",
+    "text": "The newspaper's name was changed.",
+    "track": "naming",
+    "phase": "end",
+    "kind": "change",
+    "quote": "until its name was changed in 1954"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Measured in calendar years, how many years passed from the founding of the paper as a volunteer cooperative to its renaming from the Greenbelt Cooperator to the Greenbelt News Review?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about Elaine Skolnik's association with the paper, which event came immediately after she began working there?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about Elaine Skolnik's association with the paper, which event is the latest?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Greenbelt News Review",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Greenbelt_News_Review#0",
+     "/wiki/Greenbelt_News_Review#1",
+     "/wiki/Greenbelt_News_Review#2",
+     "/wiki/Greenbelt_News_Review#3",
+     "/wiki/Greenbelt_News_Review#4",
+     "/wiki/Greenbelt_News_Review#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 7
+  },
+  {
+   "edit_id": "tune-022",
+   "type": "E",
+   "page": "Alexander_Mountbatten_1st_Marquess_of_Carisbrooke",
+   "chunk_id": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5",
+   "event": {
+    "date": "1908",
+    "text": "His service in the Royal Navy ended in 1908.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "He served in the Royal Navy from 1902 to 1908"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the end of his Royal Navy service to his resignation of his British Army commission?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events that record his rank in the British Army (appointment, confirmation or promotion), up to his promotion to lieutenant."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events concerning his marriage, his daughter's birth and his wife's death."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#1",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#2",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#3",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#4",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#6",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#7",
+     "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 19
+  },
+  {
+   "edit_id": "tune-033",
+   "type": "E",
+   "page": "Hanover",
+   "chunk_id": "/wiki/Hanover#18",
+   "event": {
+    "date": "1866",
+    "text": "Hanover remained a kingdom until it was annexed by Prussia.",
+    "track": "ownership_structure",
+    "phase": "end",
+    "kind": "change",
+    "quote": "remained a kingdom until 1866 , when it was annexed by Prussia"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline from the 1820s to the end of the nineteenth century, list the occasions on which Hanover passed to a new sovereign or was annexed by another state, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the inauguration of the first horse railway in Hanover and the installation of its electric tram?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Hanover#16",
+     "/wiki/Hanover#17",
+     "/wiki/Hanover#18",
+     "/wiki/Hanover#19",
+     "/wiki/Hanover#20"
+    ],
+    "context_chunk": "/wiki/Hanover#15"
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "tune-013",
+   "type": "E",
+   "page": "Carl_August_Ehrensv_rd_1858_1944",
+   "chunk_id": "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
+   "event": {
+    "date": "1910-06-30",
+    "text": "Ehrensvärd's post as Council of State and head of the Ministry for Naval Affairs ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "to 30 June 1910"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which Carl August Ehrensvärd attained a naval rank or was promoted to one, in chronological order."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which Carl August Ehrensvärd was appointed to a command, chief, head or inspector post (the start of the post), in chronological order (events of the same year may be in any order)."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Carl August Ehrensvärd's promotion to lieutenant in the Swedish Navy and his promotion to commander?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what were the two most recent naval ranks that Carl August Ehrensvärd attained or was promoted to, in chronological order?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Carl_August_Ehrensvärd_(1858–1944)#2",
+     "/wiki/Carl_August_Ehrensvärd_(1858–1944)#3",
+     "/wiki/Carl_August_Ehrensvärd_(1858–1944)#4"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "tune-015",
+   "type": "E",
+   "page": "Marc_Bohan",
+   "chunk_id": "/wiki/Marc_Bohan#1",
+   "event": {
+    "date": "1958",
+    "text": "Bohan stayed at Jean Patou until 1958.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "where he stayed until 1958"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the occasions from the late 1950s to the early 1990s on which he left a fashion house as an employee."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the jobs he took up at fashion houses up to the late 1950s, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated fashion-house jobs up to the late 1950s, which did he take up first?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated fashion-house jobs up to the late 1950s, which did he take up most recently?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the awards and honours he received, in any order."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many years, counted by calendar year, separated his birth from his promotion to replace Yves Saint Laurent at Dior?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Marc Bohan",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Marc_Bohan#0",
+     "/wiki/Marc_Bohan#1",
+     "/wiki/Marc_Bohan#2",
+     "/wiki/Marc_Bohan#3",
+     "/wiki/Marc_Bohan#4"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 9
+  },
+  {
+   "edit_id": "tune-052",
+   "type": "F",
+   "page": "Real_Madrid_Baloncesto",
+   "chunk_id": "/wiki/Real_Madrid_Baloncesto#7",
+   "event": {
+    "date": "2007",
+    "text": "Joan Plaza was promoted to the club's head coach position in 2007.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "It all changed in 2007 , when Joan Plaza was promoted to the clubs head coach position"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the major titles the club won from 1985 to the end of the 2000s (titles won in the same season may be listed in any order)."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the major titles recorded in the timeline from the mid-1980s to the end of the 2000s, which one was won immediately after the Saporta Cup final against PAOK?"
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the appointments of head coaches from the early 1950s to the mid-1970s."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between Pedro Ferrándiz's first appointment as head coach and his third appointment as head coach?"
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "List, in chronological order, the dated events since the 1980s in which a venue began to serve as the club's home arena, temporary home arenas included."
+     },
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "List, in chronological order, the dated events in which a new sponsor name began to appear in the club's team name."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Real_Madrid_Baloncesto#3",
+     "/wiki/Real_Madrid_Baloncesto#4",
+     "/wiki/Real_Madrid_Baloncesto#5",
+     "/wiki/Real_Madrid_Baloncesto#6",
+     "/wiki/Real_Madrid_Baloncesto#7",
+     "/wiki/Real_Madrid_Baloncesto#8",
+     "/wiki/Real_Madrid_Baloncesto#9",
+     "/wiki/Real_Madrid_Baloncesto#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 52
+  },
+  {
+   "edit_id": "tune-148",
+   "type": "F",
+   "page": "David_Hasselhoff",
+   "chunk_id": "/wiki/David_Hasselhoff#21",
+   "event": {
+    "date": "2009",
+    "text": "Hasselhoff's stint as a judge on America's Got Talent ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "served as a judge on NBCs Americas Got Talent from 2006 to 2009"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the changes in his judging role on America's Got Talent, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated marriages in the timeline, which marriage came right after the one to actress Catherine Hickland?"
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the finalized divorces, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the awards and star honours he received, in chronological order."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many years passed between his marriage to actress Catherine Hickland and his marriage to Hayley Roberts? (counted by calendar year)"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Later career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/David_Hasselhoff#21",
+     "/wiki/David_Hasselhoff#22",
+     "/wiki/David_Hasselhoff#23",
+     "/wiki/David_Hasselhoff#24",
+     "/wiki/David_Hasselhoff#25",
+     "/wiki/David_Hasselhoff#26",
+     "/wiki/David_Hasselhoff#27",
+     "/wiki/David_Hasselhoff#28"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 81
+  },
+  {
+   "edit_id": "tune-154",
+   "type": "F",
+   "page": "D_R_Shackleton_Bailey",
+   "chunk_id": "/wiki/D._R._Shackleton_Bailey#2",
+   "event": {
+    "date": "1964",
+    "text": "Shackleton Bailey spent four more years at Caius.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "He spent four more years at Caius from 1964 to 1968"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "List, in chronological order, the occasions when he moved from one university or college to a different one, among the dated events in the timeline."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about his marriages, which marriage-related event came immediately after the dissolution of his first marriage?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years separated his election as a Fellow of the British Academy and his election as a Fellow of the American Academy of Arts and Sciences?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "List, in chronological order, the years in which he began a term as editor of Harvard Studies in Classical Philology, among the dated events in the timeline."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which was the most recent academic teaching appointment (a lectureship or professorship) that he took up?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Academic career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/D._R._Shackleton_Bailey#1",
+     "/wiki/D._R._Shackleton_Bailey#2",
+     "/wiki/D._R._Shackleton_Bailey#3",
+     "/wiki/D._R._Shackleton_Bailey#4",
+     "/wiki/D._R._Shackleton_Bailey#5",
+     "/wiki/D._R._Shackleton_Bailey#6",
+     "/wiki/D._R._Shackleton_Bailey#7",
+     "/wiki/D._R._Shackleton_Bailey#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 19
+  },
+  {
+   "edit_id": "tune-152",
+   "type": "F",
+   "page": "Hsu_Hsin_liang",
+   "chunk_id": "/wiki/Hsu_Hsin-liang#2",
+   "event": {
+    "date": "1977",
+    "text": "Hsu ran and won as an independent in the election for Magistrate of Taoyuan County.",
+    "track": "role",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "broke ranks in 1977 when he ran and won as an independent in the election for Magistrate of Taoyuan County"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "Measured in calendar years, how many years passed between his election win as an independent for Magistrate of Taoyuan County and his loss in the DPP presidential primary to Peng Ming-min?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about his terms as chairman of the Democratic Progressive Party, which event came first?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "What were the two latest events in the timeline about his terms as chairman of the Democratic Progressive Party?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Political career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Hsu_Hsin-liang#2",
+     "/wiki/Hsu_Hsin-liang#3",
+     "/wiki/Hsu_Hsin-liang#4",
+     "/wiki/Hsu_Hsin-liang#5",
+     "/wiki/Hsu_Hsin-liang#6",
+     "/wiki/Hsu_Hsin-liang#7",
+     "/wiki/Hsu_Hsin-liang#8",
+     "/wiki/Hsu_Hsin-liang#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "tune-173",
+   "type": "A",
+   "page": "Good_Game_TV_program",
+   "chunk_id": "/wiki/Good_Game_(TV_program)#20",
+   "event": {
+    "date": "2014",
+    "text": "They hosted the 2014 MCV Pacific Awards for gaming.",
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "They also hosted the 2014 MCV Pacific Awards for gaming"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List the dated events in which Steven Bajo and Stephanie Hex personally held or hosted a live or public event away from the show itself, such as a fan question session, a festival talk or an awards night (not an episode of a television programme), in any order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List the dated events in which a main co-host of Good Game, human or robot, was announced as a co-host or began hosting the show, in time order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the introduction of the yellow puppet P_Nutz in the pilot episode and the announcement of the robot co-host D.A.R.R.E.N?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Presenters",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Good_Game_(TV_program)#19",
+     "/wiki/Good_Game_(TV_program)#20"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "tune-071",
+   "type": "A",
+   "page": "MS_GNV_Azzurra",
+   "chunk_id": "/wiki/MS_GNV_Azzurra#7",
+   "event": {
+    "date": "1983-08-29",
+    "text": "The Wasa Star was sold to the Norwegian operator Larvik Line.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "On 29 August 1983 , after the various conflicting charter agreements were resolved , the Wasa Star was sold to the Norwegian operator Larvik Line"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events from the ship's sale to Larvik Line onward, which change in the ship's owner or charterer came right after that sale?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Service history",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/MS_GNV_Azzurra#3",
+     "/wiki/MS_GNV_Azzurra#4",
+     "/wiki/MS_GNV_Azzurra#5",
+     "/wiki/MS_GNV_Azzurra#6",
+     "/wiki/MS_GNV_Azzurra#7",
+     "/wiki/MS_GNV_Azzurra#8",
+     "/wiki/MS_GNV_Azzurra#9",
+     "/wiki/MS_GNV_Azzurra#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "tune-139",
+   "type": "A",
+   "page": "Republic_of_Cospaia",
+   "chunk_id": "/wiki/Republic_of_Cospaia#0",
+   "event": {
+    "date": "1440",
+    "text": "The Republic of Cospaia became independent.",
+    "track": "other",
+    "phase": "start",
+    "kind": "change",
+    "quote": "independent from 1440 to 1826"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many years passed from the year Cospaia declared its independence to the year Florence and the Papal States formally recognized its autonomy?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Republic of Cospaia",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Republic_of_Cospaia#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 16
+  },
+  {
+   "edit_id": "tune-083",
+   "type": "A",
+   "page": "Michael_Batty",
+   "chunk_id": "/wiki/Michael_Batty#12",
+   "event": {
+    "date": "1972",
+    "text": "He has been a Fellow of the Royal Geographical Society.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "He has been a Fellow of the Royal Geographical Society since 1972"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the fellowships of learned societies and academies he was elected or admitted to (events with the same date in any order)."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the prizes, medals and awards he received from the early 2010s to the mid-2010s."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about schools and universities he began attending, which institution did he begin right after Quarry Bank High School for Boys?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years passed between his appointment to University College London and his becoming Bartlett Professor of Planning?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events from the mid-1980s onward, which professorship did he take up immediately after moving to direct the NCGIA at SUNY-Buffalo?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Memberships and Fellowships",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Michael_Batty#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "tune-074",
+   "type": "A",
+   "page": "Charles_Holden",
+   "chunk_id": "/wiki/Charles_Holden#3",
+   "event": {
+    "date": "1943",
+    "text": "Holden was appointed a Royal Designer for Industry.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "was appointed a Royal Designer for Industry in 1943"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the medals, honorary doctorates and designations Holden was awarded between the mid-1930s and the mid-1940s (events with the same date in any order)."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in time order the Royal Institute of British Architects (RIBA) medals Holden was awarded."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many years passed between the RIBA Godwin Medal that Holden received to study architecture abroad and the RIBA Royal Gold Medal awarded for his body of work?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in time order the military ranks Holden was given during the First World War."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in time order the design, craft and commission bodies Holden joined as a member, from the First World War until the early 1930s."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Charles Holden",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Charles_Holden#0",
+     "/wiki/Charles_Holden#1",
+     "/wiki/Charles_Holden#2",
+     "/wiki/Charles_Holden#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 82
+  }
+ ],
+ "excluded": [
+  {
+   "edit_id": "tune-183",
+   "page": "Fulk_King_of_Jerusalem",
+   "reason": "chỗ sửa không có nút nào ở chunk đổi (sự kiện đã nằm ở chunk 0), không tác động lên graph"
+  }
+ ]
+}

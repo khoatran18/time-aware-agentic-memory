@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "23f8fec3d32efdfc",
+  "N2": "ec453c62aea020a2",
+  "N3": "f833bd72e9aeb6b5",
+  "N4": "c7c51c6f80756e9d",
+  "N5": "eb9d4226b6907fb1"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "edit",
+    "evidence": "At Super ShowDown on February 27 , Goldberg defeated The Fiend to win the Universal Championship for the second time",
+    "end_date": null,
+    "new_text": "Goldberg defeated The Fiend at Super ShowDown to win the Universal Championship for the second time.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "At Super ShowDown on February 27 , Goldberg defeated The Fiend to win the Universal Championship for the second time"
+   }
+  ],
+  "add": []
+ }
+}

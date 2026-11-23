@@ -1,0 +1,44 @@
+{
+ "idmap": {
+  "N1": "0a21afc38c8dfb0a",
+  "N2": "166fc9394eabbd7d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "served in Metlakatla , Alaska , with Duncan from 1908 to 1912 before leaving for B.C . again",
+    "end_date": "1912"
+   }
+  ],
+  "add": [
+   {
+    "text": "Tomlinson and his son Robert Tomlinson Jr. served in Metlakatla, Alaska, with Duncan from 1908 to 1912.",
+    "evidence": "served in Metlakatla , Alaska , with Duncan from 1908 to 1912",
+    "date_text": "from 1908 to 1912",
+    "date": "1908",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Metlakatla, Alaska",
+    "quote": "served in Metlakatla , Alaska , with Duncan from 1908 to 1912"
+   },
+   {
+    "text": "Tomlinson and his son Robert Tomlinson Jr. left Metlakatla for B.C. again in 1912 out of disenchantment with the way Duncan was running the community.",
+    "evidence": "from 1908 to 1912 before leaving for B.C . again out of disenchantment",
+    "date_text": "1912",
+    "date": "1912",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Metlakatla, Alaska",
+    "quote": "from 1908 to 1912 before leaving for B.C . again out of disenchantment"
+   }
+  ]
+ }
+}

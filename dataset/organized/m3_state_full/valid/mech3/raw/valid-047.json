@@ -1,0 +1,46 @@
+{
+ "idmap": {
+  "N1": "6d61ab78f2bf5dd0",
+  "N2": "75b4a3712a26d442",
+  "N3": "75cbce2e5c0c3fbf",
+  "N4": "dde7e6d17708cf6b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From 1984 to 1989 , she starred on the TV show Kids Incorporated",
+    "end_date": "1989"
+   }
+  ],
+  "add": [
+   {
+    "text": "Fergie starred on the TV show Kids Incorporated from 1984 to 1989.",
+    "evidence": "From 1984 to 1989 , she starred on the TV show Kids Incorporated",
+    "date_text": "From 1984 to 1989",
+    "date": "1984",
+    "approximate": false,
+    "track": "work",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Kids Incorporated",
+    "quote": "From 1984 to 1989 , she starred on the TV show Kids Incorporated"
+   },
+   {
+    "text": "Fergie's run on Kids Incorporated ended in 1989.",
+    "evidence": "From 1984 to 1989 , she starred on the TV show Kids Incorporated",
+    "date_text": "1989",
+    "date": "1989",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Kids Incorporated",
+    "quote": "From 1984 to 1989 , she starred on the TV show Kids Incorporated"
+   }
+  ]
+ }
+}

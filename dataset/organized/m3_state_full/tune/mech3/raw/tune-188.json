@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "9e7403cb350b635e",
+  "N2": "3b64a8748781e82d",
+  "N3": "1ae8cc92f879dd6a",
+  "N4": "f3c8e9ed764b79ef",
+  "N5": "2e65e6f1c63460b6",
+  "N6": "0f821a121a7f4d04",
+  "N7": "aacad393d966758a",
+  "N8": "5cd5ac1fb0846d4a",
+  "N9": "809799ae6424867b",
+  "N10": "39a5a7f4c2640d14"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Mercury News website received an EPpy Award.",
+    "evidence": "The Mercury News website received EPpy Awards in 1996 , 1999 , 2009 , 2013 , and 2014 .",
+    "date_text": "2014",
+    "date": "2014",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "EPpy Award",
+    "quote": "and 2014"
+   }
+  ]
+ }
+}

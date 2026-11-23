@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Thomas Henning became managing director.",
+   "chunk": 17,
+   "date_text": "August 2019",
+   "date": "2019-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "managing director",
+   "quote": "The managing director is Thomas Henning ( August 2019 ) .",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Max_Planck_Institute_for_Astronomy#17"
+  },
+  {
+   "text": "At the end of 2018, a total of 413 people were employed at the Institute.",
+   "chunk": 20,
+   "date_text": "At the end of 2018",
+   "date": "2018",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "At the end of 2018 , a total of 413 people were employed at the Institute",
+   "section": 6,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Max_Planck_Institute_for_Astronomy#20"
+  },
+  {
+   "text": "In the same year, 79 doctoral students were supervised in cooperation with the University of Heidelberg.",
+   "chunk": 20,
+   "date_text": "In the same year",
+   "date": "2018",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "University of Heidelberg",
+   "quote": "In the same year , 79 doctoral students were supervised in cooperation with the University of Heidelberg",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Max_Planck_Institute_for_Astronomy#20"
+  },
+  {
+   "text": "Nine independent research groups have been established at the MPIA per 2018.",
+   "chunk": 20,
+   "date_text": "per 2018",
+   "date": "2018",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "independent research groups",
+   "quote": "Nine independent research groups have been established at the MPIA per 2018",
+   "section": 6,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Max_Planck_Institute_for_Astronomy#20"
+  }
+ ],
+ "dropped": []
+}

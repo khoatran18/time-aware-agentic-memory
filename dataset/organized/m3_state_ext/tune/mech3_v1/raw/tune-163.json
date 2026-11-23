@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "9bd684f68e17559e",
+  "N2": "9c81906d11794edd",
+  "N3": "bb9e15b7103fd5b7"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation",
+    "end_date": null,
+    "new_text": "ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVI's resignation.",
+    "new_date": "2013-02-11",
+    "new_date_text": "11 February 2013",
+    "new_quote": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation"
+   }
+  ],
+  "add": [
+   {
+    "text": "ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVI's resignation.",
+    "evidence": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation",
+    "date_text": "11 February 2013",
+    "date": "2013-02-11",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Pope Benedict XVI's resignation",
+    "quote": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation"
+   }
+  ]
+ }
+}

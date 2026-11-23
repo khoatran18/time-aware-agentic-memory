@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "U-96 left for her sixth patrol in the North Atlantic.",
+   "chunk": 38,
+   "date_text": "2 August 1941",
+   "date": "1941-08-02",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "sixth patrol",
+   "quote": "On 2 August 1941 , U-96 left for her sixth patrol in the North Atlantic .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#38"
+  },
+  {
+   "text": "The U-boat was part of group Greenland.",
+   "chunk": 38,
+   "date_text": "12 August",
+   "date": "1941-08-12",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "group Greenland",
+   "quote": "On 12 August , the U-boat was part of group Greenland .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#38"
+  },
+  {
+   "text": "She joined group Prince-Elector.",
+   "chunk": 38,
+   "date_text": "28 August",
+   "date": "1941-08-28",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "group Prince-Elector",
+   "quote": "on 28 August , she joined group Prince-Elector .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#38"
+  },
+  {
+   "text": "U-96 belonged to group Seawolf before returning to base.",
+   "chunk": 38,
+   "date_text": "early September",
+   "date": "1941-09",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "group Seawolf",
+   "quote": "In early September , U-96 belonged to group Seawolf before returning to base .",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/German_submarine_U-96_(1940)#38"
+  },
+  {
+   "text": "She entered St.Nazaire after 42 days at sea, without attacking any ships.",
+   "chunk": 38,
+   "date_text": "12 September",
+   "date": "1941-09-12",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "St.Nazaire",
+   "quote": "On 12 September she entered St.Nazaire after 42 days at sea , without attacking any ships .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#38"
+  }
+ ],
+ "dropped": []
+}

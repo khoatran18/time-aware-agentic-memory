@@ -1,0 +1,102 @@
+{
+ "idmap": {
+  "N1": "79b50c6f6e4be237",
+  "N2": "c54341c29e90510e",
+  "N3": "3bd73b42e60d8a58",
+  "N4": "f43aa3261ae573fc",
+  "N5": "daf4b2b4a3bc83fe",
+  "N6": "fe8cab41bbc26bb1",
+  "N7": "377f0ea6c46150bb",
+  "N8": "6ca2b09aa42fe5fe",
+  "N9": "886b53e4cd0e5717",
+  "N10": "2cc4537631c05f82",
+  "N11": "666f6faa28428487",
+  "N12": "ffa12fa5ec198e86",
+  "N13": "c171e7156414080f",
+  "N14": "78c95683e9deae30",
+  "N15": "42fe31654121b024",
+  "N16": "de0cebedf21f0d75",
+  "N17": "590e29b7a8c69674",
+  "N18": "499dd7813b70c0f5",
+  "N19": "6d5eaa7311ffe318",
+  "N20": "2ca2861c9c5e2a64"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "close",
+    "evidence": "Barry Took again from 1986 to 1995",
+    "end_date": "1995",
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   },
+   {
+    "node": "N7",
+    "op": "edit",
+    "evidence": "Hoggart was replaced by Sandi Toksvig in September 2006",
+    "end_date": null,
+    "new_text": "Sandi Toksvig replaced Hoggart as chair in September 2006.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "Hoggart was replaced by Sandi Toksvig in September 2006"
+   }
+  ],
+  "add": [
+   {
+    "text": "Barry Took chaired the show again from 1986 to 1995.",
+    "evidence": "Barry Took again from 1986 to 1995",
+    "date_text": "1986",
+    "date": "1986",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Barry Took",
+    "quote": "Barry Took again from 1986 to 1995"
+   },
+   {
+    "text": "Barry Took's chairing ended in 1995.",
+    "evidence": "Barry Took again from 1986 to 1995",
+    "date_text": "1995",
+    "date": "1995",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Barry Took",
+    "quote": "Barry Took again from 1986 to 1995"
+   },
+   {
+    "text": "Simon Hoggart began chairing the show again in 1996.",
+    "evidence": "then again by Simon Hoggart from 1996 until March 2006",
+    "date_text": "1996",
+    "date": "1996",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Simon Hoggart",
+    "quote": "then again by Simon Hoggart from 1996 until March 2006"
+   },
+   {
+    "text": "Simon Hoggart's chairing ended in March 2006.",
+    "evidence": "then again by Simon Hoggart from 1996 until March 2006",
+    "date_text": "March 2006",
+    "date": "2006-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Simon Hoggart",
+    "quote": "then again by Simon Hoggart from 1996 until March 2006"
+   }
+  ]
+ }
+}

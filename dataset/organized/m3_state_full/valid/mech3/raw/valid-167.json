@@ -1,0 +1,68 @@
+{
+ "idmap": {
+  "N1": "e4bb5e3b46647fc4",
+  "N2": "518762c02bd36322",
+  "N3": "a9ab65999f997773",
+  "N4": "2c6ccb56aaaae2b6",
+  "N5": "8ccb86b3834d083c",
+  "N6": "2d302ebc24f9e49f",
+  "N7": "6ff5a74366394f59",
+  "N8": "619d74b6da38a021",
+  "N9": "846211543c1ac190",
+  "N10": "5acf628ba32cdbc3",
+  "N11": "ab67d2680534fc29",
+  "N12": "3a5d137616fb914c",
+  "N13": "ec404adf61f81c9f",
+  "N14": "0fa5cea0ffa8e44e",
+  "N15": "57d6ccc16105ab56",
+  "N16": "558f497dc9fcbe39",
+  "N17": "c20f87cba1ffdf6c",
+  "N18": "13189ede1dc991e7",
+  "N19": "15590cd7abb678b7",
+  "N20": "22ff2089ff9d9d15"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N16",
+    "op": "invalidate",
+    "evidence": "1916-1920 - Newton D . Baker",
+    "end_date": null
+   },
+   {
+    "node": "N17",
+    "op": "invalidate",
+    "evidence": "1915-1916 - Col . William E . Pattison French",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Newton D. Baker's residency began in 1916.",
+    "evidence": "1916-1920 - Newton D . Baker",
+    "date_text": "1916",
+    "date": "1916",
+    "approximate": false,
+    "track": "location",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Newton D. Baker",
+    "quote": "1916-1920 - Newton D . Baker"
+   },
+   {
+    "text": "Col. William E. Pattison French's residency ended in 1916.",
+    "evidence": "1915-1916 - Col . William E . Pattison French",
+    "date_text": "1916",
+    "date": "1916",
+    "approximate": false,
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Col. William E. Pattison French",
+    "quote": "1915-1916 - Col . William E . Pattison French"
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "idmap": {
+  "N1": "9f41e160aaf5af6c",
+  "N2": "2966f7a38a3cf41a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "Daniel Taradash was president of the WGAw from 1977 to 1979",
+    "end_date": "1979"
+   }
+  ],
+  "add": [
+   {
+    "text": "Daniel Taradash was president of the WGAw from 1977 to 1979.",
+    "evidence": "Daniel Taradash was president of the WGAw from 1977 to 1979",
+    "date_text": "1977",
+    "date": "1977",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "WGAw",
+    "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979"
+   },
+   {
+    "text": "Daniel Taradash's presidency of the WGAw ended in 1979.",
+    "evidence": "Daniel Taradash was president of the WGAw from 1977 to 1979",
+    "date_text": "1979",
+    "date": "1979",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "WGAw",
+    "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979"
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "1a37f0f9c569f094",
+  "N2": "0245178c057458a4",
+  "N3": "041778d2705c4073",
+  "N4": "4e05c62358f924dc"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "broke ranks in 1977 when he ran and won as an independent in the election for Magistrate of Taoyuan County",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Hsu ran and won as an independent in the election for Magistrate of Taoyuan County.",
+    "evidence": "broke ranks in 1977 when he ran and won as an independent in the election for Magistrate of Taoyuan County",
+    "date_text": "1977",
+    "date": "1977",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Magistrate of Taoyuan County",
+    "quote": "broke ranks in 1977 when he ran and won as an independent in the election for Magistrate of Taoyuan County"
+   }
+  ]
+ }
+}

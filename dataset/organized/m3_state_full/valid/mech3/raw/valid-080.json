@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "194d9715426a19b5",
+  "N2": "2eec2dd3d207134e",
+  "N3": "50b4aa1f43807c82"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Amtrak decided to move on from the SDP40F in favor of the EMD F40PH.",
+    "evidence": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH",
+    "date_text": "1977",
+    "date": "1977",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "EMD F40PH",
+    "quote": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH"
+   }
+  ]
+ }
+}

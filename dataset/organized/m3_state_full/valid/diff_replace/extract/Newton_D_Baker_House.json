@@ -1,0 +1,369 @@
+{
+ "events": [
+  {
+   "text": "Thomas Beall's residency began.",
+   "chunk": 13,
+   "date_text": "1794",
+   "date": "1794",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Thomas Beall",
+   "quote": "1794-1796 - Thomas Beall",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Beall's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Thomas Beall's residency ended.",
+   "chunk": 13,
+   "date_text": "1796",
+   "date": "1796",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Thomas Beall",
+   "quote": "1794-1796 - Thomas Beall",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Beall's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "John Laird's residency began.",
+   "chunk": 13,
+   "date_text": "1796",
+   "date": "1796",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "John Laird",
+   "quote": "1796- ? - John Laird",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Laird's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "George Peter's residency ended.",
+   "chunk": 13,
+   "date_text": "1827",
+   "date": "1827",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "George Peter",
+   "quote": "?-1827 - George Peter",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Peter's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "John Lairds son's residency ended.",
+   "chunk": 13,
+   "date_text": "1834",
+   "date": "1834",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "John Lairds son",
+   "quote": "?-1834 - John Lairds son",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "William Redin's residency began.",
+   "chunk": 13,
+   "date_text": "1834",
+   "date": "1834",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "William Redin",
+   "quote": "1834-1868 - William Redin",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Redin's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "William Redin's residency ended.",
+   "chunk": 13,
+   "date_text": "1868",
+   "date": "1868",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "William Redin",
+   "quote": "1834-1868 - William Redin",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Redin's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Georgetown Female Seminary's residency began.",
+   "chunk": 13,
+   "date_text": "1868",
+   "date": "1868",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Georgetown Female Seminary",
+   "quote": "1868-1890 - Georgetown Female Seminary",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Seminary's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Georgetown Female Seminary's residency ended.",
+   "chunk": 13,
+   "date_text": "1890",
+   "date": "1890",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Georgetown Female Seminary",
+   "quote": "1868-1890 - Georgetown Female Seminary",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Seminary's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "John H. Smoot's residency began.",
+   "chunk": 13,
+   "date_text": "1890",
+   "date": "1890",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "John H. Smoot",
+   "quote": "1890-1915 - John H . Smoot",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "John H. Smoot's residency ended.",
+   "chunk": 13,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "John H. Smoot",
+   "quote": "1890-1915 - John H . Smoot",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Col. William E. Pattison French's residency began.",
+   "chunk": 13,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Col. William E. Pattison French",
+   "quote": "1915-1916 - Col . William E . Pattison French",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:French's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Col. William E. Pattison French's residency ended.",
+   "chunk": 13,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Col. William E. Pattison French",
+   "quote": "1915-1916 - Col . William E . Pattison French",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:French's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Newton D. Baker's residency began.",
+   "chunk": 13,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Newton D. Baker",
+   "quote": "1916-1920 - Newton D . Baker",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Newton D. Baker's residency ended.",
+   "chunk": 13,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Newton D. Baker",
+   "quote": "1916-1920 - Newton D . Baker",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Col. William E. Pattison French's residency began.",
+   "chunk": 13,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Col. William E. Pattison French",
+   "quote": "1920-1941 - Col . William E . Pattison French",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:French's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Col. William E. Pattison French's residency ended.",
+   "chunk": 13,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Col. William E. Pattison French",
+   "quote": "1920-1941 - Col . William E . Pattison French",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:French's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "British military attache's residency began.",
+   "chunk": 13,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "British military attache",
+   "quote": "1941-1945 - British military attache",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "British military attache's residency ended.",
+   "chunk": 13,
+   "date_text": "1945",
+   "date": "1945",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "British military attache",
+   "quote": "1941-1945 - British military attache",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Vice Admiral Alan Kirk's residency began.",
+   "chunk": 13,
+   "date_text": "1945",
+   "date": "1945",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vice Admiral Alan Kirk",
+   "quote": "1945-1948 - Vice Admiral Alan Kirk",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Kirk's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  },
+  {
+   "text": "Vice Admiral Alan Kirk's residency ended.",
+   "chunk": 13,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vice Admiral Alan Kirk",
+   "quote": "1945-1948 - Vice Admiral Alan Kirk",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Kirk's"
+   ],
+   "cid": "/wiki/Newton_D._Baker_House#13"
+  }
+ ],
+ "dropped": []
+}

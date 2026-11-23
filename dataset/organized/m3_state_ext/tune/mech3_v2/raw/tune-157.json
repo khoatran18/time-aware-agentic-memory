@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "bcefa7521203fddb",
+  "N2": "8e34b618889e4fe6",
+  "N3": "927b453cc1a8cea4",
+  "N4": "0223487748d946fc",
+  "N5": "9bd0b683651d8a1f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "In 2009 , the Isotopes became an affiliate of the Los Angeles Dodgers",
+    "end_date": null,
+    "new_text": "The Isotopes became an affiliate of the San Francisco Giants.",
+    "new_date": "2009",
+    "new_date_text": "In 2009",
+    "new_quote": "In 2009 , the Isotopes became an affiliate of the San Francisco Giants"
+   }
+  ],
+  "add": [
+   {
+    "text": "The Isotopes became an affiliate of the Los Angeles Dodgers.",
+    "evidence": "In 2009 , the Isotopes became an affiliate of the Los Angeles Dodgers",
+    "date_text": "In 2009",
+    "date": "2009",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Los Angeles Dodgers",
+    "quote": "In 2009 , the Isotopes became an affiliate of the Los Angeles Dodgers"
+   }
+  ]
+ }
+}

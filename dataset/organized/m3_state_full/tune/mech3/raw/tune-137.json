@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "2c49b0fecc68e64e",
+  "N2": "1495301da19992fe",
+  "N3": "d75e7939545aac18"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The country had a 2019 Forest Landscape Integrity Index mean score of 7.5/10",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Zambia had a 2019 Forest Landscape Integrity Index mean score of 7.5/10, ranking it 39th globally out of 172 countries.",
+    "evidence": "The country had a 2019 Forest Landscape Integrity Index mean score of 7.5/10",
+    "date_text": "2019",
+    "date": "2019",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "state",
+    "subject": "self",
+    "object": "Forest Landscape Integrity Index",
+    "quote": "The country had a 2019 Forest Landscape Integrity Index mean score of 7.5/10"
+   }
+  ]
+ }
+}

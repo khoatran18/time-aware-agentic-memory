@@ -1,0 +1,179 @@
+{
+ "events": [
+  {
+   "text": "He was named Defence Minister at the end of 2004.",
+   "chunk": 7,
+   "date_text": "at the end of 2004",
+   "date": "2004",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Defence Minister",
+   "quote": "He was named Defence Minister at the end of 2004",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#7"
+  },
+  {
+   "text": "He co-authored a strategy for restructuring Romania's defence industry in 2000.",
+   "chunk": 7,
+   "date_text": "in 2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "a strategy for restructuring Romanias defence industry",
+   "quote": "his co-authorship in 2000 of a strategy for restructuring Romanias defence industry",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Romania's"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#7"
+  },
+  {
+   "text": "He promoted a law ending conscription from 2007.",
+   "chunk": 8,
+   "date_text": "from 2007",
+   "date": "2007",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "law ending conscription",
+   "quote": "He also promoted a law ending conscription from 2007",
+   "section": 2,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "He was in office during severe flooding in 2001.",
+   "chunk": 8,
+   "date_text": "in 2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "He was in office during severe flooding in 2001",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "He affirmed his commitment to Romania's participation in the Iraq War and the War in Afghanistan in 2005.",
+   "chunk": 8,
+   "date_text": "in 2005",
+   "date": "2005",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Iraq War and the War in Afghanistan",
+   "quote": "despite affirming his commitment to Romanias participation in both the Iraq War and the War in Afghanistan in 2005",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Romania's"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "The following year he sought Romania's withdrawal from Iraq.",
+   "chunk": 8,
+   "date_text": "the following year",
+   "date": "2006",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Romanias withdrawal from Iraq",
+   "quote": "the following year he sought Romanias withdrawal from Iraq",
+   "section": 2,
+   "flags": [
+    "derived_date",
+    "name_not_in_page:Romania's"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#8"
+  },
+  {
+   "text": "His downfall as minister began in July 2006 when he remarked on television that the military intelligence service was spying on the presidential administration.",
+   "chunk": 10,
+   "date_text": "in July 2006",
+   "date": "2006-07",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "military intelligence service",
+   "quote": "Atanasius downfall as minister began in July 2006 , when he remarked on television",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#10"
+  },
+  {
+   "text": "In September Săftoiu sued him for abuse of office.",
+   "chunk": 10,
+   "date_text": "In September",
+   "date": "2006-09",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "abuse of office",
+   "quote": "In September , by which time the Social Democratic parliamentarian Eugen Bejinariu had also sued , Băsescu suspended the minister",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#10"
+  },
+  {
+   "text": "Băsescu suspended the minister in September.",
+   "chunk": 10,
+   "date_text": "In September",
+   "date": "2006-09",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "Băsescu suspended the minister",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Teodor_Atanasiu#10"
+  },
+  {
+   "text": "In late October he resigned.",
+   "chunk": 11,
+   "date_text": "in late October",
+   "date": "2006-10",
+   "approximate": true,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "in late October , with Băsescu poised to dismiss him , resigned",
+   "section": 2,
+   "flags": [
+    "derived_date",
+    "approximate_date"
+   ],
+   "cid": "/wiki/Teodor_Atanasiu#11"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Quaid starred in I Can Only Imagine.",
+   "chunk": 10,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "I Can Only Imagine",
+   "quote": "In 2018 , Quaid starred in I Can Only Imagine",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#10"
+  },
+  {
+   "text": "Quaid starred in Kin.",
+   "chunk": 10,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Kin",
+   "quote": "In 2018 , Quaid starred in I Can Only Imagine , where he played Arthur Millard , the father of singer and songwriter Bart Millard , and Kin",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#10"
+  },
+  {
+   "text": "It was confirmed that Quaid would portray President Ronald Reagan in Reagan.",
+   "chunk": 11,
+   "date_text": "In March 2018",
+   "date": "2018-03",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "In March 2018 , it was confirmed by director Sean McNamara that Quaid would portray President Ronald Reagan in an upcoming biopic , titled Reagan",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#11"
+  },
+  {
+   "text": "The film was slated to have a summer 2019 release.",
+   "chunk": 11,
+   "date_text": "summer 2019",
+   "date": "2019",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "The film was slated to have a summer 2019 release",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Dennis_Quaid#11"
+  },
+  {
+   "text": "Filming was scheduled to begin in May 2024.",
+   "chunk": 11,
+   "date_text": "May 2024",
+   "date": "2024-05",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "was scheduled to begin filming in May 2024",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#11"
+  }
+ ],
+ "dropped": []
+}

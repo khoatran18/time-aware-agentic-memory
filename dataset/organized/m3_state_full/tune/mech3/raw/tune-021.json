@@ -1,0 +1,50 @@
+{
+ "idmap": {
+  "N1": "eba26283e168dc5c",
+  "N2": "672fcfcbf0fbb5c4"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "She sailed as MS Peter Wessel for Larvik Line until 1996.",
+    "evidence": "Between 1984 and 2008 she sailed as MS Peter Wessel for Larvik Line ( until 1996 )",
+    "date_text": "until 1996",
+    "date": "1996",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "end",
+    "subject": "self",
+    "object": "Larvik Line",
+    "quote": "Between 1984 and 2008 she sailed as MS Peter Wessel for Larvik Line ( until 1996 )"
+   },
+   {
+    "text": "Between 1984 and 2008 she sailed as MS Peter Wessel for Color Line.",
+    "evidence": "Between 1984 and 2008 she sailed as MS Peter Wessel for Larvik Line ( until 1996 ) and Color Line",
+    "date_text": "Between 1984 and 2008",
+    "date": "1984",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "state",
+    "subject": "self",
+    "object": "Color Line",
+    "quote": "Between 1984 and 2008 she sailed as MS Peter Wessel for Larvik Line ( until 1996 ) and Color Line"
+   },
+   {
+    "text": "In 2008 she was sold to her current owners.",
+    "evidence": "before sold to her current owners",
+    "date_text": "2008",
+    "date": "2008",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Mediterranean Shipping Company",
+    "quote": "Between 1984 and 2008 she sailed as MS Peter Wessel for Larvik Line ( until 1996 ) and Color Line , before sold to her current owners"
+   }
+  ]
+ }
+}

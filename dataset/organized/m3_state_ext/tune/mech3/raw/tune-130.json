@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "10b1301e73065e2b",
+  "N2": "9114732c5dfc29cf"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In June 2012 , Higgins said he believed that health care providers will have to embrace Accountable Care Organizations",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "In June 2012, Higgins said he believed health care providers will have to embrace Accountable Care Organizations and other changes.",
+    "evidence": "In June 2012 , Higgins said he believed that health care providers will have to embrace Accountable Care Organizations",
+    "date_text": "June 2012",
+    "date": "2012-06",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "statement",
+    "subject": "self",
+    "object": "Accountable Care Organizations",
+    "quote": "In June 2012 , Higgins said he believed that health care providers will have to embrace Accountable Care Organizations"
+   }
+  ]
+ }
+}

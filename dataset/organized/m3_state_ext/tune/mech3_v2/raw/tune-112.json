@@ -1,0 +1,46 @@
+{
+ "idmap": {
+  "N1": "6bc85740f84fb391",
+  "N2": "4eef35ee41083dfa",
+  "N3": "99b008500bdbd5bf",
+  "N4": "1042a37bc209d1bb",
+  "N5": "929fd341d1c04320",
+  "N6": "ded3300064b54a08",
+  "N7": "9ba0aa39374eb2a6",
+  "N8": "decf85572eda56ab",
+  "N9": "f4f3a18784fd3c9a",
+  "N10": "42314793fcfe758b",
+  "N11": "60ec4aaa3d888939",
+  "N12": "6dd7b3bab314cbeb",
+  "N13": "3cb79d81a7808cd3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Since late 2009 , Michelle Hunziker has assisted Gottschalk in hosting the show",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Michelle Hunziker began assisting Gottschalk in hosting the show.",
+    "evidence": "Since late 2009 , Michelle Hunziker has assisted Gottschalk in hosting the show",
+    "date_text": "late 2009",
+    "date": "2009",
+    "approximate": true,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Michelle Hunziker",
+    "quote": "Since late 2009 , Michelle Hunziker has assisted Gottschalk in hosting the show"
+   }
+  ]
+ }
+}

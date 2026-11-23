@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "cf8e7f3d9bec979d",
+  "N2": "396e48e128b27527",
+  "N3": "d47ebcd9ec1023de",
+  "N4": "788ef3ee0745dfc0",
+  "N5": "9850ab8ab3a61bbc",
+  "N6": "97c6e51ac5598b43",
+  "N7": "ba162830c56d38c8",
+  "N8": "726f0ba64bf30efd",
+  "N9": "0774f74f932bf82a",
+  "N10": "05585267bad0f577"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "He fought the Belfast West by-election in 1943",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Cunningham fought the Belfast West by-election in 1943.",
+    "evidence": "He fought the Belfast West by-election in 1943",
+    "date_text": "1943",
+    "date": "1943",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Belfast West by-election",
+    "quote": "He fought the Belfast West by-election in 1943"
+   }
+  ]
+ }
+}

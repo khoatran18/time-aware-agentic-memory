@@ -1,0 +1,1944 @@
+{
+ "set": "tune",
+ "seed": 20261122,
+ "per_type": 10,
+ "window": 8,
+ "edits": [
+  {
+   "edit_id": "tune-166",
+   "type": "C",
+   "page": "Senate_of_Canada_Building",
+   "chunk_id": "/wiki/Senate_of_Canada_Building#19",
+   "event": {
+    "date": "2011-01-29",
+    "text": "The display of the section of the Berlin wall inside the main entrance ended.",
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "quote": "until January 29 , 2011"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which notable event, conference or exhibition staged inside the building came first?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the federal government beginning to operate the building as the Government Conference Centre and the end of that federal operation?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Post 1966",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Senate_of_Canada_Building#16",
+     "/wiki/Senate_of_Canada_Building#17",
+     "/wiki/Senate_of_Canada_Building#18",
+     "/wiki/Senate_of_Canada_Building#19",
+     "/wiki/Senate_of_Canada_Building#20",
+     "/wiki/Senate_of_Canada_Building#21",
+     "/wiki/Senate_of_Canada_Building#22",
+     "/wiki/Senate_of_Canada_Building#23"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 27
+  },
+  {
+   "edit_id": "tune-163",
+   "type": "C",
+   "page": "Agenzia_Nazionale_Stampa_Associata",
+   "chunk_id": "/wiki/Agenzia_Nazionale_Stampa_Associata#12",
+   "event": {
+    "date": "2013-02-11",
+    "text": "ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVI's resignation.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the appointments of ANSA editors-in-chief from Bruno Caselli's appointment through Giampiero Gramaglia's appointment, inclusive."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the ANSA editors-in-chief appointed from Leonardo Azzarita's appointment up to, but not including, Sergio Lepri's appointment, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, after Sergio Lepri became ANSA editor-in-chief, who was the next person to take office as editor-in-chief?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which person was the last to take office as ANSA editor-in-chief?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many years passed between Giovanni Giovannini becoming ANSA president and Giulio Anselmi becoming president?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Recent events",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Agenzia_Nazionale_Stampa_Associata#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 16
+  },
+  {
+   "edit_id": "tune-130",
+   "type": "C",
+   "page": "Brian_Higgins",
+   "chunk_id": "/wiki/Brian_Higgins#31",
+   "event": {
+    "date": "2012-06",
+    "text": "In June 2012, Higgins said he believed health care providers will have to embrace Accountable Care Organizations and other changes.",
+    "track": "other",
+    "phase": "point",
+    "kind": "statement",
+    "quote": "In June 2012 , Higgins said he believed that health care providers will have to embrace Accountable Care Organizations"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dates on which he began serving in a legislative body, in chronological order: a city council, the state assembly, and the U.S. House."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about his academic degrees, which degree did he receive most recently?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Measured in calendar years, how many years passed between his co-signed letter to President Obama urging that Social Security be kept and strengthened, and his introduction of House Resolution 3997 on Social Security Administration oversight?"
+     }
+    ]
+   },
+   "window": {
+    "section": 7,
+    "section_title": "Health care",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Brian_Higgins#31",
+     "/wiki/Brian_Higgins#32",
+     "/wiki/Brian_Higgins#33"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 41
+  },
+  {
+   "edit_id": "tune-085",
+   "type": "C",
+   "page": "Tryggve_Gran",
+   "chunk_id": "/wiki/Tryggve_Gran#2",
+   "event": {
+    "date": "1907",
+    "text": "Gran entered naval college.",
+    "track": "education",
+    "phase": "start",
+    "kind": "change",
+    "quote": "He entered naval college in 1907"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the earliest of Gran's assignments to an Antarctic expedition or its search parties?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the last change in Gran's commission, rank or service status in the Royal Flying Corps or Royal Air Force?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list Gran's marriages in date order."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Background",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Tryggve_Gran#1",
+     "/wiki/Tryggve_Gran#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 25
+  },
+  {
+   "edit_id": "tune-125",
+   "type": "C",
+   "page": "Open_Knowledge_Foundation",
+   "chunk_id": "/wiki/Open_Knowledge_Foundation#17",
+   "event": {
+    "date": "2013-10",
+    "text": "D-CENT began running.",
+    "track": "other",
+    "phase": "start",
+    "kind": "change",
+    "quote": "which is running from October 2013 to May 2016"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which a person began serving as chief executive of the organisation, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which a person stopped serving as chief executive of the organisation, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate the start of Pavel Richter's time as chief executive from Catherine Stihler's departure from that post?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the next event that changed who held the chief executive post after Pavel Richter's term ended?"
+     }
+    ]
+   },
+   "window": {
+    "section": 8,
+    "section_title": "Other",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Open_Knowledge_Foundation#17"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "tune-080",
+   "type": "C",
+   "page": "German_submarine_U_96_1940",
+   "chunk_id": "/wiki/German_submarine_U-96_(1940)#38",
+   "event": {
+    "date": "1941-08-02",
+    "text": "U-96 left for her sixth patrol in the North Atlantic.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "On 2 August 1941 , U-96 left for her sixth patrol in the North Atlantic ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "After Heinrich Lehmann-Willenbrock took command of the boat at her commissioning, what was the next change in her command among the dated events recorded in the timeline?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Service history",
+    "window": 4,
+    "chunk_ids": [
+     "/wiki/German_submarine_U-96_(1940)#38",
+     "/wiki/German_submarine_U-96_(1940)#39",
+     "/wiki/German_submarine_U-96_(1940)#40",
+     "/wiki/German_submarine_U-96_(1940)#41",
+     "/wiki/German_submarine_U-96_(1940)#42",
+     "/wiki/German_submarine_U-96_(1940)#43",
+     "/wiki/German_submarine_U-96_(1940)#44",
+     "/wiki/German_submarine_U-96_(1940)#45"
+    ],
+    "context_chunk": "/wiki/German_submarine_U-96_(1940)#37"
+   },
+   "n_chunks_page": 57
+  },
+  {
+   "edit_id": "tune-084",
+   "type": "C",
+   "page": "Wilhelm_Liebknecht",
+   "chunk_id": "/wiki/Wilhelm_Liebknecht#13",
+   "event": {
+    "date": "1874",
+    "text": "Liebknecht was re-elected to the Reichstag.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "After being re-elected to the Reichstag in 1874"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the socialist parties he co-founded or helped merge between the mid-1860s and the mid-1870s."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between his joining Lassalle's General German Workers Association and the merger of the SDAP and ADAV into the SAPD?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 6,
+    "section_title": "Return to politics",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Wilhelm_Liebknecht#13",
+     "/wiki/Wilhelm_Liebknecht#14",
+     "/wiki/Wilhelm_Liebknecht#15"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "tune-172",
+   "type": "C",
+   "page": "The_Late_Late_Show_American_talk_show",
+   "chunk_id": "/wiki/The_Late_Late_Show_(American_talk_show)#16",
+   "event": {
+    "date": "1999-03",
+    "text": "Craig Kilborn took over in March 1999.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Craig Kilborn took over in March 1999"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in chronological order, the dated events in which a new permanent host began hosting the show."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about changes of the show's permanent host from Craig Kilborn's departure onward, which event came immediately after the announcement that Craig Ferguson would replace Kilborn?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Craig Ferguson beginning as host and CBS announcing that James Corden would succeed Ferguson?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "History",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/The_Late_Late_Show_(American_talk_show)#12",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#13",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#14",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#15",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#16",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#17",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#18",
+     "/wiki/The_Late_Late_Show_(American_talk_show)#19"
+    ],
+    "context_chunk": "/wiki/The_Late_Late_Show_(American_talk_show)#11"
+   },
+   "n_chunks_page": 55
+  },
+  {
+   "edit_id": "tune-186",
+   "type": "C",
+   "page": "Los_Angeles_Rams",
+   "chunk_id": "/wiki/Los_Angeles_Rams#49",
+   "event": {
+    "date": "1987",
+    "text": "Dickerson ended his five years for the Rams by being traded to the Indianapolis Colts.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Dickerson ended his five hugely successful years for the Rams in 1987 by being traded to the Indianapolis Colts"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the trade of Eric Dickerson to the Colts to the trade of Sam Bradford to the Eagles?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events, list in chronological order the draft selections that the timeline describes as first-round picks or first overall picks."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the team's first overall pick of Sam Bradford to its first overall pick of Jared Goff?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "List, in chronological order, the occasions before 1990 on which the club moved its home city or its home stadium, among the dated events in the timeline."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "List, in chronological order, the occasions on which the club joined a professional football league, among the dated events in the timeline."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "List, in chronological order, the Super Bowl games the team played in before the 2000s, among the dated events in the timeline."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Franchise history",
+    "window": 5,
+    "chunk_ids": [
+     "/wiki/Los_Angeles_Rams#46",
+     "/wiki/Los_Angeles_Rams#47",
+     "/wiki/Los_Angeles_Rams#48",
+     "/wiki/Los_Angeles_Rams#49",
+     "/wiki/Los_Angeles_Rams#50",
+     "/wiki/Los_Angeles_Rams#51",
+     "/wiki/Los_Angeles_Rams#52",
+     "/wiki/Los_Angeles_Rams#53"
+    ],
+    "context_chunk": "/wiki/Los_Angeles_Rams#45"
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "tune-094",
+   "type": "C",
+   "page": "Humberto_De_la_Calle",
+   "chunk_id": "/wiki/Humberto_De_la_Calle#0",
+   "event": {
+    "date": "1946-07-14",
+    "text": "Humberto de la Calle Lombana was born in Manzanares, Caldas.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "born 14 July 1946 in Manzanares , Caldas"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which he was appointed to, or began a term in, a ministerial or ambassadorial post, counting only those after he resigned as vice president."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, after he resigned as vice president, which ministerial or ambassadorial post did he begin last?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed from his appointment as ambassador to the United Kingdom to his run as the Liberal Party/Indigenous Social Alliance Coalition candidate for the presidency, counting by calendar year?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Humberto De la Calle",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Humberto_De_la_Calle#0",
+     "/wiki/Humberto_De_la_Calle#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 22
+  },
+  {
+   "edit_id": "tune-032",
+   "type": "E",
+   "page": "Milan_Metro_Line_2",
+   "chunk_id": "/wiki/Milan_Metro_Line_2#7",
+   "event": {
+    "date": "2020",
+    "text": "All the other stock is due to be retired.",
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "quote": "which is due to be retired by 2020"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Rolling stock",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Milan_Metro_Line_2#5",
+     "/wiki/Milan_Metro_Line_2#6",
+     "/wiki/Milan_Metro_Line_2#7",
+     "/wiki/Milan_Metro_Line_2#8",
+     "/wiki/Milan_Metro_Line_2#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "tune-016",
+   "type": "E",
+   "page": "The_News_Quiz",
+   "chunk_id": "/wiki/The_News_Quiz#1",
+   "event": {
+    "date": "1995",
+    "text": "Barry Took's chairing ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Barry Took again from 1986 to 1995"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in time order the hosts who began a term as chairman of the show during its first years, up to the early 1980s."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between Barry Norman starting as chairman and Simon Hoggart returning as chairman?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/The_News_Quiz#1",
+     "/wiki/The_News_Quiz#2",
+     "/wiki/The_News_Quiz#3",
+     "/wiki/The_News_Quiz#4",
+     "/wiki/The_News_Quiz#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 35
+  },
+  {
+   "edit_id": "tune-028",
+   "type": "E",
+   "page": "George_Cambridge_2nd_Marquess_of_Cambridge",
+   "chunk_id": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+   "event": {
+    "date": "1932",
+    "text": "His service as captain in the 16th Battalion, London Regiment ended in 1932.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "then as captain in the 16th Battalion , London Regiment from 1929 to 1932"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Education and career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#4",
+     "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#5",
+     "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 10
+  },
+  {
+   "edit_id": "tune-029",
+   "type": "E",
+   "page": "Steele_Hall",
+   "chunk_id": "/wiki/Steele_Hall#3",
+   "event": {
+    "date": "1996",
+    "text": "Hall remained the Liberal member for Boothby until his retirement.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "remained the Liberal member for Boothby until his retirement in 1996"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the electoral victories he won between the mid-1970s and the early 1980s."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two were the most recent events concerning his federal Senate seat: winning it, being re-elected to it, or resigning it?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Counted by calendar year, how many years passed from his becoming leader of the Liberal and Country League until his resignation from the federal Senate?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Lead",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Steele_Hall#0",
+     "/wiki/Steele_Hall#1",
+     "/wiki/Steele_Hall#2",
+     "/wiki/Steele_Hall#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 26
+  },
+  {
+   "edit_id": "tune-046",
+   "type": "E",
+   "page": "Chicago_Red_Stars",
+   "chunk_id": "/wiki/Chicago_Red_Stars#28",
+   "event": {
+    "date": "2015",
+    "text": "The Red Stars' time at the Village of Lisle-Benedictine University Sports Complex ended in 2015.",
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 2011 to 2015"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the people who became the club's head coach, naming each person."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in chronological order, the owner or owning group that took over the team after the period of the first investor group's ownership ended, naming each one."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "After the club left the Women's Professional Soccer league because it could not meet the league's funding requirements, which league did the club join next?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between the club's first season in Women's Professional Soccer and the year it began playing in the National Women's Soccer League, measured by calendar year?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Stadiums",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Chicago_Red_Stars#28",
+     "/wiki/Chicago_Red_Stars#29"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 39
+  },
+  {
+   "edit_id": "tune-049",
+   "type": "E",
+   "page": "Atlanta_Dream",
+   "chunk_id": "/wiki/Atlanta_Dream#20",
+   "event": {
+    "date": "2017",
+    "text": "Cooper was fired after failing to make the playoffs in 2017.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "was fired after failing to make the playoffs in 2017"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which a person began holding the team's president or CEO post, up to and including the start of Kathy Betty's tenure as co-owner and CEO."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the trades of players or draft picks that the team made from its expansion draft until the end of June (the three trades made on the same day may be in any order)."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the trades of players or draft picks the team made in the calendar year when Michael Cooper was hired as head coach."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which the team began playing its home games at a venue, including its first venue."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Franchise history",
+    "window": 2,
+    "chunk_ids": [
+     "/wiki/Atlanta_Dream#18",
+     "/wiki/Atlanta_Dream#19",
+     "/wiki/Atlanta_Dream#20",
+     "/wiki/Atlanta_Dream#21",
+     "/wiki/Atlanta_Dream#22",
+     "/wiki/Atlanta_Dream#23"
+    ],
+    "context_chunk": "/wiki/Atlanta_Dream#17"
+   },
+   "n_chunks_page": 67
+  },
+  {
+   "edit_id": "tune-005",
+   "type": "E",
+   "page": "Milton_Friedman",
+   "chunk_id": "/wiki/Milton_Friedman#22",
+   "event": {
+    "date": "1943",
+    "text": "Friedman's work on wartime tax policy for the federal government ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 1941 to 1943 Friedman worked on wartime tax policy for the federal government"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline after the 1960s, list the awards and medals he received, in chronological order (the two events of the same year in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the academic degrees he earned, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list his first meeting with his wife, his marriage to her, and the birth of his only son, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the founding of the Friedman Foundation for Educational Choice and Milton Friedman's death (counted by calendar year)?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Public service",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Milton_Friedman#16",
+     "/wiki/Milton_Friedman#17",
+     "/wiki/Milton_Friedman#18",
+     "/wiki/Milton_Friedman#19",
+     "/wiki/Milton_Friedman#20",
+     "/wiki/Milton_Friedman#21",
+     "/wiki/Milton_Friedman#22",
+     "/wiki/Milton_Friedman#23"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "tune-018",
+   "type": "E",
+   "page": "Talk_im_Turm",
+   "chunk_id": "/wiki/Talk_im_Turm#0",
+   "event": {
+    "date": "1999",
+    "text": "Talk im Turm's run ended.",
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "quote": "ran for almost a decade from 1990 to 1999"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline in the late 1990s, list the occasions when a main presenter or moderator of the talk show stopped presenting or moderating it, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Talk im Turm",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Talk_im_Turm#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 9
+  },
+  {
+   "edit_id": "tune-023",
+   "type": "E",
+   "page": "Amalric_of_Jerusalem",
+   "chunk_id": "/wiki/Amalric_of_Jerusalem#14",
+   "event": {
+    "date": "1173",
+    "text": "Raymond remained in captivity until 1173.",
+    "track": "other",
+    "phase": "end",
+    "kind": "state",
+    "quote": "Raymond remained in captivity until 1173"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize his diplomatic dealings with the Byzantine Empire."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline from the first half of the 1160s, list his military expeditions into Egypt, in time order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Counting calendar years, how many passed between his accession as King of Jerusalem and his death?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Invasions of Egypt",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Amalric_of_Jerusalem#12",
+     "/wiki/Amalric_of_Jerusalem#13",
+     "/wiki/Amalric_of_Jerusalem#14",
+     "/wiki/Amalric_of_Jerusalem#15",
+     "/wiki/Amalric_of_Jerusalem#16",
+     "/wiki/Amalric_of_Jerusalem#17"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 37
+  },
+  {
+   "edit_id": "tune-020",
+   "type": "E",
+   "page": "Sam_Selvon",
+   "chunk_id": "/wiki/Sam_Selvon#1",
+   "event": {
+    "date": "1945",
+    "text": "Selvon's service as a wireless operator with the Royal Naval Reserve ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "from 1940 to 1945 during the Second World War"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline before the 1980s, list the fellowships and awards for literature that he received, in chronological order (honorary degrees not counted)."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Life and work",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Sam_Selvon#1",
+     "/wiki/Sam_Selvon#2",
+     "/wiki/Sam_Selvon#3",
+     "/wiki/Sam_Selvon#4",
+     "/wiki/Sam_Selvon#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 22
+  },
+  {
+   "edit_id": "tune-121",
+   "type": "F",
+   "page": "Lowell_State_College",
+   "chunk_id": "/wiki/Lowell_State_College#11",
+   "event": {
+    "date": "1922",
+    "text": "Clarence Weed was principal of the Normal School starting 1922.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Clarence Weed ( 1922-1935 )"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the endings of tenure of the school's principals and presidents between the mid-1910s and the late 1930s."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which regular principal or president appointment came immediately after Clarence Weed's appointment as principal?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between John Mahoney becoming principal of the Normal School and Daniel H. O'Leary becoming president of the school?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, the end of which principal's or president's tenure came last?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Lowell State College",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Lowell_State_College#8",
+     "/wiki/Lowell_State_College#9",
+     "/wiki/Lowell_State_College#10",
+     "/wiki/Lowell_State_College#11",
+     "/wiki/Lowell_State_College#12",
+     "/wiki/Lowell_State_College#13",
+     "/wiki/Lowell_State_College#14",
+     "/wiki/Lowell_State_College#15"
+    ],
+    "context_chunk": "/wiki/Lowell_State_College#7"
+   },
+   "n_chunks_page": 25
+  },
+  {
+   "edit_id": "tune-195",
+   "type": "F",
+   "page": "Frederick_Ralph_Sharp",
+   "chunk_id": "/wiki/Frederick_Ralph_Sharp#2",
+   "event": {
+    "date": "1939-07",
+    "text": "Sharp joined the Royal Canadian Air Force in Trenton, Ontario.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "he joined the Royal Canadian Air Force in Trenton , Ontario in July 1939"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize his Second World War service, from his enlistment in the air force until the end of the war, covering his training, postings and decorations (events with the same date in any order)."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list his new command, staff or chief posts and his promotions or regradings in rank, in chronological order (events in the same year may be in any order)."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between the end of his partnership in the consulting firm he joined after leaving the armed forces and his joining InterCon Consultants as a founding partner?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Military career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Frederick_Ralph_Sharp#2",
+     "/wiki/Frederick_Ralph_Sharp#3",
+     "/wiki/Frederick_Ralph_Sharp#4",
+     "/wiki/Frederick_Ralph_Sharp#5",
+     "/wiki/Frederick_Ralph_Sharp#6",
+     "/wiki/Frederick_Ralph_Sharp#7",
+     "/wiki/Frederick_Ralph_Sharp#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 11
+  },
+  {
+   "edit_id": "tune-157",
+   "type": "F",
+   "page": "Albuquerque_Dukes",
+   "chunk_id": "/wiki/Albuquerque_Dukes#18",
+   "event": {
+    "date": "2009",
+    "text": "The Isotopes became an affiliate of the Los Angeles Dodgers.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "In 2009 , the Isotopes became an affiliate of the Los Angeles Dodgers"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the times the Dukes' team name was changed or revived, in chronological order."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the major-league clubs with which the Dukes began a parent-club affiliation, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, after the Dukes became an affiliate of the Cincinnati Reds, which major-league club did they next begin a parent-club affiliation with?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between the Dukes' PCL championship under Tommy Lasorda and their third league title, won by sweeping the Tacoma Rainiers?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Replacement",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Albuquerque_Dukes#18",
+     "/wiki/Albuquerque_Dukes#19"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 21
+  },
+  {
+   "edit_id": "tune-058",
+   "type": "F",
+   "page": "44_Union_Square",
+   "chunk_id": "/wiki/44_Union_Square#1",
+   "event": {
+    "date": "1943",
+    "text": "The building was sold to an affiliate of the International Ladies Garment Workers Union.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "the building was sold to an affiliate of the International Ladies Garment Workers Union in 1943"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the new tenants that leased or moved into the building in the 1990s, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the property transactions involving the building or its air rights during the 2000s, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed, by calendar year, from the Landmarks Preservation Commission's designation of the building as a city landmark to its refusal of the glass-dome plan?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "44 Union Square",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/44_Union_Square#0",
+     "/wiki/44_Union_Square#1",
+     "/wiki/44_Union_Square#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 35
+  },
+  {
+   "edit_id": "tune-115",
+   "type": "F",
+   "page": "Supreme_Council_of_the_Armed_Forces",
+   "chunk_id": "/wiki/Supreme_Council_of_the_Armed_Forces#31",
+   "event": {
+    "date": "2012-09-03",
+    "text": "Abdul Fatah al-Sisi confirmed the composition of the revised command of the Armed Forces.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "On 3 September 2012 , Colonel General Abdul Fatah al-Sisi , newly appointed Minister of Defence and Commander-in-Chief of the Armed Forces , confirmed the composition of the revised command of the Armed Forces"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which occasion on which the council was formed, or its membership or leadership was confirmed or reconstituted, came first?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the council's convenings during the Suez Crisis and at the start of the Yemeni Civil War, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed from the start of the council's period of full control over military policy to its revival after the assassination of President Anwar Sadat?"
+     }
+    ]
+   },
+   "window": {
+    "section": 7,
+    "section_title": "The revised Leadership",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Supreme_Council_of_the_Armed_Forces#31",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#32",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#33",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#34",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#35",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#36",
+     "/wiki/Supreme_Council_of_the_Armed_Forces#37"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 38
+  },
+  {
+   "edit_id": "tune-190",
+   "type": "F",
+   "page": "Ferdinand_Sch_rner",
+   "chunk_id": "/wiki/Ferdinand_Schörner#5",
+   "event": {
+    "date": "1911-10",
+    "text": "He entered the Bavarian Army as a one-year volunteer with the Bavarian Leib Regiment.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "He entered the Bavarian Army in October 1911 as a one-year volunteer"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the decorations and orders Ferdinand Schörner received during the First World War."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which decoration or order that Ferdinand Schörner received during the Second World War came earliest, and which came latest?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in time order the awards of the Knight's Cross and its higher grades (Oak Leaves, Swords, Diamonds) that Ferdinand Schörner received."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which Second World War decoration came directly after Schörner's award of the Oak Leaves to the Knight's Cross?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years passed from Schörner's Knight's Cross award to his award of the Diamonds to the Knight's Cross?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Ferdinand_Schörner#5",
+     "/wiki/Ferdinand_Schörner#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 27
+  },
+  {
+   "edit_id": "tune-112",
+   "type": "F",
+   "page": "Wetten_dass",
+   "chunk_id": "/wiki/Wetten,_dass..?#2",
+   "event": {
+    "date": "2009",
+    "text": "Michelle Hunziker began assisting Gottschalk in hosting the show.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Since late 2009 , Michelle Hunziker has assisted Gottschalk in hosting the show"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the Samuel Koch stunt accident on the show to Markus Lanz's first show as host?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Wetten,_dass..?#1",
+     "/wiki/Wetten,_dass..?#2",
+     "/wiki/Wetten,_dass..?#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 42
+  },
+  {
+   "edit_id": "tune-150",
+   "type": "F",
+   "page": "USS_LCS_L__3__102",
+   "chunk_id": "/wiki/USS_LCS(L)(3)-102#9",
+   "event": {
+    "date": "2007-05-22",
+    "text": "A transfer ceremony was held to transfer custody of the ship from the Royal Thai Navy to the National Association of LCS ( L ) 1-130.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "A transfer ceremony was held on May 22 , 2007 , to transfer custody of the ship"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Operational history",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/USS_LCS(L)(3)-102#6",
+     "/wiki/USS_LCS(L)(3)-102#7",
+     "/wiki/USS_LCS(L)(3)-102#8",
+     "/wiki/USS_LCS(L)(3)-102#9",
+     "/wiki/USS_LCS(L)(3)-102#10",
+     "/wiki/USS_LCS(L)(3)-102#11"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "tune-075",
+   "type": "F",
+   "page": "William_Dwight_Whitney",
+   "chunk_id": "/wiki/William_Dwight_Whitney#16",
+   "event": {
+    "date": "1868",
+    "text": "William Dwight Whitney was elected a member of the American Antiquarian Society.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Elected a member of the American Antiquarian Society in 1868"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline about William Dwight Whitney, list the learned societies and foreign orders he was elected to, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline about William Dwight Whitney, summarize the births of his children."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between Yale University offering William Dwight Whitney a professorship of Sanskrit and his receiving a doctoral degree from the University of Breslau?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline about William Dwight Whitney, list the degrees he completed, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Honors",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/William_Dwight_Whitney#16"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 26
+  },
+  {
+   "edit_id": "tune-168",
+   "type": "F",
+   "page": "Mary_Raine",
+   "chunk_id": "/wiki/Mary_Raine#13",
+   "event": {
+    "date": "1915",
+    "text": "Mary Thomas bought her first business, the Bon Ton Cafe on William Street.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "In 1915 she bought her first business , the Bon Ton Cafe on William Street ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List the dated events in the timeline in which Mary married, or in which one of her husbands died, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List the dated events in which a new name was adopted, either by Mary herself on marriage or by one of her hotels, in time order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the founding of Metropolitan Properties Ltd and the new will and deed of trust that Mary made in favour of the University of Western Australia?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Travel to Australia",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Mary_Raine#11",
+     "/wiki/Mary_Raine#12",
+     "/wiki/Mary_Raine#13"
+    ],
+    "context_chunk": "/wiki/Mary_Raine#10"
+   },
+   "n_chunks_page": 30
+  },
+  {
+   "edit_id": "tune-086",
+   "type": "A",
+   "page": "Daniel_M_Fleetwood",
+   "chunk_id": "/wiki/Daniel_M._Fleetwood#11",
+   "event": {
+    "date": "2008",
+    "text": "Fleetwood became the eighth US Correspondence Chess Grandmaster.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Fleetwood became the eighth US Correspondence Chess Grandmaster in 2008"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline about Daniel M. Fleetwood, list the chess championships, chess titles and grandmaster title he won, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline about Daniel M. Fleetwood, summarize the awards and honours he received outside chess, from universities, magazines and professional bodies."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about Daniel M. Fleetwood, which professor title did he receive most recently?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline about Daniel M. Fleetwood, list the posts at Vanderbilt University that he began, in chronological order."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many years passed between Daniel M. Fleetwood joining Sandia National Laboratories and his appointment as Professor of Electrical Engineering at Vanderbilt University?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Other achievements",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Daniel_M._Fleetwood#11"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "tune-106",
+   "type": "A",
+   "page": "Licia_Albanese",
+   "chunk_id": "/wiki/Licia_Albanese#3",
+   "event": {
+    "date": "1935",
+    "text": "She made her formal debut in Milan in Madama Butterfly.",
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "or in Milan in 1935 in Madama Butterfly"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the dated events before the mid-1960s in which Licia Albanese joined or left a major opera company as a resident artist (the Metropolitan Opera or the San Francisco Opera)."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between her Metropolitan Opera debut and her becoming a United States citizen?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among her dated events before the mid-1960s about joining or leaving a major opera company as a resident artist, which event came immediately after her start with the San Francisco Opera?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Life and career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Licia_Albanese#1",
+     "/wiki/Licia_Albanese#2",
+     "/wiki/Licia_Albanese#3",
+     "/wiki/Licia_Albanese#4",
+     "/wiki/Licia_Albanese#5",
+     "/wiki/Licia_Albanese#6",
+     "/wiki/Licia_Albanese#7",
+     "/wiki/Licia_Albanese#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 29
+  },
+  {
+   "edit_id": "tune-089",
+   "type": "A",
+   "page": "Bill_Goldberg",
+   "chunk_id": "/wiki/Bill_Goldberg#61",
+   "event": {
+    "date": "2020-02-27",
+    "text": "At Super ShowDown, Goldberg defeated The Fiend to win the Universal Championship for the second time.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "At Super ShowDown on February 27 , Goldberg defeated The Fiend to win the Universal Championship for the second time"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the wrestling magazine and newsletter awards Goldberg received (events with the same date in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the professional football teams that Goldberg was drafted by, signed with, or selected by."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed, by calendar year, from the year Goldberg began living in Bonsall, California to the year he moved to Boerne, Texas?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Return to WWE",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Bill_Goldberg#54",
+     "/wiki/Bill_Goldberg#55",
+     "/wiki/Bill_Goldberg#56",
+     "/wiki/Bill_Goldberg#57",
+     "/wiki/Bill_Goldberg#58",
+     "/wiki/Bill_Goldberg#59",
+     "/wiki/Bill_Goldberg#60",
+     "/wiki/Bill_Goldberg#61"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 91
+  },
+  {
+   "edit_id": "tune-093",
+   "type": "A",
+   "page": "Desmond_Patrick_Costello",
+   "chunk_id": "/wiki/Desmond_Patrick_Costello#3",
+   "event": {
+    "date": "1931",
+    "text": "Costello completed his MA with first class honours in Greek and Latin.",
+    "track": "education",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "MA in 1931 with first class honours in Greek and Latin"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which Costello began studies at a university or college."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the year Costello left Trinity College, Cambridge, to the year he was appointed lecturer in classics at the University College of the South West, Exeter?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, after he was dismissed from his lectureship at Exeter, what was the next change in his university teaching employment?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Desmond_Patrick_Costello#1",
+     "/wiki/Desmond_Patrick_Costello#2",
+     "/wiki/Desmond_Patrick_Costello#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 40
+  },
+  {
+   "edit_id": "tune-095",
+   "type": "A",
+   "page": "Butch_Levy",
+   "chunk_id": "/wiki/Butch_Levy#12",
+   "event": {
+    "date": "1944-01",
+    "text": "Levy married Loretta Lucky Bellson in January 1944.",
+    "track": "family",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Levy married Loretta Lucky Bellson in January 1944"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which amateur wrestling championship did he win last?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed, by calendar year, between his first Minnesota high school heavyweight wrestling title and the Rams' NFL Championship victory?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, after he signed a one-year contract with the Los Angeles Rams, which professional football team did he next begin playing for?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Personal life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Butch_Levy#12",
+     "/wiki/Butch_Levy#13",
+     "/wiki/Butch_Levy#14"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "tune-119",
+   "type": "A",
+   "page": "Eastern_Army_Division",
+   "chunk_id": "/wiki/Eastern_Army_Division#0",
+   "event": {
+    "date": "2000",
+    "text": "The unit was disbanded as a result of the disarmament policies set forward in the Defence Act of 2000.",
+    "track": "other",
+    "phase": "point",
+    "kind": "change",
+    "quote": "The unit was disbanded as a result of the disarmament policies set forward in the Defence Act of 2000"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the commanding officers whose start of command is recorded among the dated events in the timeline."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years separated the start of Åke Lundin's command and the start of Roland Ekenberg's command?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which commanding officer's start of command came first?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Which commanding officer began command immediately after Bengt Selander began his command, among the dated events in the timeline?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two were the most recent occasions on which a commanding officer ended command?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Eastern Army Division",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Eastern_Army_Division#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "tune-091",
+   "type": "A",
+   "page": "HMS_Warrior_R31",
+   "chunk_id": "/wiki/HMS_Warrior_(R31)#0",
+   "event": {
+    "date": "1946",
+    "text": "The aircraft carrier was loaned to the Royal Canadian Navy as HMCS Warrior.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "loaned to the Royal Canadian Navy from 1946 to 1948 as HMCS Warrior"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the occasions on which the ship returned to, or was reactivated within, a navy it had already served in, in chronological order."
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 0,
+    "section_title": "HMS Warrior ( R31 )",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/HMS_Warrior_(R31)#0",
+     "/wiki/HMS_Warrior_(R31)#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 35
+  },
+  {
+   "edit_id": "tune-179",
+   "type": "A",
+   "page": "Breitscheidplatz",
+   "chunk_id": "/wiki/Breitscheidplatz#15",
+   "event": {
+    "date": "2016-12-19",
+    "text": "A truck-ramming attack was made on the Christmas market at Breitscheidplatz, killing twelve people and injuring 48 others.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "On 19 December 2016 , at about 20:00 local time , a truck-ramming attack was made on the Christmas market at Breitscheidplatz"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which the square was given a name, whether its first name or a renaming, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what were the earliest and the latest occasions on which the square received a name?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Redevelopment",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Breitscheidplatz#12",
+     "/wiki/Breitscheidplatz#13",
+     "/wiki/Breitscheidplatz#14",
+     "/wiki/Breitscheidplatz#15"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "tune-136",
+   "type": "A",
+   "page": "David_Young_Iowa_politician",
+   "chunk_id": "/wiki/David_Young_(Iowa_politician)#22",
+   "event": {
+    "date": "2016",
+    "text": "Young co-sponsored the Compassionate Access, Research Expansion, and Respect States Act (CARERS Act).",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "In 2016 , Young co-sponsored the Compassionate Access , Research Expansion , and Respect States Act ( CARERS Act ) ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the results of his U.S. House general elections (won or lost), in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among his U.S. House general-election results in the timeline, which one came last?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between his first win in a U.S. House general election and his later comeback bid against Cindy Axne? Count by calendar year."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between his start as chief of staff to Senator Jim Bunning and his start as chief of staff to Senator Chuck Grassley?"
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize his votes and stated positions on repealing the Affordable Care Act, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 13,
+    "section_title": "Drug policy",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/David_Young_(Iowa_politician)#22"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 25
+  },
+  {
+   "edit_id": "tune-169",
+   "type": "A",
+   "page": "Eliot_Engel",
+   "chunk_id": "/wiki/Eliot_Engel#0",
+   "event": {
+    "date": "2013",
+    "text": "Engel previously was ranking member of the House Foreign Affairs Committee.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "he previously was its ranking member from 2013"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Eliot Engel winning a New York State Assembly special election and his start of service as a U.S. Representative from New York?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the academic degrees Eliot Engel earned, among the dated events recorded in the timeline."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in chronological order, the Democratic primary contests Eliot Engel took part in for his congressional seat, whether he won or lost, among the dated events recorded in the timeline."
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Summarize the awards Eliot Engel received from American health-care organisations in the late 2000s, among the dated events recorded in the timeline (events with the same date in any order)."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which was the most recent Democratic primary contest Eliot Engel took part in for his congressional seat, whether he won or lost?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Eliot Engel",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Eliot_Engel#0",
+     "/wiki/Eliot_Engel#1",
+     "/wiki/Eliot_Engel#2",
+     "/wiki/Eliot_Engel#3",
+     "/wiki/Eliot_Engel#4",
+     "/wiki/Eliot_Engel#5",
+     "/wiki/Eliot_Engel#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 72
+  }
+ ]
+}

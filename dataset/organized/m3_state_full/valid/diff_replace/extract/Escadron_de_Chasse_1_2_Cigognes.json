@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "EC 1/2 Cigogne was created by reorganizing No. 329 Squadron RAF.",
+   "chunk": 1,
+   "date_text": "November 1945",
+   "date": "1945-11",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "EC 1/2 Cigogne",
+   "quote": "EC 1/2 Cigogne was created on November 1945",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Escadron_de_Chasse_1/2_Cigognes#1"
+  },
+  {
+   "text": "The squadron converted to the Republic P-47 Thunderbolt.",
+   "chunk": 1,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Republic P-47 Thunderbolt",
+   "quote": "the squadron converted to the Republic P-47 Thunderbolt in 1948",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Escadron_de_Chasse_1/2_Cigognes#1"
+  }
+ ],
+ "dropped": []
+}

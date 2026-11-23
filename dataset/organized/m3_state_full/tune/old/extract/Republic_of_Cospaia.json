@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The Republic of Cospaia became independent.",
+   "chunk": 0,
+   "date_text": "1440",
+   "date": "1440",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Republic of Cospaia",
+   "quote": "independent from 1440 to 1826",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Republic_of_Cospaia#0"
+  },
+  {
+   "text": "The Republic of Cospaia's independence ended.",
+   "chunk": 0,
+   "date_text": "1826",
+   "date": "1826",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Republic of Cospaia",
+   "quote": "independent from 1440 to 1826",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Cospaia's"
+   ],
+   "cid": "/wiki/Republic_of_Cospaia#0"
+  }
+ ],
+ "dropped": []
+}

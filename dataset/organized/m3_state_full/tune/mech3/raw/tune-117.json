@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "a115537ad2aa5fb1",
+  "N2": "e5bd1fc1dcd8a391",
+  "N3": "59f49cc5bd02610d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "then moved to Philadelphia , Pennsylvania , where he joined his uncles law firm",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Scott moved to Philadelphia, Pennsylvania, where he joined his uncles law firm.",
+    "evidence": "then moved to Philadelphia , Pennsylvania , where he joined his uncles law firm",
+    "date_text": null,
+    "date": "1922",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Philadelphia",
+    "quote": "then moved to Philadelphia , Pennsylvania , where he joined his uncles law firm"
+   }
+  ]
+ }
+}

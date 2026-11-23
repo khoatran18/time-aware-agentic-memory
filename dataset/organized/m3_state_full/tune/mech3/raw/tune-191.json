@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "0997231e779e36ad",
+  "N2": "0d06558c529b312a"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Johann-Friedrich Wessels joined the crew of U-870.",
+    "evidence": "who joined the crew on 14 August 1944",
+    "date_text": "14 August 1944",
+    "date": "1944-08-14",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "U-870",
+    "quote": "who joined the crew on 14 August 1944"
+   }
+  ]
+ }
+}

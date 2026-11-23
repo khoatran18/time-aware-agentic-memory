@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Humberto de la Calle Lombana was born in Manzanares, Caldas.",
+   "chunk": 0,
+   "date_text": "14 July 1947",
+   "date": "1947-07-14",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Manzanares, Caldas",
+   "quote": "born 14 July 1947 in Manzanares , Caldas",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Humberto_De_la_Calle#0"
+  },
+  {
+   "text": "He served as Vice President of Colombia.",
+   "chunk": 0,
+   "date_text": "1994",
+   "date": "1994",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vice President of Colombia",
+   "quote": "He served as Vice President of Colombia from 1994 to 1997",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Humberto_De_la_Calle#0"
+  },
+  {
+   "text": "His service as Vice President of Colombia ended.",
+   "chunk": 0,
+   "date_text": "1997",
+   "date": "1997",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vice President of Colombia",
+   "quote": "He served as Vice President of Colombia from 1994 to 1997",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Humberto_De_la_Calle#0"
+  },
+  {
+   "text": "After 2003, De La Calle worked at his own Law firm.",
+   "chunk": 0,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "his own Law firm",
+   "quote": "After 2003 , De La Calle worked at his own Law firm",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Humberto_De_la_Calle#0"
+  },
+  {
+   "text": "He was appointed by President Juan Manuel Santos as the chief negotiator in the peace process with the FARC.",
+   "chunk": 0,
+   "date_text": "October 2012",
+   "date": "2012-10",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "chief negotiator in the peace process with the FARC",
+   "quote": "In October 2012 he was appointed by President Juan Manuel",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Humberto_De_la_Calle#0"
+  }
+ ],
+ "dropped": []
+}

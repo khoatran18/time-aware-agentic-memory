@@ -1,0 +1,88 @@
+{
+ "events": [
+  {
+   "text": "EMD built the SDP40F from 1973.",
+   "chunk": 0,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SDP40F",
+   "quote": "built by General Motors Electro-Motive Division ( EMD ) from 1973–1974",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#0"
+  },
+  {
+   "text": "EMD's building of the SDP40F ended in 1974.",
+   "chunk": 0,
+   "date_text": "1974",
+   "date": "1974",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SDP40F",
+   "quote": "built by General Motors Electro-Motive Division ( EMD ) from 1973–1974",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#0"
+  },
+  {
+   "text": "A series of derailments in the mid-1970s shattered Amtrak's confidence in the locomotive.",
+   "chunk": 1,
+   "date_text": "mid-1970s",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SDP40F",
+   "quote": "A series of derailments in the mid-1970s shattered Amtraks confidence in the locomotive",
+   "section": 0,
+   "flags": [
+    "approximate_date",
+    "name_not_in_page:Amtrak's"
+   ],
+   "cid": "/wiki/EMD_SDP40F#1"
+  },
+  {
+   "text": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH.",
+   "chunk": 1,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "EMD F40PH",
+   "quote": "In 1977 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#1"
+  },
+  {
+   "text": "Amtrak traded most of its fleet into EMD.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "EMD",
+   "quote": "Amtrak traded most of its fleet into EMD",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#1"
+  }
+ ],
+ "dropped": []
+}

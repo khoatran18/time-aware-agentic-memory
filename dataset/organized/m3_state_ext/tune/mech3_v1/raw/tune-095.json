@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "bb883061c76d524f",
+  "N2": "76fe5bbc80058373",
+  "N3": "15370a146f3fcb6e",
+  "N4": "5b3366ee9353edf4",
+  "N5": "7cce69a78512aee0"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "edit",
+    "evidence": "Levy married Loretta Lucky Bellson in January 1944",
+    "end_date": null,
+    "new_text": "Levy married Loretta Lucky Bellson.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "Levy married Loretta Lucky Bellson in January 1944"
+   }
+  ],
+  "add": []
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Higgins voted for the Patient Protection and Affordable Care Act.",
+   "chunk": 31,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Patient Protection and Affordable Care Act",
+   "quote": "Higgins voted for the Patient Protection and Affordable Care Act",
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Brian_Higgins#31"
+  },
+  {
+   "text": "In June 2012, Higgins said he believed health care providers will have to embrace Accountable Care Organizations and other changes.",
+   "chunk": 31,
+   "date_text": "June 2012",
+   "date": "2012-06",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Accountable Care Organizations",
+   "quote": "In June 2012 , Higgins said he believed that health care providers will have to embrace Accountable Care Organizations",
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Brian_Higgins#31"
+  }
+ ],
+ "dropped": []
+}

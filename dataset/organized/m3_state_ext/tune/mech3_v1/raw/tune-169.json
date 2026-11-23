@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "390bcc0a11f7691f",
+  "N2": "cd5a9e9ae1106cb5",
+  "N3": "229953e8303520d7",
+  "N4": "fd01e621e01b74e1",
+  "N5": "583509c7e6b6ecbd",
+  "N6": "5798ba4957110990",
+  "N7": "9eebe4977b817cb0",
+  "N8": "93f30a3e26b226bc"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "edit",
+    "evidence": "he previously was its ranking member from 2013",
+    "end_date": null,
+    "new_text": "Engel previously was ranking member of the House Foreign Affairs Committee.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "he previously was its ranking member from 2013"
+   },
+   {
+    "node": "N4",
+    "op": "edit",
+    "evidence": "In 2019 , following Democratic gains in the 2018 elections , he took over as Chairman",
+    "end_date": null,
+    "new_text": "Engel took over as Chairman of the House Foreign Affairs Committee.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "In 2019 , following Democratic gains in the 2018 elections , he took over as Chairman of the House Foreign Affairs Committee"
+   }
+  ],
+  "add": []
+ }
+}

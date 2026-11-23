@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Russert died of a sudden coronary thrombosis.",
+   "chunk": 18,
+   "date_text": "June 13 , 2008",
+   "date": "2008-06-13",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "On June 13 , 2008 , Russert died of a sudden coronary thrombosis",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#18"
+  },
+  {
+   "text": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert.",
+   "chunk": 18,
+   "date_text": "June 15 , 2008",
+   "date": "2008-06-15",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Meet the Press",
+   "quote": "hosted a special edition of Meet the Press dedicated to the life of Russert on June 15 , 2008",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#18"
+  }
+ ],
+ "dropped": []
+}

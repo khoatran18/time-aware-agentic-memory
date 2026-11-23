@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "Kopp and Hemrich produced Rainier beer in Washington until 1916.",
+   "chunk": 5,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rainier beer",
+   "quote": "Kopp and Hemrich produced Rainier beer in Washington until 1916",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The state of Washington enacted its own prohibition.",
+   "chunk": 5,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Washington",
+   "quote": "when the state of Washington enacted its own prohibition",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "They opened a brewery in San Francisco.",
+   "chunk": 5,
+   "date_text": "During this time",
+   "date": null,
+   "approximate": true,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "San Francisco",
+   "quote": "During this time they opened a brewery in San Francisco",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "They brewed Rainier beer in San Francisco until 1920.",
+   "chunk": 5,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rainier beer",
+   "quote": "brewed Rainier beer until 1920",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The 18th amendment was ratified.",
+   "chunk": 5,
+   "date_text": "1920",
+   "date": "1920",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "18th amendment",
+   "quote": "until 1920 when the 18th amendment was ratified",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  },
+  {
+   "text": "The company survived prohibition by producing a variety of different nonalcoholic products.",
+   "chunk": 5,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "nonalcoholic products",
+   "quote": "The company survived prohibition by producing a variety of different nonalcoholic products",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Rainier_Brewing_Company#5"
+  }
+ ],
+ "dropped": []
+}

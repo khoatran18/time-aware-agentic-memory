@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "The Master-General of the Ordnance became an appointment for a member of the Krigskollegium.",
+   "chunk": 1,
+   "date_text": "1675",
+   "date": "1675",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Krigskollegium",
+   "quote": "was an appointment for a member of the Krigskollegium ( Board of Warfare ) from 1675",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Master-General_of_the_Ordnance_(Sweden)#1"
+  },
+  {
+   "text": "The Master-General of the Ordnance became the head of the Artillery Office.",
+   "chunk": 1,
+   "date_text": "1682",
+   "date": "1682",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Artillery Office",
+   "quote": "the head of the Artillery Office ( Artillerikontoret ) from 1682",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Master-General_of_the_Ordnance_(Sweden)#1"
+  },
+  {
+   "text": "The Master-General of the Ordnance's headship of the Artillery Office ended.",
+   "chunk": 1,
+   "date_text": "1794",
+   "date": "1794",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Artillery Office",
+   "quote": "from 1682 to 1794",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Ordnance's"
+   ],
+   "cid": "/wiki/Master-General_of_the_Ordnance_(Sweden)#1"
+  },
+  {
+   "text": "The Master-General of the Ordnance again became the head of the Artillery Office.",
+   "chunk": 1,
+   "date_text": "1807",
+   "date": "1807",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Artillery Office",
+   "quote": "and from 1807 to 1897",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Master-General_of_the_Ordnance_(Sweden)#1"
+  },
+  {
+   "text": "The Master-General of the Ordnance's headship of the Artillery Office ended.",
+   "chunk": 1,
+   "date_text": "1897",
+   "date": "1897",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Artillery Office",
+   "quote": "and from 1807 to 1897",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Ordnance's"
+   ],
+   "cid": "/wiki/Master-General_of_the_Ordnance_(Sweden)#1"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Cairns was paid off in Brisbane.",
+   "chunk": 9,
+   "date_text": "17 January 1946",
+   "date": "1946-01-17",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Brisbane",
+   "quote": "Cairns was paid off in Brisbane on 17 January 1946 .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMAS_Cairns_(J183)#9"
+  },
+  {
+   "text": "She was recommissioned into the Royal Netherlands Navy and renamed HNLMS Ambon.",
+   "chunk": 9,
+   "date_text": "17 January 1946",
+   "date": "1946-01-17",
+   "approximate": false,
+   "track": "naming",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "HNLMS Ambon",
+   "quote": "She was immediately recommissioned into the Royal Netherlands Navy ( RNLN ) and renamed HNLMS Ambon .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMAS_Cairns_(J183)#9"
+  }
+ ],
+ "dropped": []
+}

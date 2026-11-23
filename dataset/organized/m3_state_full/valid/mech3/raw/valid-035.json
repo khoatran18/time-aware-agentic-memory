@@ -1,0 +1,51 @@
+{
+ "idmap": {
+  "N1": "a4eaaca640d569a6",
+  "N2": "4c011550d0dea401",
+  "N3": "72e19cb8013b0f7b",
+  "N4": "32bb5125bb5f7699",
+  "N5": "8602f25c61768795",
+  "N6": "104007e5f6bb32bf",
+  "N7": "adb3e69d22ae7424",
+  "N8": "3ed85aec050c07a3",
+  "N9": "dd9075b539ed183a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "close",
+    "evidence": "director of Gironas House of Culture from 2002 to 2004",
+    "end_date": "2004"
+   }
+  ],
+  "add": [
+   {
+    "text": "Puigdemont was director of Girona's House of Culture from 2002 to 2004.",
+    "evidence": "director of Gironas House of Culture from 2002 to 2004",
+    "date_text": "from 2002 to 2004",
+    "date": "2002",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Girona's House of Culture",
+    "quote": "director of Gironas House of Culture from 2002 to 2004"
+   },
+   {
+    "text": "Puigdemont's tenure as director of Girona's House of Culture ended in 2004.",
+    "evidence": "director of Gironas House of Culture from 2002 to 2004",
+    "date_text": "2004",
+    "date": "2004",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Girona's House of Culture",
+    "quote": "director of Gironas House of Culture from 2002 to 2004"
+   }
+  ]
+ }
+}

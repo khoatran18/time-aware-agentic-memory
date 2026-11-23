@@ -1,0 +1,60 @@
+{
+ "idmap": {
+  "N1": "24503718c27c356c",
+  "N2": "4cf340a0828734c0",
+  "N3": "49e274ad91fea4f3",
+  "N4": "ef2bbd3a81de46c0",
+  "N5": "545f4c1fa116daa7",
+  "N6": "043589a0d3089a80",
+  "N7": "eed28ecc6ff51106",
+  "N8": "6af860ea823cc384",
+  "N9": "66f0da5f06f43bfb",
+  "N10": "72be05132a2aedcf",
+  "N11": "a2b2efa1fb3dab9d",
+  "N12": "20513e2b56ed9a2c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794",
+    "end_date": null
+   },
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Master-General of the Ordnance became the head of the Artillery Office.",
+    "evidence": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794",
+    "date_text": "1682",
+    "date": "1682",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Artillery Office",
+    "quote": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794"
+   },
+   {
+    "text": "The Master-General of the Ordnance's headship of the Artillery Office ended.",
+    "evidence": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794",
+    "date_text": "1794",
+    "date": "1794",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Artillery Office",
+    "quote": "the head of the Artillery Office ( Artillerikontoret ) from 1682 to 1794"
+   }
+  ]
+ }
+}

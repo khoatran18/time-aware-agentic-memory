@@ -1,0 +1,47 @@
+{
+ "idmap": {
+  "N1": "431b99d6a93b4456",
+  "N2": "8688dff30ec3fdb4",
+  "N3": "1bd7f603adcdce4f",
+  "N4": "902c57a6f1966744",
+  "N5": "4a40af1b1c700d34",
+  "N6": "df25d95c72ac356a",
+  "N7": "f40c8178ef00f0e2",
+  "N8": "adef29eb661f12ca",
+  "N9": "c35aec42f023d737",
+  "N10": "cef9d3b285928622",
+  "N11": "fbf22aa0f2a45ec8",
+  "N12": "e7506356d2425797",
+  "N13": "0951db93e62688f8",
+  "N14": "689bb8f25f5ad776"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N7",
+    "op": "close",
+    "evidence": "remained the Liberal member for Boothby until his retirement in 1996",
+    "end_date": "1996",
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Hall remained the Liberal member for Boothby until his retirement in 1996.",
+    "evidence": "remained the Liberal member for Boothby until his retirement in 1996",
+    "date_text": "1996",
+    "date": "1996",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Boothby",
+    "quote": "remained the Liberal member for Boothby until his retirement in 1996"
+   }
+  ]
+ }
+}

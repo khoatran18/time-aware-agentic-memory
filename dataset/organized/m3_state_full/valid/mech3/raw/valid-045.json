@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "68a76505eb946b59",
+  "N2": "5c0031e89e5bfede",
+  "N3": "9dd52b7fe4b6d5c8",
+  "N4": "d8388cce59a76a89",
+  "N5": "cdeb3bb790cd4d78",
+  "N6": "255de6d56c7bcb17",
+  "N7": "1e36740a0322082a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "He was held at a POW camp in Mainz from 1940 to 1942",
+    "end_date": "1942"
+   }
+  ],
+  "add": [
+   {
+    "text": "Braudel was transferred to a POW camp near Lübeck, where he remained for the rest of the war.",
+    "evidence": "before being transferred to a POW camp near Lübeck , where he remained for the rest of the war",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "location",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "POW camp near Lübeck",
+    "quote": "before being transferred to a POW camp near Lübeck , where he remained for the rest of the war"
+   }
+  ]
+ }
+}

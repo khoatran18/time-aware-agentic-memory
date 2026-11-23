@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "4576f09e02dc3a94",
+  "N2": "d95b7229f11c7c86",
+  "N3": "7bd5e340a3f99d65",
+  "N4": "c02e73f46b343a4b",
+  "N5": "b096d9594598fd93",
+  "N6": "c65548cc6649df52",
+  "N7": "5d9de66d09bbf579"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He succeeded his father as 2nd Marquess of Cambridge on 24 October 1927 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He succeeded his father as 2nd Marquess of Cambridge.",
+    "evidence": "He succeeded his father as 2nd Marquess of Cambridge on 24 October 1927 .",
+    "date_text": "24 October 1927",
+    "date": "1927-10-24",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "2nd Marquess of Cambridge",
+    "quote": "He succeeded his father as 2nd Marquess of Cambridge on 24 October 1927 ."
+   }
+  ]
+ }
+}

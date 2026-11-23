@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "f53b8f8931f69263",
+  "N2": "31d43bd9f2bfc9ba",
+  "N3": "8dca207ec4f1ff19",
+  "N4": "4a07c318e3d49e9c",
+  "N5": "6f5fd7b63e030128",
+  "N6": "a991a16f4c16d743",
+  "N7": "c8e0d6c9ccb05591"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "1993 ; 1994 ;",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Protestants: The Birth Of a Revolution was published in 1994.",
+    "evidence": "1993 ; 1994 ;",
+    "date_text": "1994",
+    "date": "1994",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Protestants: The Birth Of a Revolution",
+    "quote": "1993 ; 1994 ;"
+   }
+  ]
+ }
+}

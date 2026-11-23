@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "c1af6dbb36701930",
+  "N2": "476e77373359638f",
+  "N3": "02c67f63dcee1259",
+  "N4": "cfa9532cb9ce283f",
+  "N5": "09681eaa9374b815"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "2002-03 and 2003-04 he won with the club also two runner-up .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He won two runner-up with the club in 2002-03.",
+    "evidence": "2002-03 and 2003-04 he won with the club also two runner-up .",
+    "date_text": "2002-03",
+    "date": "2002",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "BEC Tero Sasana",
+    "quote": "2002-03 and 2003-04 he won with the club also two runner-up ."
+   }
+  ]
+ }
+}

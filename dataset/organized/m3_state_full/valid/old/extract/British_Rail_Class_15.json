@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "D8233 was purchased for preservation.",
+   "chunk": 23,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "D8233",
+   "quote": "D8233 , was purchased for preservation in 1984",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/British_Rail_Class_15#23"
+  },
+  {
+   "text": "D8233 moved to the East Lancashire Railway.",
+   "chunk": 23,
+   "date_text": "1986",
+   "date": "1986",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "East Lancashire Railway",
+   "quote": "moving in 1986 to the East Lancashire Railway",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/British_Rail_Class_15#23"
+  },
+  {
+   "text": "D8233 moved to the Mangapps Farm Railway.",
+   "chunk": 23,
+   "date_text": "1988",
+   "date": "1988",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Mangapps Farm Railway",
+   "quote": "and in 1988 to the Mangapps Farm Railway",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/British_Rail_Class_15#23"
+  },
+  {
+   "text": "The locomotive's restoration remained dormant until the end of 2005.",
+   "chunk": 24,
+   "date_text": "the end of 2005",
+   "date": "2005",
+   "approximate": true,
+   "track": "work",
+   "phase": "end",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "restoration remained dormant until the end of 2005",
+   "section": 8,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/British_Rail_Class_15#24"
+  },
+  {
+   "text": "The locomotive returned to the East Lancashire Railway.",
+   "chunk": 24,
+   "date_text": "February 2006",
+   "date": "2006-02",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "East Lancashire Railway",
+   "quote": "returned to the East Lancashire Railway in February 2006",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/British_Rail_Class_15#24"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,43 @@
+{
+ "idmap": {
+  "N1": "67ae2be737e0dbcb",
+  "N2": "0123af77448af53d",
+  "N3": "ee6090dd56258a88",
+  "N4": "0e759f0202b434e7",
+  "N5": "f884de64c376115f",
+  "N6": "20fc67e4bc040626",
+  "N7": "841d88074a912cfa",
+  "N8": "e1454fd29dd7d2d4",
+  "N9": "199f34163727410f",
+  "N10": "6978531bd303614b",
+  "N11": "0b583c9149fb251a",
+  "N12": "1114f16b1d199a03",
+  "N13": "d29e9112392ba3ac",
+  "N14": "507d5870c745c529"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "It all changed in 2007 , when Joan Plaza was promoted to the clubs head coach position",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Joan Plaza was promoted to the club's head coach position in 2007.",
+    "evidence": "It all changed in 2007 , when Joan Plaza was promoted to the clubs head coach position",
+    "date_text": "2007",
+    "date": "2007",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Joan Plaza",
+    "quote": "It all changed in 2007 , when Joan Plaza was promoted to the clubs head coach position"
+   }
+  ]
+ }
+}

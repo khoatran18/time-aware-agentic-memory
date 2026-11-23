@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "1d5fdb75585bff6e",
+  "N2": "698374dc9069d8cc",
+  "N3": "9262836d7f832846",
+  "N4": "77b5198bff1f7987",
+  "N5": "cbd0b26a22bb50ee",
+  "N6": "9d0ca1a9f516e847",
+  "N7": "26323d5118ae1820"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "18 February 1875 – 10 April 1948",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Wilhelm Külz died on 10 April 1948.",
+    "evidence": "18 February 1875 – 10 April 1948",
+    "date_text": "10 April 1948",
+    "date": "1948-04-10",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "18 February 1875 – 10 April 1948"
+   }
+  ]
+ }
+}

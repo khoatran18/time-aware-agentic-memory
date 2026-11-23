@@ -1,0 +1,42 @@
+{
+ "idmap": {
+  "N1": "e6a653c62b7aed00",
+  "N2": "992735294b8be53a",
+  "N3": "c636a2c34a43c485",
+  "N4": "a82ecbe939bd6ab1",
+  "N5": "5ccae55564d29d51",
+  "N6": "9fd4ca26679a6291",
+  "N7": "1e02f98d0db9a2fb",
+  "N8": "a23338d65de801eb",
+  "N9": "67e02a5b8b708598"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "close",
+    "evidence": "where he stayed until 1958",
+    "end_date": "1958",
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Bohan stayed at Jean Patou until 1958.",
+    "evidence": "where he stayed until 1958",
+    "date_text": "1958",
+    "date": "1958",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Jean Patou",
+    "quote": "where he stayed until 1958"
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "idmap": {
+  "N1": "d7b8e0636414e207",
+  "N2": "20e49d47c3e66b19",
+  "N3": "ff19011e386ae2cd",
+  "N4": "1261daa408d5a921",
+  "N5": "5d48efc87f4114f3",
+  "N6": "fbb4cf122d4bb955",
+  "N7": "bb126ecc2548fa9e",
+  "N8": "1dd7dedf1308c591",
+  "N9": "47efece632281047",
+  "N10": "6fd711712c131431",
+  "N11": "2941057bf3567e00",
+  "N12": "d5b7cc0d3bea946a",
+  "N13": "03683c7d7a0e4a87"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "served as the 23rd Governor of Mississippi , from 1859 to 1863",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Pettus served as the 23rd Governor of Mississippi from 1859 to 1863.",
+    "evidence": "served as the 23rd Governor of Mississippi , from 1859 to 1863",
+    "date_text": "1859",
+    "date": "1859",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Governor of Mississippi",
+    "quote": "served as the 23rd Governor of Mississippi , from 1859 to 1863"
+   }
+  ]
+ }
+}

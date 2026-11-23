@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Sturrock was appointed manager at Dundee United.",
+   "chunk": 18,
+   "date_text": "In September 1998",
+   "date": "1998-09",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Dundee United",
+   "quote": "In September 1998 Sturrock was appointed manager at Dundee United",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Paul_Sturrock#18"
+  },
+  {
+   "text": "Top scorer Billy Dodds was sold in December 1999.",
+   "chunk": 18,
+   "date_text": "December 1999",
+   "date": "1999-12",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "Billy Dodds",
+   "quote": "the sale of top scorer Billy Dodds in December 1999",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Paul_Sturrock#18"
+  },
+  {
+   "text": "Sturrock resigned after two games of the 2000–01 season.",
+   "chunk": 18,
+   "date_text": "2000–01",
+   "date": "2000",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "Sturrock resigned after two games of the 2000–01 season",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Paul_Sturrock#18"
+  }
+ ],
+ "dropped": []
+}

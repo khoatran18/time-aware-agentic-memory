@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "38936af0e8580570",
+  "N2": "364bb716072e3db5",
+  "N3": "36e939d4d92aeff6",
+  "N4": "ba5e3903851a1671",
+  "N5": "24a116cdc1ad8e70"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "After being re-elected to the Reichstag in 1874",
+    "end_date": null,
+    "new_text": "Liebknecht was re-elected to the Reichstag.",
+    "new_date": "1874",
+    "new_date_text": "1874",
+    "new_quote": "After being re-elected to the Reichstag in 1874"
+   }
+  ],
+  "add": [
+   {
+    "text": "Liebknecht was re-elected to the Reichstag.",
+    "evidence": "After being re-elected to the Reichstag in 1874",
+    "date_text": "1874",
+    "date": "1874",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Reichstag",
+    "quote": "After being re-elected to the Reichstag in 1874"
+   }
+  ]
+ }
+}

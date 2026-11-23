@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Dukes returned in 1942 with the Class D West Texas–New Mexico League.",
+   "chunk": 2,
+   "date_text": "1942",
+   "date": "1942",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "West Texas–New Mexico League",
+   "quote": "before the Dukes returned in 1942 , this time with the Class D West Texas–New Mexico League",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#2"
+  },
+  {
+   "text": "The Dukes withdrew from competition in June of that year.",
+   "chunk": 2,
+   "date_text": "June of that year",
+   "date": "1942-06",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "but withdrew from competition in June of that year",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#2"
+  },
+  {
+   "text": "Play resumed in 1946 with the Dukes returning to the league.",
+   "chunk": 2,
+   "date_text": "1946",
+   "date": "1946",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "the league",
+   "quote": "but play resumed in 1946 with the Dukes returning to the league",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#2"
+  }
+ ],
+ "dropped": []
+}

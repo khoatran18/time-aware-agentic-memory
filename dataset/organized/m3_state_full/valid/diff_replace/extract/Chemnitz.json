@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "The city was named Karl-Marx-Stadt.",
+   "chunk": 0,
+   "date_text": "1953",
+   "date": "1953",
+   "approximate": false,
+   "track": "naming",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Karl-Marx-Stadt",
+   "quote": "from 1953 to 1990 : Karl-Marx-Stadt",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Chemnitz#0"
+  },
+  {
+   "text": "The name Karl-Marx-Stadt ended.",
+   "chunk": 0,
+   "date_text": "1990",
+   "date": "1990",
+   "approximate": false,
+   "track": "naming",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Karl-Marx-Stadt",
+   "quote": "from 1953 to 1990 : Karl-Marx-Stadt",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Chemnitz#0"
+  }
+ ],
+ "dropped": []
+}

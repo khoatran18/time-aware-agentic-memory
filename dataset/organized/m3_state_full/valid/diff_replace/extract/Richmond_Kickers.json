@@ -1,0 +1,121 @@
+{
+ "events": [
+  {
+   "text": "Richmond Kickers Future played in the mens USL Premier Development League starting in 2002.",
+   "chunk": 9,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Richmond Kickers Future",
+   "quote": "Future played in the mens USL Premier Development League from 2002 to 2008",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "Richmond Kickers Future's play in the USL Premier Development League ended in 2008.",
+   "chunk": 9,
+   "date_text": "2008",
+   "date": "2008",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Richmond Kickers Future",
+   "quote": "Future played in the mens USL Premier Development League from 2002 to 2008",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Future's"
+   ],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "Richmond Kickers Destiny played in the womens USL W-League starting in 2004.",
+   "chunk": 9,
+   "date_text": "2004",
+   "date": "2004",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Richmond Kickers Destiny",
+   "quote": "the Destiny played in the womens USL W-League from 2004 to 2009",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "Richmond Kickers Destiny's play in the womens USL W-League ended in 2009.",
+   "chunk": 9,
+   "date_text": "2009",
+   "date": "2009",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Richmond Kickers Destiny",
+   "quote": "the Destiny played in the womens USL W-League from 2004 to 2009",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Destiny's"
+   ],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "The Kickers entered a multi-year deal to become the USL Pro affiliate of D.C. United in 2013.",
+   "chunk": 9,
+   "date_text": "2013",
+   "date": "2013",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "D.C. United",
+   "quote": "The Kickers entered a multi-year deal to become the USL Pro affiliate of D.C . United in 2013",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "The Kickers continued their D.C. United affiliation through 2018.",
+   "chunk": 9,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "D.C. United",
+   "quote": "continued that affiliation through 2018",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Richmond_Kickers#9"
+  },
+  {
+   "text": "Loudoun United FC was launched as a fully owned-and-operated affiliate of D.C. United for the 2019 USL Championship season.",
+   "chunk": 9,
+   "date_text": "2019",
+   "date": "2019",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Loudoun United FC",
+   "quote": "Loudoun United FC was launched as a fully owned-and-operated affiliate of D.C . United for the 2019 USL Championship season",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Richmond_Kickers#9"
+  }
+ ],
+ "dropped": []
+}

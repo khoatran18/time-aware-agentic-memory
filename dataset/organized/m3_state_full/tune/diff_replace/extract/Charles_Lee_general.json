@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "Forces under Lee's command repulsed a British attempt to capture Charleston.",
+   "chunk": 2,
+   "date_text": "In 1776",
+   "date": "1776",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Charleston",
+   "quote": "In 1776 , forces under his command repulsed a British attempt to capture Charleston",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Lee's"
+   ],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  },
+  {
+   "text": "Lee was captured by British cavalry under Banastre Tarleton.",
+   "chunk": 2,
+   "date_text": "Later that year",
+   "date": "1776",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Banastre Tarleton",
+   "quote": "Later that year , he was captured by British cavalry under Banastre Tarleton",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  },
+  {
+   "text": "Lee was held by the British as a prisoner until exchanged in 1778.",
+   "chunk": 2,
+   "date_text": "1778",
+   "date": "1778",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "he was held by the British as a prisoner until exchanged in 1778",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  },
+  {
+   "text": "During the Battle of Monmouth, Lee led an assault on the British that miscarried.",
+   "chunk": 2,
+   "date_text": "later that year",
+   "date": "1778",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Battle of Monmouth",
+   "quote": "During the Battle of Monmouth later that year , Lee led an assault on the British that miscarried",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  },
+  {
+   "text": "Lee was subsequently court-martialed and his military service brought to an end.",
+   "chunk": 2,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "He was subsequently court-martialed and his military service brought to an end",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  },
+  {
+   "text": "Lee died in Philadelphia in 1782.",
+   "chunk": 2,
+   "date_text": "1782",
+   "date": "1782",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Philadelphia",
+   "quote": "He died in Philadelphia in 1782",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Lee_(general)#2"
+  }
+ ],
+ "dropped": []
+}

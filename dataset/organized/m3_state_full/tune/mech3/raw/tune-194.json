@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "ee2c27c66ea8a3e3",
+  "N2": "de7f4d1fadfa8a37",
+  "N3": "cd1a22249ce65330",
+  "N4": "fed3a2ee97ed60e1",
+  "N5": "3f7d4cdab5a71b76"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "fell ill in 1810",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Roger Barry fell ill in 1810.",
+    "evidence": "fell ill in 1810",
+    "date_text": "1810",
+    "date": "1810",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Roger Barry",
+    "quote": "fell ill in 1810"
+   }
+  ]
+ }
+}

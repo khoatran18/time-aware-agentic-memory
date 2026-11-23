@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "8d02df27ef4e1153",
+  "N2": "5d2f40bcb3fe533c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Ruysch studied with van Aelst until his death in 1683",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Ruysch studied with van Aelst until his death.",
+    "evidence": "Ruysch studied with van Aelst until his death in 1683",
+    "date_text": "1683",
+    "date": "1683",
+    "approximate": false,
+    "track": "education",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Willem van Aelst",
+    "quote": "Ruysch studied with van Aelst until his death in 1683"
+   }
+  ]
+ }
+}

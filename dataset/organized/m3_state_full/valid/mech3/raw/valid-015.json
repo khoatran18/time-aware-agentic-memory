@@ -1,0 +1,47 @@
+{
+ "idmap": {
+  "N1": "a827641203dc1dd7",
+  "N2": "3f4fde75fa5dbf95",
+  "N3": "37feb332c70341b5",
+  "N4": "51a84dc8f531aafd",
+  "N5": "a0baad200d20807a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre in Pärnu",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "She was engaged as an actress at the Endla Theatre in Pärnu from 1998 until 1993.",
+    "evidence": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre in Pärnu",
+    "date_text": "From 1998 until 1993",
+    "date": "1998",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Endla Theatre",
+    "quote": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre in Pärnu"
+   },
+   {
+    "text": "Her engagement as an actress at the Endla Theatre in Pärnu ended in 1993.",
+    "evidence": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre in Pärnu",
+    "date_text": "until 1993",
+    "date": "1993",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Endla Theatre",
+    "quote": "From 1998 until 1993 , she was engaged as an actress at the Endla Theatre in Pärnu"
+   }
+  ]
+ }
+}

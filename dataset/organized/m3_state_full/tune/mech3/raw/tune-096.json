@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "db965600c0f2016d",
+  "N2": "5066cc2db897697e",
+  "N3": "470c274f232bf843",
+  "N4": "3b8b360c4756978d",
+  "N5": "966da262506039f9",
+  "N6": "edeb27bfab190962"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In November 2012 , the Red Stars co-founded and was one of the original eight teams",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Red Stars co-founded and was one of the original eight teams in a yet-to-be-named womens professional soccer league.",
+    "evidence": "In November 2012 , the Red Stars co-founded and was one of the original eight teams in a yet-to-be-named womens professional soccer league",
+    "date_text": "November 2012",
+    "date": "2012-11",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "womens professional soccer league",
+    "quote": "In November 2012 , the Red Stars co-founded and was one of the original eight teams in a yet-to-be-named womens professional soccer league"
+   }
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "events": [
+  {
+   "text": "Bengt Burg began hosting the show.",
+   "chunk": 1,
+   "date_text": "1989",
+   "date": "1989",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bengt Burg",
+   "quote": "the show was hosted by Bengt Burg from 1989 to 2000",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#1"
+  },
+  {
+   "text": "Bengt Burg's hosting ended.",
+   "chunk": 1,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bengt Burg",
+   "quote": "the show was hosted by Bengt Burg from 1989 to 2000",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Burg's"
+   ],
+   "cid": "/wiki/Lykkehjulet#1"
+  },
+  {
+   "text": "Keld Heick had a short stint as host during the 1996-1997 season.",
+   "chunk": 1,
+   "date_text": "1996-1997",
+   "date": "1996",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Keld Heick",
+   "quote": "with a short stint by Keld Heick during the 1996-1997 season",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#1"
+  },
+  {
+   "text": "Keld Heick's short stint as host ended with the 1996-1997 season.",
+   "chunk": 1,
+   "date_text": "1996-1997",
+   "date": "1997",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Keld Heick",
+   "quote": "with a short stint by Keld Heick during the 1996-1997 season",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Heick's"
+   ],
+   "cid": "/wiki/Lykkehjulet#1"
+  },
+  {
+   "text": "Lars Herlow hosted the final season in 2001.",
+   "chunk": 1,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Lars Herlow",
+   "quote": "The final season in 2001 season was hosted by Lars Herlow",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#1"
+  },
+  {
+   "text": "Carina Jensen began as letter-turning co-host.",
+   "chunk": 2,
+   "date_text": "1989",
+   "date": "1989",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Carina Jensen",
+   "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#2"
+  },
+  {
+   "text": "Carina Jensen's stint as letter-turning co-host ended.",
+   "chunk": 2,
+   "date_text": "1994",
+   "date": "1994",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Carina Jensen",
+   "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Jensen's"
+   ],
+   "cid": "/wiki/Lykkehjulet#2"
+  },
+  {
+   "text": "Maria Hirse began as letter-turning co-host.",
+   "chunk": 2,
+   "date_text": "1995",
+   "date": "1995",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Maria Hirse",
+   "quote": "Maria Hirse ( 1995–2001 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#2"
+  },
+  {
+   "text": "Maria Hirse's stint as letter-turning co-host ended.",
+   "chunk": 2,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Maria Hirse",
+   "quote": "Maria Hirse ( 1995–2001 )",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Hirse's"
+   ],
+   "cid": "/wiki/Lykkehjulet#2"
+  },
+  {
+   "text": "The show was cancelled in 2001.",
+   "chunk": 2,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "until it was cancelled in 2001 due to declining viewership",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Lykkehjulet#2"
+  }
+ ],
+ "dropped": []
+}

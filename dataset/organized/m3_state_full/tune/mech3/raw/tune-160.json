@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "c9434d67e963a8bd",
+  "N2": "5da0c5080255ebe7"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "so in March 1800 , Franklins father secured him a Royal Navy appointment on",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Franklin's father secured him a Royal Navy appointment.",
+    "evidence": "so in March 1800 , Franklins father secured him a Royal Navy appointment on",
+    "date_text": "March 1800",
+    "date": "1800-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Royal Navy",
+    "quote": "so in March 1800 , Franklins father secured him a Royal Navy appointment on"
+   }
+  ]
+ }
+}

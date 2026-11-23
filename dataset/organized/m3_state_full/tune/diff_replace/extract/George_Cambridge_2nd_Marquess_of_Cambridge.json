@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Prince George became George Cambridge and was styled Earl of Eltham as a courtesy title.",
+   "chunk": 3,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Earl of Eltham",
+   "quote": "Prince George became George Cambridge and was styled Earl of Eltham as a courtesy title",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3"
+  },
+  {
+   "text": "He succeeded his father as 2nd Marquess of Cambridge.",
+   "chunk": 3,
+   "date_text": "24 October 1927",
+   "date": "1927-10-24",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "2nd Marquess of Cambridge",
+   "quote": "He succeeded his father as 2nd Marquess of Cambridge on 24 October 1927",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3"
+  },
+  {
+   "text": "He was appointed a Knight Commander of the Royal Victorian Order.",
+   "chunk": 3,
+   "date_text": "June 1927",
+   "date": "1927-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Knight Commander of the Royal Victorian Order",
+   "quote": "He was appointed a Knight Commander of the Royal Victorian Order in June 1927",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3"
+  },
+  {
+   "text": "He was promoted to Knight Grand Cross.",
+   "chunk": 3,
+   "date_text": "June 1935",
+   "date": "1935-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Knight Grand Cross",
+   "quote": "was promoted to Knight Grand Cross in June 1935",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/George_Cambridge,_2nd_Marquess_of_Cambridge#3"
+  }
+ ],
+ "dropped": []
+}

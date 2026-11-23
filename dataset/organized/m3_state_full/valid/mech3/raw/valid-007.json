@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "d1e1c464e41b083f",
+  "N2": "c4d4ce19cce40034",
+  "N3": "1861c670cee63aad",
+  "N4": "8f8410142fcbbfc4",
+  "N5": "6e24547f379f918a",
+  "N6": "ffa94bdfe3dc60cb"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The public urban bus system was managed by private tenders until 1982.",
+    "evidence": "managed by different private tenders until 1982",
+    "date_text": "until 1982",
+    "date": "1982",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "private tenders",
+    "quote": "managed by different private tenders until 1982"
+   },
+   {
+    "text": "The municipality took over the bus service in 1982.",
+    "evidence": "until 1982 , when the service was taken over by the municipality",
+    "date_text": "1982",
+    "date": "1982",
+    "approximate": false,
+    "track": "work",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "municipality",
+    "quote": "until 1982 , when the service was taken over by the municipality"
+   }
+  ]
+ }
+}

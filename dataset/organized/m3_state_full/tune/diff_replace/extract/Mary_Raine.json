@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Mary Thomas took up work as a barmaid again after returning to Perth.",
+   "chunk": 13,
+   "date_text": "1911",
+   "date": "1911",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "barmaid",
+   "quote": "After returning to Perth in 1911 Mary Thomas took up work as a barmaid again",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#13"
+  },
+  {
+   "text": "She bought her first business, the Bon Ton Cafe on William Street.",
+   "chunk": 13,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bon Ton Cafe",
+   "quote": "In 1915 she bought her first business , the Bon Ton Cafe on William Street",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#13"
+  },
+  {
+   "text": "She ran the Bon Ton Cafe for eight years.",
+   "chunk": 13,
+   "date_text": "eight years",
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Bon Ton Cafe",
+   "quote": "She ran the Bon Ton Cafe for eight years",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#13"
+  }
+ ],
+ "dropped": []
+}

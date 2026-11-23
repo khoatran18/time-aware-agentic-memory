@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "Talk im Turm began its run.",
+   "chunk": 0,
+   "date_text": "1990",
+   "date": "1990",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Talk im Turm",
+   "quote": "ran for almost a decade from 1990 to 1999",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Talk_im_Turm#0"
+  },
+  {
+   "text": "Talk im Turm's run ended.",
+   "chunk": 0,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Talk im Turm",
+   "quote": "ran for almost a decade from 1990 to 1999",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Turm's"
+   ],
+   "cid": "/wiki/Talk_im_Turm#0"
+  }
+ ],
+ "dropped": []
+}

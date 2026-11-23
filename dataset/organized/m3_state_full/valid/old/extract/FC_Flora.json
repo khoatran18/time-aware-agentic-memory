@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "A. Le Coq Arena opened.",
+   "chunk": 16,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "A. Le Coq Arena",
+   "quote": "Opened in 2001 and has been expanded since 2016",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/FC_Flora#16"
+  },
+  {
+   "text": "A. Le Coq Arena has been expanded since 2016.",
+   "chunk": 16,
+   "date_text": "2016",
+   "date": "2016",
+   "approximate": true,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "A. Le Coq Arena",
+   "quote": "Opened in 2001 and has been expanded since 2016",
+   "section": 3,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/FC_Flora#16"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Nonprofit research lab YC Research was announced.",
+   "chunk": 15,
+   "date_text": "October 2015",
+   "date": "2015-10",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "YC Research",
+   "quote": "Nonprofit research lab YC Research was announced in October 2015 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Y_Combinator#15"
+  },
+  {
+   "text": "A second study on basic income was announced.",
+   "chunk": 15,
+   "date_text": "January 2016",
+   "date": "2016-01",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "basic income",
+   "quote": "in January 2016 a second study on basic income was also announced .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Y_Combinator#15"
+  },
+  {
+   "text": "Michael Nielsen is a research fellow at YC Research.",
+   "chunk": 15,
+   "date_text": "since 2017",
+   "date": "2017",
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "YC Research",
+   "quote": "Michael Nielsen is a research fellow at YC Research since 2017 .",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Y_Combinator#15"
+  }
+ ],
+ "dropped": []
+}

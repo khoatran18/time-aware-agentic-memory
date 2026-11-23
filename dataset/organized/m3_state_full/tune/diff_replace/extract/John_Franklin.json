@@ -1,0 +1,21 @@
+{
+ "events": [
+  {
+   "text": "Franklin's father secured him a Royal Navy appointment.",
+   "chunk": 4,
+   "date_text": "in March 1800",
+   "date": "1800-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Navy",
+   "quote": "so in March 1800 , Franklins father secured him a Royal Navy appointment",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/John_Franklin#4"
+  }
+ ],
+ "dropped": []
+}

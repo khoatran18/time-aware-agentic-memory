@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "df82cd19d33563c8",
+  "N2": "5509581227cc2a0d",
+  "N3": "9ab9bb2ed2d85871",
+  "N4": "c51de1064281fb28",
+  "N5": "d28d5daca08d6d33",
+  "N6": "3cd950780184aef1",
+  "N7": "014d4a40dbb45abe",
+  "N8": "a7a6e28e706c5907"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "he resigned as member of the Parliament of Catalonia on 18 May 2019",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He resigned as member of the Parliament of Catalonia.",
+    "evidence": "he resigned as member of the Parliament of Catalonia on 18 May 2019",
+    "date_text": "18 May 2019",
+    "date": "2019-05-18",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Parliament of Catalonia",
+    "quote": "he resigned as member of the Parliament of Catalonia on 18 May 2019"
+   }
+  ]
+ }
+}

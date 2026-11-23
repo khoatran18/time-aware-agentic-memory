@@ -1,0 +1,27 @@
+{
+ "idmap": {
+  "N1": "9f0dfcb40f8c0835",
+  "N2": "f9326174a9cc05c7",
+  "N3": "80fd8af7fb1a7730",
+  "N4": "ce7eaa2dcf560ea4",
+  "N5": "7efaaf137e0c6f92"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Whittingham left AFC Newbury in June 2006 when the club suffered financial difficulties and the loss of their ground.",
+    "evidence": "when that club suffered financial difficulties and the loss of their ground , Whittingham left in June 2006",
+    "date_text": "June 2006",
+    "date": "2006-06",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "AFC Newbury",
+    "quote": "Whittingham left in June 2006"
+   }
+  ]
+ }
+}

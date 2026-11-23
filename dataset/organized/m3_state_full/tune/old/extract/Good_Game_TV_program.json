@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "The Good Game Game prototype was to be officially released on 17 November 2008.",
+   "chunk": 79,
+   "date_text": "17 November 2008",
+   "date": "2008-11-17",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Good Game Game",
+   "quote": "to be officially released on 17 November 2008",
+   "section": 19,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#79"
+  },
+  {
+   "text": "The initiative was announced on 21 December 2007.",
+   "chunk": 79,
+   "date_text": "21 December 2007",
+   "date": "2007-12-21",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Good Game Game",
+   "quote": "The initiative was announced on 21 December 2007",
+   "section": 19,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#79"
+  },
+  {
+   "text": "The Australian Film Commission and ABC TV announced the initiative on 21 December 2007.",
+   "chunk": 80,
+   "date_text": "21 December 2007",
+   "date": "2007-12-21",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Good Game Game",
+   "quote": "announced the initiative on 21 December 2007",
+   "section": 19,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#80"
+  },
+  {
+   "text": "Applications closed on 15 February 2008.",
+   "chunk": 80,
+   "date_text": "15 February 2008",
+   "date": "2008-02-15",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Good Game Game",
+   "quote": "applications closed on 15 February 2008",
+   "section": 19,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#80"
+  },
+  {
+   "text": "He was announced as the winner of Good Games game design competition on the 21 April 2008 episode.",
+   "chunk": 84,
+   "date_text": "21 April 2008",
+   "date": "2008-04-21",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Good Games game design competition",
+   "quote": "announced as the winner of Good Games game design competition on the 21 April 2008 episode",
+   "section": 19,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#84"
+  },
+  {
+   "text": "Zac Duff started at the company in August that year.",
+   "chunk": 85,
+   "date_text": "August that year",
+   "date": "2008-08",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Infinite Interactive",
+   "quote": "He started at the company in August that year",
+   "section": 19,
+   "flags": [
+    "derived_date"
+   ],
+   "cid": "/wiki/Good_Game_(TV_program)#85"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Morgan received the Annual Book Award from the Association of American Publishers in Professional and Scholarly Publishing for 1999.",
+   "chunk": 3,
+   "date_text": "1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Annual Book Award",
+   "quote": "recipient of the Annual Book Award from the Association of American Publishers in Professional and Scholarly Publishing for 1999",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/David_Morgan_(art_historian)#3"
+  },
+  {
+   "text": "His edited volume Icons of American Protestantism received the CHOICE Outstanding Academic Book for 1996 from the American Library Association.",
+   "chunk": 3,
+   "date_text": "1996",
+   "date": "1996",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "CHOICE Outstanding Academic Book",
+   "quote": "Icons of American Protestantism : The Art of Warner Sallman received the CHOICE Outstanding Academic Book for 1996",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/David_Morgan_(art_historian)#3"
+  }
+ ],
+ "dropped": []
+}

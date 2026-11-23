@@ -1,0 +1,95 @@
+{
+ "events": [
+  {
+   "text": "She began sailing as MS Peter Tessel for Larvik Line.",
+   "chunk": 0,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "MS Peter Tessel",
+   "quote": "Between 1984 and 2008 she sailed as MS Peter Tessel for Larvik Line",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Tessel",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  },
+  {
+   "text": "She sailed as MS Peter Tessel for Larvik Line until 1996.",
+   "chunk": 0,
+   "date_text": "1996",
+   "date": "1996",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Larvik Line",
+   "quote": "for Larvik Line ( until 1996 )",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Tessel"
+   ],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  },
+  {
+   "text": "She sailed as MS Peter Tessel for Color Line.",
+   "chunk": 0,
+   "date_text": "1996",
+   "date": "1996",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Color Line",
+   "quote": "for Larvik Line ( until 1996 ) and Color Line",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Tessel"
+   ],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  },
+  {
+   "text": "She ended sailing as MS Peter Tessel.",
+   "chunk": 0,
+   "date_text": "2008",
+   "date": "2008",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "MS Peter Tessel",
+   "quote": "Between 1984 and 2008 she sailed as MS Peter Tessel",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Tessel",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  },
+  {
+   "text": "She was sold to her current owners.",
+   "chunk": 0,
+   "date_text": "2008",
+   "date": "2008",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "before sold to her current owners",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  }
+ ],
+ "dropped": []
+}

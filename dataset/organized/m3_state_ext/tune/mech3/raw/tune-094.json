@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "6a34ed9efb4c1f1f",
+  "N2": "43f5d433312dcafb",
+  "N3": "4874640d386ae097",
+  "N4": "891d499f2c0612b0",
+  "N5": "07dc228d56ce862f",
+  "N6": "233f75734510dd08",
+  "N7": "3329cfb822a66dab",
+  "N8": "5ae0c88b09710a3d",
+  "N9": "7a4b5c3bc4fb4d5c",
+  "N10": "abd6d20428107699",
+  "N11": "6960e03b3f9167f6",
+  "N12": "7497bf810164b78b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "born 14 July 1946 in Manzanares , Caldas",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Humberto de la Calle Lombana was born in Manzanares, Caldas.",
+    "evidence": "born 14 July 1946 in Manzanares , Caldas",
+    "date_text": "14 July 1946",
+    "date": "1946-07-14",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Manzanares, Caldas",
+    "quote": "born 14 July 1946 in Manzanares , Caldas"
+   }
+  ]
+ }
+}

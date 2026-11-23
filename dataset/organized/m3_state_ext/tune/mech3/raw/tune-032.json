@@ -1,0 +1,26 @@
+{
+ "idmap": {
+  "N1": "69100094fc5b2df0",
+  "N2": "d9aac123b2c38786",
+  "N3": "e1b42c23bf5880fd",
+  "N4": "1c4156ff10ea7868"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "All other stock is due to be retired by 2020.",
+    "evidence": "with the two newer series jointly replacing all the other stock , which is due to be retired by 2020",
+    "date_text": "2020",
+    "date": "2020",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "statement",
+    "subject": "part_of_self",
+    "object": "ET245",
+    "quote": "which is due to be retired by 2020"
+   }
+  ]
+ }
+}

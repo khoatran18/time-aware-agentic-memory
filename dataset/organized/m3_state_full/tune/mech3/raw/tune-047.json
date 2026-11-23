@@ -1,0 +1,27 @@
+{
+ "idmap": {
+  "N1": "c7817123a3614924",
+  "N2": "513ed5929becae6f",
+  "N3": "53070d57038870bb",
+  "N4": "09687e50c5832d91",
+  "N5": "d0d13161da2cc2d5"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "He served at the Bureau of Navigation as a detail officer until 1915.",
+    "evidence": "he was assigned to the Bureau of Navigation as a detail officer , where he served until 1915",
+    "date_text": "1915",
+    "date": "1915",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "state",
+    "subject": "self",
+    "object": "Bureau of Navigation",
+    "quote": "where he served until 1915"
+   }
+  ]
+ }
+}

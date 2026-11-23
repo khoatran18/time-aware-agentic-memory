@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "The club was relegated to the Divizia B.",
+   "chunk": 20,
+   "date_text": "1994",
+   "date": "1994",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Divizia B",
+   "quote": "the club was relegated to the Divizia B in 1994",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/ACS_Poli_Timișoara#20"
+  },
+  {
+   "text": "The club returned to the first league.",
+   "chunk": 20,
+   "date_text": "1995",
+   "date": "1995",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "first league",
+   "quote": "a fast return to the first league in 1995",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/ACS_Poli_Timișoara#20"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Poli were relegated once more after the 1996–97 season.",
+   "chunk": 20,
+   "date_text": "1996–97 season",
+   "date": "1997",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "relegated once more after the 1996–97 season",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/ACS_Poli_Timișoara#20",
+   "reason": "date_text_year_mismatch"
+  }
+ ]
+}

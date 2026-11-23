@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The One Show was broadcast on weeknights at 6:55 pm, beginning 14 August 2006.",
+   "chunk": 8,
+   "date_text": "14 August",
+   "date": "2006-08-14",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "The One Show",
+   "quote": "It was broadcast on weeknights at 6:55 pm between 14 August and 8 September 2006",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/The_One_Show#8"
+  },
+  {
+   "text": "The One Show's broadcast run ended on 8 September 2006.",
+   "chunk": 8,
+   "date_text": "8 September 2006",
+   "date": "2006-09-08",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "The One Show",
+   "quote": "between 14 August and 8 September 2006",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Show's"
+   ],
+   "cid": "/wiki/The_One_Show#8"
+  }
+ ],
+ "dropped": []
+}

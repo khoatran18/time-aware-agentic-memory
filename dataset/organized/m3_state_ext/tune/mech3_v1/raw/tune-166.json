@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "c7f254d35ca97c06",
+  "N2": "08f7333705532846",
+  "N3": "6272fe0fb23227f1",
+  "N4": "71c52f06901ab81c",
+  "N5": "074880f36138e124"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "until January 29 , 2011",
+    "end_date": null,
+    "new_text": "The display of the section of the Berlin wall inside the main entrance ended.",
+    "new_date": "2011-01-29",
+    "new_date_text": "January 29 , 2011",
+    "new_quote": "until January 29 , 2011"
+   }
+  ],
+  "add": [
+   {
+    "text": "The display of the section of the Berlin wall inside the main entrance ended.",
+    "evidence": "until January 29 , 2011",
+    "date_text": "January 29 , 2011",
+    "date": "2011-01-29",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Berlin wall",
+    "quote": "until January 29 , 2011"
+   }
+  ]
+ }
+}

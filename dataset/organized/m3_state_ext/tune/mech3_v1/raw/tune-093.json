@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "32c247ee57b2e8cd",
+  "N2": "b576f27f81e722cd",
+  "N3": "b302794af94e41fb",
+  "N4": "c4fa4b7f2fd807ac",
+  "N5": "23aab90bfc2f3ee3",
+  "N6": "ed74dd08185af889"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "edit",
+    "evidence": "From 1928 until 1931 , on more scholarships , he attended the Auckland University College",
+    "end_date": null,
+    "new_text": "From 1928 until 1931 he attended the Auckland University College of the University of New Zealand.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "From 1928 until 1931 , on more scholarships , he attended the Auckland University College"
+   },
+   {
+    "node": "N2",
+    "op": "edit",
+    "evidence": "completing his BA in 1930",
+    "end_date": null,
+    "new_text": "He completed his BA in 1930.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "completing his BA in 1930"
+   },
+   {
+    "node": "N3",
+    "op": "edit",
+    "evidence": "From 1928 until 1931 , on more scholarships , he attended the Auckland University College",
+    "end_date": null,
+    "new_text": "His studies at the Auckland University College ended in 1931.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "From 1928 until 1931 , on more scholarships , he attended the Auckland University College"
+   }
+  ],
+  "add": []
+ }
+}

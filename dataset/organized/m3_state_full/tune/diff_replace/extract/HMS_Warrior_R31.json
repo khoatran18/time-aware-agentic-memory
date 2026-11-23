@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The trials began in November 1948.",
+   "chunk": 23,
+   "date_text": "November 1948",
+   "date": "1948-11",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "trials",
+   "quote": "The trials lasted from November 1948 to March 1949",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMS_Warrior_(R31)#23"
+  },
+  {
+   "text": "The trials ended in March 1949.",
+   "chunk": 23,
+   "date_text": "March 1949",
+   "date": "1949-03",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "trials",
+   "quote": "The trials lasted from November 1948 to March 1949",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMS_Warrior_(R31)#23"
+  },
+  {
+   "text": "Upon completion, Warrior was paid off into the reserve at Portsmouth.",
+   "chunk": 23,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "reserve at Portsmouth",
+   "quote": "upon completion , Warrior was paid off into the reserve at Portsmouth",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMS_Warrior_(R31)#23"
+  }
+ ],
+ "dropped": []
+}

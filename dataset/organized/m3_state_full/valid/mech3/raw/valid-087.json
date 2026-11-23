@@ -1,0 +1,29 @@
+{
+ "idmap": {
+  "N1": "3823d4d08f517ac0",
+  "N2": "6fe781affd558964",
+  "N3": "0d09fd12c97e97e5",
+  "N4": "23ae60eb32ddd9dc",
+  "N5": "20051b43a07c4e78",
+  "N6": "a2f0ac5bf4c668ab",
+  "N7": "97ed8eafe1669deb"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Audel played for the reserves of Auxerre before moving to Triestina.",
+    "evidence": "Audel played for the reserves of Auxerre before moving to the Italian Serie B club",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "state",
+    "subject": "self",
+    "object": "Auxerre",
+    "quote": "Audel played for the reserves of Auxerre before moving to the Italian Serie B club"
+   }
+  ]
+ }
+}

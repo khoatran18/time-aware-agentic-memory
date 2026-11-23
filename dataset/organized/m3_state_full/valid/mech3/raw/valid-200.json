@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "6b5e81a46fd565c7",
+  "N2": "7c673081a58c8bd9",
+  "N3": "eff9bd4c61387c6b",
+  "N4": "77dca1b5ab1baf43",
+  "N5": "edb1882da1162424"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "On 2 June 2011 , Pioli was named head coach of Serie A club Palermo",
+    "end_date": null
+   },
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "On 2 June 2011 , Pioli was named head coach of Serie A club Palermo , but he was relieved of his duties just 90 days later",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Pioli was named head coach of Serie A club Palermo.",
+    "evidence": "On 2 June 2011 , Pioli was named head coach of Serie A club Palermo",
+    "date_text": "2 June 2011",
+    "date": "2011-06-02",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Palermo",
+    "quote": "On 2 June 2011 , Pioli was named head coach of Serie A club Palermo"
+   },
+   {
+    "text": "Pioli was relieved of his duties as head coach of Palermo just 90 days later.",
+    "evidence": "he was relieved of his duties just 90 days later",
+    "date_text": null,
+    "date": "2011",
+    "approximate": true,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Palermo",
+    "quote": "he was relieved of his duties just 90 days later"
+   }
+  ]
+ }
+}

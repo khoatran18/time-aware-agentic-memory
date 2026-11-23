@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "0814cdab0895da54",
+  "N2": "18c7ea56d8fb83b6",
+  "N3": "786cd5b10e5f31e2",
+  "N4": "27b374151b7c3589",
+  "N5": "6d62ff73c58374c8",
+  "N6": "bd2a8d6dd34f6530",
+  "N7": "427def196462ddbe",
+  "N8": "e8bb1bfc928c01d6",
+  "N9": "028499953822f1f6",
+  "N10": "b262215a090693b1"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "Dickerson ended his five hugely successful years for the Rams in 1987 by being traded to the Indianapolis Colts",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Dickerson was traded to the Indianapolis Colts in 1987.",
+    "evidence": "Dickerson ended his five hugely successful years for the Rams in 1987 by being traded to the Indianapolis Colts",
+    "date_text": "1987",
+    "date": "1987",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Indianapolis Colts",
+    "quote": "Dickerson ended his five hugely successful years for the Rams in 1987 by being traded to the Indianapolis Colts"
+   }
+  ]
+ }
+}

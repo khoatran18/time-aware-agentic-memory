@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "b6a0a9525efb449f",
+  "N2": "8219cca4184ad9ca"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "edit",
+    "evidence": "ran for almost a decade from 1990 to 1999",
+    "end_date": null,
+    "new_text": "Talk im Turm ran for almost a decade from 1990 to 1999.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "ran for almost a decade from 1990 to 1999"
+   }
+  ],
+  "add": [
+   {
+    "text": "Talk im Turm ran until 1999.",
+    "evidence": "ran for almost a decade from 1990 to 1999",
+    "date_text": "1999",
+    "date": "1999",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Talk im Turm",
+    "quote": "ran for almost a decade from 1990 to 1999"
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Charles Holden was awarded the Royal Institute of British Architects Royal Gold Medal for architecture.",
+   "chunk": 3,
+   "date_text": "1936",
+   "date": "1936",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Royal Gold Medal",
+   "quote": "He was awarded the Royal Institute of British Architects ( RIBAs ) Royal Gold Medal for architecture in 1936",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#3"
+  },
+  {
+   "text": "Charles Holden was appointed a Royal Designer for Industry.",
+   "chunk": 3,
+   "date_text": "1943",
+   "date": "1943",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Designer for Industry",
+   "quote": "was appointed a Royal Designer for Industry in 1943",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Charles_Holden#3"
+  }
+ ],
+ "dropped": []
+}

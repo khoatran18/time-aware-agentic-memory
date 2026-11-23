@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "8968a6d5d4816dc0",
+  "N2": "68efab802284bf7f",
+  "N3": "aaefe26d4836bfa1",
+  "N4": "bfe92ef91c20f3be",
+  "N5": "5c853eb82f6e0004",
+  "N6": "33d9c9bb5a85e760"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "served as a judge on NBCs Americas Got Talent from 2006 to 2009",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Hasselhoff's stint as a judge on NBC's America's Got Talent ended.",
+    "evidence": "served as a judge on NBCs Americas Got Talent from 2006 to 2009",
+    "date_text": "2009",
+    "date": "2009",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Americas Got Talent",
+    "quote": "served as a judge on NBCs Americas Got Talent from 2006 to 2009"
+   }
+  ]
+ }
+}

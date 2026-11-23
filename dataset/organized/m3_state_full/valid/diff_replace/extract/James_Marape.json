@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Marape was elected as alternate Prime Minister.",
+   "chunk": 8,
+   "date_text": "7th of May 2019",
+   "date": "2019-05-07",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "alternate Prime Minister",
+   "quote": "He was elected as alternate Prime Minister on 7th of May 2019 .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/James_Marape#8"
+  },
+  {
+   "text": "The Ombudsman Commission recommended a leadership tribunal to judge ONeill and Marape on the UBS loan.",
+   "chunk": 8,
+   "date_text": "17th of May",
+   "date": "2019-05-17",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "leadership tribunal",
+   "quote": "On the 17th of May the Ombudsman Commission recommended a leadership tribunal to judge ONeill and Marape",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/James_Marape#8"
+  },
+  {
+   "text": "Marape was replaced as alternate MP by Patrick Pruaitch.",
+   "chunk": 8,
+   "date_text": "28 of May 2019",
+   "date": "2019-05-28",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "alternate MP",
+   "quote": "the reason for Marapes replacement as alternate MP by Patrick Pruaitch on 28 of May 2019",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/James_Marape#8"
+  }
+ ],
+ "dropped": []
+}

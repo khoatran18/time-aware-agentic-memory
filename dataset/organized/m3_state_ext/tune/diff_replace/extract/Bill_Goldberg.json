@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Goldberg returned to WWE on the February 7, 2020 episode of SmackDown and challenged The Fiend Bray Wyatt to a match for the Universal Championship.",
+   "chunk": 61,
+   "date_text": "February 7, 2020",
+   "date": "2020-02-07",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SmackDown",
+   "quote": "Goldberg returned to WWE on the February 7, 2020 episode of SmackDown",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#61"
+  },
+  {
+   "text": "At Super ShowDown on February 27, Goldberg defeated The Fiend to win the Universal Championship for the second time.",
+   "chunk": 61,
+   "date_text": "February 27",
+   "date": "2020-02-27",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Universal Championship",
+   "quote": "At Super ShowDown on February 27, Goldberg defeated The Fiend to win the Universal Championship for the second time",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Bill_Goldberg#61"
+  }
+ ],
+ "dropped": []
+}

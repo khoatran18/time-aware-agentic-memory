@@ -1,0 +1,28 @@
+{
+ "idmap": {
+  "N1": "144450be36b83858",
+  "N2": "17e006e1029b5e3c",
+  "N3": "dec48721d61b7143",
+  "N4": "c6cc1d6ff5e21943",
+  "N5": "b37e72983ee5d8d5",
+  "N6": "821181ac566b44b3"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Hanover remained a kingdom until 1866, when it was annexed by Prussia during the Austro-Prussian war.",
+    "evidence": "remained a kingdom until 1866 , when it was annexed by Prussia during the Austro-Prussian war",
+    "date_text": "1866",
+    "date": "1866",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Prussia",
+    "quote": "remained a kingdom until 1866 , when it was annexed by Prussia during the Austro-Prussian war"
+   }
+  ]
+ }
+}

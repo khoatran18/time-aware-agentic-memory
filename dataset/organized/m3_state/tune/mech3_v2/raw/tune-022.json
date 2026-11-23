@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "684281ad8abeac29",
+  "N2": "26550bb2c9966171",
+  "N3": "cd70849838c401bc",
+  "N4": "5bc9c73b04700b25",
+  "N5": "6b6039e988b6d354"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "He served in the Royal Navy from 1902 to 1908.",
+    "evidence": "He served in the Royal Navy from 1902 to 1908",
+    "date_text": "1902 to 1908",
+    "date": "1902",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "state",
+    "subject": "self",
+    "object": "Royal Navy",
+    "quote": "He served in the Royal Navy from 1902 to 1908"
+   },
+   {
+    "text": "His service in the Royal Navy ended in 1908.",
+    "evidence": "He served in the Royal Navy from 1902 to 1908",
+    "date_text": "1908",
+    "date": "1908",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "state",
+    "subject": "self",
+    "object": "Royal Navy",
+    "quote": "He served in the Royal Navy from 1902 to 1908"
+   }
+  ]
+ }
+}

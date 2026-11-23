@@ -1,0 +1,49 @@
+{
+ "idmap": {
+  "N1": "58d001717dd7dc97",
+  "N2": "6ceb7659c3bbdbf7",
+  "N3": "d87667ed3d319e64",
+  "N4": "817917adbb6a82a6",
+  "N5": "8c8659483772937e",
+  "N6": "cce18f48a846bf0e",
+  "N7": "63747337855abc33",
+  "N8": "d016ba2284df10f2",
+  "N9": "8881797ec4a0739f",
+  "N10": "56ccba176091ebf7",
+  "N11": "8b2b221e7db70684",
+  "N12": "491768b28dcd6a1d",
+  "N13": "80439beb4c0ac92e",
+  "N14": "8fce74356e83b03d",
+  "N15": "fe66bce9a771d587",
+  "N16": "4f133ac54cf1b718",
+  "N17": "9e16958644f9e387",
+  "N18": "76972d819453a3b5",
+  "N19": "4528340b5018555a",
+  "N20": "39017ea6e4872e25"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N9",
+    "op": "invalidate",
+    "evidence": "Pentasonata , for piano ( 1984 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Pentasonata for piano was written.",
+    "evidence": "Pentasonata , for piano ( 1984 )",
+    "date_text": "1984",
+    "date": "1984",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Pentasonata",
+    "quote": "Pentasonata , for piano ( 1984 )"
+   }
+  ]
+ }
+}

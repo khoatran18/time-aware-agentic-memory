@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Tomlinson and his son Robert Tomlinson Jr. began serving in Metlakatla, Alaska, with Duncan.",
+   "chunk": 19,
+   "date_text": "1908",
+   "date": "1908",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Metlakatla, Alaska",
+   "quote": "served in Metlakatla , Alaska , with Duncan from 1908 to 1912",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#19"
+  },
+  {
+   "text": "Tomlinson and his son Robert Tomlinson Jr. left for B.C. again.",
+   "chunk": 19,
+   "date_text": "1912",
+   "date": "1912",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "B.C.",
+   "quote": "from 1908 to 1912 before leaving for B.C . again",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#19"
+  }
+ ],
+ "dropped": []
+}

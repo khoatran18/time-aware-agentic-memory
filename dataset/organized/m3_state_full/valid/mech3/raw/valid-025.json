@@ -1,0 +1,74 @@
+{
+ "idmap": {
+  "N1": "a3d68cf04f5553e1",
+  "N2": "adf7e23738d3961a",
+  "N3": "96fb87f6f76cfd18",
+  "N4": "9f86ed91685c8710",
+  "N5": "75a746f6e5cc9c83",
+  "N6": "e4bdd132c9e701ba"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "where he taught from 1919 to 1921 and 1926 to 1927",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Weber taught at the Art Students League from 1919 to 1921.",
+    "evidence": "where he taught from 1919 to 1921 and 1926 to 1927",
+    "date_text": "1919 to 1921",
+    "date": "1919",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Art Students League",
+    "quote": "where he taught from 1919 to 1921 and 1926 to 1927"
+   },
+   {
+    "text": "Weber's teaching at the Art Students League ended in 1921.",
+    "evidence": "where he taught from 1919 to 1921 and 1926 to 1927",
+    "date_text": "1921",
+    "date": "1921",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Art Students League",
+    "quote": "where he taught from 1919 to 1921 and 1926 to 1927"
+   },
+   {
+    "text": "Weber taught at the Art Students League from 1926 to 1927.",
+    "evidence": "where he taught from 1919 to 1921 and 1926 to 1927",
+    "date_text": "1926 to 1927",
+    "date": "1926",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Art Students League",
+    "quote": "where he taught from 1919 to 1921 and 1926 to 1927"
+   },
+   {
+    "text": "Weber's teaching at the Art Students League ended in 1927.",
+    "evidence": "where he taught from 1919 to 1921 and 1926 to 1927",
+    "date_text": "1927",
+    "date": "1927",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Art Students League",
+    "quote": "where he taught from 1919 to 1921 and 1926 to 1927"
+   }
+  ]
+ }
+}

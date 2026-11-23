@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "e9176b3de6da7a0e",
+  "N2": "770e881d49c875f0",
+  "N3": "18af36cacaad7b9d"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Buzek succeeded Hans-Gert Pöttering as President of the European Parliament.",
+    "evidence": "He succeeded the German Christian Democrat MEP , Hans-Gert Pöttering .",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Hans-Gert Pöttering",
+    "quote": "He succeeded the German Christian Democrat MEP , Hans-Gert Pöttering ."
+   }
+  ]
+ }
+}

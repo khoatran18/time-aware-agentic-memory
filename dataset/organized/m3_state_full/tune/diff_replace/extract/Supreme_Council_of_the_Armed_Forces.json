@@ -1,0 +1,24 @@
+{
+ "events": [
+  {
+   "text": "The new constitution was passed in January.",
+   "chunk": 29,
+   "date_text": "January",
+   "date": "2014-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "new constitution",
+   "quote": "The new constitution , passed in January , includes a transitional article",
+   "section": 6,
+   "flags": [
+    "derived_date",
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/Supreme_Council_of_the_Armed_Forces#29"
+  }
+ ],
+ "dropped": []
+}

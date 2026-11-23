@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "2c67a18a5766334d",
+  "N2": "4e62b3fb50d4c212"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Ehrensvärd was born on 16 September 1858 at Tosterup Castle",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Ehrensvärd was born on 16 September 1858 at Tosterup Castle, Tomelilla Municipality, Sweden.",
+    "evidence": "Ehrensvärd was born on 16 September 1858 at Tosterup Castle",
+    "date_text": "16 September 1858",
+    "date": "1858-09-16",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Tosterup Castle",
+    "quote": "Ehrensvärd was born on 16 September 1858 at Tosterup Castle"
+   }
+  ]
+ }
+}

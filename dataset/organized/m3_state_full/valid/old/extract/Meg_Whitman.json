@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Nicky Diaz Santillan revealed that she has been employed in the Whitman household as a housekeeper and nanny since 2000.",
+   "chunk": 42,
+   "date_text": "In September 2010",
+   "date": "2010-09",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Whitman household",
+   "quote": "In September 2010 , Nicky Diaz Santillan revealed that she has been employed in the Whitman household as a housekeeper and nanny since 2000",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Meg_Whitman#42"
+  },
+  {
+   "text": "Santillan produced a 2003 letter from the Social Security Administration stating that her Social Security number did not match her name.",
+   "chunk": 42,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "other",
+   "object": "Social Security Administration",
+   "quote": "producing a 2003 letter from the Social Security Administration stating that her Social Security number did not match her name",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Meg_Whitman#42"
+  },
+  {
+   "text": "Whitman later resigned from the Goldman Sachs board.",
+   "chunk": 46,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Goldman Sachs board",
+   "quote": "Whitman later resigned from the Goldman Sachs board after some expressed concern over her receiving shares from Goldman Sachs",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Meg_Whitman#46"
+  }
+ ],
+ "dropped": []
+}

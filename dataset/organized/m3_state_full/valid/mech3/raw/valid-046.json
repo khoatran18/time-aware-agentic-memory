@@ -1,0 +1,60 @@
+{
+ "idmap": {
+  "N1": "be6c71c7518bace3",
+  "N2": "265aead5321e1369",
+  "N3": "5042f8f1e3d65323",
+  "N4": "be6994301df8200f",
+  "N5": "a51c12927a8bf5cb"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "He remained a Senate member until 16 September 1913",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He remained a Senate member until 16 September 1913.",
+    "evidence": "He remained a Senate member until 16 September 1913",
+    "date_text": "16 September 1913",
+    "date": "1913-09-16",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Senate",
+    "quote": "He remained a Senate member until 16 September 1913"
+   },
+   {
+    "text": "He was reelected as a member of the House of Representatives for the constituency Assen.",
+    "evidence": "when he was reelected as a member of the House of Representatives for the constituency Assen",
+    "date_text": "16 September 1913",
+    "date": "1913-09-16",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "House of Representatives",
+    "quote": "until 16 September 1913 , when he was reelected as a member of the House of Representatives for the constituency Assen"
+   },
+   {
+    "text": "He kept his House of Representatives position until his death, on 27 September 1915.",
+    "evidence": "He kept this position until his death , on 27 September 1915",
+    "date_text": "27 September 1915",
+    "date": "1915-09-27",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "House of Representatives",
+    "quote": "He kept this position until his death , on 27 September 1915"
+   }
+  ]
+ }
+}

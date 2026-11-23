@@ -1,0 +1,91 @@
+{
+ "events": [
+  {
+   "text": "Holt won re-election to a sixth term, defeating Alan Bateman 63% to 35%.",
+   "chunk": 16,
+   "date_text": "2008",
+   "date": "2008",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "sixth term",
+   "quote": "He won re-election to a sixth term , defeating Holmdel , New Jersey Deputy Mayor Alan Bateman , 63% to 35% .",
+   "section": 3,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Rush_Holt_Jr.#16"
+  },
+  {
+   "text": "Holt raised $2,229,432 in the 2010 election cycle.",
+   "chunk": 17,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Holt raised $2,229,432 in the 2010 election cycle",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rush_Holt_Jr.#17"
+  },
+  {
+   "text": "Holt won re-election to a seventh term, defeating Sipprelle 53% to 46%.",
+   "chunk": 17,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "seventh term",
+   "quote": "He won re-election to a seventh term , defeating Sipprelle , 53% to 46% .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rush_Holt_Jr.#17"
+  },
+  {
+   "text": "After redistricting in 2011, the 12th District became even more Democratic.",
+   "chunk": 19,
+   "date_text": "2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "12th District",
+   "quote": "After redistricting in 2011 , the 12th District became even more Democratic .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rush_Holt_Jr.#19"
+  },
+  {
+   "text": "Holt won re-election to an 8th term, defeating Eric Beck 69% to 29%.",
+   "chunk": 21,
+   "date_text": "2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "8th term",
+   "quote": "Holt won re-election to an 8th term , defeating Republican businessman Eric Beck 69% to 29% .",
+   "section": 3,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Rush_Holt_Jr.#21"
+  }
+ ],
+ "dropped": []
+}

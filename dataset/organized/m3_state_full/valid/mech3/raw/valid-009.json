@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "355da65af97adf80",
+  "N2": "2cf0cf6892b9114e",
+  "N3": "c8112eec6534edbd",
+  "N4": "bcc8418d35ec4dcd",
+  "N5": "41e6f886a709c796"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "and in 1988 to the Mangapps Farm Railway , where it remained until 1993",
+    "end_date": "1993"
+   }
+  ],
+  "add": [
+   {
+    "text": "D8233 remained at the Mangapps Farm Railway until 1993.",
+    "evidence": "and in 1988 to the Mangapps Farm Railway , where it remained until 1993",
+    "date_text": "1993",
+    "date": "1993",
+    "approximate": false,
+    "track": "location",
+    "phase": "end",
+    "kind": "state",
+    "subject": "self",
+    "object": "Mangapps Farm Railway",
+    "quote": "where it remained until 1993"
+   }
+  ]
+ }
+}

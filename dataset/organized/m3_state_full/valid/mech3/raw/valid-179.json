@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "3c8ed7b7bb55065d",
+  "N2": "4d83de6c6eb98168",
+  "N3": "9bec89411b293579",
+  "N4": "e306fa8139ba2139",
+  "N5": "87a463f64682ca41"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "where he taught with Alfred Korzybski until 1954",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Holtzman taught with Alfred Korzybski until 1954.",
+    "evidence": "where he taught with Alfred Korzybski until 1954",
+    "date_text": "until 1954",
+    "date": "1954",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Alfred Korzybski",
+    "quote": "where he taught with Alfred Korzybski until 1954"
+   }
+  ]
+ }
+}

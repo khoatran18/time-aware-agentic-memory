@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "af0cb56e26ec5709",
+  "N2": "ee8683f4ca065411",
+  "N3": "5fbc6dbc379decbf"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The name Karl-Marx-Stadt was used from 1953 to 1990.",
+    "evidence": "from 1953 to 1990 : Karl-Marx-Stadt",
+    "date_text": "from 1953 to 1990",
+    "date": "1990",
+    "approximate": false,
+    "track": "naming",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Karl-Marx-Stadt",
+    "quote": "from 1953 to 1990 : Karl-Marx-Stadt"
+   }
+  ]
+ }
+}

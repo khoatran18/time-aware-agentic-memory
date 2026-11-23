@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "47ea4ea7ffa7ddb9",
+  "N2": "22181c78497e8276"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The broadcast debuted on Rai 3 on 26 September 1993",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The broadcast debuted on Rai 3 on 26 September 1993.",
+    "evidence": "The broadcast debuted on Rai 3 on 26 September 1993",
+    "date_text": "26 September 1993",
+    "date": "1993-09-26",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Rai 3",
+    "quote": "The broadcast debuted on Rai 3 on 26 September 1993"
+   }
+  ]
+ }
+}

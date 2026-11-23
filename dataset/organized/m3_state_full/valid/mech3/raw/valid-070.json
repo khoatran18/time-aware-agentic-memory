@@ -1,0 +1,57 @@
+{
+ "idmap": {
+  "N1": "9375f4c97153201f",
+  "N2": "21a2827a05b95ae1",
+  "N3": "8c2ad63af22e7de7",
+  "N4": "981cace1425ecd06",
+  "N5": "e8cca20313cbc237",
+  "N6": "f326e5777ee49e19",
+  "N7": "c8fb771db1b7af40",
+  "N8": "504b62d207295e43",
+  "N9": "c0c087ed2c195f98"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Carina Jensen was a letter-turning co-host starting in 1989.",
+    "evidence": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+    "date_text": "1989",
+    "date": "1989",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Carina Jensen",
+    "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )"
+   },
+   {
+    "text": "Carina Jensen's co-hosting ended in 1994.",
+    "evidence": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )",
+    "date_text": "1994",
+    "date": "1994",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Carina Jensen",
+    "quote": "The letter-turning co-hosts were Carina Jensen ( 1989–1994 )"
+   }
+  ]
+ }
+}

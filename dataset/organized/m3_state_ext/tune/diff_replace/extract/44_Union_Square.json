@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "The building was sold to an affiliate of the International Ladies Garment Workers Union.",
+   "chunk": 1,
+   "date_text": "1943",
+   "date": "1943",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "International Ladies Garment Workers Union",
+   "quote": "the building was sold to an affiliate of the International Ladies Garment Workers Union in 1943",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/44_Union_Square#1"
+  },
+  {
+   "text": "The building was used by the Union Square Theatre.",
+   "chunk": 1,
+   "date_text": "the 1980s",
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Union Square Theatre",
+   "quote": "By the 1980s , it was used by the Union Square Theatre",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/44_Union_Square#1"
+  }
+ ],
+ "dropped": []
+}

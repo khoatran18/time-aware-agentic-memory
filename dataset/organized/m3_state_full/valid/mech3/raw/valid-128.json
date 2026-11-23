@@ -1,0 +1,48 @@
+{
+ "idmap": {
+  "N1": "8d235c1978888d6d",
+  "N2": "342181089f7c11b5",
+  "N3": "2802c74082e99e19",
+  "N4": "776440d5ff3d23f2",
+  "N5": "83f4affee863b2a2",
+  "N6": "c24e525028a02b50",
+  "N7": "5f02b8a5119b7f6b",
+  "N8": "ba931fc29b83ff81",
+  "N9": "3158760a6e4136f7",
+  "N10": "ec7a107921c0734f",
+  "N11": "786fa3e26aa1e402",
+  "N12": "283c0dac015d0f0b",
+  "N13": "a5ed9aff1b9bcbaf",
+  "N14": "9002cdcb0f0115db",
+  "N15": "01f08ddd2580f8e1",
+  "N16": "b1800be0a29cf800",
+  "N17": "65658a2b32f001e9",
+  "N18": "b670081787c92458",
+  "N19": "2a504b2e991b2d6b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "winning La Liga titles in 1966 , 1970 , 1973 and 1977",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Atlético won the La Liga title in 1966.",
+    "evidence": "winning La Liga titles in 1966 , 1970 , 1973 and 1977",
+    "date_text": "1966",
+    "date": "1966",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "La Liga",
+    "quote": "winning La Liga titles in 1966 , 1970 , 1973 and 1977"
+   }
+  ]
+ }
+}

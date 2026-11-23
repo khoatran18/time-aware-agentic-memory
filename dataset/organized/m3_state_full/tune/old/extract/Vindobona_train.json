@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "The service began using diesel multiple units from Friedrichstraße station to Wien Franz-Josefs-Bahnhof.",
+   "chunk": 2,
+   "date_text": "13 January 1957",
+   "date": "1957-01-13",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Friedrichstraße station",
+   "quote": "The service began on 13 January 1957 using diesel multiple units",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vindobona_(train)#2"
+  },
+  {
+   "text": "The FDt trains had already begun running between Berlin and Prague.",
+   "chunk": 2,
+   "date_text": "December 1950",
+   "date": "1950-12",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "FDt trains",
+   "quote": "The FDt trains had already begun running between Berlin and Prague in December 1950",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vindobona_(train)#2"
+  },
+  {
+   "text": "The connection was upgraded as Expresszug (Ext 54/55).",
+   "chunk": 2,
+   "date_text": "1959",
+   "date": "1959",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Expresszug",
+   "quote": "In 1959 the connection was upgraded as Expresszug ( Ext 54/55 )",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vindobona_(train)#2"
+  },
+  {
+   "text": "The railcars had first and second class sections.",
+   "chunk": 3,
+   "date_text": "December 1957",
+   "date": "1957-12",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "railcars",
+   "quote": "From December 1957 the railcars had first and second class sections",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vindobona_(train)#3"
+  },
+  {
+   "text": "Domestic travel within Czechoslovakia was for some years completely forbidden during Normalization.",
+   "chunk": 5,
+   "date_text": "1969 onwards",
+   "date": "1969",
+   "approximate": true,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Normalization",
+   "quote": "In the period of Normalization from 1969 onwards , domestic travel within Czechoslovakia was for some years completely forbidden",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Vindobona_(train)#5"
+  },
+  {
+   "text": "Construction at the Franz-Josefs-Bahnhof made Wien Mitte station the terminus.",
+   "chunk": 6,
+   "date_text": "1975",
+   "date": "1975",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Wien Mitte station",
+   "quote": "In 1975 , construction at the Franz-Josefs-Bahnhof made Wien Mitte station the terminus",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vindobona_(train)#6"
+  }
+ ],
+ "dropped": []
+}

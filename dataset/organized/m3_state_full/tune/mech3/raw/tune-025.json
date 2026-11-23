@@ -1,0 +1,55 @@
+{
+ "idmap": {
+  "N1": "48f75267f72a3897",
+  "N2": "34d4f7cef2beb9b6",
+  "N3": "f5ffb42e3d8419ba",
+  "N4": "f883fa9b69c4c319",
+  "N5": "83d72d9db618a041",
+  "N6": "ce6f7e59e7bff77b",
+  "N7": "43329ce75e02a35d",
+  "N8": "c27a314a1b6a8e72",
+  "N9": "f42453173d5de4e0",
+  "N10": "a399d0c652242b7e",
+  "N11": "bd3aa2e9af168878",
+  "N12": "a2191c97ce04b76f",
+  "N13": "d6c85cce53a9ffa6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "Whitney also gave instruction in French and German in the college until 1867 , and in the Sheffield scientific school until 1886",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Whitney gave instruction in French and German in the college until 1867.",
+    "evidence": "Whitney also gave instruction in French and German in the college until 1867",
+    "date_text": "until 1867",
+    "date": "1867",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "college",
+    "quote": "Whitney also gave instruction in French and German in the college until 1867"
+   },
+   {
+    "text": "Whitney gave instruction in French and German in the Sheffield scientific school until 1886.",
+    "evidence": "in the Sheffield scientific school until 1886",
+    "date_text": "until 1886",
+    "date": "1886",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Sheffield scientific school",
+    "quote": "in the Sheffield scientific school until 1886"
+   }
+  ]
+ }
+}

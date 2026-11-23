@@ -1,0 +1,59 @@
+{
+ "events": [
+  {
+   "text": "Hasselhoff served as a judge on NBC's America's Got Talent.",
+   "chunk": 21,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "America's Got Talent",
+   "quote": "served as a judge on NBCs Americas Got Talent from 2006 to 2009",
+   "section": 5,
+   "flags": [
+    "name_not_in_page:NBC's,America's"
+   ],
+   "cid": "/wiki/David_Hasselhoff#21"
+  },
+  {
+   "text": "Hasselhoff's stint as a judge on America's Got Talent ended.",
+   "chunk": 21,
+   "date_text": "2009",
+   "date": "2009",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "America's Got Talent",
+   "quote": "served as a judge on NBCs Americas Got Talent from 2006 to 2009",
+   "section": 5,
+   "flags": [
+    "name_not_in_page:America's"
+   ],
+   "cid": "/wiki/David_Hasselhoff#21"
+  },
+  {
+   "text": "Hasselhoff joined the Britain's Got Talent judging panel as the additional fourth judge.",
+   "chunk": 21,
+   "date_text": "2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Britain's Got Talent",
+   "quote": "In 2011 , he joined the Britains Got Talent judging panel , as the additional fourth judge",
+   "section": 5,
+   "flags": [
+    "name_not_in_page:Britain's"
+   ],
+   "cid": "/wiki/David_Hasselhoff#21"
+  }
+ ],
+ "dropped": []
+}

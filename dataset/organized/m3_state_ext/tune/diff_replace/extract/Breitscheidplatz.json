@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "A truck-ramming attack was made on the Christmas market at Breitscheidplatz, killing twelve people and injuring 48 others.",
+   "chunk": 15,
+   "date_text": "19 December 2016",
+   "date": "2016-12-19",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Breitscheidplatz",
+   "quote": "On 19 December 2016, at about 20:00 local time, a truck-ramming attack was made on the Christmas market at Breitscheidplatz",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Breitscheidplatz#15"
+  },
+  {
+   "text": "In preparation for the Christmas market 2018, the square and its surrounding were fortified against further terrorist attacks.",
+   "chunk": 15,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "the square and its surrounding",
+   "quote": "In preparation for the Christmas market 2018, the square and its surrounding were fortified against further terrorist attacks",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Breitscheidplatz#15"
+  }
+ ],
+ "dropped": []
+}

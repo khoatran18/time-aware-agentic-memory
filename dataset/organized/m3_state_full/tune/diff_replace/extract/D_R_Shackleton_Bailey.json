@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "Shackleton Bailey migrated to Jesus College, Cambridge.",
+   "chunk": 2,
+   "date_text": "1955",
+   "date": "1955",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Jesus College, Cambridge",
+   "quote": "In 1955 he migrated to Jesus College , Cambridge",
+   "section": 1,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/D._R._Shackleton_Bailey#2"
+  },
+  {
+   "text": "He spent four more years at Caius.",
+   "chunk": 2,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Caius",
+   "quote": "He spent four more years at Caius from 1964 to 1968",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/D._R._Shackleton_Bailey#2"
+  },
+  {
+   "text": "His time at Caius ended.",
+   "chunk": 2,
+   "date_text": "1968",
+   "date": "1968",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Caius",
+   "quote": "He spent four more years at Caius from 1964 to 1968",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/D._R._Shackleton_Bailey#2"
+  },
+  {
+   "text": "He served as Bursar and Senior Bursar at Caius.",
+   "chunk": 2,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bursar and Senior Bursar",
+   "quote": "from 1964 to 1968 , this time serving as Bursar and Senior Bursar",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/D._R._Shackleton_Bailey#2"
+  },
+  {
+   "text": "His service as Bursar and Senior Bursar at Caius ended.",
+   "chunk": 2,
+   "date_text": "1968",
+   "date": "1968",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bursar and Senior Bursar",
+   "quote": "from 1964 to 1968 , this time serving as Bursar and Senior Bursar",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/D._R._Shackleton_Bailey#2"
+  }
+ ],
+ "dropped": []
+}

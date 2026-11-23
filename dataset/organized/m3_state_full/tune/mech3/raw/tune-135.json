@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "7777a6162db5cec4",
+  "N2": "51bccf4a2dad2705",
+  "N3": "875d528eb572601e",
+  "N4": "fc6c65eeb1e5dd4b",
+  "N5": "f9c162a3d12922b2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+    "end_date": null
+   },
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Young served as chief of staff to Iowa Republican senator Chuck Grassley.",
+    "evidence": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+    "date_text": "2006",
+    "date": "2006",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Chuck Grassley",
+    "quote": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley"
+   },
+   {
+    "text": "Young's service as chief of staff to Chuck Grassley ended.",
+    "evidence": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+    "date_text": "2013",
+    "date": "2013",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Chuck Grassley",
+    "quote": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley"
+   }
+  ]
+ }
+}

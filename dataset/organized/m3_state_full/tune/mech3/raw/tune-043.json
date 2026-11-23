@@ -1,0 +1,21 @@
+{
+ "idmap": {},
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Costello stayed on in Paris until 1955.",
+    "evidence": "As noted , Costello stayed on in Paris until 1955 .",
+    "date_text": "until 1955",
+    "date": "1955",
+    "approximate": false,
+    "track": "location",
+    "phase": "end",
+    "kind": "state",
+    "subject": "self",
+    "object": "Paris",
+    "quote": "As noted , Costello stayed on in Paris until 1955 ."
+   }
+  ]
+ }
+}

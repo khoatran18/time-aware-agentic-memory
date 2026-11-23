@@ -1,0 +1,27 @@
+{
+ "idmap": {
+  "N1": "14624aded1d38191",
+  "N2": "74a48d7ff5676569",
+  "N3": "e94167cfca381332",
+  "N4": "f8fb54c0e057a9d2",
+  "N5": "6e300a994552cafd"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Australian quantum physicist Michael Nielsen is a research fellow at YC Research since 2017.",
+    "evidence": "Australian quantum physicist Michael Nielsen is a research fellow at YC Research since 2017 .",
+    "date_text": "2017",
+    "date": "2017",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "state",
+    "subject": "other",
+    "object": "YC Research",
+    "quote": "Australian quantum physicist Michael Nielsen is a research fellow at YC Research since 2017 ."
+   }
+  ]
+ }
+}

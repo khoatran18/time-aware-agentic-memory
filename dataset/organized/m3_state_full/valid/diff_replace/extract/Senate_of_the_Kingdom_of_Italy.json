@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "The Senate of the Kingdom of Italy was created.",
+   "chunk": 1,
+   "date_text": "1861",
+   "date": "1861",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Senate of the Kingdom of Italy",
+   "quote": "The Senate of the Kingdom of Italy was created in 1861",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Senate_of_the_Kingdom_of_Italy#1"
+  },
+  {
+   "text": "The Senate was initially based at the Palazzo Madama in Turin.",
+   "chunk": 1,
+   "date_text": "initially",
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "state",
+   "subject": "self",
+   "object": "Palazzo Madama in Turin",
+   "quote": "The Senate was initially based at the Palazzo Madama in Turin",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Senate_of_the_Kingdom_of_Italy#1"
+  },
+  {
+   "text": "The Senate was moved to the Palazzo Vecchio in Florence.",
+   "chunk": 1,
+   "date_text": "1864",
+   "date": "1864",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Palazzo Vecchio in Florence",
+   "quote": "until 1864 when it was moved to the Palazzo Vecchio in Florence",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Senate_of_the_Kingdom_of_Italy#1"
+  },
+  {
+   "text": "The Senate was moved to the Palazzo Madama in Rome.",
+   "chunk": 1,
+   "date_text": "1871",
+   "date": "1871",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Palazzo Madama in Rome",
+   "quote": "in 1871 , it was moved to the Palazzo Madama in Rome",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Senate_of_the_Kingdom_of_Italy#1"
+  }
+ ],
+ "dropped": []
+}

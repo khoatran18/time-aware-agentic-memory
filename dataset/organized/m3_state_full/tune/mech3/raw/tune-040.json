@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "996061642b973b2e",
+  "N2": "990b525d84d06ddb",
+  "N3": "b35c176dc4892d27",
+  "N4": "78c77849d59603f7",
+  "N5": "a7843a700c21264e",
+  "N6": "08b02f2865734db2",
+  "N7": "469aa0e99261c752",
+  "N8": "bd88a881ac406bf2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "then from 1944 to 1945 he worked for Albright and Wilson in Birmingham",
+    "end_date": "1945"
+   }
+  ],
+  "add": [
+   {
+    "text": "Barton's time at Albright and Wilson in Birmingham ended.",
+    "evidence": "then from 1944 to 1945 he worked for Albright and Wilson in Birmingham",
+    "date_text": "1945",
+    "date": "1945",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Albright and Wilson",
+    "quote": "then from 1944 to 1945 he worked for Albright and Wilson in Birmingham"
+   }
+  ]
+ }
+}

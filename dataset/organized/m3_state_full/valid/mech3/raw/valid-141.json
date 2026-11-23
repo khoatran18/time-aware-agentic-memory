@@ -1,0 +1,42 @@
+{
+ "idmap": {
+  "N1": "f093d4cd27edaeda",
+  "N2": "3469008f6cba1454",
+  "N3": "83c21a7795f69958",
+  "N4": "ea7160bb2cc8501f",
+  "N5": "084f54a16fa5710f",
+  "N6": "36b8ad64964eb631",
+  "N7": "656f17da49300cf6",
+  "N8": "5d469e266a9626be",
+  "N9": "182895f14cac6510",
+  "N10": "bf3a41f4cee2c632",
+  "N11": "5bcc20ed36e91689",
+  "N12": "c9616d108f39afbd",
+  "N13": "7a72535d781f9192"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "In 1949 , the authorities changed the clubs name to Dinamo following the Soviet traditions",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The authorities changed the club's name to Dinamo.",
+    "evidence": "In 1949 , the authorities changed the clubs name to Dinamo following the Soviet traditions",
+    "date_text": "1949",
+    "date": "1949",
+    "approximate": false,
+    "track": "naming",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "Dinamo",
+    "quote": "In 1949 , the authorities changed the clubs name to Dinamo following the Soviet traditions"
+   }
+  ]
+ }
+}

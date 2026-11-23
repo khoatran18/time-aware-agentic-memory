@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "A Modersohn Museum was established in Gailenberg.",
+   "chunk": 9,
+   "date_text": "After World War II",
+   "date": null,
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Modersohn Museum",
+   "quote": "After World War II , a Modersohn Museum was established in Gailenberg",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Otto_Modersohn#9"
+  },
+  {
+   "text": "Another Otto Modersohn Museum opened in Tecklenburg.",
+   "chunk": 9,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Otto Modersohn Museum",
+   "quote": "Another Otto Modersohn Museum showcasing his early work in Westphalia opened in Tecklenburg in 2015 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Otto_Modersohn#9"
+  }
+ ],
+ "dropped": []
+}

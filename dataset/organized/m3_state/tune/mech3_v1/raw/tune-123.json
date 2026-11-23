@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "df58c8f896406ecd",
+  "N2": "d0f9fae35f07e9fe",
+  "N3": "99e55a39190df55d",
+  "N4": "cd1cd87d420abf0e",
+  "N5": "8352d25bc68a31b1",
+  "N6": "87e6ae5d978c10da"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "With the opening of Berlin Hauptbahnhof on 28 May 2006 , trains passed through Berlin via the new North–South mainline",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "With the opening of Berlin Hauptbahnhof, trains passed through Berlin via the new North–South mainline.",
+    "evidence": "With the opening of Berlin Hauptbahnhof on 28 May 2006 , trains passed through Berlin via the new North–South mainline",
+    "date_text": "28 May 2006",
+    "date": "2006-05-28",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Berlin Hauptbahnhof",
+    "quote": "With the opening of Berlin Hauptbahnhof on 28 May 2006 , trains passed through Berlin via the new North–South mainline"
+   }
+  ]
+ }
+}

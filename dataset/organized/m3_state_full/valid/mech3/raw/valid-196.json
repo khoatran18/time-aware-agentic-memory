@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "fa82a8eeb9394e2e",
+  "N2": "d4e420019adc361e",
+  "N3": "cc85224d43b01f69"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "On 26 January 2011 , Hülkenberg was confirmed as Force Indias reserve driver for the season",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Hülkenberg was confirmed as Force India's reserve driver for the season.",
+    "evidence": "On 26 January 2011 , Hülkenberg was confirmed as Force Indias reserve driver for the season",
+    "date_text": "26 January 2011",
+    "date": "2011-01-26",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Force India",
+    "quote": "On 26 January 2011 , Hülkenberg was confirmed as Force Indias reserve driver for the season"
+   }
+  ]
+ }
+}

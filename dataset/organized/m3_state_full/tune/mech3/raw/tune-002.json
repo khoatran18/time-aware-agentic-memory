@@ -1,0 +1,47 @@
+{
+ "idmap": {
+  "N1": "e876cb93f65214c3",
+  "N2": "e58a2b6428d77c06",
+  "N3": "1e01410d82b17e07",
+  "N4": "0e495c511ea44109",
+  "N5": "8859726b4334a581"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "serving as the general counsel in the governors office from 2005 to 2006",
+    "end_date": "2006"
+   }
+  ],
+  "add": [
+   {
+    "text": "Lee served as general counsel in the governor's office from 2005 to 2006.",
+    "evidence": "serving as the general counsel in the governors office from 2005 to 2006",
+    "date_text": "from 2005 to 2006",
+    "date": "2005",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "general counsel in the governor's office",
+    "quote": "serving as the general counsel in the governors office from 2005 to 2006"
+   },
+   {
+    "text": "Lee's service as general counsel in the governor's office ended in 2006.",
+    "evidence": "serving as the general counsel in the governors office from 2005 to 2006",
+    "date_text": "2006",
+    "date": "2006",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "general counsel in the governor's office",
+    "quote": "serving as the general counsel in the governors office from 2005 to 2006"
+   }
+  ]
+ }
+}

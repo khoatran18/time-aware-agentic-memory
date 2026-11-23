@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "3cdce50326fd7b5d",
+  "N2": "5dd7e3a7cdb63742",
+  "N3": "6e1fa749fc01261a",
+  "N4": "3bf1b54ec8b69c17",
+  "N5": "3fc10e340a6410cc",
+  "N6": "a7f5c414069235cc",
+  "N7": "20ddaba02fd50f18",
+  "N8": "4393c62bb4d05b62",
+  "N9": "59e2cb8a3a6938f0"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "In February 2014 , Michael and Nicole Colovos , after eight years of being creative directors , left the company",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Michael and Nicole Colovos left the company after eight years of being creative directors.",
+    "evidence": "In February 2014 , Michael and Nicole Colovos , after eight years of being creative directors , left the company",
+    "date_text": "February 2014",
+    "date": "2014-02",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Helmut Lang",
+    "quote": "In February 2014 , Michael and Nicole Colovos , after eight years of being creative directors , left the company"
+   }
+  ]
+ }
+}

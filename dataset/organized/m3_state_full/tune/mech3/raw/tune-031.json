@@ -1,0 +1,44 @@
+{
+ "idmap": {
+  "N1": "1fa56d33a89ceb9b",
+  "N2": "6eced581d8a95579",
+  "N3": "301377a4adc1ab98",
+  "N4": "41c9c27127f86d69",
+  "N5": "68514d8771e8c47e",
+  "N6": "4c92bddd1b3867af",
+  "N7": "33e2936e62029be5",
+  "N8": "47b507ff166acc6a",
+  "N9": "31143a0aa90f3f1b",
+  "N10": "348d5caab043e296",
+  "N11": "bbbf88bff53566b5",
+  "N12": "20a6cc4b92601517",
+  "N13": "67461aee3bd732a2",
+  "N14": "b7959023e225acac",
+  "N15": "cfc692dfa8f55460"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "he served as a United States Senator from Washington from 1981 to 1987",
+    "end_date": "1987"
+   }
+  ],
+  "add": [
+   {
+    "text": "Gorton's first term as a United States Senator from Washington ended in 1987.",
+    "evidence": "he served as a United States Senator from Washington from 1981 to 1987",
+    "date_text": "1987",
+    "date": "1987",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "United States Senator from Washington",
+    "quote": "he served as a United States Senator from Washington from 1981 to 1987"
+   }
+  ]
+ }
+}

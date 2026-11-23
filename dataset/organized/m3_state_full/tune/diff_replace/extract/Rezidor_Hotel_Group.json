@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Carlson Companies acquired 25% of the shares of Rezidor Hotel Group from SAS Group.",
+   "chunk": 1,
+   "date_text": "In 2005",
+   "date": "2005",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rezidor Hotel Group",
+   "quote": "In 2005 , Carlson Companies acquired 25% of the shares of Rezidor Hotel Group from SAS Group .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rezidor_Hotel_Group#1"
+  },
+  {
+   "text": "SAS Group ceased to be a shareholder of the company.",
+   "chunk": 1,
+   "date_text": "In 2007",
+   "date": "2007",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "SAS Group",
+   "quote": "In 2007 , SAS Group ceased to be a shareholder of the company .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rezidor_Hotel_Group#1"
+  }
+ ],
+ "dropped": []
+}

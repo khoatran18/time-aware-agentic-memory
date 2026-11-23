@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "The Helmut Lang web site was re-activated at the end of 2006.",
+   "chunk": 16,
+   "date_text": "at the end of 2006",
+   "date": "2006",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Helmut Lang web site",
+   "quote": "The Helmut Lang web site was re-activated at the end of 2006",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Helmut_Lang_(fashion_brand)#16"
+  },
+  {
+   "text": "The Helmut Lang web site was fully launched in spring 2007.",
+   "chunk": 16,
+   "date_text": "spring 2007",
+   "date": "2007",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Helmut Lang web site",
+   "quote": "was fully launched in spring 2007",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Helmut_Lang_(fashion_brand)#16"
+  },
+  {
+   "text": "In February 2014, Michael and Nicole Colovos left the company.",
+   "chunk": 16,
+   "date_text": "February 2014",
+   "date": "2014-02",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Helmut Lang",
+   "quote": "In February 2014 , Michael and Nicole Colovos , after eight years of being creative directors , left the company",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Helmut_Lang_(fashion_brand)#16"
+  },
+  {
+   "text": "The Colovos designed the 2014 Fall collection called Rough Terrain.",
+   "chunk": 16,
+   "date_text": "2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Rough Terrain",
+   "quote": "The Colovos designed the 2014 Fall collection called Rough Terrain",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Helmut_Lang_(fashion_brand)#16"
+  }
+ ],
+ "dropped": []
+}

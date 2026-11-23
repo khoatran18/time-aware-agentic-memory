@@ -1,0 +1,67 @@
+{
+ "idmap": {
+  "N1": "e5a6a1bac5947799",
+  "N2": "2a76173b88d32cac",
+  "N3": "89c7badcbf8a18be",
+  "N4": "f98c050f04c0e0b0",
+  "N5": "44116e3e27dc20bc",
+  "N6": "b6392fc2f7c10de5",
+  "N7": "3c1c1d4bd2c68f6a",
+  "N8": "a4e09d0fea6f9eeb",
+  "N9": "fb40323b18fc1851",
+  "N10": "3a4eed40ad66227d",
+  "N11": "409980606e2e5bd4"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "John Mahoney ( 1916-1922 )",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   },
+   {
+    "node": "N8",
+    "op": "invalidate",
+    "evidence": "John Mahoney ( 1916-1922 )",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "John Mahoney was principal of the Normal School.",
+    "evidence": "John Mahoney ( 1916-1922 )",
+    "date_text": "1916",
+    "date": "1916",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Normal School",
+    "quote": "John Mahoney ( 1916-1922 )"
+   },
+   {
+    "text": "John Mahoney's term as principal ended.",
+    "evidence": "John Mahoney ( 1916-1922 )",
+    "date_text": "1922",
+    "date": "1922",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Normal School",
+    "quote": "John Mahoney ( 1916-1922 )"
+   }
+  ]
+ }
+}

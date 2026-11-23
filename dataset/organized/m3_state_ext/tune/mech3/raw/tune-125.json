@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "bac6341a12d61c4f",
+  "N2": "15136e772b19b659",
+  "N3": "1f8ff576ef01dce8",
+  "N4": "827077aae810d7d7"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "which is running from October 2013 to May 2016",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "D-CENT began running.",
+    "evidence": "which is running from October 2013 to May 2016",
+    "date_text": "October 2013",
+    "date": "2013-10",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "D-CENT",
+    "quote": "which is running from October 2013 to May 2016"
+   }
+  ]
+ }
+}

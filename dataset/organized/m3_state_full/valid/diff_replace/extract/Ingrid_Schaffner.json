@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Schaffner was the curator of the 2018 Carnegie International at the Carnegie Museum of Art.",
+   "chunk": 2,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "2018 Carnegie International",
+   "quote": "she was the curator of 2018 Carnegie International at the Carnegie Museum of Art",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Ingrid_Schaffner#2"
+  },
+  {
+   "text": "Schaffner became Chief Curator at the Institute of Contemporary Art at the University of Pennsylvania.",
+   "chunk": 2,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Institute of Contemporary Art at the University of Pennsylvania",
+   "quote": "Chief Curator at the Institute of Contemporary Art at the University of Pennsylvania from 2000-2015",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Ingrid_Schaffner#2"
+  },
+  {
+   "text": "Schaffner's tenure as Chief Curator at the Institute of Contemporary Art at the University of Pennsylvania ended.",
+   "chunk": 2,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Institute of Contemporary Art at the University of Pennsylvania",
+   "quote": "Chief Curator at the Institute of Contemporary Art at the University of Pennsylvania from 2000-2015",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Ingrid_Schaffner#2"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,122 @@
+{
+ "events": [
+  {
+   "text": "The Red Stars joined the WPSL Elite League.",
+   "chunk": 13,
+   "date_text": "In 2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "WPSL Elite League",
+   "quote": "In 2012 , the Red Stars joined the former WPS Boston Breakers and Western New York Flash to found the WPSL Elite League .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#13"
+  },
+  {
+   "text": "The Red Stars won the 2012 National Womens Cup.",
+   "chunk": 14,
+   "date_text": "2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "National Womens Cup",
+   "quote": "The Red Stars won the 2012 National Womens Cup",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#14"
+  },
+  {
+   "text": "The Red Stars co-founded and was one of the original eight teams in a yet-to-be-named womens professional soccer league.",
+   "chunk": 16,
+   "date_text": "In November 2013",
+   "date": "2013-11",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "womens professional soccer league",
+   "quote": "In November 2013 , the Red Stars co-founded and was one of the original eight teams in a yet-to-be-named womens professional soccer league",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#16"
+  },
+  {
+   "text": "The league began competition.",
+   "chunk": 16,
+   "date_text": "spring 2013",
+   "date": "2013",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "the league",
+   "quote": "The league began competition in spring 2013 .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Chicago_Red_Stars#16"
+  },
+  {
+   "text": "The Red Stars finished the season in sixth place.",
+   "chunk": 17,
+   "date_text": "2013 season",
+   "date": "2013",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "sixth place",
+   "quote": "to finish the season in sixth place .",
+   "section": 1,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Chicago_Red_Stars#17"
+  },
+  {
+   "text": "The Red Stars finished in fifth place.",
+   "chunk": 18,
+   "date_text": "In 2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "fifth place",
+   "quote": "In 2014 , the Red Stars finished in fifth place .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#18"
+  },
+  {
+   "text": "The team signed Abby Erceg and Emily van Egmond.",
+   "chunk": 18,
+   "date_text": "in May",
+   "date": "2014-05",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Abby Erceg and Emily van Egmond",
+   "quote": "The team signed two other internationals , Abby Erceg and Emily van Egmond , in May .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#18"
+  }
+ ],
+ "dropped": []
+}

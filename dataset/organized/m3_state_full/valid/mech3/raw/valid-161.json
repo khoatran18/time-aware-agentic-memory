@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "8fc927f83ddfa6c9",
+  "N2": "24973f1807baae49",
+  "N3": "73ff5f63b96e25bb",
+  "N4": "95c45c5748b1f674",
+  "N5": "adc3a59deb72e286",
+  "N6": "cfb90a5e2f64578a",
+  "N7": "3ddf24163595a0f1",
+  "N8": "d548911d33ea5cc8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "he subsequently worked as a lawyer until 1990",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Schröder worked as a lawyer until 1990.",
+    "evidence": "he subsequently worked as a lawyer until 1990",
+    "date_text": "1990",
+    "date": "1990",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "lawyer",
+    "quote": "he subsequently worked as a lawyer until 1990"
+   }
+  ]
+ }
+}

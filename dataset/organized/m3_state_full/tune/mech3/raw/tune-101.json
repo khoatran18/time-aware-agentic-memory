@@ -1,0 +1,59 @@
+{
+ "idmap": {
+  "N1": "1fdf2bafba80e656",
+  "N2": "bf4977e728f065fc",
+  "N3": "53889ef19342a3e9",
+  "N4": "f99a0804ea1dbbb9",
+  "N5": "3c9ec1e887184163",
+  "N6": "ff125a6daf653991",
+  "N7": "6108785c19b82ba7",
+  "N8": "491d1c3b4eb90b55",
+  "N9": "e694604face21924",
+  "N10": "118cf90fcd8167a8",
+  "N11": "2634669a7e261b9e"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )",
+    "end_date": null
+   },
+   {
+    "node": "N7",
+    "op": "invalidate",
+    "evidence": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He became head of Institutional Relations of the Board of Waste.",
+    "evidence": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )",
+    "date_text": "1995",
+    "date": "1995",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Board of Waste",
+    "quote": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )"
+   },
+   {
+    "text": "His role as head of Institutional Relations of the Board of Waste ended.",
+    "evidence": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )",
+    "date_text": "1997",
+    "date": "1997",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Board of Waste",
+    "quote": "later as the head of the Institutional Relations of the Board of Waste ( 1995–1997 )"
+   }
+  ]
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "bc3585ccd0e57553",
+  "N2": "a44c7317f39b3792",
+  "N3": "fe5962d8c5252770",
+  "N4": "0f907a9a8b4a0f76",
+  "N5": "b8efec0838b628df",
+  "N6": "34d931f1e4c61120",
+  "N7": "7281bca1cbbdc5d7",
+  "N8": "c4c6d9f86182aada",
+  "N9": "a9031be5c3c68212",
+  "N10": "787732784d7618dc"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Platzeck co-founded ARGUS , a Potsdam environmental organization , with and at the initiative of Carola Stabe in April 1988 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Platzeck co-founded ARGUS, a Potsdam environmental organization, with Carola Stabe.",
+    "evidence": "Platzeck co-founded ARGUS , a Potsdam environmental organization , with and at the initiative of Carola Stabe in April 1988 .",
+    "date_text": "April 1988",
+    "date": "1988-04",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "ARGUS",
+    "quote": "Platzeck co-founded ARGUS , a Potsdam environmental organization , with and at the initiative of Carola Stabe in April 1988 ."
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Mikael Pentikäinen was the editor-in-chief until May 2013.",
+   "chunk": 3,
+   "date_text": "May 2013",
+   "date": "2013-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "editor-in-chief",
+   "quote": "Mikael Pentikäinen was the editor-in-chief until May 2013",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Sanomat#3"
+  },
+  {
+   "text": "Mikael Pentikäinen was fired from the post of editor-in-chief in May 2013.",
+   "chunk": 3,
+   "date_text": "May 2013",
+   "date": "2013-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "editor-in-chief",
+   "quote": "until May 2013 when he was fired from the post",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Sanomat#3"
+  },
+  {
+   "text": "Riikka Venäläinen replaced him temporarily in the post.",
+   "chunk": 3,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "editor-in-chief",
+   "quote": "Riikka Venäläinen replaced him temporarily in the post",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Sanomat#3"
+  }
+ ],
+ "dropped": []
+}

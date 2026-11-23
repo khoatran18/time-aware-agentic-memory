@@ -1,0 +1,57 @@
+{
+ "idmap": {
+  "N1": "755e7293c6d5e747",
+  "N2": "bb6796ca21e54747",
+  "N3": "395c48e0a93bbb2b",
+  "N4": "8fffe97347f10062",
+  "N5": "ed72ce4691f38425",
+  "N6": "b527fdc5386a74fb",
+  "N7": "fc5ebd01fd3b23d4",
+  "N8": "fa01bfca7f54ac1e",
+  "N9": "126118ee97108bd2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Soon after , Juan Emilio Posada was appointed CEO",
+    "end_date": null
+   },
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "Soon after , Juan Emilio Posada was appointed CEO and would serve until the airlines demise in 2003",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Juan Emilio Posada was appointed CEO.",
+    "evidence": "Soon after , Juan Emilio Posada was appointed CEO",
+    "date_text": "Soon after",
+    "date": "1992",
+    "approximate": true,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "ACES",
+    "quote": "Soon after , Juan Emilio Posada was appointed CEO"
+   },
+   {
+    "text": "Juan Emilio Posada's service ended with the airline's demise.",
+    "evidence": "would serve until the airlines demise in 2003",
+    "date_text": "2003",
+    "date": "2003",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "ACES",
+    "quote": "would serve until the airlines demise in 2003"
+   }
+  ]
+ }
+}

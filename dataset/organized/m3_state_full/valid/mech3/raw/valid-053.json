@@ -1,0 +1,50 @@
+{
+ "idmap": {
+  "N1": "4c99ae7425de17a4",
+  "N2": "fd528e176f05a6b6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Riikka Venäläinen replaced him temporarily in the post .",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Mikael Pentikäinen was the editor-in-chief until May 2013 when he was fired from the post .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Mikael Pentikäinen was the editor-in-chief until May 2013 when he was fired from the post.",
+    "evidence": "Mikael Pentikäinen was the editor-in-chief until May 2013 when he was fired from the post .",
+    "date_text": "May 2013",
+    "date": "2013-05",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "editor-in-chief",
+    "quote": "Mikael Pentikäinen was the editor-in-chief until May 2013 when he was fired from the post"
+   },
+   {
+    "text": "Riikka Venäläinen replaced Mikael Pentikäinen temporarily in the post in May 2013.",
+    "evidence": "Riikka Venäläinen replaced him temporarily in the post .",
+    "date_text": "May 2013",
+    "date": "2013-05",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "editor-in-chief",
+    "quote": "Riikka Venäläinen replaced him temporarily in the post"
+   }
+  ]
+ }
+}

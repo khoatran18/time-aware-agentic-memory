@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "4026b32af08203e2",
+  "N2": "75b0aaa0baee83bd"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The managing director is Hans-Walter Rix ( August 2019 ) .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Hans-Walter Rix became managing director.",
+    "evidence": "The managing director is Hans-Walter Rix ( August 2019 ) .",
+    "date_text": "August 2019",
+    "date": "2019-08",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "managing director",
+    "quote": "The managing director is Hans-Walter Rix ( August 2019 ) ."
+   }
+  ]
+ }
+}

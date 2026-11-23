@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Le Bal has supported an organization that provides education for girls in Southeast Asia.",
+   "chunk": 2,
+   "date_text": "Since 2009",
+   "date": "2009",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "Since 2009 , le Bal has supported , which provides education for girls in Southeast Asia .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bal_des_débutantes#2"
+  },
+  {
+   "text": "Le Bal has also supported Seleni, a non-profit that finances research in healthcare for adolescent mothers.",
+   "chunk": 2,
+   "date_text": "Since 2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Seleni",
+   "quote": "Since 2015 it has also supported Seleni , a non-profit that finances research in healthcare for adolescent mothers .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bal_des_débutantes#2"
+  },
+  {
+   "text": "Forbes cited it as one of the worlds 10 hottest parties.",
+   "chunk": 2,
+   "date_text": "In 2005",
+   "date": "2005",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Forbes",
+   "quote": "In 2005 , Forbes cited it as one of the worlds 10 hottest parties .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bal_des_débutantes#2"
+  }
+ ],
+ "dropped": []
+}

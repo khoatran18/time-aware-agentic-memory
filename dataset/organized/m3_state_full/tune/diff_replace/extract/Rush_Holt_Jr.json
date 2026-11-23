@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Holt won re-election to an 8th term, defeating Republican businessman Eric Beck 69% to 29%.",
+   "chunk": 21,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "8th term",
+   "quote": "Holt won re-election to an 8th term , defeating Republican businessman Eric Beck 69% to 29% .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rush_Holt_Jr.#21"
+  },
+  {
+   "text": "Rush Holt announced that he would not seek re-election to the House of Representatives in 2014.",
+   "chunk": 21,
+   "date_text": "February 18 , 2014",
+   "date": "2014-02-18",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "House of Representatives",
+   "quote": "On February 18 , 2014 , Rush Holt announced that he would not seek re-election to the House of Representatives in 2014 .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Rush_Holt_Jr.#21"
+  }
+ ],
+ "dropped": []
+}

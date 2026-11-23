@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "841f80632f69c6a8",
+  "N2": "ec820466cbade0c2",
+  "N3": "b7103f973283baea"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In 1915 she bought her first business , the Bon Ton Cafe on William Street .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "She bought her first business, the Bon Ton Cafe on William Street.",
+    "evidence": "In 1915 she bought her first business , the Bon Ton Cafe on William Street .",
+    "date_text": "1915",
+    "date": "1915",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Bon Ton Cafe",
+    "quote": "In 1915 she bought her first business , the Bon Ton Cafe on William Street ."
+   }
+  ]
+ }
+}

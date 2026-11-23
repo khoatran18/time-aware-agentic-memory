@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "The Chicago Red Stars played at Toyota Park during the team's membership in Women's Professional Soccer.",
+   "chunk": 28,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Toyota Park",
+   "quote": "the Chicago Red Stars played at Toyota Park",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Women's"
+   ],
+   "cid": "/wiki/Chicago_Red_Stars#28"
+  },
+  {
+   "text": "Since 2011, the Red Stars have played at the Village of Lisle-Benedictine University Sports Complex.",
+   "chunk": 28,
+   "date_text": "Since 2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Village of Lisle-Benedictine University Sports Complex",
+   "quote": "Since 2011 , in the Womens Premier Soccer League",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#28"
+  },
+  {
+   "text": "During the club's 2012 WPSL Elite season, some matches were played at the Concordia University Chicago Athletic Complex in River Forest, Illinois.",
+   "chunk": 29,
+   "date_text": "2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Concordia University Chicago Athletic Complex",
+   "quote": "During the clubs 2012 WPSL Elite season , some matches were played at the Concordia University Chicago Athletic Complex",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#29"
+  },
+  {
+   "text": "In December 2015, the Chicago Red Stars announced their return to Toyota Park for their 2016 NWSL home games.",
+   "chunk": 29,
+   "date_text": "December 2015",
+   "date": "2015-12",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Toyota Park",
+   "quote": "In December 2015 , the Chicago Red Stars announced their return to Toyota Park",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#29"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "During the club's 2012 WPSL Elite season, some matches were played at the Lakeside Athletic Field at Northwestern University in Evanston, Illinois.",
+   "chunk": 29,
+   "date_text": "2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Lakeside Athletic Field at Northwestern University",
+   "quote": "the Lakeside Athletic Field at Northwestern University in Evanston , Illinois",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#29",
+   "reason": "duplicate"
+  }
+ ]
+}

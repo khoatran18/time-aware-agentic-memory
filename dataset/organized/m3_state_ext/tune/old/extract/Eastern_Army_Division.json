@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Eastern Army Division began operating in various forms.",
+   "chunk": 0,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Eastern Army Division",
+   "quote": "operated in various forms from 1941 to 2000",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Eastern_Army_Division#0"
+  },
+  {
+   "text": "The Eastern Army Division ceased operating in various forms.",
+   "chunk": 0,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Eastern Army Division",
+   "quote": "operated in various forms from 1941 to 2000",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Eastern_Army_Division#0"
+  },
+  {
+   "text": "The unit was dissolved because of the disarmament policies put forward in the Defence Act of 2000.",
+   "chunk": 0,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Defence Act of 2000",
+   "quote": "The unit was dissolved because of the disarmament policies put forward in the Defence Act of 2000",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Eastern_Army_Division#0"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,121 @@
+{
+ "events": [
+  {
+   "text": "Her keel was laid down by Germaniawerft of Kiel as yard number 601.",
+   "chunk": 0,
+   "date_text": "16 September 1939",
+   "date": "1939-09-16",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Germaniawerft",
+   "quote": "Her keel was laid down on 16 September 1939 , by Germaniawerft , of Kiel as yard number 601 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#0"
+  },
+  {
+   "text": "She was commissioned with Kapitänleutnant Heinrich Lehmann-Willenbrock in command.",
+   "chunk": 0,
+   "date_text": "14 September 1940",
+   "date": "1940-09-14",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Heinrich Lehmann-Willenbrock",
+   "quote": "She was commissioned on 14 September 1940 , with Kapitänleutnant Heinrich Lehmann-Willenbrock in command .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#0"
+  },
+  {
+   "text": "Lehmann-Willenbrock was relieved by Oberleutnant zur See Hans-Jürgen Hellriegel.",
+   "chunk": 0,
+   "date_text": "March 1942",
+   "date": "1942-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Hans-Jürgen Hellriegel",
+   "quote": "Lehmann-Willenbrock was relieved in March 1942 by Oberleutnant zur See Hans-Jürgen Hellriegel",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#0"
+  },
+  {
+   "text": "Hellriegel was relieved in turn by Oblt.z.S. Wilhelm Peters.",
+   "chunk": 0,
+   "date_text": "March 1943",
+   "date": "1943-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Wilhelm Peters",
+   "quote": "who was relieved in turn in March 1943 by Oblt.z.S . Wilhelm Peters .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#0"
+  },
+  {
+   "text": "Oblt.z.S. Horst Willner took command.",
+   "chunk": 0,
+   "date_text": "February 1944",
+   "date": "1944-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Horst Willner",
+   "quote": "In February 1944 , Oblt.z.S . Horst Willner took command",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#0"
+  },
+  {
+   "text": "Willner turned the boat over to Oblt.z.S. Robert Rix.",
+   "chunk": 1,
+   "date_text": "June of that year",
+   "date": "1944-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Robert Rix",
+   "quote": "Robert Rix in June of that year .",
+   "section": 0,
+   "flags": [
+    "derived_date"
+   ],
+   "cid": "/wiki/German_submarine_U-96_(1940)#1"
+  },
+  {
+   "text": "War correspondent Lothar-Günther Buchheim joined U-96 for her seventh patrol.",
+   "chunk": 2,
+   "date_text": "autumn 1941",
+   "date": "1941",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Lothar-Günther Buchheim",
+   "quote": "During autumn 1941 , war correspondent Lothar-Günther Buchheim joined U-96 for her seventh patrol .",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/German_submarine_U-96_(1940)#2"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,28 @@
+{
+ "idmap": {
+  "N1": "3a002e0828d5e910",
+  "N2": "c77a1b3966cc8578",
+  "N3": "622089ed251533a9",
+  "N4": "33e2f849bd93ca72",
+  "N5": "7b9441e109ebe834",
+  "N6": "816ee16ed1dbae16"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The building continued to store streetcars until May 1950.",
+    "evidence": "The building continued to store streetcars until May 1950 .",
+    "date_text": "May 1950",
+    "date": "1950-05",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "streetcars",
+    "quote": "The building continued to store streetcars until May 1950 ."
+   }
+  ]
+ }
+}

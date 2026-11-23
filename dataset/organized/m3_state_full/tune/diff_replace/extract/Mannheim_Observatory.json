@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Roger Barry recommenced his observations after the 1806 war.",
+   "chunk": 11,
+   "date_text": "1806",
+   "date": "1806",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "observatory",
+   "quote": "After the 1806 war over the Grand Duchy of Badens claims to areas of the Palatinate and thus the observatory , the Court Astronomer , Roger Barry , recommenced his observations",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Mannheim_Observatory#11"
+  },
+  {
+   "text": "Roger Barry fell ill.",
+   "chunk": 11,
+   "date_text": "1810",
+   "date": "1810",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Roger Barry",
+   "quote": "fell ill in 1810",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Mannheim_Observatory#11"
+  },
+  {
+   "text": "Roger Barry died, until which the observatory remained unused.",
+   "chunk": 11,
+   "date_text": "1813",
+   "date": "1813",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Roger Barry",
+   "quote": "the observatory remained unused until his death in 1813",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Mannheim_Observatory#11"
+  }
+ ],
+ "dropped": []
+}

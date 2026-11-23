@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "94542c119be93a99",
+  "N2": "08131649a579a3ae"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In August 2019 , a branch that had been located on Wenceslas Square in Prague moved to the neighboring City Element building",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "A branch located on Wenceslas Square in Prague moved to the neighboring City Element building in Prague's Pankrác.",
+    "evidence": "In August 2019 , a branch that had been located on Wenceslas Square in Prague moved to the neighboring City Element building",
+    "date_text": "In August 2019",
+    "date": "2019-08",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "part_of_self",
+    "object": "City Element building",
+    "quote": "In August 2019 , a branch that had been located on Wenceslas Square in Prague moved to the neighboring City Element building"
+   }
+  ]
+ }
+}

@@ -1,0 +1,950 @@
+{
+ "events": [
+  {
+   "text": "Mykola Chebotarov served from April 1919.",
+   "chunk": 45,
+   "date_text": "April",
+   "date": "1919-04",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Mykola Chebotarov",
+   "quote": "Mykola Chebotarov ( April–July 1919 )",
+   "section": 6,
+   "flags": [
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Mykola Chebotarov's service ended in July 1919.",
+   "chunk": 45,
+   "date_text": "July",
+   "date": "1919-07",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Mykola Chebotarov",
+   "quote": "Mykola Chebotarov ( April–July 1919 )",
+   "section": 6,
+   "flags": [
+    "month_from_date_text",
+    "name_not_in_page:Chebotarov's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Starting in 1924 Chebotarov started intelligence work on his own initiative for the Ukrainian Peoples Republic government in exile.",
+   "chunk": 45,
+   "date_text": "1924",
+   "date": "1924",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Ukrainian Peoples Republic government in exile",
+   "quote": "starting in 1924 Chebotarov started intelligence work on his own initiative",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Felix Dzerzhinsky's term began on December 3, 1918.",
+   "chunk": 45,
+   "date_text": "December 3 , 1918",
+   "date": "1918-12-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Felix Dzerzhinsky",
+   "quote": "Felix Dzerzhinsky , December 3 , 1918 – April 2 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Dzerzhinsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Felix Dzerzhinsky's term ended on April 2, 1919.",
+   "chunk": 45,
+   "date_text": "April 2 , 1919",
+   "date": "1919-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Felix Dzerzhinsky",
+   "quote": "Felix Dzerzhinsky , December 3 , 1918 – April 2 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Dzerzhinsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Martin Latsis's term began on April 2, 1919.",
+   "chunk": 45,
+   "date_text": "April 2 , 1919",
+   "date": "1919-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Martin Latsis",
+   "quote": "Martin Latsis , April 2 , 1919 – August 16 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Latsis's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Martin Latsis's term ended on August 16, 1919.",
+   "chunk": 45,
+   "date_text": "August 16 , 1919",
+   "date": "1919-08-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Martin Latsis",
+   "quote": "Martin Latsis , April 2 , 1919 – August 16 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Latsis's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Vasiliy Mantsev's term began on August 16, 1919.",
+   "chunk": 46,
+   "date_text": "August 16 , 1919",
+   "date": "1919-08-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , August 16 , 1919 – March 17 , 1920",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#46"
+  },
+  {
+   "text": "Vasiliy Mantsev's term ended on March 17, 1920.",
+   "chunk": 46,
+   "date_text": "March 17 , 1920",
+   "date": "1920-03-17",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , August 16 , 1919 – March 17 , 1920",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#46"
+  },
+  {
+   "text": "Vasiliy Mantsev's term began on March 17, 1920.",
+   "chunk": 47,
+   "date_text": "March 17 , 1920",
+   "date": "1920-03-17",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , March 17 , 1920 – April 2 , 1921",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Vasiliy Mantsev's term ended on April 2, 1921.",
+   "chunk": 47,
+   "date_text": "April 2 , 1921",
+   "date": "1921-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , March 17 , 1920 – April 2 , 1921",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Vasiliy Mantsev's term began on April 2, 1921.",
+   "chunk": 47,
+   "date_text": "April 2 , 1921",
+   "date": "1921-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , April 2 , 1921 – August 2 , 1923",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Vasiliy Mantsev's term ended on August 2, 1923.",
+   "chunk": 47,
+   "date_text": "August 2 , 1923",
+   "date": "1923-08-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Mantsev",
+   "quote": "Vasiliy Mantsev , April 2 , 1921 – August 2 , 1923",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mantsev's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Acting Vsevolod Balitsky's term began on August 2, 1923.",
+   "chunk": 47,
+   "date_text": "August 2 , 1923",
+   "date": "1923-08-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "( acting ) Vsevolod Balitsky , August 2 , 1923 – September 3 , 1923",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Acting Vsevolod Balitsky's term ended on September 3, 1923.",
+   "chunk": 47,
+   "date_text": "September 3 , 1923",
+   "date": "1923-09-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "( acting ) Vsevolod Balitsky , August 2 , 1923 – September 3 , 1923",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#47"
+  },
+  {
+   "text": "Vsevolod Balitsky's term began on September 3, 1923.",
+   "chunk": 48,
+   "date_text": "September 3 , 1923",
+   "date": "1923-09-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , September 3 , 1923 – June 31 , 1931",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#48"
+  },
+  {
+   "text": "Vsevolod Balitsky's term ended on June 31, 1931.",
+   "chunk": 48,
+   "date_text": "June 31 , 1931",
+   "date": "1931-06-31",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , September 3 , 1923 – June 31 , 1931",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#48"
+  },
+  {
+   "text": "Stanislav Redens's term began in 1931.",
+   "chunk": 49,
+   "date_text": "1931",
+   "date": "1931",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Stanislav Redens",
+   "quote": "Stanislav Redens , 1931 – 1933",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Redens's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Stanislav Redens's term ended in 1933.",
+   "chunk": 49,
+   "date_text": "1933",
+   "date": "1933",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Stanislav Redens",
+   "quote": "Stanislav Redens , 1931 – 1933",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Redens's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vsevolod Balitsky's term began on February 21, 1933.",
+   "chunk": 49,
+   "date_text": "February 21 , 1933",
+   "date": "1933-02-21",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , February 21 , 1933 – July 10 , 1934",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vsevolod Balitsky's term ended on July 10, 1934.",
+   "chunk": 49,
+   "date_text": "July 10 , 1934",
+   "date": "1934-07-10",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , February 21 , 1933 – July 10 , 1934",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vsevolod Balitsky's term began in 1934.",
+   "chunk": 49,
+   "date_text": "1934",
+   "date": "1934",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , 1934 – 1937",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vsevolod Balitsky's term ended in 1937.",
+   "chunk": 49,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vsevolod Balitsky",
+   "quote": "Vsevolod Balitsky , 1934 – 1937",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Balitsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Acting Vasiliy Timofeyevich Ivanov served in 1937.",
+   "chunk": 49,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Timofeyevich Ivanov",
+   "quote": "( acting ) Vasiliy Timofeyevich Ivanov , 1937",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Israel Moiseyevich Leplevsky's term began in 1937.",
+   "chunk": 49,
+   "date_text": "1937",
+   "date": "1937",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Israel Moiseyevich Leplevsky",
+   "quote": "Israel Moiseyevich Leplevsky , 1937 – 1938",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Leplevsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Israel Moiseyevich Leplevsky's term ended in 1938.",
+   "chunk": 49,
+   "date_text": "1938",
+   "date": "1938",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Israel Moiseyevich Leplevsky",
+   "quote": "Israel Moiseyevich Leplevsky , 1937 – 1938",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Leplevsky's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Alexander Ivanovich Uspensky served in 1938.",
+   "chunk": 49,
+   "date_text": "1938",
+   "date": "1938",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Alexander Ivanovich Uspensky",
+   "quote": "Alexander Ivanovich Uspensky , 1938",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Acting Amayak Zakharovich Kobulov's term began in 1938.",
+   "chunk": 49,
+   "date_text": "1938",
+   "date": "1938",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Amayak Zakharovich Kobulov",
+   "quote": "( acting ) Amayak Zakharovich Kobulov , 1938 – 1939",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Kobulov's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Acting Amayak Zakharovich Kobulov's term ended in 1939.",
+   "chunk": 49,
+   "date_text": "1939",
+   "date": "1939",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Amayak Zakharovich Kobulov",
+   "quote": "( acting ) Amayak Zakharovich Kobulov , 1938 – 1939",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Kobulov's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Ivan Aleksandrovich Serov's term began in 1939.",
+   "chunk": 49,
+   "date_text": "1939",
+   "date": "1939",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Ivan Aleksandrovich Serov",
+   "quote": "Ivan Aleksandrovich Serov , 1939 – 1941",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Serov's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Ivan Aleksandrovich Serov's term ended in 1941.",
+   "chunk": 49,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Ivan Aleksandrovich Serov",
+   "quote": "Ivan Aleksandrovich Serov , 1939 – 1941",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Serov's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Pavel Yakovich Meshik served in 1941.",
+   "chunk": 49,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Pavel Yakovich Meshik",
+   "quote": "Pavel Yakovich Meshik , 1941",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vasiliy Timofeyevich Sergienko's term began in 1941.",
+   "chunk": 49,
+   "date_text": "1941",
+   "date": "1941",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Timofeyevich Sergienko",
+   "quote": "Vasiliy Timofeyevich Sergienko , 1941 – 1943",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Sergienko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Vasiliy Timofeyevich Sergienko's term ended in 1943.",
+   "chunk": 49,
+   "date_text": "1943",
+   "date": "1943",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vasiliy Timofeyevich Sergienko",
+   "quote": "Vasiliy Timofeyevich Sergienko , 1941 – 1943",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Sergienko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Sergei Romanovich Savchenko's term began in 1943.",
+   "chunk": 49,
+   "date_text": "1943",
+   "date": "1943",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Sergei Romanovich Savchenko",
+   "quote": "Sergei Romanovich Savchenko , 1943–1949",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Savchenko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Sergei Romanovich Savchenko's term ended in 1949.",
+   "chunk": 49,
+   "date_text": "1949",
+   "date": "1949",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Sergei Romanovich Savchenko",
+   "quote": "Sergei Romanovich Savchenko , 1943–1949",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Savchenko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#49"
+  },
+  {
+   "text": "Nikolai Kuzmich Kovalchuk's term began in 1949.",
+   "chunk": 50,
+   "date_text": "1949",
+   "date": "1949",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Kuzmich Kovalchuk",
+   "quote": "Nikolai Kuzmich Kovalchuk , 1949–1952",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Kovalchuk's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#50"
+  },
+  {
+   "text": "Nikolai Kuzmich Kovalchuk's term ended in 1952.",
+   "chunk": 50,
+   "date_text": "1952",
+   "date": "1952",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Kuzmich Kovalchuk",
+   "quote": "Nikolai Kuzmich Kovalchuk , 1949–1952",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Kovalchuk's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#50"
+  },
+  {
+   "text": "Pyotr Ivanovich Ivashutin's term began in 1952.",
+   "chunk": 51,
+   "date_text": "1952",
+   "date": "1952",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Pyotr Ivanovich Ivashutin",
+   "quote": "Pyotr Ivanovich Ivashutin , 1952–1956",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Ivashutin's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Pyotr Ivanovich Ivashutin's term ended in 1956.",
+   "chunk": 51,
+   "date_text": "1956",
+   "date": "1956",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Pyotr Ivanovich Ivashutin",
+   "quote": "Pyotr Ivanovich Ivashutin , 1952–1956",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Ivashutin's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Tymofiy Amvrosiyovych Strokach's term began in 1953.",
+   "chunk": 51,
+   "date_text": "1953",
+   "date": "1953",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Tymofiy Amvrosiyovych Strokach",
+   "quote": "Tymofiy Amvrosiyovych Strokach , 1953 – 1954",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Strokach's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Tymofiy Amvrosiyovych Strokach's term ended in 1954.",
+   "chunk": 51,
+   "date_text": "1954",
+   "date": "1954",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Tymofiy Amvrosiyovych Strokach",
+   "quote": "Tymofiy Amvrosiyovych Strokach , 1953 – 1954",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Strokach's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Vitaliy Fedotovych Nikitchenko's term began on April 6, 1954.",
+   "chunk": 51,
+   "date_text": "April 6 , 1954",
+   "date": "1954-04-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vitaliy Fedotovych Nikitchenko",
+   "quote": "Vitaliy Fedotovych Nikitchenko , April 6 , 1954 – July 16 , 1970",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Nikitchenko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Vitaliy Fedotovych Nikitchenko's term ended on July 16, 1970.",
+   "chunk": 51,
+   "date_text": "July 16 , 1970",
+   "date": "1970-07-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vitaliy Fedotovych Nikitchenko",
+   "quote": "Vitaliy Fedotovych Nikitchenko , April 6 , 1954 – July 16 , 1970",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Nikitchenko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Vitaliy Vasyliovych Fedorchuk's term began on July 18, 1970.",
+   "chunk": 51,
+   "date_text": "July 18 , 1970",
+   "date": "1970-07-18",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vitaliy Vasyliovych Fedorchuk",
+   "quote": "Vitaliy Vasyliovych Fedorchuk , July 18 , 1970 – May 26 , 1982",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Fedorchuk's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Vitaliy Vasyliovych Fedorchuk's term ended on May 26, 1982.",
+   "chunk": 51,
+   "date_text": "May 26 , 1982",
+   "date": "1982-05-26",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Vitaliy Vasyliovych Fedorchuk",
+   "quote": "Vitaliy Vasyliovych Fedorchuk , July 18 , 1970 – May 26 , 1982",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Fedorchuk's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Stepan Nestorovych Mukha's term began on May 26, 1982.",
+   "chunk": 51,
+   "date_text": "May 26 , 1982",
+   "date": "1982-05-26",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Stepan Nestorovych Mukha",
+   "quote": "Stepan Nestorovych Mukha , May 26 , 1982 – 1987",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mukha's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Stepan Nestorovych Mukha's term ended in 1987.",
+   "chunk": 51,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Stepan Nestorovych Mukha",
+   "quote": "Stepan Nestorovych Mukha , May 26 , 1982 – 1987",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Mukha's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Nikolai Mikhailovich Golushko's term began in 1987.",
+   "chunk": 51,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Mikhailovich Golushko",
+   "quote": "Nikolai Mikhailovich Golushko , 1987 – September 20 , 1991",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Golushko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Nikolai Mikhailovich Golushko's term ended on September 20, 1991.",
+   "chunk": 51,
+   "date_text": "September 20 , 1991",
+   "date": "1991-09-20",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Mikhailovich Golushko",
+   "quote": "Nikolai Mikhailovich Golushko , 1987 – September 20 , 1991",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Golushko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "The Security Service of Ukraine was established on 20 September 1991.",
+   "chunk": 51,
+   "date_text": "20 September 1991",
+   "date": "1991-09-20",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Security Service of Ukraine",
+   "quote": "Security Service of Ukraine ( SBU ) . - establishment 20 September 1991",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#51"
+  },
+  {
+   "text": "Acting Nikolai Mikhailovich Golushko's term began on September 20, 1991.",
+   "chunk": 52,
+   "date_text": "September 20 , 1991",
+   "date": "1991-09-20",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Mikhailovich Golushko",
+   "quote": "Nikolai Mikhailovich Golushko ( acting ) , September 20 , 1991 – November 6 , 1991",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Golushko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#52"
+  },
+  {
+   "text": "Acting Nikolai Mikhailovich Golushko's term ended on November 6, 1991.",
+   "chunk": 52,
+   "date_text": "November 6 , 1991",
+   "date": "1991-11-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Nikolai Mikhailovich Golushko",
+   "quote": "Nikolai Mikhailovich Golushko ( acting ) , September 20 , 1991 – November 6 , 1991",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Golushko's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#52"
+  }
+ ],
+ "dropped": []
+}

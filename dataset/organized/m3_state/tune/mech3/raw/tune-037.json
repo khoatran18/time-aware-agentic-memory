@@ -1,0 +1,24 @@
+{
+ "idmap": {
+  "N1": "b41d40137a285f9f",
+  "N2": "b2cc4383d01a5fc2"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The Greenbelt Cooperator name was changed in 1954.",
+    "evidence": "originally named the Greenbelt Cooperator until its name was changed in 1954",
+    "date_text": "1954",
+    "date": "1954",
+    "approximate": false,
+    "track": "naming",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Greenbelt Cooperator",
+    "quote": "originally named the Greenbelt Cooperator until its name was changed in 1954"
+   }
+  ]
+ }
+}

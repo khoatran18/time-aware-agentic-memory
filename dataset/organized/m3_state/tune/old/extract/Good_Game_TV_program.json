@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Bajo and Hex hosted an episode of the ABC music video show Rage.",
+   "chunk": 20,
+   "date_text": "19 June 2010",
+   "date": "2010-06-19",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Rage",
+   "quote": "including hosting an episode of the ABC music video show Rage on 19 June 2010",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#20"
+  },
+  {
+   "text": "The two hosts became ambassadors for the national schools filmmaking competition Screen It.",
+   "chunk": 20,
+   "date_text": "In 2013",
+   "date": "2013",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Screen It",
+   "quote": "In 2013 , the two hosts became ambassadors for the national schools filmmaking competition Screen It",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#20"
+  },
+  {
+   "text": "They spoke at the Perth Writers Festival at the University of Western Australia.",
+   "chunk": 20,
+   "date_text": "In 2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Perth Writers Festival",
+   "quote": "In 2014 , they spoke at the Perth Writers Festival at the University of Western Australia",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#20"
+  },
+  {
+   "text": "They served as hosts of the 2014 MCV Pacific Awards for gaming.",
+   "chunk": 20,
+   "date_text": "2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "MCV Pacific Awards",
+   "quote": "They also served as hosts of the 2014 MCV Pacific Awards for gaming",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Good_Game_(TV_program)#20"
+  }
+ ],
+ "dropped": []
+}

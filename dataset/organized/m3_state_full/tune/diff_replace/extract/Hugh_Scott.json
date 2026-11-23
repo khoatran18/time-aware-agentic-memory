@@ -1,0 +1,71 @@
+{
+ "events": [
+  {
+   "text": "Scott was admitted to the bar.",
+   "chunk": 8,
+   "date_text": "1922",
+   "date": "1922",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "the bar",
+   "quote": "Scott was admitted to the bar in 1922",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hugh_Scott#8"
+  },
+  {
+   "text": "Scott moved to Philadelphia, Pennsylvania, where he joined his uncles law firm.",
+   "chunk": 8,
+   "date_text": "1922",
+   "date": "1922",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Philadelphia",
+   "quote": "then moved to Philadelphia , Pennsylvania , where he joined his uncles law firm",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hugh_Scott#8"
+  },
+  {
+   "text": "Marian Huntington Chase died.",
+   "chunk": 8,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Marian Huntington Chase",
+   "quote": "her death in 1987",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hugh_Scott#8"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Scott married Marian Huntington Chase.",
+   "chunk": 8,
+   "date_text": "Two years later",
+   "date": "1924",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Marian Huntington Chase",
+   "quote": "Two years later , he married Marian Huntington Chase",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Hugh_Scott#8",
+   "reason": "year_not_in_page"
+  }
+ ]
+}

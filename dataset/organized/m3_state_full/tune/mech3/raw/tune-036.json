@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "8cbe3fa0bfc4e35f",
+  "N2": "02fd9a10d135dfb3",
+  "N3": "61d1b911eb96c07e",
+  "N4": "205c7e0878ed56f5",
+  "N5": "d678afd3cdff629f",
+  "N6": "2c598399b9f1058a",
+  "N7": "ff47e75138caea37"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "close",
+    "evidence": "from June 2003 through June 2020 he was Chair of the Electrical Engineering and Computer Science Department",
+    "end_date": "2020-06"
+   }
+  ],
+  "add": [
+   {
+    "text": "His tenure as Chair of the Electrical Engineering and Computer Science Department ended in June 2020.",
+    "evidence": "from June 2003 through June 2020 he was Chair of the Electrical Engineering and Computer Science Department",
+    "date_text": "June 2020",
+    "date": "2020-06",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Electrical Engineering and Computer Science Department",
+    "quote": "from June 2003 through June 2020 he was Chair of the Electrical Engineering and Computer Science Department"
+   }
+  ]
+ }
+}

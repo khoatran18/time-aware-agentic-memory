@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "0c6850fb2a4031cd",
+  "N2": "fef8588ada216004",
+  "N3": "0cc11c7bbac7f4c0",
+  "N4": "44a09b00a4882897",
+  "N5": "5fb6c9d18ef4eefd"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In December 2015 , Detmer became the offensive coordinator and quarterbacks coach at BYU",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Detmer became the offensive coordinator and quarterbacks coach at BYU.",
+    "evidence": "In December 2015 , Detmer became the offensive coordinator and quarterbacks coach at BYU",
+    "date_text": "December 2015",
+    "date": "2015-12",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "BYU",
+    "quote": "In December 2015 , Detmer became the offensive coordinator and quarterbacks coach at BYU"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "83ab3a8c837532e2",
+  "N2": "d4b75c8168af5fe2",
+  "N3": "047040f2fb12a128",
+  "N4": "38e39748e9ae1e4f",
+  "N5": "da23ab8ac0206eda",
+  "N6": "07a09637d11b6619",
+  "N7": "ef4aaa8afc3631d6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "transferred to the Hauptkadettenanstalt ( Main Military Academy ) in Berlin-Lichterfelde on 1 April 1917",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He transferred to the Hauptkadettenanstalt in Berlin-Lichterfelde.",
+    "evidence": "transferred to the Hauptkadettenanstalt ( Main Military Academy ) in Berlin-Lichterfelde on 1 April 1917",
+    "date_text": "1 April 1917",
+    "date": "1917-04-01",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Hauptkadettenanstalt",
+    "quote": "transferred to the Hauptkadettenanstalt ( Main Military Academy ) in Berlin-Lichterfelde on 1 April 1917"
+   }
+  ]
+ }
+}

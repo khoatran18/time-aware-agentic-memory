@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "23753f3c308ba54c",
+  "N2": "c4267bde84b8adb3",
+  "N3": "1940310bd4309144"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "He entered naval college in 1907",
+    "end_date": null,
+    "new_text": "Gran entered naval college.",
+    "new_date": "1907",
+    "new_date_text": "1907",
+    "new_quote": "He entered naval college in 1907"
+   }
+  ],
+  "add": [
+   {
+    "text": "Gran entered naval college.",
+    "evidence": "He entered naval college in 1907",
+    "date_text": "1907",
+    "date": "1907",
+    "approximate": false,
+    "track": "education",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "naval college",
+    "quote": "He entered naval college in 1907"
+   }
+  ]
+ }
+}

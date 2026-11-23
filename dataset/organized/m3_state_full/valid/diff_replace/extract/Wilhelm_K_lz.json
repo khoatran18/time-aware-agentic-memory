@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Wilhelm Külz was born.",
+   "chunk": 0,
+   "date_text": "18 February 1875",
+   "date": "1875-02-18",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Wilhelm Külz ( 18 February 1875 – 10 April 1948 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Külz#0"
+  },
+  {
+   "text": "Wilhelm Külz died.",
+   "chunk": 0,
+   "date_text": "10 April 1948",
+   "date": "1948-04-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Wilhelm Külz ( 18 February 1875 – 10 April 1948 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Külz#0"
+  },
+  {
+   "text": "He served as interior minister of Germany in the cabinets of chancellors Hans Luther and Wilhelm Marx.",
+   "chunk": 0,
+   "date_text": "In 1926",
+   "date": "1926",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "interior minister of Germany",
+   "quote": "In 1926 , he served as interior minister of Germany in the cabinets of chancellors Hans Luther and Wilhelm Marx .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Wilhelm_Külz#0"
+  }
+ ],
+ "dropped": []
+}

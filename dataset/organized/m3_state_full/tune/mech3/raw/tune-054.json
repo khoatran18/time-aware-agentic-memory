@@ -1,0 +1,42 @@
+{
+ "idmap": {
+  "N1": "5a8a8124916fe647",
+  "N2": "c4a13b09960f3748",
+  "N3": "e3464ef45a179ba9",
+  "N4": "87e27d6cbe7c41ed",
+  "N5": "89335393d6886af9",
+  "N6": "0c7e0677df121ace",
+  "N7": "f874cac725e6fc67",
+  "N8": "1bdf07bd6bbadc4c",
+  "N9": "d21f530c408e9cae",
+  "N10": "20dbc824148636b0",
+  "N11": "c4e842f56508381a",
+  "N12": "01057a6497250447",
+  "N13": "2e4bf59fee373965"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "PokerStars.com sponsored the event in 2010",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "PokerStars.com sponsored the event in 2010.",
+    "evidence": "PokerStars.com sponsored the event in 2010",
+    "date_text": "2010",
+    "date": "2010",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "PokerStars.com",
+    "quote": "PokerStars.com sponsored the event in 2010"
+   }
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "add47e160606eff6",
+  "N2": "82e8cb1fa3d3e89b",
+  "N3": "3e7ee67cc9250b8a",
+  "N4": "0fe70c9803b67867",
+  "N5": "4f34e672ef093946",
+  "N6": "a14d27087749ac0f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "edit",
+    "evidence": "was appointed a Royal Designer for Industry in 1943",
+    "end_date": null,
+    "new_text": "Holden was appointed a Royal Designer for Industry.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "was appointed a Royal Designer for Industry in 1943"
+   }
+  ],
+  "add": []
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "events": [
+  {
+   "text": "Expobank CZ has been based in the Trimaran building on Na strži street in Prague's Pankrác district.",
+   "chunk": 9,
+   "date_text": "April 2019",
+   "date": "2019-04",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Trimaran building",
+   "quote": "Since April 2019 , Expobank CZ has been based in the Trimaran building",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Prague's"
+   ],
+   "cid": "/wiki/Expobank_CZ#9"
+  },
+  {
+   "text": "A branch located on Wenceslas Square in Prague moved to the neighboring City Element building in Prague's Pankrác.",
+   "chunk": 9,
+   "date_text": "August 2015",
+   "date": "2015-08",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "City Element building",
+   "quote": "In August 2015 , a branch that had been located on Wenceslas Square in Prague moved to the neighboring City Element building",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Prague's"
+   ],
+   "cid": "/wiki/Expobank_CZ#9"
+  }
+ ],
+ "dropped": []
+}

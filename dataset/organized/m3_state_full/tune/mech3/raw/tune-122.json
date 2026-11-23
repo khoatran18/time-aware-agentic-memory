@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "6a26027fb2b9a9bd",
+  "N2": "353dbc88ab9055f2",
+  "N3": "784d9f38dc826885",
+  "N4": "f774f7207eb01839",
+  "N5": "1590def0f86b65c8",
+  "N6": "54e9e56de78d62c5",
+  "N7": "f0142a5f446efa35",
+  "N8": "77e8c21523a62004",
+  "N9": "f0ba41418e336f81",
+  "N10": "0f69eb9cbc9424fe",
+  "N11": "c2360c91bf0c8e9e"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "who oversaw the next transition from four-year teachers college to comprehensive state college in 1960 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Daniel H. O'Leary oversaw the transition from four-year teachers college to comprehensive state college.",
+    "evidence": "who oversaw the next transition from four-year teachers college to comprehensive state college in 1960 .",
+    "date_text": "1960",
+    "date": "1960",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "comprehensive state college",
+    "quote": "who oversaw the next transition from four-year teachers college to comprehensive state college in 1960 ."
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "events": [
+  {
+   "text": "Hechler took command of the boat.",
+   "chunk": 11,
+   "date_text": "3 February",
+   "date": "1944-02-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "the boat",
+   "quote": "He took command of the boat on 3 February",
+   "section": 1,
+   "flags": [
+    "month_from_date_text",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Ernst_Hechler#11"
+  },
+  {
+   "text": "The boat was subordinated to the 4th U-boat Flotilla until 30 September 1944.",
+   "chunk": 11,
+   "date_text": "30 September 1944",
+   "date": "1944-09-30",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "4th U-boat Flotilla",
+   "quote": "subordinated to the 4th U-boat Flotilla until 30 September 1944",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Ernst_Hechler#11"
+  },
+  {
+   "text": "The boat was transferred to the 33rd U-boat Flotilla on 1 October.",
+   "chunk": 11,
+   "date_text": "1 October",
+   "date": "1944-10-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "33rd U-boat Flotilla",
+   "quote": "transferred to the 33rd U-boat Flotilla on 1 October",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Ernst_Hechler#11"
+  },
+  {
+   "text": "Johann-Friedrich Wessels joined the crew on 14 August 1944.",
+   "chunk": 11,
+   "date_text": "14 August 1944",
+   "date": "1944-08-14",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "U-870",
+   "quote": "who joined the crew on 14 August 1944",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Ernst_Hechler#11"
+  }
+ ],
+ "dropped": []
+}

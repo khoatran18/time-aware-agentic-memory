@@ -1,0 +1,57 @@
+{
+ "events": [
+  {
+   "text": "Fulk was born at Angers between 1089 and 1092.",
+   "chunk": 1,
+   "date_text": "between 1089 and 1092",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Angers",
+   "quote": "Fulk was born at Angers , between 1089 and 1092",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#1"
+  },
+  {
+   "text": "Fulk V became count of Anjou upon his father's death in 1109.",
+   "chunk": 1,
+   "date_text": "1109",
+   "date": "1109",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "count of Anjou",
+   "quote": "Fulk V became count of Anjou upon his fathers death in 1109",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#1"
+  },
+  {
+   "text": "In the next year, he married Countess Ermengarde of Maine.",
+   "chunk": 1,
+   "date_text": "In the next year",
+   "date": "1110",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Countess Ermengarde of Maine",
+   "quote": "In the next year , he married Countess Ermengarde of Maine",
+   "section": 1,
+   "flags": [
+    "derived_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#1"
+  }
+ ],
+ "dropped": []
+}

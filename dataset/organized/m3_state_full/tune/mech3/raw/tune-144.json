@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "e0e24b6af2120a1f",
+  "N2": "db856eecd4940855",
+  "N3": "70bc96f14e743170",
+  "N4": "44afc2147d422fc8",
+  "N5": "0115247c8195b959",
+  "N6": "9d7a3153b117f1ae",
+  "N7": "3a7ebbd5dd5cf7f2",
+  "N8": "655664c5c5afff07",
+  "N9": "9225b71101e0cadc",
+  "N10": "a99bfba180b3bd42",
+  "N11": "5108abdb3bd16c7a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "She obtained a PhD from Yale in 1894",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "She obtained a PhD from Yale.",
+    "evidence": "She obtained a PhD from Yale in 1894",
+    "date_text": "1894",
+    "date": "1894",
+    "approximate": false,
+    "track": "education",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Yale",
+    "quote": "She obtained a PhD from Yale in 1894"
+   }
+  ]
+ }
+}

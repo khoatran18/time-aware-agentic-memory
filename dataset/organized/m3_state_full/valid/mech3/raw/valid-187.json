@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "5d5484c7961da032",
+  "N2": "e2c6306d9771c5a6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "He joined the show in 1960",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Danny Ross joined the show in 1960.",
+    "evidence": "He joined the show in 1960",
+    "date_text": "1960",
+    "date": "1960",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "The Clitheroe Kid",
+    "quote": "He joined the show in 1960"
+   }
+  ]
+ }
+}

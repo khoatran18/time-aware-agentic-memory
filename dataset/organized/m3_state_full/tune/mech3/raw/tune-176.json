@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "8a4183a7a1613798",
+  "N2": "7a700eda8f0cdee8",
+  "N3": "f0fd07a474aef372",
+  "N4": "a32e15c57d1cec02",
+  "N5": "3bbc1d4bcb5fa62c",
+  "N6": "b4e1da313f469162"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In 2007 , SAS Group ceased to be a shareholder of the company",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "SAS Group ceased to be a shareholder of the company.",
+    "evidence": "In 2007 , SAS Group ceased to be a shareholder of the company",
+    "date_text": "2007",
+    "date": "2007",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "SAS Group",
+    "quote": "In 2007 , SAS Group ceased to be a shareholder of the company"
+   }
+  ]
+ }
+}

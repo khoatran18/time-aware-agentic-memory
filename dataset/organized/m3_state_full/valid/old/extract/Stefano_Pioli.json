@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Pioli was named head coach of Serie A club Palermo.",
+   "chunk": 8,
+   "date_text": "2 June 2008",
+   "date": "2008-06-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Palermo",
+   "quote": "On 2 June 2008 , Pioli was named head coach of Serie A club Palermo",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Stefano_Pioli#8"
+  },
+  {
+   "text": "Pioli was relieved of his duties as head coach of Palermo.",
+   "chunk": 8,
+   "date_text": "90 days later",
+   "date": "2008",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Palermo",
+   "quote": "he was relieved of his duties just 90 days later",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Stefano_Pioli#8"
+  }
+ ],
+ "dropped": []
+}

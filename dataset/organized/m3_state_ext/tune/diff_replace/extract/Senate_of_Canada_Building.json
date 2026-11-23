@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "A section of the Berlin wall was put on display inside the main entrance.",
+   "chunk": 19,
+   "date_text": "September 27 , 1991",
+   "date": "1991-09-27",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Berlin wall",
+   "quote": "A section of the Berlin wall was on display inside the main entrance from September 27 , 1991",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Senate_of_Canada_Building#19"
+  },
+  {
+   "text": "The display of the Berlin wall section inside the main entrance ended.",
+   "chunk": 19,
+   "date_text": "January 29 , 2011",
+   "date": "2011-01-29",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Berlin wall",
+   "quote": "until January 29 , 2011",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Senate_of_Canada_Building#19"
+  }
+ ],
+ "dropped": []
+}

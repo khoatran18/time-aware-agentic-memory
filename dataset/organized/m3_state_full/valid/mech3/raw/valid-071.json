@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "6becf0f7b7a6fc05",
+  "N2": "7ea1f51885620383",
+  "N3": "8393cf87fdb4cfa7",
+  "N4": "e6773592d4158793",
+  "N5": "26be057a5295112a",
+  "N6": "2ecc23baecc5cc04"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "When John died at the battle of Nevilles Cross in 1346 the earldom along with Tibbers Castle was given to Patrick , Earl of March .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "When John died at the battle of Nevilles Cross in 1346 the earldom along with Tibbers Castle was given to Patrick, Earl of March.",
+    "evidence": "When John died at the battle of Nevilles Cross in 1346 the earldom along with Tibbers Castle was given to Patrick , Earl of March .",
+    "date_text": "1346",
+    "date": "1346",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "part_of_self",
+    "object": "Patrick, Earl of March",
+    "quote": "When John died at the battle of Nevilles Cross in 1346 the earldom along with Tibbers Castle was given to Patrick , Earl of March ."
+   }
+  ]
+ }
+}

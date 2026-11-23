@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "ba41d70de72a417e",
+  "N2": "e303db7ebf967708",
+  "N3": "75a10a328e20de70",
+  "N4": "a6b12eac35195f19",
+  "N5": "7860c7f834f8fba8",
+  "N6": "33ba32eaf368de98",
+  "N7": "71d942d1b263ac20",
+  "N8": "f9e77c36983cd4c2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "On March 16 , 2012 , he became Vicar General .",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He became Vicar General.",
+    "evidence": "On March 16 , 2012 , he became Vicar General .",
+    "date_text": "March 16 , 2012",
+    "date": "2012-03-16",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Vicar General",
+    "quote": "On March 16 , 2012 , he became Vicar General ."
+   }
+  ]
+ }
+}

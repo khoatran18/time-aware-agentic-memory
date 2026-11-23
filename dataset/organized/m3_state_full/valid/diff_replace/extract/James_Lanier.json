@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Lanier became involved in banking.",
+   "chunk": 4,
+   "date_text": "In the early 1830s",
+   "date": null,
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "banking",
+   "quote": "In the early 1830s , Lanier became involved in banking .",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/James_Lanier#4"
+  },
+  {
+   "text": "Lanier became president of the Bank of Indiana.",
+   "chunk": 4,
+   "date_text": "in 1833",
+   "date": "1833",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bank of Indiana",
+   "quote": "He became president of the Bank of Indiana in 1833",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/James_Lanier#4"
+  },
+  {
+   "text": "Lanier was involved with construction of the states first major rail line connecting Madison and Indianapolis.",
+   "chunk": 4,
+   "date_text": "In the later 1830s",
+   "date": null,
+   "approximate": true,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "rail line connecting Madison and Indianapolis",
+   "quote": "In the later 1830s , Lanier was involved with construction of the states first major rail line connecting Madison and Indianapolis .",
+   "section": 2,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/James_Lanier#4"
+  },
+  {
+   "text": "The rail line was finally finished.",
+   "chunk": 4,
+   "date_text": "1847",
+   "date": "1847",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "the line",
+   "quote": "which was finally finished in 1847",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/James_Lanier#4"
+  }
+ ],
+ "dropped": []
+}

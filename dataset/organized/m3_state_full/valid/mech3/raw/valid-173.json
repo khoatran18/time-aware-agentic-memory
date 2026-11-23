@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "4a3b8377f94d1dcb",
+  "N2": "af82e57e1c415cc0",
+  "N3": "79443f7ff0387432",
+  "N4": "a55ccc7fcb964168",
+  "N5": "054744f53235ff89",
+  "N6": "867ca7cd56530d19",
+  "N7": "8fdd809331b52ce1",
+  "N8": "32c61104d4fc633c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "Sturrock resigned after two games of the 2000–01 season",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Sturrock resigned after two games of the 2000–01 season.",
+    "evidence": "Sturrock resigned after two games of the 2000–01 season",
+    "date_text": "2000–01 season",
+    "date": "2000",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Dundee United",
+    "quote": "Sturrock resigned after two games of the 2000–01 season"
+   }
+  ]
+ }
+}

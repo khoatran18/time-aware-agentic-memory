@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "f634ebca896aa69c",
+  "N2": "f9a3064aea536a81",
+  "N3": "a7e37cb3fa2e8a18",
+  "N4": "69126e3dc7cd01de",
+  "N5": "e40e2cfcad515f3f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "McKay was born on March 17 , 1910 in Aitkin , Minnesota .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "McKay was born on March 17, 1910 in Aitkin, Minnesota.",
+    "evidence": "McKay was born on March 17 , 1910 in Aitkin , Minnesota .",
+    "date_text": "March 17 , 1910",
+    "date": "1910-03-17",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Aitkin, Minnesota",
+    "quote": "McKay was born on March 17 , 1910 in Aitkin , Minnesota ."
+   }
+  ]
+ }
+}

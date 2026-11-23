@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "Interim President Adly Mansour issued a presidential decree reconstituting the Supreme Council of the Armed Forces (SCAF) to be headed by the defense minister.",
+   "chunk": 28,
+   "date_text": "In 2014",
+   "date": "2014",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Supreme Council of the Armed Forces (SCAF)",
+   "quote": "In 2014 , Interim President Adly Mansour issued a presidential decree reconstituting the Supreme Council of the Armed Forces ( SCAF )",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Supreme_Council_of_the_Armed_Forces#28"
+  },
+  {
+   "text": "The new constitution was passed in January.",
+   "chunk": 29,
+   "date_text": "January",
+   "date": "2014-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "new constitution",
+   "quote": "The new constitution , passed in January , contains a transitional article",
+   "section": 6,
+   "flags": [
+    "derived_date"
+   ],
+   "cid": "/wiki/Supreme_Council_of_the_Armed_Forces#29"
+  }
+ ],
+ "dropped": []
+}

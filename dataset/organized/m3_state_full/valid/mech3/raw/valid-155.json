@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "a024c95d64082d23",
+  "N2": "ccfe9c82461551cb",
+  "N3": "551293485330722e",
+  "N4": "e2668f8c5a549ff2",
+  "N5": "ab262c6b0541a9d6",
+  "N6": "206ebc65de22b65b",
+  "N7": "df1ab3eb43e1733c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "moving to Paris where he worked as an assistant to Dalou until 1885",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Drury moved to Paris and worked as an assistant to Dalou until 1885.",
+    "evidence": "moving to Paris where he worked as an assistant to Dalou until 1885",
+    "date_text": "1885",
+    "date": "1885",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Dalou",
+    "quote": "moving to Paris where he worked as an assistant to Dalou until 1885"
+   }
+  ]
+ }
+}

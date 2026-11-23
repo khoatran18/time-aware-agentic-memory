@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "USS LCS (L)(3)-102 earned one battle star for her service in World War II.",
+   "chunk": 9,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "battle star",
+   "quote": "earned one battle star for her service in World War II",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/USS_LCS(L)(3)-102#9"
+  },
+  {
+   "text": "A transfer ceremony was held on May 22, 2007, to transfer custody of the ship from the Royal Thai Navy to the National Association of LCS (L) 1-130.",
+   "chunk": 9,
+   "date_text": "May 22, 2007",
+   "date": "2007-05-22",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "National Association of LCS (L) 1-130",
+   "quote": "A transfer ceremony was held on May 22 , 2007 , to transfer custody of the ship",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/USS_LCS(L)(3)-102#9"
+  }
+ ],
+ "dropped": []
+}

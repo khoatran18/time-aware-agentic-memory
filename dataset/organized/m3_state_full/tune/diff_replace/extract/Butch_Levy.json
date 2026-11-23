@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Levy played two seasons for the NFL's Rams.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rams",
+   "quote": "Levy played two seasons for the NFLs Rams",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:NFL's"
+   ],
+   "cid": "/wiki/Butch_Levy#1"
+  },
+  {
+   "text": "Levy won the NFL Championship.",
+   "chunk": 1,
+   "date_text": "1945",
+   "date": "1945",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "NFL Championship",
+   "quote": "winning the NFL Championship in 1945",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Butch_Levy#1"
+  },
+  {
+   "text": "Levy played for the Los Angeles Dons of the All-America Football Conference.",
+   "chunk": 1,
+   "date_text": "1947",
+   "date": "1947",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Los Angeles Dons",
+   "quote": "played for the Los Angeles Dons of the All-America Football Conference ( AAFC ) from 1947",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Butch_Levy#1"
+  },
+  {
+   "text": "Levy's time with the Los Angeles Dons ended.",
+   "chunk": 1,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Los Angeles Dons",
+   "quote": "from 1947 to 1948",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Butch_Levy#1"
+  },
+  {
+   "text": "Levy earned First Team All-AAFC honors in his final season of professional football.",
+   "chunk": 1,
+   "date_text": "the latter year",
+   "date": "1948",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "First Team All-AAFC",
+   "quote": "earning First Team All-AAFC honors in the latter year",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Butch_Levy#1"
+  }
+ ],
+ "dropped": []
+}

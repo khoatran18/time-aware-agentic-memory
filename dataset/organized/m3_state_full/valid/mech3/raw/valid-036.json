@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "106a7e2d2783d2a0",
+  "N2": "20cf797a515af9e5",
+  "N3": "9028af91606d6c93",
+  "N4": "1fdf90da9e18fb60",
+  "N5": "38547b979518db6b",
+  "N6": "20661b803876498f",
+  "N7": "ace697ed3dd8b47b",
+  "N8": "76000f6363d850ac",
+  "N9": "02995cad071e4ed2",
+  "N10": "97ba6191ca4d8e5d"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Air Wing Seven embarked for a Mediterranean deployment from January to July 1982.",
+    "evidence": "From January to July 1982 , Air Wing Seven embarked for a Mediterranean deployment",
+    "date_text": "January to July 1982",
+    "date": "1982-01",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Mediterranean deployment",
+    "quote": "From January to July 1982 , Air Wing Seven embarked for a Mediterranean deployment"
+   },
+   {
+    "text": "Air Wing Seven's Mediterranean deployment ended in July 1982.",
+    "evidence": "From January to July 1982 , Air Wing Seven embarked for a Mediterranean deployment",
+    "date_text": "July 1982",
+    "date": "1982-07",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Mediterranean deployment",
+    "quote": "From January to July 1982 , Air Wing Seven embarked for a Mediterranean deployment"
+   }
+  ]
+ }
+}

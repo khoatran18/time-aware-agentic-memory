@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "b69f2e5af89bace9",
+  "N2": "73becd7c0d820265",
+  "N3": "dad64584eafce23d",
+  "N4": "d4264fca9ca84305",
+  "N5": "52ea47702457d9f4",
+  "N6": "f962a396c027a00a",
+  "N7": "7868ebae43acd195",
+  "N8": "edf6af580be9f9de"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He entered the Bavarian Army in October 1911 as a one-year volunteer with the Bavarian Leib Regiment",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He entered the Bavarian Army as a one-year volunteer with the Bavarian Leib Regiment.",
+    "evidence": "He entered the Bavarian Army in October 1911 as a one-year volunteer with the Bavarian Leib Regiment",
+    "date_text": "October 1911",
+    "date": "1911-10",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Bavarian Army",
+    "quote": "He entered the Bavarian Army in October 1911 as a one-year volunteer with the Bavarian Leib Regiment"
+   }
+  ]
+ }
+}

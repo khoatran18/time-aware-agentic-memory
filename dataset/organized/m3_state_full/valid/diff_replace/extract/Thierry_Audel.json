@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Audel moved to the Italian Serie B club U.S. Triestina Calcio via MNK Izola.",
+   "chunk": 3,
+   "date_text": "2007",
+   "date": "2007",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "U.S. Triestina Calcio",
+   "quote": "moving to the Italian Serie B club U.S . Triestina Calcio in 2007 via MNK Izola",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Thierry_Audel#3"
+  },
+  {
+   "text": "He played two Serie B games for Triestina in the 2007–08 season.",
+   "chunk": 3,
+   "date_text": "2007–08 season",
+   "date": "2007",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Serie B",
+   "quote": "He played two Serie B games for Triestina in the 2007–08 season",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Thierry_Audel#3"
+  },
+  {
+   "text": "He spent the 2008–09 season in the Lega Pro Seconda Divisione for San Marino, making 31 appearances.",
+   "chunk": 3,
+   "date_text": "2008–09 season",
+   "date": "2008",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "San Marino",
+   "quote": "spent the 2008–09 season in the Lega Pro Seconda Divisione for San Marino",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Thierry_Audel#3"
+  }
+ ],
+ "dropped": []
+}

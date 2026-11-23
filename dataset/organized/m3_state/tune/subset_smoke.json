@@ -1,0 +1,60 @@
+{
+ "source": "smoke",
+ "cases": [
+  {
+   "idx": "Hanover:0",
+   "page_id": "/wiki/Hanover",
+   "graph_page": "Hanover",
+   "type": "list",
+   "question": "Among the dated events in the timeline from the 1820s to the end of the nineteenth century, list the occasions on which Hanover passed to a new sovereign or was annexed by another state, in chronological order.",
+   "question_hard": "Hanover. Among the dated events in the timeline from the 1820s to the end of the nineteenth century, list the occasions on which Hanover passed to a new sovereign or was annexed by another state, in chronological order.",
+   "group": "dich",
+   "edit_id": "tune-033",
+   "edit_type": "E"
+  },
+  {
+   "idx": "Stefan_He_e:1",
+   "page_id": "/wiki/Stefan_Heße",
+   "graph_page": "Stefan_He_e",
+   "type": "first_last_next",
+   "question": "After he was appointed Deputy Vicar General of the Archdiocese of Cologne, what post did he next take up there among the dated events?",
+   "question_hard": "Stefan He e. After he was appointed Deputy Vicar General of the Archdiocese of Cologne, what post did he next take up there among the dated events?",
+   "group": "dich",
+   "edit_id": "tune-069",
+   "edit_type": "C"
+  },
+  {
+   "idx": "Marc_Bohan:2",
+   "page_id": "/wiki/Marc_Bohan",
+   "graph_page": "Marc_Bohan",
+   "type": "first_last_next",
+   "question": "Among the dated fashion-house jobs up to the late 1950s, which did he take up most recently?",
+   "question_hard": "Marc Bohan. Among the dated fashion-house jobs up to the late 1950s, which did he take up most recently?",
+   "group": "cung_chunk",
+   "edit_id": "tune-015",
+   "edit_type": "E"
+  },
+  {
+   "idx": "Michael_Batty:3",
+   "page_id": "/wiki/Michael_Batty",
+   "graph_page": "Michael_Batty",
+   "type": "order_gap",
+   "question": "How many calendar years passed between his appointment to University College London and his becoming Bartlett Professor of Planning?",
+   "question_hard": "Michael Batty. How many calendar years passed between his appointment to University College London and his becoming Bartlett Professor of Planning?",
+   "group": "cung_trang",
+   "edit_id": "tune-083",
+   "edit_type": "A"
+  },
+  {
+   "idx": "Lenin_Peak:1",
+   "page_id": "/wiki/Lenin_Peak",
+   "graph_page": "Lenin_Peak",
+   "type": "list",
+   "question": "Among the dated events in the timeline, list the first ascent of the mountain and its first high-speed, first solo, and first winter ascents, in chronological order (the two events of the same year in any order).",
+   "question_hard": "Lenin Peak. Among the dated events in the timeline, list the first ascent of the mountain and its first high-speed, first solo, and first winter ascents, in chronological order (the two events of the same year in any order).",
+   "group": "cung_trang",
+   "edit_id": "tune-132",
+   "edit_type": "C"
+  }
+ ]
+}

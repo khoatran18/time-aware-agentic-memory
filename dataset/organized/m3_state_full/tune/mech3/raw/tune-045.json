@@ -1,0 +1,48 @@
+{
+ "idmap": {
+  "N1": "35f5fa478fde34dc",
+  "N2": "4024e6ecc417bda8",
+  "N3": "ed7e35125010e1d0",
+  "N4": "5b3366ee9353edf4",
+  "N5": "4682bad37a6640fa",
+  "N6": "7f33d26a05c3d855"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He then played for the Los Angeles Dons of the All-America Football Conference ( AAFC ) from 1947 to 1948",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Levy played for the Los Angeles Dons of the All-America Football Conference from 1947 to 1948.",
+    "evidence": "He then played for the Los Angeles Dons of the All-America Football Conference ( AAFC ) from 1947 to 1948",
+    "date_text": "from 1947 to 1948",
+    "date": "1947",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Los Angeles Dons",
+    "quote": "He then played for the Los Angeles Dons of the All-America Football Conference ( AAFC ) from 1947 to 1948"
+   },
+   {
+    "text": "Levy earned First Team All-AAFC honors in 1948, his final season of professional football.",
+    "evidence": "earning First Team All-AAFC honors in the latter year — his final season of professional football",
+    "date_text": "1948",
+    "date": "1948",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "First Team All-AAFC",
+    "quote": "earning First Team All-AAFC honors in the latter year — his final season of professional football"
+   }
+  ]
+ }
+}

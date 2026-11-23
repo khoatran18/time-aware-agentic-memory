@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "da8ae28fdb57414b",
+  "N2": "66b4ad36cadaa5a6",
+  "N3": "6317b77ce13567a9"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "Rix commanded the boat until February 1945 .",
+    "end_date": "1945-02"
+   }
+  ],
+  "add": [
+   {
+    "text": "Rix commanded the boat until February 1945.",
+    "evidence": "Rix commanded the boat until February 1945 .",
+    "date_text": "February 1945",
+    "date": "1945-02",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "U-96",
+    "quote": "Rix commanded the boat until February 1945 ."
+   }
+  ]
+ }
+}

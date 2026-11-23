@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "The Chicago Red Stars played at Toyota Park during their Womens Professional Soccer membership.",
+   "chunk": 28,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Toyota Park",
+   "quote": "the Chicago Red Stars played at Toyota Park",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#28"
+  },
+  {
+   "text": "The Red Stars played at the Village of Lisle-Benedictine University Sports Complex starting in 2011.",
+   "chunk": 28,
+   "date_text": "From 2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Village of Lisle-Benedictine University Sports Complex",
+   "quote": "From 2011 to 2015 , in the Womens Premier Soccer League",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Chicago_Red_Stars#28"
+  },
+  {
+   "text": "The Red Stars' time at the Village of Lisle-Benedictine University Sports Complex ended in 2015.",
+   "chunk": 28,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Village of Lisle-Benedictine University Sports Complex",
+   "quote": "From 2011 to 2015 , in the Womens Premier Soccer League",
+   "section": 3,
+   "flags": [
+    "name_not_in_page:Stars'"
+   ],
+   "cid": "/wiki/Chicago_Red_Stars#28"
+  }
+ ],
+ "dropped": []
+}

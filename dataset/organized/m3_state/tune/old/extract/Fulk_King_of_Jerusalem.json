@@ -1,0 +1,95 @@
+{
+ "events": [
+  {
+   "text": "Fulk was born at Angers between 1089 and 1092.",
+   "chunk": 1,
+   "date_text": "between 1089 and 1092",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Angers",
+   "quote": "Fulk was born at Angers , between 1089 and 1092",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#1"
+  },
+  {
+   "text": "Fulk went on crusade in 1119 or 1120.",
+   "chunk": 2,
+   "date_text": "1119 or 1120",
+   "date": null,
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "crusade",
+   "quote": "Fulk went on crusade in 1119 or 1120",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#2"
+  },
+  {
+   "text": "Fulk became attached to the Knights Templar.",
+   "chunk": 2,
+   "date_text": "1119 or 1120",
+   "date": null,
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Knights Templar",
+   "quote": "Fulk went on crusade in 1119 or 1120 , and became attached to the Knights Templar",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#2"
+  },
+  {
+   "text": "Fulk returned late in 1121.",
+   "chunk": 2,
+   "date_text": "late in 1121",
+   "date": "1121",
+   "approximate": true,
+   "track": "location",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "He returned , late in 1121",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#2"
+  },
+  {
+   "text": "Fulk began to subsidize the Templars after his return.",
+   "chunk": 2,
+   "date_text": "late in 1121",
+   "date": "1121",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Templars",
+   "quote": "He returned , late in 1121 , after which he began to subsidize the Templars",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Fulk,_King_of_Jerusalem#2"
+  }
+ ],
+ "dropped": []
+}

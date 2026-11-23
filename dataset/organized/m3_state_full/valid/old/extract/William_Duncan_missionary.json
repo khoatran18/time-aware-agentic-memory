@@ -1,0 +1,121 @@
+{
+ "events": [
+  {
+   "text": "Duncan was expelled from the CMS.",
+   "chunk": 12,
+   "date_text": "1881",
+   "date": "1881",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "CMS",
+   "quote": "Duncan was expelled from the CMS in 1881",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#12"
+  },
+  {
+   "text": "A Presbyterian Tsimshian community was established at nearby Port Gravina.",
+   "chunk": 16,
+   "date_text": "1892",
+   "date": "1892",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Port Gravina",
+   "quote": "a rival , Presbyterian Tsimshian community at nearby Port Gravina ( 1892–1904 )",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#16"
+  },
+  {
+   "text": "The Presbyterian Tsimshian community at Port Gravina ended.",
+   "chunk": 16,
+   "date_text": "1904",
+   "date": "1904",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Port Gravina",
+   "quote": "a rival , Presbyterian Tsimshian community at nearby Port Gravina ( 1892–1904 )",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#16"
+  },
+  {
+   "text": "The Interior Department seized many of the Mission buildings and built a modern school at Metlakatla.",
+   "chunk": 17,
+   "date_text": "1914",
+   "date": "1914",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Metlakatla",
+   "quote": "In 1914–1915 , the Interior Department seized many of the Mission buildings and built a modern school at Metlakatla",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#17"
+  },
+  {
+   "text": "The Interior Department's seizure of Mission buildings and school building at Metlakatla ended.",
+   "chunk": 17,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Metlakatla",
+   "quote": "In 1914–1915 , the Interior Department seized many of the Mission buildings and built a modern school at Metlakatla",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Department's"
+   ],
+   "cid": "/wiki/William_Duncan_(missionary)#17"
+  },
+  {
+   "text": "Tomlinson and his son Robert Tomlinson Jr. have served in Metlakatla, Alaska, with Duncan.",
+   "chunk": 19,
+   "date_text": "1908",
+   "date": "1908",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Metlakatla",
+   "quote": "have served in Metlakatla , Alaska , with Duncan since 1908",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#19"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Duncan led approximately 800 Tsimshians in a canoe voyage from Old Metlakatla to New Metlakatla, Alaska.",
+   "chunk": 13,
+   "date_text": "1887",
+   "date": "1887",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "New Metlakatla",
+   "quote": "in a canoe voyage from Old Metlakatla to New Metlakatla , Alaska , in 1887",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/William_Duncan_(missionary)#13",
+   "reason": "number_not_in_chunk:800"
+  }
+ ]
+}

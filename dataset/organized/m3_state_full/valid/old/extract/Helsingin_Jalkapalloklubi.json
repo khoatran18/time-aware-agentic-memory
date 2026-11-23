@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "HJK was founded.",
+   "chunk": 0,
+   "date_text": "1907",
+   "date": "1907",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Founded in 1907",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#0"
+  },
+  {
+   "text": "HJK began playing at the Bolt Arena.",
+   "chunk": 0,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bolt Arena",
+   "quote": "where they have played since 2000",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#0"
+  },
+  {
+   "text": "HJK beat Metz in the play-off round to clinch their place in the competition for the following season.",
+   "chunk": 2,
+   "date_text": "1998",
+   "date": "1998",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "Metz",
+   "quote": "In 1998 , they beat Metz in the play-off round",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#2"
+  },
+  {
+   "text": "HJK participated in the UEFA Europa League, defeating Rapid Wien in the play-off round.",
+   "chunk": 2,
+   "date_text": "2014–15",
+   "date": "2014",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "UEFA Europa League",
+   "quote": "in 2014–15 , defeating Rapid Wien in the play-off round",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#2"
+  },
+  {
+   "text": "HJK achieved a 13–0 aggregate victory over Bangor City in a European competition.",
+   "chunk": 2,
+   "date_text": "2011–12 season",
+   "date": "2011",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "Bangor City",
+   "quote": "during the 2011–12 season , with a 13–0 aggregate victory over Welsh champions Bangor City",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#2"
+  }
+ ],
+ "dropped": []
+}

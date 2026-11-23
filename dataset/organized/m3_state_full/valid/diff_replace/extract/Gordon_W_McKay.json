@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "McKay was born on March 17, 1910 in Aitkin, Minnesota.",
+   "chunk": 1,
+   "date_text": "March 17 , 1910",
+   "date": "1910-03-17",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Aitkin , Minnesota",
+   "quote": "McKay was born on March 17 , 1910 in Aitkin , Minnesota .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gordon_W._McKay#1"
+  },
+  {
+   "text": "In 1911, McKay moved with his parents to Oregon.",
+   "chunk": 1,
+   "date_text": "In 1911",
+   "date": "1911",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Oregon",
+   "quote": "In 1911 , when he was less than a year old , McKay moved with his parents to Oregon .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gordon_W._McKay#1"
+  }
+ ],
+ "dropped": []
+}

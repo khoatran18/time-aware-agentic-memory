@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "819983a605e788cb",
+  "N2": "de72a528b1527bbd",
+  "N3": "e72cada58542dc21"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "She was immediately recommissioned into the Royal Netherlands Navy ( RNLN ) and renamed HNLMS Ambon .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "She was recommissioned into the Royal Netherlands Navy (RNLN) and renamed HNLMS Ambon.",
+    "evidence": "She was immediately recommissioned into the Royal Netherlands Navy ( RNLN ) and renamed HNLMS Ambon .",
+    "date_text": "17 January 1946",
+    "date": "1946-01-17",
+    "approximate": false,
+    "track": "naming",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "HNLMS Ambon",
+    "quote": "She was immediately recommissioned into the Royal Netherlands Navy ( RNLN ) and renamed HNLMS Ambon ."
+   }
+  ]
+ }
+}

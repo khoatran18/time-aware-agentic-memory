@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "3bb371e223791d05",
+  "N2": "6fff00bd5587c0ad",
+  "N3": "570415aebb5dcf2e",
+  "N4": "73270f3af04db5cc",
+  "N5": "1319b1eac87fffff",
+  "N6": "fda9b6b091c774f9",
+  "N7": "2bc0cfdeb62abbcf",
+  "N8": "807bb421d60a1dd2",
+  "N9": "7ca86b940e7bb061",
+  "N10": "cab8fc7c5b67c16b",
+  "N11": "1dc471eb379f96ab",
+  "N12": "c33c181492737654"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "edit",
+    "evidence": "They also hosted the 2014 MCV Pacific Awards for gaming .",
+    "end_date": null,
+    "new_text": "They hosted the 2014 MCV Pacific Awards for gaming.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "They also hosted the 2014 MCV Pacific Awards for gaming"
+   }
+  ],
+  "add": []
+ }
+}

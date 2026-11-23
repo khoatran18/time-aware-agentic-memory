@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "EMD began building the SDP40F.",
+   "chunk": 0,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SDP40F",
+   "quote": "built by General Motors Electro-Motive Division ( EMD ) from 1973–1974",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#0"
+  },
+  {
+   "text": "EMD finished building the SDP40F.",
+   "chunk": 0,
+   "date_text": "1974",
+   "date": "1974",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "SDP40F",
+   "quote": "built by General Motors Electro-Motive Division ( EMD ) from 1973–1974",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#0"
+  },
+  {
+   "text": "Amtrak decided to move on from the SDP40F in favor of the EMD F40PH.",
+   "chunk": 1,
+   "date_text": "1976",
+   "date": "1976",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "EMD F40PH",
+   "quote": "In 1976 Amtrak decided to move on from the SDP40F in favor of the EMD F40PH",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#1"
+  },
+  {
+   "text": "BNSF retired the locomotives.",
+   "chunk": 2,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "BNSF",
+   "quote": "successor to the Santa Fe , retired them in 2002",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/EMD_SDP40F#2"
+  }
+ ],
+ "dropped": []
+}

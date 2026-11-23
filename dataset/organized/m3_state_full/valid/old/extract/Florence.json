@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "The historic centre of Florence was declared a World Heritage Site by UNESCO.",
+   "chunk": 44,
+   "date_text": "1982",
+   "date": "1982",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "World Heritage Site",
+   "quote": "In 1982, the historic centre of Florence ... was declared a World Heritage Site by the UNESCO.",
+   "section": 7,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Florence#44"
+  },
+  {
+   "text": "The Fountain of Neptune was created.",
+   "chunk": 44,
+   "date_text": "1563",
+   "date": "1563",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Fountain of Neptune",
+   "quote": "Fountain of Neptune (1563–1567)",
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Florence#44"
+  },
+  {
+   "text": "The Fountain of Neptune was completed.",
+   "chunk": 44,
+   "date_text": "1567",
+   "date": "1567",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "Fountain of Neptune",
+   "quote": "Fountain of Neptune (1563–1567)",
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Florence#44"
+  },
+  {
+   "text": "The current Ponte Vecchio was rebuilt.",
+   "chunk": 47,
+   "date_text": "the 14th century",
+   "date": null,
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Ponte Vecchio",
+   "quote": "the current bridge was rebuilt in the 14th century",
+   "section": 7,
+   "flags": [],
+   "cid": "/wiki/Florence#47"
+  }
+ ],
+ "dropped": []
+}

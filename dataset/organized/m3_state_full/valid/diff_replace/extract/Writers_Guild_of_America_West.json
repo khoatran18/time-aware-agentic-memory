@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "Daniel Taradash became president of the WGAw.",
+   "chunk": 2,
+   "date_text": "1977",
+   "date": "1977",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "WGAw",
+   "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Writers_Guild_of_America_West#2"
+  },
+  {
+   "text": "Daniel Taradash's presidency of the WGAw ended.",
+   "chunk": 2,
+   "date_text": "1979",
+   "date": "1979",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "WGAw",
+   "quote": "Daniel Taradash was president of the WGAw from 1977 to 1979 .",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Taradash's"
+   ],
+   "cid": "/wiki/Writers_Guild_of_America_West#2"
+  }
+ ],
+ "dropped": []
+}

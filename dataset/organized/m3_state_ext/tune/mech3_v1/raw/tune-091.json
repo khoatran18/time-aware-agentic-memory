@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "90cbcd8537b0ffbe",
+  "N2": "d6f94e4d764d0e92",
+  "N3": "75772a18e186677c",
+  "N4": "20e41bf04ea5568a",
+  "N5": "466c840e5663a51d",
+  "N6": "a54f4640bf4fd42f",
+  "N7": "aff5d5aaa8e94f1e",
+  "N8": "1ed7dcc2a5146767",
+  "N9": "11a587a47e624f0a",
+  "N10": "5584713c4a18520b",
+  "N11": "f1baee7663bb0199",
+  "N12": "29f0ed344e26a39e",
+  "N13": "d649ef748d85d82b",
+  "N14": "6e93989f8a4c4df1"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "edit",
+    "evidence": "Construction was finished in 1945",
+    "end_date": null,
+    "new_text": "Construction of the aircraft carrier was finished.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "Construction was finished in 1945"
+   },
+   {
+    "node": "N3",
+    "op": "edit",
+    "evidence": "the aircraft carrier was loaned to the Royal Canadian Navy from 1946 to 1948 as HMCS Warrior",
+    "end_date": null,
+    "new_text": "The aircraft carrier was loaned to the Royal Canadian Navy as HMCS Warrior.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "loaned to the Royal Canadian Navy from 1946 to 1948 as HMCS Warrior"
+   },
+   {
+    "node": "N5",
+    "op": "edit",
+    "evidence": "loaned to the Royal Canadian Navy from 1946 to 1948 as HMCS Warrior",
+    "end_date": null,
+    "new_text": "The loan to the Royal Canadian Navy ended.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "loaned to the Royal Canadian Navy from 1946 to 1948 as HMCS Warrior"
+   }
+  ],
+  "add": []
+ }
+}

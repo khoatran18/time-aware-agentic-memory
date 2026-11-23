@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "14b456b2cfd60e6c",
+  "N2": "91b4aa3a20c68c91",
+  "N3": "96ccdb4bcfcf69ca"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From 2011 to 2015 , in the Womens Premier Soccer League",
+    "end_date": "2015"
+   }
+  ],
+  "add": [
+   {
+    "text": "From 2011 to 2015, the Red Stars played at the 3,000-seat Village of Lisle-Benedictine University Sports Complex.",
+    "evidence": "From 2011 to 2015 , in the Womens Premier Soccer League",
+    "date_text": "From 2011 to 2015",
+    "date": "2011",
+    "approximate": false,
+    "track": "location",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Village of Lisle-Benedictine University Sports Complex",
+    "quote": "From 2011 to 2015 , in the Womens Premier Soccer League"
+   }
+  ]
+ }
+}

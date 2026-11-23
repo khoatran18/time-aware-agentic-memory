@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "f0a3743659efad26",
+  "N2": "dc68e7d24db969d2",
+  "N3": "e2a65441429d48f3",
+  "N4": "e6442532cc342a21"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "( December 8 , 1915 – June 10 , 1992 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Frederick Ralph Sharp was born on December 8, 1915.",
+    "evidence": "( December 8 , 1915 – June 10 , 1992 )",
+    "date_text": "December 8 , 1915",
+    "date": "1915-12-08",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "December 8 , 1915"
+   }
+  ]
+ }
+}

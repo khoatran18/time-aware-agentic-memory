@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVI's resignation.",
+   "chunk": 12,
+   "date_text": "11 February 2013",
+   "date": "2013-02-11",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Pope Benedict XVI's resignation",
+   "quote": "On 11 February 2013 , ANSA scooped media outlets throughout the world with its coverage of Pope Benedict XVIs resignation",
+   "section": 5,
+   "flags": [
+    "name_not_in_page:XVI's"
+   ],
+   "cid": "/wiki/Agenzia_Nazionale_Stampa_Associata#12"
+  },
+  {
+   "text": "A five-year partnership agreement (2015–2020) between AP and ANSA for text, images and video was signed.",
+   "chunk": 12,
+   "date_text": "26 August 2014",
+   "date": "2014-08-26",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "AP",
+   "quote": "On 26 August 2014 was signed a five-year partnership agreement ( 2015–2020 ) between AP and ANSA for text , images and video",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Agenzia_Nazionale_Stampa_Associata#12"
+  }
+ ],
+ "dropped": []
+}

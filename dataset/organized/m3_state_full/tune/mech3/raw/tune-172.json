@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "52ece81aca1bb80a",
+  "N2": "4ea367a2bb0caaa0",
+  "N3": "d7f0341c2a138a4a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Craig Kilborn took over in March 1999",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Craig Kilborn took over in March 1999.",
+    "evidence": "Craig Kilborn took over in March 1999",
+    "date_text": "March 1999",
+    "date": "1999-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Craig Kilborn",
+    "quote": "Craig Kilborn took over in March 1999"
+   }
+  ]
+ }
+}

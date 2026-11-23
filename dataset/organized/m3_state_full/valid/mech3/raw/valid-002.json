@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "ce254362ed68be2e",
+  "N2": "ecc5f916a7a888ee",
+  "N3": "66840df0a066d07d"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The Senate was moved to the Palazzo Vecchio in Florence.",
+    "evidence": "until 1864 when it was moved to the Palazzo Vecchio in Florence",
+    "date_text": "1864",
+    "date": "1864",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Palazzo Vecchio in Florence",
+    "quote": "until 1864 when it was moved to the Palazzo Vecchio in Florence"
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "525fbca4d9dd3646",
+  "N2": "46c722df01ce7d7b",
+  "N3": "9b96f74d41d013ce",
+  "N4": "bf551377602e8453",
+  "N5": "1cba15f92aff24b5"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He enlisted in the United States Army , serving from 1955 to 1958 .",
+    "end_date": null
+   },
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "He enlisted in the United States Army , serving from 1955 to 1958 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Kuhn enlisted in the United States Army.",
+    "evidence": "He enlisted in the United States Army , serving from 1955 to 1958 .",
+    "date_text": "1955",
+    "date": "1955",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "United States Army",
+    "quote": "He enlisted in the United States Army , serving from 1955 to 1958 ."
+   },
+   {
+    "text": "Kuhn's service in the United States Army ended.",
+    "evidence": "serving from 1955 to 1958",
+    "date_text": "1958",
+    "date": "1958",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "United States Army",
+    "quote": "serving from 1955 to 1958"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "d866a481d14fd0b8",
+  "N2": "4df1394699a46581",
+  "N3": "18dccf7986bf9166",
+  "N4": "3484403ce180386a",
+  "N5": "42fd7af4f3b68072",
+  "N6": "a5f7b51a448ae0db",
+  "N7": "659c993f1883df42"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Fountain of Neptune ( 1563–1565 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Fountain of Neptune was completed.",
+    "evidence": "Fountain of Neptune ( 1563–1565 )",
+    "date_text": "1565",
+    "date": "1565",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "part_of_self",
+    "object": "Fountain of Neptune",
+    "quote": "Fountain of Neptune ( 1563–1565 )"
+   }
+  ]
+ }
+}

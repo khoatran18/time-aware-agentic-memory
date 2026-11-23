@@ -1,0 +1,105 @@
+{
+ "events": [
+  {
+   "text": "Mykola Chebotarov served from April to July 1919.",
+   "chunk": 45,
+   "date_text": "April–July 1919",
+   "date": "1919",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Mykola Chebotarov",
+   "quote": "Mykola Chebotarov ( April–July 1919 )",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Starting in 1924, Chebotarov started intelligence work on his own initiative for the Ukrainian Peoples Republic government in exile.",
+   "chunk": 45,
+   "date_text": "1924",
+   "date": "1924",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Ukrainian Peoples Republic government in exile",
+   "quote": "starting in 1924 Chebotarov started intelligence work on his own initiative",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Isaak Shvarts served from December 3, 1918.",
+   "chunk": 45,
+   "date_text": "December 3 , 1918",
+   "date": "1918-12-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Isaak Shvarts",
+   "quote": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Isaak Shvarts's service ended on April 2, 1919.",
+   "chunk": 45,
+   "date_text": "April 2 , 1919",
+   "date": "1919-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Isaak Shvarts",
+   "quote": "Isaak Shvarts , December 3 , 1918 – April 2 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Shvarts's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Martin Latsis served from April 2, 1919.",
+   "chunk": 45,
+   "date_text": "April 2 , 1919",
+   "date": "1919-04-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Martin Latsis",
+   "quote": "Martin Latsis , April 2 , 1919 – August 16 , 1919",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  },
+  {
+   "text": "Martin Latsis's service ended on August 16, 1919.",
+   "chunk": 45,
+   "date_text": "August 16 , 1919",
+   "date": "1919-08-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Martin Latsis",
+   "quote": "Martin Latsis , April 2 , 1919 – August 16 , 1919",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Latsis's"
+   ],
+   "cid": "/wiki/Security_Service_of_Ukraine#45"
+  }
+ ],
+ "dropped": []
+}

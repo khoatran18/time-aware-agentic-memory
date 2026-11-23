@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Van Deventer remained a Senate member until 16 September 1913.",
+   "chunk": 19,
+   "date_text": "16 September 1913",
+   "date": "1913-09-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Senate",
+   "quote": "He remained a Senate member until 16 September 1913",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Conrad_Theodor_van_Deventer#19"
+  },
+  {
+   "text": "Van Deventer was reelected as a member of the House of Representatives for the constituency Assen.",
+   "chunk": 19,
+   "date_text": "16 September 1913",
+   "date": "1913-09-16",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "House of Representatives",
+   "quote": "on 16 September 1913 , when he was reelected as a member of the House of Representatives for the constituency Assen",
+   "section": 3,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Conrad_Theodor_van_Deventer#19"
+  },
+  {
+   "text": "Van Deventer kept this position until his death, on 27 September 1915.",
+   "chunk": 19,
+   "date_text": "27 September 1915",
+   "date": "1915-09-27",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "House of Representatives",
+   "quote": "He kept this position until his death , on 27 September 1915",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Conrad_Theodor_van_Deventer#19"
+  },
+  {
+   "text": "Van Deventer was appointed official delegate of the Netherlands at the International Opium Conference held in The Hague.",
+   "chunk": 19,
+   "date_text": "June 1914",
+   "date": "1914-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "International Opium Conference",
+   "quote": "In June 1914 he was appointed official delegate of the Netherlands at the International Opium Conference held in The Hague",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Conrad_Theodor_van_Deventer#19"
+  },
+  {
+   "text": "Van Deventer founded the Kartini Foundation.",
+   "chunk": 19,
+   "date_text": "1913",
+   "date": "1913",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Kartini Foundation",
+   "quote": "In 1913 he founded the Kartini Foundation",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Conrad_Theodor_van_Deventer#19"
+  }
+ ],
+ "dropped": []
+}

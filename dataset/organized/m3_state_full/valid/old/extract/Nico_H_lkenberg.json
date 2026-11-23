@@ -1,0 +1,72 @@
+{
+ "events": [
+  {
+   "text": "Hülkenberg was confirmed as Williams reserve driver for the season.",
+   "chunk": 25,
+   "date_text": "26 January 2011",
+   "date": "2011-01-26",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Williams",
+   "quote": "On 26 January 2011 , Hülkenberg was confirmed as Williams reserve driver for the season",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Nico_Hülkenberg#25"
+  },
+  {
+   "text": "Force India announced di Resta and Hülkenberg would be their drivers for the 2012 season.",
+   "chunk": 26,
+   "date_text": "16 December 2011",
+   "date": "2011-12-16",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Force India",
+   "quote": "On 16 December 2011 , Force India announced di Resta and Hülkenberg would be their drivers for the 2012 season .",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Nico_Hülkenberg#26"
+  },
+  {
+   "text": "Hülkenberg finished fifth in the 2012 Brazilian Grand Prix.",
+   "chunk": 30,
+   "date_text": "2012",
+   "date": "2012",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "2012 Brazilian Grand Prix",
+   "quote": "Hülkenberg finished fifth",
+   "section": 3,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date"
+   ],
+   "cid": "/wiki/Nico_Hülkenberg#30"
+  },
+  {
+   "text": "Sauber confirmed they had signed Hülkenberg for the 2013 season.",
+   "chunk": 32,
+   "date_text": "31 October 2012",
+   "date": "2012-10-31",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Sauber",
+   "quote": "On 31 October 2012 Sauber confirmed they had signed Hülkenberg for the 2013 season",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Nico_Hülkenberg#32"
+  }
+ ],
+ "dropped": []
+}

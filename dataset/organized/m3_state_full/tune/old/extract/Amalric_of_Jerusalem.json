@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Amalric was born.",
+   "chunk": 3,
+   "date_text": "1136",
+   "date": "1136",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Amalric was born in 1136",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Amalric_of_Jerusalem#3"
+  },
+  {
+   "text": "Amalric was given the County of Jaffa as an apanage when he reached the age of majority.",
+   "chunk": 4,
+   "date_text": "1151",
+   "date": "1151",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "County of Jaffa",
+   "quote": "given the County of Jaffa as an apanage when he reached the age of majority in 1151",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Amalric_of_Jerusalem#4"
+  },
+  {
+   "text": "Amalric married Agnes of Courtenay.",
+   "chunk": 5,
+   "date_text": "1157",
+   "date": "1157",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Agnes of Courtenay",
+   "quote": "Amalric married Agnes of Courtenay in 1157",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Amalric_of_Jerusalem#5"
+  }
+ ],
+ "dropped": []
+}

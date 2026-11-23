@@ -1,0 +1,40 @@
+{
+ "events": [
+  {
+   "text": "Robert Rix took command of the boat in June.",
+   "chunk": 1,
+   "date_text": "June of that year",
+   "date": "1944-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "command",
+   "quote": "Robert Rix in June of that year .",
+   "section": 0,
+   "flags": [
+    "derived_date",
+    "month_from_date_text"
+   ],
+   "cid": "/wiki/German_submarine_U-96_(1940)#1"
+  },
+  {
+   "text": "Rix commanded the boat until February 1945.",
+   "chunk": 1,
+   "date_text": "February 1945",
+   "date": "1945-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "command",
+   "quote": "Rix commanded the boat until February 1945 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-96_(1940)#1"
+  }
+ ],
+ "dropped": []
+}

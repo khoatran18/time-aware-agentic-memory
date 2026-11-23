@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "2a90214eddfb71ba",
+  "N2": "62fbfe25d02988d4",
+  "N3": "b28541de1461da8e",
+  "N4": "b518239081c08f87",
+  "N5": "80c3657efb62c18b",
+  "N6": "9f69762892aac2a0",
+  "N7": "817fea3b26ea7264",
+  "N8": "c87fb8ca0b16fded",
+  "N9": "67d39aa073198830",
+  "N10": "0e7a8099e36bf6da",
+  "N11": "563fc43624a4ab45",
+  "N12": "9c5a36b56d926561"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N9",
+    "op": "close",
+    "evidence": "head of the Ministry for Naval Affairs from 4 December 1907 to 30 June 1910",
+    "end_date": "1910-06-30"
+   }
+  ],
+  "add": [
+   {
+    "text": "Ehrensvärd's tenure as Council of State (statsråd) and head of the Ministry for Naval Affairs ended.",
+    "evidence": "head of the Ministry for Naval Affairs from 4 December 1907 to 30 June 1910",
+    "date_text": "30 June 1910",
+    "date": "1910-06-30",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Ministry for Naval Affairs",
+    "quote": "head of the Ministry for Naval Affairs from 4 December 1907 to 30 June 1910"
+   }
+  ]
+ }
+}

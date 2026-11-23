@@ -1,0 +1,27 @@
+{
+ "idmap": {
+  "N1": "6d7b4455126c0c8d",
+  "N2": "a2f513b0bd846e0d",
+  "N3": "7010e66e6914f9c9",
+  "N4": "330bc5b901c4aa1d",
+  "N5": "6df6cbe37b835ac0"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The building was sold to an affiliate of the International Ladies Garment Workers Union in 1943.",
+    "evidence": "the building was sold to an affiliate of the International Ladies Garment Workers Union in 1943",
+    "date_text": "1943",
+    "date": "1943",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "International Ladies Garment Workers Union",
+    "quote": "the building was sold to an affiliate of the International Ladies Garment Workers Union in 1943"
+   }
+  ]
+ }
+}

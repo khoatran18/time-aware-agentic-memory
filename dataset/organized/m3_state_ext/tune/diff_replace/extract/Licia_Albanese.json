@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Albanese made her formal debut at the Teatro Municipale in Bari, singing in La bohème.",
+   "chunk": 3,
+   "date_text": "1934",
+   "date": "1934",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Teatro Municipale in Bari",
+   "quote": "It was either in that same year ( 1934 ) at the Teatro Municipale in Bari , singing in La bohème",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Licia_Albanese#3"
+  },
+  {
+   "text": "Albanese made her formal debut in Milan in Madama Butterfly.",
+   "chunk": 3,
+   "date_text": "1935",
+   "date": "1935",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Madama Butterfly",
+   "quote": "or in Milan in 1935 in Madama Butterfly",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Licia_Albanese#3"
+  },
+  {
+   "text": "By the end of that year, Albanese had debuted at La Scala as Lauretta in Gianni Schicchi.",
+   "chunk": 3,
+   "date_text": "By the end of that year",
+   "date": "1935",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "La Scala",
+   "quote": "By the end of that year , she had debuted at La Scala as Lauretta in Gianni Schicchi",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Licia_Albanese#3"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "The last streetcar operations at the Car Barn ended with the closure of the Rosslyn–Benning Line.",
+   "chunk": 16,
+   "date_text": "April 30 , 1949",
+   "date": "1949-04-30",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Rosslyn–Benning Line",
+   "quote": "The last streetcar operations at the Car Barn ended with the closure of the Rosslyn–Benning Line on April 30 , 1949 .",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Georgetown_Car_Barn#16"
+  },
+  {
+   "text": "The building continued to store streetcars until May 1950.",
+   "chunk": 16,
+   "date_text": "May 1950",
+   "date": "1950-05",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "The building continued to store streetcars until May 1950 .",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Georgetown_Car_Barn#16"
+  },
+  {
+   "text": "The first floor was converted into office space toward the end of 1952.",
+   "chunk": 16,
+   "date_text": "Toward the end of 1952",
+   "date": "1952",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "office space",
+   "quote": "Toward the end of 1952 , the first floor was converted into office space .",
+   "section": 4,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Georgetown_Car_Barn#16"
+  }
+ ],
+ "dropped": []
+}

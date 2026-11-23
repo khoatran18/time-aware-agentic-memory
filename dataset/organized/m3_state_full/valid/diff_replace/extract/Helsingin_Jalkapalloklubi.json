@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "The club was founded.",
+   "chunk": 0,
+   "date_text": "1907",
+   "date": "1907",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Founded in 1907 , the club has spent most of its history in the top tier of Finnish football .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#0"
+  },
+  {
+   "text": "The club has played at the Bolt Arena.",
+   "chunk": 0,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bolt Arena",
+   "quote": "where they have played since 2000 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Helsingin_Jalkapalloklubi#0"
+  }
+ ],
+ "dropped": []
+}

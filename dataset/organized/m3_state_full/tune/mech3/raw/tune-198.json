@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "5b3a5e870cd34d60",
+  "N2": "6130c0c1088813c6",
+  "N3": "a7d5cf23805c9dbc",
+  "N4": "b060188f39944a20",
+  "N5": "ee6cbea8f00780d4",
+  "N6": "52de4bb6c504c307",
+  "N7": "b3d40948feb7e8ad",
+  "N8": "c01334e9642f1897",
+  "N9": "639fbfb31a1d7ecf",
+  "N10": "d2a51142099800dd",
+  "N11": "e792e3e40e3f558c",
+  "N12": "023d302677be66d6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "Between 1941 and 1994 , the commander had the rank of major general",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The commander's rank of major general ended in 1994.",
+    "evidence": "Between 1941 and 1994 , the commander had the rank of major general",
+    "date_text": "1994",
+    "date": "1994",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "major general",
+    "quote": "Between 1941 and 1994 , the commander had the rank of major general"
+   }
+  ]
+ }
+}

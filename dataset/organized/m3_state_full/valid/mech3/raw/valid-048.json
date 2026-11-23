@@ -1,0 +1,48 @@
+{
+ "idmap": {
+  "N1": "91de6436e3b40a17",
+  "N2": "b67d11bab52ea263",
+  "N3": "5cd7b02a77a488a1",
+  "N4": "250ecccecb25caba",
+  "N5": "7b6d4963859caefa",
+  "N6": "3625c496a51b42b6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Nicky Diaz Santillan revealed that she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009.",
+    "evidence": "she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009",
+    "date_text": "September 2010",
+    "date": "2010-09",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "statement",
+    "subject": "other",
+    "object": "Whitman household",
+    "quote": "In September 2010 , Nicky Diaz Santillan revealed that she was employed in the Whitman household as a housekeeper and nanny from 2000 to 2009"
+   },
+   {
+    "text": "Santillan's employment in the Whitman household as a housekeeper and nanny ended in 2009.",
+    "evidence": "as a housekeeper and nanny from 2000 to 2009",
+    "date_text": "2009",
+    "date": "2009",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "state",
+    "subject": "other",
+    "object": "Whitman household",
+    "quote": "as a housekeeper and nanny from 2000 to 2009"
+   }
+  ]
+ }
+}

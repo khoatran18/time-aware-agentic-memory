@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "fb385af854f5f1b9",
+  "N2": "fe3fbf8b11cf2b4e",
+  "N3": "fcb519ef79a74751",
+  "N4": "18d9a6112b5c0afc",
+  "N5": "e6442532cc342a21",
+  "N6": "66e70b8284af8fb5",
+  "N7": "3671467c7ccfa7fb",
+  "N8": "c994e48396dff4f2",
+  "N9": "d39fa5f6017d23c4",
+  "N10": "065404428b1b546b",
+  "N11": "dc68e7d24db969d2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "he joined the Royal Canadian Air Force in Trenton , Ontario in July 1939",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Sharp joined the Royal Canadian Air Force in Trenton, Ontario.",
+    "evidence": "he joined the Royal Canadian Air Force in Trenton , Ontario in July 1939",
+    "date_text": "July 1939",
+    "date": "1939-07",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Royal Canadian Air Force",
+    "quote": "he joined the Royal Canadian Air Force in Trenton , Ontario in July 1939"
+   }
+  ]
+ }
+}

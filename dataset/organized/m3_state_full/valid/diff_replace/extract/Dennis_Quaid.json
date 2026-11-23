@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "It was confirmed that Quaid would portray President Ronald Reagan in the biopic Reagan.",
+   "chunk": 11,
+   "date_text": "In March 2018",
+   "date": "2018-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "In March 2018 , it was confirmed by director Sean McNamara that Quaid would portray President Ronald Reagan in an upcoming biopic , titled Reagan",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#11"
+  },
+  {
+   "text": "The film was slated to have a summer 2019 release.",
+   "chunk": 11,
+   "date_text": "summer 2019",
+   "date": "2019",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "The film was slated to have a summer 2019 release",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Dennis_Quaid#11"
+  },
+  {
+   "text": "Filming was scheduled to begin in May 2020.",
+   "chunk": 11,
+   "date_text": "May 2020",
+   "date": "2020-05",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Reagan",
+   "quote": "was scheduled to begin filming in May 2020",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Dennis_Quaid#11"
+  }
+ ],
+ "dropped": []
+}

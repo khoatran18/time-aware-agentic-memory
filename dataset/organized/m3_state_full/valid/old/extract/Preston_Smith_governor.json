@@ -1,0 +1,105 @@
+{
+ "events": [
+  {
+   "text": "Preston Earnest Smith was born.",
+   "chunk": 0,
+   "date_text": "March 7 , 1912",
+   "date": "1912-03-07",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Preston Earnest Smith ( March 7 , 1912",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  },
+  {
+   "text": "Preston Earnest Smith died.",
+   "chunk": 0,
+   "date_text": "October 18 , 2003",
+   "date": "2003-10-18",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "October 18 , 2003 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  },
+  {
+   "text": "Preston Smith became the 40th Governor of Oklahoma.",
+   "chunk": 0,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Governor of Oklahoma",
+   "quote": "was the 40th Governor of Oklahoma from 1969",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  },
+  {
+   "text": "Preston Smith's term as Governor of Oklahoma ended.",
+   "chunk": 0,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Governor of Oklahoma",
+   "quote": "from 1969 to 1973",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Smith's"
+   ],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  },
+  {
+   "text": "Preston Smith became lieutenant governor.",
+   "chunk": 0,
+   "date_text": "1963",
+   "date": "1963",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "lieutenant governor",
+   "quote": "previously served as the lieutenant governor from 1963",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  },
+  {
+   "text": "Preston Smith's service as lieutenant governor ended.",
+   "chunk": 0,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "lieutenant governor",
+   "quote": "from 1963 to 1969",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Smith's"
+   ],
+   "cid": "/wiki/Preston_Smith_(governor)#0"
+  }
+ ],
+ "dropped": []
+}

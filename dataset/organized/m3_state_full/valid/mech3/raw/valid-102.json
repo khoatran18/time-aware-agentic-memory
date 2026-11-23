@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "6fb774295bc4f69b",
+  "N2": "ca3a2620ffb3f32b",
+  "N3": "23578f887f59e8f0",
+  "N4": "cf7fdfc4d0426ee8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "joining the WAC and the football program will compete as a FCS independent",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Trailblazers joined the WAC.",
+    "evidence": "joining the WAC and the football program will compete as a FCS independent",
+    "date_text": "2020–21 season",
+    "date": "2020",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "WAC",
+    "quote": "joining the WAC"
+   }
+  ]
+ }
+}

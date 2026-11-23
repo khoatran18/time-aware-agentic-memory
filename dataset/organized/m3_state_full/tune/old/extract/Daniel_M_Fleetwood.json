@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "Fleetwood left Sandia to accept the position of Professor of Electrical Engineering at Vanderbilt University.",
+   "chunk": 7,
+   "date_text": "In 1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vanderbilt University",
+   "quote": "In 1999 Fleetwood left Sandia to accept the position of Professor of Electrical Engineering at Vanderbilt University",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Daniel_M._Fleetwood#7"
+  },
+  {
+   "text": "He was named a Professor of Physics.",
+   "chunk": 7,
+   "date_text": "In 2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Professor of Physics",
+   "quote": "In 2000 , he was also named a Professor of Physics",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Daniel_M._Fleetwood#7"
+  },
+  {
+   "text": "He was appointed Associate Dean for Research of the Vanderbilt School of Engineering.",
+   "chunk": 7,
+   "date_text": "in 2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Associate Dean for Research of the Vanderbilt School of Engineering",
+   "quote": "in 2001 he was appointed Associate Dean for Research of the Vanderbilt School of Engineering",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Daniel_M._Fleetwood#7"
+  },
+  {
+   "text": "He became Chair of the Electrical Engineering and Computer Science Department.",
+   "chunk": 7,
+   "date_text": "from June 2003",
+   "date": "2003-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Electrical Engineering and Computer Science Department",
+   "quote": "from June 2003 he has been Chair of the Electrical Engineering and Computer Science Department",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Daniel_M._Fleetwood#7"
+  },
+  {
+   "text": "He was named an Honorary Professor of the Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences.",
+   "chunk": 8,
+   "date_text": "in 2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Shanghai Institute of Microsystem and Information Technology",
+   "quote": "He was named an Honorary Professor of the Shanghai Institute of Microsystem and Information Technology , Chinese Academy of Sciences in 2011",
+   "section": 2,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Daniel_M._Fleetwood#8"
+  }
+ ],
+ "dropped": []
+}

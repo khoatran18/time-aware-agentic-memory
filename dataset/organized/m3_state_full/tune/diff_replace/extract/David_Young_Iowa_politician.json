@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Young served as chief of staff to Iowa Republican senator Chuck Grassley.",
+   "chunk": 1,
+   "date_text": "From 2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "chief of staff",
+   "quote": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/David_Young_(Iowa_politician)#1"
+  },
+  {
+   "text": "Young's service as chief of staff to Chuck Grassley ended.",
+   "chunk": 1,
+   "date_text": "2013",
+   "date": "2013",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "chief of staff",
+   "quote": "From 2006 to 2013 , he served as the chief of staff to Iowa Republican senator Chuck Grassley",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/David_Young_(Iowa_politician)#1"
+  },
+  {
+   "text": "Young was previously chief of staff to Kentucky senator Jim Bunning.",
+   "chunk": 1,
+   "date_text": "from 1998",
+   "date": "1998",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "chief of staff",
+   "quote": "He was previously chief of staff to Kentucky senator Jim Bunning from 1998 to 2006",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/David_Young_(Iowa_politician)#1"
+  },
+  {
+   "text": "Young's service as chief of staff to Jim Bunning ended.",
+   "chunk": 1,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "chief of staff",
+   "quote": "He was previously chief of staff to Kentucky senator Jim Bunning from 1998 to 2006",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/David_Young_(Iowa_politician)#1"
+  }
+ ],
+ "dropped": []
+}

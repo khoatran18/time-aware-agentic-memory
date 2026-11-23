@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The peak was discovered and originally named Mount Kaufmann.",
+   "chunk": 3,
+   "date_text": "1871",
+   "date": "1871",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Mount Kaufmann",
+   "quote": "The peak was discovered in 1871 and originally named Mount Kaufmann",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Lenin_Peak#3"
+  },
+  {
+   "text": "The mountain was renamed Lenin Peak.",
+   "chunk": 3,
+   "date_text": "1928",
+   "date": "1928",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Lenin Peak",
+   "quote": "In 1928 , the mountain was renamed Lenin Peak",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Lenin_Peak#3"
+  },
+  {
+   "text": "In Tajikistan, the peak was renamed again.",
+   "chunk": 3,
+   "date_text": "July 2006",
+   "date": "2006-07",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Qullai Abuali ibni Sino",
+   "quote": "In Tajikistan , the peak was renamed again in July 2006",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Lenin_Peak#3"
+  }
+ ],
+ "dropped": []
+}

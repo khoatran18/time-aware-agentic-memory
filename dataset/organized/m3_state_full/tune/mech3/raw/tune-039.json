@@ -1,0 +1,51 @@
+{
+ "idmap": {
+  "N1": "6c4262328e1ba747",
+  "N2": "9b6d549ec40a5da7",
+  "N3": "c0170dfe2d5dce34",
+  "N4": "775b264a4416840f",
+  "N5": "08085bb800c52575",
+  "N6": "996d3e3ef7c8296b",
+  "N7": "73be12c0f1eb352c",
+  "N8": "3f734d0c15d011c2",
+  "N9": "e3d88a1a2fdd5d61"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011",
+    "end_date": "2011"
+   }
+  ],
+  "add": [
+   {
+    "text": "Goldberg hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011.",
+    "evidence": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011",
+    "date_text": "from 2009 to 2011",
+    "date": "2009",
+    "approximate": false,
+    "track": "work",
+    "phase": "start",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Garage Mahal",
+    "quote": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011"
+   },
+   {
+    "text": "Goldberg's hosting of Garage Mahal on the DIY Network ended in 2011.",
+    "evidence": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011",
+    "date_text": "2011",
+    "date": "2011",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Garage Mahal",
+    "quote": "He hosted 26 episodes of Garage Mahal on the DIY Network from 2009 to 2011"
+   }
+  ]
+ }
+}

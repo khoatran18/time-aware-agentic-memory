@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The building was granted to the Daughters of the American Revolution.",
+   "chunk": 6,
+   "date_text": "1913",
+   "date": "1913",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Daughters of the American Revolution",
+   "quote": "In 1913 , the building was granted to the Daughters of the American Revolution",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Exchange_and_Provost#6"
+  },
+  {
+   "text": "The building served as the army headquarters of General Leonard Wood and the United States Lighthouse Service in World War I.",
+   "chunk": 6,
+   "date_text": "World War I",
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "army headquarters",
+   "quote": "In World War I , the building served as the army headquarters of General Leonard Wood",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Exchange_and_Provost#6"
+  },
+  {
+   "text": "The building served as a USO facility and canteen for troops and as the Coastal Picket Station for the Sixth Naval District in World War II.",
+   "chunk": 6,
+   "date_text": "World War II",
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "USO facility",
+   "quote": "In World War II , the building not only served as a USO facility and canteen for troops",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Exchange_and_Provost#6"
+  }
+ ],
+ "dropped": []
+}

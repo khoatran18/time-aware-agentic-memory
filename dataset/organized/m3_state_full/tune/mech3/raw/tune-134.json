@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "f75615ca7fe10a43",
+  "N2": "09036fe8df2d2f02",
+  "N3": "c78d4b19a84a2764"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "On February 18, 2014, Rush Holt announced that he would not seek re-election to the House of Representatives in 2014.",
+    "evidence": "On February 18 , 2014 , Rush Holt announced that he would not seek re-election to the House of Representatives in 2014 .",
+    "date_text": "February 18 , 2014",
+    "date": "2014-02-18",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "statement",
+    "subject": "self",
+    "object": "House of Representatives",
+    "quote": "On February 18 , 2014 , Rush Holt announced that he would not seek re-election to the House of Representatives in 2014 ."
+   }
+  ]
+ }
+}

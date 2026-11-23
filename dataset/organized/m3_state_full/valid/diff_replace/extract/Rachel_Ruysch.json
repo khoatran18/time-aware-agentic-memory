@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Ruysch was apprenticed to Willem van Aelst.",
+   "chunk": 3,
+   "date_text": "In 1679",
+   "date": "1679",
+   "approximate": false,
+   "track": "education",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Willem van Aelst",
+   "quote": "In 1679 , at age fifteen , Ruysch was apprenticed to Willem van Aelst",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rachel_Ruysch#3"
+  },
+  {
+   "text": "Ruysch studied with van Aelst until his death.",
+   "chunk": 3,
+   "date_text": "1683",
+   "date": "1683",
+   "approximate": false,
+   "track": "education",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Willem van Aelst",
+   "quote": "Ruysch studied with van Aelst until his death in 1683",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Rachel_Ruysch#3"
+  }
+ ],
+ "dropped": []
+}

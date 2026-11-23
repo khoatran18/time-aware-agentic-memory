@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "671b04da690860ec",
+  "N2": "46f6029d7c660e7b",
+  "N3": "dfdc53ab3745a82e",
+  "N4": "8592abbc784360e7",
+  "N5": "aabc4e2437af0a94",
+  "N6": "059ee5d5c4396818",
+  "N7": "d2cc78b1491b2096"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Elected a member of the American Antiquarian Society in 1868",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "William Dwight Whitney was elected a member of the American Antiquarian Society.",
+    "evidence": "Elected a member of the American Antiquarian Society in 1868",
+    "date_text": "1868",
+    "date": "1868",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "American Antiquarian Society",
+    "quote": "Elected a member of the American Antiquarian Society in 1868"
+   }
+  ]
+ }
+}

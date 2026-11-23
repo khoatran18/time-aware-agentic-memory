@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Valladolid tram network began.",
+   "chunk": 44,
+   "date_text": "1881",
+   "date": "1881",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Valladolid tram network",
+   "quote": "Urban transit system was based on the Valladolid tram network from 1881 to 1933",
+   "section": 14,
+   "flags": [],
+   "cid": "/wiki/Valladolid#44"
+  },
+  {
+   "text": "The Valladolid tram network ended.",
+   "chunk": 44,
+   "date_text": "1933",
+   "date": "1933",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Valladolid tram network",
+   "quote": "Urban transit system was based on the Valladolid tram network from 1881 to 1933",
+   "section": 14,
+   "flags": [],
+   "cid": "/wiki/Valladolid#44"
+  },
+  {
+   "text": "A public urban bus system started.",
+   "chunk": 44,
+   "date_text": "1928",
+   "date": "1928",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "public urban bus system",
+   "quote": "A public urban bus system started in 1928",
+   "section": 14,
+   "flags": [],
+   "cid": "/wiki/Valladolid#44"
+  }
+ ],
+ "dropped": []
+}

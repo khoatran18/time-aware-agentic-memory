@@ -1,0 +1,23 @@
+{
+ "events": [
+  {
+   "text": "Danny Ross joined the show, replacing Susan's original boyfriend.",
+   "chunk": 2,
+   "date_text": "1960",
+   "date": "1960",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "the show",
+   "quote": "He joined the show in 1960 , replacing Susans original boyfriend",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Susan's"
+   ],
+   "cid": "/wiki/The_Clitheroe_Kid#2"
+  }
+ ],
+ "dropped": []
+}

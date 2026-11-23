@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Prince Alexander passed a qualifying examination to become service cadet in the Royal Navy.",
+   "chunk": 5,
+   "date_text": "March 1902",
+   "date": "1902-03",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Navy",
+   "quote": "passed a qualifying examination to become service cadet in the Royal Navy in March 1902",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5"
+  },
+  {
+   "text": "Prince Alexander joined the cadet training ship HMS Britannia at Dartmouth.",
+   "chunk": 5,
+   "date_text": "8 May 1902",
+   "date": "1902-05-08",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "HMS Britannia",
+   "quote": "joined the cadet training ship HMS Britannia at Dartmouth on 8 May 1902",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5"
+  },
+  {
+   "text": "Prince Alexander served in the Royal Navy.",
+   "chunk": 5,
+   "date_text": "1902",
+   "date": "1902",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Navy",
+   "quote": "He served in the Royal Navy from 1902 to 1908",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5"
+  },
+  {
+   "text": "Prince Alexander's service in the Royal Navy ended.",
+   "chunk": 5,
+   "date_text": "1908",
+   "date": "1908",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Royal Navy",
+   "quote": "He served in the Royal Navy from 1902 to 1908",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Alexander's"
+   ],
+   "cid": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5"
+  },
+  {
+   "text": "Prince Alexander became one of the earliest members of The Castaways Club.",
+   "chunk": 5,
+   "date_text": "1910",
+   "date": "1910",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "The Castaways Club",
+   "quote": "in 1910 , became one of the earliest members of The Castaways Club",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Alexander_Mountbatten,_1st_Marquess_of_Carisbrooke#5"
+  }
+ ],
+ "dropped": []
+}

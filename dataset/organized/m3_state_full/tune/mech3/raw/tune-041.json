@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "893c8e931c9b35ae",
+  "N2": "d649ef748d85d82b",
+  "N3": "ac2ad64cba6b279d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "The trials lasted from November 1948 to March 1949",
+    "end_date": "1949-03"
+   }
+  ],
+  "add": [
+   {
+    "text": "The flexible deck trials lasted from November 1948 to March 1949.",
+    "evidence": "The trials lasted from November 1948 to March 1949",
+    "date_text": "November 1948 to March 1949",
+    "date": "1949-03",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "flexible deck trials",
+    "quote": "The trials lasted from November 1948 to March 1949"
+   },
+   {
+    "text": "Upon completion of the trials, Warrior was paid off into the reserve at Portsmouth.",
+    "evidence": "upon completion , Warrior was paid off into the reserve at Portsmouth",
+    "date_text": "March 1949",
+    "date": "1949-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "reserve at Portsmouth",
+    "quote": "The trials lasted from November 1948 to March 1949 and upon completion , Warrior was paid off into the reserve at Portsmouth"
+   }
+  ]
+ }
+}

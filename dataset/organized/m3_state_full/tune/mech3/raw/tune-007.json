@@ -1,0 +1,64 @@
+{
+ "idmap": {
+  "N1": "8ce4118bf07dbed6",
+  "N2": "9de1d691701410e5",
+  "N3": "d038dca63347d645"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Sir Nicholas Stern's tenure as Head of the Government Economic Service ended.",
+    "evidence": "The post of Head of the Government Economic Service had been held by Sir Nicholas Stern ( now Lord Stern of Brentford ) until June 2007",
+    "date_text": "June 2007",
+    "date": "2007-06",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Head of the Government Economic Service",
+    "quote": "The post of Head of the Government Economic Service had been held by Sir Nicholas Stern ( now Lord Stern of Brentford ) until June 2007"
+   },
+   {
+    "text": "Vicky Pryce jointly held the post of Head of the Government Economic Service from June 2007.",
+    "evidence": "since when it has been jointly held by Vicky Pryce",
+    "date_text": "June 2007",
+    "date": "2007-06",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Head of the Government Economic Service",
+    "quote": "since when it has been jointly held by Vicky Pryce"
+   },
+   {
+    "text": "Dave Ramsden jointly held the post of Head of the Government Economic Service from June 2007.",
+    "evidence": "since when it has been jointly held by Vicky Pryce , Chief Economic Adviser and Director General of Economics at BIS ( until 2010 ) , and Dave Ramsden",
+    "date_text": "June 2007",
+    "date": "2007-06",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Head of the Government Economic Service",
+    "quote": "since when it has been jointly held by Vicky Pryce , Chief Economic Adviser and Director General of Economics at BIS ( until 2010 ) , and Dave Ramsden"
+   },
+   {
+    "text": "Vicky Pryce's role as Chief Economic Adviser and Director General of Economics at BIS ended.",
+    "evidence": "Vicky Pryce , Chief Economic Adviser and Director General of Economics at BIS ( until 2010 )",
+    "date_text": "2010",
+    "date": "2010",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Chief Economic Adviser and Director General of Economics at BIS",
+    "quote": "Vicky Pryce , Chief Economic Adviser and Director General of Economics at BIS ( until 2010 )"
+   }
+  ]
+ }
+}

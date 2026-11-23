@@ -1,0 +1,64 @@
+{
+ "idmap": {
+  "N1": "ceca89f817a28130",
+  "N2": "897e62ab650d0dcd",
+  "N3": "40a629ccc9d8f521",
+  "N4": "df4b9efabac00447",
+  "N5": "5d47cd203f93e16a",
+  "N6": "884741325bedf00f",
+  "N7": "8247fae5162ba05e",
+  "N8": "8bee008667c61b41",
+  "N9": "530de4dbaff7a749",
+  "N10": "6dd886e4f7a2730c",
+  "N11": "279956a668e8c1cc",
+  "N12": "e479a4b444162f2a",
+  "N13": "b7c9b885d872cfc1",
+  "N14": "422269c905d78118",
+  "N15": "41c5e0ab20b4fc4a",
+  "N16": "32c0230b989ddc96"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Lutz Köhlert ( 1969-1973 )",
+    "end_date": null
+   },
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "Lutz Köhlert ( 1969-1973 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Lutz Köhlert was a successor heading the school.",
+    "evidence": "Lutz Köhlert ( 1969-1973 )",
+    "date_text": "1969",
+    "date": "1969",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Lutz Köhlert",
+    "quote": "Lutz Köhlert ( 1969-1973 )"
+   },
+   {
+    "text": "Lutz Köhlert's tenure ended.",
+    "evidence": "Lutz Köhlert ( 1969-1973 )",
+    "date_text": "1973",
+    "date": "1973",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Lutz Köhlert",
+    "quote": "Lutz Köhlert ( 1969-1973 )"
+   }
+  ]
+ }
+}

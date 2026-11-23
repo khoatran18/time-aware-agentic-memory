@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "6024d49008299861",
+  "N2": "af6409ec56670208",
+  "N3": "f0f0dc9e26ee672c",
+  "N4": "5aea37c3c039a03a",
+  "N5": "d49d4ce909be64f3",
+  "N6": "08718b0b54ce5378",
+  "N7": "7601aa156359658e",
+  "N8": "f7afe849f9e8f6c5",
+  "N9": "26dcdec557160886"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Lee was held by the British as a prisoner until exchanged in 1778.",
+    "evidence": "he was held by the British as a prisoner until exchanged in 1778",
+    "date_text": "1778",
+    "date": "1778",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "British",
+    "quote": "he was held by the British as a prisoner until exchanged in 1778"
+   }
+  ]
+ }
+}

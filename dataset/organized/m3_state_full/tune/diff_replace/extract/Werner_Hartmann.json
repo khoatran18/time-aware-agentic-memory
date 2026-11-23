@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Hartmann joined the Königlich Preußischen Kadettenkorps in Oranienstein near Diez.",
+   "chunk": 2,
+   "date_text": "1 April 1914",
+   "date": "1914-04-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Königlich Preußischen Kadettenkorps",
+   "quote": "On 1 April 1914 , Hartmann joined the Königlich Preußischen Kadettenkorps ( Royal Prussian Cadet Corps ) in Oranienstein near Diez .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Werner_Hartmann#2"
+  },
+  {
+   "text": "Hartmann transferred to the Hauptkadettenanstalt in Berlin-Lichterfelde.",
+   "chunk": 2,
+   "date_text": "1 April 1917",
+   "date": "1917-04-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Hauptkadettenanstalt",
+   "quote": "he transferred to the Hauptkadettenanstalt ( Main Military Academy ) in Berlin-Lichterfelde on 1 April 1917 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Werner_Hartmann#2"
+  },
+  {
+   "text": "Hartmann graduated with his Abitur.",
+   "chunk": 2,
+   "date_text": "1921",
+   "date": "1921",
+   "approximate": false,
+   "track": "education",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Abitur",
+   "quote": "There he graduated with his Abitur ( diploma ) in 1921 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Werner_Hartmann#2"
+  },
+  {
+   "text": "Hartmann began his naval career with the Reichsmarine of the Weimar Republic as a member of Crew 21.",
+   "chunk": 2,
+   "date_text": "1 April 1921",
+   "date": "1921-04-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Reichsmarine",
+   "quote": "he began his naval career with the Reichsmarine of the Weimar Republic on 1 April 1921 as a member of Crew 21",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Werner_Hartmann#2"
+  }
+ ],
+ "dropped": []
+}

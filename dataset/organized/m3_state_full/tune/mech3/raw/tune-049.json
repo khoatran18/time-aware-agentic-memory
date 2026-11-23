@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "2f55d915718f5f05",
+  "N2": "92542dc2af707b36",
+  "N3": "9234155a7705517d",
+  "N4": "e93e3bbd8dc776b2",
+  "N5": "3338cf5add4301f2",
+  "N6": "77eaf42edc864296",
+  "N7": "ddfb5a38d29c7ff3",
+  "N8": "721bde70b874cda2",
+  "N9": "22992b01bd2c7558"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "but was fired after failing to make the playoffs in 2017",
+    "end_date": "2017"
+   }
+  ],
+  "add": [
+   {
+    "text": "Michael Cooper was fired after failing to make the playoffs in 2017.",
+    "evidence": "but was fired after failing to make the playoffs in 2017",
+    "date_text": "2017",
+    "date": "2017",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Michael Cooper",
+    "quote": "but was fired after failing to make the playoffs in 2017"
+   }
+  ]
+ }
+}

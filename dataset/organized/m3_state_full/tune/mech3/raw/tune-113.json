@@ -1,0 +1,56 @@
+{
+ "idmap": {
+  "N1": "15706ad2870afad9",
+  "N2": "a6c46591f50955c4",
+  "N3": "28ee02bd482f38cf",
+  "N4": "d352979f8f619ff7",
+  "N5": "122edf5d69d822e6",
+  "N6": "25472be9cf6f4dc2",
+  "N7": "5f9773aac4135d8b",
+  "N8": "a44b37e57c8104ec"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Kopp and Hemrich produced Rainier beer in Washington until 1916",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "until 1916 , when the state of Washington enacted its own prohibition",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Kopp and Hemrich produced Rainier beer in Washington until 1916.",
+    "evidence": "Kopp and Hemrich produced Rainier beer in Washington until 1916",
+    "date_text": "1916",
+    "date": "1916",
+    "approximate": false,
+    "track": "work",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Rainier beer",
+    "quote": "Kopp and Hemrich produced Rainier beer in Washington until 1916"
+   },
+   {
+    "text": "The state of Washington enacted its own prohibition in 1916.",
+    "evidence": "until 1916 , when the state of Washington enacted its own prohibition",
+    "date_text": "1916",
+    "date": "1916",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Washington",
+    "quote": "until 1916 , when the state of Washington enacted its own prohibition"
+   }
+  ]
+ }
+}

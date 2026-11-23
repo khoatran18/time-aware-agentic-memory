@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "743745613056f6b1",
+  "N2": "40bdd3f8a196d15a",
+  "N3": "d9195b8f358aec8b",
+  "N4": "861c0b01290bb34b",
+  "N5": "4479bf535937c3e1",
+  "N6": "aca6020fd91373f0",
+  "N7": "fd7dd16e85835815",
+  "N8": "6726ef0cc393c2f8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed by overwhelming force .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Student protests were quickly suppressed by overwhelming force.",
+    "evidence": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed by overwhelming force .",
+    "date_text": "1977",
+    "date": "1977",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "Student protests in 1975 , 1976 , and 1977 were quickly suppressed by overwhelming force ."
+   }
+  ]
+ }
+}

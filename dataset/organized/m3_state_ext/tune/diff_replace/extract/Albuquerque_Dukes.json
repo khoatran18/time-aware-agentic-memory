@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Dukes left Albuquerque.",
+   "chunk": 18,
+   "date_text": "2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Albuquerque",
+   "quote": "When the Dukes left Albuquerque in 2000",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#18"
+  },
+  {
+   "text": "The Calgary Cannons were moved to Albuquerque as the Albuquerque Isotopes.",
+   "chunk": 18,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Albuquerque Isotopes",
+   "quote": "In 2003 , the Calgary Cannons were moved to Albuquerque as the Albuquerque Isotopes",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#18"
+  },
+  {
+   "text": "The Isotopes became an affiliate of the Los Angeles Dodgers.",
+   "chunk": 18,
+   "date_text": "2009",
+   "date": "2009",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Los Angeles Dodgers",
+   "quote": "In 2009 , the Isotopes became an affiliate of the Los Angeles Dodgers",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Albuquerque_Dukes#18"
+  }
+ ],
+ "dropped": []
+}

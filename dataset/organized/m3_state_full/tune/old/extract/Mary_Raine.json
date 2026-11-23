@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Mary Thomas married William Morris Thomas.",
+   "chunk": 11,
+   "date_text": "5 May 1905",
+   "date": "1905-05-05",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "William Morris Thomas",
+   "quote": "On 5 May 1905 , she married William Morris Thomas , becoming Mary Thomas .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#11"
+  },
+  {
+   "text": "Mary returned to Perth.",
+   "chunk": 11,
+   "date_text": "1911",
+   "date": "1911",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Perth",
+   "quote": "in 1911 Mary returned to Perth",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#11"
+  },
+  {
+   "text": "Mary Thomas took up work as a barmaid again after returning to Perth.",
+   "chunk": 13,
+   "date_text": "1911",
+   "date": "1911",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "barmaid",
+   "quote": "After returning to Perth in 1911 Mary Thomas took up work as a barmaid again",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#13"
+  },
+  {
+   "text": "She bought her first business, the Bon Ton Cafe on Murray Street.",
+   "chunk": 13,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bon Ton Cafe",
+   "quote": "In 1915 she bought her first business , the Bon Ton Cafe on Murray Street .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mary_Raine#13"
+  }
+ ],
+ "dropped": []
+}

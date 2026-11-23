@@ -1,0 +1,24 @@
+{
+ "events": [
+  {
+   "text": "She has sailed as MS Peter Tessel for Larvik Line.",
+   "chunk": 0,
+   "date_text": "Since 1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "naming",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "MS Peter Tessel",
+   "quote": "Since 1984 she has sailed as MS Peter Tessel for Larvik Line .",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Tessel",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/MS_GNV_Azzurra#0"
+  }
+ ],
+ "dropped": []
+}

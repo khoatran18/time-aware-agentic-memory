@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "5efc0e2d05748a30",
+  "N2": "92c90d93d96d59fb",
+  "N3": "fe34f253fd5d3037"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From 1946 to 1969 , the Armeemuseum was housed in the Bavarian National Museum in Munich",
+    "end_date": "1969"
+   }
+  ],
+  "add": [
+   {
+    "text": "The Armeemuseum was housed in the Bavarian National Museum in Munich from 1946 to 1969.",
+    "evidence": "From 1946 to 1969 , the Armeemuseum was housed in the Bavarian National Museum in Munich",
+    "date_text": "1946 to 1969",
+    "date": "1969",
+    "approximate": false,
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Bavarian National Museum in Munich",
+    "quote": "From 1946 to 1969 , the Armeemuseum was housed in the Bavarian National Museum in Munich"
+   }
+  ]
+ }
+}

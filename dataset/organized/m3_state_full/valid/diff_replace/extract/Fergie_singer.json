@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Fergie provided the voice for Sally in Its Flashbeagle, Charlie Brown.",
+   "chunk": 5,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Its Flashbeagle, Charlie Brown",
+   "quote": "Its Flashbeagle , Charlie Brown ( 1984 )",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Fergie_(singer)#5"
+  },
+  {
+   "text": "Fergie provided the voice for Sally in Snoopys Getting Married, Charlie Brown.",
+   "chunk": 5,
+   "date_text": "1985",
+   "date": "1985",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Snoopys Getting Married, Charlie Brown",
+   "quote": "Snoopys Getting Married , Charlie Brown ( 1985 )",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Fergie_(singer)#5"
+  },
+  {
+   "text": "Fergie began starring on the TV show Kids Incorporated.",
+   "chunk": 5,
+   "date_text": "1984",
+   "date": "1984",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Kids Incorporated",
+   "quote": "From 1984 to 1989 , she starred on the TV show Kids Incorporated",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Fergie_(singer)#5"
+  },
+  {
+   "text": "Fergie's run starring on Kids Incorporated ended.",
+   "chunk": 5,
+   "date_text": "1989",
+   "date": "1989",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Kids Incorporated",
+   "quote": "From 1984 to 1989 , she starred on the TV show Kids Incorporated",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Fergie_(singer)#5"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Vologda Governorate began to exist.",
+   "chunk": 0,
+   "date_text": "1796",
+   "date": "1796",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vologda Governorate",
+   "quote": "existing from 1796 until 1929",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Vologda_Governorate#0"
+  },
+  {
+   "text": "Vologda Governorate ceased to exist.",
+   "chunk": 0,
+   "date_text": "1929",
+   "date": "1929",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vologda Governorate",
+   "quote": "existing from 1796 until 1929",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Vologda_Governorate#0"
+  },
+  {
+   "text": "Vologda Governorate was officially created from the disbanded Vologda Viceroyalty.",
+   "chunk": 1,
+   "date_text": "1796",
+   "date": "1796",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vologda Viceroyalty",
+   "quote": "Vologda Governorate was officially created in 1796 from the disbanded Vologda Viceroyalty",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Vologda_Governorate#1"
+  }
+ ],
+ "dropped": []
+}

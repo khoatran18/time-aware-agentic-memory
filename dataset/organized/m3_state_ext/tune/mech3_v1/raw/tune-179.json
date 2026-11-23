@@ -1,0 +1,23 @@
+{
+ "idmap": {
+  "N1": "a51a1f73e7e24e9b",
+  "N2": "e508a83a1a6e06fd",
+  "N3": "2b3d030a7cbf9127",
+  "N4": "c1e4b77ef9263c2d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "edit",
+    "evidence": "a truck-ramming attack was made on the Christmas market at Breitscheidplatz",
+    "end_date": null,
+    "new_text": "A truck-ramming attack was made on the Christmas market at Breitscheidplatz, killing twelve people and injuring 48 others.",
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": "On 19 December 2016 , at about 20:00 local time , a truck-ramming attack was made on the Christmas market at Breitscheidplatz"
+   }
+  ],
+  "add": []
+ }
+}

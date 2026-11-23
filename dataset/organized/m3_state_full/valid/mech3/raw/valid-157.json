@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "4f4ce3b913ed5997",
+  "N2": "9bbcb0376a55c522",
+  "N3": "07ed0c862bd66def",
+  "N4": "f29e291b03b65423",
+  "N5": "ca6a016fb17a4293",
+  "N6": "41878625f942e8bc",
+  "N7": "38027d25e7a0036e",
+  "N8": "06ffda5cc608e662",
+  "N9": "50aa37ba241b703b"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "He may have worked for photographer Mathew Brady.",
+    "evidence": "He may have worked for photographer Mathew Brady , c . 1855-1857",
+    "date_text": "c . 1855-1857",
+    "date": "1855",
+    "approximate": true,
+    "track": "work",
+    "phase": "start",
+    "kind": "state",
+    "subject": "self",
+    "object": "Mathew Brady",
+    "quote": "He may have worked for photographer Mathew Brady , c . 1855-1857"
+   }
+  ]
+ }
+}

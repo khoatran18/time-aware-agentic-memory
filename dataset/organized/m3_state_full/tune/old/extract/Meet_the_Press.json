@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Tim Russert took over as moderator of Meet the Press.",
+   "chunk": 15,
+   "date_text": "December 8 , 1991",
+   "date": "1991-12-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Meet the Press",
+   "quote": "He took over as moderator of Meet the Press on December 8 , 1991",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#15"
+  },
+  {
+   "text": "Russert remained with the program until his death.",
+   "chunk": 15,
+   "date_text": "June 13 , 2008",
+   "date": "2008-06-13",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Meet the Press",
+   "quote": "remained with the program until his death on June 13 , 2008",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#15"
+  },
+  {
+   "text": "Meet the Press was the highest-rated program among the Sunday morning talk shows.",
+   "chunk": 17,
+   "date_text": "By 2006",
+   "date": "2006",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "Meet the Press",
+   "quote": "By 2006 , Meet the Press was the highest-rated program among the Sunday morning talk shows",
+   "section": 3,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Meet_the_Press#17"
+  },
+  {
+   "text": "Russert died of a sudden coronary thrombosis.",
+   "chunk": 18,
+   "date_text": "June 13 , 2008",
+   "date": "2008-06-13",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "On June 13 , 2008 , Russert died of a sudden coronary thrombosis",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#18"
+  },
+  {
+   "text": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert.",
+   "chunk": 18,
+   "date_text": "June 15 , 2011",
+   "date": "2011-06-15",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "Meet the Press",
+   "quote": "Tom Brokaw hosted a special edition of Meet the Press dedicated to the life of Russert on June 15 , 2011",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Meet_the_Press#18"
+  }
+ ],
+ "dropped": []
+}

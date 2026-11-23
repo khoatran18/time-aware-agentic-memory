@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "b2e30272996ae1f4",
+  "N2": "bf0b6878ef2c86aa",
+  "N3": "0ac4dc34ceb3a61f",
+  "N4": "ef3fce6306247ecd",
+  "N5": "b6aee7651fc96fa7",
+  "N6": "ff33e1e5c7e6f967",
+  "N7": "6609ed960a404d19",
+  "N8": "d4841ec410af35ad"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Bongiorno returned to Italy in 1953",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Bongiorno returned to Italy.",
+    "evidence": "Bongiorno returned to Italy in 1953",
+    "date_text": "1953",
+    "date": "1953",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Italy",
+    "quote": "Bongiorno returned to Italy in 1953"
+   }
+  ]
+ }
+}

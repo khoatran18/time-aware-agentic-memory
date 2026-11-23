@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "ebda834c0531aea5",
+  "N2": "532d1330eba20d4f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "received the CHOICE Outstanding Academic Book for 1996 from the American Library Association",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "His edited volume Icons of American Protestantism: The Art of Warner Sallman received the CHOICE Outstanding Academic Book for 1996.",
+    "evidence": "received the CHOICE Outstanding Academic Book for 1996 from the American Library Association",
+    "date_text": "1996",
+    "date": "1996",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "CHOICE Outstanding Academic Book",
+    "quote": "received the CHOICE Outstanding Academic Book for 1996 from the American Library Association"
+   }
+  ]
+ }
+}

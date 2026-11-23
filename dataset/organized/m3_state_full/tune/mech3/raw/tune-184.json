@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "40ab99b10d59298b",
+  "N2": "20a9e89160bf372c",
+  "N3": "830a70404cb7f687"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In 1134 , in order to expose Hugh , Fulk accused him of infidelity with Melisende",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Fulk accused Hugh of infidelity with Melisende in 1134.",
+    "evidence": "In 1134 , in order to expose Hugh , Fulk accused him of infidelity with Melisende",
+    "date_text": "1134",
+    "date": "1134",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Hugh II of Le Puiset",
+    "quote": "In 1134 , in order to expose Hugh , Fulk accused him of infidelity with Melisende"
+   }
+  ]
+ }
+}

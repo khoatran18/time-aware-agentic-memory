@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "d995b2e0851fade1",
+  "N2": "0409211473c7c2bf",
+  "N3": "3dd92969e27c7309",
+  "N4": "698a8a6ed7658981",
+  "N5": "75b91bcd45f8f509",
+  "N6": "ef44963796d56e2c",
+  "N7": "bdf106b1e71847a0",
+  "N8": "593954efe1bf859f",
+  "N9": "b9382d8a615ab475",
+  "N10": "5ec3a30b8137765c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "He was in office during severe flooding in 2005 that the Army helped combat",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He was in office during severe flooding in 2005 that the Army helped combat.",
+    "evidence": "He was in office during severe flooding in 2005 that the Army helped combat",
+    "date_text": "2005",
+    "date": "2005",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "state",
+    "subject": "self",
+    "object": null,
+    "quote": "He was in office during severe flooding in 2005 that the Army helped combat"
+   }
+  ]
+ }
+}

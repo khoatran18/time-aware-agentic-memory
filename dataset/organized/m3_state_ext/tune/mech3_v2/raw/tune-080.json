@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "205135fb40c519a2",
+  "N2": "ed6a569996fd8dda",
+  "N3": "7dffe8d4672816a2",
+  "N4": "94d74c8bab3e4cdd",
+  "N5": "9c754839e9b7cfdb",
+  "N6": "6721e10fd01af338",
+  "N7": "f78483be5e3046d2",
+  "N8": "f876e8a3ae8e3f87"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "On 2 August 1941 , U-96 left for her sixth patrol in the North Atlantic .",
+    "end_date": null,
+    "new_text": null,
+    "new_date": null,
+    "new_date_text": null,
+    "new_quote": null
+   }
+  ],
+  "add": [
+   {
+    "text": "U-96 left for her sixth patrol in the North Atlantic.",
+    "evidence": "On 2 August 1941 , U-96 left for her sixth patrol in the North Atlantic .",
+    "date_text": "2 August 1941",
+    "date": "1941-08-02",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "North Atlantic",
+    "quote": "On 2 August 1941 , U-96 left for her sixth patrol in the North Atlantic ."
+   }
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "3aac44dfdb3595c8",
+  "N2": "b6caf688d23adc89",
+  "N3": "5dfe8ed6454ea3db"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "Hinnerk Scheper did military service in Germany from 1942 to 1945 .",
+    "end_date": "1945"
+   }
+  ],
+  "add": [
+   {
+    "text": "Hinnerk Scheper did military service in Germany from 1942 to 1945.",
+    "evidence": "Hinnerk Scheper did military service in Germany from 1942 to 1945 .",
+    "date_text": "from 1942 to 1945",
+    "date": "1942",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "state",
+    "subject": "other",
+    "object": "military service",
+    "quote": "Hinnerk Scheper did military service in Germany from 1942 to 1945 ."
+   },
+   {
+    "text": "Hinnerk Scheper's military service in Germany ended in 1945.",
+    "evidence": "Hinnerk Scheper did military service in Germany from 1942 to 1945 .",
+    "date_text": "1945",
+    "date": "1945",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "state",
+    "subject": "other",
+    "object": "military service",
+    "quote": "Hinnerk Scheper did military service in Germany from 1942 to 1945 ."
+   }
+  ]
+ }
+}

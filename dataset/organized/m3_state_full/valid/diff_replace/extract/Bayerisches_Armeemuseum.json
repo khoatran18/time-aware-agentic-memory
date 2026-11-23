@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The Armeemuseum was housed in the Bavarian National Museum in Munich.",
+   "chunk": 3,
+   "date_text": "From 1946",
+   "date": "1946",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bavarian National Museum in Munich",
+   "quote": "From 1946 to 1969 , the Armeemuseum was housed in the Bavarian National Museum in Munich .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Bayerisches_Armeemuseum#3"
+  },
+  {
+   "text": "The Armeemuseum's housing in the Bavarian National Museum in Munich ended.",
+   "chunk": 3,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bavarian National Museum in Munich",
+   "quote": "From 1946 to 1969 , the Armeemuseum was housed in the Bavarian National Museum in Munich .",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Armeemuseum's"
+   ],
+   "cid": "/wiki/Bayerisches_Armeemuseum#3"
+  }
+ ],
+ "dropped": []
+}

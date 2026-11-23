@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The New Orleans Zephyrs remained in the American Association through 1997.",
+   "chunk": 4,
+   "date_text": "1997",
+   "date": "1997",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "American Association",
+   "quote": "The New Orleans Zephyrs remained in the American Association through 1997 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/New_Orleans_Baby_Cakes#4"
+  },
+  {
+   "text": "The circuit disbanded following the season.",
+   "chunk": 4,
+   "date_text": "the season",
+   "date": "1997",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "American Association",
+   "quote": "The circuit disbanded following the season ,",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/New_Orleans_Baby_Cakes#4"
+  },
+  {
+   "text": "The Zephyrs joined the Pacific Coast League in 1998.",
+   "chunk": 4,
+   "date_text": "1998",
+   "date": "1998",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Pacific Coast League",
+   "quote": "they joined the Pacific Coast League in 1998 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/New_Orleans_Baby_Cakes#4"
+  }
+ ],
+ "dropped": []
+}

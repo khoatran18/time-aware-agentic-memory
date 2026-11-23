@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "The Harington family owned Gleaston Castle until William Harington, 5th Baron Harington died.",
+   "chunk": 6,
+   "date_text": "1458",
+   "date": "1458",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gleaston Castle",
+   "quote": "The Harington family owned Gleaston Castle until William Harington , 5th Baron Harington died in 1458 .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gleaston_Castle#6"
+  },
+  {
+   "text": "The castle and barony passed to William Bonville, 6th Baron Harington through marriage.",
+   "chunk": 6,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "William Bonville , 6th Baron Harington",
+   "quote": "The castle and barony then passed to William Bonville , 6th Baron Harington through marriage .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gleaston_Castle#6"
+  },
+  {
+   "text": "William Bonville died and the castle passed to Thomas Grey, 1st Marquess of Dorset.",
+   "chunk": 6,
+   "date_text": "1460",
+   "date": "1460",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Thomas Grey , 1st Marquess of Dorset",
+   "quote": "He died in 1460 and the castle passed to Thomas Grey , 1st Marquess of Dorset , again through marriage .",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gleaston_Castle#6"
+  },
+  {
+   "text": "Gleaston Castle was likely abandoned around this time.",
+   "chunk": 6,
+   "date_text": "around this time",
+   "date": "1460",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gleaston Castle",
+   "quote": "It is likely that around this time Gleaston Castle was abandoned .",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Gleaston_Castle#6"
+  },
+  {
+   "text": "John Leland noted a ruine and waulles of a castell in Lancaster-shire cawlyd Gleston Castell.",
+   "chunk": 6,
+   "date_text": "1540",
+   "date": "1540",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Gleston Castell",
+   "quote": "In 1540 , the antiquarian John Leland noted there is a ruine and waulles of a castell in Lancaster-shire cawlyd Gleston Castell",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gleaston_Castle#6"
+  }
+ ],
+ "dropped": []
+}

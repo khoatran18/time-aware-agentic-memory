@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "D-CENT began running.",
+   "chunk": 17,
+   "date_text": "October 2011",
+   "date": "2011-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "D-CENT",
+   "quote": "which is running from October 2011 to May 2016",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Open_Knowledge_Foundation#17"
+  },
+  {
+   "text": "D-CENT's run ended.",
+   "chunk": 17,
+   "date_text": "May 2016",
+   "date": "2016-05",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "D-CENT",
+   "quote": "which is running from October 2011 to May 2016",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Open_Knowledge_Foundation#17"
+  }
+ ],
+ "dropped": []
+}

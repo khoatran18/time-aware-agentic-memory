@@ -1,0 +1,58 @@
+{
+ "events": [
+  {
+   "text": "Robinson became Chief Mechanical Engineer.",
+   "chunk": 1,
+   "date_text": "1902",
+   "date": "1902",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "Chief Mechanical Engineer",
+   "quote": "Robinson became Chief Mechanical Engineer in 1902",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/GCR_Class_11E#1"
+  },
+  {
+   "text": "The GCR bought 40 locomotives to Robinson's design, forming class 11B.",
+   "chunk": 1,
+   "date_text": "between 1901 and 1904",
+   "date": "1901",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "class 11B",
+   "quote": "They had bought 40 such locomotives ... between 1901 and 1904, and these formed class 11B",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Robinson's",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/GCR_Class_11E#1"
+  },
+  {
+   "text": "The purchase of 40 locomotives to Robinson's design ended.",
+   "chunk": 1,
+   "date_text": "between 1901 and 1904",
+   "date": "1904",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "class 11B",
+   "quote": "between 1901 and 1904, and these formed class 11B",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Robinson's"
+   ],
+   "cid": "/wiki/GCR_Class_11E#1"
+  }
+ ],
+ "dropped": []
+}

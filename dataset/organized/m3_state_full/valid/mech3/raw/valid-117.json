@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "c5e750465573366c",
+  "N2": "333746abceb960a7",
+  "N3": "aa973b96837af4c8",
+  "N4": "e48d71a1b47b2f60",
+  "N5": "ffe677d0ccd81a0b",
+  "N6": "6a24c68692ab0112",
+  "N7": "db4063577a1859c5",
+  "N8": "c264515c4090403f",
+  "N9": "bb83c17c241d3a1f",
+  "N10": "023d7378748675ce",
+  "N11": "7f7f3f7e1cf37e0a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "was the 40th Governor of Texas from 1969 to 1973",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Preston Earnest Smith was the 40th Governor of Texas from 1969 to 1973.",
+    "evidence": "was the 40th Governor of Texas from 1969 to 1973",
+    "date_text": "1969 to 1973",
+    "date": "1969",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Governor of Texas",
+    "quote": "was the 40th Governor of Texas from 1969 to 1973"
+   },
+   {
+    "text": "Preston Smith's term as Governor of Texas ended.",
+    "evidence": "from 1969 to 1973",
+    "date_text": "1973",
+    "date": "1973",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Governor of Texas",
+    "quote": "Governor of Texas from 1969 to 1973"
+   }
+  ]
+ }
+}
