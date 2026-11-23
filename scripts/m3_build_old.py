@@ -24,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 ORG = ROOT / "dataset" / "organized"
+M3 = os.environ.get("M3_STATE_NAME", "m3_state")  # thư mục trạng thái (mặc định m3_state; m3_state_ext cho đợt mở rộng)
 OT = ROOT / "dataset" / "eval" / "timeline_pilot" / "outline_trial"
 SCRIPT = OT / "pass3_p10b_oc.py"
 PAIRS_PER = 25  # như local/ingest_eval/judge.py
@@ -42,11 +43,11 @@ def write_blocks(path: Path, bl: list[tuple[str, str]]) -> None:
 
 
 def load_pilot(S: str) -> dict:
-    return json.loads((ORG / "m3_state" / S / "pilot.json").read_text(encoding="utf-8"))
+    return json.loads((ORG / M3 / S / "pilot.json").read_text(encoding="utf-8"))
 
 
 def old_dir(S: str) -> Path:
-    return ORG / "m3_state" / S / "old_in"
+    return ORG / M3 / S / "old_in"
 
 
 def make_inputs(S: str, P: dict) -> None:
@@ -68,8 +69,8 @@ def run_extract(S: str, P: dict, out: Path, dry: bool) -> str:
     g = {"__name__": "__main__", "__file__": str(SCRIPT), "ONLY": only}
     argv, env = sys.argv, dict(os.environ)
     sys.argv = [str(SCRIPT), str(ROOT), str(old_dir(S)), str(out), *[c["page"] for c in P["edits"]]]
-    os.environ.update({"DRY": "1" if dry else "0", "PROFILE": "opencode_deepseek_flash", "INGEST_CACHE": "m3_ingest_nothink", "WORKERS": "3",
-                       "TAM_LLM_METRICS_FILE": str(ROOT / "local" / "m3" / f"llm_calls_old_extract_{S}.jsonl")})
+    os.environ.update({"DRY": "1" if dry else "0", "PROFILE": "opencode_deepseek_flash", "INGEST_CACHE": "m3_ingest_nothink", "WORKERS": os.environ.get("M3_WORKERS", "5"),
+                       "TAM_LLM_METRICS_FILE": str(ROOT / "local" / "m3" / f"llm_calls_old_extract_{S}{'' if os.environ.get('M3_STATE_NAME', 'm3_state') == 'm3_state' else '_' + os.environ['M3_STATE_NAME']}.jsonl")})
     buf = io.StringIO()
     try:
         with contextlib.redirect_stdout(buf):
@@ -171,7 +172,7 @@ def pair_prompt() -> str:
     return m.group(1)
 
 
-def make_judge(S: str):
+def make_judge(S: str, tag: str = "old_pairs"):
     """judge(page, events, pairs) -> danh sách verdict ("same"/"different") theo thứ tự pairs; 25 cặp mỗi lượt, cache m3_pair_nothink."""
     from pydantic import BaseModel, Field
 
@@ -187,7 +188,7 @@ def make_judge(S: str):
     class PairOut(BaseModel):
         verdicts: list[PairV] = Field(default_factory=list)
 
-    os.environ["TAM_LLM_METRICS_FILE"] = str(ROOT / "local" / "m3" / f"llm_calls_old_pairs_{S}.jsonl")
+    os.environ["TAM_LLM_METRICS_FILE"] = str(ROOT / "local" / "m3" / f"llm_calls_{tag}_{S}{'' if os.environ.get('M3_STATE_NAME', 'm3_state') == 'm3_state' else '_' + os.environ['M3_STATE_NAME']}.jsonl")
     cfg = load_config()
     prof = "opencode_deepseek_flash"
     P = cfg.llm.profiles[prof]
@@ -221,7 +222,7 @@ def make_judge(S: str):
 
 
 def finish(S: str, P: dict, judge) -> None:
-    od = ORG / "m3_state" / S / "old"
+    od = ORG / M3 / S / "old"
     (od / "ingest_10b").mkdir(parents=True, exist_ok=True)
     (od / "nodes").mkdir(parents=True, exist_ok=True)
     print(f"{'trang':<34}{'loại':<5}{'nút cũ':>7}{'nút real':>9}{'chỉ cũ':>7}{'chỉ real':>9}{'cặp mới':>8}  sự kiện sửa còn trong bản cũ?")
@@ -255,7 +256,7 @@ def load_graph(S: str, P: dict, url: str) -> None:
     store.ensure_schema()
     n = 0
     for c in P["edits"]:
-        nodes = json.loads((ORG / "m3_state" / S / "old" / "nodes" / f"{c['page']}.json").read_text(encoding="utf-8"))
+        nodes = json.loads((ORG / M3 / S / "old" / "nodes" / f"{c['page']}.json").read_text(encoding="utf-8"))
         n += store.upsert_page(c["page"], nodes)
     print("đã nạp", n, "nút của", len(P["edits"]), "trang vào", url, "| đếm:", store.count())
     store.close()
@@ -297,7 +298,7 @@ def main() -> None:
 
     if a.step == "extract":
         make_inputs(S, P)
-        out = ORG / "m3_state" / S / "old" / "extract"
+        out = ORG / M3 / S / "old" / "extract"
         (ROOT / "local" / "m3").mkdir(parents=True, exist_ok=True)
         print(run_extract(S, P, out, dry=False).strip()[-1500:])
         return

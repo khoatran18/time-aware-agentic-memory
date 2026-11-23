@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 import re
 from collections import Counter, defaultdict
@@ -17,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ORG = ROOT / "dataset" / "organized"
+M3 = os.environ.get("M3_STATE_NAME", "m3_state")  # thư mục trạng thái (mặc định m3_state; m3_state_ext cho đợt mở rộng)
 WINDOW = 8  # pass3_p10b.py:18
 
 
@@ -51,6 +53,8 @@ def main() -> None:
     ap.add_argument("--set", default="tune")
     ap.add_argument("--per-type", type=int, default=5)
     ap.add_argument("--seed", type=int, default=20261121)
+    ap.add_argument("--any-edit", action="store_true", help="không đòi câu cơ chế 2 đích (chỉ để đo trạng thái và chi phí cập nhật; nhóm câu để trống nếu trang không có câu)")
+    ap.add_argument("--exclude-state", default="", help="tên thư mục m3_state có pilot.json (và mục excluded): các trang đó không được chọn lại (đợt mở rộng)")
     a = ap.parse_args()
     S = a.set
 
@@ -63,6 +67,10 @@ def main() -> None:
     for page, es in sorted(by_page.items()):
         gp, qp = ORG / "timeline_gold" / S / f"{page}.json", ORG / "questions" / "mech2" / S / f"{page}.jsonl"
         if not gp.exists() or not qp.exists():
+            if a.any_edit:
+                for e in es:
+                    cand[e["type"]].append({"edit_id": e["edit_id"], "type": e["type"], "page": page, "chunk_id": e["chunk_id"], "event": e["event"],
+                                            "groups": {"dich": [], "cung_chunk": [], "cung_trang": []}})
             continue  # trang không có câu cơ chế 2
         gold = {ev["id"]: ev for ev in json.loads(gp.read_text(encoding="utf-8"))["events"]}
         qs = [json.loads(l) for l in qp.read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -78,12 +86,15 @@ def main() -> None:
                     groups["dich"].append(row)
                 else:
                     groups["cung_chunk"].append(row)
-            if groups["dich"]:
+            if groups["dich"] or a.any_edit:
                 cand[e["type"]].append({"edit_id": e["edit_id"], "type": e["type"], "page": page, "chunk_id": e["chunk_id"],
                                         "event": e["event"], "groups": groups})
 
     rng = random.Random(a.seed)
     chosen, used = [], set()
+    if a.exclude_state:
+        ex = json.loads((ORG / a.exclude_state / S / "pilot.json").read_text(encoding="utf-8"))
+        used = {e["page"] for e in ex["edits"]} | {e["page"] for e in ex.get("excluded", [])}
     for t in "CEFA":
         pool = cand[t][:]
         rng.shuffle(pool)
@@ -101,7 +112,7 @@ def main() -> None:
         c["window"] = window_of(ch, c["chunk_id"])
         c["n_chunks_page"] = len(ch)
 
-    out = ORG / "m3_state" / S / "pilot.json"
+    out = ORG / M3 / S / "pilot.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"set": S, "seed": a.seed, "per_type": a.per_type, "window": WINDOW, "edits": chosen}, ensure_ascii=False, indent=1), encoding="utf-8")
 
