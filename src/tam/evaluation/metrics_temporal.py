@@ -128,6 +128,7 @@ def evaluate_retrieval(
             "forbidden": any(i in case.forbidden_ids for i in ids),
             "undated_in_results": any(s.chunk.start_time is None for s in result.chunks),
             "stages": stage_ranks(result.trace, case.gold_ids) if result.trace else None,
+            "timings_ms": result.trace.timings_ms if result.trace else None,
             "gold_pass_filter": (
                 gold_filter_status(store, case.gold_ids, VectorFilter(t_req=upper)) if store and case.gold_ids else None
             ),

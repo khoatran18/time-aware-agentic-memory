@@ -1,6 +1,8 @@
 """Qdrant: một collection, hai vector (dense + BM25 sparse), đúng 4 payload index."""
 from __future__ import annotations
 
+import time
+
 import uuid
 from typing import Any
 
@@ -112,16 +114,21 @@ class QdrantStore(VectorStore):
         """Chạy nhánh dense và nhánh BM25 riêng, mỗi nhánh áp cùng hard filter và lấy `top_n`."""
         qfilter = build_filter(flt)  # cùng một filter cho cả hai nhánh, để không nhánh nào lọt chunk tương lai/tin giả
         # Nhánh 1: dense, so vector câu hỏi với vector dense của chunk
+        t0 = time.perf_counter()
+        dense_vec = self._embedder.embed_dense_query(query_text)
+        embed_ms = (time.perf_counter() - t0) * 1000
         dense = self._client.query_points(
             self._collection,
-            query=self._embedder.embed_dense_query(query_text),
+            query=dense_vec,
             using=DENSE,
             query_filter=qfilter,
             limit=top_n,
             with_payload=True,
         )
         # Nhánh 2: sparse (BM25), so từ khóa
+        t0 = time.perf_counter()
         sv = self._embedder.embed_sparse_query(query_text)
+        embed_ms += (time.perf_counter() - t0) * 1000
         sparse = self._client.query_points(
             self._collection,
             query=models.SparseVector(indices=sv.indices, values=sv.values),
@@ -131,7 +138,7 @@ class QdrantStore(VectorStore):
             with_payload=True,
         )
         # Không gộp ở đây: RRF và min-max làm ở retrieval/temporal/fusion.py
-        hits = BranchHits(dense=_to_hits(dense.points), sparse=_to_hits(sparse.points))
+        hits = BranchHits(dense=_to_hits(dense.points), sparse=_to_hits(sparse.points), embed_ms=embed_ms)
         logger.debug("search %r: dense=%d sparse=%d ứng viên sau hard filter", query_text, len(hits.dense), len(hits.sparse))
         return hits
 

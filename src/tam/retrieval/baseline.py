@@ -8,6 +8,8 @@ Cơ chế 1 với `--no-temporal` (thêm lọc `start_time <= t_req`) và Cơ ch
 """
 from __future__ import annotations
 
+import time
+
 from tam.retrieval.base import Retriever
 from tam.retrieval.temporal.expansion import neighbor_ids
 from tam.retrieval.temporal.fusion import fuse
@@ -43,8 +45,10 @@ class PlainRetriever(Retriever):
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
         """Top-K theo độ liên quan nội dung, không dùng thời gian."""
+        t_start = time.perf_counter()
         flt = VectorFilter(t_req=query.t_req, exclude_invalidated=False, apply_time=False)
         hits = self._store.search(query.semantic_query, flt, self._top_n)
+        t_search = time.perf_counter()
         if self._method == "dense":
             pairs = [(h.chunk, h.score) for h in hits.dense]
         elif self._method == "bm25":
@@ -52,8 +56,10 @@ class PlainRetriever(Retriever):
         else:
             pairs = fuse(BranchHits(dense=hits.dense, sparse=hits.sparse), self._rrf_k, self._top_n)
         ranked = [ScoredChunk(chunk=c, semantic_score=s, final_score=s) for c, s in pairs[: self._top_n]]
+        t_fused = time.perf_counter()
         if self._reranker is not None and ranked:
             ranked = self._rerank(query.semantic_query, ranked)
+        t_reranked = time.perf_counter()
         ids = [s.chunk.chunk_id for s in ranked]
         trace = RetrievalTrace(
             dense_ids=[h.chunk.chunk_id for h in hits.dense], sparse_ids=[h.chunk.chunk_id for h in hits.sparse],
@@ -61,6 +67,9 @@ class PlainRetriever(Retriever):
         )
         top = ranked[: self._top_k]
         neighbors = self._store.get_chunks(neighbor_ids([s.chunk.chunk_id for s in top], self._window)) if self._window and top else []
+        t_end = time.perf_counter()
+        trace.timings_ms = {"embed": hits.embed_ms, "search": (t_search - t_start) * 1000, "fuse_score": (t_fused - t_search) * 1000,
+                            "rerank": (t_reranked - t_fused) * 1000, "neighbors": (t_end - t_reranked) * 1000, "total": (t_end - t_start) * 1000}
         return RetrievalResult(mechanism=self.mechanism, chunks=top, neighbors=neighbors, trace=trace)
 
     def _rerank(self, text: str, ranked: list[ScoredChunk]) -> list[ScoredChunk]:

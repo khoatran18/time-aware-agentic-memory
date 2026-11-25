@@ -34,6 +34,7 @@ class BranchHits:
 
     dense: list[SearchHit]
     sparse: list[SearchHit]
+    embed_ms: float = 0.0  # thời gian embed câu hỏi (dense + sparse) trong `search`; chỉ để đo độ trễ
 
 
 class VectorStore(ABC):

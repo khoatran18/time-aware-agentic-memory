@@ -34,6 +34,11 @@ class RetrievalTrace(BaseModel):
     sparse_ids: list[str] = Field(default_factory=list, description="Nhánh BM25 sau hard filter, theo hạng")
     fused_ids: list[str] = Field(default_factory=list, description="Sau RRF, TRƯỚC điểm thời gian, theo hạng (Top-N)")
     ranked_ids: list[str] = Field(default_factory=list, description="Sau điểm thời gian: toàn bộ Top-N theo hạng cuối")
+    timings_ms: dict[str, float] = Field(
+        default_factory=dict,
+        description="Thời gian từng bước (ms, perf_counter): embed (embed câu hỏi), search (cả embed + hai truy vấn Qdrant), fuse_score (RRF, chấm điểm, xếp hạng), "
+        "rerank (cross-encoder), neighbors, total. Chỉ để đo độ trễ",
+    )
 
 
 class RetrievalResult(BaseModel):

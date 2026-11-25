@@ -1,6 +1,7 @@
 """TemporalRetriever: hybrid search + hard filter -> RRF -> Temporal_Score -> re-rank Top-K (Cơ chế 1)."""
 from __future__ import annotations
 
+import time
 from dataclasses import replace
 from datetime import datetime
 
@@ -166,19 +167,25 @@ class TemporalRetriever(Retriever):
 
     def retrieve(self, query: ProfiledQuery) -> RetrievalResult:
         """Trả Top-K chunk theo `Final = W1·Semantic + W2·Temporal`, đã loại tin giả và thông tin tương lai."""
+        t_start = time.perf_counter()
         flt = to_vector_filter(query, use_range=self._time_mode == "range")
         hits = _guard(self._store.search(query.semantic_query, flt, self._top_n), flt)  # chốt chặn: store lỗi cũng không để lọt tương lai/tin giả
+        embed_ms = hits.embed_ms
         if self._t_unknown is not None:  # nhánh chunk không mốc, gộp vào cùng danh sách ứng viên của từng nhánh
             und_flt = replace(flt, undated=True)
             und = _guard(self._store.search(query.semantic_query, und_flt, self._top_n), und_flt)
+            embed_ms += und.embed_ms
             hits = merge_branches(hits, und, self._top_n)
+        t_search = time.perf_counter()
         fused = fuse(hits, self._rrf_k, self._top_n, self._sparse_weight)
 
         scored = [self._score(chunk, sem, query) for chunk, sem in fused]
         # Hòa điểm: ưu tiên chunk đúng thời điểm hơn, rồi chunk_id để kết quả tái lập được
         scored.sort(key=_rank_key)
+        t_scored = time.perf_counter()
         if self._reranker is not None:
             scored = self._rerank(query, scored)
+        t_reranked = time.perf_counter()
         top = scored[: self._top_k]
         trace = RetrievalTrace(
             dense_ids=[h.chunk.chunk_id for h in hits.dense], sparse_ids=[h.chunk.chunk_id for h in hits.sparse],
@@ -194,7 +201,11 @@ class TemporalRetriever(Retriever):
             logger.debug(
                 "  %s sem=%.3f temp=%.3f final=%.3f", s.chunk.chunk_id, s.semantic_score, s.temporal_score, s.final_score
             )
-        return RetrievalResult(mechanism=self.mechanism, chunks=top, neighbors=self._neighbors(top, query), trace=trace)
+        neighbors = self._neighbors(top, query)
+        t_end = time.perf_counter()
+        trace.timings_ms = {"embed": embed_ms, "search": (t_search - t_start) * 1000, "fuse_score": (t_scored - t_search) * 1000,
+                            "rerank": (t_reranked - t_scored) * 1000, "neighbors": (t_end - t_reranked) * 1000, "total": (t_end - t_start) * 1000}
+        return RetrievalResult(mechanism=self.mechanism, chunks=top, neighbors=neighbors, trace=trace)
 
     def _rerank(self, query: ProfiledQuery, scored: list[ScoredChunk]) -> list[ScoredChunk]:
         """Cross-encoder chấm lại nhóm đầu của `scored` (đã xếp theo Final), tính lại Final, xếp lại nhóm đó; phần còn lại giữ nguyên phía sau."""
@@ -267,4 +278,4 @@ def _guard(hits: BranchHits, flt: VectorFilter) -> BranchHits:
     dropped = len(hits.dense) + len(hits.sparse) - len(dense) - len(sparse)
     if dropped:
         logger.warning("Store trả %d hit vi phạm hard filter (t_req=%s); đã loại", dropped, flt.t_req)
-    return BranchHits(dense=dense, sparse=sparse)
+    return BranchHits(dense=dense, sparse=sparse, embed_ms=hits.embed_ms)
