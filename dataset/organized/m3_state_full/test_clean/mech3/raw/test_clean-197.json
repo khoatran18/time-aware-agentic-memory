@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "9ddd5f9c6ba4f52c",
+  "N2": "6d8d09f8f0198e96",
+  "N3": "12ac6c22525aaff8",
+  "N4": "31b591ff41a56da5"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "was seized by Prussia under King Frederick II in the First Silesian War of 1742",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The area was seized by Prussia under King Frederick II in the First Silesian War of 1742.",
+    "evidence": "was seized by Prussia under King Frederick II in the First Silesian War of 1742",
+    "date_text": "1742",
+    "date": "1742",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Prussia",
+    "quote": "was seized by Prussia under King Frederick II in the First Silesian War of 1742"
+   }
+  ]
+ }
+}

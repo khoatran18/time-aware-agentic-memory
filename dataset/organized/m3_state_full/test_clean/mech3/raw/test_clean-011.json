@@ -1,0 +1,47 @@
+{
+ "idmap": {
+  "N1": "4a2adafbf840a8a2",
+  "N2": "dcc3767e6fad3952",
+  "N3": "27d061ab72696383",
+  "N4": "abb9c8080f240cfe",
+  "N5": "9fc4dcf57f6114ca"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "From 1987 to 1991 , he was married to Geena Davis",
+    "end_date": "1991"
+   }
+  ],
+  "add": [
+   {
+    "text": "Goldblum was married to Geena Davis.",
+    "evidence": "From 1987 to 1991 , he was married to Geena Davis",
+    "date_text": "1987",
+    "date": "1987",
+    "approximate": false,
+    "track": "family",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Geena Davis",
+    "quote": "From 1987 to 1991 , he was married to Geena Davis"
+   },
+   {
+    "text": "Goldblum's marriage to Geena Davis ended.",
+    "evidence": "From 1987 to 1991 , he was married to Geena Davis",
+    "date_text": "1991",
+    "date": "1991",
+    "approximate": false,
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Geena Davis",
+    "quote": "From 1987 to 1991 , he was married to Geena Davis"
+   }
+  ]
+ }
+}

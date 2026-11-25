@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Cutty Sark had become surplus to requirements by 1950.",
+   "chunk": 49,
+   "date_text": "by 1950",
+   "date": "1950",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "but by 1950 she had become surplus to requirements",
+   "section": 9,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Cutty_Sark#49"
+  },
+  {
+   "text": "She was temporarily moved first for a refit from February 1951.",
+   "chunk": 49,
+   "date_text": "February",
+   "date": "1951-02",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "From February to October 1951 she was temporarily moved first for a refit",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Cutty_Sark#49"
+  },
+  {
+   "text": "She was moved to take part in the Festival of Britain at Deptford until October 1951.",
+   "chunk": 49,
+   "date_text": "October 1951",
+   "date": "1951-10",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Festival of Britain",
+   "quote": "to take part in the Festival of Britain at Deptford",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Cutty_Sark#49"
+  },
+  {
+   "text": "The 800-ton tanker collided with Cutty Sark's bow in the Thames on 30 January 1952.",
+   "chunk": 49,
+   "date_text": "30 January 1952",
+   "date": "1952-01-30",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Thames",
+   "quote": "On 30 January 1952 , the 800-ton tanker collided with Cutty Sarks bow in the Thames",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Sark's"
+   ],
+   "cid": "/wiki/Cutty_Sark#49"
+  }
+ ],
+ "dropped": []
+}

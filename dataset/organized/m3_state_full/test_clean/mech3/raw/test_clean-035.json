@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "c7780319c0320b30",
+  "N2": "ada9a44a30d4ce48",
+  "N3": "6791e5b1d529e1f5"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "awarded the Legion of Merit for his service from 22 January 1944 to 18 February 1945",
+    "end_date": "1945-02-18"
+   }
+  ],
+  "add": [
+   {
+    "text": "Murphy's Legion of Merit service period ended on 18 February 1945.",
+    "evidence": "awarded the Legion of Merit for his service from 22 January 1944 to 18 February 1945",
+    "date_text": "18 February 1945",
+    "date": "1945-02-18",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Legion of Merit",
+    "quote": "awarded the Legion of Merit for his service from 22 January 1944 to 18 February 1945"
+   }
+  ]
+ }
+}

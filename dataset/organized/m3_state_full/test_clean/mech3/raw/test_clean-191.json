@@ -1,0 +1,49 @@
+{
+ "idmap": {
+  "N1": "bcceb8d71dad6d3a",
+  "N2": "e1b74855f41b1882",
+  "N3": "3b59cc4da499d4b9",
+  "N4": "cca4078af28068f3",
+  "N5": "3c039a99c4751ad6",
+  "N6": "e77244ad564305c0",
+  "N7": "3f387818034ca1fe",
+  "N8": "7f3d7d776ad84e7c",
+  "N9": "946d1d9a41e98d53",
+  "N10": "096195656e7de746",
+  "N11": "cb639027d11dcd58",
+  "N12": "69ca80c7ca9a360e",
+  "N13": "cfe18d278dfcb097",
+  "N14": "137878ef85142794",
+  "N15": "dd031c70f8cb4510",
+  "N16": "f469f7f6e6dd17e7",
+  "N17": "3c25d49b9074b904",
+  "N18": "2f5c2b0ff90b34fa",
+  "N19": "ceaf3ded34d91e24",
+  "N20": "71ce50883a1df1f3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "served as the 16th Premier of Alberta from 2014 to 2015",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Prentice's service as the 16th Premier of Alberta ended.",
+    "evidence": "served as the 16th Premier of Alberta from 2014 to 2015",
+    "date_text": "2015",
+    "date": "2015",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Premier of Alberta",
+    "quote": "served as the 16th Premier of Alberta from 2014 to 2015"
+   }
+  ]
+ }
+}

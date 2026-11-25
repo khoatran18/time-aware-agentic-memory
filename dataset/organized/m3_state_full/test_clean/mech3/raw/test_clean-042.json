@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "f5178f6cef9d4771",
+  "N2": "4c2de593047ec2ef",
+  "N3": "5dfb7f96b8ff9d59"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation",
+    "end_date": "2007"
+   }
+  ],
+  "add": [
+   {
+    "text": "Ponomarev served as the chief information officer of the Communist Party of the Russian Federation from 2002 to 2007.",
+    "evidence": "From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation",
+    "date_text": "From 2002 to 2007",
+    "date": "2002",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Communist Party of the Russian Federation",
+    "quote": "From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation"
+   }
+  ]
+ }
+}

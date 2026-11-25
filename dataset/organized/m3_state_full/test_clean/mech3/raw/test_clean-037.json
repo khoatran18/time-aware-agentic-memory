@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "01748eac36b823a5",
+  "N2": "cb2ea691e2a51679",
+  "N3": "228fe18fa61f317f",
+  "N4": "840f987172b03019"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "After service on the Mexican border from June 1916 to February 1917 , White resumed his post in Oregon .",
+    "end_date": "1917-02"
+   }
+  ],
+  "add": [
+   {
+    "text": "White resumed his post in Oregon after service on the Mexican border.",
+    "evidence": "After service on the Mexican border from June 1916 to February 1917 , White resumed his post in Oregon .",
+    "date_text": "February 1917",
+    "date": "1917-02",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Oregon",
+    "quote": "After service on the Mexican border from June 1916 to February 1917 , White resumed his post in Oregon ."
+   }
+  ]
+ }
+}

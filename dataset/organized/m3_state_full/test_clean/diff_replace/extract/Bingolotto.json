@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Bingolotto premiered nationwide on TV4 with Leif Loket Olsson as show host.",
+   "chunk": 4,
+   "date_text": "19 October 1991",
+   "date": "1991-10-19",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "TV4",
+   "quote": "On 19 October 1991 , Bingolotto premiered nationwide on TV4 with the popular Leif Loket Olsson as show host .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bingolotto#4"
+  },
+  {
+   "text": "Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers.",
+   "chunk": 4,
+   "date_text": "From October 1991",
+   "date": "1991-10",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "From October 1991 to March 1992 , Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bingolotto#4"
+  },
+  {
+   "text": "Bingolotto's rise in viewing figures from 1.3 million to 2.1 million viewers ended.",
+   "chunk": 4,
+   "date_text": "March 1992",
+   "date": "1992-03",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "From October 1991 to March 1992 , Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Bingolotto#4"
+  }
+ ],
+ "dropped": []
+}

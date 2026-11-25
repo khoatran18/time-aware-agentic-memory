@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "c9c5e1cf1a10d1b4",
+  "N2": "e44958d0f08d0640",
+  "N3": "7188f1fe4cfdf51e",
+  "N4": "88d000a2f9e1cd79",
+  "N5": "e37fb3a425d69b7e",
+  "N6": "f884903dbf2321b1",
+  "N7": "e1e92e7f6ff40536"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Presley became more closely involved in the management of the Elvis Presley Trust and Elvis Presley Enterprises, Inc.",
+    "evidence": "In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust",
+    "date_text": "1998",
+    "date": "1998",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Elvis Presley Trust",
+    "quote": "In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust"
+   }
+  ]
+ }
+}

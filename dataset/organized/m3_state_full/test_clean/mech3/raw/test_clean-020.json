@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "65641d9eddbb18de",
+  "N2": "ae35b18a17cf71e0",
+  "N3": "6e1b0bb30b1ce3b3",
+  "N4": "0e3861c581f6b704",
+  "N5": "67286fb571f29220",
+  "N6": "e3b18136c2de0626",
+  "N7": "d2f4dbe096f3ac32"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "He served in this capacity from 2 July 1956 to 15 February 1959 .",
+    "end_date": "1959-02-15"
+   }
+  ],
+  "add": [
+   {
+    "text": "Schultze's service as commander of the 3rd Ship Home Department ended.",
+    "evidence": "He served in this capacity from 2 July 1956 to 15 February 1959 .",
+    "date_text": "15 February 1959",
+    "date": "1959-02-15",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "3rd Ship Home Department",
+    "quote": "He served in this capacity from 2 July 1956 to 15 February 1959 ."
+   }
+  ]
+ }
+}

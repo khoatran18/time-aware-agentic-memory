@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "White was appointed Adjutant General of Oregon.",
+   "chunk": 3,
+   "date_text": "February 1 , 1915",
+   "date": "1915-02-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Adjutant General of Oregon",
+   "quote": "White was appointed Adjutant General of Oregon on February 1 , 1915 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/George_A._White#3"
+  },
+  {
+   "text": "White has served on the Mexican border.",
+   "chunk": 3,
+   "date_text": "June 1916",
+   "date": "1916-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Mexican border",
+   "quote": "White has served on the Mexican border since June 1916 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/George_A._White#3"
+  }
+ ],
+ "dropped": []
+}

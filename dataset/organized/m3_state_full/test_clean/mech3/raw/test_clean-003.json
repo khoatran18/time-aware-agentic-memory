@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "46ca3bf3f08a4ae4",
+  "N2": "0d9dd205729ba129",
+  "N3": "410135535d925f94",
+  "N4": "e2c51e32ca2d89ae",
+  "N5": "e39df21c22b9c42a",
+  "N6": "84734660119bb124",
+  "N7": "8e93a7afefec8eb9",
+  "N8": "248fec4893ca27f6",
+  "N9": "e1291c2d947164c7",
+  "N10": "5b72ffd54c500ac8",
+  "N11": "c888e848d011ee9b",
+  "N12": "74d6c76b67112243"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "close",
+    "evidence": "a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985",
+    "end_date": "1985"
+   }
+  ],
+  "add": [
+   {
+    "text": "Mironov was a Gromov Flight Research Institute (GFRI) director from 1981 to 1985.",
+    "evidence": "a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985",
+    "date_text": "from 1981 to 1985",
+    "date": "1981",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Gromov Flight Research Institute",
+    "quote": "a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985"
+   }
+  ]
+ }
+}

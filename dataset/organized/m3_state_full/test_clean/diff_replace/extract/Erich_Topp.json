@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Topp was awarded the U-boat War Badge.",
+   "chunk": 12,
+   "date_text": "7 November 1939",
+   "date": "1939-11-07",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "U-boat War Badge",
+   "quote": "the U-boat War Badge ( ) on 7 November 1939",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Erich_Topp#12"
+  },
+  {
+   "text": "Topp was awarded the Iron Cross 2nd Class.",
+   "chunk": 12,
+   "date_text": "January 1940",
+   "date": "1940-01",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Iron Cross 2nd Class",
+   "quote": "the Iron Cross 2nd Class ( ) in January 1940",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Erich_Topp#12"
+  },
+  {
+   "text": "Topp was transferred to the 1st U-boat Flotilla.",
+   "chunk": 12,
+   "date_text": "1 May 1940",
+   "date": "1940-05-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "1st U-boat Flotilla",
+   "quote": "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Erich_Topp#12"
+  }
+ ],
+ "dropped": []
+}

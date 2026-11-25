@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Gisdol's contract was extended until 2023.",
+   "chunk": 28,
+   "date_text": "2021",
+   "date": "2021",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Gisdols contract",
+   "quote": "Gisdols contract was extended until 2023",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/1._FC_Köln#28"
+  },
+  {
+   "text": "Gisdol's contract extension ran until 2023.",
+   "chunk": 28,
+   "date_text": "2023",
+   "date": "2023",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Gisdols contract",
+   "quote": "Gisdols contract was extended until 2023",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/1._FC_Köln#28"
+  }
+ ],
+ "dropped": []
+}

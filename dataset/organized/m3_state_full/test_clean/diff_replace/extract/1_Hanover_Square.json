@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "The New York Cotton Exchange occupied the building starting in 1872.",
+   "chunk": 3,
+   "date_text": "1872",
+   "date": "1872",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "New York Cotton Exchange",
+   "quote": "occupied the building from 1872 to 1885",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1_Hanover_Square#3"
+  },
+  {
+   "text": "The New York Cotton Exchange's occupancy of the building ended in 1885.",
+   "chunk": 3,
+   "date_text": "1885",
+   "date": "1885",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "New York Cotton Exchange",
+   "quote": "occupied the building from 1872 to 1885",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Exchange's"
+   ],
+   "cid": "/wiki/1_Hanover_Square#3"
+  },
+  {
+   "text": "The building served as the headquarters of W.R. Grace and Company until the early 1910s.",
+   "chunk": 3,
+   "date_text": "the early 1910s",
+   "date": null,
+   "approximate": true,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "W.R. Grace and Company",
+   "quote": "served as the headquarters of W.R . Grace and Company until the early 1910s",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/1_Hanover_Square#3"
+  },
+  {
+   "text": "In 1914, the structures were purchased by the India House.",
+   "chunk": 3,
+   "date_text": "1914",
+   "date": "1914",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "India House",
+   "quote": "In 1914 , the structures were purchased by the India House",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1_Hanover_Square#3"
+  }
+ ],
+ "dropped": []
+}

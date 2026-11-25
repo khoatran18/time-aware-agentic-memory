@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "70952e5d00f2ef03",
+  "N2": "91eb99045ec80860",
+  "N3": "f4e80736f0b7f651",
+  "N4": "6a686a35a832c74d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Aldred settled permanently in Glasgow in 1922",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Aldred settled permanently in Glasgow.",
+    "evidence": "Aldred settled permanently in Glasgow in 1922",
+    "date_text": "1922",
+    "date": "1922",
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Glasgow",
+    "quote": "Aldred settled permanently in Glasgow in 1922"
+   }
+  ]
+ }
+}

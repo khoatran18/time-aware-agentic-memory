@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "2c7119a21f9aea10",
+  "N2": "6eaa06deba56deef",
+  "N3": "905d245c09408d62"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "The boat was raised in 1950 and broken up for scrap",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The boat was raised in 1950.",
+    "evidence": "The boat was raised in 1950 and broken up for scrap",
+    "date_text": "1950",
+    "date": "1950",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "The boat was raised in 1950 and broken up for scrap"
+   }
+  ]
+ }
+}

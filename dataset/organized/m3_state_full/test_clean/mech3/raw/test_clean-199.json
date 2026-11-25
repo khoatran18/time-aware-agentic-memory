@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "2b723186f24e775d",
+  "N2": "3c997572c9bff0ce",
+  "N3": "3571ae462734a6b5",
+  "N4": "0de00158932ac480",
+  "N5": "a094cb7e9b15993c",
+  "N6": "604e61adeb623bc2"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Air Staff was amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command.",
+    "evidence": "amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command .",
+    "date_text": "1 July 1994",
+    "date": "1994-07-01",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Swedish Armed Forces Headquarters",
+    "quote": "on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command"
+   }
+  ]
+ }
+}

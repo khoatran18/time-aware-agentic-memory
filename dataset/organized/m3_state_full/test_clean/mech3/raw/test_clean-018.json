@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "eafb8f9ee94b4af8",
+  "N2": "c40d25ad4c99f382",
+  "N3": "9101b20d4f8bd7b9",
+  "N4": "af2caca5c92d0472",
+  "N5": "c60e9c6fccb8f7da",
+  "N6": "d6b2c4d2d7d8170f",
+  "N7": "ac599351253a9cd8",
+  "N8": "4f96a92a5d4275fe"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N7",
+    "op": "close",
+    "evidence": "Michigan State from 1983 to 1987",
+    "end_date": "1987"
+   }
+  ],
+  "add": [
+   {
+    "text": "Saban's time as an assistant coach at Michigan State ended.",
+    "evidence": "Michigan State from 1983 to 1987",
+    "date_text": "1987",
+    "date": "1987",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Michigan State",
+    "quote": "Michigan State from 1983 to 1987"
+   }
+  ]
+ }
+}

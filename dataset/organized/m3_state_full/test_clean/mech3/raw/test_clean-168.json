@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "aa73c965a1585819",
+  "N2": "7bbc0b513e8a3f94",
+  "N3": "112e2e0e3a9fb175",
+  "N4": "da50f261da878eab",
+  "N5": "8355b584d0249b5e",
+  "N6": "132b27c6808d76f4",
+  "N7": "9e5fa00efecce07f",
+  "N8": "ad029a169508b380",
+  "N9": "76137148dd7597e5",
+  "N10": "2b5088163e163735",
+  "N11": "119f4c55b0de8b72",
+  "N12": "e2c0ba5cce52b995",
+  "N13": "e5d52200c3e61e23",
+  "N14": "7eb5eb918e33d1f1",
+  "N15": "4a1a1d6ee95b0f3c",
+  "N16": "23e020805b727582"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N8",
+    "op": "invalidate",
+    "evidence": "The James Gang ( from 1973 to 1974 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Bolin began playing with The James Gang.",
+    "evidence": "The James Gang ( from 1973 to 1974 )",
+    "date_text": "1973",
+    "date": "1973",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "The James Gang",
+    "quote": "The James Gang ( from 1973 to 1974 )"
+   }
+  ]
+ }
+}

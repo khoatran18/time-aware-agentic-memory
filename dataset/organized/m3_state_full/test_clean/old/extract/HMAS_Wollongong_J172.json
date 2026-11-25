@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Wollongong was decommissioned in Sydney.",
+   "chunk": 10,
+   "date_text": "11 February 1946",
+   "date": "1946-02-11",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Sydney",
+   "quote": "She was decommissioned in Sydney on 11 February 1946",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMAS_Wollongong_(J172)#10"
+  },
+  {
+   "text": "Wollongong was recommissioned into the RNLN and renamed HNLMS Banda.",
+   "chunk": 10,
+   "date_text": "11 February 1946",
+   "date": "1946-02-11",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "HNLMS Banda",
+   "quote": "was recommissioned into the RNLN , and renamed HNLMS Banda",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMAS_Wollongong_(J172)#10"
+  },
+  {
+   "text": "The corvette remained with the RAN until April 1950.",
+   "chunk": 10,
+   "date_text": "April 1950",
+   "date": "1950-04",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "RAN",
+   "quote": "The corvette remained with the RAN until April 1950",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/HMAS_Wollongong_(J172)#10"
+  }
+ ],
+ "dropped": []
+}

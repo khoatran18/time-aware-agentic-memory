@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "f66741915521db8c",
+  "N2": "38d5ca642c911be7",
+  "N3": "9a49d3bad5d34ef6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "− 19 October 1948 ) was a Russian Marxist revolutionary",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Ludwig Martens died.",
+    "evidence": "− 19 October 1948 ) was a Russian Marxist revolutionary",
+    "date_text": "19 October 1948",
+    "date": "1948-10-19",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "− 19 October 1948 ) was a Russian Marxist revolutionary"
+   }
+  ]
+ }
+}

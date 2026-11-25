@@ -1,0 +1,125 @@
+{
+ "events": [
+  {
+   "text": "Georges Pompidou became Chevalier de la Légion d'honneur.",
+   "chunk": 23,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Chevalier de la Légion d'honneur",
+   "quote": "Chevalier de la Legion of Honour : ( France ) ( 1948 )",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Légion"
+   ],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became Officier de la Légion d'honneur.",
+   "chunk": 23,
+   "date_text": "1954",
+   "date": "1954",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Officier de la Légion d'honneur",
+   "quote": "Officier de la Legion of Honour : ( France ) ( 1954 )",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Légion"
+   ],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became Grand-croix de la Légion d'honneur and grand-maître de l'ordre.",
+   "chunk": 23,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Grand-croix de la Légion d'honneur",
+   "quote": "Grand-croix de la Legion of Honour : 1969 , grand-maître de lordre",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Légion"
+   ],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou's tenure as grand-maître de l'ordre ended.",
+   "chunk": 23,
+   "date_text": "1974",
+   "date": "1974",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "grand-maître de l'ordre",
+   "quote": "( 1969-1974 , as president of the republic )",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Pompidou's"
+   ],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou received the Grand Cross of the Order of St. Olav.",
+   "chunk": 23,
+   "date_text": "1962",
+   "date": "1962",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Grand Cross of Order of St. Olav",
+   "quote": "Grand Cross of Order of St . Olav ( Norway ) ( 1962 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became Honorary Knight Grand Cross of the Order of the Bath.",
+   "chunk": 24,
+   "date_text": "1972",
+   "date": "1972",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Order of the Bath",
+   "quote": "Honorary Knight Grand Cross of the Order of the Bath ( United Kingdom ) ( 1972 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#24"
+  },
+  {
+   "text": "Georges Pompidou became Knight Grand Cross with Collar of the Order of Merit of the Italian Republic.",
+   "chunk": 25,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Order of Merit of the Italian Republic",
+   "quote": "Knight Grand Cross with Collar of Order of Merit of the Italian Republic ( 1973 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#25"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The DRB Class 50 was built from 1939 as a standard locomotive for hauling goods trains.",
+   "chunk": 0,
+   "date_text": "1939",
+   "date": "1939",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "DRB Class 50",
+   "quote": "built from 1939 as a standard locomotive",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/DRB_Class_50#0"
+  },
+  {
+   "text": "Up to 1948, 3,164 Class 50 engines were built by almost all the European locomotive factories.",
+   "chunk": 1,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": true,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Class 50 engines",
+   "quote": "Up to 1948 , 3,164 Class 50 engines were built",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/DRB_Class_50#1"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Murphy was promoted to first lieutenant.",
+   "chunk": 31,
+   "date_text": "16 February",
+   "date": null,
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "first lieutenant",
+   "quote": "On 16 February , Murphy was promoted to first lieutenant",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Audie_Murphy#31"
+  },
+  {
+   "text": "Murphy was awarded the Legion of Merit for his service from 22 January 1944.",
+   "chunk": 31,
+   "date_text": "22 January 1944",
+   "date": "1944-01-22",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Legion of Merit",
+   "quote": "awarded the Legion of Merit for his service from 22 January 1944 to the present",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Audie_Murphy#31"
+  }
+ ],
+ "dropped": []
+}

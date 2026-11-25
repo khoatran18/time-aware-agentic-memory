@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "A. Le Coq Arena opened.",
+   "chunk": 11,
+   "date_text": "2003",
+   "date": "2003",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "part_of_self",
+   "object": "A. Le Coq Arena",
+   "quote": "Opened in 2003 and expanded from 2016 to 2018",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/FCI_Levadia_Tallinn#11"
+  },
+  {
+   "text": "A. Le Coq Arena began being expanded.",
+   "chunk": 11,
+   "date_text": "2016",
+   "date": "2016",
+   "approximate": false,
+   "track": "work",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "A. Le Coq Arena",
+   "quote": "expanded from 2016 to 2018",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/FCI_Levadia_Tallinn#11"
+  },
+  {
+   "text": "The expansion of A. Le Coq Arena ended.",
+   "chunk": 11,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "work",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "A. Le Coq Arena",
+   "quote": "expanded from 2016 to 2018",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/FCI_Levadia_Tallinn#11"
+  }
+ ],
+ "dropped": []
+}

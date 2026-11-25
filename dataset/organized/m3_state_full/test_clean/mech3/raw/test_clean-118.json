@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "176da0f432c4e714",
+  "N2": "e1f428f548b7671f",
+  "N3": "1346272b7bdd601a",
+  "N4": "16fe852e44759480",
+  "N5": "0b2eae77e1764729",
+  "N6": "33909d07a3090958",
+  "N7": "6cddace22b3bf733",
+  "N8": "45d35819d7ecd8e5"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "the squadron was transferred to the operational and administrative control of FAW-17",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The squadron was transferred to the operational and administrative control of FAW-17.",
+    "evidence": "the squadron was transferred to the operational and administrative control of FAW-17",
+    "date_text": "30 September 1945",
+    "date": "1945-09-30",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "FAW-17",
+    "quote": "On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-17"
+   }
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Goldblum was married to Patricia Gaul.",
+   "chunk": 20,
+   "date_text": "1980",
+   "date": "1980",
+   "approximate": false,
+   "track": "family",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Patricia Gaul",
+   "quote": "From 1980 to 1985 , Goldblum was married to Patricia Gaul",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Jeff_Goldblum#20"
+  },
+  {
+   "text": "Goldblum's marriage to Patricia Gaul ended.",
+   "chunk": 20,
+   "date_text": "1985",
+   "date": "1985",
+   "approximate": false,
+   "track": "family",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Patricia Gaul",
+   "quote": "From 1980 to 1985 , Goldblum was married to Patricia Gaul",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Jeff_Goldblum#20"
+  },
+  {
+   "text": "Goldblum was married to Geena Davis.",
+   "chunk": 20,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "family",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Geena Davis",
+   "quote": "From 1987 to 1991 , he was married to Geena Davis",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Jeff_Goldblum#20"
+  },
+  {
+   "text": "Goldblum's marriage to Geena Davis ended.",
+   "chunk": 20,
+   "date_text": "1991",
+   "date": "1991",
+   "approximate": false,
+   "track": "family",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Geena Davis",
+   "quote": "From 1987 to 1991 , he was married to Geena Davis",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Jeff_Goldblum#20"
+  }
+ ],
+ "dropped": []
+}

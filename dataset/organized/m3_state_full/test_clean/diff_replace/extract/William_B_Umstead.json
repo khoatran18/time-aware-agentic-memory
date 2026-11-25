@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Umstead was discharged as a first lieutenant.",
+   "chunk": 3,
+   "date_text": "1919",
+   "date": "1919",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "first lieutenant",
+   "quote": "Umstead was discharged in 1919 as a first lieutenant",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/William_B._Umstead#3"
+  },
+  {
+   "text": "Umstead served as the elected solicitor for a five-county district.",
+   "chunk": 3,
+   "date_text": "1927",
+   "date": "1927",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "solicitor",
+   "quote": "served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/William_B._Umstead#3"
+  },
+  {
+   "text": "Umstead's service as the elected solicitor for a five-county district ended.",
+   "chunk": 3,
+   "date_text": "1933",
+   "date": "1933",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "solicitor",
+   "quote": "for a five-county district from 1927 to 1933",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/William_B._Umstead#3"
+  }
+ ],
+ "dropped": []
+}

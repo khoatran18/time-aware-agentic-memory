@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "b06b675ccb8b8b62",
+  "N2": "c178841ee7a7ddaf",
+  "N3": "04b831989a64e046",
+  "N4": "3a7804d7e329805c",
+  "N5": "97348e69eaa2b51b",
+  "N6": "b80eb28c094b34e6",
+  "N7": "ead25f872cdaabfc",
+  "N8": "2fbf150b5a57573f",
+  "N9": "10e5e39a42c7f677",
+  "N10": "d266898cdb537f8b",
+  "N11": "baebc231aed4e680"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Officier de la Legion of Honour : ( France ) ( 1957 )",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Georges Pompidou became Officier de la Légion d'honneur.",
+    "evidence": "Officier de la Legion of Honour : ( France ) ( 1957 )",
+    "date_text": "1957",
+    "date": "1957",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Officier de la Légion d'honneur",
+    "quote": "Officier de la Legion of Honour : ( France ) ( 1957 )"
+   }
+  ]
+ }
+}

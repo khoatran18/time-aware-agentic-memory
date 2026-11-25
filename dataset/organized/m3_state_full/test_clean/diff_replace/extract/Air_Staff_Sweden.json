@@ -1,0 +1,71 @@
+{
+ "events": [
+  {
+   "text": "The Air Staff had about 370 employees.",
+   "chunk": 10,
+   "date_text": "In March 1976",
+   "date": "1976-03",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": null,
+   "quote": "In March 1976 , the Air Staff had about 370 employees",
+   "section": 1,
+   "flags": [
+    "bad_phase"
+   ],
+   "cid": "/wiki/Air_Staff_(Sweden)#10"
+  },
+  {
+   "text": "The Air Staffs workforce was decline from approximately 315 to 225 because of the reorganization.",
+   "chunk": 10,
+   "date_text": "1981",
+   "date": "1981",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "Because of the reorganization in 1981 , the Air Staffs workforce was decline from approximately 315 to 225",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Air_Staff_(Sweden)#10"
+  },
+  {
+   "text": "The last management meeting of the Air Staff occurred.",
+   "chunk": 10,
+   "date_text": "26 March 1993",
+   "date": "1993-03-26",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "The last management meeting of the Air Staff occurred on 26 March 1993",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Air_Staff_(Sweden)#10"
+  },
+  {
+   "text": "The Air Staff was amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command.",
+   "chunk": 10,
+   "date_text": "1 July 1994",
+   "date": "1994-07-01",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Swedish Armed Forces Headquarters",
+   "quote": "amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Air_Staff_(Sweden)#10"
+  }
+ ],
+ "dropped": []
+}

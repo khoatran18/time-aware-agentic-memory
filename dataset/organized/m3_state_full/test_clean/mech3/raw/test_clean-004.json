@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "0149dbfc571e732e",
+  "N2": "3c910f5a50bc916c",
+  "N3": "955227139c5b5571",
+  "N4": "dc982474bdf74e0f",
+  "N5": "effdfe2ab071c66c",
+  "N6": "599f2b7f8f66b870",
+  "N7": "dcaf989cdd26ef5e",
+  "N8": "6ed885eecf510df6",
+  "N9": "172d3c4ccfe46c9f"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The Grateful Dead played at the Auditorium ten times from 1971 through 1977.",
+    "evidence": "the Grateful Dead played there ten times from 1971 through 1977",
+    "date_text": "from 1971 through 1977",
+    "date": "1977",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Grateful Dead",
+    "quote": "the Grateful Dead played there ten times from 1971 through 1977"
+   }
+  ]
+ }
+}

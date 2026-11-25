@@ -1,0 +1,91 @@
+{
+ "events": [
+  {
+   "text": "Charles V appointed the couple jointly viceroys of Valencia.",
+   "chunk": 11,
+   "date_text": "In 1520",
+   "date": "1520",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "viceroys of Valencia",
+   "quote": "In 1520 Charles V appointed the couple jointly viceroys of Valencia",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Germaine_of_Foix#11"
+  },
+  {
+   "text": "Germaine signed a pardon that officially ended the persecution of all former participants in the rebellion.",
+   "chunk": 12,
+   "date_text": "In December 1524",
+   "date": "1524-12",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "pardon",
+   "quote": "In December 1524 , Germaine signed a pardon that officially ended the persecution",
+   "section": 2,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Germaine_of_Foix#12"
+  },
+  {
+   "text": "Germaine died in Liria.",
+   "chunk": 15,
+   "date_text": "15 October 1536",
+   "date": "1536-10-15",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Liria",
+   "quote": "Germaine died on 15 October 1536 in Liria",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Germaine_of_Foix#15"
+  },
+  {
+   "text": "Germaine was interred in the Monastery of San Miguel de los Reyes.",
+   "chunk": 15,
+   "date_text": "15 October 1536",
+   "date": "1536-10-15",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Monastery of San Miguel de los Reyes",
+   "quote": "and was interred in the Monastery of San Miguel de los Reyes",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Germaine_of_Foix#15"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "Germaine married Ferdinand, Duke of Calabria.",
+   "chunk": 14,
+   "date_text": "Next year after Johanns death in 1525",
+   "date": "1526",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Ferdinand, Duke of Calabria",
+   "quote": "Next year after Johanns death in 1525 , Germaine married Ferdinand , Duke of Calabria",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Germaine_of_Foix#14",
+   "reason": "date_text_year_mismatch"
+  }
+ ]
+}

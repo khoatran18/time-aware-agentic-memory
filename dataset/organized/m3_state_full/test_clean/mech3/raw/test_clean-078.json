@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "ff38b2cd357fca5b",
+  "N2": "7aa760ddf9ec519b",
+  "N3": "2c70ac5b46d29664"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "The municipality of Kåfjord was established in 1929",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The municipality of Kåfjord was established when Lyngen Municipality was divided into three.",
+    "evidence": "The municipality of Kåfjord was established in 1929 when the large Lyngen Municipality was divided into three",
+    "date_text": "1929",
+    "date": "1929",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Kåfjord",
+    "quote": "The municipality of Kåfjord was established in 1929"
+   }
+  ]
+ }
+}

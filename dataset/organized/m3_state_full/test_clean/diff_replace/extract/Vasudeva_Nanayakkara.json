@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "The Sri Lankan government proscribed the NSSP, JVP and CP after the Black July anti-Tamil riots.",
+   "chunk": 3,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "NSSP",
+   "quote": "proscribed the NSSP , Janatha Vimukthi Peramuna ( JVP ) and Communist Party of Sri Lanka ( CP ) after the Black July anti-Tamil riots of 1983",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vasudeva_Nanayakkara#3"
+  },
+  {
+   "text": "Nanayakkara went into hiding.",
+   "chunk": 3,
+   "date_text": "1983",
+   "date": "1983",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "went into hiding until 1985 when the proscription was lifted",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vasudeva_Nanayakkara#3"
+  },
+  {
+   "text": "The proscription was lifted and Nanayakkara's hiding ended.",
+   "chunk": 3,
+   "date_text": "1985",
+   "date": "1985",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "until 1985 when the proscription was lifted",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Nanayakkara's"
+   ],
+   "cid": "/wiki/Vasudeva_Nanayakkara#3"
+  },
+  {
+   "text": "The NSSP joined with the LSSP, CP and Sri Lanka Peoples Party to form the United Socialist Alliance (USA).",
+   "chunk": 3,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "United Socialist Alliance",
+   "quote": "In 1987 the NSSP joined with the LSSP , CP and Sri Lanka Peoples Party to form the United Socialist Alliance ( USA )",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vasudeva_Nanayakkara#3"
+  },
+  {
+   "text": "Nanayakkara re-entered parliament after the 1989 parliamentary election, representing Ratnapura District for the USA.",
+   "chunk": 3,
+   "date_text": "1989",
+   "date": "1989",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "parliament",
+   "quote": "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Vasudeva_Nanayakkara#3"
+  }
+ ],
+ "dropped": []
+}

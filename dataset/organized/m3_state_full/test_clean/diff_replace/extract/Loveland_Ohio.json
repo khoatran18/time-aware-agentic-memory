@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The Baldwin Piano & Organ Company became headquartered in Loveland.",
+   "chunk": 39,
+   "date_text": "1986",
+   "date": "1986",
+   "approximate": false,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "other",
+   "object": "Baldwin Piano & Organ Company",
+   "quote": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland .",
+   "section": 8,
+   "flags": [],
+   "cid": "/wiki/Loveland,_Ohio#39"
+  },
+  {
+   "text": "The Baldwin Piano & Organ Company's headquarters in Loveland ended.",
+   "chunk": 39,
+   "date_text": "1998",
+   "date": "1998",
+   "approximate": false,
+   "track": "location",
+   "phase": "end",
+   "kind": "change",
+   "subject": "other",
+   "object": "Baldwin Piano & Organ Company",
+   "quote": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland .",
+   "section": 8,
+   "flags": [
+    "name_not_in_page:Company's"
+   ],
+   "cid": "/wiki/Loveland,_Ohio#39"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,27 @@
+{
+ "idmap": {
+  "N1": "7a039d3a4c3e6914",
+  "N2": "6b4e8cd4023fdbf2",
+  "N3": "7cf73b681f0fe199",
+  "N4": "ef841dd17636280e",
+  "N5": "e3c1a93e151162bf"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The Alpenkorps was sent to the Italian Front.",
+    "evidence": "the Alpenkorps , sent to the Italian Front",
+    "date_text": null,
+    "date": null,
+    "approximate": false,
+    "track": "location",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "other",
+    "object": "Italian Front",
+    "quote": "the Alpenkorps , sent to the Italian Front"
+   }
+  ]
+ }
+}

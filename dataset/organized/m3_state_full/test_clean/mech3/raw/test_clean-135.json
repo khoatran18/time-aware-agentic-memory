@@ -1,0 +1,76 @@
+{
+ "idmap": {
+  "N1": "3a2f77bd262bf61a",
+  "N2": "10c6ad295df29456",
+  "N3": "8c3c45d2c047e039",
+  "N4": "abdc33dd6549e7fc",
+  "N5": "7159b9074e1b85ae",
+  "N6": "b4bb148ee542b6da",
+  "N7": "0a840d2da20fcbec",
+  "N8": "87a49f78ae8f885d",
+  "N9": "b1517ac2f114b8ad"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "was a Democratic Congressman from Missouri serving from 1923 until his death",
+    "end_date": null
+   },
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "was a Democratic Congressman from Missouri serving from 1923 until his death",
+    "end_date": null
+   },
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "was a Democratic Congressman from Missouri serving from 1923 until his death",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Cannon began serving as a Democratic Congressman from Missouri.",
+    "evidence": "was a Democratic Congressman from Missouri serving from 1923 until his death",
+    "date_text": "1923",
+    "date": "1923",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Democratic Congressman from Missouri",
+    "quote": "serving from 1923 until his death"
+   },
+   {
+    "text": "Cannon's service as a Democratic Congressman from Missouri ended with his death.",
+    "evidence": "serving from 1923 until his death in Washington , D.C . in 1964",
+    "date_text": "1964",
+    "date": "1964",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Democratic Congressman from Missouri",
+    "quote": "until his death in Washington , D.C . in 1964"
+   },
+   {
+    "text": "Clarence Andrew Cannon died in Washington, D.C.",
+    "evidence": "May 12 , 1964 ) was a Democratic Congressman from Missouri",
+    "date_text": "May 12 , 1964",
+    "date": "1964-05-12",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Washington, D.C.",
+    "quote": "May 12 , 1964 ) was a Democratic Congressman from Missouri"
+   }
+  ]
+ }
+}

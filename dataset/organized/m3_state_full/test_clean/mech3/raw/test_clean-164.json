@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "6048b1326b3ffb58",
+  "N2": "59367307ac4b0d8a",
+  "N3": "df86e9661e291ee4",
+  "N4": "1de7a30b72d35ef4",
+  "N5": "63b190262c63643e"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The current Indianapolis Indians franchise was founded as an original member of the American Association.",
+    "evidence": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902",
+    "date_text": "1902",
+    "date": "1902",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "American Association",
+    "quote": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902"
+   }
+  ]
+ }
+}

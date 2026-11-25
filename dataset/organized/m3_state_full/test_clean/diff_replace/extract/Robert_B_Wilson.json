@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Wilson has been on the faculty of the Stanford Business School since 1964.",
+   "chunk": 3,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Stanford Business School",
+   "quote": "He has been on the faculty of the Stanford Business School since 1964 .",
+   "section": 0,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Robert_B._Wilson#3"
+  },
+  {
+   "text": "Wilson was an affiliated faculty member of Harvard Law School from 1993.",
+   "chunk": 3,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Harvard Law School",
+   "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Robert_B._Wilson#3"
+  },
+  {
+   "text": "Wilson's affiliation with Harvard Law School ended in 2001.",
+   "chunk": 3,
+   "date_text": "2001",
+   "date": "2001",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Harvard Law School",
+   "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001 .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Robert_B._Wilson#3"
+  }
+ ],
+ "dropped": []
+}

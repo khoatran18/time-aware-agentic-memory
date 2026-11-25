@@ -1,0 +1,39 @@
+{
+ "idmap": {
+  "N1": "f5cb4a679810c562",
+  "N2": "b319e69b779aa5e1",
+  "N3": "8e6079142b1f86ec",
+  "N4": "0bd72037bdd879de",
+  "N5": "24d9dcd7ff063742",
+  "N6": "d96a74f6ca8938d7",
+  "N7": "7328d4e5f6eb8174",
+  "N8": "c49406e7f00af2fc",
+  "N9": "e55c04f17fc50eee",
+  "N10": "cefed4c53c912374"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N6",
+    "op": "close",
+    "evidence": "the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007",
+    "end_date": "2007"
+   }
+  ],
+  "add": [
+   {
+    "text": "Drašković served as the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007.",
+    "evidence": "the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007",
+    "date_text": "from 2006 to 2007",
+    "date": "2007",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Minister of Foreign Affairs",
+    "quote": "the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007"
+   }
+  ]
+ }
+}

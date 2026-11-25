@@ -1,0 +1,48 @@
+{
+ "idmap": {
+  "N1": "476c0a6a1bf9ba9d",
+  "N2": "25b96d81cdca0787",
+  "N3": "979b980eaecc9d0c",
+  "N4": "64664685dfd3515f",
+  "N5": "0ec2635548cbdc71",
+  "N6": "8b2e76a77e7fdfcc"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "The IAB set for itself seven principal foci for the period of 1989 to 1990 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The IAB set for itself seven principal foci for the period of 1989 to 1990.",
+    "evidence": "The IAB set for itself seven principal foci for the period of 1989 to 1990 .",
+    "date_text": "1989 to 1990",
+    "date": "1989",
+    "approximate": false,
+    "track": "other",
+    "phase": "start",
+    "kind": "statement",
+    "subject": "self",
+    "object": null,
+    "quote": "seven principal foci for the period of 1989 to 1990"
+   },
+   {
+    "text": "The IAB's seven principal foci period ended in 1990.",
+    "evidence": "seven principal foci for the period of 1989 to 1990",
+    "date_text": "1990",
+    "date": "1990",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "statement",
+    "subject": "self",
+    "object": null,
+    "quote": "seven principal foci for the period of 1989 to 1990"
+   }
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "ae4d2c45a33fa155",
+  "N2": "8d7eff61e6c00196",
+  "N3": "3baaecc11d363c27",
+  "N4": "5a43827fdba37b61",
+  "N5": "c31ec16306852a31",
+  "N6": "05d7db46e8d73944"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "WDC&S itself was launched by Dell in October 1940",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "WDC&S was launched by Dell in October 1940.",
+    "evidence": "WDC&S itself was launched by Dell in October 1940",
+    "date_text": "October 1940",
+    "date": "1940-10",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "start",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Dell",
+    "quote": "WDC&S itself was launched by Dell in October 1940"
+   }
+  ]
+ }
+}

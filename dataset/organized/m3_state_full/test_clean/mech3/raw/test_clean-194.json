@@ -1,0 +1,36 @@
+{
+ "idmap": {
+  "N1": "74e87544c145c66b",
+  "N2": "a56d16d84032c974",
+  "N3": "e6bd9a95130a7994",
+  "N4": "2e8a502da07104ee",
+  "N5": "75b4d4c5c55b4c8c",
+  "N6": "e8a4e2d5c1a5ffed",
+  "N7": "9942fd210cff64a5"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "The corvette remained with the RNLN until April 1950",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The corvette remained with the RNLN until April 1950.",
+    "evidence": "The corvette remained with the RNLN until April 1950",
+    "date_text": "April 1950",
+    "date": "1950-04",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "RNLN",
+    "quote": "The corvette remained with the RNLN until April 1950"
+   }
+  ]
+ }
+}

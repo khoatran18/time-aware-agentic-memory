@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The municipality of Kåfjord was established when Lyngen Municipality was divided into three.",
+   "chunk": 1,
+   "date_text": "1928",
+   "date": "1928",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Kåfjord",
+   "quote": "The municipality of Kåfjord was established in 1928",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1"
+  },
+  {
+   "text": "The Nordnes area along the Lyngen fjord was transferred to Kåfjord Municipality.",
+   "chunk": 1,
+   "date_text": "1 January 1992",
+   "date": "1992-01-01",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Nordnes",
+   "quote": "on 1 January 1992 , the Nordnes area along the Lyngen fjord in Lyngen Municipality",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1"
+  },
+  {
+   "text": "The municipality became part of the newly formed Troms og Finnmark county.",
+   "chunk": 2,
+   "date_text": "1 January 2020",
+   "date": "2020-01-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Troms og Finnmark",
+   "quote": "On 1 January 2020 , the municipality became part of the newly formed Troms og Finnmark county",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#2"
+  }
+ ],
+ "dropped": []
+}

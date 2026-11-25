@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "299cae4d7d801fb0",
+  "N2": "1636c9b79a7bfbc4",
+  "N3": "15e250ed6c6c7943",
+  "N4": "45021a7a4c8a1a09",
+  "N5": "5fbb22502df27e8d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Gisdols contract was extended until 2023",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "After avoiding relegation at the end of the season, Gisdol's contract was extended until 2023.",
+    "evidence": "Gisdols contract was extended until 2023",
+    "date_text": "2023",
+    "date": "2023",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Gisdol",
+    "quote": "Gisdols contract was extended until 2023"
+   }
+  ]
+ }
+}

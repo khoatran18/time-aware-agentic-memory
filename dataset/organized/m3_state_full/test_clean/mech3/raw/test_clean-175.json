@@ -1,0 +1,51 @@
+{
+ "idmap": {
+  "N1": "1f583061826cce0c",
+  "N2": "979076ac4317c18b",
+  "N3": "48d5321e8aa4b708"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Wilson became an affiliated faculty member of Harvard Law School.",
+    "evidence": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001",
+    "date_text": "1993",
+    "date": "1993",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Harvard Law School",
+    "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001"
+   },
+   {
+    "text": "Wilson's affiliation with Harvard Law School ended.",
+    "evidence": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001",
+    "date_text": "2001",
+    "date": "2001",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Harvard Law School",
+    "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001"
+   }
+  ]
+ }
+}

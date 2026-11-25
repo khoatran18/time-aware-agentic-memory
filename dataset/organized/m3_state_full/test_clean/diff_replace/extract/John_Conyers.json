@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Conyers earned his BA degree from Wayne State University.",
+   "chunk": 7,
+   "date_text": "1957",
+   "date": "1957",
+   "approximate": false,
+   "track": "education",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Wayne State University",
+   "quote": "He earned both his BA ( 1957 ) and LL.B . ( 1958 ) degrees from Wayne State University .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/John_Conyers#7"
+  },
+  {
+   "text": "Conyers earned his LL.B. degree from Wayne State University.",
+   "chunk": 7,
+   "date_text": "1958",
+   "date": "1958",
+   "approximate": false,
+   "track": "education",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Wayne State University",
+   "quote": "He earned both his BA ( 1957 ) and LL.B . ( 1958 ) degrees from Wayne State University .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/John_Conyers#7"
+  },
+  {
+   "text": "Conyers became a referee for Michigan's workmens compensation department.",
+   "chunk": 7,
+   "date_text": "From 1961",
+   "date": "1961",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Michigans workmens compensation department",
+   "quote": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Michigan's"
+   ],
+   "cid": "/wiki/John_Conyers#7"
+  },
+  {
+   "text": "Conyers's service as a referee for Michigan's workmens compensation department ended.",
+   "chunk": 7,
+   "date_text": "1963",
+   "date": "1963",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Michigans workmens compensation department",
+   "quote": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Michigan's"
+   ],
+   "cid": "/wiki/John_Conyers#7"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "The division served on the Western Front during World War I.",
+   "chunk": 3,
+   "date_text": "World War I",
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Western Front",
+   "quote": "During World War I , the division served on the Western Front .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  },
+  {
+   "text": "The division fought in the Battle of the Frontiers against French forces in the early stages.",
+   "chunk": 3,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Battle of the Frontiers",
+   "quote": "It fought in the Battle of the Frontiers against French forces in the early stages",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  },
+  {
+   "text": "The division participated in the Race to the Sea.",
+   "chunk": 3,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Race to the Sea",
+   "quote": "then participated in the Race to the Sea",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  },
+  {
+   "text": "The division remained on the northern part of the front facing the British Army through 1915 and early 1916.",
+   "chunk": 3,
+   "date_text": "1915 and early 1916",
+   "date": "1915",
+   "approximate": true,
+   "track": "location",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "northern part of the front",
+   "quote": "it remained on the northern part of the front facing the British Army through 1915 and early 1916",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  },
+  {
+   "text": "The Infantry Life Regiment was transferred from the division in 1915 to become part of the Alpenkorps.",
+   "chunk": 3,
+   "date_text": "1915",
+   "date": "1915",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Infantry Life Regiment",
+   "quote": "The Infantry Life Regiment was transferred from the division in 1915",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  },
+  {
+   "text": "In 1916, the division went into the Battle of Verdun.",
+   "chunk": 3,
+   "date_text": "1916",
+   "date": "1916",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Battle of Verdun",
+   "quote": "In 1916 , the division went into the Battle of",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/1st_Royal_Bavarian_Division#3"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Gasly joined Team TOM'S to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship.",
+   "chunk": 12,
+   "date_text": "2017",
+   "date": "2017",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Team TOM'S",
+   "quote": "Gasly joined Team TOM'S to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Pierre_Gasly#12"
+  },
+  {
+   "text": "Gasly won two races in the 2017 Super Formula Championship.",
+   "chunk": 12,
+   "date_text": "2017",
+   "date": "2017",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "2017 Super Formula Championship",
+   "quote": "at the 2017 Super Formula Championship , winning two races",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Pierre_Gasly#12"
+  }
+ ],
+ "dropped": []
+}

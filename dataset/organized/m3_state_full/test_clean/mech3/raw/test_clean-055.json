@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "9689208ad11bab7b",
+  "N2": "43eefd1f7d33b51c",
+  "N3": "a7b5e5ee78555afb"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "who remained until the show ended in 1979",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The show ended.",
+    "evidence": "who remained until the show ended in 1979",
+    "date_text": "1979",
+    "date": "1979",
+    "approximate": false,
+    "track": "other",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": null,
+    "quote": "who remained until the show ended in 1979"
+   }
+  ]
+ }
+}

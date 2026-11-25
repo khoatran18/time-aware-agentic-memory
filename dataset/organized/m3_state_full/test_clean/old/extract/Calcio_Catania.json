@@ -1,0 +1,247 @@
+{
+ "events": [
+  {
+   "text": "Catania beat Udinese 1–0 in late April 2007.",
+   "chunk": 28,
+   "date_text": "late April 2007",
+   "date": "2007",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": "Udinese",
+   "quote": "beating Udinese 1–0 in late April 2007",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#28"
+  },
+  {
+   "text": "Catania eventually finished 13th.",
+   "chunk": 28,
+   "date_text": "2007",
+   "date": "2007",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "result",
+   "subject": "self",
+   "object": null,
+   "quote": "where they eventually finished 13th",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#28"
+  },
+  {
+   "text": "Silvio Baldini resigned from his post on 31 March 2008.",
+   "chunk": 29,
+   "date_text": "31 March 2008",
+   "date": "2008-03-31",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "Silvio Baldini",
+   "quote": "Baldini resigned from his post on 31 March 2008",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#29"
+  },
+  {
+   "text": "Baldini was replaced by Walter Zenga.",
+   "chunk": 29,
+   "date_text": "31 March 2008",
+   "date": "2008-03-31",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Walter Zenga",
+   "quote": "being replaced by Walter Zenga",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#29"
+  },
+  {
+   "text": "Zenga was confirmed in charge of the team for the upcoming 2008–09 season.",
+   "chunk": 30,
+   "date_text": "2008–09 season",
+   "date": "2008",
+   "approximate": true,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Walter Zenga",
+   "quote": "Zenga was successively confirmed in charge of the team for the upcoming 2008–09 season",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#30"
+  },
+  {
+   "text": "On 5 June 2009, Zenga left Catania to be the manager at Palermo.",
+   "chunk": 31,
+   "date_text": "5 June 2009",
+   "date": "2009-06-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Palermo",
+   "quote": "On 5 June 2009 , Zenga left Catania to be the manager at arch-rival Palermo",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#31"
+  },
+  {
+   "text": "Zenga was replaced by Gianluca Atzori.",
+   "chunk": 31,
+   "date_text": "5 June 2009",
+   "date": "2009-06-05",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gianluca Atzori",
+   "quote": "He was replaced by Gianluca Atzori",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#31"
+  },
+  {
+   "text": "On 8 December 2009, Siniša Mihajlović was appointed new head coach of Catania, taking over from Atzori.",
+   "chunk": 32,
+   "date_text": "8 December 2009",
+   "date": "2009-12-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Siniša Mihajlović",
+   "quote": "On 8 December 2009 , Siniša Mihajlović was appointed new head coach of Catania , taking over from Atzori",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#32"
+  },
+  {
+   "text": "After Mihajlović's departure to Fiorentina, Catania appointed Marco Giampaolo as new head coach for the 2010–11 season.",
+   "chunk": 32,
+   "date_text": "2010–11 season",
+   "date": "2010",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Marco Giampaolo",
+   "quote": "Catania appointed Marco Giampaolo as new head coach for the 2010–11 season",
+   "section": 5,
+   "flags": [
+    "approximate_date",
+    "name_not_in_page:Mihajlović's"
+   ],
+   "cid": "/wiki/Calcio_Catania#32"
+  },
+  {
+   "text": "In January 2011, Catania decided to remove Giampaolo from his position.",
+   "chunk": 33,
+   "date_text": "January 2011",
+   "date": "2011-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Marco Giampaolo",
+   "quote": "In January 2011 , Catania decided to remove Giampaolo from his position",
+   "section": 5,
+   "flags": [
+    "date_text_not_in_chunk",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Calcio_Catania#33"
+  },
+  {
+   "text": "Catania replaced Giampaolo with Diego Simeone.",
+   "chunk": 33,
+   "date_text": "January 2011",
+   "date": "2011-01",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Diego Simeone",
+   "quote": "replace him with former Argentine star Diego Simeone",
+   "section": 5,
+   "flags": [
+    "date_text_not_in_chunk"
+   ],
+   "cid": "/wiki/Calcio_Catania#33"
+  },
+  {
+   "text": "Simeone parted company with Catania by the end of the season after only four months in charge.",
+   "chunk": 33,
+   "date_text": "the end of the season",
+   "date": "2011",
+   "approximate": true,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Diego Simeone",
+   "quote": "to part company by the end of the season , after only four months in charge of the team",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#33"
+  },
+  {
+   "text": "Catania appointed 37-year-old Vincenzo Montella as replacement.",
+   "chunk": 33,
+   "date_text": "the end of the season",
+   "date": "2011",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Vincenzo Montella",
+   "quote": "As a replacement , Catania appointed 37-year-old Vincenzo Montella",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#33"
+  },
+  {
+   "text": "Rolando Maran came in the 2012–13 season and guided Catania to a record-breaking season with 56 points from 38 Serie A matches.",
+   "chunk": 34,
+   "date_text": "2012–13 season",
+   "date": "2012",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Rolando Maran",
+   "quote": "Then came Rolando Maran in the 2012–13 season , who guided Catania to a record-breaking season where they accrued 56 points from 38 Serie A matches",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#34"
+  }
+ ],
+ "dropped": []
+}

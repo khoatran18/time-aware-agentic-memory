@@ -1,0 +1,57 @@
+{
+ "events": [
+  {
+   "text": "ANA became a member of Star Alliance.",
+   "chunk": 1,
+   "date_text": "In October 2003",
+   "date": "2003-10",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Star Alliance",
+   "quote": "In October 2003 , the airline became a member of Star Alliance .",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/All_Nippon_Airways#1"
+  },
+  {
+   "text": "ANA was named a 5-Star Airline by Skytrax.",
+   "chunk": 2,
+   "date_text": "29 March 2013",
+   "date": "2013-03-29",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "5-Star Airline",
+   "quote": "On 29 March 2013 , ANA was named a 5-Star Airline by Skytrax .",
+   "section": 0,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/All_Nippon_Airways#2"
+  },
+  {
+   "text": "ANA announced ANA Business Jet Co., Ltd., a joint venture with Sojitz.",
+   "chunk": 2,
+   "date_text": "27 April 2018",
+   "date": "2018-04-27",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "ANA Business Jet Co., Ltd.",
+   "quote": "On 27 April 2018 , ANA announced ANA Business Jet Co. , Ltd. , a joint venture with Sojitz",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/All_Nippon_Airways#2"
+  }
+ ],
+ "dropped": []
+}

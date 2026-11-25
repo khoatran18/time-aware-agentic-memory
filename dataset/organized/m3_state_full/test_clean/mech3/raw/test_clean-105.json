@@ -1,0 +1,59 @@
+{
+ "idmap": {
+  "N1": "7306d2f7d717a9a7",
+  "N2": "0d37750b896324de",
+  "N3": "e8539b087ba7818d",
+  "N4": "0b573f1d8d972bc4",
+  "N5": "c73e0cfcb842ed2f",
+  "N6": "d64d2e1795b9f364",
+  "N7": "f6ad82722b07b68d",
+  "N8": "67af2691d1a830ec",
+  "N9": "5723d550cc6b36d8",
+  "N10": "36407a3c274f298d",
+  "N11": "56e937f8677d144f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010",
+    "end_date": null
+   },
+   {
+    "node": "N6",
+    "op": "invalidate",
+    "evidence": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Wilson began representing the 33rd district in the Florida Senate.",
+    "evidence": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010",
+    "date_text": "2002",
+    "date": "2002",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Florida Senate",
+    "quote": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010"
+   },
+   {
+    "text": "Wilson's representation of the 33rd district in the Florida Senate ended with her election to Congress.",
+    "evidence": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010",
+    "date_text": "2010",
+    "date": "2010",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Florida Senate",
+    "quote": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010"
+   }
+  ]
+ }
+}

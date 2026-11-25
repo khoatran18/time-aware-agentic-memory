@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "a3206ddaf203ec25",
+  "N2": "7051b4cdd48d35e8",
+  "N3": "034a725965416f45",
+  "N4": "8e4625bf55e05115",
+  "N5": "da856b2bb8448088",
+  "N6": "b27dc898fab869fc",
+  "N7": "786eb1e40b897ec9",
+  "N8": "2215c5fb4ea068c8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "He transferred to the SS on 10 April 1933",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Fegelein transferred to the SS on 10 April 1933.",
+    "evidence": "He transferred to the SS on 10 April 1933",
+    "date_text": "10 April 1933",
+    "date": "1933-04-10",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "SS",
+    "quote": "He transferred to the SS on 10 April 1933"
+   }
+  ]
+ }
+}

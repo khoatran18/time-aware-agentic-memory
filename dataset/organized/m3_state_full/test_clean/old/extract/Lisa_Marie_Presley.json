@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "Presley inherited her father's estate on her 25th birthday.",
+   "chunk": 59,
+   "date_text": "1993",
+   "date": "1993",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "her father's estate",
+   "quote": "On her 25th birthday in 1993 , Presley inherited her fathers estate",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Lisa_Marie_Presley#59"
+  },
+  {
+   "text": "Presley became more closely involved in the management of the Elvis Presley Trust and Elvis Presley Enterprises, Inc.",
+   "chunk": 59,
+   "date_text": "1995",
+   "date": "1995",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Elvis Presley Trust",
+   "quote": "In 1995 , Presley became more closely involved in the management of the Elvis Presley Trust",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Lisa_Marie_Presley#59"
+  },
+  {
+   "text": "Presley was owner and Chairman of the Board until February 2005.",
+   "chunk": 59,
+   "date_text": "February 2005",
+   "date": "2005-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Chairman of the Board",
+   "quote": "She was owner and Chairman of the Board until February 2005",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Lisa_Marie_Presley#59"
+  },
+  {
+   "text": "Presley sold 85% of the estate's business holdings to CKX, Inc.",
+   "chunk": 59,
+   "date_text": "February 2005",
+   "date": "2005-02",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "CKX, Inc.",
+   "quote": "in February 2005 , when she sold 85% of the estates business holdings to CKX , Inc.",
+   "section": 10,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Lisa_Marie_Presley#59"
+  },
+  {
+   "text": "Presley opened a new exhibit, Elvis ... Through His Daughters Eyes.",
+   "chunk": 61,
+   "date_text": "February 2012",
+   "date": "2012-02",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Elvis ... Through His Daughters Eyes",
+   "quote": "In February 2012 , Presley opened a new exhibit , Elvis .. . Through His Daughters Eyes",
+   "section": 10,
+   "flags": [],
+   "cid": "/wiki/Lisa_Marie_Presley#61"
+  }
+ ],
+ "dropped": []
+}

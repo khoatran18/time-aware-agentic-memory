@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "U-38 was used as a training boat in the 24th and 21st U-boat Flotillas.",
+   "chunk": 34,
+   "date_text": "December 1941",
+   "date": "1941-12",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "24th and 21st U-boat Flotillas",
+   "quote": "From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-38_(1938)#34"
+  },
+  {
+   "text": "U-38's use as a training boat ended.",
+   "chunk": 34,
+   "date_text": "November 1943",
+   "date": "1943-11",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "24th and 21st U-boat Flotillas",
+   "quote": "From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-38_(1938)#34"
+  },
+  {
+   "text": "U-38 was scuttled by her crew.",
+   "chunk": 34,
+   "date_text": "5 May 1945",
+   "date": "1945-05-05",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "until she was scuttled by her crew on 5 May 1945 .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-38_(1938)#34"
+  }
+ ],
+ "dropped": []
+}

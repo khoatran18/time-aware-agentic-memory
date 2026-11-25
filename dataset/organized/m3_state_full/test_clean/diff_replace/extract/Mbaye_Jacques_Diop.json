@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "The PPC merged itself into Wade's party, the PDS.",
+   "chunk": 8,
+   "date_text": "20 May 2002",
+   "date": "2002-05-20",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "PDS",
+   "quote": "The PPC merged itself into Wades party , the PDS , on 20 May 2002",
+   "section": 2,
+   "flags": [
+    "name_not_in_page:Wade's"
+   ],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  },
+  {
+   "text": "Diop became National Political Secretary of the PDS.",
+   "chunk": 8,
+   "date_text": "20 May 2002",
+   "date": "2002-05-20",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "National Political Secretary of the PDS",
+   "quote": "Diop became National Political Secretary of the PDS at that time",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  },
+  {
+   "text": "Diop left his position as Mayor of Rufisque, becoming Honorary Mayor instead.",
+   "chunk": 8,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Mayor of Rufisque",
+   "quote": "Also in 2002 , Diop left his position as Mayor of Rufisque , becoming Honorary Mayor instead",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  },
+  {
+   "text": "Diop joined the National Political Administration of the PDS.",
+   "chunk": 8,
+   "date_text": "May 2003",
+   "date": "2003-05",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "National Political Administration of the PDS",
+   "quote": "He joined the National Political Administration of the PDS in May 2003",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  },
+  {
+   "text": "Diop joined the PDS Steering Committee.",
+   "chunk": 8,
+   "date_text": "May 2004",
+   "date": "2004-05",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "PDS Steering Committee",
+   "quote": "joined the PDS Steering Committee in May 2004",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  },
+  {
+   "text": "Wade appointed Diop as President of the CRAES when that body was created.",
+   "chunk": 8,
+   "date_text": "August 2004",
+   "date": "2004-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "CRAES",
+   "quote": "Wade then appointed Diop as President of the CRAES when that body was created in August 2004",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Mbaye-Jacques_Diop#8"
+  }
+ ],
+ "dropped": []
+}

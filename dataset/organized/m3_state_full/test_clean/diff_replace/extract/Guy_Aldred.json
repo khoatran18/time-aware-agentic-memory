@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Aldred and Witcop had a son, Annesley.",
+   "chunk": 17,
+   "date_text": "1909",
+   "date": "1909",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Annesley",
+   "quote": "Aldred and Witcop had a son , Annesley , in 1909 .",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Guy_Aldred#17"
+  },
+  {
+   "text": "Aldred settled permanently in Glasgow.",
+   "chunk": 17,
+   "date_text": "1922",
+   "date": "1922",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Glasgow",
+   "quote": "Aldred settled permanently in Glasgow in 1922",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Guy_Aldred#17"
+  },
+  {
+   "text": "Aldred and Witcop finally parted.",
+   "chunk": 17,
+   "date_text": "1924",
+   "date": "1924",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "finally parting in 1924",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Guy_Aldred#17"
+  },
+  {
+   "text": "Aldred and Witcop had a legal marriage.",
+   "chunk": 17,
+   "date_text": "2 February 1926",
+   "date": "1926-02-02",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "they had a legal marriage on 2 February 1926",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Guy_Aldred#17"
+  }
+ ],
+ "dropped": []
+}

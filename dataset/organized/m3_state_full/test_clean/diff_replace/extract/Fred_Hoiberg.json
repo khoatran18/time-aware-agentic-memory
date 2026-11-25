@@ -1,0 +1,73 @@
+{
+ "events": [
+  {
+   "text": "Fred Hoiberg began his coaching career at Iowa State University.",
+   "chunk": 1,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Iowa State University",
+   "quote": "He was there from 2010 to 2015",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Fred_Hoiberg#1"
+  },
+  {
+   "text": "Fred Hoiberg's coaching stint at Iowa State University ended.",
+   "chunk": 1,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Iowa State University",
+   "quote": "He was there from 2010 to 2015",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Hoiberg's"
+   ],
+   "cid": "/wiki/Fred_Hoiberg#1"
+  },
+  {
+   "text": "Fred Hoiberg went on to coach in the NBA for the Chicago Bulls.",
+   "chunk": 1,
+   "date_text": "2015",
+   "date": "2015",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Chicago Bulls",
+   "quote": "coach in the NBA for the Chicago Bulls from 2015 to 2018",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Fred_Hoiberg#1"
+  },
+  {
+   "text": "Fred Hoiberg's coaching with the Chicago Bulls ended.",
+   "chunk": 1,
+   "date_text": "2018",
+   "date": "2018",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Chicago Bulls",
+   "quote": "the Chicago Bulls from 2015 to 2018",
+   "section": 0,
+   "flags": [
+    "name_not_in_page:Hoiberg's"
+   ],
+   "cid": "/wiki/Fred_Hoiberg#1"
+  }
+ ],
+ "dropped": []
+}

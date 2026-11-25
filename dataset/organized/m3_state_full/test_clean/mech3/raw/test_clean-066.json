@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "76c6e86015cc3857",
+  "N2": "fe8e20ddf989f2c7",
+  "N3": "853f077e960b7fab",
+  "N4": "b0a4f24fffe3f471"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "By the time of the Domesday Book of 1086 , the name had changed to Walintone",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The name had changed to Walintone by the time of the Domesday Book of 1086.",
+    "evidence": "By the time of the Domesday Book of 1086 , the name had changed to Walintone",
+    "date_text": "1086",
+    "date": "1086",
+    "approximate": false,
+    "track": "naming",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Walintone",
+    "quote": "By the time of the Domesday Book of 1086 , the name had changed to Walintone"
+   }
+  ]
+ }
+}

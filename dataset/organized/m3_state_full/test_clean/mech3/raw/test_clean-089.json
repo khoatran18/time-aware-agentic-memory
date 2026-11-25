@@ -1,0 +1,40 @@
+{
+ "idmap": {
+  "N1": "44a8993465d34027",
+  "N2": "798c2e862b44a2cd",
+  "N3": "bfd340c4e3dffa7f",
+  "N4": "9f7af159c16090fb",
+  "N5": "4453670d9791a0b3",
+  "N6": "1ff3d9e2bc2d05cf",
+  "N7": "fbe895b4ea3a7bfd",
+  "N8": "c9748ff5e9576fec",
+  "N9": "cd52b2f490db4293",
+  "N10": "dbe2efaab0b2cc9b",
+  "N11": "e27c232796246f52"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "was turned over to the Turkish Air Force in 1970",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Cigli Air Base was turned over to the Turkish Air Force.",
+    "evidence": "was turned over to the Turkish Air Force in 1970",
+    "date_text": "1970",
+    "date": "1970",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Turkish Air Force",
+    "quote": "was turned over to the Turkish Air Force in 1970"
+   }
+  ]
+ }
+}

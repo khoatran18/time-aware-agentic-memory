@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "Charles V appointed the couple jointly viceroys of Valencia.",
+   "chunk": 11,
+   "date_text": "In 1523",
+   "date": "1523",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "viceroys of Valencia",
+   "quote": "In 1523 Charles V appointed the couple jointly viceroys of Valencia .",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Germaine_of_Foix#11"
+  },
+  {
+   "text": "Germaine signed a pardon that officially ended the persecution of all former participants in the rebellion.",
+   "chunk": 11,
+   "date_text": "In December 1524",
+   "date": "1524-12",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "pardon",
+   "quote": "In December 1524 , Germaine signed a pardon that officially ended the persecution",
+   "section": 2,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Germaine_of_Foix#11"
+  }
+ ],
+ "dropped": []
+}

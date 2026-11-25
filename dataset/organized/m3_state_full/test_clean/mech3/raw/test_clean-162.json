@@ -1,0 +1,43 @@
+{
+ "idmap": {
+  "N1": "2287e10fd512d7c2",
+  "N2": "bb4f0ceee3d2fa5d",
+  "N3": "1c41b19f8b1d72e8",
+  "N4": "bee83e08045788a1",
+  "N5": "902c76c58ae52c96",
+  "N6": "ce91b9780ecf8587",
+  "N7": "687f8202bfa13ca7",
+  "N8": "08a485293df0d437",
+  "N9": "27368c558ebafce1",
+  "N10": "4eb3f79995fe4533",
+  "N11": "f7193a216f96772d",
+  "N12": "41165c677c09f1d0",
+  "N13": "fd929a8ad0a3ed79",
+  "N14": "5b4ba087d8aa6c3d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875.",
+    "evidence": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898",
+    "date_text": "1875",
+    "date": "1875",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "other",
+    "object": "Theodore Watts-Dunton",
+    "quote": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898"
+   }
+  ]
+ }
+}

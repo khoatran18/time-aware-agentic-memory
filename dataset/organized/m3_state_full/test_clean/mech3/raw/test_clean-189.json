@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "b4664b74ff9d0070",
+  "N2": "706971fc07bf4c04",
+  "N3": "288d587ca8c55e87",
+  "N4": "dd37a37d65e359f2",
+  "N5": "36dcb649cecb24bc",
+  "N6": "fa8d24c6f6f6d8bc",
+  "N7": "0e56b5ca450ade6f",
+  "N8": "44045db5a70c2b98",
+  "N9": "b87c9ee32b765654"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "representing Ratnapura District for the USA",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Nanayakkara re-entered parliament after the 1989 parliamentary election, representing Ratnapura District for the USA.",
+    "evidence": "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA .",
+    "date_text": "1989",
+    "date": "1989",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Ratnapura District",
+    "quote": "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA ."
+   }
+  ]
+ }
+}

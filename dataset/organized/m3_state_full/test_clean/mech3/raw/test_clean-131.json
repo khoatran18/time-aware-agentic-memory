@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "2265ffe83e208878",
+  "N2": "9c07958dda53554f",
+  "N3": "efa3846bee67c297",
+  "N4": "dd5d741d4f7176b5",
+  "N5": "9b818591ae60db9e",
+  "N6": "f07c01ecec29d10d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "He had entered the navy by 1934",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He had entered the navy.",
+    "evidence": "He had entered the navy by 1934",
+    "date_text": "1934",
+    "date": "1934",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "navy",
+    "quote": "He had entered the navy by 1934"
+   }
+  ]
+ }
+}

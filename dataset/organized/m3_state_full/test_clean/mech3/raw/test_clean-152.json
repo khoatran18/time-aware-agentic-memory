@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "924b522b6ec49e8a",
+  "N2": "63592bad680bc9e5",
+  "N3": "b332962b3afde9f5",
+  "N4": "be1742f607cdc3f8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Umstead served as the elected solicitor for a five-county district.",
+    "evidence": "served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933",
+    "date_text": "1927",
+    "date": "1927",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "elected solicitor for a five-county district",
+    "quote": "served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933"
+   }
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "idmap": {
+  "N1": "f4d31ccfcf55df9f",
+  "N2": "ac52418002e38006",
+  "N3": "df75cad63f68c6da",
+  "N4": "471310db3c1c8560",
+  "N5": "b6b8c07ed2bd1abe",
+  "N6": "f58f4013b7111487",
+  "N7": "ac03d225f705ac0d",
+  "N8": "3dc22cdff3d8c040",
+  "N9": "23eaa581cf3656b7",
+  "N10": "822f0b985a4f6f16",
+  "N11": "8051c070d868af55",
+  "N12": "5df46cb9d0bd18a3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen",
+    "end_date": null
+   },
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Oberamt Cannstatt was dissolved and Fellbach came to Oberamt Waiblingen.",
+    "evidence": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen",
+    "date_text": "1923",
+    "date": "1923",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Oberamt Waiblingen",
+    "quote": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen"
+   },
+   {
+    "text": "Oberamt Cannstatt was dissolved.",
+    "evidence": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen",
+    "date_text": "1923",
+    "date": "1923",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Oberamt Cannstatt",
+    "quote": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen"
+   }
+  ]
+ }
+}

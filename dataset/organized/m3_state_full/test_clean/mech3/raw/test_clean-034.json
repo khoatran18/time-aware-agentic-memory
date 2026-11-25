@@ -1,0 +1,25 @@
+{
+ "idmap": {
+  "N1": "26eee106af65cfe1",
+  "N2": "004ab4e699703d88",
+  "N3": "d0e39a8fc63d3c2d"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "The company was known as CacheFlow until 2002.",
+    "evidence": "The company was known as CacheFlow until 2002 .",
+    "date_text": "until 2002",
+    "date": "2002",
+    "approximate": false,
+    "track": "naming",
+    "phase": "end",
+    "kind": "state",
+    "subject": "self",
+    "object": "CacheFlow",
+    "quote": "The company was known as CacheFlow until 2002 ."
+   }
+  ]
+ }
+}

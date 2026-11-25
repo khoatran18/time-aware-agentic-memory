@@ -1,0 +1,47 @@
+{
+ "idmap": {
+  "N1": "ab2d99e1c00c8140",
+  "N2": "b9718ae703a54383",
+  "N3": "63e7055bca3c12b0",
+  "N4": "b59059dd2b2730ca",
+  "N5": "a544491b4128d24a"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956",
+    "end_date": "1956"
+   }
+  ],
+  "add": [
+   {
+    "text": "Øverland was president of Riksmålsforbundet from 1947 to 1956.",
+    "evidence": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956",
+    "date_text": "1947 to 1956",
+    "date": "1947",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Riksmålsforbundet",
+    "quote": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956"
+   },
+   {
+    "text": "Øverland's presidency of Riksmålsforbundet ended in 1956.",
+    "evidence": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956",
+    "date_text": "1956",
+    "date": "1956",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Riksmålsforbundet",
+    "quote": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956"
+   }
+  ]
+ }
+}

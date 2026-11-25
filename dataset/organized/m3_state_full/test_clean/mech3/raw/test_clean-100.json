@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "d5665fa48b205c1b",
+  "N2": "789ac0ff5a809770",
+  "N3": "a39031c1633a9a2f",
+  "N4": "fed54cfe97b29420",
+  "N5": "dcd30eb249972b55",
+  "N6": "467e4466c94b2e2e",
+  "N7": "7911bd5dba127594",
+  "N8": "6d6728b39ec9570f",
+  "N9": "9faa7eb96db5243c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Elgin Theatre began serving as one of the hosts to the annual Toronto International Film Festival.",
+    "evidence": "Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival .",
+    "date_text": "1979",
+    "date": "1979",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Toronto International Film Festival",
+    "quote": "Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival ."
+   }
+  ]
+ }
+}

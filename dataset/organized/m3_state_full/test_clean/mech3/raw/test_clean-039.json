@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "2e31e77403af031d",
+  "N2": "51d3cf3175ff0ca3",
+  "N3": "10ca50e70c2b099b",
+  "N4": "05f8d9a505f4d482",
+  "N5": "65a5af4f1e163690",
+  "N6": "5cc5e36dae997b6f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "close",
+    "evidence": "coach in the NBA for the Chicago Bulls from 2015 to 2018",
+    "end_date": "2018"
+   }
+  ],
+  "add": [
+   {
+    "text": "Hoiberg coached in the NBA for the Chicago Bulls from 2015 to 2018.",
+    "evidence": "coach in the NBA for the Chicago Bulls from 2015 to 2018",
+    "date_text": "2015 to 2018",
+    "date": "2015",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Chicago Bulls",
+    "quote": "coach in the NBA for the Chicago Bulls from 2015 to 2018"
+   }
+  ]
+ }
+}

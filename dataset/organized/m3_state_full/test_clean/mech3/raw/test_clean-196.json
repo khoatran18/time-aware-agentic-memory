@@ -1,0 +1,56 @@
+{
+ "idmap": {
+  "N1": "1a878636ce1d5667",
+  "N2": "5c956b7afdc56718",
+  "N3": "6a485cd44e74fd58",
+  "N4": "df588506b14343ad",
+  "N5": "5a25b850c4c434b6",
+  "N6": "d7beb644d41887cf",
+  "N7": "f01a92415c51ff5b",
+  "N8": "008002de00404272"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force",
+    "end_date": null
+   },
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The airfield was used for evaluation of new aircraft for the Swedish Air Force.",
+    "evidence": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force",
+    "date_text": "1926",
+    "date": "1926",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Swedish Air Force",
+    "quote": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force"
+   },
+   {
+    "text": "The airfield's use for evaluation of new aircraft for the Swedish Air Force ended.",
+    "evidence": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force",
+    "date_text": "1938",
+    "date": "1938",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Swedish Air Force",
+    "quote": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force"
+   }
+  ]
+ }
+}

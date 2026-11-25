@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "7d09fa034f4d8167",
+  "N2": "8ef44b3c6aa664ec",
+  "N3": "db83c0700f0204bc",
+  "N4": "ce9cbd93d6569c13",
+  "N5": "39a76e674bea5252",
+  "N6": "fea296bf5aa0c686",
+  "N7": "65bf5fd99d9b858d",
+  "N8": "fe3aacbe36df2011",
+  "N9": "a599d52c634416f4",
+  "N10": "00cfba56bc0c0187"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Löw was at VfB Stuttgart until 21 May 1998.",
+    "evidence": "He eventually became the permanent manager and was at the club until 21 May 1998 .",
+    "date_text": "21 May 1998",
+    "date": "1998-05-21",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "VfB Stuttgart",
+    "quote": "He eventually became the permanent manager and was at the club until 21 May 1998 ."
+   }
+  ]
+ }
+}

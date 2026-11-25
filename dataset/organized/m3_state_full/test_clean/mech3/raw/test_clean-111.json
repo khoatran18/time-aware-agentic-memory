@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "6a82a6775605a30d",
+  "N2": "3d48d46b1921da1b",
+  "N3": "c3081ac777a0277f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In October 1999 , the airline became a member of Star Alliance .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "ANA became a member of Star Alliance.",
+    "evidence": "In October 1999 , the airline became a member of Star Alliance .",
+    "date_text": "October 1999",
+    "date": "1999-10",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Star Alliance",
+    "quote": "In October 1999 , the airline became a member of Star Alliance ."
+   }
+  ]
+ }
+}

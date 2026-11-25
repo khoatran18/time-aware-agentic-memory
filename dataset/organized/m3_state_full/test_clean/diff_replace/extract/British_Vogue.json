@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "text": "Audrey Withers was editor of the magazine.",
+   "chunk": 7,
+   "date_text": "1940",
+   "date": "1940",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "editor",
+   "quote": "Under Audrey Withers ( editor from 1940 to 1960 )",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/British_Vogue#7"
+  },
+  {
+   "text": "Audrey Withers's editorship ended.",
+   "chunk": 7,
+   "date_text": "1960",
+   "date": "1960",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "editor",
+   "quote": "Under Audrey Withers ( editor from 1940 to 1960 )",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Withers's"
+   ],
+   "cid": "/wiki/British_Vogue#7"
+  },
+  {
+   "text": "Lee Miller persuaded Withers to send her to Normandy to produce an article on wartime nursing.",
+   "chunk": 7,
+   "date_text": "1944",
+   "date": "1944",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Normandy",
+   "quote": "In 1944 , the American photographer Lee Miller persuaded Withers to send her to Normandy",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/British_Vogue#7"
+  },
+  {
+   "text": "Dame Anna Wintour edited the British edition.",
+   "chunk": 7,
+   "date_text": "1985",
+   "date": "1985",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "British edition",
+   "quote": "Dame Anna Wintour edited the British edition from 1985 to 1987",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/British_Vogue#7"
+  },
+  {
+   "text": "Dame Anna Wintour's editing of the British edition ended.",
+   "chunk": 7,
+   "date_text": "1987",
+   "date": "1987",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "part_of_self",
+   "object": "British edition",
+   "quote": "Dame Anna Wintour edited the British edition from 1985 to 1987",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Wintour's"
+   ],
+   "cid": "/wiki/British_Vogue#7"
+  }
+ ],
+ "dropped": []
+}

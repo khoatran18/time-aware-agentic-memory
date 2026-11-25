@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "c276e15a72fd76eb",
+  "N2": "f884dd147339547d",
+  "N3": "7977cd4561a0d1bc",
+  "N4": "7930a8f3f51a94ea",
+  "N5": "87cd6f211c503e0d"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Orleans Bar , 1850 - to Humboldt County in 1875",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Orleans Bar went to Humboldt County.",
+    "evidence": "Orleans Bar , 1850 - to Humboldt County in 1875",
+    "date_text": "1875",
+    "date": "1875",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Humboldt County",
+    "quote": "Orleans Bar , 1850 - to Humboldt County in 1875"
+   }
+  ]
+ }
+}

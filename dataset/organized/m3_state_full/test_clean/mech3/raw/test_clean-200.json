@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "ce97b5cc0fb7c376",
+  "N2": "1b5cc6fd43059d29",
+  "N3": "6e51854aed119c83",
+  "N4": "fbc38aaf1c7cc4a1",
+  "N5": "b34e9cf3f16dba66",
+  "N6": "7e3dcfcb35eb5c07",
+  "N7": "a4a870d74d7f0e73",
+  "N8": "0ef4776eec77772b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "In May 2011 , the party submitted an application for registration to the Ministry of Justice",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The party submitted an application for registration to the Ministry of Justice.",
+    "evidence": "In May 2011 , the party submitted an application for registration to the Ministry of Justice",
+    "date_text": "In May 2011",
+    "date": "2011-05",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "part_of_self",
+    "object": "Ministry of Justice",
+    "quote": "In May 2011 , the party submitted an application for registration to the Ministry of Justice"
+   }
+  ]
+ }
+}

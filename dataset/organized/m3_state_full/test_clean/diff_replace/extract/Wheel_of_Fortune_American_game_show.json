@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "The show did not feature a permanent bonus round before December 1981.",
+   "chunk": 37,
+   "date_text": "December 1981",
+   "date": "1981",
+   "approximate": true,
+   "track": "work",
+   "phase": "point",
+   "kind": "state",
+   "subject": "self",
+   "object": "bonus round",
+   "quote": "Before December 1981 , the show did not feature a permanent bonus round .",
+   "section": 3,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Wheel_of_Fortune_(American_game_show)#37"
+  },
+  {
+   "text": "Some episodes featured a round known as the Star Bonus in 1978.",
+   "chunk": 37,
+   "date_text": "1978",
+   "date": "1978",
+   "approximate": false,
+   "track": "work",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Star Bonus",
+   "quote": "In 1978 , some episodes featured a round known as the Star Bonus",
+   "section": 3,
+   "flags": [],
+   "cid": "/wiki/Wheel_of_Fortune_(American_game_show)#37"
+  }
+ ],
+ "dropped": []
+}

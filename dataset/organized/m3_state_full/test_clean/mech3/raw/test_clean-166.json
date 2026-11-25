@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "780d8cf200561f99",
+  "N2": "78870fcd28f63a75",
+  "N3": "bb1c4e21e1aca989",
+  "N4": "6985ce801923bd83"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "24 July 1904 – 6 December 1974",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Nikolay Gerasimovich Kuznetsov died.",
+    "evidence": "24 July 1904 – 6 December 1974",
+    "date_text": "6 December 1974",
+    "date": "1974-12-06",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": null,
+    "quote": "24 July 1904 – 6 December 1974"
+   }
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "1a788c6e3c7e7244",
+  "N2": "0a18e6e29bd35bf4",
+  "N3": "9fed0e931d069998",
+  "N4": "141528961467ee61",
+  "N5": "5e772adef7e9c685",
+  "N6": "90d053f6532e9bf8",
+  "N7": "2839fd1a0358c8b6",
+  "N8": "ce8fd9075d9f95a9",
+  "N9": "d039cdac61ff334e",
+  "N10": "e38595b47e6a2342",
+  "N11": "96f30e905c195035",
+  "N12": "62f105f42c1924ef"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "He joined the National Political Administration of the PDS in May 2003",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Diop joined the National Political Administration of the PDS in May 2003.",
+    "evidence": "He joined the National Political Administration of the PDS in May 2003",
+    "date_text": "May 2003",
+    "date": "2003-05",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "National Political Administration of the PDS",
+    "quote": "He joined the National Political Administration of the PDS in May 2003"
+   }
+  ]
+ }
+}

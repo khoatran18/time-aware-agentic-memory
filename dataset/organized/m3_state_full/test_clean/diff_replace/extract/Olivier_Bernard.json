@@ -1,0 +1,39 @@
+{
+ "events": [
+  {
+   "text": "Bernard retired from football due to a hip injury.",
+   "chunk": 11,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "football",
+   "quote": "Bernard retired from football due to a hip injury",
+   "section": 6,
+   "flags": [],
+   "cid": "/wiki/Olivier_Bernard#11"
+  },
+  {
+   "text": "In a 2011 interview, Bernard criticised manager Graeme Souness's man management.",
+   "chunk": 11,
+   "date_text": "2011",
+   "date": "2011",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "statement",
+   "subject": "self",
+   "object": "Graeme Souness",
+   "quote": "In a 2011 interview , he criticised manager Graeme Sounesss man management",
+   "section": 6,
+   "flags": [
+    "name_not_in_page:Souness's"
+   ],
+   "cid": "/wiki/Olivier_Bernard#11"
+  }
+ ],
+ "dropped": []
+}

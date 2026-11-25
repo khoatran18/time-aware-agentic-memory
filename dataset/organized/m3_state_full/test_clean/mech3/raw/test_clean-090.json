@@ -1,0 +1,38 @@
+{
+ "idmap": {
+  "N1": "77cd28b75c34aec0",
+  "N2": "29d5054e97e4203b",
+  "N3": "34cd8f6ef2263769",
+  "N4": "4074eedf0bc72faa",
+  "N5": "fe71c188552a0f2d",
+  "N6": "988441523c4274b2",
+  "N7": "85b2c63a4b436760",
+  "N8": "beea44917ed73deb",
+  "N9": "8d0054fba087d265"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Topp was transferred to the 1st U-boat Flotilla on 1 May 1940.",
+    "evidence": "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla",
+    "date_text": "1 May 1940",
+    "date": "1940-05-01",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "1st U-boat Flotilla",
+    "quote": "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla"
+   }
+  ]
+ }
+}

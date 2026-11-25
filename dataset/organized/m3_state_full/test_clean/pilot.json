@@ -1,0 +1,5318 @@
+{
+ "set": "test_clean",
+ "seed": 20261121,
+ "per_type": 27,
+ "window": 8,
+ "edits": [
+  {
+   "edit_id": "test_clean-074",
+   "type": "C",
+   "page": "Lega_Nord_Piemont",
+   "chunk_id": "/wiki/Lega_Nord_Piemont#4",
+   "event": {
+    "date": "1999",
+    "text": "Comino started his own party.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "In 1999 the party suffered a damaging split when Comino left the party"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which a new person took office as national secretary of Lega Nord Piemont (re-elections of an incumbent are not counted)."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, who was the first person to take office as national secretary of Lega Nord Piemont?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "After Silvano Straneo took office as national president of Lega Nord Piemont, which person was the next to take office in that post, among the dated events in the timeline?"
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the appointments of new national presidents of Lega Nord Piemont between the early 1990s and the mid-2000s."
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Splits and recovery",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Lega_Nord_Piemont#4",
+     "/wiki/Lega_Nord_Piemont#5",
+     "/wiki/Lega_Nord_Piemont#6",
+     "/wiki/Lega_Nord_Piemont#7",
+     "/wiki/Lega_Nord_Piemont#8",
+     "/wiki/Lega_Nord_Piemont#9",
+     "/wiki/Lega_Nord_Piemont#10",
+     "/wiki/Lega_Nord_Piemont#11"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "test_clean-179",
+   "type": "C",
+   "page": "Gerard_Bilders",
+   "chunk_id": "/wiki/Gerard_Bilders#1",
+   "event": {
+    "date": "1841",
+    "text": "The Bilders family lived in Oosterbeek from 1841.",
+    "track": "location",
+    "phase": "start",
+    "kind": "change",
+    "quote": "from 1841 to 1845 the Bilders family lived in Oosterbeek"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the painter's move to The Hague and his departure from Oosterbeek?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate the painter's birth from his death?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between his first voyage to Switzerland and France and his visit to the Brussels Exposition Générale des Beaux-Arts?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Biography",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Gerard_Bilders#1",
+     "/wiki/Gerard_Bilders#2",
+     "/wiki/Gerard_Bilders#3",
+     "/wiki/Gerard_Bilders#4",
+     "/wiki/Gerard_Bilders#5",
+     "/wiki/Gerard_Bilders#6",
+     "/wiki/Gerard_Bilders#7",
+     "/wiki/Gerard_Bilders#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-170",
+   "type": "C",
+   "page": "Klamath_County_California",
+   "chunk_id": "/wiki/Klamath_County,_California#9",
+   "event": {
+    "date": "1875",
+    "text": "Orleans Bar went to Humboldt County.",
+    "track": "other",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Orleans Bar , 1850 - to Humboldt County in 1875"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Klamath_County,_California#2",
+     "/wiki/Klamath_County,_California#3",
+     "/wiki/Klamath_County,_California#4",
+     "/wiki/Klamath_County,_California#5",
+     "/wiki/Klamath_County,_California#6",
+     "/wiki/Klamath_County,_California#7",
+     "/wiki/Klamath_County,_California#8",
+     "/wiki/Klamath_County,_California#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-089",
+   "type": "C",
+   "page": "United_States_Air_Forces_in_Europe_Air_Forces_Africa",
+   "chunk_id": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82",
+   "event": {
+    "date": "1970",
+    "text": "Cigli Air Base was turned over to the Turkish Air Force.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1970"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when US-operated sites in Turkey were turned over to Turkish control (in any order)."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when a unit or wing was transferred from another Air Force command to USAFE, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the command's own headquarters designation was changed, in time order."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the command's headquarters moved to a different base, in time order."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the date USAFE's origins are traced to (the establishment of its predecessor, the Eighth Air Force) to the date it formally took its current designation?"
+     }
+    ]
+   },
+   "window": {
+    "section": 9,
+    "section_title": "USAFE in Turkey",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#77",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#78",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#79",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#80",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#81",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#83",
+     "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#84"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-093",
+   "type": "C",
+   "page": "UD_Las_Palmas",
+   "chunk_id": "/wiki/UD_Las_Palmas#21",
+   "event": {
+    "date": "2006",
+    "text": "A third side was founded.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "A third side was founded in 2006"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the founding events of the club and its affiliated teams recorded before the end of the 2000s, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dates on which Luis Molowny took up the coaching post at the club, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated appointments in the timeline, summarize the coaching spells that Roque Olsen took up at the club."
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated appointments in the timeline, summarize the coaching spells that Paco Castellano took up at the club."
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated appointments in the timeline, summarize the coaching spells that Juan Manuel Rodríguez took up at the club."
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated appointments of Roque Olsen as coach of the club, which appointment came next after the one in which he became coach again?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Affiliated teams",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/UD_Las_Palmas#21"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 26
+  },
+  {
+   "edit_id": "test_clean-055",
+   "type": "C",
+   "page": "Many_a_Slip_radio_series",
+   "chunk_id": "/wiki/Many_a_Slip_(radio_series)#2",
+   "event": {
+    "date": "1979",
+    "text": "Tim Rice and Gillian Reynolds remained until the show ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "who remained until the show ended in 1979"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the show's first broadcast and the end of its run?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate the show's move to BBC Radio 4 from Lance Percival's return to the panel?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Contestants",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Many_a_Slip_(radio_series)#1",
+     "/wiki/Many_a_Slip_(radio_series)#2",
+     "/wiki/Many_a_Slip_(radio_series)#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 16
+  },
+  {
+   "edit_id": "test_clean-139",
+   "type": "C",
+   "page": "6th_Combined_Arms_Army",
+   "chunk_id": "/wiki/6th_Combined_Arms_Army#13",
+   "event": {
+    "date": "1974-01-15",
+    "text": "The army was awarded the Order of the Red Banner.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "On 15 January 1974 , it was awarded the Order of the Red Banner"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the formations or reformations of the army that took place after the Second World War ended, in chronological order."
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which formation or reformation of the army came last?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who was the first commander to take command of the army?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who took command of the army immediately after Ivan Muzychenko took command?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Counting by calendar year, how many years passed between Ivan Muzychenko taking command of the army and Vladimir Gluzdovsky taking command of it?"
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the endings of commanders' terms of command of the army that took place before 1943 (the endings only, not the appointments)."
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Fifth Formation",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/6th_Combined_Arms_Army#12",
+     "/wiki/6th_Combined_Arms_Army#13",
+     "/wiki/6th_Combined_Arms_Army#14",
+     "/wiki/6th_Combined_Arms_Army#15",
+     "/wiki/6th_Combined_Arms_Army#16",
+     "/wiki/6th_Combined_Arms_Army#17",
+     "/wiki/6th_Combined_Arms_Army#18",
+     "/wiki/6th_Combined_Arms_Army#19"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 26
+  },
+  {
+   "edit_id": "test_clean-164",
+   "type": "C",
+   "page": "Indianapolis_Indians",
+   "chunk_id": "/wiki/Indianapolis_Indians#1",
+   "event": {
+    "date": "1902",
+    "text": "The current Indianapolis Indians franchise was founded as an original member of the American Association.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the starts of the team's affiliations or working agreements with Major League clubs that began before the 1980s."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in chronological order, the dated events from the late 1920s to the early 1940s in which ownership of the team passed to a new owner."
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize each new job, duty or title that Max Schumacher took on at the club, from his first front-office post until he was named team president."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "List, in chronological order, the dated events in the 1980s in which the team won an American Association championship or the Triple-A Classic (events of the same year in any order)."
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events in the 1980s, which American Association or Triple-A Classic title did the team win first?"
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the end of the team's working agreement with the Cincinnati Reds and the end of its affiliation with Cincinnati in the late 1990s?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Indianapolis_Indians#1",
+     "/wiki/Indianapolis_Indians#2",
+     "/wiki/Indianapolis_Indians#3",
+     "/wiki/Indianapolis_Indians#4",
+     "/wiki/Indianapolis_Indians#5",
+     "/wiki/Indianapolis_Indians#6",
+     "/wiki/Indianapolis_Indians#7",
+     "/wiki/Indianapolis_Indians#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 43
+  },
+  {
+   "edit_id": "test_clean-156",
+   "type": "C",
+   "page": "Fellbach",
+   "chunk_id": "/wiki/Fellbach#5",
+   "event": {
+    "date": "1923",
+    "text": "Oberamt Cannstatt was dissolved.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the historical spellings under which the town's name was recorded."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the foreign towns with which Fellbach entered a twinning partnership."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "List, in chronological order, the honorary citizenships that the city of Fellbach itself conferred among the dated events in the timeline, not those conferred by its former municipality Schmiden."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which person was the first to take office as community head of Fellbach?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two community-head appointments of Fellbach came most recently?"
+     },
+     {
+      "qi": 5,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the appointments of Fellbach's community heads that took office after 1840 and before 1880."
+     },
+     {
+      "qi": 6,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the year Friedrich August Brändle began his term as community head of Fellbach to the year Max Graser began his first term?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Fellbach#5",
+     "/wiki/Fellbach#6",
+     "/wiki/Fellbach#7",
+     "/wiki/Fellbach#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 44
+  },
+  {
+   "edit_id": "test_clean-145",
+   "type": "C",
+   "page": "Ludwig_Martens",
+   "chunk_id": "/wiki/Ludwig_Martens#0",
+   "event": {
+    "date": "1948-10-19",
+    "text": "Ludwig Martens died.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "− 19 October 1948 ) was a Russian Marxist revolutionary"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which post did Martens take up immediately after becoming the first Chairman of the Committee on Invention?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two posts did Martens take up most recently, counting from his first chairmanship of the Committee on Invention onward?"
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the formal posts Martens took up after returning to Russia."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list Martens's moves from one country to another in time order."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years passed from Martens emigrating to Great Britain to his emigration to the United States?"
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which move came immediately after Martens emigrated to the United States?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Ludwig Martens",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Ludwig_Martens#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "test_clean-173",
+   "type": "C",
+   "page": "German_submarine_U_120_1940",
+   "chunk_id": "/wiki/German_submarine_U-120_(1940)#7",
+   "event": {
+    "date": "1950",
+    "text": "The boat was broken up for scrap in 1950.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "The boat was raised in 1950 and broken up for scrap"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between U-120 being scuttled at Bremerhaven and the boat being raised?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which U-boat flotillas did U-120 join, in chronological order?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which officers took command of U-120, in chronological order?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two officers most recently took command of U-120, in chronological order?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which officer took command of U-120 immediately after Ernst Bauer?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which flotilla did U-120 join immediately after it left the U-Bootschulflottille?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Service history",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/German_submarine_U-120_(1940)#6",
+     "/wiki/German_submarine_U-120_(1940)#7",
+     "/wiki/German_submarine_U-120_(1940)#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 10
+  },
+  {
+   "edit_id": "test_clean-107",
+   "type": "C",
+   "page": "Guy_Aldred",
+   "chunk_id": "/wiki/Guy_Aldred#17",
+   "event": {
+    "date": "1922",
+    "text": "Aldred settled permanently in Glasgow.",
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Aldred settled permanently in Glasgow in 1922"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Free love",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Guy_Aldred#15",
+     "/wiki/Guy_Aldred#16",
+     "/wiki/Guy_Aldred#17"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 28
+  },
+  {
+   "edit_id": "test_clean-160",
+   "type": "C",
+   "page": "Mbaye_Jacques_Diop",
+   "chunk_id": "/wiki/Mbaye-Jacques_Diop#8",
+   "event": {
+    "date": "2003-05",
+    "text": "Diop joined the National Political Administration of the PDS.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "He joined the National Political Administration of the PDS in May 2003"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in chronological order, the dated occasions on which Diop took up the presidency of a parliamentary commission or of an economic and social council body."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the year Diop was first elected to the National Assembly to the year he was appointed President of the CRAES?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two were Diop's earliest and latest elections to the National Assembly?"
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the posts in the Socialist Party (PS) that Diop took up between the mid-1970s and the early 1980s."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events, which Secretary-General post that Diop took up came last?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Party split",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Mbaye-Jacques_Diop#6",
+     "/wiki/Mbaye-Jacques_Diop#7",
+     "/wiki/Mbaye-Jacques_Diop#8",
+     "/wiki/Mbaye-Jacques_Diop#9",
+     "/wiki/Mbaye-Jacques_Diop#10",
+     "/wiki/Mbaye-Jacques_Diop#11",
+     "/wiki/Mbaye-Jacques_Diop#12",
+     "/wiki/Mbaye-Jacques_Diop#13"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-078",
+   "type": "C",
+   "page": "G_ivuotna_K_fjord_Kaivuono",
+   "chunk_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1",
+   "event": {
+    "date": "1929",
+    "text": "The municipality of Kåfjord was established.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "The municipality of Kåfjord was established in 1929"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the municipality being established and the Nordnes area being transferred to it, by calendar year?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the changes to the municipality's official name."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between Svein O. Leiros beginning his term as mayor and the municipality becoming part of Troms og Finnmark county, by calendar year?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "General information",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1",
+     "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 16
+  },
+  {
+   "edit_id": "test_clean-122",
+   "type": "C",
+   "page": "FCI_Levadia_Tallinn",
+   "chunk_id": "/wiki/FCI_Levadia_Tallinn#11",
+   "event": {
+    "date": "2001",
+    "text": "A. Le Coq Arena opened.",
+    "track": "work",
+    "phase": "start",
+    "kind": "occurrence",
+    "quote": "Opened in 2001 and expanded from 2016 to 2018"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions between 2002 and 2020 on which the club sacked its manager, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, after the club sacked Igor Prins, which was the next time it sacked its manager?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the first time a new manager took office at the club?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the most recent time a new manager took office at the club?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the club's move to Tallinn and the sacking of Sergei Ratnikov from his second spell as manager?"
+     },
+     {
+      "qi": 5,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the club's Meistriliiga title wins between 2002 and 2010."
+     },
+     {
+      "qi": 6,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the club's Estonian Cup wins between 2002 and 2021, in chronological order."
+     },
+     {
+      "qi": 7,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list Sergei Ratnikov's appointments and sackings as the club's manager, including his announced return, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Stadiums",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/FCI_Levadia_Tallinn#11",
+     "/wiki/FCI_Levadia_Tallinn#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "test_clean-066",
+   "type": "C",
+   "page": "Wellington_Somerset",
+   "chunk_id": "/wiki/Wellington,_Somerset#8",
+   "event": {
+    "date": "1086",
+    "text": "By the time of the Domesday Book the name had changed to Walintone.",
+    "track": "naming",
+    "phase": "point",
+    "kind": "change",
+    "quote": "By the time of the Domesday Book of 1086 , the name had changed to Walintone"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the recorded owners of the Wellington manor or estate (not the public park) from the earliest record up to just before the 1550s, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the milestones in the history of Wellington's railway station (its opening, its rebuilding, its closure and the campaign to reopen it) in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the rebuilding of Wellington's railway station with two extra loop lines and the closure of that station?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated milestones in the timeline for Wellington's railway station (its opening, rebuilding, closure and the campaign to reopen it), which is the earliest and which is the latest?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Wellington,_Somerset#8",
+     "/wiki/Wellington,_Somerset#9",
+     "/wiki/Wellington,_Somerset#10",
+     "/wiki/Wellington,_Somerset#11",
+     "/wiki/Wellington,_Somerset#12",
+     "/wiki/Wellington,_Somerset#13",
+     "/wiki/Wellington,_Somerset#14",
+     "/wiki/Wellington,_Somerset#15"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 56
+  },
+  {
+   "edit_id": "test_clean-072",
+   "type": "C",
+   "page": "The_Fifer",
+   "chunk_id": "/wiki/The_Fifer#5",
+   "event": {
+    "date": "1873",
+    "text": "The painting was owned by Manet's friend Jean-Baptiste Faure.",
+    "track": "ownership_structure",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Between 1873 and 1893 , the painting was owned by Manets friend"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the painting was acquired by a new owner (a dealer, a private collector, or the French state), in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the painting was displayed at or moved to a museum in Paris, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/The_Fifer#1",
+     "/wiki/The_Fifer#2",
+     "/wiki/The_Fifer#3",
+     "/wiki/The_Fifer#4",
+     "/wiki/The_Fifer#5",
+     "/wiki/The_Fifer#6",
+     "/wiki/The_Fifer#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-162",
+   "type": "C",
+   "page": "The_Athenaeum_British_magazine",
+   "chunk_id": "/wiki/The_Athenaeum_(British_magazine)#3",
+   "event": {
+    "date": "1875",
+    "text": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which a new person took over as the magazine's chief editor, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Thomas Kibble Hervey's resignation as editor and Norman MacColl's departure from the editorship?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the magazine's incorporation into The Nation and the merger of its successor publication with the New Statesman?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Contributors",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/The_Athenaeum_(British_magazine)#3",
+     "/wiki/The_Athenaeum_(British_magazine)#4",
+     "/wiki/The_Athenaeum_(British_magazine)#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-100",
+   "type": "C",
+   "page": "Elgin_and_Winter_Garden_Theatres",
+   "chunk_id": "/wiki/Elgin_and_Winter_Garden_Theatres#5",
+   "event": {
+    "date": "1979",
+    "text": "The Elgin Theatre began serving as one of the hosts to the annual Toronto International Film Festival.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival ."
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many years passed between the Elgin's first year as one of the hosts of the Toronto International Film Festival and its closure for a full restoration?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Recent history",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Elgin_and_Winter_Garden_Theatres#5",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#6",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#7",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#8",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#9",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#10",
+     "/wiki/Elgin_and_Winter_Garden_Theatres#11"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "test_clean-114",
+   "type": "C",
+   "page": "Lisa_Marie_Presley",
+   "chunk_id": "/wiki/Lisa_Marie_Presley#59",
+   "event": {
+    "date": "1998",
+    "text": "Presley became more closely involved in the management of the Elvis Presley Trust and Elvis Presley Enterprises, Inc.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which event came directly after she inherited her father's estate on her 25th birthday?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the first event in which she became an heir to, or gained control of, her father's estate?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between her becoming joint heir to her father's estate and her inheriting the estate on her 25th birthday?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the awards or honours that she personally received or presented, up to the mid-2000s."
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which event of joining, leaving, or becoming a patron of an organisation came directly after she became a patron of the Dream Factory charity?"
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Which divorce that she herself obtained or filed for came directly after her quickie divorce in the Dominican Republic?"
+     },
+     {
+      "qi": 6,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the last divorce that she herself filed for or obtained?"
+     },
+     {
+      "qi": 7,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what came directly after her marriage to Nicolas Cage?"
+     }
+    ]
+   },
+   "window": {
+    "section": 10,
+    "section_title": "Elvis Presley estate",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Lisa_Marie_Presley#57",
+     "/wiki/Lisa_Marie_Presley#58",
+     "/wiki/Lisa_Marie_Presley#59",
+     "/wiki/Lisa_Marie_Presley#60",
+     "/wiki/Lisa_Marie_Presley#61"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 65
+  },
+  {
+   "edit_id": "test_clean-166",
+   "type": "C",
+   "page": "Nikolai_Kuznetsov_admiral",
+   "chunk_id": "/wiki/Nikolai_Kuznetsov_(admiral)#0",
+   "event": {
+    "date": "1974-12-06",
+    "text": "Nikolay Gerasimovich Kuznetsov died.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "24 July 1904 – 6 December 1974"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the command or ministerial posts Kuznetsov took up from the Spanish Civil War period through the immediate postwar years, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which is the most recent time Kuznetsov took up a ship, fleet, naval-force or ministerial post?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed from Kuznetsov taking command of the Pacific Fleet to his removal from his naval post by Marshal Zhukov?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed from Kuznetsov's graduation from the Frunze Higher Naval School to his graduation from the Naval College?"
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize Kuznetsov's military rank promotions, restorations and demotions from the time Stalin restored him to Navy command until he was retired."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Nikolai Kuznetsov ( admiral )",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Nikolai_Kuznetsov_(admiral)#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 27
+  },
+  {
+   "edit_id": "test_clean-168",
+   "type": "C",
+   "page": "Tommy_Bolin",
+   "chunk_id": "/wiki/Tommy_Bolin#0",
+   "event": {
+    "date": "1973",
+    "text": "Bolin began playing with The James Gang.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "The James Gang ( from 1973 to 1974 )"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, after he joined The James Gang, which band did he next join as a member?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed from his joining Denny and The Triumphs at about age thirteen to his joining Deep Purple?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years separate his birth from his death?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Tommy Bolin",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Tommy_Bolin#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 27
+  },
+  {
+   "edit_id": "test_clean-151",
+   "type": "C",
+   "page": "Peter_Beattie",
+   "chunk_id": "/wiki/Peter_Beattie#37",
+   "event": {
+    "date": "2005-05",
+    "text": "Beattie released his autobiography Making A Difference.",
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "In May 2005 Beattie released his autobiography Making A Difference"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which appointments did Beattie receive to sports governance bodies, in chronological order?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two sports governance appointments were the most recent, in chronological order?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which sports governance appointment came immediately after Beattie was appointed an independent commissioner of the Australian Rugby League Commission?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which ministerial, party-leadership or premier posts did Beattie take up from the mid-1990s until his retirement as Premier, in chronological order?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Beattie's candidacy for the Division of Ryan and his candidacy for the Division of Forde?"
+     },
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which awards and medals did Beattie receive, excluding honorary doctorates, in chronological order?"
+     }
+    ]
+   },
+   "window": {
+    "section": 6,
+    "section_title": "Autobiography",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Peter_Beattie#37",
+     "/wiki/Peter_Beattie#38"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 48
+  },
+  {
+   "edit_id": "test_clean-152",
+   "type": "C",
+   "page": "William_B_Umstead",
+   "chunk_id": "/wiki/William_B._Umstead#3",
+   "event": {
+    "date": "1927",
+    "text": "Umstead served as the elected solicitor for a five-county district.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list his electoral outcomes, whether he won or lost, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between his discharge from the army and the start of his term as elected solicitor?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what were the first and the last events of his service in the United States House of Representatives?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/William_B._Umstead#3",
+     "/wiki/William_B._Umstead#4",
+     "/wiki/William_B._Umstead#5",
+     "/wiki/William_B._Umstead#6",
+     "/wiki/William_B._Umstead#7",
+     "/wiki/William_B._Umstead#8",
+     "/wiki/William_B._Umstead#9",
+     "/wiki/William_B._Umstead#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 19
+  },
+  {
+   "edit_id": "test_clean-052",
+   "type": "C",
+   "page": "Germaine_of_Foix",
+   "chunk_id": "/wiki/Germaine_of_Foix#11",
+   "event": {
+    "date": "1523",
+    "text": "Charles V appointed the couple jointly viceroys of Valencia.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "In 1523 Charles V appointed the couple jointly viceroys of Valencia"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the death of Ferdinand II of Aragon and the death of Johann of Brandenburg-Ansbach?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the death of Ferdinand II of Aragon and Germaine of Foix's own death?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Vicereine of Valencia",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Germaine_of_Foix#11",
+     "/wiki/Germaine_of_Foix#12",
+     "/wiki/Germaine_of_Foix#13",
+     "/wiki/Germaine_of_Foix#14",
+     "/wiki/Germaine_of_Foix#15"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 16
+  },
+  {
+   "edit_id": "test_clean-111",
+   "type": "C",
+   "page": "All_Nippon_Airways",
+   "chunk_id": "/wiki/All_Nippon_Airways#1",
+   "event": {
+    "date": "1999-10",
+    "text": "ANA became a member of Star Alliance.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "In October 1999 , the airline became a member of Star Alliance ."
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between ANA's debut on the Tokyo Stock Exchange and ANA's joining of the Star Alliance?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the aircraft types added to the fleet after the Far East Airlines merger and up to the introduction of Boeing 737 services, in chronological order (two additions in the same year may be listed in either order) (events with the same date in any order)."
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the changes to ANA's subsidiaries and stakes in other airlines from the creation of Air Next up to the sale of its share in Nippon Cargo Airlines (events with the same date in any order)."
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the aircraft orders that ANA placed, signed or firmed."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the international route launches from the Seoul route through the New York and Singapore routes, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "All Nippon Airways",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/All_Nippon_Airways#0",
+     "/wiki/All_Nippon_Airways#1",
+     "/wiki/All_Nippon_Airways#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 74
+  },
+  {
+   "edit_id": "test_clean-183",
+   "type": "C",
+   "page": "Georges_Pompidou",
+   "chunk_id": "/wiki/Georges_Pompidou#23",
+   "event": {
+    "date": "1957",
+    "text": "Georges Pompidou became Officier de la Legion of Honour.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Officier de la Legion of Honour : ( France ) ( 1957 )"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the ranks of the French Legion of Honour conferred on him."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the foreign state orders and decorations conferred on him."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between his appointment as a Chevalier of the Legion of Honour and his promotion to Grand Cross of the Legion of Honour?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the first government formed with him as prime minister?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which government formed with him as prime minister came directly after the one formed in late 1962?"
+     }
+    ]
+   },
+   "window": {
+    "section": 9,
+    "section_title": "Medal",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Georges_Pompidou#23",
+     "/wiki/Georges_Pompidou#24",
+     "/wiki/Georges_Pompidou#25"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 37
+  },
+  {
+   "edit_id": "test_clean-011",
+   "type": "E",
+   "page": "Jeff_Goldblum",
+   "chunk_id": "/wiki/Jeff_Goldblum#20",
+   "event": {
+    "date": "1991",
+    "text": "Goldblum's marriage to Geena Davis ended.",
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 1987 to 1991 , he was married to Geena Davis"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the end of Goldblum's marriage to Patricia Gaul and the end of his marriage to Geena Davis?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the beginnings of Goldblum's marriages."
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Personal life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Jeff_Goldblum#20",
+     "/wiki/Jeff_Goldblum#21"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 24
+  },
+  {
+   "edit_id": "test_clean-008",
+   "type": "E",
+   "page": "Joachim_L_w",
+   "chunk_id": "/wiki/Joachim_Löw#5",
+   "event": {
+    "date": "1998-05-21",
+    "text": "Löw was at the club until 21 May 1998.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "was at the club until 21 May 1998 ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the manager-of-the-year awards Löw received in the year Germany finished third at the South Africa World Cup (the two awards of that year in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the major-tournament medals or finals that Germany reached under his management, in time order."
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the individual awards and honours, not team titles, that Löw received in the year Germany won the World Cup in Brazil (events with the same date in any order)."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years passed from his one-month driving-licence suspension to his six-month driving-licence suspension?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, after he was appointed manager of Tirol Innsbruck, which club was he next appointed to as manager?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Early career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Joachim_Löw#4",
+     "/wiki/Joachim_Löw#5",
+     "/wiki/Joachim_Löw#6",
+     "/wiki/Joachim_Löw#7",
+     "/wiki/Joachim_Löw#8",
+     "/wiki/Joachim_Löw#9",
+     "/wiki/Joachim_Löw#10",
+     "/wiki/Joachim_Löw#11"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 56
+  },
+  {
+   "edit_id": "test_clean-015",
+   "type": "E",
+   "page": "Vuk_Dra_kovi",
+   "chunk_id": "/wiki/Vuk_Drašković#0",
+   "event": {
+    "date": "2007",
+    "text": "Drašković's term as Minister of Foreign Affairs ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which he took up a national government office."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between his expulsion from the Communist party and the formation of the Zajedno opposition alliance by his party?"
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the occasions on which he was arrested or was the target of an assassination attempt."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Vuk Drašković",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Vuk_Drašković#0",
+     "/wiki/Vuk_Drašković#1",
+     "/wiki/Vuk_Drašković#2",
+     "/wiki/Vuk_Drašković#3",
+     "/wiki/Vuk_Drašković#4",
+     "/wiki/Vuk_Drašković#5",
+     "/wiki/Vuk_Drašković#6",
+     "/wiki/Vuk_Drašković#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 35
+  },
+  {
+   "edit_id": "test_clean-046",
+   "type": "E",
+   "page": "Bingolotto",
+   "chunk_id": "/wiki/Bingolotto#4",
+   "event": {
+    "date": "1992-03",
+    "text": "By March 1992, Bingolotto had raised viewing figures to 2.1 million viewers.",
+    "track": "other",
+    "phase": "end",
+    "kind": "state",
+    "quote": "From October 1991 to March 1992 , Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the year Leif Loket Olsson and Gert Eklund built the game and company together and the renaming of the channel carrying the show to Sjuan? Count by calendar year."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the year Leif Loket Olsson and Gert Eklund built the game and company together and the year Olsson's share in the company was bought out? Count by calendar year."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Bingolotto",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Bingolotto#0",
+     "/wiki/Bingolotto#1",
+     "/wiki/Bingolotto#2",
+     "/wiki/Bingolotto#3",
+     "/wiki/Bingolotto#4",
+     "/wiki/Bingolotto#5",
+     "/wiki/Bingolotto#6",
+     "/wiki/Bingolotto#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 13
+  },
+  {
+   "edit_id": "test_clean-018",
+   "type": "E",
+   "page": "Nick_Saban",
+   "chunk_id": "/wiki/Nick_Saban#8",
+   "event": {
+    "date": "1987",
+    "text": "Saban's time as an assistant coach at Michigan State ended.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Michigan State from 1983 to 1987"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "After Saban began his assistant-coach stint at West Virginia, which later stint beginning at Ohio State or Michigan State came next in the timeline?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the dated events in the timeline that record Saban's national championships as a head coach."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about the steps of Saban's hiring by Alabama as head coach, which two came last, in order?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Saban's BCS national championship with LSU and the latest College Football Playoff national championship in the timeline?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early coaching career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Nick_Saban#8",
+     "/wiki/Nick_Saban#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-032",
+   "type": "E",
+   "page": "DRB_Class_50",
+   "chunk_id": "/wiki/DRB_Class_50#1",
+   "event": {
+    "date": "1948",
+    "text": "Up to 1948, 3,164 Class 50 engines were built by almost all the European locomotive factories.",
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "quote": "Up to 1948 , 3,164 Class 50 engines were built"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from the sudden political withdrawal of the 50.50 locomotives to the farewell service of the last regular standard-gauge steam train?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from the Romanian-built copies being given the class designation DK5 to the introduction of the EDP operating numbers 50 0001 to 50 0072?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "DRB Class 50",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/DRB_Class_50#0",
+     "/wiki/DRB_Class_50#1",
+     "/wiki/DRB_Class_50#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 30
+  },
+  {
+   "edit_id": "test_clean-012",
+   "type": "E",
+   "page": "German_submarine_U_38_1938",
+   "chunk_id": "/wiki/German_submarine_U-38_(1938)#34",
+   "event": {
+    "date": "1943-11",
+    "text": "U-38's use as a training boat ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From December 1941 until November 1943 , U-38 was used as a training boat"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the named wolfpack operations that U-38 took part in, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline about named wolfpack operations, which wolfpack did U-38 join right after the Grönland operation?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline about named wolfpack operations, which two wolfpack operations came last, and in what order?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years separate U-38's participation in the Prien wolfpack operation from its participation in the Schlagetot wolfpack operation?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years separated the departure of U-38 on her first patrol from her departure on her ninth patrol?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Service history",
+    "window": 3,
+    "chunk_ids": [
+     "/wiki/German_submarine_U-38_(1938)#29",
+     "/wiki/German_submarine_U-38_(1938)#30",
+     "/wiki/German_submarine_U-38_(1938)#31",
+     "/wiki/German_submarine_U-38_(1938)#32",
+     "/wiki/German_submarine_U-38_(1938)#33",
+     "/wiki/German_submarine_U-38_(1938)#34"
+    ],
+    "context_chunk": "/wiki/German_submarine_U-38_(1938)#28"
+   },
+   "n_chunks_page": 37
+  },
+  {
+   "edit_id": "test_clean-039",
+   "type": "E",
+   "page": "Fred_Hoiberg",
+   "chunk_id": "/wiki/Fred_Hoiberg#1",
+   "event": {
+    "date": "2018",
+    "text": "Hoiberg's coaching of the Chicago Bulls ended in 2018.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "the Chicago Bulls from 2015 to 2018"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the occasions on which he was appointed or hired as a head basketball coach, in date order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the NBA teams that drafted him or signed him as a player, in date order."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list his events involving the Chicago Bulls, whether as a player or as a head coach, in date order."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dated events of his first wins as Iowa State head coach (his first game, which was an exhibition, his first official game and his first Big 12 victory), in date order."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the individual awards named to him, in date order."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "Counting by calendar year, how many years separated his surgery to correct an enlarged aortic root and his aortic valve replacement at the Mayo Clinic?"
+     },
+     {
+      "qi": 6,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two changes to his head coaching post came most recently, in date order?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Fred Hoiberg",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Fred_Hoiberg#0",
+     "/wiki/Fred_Hoiberg#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 24
+  },
+  {
+   "edit_id": "test_clean-026",
+   "type": "E",
+   "page": "Pinchas_Zukerman",
+   "chunk_id": "/wiki/Pinchas_Zukerman#3",
+   "event": {
+    "date": "1987",
+    "text": "His music directorship of the Saint Paul Chamber Orchestra ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the first time Pinchas Zukerman ended a tenure as festival director, music director or principal guest conductor of an orchestra or festival?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which Pinchas Zukerman began a post as festival director, music director or principal guest conductor of an orchestra or festival, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Pinchas Zukerman's appointment as Music Director of the National Arts Centre Orchestra in Ottawa and his appointment as Principal Guest Conductor of the Royal Philharmonic Orchestra?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the marriages that Pinchas Zukerman entered into, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Life and career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Pinchas_Zukerman#1",
+     "/wiki/Pinchas_Zukerman#2",
+     "/wiki/Pinchas_Zukerman#3",
+     "/wiki/Pinchas_Zukerman#4",
+     "/wiki/Pinchas_Zukerman#5",
+     "/wiki/Pinchas_Zukerman#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-045",
+   "type": "E",
+   "page": "1_Hanover_Square",
+   "chunk_id": "/wiki/1_Hanover_Square#3",
+   "event": {
+    "date": "1885",
+    "text": "The New York Cotton Exchange's occupancy of the building ended.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "occupied the building from 1872 to 1885"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the organisations that relocated out of the building, in chronological order."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline between 1915 and 1925, list the sales of the building and the purchases or purchase decisions for it, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "1 Hanover Square",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/1_Hanover_Square#0",
+     "/wiki/1_Hanover_Square#1",
+     "/wiki/1_Hanover_Square#2",
+     "/wiki/1_Hanover_Square#3",
+     "/wiki/1_Hanover_Square#4",
+     "/wiki/1_Hanover_Square#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 52
+  },
+  {
+   "edit_id": "test_clean-003",
+   "type": "E",
+   "page": "Arseny_Mironov",
+   "chunk_id": "/wiki/Arseny_Mironov#0",
+   "event": {
+    "date": "1985",
+    "text": "His term as GFRI director ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which milestone came next in his employment at the Gromov Flight Research Institute after he ended his tenure as its director or chief?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the medals, orders and state prizes he received from the Lenin centenary jubilee medal through the USSR State Prize, both included."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between his birth and his death?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the awards of the Soviet orders (the Order of the Red Banner of Labour, the Order of the Badge of Honour, and the Order of Lenin) in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Arseny Mironov",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Arseny_Mironov#0",
+     "/wiki/Arseny_Mironov#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 24
+  },
+  {
+   "edit_id": "test_clean-004",
+   "type": "E",
+   "page": "Auditorium_Building_Chicago",
+   "chunk_id": "/wiki/Auditorium_Building_(Chicago)#17",
+   "event": {
+    "date": "1977",
+    "text": "The Grateful Dead played there ten times through 1977.",
+    "track": "other",
+    "phase": "end",
+    "kind": "occurrence",
+    "quote": "the Grateful Dead played there ten times from 1971 through 1977"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "After the building was added to the National Register of Historic Places, which heritage designation of the building came next among the dated events recorded in the timeline?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the arrivals at and departures from the theatre by its resident orchestra and opera company before the 1940s, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Later uses",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Auditorium_Building_(Chicago)#13",
+     "/wiki/Auditorium_Building_(Chicago)#14",
+     "/wiki/Auditorium_Building_(Chicago)#15",
+     "/wiki/Auditorium_Building_(Chicago)#16",
+     "/wiki/Auditorium_Building_(Chicago)#17",
+     "/wiki/Auditorium_Building_(Chicago)#18",
+     "/wiki/Auditorium_Building_(Chicago)#19"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 21
+  },
+  {
+   "edit_id": "test_clean-037",
+   "type": "E",
+   "page": "George_A_White",
+   "chunk_id": "/wiki/George_A._White#3",
+   "event": {
+    "date": "1917-02",
+    "text": "White's service on the Mexican border ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "After service on the Mexican border from June 1916 to February 1917"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed from his appointment as Adjutant General of Oregon to his promotion to major general?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list his promotions to the rank of captain and to the rank of lieutenant colonel, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed from his enlistment in the 3d Infantry of the Oregon National Guard to his separation from Federal service?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Mexican Border Service",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/George_A._White#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-035",
+   "type": "E",
+   "page": "Audie_Murphy",
+   "chunk_id": "/wiki/Audie_Murphy#31",
+   "event": {
+    "date": "1945-02-18",
+    "text": "Murphy's service for the Legion of Merit ended on 18 February 1945.",
+    "track": "other",
+    "phase": "end",
+    "kind": "state",
+    "quote": "for his service from 22 January 1944 to 18 February 1945"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in time order the milestones of Murphy's relationship with actress Wanda Hendrix: when he began dating her, when they married, and when their divorce became final."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "European Theater",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Audie_Murphy#29",
+     "/wiki/Audie_Murphy#30",
+     "/wiki/Audie_Murphy#31"
+    ],
+    "context_chunk": "/wiki/Audie_Murphy#28"
+   },
+   "n_chunks_page": 78
+  },
+  {
+   "edit_id": "test_clean-034",
+   "type": "E",
+   "page": "Blue_Coat_Systems",
+   "chunk_id": "/wiki/Blue_Coat_Systems#0",
+   "event": {
+    "date": "2002",
+    "text": "The company was known as CacheFlow until 2002.",
+    "track": "naming",
+    "phase": "end",
+    "kind": "change",
+    "quote": "The company was known as CacheFlow until 2002 ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in time order the occasions when the company itself was taken over and passed to a new owner."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in time order the occasions when the company named or brought in a new chief executive officer."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the time Brian NeSmith was brought in as chief executive officer and the time Greg Clark was appointed chief executive officer? Count by calendar year."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in time order the private investments in which outside investors bought equity stakes in the company before its initial public offering."
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the companies and business assets that the company itself acquired during the 2000s."
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the companies that the company itself acquired during the 2010s."
+     },
+     {
+      "qi": 6,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in time order the events concerning the company's initial public offering (IPO), including the offering itself, filed IPO plans, and abandoned IPO plans."
+     },
+     {
+      "qi": 7,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which acquisition did the company itself make most recently?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Blue Coat Systems",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Blue_Coat_Systems#0",
+     "/wiki/Blue_Coat_Systems#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 43
+  },
+  {
+   "edit_id": "test_clean-027",
+   "type": "E",
+   "page": "Calcio_Catania",
+   "chunk_id": "/wiki/Calcio_Catania#32",
+   "event": {
+    "date": "2011-06",
+    "text": "Mihajlović signed a contract until June 2011 with the Elefanti.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "He signed a contract until June 2011 with the Elefanti"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the promotions of the club into Serie A between the early 1950s and the end of the 1960s, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the league championship titles the club won between the 1920s and the end of the 1930s, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the founding of the club under the name A.S. Educazione Fisica Pro Patria and the establishment of Società Sportiva Catania?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the violence at the Sicilian derby in which a policeman was killed and the acquisition of 95.4% of the club's assets by Sport Investment Group Italia?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Decline and revival",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Calcio_Catania#27",
+     "/wiki/Calcio_Catania#28",
+     "/wiki/Calcio_Catania#29",
+     "/wiki/Calcio_Catania#30",
+     "/wiki/Calcio_Catania#31",
+     "/wiki/Calcio_Catania#32",
+     "/wiki/Calcio_Catania#33",
+     "/wiki/Calcio_Catania#34"
+    ],
+    "context_chunk": "/wiki/Calcio_Catania#26"
+   },
+   "n_chunks_page": 42
+  },
+  {
+   "edit_id": "test_clean-048",
+   "type": "E",
+   "page": "Roger_Moore",
+   "chunk_id": "/wiki/Roger_Moore#1",
+   "event": {
+    "date": "1972",
+    "text": "Moore's starring in The Persuaders! television series ended in 1972.",
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "quote": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the formal honours Roger Moore received, such as state orders, knighthoods or a star, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the moves by which Roger Moore changed his country of residence, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "After his MGM contract ended, which studio contract event came next among the dated events recorded in the timeline?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between Roger Moore signing a seven-year contract with MGM and his signing a long-term contract with Warner Bros., counted by calendar year?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Roger Moore",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Roger_Moore#0",
+     "/wiki/Roger_Moore#1",
+     "/wiki/Roger_Moore#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-022",
+   "type": "E",
+   "page": "Arnulf_verland",
+   "chunk_id": "/wiki/Arnulf_Øverland#5",
+   "event": {
+    "date": "1956",
+    "text": "Øverland's presidency of Riksmålsforbundet ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the prizes and endowments that Øverland received."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list his marriages and the legal ends of those marriages (the divorce and the marriage to Margrete Aamot Øverland may be listed in either order)."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Øverland's arrest by the German occupiers and the liberation of Norway that ended his imprisonment?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Biography",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Arnulf_Øverland#1",
+     "/wiki/Arnulf_Øverland#2",
+     "/wiki/Arnulf_Øverland#3",
+     "/wiki/Arnulf_Øverland#4",
+     "/wiki/Arnulf_Øverland#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-050",
+   "type": "E",
+   "page": "Cutty_Sark",
+   "chunk_id": "/wiki/Cutty_Sark#49",
+   "event": {
+    "date": "1951-10",
+    "text": "Her temporary move for a refit and the Festival of Britain ended.",
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From February to October 1951 she was temporarily moved first for a refit and then to take part in the Festival of Britain at Deptford"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the planned moves of the ship to a new berth, dock or site made after her first tea voyage, in chronological order."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two captain or master appointments were the last two, counting only changes of command made more than a decade after the ship was launched?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the start of the race against Thermopylae and the purchase of the ship by retired sea captain Wilfred Dowman? (counted in calendar years)"
+     }
+    ]
+   },
+   "window": {
+    "section": 9,
+    "section_title": "As Ferreira",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Cutty_Sark#42",
+     "/wiki/Cutty_Sark#43",
+     "/wiki/Cutty_Sark#44",
+     "/wiki/Cutty_Sark#45",
+     "/wiki/Cutty_Sark#46",
+     "/wiki/Cutty_Sark#47",
+     "/wiki/Cutty_Sark#48",
+     "/wiki/Cutty_Sark#49"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 88
+  },
+  {
+   "edit_id": "test_clean-031",
+   "type": "E",
+   "page": "Andr_Schembri",
+   "chunk_id": "/wiki/André_Schembri#12",
+   "event": {
+    "date": "2010-01",
+    "text": "Schembri was one of few players who was allowed to be released.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Schembri was one of few players who was allowed to be released in January 2010"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the clubs he joined as a player by transfer or loan, from his transfer to Marsaxlokk up to and including his move to Ferencváros, in date order."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated club signings from his return to Omonia onward in the timeline, which two came most recently, in date order?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Counting by calendar year, how many years separated his birth and his announcement of retirement from professional football?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "Counting by calendar year, how many years separated his first international goals for Malta and his first captaincy of the Malta national team?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "German stint",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/André_Schembri#8",
+     "/wiki/André_Schembri#9",
+     "/wiki/André_Schembri#10",
+     "/wiki/André_Schembri#11",
+     "/wiki/André_Schembri#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 45
+  },
+  {
+   "edit_id": "test_clean-020",
+   "type": "E",
+   "page": "Herbert_Schultze",
+   "chunk_id": "/wiki/Herbert_Schultze#24",
+   "event": {
+    "date": "1959-02-15",
+    "text": "Schultze's command of the 3rd Ship Home Department ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "to 15 February 1959"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the command or management posts he was given after Germany's surrender."
+     },
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which he joined a navy or moved into one of its branches (the Reichsmarine, the U-boat force or the Bundesmarine)."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the effective dates of his promotions to a new naval rank."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the decorations he received other than the Knight's Cross and its Oak Leaves."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which he took command of a U-boat, including resuming command of the same boat."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which vessel did he join directly after being transferred to the training ship Niobe?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Post-war",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Herbert_Schultze#23",
+     "/wiki/Herbert_Schultze#24",
+     "/wiki/Herbert_Schultze#25"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 32
+  },
+  {
+   "edit_id": "test_clean-014",
+   "type": "E",
+   "page": "Internet_Architecture_Board",
+   "chunk_id": "/wiki/Internet_Architecture_Board#5",
+   "event": {
+    "date": "1990",
+    "text": "The IAB's seven principal foci period ended in 1990.",
+    "track": "other",
+    "phase": "end",
+    "kind": "statement",
+    "quote": "for the period of 1989 to 1990"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the IAB workshops held before the workshop on Internet privacy (events with the same date in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the IAB workshops held after the workshop on smart objects and before the workshop on explicit Internet naming systems (events with the same date in any order)."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which IAB workshop was held directly after the workshop on Internet privacy?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the people who began serving as IAB chair before Brian Carpenter did."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the people who began serving as IAB chair after Brian Carpenter did."
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, who began serving as IAB chair directly after Russ Housley did?"
+     },
+     {
+      "qi": 6,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the first event concerning membership of the ICANN Technical Liaison Group?"
+     },
+     {
+      "qi": 7,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which was the last event concerning membership of the ICANN Technical Liaison Group?"
+     },
+     {
+      "qi": 8,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the start of Russ Housley's term as IAB chair and the start of Mirja Kühlewind's term?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History and Origin",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Internet_Architecture_Board#5",
+     "/wiki/Internet_Architecture_Board#6",
+     "/wiki/Internet_Architecture_Board#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 42
+  },
+  {
+   "edit_id": "test_clean-028",
+   "type": "E",
+   "page": "Niigata_Prefecture",
+   "chunk_id": "/wiki/Niigata_Prefecture#19",
+   "event": {
+    "date": "1989",
+    "text": "Kinzan on Sado Island was closed.",
+    "track": "other",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Kinzan , on Sado Island , was an active gold mine until it was closed in 1989 ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline in which a person takes office as governor of Niigata Prefecture, which one is the latest?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years, counted by calendar year, passed from Takeo Kimi taking office as governor of Niigata Prefecture to Hirohiko Izumida taking office as governor?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "List, in time order, the dated events in the timeline in which a governor of Niigata Prefecture leaves office, from the late 1980s onward."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated disaster events recorded in the timeline for Niigata Prefecture, which were the earliest and the latest?"
+     }
+    ]
+   },
+   "window": {
+    "section": 6,
+    "section_title": "Mining and manufacturing",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Niigata_Prefecture#19",
+     "/wiki/Niigata_Prefecture#20"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 61
+  },
+  {
+   "edit_id": "test_clean-006",
+   "type": "E",
+   "page": "Cheryl_Tiegs",
+   "chunk_id": "/wiki/Cheryl_Tiegs#15",
+   "event": {
+    "date": "1995",
+    "text": "Tiegs's marriage to Anthony Peck ended.",
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "quote": "to aspiring actor Anthony Peck ( from 1990 to 1995 )"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which of Cheryl Tiegs's marriages was the last to end?"
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the endings of Cheryl Tiegs's marriages between the mid-1970s and the late 1990s (the endings only, not the weddings)."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the spouses Cheryl Tiegs married, in the order she married them."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who was the first spouse Cheryl Tiegs married?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, whom did Cheryl Tiegs marry immediately after she married the photographer Peter Beard?"
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many years passed between the year her marriage to Stan Dragoti ended and the year she married Anthony Peck?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Personal life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Cheryl_Tiegs#15",
+     "/wiki/Cheryl_Tiegs#16",
+     "/wiki/Cheryl_Tiegs#17"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 19
+  },
+  {
+   "edit_id": "test_clean-042",
+   "type": "E",
+   "page": "Ilya_Ponomarev",
+   "chunk_id": "/wiki/Ilya_Ponomarev#3",
+   "event": {
+    "date": "2007",
+    "text": "Ponomarev's service as chief information officer of the Communist Party of the Russian Federation ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the Duma votes in which he was the only lawmaker opposing or refusing to support a bill or resolution, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between his co-founding of the Korean-Russian Business Council and his founding of the Institute of Siberia?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Ilya Ponomarev",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Ilya_Ponomarev#0",
+     "/wiki/Ilya_Ponomarev#1",
+     "/wiki/Ilya_Ponomarev#2",
+     "/wiki/Ilya_Ponomarev#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 38
+  },
+  {
+   "edit_id": "test_clean-007",
+   "type": "E",
+   "page": "Loveland_Ohio",
+   "chunk_id": "/wiki/Loveland,_Ohio#39",
+   "event": {
+    "date": "1998",
+    "text": "The Baldwin Piano & Organ Company's headquarters in Loveland ended.",
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the voter decisions on zoning or on funding the Recreation Center, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the city's reincorporation as a chartered city and the referendum that blocked the White Pillars rezoning? (counted in calendar years)"
+     }
+    ]
+   },
+   "window": {
+    "section": 8,
+    "section_title": "Economy",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Loveland,_Ohio#39"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 67
+  },
+  {
+   "edit_id": "test_clean-009",
+   "type": "E",
+   "page": "Bengt_Holmstr_m",
+   "chunk_id": "/wiki/Bengt_Holmström#3",
+   "event": {
+    "date": "1974",
+    "text": "His work as a corporate planner ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "He worked as a corporate planner from 1972 until 1974"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the prizes and awards Holmström received, in chronological order (the two prizes of the same year in any order)."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the moments Holmström took up a job or a board seat at a university or a company, in chronological order."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the university degrees Holmström received, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list Holmström's elections, memberships or offices in learned societies, in chronological order."
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Holmström's birth in Helsinki and his Nobel Memorial Prize in Economic Sciences?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Bengt_Holmström#3",
+     "/wiki/Bengt_Holmström#4",
+     "/wiki/Bengt_Holmström#5",
+     "/wiki/Bengt_Holmström#6",
+     "/wiki/Bengt_Holmström#7",
+     "/wiki/Bengt_Holmström#8"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "test_clean-108",
+   "type": "F",
+   "page": "John_Conyers",
+   "chunk_id": "/wiki/John_Conyers#7",
+   "event": {
+    "date": "1963",
+    "text": "Conyers's service as a referee for Michigan's workmen's compensation department ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the military service stints he began, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the occasions on which he took up a chairman or ranking Democratic post on a House committee, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the chairman or ranking Democratic posts on House committees that he took up in the timeline, which two were the most recent?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "After he became chairman of the House Oversight Committee, which chairman or ranking Democratic post on a House committee did he take up next?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "How many calendar years separate his first unsuccessful campaign for Mayor of Detroit from his second?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "John Conyers",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/John_Conyers#0",
+     "/wiki/John_Conyers#1",
+     "/wiki/John_Conyers#2",
+     "/wiki/John_Conyers#3",
+     "/wiki/John_Conyers#4",
+     "/wiki/John_Conyers#5",
+     "/wiki/John_Conyers#6",
+     "/wiki/John_Conyers#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 68
+  },
+  {
+   "edit_id": "test_clean-087",
+   "type": "F",
+   "page": "World_Athletics",
+   "chunk_id": "/wiki/World_Athletics#10",
+   "event": {
+    "date": "2018-12",
+    "text": "Jon Ridgeon was appointed to the CEO role.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Jon Ridgeon was appointed to the role in December 2018 ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the adoption or setting up of the organisation's code of ethics, its ethics commission or its integrity unit, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list when World Athletics officially recognised or sanctioned indoor track meets, mountain running or the WMRA World Cup meetings, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Governance",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/World_Athletics#8",
+     "/wiki/World_Athletics#9",
+     "/wiki/World_Athletics#10",
+     "/wiki/World_Athletics#11",
+     "/wiki/World_Athletics#12",
+     "/wiki/World_Athletics#13"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 46
+  },
+  {
+   "edit_id": "test_clean-196",
+   "type": "F",
+   "page": "Svea_Air_Corps",
+   "chunk_id": "/wiki/Svea_Air_Corps#1",
+   "event": {
+    "date": "1938",
+    "text": "The airfield stopped being used for evaluation of new aircraft for the Swedish Air Force.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the commanding officers of the wing in the order in which they took office."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who was the first commanding officer of the wing to take office?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who took office as commanding officer of the wing immediately after Lars Hägglöf?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who was the last commanding officer of the wing to take office?"
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the endings of commanding officers' terms at the wing between the early 1940s and the mid-1970s (the endings only, not the appointments)."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many years passed between the year Lars Hägglöf's term as commanding officer ended and the year Stig Bruse took office as commanding officer?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Svea_Air_Corps#1",
+     "/wiki/Svea_Air_Corps#2",
+     "/wiki/Svea_Air_Corps#3",
+     "/wiki/Svea_Air_Corps#4",
+     "/wiki/Svea_Air_Corps#5",
+     "/wiki/Svea_Air_Corps#6",
+     "/wiki/Svea_Air_Corps#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-128",
+   "type": "F",
+   "page": "Walt_Disney_s_Comics_and_Stories",
+   "chunk_id": "/wiki/Walt_Disney's_Comics_and_Stories#3",
+   "event": {
+    "date": "1940-10",
+    "text": "WDC&S was launched by Dell in October 1940.",
+    "track": "ownership_structure",
+    "phase": "start",
+    "kind": "occurrence",
+    "quote": "WDC&S itself was launched by Dell in October 1940"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which a publisher began or resumed publishing the title, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions on which a publisher stopped publishing the title, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the first time a publisher began publishing the title?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the most recent time a publisher began or resumed publishing the title?"
+     },
+     {
+      "qi": 4,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, after Gold Key Comics began publishing the title, which was the next time a publisher began or resumed publishing it?"
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the start of Disney Comics' publishing of the title and the start of IDW Publishing's publishing of it?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Publication history",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Walt_Disney's_Comics_and_Stories#3",
+     "/wiki/Walt_Disney's_Comics_and_Stories#4",
+     "/wiki/Walt_Disney's_Comics_and_Stories#5",
+     "/wiki/Walt_Disney's_Comics_and_Stories#6",
+     "/wiki/Walt_Disney's_Comics_and_Stories#7",
+     "/wiki/Walt_Disney's_Comics_and_Stories#8",
+     "/wiki/Walt_Disney's_Comics_and_Stories#9",
+     "/wiki/Walt_Disney's_Comics_and_Stories#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 18
+  },
+  {
+   "edit_id": "test_clean-131",
+   "type": "F",
+   "page": "Friedrich_Guggenberger",
+   "chunk_id": "/wiki/Friedrich_Guggenberger#1",
+   "event": {
+    "date": "1934",
+    "text": "He had entered the navy.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "He had entered the navy by 1934"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "Among the dated events in the timeline, how many years passed between Guggenberger's transfer to the U-boat arm and his retirement from the navy?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the escapes Friedrich Guggenberger made from prisoner-of-war camps in the order they happened."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "Among the dated events in the timeline, how many calendar years passed between Guggenberger receiving command of U-81 and his return to sea in command of U-513?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early life",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Friedrich_Guggenberger#1"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 17
+  },
+  {
+   "edit_id": "test_clean-127",
+   "type": "F",
+   "page": "St_Bartholomew_s_Anglican_Church_and_Cemetery_Prospect",
+   "chunk_id": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25",
+   "event": {
+    "date": "1975",
+    "text": "A fifty-year lease over most of the property was obtained by Council in 1975.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "A fifty-year lease over most of the property was obtained by Council in 1975"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the arrangements over the church site between the City of Blacktown Council and the church bodies that were begun (negotiations) or granted (a lease), before the 1980s."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the start of the fifty-year lease of most of the church property to the Council and the state government's gift of land around the cemetery to the City of Blacktown?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 3,
+    "chunk_ids": [
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25",
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#26",
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#27",
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#28",
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#29",
+     "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#30"
+    ],
+    "context_chunk": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#24"
+   },
+   "n_chunks_page": 50
+  },
+  {
+   "edit_id": "test_clean-082",
+   "type": "F",
+   "page": "Daniel_Cottier",
+   "chunk_id": "/wiki/Daniel_Cottier#18",
+   "event": {
+    "date": "1873",
+    "text": "Cottier remained an active designer on several American project.",
+    "track": "role",
+    "phase": "start",
+    "kind": "state",
+    "quote": "Cottier remained an active designer on several American project between 1873–9"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about where Cottier's art business opened branches or moved its main centre of activities, which is the latest?"
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "List, in time order, the dated events in the timeline that record a named street address where Daniel Cottier lived or boarded."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years, counted by calendar year, passed from Daniel Cottier's marriage to Marion Millar Field in Edinburgh until his death while visiting Jacksonville?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Cottier and Company",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Daniel_Cottier#12",
+     "/wiki/Daniel_Cottier#13",
+     "/wiki/Daniel_Cottier#14",
+     "/wiki/Daniel_Cottier#15",
+     "/wiki/Daniel_Cottier#16",
+     "/wiki/Daniel_Cottier#17",
+     "/wiki/Daniel_Cottier#18",
+     "/wiki/Daniel_Cottier#19"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 38
+  },
+  {
+   "edit_id": "test_clean-118",
+   "type": "F",
+   "page": "VP_42",
+   "chunk_id": "/wiki/VP-42#12",
+   "event": {
+    "date": "1945-09-30",
+    "text": "The squadron was transferred to the operational and administrative control of FAW-17.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-17"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dates on which the squadron's official designation was changed, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated official name changes of the squadron, which one happened first?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated official name changes of the squadron, which one happened last?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated official name changes of the squadron, which one came next after the redesignation as Patrol Squadron 22 (VP-22)?"
+     },
+     {
+      "qi": 4,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate the squadron's redesignation as VPB-22 from its redesignation as VP-42?"
+     },
+     {
+      "qi": 5,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dates on which the squadron was assigned a new aircraft type, in chronological order."
+     },
+     {
+      "qi": 6,
+      "type": "first_last_next",
+      "question": "Among the dated aircraft assignments of the squadron, which one happened first?"
+     },
+     {
+      "qi": 7,
+      "type": "first_last_next",
+      "question": "Among the dated aircraft assignments of the squadron, which one came next after the assignment of the SP-2E Neptune?"
+     },
+     {
+      "qi": 8,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the dates on which the squadron was formally assigned a home port, in chronological order."
+     },
+     {
+      "qi": 9,
+      "type": "first_last_next",
+      "question": "Among the dated home port assignments of the squadron, which one happened first?"
+     },
+     {
+      "qi": 10,
+      "type": "first_last_next",
+      "question": "Among the dated home port assignments of the squadron, which one came next after the assignment of the home port at NAS Alameda?"
+     },
+     {
+      "qi": 11,
+      "type": "list",
+      "question": "Among the dated events in the postwar period before the squadron's 1967 relief at Sangley Point, list the dates on which the squadron began a deployment to an overseas base, in chronological order."
+     },
+     {
+      "qi": 12,
+      "type": "first_last_next",
+      "question": "Among the squadron's overseas deployment starts in the postwar period before its 1967 relief at Sangley Point, which one came next after its return to Iwakuni for another deployment to the Korean combat zone?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Operational history",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/VP-42#9",
+     "/wiki/VP-42#10",
+     "/wiki/VP-42#11",
+     "/wiki/VP-42#12",
+     "/wiki/VP-42#13",
+     "/wiki/VP-42#14",
+     "/wiki/VP-42#15",
+     "/wiki/VP-42#16"
+    ],
+    "context_chunk": "/wiki/VP-42#8"
+   },
+   "n_chunks_page": 29
+  },
+  {
+   "edit_id": "test_clean-193",
+   "type": "F",
+   "page": "Sovremennik",
+   "chunk_id": "/wiki/Sovremennik#2",
+   "event": {
+    "date": "1847",
+    "text": "Pletnyov handed the magazine over to Nikolay Nekrasov and Ivan Panaev.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Sovremennik",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Sovremennik#0",
+     "/wiki/Sovremennik#1",
+     "/wiki/Sovremennik#2",
+     "/wiki/Sovremennik#3",
+     "/wiki/Sovremennik#4",
+     "/wiki/Sovremennik#5",
+     "/wiki/Sovremennik#6",
+     "/wiki/Sovremennik#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 10
+  },
+  {
+   "edit_id": "test_clean-195",
+   "type": "F",
+   "page": "1_FC_K_ln",
+   "chunk_id": "/wiki/1._FC_Köln#28",
+   "event": {
+    "date": "2023",
+    "text": "After avoiding relegation at the end of the season, Gisdol's contract was extended until 2023.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Gisdols contract was extended until 2023"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the board members whom the club's members elected to the board of directors in the board election recorded in the timeline (events with the same date in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years separate the club's second DFB-Pokal title from its fourth?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the head coaches the club dismissed or whose contracts it terminated, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years separate the formation of Kölner BC from the formation of 1. FC Köln?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Continuing success",
+    "window": 2,
+    "chunk_ids": [
+     "/wiki/1._FC_Köln#25",
+     "/wiki/1._FC_Köln#26",
+     "/wiki/1._FC_Köln#27",
+     "/wiki/1._FC_Köln#28",
+     "/wiki/1._FC_Köln#29",
+     "/wiki/1._FC_Köln#30"
+    ],
+    "context_chunk": "/wiki/1._FC_Köln#24"
+   },
+   "n_chunks_page": 39
+  },
+  {
+   "edit_id": "test_clean-090",
+   "type": "F",
+   "page": "Erich_Topp",
+   "chunk_id": "/wiki/Erich_Topp#12",
+   "event": {
+    "date": "1940-05-01",
+    "text": "Topp was transferred to the 1st U-boat Flotilla on 1 May 1940.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "During the Second World War, list the successive Knights Cross awards, including its upgrades, that Topp received, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the promotions to a new rank that Topp received after he joined the West German navy, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Topp joining the West German navy and his retirement from the navy?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "World War II",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Erich_Topp#11",
+     "/wiki/Erich_Topp#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 56
+  },
+  {
+   "edit_id": "test_clean-073",
+   "type": "F",
+   "page": "Pierre_Gasly",
+   "chunk_id": "/wiki/Pierre_Gasly#12",
+   "event": {
+    "date": "2017",
+    "text": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the events in which Gasly was given a contract, reserve signing, race seat or reassignment with a Formula One team (the two events of the same season in any order)."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "After Gasly's Formula One debut with Toro Rosso, which of his Formula One seat assignments came next, among the dated events in the timeline?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated Formula One contracts and seat assignments in the timeline, which was the most recent?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Japanese Super Formula",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Pierre_Gasly#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 31
+  },
+  {
+   "edit_id": "test_clean-200",
+   "type": "F",
+   "page": "Boris_Nemtsov",
+   "chunk_id": "/wiki/Boris_Nemtsov#45",
+   "event": {
+    "date": "2011-05",
+    "text": "The party submitted an application for registration to the Ministry of Justice.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "In May 2011 , the party submitted an application for registration to the Ministry of Justice"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the milestones of Nemtsov's physics education (starting the studies, completing the degree, defending the doctoral dissertation), in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the popular elections held during the 1990s in which Nemtsov stood as a candidate, won or lost, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the times Nemtsov took up a post in the Russian federal government (appointment or reappointment as Deputy Prime Minister or minister), in chronological order (the two posts taken up in the same year in any order)."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list Nemtsov's leadership events in the Union of Right Forces party (elected leader, confirmed as leader by the party congress, or resigned from the leadership), in chronological order."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the movements, coalitions or parties that Nemtsov founded or co-founded from the late 1990s through 2001, in chronological order (the two founded in the same year in any order)."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Early life",
+    "window": 4,
+    "chunk_ids": [
+     "/wiki/Boris_Nemtsov#42",
+     "/wiki/Boris_Nemtsov#43",
+     "/wiki/Boris_Nemtsov#44",
+     "/wiki/Boris_Nemtsov#45",
+     "/wiki/Boris_Nemtsov#46",
+     "/wiki/Boris_Nemtsov#47",
+     "/wiki/Boris_Nemtsov#48",
+     "/wiki/Boris_Nemtsov#49"
+    ],
+    "context_chunk": "/wiki/Boris_Nemtsov#41"
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-116",
+   "type": "F",
+   "page": "Katherine_Maher",
+   "chunk_id": "/wiki/Katherine_Maher#8",
+   "event": {
+    "date": "2016-03",
+    "text": "Maher's tenure as chief communications officer of the Wikimedia Foundation ended.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "chief communications officer of the Wikimedia Foundation from April 2014 to March 2016"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among her appointments to a top executive post at the Wikimedia Foundation (interim or permanent executive director or chief executive), which one came immediately after she was appointed executive director?"
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the organisations where she began employment, in chronological order, counting each organisation once."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the boards, councils and advisory committees that she joined as a member, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events in which she ended her employment with an organisation, which came latest?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Wikimedia Foundation",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Katherine_Maher#8",
+     "/wiki/Katherine_Maher#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-197",
+   "type": "F",
+   "page": "Soko_owsko",
+   "chunk_id": "/wiki/Sokołowsko#5",
+   "event": {
+    "date": "1526",
+    "text": "The area fell to the Habsburg Monarchy in 1526.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "the area fell to the Habsburg Monarchy in 1526"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions from the 18th century onward when the village's area was placed under a new ruling state or a new administrative province, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which change of ruling state or province came directly after the area was seized by Prussia?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the area being seized by Prussia in the First Silesian War and the village coming under Polish administration, counting by calendar year?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 2,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Sokołowsko#3",
+     "/wiki/Sokołowsko#4",
+     "/wiki/Sokołowsko#5",
+     "/wiki/Sokołowsko#6",
+     "/wiki/Sokołowsko#7",
+     "/wiki/Sokołowsko#8",
+     "/wiki/Sokołowsko#9",
+     "/wiki/Sokołowsko#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-194",
+   "type": "F",
+   "page": "HMAS_Wollongong_J172",
+   "chunk_id": "/wiki/HMAS_Wollongong_(J172)#10",
+   "event": {
+    "date": "1950-04",
+    "text": "The corvette remained with the RNLN until April 1950.",
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "quote": "The corvette remained with the RNLN until April 1950"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the ship ceased service with a navy (by decommissioning or by leaving service), in chronological order."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the ship's commissioning into the Royal Australian Navy and its decommissioning from the Royal Australian Navy?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the occasions when the ship was sent to Singapore or returned to Australian waters, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "RNLN service",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/HMAS_Wollongong_(J172)#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-189",
+   "type": "F",
+   "page": "Vasudeva_Nanayakkara",
+   "chunk_id": "/wiki/Vasudeva_Nanayakkara#3",
+   "event": {
+    "date": "1989",
+    "text": "Nanayakkara re-entered parliament, representing Ratnapura District for the USA.",
+    "track": "role",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA ."
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "List, in chronological order, the dated elections in which he was elected or re-elected to Parliament, among the dated events recorded in the timeline."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events up to the late 1980s in which he joined or co-founded a party, or in which his party joined or formed an alliance, which were the first and the last?"
+     },
+     {
+      "qi": 2,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the events from the founding of the Nava Sama Samaja Party through its joining the United Socialist Alliance, inclusive, that involve him as a founder or candidate or that record the party joining the alliance (events with the same date in any order)."
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between his joining the Lanka Sama Samaja Party as a student and his election to parliament for Kiriella?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Politics",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Vasudeva_Nanayakkara#1",
+     "/wiki/Vasudeva_Nanayakkara#2",
+     "/wiki/Vasudeva_Nanayakkara#3",
+     "/wiki/Vasudeva_Nanayakkara#4",
+     "/wiki/Vasudeva_Nanayakkara#5",
+     "/wiki/Vasudeva_Nanayakkara#6",
+     "/wiki/Vasudeva_Nanayakkara#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 10
+  },
+  {
+   "edit_id": "test_clean-199",
+   "type": "F",
+   "page": "Air_Staff_Sweden",
+   "chunk_id": "/wiki/Air_Staff_(Sweden)#10",
+   "event": {
+    "date": "1994-07-01",
+    "text": "The Air Staff was amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "The Air Staff was in connection with the Swedish Armed Forces restructuring on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 6,
+      "type": "order_gap",
+      "question": "How many calendar years separated the official establishment of the Air Staff from its amalgamation into the Swedish Armed Forces Headquarters as the Air Force Command? Count by calendar year."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which person began a term as Chief of the Air Staff immediately after Evert Båge began his term?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, who began the earliest term as Chief of the Air Staff and who began the most recent one?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the people who began a term as Chief of the Air Staff between 1940 and 1958, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the appointments of Chiefs of the Air Staff (the starts of terms, not the ends) between 1955 and 1975, in chronological order."
+     },
+     {
+      "qi": 4,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the appointments of Vice Chiefs of the Air Staff (the starts of terms, not the ends) between 1940 and 1955, in chronological order."
+     },
+     {
+      "qi": 5,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the departments that began in the same year the Air Staff was officially established (in any order)."
+     },
+     {
+      "qi": 7,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the main locations of the Air Staff as each one began, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Air_Staff_(Sweden)#10"
+    ],
+    "context_chunk": "/wiki/Air_Staff_(Sweden)#9"
+   },
+   "n_chunks_page": 17
+  },
+  {
+   "edit_id": "test_clean-068",
+   "type": "F",
+   "page": "Louis_Francis_Salzman",
+   "chunk_id": "/wiki/Louis_Francis_Salzman#3",
+   "event": {
+    "date": "1934",
+    "text": "Salzman succeeded W.H. Page as general editor of the Victoria County History.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "In 1934 Salzman succeeded W.H . Page as general editor of the Victoria County History"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between his appointment as general editor of the Victoria County History, succeeding W.H. Page, and the end of his term in that post?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the start of his time as honorary editor of the Sussex Archaeological Society's journal and the start of his presidency of that society?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Louis Francis Salzman",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Louis_Francis_Salzman#0",
+     "/wiki/Louis_Francis_Salzman#1",
+     "/wiki/Louis_Francis_Salzman#2",
+     "/wiki/Louis_Francis_Salzman#3",
+     "/wiki/Louis_Francis_Salzman#4",
+     "/wiki/Louis_Francis_Salzman#5",
+     "/wiki/Louis_Francis_Salzman#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 8
+  },
+  {
+   "edit_id": "test_clean-184",
+   "type": "F",
+   "page": "Walter_Veltroni",
+   "chunk_id": "/wiki/Walter_Veltroni#9",
+   "event": {
+    "date": "2007-06-27",
+    "text": "Veltroni officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin.",
+    "track": "role",
+    "phase": "point",
+    "kind": "statement",
+    "quote": "Veltroni officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin on 27 June 2007 ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which Veltroni was elected to, or resigned from, the leadership of a political party, in time order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two events are the last two of the dated events about his office as Mayor of Rome (taking office, re-election and resignation from it)?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from his election as a Rome city councillor to his election to the Italian Chamber of Deputies?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which were the earliest and the latest changes in his posts as editor-in-chief of the Democratic Party of the Left newspaper or as a government minister?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Mayor of Rome",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Walter_Veltroni#5",
+     "/wiki/Walter_Veltroni#6",
+     "/wiki/Walter_Veltroni#7",
+     "/wiki/Walter_Veltroni#8",
+     "/wiki/Walter_Veltroni#9",
+     "/wiki/Walter_Veltroni#10",
+     "/wiki/Walter_Veltroni#11",
+     "/wiki/Walter_Veltroni#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 24
+  },
+  {
+   "edit_id": "test_clean-191",
+   "type": "F",
+   "page": "Jim_Prentice",
+   "chunk_id": "/wiki/Jim_Prentice#0",
+   "event": {
+    "date": "2014",
+    "text": "Prentice became the 16th Premier of Alberta.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "served as the 16th Premier of Alberta from 2014 to 2015"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "After Prentice was appointed Minister of Industry, which later ministerial appointment came next among the dated events in the timeline?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Jim Prentice's appointment as Minister of Aboriginal Affairs and Northern Development and his announced resignation from cabinet?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline about Prentice's bids for the federal Progressive Conservative or Conservative Party leadership, which came last?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Jim Prentice",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Jim_Prentice#0",
+     "/wiki/Jim_Prentice#1",
+     "/wiki/Jim_Prentice#2",
+     "/wiki/Jim_Prentice#3",
+     "/wiki/Jim_Prentice#4",
+     "/wiki/Jim_Prentice#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 67
+  },
+  {
+   "edit_id": "test_clean-147",
+   "type": "F",
+   "page": "Hermann_Fegelein",
+   "chunk_id": "/wiki/Hermann_Fegelein#9",
+   "event": {
+    "date": "1933-04-10",
+    "text": "Fegelein transferred to the SS.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "He transferred to the SS on 10 April 1933"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the occasions before the 1940s on which he joined or was transferred into a military, police, party or SS organization."
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the named anti-partisan operations (with code names) that his division carried out after he was appointed its commander."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate his appointment as commander of the SS Main Riding School in Munich from his appointment as commander of the 8th SS Cavalry Division Florian Geyer?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Hermann_Fegelein#6",
+     "/wiki/Hermann_Fegelein#7",
+     "/wiki/Hermann_Fegelein#8",
+     "/wiki/Hermann_Fegelein#9",
+     "/wiki/Hermann_Fegelein#10",
+     "/wiki/Hermann_Fegelein#11",
+     "/wiki/Hermann_Fegelein#12",
+     "/wiki/Hermann_Fegelein#13"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 69
+  },
+  {
+   "edit_id": "test_clean-103",
+   "type": "F",
+   "page": "Li_Kwoh_ting",
+   "chunk_id": "/wiki/Li_Kwoh-ting#2",
+   "event": {
+    "date": "1953",
+    "text": "He was appointed as a member of the Industrial Development Commission.",
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "quote": "was appointed as a member of the Industrial Development Commission responsible for the planning and economic development of Taiwan in 1953"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline between the early 1950s and about 1970, list the government or state-enterprise leadership posts that he began to hold, in chronological order."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between his graduation from National Central University and his receipt of the Ramon Magsaysay Award for government service?"
+     }
+    ],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Biography",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Li_Kwoh-ting#1",
+     "/wiki/Li_Kwoh-ting#2",
+     "/wiki/Li_Kwoh-ting#3",
+     "/wiki/Li_Kwoh-ting#4",
+     "/wiki/Li_Kwoh-ting#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 41
+  },
+  {
+   "edit_id": "test_clean-175",
+   "type": "F",
+   "page": "Robert_B_Wilson",
+   "chunk_id": "/wiki/Robert_B._Wilson#3",
+   "event": {
+    "date": "1993",
+    "text": "Wilson became an affiliated faculty member of Harvard Law School.",
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "quote": "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many calendar years separate his joining the Stanford Business School faculty from his co-receipt of the Nobel Memorial Prize in Economics?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the Harvard academic degrees he received or completed, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the prizes and awards he received, excluding honorary degrees, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the prizes and awards he received, excluding honorary degrees, which one came immediately after the BBVA Foundation Frontiers of Knowledge Award?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Robert B . Wilson",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Robert_B._Wilson#0",
+     "/wiki/Robert_B._Wilson#1",
+     "/wiki/Robert_B._Wilson#2",
+     "/wiki/Robert_B._Wilson#3"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 14
+  },
+  {
+   "edit_id": "test_clean-135",
+   "type": "F",
+   "page": "Clarence_Cannon",
+   "chunk_id": "/wiki/Clarence_Cannon#0",
+   "event": {
+    "date": "1964",
+    "text": "Cannon's service as Congressman ended with his death.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "until his death in Washington , D.C . in 1964"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the schools and law degrees that Clarence Cannon completed, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which school or degree was the last one that Clarence Cannon completed?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the year Clarence Cannon won his House seat by defeating the incumbent and the year he became chair of the House Appropriations Committee?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed between the year Clarence Cannon punched Representative John Taber during an argument and the year of his publicized parliamentary dispute with Senator Carl Hayden?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Clarence Cannon",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Clarence_Cannon#0"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 26
+  },
+  {
+   "edit_id": "test_clean-187",
+   "type": "F",
+   "page": "1st_Royal_Bavarian_Division",
+   "chunk_id": "/wiki/1st_Royal_Bavarian_Division#3",
+   "event": {
+    "date": "1915",
+    "text": "The Infantry Life Regiment was transferred from the division to become part of the Alpenkorps.",
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "quote": "The Infantry Life Regiment was transferred from the division in 1915 to become part of a provisional German mountain division , the Alpenkorps"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the start of Prince Leopold of Bavaria's time as division commander to the start of Crown Prince Rupprecht of Bavaria's time as division commander?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which division commander began command latest?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which division commander began command earliest?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "After Ludwig Freiherr von und zu der Tann-Rathsamhausen began command, which commander was the next to begin command among the dated events?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "1st Royal Bavarian Division",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/1st_Royal_Bavarian_Division#0",
+     "/wiki/1st_Royal_Bavarian_Division#1",
+     "/wiki/1st_Royal_Bavarian_Division#2",
+     "/wiki/1st_Royal_Bavarian_Division#3",
+     "/wiki/1st_Royal_Bavarian_Division#4",
+     "/wiki/1st_Royal_Bavarian_Division#5",
+     "/wiki/1st_Royal_Bavarian_Division#6",
+     "/wiki/1st_Royal_Bavarian_Division#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 22
+  },
+  {
+   "edit_id": "test_clean-105",
+   "type": "F",
+   "page": "Frederica_Wilson",
+   "chunk_id": "/wiki/Frederica_Wilson#5",
+   "event": {
+    "date": "2002",
+    "text": "Wilson began representing the 33rd district in the Florida Senate.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the events in which she began serving in a public office (on a school board, in the Florida House of Representatives, in the Florida Senate, or in the U.S. House of Representatives), in chronological order."
+     }
+    ],
+    "cung_chunk": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between her earning a master of arts degree from the University of Miami and the start of her representation of the 104th district in the Florida House of Representatives?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between her marriage to Paul Wilson and the death of her husband Paul Wilson?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Florida legislature",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Frederica_Wilson#5",
+     "/wiki/Frederica_Wilson#6"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 25
+  },
+  {
+   "edit_id": "test_clean-137",
+   "type": "A",
+   "page": "German_submarine_U_155_1941",
+   "chunk_id": "/wiki/German_submarine_U-155_(1941)#19",
+   "event": {
+    "date": "1945-12-21",
+    "text": "She was sunk.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "sunk on 21 December the same year"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "Counting by calendar year, how many years separated the boat's transfer from Wilhelmshaven to Loch Ryan in Scotland and the year its wreck was located and identified by divers?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Fate",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/German_submarine_U-155_(1941)#19"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 21
+  },
+  {
+   "edit_id": "test_clean-096",
+   "type": "A",
+   "page": "Jiminy_Cricket",
+   "chunk_id": "/wiki/Jiminy_Cricket#7",
+   "event": {
+    "date": "1973",
+    "text": "Clarence Nash voiced Jiminy until 1973.",
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Clarence Nash voiced him for a brief period of time , until 1973"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed from Eddie Carroll taking over as the English voice of Jiminy to Joe Ochman taking over that role?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": []
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Voice actors",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Jiminy_Cricket#7",
+     "/wiki/Jiminy_Cricket#8",
+     "/wiki/Jiminy_Cricket#9",
+     "/wiki/Jiminy_Cricket#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 35
+  },
+  {
+   "edit_id": "test_clean-133",
+   "type": "A",
+   "page": "Lotte_Reiniger",
+   "chunk_id": "/wiki/Lotte_Reiniger#19",
+   "event": {
+    "date": "1944",
+    "text": "Reiniger was forced to make propaganda films for Germany, one called The Golden Goose.",
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "One of these films is called ( The Golden Goose , 1944 )"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the death of Lotte Reiniger's husband and creative partner Carl Koch and Reiniger's own death?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Lotte Reiniger receiving the Deutscher Filmpreis and her receiving the Great Cross of the Order of Merit of the Federal Republic of Germany?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Adulthood and success",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Lotte_Reiniger#12",
+     "/wiki/Lotte_Reiniger#13",
+     "/wiki/Lotte_Reiniger#14",
+     "/wiki/Lotte_Reiniger#15",
+     "/wiki/Lotte_Reiniger#16",
+     "/wiki/Lotte_Reiniger#17",
+     "/wiki/Lotte_Reiniger#18",
+     "/wiki/Lotte_Reiniger#19"
+    ],
+    "context_chunk": "/wiki/Lotte_Reiniger#11"
+   },
+   "n_chunks_page": 41
+  },
+  {
+   "edit_id": "test_clean-067",
+   "type": "A",
+   "page": "Province_of_Brandenburg",
+   "chunk_id": "/wiki/Province_of_Brandenburg#46",
+   "event": {
+    "date": "1835",
+    "text": "Teltow-Storkow's existence ended with its partition into Teltow and Storkow.",
+    "track": "other",
+    "phase": "end",
+    "kind": "change",
+    "quote": "Teltow-Storkow , ( 1816–1835 ; partitioned into Teltow and Storkow"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the appointments of the province's Upper Presidents, including acting (per pro) appointments and returns to office, between the 1840s and the 1850s."
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, who was the next person appointed Upper President of the province after Theobald von Bethmann-Hollweg?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the appointments of the province's Land Directors, in chronological order."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the changes to the province's governorate (Regierungsbezirk) structure during the 1810s and 1820s, in chronological order (the two events of the same year in any order)."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the moves of the provincial government's seat, in chronological order."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many calendar years passed between the establishment of the Province of Brandenburg and its dissolution?"
+     }
+    ]
+   },
+   "window": {
+    "section": 8,
+    "section_title": "Regierungsbezirk Potsdam",
+    "window": 1,
+    "chunk_ids": [
+     "/wiki/Province_of_Brandenburg#46"
+    ],
+    "context_chunk": "/wiki/Province_of_Brandenburg#45"
+   },
+   "n_chunks_page": 48
+  },
+  {
+   "edit_id": "test_clean-155",
+   "type": "A",
+   "page": "Inter_Milan",
+   "chunk_id": "/wiki/Inter_Milan#70",
+   "event": {
+    "date": "2010",
+    "text": "Inter won the Champions League, completing an Italian treble.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "and then another in 2010 ; the last completed an unprecedented Italian treble"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which head-coach appointment came first?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which head-coach appointment came last?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the official name changes the club made in the late 1920s and early 1930s."
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "List, in chronological order, the dated changes of the club's controlling owner among the dated events in the timeline."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "List, in chronological order, the dated European Cup or Champions League titles the club won."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the year Roberto Mancini was first appointed head coach to the year he returned as club manager?"
+     },
+     {
+      "qi": 6,
+      "type": "order_gap",
+      "question": "How many calendar years passed from the club's eleventh league title to its twelfth league title?"
+     }
+    ]
+   },
+   "window": {
+    "section": 5,
+    "section_title": "Honours",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Inter_Milan#70",
+     "/wiki/Inter_Milan#71",
+     "/wiki/Inter_Milan#72",
+     "/wiki/Inter_Milan#73",
+     "/wiki/Inter_Milan#74",
+     "/wiki/Inter_Milan#75"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-079",
+   "type": "A",
+   "page": "Oliver_Bulleid",
+   "chunk_id": "/wiki/Oliver_Bulleid#1",
+   "event": {
+    "date": "1889",
+    "text": "Bulleid's father died.",
+    "track": "family",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "On the death of his father in 1889"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the employers he started working for, or returned to, from his move to Paris up to his return to Nigel Gresley's office (both included)."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from his appointment as Chief Mechanical Engineer of the Southern Railway to his appointment as Chief Mechanical Engineer of Córas Iompair Éireann?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from his retirement from engineering work to his death?"
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "Oliver Bulleid",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Oliver_Bulleid#0",
+     "/wiki/Oliver_Bulleid#1",
+     "/wiki/Oliver_Bulleid#2",
+     "/wiki/Oliver_Bulleid#3",
+     "/wiki/Oliver_Bulleid#4",
+     "/wiki/Oliver_Bulleid#5",
+     "/wiki/Oliver_Bulleid#6",
+     "/wiki/Oliver_Bulleid#7"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 25
+  },
+  {
+   "edit_id": "test_clean-176",
+   "type": "A",
+   "page": "Wheel_of_Fortune_American_game_show",
+   "chunk_id": "/wiki/Wheel_of_Fortune_(American_game_show)#37",
+   "event": {
+    "date": "1978",
+    "text": "Some episodes featured a round known as the Star Bonus.",
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "In 1978 , some episodes featured a round known as the Star Bonus"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the appointments of new hosts or hostesses during the show's first decade, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the contestants who won the million-dollar bonus-round prize, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, from the late 1980s to the mid-1990s, list the venues where the show's episodes began being taped, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Previous rules",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Wheel_of_Fortune_(American_game_show)#30",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#31",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#32",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#33",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#34",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#35",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#36",
+     "/wiki/Wheel_of_Fortune_(American_game_show)#37"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-098",
+   "type": "A",
+   "page": "Izmail",
+   "chunk_id": "/wiki/Izmail#10",
+   "event": {
+    "date": "1918-01-22",
+    "text": "The city was occupied by the Romanian Army.",
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "quote": "the city was occupied by the Romanian Army on 22 January 1918"
+   },
+   "groups": {
+    "dich": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many years, counted by calendar year, passed from the Romanian Army's occupation of Izmail after a skirmish with Danube flotilla troops to the Soviet Red Army's occupation of the town?"
+     }
+    ],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline that record the beginning of a military occupation of Izmail or its region, which is the latest?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years, counted by calendar year, passed from the third time Russian forces took Izmail to the town becoming part of independent Ukraine?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Izmail#3",
+     "/wiki/Izmail#4",
+     "/wiki/Izmail#5",
+     "/wiki/Izmail#6",
+     "/wiki/Izmail#7",
+     "/wiki/Izmail#8",
+     "/wiki/Izmail#9",
+     "/wiki/Izmail#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 20
+  },
+  {
+   "edit_id": "test_clean-051",
+   "type": "A",
+   "page": "The_Allegory_of_Faith",
+   "chunk_id": "/wiki/The_Allegory_of_Faith#0",
+   "event": {
+    "date": "1672",
+    "text": "The Allegory of Faith was painted.",
+    "track": "work",
+    "phase": "end",
+    "kind": "occurrence",
+    "quote": "is a Dutch Golden Age painting by Johannes Vermeer from about 1670–1672"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the painting being given on long-term loan to the Museum Boijmans Van Beuningen in Rotterdam and its bequest to the Metropolitan Museum of Art, by calendar year?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list in chronological order the exhibitions to which the painting was loaned."
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events recorded in the timeline, summarize the auction sales of the painting between the late 1600s and the mid-1700s."
+     }
+    ]
+   },
+   "window": {
+    "section": 0,
+    "section_title": "The Allegory of Faith",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/The_Allegory_of_Faith#0",
+     "/wiki/The_Allegory_of_Faith#1",
+     "/wiki/The_Allegory_of_Faith#2"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 33
+  },
+  {
+   "edit_id": "test_clean-076",
+   "type": "A",
+   "page": "Olivier_Bernard",
+   "chunk_id": "/wiki/Olivier_Bernard#11",
+   "event": {
+    "date": "2011",
+    "text": "Bernard criticised manager Graeme Souness in an interview.",
+    "track": "other",
+    "phase": "point",
+    "kind": "statement",
+    "quote": "In a 2011 interview , he criticised manager Graeme Sounesss man management"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated club signings Olivier Bernard made as a player, which one came next after he joined Southampton on a five-month contract?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many calendar years passed from Olivier Bernard's release from his Newcastle United contract to his purchase of Durham City?"
+     }
+    ]
+   },
+   "window": {
+    "section": 6,
+    "section_title": "Retirement",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Olivier_Bernard#11",
+     "/wiki/Olivier_Bernard#12"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "test_clean-125",
+   "type": "A",
+   "page": "Black_Tiger_professional_wrestling",
+   "chunk_id": "/wiki/Black_Tiger_(professional_wrestling)#5",
+   "event": {
+    "date": "1994",
+    "text": "Guerrero was a finalist in the 1994 Super Grade Junior Heavyweight Tag League with The Great Sasuke.",
+    "track": "other",
+    "phase": "point",
+    "kind": "result",
+    "quote": "Guerrero was a finalist in the 1994 Super Grade Junior Heavyweight Tag League with The Great Sasuke"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, what was the first time a performer new to the Black Tiger persona took it on?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between Mark Rocco's first assumption of the Black Tiger persona and Rocky Romero's debut as Black Tiger IV?"
+     },
+     {
+      "qi": 2,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the times between 1985 and 2008 when a performer's run in the Black Tiger persona came to an end, in chronological order."
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Black Tiger II",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Black_Tiger_(professional_wrestling)#5"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "test_clean-092",
+   "type": "A",
+   "page": "VP_29",
+   "chunk_id": "/wiki/VP-29#29",
+   "event": {
+    "date": "1944-08-01",
+    "text": "The squadron arrived at San Diego.",
+    "track": "location",
+    "phase": "point",
+    "kind": "change",
+    "quote": "1 August 1944 : The squadron arrived at San Diego"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which home ports was the squadron assigned to before 1942, in chronological order?"
+     },
+     {
+      "qi": 1,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two home port assignments were the most recent, in chronological order?"
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which home port came immediately after the squadron's relocation to NS Charleston, South Carolina?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which new aircraft types was the squadron assigned before 1943, in chronological order?"
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, which redesignations did the squadron undergo, in chronological order?"
+     },
+     {
+      "qi": 5,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two redesignations were the most recent, in chronological order?"
+     },
+     {
+      "qi": 6,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which designation did the squadron receive immediately after its redesignation as VP-72?"
+     },
+     {
+      "qi": 7,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed between the squadron's establishment at NAS Norfolk, Virginia and its disestablishment?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "Operational history",
+    "window": 3,
+    "chunk_ids": [
+     "/wiki/VP-29#26",
+     "/wiki/VP-29#27",
+     "/wiki/VP-29#28",
+     "/wiki/VP-29#29",
+     "/wiki/VP-29#30",
+     "/wiki/VP-29#31",
+     "/wiki/VP-29#32",
+     "/wiki/VP-29#33"
+    ],
+    "context_chunk": "/wiki/VP-29#25"
+   },
+   "n_chunks_page": 39
+  },
+  {
+   "edit_id": "test_clean-143",
+   "type": "A",
+   "page": "Reinhard_Scheer",
+   "chunk_id": "/wiki/Reinhard_Scheer#26",
+   "event": {
+    "date": "1917-02",
+    "text": "The unrestricted submarine campaign was resumed.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "the unrestricted submarine campaign was resumed in February 1917"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list in chronological order the decorations or awards Scheer received, including the addition of oak leaves to an existing award."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "By calendar year, how many years separate his promotion to Kapitän zur See from his promotion to Admiral?"
+     }
+    ]
+   },
+   "window": {
+    "section": 4,
+    "section_title": "Post-Jutland",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Reinhard_Scheer#26",
+     "/wiki/Reinhard_Scheer#27",
+     "/wiki/Reinhard_Scheer#28",
+     "/wiki/Reinhard_Scheer#29",
+     "/wiki/Reinhard_Scheer#30",
+     "/wiki/Reinhard_Scheer#31",
+     "/wiki/Reinhard_Scheer#32",
+     "/wiki/Reinhard_Scheer#33"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 44
+  },
+  {
+   "edit_id": "test_clean-158",
+   "type": "A",
+   "page": "British_Vogue",
+   "chunk_id": "/wiki/British_Vogue#7",
+   "event": {
+    "date": "1944",
+    "text": "In 1944, Lee Miller persuaded Withers to send her to Normandy.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "In 1944 , the American photographer Lee Miller persuaded Withers to send her to Normandy"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the appointments or confirmations of a new editor or editor-in-chief of British Vogue from the 1940s onward, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between Audrey Withers ending her term as editor and Anna Wintour beginning to edit the British edition, counting by calendar year?"
+     },
+     {
+      "qi": 3,
+      "type": "first_last_next",
+      "question": "Among the dated events recorded in the timeline, which two endings of an editor's term came most recently, considering only endings from the 1950s onward?"
+     }
+    ],
+    "cung_trang": [
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between Elspeth Champcommunal ending her term as editor and Alison Settle being appointed as the third editor, counting by calendar year?"
+     }
+    ]
+   },
+   "window": {
+    "section": 1,
+    "section_title": "History",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/British_Vogue#3",
+     "/wiki/British_Vogue#4",
+     "/wiki/British_Vogue#5",
+     "/wiki/British_Vogue#6",
+     "/wiki/British_Vogue#7",
+     "/wiki/British_Vogue#8",
+     "/wiki/British_Vogue#9",
+     "/wiki/British_Vogue#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 15
+  },
+  {
+   "edit_id": "test_clean-181",
+   "type": "A",
+   "page": "Miller_M_Duris",
+   "chunk_id": "/wiki/Miller_M._Duris#5",
+   "event": {
+    "date": "1976-10-19",
+    "text": "He officiated at the dedication of Bicentennial Park.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "he officiated at the dedication of Bicentennial Park on October 19 , 1976"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "order_gap",
+      "question": "How many years passed between the year he began working as a technical writer at Tektronix and the year he left that company?"
+     },
+     {
+      "qi": 1,
+      "type": "order_gap",
+      "question": "How many years passed between his enlistment in the United States Navy and his departure from the Navy?"
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many years passed between the family's move to Virginia and the family's return to Hillsboro, Oregon?"
+     },
+     {
+      "qi": 3,
+      "type": "order_gap",
+      "question": "How many years passed, counted by calendar year, from his election as chairman of the Washington County Commission to his departure from county office?"
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Political career",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Miller_M._Duris#4",
+     "/wiki/Miller_M._Duris#5",
+     "/wiki/Miller_M._Duris#6",
+     "/wiki/Miller_M._Duris#7",
+     "/wiki/Miller_M._Duris#8",
+     "/wiki/Miller_M._Duris#9",
+     "/wiki/Miller_M._Duris#10"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 12
+  },
+  {
+   "edit_id": "test_clean-120",
+   "type": "A",
+   "page": "Helen_Clark",
+   "chunk_id": "/wiki/Helen_Clark#22",
+   "event": {
+    "date": "1996-10",
+    "text": "Labour lost the election in October 1996, but Clark remained as Opposition leader.",
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "quote": "Labour lost the election in October 1996 , but Clark remained as Opposition leader"
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which two ministerial posts did Clark take up most recently during the Fourth Labour Government?"
+     },
+     {
+      "qi": 1,
+      "type": "summary",
+      "question": "Among the dated events in the timeline, summarize the opposition posts Clark took up from becoming Deputy Leader of the Opposition until the first general election she faced as Opposition leader."
+     },
+     {
+      "qi": 2,
+      "type": "first_last_next",
+      "question": "Among the dated events in the timeline, which change in her membership of Labour's national executive committee came immediately after she left it?"
+     },
+     {
+      "qi": 3,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the overseas trips that the text describes as visits, in time order."
+     },
+     {
+      "qi": 4,
+      "type": "list",
+      "question": "Among the dated events in the timeline, list the awards and honours Clark received from the time she became Prime Minister onward, in time order."
+     },
+     {
+      "qi": 5,
+      "type": "order_gap",
+      "question": "By calendar year, how many years passed from Clark being elected to Parliament for Mount Albert to her being sworn in as Prime Minister?"
+     }
+    ]
+   },
+   "window": {
+    "section": 3,
+    "section_title": "Cabinet Minister",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Helen_Clark#16",
+     "/wiki/Helen_Clark#17",
+     "/wiki/Helen_Clark#18",
+     "/wiki/Helen_Clark#19",
+     "/wiki/Helen_Clark#20",
+     "/wiki/Helen_Clark#21",
+     "/wiki/Helen_Clark#22",
+     "/wiki/Helen_Clark#23"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 100
+  },
+  {
+   "edit_id": "test_clean-070",
+   "type": "A",
+   "page": "Michael_Cullen_politician",
+   "chunk_id": "/wiki/Michael_Cullen_(politician)#6",
+   "event": {
+    "date": "1984",
+    "text": "Cullen became Senior Whip when Labour entered government.",
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "quote": "When Labour entered government in 1984 , Cullen became Senior Whip ."
+   },
+   "groups": {
+    "dich": [],
+    "cung_chunk": [],
+    "cung_trang": [
+     {
+      "qi": 0,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the budgets Michael Cullen presented, in chronological order."
+     },
+     {
+      "qi": 1,
+      "type": "list",
+      "question": "Among the dated events recorded in the timeline, list the honours, medals and honorary degrees conferred on Michael Cullen, in chronological order."
+     },
+     {
+      "qi": 2,
+      "type": "order_gap",
+      "question": "How many calendar years passed between Michael Cullen becoming Labour's deputy leader and his becoming chairman of New Zealand Post? Count by calendar year."
+     }
+    ]
+   },
+   "window": {
+    "section": 2,
+    "section_title": "Fourth Labour Government",
+    "window": 0,
+    "chunk_ids": [
+     "/wiki/Michael_Cullen_(politician)#6",
+     "/wiki/Michael_Cullen_(politician)#7",
+     "/wiki/Michael_Cullen_(politician)#8",
+     "/wiki/Michael_Cullen_(politician)#9"
+    ],
+    "context_chunk": null
+   },
+   "n_chunks_page": 24
+  }
+ ]
+}

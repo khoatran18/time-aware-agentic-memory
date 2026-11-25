@@ -1,0 +1,34 @@
+{
+ "idmap": {},
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "In 1934 Salzman succeeded W.H. Page as general editor of the Victoria County History.",
+    "evidence": "In 1934 Salzman succeeded W.H . Page as general editor of the Victoria County History .",
+    "date_text": "1934",
+    "date": "1934",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Victoria County History",
+    "quote": "In 1934 Salzman succeeded W.H . Page as general editor of the Victoria County History ."
+   },
+   {
+    "text": "He held the post of general editor until 1949 and was succeeded by Ralph Pugh.",
+    "evidence": "He held the post until 1949",
+    "date_text": "1949",
+    "date": "1949",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Victoria County History",
+    "quote": "He held the post until 1949"
+   }
+  ]
+ }
+}

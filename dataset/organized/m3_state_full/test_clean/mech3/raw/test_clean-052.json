@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "c39f74f45b485eac",
+  "N2": "f6f903c1882faaa3"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In 1523 Charles V appointed the couple jointly viceroys of Valencia",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Charles V appointed the couple jointly viceroys of Valencia.",
+    "evidence": "In 1523 Charles V appointed the couple jointly viceroys of Valencia",
+    "date_text": "1523",
+    "date": "1523",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "viceroys of Valencia",
+    "quote": "In 1523 Charles V appointed the couple jointly viceroys of Valencia"
+   }
+  ]
+ }
+}

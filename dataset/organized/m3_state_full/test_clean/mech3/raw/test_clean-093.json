@@ -1,0 +1,42 @@
+{
+ "idmap": {
+  "N1": "07f446c8f01837af",
+  "N2": "e800c34da1e467f8",
+  "N3": "1a2dad692bb5bdf8",
+  "N4": "c8e5bc7a5970d31d",
+  "N5": "417559541fb29f76",
+  "N6": "a413d436525a56dd",
+  "N7": "505fb82fdcf895a5",
+  "N8": "ff258a5d2f8f5a8d",
+  "N9": "85064da0891da1b5",
+  "N10": "0df294a4dda585ed",
+  "N11": "fd33ad20b15c0616",
+  "N12": "364563289da03290",
+  "N13": "faff158297207f7f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "A third side was founded in 2006",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "A third side was founded.",
+    "evidence": "A third side was founded in 2006",
+    "date_text": "2006",
+    "date": "2006",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "part_of_self",
+    "object": "third side",
+    "quote": "A third side was founded in 2006"
+   }
+  ]
+ }
+}

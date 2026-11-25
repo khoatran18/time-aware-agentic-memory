@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Edward the Elder gave the land then known as Weolingtun, along with West Buckland and Bishops Lydeard, to Bishop Asser.",
+   "chunk": 8,
+   "date_text": "between 899 and 909",
+   "date": null,
+   "approximate": true,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Weolingtun",
+   "quote": "In a grant of between 899 and 909 Edward the Elder gave the land then known as Weolingtun",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Wellington,_Somerset#8"
+  },
+  {
+   "text": "By the time of the Domesday Book of 1086, the name had changed to Walintone.",
+   "chunk": 8,
+   "date_text": "1086",
+   "date": "1086",
+   "approximate": false,
+   "track": "naming",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Walintone",
+   "quote": "By the time of the Domesday Book of 1086, the name had changed to Walintone",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wellington,_Somerset#8"
+  },
+  {
+   "text": "By the time of the Domesday Book of 1086, the estate was owned by Gisa (Bishop of Wells).",
+   "chunk": 8,
+   "date_text": "1086",
+   "date": "1086",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Gisa",
+   "quote": "the estate was owned by Gisa ( Bishop of Wells )",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Wellington,_Somerset#8"
+  }
+ ],
+ "dropped": []
+}

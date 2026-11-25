@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "b6e95d1e439c9373",
+  "N2": "f3168b5109363d0b",
+  "N3": "657aafb52007bfed",
+  "N4": "3c896383b2700608"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Opened in 2001 and expanded from 2016 to 2018",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "A. Le Coq Arena opened.",
+    "evidence": "Opened in 2001 and expanded from 2016 to 2018",
+    "date_text": "2001",
+    "date": "2001",
+    "approximate": false,
+    "track": "work",
+    "phase": "start",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "A. Le Coq Arena",
+    "quote": "Opened in 2001 and expanded from 2016 to 2018"
+   }
+  ]
+ }
+}

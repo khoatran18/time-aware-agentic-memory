@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Bulleid was born in Invercargill, New Zealand.",
+   "chunk": 1,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Invercargill",
+   "quote": "He was born in Invercargill , New Zealand",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Oliver_Bulleid#1"
+  },
+  {
+   "text": "Bulleid's father died.",
+   "chunk": 1,
+   "date_text": "1889",
+   "date": "1889",
+   "approximate": false,
+   "track": "family",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": null,
+   "quote": "On the death of his father in 1889",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Oliver_Bulleid#1"
+  },
+  {
+   "text": "Bulleid joined the Great Northern Railway at Doncaster as an apprentice.",
+   "chunk": 1,
+   "date_text": "1901",
+   "date": "1901",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Great Northern Railway",
+   "quote": "In 1901 ... he joined the Great Northern Railway ( GNR ) at Doncaster",
+   "section": 0,
+   "flags": [
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/Oliver_Bulleid#1"
+  }
+ ],
+ "dropped": []
+}

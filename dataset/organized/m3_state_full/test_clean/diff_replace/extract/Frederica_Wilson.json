@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "Wilson began representing the 104th district in the Florida House of Representatives.",
+   "chunk": 5,
+   "date_text": "1998",
+   "date": "1998",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Florida House of Representatives",
+   "quote": "represented the 104th district in the Florida House of Representatives from 1998 to 2002",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Frederica_Wilson#5"
+  },
+  {
+   "text": "Wilson's representation of the 104th district in the Florida House of Representatives ended.",
+   "chunk": 5,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Florida House of Representatives",
+   "quote": "represented the 104th district in the Florida House of Representatives from 1998 to 2002",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Frederica_Wilson#5"
+  },
+  {
+   "text": "Wilson began representing the 33rd district in the Florida Senate.",
+   "chunk": 5,
+   "date_text": "2002",
+   "date": "2002",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Florida Senate",
+   "quote": "represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Frederica_Wilson#5"
+  },
+  {
+   "text": "Wilson's representation of the 33rd district in the Florida Senate ended with her election to Congress.",
+   "chunk": 5,
+   "date_text": "2010",
+   "date": "2010",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Florida Senate",
+   "quote": "until her election to Congress in 2010",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Frederica_Wilson#5"
+  },
+  {
+   "text": "Wilson served as Minority Leader Pro Tempore.",
+   "chunk": 5,
+   "date_text": "2006",
+   "date": "2006",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Minority Leader Pro Tempore",
+   "quote": "She served as Minority Leader Pro Tempore in 2006",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Frederica_Wilson#5"
+  },
+  {
+   "text": "Wilson voted for Obama and Joe Biden as one of Florida's presidential electors.",
+   "chunk": 5,
+   "date_text": "2008",
+   "date": "2008",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "presidential electors",
+   "quote": "she voted for Obama and Joe Biden in 2008 as one of Floridas presidential electors",
+   "section": 1,
+   "flags": [
+    "name_not_in_page:Florida's"
+   ],
+   "cid": "/wiki/Frederica_Wilson#5"
+  }
+ ],
+ "dropped": []
+}

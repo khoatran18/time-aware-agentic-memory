@@ -1,0 +1,55 @@
+{
+ "events": [
+  {
+   "text": "Siniša Mihajlović was appointed new head coach of Catania, taking over from Atzori.",
+   "chunk": 32,
+   "date_text": "8 December 2009",
+   "date": "2009-12-08",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "head coach",
+   "quote": "On 8 December 2009 , Siniša Mihajlović was appointed new head coach of Catania , taking over from Atzori .",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#32"
+  },
+  {
+   "text": "Mihajlović signed a contract until June 2011 with the Elefanti.",
+   "chunk": 32,
+   "date_text": "June 2011",
+   "date": "2011-06",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "contract",
+   "quote": "He signed a contract until June 2011 with the Elefanti .",
+   "section": 5,
+   "flags": [],
+   "cid": "/wiki/Calcio_Catania#32"
+  },
+  {
+   "text": "Catania appointed Marco Giampaolo as new head coach for the 2010–11 season.",
+   "chunk": 32,
+   "date_text": "2010–11 season",
+   "date": "2010",
+   "approximate": true,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Marco Giampaolo",
+   "quote": "Catania appointed Marco Giampaolo as new head coach for the 2010–11 season .",
+   "section": 5,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/Calcio_Catania#32"
+  }
+ ],
+ "dropped": []
+}

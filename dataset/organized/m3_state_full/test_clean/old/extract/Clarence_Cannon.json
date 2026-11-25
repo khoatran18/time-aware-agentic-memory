@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Clarence Andrew Cannon was born.",
+   "chunk": 0,
+   "date_text": "April 11, 1879",
+   "date": "1879-04-11",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "Clarence Andrew Cannon ( April 11 , 1879 – May 12 , 1964 )",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Clarence_Cannon#0"
+  },
+  {
+   "text": "Clarence Andrew Cannon died in Washington, D.C.",
+   "chunk": 0,
+   "date_text": "May 12, 1964",
+   "date": "1964-05-12",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Washington, D.C.",
+   "quote": "May 12 , 1964 ) was a Democratic Congressman from Kansas",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Clarence_Cannon#0"
+  },
+  {
+   "text": "Cannon began serving as a Democratic Congressman from Kansas.",
+   "chunk": 0,
+   "date_text": "1923",
+   "date": "1923",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Democratic Congressman from Kansas",
+   "quote": "serving from 1923 until his death",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Clarence_Cannon#0"
+  },
+  {
+   "text": "Cannon's service as a Democratic Congressman from Kansas ended with his death.",
+   "chunk": 0,
+   "date_text": "1964",
+   "date": "1964",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Democratic Congressman from Kansas",
+   "quote": "until his death in Washington , D.C . in 1964",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Clarence_Cannon#0"
+  }
+ ],
+ "dropped": []
+}

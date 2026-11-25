@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The town returned to the Principality of Moldavia after Russia lost the Crimean War.",
+   "chunk": 10,
+   "date_text": null,
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Principality of Moldavia",
+   "quote": "After Russia lost the Crimean War , the town returned to the Principality of Moldavia",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Izmail#10"
+  },
+  {
+   "text": "Russia gained control of Izmail again after the Russo-Turkish War of 1877–1878.",
+   "chunk": 10,
+   "date_text": "1877–1878",
+   "date": null,
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Russia",
+   "quote": "Russia gained control of Izmail again after the Russo-Turkish War of 1877–1878",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Izmail#10"
+  },
+  {
+   "text": "The city was occupied by the Romanian Army on 22 January 1918.",
+   "chunk": 10,
+   "date_text": "22 January 1918",
+   "date": "1918-01-22",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Romanian Army",
+   "quote": "the city was occupied by the Romanian Army on 22 January 1918",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Izmail#10"
+  }
+ ],
+ "dropped": []
+}

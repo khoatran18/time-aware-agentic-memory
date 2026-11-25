@@ -1,0 +1,59 @@
+{
+ "events": [
+  {
+   "text": "The Allegory of Faith was painted by Johannes Vermeer.",
+   "chunk": 0,
+   "date_text": "about 1670–1672",
+   "date": "1670",
+   "approximate": true,
+   "track": "work",
+   "phase": "start",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "The Allegory of Faith",
+   "quote": "is a Dutch Golden Age painting by Johannes Vermeer from about 1670–1672",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/The_Allegory_of_Faith#0"
+  },
+  {
+   "text": "The painting's creation period ended.",
+   "chunk": 0,
+   "date_text": "about 1670–1672",
+   "date": "1672",
+   "approximate": true,
+   "track": "work",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "The Allegory of Faith",
+   "quote": "is a Dutch Golden Age painting by Johannes Vermeer from about 1670–1672",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/The_Allegory_of_Faith#0"
+  },
+  {
+   "text": "The Allegory of Faith has been in the Metropolitan Museum of Art in New York.",
+   "chunk": 0,
+   "date_text": "since 1931",
+   "date": "1931",
+   "approximate": true,
+   "track": "location",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Metropolitan Museum of Art",
+   "quote": "It has been in the Metropolitan Museum of Art in New York since 1931",
+   "section": 0,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/The_Allegory_of_Faith#0"
+  }
+ ],
+ "dropped": []
+}

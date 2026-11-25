@@ -1,0 +1,49 @@
+{
+ "idmap": {
+  "N1": "c8efaf4a222c43df",
+  "N2": "485da53580b379c0",
+  "N3": "0f0b94d74d81b380",
+  "N4": "7da67fb53ca26fad",
+  "N5": "c968967afff0c8e6",
+  "N6": "19c9804db9d87621",
+  "N7": "8760e4eae4f1bca8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Moore starred with Tony Curtis in The Persuaders! television series from 1971 to 1972.",
+    "evidence": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972",
+    "date_text": "1971",
+    "date": "1971",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "The Persuaders!",
+    "quote": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972"
+   },
+   {
+    "text": "Moore's role in The Persuaders! television series ended in 1972.",
+    "evidence": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972",
+    "date_text": "1972",
+    "date": "1972",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "The Persuaders!",
+    "quote": "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972"
+   }
+  ]
+ }
+}

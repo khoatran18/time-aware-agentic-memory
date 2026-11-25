@@ -1,0 +1,58 @@
+{
+ "idmap": {
+  "N1": "e0bc90d8aedfe7b0",
+  "N2": "3663a84b488fc8a9",
+  "N3": "e6fb938310a5b407",
+  "N4": "3d8b143574c5de55",
+  "N5": "b8f98bf3daac8e3a",
+  "N6": "ec4af577afc3f751",
+  "N7": "00e271a091649e5e",
+  "N8": "edb45471183ee49c",
+  "N9": "a7b4fc8037af200e",
+  "N10": "a982783d07e2cf89"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "chief communications officer of the Wikimedia Foundation from April 2014",
+    "end_date": null
+   },
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "chief communications officer of the Wikimedia Foundation from April 2014 to March 2016",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Maher became chief communications officer of the Wikimedia Foundation.",
+    "evidence": "chief communications officer of the Wikimedia Foundation from April 2014",
+    "date_text": "April 2014",
+    "date": "2014-04",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Wikimedia Foundation",
+    "quote": "chief communications officer of the Wikimedia Foundation from April 2014"
+   },
+   {
+    "text": "Maher's tenure as chief communications officer of the Wikimedia Foundation ended.",
+    "evidence": "from April 2014 to March 2016",
+    "date_text": "March 2016",
+    "date": "2016-03",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Wikimedia Foundation",
+    "quote": "chief communications officer of the Wikimedia Foundation from April 2014 to March 2016"
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "503bacd248bb56b2",
+  "N2": "84f1b91e5ff0ace1",
+  "N3": "c0de5ecb8b95fd2b",
+  "N4": "1706ea271629828e",
+  "N5": "1da6ab372d3e6513",
+  "N6": "c68633c4be07f8a5",
+  "N7": "979b8c87d0ed55c8",
+  "N8": "2d5ace941c094776"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "He became the president of the Taiwan Shipbuilding Corporation in 1951",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "He became the president of the Taiwan Shipbuilding Corporation.",
+    "evidence": "He became the president of the Taiwan Shipbuilding Corporation in 1951",
+    "date_text": "1951",
+    "date": "1951",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Taiwan Shipbuilding Corporation",
+    "quote": "He became the president of the Taiwan Shipbuilding Corporation in 1951"
+   }
+  ]
+ }
+}

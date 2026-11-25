@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "dc20c454820e1eb2",
+  "N2": "950b600bcb1b0c1e",
+  "N3": "50f75a8d4737bea4",
+  "N4": "6afaa002adc8eac7",
+  "N5": "e43cec8addbe8fc8",
+  "N6": "f56167c4fcc81b50",
+  "N7": "e4fd8c830ffe3bf0",
+  "N8": "4ba066269ade3179"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "close",
+    "evidence": "occupied the building from 1872 to 1885",
+    "end_date": "1885"
+   }
+  ],
+  "add": [
+   {
+    "text": "The New York Cotton Exchange stopped occupying the building.",
+    "evidence": "occupied the building from 1872 to 1885",
+    "date_text": "1885",
+    "date": "1885",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "New York Cotton Exchange",
+    "quote": "occupied the building from 1872 to 1885"
+   }
+  ]
+ }
+}

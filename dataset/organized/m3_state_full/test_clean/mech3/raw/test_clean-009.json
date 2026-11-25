@@ -1,0 +1,41 @@
+{
+ "idmap": {
+  "N1": "0f8db0bbc1b95b47",
+  "N2": "847575839195aab1",
+  "N3": "8ef7f34f0508728f",
+  "N4": "e45102bb1c835c6d",
+  "N5": "29b9af9b39adfb29",
+  "N6": "a785d0e42323768f",
+  "N7": "801f95e6eedbb72b",
+  "N8": "fb492b6e5dccc234",
+  "N9": "78cc265342b076ec",
+  "N10": "e86e724531052a30",
+  "N11": "00758f4077a867ec",
+  "N12": "e400dda095e06778"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "He worked as a corporate planner from 1972 until 1974",
+    "end_date": "1974"
+   }
+  ],
+  "add": [
+   {
+    "text": "Holmström's work as a corporate planner ended.",
+    "evidence": "He worked as a corporate planner from 1972 until 1974",
+    "date_text": "1974",
+    "date": "1974",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "corporate planner",
+    "quote": "He worked as a corporate planner from 1972 until 1974"
+   }
+  ]
+ }
+}

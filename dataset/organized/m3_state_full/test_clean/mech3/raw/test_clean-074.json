@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "5068dd085d0440c3",
+  "N2": "dde05d91106ab033",
+  "N3": "c07bd533d27eccc7",
+  "N4": "de32e5b4dfcbc13d",
+  "N5": "72beacb43ac2c2a6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "In 1999 the party suffered a damaging split when Comino left the party",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The party suffered a damaging split when Comino left the party.",
+    "evidence": "In 1999 the party suffered a damaging split when Comino left the party",
+    "date_text": "1999",
+    "date": "1999",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Comino",
+    "quote": "In 1999 the party suffered a damaging split when Comino left the party"
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "idmap": {
+  "N1": "1e24bb415cfe59f6",
+  "N2": "65723fb4d82fd815",
+  "N3": "c1681a5ce363c8b3",
+  "N4": "5a98e6a7c34c659f",
+  "N5": "d47c2b7bd33eab1e",
+  "N6": "4e6808e6e12a68f5",
+  "N7": "a1aad310a6317b18",
+  "N8": "aa5840e3a8a72093",
+  "N9": "2b7ed7011d7cbda8"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "close",
+    "evidence": "to aspiring actor Anthony Peck ( from 1990 to 1995 )",
+    "end_date": "1995"
+   }
+  ],
+  "add": [
+   {
+    "text": "Tiegs married yoga instructor Rod Stryker.",
+    "evidence": "and to yoga instructor Rod Stryker ( from 1998 to 2001 )",
+    "date_text": "1998",
+    "date": "1998",
+    "approximate": false,
+    "track": "family",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Rod Stryker",
+    "quote": "and to yoga instructor Rod Stryker ( from 1998 to 2001 )"
+   },
+   {
+    "text": "Tiegs's marriage to Rod Stryker ended.",
+    "evidence": "and to yoga instructor Rod Stryker ( from 1998 to 2001 )",
+    "date_text": "2001",
+    "date": "2001",
+    "approximate": false,
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Rod Stryker",
+    "quote": "and to yoga instructor Rod Stryker ( from 1998 to 2001 )"
+   },
+   {
+    "text": "Tiegs's marriage to Anthony Peck ended.",
+    "evidence": "to aspiring actor Anthony Peck ( from 1990 to 1995 )",
+    "date_text": "1995",
+    "date": "1995",
+    "approximate": false,
+    "track": "family",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Anthony Peck",
+    "quote": "to aspiring actor Anthony Peck ( from 1990 to 1995 )"
+   }
+  ]
+ }
+}

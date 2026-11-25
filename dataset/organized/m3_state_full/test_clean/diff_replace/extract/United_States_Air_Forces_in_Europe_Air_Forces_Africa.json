@@ -1,0 +1,93 @@
+{
+ "events": [
+  {
+   "text": "Sites at Samsun and Trabzon were turned over to the Turkish government.",
+   "chunk": 82,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Samsun and Trabzon",
+   "quote": "Between 1969 and 1973 , sites at Samsun",
+   "section": 9,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82"
+  },
+  {
+   "text": "Sites at Samsun and Trabzon were turned over to the Turkish government.",
+   "chunk": 82,
+   "date_text": "1973",
+   "date": "1973",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Samsun and Trabzon",
+   "quote": "Between 1969 and 1973 , sites at Samsun",
+   "section": 9,
+   "flags": [
+    "date_text_not_in_chunk",
+    "derived_date",
+    "quote_not_in_chunk"
+   ],
+   "cid": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82"
+  },
+  {
+   "text": "Cigli Air Base was turned over to the Turkish Air Force.",
+   "chunk": 82,
+   "date_text": "1970",
+   "date": "1970",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Cigli Air Base",
+   "quote": "Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1970 .",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82"
+  },
+  {
+   "text": "The number of Americans in Turkey dropped from 24,000 to 15,000.",
+   "chunk": 82,
+   "date_text": "1967",
+   "date": "1967",
+   "approximate": false,
+   "track": "other",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "between 1967 and 1970 , the number of Americans in Turkey dropped from 24,000 to 15,000",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82"
+  },
+  {
+   "text": "The number of Americans in Turkey dropped from 24,000 to 15,000.",
+   "chunk": 82,
+   "date_text": "1970",
+   "date": "1970",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "between 1967 and 1970 , the number of Americans in Turkey dropped from 24,000 to 15,000",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82"
+  }
+ ],
+ "dropped": []
+}

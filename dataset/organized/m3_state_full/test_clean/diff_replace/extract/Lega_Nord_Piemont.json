@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The party suffered a damaging split when Comino left the party.",
+   "chunk": 4,
+   "date_text": "In 1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Comino",
+   "quote": "In 1999 the party suffered a damaging split when Comino left the party",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Lega_Nord_Piemont#4"
+  },
+  {
+   "text": "Comino started his own party.",
+   "chunk": 4,
+   "date_text": "In 1999",
+   "date": "1999",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "his own party",
+   "quote": "In 1999 the party suffered a damaging split when Comino left the party",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Lega_Nord_Piemont#4"
+  },
+  {
+   "text": "Comino's party was integrated into the Autonomists for Europe (ApE).",
+   "chunk": 4,
+   "date_text": "in 2000",
+   "date": "2000",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "other",
+   "object": "Autonomists for Europe (ApE)",
+   "quote": "which was integrated into the Autonomists for Europe ( ApE ) in 2000",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Lega_Nord_Piemont#4"
+  }
+ ],
+ "dropped": []
+}

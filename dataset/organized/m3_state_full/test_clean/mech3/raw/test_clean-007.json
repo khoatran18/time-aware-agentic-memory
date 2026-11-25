@@ -1,0 +1,45 @@
+{
+ "idmap": {
+  "N1": "76c359bf56bf8ff6",
+  "N2": "8b3cdcc163a3c323",
+  "N3": "3237bcd128a0be2c"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland .",
+    "end_date": "1998"
+   }
+  ],
+  "add": [
+   {
+    "text": "The Baldwin Piano & Organ Company was headquartered in Loveland from 1986 to 1998.",
+    "evidence": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland .",
+    "date_text": "1986 to 1998",
+    "date": "1986",
+    "approximate": false,
+    "track": "location",
+    "phase": "start",
+    "kind": "state",
+    "subject": "other",
+    "object": "Loveland",
+    "quote": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland ."
+   },
+   {
+    "text": "The Baldwin Piano & Organ Company ceased being headquartered in Loveland in 1998.",
+    "evidence": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland .",
+    "date_text": "1998",
+    "date": "1998",
+    "approximate": false,
+    "track": "location",
+    "phase": "end",
+    "kind": "change",
+    "subject": "other",
+    "object": "Loveland",
+    "quote": "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland ."
+   }
+  ]
+ }
+}

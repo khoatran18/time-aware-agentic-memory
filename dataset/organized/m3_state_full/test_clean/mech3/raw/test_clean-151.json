@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "1211b71bd58d9cd2",
+  "N2": "d48538295b42cd77"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "In May 2005 Beattie released his autobiography Making A Difference",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Beattie released his autobiography Making A Difference.",
+    "evidence": "In May 2005 Beattie released his autobiography Making A Difference",
+    "date_text": "May 2005",
+    "date": "2005-05",
+    "approximate": false,
+    "track": "work",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Making A Difference",
+    "quote": "In May 2005 Beattie released his autobiography Making A Difference"
+   }
+  ]
+ }
+}

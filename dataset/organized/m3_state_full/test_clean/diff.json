@@ -1,0 +1,2355 @@
+[
+ {
+  "edit_id": "test_clean-074",
+  "type": "C",
+  "page": "Lega_Nord_Piemont",
+  "chunk_id": "/wiki/Lega_Nord_Piemont#4",
+  "chunk_id_past": "/wiki/Lega_Nord_Piemont#4@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 1,
+  "n_sent_new": 1,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 2002 the party suffered a damaging split when Comino left the party over disagreements with Umberto Bossi , federal secretary of Lega Nord , and started his own party , which was integrated into the Autonomists for Europe ( ApE ) in 2000 ."
+    ],
+    "new": [
+     "In 1999 the party suffered a damaging split when Comino left the party over disagreements with Umberto Bossi , federal secretary of Lega Nord , and started his own party , which was integrated into the Autonomists for Europe ( ApE ) in 2000 ."
+    ]
+   }
+  ],
+  "old_text": "Lega_Nord_Piemont | Splits and recovery\n In 2002 the party suffered a damaging split when Comino left the party over disagreements with Umberto Bossi , federal secretary of Lega Nord , and started his own party , which was integrated into the Autonomists for Europe ( ApE ) in 2000 .",
+  "new_text": "Lega_Nord_Piemont | Splits and recovery\n In 1999 the party suffered a damaging split when Comino left the party over disagreements with Umberto Bossi , federal secretary of Lega Nord , and started his own party , which was integrated into the Autonomists for Europe ( ApE ) in 2000 ."
+ },
+ {
+  "edit_id": "test_clean-179",
+  "type": "C",
+  "page": "Gerard_Bilders",
+  "chunk_id": "/wiki/Gerard_Bilders#1",
+  "chunk_id_past": "/wiki/Gerard_Bilders#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Bilders was born in Utrecht , where he lived until 1856 , though from 1838 to 1845 the Bilders family lived in Oosterbeek , a village near Arnhem which later became a major center for Dutch plein-air-painters ."
+    ],
+    "new": [
+     "Bilders was born in Utrecht , where he lived until 1856 , though from 1841 to 1845 the Bilders family lived in Oosterbeek , a village near Arnhem which later became a major center for Dutch plein-air-painters ."
+    ]
+   }
+  ],
+  "old_text": "Gerard_Bilders | Biography\n Bilders was born in Utrecht , where he lived until 1856 , though from 1838 to 1845 the Bilders family lived in Oosterbeek , a village near Arnhem which later became a major center for Dutch plein-air-painters . His father Johannes Warnardus Bilders was a Dutch landscape-painter . In 1857 Gerard moved to The Hague .",
+  "new_text": "Gerard_Bilders | Biography\n Bilders was born in Utrecht , where he lived until 1856 , though from 1841 to 1845 the Bilders family lived in Oosterbeek , a village near Arnhem which later became a major center for Dutch plein-air-painters . His father Johannes Warnardus Bilders was a Dutch landscape-painter . In 1857 Gerard moved to The Hague ."
+ },
+ {
+  "edit_id": "test_clean-170",
+  "type": "C",
+  "page": "Klamath_County_California",
+  "chunk_id": "/wiki/Klamath_County,_California#9",
+  "chunk_id_past": "/wiki/Klamath_County,_California#9@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 7,
+  "n_sent_new": 7,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "- Orleans Bar , 1850 - to Humboldt County in 1873 ."
+    ],
+    "new": [
+     "- Orleans Bar , 1850 - to Humboldt County in 1875 ."
+    ]
+   }
+  ],
+  "old_text": "Klamath_County_California | History\n - Nearp’s Flat , 1850 - ? , on the Salmon River , now in Siskiyou County . - Negro Flat , 1850 - on the Salmon River , now in Siskiyou County . - Orleans Bar , 1850 - to Humboldt County in 1873 . - Petersburgh , 1869 - 1876 , to Siskiyou County in 1875 . - Red Cap , 1850 - ? , on the Klamath River , now in Humboldt County . - Sawyers Bar , 1850 - to Siskiyou County in 1875 . - Sommes Bar , to Siskiyou County in 1875 .",
+  "new_text": "Klamath_County_California | History\n - Nearp’s Flat , 1850 - ? , on the Salmon River , now in Siskiyou County . - Negro Flat , 1850 - on the Salmon River , now in Siskiyou County . - Orleans Bar , 1850 - to Humboldt County in 1875 . - Petersburgh , 1869 - 1876 , to Siskiyou County in 1875 . - Red Cap , 1850 - ? , on the Klamath River , now in Humboldt County . - Sawyers Bar , 1850 - to Siskiyou County in 1875 . - Sommes Bar , to Siskiyou County in 1875 ."
+ },
+ {
+  "edit_id": "test_clean-089",
+  "type": "C",
+  "page": "United_States_Air_Forces_in_Europe_Air_Forces_Africa",
+  "chunk_id": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82",
+  "chunk_id_past": "/wiki/United_States_Air_Forces_in_Europe_–_Air_Forces_Africa#82@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In addition , Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1966 ."
+    ],
+    "new": [
+     "In addition , Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1970 ."
+    ]
+   }
+  ],
+  "old_text": "United_States_Air_Forces_in_Europe_Air_Forces_Africa | USAFE in Turkey\nand Trabzon were turned over to the Turkish government . In addition , Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1966 . The U.S . continued , however , to fund the maintenance of numerous facilities there . Altogether , between 1967 and 1970 , the number of Americans in Turkey dropped from 24,000 to 15,000 .",
+  "new_text": "United_States_Air_Forces_in_Europe_Air_Forces_Africa | USAFE in Turkey\nand Trabzon were turned over to the Turkish government . In addition , Cigli Air Base , which since 1963 had been used by USAF rotational squadrons , was turned over to the Turkish Air Force in 1970 . The U.S . continued , however , to fund the maintenance of numerous facilities there . Altogether , between 1967 and 1970 , the number of Americans in Turkey dropped from 24,000 to 15,000 ."
+ },
+ {
+  "edit_id": "test_clean-093",
+  "type": "C",
+  "page": "UD_Las_Palmas",
+  "chunk_id": "/wiki/UD_Las_Palmas#21",
+  "chunk_id_past": "/wiki/UD_Las_Palmas#21@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "A third side was founded in 2004 and reached the highest division of regional football , the Preferente , before folding in 2010 and being re-created the following season ."
+    ],
+    "new": [
+     "A third side was founded in 2006 and reached the highest division of regional football , the Preferente , before folding in 2010 and being re-created the following season ."
+    ]
+   }
+  ],
+  "old_text": "UD_Las_Palmas | Affiliated teams\n Las Palmas has used farm teams since 1954 , but its official B-team , Las Palmas Atlético , was founded in 1976 . A third side was founded in 2004 and reached the highest division of regional football , the Preferente , before folding in 2010 and being re-created the following season . The club also had a womens team in the top division between 2009 and 2011 . In 2010 Las Palmas founded an indoor football team for the Liga de Fútbol Indoor , staging matches at the Centro Insular de Deportes .",
+  "new_text": "UD_Las_Palmas | Affiliated teams\n Las Palmas has used farm teams since 1954 , but its official B-team , Las Palmas Atlético , was founded in 1976 . A third side was founded in 2006 and reached the highest division of regional football , the Preferente , before folding in 2010 and being re-created the following season . The club also had a womens team in the top division between 2009 and 2011 . In 2010 Las Palmas founded an indoor football team for the Liga de Fútbol Indoor , staging matches at the Centro Insular de Deportes ."
+ },
+ {
+  "edit_id": "test_clean-055",
+  "type": "C",
+  "page": "Many_a_Slip_radio_series",
+  "chunk_id": "/wiki/Many_a_Slip_(radio_series)#2",
+  "chunk_id_past": "/wiki/Many_a_Slip_(radio_series)#2@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The new panellists were replaced after only one series by Tim Rice and Gillian Reynolds who remained until the show ended in 1978 ."
+    ],
+    "new": [
+     "The new panellists were replaced after only one series by Tim Rice and Gillian Reynolds who remained until the show ended in 1979 ."
+    ]
+   }
+  ],
+  "old_text": "Many_a_Slip_radio_series | Contestants\nIn the early 1970s , Isobel Barnett and Richard Murdoch were replaced by Katharine Whitehorn and Paul Jennings . The new panellists were replaced after only one series by Tim Rice and Gillian Reynolds who remained until the show ended in 1978 .",
+  "new_text": "Many_a_Slip_radio_series | Contestants\nIn the early 1970s , Isobel Barnett and Richard Murdoch were replaced by Katharine Whitehorn and Paul Jennings . The new panellists were replaced after only one series by Tim Rice and Gillian Reynolds who remained until the show ended in 1979 ."
+ },
+ {
+  "edit_id": "test_clean-139",
+  "type": "C",
+  "page": "6th_Combined_Arms_Army",
+  "chunk_id": "/wiki/6th_Combined_Arms_Army#13",
+  "chunk_id_past": "/wiki/6th_Combined_Arms_Army#13@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "On 15 January 1970 , it was awarded the Order of the Red Banner ."
+    ],
+    "new": [
+     "On 15 January 1974 , it was awarded the Order of the Red Banner ."
+    ]
+   }
+  ],
+  "old_text": "6th_Combined_Arms_Army | Fifth Formation\nThe army was reformed again from Headquarters Northern Military District in May–June 1960 with headquarters at Petrozavodsk . On 15 January 1970 , it was awarded the Order of the Red Banner .",
+  "new_text": "6th_Combined_Arms_Army | Fifth Formation\nThe army was reformed again from Headquarters Northern Military District in May–June 1960 with headquarters at Petrozavodsk . On 15 January 1974 , it was awarded the Order of the Red Banner ."
+ },
+ {
+  "edit_id": "test_clean-164",
+  "type": "C",
+  "page": "Indianapolis_Indians",
+  "chunk_id": "/wiki/Indianapolis_Indians#1",
+  "chunk_id_past": "/wiki/Indianapolis_Indians#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "After 15 years of various franchises competing in various leagues ( including four years in the National League and one year in the American Association ) , the current Indianapolis Indians franchise was founded as an original member of the American Association in 1898 ."
+    ],
+    "new": [
+     "After 15 years of various franchises competing in various leagues ( including four years in the National League and one year in the American Association ) , the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902 ."
+    ]
+   }
+  ],
+  "old_text": "Indianapolis_Indians | History\nThe first attempt at professional baseball in Indianapolis came in the 1870s , when a club called the Indianapolis Blues operated in the National League in 1878 . After a hiatus , organized baseball began again in 1887 , and the city has hosted professional baseball nearly every year since then . After 15 years of various franchises competing in various leagues ( including four years in the National League and one year in the American Association ) , the current Indianapolis Indians franchise was founded as an original member of the American Association in 1898 . That years team",
+  "new_text": "Indianapolis_Indians | History\nThe first attempt at professional baseball in Indianapolis came in the 1870s , when a club called the Indianapolis Blues operated in the National League in 1878 . After a hiatus , organized baseball began again in 1887 , and the city has hosted professional baseball nearly every year since then . After 15 years of various franchises competing in various leagues ( including four years in the National League and one year in the American Association ) , the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902 . That years team"
+ },
+ {
+  "edit_id": "test_clean-156",
+  "type": "C",
+  "page": "Fellbach",
+  "chunk_id": "/wiki/Fellbach#5",
+  "chunk_id_past": "/wiki/Fellbach#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 8,
+  "n_sent_new": 8,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "After its dissolution in 1927 Fellbach came to Oberamt Waiblingen , this became in 1938 Waiblingen district ."
+    ],
+    "new": [
+     "After its dissolution in 1923 Fellbach came to Oberamt Waiblingen , this became in 1938 Waiblingen district ."
+    ]
+   }
+  ],
+  "old_text": "Fellbach | History\nFellbach was first mentioned as Velbach in 1121 . The name Velebach appeared in 1357 and Fehlbach in 1800 . Several landlords had possessions in Fellbach , the House Württemberg bought piece by piece . First , the village belonged to Oberamt Cannstatt . After its dissolution in 1927 Fellbach came to Oberamt Waiblingen , this became in 1938 Waiblingen district . After Fellbach had grown to the largest Württemberg village , the community was named October 14 , 1933 for city . After World War II , the population crossed the 20,000 threshold . Therefore , Fellbach was appointed",
+  "new_text": "Fellbach | History\nFellbach was first mentioned as Velbach in 1121 . The name Velebach appeared in 1357 and Fehlbach in 1800 . Several landlords had possessions in Fellbach , the House Württemberg bought piece by piece . First , the village belonged to Oberamt Cannstatt . After its dissolution in 1923 Fellbach came to Oberamt Waiblingen , this became in 1938 Waiblingen district . After Fellbach had grown to the largest Württemberg village , the community was named October 14 , 1933 for city . After World War II , the population crossed the 20,000 threshold . Therefore , Fellbach was appointed"
+ },
+ {
+  "edit_id": "test_clean-145",
+  "type": "C",
+  "page": "Ludwig_Martens",
+  "chunk_id": "/wiki/Ludwig_Martens#0",
+  "chunk_id_past": "/wiki/Ludwig_Martens#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 1,
+  "n_sent_new": 1,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Ludwig Christian Alexander Karl Martens ( or Ludwig Karlovich Martens ; ; − 19 October 1944 ) was a Russian Marxist revolutionary , Soviet diplomat and engineer ."
+    ],
+    "new": [
+     "Ludwig Christian Alexander Karl Martens ( or Ludwig Karlovich Martens ; ; − 19 October 1948 ) was a Russian Marxist revolutionary , Soviet diplomat and engineer ."
+    ]
+   }
+  ],
+  "old_text": "Ludwig_Martens | Ludwig Martens\n Ludwig Christian Alexander Karl Martens ( or Ludwig Karlovich Martens ; ; − 19 October 1944 ) was a Russian Marxist revolutionary , Soviet diplomat and engineer .",
+  "new_text": "Ludwig_Martens | Ludwig Martens\n Ludwig Christian Alexander Karl Martens ( or Ludwig Karlovich Martens ; ; − 19 October 1948 ) was a Russian Marxist revolutionary , Soviet diplomat and engineer ."
+ },
+ {
+  "edit_id": "test_clean-173",
+  "type": "C",
+  "page": "German_submarine_U_120_1940",
+  "chunk_id": "/wiki/German_submarine_U-120_(1940)#7",
+  "chunk_id_past": "/wiki/German_submarine_U-120_(1940)#7@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The boat was raised in 1951 and broken up for scrap ."
+    ],
+    "new": [
+     "The boat was raised in 1950 and broken up for scrap ."
+    ]
+   }
+  ],
+  "old_text": "German_submarine_U_120_1940 | Service history\nMarch 1945 when she became part of the 31st U-boat Flotilla ( training ) until 2 May 1945 when she was scuttled at Bremerhaven . The boat was raised in 1951 and broken up for scrap .",
+  "new_text": "German_submarine_U_120_1940 | Service history\nMarch 1945 when she became part of the 31st U-boat Flotilla ( training ) until 2 May 1945 when she was scuttled at Bremerhaven . The boat was raised in 1950 and broken up for scrap ."
+ },
+ {
+  "edit_id": "test_clean-107",
+  "type": "C",
+  "page": "Guy_Aldred",
+  "chunk_id": "/wiki/Guy_Aldred#17",
+  "chunk_id_past": "/wiki/Guy_Aldred#17@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Although they were drifting apart by the time Aldred settled permanently in Glasgow in 1919 , finally parting in 1924 , they had a legal marriage on 2 February 1926 , when it seemed possible Witcop might be deported for her continuing work on family planning ."
+    ],
+    "new": [
+     "Although they were drifting apart by the time Aldred settled permanently in Glasgow in 1922 , finally parting in 1924 , they had a legal marriage on 2 February 1926 , when it seemed possible Witcop might be deported for her continuing work on family planning ."
+    ]
+   }
+  ],
+  "old_text": "Guy_Aldred | Free love\n Aldred and Witcop had a son , Annesley , in 1909 . Although they were drifting apart by the time Aldred settled permanently in Glasgow in 1919 , finally parting in 1924 , they had a legal marriage on 2 February 1926 , when it seemed possible Witcop might be deported for her continuing work on family planning .",
+  "new_text": "Guy_Aldred | Free love\n Aldred and Witcop had a son , Annesley , in 1909 . Although they were drifting apart by the time Aldred settled permanently in Glasgow in 1922 , finally parting in 1924 , they had a legal marriage on 2 February 1926 , when it seemed possible Witcop might be deported for her continuing work on family planning ."
+ },
+ {
+  "edit_id": "test_clean-160",
+  "type": "C",
+  "page": "Mbaye_Jacques_Diop",
+  "chunk_id": "/wiki/Mbaye-Jacques_Diop#8",
+  "chunk_id_past": "/wiki/Mbaye-Jacques_Diop#8@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He joined the National Political Administration of the PDS in May 2006 and joined the PDS Steering Committee in May 2004 ."
+    ],
+    "new": [
+     "He joined the National Political Administration of the PDS in May 2003 and joined the PDS Steering Committee in May 2004 ."
+    ]
+   }
+  ],
+  "old_text": "Mbaye_Jacques_Diop | Party split\nThe PPC merged itself into Wades party , the PDS , on 20 May 2002 ; Diop became National Political Secretary of the PDS at that time . Also in 2002 , Diop left his position as Mayor of Rufisque , becoming Honorary Mayor instead . He joined the National Political Administration of the PDS in May 2006 and joined the PDS Steering Committee in May 2004 . Wade then appointed Diop as President of the CRAES when that body was created in August 2004 . Diop also became President of the Union of Economic and Social Councils and Similar",
+  "new_text": "Mbaye_Jacques_Diop | Party split\nThe PPC merged itself into Wades party , the PDS , on 20 May 2002 ; Diop became National Political Secretary of the PDS at that time . Also in 2002 , Diop left his position as Mayor of Rufisque , becoming Honorary Mayor instead . He joined the National Political Administration of the PDS in May 2003 and joined the PDS Steering Committee in May 2004 . Wade then appointed Diop as President of the CRAES when that body was created in August 2004 . Diop also became President of the Union of Economic and Social Councils and Similar"
+ },
+ {
+  "edit_id": "test_clean-078",
+  "type": "C",
+  "page": "G_ivuotna_K_fjord_Kaivuono",
+  "chunk_id": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1",
+  "chunk_id_past": "/wiki/Gáivuotna_–_Kåfjord_–_Kaivuono#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The municipality of Kåfjord was established in 1928 when the large Lyngen Municipality was divided into three : Lyngen in the northwest , Kåfjord in the northeast , and Storfjord Municipality in the south ."
+    ],
+    "new": [
+     "The municipality of Kåfjord was established in 1929 when the large Lyngen Municipality was divided into three : Lyngen in the northwest , Kåfjord in the northeast , and Storfjord Municipality in the south ."
+    ]
+   }
+  ],
+  "old_text": "G_ivuotna_K_fjord_Kaivuono | General information\n The municipality of Kåfjord was established in 1928 when the large Lyngen Municipality was divided into three : Lyngen in the northwest , Kåfjord in the northeast , and Storfjord Municipality in the south . The initial population of Kåfjord was 2,482 . Then on 1 January 1992 , the Nordnes area along the Lyngen fjord in Lyngen Municipality ( population : 38 ) was transferred to Kåfjord Municipality .",
+  "new_text": "G_ivuotna_K_fjord_Kaivuono | General information\n The municipality of Kåfjord was established in 1929 when the large Lyngen Municipality was divided into three : Lyngen in the northwest , Kåfjord in the northeast , and Storfjord Municipality in the south . The initial population of Kåfjord was 2,482 . Then on 1 January 1992 , the Nordnes area along the Lyngen fjord in Lyngen Municipality ( population : 38 ) was transferred to Kåfjord Municipality ."
+ },
+ {
+  "edit_id": "test_clean-122",
+  "type": "C",
+  "page": "FCI_Levadia_Tallinn",
+  "chunk_id": "/wiki/FCI_Levadia_Tallinn#11",
+  "chunk_id_past": "/wiki/FCI_Levadia_Tallinn#11@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 8,
+  "n_sent_new": 8,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Opened in 2003 and expanded from 2016 to 2018 , it is the largest football stadium in Estonia ."
+    ],
+    "new": [
+     "Opened in 2001 and expanded from 2016 to 2018 , it is the largest football stadium in Estonia ."
+    ]
+   }
+  ],
+  "old_text": "FCI_Levadia_Tallinn | Stadiums\n A . Le Coq Arena . The clubs home ground is the 14,336-seat A . Le Coq Arena ( known as Lilleküla Stadium prior to sponsorship ) . Opened in 2003 and expanded from 2016 to 2018 , it is the largest football stadium in Estonia . The Lilleküla Football Complex also includes two grass surface pitches , two artificial turf pitches and an indoor hall . A . Le Coq Arena is located at Jalgpalli 21 , Kesklinn , Tallinn .",
+  "new_text": "FCI_Levadia_Tallinn | Stadiums\n A . Le Coq Arena . The clubs home ground is the 14,336-seat A . Le Coq Arena ( known as Lilleküla Stadium prior to sponsorship ) . Opened in 2001 and expanded from 2016 to 2018 , it is the largest football stadium in Estonia . The Lilleküla Football Complex also includes two grass surface pitches , two artificial turf pitches and an indoor hall . A . Le Coq Arena is located at Jalgpalli 21 , Kesklinn , Tallinn ."
+ },
+ {
+  "edit_id": "test_clean-066",
+  "type": "C",
+  "page": "Wellington_Somerset",
+  "chunk_id": "/wiki/Wellington,_Somerset#8",
+  "chunk_id_past": "/wiki/Wellington,_Somerset#8@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "By the time of the Domesday Book of 1082 , the name had changed to Walintone and the estate was owned by Gisa ( Bishop of Wells ) ."
+    ],
+    "new": [
+     "By the time of the Domesday Book of 1086 , the name had changed to Walintone and the estate was owned by Gisa ( Bishop of Wells ) ."
+    ]
+   }
+  ],
+  "old_text": "Wellington_Somerset | History\nIn a grant of between 899 and 909 Edward the Elder gave the land then known as Weolingtun , which means wealthy estate , along with West Buckland and Bishops Lydeard to Bishop Asser . This was in exchange for the monastery of Plympton in Devon . An alternative explanation for the origin of the name is the settlement in the temple clearing . By the time of the Domesday Book of 1082 , the name had changed to Walintone and the estate was owned by Gisa ( Bishop of Wells ) . The parish of Wellington was part of",
+  "new_text": "Wellington_Somerset | History\nIn a grant of between 899 and 909 Edward the Elder gave the land then known as Weolingtun , which means wealthy estate , along with West Buckland and Bishops Lydeard to Bishop Asser . This was in exchange for the monastery of Plympton in Devon . An alternative explanation for the origin of the name is the settlement in the temple clearing . By the time of the Domesday Book of 1086 , the name had changed to Walintone and the estate was owned by Gisa ( Bishop of Wells ) . The parish of Wellington was part of"
+ },
+ {
+  "edit_id": "test_clean-072",
+  "type": "C",
+  "page": "The_Fifer",
+  "chunk_id": "/wiki/The_Fifer#5",
+  "chunk_id_past": "/wiki/The_Fifer#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Between 1869 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure ."
+    ],
+    "new": [
+     "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure ."
+    ]
+   }
+  ],
+  "old_text": "The_Fifer | History\n The painting was acquired by Durand-Ruell in 1872 and again in 1893 . Between 1869 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure . It was included in a large exhibition of Manets work in 1884 , a year after his premature death .",
+  "new_text": "The_Fifer | History\n The painting was acquired by Durand-Ruell in 1872 and again in 1893 . Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure . It was included in a large exhibition of Manets work in 1884 , a year after his premature death ."
+ },
+ {
+  "edit_id": "test_clean-162",
+  "type": "C",
+  "page": "The_Athenaeum_British_magazine",
+  "chunk_id": "/wiki/The_Athenaeum_(British_magazine)#3",
+  "chunk_id_past": "/wiki/The_Athenaeum_(British_magazine)#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1879 until 1898 ."
+    ],
+    "new": [
+     "Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898 ."
+    ]
+   }
+  ],
+  "old_text": "The_Athenaeum_British_magazine | Contributors\n George Darley was a staff critic during the early years , and Gerald Massey contributed many literary reviews – mainly on poetry – during the period 1858 to 1868 . Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1879 until 1898 . Frederic George Stephens was art editor from 1860 until 1901 , when he was replaced by Roger Fry because of his unfashionable disapproval of Impressionism ; Stephens continued to contribute book reviews and obituaries until 1904 . Arthur Symons joined the staff in 1891 .",
+  "new_text": "The_Athenaeum_British_magazine | Contributors\n George Darley was a staff critic during the early years , and Gerald Massey contributed many literary reviews – mainly on poetry – during the period 1858 to 1868 . Theodore Watts-Dunton contributed regularly as the principal critic of poetry from 1875 until 1898 . Frederic George Stephens was art editor from 1860 until 1901 , when he was replaced by Roger Fry because of his unfashionable disapproval of Impressionism ; Stephens continued to contribute book reviews and obituaries until 1904 . Arthur Symons joined the staff in 1891 ."
+ },
+ {
+  "edit_id": "test_clean-100",
+  "type": "C",
+  "page": "Elgin_and_Winter_Garden_Theatres",
+  "chunk_id": "/wiki/Elgin_and_Winter_Garden_Theatres#5",
+  "chunk_id_past": "/wiki/Elgin_and_Winter_Garden_Theatres#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since 1980 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival ."
+    ],
+    "new": [
+     "Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival ."
+    ]
+   }
+  ],
+  "old_text": "Elgin_and_Winter_Garden_Theatres | Recent history\n Since 1980 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival . In 1981 , the Ontario Heritage Foundation bought the structure from Famous Players . From March 1985 through March 1987 the musical Cats was very successfully presented in the essentially unrestored Elgin , showing the viability of the theatre . The building closed in 1987 for a full restoration and reopened in 1989 .",
+  "new_text": "Elgin_and_Winter_Garden_Theatres | Recent history\n Since 1979 , the Elgin Theatre has served as one of the hosts to the annual Toronto International Film Festival . In 1981 , the Ontario Heritage Foundation bought the structure from Famous Players . From March 1985 through March 1987 the musical Cats was very successfully presented in the essentially unrestored Elgin , showing the viability of the theatre . The building closed in 1987 for a full restoration and reopened in 1989 ."
+ },
+ {
+  "edit_id": "test_clean-114",
+  "type": "C",
+  "page": "Lisa_Marie_Presley",
+  "chunk_id": "/wiki/Lisa_Marie_Presley#59",
+  "chunk_id_past": "/wiki/Lisa_Marie_Presley#59@past",
+  "changed": true,
+  "matches_edit_record": false,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 1995 , Presley became more closely involved in the management of the Elvis Presley Trust and its business entity , Elvis Presley Enterprises , Inc ."
+    ],
+    "new": [
+     "In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust and its business entity , Elvis Presley Enterprises , Inc ."
+    ]
+   }
+  ],
+  "old_text": "Lisa_Marie_Presley | Elvis Presley estate\n On her 25th birthday in 1993 , Presley inherited her fathers estate , which , thanks largely to the stewardship of her mother , had grown to an estimated $100 million . In 1995 , Presley became more closely involved in the management of the Elvis Presley Trust and its business entity , Elvis Presley Enterprises , Inc . ( EPE ) . She was owner and Chairman of the Board until February 2005 , when she sold 85% of the estates business holdings to CKX , Inc. , excluding Graceland itself and the property within it .",
+  "new_text": "Lisa_Marie_Presley | Elvis Presley estate\n On her 25th birthday in 1993 , Presley inherited her fathers estate , which , thanks largely to the stewardship of her mother , had grown to an estimated $100 million . In 1998 , Presley became more closely involved in the management of the Elvis Presley Trust and its business entity , Elvis Presley Enterprises , Inc . ( EPE ) . She was owner and Chairman of the Board until February 2005 , when she sold 85% of the estates business holdings to CKX , Inc. , excluding Graceland itself and the property within it ."
+ },
+ {
+  "edit_id": "test_clean-166",
+  "type": "C",
+  "page": "Nikolai_Kuznetsov_admiral",
+  "chunk_id": "/wiki/Nikolai_Kuznetsov_(admiral)#0",
+  "chunk_id_past": "/wiki/Nikolai_Kuznetsov_(admiral)#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Nikolay Gerasimovich Kuznetsov ( ; 24 July 1904 – 6 December 1971 ) was a Soviet naval officer who achieved the rank of Admiral of the Fleet of the Soviet Union and served as Peoples Commissar of the Navy during the Second World War ."
+    ],
+    "new": [
+     "Nikolay Gerasimovich Kuznetsov ( ; 24 July 1904 – 6 December 1974 ) was a Soviet naval officer who achieved the rank of Admiral of the Fleet of the Soviet Union and served as Peoples Commissar of the Navy during the Second World War ."
+    ]
+   }
+  ],
+  "old_text": "Nikolai_Kuznetsov_admiral | Nikolai Kuznetsov ( admiral )\n Nikolay Gerasimovich Kuznetsov ( ; 24 July 1904 – 6 December 1971 ) was a Soviet naval officer who achieved the rank of Admiral of the Fleet of the Soviet Union and served as Peoples Commissar of the Navy during the Second World War . The N . G . Kuznetsov Naval Academy and the Russian aircraft carrier are named in his honor .",
+  "new_text": "Nikolai_Kuznetsov_admiral | Nikolai Kuznetsov ( admiral )\n Nikolay Gerasimovich Kuznetsov ( ; 24 July 1904 – 6 December 1974 ) was a Soviet naval officer who achieved the rank of Admiral of the Fleet of the Soviet Union and served as Peoples Commissar of the Navy during the Second World War . The N . G . Kuznetsov Naval Academy and the Russian aircraft carrier are named in his honor ."
+ },
+ {
+  "edit_id": "test_clean-168",
+  "type": "C",
+  "page": "Tommy_Bolin",
+  "chunk_id": "/wiki/Tommy_Bolin#0",
+  "chunk_id_past": "/wiki/Tommy_Bolin#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 1,
+  "n_sent_new": 1,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Thomas Richard Bolin ( August 1 , 1951 – December 4 , 1976 ) was an American guitarist and songwriter who played with Zephyr ( from 1969 to 1971 ) , The James Gang ( from 1977 to 1974 ) , and Deep Purple ( from 1975 to 1976 ) , in addition to maintaining a notable career as a solo artist and session musician ."
+    ],
+    "new": [
+     "Thomas Richard Bolin ( August 1 , 1951 – December 4 , 1976 ) was an American guitarist and songwriter who played with Zephyr ( from 1969 to 1971 ) , The James Gang ( from 1973 to 1974 ) , and Deep Purple ( from 1975 to 1976 ) , in addition to maintaining a notable career as a solo artist and session musician ."
+    ]
+   }
+  ],
+  "old_text": "Tommy_Bolin | Tommy Bolin\n Thomas Richard Bolin ( August 1 , 1951 – December 4 , 1976 ) was an American guitarist and songwriter who played with Zephyr ( from 1969 to 1971 ) , The James Gang ( from 1977 to 1974 ) , and Deep Purple ( from 1975 to 1976 ) , in addition to maintaining a notable career as a solo artist and session musician .",
+  "new_text": "Tommy_Bolin | Tommy Bolin\n Thomas Richard Bolin ( August 1 , 1951 – December 4 , 1976 ) was an American guitarist and songwriter who played with Zephyr ( from 1969 to 1971 ) , The James Gang ( from 1973 to 1974 ) , and Deep Purple ( from 1975 to 1976 ) , in addition to maintaining a notable career as a solo artist and session musician ."
+ },
+ {
+  "edit_id": "test_clean-151",
+  "type": "C",
+  "page": "Peter_Beattie",
+  "chunk_id": "/wiki/Peter_Beattie#37",
+  "chunk_id_past": "/wiki/Peter_Beattie#37@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In May 2008 Beattie released his autobiography Making A Difference , in which he described his upbringing , political life and his views on key issues , including health , education and social reform ."
+    ],
+    "new": [
+     "In May 2005 Beattie released his autobiography Making A Difference , in which he described his upbringing , political life and his views on key issues , including health , education and social reform ."
+    ]
+   }
+  ],
+  "old_text": "Peter_Beattie | Autobiography\nIn May 2008 Beattie released his autobiography Making A Difference , in which he described his upbringing , political life and his views on key issues , including health , education and social reform . The book is part memoir , part manifesto . Beattie says that the reason he released the book while he is in office , rather than when he is retired , is because no-one would want to read about him if he was not in the public arena . It was Beatties third book after his autobiographical piece In the Arena ( 1990 ) and",
+  "new_text": "Peter_Beattie | Autobiography\nIn May 2005 Beattie released his autobiography Making A Difference , in which he described his upbringing , political life and his views on key issues , including health , education and social reform . The book is part memoir , part manifesto . Beattie says that the reason he released the book while he is in office , rather than when he is retired , is because no-one would want to read about him if he was not in the public arena . It was Beatties third book after his autobiographical piece In the Arena ( 1990 ) and"
+ },
+ {
+  "edit_id": "test_clean-152",
+  "type": "C",
+  "page": "William_B_Umstead",
+  "chunk_id": "/wiki/William_B._Umstead#3",
+  "chunk_id_past": "/wiki/William_B._Umstead#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Umstead was a prosecutor for most of his legal career and served as the elected solicitor ( today called district attorney ) for a five-county district from 1926 to 1933 ."
+    ],
+    "new": [
+     "Umstead was a prosecutor for most of his legal career and served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933 ."
+    ]
+   }
+  ],
+  "old_text": "William_B_Umstead | Career\n Umstead taught high school history for approximately one school year before joining the army after the U.S . entry into World War I . He served as an officer and saw combat in France ; Umstead was discharged in 1919 as a first lieutenant . He later entered law school at Trinity College ( now Duke University ) . Umstead was a prosecutor for most of his legal career and served as the elected solicitor ( today called district attorney ) for a five-county district from 1926 to 1933 .",
+  "new_text": "William_B_Umstead | Career\n Umstead taught high school history for approximately one school year before joining the army after the U.S . entry into World War I . He served as an officer and saw combat in France ; Umstead was discharged in 1919 as a first lieutenant . He later entered law school at Trinity College ( now Duke University ) . Umstead was a prosecutor for most of his legal career and served as the elected solicitor ( today called district attorney ) for a five-county district from 1927 to 1933 ."
+ },
+ {
+  "edit_id": "test_clean-052",
+  "type": "C",
+  "page": "Germaine_of_Foix",
+  "chunk_id": "/wiki/Germaine_of_Foix#11",
+  "chunk_id_past": "/wiki/Germaine_of_Foix#11@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 1520 Charles V appointed the couple jointly viceroys of Valencia ."
+    ],
+    "new": [
+     "In 1523 Charles V appointed the couple jointly viceroys of Valencia ."
+    ]
+   }
+  ],
+  "old_text": "Germaine_of_Foix | Vicereine of Valencia\nIn 1520 Charles V appointed the couple jointly viceroys of Valencia . There Germaine , recently returned to Spain , dealt with the fallout of the Revolt of the Brotherhoods by the Valencian guilds ( Germanies ) . Germaine favored harsh treatment of the agermanats ; she is thought to have signed the death warrants of 100 former rebels personally , and sources indicate that as many as 800 executions may have occurred in total . This undid the more lenient policy of Diego Hurtado de Mendoza , who had favored reconciliation with the rebels . In December 1524 ,",
+  "new_text": "Germaine_of_Foix | Vicereine of Valencia\nIn 1523 Charles V appointed the couple jointly viceroys of Valencia . There Germaine , recently returned to Spain , dealt with the fallout of the Revolt of the Brotherhoods by the Valencian guilds ( Germanies ) . Germaine favored harsh treatment of the agermanats ; she is thought to have signed the death warrants of 100 former rebels personally , and sources indicate that as many as 800 executions may have occurred in total . This undid the more lenient policy of Diego Hurtado de Mendoza , who had favored reconciliation with the rebels . In December 1524 ,"
+ },
+ {
+  "edit_id": "test_clean-111",
+  "type": "C",
+  "page": "All_Nippon_Airways",
+  "chunk_id": "/wiki/All_Nippon_Airways#1",
+  "chunk_id_past": "/wiki/All_Nippon_Airways#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In October 2003 , the airline became a member of Star Alliance ."
+    ],
+    "new": [
+     "In October 1999 , the airline became a member of Star Alliance ."
+    ]
+   }
+  ],
+  "old_text": "All_Nippon_Airways | All Nippon Airways\nIn addition to its mainline operations , ANA controls several subsidiary passenger carriers , including its regional airline , ANA Wings , Air Nippon , Air Do ( a low-cost carrier operating scheduled service between Tokyo and cities in Hokkaido ) , and Allex Cargo ( ANA Cargo - the freighter division operated by Air Japan ) . ANA is also the largest shareholder in Peach , a low-cost carrier joint venture with Hong Kong company First Eastern Investment Group . In October 2003 , the airline became a member of Star Alliance . On 29 March 2013 , ANA",
+  "new_text": "All_Nippon_Airways | All Nippon Airways\nIn addition to its mainline operations , ANA controls several subsidiary passenger carriers , including its regional airline , ANA Wings , Air Nippon , Air Do ( a low-cost carrier operating scheduled service between Tokyo and cities in Hokkaido ) , and Allex Cargo ( ANA Cargo - the freighter division operated by Air Japan ) . ANA is also the largest shareholder in Peach , a low-cost carrier joint venture with Hong Kong company First Eastern Investment Group . In October 1999 , the airline became a member of Star Alliance . On 29 March 2013 , ANA"
+ },
+ {
+  "edit_id": "test_clean-183",
+  "type": "C",
+  "page": "Georges_Pompidou",
+  "chunk_id": "/wiki/Georges_Pompidou#23",
+  "chunk_id_past": "/wiki/Georges_Pompidou#23@past",
+  "changed": true,
+  "matches_edit_record": false,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "- Legion of Honour : - Chevalier de la Legion of Honour : ( France ) ( 1948 ) ; - Officier de la Legion of Honour : ( France ) ( 1954 ) ; - Grand-croix de la Legion of Honour : 1969 , grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic ) ; - Grand-croix de lOrdre national du Mérite ( France ) ; - Grand Cross of Order of St ."
+    ],
+    "new": [
+     "- Legion of Honour : - Chevalier de la Legion of Honour : ( France ) ( 1948 ) ; - Officier de la Legion of Honour : ( France ) ( 1957 ) ; - Grand-croix de la Legion of Honour : 1969 , grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic ) ; - Grand-croix de lOrdre national du Mérite ( France ) ; - Grand Cross of Order of St ."
+    ]
+   }
+  ],
+  "old_text": "Georges_Pompidou | Medal\n - Legion of Honour : - Chevalier de la Legion of Honour : ( France ) ( 1948 ) ; - Officier de la Legion of Honour : ( France ) ( 1954 ) ; - Grand-croix de la Legion of Honour : 1969 , grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic ) ; - Grand-croix de lOrdre national du Mérite ( France ) ; - Grand Cross of Order of St . Olav ( Norway ) ( 1962 ) ; - Grand Cordon of Order of Leopold ( Belgium ) .",
+  "new_text": "Georges_Pompidou | Medal\n - Legion of Honour : - Chevalier de la Legion of Honour : ( France ) ( 1948 ) ; - Officier de la Legion of Honour : ( France ) ( 1957 ) ; - Grand-croix de la Legion of Honour : 1969 , grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic ) ; - Grand-croix de lOrdre national du Mérite ( France ) ; - Grand Cross of Order of St . Olav ( Norway ) ( 1962 ) ; - Grand Cordon of Order of Leopold ( Belgium ) ."
+ },
+ {
+  "edit_id": "test_clean-011",
+  "type": "E",
+  "page": "Jeff_Goldblum",
+  "chunk_id": "/wiki/Jeff_Goldblum#20",
+  "chunk_id_past": "/wiki/Jeff_Goldblum#20@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since 1987 , he has been married to Geena Davis , his co-star in Transylvania 6-5000 ( 1985 ) , The Fly ( 1986 ) , and Earth Girls Are Easy ( 1988 ) ."
+    ],
+    "new": [
+     "From 1987 to 1991 , he was married to Geena Davis , his co-star in Transylvania 6-5000 ( 1985 ) , The Fly ( 1986 ) , and Earth Girls Are Easy ( 1988 ) ."
+    ]
+   }
+  ],
+  "old_text": "Jeff_Goldblum | Personal life\n From 1980 to 1985 , Goldblum was married to Patricia Gaul , with whom he appeared in Silverado ( 1985 ) . Since 1987 , he has been married to Geena Davis , his co-star in Transylvania 6-5000 ( 1985 ) , The Fly ( 1986 ) , and Earth Girls Are Easy ( 1988 ) .",
+  "new_text": "Jeff_Goldblum | Personal life\n From 1980 to 1985 , Goldblum was married to Patricia Gaul , with whom he appeared in Silverado ( 1985 ) . From 1987 to 1991 , he was married to Geena Davis , his co-star in Transylvania 6-5000 ( 1985 ) , The Fly ( 1986 ) , and Earth Girls Are Easy ( 1988 ) ."
+ },
+ {
+  "edit_id": "test_clean-008",
+  "type": "E",
+  "page": "Joachim_L_w",
+  "chunk_id": "/wiki/Joachim_Löw#5",
+  "chunk_id_past": "/wiki/Joachim_Löw#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He eventually became the permanent manager and remains at the club ."
+    ],
+    "new": [
+     "He eventually became the permanent manager and was at the club until 21 May 1998 ."
+    ]
+   }
+  ],
+  "old_text": "Joachim_L_w | Early career\nIn 1995–96 , he became an assistant coach to VfB Stuttgart head coach Rolf Fringer . As Fringer had the opportunity to become coach of the Switzerland national team , Löw was promoted caretaker manager on 14 August 1996 . He eventually became the permanent manager and remains at the club . His first match as head coach was a 4–0 win against Schalke 04 on 17 August 1996 . They finished the 1996–97 Bundesliga season in fourth place . The 1997–98 season started with a 3–0 against Karlsruher SC on 22 July 1997 in the",
+  "new_text": "Joachim_L_w | Early career\nIn 1995–96 , he became an assistant coach to VfB Stuttgart head coach Rolf Fringer . As Fringer had the opportunity to become coach of the Switzerland national team , Löw was promoted caretaker manager on 14 August 1996 . He eventually became the permanent manager and was at the club until 21 May 1998 . His first match as head coach was a 4–0 win against Schalke 04 on 17 August 1996 . They finished the 1996–97 Bundesliga season in fourth place . The 1997–98 season started with a 3–0 against Karlsruher SC on 22 July 1997 in the"
+ },
+ {
+  "edit_id": "test_clean-015",
+  "type": "E",
+  "page": "Vuk_Dra_kovi",
+  "chunk_id": "/wiki/Vuk_Drašković#0",
+  "chunk_id_past": "/wiki/Vuk_Drašković#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He is the leader of the Serbian Renewal Movement , and served as the Deputy Prime Minister of the Federal Republic of Yugoslavia in 1999 and has served as the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia since 2006 ."
+    ],
+    "new": [
+     "He is the leader of the Serbian Renewal Movement , and served as the Deputy Prime Minister of the Federal Republic of Yugoslavia in 1999 and the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007 ."
+    ]
+   }
+  ],
+  "old_text": "Vuk_Dra_kovi | Vuk Drašković\n Vuk Drašković ( , ; born 29 November 1946 ) is a Serbian writer and politician . He is the leader of the Serbian Renewal Movement , and served as the Deputy Prime Minister of the Federal Republic of Yugoslavia in 1999 and has served as the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia since 2006 . He graduated from the University of Belgrade Faculty of Law in 1968 . From 1969-80 he worked as a journalist in the Yugoslav news agency Tanjug .",
+  "new_text": "Vuk_Dra_kovi | Vuk Drašković\n Vuk Drašković ( , ; born 29 November 1946 ) is a Serbian writer and politician . He is the leader of the Serbian Renewal Movement , and served as the Deputy Prime Minister of the Federal Republic of Yugoslavia in 1999 and the Minister of Foreign Affairs of both Serbia and Montenegro and Serbia from 2006 to 2007 . He graduated from the University of Belgrade Faculty of Law in 1968 . From 1969-80 he worked as a journalist in the Yugoslav news agency Tanjug ."
+ },
+ {
+  "edit_id": "test_clean-046",
+  "type": "E",
+  "page": "Bingolotto",
+  "chunk_id": "/wiki/Bingolotto#4",
+  "chunk_id_past": "/wiki/Bingolotto#4@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since October 1991 , Bingolotto has raised viewing figures from 1.3 million viewers to 2.1 million viewers ."
+    ],
+    "new": [
+     "From October 1991 to March 1992 , Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers ."
+    ]
+   }
+  ],
+  "old_text": "Bingolotto | Bingolotto\n On 19 October 1991 , Bingolotto premiered nationwide on TV4 with the popular Leif Loket Olsson as show host . The premiere episode was watched by 1.3 million viewers in Sweden , a very high and surprising viewing figure . Since October 1991 , Bingolotto has raised viewing figures from 1.3 million viewers to 2.1 million viewers . The success of the show was positively associated with the popularity of host Leif Loket Olsson .",
+  "new_text": "Bingolotto | Bingolotto\n On 19 October 1991 , Bingolotto premiered nationwide on TV4 with the popular Leif Loket Olsson as show host . The premiere episode was watched by 1.3 million viewers in Sweden , a very high and surprising viewing figure . From October 1991 to March 1992 , Bingolotto had raised viewing figures from 1.3 million viewers to 2.1 million viewers . The success of the show was positively associated with the popularity of host Leif Loket Olsson ."
+ },
+ {
+  "edit_id": "test_clean-018",
+  "type": "E",
+  "page": "Nick_Saban",
+  "chunk_id": "/wiki/Nick_Saban#8",
+  "chunk_id_past": "/wiki/Nick_Saban#8@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He has served as an assistant coach in NCAA Division I-A , at several schools : Syracuse in 1977 , West Virginia in 1978 and 1979 , Ohio State in 1980 and 1981 , Navy in 1982 , and Michigan State since 1983 ."
+    ],
+    "new": [
+     "He later served as an assistant coach in NCAA Division I-A , at several schools : Syracuse in 1977 , West Virginia in 1978 and 1979 , Ohio State in 1980 and 1981 , Navy in 1982 , and Michigan State from 1983 to 1987 ."
+    ]
+   }
+  ],
+  "old_text": "Nick_Saban | Early coaching career\n Saban had not intended to enter the coaching ranks until Don James hired him as a graduate assistant at Kent State , while Saban waited for his wife to graduate . He has served as an assistant coach in NCAA Division I-A , at several schools : Syracuse in 1977 , West Virginia in 1978 and 1979 , Ohio State in 1980 and 1981 , Navy in 1982 , and Michigan State since 1983 .",
+  "new_text": "Nick_Saban | Early coaching career\n Saban had not intended to enter the coaching ranks until Don James hired him as a graduate assistant at Kent State , while Saban waited for his wife to graduate . He later served as an assistant coach in NCAA Division I-A , at several schools : Syracuse in 1977 , West Virginia in 1978 and 1979 , Ohio State in 1980 and 1981 , Navy in 1982 , and Michigan State from 1983 to 1987 ."
+ },
+ {
+  "edit_id": "test_clean-032",
+  "type": "E",
+  "page": "DRB_Class_50",
+  "chunk_id": "/wiki/DRB_Class_50#1",
+  "chunk_id_past": "/wiki/DRB_Class_50#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Up to now , 3,164 Class 50 engines have been built by almost all the European locomotive factories – as so-called provisional war locomotives ( Übergangskriegslokomotiven ) and classified as 50 ÜK ."
+    ],
+    "new": [
+     "Up to 1948 , 3,164 Class 50 engines were built by almost all the European locomotive factories – towards the end as so-called provisional war locomotives ( Übergangskriegslokomotiven ) and classified as 50 ÜK ."
+    ]
+   }
+  ],
+  "old_text": "DRB_Class_50 | DRB Class 50\nThis class was procured as part of the German Nazi partys preparations for war that led into the Second World War . Up to now , 3,164 Class 50 engines have been built by almost all the European locomotive factories – as so-called provisional war locomotives ( Übergangskriegslokomotiven ) and classified as 50 ÜK .",
+  "new_text": "DRB_Class_50 | DRB Class 50\nThis class was procured as part of the German Nazi partys preparations for war that led into the Second World War . Up to 1948 , 3,164 Class 50 engines were built by almost all the European locomotive factories – towards the end as so-called provisional war locomotives ( Übergangskriegslokomotiven ) and classified as 50 ÜK ."
+ },
+ {
+  "edit_id": "test_clean-012",
+  "type": "E",
+  "page": "German_submarine_U_38_1938",
+  "chunk_id": "/wiki/German_submarine_U-38_(1938)#34",
+  "chunk_id_past": "/wiki/German_submarine_U-38_(1938)#34@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since December 1941 , U-38 has been used as a training boat in the 24th and 21st U-boat Flotillas ."
+    ],
+    "new": [
+     "From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas ."
+    ]
+   }
+  ],
+  "old_text": "German_submarine_U_38_1938 | Service history\n Life after active duty . Since December 1941 , U-38 has been used as a training boat in the 24th and 21st U-boat Flotillas . She was then used as a testing boat , until she was scuttled by her crew on 5 May 1945 .",
+  "new_text": "German_submarine_U_38_1938 | Service history\n Life after active duty . From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas . She was then used as a testing boat , until she was scuttled by her crew on 5 May 1945 ."
+ },
+ {
+  "edit_id": "test_clean-039",
+  "type": "E",
+  "page": "Fred_Hoiberg",
+  "chunk_id": "/wiki/Fred_Hoiberg#1",
+  "chunk_id_past": "/wiki/Fred_Hoiberg#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He was there from 2010 to 2015 before going on to coach in the NBA for the Chicago Bulls from 2015 to present ."
+    ],
+    "new": [
+     "He was there from 2010 to 2015 before going on to coach in the NBA for the Chicago Bulls from 2015 to 2018 ."
+    ]
+   }
+  ],
+  "old_text": "Fred_Hoiberg | Fred Hoiberg\nhe served as vice president for basketball operations for the Minnesota Timberwolves before beginning his coaching career at his alma mater , Iowa State University . He was there from 2010 to 2015 before going on to coach in the NBA for the Chicago Bulls from 2015 to present .",
+  "new_text": "Fred_Hoiberg | Fred Hoiberg\nhe served as vice president for basketball operations for the Minnesota Timberwolves before beginning his coaching career at his alma mater , Iowa State University . He was there from 2010 to 2015 before going on to coach in the NBA for the Chicago Bulls from 2015 to 2018 ."
+ },
+ {
+  "edit_id": "test_clean-026",
+  "type": "E",
+  "page": "Pinchas_Zukerman",
+  "chunk_id": "/wiki/Pinchas_Zukerman#3",
+  "chunk_id_past": "/wiki/Pinchas_Zukerman#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In the USA , Zukerman has been music director of the Saint Paul Chamber Orchestra since 1980 ."
+    ],
+    "new": [
+     "In the USA , Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987 ."
+    ]
+   }
+  ],
+  "old_text": "Pinchas_Zukerman | Life and career\nZukerman launched his conducting career in 1970 with the English Chamber Orchestra , and served as director of Londons South Bank Festival from 1971 to 1974 . In the USA , Zukerman has been music director of the Saint Paul Chamber Orchestra since 1980 . He later directed the summer festivals of the Dallas Symphony Orchestra ( 1991–95 ) and the Baltimore Symphony Orchestra ( 1996–99 ) . In 1999 , he became Music Director of Canadas National Arts Centre Orchestra ( NACO ) in Ottawa , stepping down from the post in 2015 . He has served as",
+  "new_text": "Pinchas_Zukerman | Life and career\nZukerman launched his conducting career in 1970 with the English Chamber Orchestra , and served as director of Londons South Bank Festival from 1971 to 1974 . In the USA , Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987 . He later directed the summer festivals of the Dallas Symphony Orchestra ( 1991–95 ) and the Baltimore Symphony Orchestra ( 1996–99 ) . In 1999 , he became Music Director of Canadas National Arts Centre Orchestra ( NACO ) in Ottawa , stepping down from the post in 2015 . He has served as"
+ },
+ {
+  "edit_id": "test_clean-045",
+  "type": "E",
+  "page": "1_Hanover_Square",
+  "chunk_id": "/wiki/1_Hanover_Square#3",
+  "chunk_id_past": "/wiki/1_Hanover_Square#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The New York Cotton Exchange , founded in 1870 , has occupied the building since 1872 ."
+    ],
+    "new": [
+     "The New York Cotton Exchange , founded in 1870 , occupied the building from 1872 to 1885 ."
+    ]
+   }
+  ],
+  "old_text": "1_Hanover_Square | 1 Hanover Square\nThe brownstone initially served as the headquarters of the Hanover Bank , while other commercial tenants occupied the brick buildings . The New York Cotton Exchange , founded in 1870 , has occupied the building since 1872 . The building subsequently served as the headquarters of W.R . Grace and Company until the early 1910s . In 1914 , the structures were purchased by the India House , a private club for gentlemen involved in foreign commerce , which continues to occupy the building . Over the years , various architects have made renovations to 1 Hanover Square ,",
+  "new_text": "1_Hanover_Square | 1 Hanover Square\nThe brownstone initially served as the headquarters of the Hanover Bank , while other commercial tenants occupied the brick buildings . The New York Cotton Exchange , founded in 1870 , occupied the building from 1872 to 1885 . The building subsequently served as the headquarters of W.R . Grace and Company until the early 1910s . In 1914 , the structures were purchased by the India House , a private club for gentlemen involved in foreign commerce , which continues to occupy the building . Over the years , various architects have made renovations to 1 Hanover Square ,"
+ },
+ {
+  "edit_id": "test_clean-003",
+  "type": "E",
+  "page": "Arseny_Mironov",
+  "chunk_id": "/wiki/Arseny_Mironov#0",
+  "chunk_id_past": "/wiki/Arseny_Mironov#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He is one of the oldest researchers in aircraft aerodynamics and flight testing , a Gromov Flight Research Institute ( GFRI ) director since 1981 , a recipient of the Stalin Prize in 1948 and the USSR State Prize in 1976 , and an honorary citizen of Zhukovsky ."
+    ],
+    "new": [
+     "He was one of the oldest researchers in aircraft aerodynamics and flight testing , a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985 , a recipient of the Stalin Prize in 1948 and the USSR State Prize in 1976 , and an honorary citizen of Zhukovsky ."
+    ]
+   }
+  ],
+  "old_text": "Arseny_Mironov | Arseny Mironov\n Arseny Dmitrievich Mironov ( 25 December 1917 – 3 July 2019 ) was a Russian scientist , aerospace engineer , and aviator . He is one of the oldest researchers in aircraft aerodynamics and flight testing , a Gromov Flight Research Institute ( GFRI ) director since 1981 , a recipient of the Stalin Prize in 1948 and the USSR State Prize in 1976 , and an honorary citizen of Zhukovsky .",
+  "new_text": "Arseny_Mironov | Arseny Mironov\n Arseny Dmitrievich Mironov ( 25 December 1917 – 3 July 2019 ) was a Russian scientist , aerospace engineer , and aviator . He was one of the oldest researchers in aircraft aerodynamics and flight testing , a Gromov Flight Research Institute ( GFRI ) director from 1981 to 1985 , a recipient of the Stalin Prize in 1948 and the USSR State Prize in 1976 , and an honorary citizen of Zhukovsky ."
+ },
+ {
+  "edit_id": "test_clean-004",
+  "type": "E",
+  "page": "Auditorium_Building_Chicago",
+  "chunk_id": "/wiki/Auditorium_Building_(Chicago)#17",
+  "chunk_id_past": "/wiki/Auditorium_Building_(Chicago)#17@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Among other notable acts , the Grateful Dead has played there ten times since 1971 ."
+    ],
+    "new": [
+     "Among other notable acts , the Grateful Dead played there ten times from 1971 through 1977 ."
+    ]
+   }
+  ],
+  "old_text": "Auditorium_Building_Chicago | Later uses\n On October 31 , 1967 , the Auditorium Theatre reopened and through 1975 , the Auditorium served as a rock venue . Among other notable acts , the Grateful Dead has played there ten times since 1971 . The Doors also played their first concert at the Auditorium Building after their arrest of singer Jim Morrison on June 14 , 1969 . It was declared a National Historic Landmark by the U.S . Department of the Interior in 1975 .",
+  "new_text": "Auditorium_Building_Chicago | Later uses\n On October 31 , 1967 , the Auditorium Theatre reopened and through 1975 , the Auditorium served as a rock venue . Among other notable acts , the Grateful Dead played there ten times from 1971 through 1977 . The Doors also played their first concert at the Auditorium Building after their arrest of singer Jim Morrison on June 14 , 1969 . It was declared a National Historic Landmark by the U.S . Department of the Interior in 1975 ."
+ },
+ {
+  "edit_id": "test_clean-037",
+  "type": "E",
+  "page": "George_A_White",
+  "chunk_id": "/wiki/George_A._White#3",
+  "chunk_id_past": "/wiki/George_A._White#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "White has served on the Mexican border since June 1916 ."
+    ],
+    "new": [
+     "After service on the Mexican border from June 1916 to February 1917 , White resumed his post in Oregon ."
+    ]
+   }
+  ],
+  "old_text": "George_A_White | Mexican Border Service\n White was appointed Adjutant General of Oregon on February 1 , 1915 . When the National Guard was Federalized for Mexican Border Service , he obtained a leave of absence in order to command a troop of Oregon cavalry . White has served on the Mexican border since June 1916 .",
+  "new_text": "George_A_White | Mexican Border Service\n White was appointed Adjutant General of Oregon on February 1 , 1915 . When the National Guard was Federalized for Mexican Border Service , he obtained a leave of absence in order to command a troop of Oregon cavalry . After service on the Mexican border from June 1916 to February 1917 , White resumed his post in Oregon ."
+ },
+ {
+  "edit_id": "test_clean-035",
+  "type": "E",
+  "page": "Audie_Murphy",
+  "chunk_id": "/wiki/Audie_Murphy#31",
+  "chunk_id_past": "/wiki/Audie_Murphy#31@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "On 16 February , Murphy was promoted to first lieutenant and has been awarded the Legion of Merit for his service from 22 January 1944 to the present ."
+    ],
+    "new": [
+     "On 16 February , Murphy was promoted to first lieutenant and was awarded the Legion of Merit for his service from 22 January 1944 to 18 February 1945 ."
+    ]
+   }
+  ],
+  "old_text": "Audie_Murphy | European Theater\n For his actions that day , he was awarded the Medal of Honor . The 3rd Infantry Division was awarded the Presidential Unit Citation for its actions at the Colmar Pocket , giving Murphy a Bronze Oak Leaf Cluster for the emblem . On 16 February , Murphy was promoted to first lieutenant and has been awarded the Legion of Merit for his service from 22 January 1944 to the present . He was moved from the front lines to Regimental Headquarters and made a liaison officer .",
+  "new_text": "Audie_Murphy | European Theater\n For his actions that day , he was awarded the Medal of Honor . The 3rd Infantry Division was awarded the Presidential Unit Citation for its actions at the Colmar Pocket , giving Murphy a Bronze Oak Leaf Cluster for the emblem . On 16 February , Murphy was promoted to first lieutenant and was awarded the Legion of Merit for his service from 22 January 1944 to 18 February 1945 . He was moved from the front lines to Regimental Headquarters and made a liaison officer ."
+ },
+ {
+  "edit_id": "test_clean-034",
+  "type": "E",
+  "page": "Blue_Coat_Systems",
+  "chunk_id": "/wiki/Blue_Coat_Systems#0",
+  "chunk_id_past": "/wiki/Blue_Coat_Systems#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The company is known as CacheFlow ."
+    ],
+    "new": [
+     "The company was known as CacheFlow until 2002 ."
+    ]
+   }
+  ],
+  "old_text": "Blue_Coat_Systems | Blue Coat Systems\n Blue Coat Systems was a company that provided hardware , software , and services designed for cybersecurity and network management . In 2016 , it was acquired by and folded into Symantec . The company is known as CacheFlow .",
+  "new_text": "Blue_Coat_Systems | Blue Coat Systems\n Blue Coat Systems was a company that provided hardware , software , and services designed for cybersecurity and network management . In 2016 , it was acquired by and folded into Symantec . The company was known as CacheFlow until 2002 ."
+ },
+ {
+  "edit_id": "test_clean-027",
+  "type": "E",
+  "page": "Calcio_Catania",
+  "chunk_id": "/wiki/Calcio_Catania#32",
+  "chunk_id_past": "/wiki/Calcio_Catania#32@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He currently has a contract with the Elefanti ."
+    ],
+    "new": [
+     "He signed a contract until June 2011 with the Elefanti ."
+    ]
+   }
+  ],
+  "old_text": "Calcio_Catania | Decline and revival\nOn 8 December 2009 , Siniša Mihajlović was appointed new head coach of Catania , taking over from Atzori . He currently has a contract with the Elefanti . Arriving at the club that was dead last in the Serie A standings , Mihajlović debuted with a loss against Livorno . The following week , however , his team pulled off a stunning upset by beating heavily favoured Juventus away in Turin with a 2–1 scoreline . After Mihajlovićs departure to Fiorentina , Catania appointed Marco Giampaolo as new head coach for the 2010–11 season . In January",
+  "new_text": "Calcio_Catania | Decline and revival\nOn 8 December 2009 , Siniša Mihajlović was appointed new head coach of Catania , taking over from Atzori . He signed a contract until June 2011 with the Elefanti . Arriving at the club that was dead last in the Serie A standings , Mihajlović debuted with a loss against Livorno . The following week , however , his team pulled off a stunning upset by beating heavily favoured Juventus away in Turin with a 2–1 scoreline . After Mihajlovićs departure to Fiorentina , Catania appointed Marco Giampaolo as new head coach for the 2010–11 season . In January"
+ },
+ {
+  "edit_id": "test_clean-048",
+  "type": "E",
+  "page": "Roger_Moore",
+  "chunk_id": "/wiki/Roger_Moore#1",
+  "chunk_id_past": "/wiki/Roger_Moore#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Moore has starred with Tony Curtis in The Persuaders ! television series since 1971 , and had roles in several theatrical films in the 1970s and 1980s ."
+    ],
+    "new": [
+     "Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972 , and had roles in several theatrical films in the 1970s and 1980s ."
+    ]
+   }
+  ],
+  "old_text": "Roger_Moore | Roger Moore\nOn television , Moore played the lead role of Simon Templar , the title character in the British television series The Saint ( 1962–1969 ) . He also had roles in some American television shows and films in the late 1950s and early 1960s , including replacing James Garner and portraying Beau Maverick in the Maverick series ( 1960–1961 ) . Moore has starred with Tony Curtis in The Persuaders ! television series since 1971 , and had roles in several theatrical films in the 1970s and 1980s .",
+  "new_text": "Roger_Moore | Roger Moore\nOn television , Moore played the lead role of Simon Templar , the title character in the British television series The Saint ( 1962–1969 ) . He also had roles in some American television shows and films in the late 1950s and early 1960s , including replacing James Garner and portraying Beau Maverick in the Maverick series ( 1960–1961 ) . Moore starred with Tony Curtis in The Persuaders ! television series from 1971 to 1972 , and had roles in several theatrical films in the 1970s and 1980s ."
+ },
+ {
+  "edit_id": "test_clean-022",
+  "type": "E",
+  "page": "Arnulf_verland",
+  "chunk_id": "/wiki/Arnulf_Øverland#5",
+  "chunk_id_past": "/wiki/Arnulf_Øverland#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He became a noted supporter for the conservative written form of Norwegian called Riksmål , he has been president of Riksmålsforbundet ( an organization in support of Riksmål ) since 1947 ."
+    ],
+    "new": [
+     "He became a noted supporter for the conservative written form of Norwegian called Riksmål , he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956 ."
+    ]
+   }
+  ],
+  "old_text": "Arnulf_verland | Biography\nØverland played an important role in the Norwegian language struggle in the post-war era . He became a noted supporter for the conservative written form of Norwegian called Riksmål , he has been president of Riksmålsforbundet ( an organization in support of Riksmål ) since 1947 . In addition , Øverland adhered to the traditionalist style of writing , criticising modernist poetry on several occasions . His speech Tungetale fra parnasset , published in Arbeiderbladet in 1954 , initiated the so-called Glossolalia debate .",
+  "new_text": "Arnulf_verland | Biography\nØverland played an important role in the Norwegian language struggle in the post-war era . He became a noted supporter for the conservative written form of Norwegian called Riksmål , he was president of Riksmålsforbundet ( an organization in support of Riksmål ) from 1947 to 1956 . In addition , Øverland adhered to the traditionalist style of writing , criticising modernist poetry on several occasions . His speech Tungetale fra parnasset , published in Arbeiderbladet in 1954 , initiated the so-called Glossolalia debate ."
+ },
+ {
+  "edit_id": "test_clean-050",
+  "type": "E",
+  "page": "Cutty_Sark",
+  "chunk_id": "/wiki/Cutty_Sark#49",
+  "chunk_id_past": "/wiki/Cutty_Sark#49@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since February she has been temporarily moved first for a refit and then to take part in the Festival of Britain at Deptford ."
+    ],
+    "new": [
+     "From February to October 1951 she was temporarily moved first for a refit and then to take part in the Festival of Britain at Deptford ."
+    ]
+   }
+  ],
+  "old_text": "Cutty_Sark | As Ferreira\nAt Greenhithe Cutty Sark acted as an auxiliary vessel to for sail training drill , but by 1950 she had become surplus to requirements . Since February she has been temporarily moved first for a refit and then to take part in the Festival of Britain at Deptford . On 30 January 1952 , the 800-ton tanker collided with Cutty Sarks bow in the Thames . The two ships were locked together after the collision which forced Cutty Sarks jibboom into Worcesters forecastle rails , snapping the boom before scraping along Worcesters starboard side . Cutty Sarks figurehead",
+  "new_text": "Cutty_Sark | As Ferreira\nAt Greenhithe Cutty Sark acted as an auxiliary vessel to for sail training drill , but by 1950 she had become surplus to requirements . From February to October 1951 she was temporarily moved first for a refit and then to take part in the Festival of Britain at Deptford . On 30 January 1952 , the 800-ton tanker collided with Cutty Sarks bow in the Thames . The two ships were locked together after the collision which forced Cutty Sarks jibboom into Worcesters forecastle rails , snapping the boom before scraping along Worcesters starboard side . Cutty Sarks figurehead"
+ },
+ {
+  "edit_id": "test_clean-031",
+  "type": "E",
+  "page": "Andr_Schembri",
+  "chunk_id": "/wiki/André_Schembri#12",
+  "chunk_id_past": "/wiki/André_Schembri#12@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Amid the clubs financial problems and a disappointing start to the season which saw them sitting at the bottom of the table , Schembri currently remains one of few players who are still with the club ."
+    ],
+    "new": [
+     "Amid the clubs financial problems and a disappointing start to the season which saw them sitting at the bottom of the table , Schembri was one of few players who was allowed to be released in January 2010 ."
+    ]
+   }
+  ],
+  "old_text": "Andr_Schembri | German stint\n After his contract expired with Marsaxlokk , Schembri joined Austria Kärnten on a two-year deal on 19 June 2009 . Amid the clubs financial problems and a disappointing start to the season which saw them sitting at the bottom of the table , Schembri currently remains one of few players who are still with the club . His only goal for the Austrian club came in a 2–3 defeat against Kapfenberger SV on 26 July .",
+  "new_text": "Andr_Schembri | German stint\n After his contract expired with Marsaxlokk , Schembri joined Austria Kärnten on a two-year deal on 19 June 2009 . Amid the clubs financial problems and a disappointing start to the season which saw them sitting at the bottom of the table , Schembri was one of few players who was allowed to be released in January 2010 . His only goal for the Austrian club came in a 2–3 defeat against Kapfenberger SV on 26 July ."
+ },
+ {
+  "edit_id": "test_clean-020",
+  "type": "E",
+  "page": "Herbert_Schultze",
+  "chunk_id": "/wiki/Herbert_Schultze#24",
+  "chunk_id_past": "/wiki/Herbert_Schultze#24@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He has served in this capacity since 2 July 1956 ."
+    ],
+    "new": [
+     "He served in this capacity from 2 July 1956 to 15 February 1959 ."
+    ]
+   }
+  ],
+  "old_text": "Herbert_Schultze | Post-war\nOn 2 July 1956 , Schultze joined the Bundesmarine of West Germany and served in a string of staff positions . His first disposition was commander of the 3rd Ship Home Department . He has served in this capacity since 2 July 1956 . He then served as Staff Officer Personnel ( A1 ) on the command staff of the naval base , was commander of convoy ships , teaching group leaders at the Naval Academy and head of the volunteer adoption headquarters of the Navy until his retirement on 30 September 1968 with the rank of",
+  "new_text": "Herbert_Schultze | Post-war\nOn 2 July 1956 , Schultze joined the Bundesmarine of West Germany and served in a string of staff positions . His first disposition was commander of the 3rd Ship Home Department . He served in this capacity from 2 July 1956 to 15 February 1959 . He then served as Staff Officer Personnel ( A1 ) on the command staff of the naval base , was commander of convoy ships , teaching group leaders at the Naval Academy and head of the volunteer adoption headquarters of the Navy until his retirement on 30 September 1968 with the rank of"
+ },
+ {
+  "edit_id": "test_clean-014",
+  "type": "E",
+  "page": "Internet_Architecture_Board",
+  "chunk_id": "/wiki/Internet_Architecture_Board#5",
+  "chunk_id_past": "/wiki/Internet_Architecture_Board#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The IAB has set for itself seven principal foci for the period since 1989 ."
+    ],
+    "new": [
+     "The IAB set for itself seven principal foci for the period of 1989 to 1990 ."
+    ]
+   }
+  ],
+  "old_text": "Internet_Architecture_Board | History and Origin\n The body which eventually became the IAB was created originally by the United States Department of Defenses Defense Advanced Research Projects Agency with the name Internet Configuration Control Board in 1979 . Later , in 1983 , the ICCB was reorganized by Dr . Barry Leiner , Vint Cerfs successor at DARPA , around a series of task forces considering different technical aspects of internetting . The re-organized group was named the Internet Activities Board . The IAB has set for itself seven principal foci for the period since 1989 . These were namely : - Operational Stability",
+  "new_text": "Internet_Architecture_Board | History and Origin\n The body which eventually became the IAB was created originally by the United States Department of Defenses Defense Advanced Research Projects Agency with the name Internet Configuration Control Board in 1979 . Later , in 1983 , the ICCB was reorganized by Dr . Barry Leiner , Vint Cerfs successor at DARPA , around a series of task forces considering different technical aspects of internetting . The re-organized group was named the Internet Activities Board . The IAB set for itself seven principal foci for the period of 1989 to 1990 . These were namely : - Operational Stability"
+ },
+ {
+  "edit_id": "test_clean-028",
+  "type": "E",
+  "page": "Niigata_Prefecture",
+  "chunk_id": "/wiki/Niigata_Prefecture#19",
+  "chunk_id_past": "/wiki/Niigata_Prefecture#19@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Kinzan , on Sado Island , is an active gold mine ."
+    ],
+    "new": [
+     "Kinzan , on Sado Island , was an active gold mine until it was closed in 1989 ."
+    ]
+   }
+  ],
+  "old_text": "Niigata_Prefecture | Mining and manufacturing\n Crude oil is produced in Niigata Prefecture , although Japan relies heavily on petroleum imported from other countries . Kerosene heaters are also produced for use in the cold Niigata winters . Kinzan , on Sado Island , is an active gold mine . Sanjō and Tsubame produce 90 percent of all the silverware made in Japan . The two cities are second after Osaka in the production of scissors , kitchen knives , and wrenches .",
+  "new_text": "Niigata_Prefecture | Mining and manufacturing\n Crude oil is produced in Niigata Prefecture , although Japan relies heavily on petroleum imported from other countries . Kerosene heaters are also produced for use in the cold Niigata winters . Kinzan , on Sado Island , was an active gold mine until it was closed in 1989 . Sanjō and Tsubame produce 90 percent of all the silverware made in Japan . The two cities are second after Osaka in the production of scissors , kitchen knives , and wrenches ."
+ },
+ {
+  "edit_id": "test_clean-006",
+  "type": "E",
+  "page": "Cheryl_Tiegs",
+  "chunk_id": "/wiki/Cheryl_Tiegs#15",
+  "chunk_id_past": "/wiki/Cheryl_Tiegs#15@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Tiegs has been married four times : to advertising executive Stan Dragoti ( from 1970 to 1979 ) ; to photographer Peter Beard ( from 1981 to 1983 ) ; and to aspiring actor Anthony Peck ( since 1990 ) , son of actor Gregory Peck and his second wife Veronique Passani ."
+    ],
+    "new": [
+     "Tiegs has been married four times : to advertising executive Stan Dragoti ( from 1970 to 1979 ) ; to photographer Peter Beard ( from 1981 to 1983 ) ; to aspiring actor Anthony Peck ( from 1990 to 1995 ) , son of actor Gregory Peck and his second wife Veronique Passani ; and to yoga instructor Rod Stryker ( from 1998 to 2001 ) ."
+    ]
+   }
+  ],
+  "old_text": "Cheryl_Tiegs | Personal life\nTiegs has been married four times : to advertising executive Stan Dragoti ( from 1970 to 1979 ) ; to photographer Peter Beard ( from 1981 to 1983 ) ; and to aspiring actor Anthony Peck ( since 1990 ) , son of actor Gregory Peck and his second wife Veronique Passani . She has three sons : Zachary ( born in 1991 ) , with Anthony Peck , and twins Theo and Jaden ( born in 2000 ) , who were delivered via surrogacy during",
+  "new_text": "Cheryl_Tiegs | Personal life\nTiegs has been married four times : to advertising executive Stan Dragoti ( from 1970 to 1979 ) ; to photographer Peter Beard ( from 1981 to 1983 ) ; to aspiring actor Anthony Peck ( from 1990 to 1995 ) , son of actor Gregory Peck and his second wife Veronique Passani ; and to yoga instructor Rod Stryker ( from 1998 to 2001 ) . She has three sons : Zachary ( born in 1991 ) , with Anthony Peck , and twins Theo and Jaden ( born in 2000 ) , who were delivered via surrogacy during"
+ },
+ {
+  "edit_id": "test_clean-042",
+  "type": "E",
+  "page": "Ilya_Ponomarev",
+  "chunk_id": "/wiki/Ilya_Ponomarev#3",
+  "chunk_id_past": "/wiki/Ilya_Ponomarev#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since 2002 , Ponomarev has served as the chief information officer of the Communist Party of the Russian Federation ."
+    ],
+    "new": [
+     "From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation ."
+    ]
+   }
+  ],
+  "old_text": "Ilya_Ponomarev | Ilya Ponomarev\ntechnology entrepreneur . Since 2002 , Ponomarev has served as the chief information officer of the Communist Party of the Russian Federation .",
+  "new_text": "Ilya_Ponomarev | Ilya Ponomarev\ntechnology entrepreneur . From 2002 to 2007 , Ponomarev served as the chief information officer of the Communist Party of the Russian Federation ."
+ },
+ {
+  "edit_id": "test_clean-007",
+  "type": "E",
+  "page": "Loveland_Ohio",
+  "chunk_id": "/wiki/Loveland,_Ohio#39",
+  "chunk_id_past": "/wiki/Loveland,_Ohio#39@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Since 1986 , the Baldwin Piano & Organ Company has been headquartered in Loveland ."
+    ],
+    "new": [
+     "From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland ."
+    ]
+   }
+  ],
+  "old_text": "Loveland_Ohio | Economy\n Tourism associated with the Loveland Bike Trail forms a significant part of downtown Lovelands economy . There is light industry at the Loveland Commerce Park in the northwestern corner of the city . Companies headquartered in Loveland include Dos Madres Press and Rozzi Fireworks . Since 1986 , the Baldwin Piano & Organ Company has been headquartered in Loveland . Martinizing Dry Cleaning , Totes Isotoner , Pro Mach , and Blue Chip Cookies were also formerly headquartered in Loveland .",
+  "new_text": "Loveland_Ohio | Economy\n Tourism associated with the Loveland Bike Trail forms a significant part of downtown Lovelands economy . There is light industry at the Loveland Commerce Park in the northwestern corner of the city . Companies headquartered in Loveland include Dos Madres Press and Rozzi Fireworks . From 1986 to 1998 , the Baldwin Piano & Organ Company was headquartered in Loveland . Martinizing Dry Cleaning , Totes Isotoner , Pro Mach , and Blue Chip Cookies were also formerly headquartered in Loveland ."
+ },
+ {
+  "edit_id": "test_clean-009",
+  "type": "E",
+  "page": "Bengt_Holmstr_m",
+  "chunk_id": "/wiki/Bengt_Holmström#3",
+  "chunk_id_past": "/wiki/Bengt_Holmström#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He has worked as a corporate planner since 1972 , and was an assistant professor at the Swedish School of Economics and Business Administration from 1978 until 1979 ."
+    ],
+    "new": [
+     "He worked as a corporate planner from 1972 until 1974 , then was an assistant professor at the Swedish School of Economics and Business Administration from 1978 until 1979 ."
+    ]
+   }
+  ],
+  "old_text": "Bengt_Holmstr_m | Career\n He has worked as a corporate planner since 1972 , and was an assistant professor at the Swedish School of Economics and Business Administration from 1978 until 1979 . He served as an associate professor at the Kellogg Graduate School of Management at Northwestern University ( 1979–1983 ) and as the Edwin J . Beinecke Professor of Management at Yale University’s School of Management ( 1983–1994 ) . Holmström was elected Alumnus of The Year by the University of Helsinki Alumni Association in 2010 .",
+  "new_text": "Bengt_Holmstr_m | Career\n He worked as a corporate planner from 1972 until 1974 , then was an assistant professor at the Swedish School of Economics and Business Administration from 1978 until 1979 . He served as an associate professor at the Kellogg Graduate School of Management at Northwestern University ( 1979–1983 ) and as the Edwin J . Beinecke Professor of Management at Yale University’s School of Management ( 1983–1994 ) . Holmström was elected Alumnus of The Year by the University of Helsinki Alumni Association in 2010 ."
+ },
+ {
+  "edit_id": "test_clean-108",
+  "type": "F",
+  "page": "John_Conyers",
+  "chunk_id": "/wiki/John_Conyers#7",
+  "chunk_id_past": "/wiki/John_Conyers#7@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "From 1961 to 1963 , he was a referee for Ohios workmens compensation department ."
+    ],
+    "new": [
+     "From 1961 to 1963 , he was a referee for Michigans workmens compensation department ."
+    ]
+   }
+  ],
+  "old_text": "John_Conyers | John Conyers\n After his active military service , Conyers pursued a college education . He earned both his BA ( 1957 ) and LL.B . ( 1958 ) degrees from Wayne State University . After he was admitted to the bar , he worked on the staff of Congressman John Dingell . He also served as counsel to several Detroit-area labor union locals . From 1961 to 1963 , he was a referee for Ohios workmens compensation department .",
+  "new_text": "John_Conyers | John Conyers\n After his active military service , Conyers pursued a college education . He earned both his BA ( 1957 ) and LL.B . ( 1958 ) degrees from Wayne State University . After he was admitted to the bar , he worked on the staff of Congressman John Dingell . He also served as counsel to several Detroit-area labor union locals . From 1961 to 1963 , he was a referee for Michigans workmens compensation department ."
+ },
+ {
+  "edit_id": "test_clean-087",
+  "type": "F",
+  "page": "World_Athletics",
+  "chunk_id": "/wiki/World_Athletics#10",
+  "chunk_id_past": "/wiki/World_Athletics#10@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "British former athlete and businessman Sebastian Coe was appointed to the role in December 2018 ."
+    ],
+    "new": [
+     "British former athlete and businessman Jon Ridgeon was appointed to the role in December 2018 ."
+    ]
+   }
+  ],
+  "old_text": "World_Athletics | Governance\n The World Athletics Council appoints a chief executive officer ( CEO ) , who is focused on improving the coverage of the sport and the organisations commercial interests . This role was created and merged with the General Secretary role that had existed previously . British former athlete and businessman Sebastian Coe was appointed to the role in December 2018 . Olivier Gers was the first person to officially hold the position in 2016 , succeeding the interim CEO/General Secretary Jean Gracia .",
+  "new_text": "World_Athletics | Governance\n The World Athletics Council appoints a chief executive officer ( CEO ) , who is focused on improving the coverage of the sport and the organisations commercial interests . This role was created and merged with the General Secretary role that had existed previously . British former athlete and businessman Jon Ridgeon was appointed to the role in December 2018 . Olivier Gers was the first person to officially hold the position in 2016 , succeeding the interim CEO/General Secretary Jean Gracia ."
+ },
+ {
+  "edit_id": "test_clean-196",
+  "type": "F",
+  "page": "Svea_Air_Corps",
+  "chunk_id": "/wiki/Svea_Air_Corps#1",
+  "chunk_id_past": "/wiki/Svea_Air_Corps#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Navy ."
+    ],
+    "new": [
+     "From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force ."
+    ]
+   }
+  ],
+  "old_text": "Svea_Air_Corps | History\n The meadows in the area were used since 1913 for basic flying training . From 1919 until 1936 the airport was a permanent international airport until the commercial traffic was transferred to the newly built Stockholm-Bromma Airport with paved runways . From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Navy . Units from other wings were also stationed here for air defense of the capital Stockholm .",
+  "new_text": "Svea_Air_Corps | History\n The meadows in the area were used since 1913 for basic flying training . From 1919 until 1936 the airport was a permanent international airport until the commercial traffic was transferred to the newly built Stockholm-Bromma Airport with paved runways . From 1926 until 1938 the airfield was also used for evaluation of new aircraft for the Swedish Air Force . Units from other wings were also stationed here for air defense of the capital Stockholm ."
+ },
+ {
+  "edit_id": "test_clean-128",
+  "type": "F",
+  "page": "Walt_Disney_s_Comics_and_Stories",
+  "chunk_id": "/wiki/Walt_Disney's_Comics_and_Stories#3",
+  "chunk_id_past": "/wiki/Walt_Disney's_Comics_and_Stories#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "WDC&S itself was launched by Marvel in October 1940 , and initially consisted of reprints taken from the Disney comic strips Donald Duck , Mickey Mouse and Silly Symphony reformatted for comic books and colored ."
+    ],
+    "new": [
+     "WDC&S itself was launched by Dell in October 1940 , and initially consisted of reprints taken from the Disney comic strips Donald Duck , Mickey Mouse and Silly Symphony reformatted for comic books and colored ."
+    ]
+   }
+  ],
+  "old_text": "Walt_Disney_s_Comics_and_Stories | Publication history\n The precursor to WDC&S was Mickey Mouse Magazine , published in several incarnations from 1933 to 1940 . WDC&S itself was launched by Marvel in October 1940 , and initially consisted of reprints taken from the Disney comic strips Donald Duck , Mickey Mouse and Silly Symphony reformatted for comic books and colored . The first original story created for WDC&S was The Flying Gauchito illustrated by Walt Kelly in #24 ( Aug . 1942 ) ; the story adapted a cartoon short included in The Three Caballeros , released in 1944 .",
+  "new_text": "Walt_Disney_s_Comics_and_Stories | Publication history\n The precursor to WDC&S was Mickey Mouse Magazine , published in several incarnations from 1933 to 1940 . WDC&S itself was launched by Dell in October 1940 , and initially consisted of reprints taken from the Disney comic strips Donald Duck , Mickey Mouse and Silly Symphony reformatted for comic books and colored . The first original story created for WDC&S was The Flying Gauchito illustrated by Walt Kelly in #24 ( Aug . 1942 ) ; the story adapted a cartoon short included in The Three Caballeros , released in 1944 ."
+ },
+ {
+  "edit_id": "test_clean-131",
+  "type": "F",
+  "page": "Friedrich_Guggenberger",
+  "chunk_id": "/wiki/Friedrich_Guggenberger#1",
+  "chunk_id_past": "/wiki/Friedrich_Guggenberger#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He had entered the army by 1934 , transferring to the U-boat arm in October 1939 , shortly after the outbreak of the Second World War ."
+    ],
+    "new": [
+     "He had entered the navy by 1934 , transferring to the U-boat arm in October 1939 , shortly after the outbreak of the Second World War ."
+    ]
+   }
+  ],
+  "old_text": "Friedrich_Guggenberger | Early life\n Guggenberger was born in Munich on 6 March 1915 . He had entered the army by 1934 , transferring to the U-boat arm in October 1939 , shortly after the outbreak of the Second World War . After the usual training pattern he was assigned to , where he served under the command of Knights Cross holder Günther Kuhnke . Guggenberger then briefly took over from Kuhnke and commanded U-28 for a few months whilst she was part of a school flotilla . He was awarded the Iron Cross 2nd Class on 23 March 1940 .",
+  "new_text": "Friedrich_Guggenberger | Early life\n Guggenberger was born in Munich on 6 March 1915 . He had entered the navy by 1934 , transferring to the U-boat arm in October 1939 , shortly after the outbreak of the Second World War . After the usual training pattern he was assigned to , where he served under the command of Knights Cross holder Günther Kuhnke . Guggenberger then briefly took over from Kuhnke and commanded U-28 for a few months whilst she was part of a school flotilla . He was awarded the Iron Cross 2nd Class on 23 March 1940 ."
+ },
+ {
+  "edit_id": "test_clean-127",
+  "type": "F",
+  "page": "St_Bartholomew_s_Anglican_Church_and_Cemetery_Prospect",
+  "chunk_id": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25",
+  "chunk_id_past": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "A fifty-year lease over most of the property was obtained by Prospect Trust in 1975 ."
+    ],
+    "new": [
+     "A fifty-year lease over most of the property was obtained by Council in 1975 ."
+    ]
+   }
+  ],
+  "old_text": "St_Bartholomew_s_Anglican_Church_and_Cemetery_Prospect | History\n The condition of the church deteriorated throughout the mid-twentieth century , and a dwindling congregation and lack of financial support led to its closure in 1967 . The last service was held on Christmas Eve that year . A group of citizens interested in preserving the church formed The Prospect Trust in November 1967 under the chairmanship of Robert Brown . In late 1969 the City of Blacktown commenced negotiations with the Church of England Property Trust . A fifty-year lease over most of the property was obtained by Prospect Trust in 1975 .",
+  "new_text": "St_Bartholomew_s_Anglican_Church_and_Cemetery_Prospect | History\n The condition of the church deteriorated throughout the mid-twentieth century , and a dwindling congregation and lack of financial support led to its closure in 1967 . The last service was held on Christmas Eve that year . A group of citizens interested in preserving the church formed The Prospect Trust in November 1967 under the chairmanship of Robert Brown . In late 1969 the City of Blacktown commenced negotiations with the Church of England Property Trust . A fifty-year lease over most of the property was obtained by Council in 1975 ."
+ },
+ {
+  "edit_id": "test_clean-082",
+  "type": "F",
+  "page": "Daniel_Cottier",
+  "chunk_id": "/wiki/Daniel_Cottier#18",
+  "chunk_id_past": "/wiki/Daniel_Cottier#18@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Tiffany remained an active designer on several American project between 1873–9 ."
+    ],
+    "new": [
+     "Cottier remained an active designer on several American project between 1873–9 ."
+    ]
+   }
+  ],
+  "old_text": "Daniel_Cottier | Cottier and Company\nfurnishings and modern paintings spread across the States as far as Portland , Oregon . He encouraged native artists such as Albert Pinkham Ryder ( 1847–1917 ) . Tiffany remained an active designer on several American project between 1873–9 .",
+  "new_text": "Daniel_Cottier | Cottier and Company\nfurnishings and modern paintings spread across the States as far as Portland , Oregon . He encouraged native artists such as Albert Pinkham Ryder ( 1847–1917 ) . Cottier remained an active designer on several American project between 1873–9 ."
+ },
+ {
+  "edit_id": "test_clean-118",
+  "type": "F",
+  "page": "VP_42",
+  "chunk_id": "/wiki/VP-42#12",
+  "chunk_id_past": "/wiki/VP-42#12@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-18 ."
+    ],
+    "new": [
+     "On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-17 ."
+    ]
+   }
+  ],
+  "old_text": "VP_42 | Operational history\n - 23 September 1945 : USS Norton Sound had steamed ahead to Sasebo , Japan , when the squadron moved temporarily to the Philippines . On the 23rd , VPB-22 flew to the harbor of the former Imperial Japanese Navy base at Sasebo , where Norton Sound was at anchor . On the 28th , squadron personnel were shifted to the tender . On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-18 .",
+  "new_text": "VP_42 | Operational history\n - 23 September 1945 : USS Norton Sound had steamed ahead to Sasebo , Japan , when the squadron moved temporarily to the Philippines . On the 23rd , VPB-22 flew to the harbor of the former Imperial Japanese Navy base at Sasebo , where Norton Sound was at anchor . On the 28th , squadron personnel were shifted to the tender . On 30 September 1945 , the squadron was transferred to the operational and administrative control of FAW-17 ."
+ },
+ {
+  "edit_id": "test_clean-193",
+  "type": "F",
+  "page": "Sovremennik",
+  "chunk_id": "/wiki/Sovremennik#2",
+  "chunk_id_past": "/wiki/Sovremennik#2@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "A few years later the magazine fell into decline , and Pletnyov handed it over to Nikolay Chernyshevsky and Ivan Panaev in 1847 ."
+    ],
+    "new": [
+     "A few years later the magazine fell into decline , and Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847 ."
+    ]
+   }
+  ],
+  "old_text": "Sovremennik | Sovremennik\n When Pushkin died , his friend Pyotr Pletnyov took over the editorship in 1838 . A few years later the magazine fell into decline , and Pletnyov handed it over to Nikolay Chernyshevsky and Ivan Panaev in 1847 . It was Nekrasov who really made the magazine profitable . He enlisted the services of Ivan Turgenev , Ivan Goncharov , Alexander Herzen and Nikolai Ogaryov . Sovremennik was the first to publish translated works by Charles Dickens , George Sand and other best-selling foreign writers .",
+  "new_text": "Sovremennik | Sovremennik\n When Pushkin died , his friend Pyotr Pletnyov took over the editorship in 1838 . A few years later the magazine fell into decline , and Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847 . It was Nekrasov who really made the magazine profitable . He enlisted the services of Ivan Turgenev , Ivan Goncharov , Alexander Herzen and Nikolai Ogaryov . Sovremennik was the first to publish translated works by Charles Dickens , George Sand and other best-selling foreign writers ."
+ },
+ {
+  "edit_id": "test_clean-195",
+  "type": "F",
+  "page": "1_FC_K_ln",
+  "chunk_id": "/wiki/1._FC_Köln#28",
+  "chunk_id_past": "/wiki/1._FC_Köln#28@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "After avoiding relegation at the end of the season , Heckings contract was extended until 2023 ."
+    ],
+    "new": [
+     "After avoiding relegation at the end of the season , Gisdols contract was extended until 2023 ."
+    ]
+   }
+  ],
+  "old_text": "1_FC_K_ln | Continuing success\n2021 . After avoiding relegation at the end of the season , Heckings contract was extended until 2023 .",
+  "new_text": "1_FC_K_ln | Continuing success\n2021 . After avoiding relegation at the end of the season , Gisdols contract was extended until 2023 ."
+ },
+ {
+  "edit_id": "test_clean-090",
+  "type": "F",
+  "page": "Erich_Topp",
+  "chunk_id": "/wiki/Erich_Topp#12",
+  "chunk_id_past": "/wiki/Erich_Topp#12@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "On 1 May 1940 , he was transferred to the 2nd U-boat Flotilla ."
+    ],
+    "new": [
+     "On 1 May 1940 , he was transferred to the 1st U-boat Flotilla ."
+    ]
+   }
+  ],
+  "old_text": "Erich_Topp | World War II\nthe U-boat War Badge ( ) on 7 November 1939 and the Iron Cross 2nd Class ( ) in January 1940 . On 1 May 1940 , he was transferred to the 2nd U-boat Flotilla .",
+  "new_text": "Erich_Topp | World War II\nthe U-boat War Badge ( ) on 7 November 1939 and the Iron Cross 2nd Class ( ) in January 1940 . On 1 May 1940 , he was transferred to the 1st U-boat Flotilla ."
+ },
+ {
+  "edit_id": "test_clean-073",
+  "type": "F",
+  "page": "Pierre_Gasly",
+  "chunk_id": "/wiki/Pierre_Gasly#12",
+  "chunk_id_past": "/wiki/Pierre_Gasly#12@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 1,
+  "n_sent_new": 1,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Gasly joined Team TOM'S to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship , winning two races ."
+    ],
+    "new": [
+     "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship , winning two races ."
+    ]
+   }
+  ],
+  "old_text": "Pierre_Gasly | Japanese Super Formula\n Gasly joined Team TOM'S to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship , winning two races .",
+  "new_text": "Pierre_Gasly | Japanese Super Formula\n Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship , winning two races ."
+ },
+ {
+  "edit_id": "test_clean-200",
+  "type": "F",
+  "page": "Boris_Nemtsov",
+  "chunk_id": "/wiki/Boris_Nemtsov#45",
+  "chunk_id_past": "/wiki/Boris_Nemtsov#45@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In May 2011 , the party submitted an application for registration to the Ministry of Internal Affairs , but one month later it was denied ."
+    ],
+    "new": [
+     "In May 2011 , the party submitted an application for registration to the Ministry of Justice , but one month later it was denied ."
+    ]
+   }
+  ],
+  "old_text": "Boris_Nemtsov | Early life\nNemtsov was among the 34 original signatories of the online anti-Putin manifesto Putin must go , published on 10 March 2010 . Six months later , in September 2010 , together with Vladimir Ryzhkov , Mikhail Kasyanov and Vladimir Milov , Nemtsov formed the For Russia without Lawlessness and Corruption party , which , three months later was transformed into the Peoples Freedom Party . In May 2011 , the party submitted an application for registration to the Ministry of Internal Affairs , but one month later it was denied .",
+  "new_text": "Boris_Nemtsov | Early life\nNemtsov was among the 34 original signatories of the online anti-Putin manifesto Putin must go , published on 10 March 2010 . Six months later , in September 2010 , together with Vladimir Ryzhkov , Mikhail Kasyanov and Vladimir Milov , Nemtsov formed the For Russia without Lawlessness and Corruption party , which , three months later was transformed into the Peoples Freedom Party . In May 2011 , the party submitted an application for registration to the Ministry of Justice , but one month later it was denied ."
+ },
+ {
+  "edit_id": "test_clean-116",
+  "type": "F",
+  "page": "Katherine_Maher",
+  "chunk_id": "/wiki/Katherine_Maher#8",
+  "chunk_id_past": "/wiki/Katherine_Maher#8@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Maher was chief communications officer of the Mozilla Foundation from April 2014 to March 2016 ."
+    ],
+    "new": [
+     "Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016 ."
+    ]
+   }
+  ],
+  "old_text": "Katherine_Maher | Wikimedia Foundation\n Maher was chief communications officer of the Mozilla Foundation from April 2014 to March 2016 . She was interviewed by The Washington Post on United States copyright law . Maher became interim executive director of the Wikimedia Foundation in March 2016 following the resignation of executive director Lila Tretikov and was appointed executive director in June 2016 . Wikipedia founder Jimmy Wales announced the appointment on June 24 at Wikimania 2016 in Esino Lario , Italy , effective June 23 , 2016 . In 2019 , Maher became CEO of Wikimedia .",
+  "new_text": "Katherine_Maher | Wikimedia Foundation\n Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016 . She was interviewed by The Washington Post on United States copyright law . Maher became interim executive director of the Wikimedia Foundation in March 2016 following the resignation of executive director Lila Tretikov and was appointed executive director in June 2016 . Wikipedia founder Jimmy Wales announced the appointment on June 24 at Wikimania 2016 in Esino Lario , Italy , effective June 23 , 2016 . In 2019 , Maher became CEO of Wikimedia ."
+ },
+ {
+  "edit_id": "test_clean-197",
+  "type": "F",
+  "page": "Soko_owsko",
+  "chunk_id": "/wiki/Sokołowsko#5",
+  "chunk_id_past": "/wiki/Sokołowsko#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "With the Bohemian kingdom the area fell to the Habsburg Monarchy in 1526 and was seized by Prussia under King Frederick William I in the First Silesian War of 1742 ."
+    ],
+    "new": [
+     "With the Bohemian kingdom the area fell to the Habsburg Monarchy in 1526 and was seized by Prussia under King Frederick II in the First Silesian War of 1742 ."
+    ]
+   }
+  ],
+  "old_text": "Soko_owsko | History\nthe later Princes of Pless . With the Bohemian kingdom the area fell to the Habsburg Monarchy in 1526 and was seized by Prussia under King Frederick William I in the First Silesian War of 1742 . From 1815 Görbersdorf was part of the Prussian Province of Silesia .",
+  "new_text": "Soko_owsko | History\nthe later Princes of Pless . With the Bohemian kingdom the area fell to the Habsburg Monarchy in 1526 and was seized by Prussia under King Frederick II in the First Silesian War of 1742 . From 1815 Görbersdorf was part of the Prussian Province of Silesia ."
+ },
+ {
+  "edit_id": "test_clean-194",
+  "type": "F",
+  "page": "HMAS_Wollongong_J172",
+  "chunk_id": "/wiki/HMAS_Wollongong_(J172)#10",
+  "chunk_id_past": "/wiki/HMAS_Wollongong_(J172)#10@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The corvette remained with the RAN until April 1950 ."
+    ],
+    "new": [
+     "The corvette remained with the RNLN until April 1950 ."
+    ]
+   }
+  ],
+  "old_text": "HMAS_Wollongong_J172 | RNLN service\n After the end of the war , Wollongong was marked for transfer to the Royal Netherlands Navy ( RNLN ) . She was decommissioned in Sydney on 11 February 1946 , was recommissioned into the RNLN , and renamed HNLMS Banda . The corvette remained with the RAN until April 1950 .",
+  "new_text": "HMAS_Wollongong_J172 | RNLN service\n After the end of the war , Wollongong was marked for transfer to the Royal Netherlands Navy ( RNLN ) . She was decommissioned in Sydney on 11 February 1946 , was recommissioned into the RNLN , and renamed HNLMS Banda . The corvette remained with the RNLN until April 1950 ."
+ },
+ {
+  "edit_id": "test_clean-189",
+  "type": "F",
+  "page": "Vasudeva_Nanayakkara",
+  "chunk_id": "/wiki/Vasudeva_Nanayakkara#3",
+  "chunk_id_past": "/wiki/Vasudeva_Nanayakkara#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Kegalle District for the USA ."
+    ],
+    "new": [
+     "Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA ."
+    ]
+   }
+  ],
+  "old_text": "Vasudeva_Nanayakkara | Politics\n The Sri Lankan government proscribed the NSSP , Janatha Vimukthi Peramuna ( JVP ) and Communist Party of Sri Lanka ( CP ) after the Black July anti-Tamil riots of 1983 . Nanayakkara , Karunaratne , Rohana Wijeweera and other left-wing politicians went into hiding until 1985 when the proscription was lifted . In 1987 the NSSP joined with the LSSP , CP and Sri Lanka Peoples Party to form the United Socialist Alliance ( USA ) . Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Kegalle District for the USA .",
+  "new_text": "Vasudeva_Nanayakkara | Politics\n The Sri Lankan government proscribed the NSSP , Janatha Vimukthi Peramuna ( JVP ) and Communist Party of Sri Lanka ( CP ) after the Black July anti-Tamil riots of 1983 . Nanayakkara , Karunaratne , Rohana Wijeweera and other left-wing politicians went into hiding until 1985 when the proscription was lifted . In 1987 the NSSP joined with the LSSP , CP and Sri Lanka Peoples Party to form the United Socialist Alliance ( USA ) . Nanayakkara re-entered parliament after the 1989 parliamentary election , representing Ratnapura District for the USA ."
+ },
+ {
+  "edit_id": "test_clean-199",
+  "type": "F",
+  "page": "Air_Staff_Sweden",
+  "chunk_id": "/wiki/Air_Staff_(Sweden)#10",
+  "chunk_id_past": "/wiki/Air_Staff_(Sweden)#10@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The Air Staff was in connection with the Swedish Armed Forces restructuring on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Army Command ."
+    ],
+    "new": [
+     "The Air Staff was in connection with the Swedish Armed Forces restructuring on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command ."
+    ]
+   }
+  ],
+  "old_text": "Air_Staff_Sweden | History\n In March 1976 , the Air Staff had about 370 employees . Because of the reorganization in 1981 , the Air Staffs workforce was decline from approximately 315 to 225 . The last management meeting of the Air Staff occurred on 26 March 1993 . The Air Staff was in connection with the Swedish Armed Forces restructuring on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Army Command .",
+  "new_text": "Air_Staff_Sweden | History\n In March 1976 , the Air Staff had about 370 employees . Because of the reorganization in 1981 , the Air Staffs workforce was decline from approximately 315 to 225 . The last management meeting of the Air Staff occurred on 26 March 1993 . The Air Staff was in connection with the Swedish Armed Forces restructuring on 1 July 1994 amalgamated into the Swedish Armed Forces Headquarters as the Air Force Command ."
+ },
+ {
+  "edit_id": "test_clean-068",
+  "type": "F",
+  "page": "Louis_Francis_Salzman",
+  "chunk_id": "/wiki/Louis_Francis_Salzman#3",
+  "chunk_id_past": "/wiki/Louis_Francis_Salzman#3@past",
+  "changed": true,
+  "matches_edit_record": false,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 1934 Stenton succeeded W.H ."
+    ],
+    "new": [
+     "In 1934 Salzman succeeded W.H ."
+    ]
+   }
+  ],
+  "old_text": "Louis_Francis_Salzman | Louis Francis Salzman\nboth the practical and organisational aspects of the industry . In 1934 Stenton succeeded W.H . Page as general editor of the Victoria County History . He held the post until 1949 , overseeing the production of fifteen volumes , covering Oxfordshire and Warwickshire as well as Sussex , and was succeeded by Ralph Pugh .",
+  "new_text": "Louis_Francis_Salzman | Louis Francis Salzman\nboth the practical and organisational aspects of the industry . In 1934 Salzman succeeded W.H . Page as general editor of the Victoria County History . He held the post until 1949 , overseeing the production of fifteen volumes , covering Oxfordshire and Warwickshire as well as Sussex , and was succeeded by Ralph Pugh ."
+ },
+ {
+  "edit_id": "test_clean-184",
+  "type": "F",
+  "page": "Walter_Veltroni",
+  "chunk_id": "/wiki/Walter_Veltroni#9",
+  "chunk_id_past": "/wiki/Walter_Veltroni#9@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Bersani officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin on 27 June 2007 ."
+    ],
+    "new": [
+     "Veltroni officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin on 27 June 2007 ."
+    ]
+   }
+  ],
+  "old_text": "Walter_Veltroni | Mayor of Rome\nBersani , which polls showed as having a 50% support in center-north regions , withdrew to avoid a confusing candidacy . Bersani officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin on 27 June 2007 . At this occasion he introduced the four key issues his programme would address : environment , generational pact , education , and public security .",
+  "new_text": "Walter_Veltroni | Mayor of Rome\nBersani , which polls showed as having a 50% support in center-north regions , withdrew to avoid a confusing candidacy . Veltroni officially presented his candidacy for the leadership of the Democratic Party at a rally in Turin on 27 June 2007 . At this occasion he introduced the four key issues his programme would address : environment , generational pact , education , and public security ."
+ },
+ {
+  "edit_id": "test_clean-191",
+  "type": "F",
+  "page": "Jim_Prentice",
+  "chunk_id": "/wiki/Jim_Prentice#0",
+  "chunk_id_past": "/wiki/Jim_Prentice#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Peter Eric James Prentice ( July 20 , 1956 – October 13 , 2016 ) was a Canadian politician who served as the 16th Premier of Ontario from 2014 to 2015 ."
+    ],
+    "new": [
+     "Peter Eric James Prentice ( July 20 , 1956 – October 13 , 2016 ) was a Canadian politician who served as the 16th Premier of Alberta from 2014 to 2015 ."
+    ]
+   }
+  ],
+  "old_text": "Jim_Prentice | Jim Prentice\nPeter Eric James Prentice ( July 20 , 1956 – October 13 , 2016 ) was a Canadian politician who served as the 16th Premier of Ontario from 2014 to 2015 . In the 2004 federal election he was elected to the House of Commons of Canada as a candidate of the Conservative Party of Canada . He was re-elected in the 2006 federal election and appointed to the cabinet as Minister of Indian Affairs and Northern Development and Federal Interlocutor for Métis and Non-Status Indians . Prentice was appointed Minister of Industry on August 14 , 2007 , and",
+  "new_text": "Jim_Prentice | Jim Prentice\nPeter Eric James Prentice ( July 20 , 1956 – October 13 , 2016 ) was a Canadian politician who served as the 16th Premier of Alberta from 2014 to 2015 . In the 2004 federal election he was elected to the House of Commons of Canada as a candidate of the Conservative Party of Canada . He was re-elected in the 2006 federal election and appointed to the cabinet as Minister of Indian Affairs and Northern Development and Federal Interlocutor for Métis and Non-Status Indians . Prentice was appointed Minister of Industry on August 14 , 2007 , and"
+ },
+ {
+  "edit_id": "test_clean-147",
+  "type": "F",
+  "page": "Hermann_Fegelein",
+  "chunk_id": "/wiki/Hermann_Fegelein#9",
+  "chunk_id_past": "/wiki/Hermann_Fegelein#9@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He transferred to the SA on 10 April 1933 , with membership number 66,680 ."
+    ],
+    "new": [
+     "He transferred to the SS on 10 April 1933 , with membership number 66,680 ."
+    ]
+   }
+  ],
+  "old_text": "Hermann_Fegelein | Career\nFegelein joined the Nazi Party ( membership number 1,200,158 ) and the SA in 1930 . He transferred to the SA on 10 April 1933 , with membership number 66,680 . He worked as an instructor at the Reitinstitut Fegelein and became the leader of the SS-Reitersturm , the SS equestrian group based at the facility . By the mid-1930s he took over administration of the school from his father . He was promoted to the Allgemeine-SS rank of SS-Untersturmführer that year and to SS-Obersturmführer on 20 April 1934 and to SS-Hauptsturmführer on 9 November 1934 . Beginning in November",
+  "new_text": "Hermann_Fegelein | Career\nFegelein joined the Nazi Party ( membership number 1,200,158 ) and the SA in 1930 . He transferred to the SS on 10 April 1933 , with membership number 66,680 . He worked as an instructor at the Reitinstitut Fegelein and became the leader of the SS-Reitersturm , the SS equestrian group based at the facility . By the mid-1930s he took over administration of the school from his father . He was promoted to the Allgemeine-SS rank of SS-Untersturmführer that year and to SS-Obersturmführer on 20 April 1934 and to SS-Hauptsturmführer on 9 November 1934 . Beginning in November"
+ },
+ {
+  "edit_id": "test_clean-103",
+  "type": "F",
+  "page": "Li_Kwoh_ting",
+  "chunk_id": "/wiki/Li_Kwoh-ting#2",
+  "chunk_id_past": "/wiki/Li_Kwoh-ting#2@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He became the president of the Taiwan Machinery Corporation in 1951 and was appointed as a member of the Industrial Development Commission responsible for the planning and economic development of Taiwan in 1953 ."
+    ],
+    "new": [
+     "He became the president of the Taiwan Shipbuilding Corporation in 1951 and was appointed as a member of the Industrial Development Commission responsible for the planning and economic development of Taiwan in 1953 ."
+    ]
+   }
+  ],
+  "old_text": "Li_Kwoh_ting | Biography\nHe graduated from National Central University ( Nanjing University ) in 1930 and studied physics at Cambridge University in 1934 . He returned to Mainland China and spent many years in politics and economics before he fled from the Chinese Communist Party to Taiwan in July 1948 with the Nationalist Party . He became the president of the Taiwan Machinery Corporation in 1951 and was appointed as a member of the Industrial Development Commission responsible for the planning and economic development of Taiwan in 1953 . In 1959 he became the head of the Industrial Development and Investment Center under",
+  "new_text": "Li_Kwoh_ting | Biography\nHe graduated from National Central University ( Nanjing University ) in 1930 and studied physics at Cambridge University in 1934 . He returned to Mainland China and spent many years in politics and economics before he fled from the Chinese Communist Party to Taiwan in July 1948 with the Nationalist Party . He became the president of the Taiwan Shipbuilding Corporation in 1951 and was appointed as a member of the Industrial Development Commission responsible for the planning and economic development of Taiwan in 1953 . In 1959 he became the head of the Industrial Development and Investment Center under"
+ },
+ {
+  "edit_id": "test_clean-175",
+  "type": "F",
+  "page": "Robert_B_Wilson",
+  "chunk_id": "/wiki/Robert_B._Wilson#3",
+  "chunk_id_past": "/wiki/Robert_B._Wilson#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "He was also an affiliated faculty member of Yale Law School from 1993 to 2001 ."
+    ],
+    "new": [
+     "He was also an affiliated faculty member of Harvard Law School from 1993 to 2001 ."
+    ]
+   }
+  ],
+  "old_text": "Robert_B_Wilson | Robert B . Wilson\n1964 . He was also an affiliated faculty member of Yale Law School from 1993 to 2001 .",
+  "new_text": "Robert_B_Wilson | Robert B . Wilson\n1964 . He was also an affiliated faculty member of Harvard Law School from 1993 to 2001 ."
+ },
+ {
+  "edit_id": "test_clean-135",
+  "type": "F",
+  "page": "Clarence_Cannon",
+  "chunk_id": "/wiki/Clarence_Cannon#0",
+  "chunk_id_past": "/wiki/Clarence_Cannon#0@past",
+  "changed": true,
+  "matches_edit_record": false,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Clarence Andrew Cannon ( April 11 , 1879 – May 12 , 1964 ) was a Democratic Congressman from Kansas serving from 1923 until his death in Washington , D.C ."
+    ],
+    "new": [
+     "Clarence Andrew Cannon ( April 11 , 1879 – May 12 , 1964 ) was a Democratic Congressman from Missouri serving from 1923 until his death in Washington , D.C ."
+    ]
+   }
+  ],
+  "old_text": "Clarence_Cannon | Clarence Cannon\n Clarence Andrew Cannon ( April 11 , 1879 – May 12 , 1964 ) was a Democratic Congressman from Kansas serving from 1923 until his death in Washington , D.C . in 1964 . He was a notable parliamentarian and chaired the U.S . House Committee on Appropriations . He is the longest-serving member of the United States House of Representatives from the state of Missouri .",
+  "new_text": "Clarence_Cannon | Clarence Cannon\n Clarence Andrew Cannon ( April 11 , 1879 – May 12 , 1964 ) was a Democratic Congressman from Missouri serving from 1923 until his death in Washington , D.C . in 1964 . He was a notable parliamentarian and chaired the U.S . House Committee on Appropriations . He is the longest-serving member of the United States House of Representatives from the state of Missouri ."
+ },
+ {
+  "edit_id": "test_clean-187",
+  "type": "F",
+  "page": "1st_Royal_Bavarian_Division",
+  "chunk_id": "/wiki/1st_Royal_Bavarian_Division#3",
+  "chunk_id_past": "/wiki/1st_Royal_Bavarian_Division#3@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The Infantry Life Regiment was transferred from the division in 1915 to become part of a provisional German mountain division , the Alpenkorps , sent to the Eastern Front ."
+    ],
+    "new": [
+     "The Infantry Life Regiment was transferred from the division in 1915 to become part of a provisional German mountain division , the Alpenkorps , sent to the Italian Front ."
+    ]
+   }
+  ],
+  "old_text": "1st_Royal_Bavarian_Division | 1st Royal Bavarian Division\nDuring World War I , the division served on the Western Front . It fought in the Battle of the Frontiers against French forces in the early stages , and then participated in the Race to the Sea . Thereafter , it remained on the northern part of the front facing the British Army through 1915 and early 1916 . The Infantry Life Regiment was transferred from the division in 1915 to become part of a provisional German mountain division , the Alpenkorps , sent to the Eastern Front . In 1916 , the division went into the Battle of",
+  "new_text": "1st_Royal_Bavarian_Division | 1st Royal Bavarian Division\nDuring World War I , the division served on the Western Front . It fought in the Battle of the Frontiers against French forces in the early stages , and then participated in the Race to the Sea . Thereafter , it remained on the northern part of the front facing the British Army through 1915 and early 1916 . The Infantry Life Regiment was transferred from the division in 1915 to become part of a provisional German mountain division , the Alpenkorps , sent to the Italian Front . In 1916 , the division went into the Battle of"
+ },
+ {
+  "edit_id": "test_clean-105",
+  "type": "F",
+  "page": "Frederica_Wilson",
+  "chunk_id": "/wiki/Frederica_Wilson#5",
+  "chunk_id_past": "/wiki/Frederica_Wilson#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 7,
+  "n_sent_new": 7,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "She then represented the 33rd district in the Georgia Senate from 2002 until her election to Congress in 2010 when term limits prevented her from running again ."
+    ],
+    "new": [
+     "She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010 when term limits prevented her from running again ."
+    ]
+   }
+  ],
+  "old_text": "Frederica_Wilson | Florida legislature\n Wilson represented the 104th district in the Florida House of Representatives from 1998 to 2002 . She then represented the 33rd district in the Georgia Senate from 2002 until her election to Congress in 2010 when term limits prevented her from running again . She served as Minority Leader Pro Tempore in 2006 , then Minority Whip . An early supporter of Barack Obamas 2008 presidential campaign , she voted for Obama and Joe Biden in 2008 as one of Floridas presidential electors . U.S . House of Representatives . 2010 election .",
+  "new_text": "Frederica_Wilson | Florida legislature\n Wilson represented the 104th district in the Florida House of Representatives from 1998 to 2002 . She then represented the 33rd district in the Florida Senate from 2002 until her election to Congress in 2010 when term limits prevented her from running again . She served as Minority Leader Pro Tempore in 2006 , then Minority Whip . An early supporter of Barack Obamas 2008 presidential campaign , she voted for Obama and Joe Biden in 2008 as one of Floridas presidential electors . U.S . House of Representatives . 2010 election ."
+ },
+ {
+  "edit_id": "test_clean-137",
+  "type": "A",
+  "page": "German_submarine_U_155_1941",
+  "chunk_id": "/wiki/German_submarine_U-155_(1941)#19",
+  "chunk_id_past": "/wiki/German_submarine_U-155_(1941)#19@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 1,
+  "n_sent_new": 1,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "On 30 June 1945 , following the German surrender , she was moved from Wilhelmshaven to Loch Ryan , Scotland for Royal Navy Operation Deadlight , the scuttling of surrendered German U-boats , and was sunk on 21 December the same year ."
+    ],
+    "new": [
+     "On 30 June 1945 , after the German surrender , she was transferred from Wilhelmshaven to Loch Ryan , Scotland for Royal Navy Operation Deadlight , the scuttling of surrendered German U-boats , and sunk on 21 December the same year ."
+    ]
+   }
+  ],
+  "old_text": "German_submarine_U_155_1941 | Fate\n On 30 June 1945 , following the German surrender , she was moved from Wilhelmshaven to Loch Ryan , Scotland for Royal Navy Operation Deadlight , the scuttling of surrendered German U-boats , and was sunk on 21 December the same year .",
+  "new_text": "German_submarine_U_155_1941 | Fate\n On 30 June 1945 , after the German surrender , she was transferred from Wilhelmshaven to Loch Ryan , Scotland for Royal Navy Operation Deadlight , the scuttling of surrendered German U-boats , and sunk on 21 December the same year ."
+ },
+ {
+  "edit_id": "test_clean-096",
+  "type": "A",
+  "page": "Jiminy_Cricket",
+  "chunk_id": "/wiki/Jiminy_Cricket#7",
+  "chunk_id_past": "/wiki/Jiminy_Cricket#7@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Following Edwards death , Clarence Nash briefly voiced him , until 1973 , when Eddie Carroll assumed the role as Jiminys voice actor ."
+    ],
+    "new": [
+     "After Edwards death , Clarence Nash voiced him for a brief period of time , until 1973 , when Eddie Carroll took over the role as Jiminys voice actor ."
+    ]
+   }
+  ],
+  "old_text": "Jiminy_Cricket | Voice actors\nJiminy Cricket has been voiced in English by six actors . He was originally performed by singer Cliff Edwards , who voiced the character for Disney through the 1960s and sang Jiminys most famous song , When You Wish Upon a Star . Following Edwards death , Clarence Nash briefly voiced him , until 1973 , when Eddie Carroll assumed the role as Jiminys voice actor . Carroll played the role for 37 years , until his death in 2010 . Actor Hal Smith voiced Jiminy in the Pinocchio Read-Along Storybook in 1992 .",
+  "new_text": "Jiminy_Cricket | Voice actors\nJiminy Cricket has been voiced in English by six actors . He was originally performed by singer Cliff Edwards , who voiced the character for Disney through the 1960s and sang Jiminys most famous song , When You Wish Upon a Star . After Edwards death , Clarence Nash voiced him for a brief period of time , until 1973 , when Eddie Carroll took over the role as Jiminys voice actor . Carroll played the role for 37 years , until his death in 2010 . Actor Hal Smith voiced Jiminy in the Pinocchio Read-Along Storybook in 1992 ."
+ },
+ {
+  "edit_id": "test_clean-133",
+  "type": "A",
+  "page": "Lotte_Reiniger",
+  "chunk_id": "/wiki/Lotte_Reiniger#19",
+  "chunk_id_past": "/wiki/Lotte_Reiniger#19@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "One of these films bears the title ( The Golden Goose , 1944 ) ."
+    ],
+    "new": [
+     "One of these films is called ( The Golden Goose , 1944 ) ."
+    ]
+   }
+  ],
+  "old_text": "Lotte_Reiniger | Adulthood and success\nduring this period , the best-known being Carmen ( 1933 ) and Papageno ( 1935 ) , both based on popular operas ( Bizets Carmen and Mozarts Die Zauberflöte ) . When World War II commenced they stayed with Visconti in Rome until 1944 , then moved back to Berlin to take care of Reinigers sick mother . Under the rule of Hitler , Reiniger was forced to make propaganda films for Germany . One of these films bears the title ( The Golden Goose , 1944 ) . She had to work under stringent and limiting conditions to please the",
+  "new_text": "Lotte_Reiniger | Adulthood and success\nduring this period , the best-known being Carmen ( 1933 ) and Papageno ( 1935 ) , both based on popular operas ( Bizets Carmen and Mozarts Die Zauberflöte ) . When World War II commenced they stayed with Visconti in Rome until 1944 , then moved back to Berlin to take care of Reinigers sick mother . Under the rule of Hitler , Reiniger was forced to make propaganda films for Germany . One of these films is called ( The Golden Goose , 1944 ) . She had to work under stringent and limiting conditions to please the"
+ },
+ {
+  "edit_id": "test_clean-067",
+  "type": "A",
+  "page": "Province_of_Brandenburg",
+  "chunk_id": "/wiki/Province_of_Brandenburg#46",
+  "chunk_id_past": "/wiki/Province_of_Brandenburg#46@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 7,
+  "n_sent_new": 8,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Teltow-Storkow , ( 1816–1835 ; divided into Teltow and Storkow , which merged with northern Lübben to form Beeskow-Storkow ) Templin , ( 1818–1952 ; from 1947 part of Brandenburg state ) 13 ."
+    ],
+    "new": [
+     "Teltow-Storkow , ( 1816–1835 ; partitioned into Teltow and Storkow , which merged with northern Lübben to Beeskow-Storkow ) 12 .",
+     "Templin , ( 1818–1952 ; from 1947 part of Brandenburg state ) 13 ."
+    ]
+   }
+  ],
+  "old_text": "Province_of_Brandenburg | Regierungsbezirk Potsdam\n 11 . Teltow-Storkow , ( 1816–1835 ; divided into Teltow and Storkow , which merged with northern Lübben to form Beeskow-Storkow ) Templin , ( 1818–1952 ; from 1947 part of Brandenburg state ) 13 . Westhavelland ( i.e . Western Havelland ; 1816–1952 ; from 1947 part of Brandenburg state ) 14 . Westprignitz ( i.e . Western Prignitz ; 1818–1952 ; from 1947 part of Brandenburg state ) 15 . Zauch-Belzig , ( 1817–1952 ; from 1947 part of Brandenburg state )",
+  "new_text": "Province_of_Brandenburg | Regierungsbezirk Potsdam\n 11 . Teltow-Storkow , ( 1816–1835 ; partitioned into Teltow and Storkow , which merged with northern Lübben to Beeskow-Storkow ) 12 . Templin , ( 1818–1952 ; from 1947 part of Brandenburg state ) 13 . Westhavelland ( i.e . Western Havelland ; 1816–1952 ; from 1947 part of Brandenburg state ) 14 . Westprignitz ( i.e . Western Prignitz ; 1818–1952 ; from 1947 part of Brandenburg state ) 15 . Zauch-Belzig , ( 1817–1952 ; from 1947 part of Brandenburg state )"
+ },
+ {
+  "edit_id": "test_clean-155",
+  "type": "A",
+  "page": "Inter_Milan",
+  "chunk_id": "/wiki/Inter_Milan#70",
+  "chunk_id_past": "/wiki/Inter_Milan#70@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "They have claimed the Champions League three times : two consecutive wins in 1964 and 1965 and then another in 2010 ; the latter completed an unprecedented Italian treble with the Coppa Italia and the Scudetto ."
+    ],
+    "new": [
+     "They have won the Champions League three times : two back-to-back in 1964 and 1965 and then another in 2010 ; the last completed an unprecedented Italian treble with the Coppa Italia and the Scudetto ."
+    ]
+   }
+  ],
+  "old_text": "Inter_Milan | Honours\nInter have won 31 domestic trophies , including the league 19 times , the Coppa Italia seven and the Supercoppa Italiana five . From 2006 to 2010 , the club won five successive league titles , equalling the all-time record before 2017 , when Juventus won the sixth successive league title . They have claimed the Champions League three times : two consecutive wins in 1964 and 1965 and then another in 2010 ; the latter completed an unprecedented Italian treble with the Coppa Italia and the Scudetto . The club has also won three UEFA Cups , two Intercontinental Cups",
+  "new_text": "Inter_Milan | Honours\nInter have won 31 domestic trophies , including the league 19 times , the Coppa Italia seven and the Supercoppa Italiana five . From 2006 to 2010 , the club won five successive league titles , equalling the all-time record before 2017 , when Juventus won the sixth successive league title . They have won the Champions League three times : two back-to-back in 1964 and 1965 and then another in 2010 ; the last completed an unprecedented Italian treble with the Coppa Italia and the Scudetto . The club has also won three UEFA Cups , two Intercontinental Cups"
+ },
+ {
+  "edit_id": "test_clean-079",
+  "type": "A",
+  "page": "Oliver_Bulleid",
+  "chunk_id": "/wiki/Oliver_Bulleid#1",
+  "chunk_id_past": "/wiki/Oliver_Bulleid#1@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "After his father died in 1889 , his mother went back to Llanfyllin , Wales , where the family home had been , taking Bulleid with her ."
+    ],
+    "new": [
+     "On the death of his father in 1889 , his mother returned to Llanfyllin , Wales , where the family home had been , with Bulleid ."
+    ]
+   }
+  ],
+  "old_text": "Oliver_Bulleid | Oliver Bulleid\nHe was born in Invercargill , New Zealand , to William Bulleid and his wife Marian Pugh , both British immigrants . After his father died in 1889 , his mother went back to Llanfyllin , Wales , where the family home had been , taking Bulleid with her . In 1901 , after a technical education at Accrington Grammar School , he joined the Great Northern Railway ( GNR ) at Doncaster at the age of 18 , as an apprentice under H . A . Ivatt , the Chief Mechanical Engineer ( CME ) . After a four-year apprenticeship",
+  "new_text": "Oliver_Bulleid | Oliver Bulleid\nHe was born in Invercargill , New Zealand , to William Bulleid and his wife Marian Pugh , both British immigrants . On the death of his father in 1889 , his mother returned to Llanfyllin , Wales , where the family home had been , with Bulleid . In 1901 , after a technical education at Accrington Grammar School , he joined the Great Northern Railway ( GNR ) at Doncaster at the age of 18 , as an apprentice under H . A . Ivatt , the Chief Mechanical Engineer ( CME ) . After a four-year apprenticeship"
+ },
+ {
+  "edit_id": "test_clean-176",
+  "type": "A",
+  "page": "Wheel_of_Fortune_American_game_show",
+  "chunk_id": "/wiki/Wheel_of_Fortune_(American_game_show)#37",
+  "chunk_id_past": "/wiki/Wheel_of_Fortune_(American_game_show)#37@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 6,
+  "n_sent_new": 6,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 1978 , some episodes included a round called the Star Bonus , in which a star-shaped token was put on the wheel ."
+    ],
+    "new": [
+     "In 1978 , some episodes featured a round known as the Star Bonus , where a star-shaped token was placed on the wheel ."
+    ]
+   }
+  ],
+  "old_text": "Wheel_of_Fortune_American_game_show | Previous rules\nBefore December 1981 , the show did not feature a permanent bonus round . However , two experimental bonus rounds were attempted before then . In 1978 , some episodes included a round called the Star Bonus , in which a star-shaped token was put on the wheel . Contestants who picked up the token played an additional round at the end of the game to win one of four prizes , whose value determined the difficulty of the puzzle . The contestant provided four consonants and a vowel , and was given 15 seconds to attempt solving . In",
+  "new_text": "Wheel_of_Fortune_American_game_show | Previous rules\nBefore December 1981 , the show did not feature a permanent bonus round . However , two experimental bonus rounds were attempted before then . In 1978 , some episodes featured a round known as the Star Bonus , where a star-shaped token was placed on the wheel . Contestants who picked up the token played an additional round at the end of the game to win one of four prizes , whose value determined the difficulty of the puzzle . The contestant provided four consonants and a vowel , and was given 15 seconds to attempt solving . In"
+ },
+ {
+  "edit_id": "test_clean-098",
+  "type": "A",
+  "page": "Izmail",
+  "chunk_id": "/wiki/Izmail#10",
+  "chunk_id_past": "/wiki/Izmail#10@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Amid the dissolution of the Russian Empire in 1917 and in the aftermath of World War I , the city was occupied by the Romanian Army on 22 January 1918 , after a skirmish with troops of the Danube flotilla ."
+    ],
+    "new": [
+     "With the breakup of the Russian Empire in 1917 and in the aftermath of World War I , the city was occupied by the Romanian Army on 22 January 1918 , after a skirmish with troops of the Danube flotilla ."
+    ]
+   }
+  ],
+  "old_text": "Izmail | History\nAfter Russia lost the Crimean War , the town returned to the Principality of Moldavia , which would soon become part of the Romanian Principalities . Russia gained control of Izmail again after the Russo-Turkish War of 1877–1878 . Amid the dissolution of the Russian Empire in 1917 and in the aftermath of World War I , the city was occupied by the Romanian Army on 22 January 1918 , after a skirmish with troops of the Danube flotilla . Later that year , the Sfatul Țării of Chișinău , which claimed to be the representative of the whole of",
+  "new_text": "Izmail | History\nAfter Russia lost the Crimean War , the town returned to the Principality of Moldavia , which would soon become part of the Romanian Principalities . Russia gained control of Izmail again after the Russo-Turkish War of 1877–1878 . With the breakup of the Russian Empire in 1917 and in the aftermath of World War I , the city was occupied by the Romanian Army on 22 January 1918 , after a skirmish with troops of the Danube flotilla . Later that year , the Sfatul Țării of Chișinău , which claimed to be the representative of the whole of"
+ },
+ {
+  "edit_id": "test_clean-051",
+  "type": "A",
+  "page": "The_Allegory_of_Faith",
+  "chunk_id": "/wiki/The_Allegory_of_Faith#0",
+  "chunk_id_past": "/wiki/The_Allegory_of_Faith#0@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "The Allegory of Faith , also called Allegory of the Catholic Faith , is a painting of the Dutch Golden Age by Johannes Vermeer dating from about 1670–1672 ."
+    ],
+    "new": [
+     "The Allegory of Faith , also known as Allegory of the Catholic Faith , is a Dutch Golden Age painting by Johannes Vermeer from about 1670–1672 ."
+    ]
+   }
+  ],
+  "old_text": "The_Allegory_of_Faith | The Allegory of Faith\n The Allegory of Faith , also called Allegory of the Catholic Faith , is a painting of the Dutch Golden Age by Johannes Vermeer dating from about 1670–1672 . It has been in the Metropolitan Museum of Art in New York since 1931 .",
+  "new_text": "The_Allegory_of_Faith | The Allegory of Faith\n The Allegory of Faith , also known as Allegory of the Catholic Faith , is a Dutch Golden Age painting by Johannes Vermeer from about 1670–1672 . It has been in the Metropolitan Museum of Art in New York since 1931 ."
+ },
+ {
+  "edit_id": "test_clean-076",
+  "type": "A",
+  "page": "Olivier_Bernard",
+  "chunk_id": "/wiki/Olivier_Bernard#11",
+  "chunk_id_past": "/wiki/Olivier_Bernard#11@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In a 2011 interview , he faulted manager Graeme Sounesss man management and attributed the death of his career to him ."
+    ],
+    "new": [
+     "In a 2011 interview , he criticised manager Graeme Sounesss man management and blamed him for the death of his career ."
+    ]
+   }
+  ],
+  "old_text": "Olivier_Bernard | Retirement\nBernard retired from football due to a hip injury . In a 2011 interview , he faulted manager Graeme Sounesss man management and attributed the death of his career to him . Bernards injury will require an operation eventually , but he is prolonging it despite the pain . He may never be able to run or have full mobility again- living with a limp for the rest of his life is almost a certainty . He now fights racism in football as a prominent memberShow Racism the Red Card and has recently appeared on Sky Sports News expressing his",
+  "new_text": "Olivier_Bernard | Retirement\nBernard retired from football due to a hip injury . In a 2011 interview , he criticised manager Graeme Sounesss man management and blamed him for the death of his career . Bernards injury will require an operation eventually , but he is prolonging it despite the pain . He may never be able to run or have full mobility again- living with a limp for the rest of his life is almost a certainty . He now fights racism in football as a prominent memberShow Racism the Red Card and has recently appeared on Sky Sports News expressing his"
+ },
+ {
+  "edit_id": "test_clean-125",
+  "type": "A",
+  "page": "Black_Tiger_professional_wrestling",
+  "chunk_id": "/wiki/Black_Tiger_(professional_wrestling)#5",
+  "chunk_id_past": "/wiki/Black_Tiger_(professional_wrestling)#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Kanemoto removed his mask in January 1994 , while Guerrero reached the finals of the 1994 Super Grade Junior Heavyweight Tag League alongside The Great Sasuke , placed third in the 1994 and 1995 Best of the Super Juniors tournaments and won in 1996 ."
+    ],
+    "new": [
+     "Kanemoto unmasked in January 1994 , while Guerrero was a finalist in the 1994 Super Grade Junior Heavyweight Tag League with The Great Sasuke , came third in the 1994 and 1995 Best of the Super Juniors tournaments and was victorious in 1996 ."
+    ]
+   }
+  ],
+  "old_text": "Black_Tiger_professional_wrestling | Black Tiger II\n In August 1993 Black Tiger made a return , this time portrayed by Eddie Guerrero . His Tiger Mask rival at this time was Koji Kanemoto . Kanemoto removed his mask in January 1994 , while Guerrero reached the finals of the 1994 Super Grade Junior Heavyweight Tag League alongside The Great Sasuke , placed third in the 1994 and 1995 Best of the Super Juniors tournaments and won in 1996 .",
+  "new_text": "Black_Tiger_professional_wrestling | Black Tiger II\n In August 1993 Black Tiger made a return , this time portrayed by Eddie Guerrero . His Tiger Mask rival at this time was Koji Kanemoto . Kanemoto unmasked in January 1994 , while Guerrero was a finalist in the 1994 Super Grade Junior Heavyweight Tag League with The Great Sasuke , came third in the 1994 and 1995 Best of the Super Juniors tournaments and was victorious in 1996 ."
+ },
+ {
+  "edit_id": "test_clean-092",
+  "type": "A",
+  "page": "VP_29",
+  "chunk_id": "/wiki/VP-29#29",
+  "chunk_id_past": "/wiki/VP-29#29@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 4,
+  "n_sent_new": 4,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "- 1 August 1944 : The squadron reached San Diego and all hands were granted 30-day rehabilitation leave ."
+    ],
+    "new": [
+     "- 1 August 1944 : The squadron arrived at San Diego and all hands were given 30-day rehabilitation leave ."
+    ]
+   }
+  ],
+  "old_text": "VP_29 | Operational history\n - 8 June 1944 : VP-72 was consolidated at Ebeye Island , with all aircraft and crews berthed ashore . Maintenance and overhaul of the remaining squadron aircraft were conducted to prepare them for the return to NAS Kaneohe Bay when relieved . - 17 July 1944 : VP-72 was relieved by VP-18 for return to NAS Kaneohe Bay and eventual transfer back to the continental United States . - 1 August 1944 : The squadron reached San Diego and all hands were granted 30-day rehabilitation leave .",
+  "new_text": "VP_29 | Operational history\n - 8 June 1944 : VP-72 was consolidated at Ebeye Island , with all aircraft and crews berthed ashore . Maintenance and overhaul of the remaining squadron aircraft were conducted to prepare them for the return to NAS Kaneohe Bay when relieved . - 17 July 1944 : VP-72 was relieved by VP-18 for return to NAS Kaneohe Bay and eventual transfer back to the continental United States . - 1 August 1944 : The squadron arrived at San Diego and all hands were given 30-day rehabilitation leave ."
+ },
+ {
+  "edit_id": "test_clean-143",
+  "type": "A",
+  "page": "Reinhard_Scheer",
+  "chunk_id": "/wiki/Reinhard_Scheer#26",
+  "chunk_id_past": "/wiki/Reinhard_Scheer#26@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In the end , Scheer and his supporters triumphed and the unrestricted submarine campaign was restarted in February 1917 ."
+    ],
+    "new": [
+     "Ultimately , Scheer and his allies prevailed and the unrestricted submarine campaign was resumed in February 1917 ."
+    ]
+   }
+  ],
+  "old_text": "Reinhard_Scheer | Post-Jutland\nAfter the battle was finished , Scheer wrote an assessment of the engagement for the Kaiser ; in it , he strongly urged for the resumption of the unrestricted submarine warfare campaign in the Atlantic . He argued that it was the only option to defeat Great Britain . Scheer spent the majority of the remainder of the year debating the issue with the naval command . In the end , Scheer and his supporters triumphed and the unrestricted submarine campaign was restarted in February 1917 . Despite his conviction that only the U-boats could defeat Britain , Scheer continued to utilize",
+  "new_text": "Reinhard_Scheer | Post-Jutland\nAfter the battle was finished , Scheer wrote an assessment of the engagement for the Kaiser ; in it , he strongly urged for the resumption of the unrestricted submarine warfare campaign in the Atlantic . He argued that it was the only option to defeat Great Britain . Scheer spent the majority of the remainder of the year debating the issue with the naval command . Ultimately , Scheer and his allies prevailed and the unrestricted submarine campaign was resumed in February 1917 . Despite his conviction that only the U-boats could defeat Britain , Scheer continued to utilize"
+ },
+ {
+  "edit_id": "test_clean-158",
+  "type": "A",
+  "page": "British_Vogue",
+  "chunk_id": "/wiki/British_Vogue#7",
+  "chunk_id_past": "/wiki/British_Vogue#7@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 3,
+  "n_sent_new": 3,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In 1944 , the American photographer Lee Miller convinced Withers to dispatch her to Normandy to create an article about wartime nursing ; Miller then accompanied the Allied advance through Europe , covering the liberation of Paris and sending a story from Buchenwald ."
+    ],
+    "new": [
+     "In 1944 , the American photographer Lee Miller persuaded Withers to send her to Normandy to produce an article on wartime nursing ; Miller then followed the Allied advance through Europe , reporting the liberation of Paris and sending a story from Buchenwald ."
+    ]
+   }
+  ],
+  "old_text": "British_Vogue | History\n Under Audrey Withers ( editor from 1940 to 1960 ) , the magazine again took a literary direction , and during the Second World War it even took part in reporting the war . In 1944 , the American photographer Lee Miller convinced Withers to dispatch her to Normandy to create an article about wartime nursing ; Miller then accompanied the Allied advance through Europe , covering the liberation of Paris and sending a story from Buchenwald . Dame Anna Wintour edited the British edition from 1985 to 1987 , before taking over Vogue in New York City .",
+  "new_text": "British_Vogue | History\n Under Audrey Withers ( editor from 1940 to 1960 ) , the magazine again took a literary direction , and during the Second World War it even took part in reporting the war . In 1944 , the American photographer Lee Miller persuaded Withers to send her to Normandy to produce an article on wartime nursing ; Miller then followed the Allied advance through Europe , reporting the liberation of Paris and sending a story from Buchenwald . Dame Anna Wintour edited the British edition from 1985 to 1987 , before taking over Vogue in New York City ."
+ },
+ {
+  "edit_id": "test_clean-181",
+  "type": "A",
+  "page": "Miller_M_Duris",
+  "chunk_id": "/wiki/Miller_M._Duris#5",
+  "chunk_id_past": "/wiki/Miller_M._Duris#5@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 2,
+  "n_sent_new": 2,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "Also during his tenure as mayor , he presided over the dedication of Bicentennial Park on October 19 , 1976 ."
+    ],
+    "new": [
+     "Also while he was mayor , he officiated at the dedication of Bicentennial Park on October 19 , 1976 ."
+    ]
+   }
+  ],
+  "old_text": "Miller_M_Duris | Political career\nmembers of the council , and PayLess Drug , were sued over a land use decision , with the case reaching the Oregon Court of Appeals in 1975 , where he and the other defendants prevailed . Also during his tenure as mayor , he presided over the dedication of Bicentennial Park on October 19 , 1976 .",
+  "new_text": "Miller_M_Duris | Political career\nmembers of the council , and PayLess Drug , were sued over a land use decision , with the case reaching the Oregon Court of Appeals in 1975 , where he and the other defendants prevailed . Also while he was mayor , he officiated at the dedication of Bicentennial Park on October 19 , 1976 ."
+ },
+ {
+  "edit_id": "test_clean-120",
+  "type": "A",
+  "page": "Helen_Clark",
+  "chunk_id": "/wiki/Helen_Clark#22",
+  "chunk_id_past": "/wiki/Helen_Clark#22@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "In October 1996 Labour was defeated in the election , though Clark continued as Opposition leader ."
+    ],
+    "new": [
+     "Labour lost the election in October 1996 , but Clark remained as Opposition leader ."
+    ]
+   }
+  ],
+  "old_text": "Helen_Clark | Cabinet Minister\nThe Labour Party rated poorly in opinion polls in the run-up to the 1996 general election , and Clark suffered from a low personal approval rating . At one point polls suggested that New Zealand First of Winston Peters would even poll 30% and Labour would be beaten into third place . However , she survived an attempted leadership coup by senior members who favoured Phil Goff . In October 1996 Labour was defeated in the election , though Clark continued as Opposition leader . Clark was seen as having convincingly won the election debates which led to Labour doing better than",
+  "new_text": "Helen_Clark | Cabinet Minister\nThe Labour Party rated poorly in opinion polls in the run-up to the 1996 general election , and Clark suffered from a low personal approval rating . At one point polls suggested that New Zealand First of Winston Peters would even poll 30% and Labour would be beaten into third place . However , she survived an attempted leadership coup by senior members who favoured Phil Goff . Labour lost the election in October 1996 , but Clark remained as Opposition leader . Clark was seen as having convincingly won the election debates which led to Labour doing better than"
+ },
+ {
+  "edit_id": "test_clean-070",
+  "type": "A",
+  "page": "Michael_Cullen_politician",
+  "chunk_id": "/wiki/Michael_Cullen_(politician)#6",
+  "chunk_id_past": "/wiki/Michael_Cullen_(politician)#6@past",
+  "changed": true,
+  "matches_edit_record": true,
+  "n_sent_old": 5,
+  "n_sent_new": 5,
+  "ops": [
+   {
+    "op": "replace",
+    "old": [
+     "When Labour came to government in 1984 , Cullen took on the position of Senior Whip ."
+    ],
+    "new": [
+     "When Labour entered government in 1984 , Cullen became Senior Whip ."
+    ]
+   }
+  ],
+  "old_text": "Michael_Cullen_politician | Fourth Labour Government\nWhen Labour came to government in 1984 , Cullen took on the position of Senior Whip . Due to his knowledge of economics , Cullen became increasingly involved in the disputes surrounding the Minister of Finance , Roger Douglas , who supported the liberalisation of trade and the sale of state assets plus deep tax cuts . These goals , which were against traditional Labour policies , angered both party members and the public . When the Prime Minister , David Lange , attempted to limit the influence Douglas had on the governments direction , Cullen became involved on Langes side . After Labours re-election",
+  "new_text": "Michael_Cullen_politician | Fourth Labour Government\nWhen Labour entered government in 1984 , Cullen became Senior Whip . Due to his knowledge of economics , Cullen became increasingly involved in the disputes surrounding the Minister of Finance , Roger Douglas , who supported the liberalisation of trade and the sale of state assets plus deep tax cuts . These goals , which were against traditional Labour policies , angered both party members and the public . When the Prime Minister , David Lange , attempted to limit the influence Douglas had on the governments direction , Cullen became involved on Langes side . After Labours re-election"
+ }
+]

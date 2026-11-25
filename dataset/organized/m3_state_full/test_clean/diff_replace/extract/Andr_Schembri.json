@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "Schembri joined Austria Kärnten on a two-year deal.",
+   "chunk": 12,
+   "date_text": "19 June 2009",
+   "date": "2009-06-19",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Austria Kärnten",
+   "quote": "Schembri joined Austria Kärnten on a two-year deal on 19 June 2009",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/André_Schembri#12"
+  },
+  {
+   "text": "Schembri was one of few players who was allowed to be released.",
+   "chunk": 12,
+   "date_text": "January 2010",
+   "date": "2010-01",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "Austria Kärnten",
+   "quote": "Schembri was one of few players who was allowed to be released in January 2010",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/André_Schembri#12"
+  },
+  {
+   "text": "His only goal for the Austrian club came in a 2–3 defeat against Kapfenberger SV.",
+   "chunk": 12,
+   "date_text": "26 July",
+   "date": "2009-07-26",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Kapfenberger SV",
+   "quote": "His only goal for the Austrian club came in a 2–3 defeat against Kapfenberger SV on 26 July",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/André_Schembri#12"
+  }
+ ],
+ "dropped": []
+}

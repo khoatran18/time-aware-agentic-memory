@@ -1,0 +1,34 @@
+{
+ "idmap": {
+  "N1": "e09a835441f1b958",
+  "N2": "aca38a493a36c5ff",
+  "N3": "ea1f856abe7a8f05",
+  "N4": "05613ab58481147e",
+  "N5": "ea92e91a92857763"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "close",
+    "evidence": "From December 1941 until November 1943 , U-38 was used as a training boat",
+    "end_date": "1943-11"
+   }
+  ],
+  "add": [
+   {
+    "text": "U-38 was used as a training boat in the 24th and 21st U-boat Flotillas until November 1943.",
+    "evidence": "From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas",
+    "date_text": "November 1943",
+    "date": "1943-11",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "24th and 21st U-boat Flotillas",
+    "quote": "From December 1941 until November 1943 , U-38 was used as a training boat in the 24th and 21st U-boat Flotillas"
+   }
+  ]
+ }
+}

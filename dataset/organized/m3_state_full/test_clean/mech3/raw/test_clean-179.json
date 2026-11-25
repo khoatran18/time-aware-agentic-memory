@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "37f0f4c4930cb96a",
+  "N2": "7a363b870db912a6",
+  "N3": "e110b01f9c6f286e",
+  "N4": "f640ccaf68fd477e",
+  "N5": "61d59e0ee88526ba",
+  "N6": "664c7f6f4644d153"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "from 1841 to 1845 the Bilders family lived in Oosterbeek",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The Bilders family lived in Oosterbeek from 1841.",
+    "evidence": "from 1841 to 1845 the Bilders family lived in Oosterbeek",
+    "date_text": "1841",
+    "date": "1841",
+    "approximate": false,
+    "track": "location",
+    "phase": "start",
+    "kind": "change",
+    "subject": "part_of_self",
+    "object": "Oosterbeek",
+    "quote": "from 1841 to 1845 the Bilders family lived in Oosterbeek"
+   }
+  ]
+ }
+}

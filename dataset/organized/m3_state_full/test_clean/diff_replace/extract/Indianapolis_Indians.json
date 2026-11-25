@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "The Indianapolis Blues operated in the National League.",
+   "chunk": 1,
+   "date_text": "1878",
+   "date": "1878",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "National League",
+   "quote": "a club called the Indianapolis Blues operated in the National League in 1878",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Indianapolis_Indians#1"
+  },
+  {
+   "text": "Organized baseball began again in Indianapolis.",
+   "chunk": 1,
+   "date_text": "1887",
+   "date": "1887",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "organized baseball began again in 1887",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Indianapolis_Indians#1"
+  },
+  {
+   "text": "The current Indianapolis Indians franchise was founded as an original member of the American Association.",
+   "chunk": 1,
+   "date_text": "1902",
+   "date": "1902",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "American Association",
+   "quote": "the current Indianapolis Indians franchise was founded as an original member of the American Association in 1902",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/Indianapolis_Indians#1"
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,26 @@
+{
+ "idmap": {
+  "N1": "e0556dd80ef87a6c",
+  "N2": "ac1abd0ef8f9c589",
+  "N3": "4805dd6b38fb3cd4",
+  "N4": "d3b34257c16d8a2a"
+ },
+ "output": {
+  "changes": [],
+  "add": [
+   {
+    "text": "Siniša Mihajlović signed a contract until June 2011 with Catania.",
+    "evidence": "He signed a contract until June 2011 with the Elefanti",
+    "date_text": "June 2011",
+    "date": "2011-06",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "state",
+    "subject": "other",
+    "object": "Catania",
+    "quote": "He signed a contract until June 2011 with the Elefanti"
+   }
+  ]
+ }
+}

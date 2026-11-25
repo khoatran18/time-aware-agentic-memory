@@ -1,0 +1,32 @@
+{
+ "idmap": {
+  "N1": "d0aa842dfa65c5dc",
+  "N2": "d9eb87c98703db96",
+  "N3": "3988bbc7f0eedb3b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Pletnyov handed the magazine over to Nikolay Nekrasov and Ivan Panaev.",
+    "evidence": "Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847",
+    "date_text": "1847",
+    "date": "1847",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "self",
+    "object": "Nikolay Nekrasov and Ivan Panaev",
+    "quote": "Pletnyov handed it over to Nikolay Nekrasov and Ivan Panaev in 1847"
+   }
+  ]
+ }
+}

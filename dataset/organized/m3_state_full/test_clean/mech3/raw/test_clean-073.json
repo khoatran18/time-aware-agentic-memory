@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "866f8e113af14783",
+  "N2": "ed6a5b70a4493191",
+  "N3": "010afd596ec467bf",
+  "N4": "fa5f11c753223708",
+  "N5": "e3ceba1713be4409",
+  "N6": "b6638ae9e2202060"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship.",
+    "evidence": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship",
+    "date_text": "2017",
+    "date": "2017",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Team Mugen",
+    "quote": "Gasly joined Team Mugen to drive a Red Bull-sponsored Honda at the 2017 Super Formula Championship"
+   }
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "idmap": {
+  "N1": "554c111368e578f6",
+  "N2": "7498d84460702a49",
+  "N3": "3d6483698804968a",
+  "N4": "8a0f2189860a65bc",
+  "N5": "2f3393fb5d87c473",
+  "N6": "6e0c002089da56b6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "On 15 January 1974 , it was awarded the Order of the Red Banner",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The army was awarded the Order of the Red Banner.",
+    "evidence": "On 15 January 1974 , it was awarded the Order of the Red Banner",
+    "date_text": "15 January 1974",
+    "date": "1974-01-15",
+    "approximate": false,
+    "track": "other",
+    "phase": "point",
+    "kind": "occurrence",
+    "subject": "self",
+    "object": "Order of the Red Banner",
+    "quote": "On 15 January 1974 , it was awarded the Order of the Red Banner"
+   }
+  ]
+ }
+}

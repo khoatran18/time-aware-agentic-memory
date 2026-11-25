@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Jon Ridgeon was appointed to the CEO role.",
+   "chunk": 10,
+   "date_text": "December 2018",
+   "date": "2018-12",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "CEO",
+   "quote": "Jon Ridgeon was appointed to the role in December 2018",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/World_Athletics#10"
+  },
+  {
+   "text": "Olivier Gers was the first person to officially hold the position.",
+   "chunk": 10,
+   "date_text": "2016",
+   "date": "2016",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "CEO",
+   "quote": "Olivier Gers was the first person to officially hold the position in 2016",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/World_Athletics#10"
+  }
+ ],
+ "dropped": []
+}

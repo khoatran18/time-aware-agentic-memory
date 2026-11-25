@@ -1,0 +1,31 @@
+{
+ "idmap": {
+  "N1": "15a59f2a804078cd",
+  "N2": "04a0e55284e18f25"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Cottier remained an active designer on several American project between 1873–9 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Cottier remained an active designer on several American projects between 1873 and 1879.",
+    "evidence": "Cottier remained an active designer on several American project between 1873–9 .",
+    "date_text": "1873–9",
+    "date": "1873",
+    "approximate": false,
+    "track": "affiliation",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Cottier",
+    "quote": "Cottier remained an active designer on several American project between 1873–9"
+   }
+  ]
+ }
+}

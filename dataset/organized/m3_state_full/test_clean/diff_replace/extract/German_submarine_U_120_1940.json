@@ -1,0 +1,72 @@
+{
+ "events": [
+  {
+   "text": "The boat was raised.",
+   "chunk": 7,
+   "date_text": "1950",
+   "date": "1950",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "The boat was raised in 1950",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-120_(1940)#7"
+  },
+  {
+   "text": "The boat was broken up for scrap.",
+   "chunk": 7,
+   "date_text": "1950",
+   "date": "1950",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "raised in 1950 and broken up for scrap",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-120_(1940)#7"
+  }
+ ],
+ "dropped": [
+  {
+   "text": "U-120 became part of the 31st U-boat Flotilla (training).",
+   "chunk": 7,
+   "date_text": "March 1945",
+   "date": "1945-03",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "31st U-boat Flotilla",
+   "quote": "March 1945 when she became part of the 31st U-boat Flotilla ( training )",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-120_(1940)#7",
+   "reason": "number_not_in_chunk:120"
+  },
+  {
+   "text": "U-120 was scuttled at Bremerhaven.",
+   "chunk": 7,
+   "date_text": "2 May 1945",
+   "date": "1945-05-02",
+   "approximate": false,
+   "track": "other",
+   "phase": "end",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Bremerhaven",
+   "quote": "until 2 May 1945 when she was scuttled at Bremerhaven",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/German_submarine_U-120_(1940)#7",
+   "reason": "number_not_in_chunk:120"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "idmap": {
+  "N1": "07987b2e7a6d58ff",
+  "N2": "2ad7b8dbfece57d4",
+  "N3": "0bc598cec0af9f78",
+  "N4": "4ac1418a3b37b7de",
+  "N5": "5a9af8e0db8c2876",
+  "N6": "09baaa3953637eb9",
+  "N7": "f636b2844993f2e1",
+  "N8": "ea016c2b0cf3f7e6"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "A fifty-year lease over most of the property was obtained by Council in 1975 .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "A fifty-year lease over most of the property was obtained by Council in 1975.",
+    "evidence": "A fifty-year lease over most of the property was obtained by Council in 1975 .",
+    "date_text": "1975",
+    "date": "1975",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "Council",
+    "quote": "A fifty-year lease over most of the property was obtained by Council in 1975 ."
+   }
+  ]
+ }
+}

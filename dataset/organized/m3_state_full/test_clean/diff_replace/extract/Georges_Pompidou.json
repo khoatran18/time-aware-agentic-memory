@@ -1,0 +1,103 @@
+{
+ "events": [
+  {
+   "text": "Georges Pompidou became Chevalier de la Legion of Honour.",
+   "chunk": 23,
+   "date_text": "1948",
+   "date": "1948",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Chevalier de la Legion of Honour",
+   "quote": "Chevalier de la Legion of Honour : ( France ) ( 1948 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became Officier de la Legion of Honour.",
+   "chunk": 23,
+   "date_text": "1957",
+   "date": "1957",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Officier de la Legion of Honour",
+   "quote": "Officier de la Legion of Honour : ( France ) ( 1957 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became Grand-croix de la Legion of Honour.",
+   "chunk": 23,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Grand-croix de la Legion of Honour",
+   "quote": "Grand-croix de la Legion of Honour : 1969",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou became grand-maître de l'ordre as president of the republic.",
+   "chunk": 23,
+   "date_text": "1969",
+   "date": "1969",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "grand-maître de l'ordre",
+   "quote": "grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou's term as grand-maître de l'ordre ended.",
+   "chunk": 23,
+   "date_text": "1974",
+   "date": "1974",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "grand-maître de l'ordre",
+   "quote": "grand-maître de lordre ( France ) ( 1969-1974 , as president of the republic )",
+   "section": 9,
+   "flags": [
+    "name_not_in_page:Pompidou's"
+   ],
+   "cid": "/wiki/Georges_Pompidou#23"
+  },
+  {
+   "text": "Georges Pompidou received the Grand Cross of Order of St. Olav.",
+   "chunk": 23,
+   "date_text": "1962",
+   "date": "1962",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Grand Cross of Order of St. Olav",
+   "quote": "Grand Cross of Order of St . Olav ( Norway ) ( 1962 )",
+   "section": 9,
+   "flags": [],
+   "cid": "/wiki/Georges_Pompidou#23"
+  }
+ ],
+ "dropped": []
+}

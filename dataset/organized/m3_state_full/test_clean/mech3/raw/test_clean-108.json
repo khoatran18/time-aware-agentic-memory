@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "9d83723cd0730c64",
+  "N2": "e93bf1c83b3e21af",
+  "N3": "f923625094e91a46",
+  "N4": "b9d0cfd9653602be",
+  "N5": "7c59b7c77681bf74"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N3",
+    "op": "invalidate",
+    "evidence": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+    "end_date": null
+   },
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Conyers began serving as a referee for Michigan's workmen's compensation department.",
+    "evidence": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+    "date_text": "1961",
+    "date": "1961",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Michigan's workmen's compensation department",
+    "quote": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department"
+   },
+   {
+    "text": "Conyers's service as a referee for Michigan's workmen's compensation department ended.",
+    "evidence": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department .",
+    "date_text": "1963",
+    "date": "1963",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Michigan's workmen's compensation department",
+    "quote": "From 1961 to 1963 , he was a referee for Michigans workmens compensation department"
+   }
+  ]
+ }
+}

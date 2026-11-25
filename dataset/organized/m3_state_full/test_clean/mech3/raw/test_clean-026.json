@@ -1,0 +1,53 @@
+{
+ "idmap": {
+  "N1": "bb71af0116838f6f",
+  "N2": "22e27644e9ff40b7",
+  "N3": "3679b9a54608df40",
+  "N4": "effb5ad6cca93742",
+  "N5": "3310e78d47c27713",
+  "N6": "faede5ef40e996ca",
+  "N7": "fe90fd0276e7022f",
+  "N8": "0ca0f3b02cc5f0a0",
+  "N9": "6a2c4c7775c64b3d",
+  "N10": "72b3809a1f8cbae6",
+  "N11": "804cae0abdf0321b"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N4",
+    "op": "invalidate",
+    "evidence": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987.",
+    "evidence": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987",
+    "date_text": "from 1980 to 1987",
+    "date": "1980",
+    "approximate": false,
+    "track": "role",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Saint Paul Chamber Orchestra",
+    "quote": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987"
+   },
+   {
+    "text": "Zukerman's tenure as music director of the Saint Paul Chamber Orchestra ended in 1987.",
+    "evidence": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987",
+    "date_text": "1987",
+    "date": "1987",
+    "approximate": false,
+    "track": "role",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Saint Paul Chamber Orchestra",
+    "quote": "Zukerman was music director of the Saint Paul Chamber Orchestra from 1980 to 1987"
+   }
+  ]
+ }
+}

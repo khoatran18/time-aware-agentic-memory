@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "The case reached the Oregon Court of Appeals in 1975, where he and the other defendants prevailed.",
+   "chunk": 5,
+   "date_text": "1975",
+   "date": "1975",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Oregon Court of Appeals",
+   "quote": "the case reaching the Oregon Court of Appeals in 1975 , where he and the other defendants prevailed",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Miller_M._Duris#5"
+  },
+  {
+   "text": "He officiated at the dedication of Bicentennial Park on October 19, 1976.",
+   "chunk": 5,
+   "date_text": "October 19 , 1976",
+   "date": "1976-10-19",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "Bicentennial Park",
+   "quote": "he officiated at the dedication of Bicentennial Park on October 19 , 1976",
+   "section": 2,
+   "flags": [],
+   "cid": "/wiki/Miller_M._Duris#5"
+  }
+ ],
+ "dropped": []
+}

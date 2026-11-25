@@ -1,0 +1,53 @@
+{
+ "events": [
+  {
+   "text": "VP-72 was consolidated at Ebeye Island.",
+   "chunk": 29,
+   "date_text": "8 June 1944",
+   "date": "1944-06-08",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "Ebeye Island",
+   "quote": "8 June 1944 : VP-72 was consolidated at Ebeye Island",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/VP-29#29"
+  },
+  {
+   "text": "VP-72 was relieved by VP-18 for return to NAS Kaneohe Bay.",
+   "chunk": 29,
+   "date_text": "17 July 1944",
+   "date": "1944-07-17",
+   "approximate": false,
+   "track": "role",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "VP-18",
+   "quote": "17 July 1944 : VP-72 was relieved by VP-18",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/VP-29#29"
+  },
+  {
+   "text": "The squadron arrived at San Diego.",
+   "chunk": 29,
+   "date_text": "1 August 1944",
+   "date": "1944-08-01",
+   "approximate": false,
+   "track": "location",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "San Diego",
+   "quote": "1 August 1944 : The squadron arrived at San Diego",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/VP-29#29"
+  }
+ ],
+ "dropped": []
+}

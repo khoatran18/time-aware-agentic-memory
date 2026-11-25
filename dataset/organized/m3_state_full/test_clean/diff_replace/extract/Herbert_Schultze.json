@@ -1,0 +1,69 @@
+{
+ "events": [
+  {
+   "text": "Schultze joined the Bundesmarine of West Germany.",
+   "chunk": 24,
+   "date_text": "2 July 1956",
+   "date": "1956-07-02",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "Bundesmarine",
+   "quote": "On 2 July 1956 , Schultze joined the Bundesmarine of West Germany",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Herbert_Schultze#24"
+  },
+  {
+   "text": "Schultze's first disposition was commander of the 3rd Ship Home Department.",
+   "chunk": 24,
+   "date_text": "2 July 1956",
+   "date": "1956-07-02",
+   "approximate": false,
+   "track": "role",
+   "phase": "start",
+   "kind": "change",
+   "subject": "self",
+   "object": "3rd Ship Home Department",
+   "quote": "His first disposition was commander of the 3rd Ship Home Department . He served in this capacity from 2 July 1956",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Herbert_Schultze#24"
+  },
+  {
+   "text": "Schultze's service as commander of the 3rd Ship Home Department ended.",
+   "chunk": 24,
+   "date_text": "15 February 1959",
+   "date": "1959-02-15",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": "3rd Ship Home Department",
+   "quote": "He served in this capacity from 2 July 1956 to 15 February 1959",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Herbert_Schultze#24"
+  },
+  {
+   "text": "Schultze retired with the rank of Kapitän zur See.",
+   "chunk": 24,
+   "date_text": "30 September 1968",
+   "date": "1968-09-30",
+   "approximate": false,
+   "track": "role",
+   "phase": "end",
+   "kind": "change",
+   "subject": "self",
+   "object": null,
+   "quote": "until his retirement on 30 September 1968 with the rank of",
+   "section": 4,
+   "flags": [],
+   "cid": "/wiki/Herbert_Schultze#24"
+  }
+ ],
+ "dropped": []
+}

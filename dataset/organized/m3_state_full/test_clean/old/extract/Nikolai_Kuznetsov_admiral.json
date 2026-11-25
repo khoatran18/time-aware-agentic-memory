@@ -1,0 +1,37 @@
+{
+ "events": [
+  {
+   "text": "Nikolay Gerasimovich Kuznetsov was born.",
+   "chunk": 0,
+   "date_text": "24 July 1904",
+   "date": "1904-07-24",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "24 July 1904 – 6 December 1971",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Nikolai_Kuznetsov_(admiral)#0"
+  },
+  {
+   "text": "Nikolay Gerasimovich Kuznetsov died.",
+   "chunk": 0,
+   "date_text": "6 December 1971",
+   "date": "1971-12-06",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": null,
+   "quote": "24 July 1904 – 6 December 1971",
+   "section": 0,
+   "flags": [],
+   "cid": "/wiki/Nikolai_Kuznetsov_(admiral)#0"
+  }
+ ],
+ "dropped": []
+}

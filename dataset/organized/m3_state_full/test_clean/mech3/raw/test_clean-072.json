@@ -1,0 +1,56 @@
+{
+ "idmap": {
+  "N1": "83deefc08dcd9c0d",
+  "N2": "f7b1a7d0600611ed",
+  "N3": "6c04b2d4ef40544f",
+  "N4": "6ee31b79ad1f071c",
+  "N5": "f6c99db16428a217",
+  "N6": "0086057ac19ce457",
+  "N7": "caeda8acada80e8b",
+  "N8": "8cb851c2db6ee638"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N1",
+    "op": "invalidate",
+    "evidence": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure",
+    "end_date": null
+   },
+   {
+    "node": "N5",
+    "op": "invalidate",
+    "evidence": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "The painting was owned by Manet's friend Jean-Baptiste Faure.",
+    "evidence": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure",
+    "date_text": "1873",
+    "date": "1873",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "start",
+    "kind": "change",
+    "subject": "self",
+    "object": "Jean-Baptiste Faure",
+    "quote": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure"
+   },
+   {
+    "text": "The painting ceased to be owned by Jean-Baptiste Faure.",
+    "evidence": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure",
+    "date_text": "1893",
+    "date": "1893",
+    "approximate": false,
+    "track": "ownership_structure",
+    "phase": "end",
+    "kind": "change",
+    "subject": "self",
+    "object": "Jean-Baptiste Faure",
+    "quote": "Between 1873 and 1893 , the painting was owned by Manets friend , composer and baritone Jean-Baptiste Faure"
+   }
+  ]
+ }
+}

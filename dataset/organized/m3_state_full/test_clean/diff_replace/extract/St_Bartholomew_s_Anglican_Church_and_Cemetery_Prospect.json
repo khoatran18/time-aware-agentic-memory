@@ -1,0 +1,87 @@
+{
+ "events": [
+  {
+   "text": "The church was closed.",
+   "chunk": 25,
+   "date_text": "1967",
+   "date": "1967",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "church",
+   "quote": "lack of financial support led to its closure in 1967",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25"
+  },
+  {
+   "text": "The last service was held on Christmas Eve.",
+   "chunk": 25,
+   "date_text": "Christmas Eve that year",
+   "date": "1967",
+   "approximate": false,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "self",
+   "object": "last service",
+   "quote": "The last service was held on Christmas Eve that year",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25"
+  },
+  {
+   "text": "A group of citizens formed The Prospect Trust.",
+   "chunk": 25,
+   "date_text": "November 1967",
+   "date": "1967-11",
+   "approximate": false,
+   "track": "affiliation",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "The Prospect Trust",
+   "quote": "formed The Prospect Trust in November 1967",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25"
+  },
+  {
+   "text": "The City of Blacktown commenced negotiations with the Church of England Property Trust.",
+   "chunk": 25,
+   "date_text": "late 1969",
+   "date": "1969",
+   "approximate": true,
+   "track": "other",
+   "phase": "point",
+   "kind": "occurrence",
+   "subject": "other",
+   "object": "City of Blacktown",
+   "quote": "In late 1969 the City of Blacktown commenced negotiations with the Church of England Property Trust",
+   "section": 1,
+   "flags": [
+    "approximate_date"
+   ],
+   "cid": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25"
+  },
+  {
+   "text": "A fifty-year lease over most of the property was obtained by Council.",
+   "chunk": 25,
+   "date_text": "1975",
+   "date": "1975",
+   "approximate": false,
+   "track": "ownership_structure",
+   "phase": "point",
+   "kind": "change",
+   "subject": "self",
+   "object": "fifty-year lease",
+   "quote": "A fifty-year lease over most of the property was obtained by Council in 1975",
+   "section": 1,
+   "flags": [],
+   "cid": "/wiki/St_Bartholomew's_Anglican_Church_and_Cemetery,_Prospect#25"
+  }
+ ],
+ "dropped": []
+}

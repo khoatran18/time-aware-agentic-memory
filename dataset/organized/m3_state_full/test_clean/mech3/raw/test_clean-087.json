@@ -1,0 +1,33 @@
+{
+ "idmap": {
+  "N1": "261cd39e00154aaf",
+  "N2": "3d23984eb7861eab",
+  "N3": "d9c1ec5beeaab34d",
+  "N4": "98f301384438316f"
+ },
+ "output": {
+  "changes": [
+   {
+    "node": "N2",
+    "op": "invalidate",
+    "evidence": "British former athlete and businessman Jon Ridgeon was appointed to the role in December 2018",
+    "end_date": null
+   }
+  ],
+  "add": [
+   {
+    "text": "Jon Ridgeon was appointed to the CEO role.",
+    "evidence": "British former athlete and businessman Jon Ridgeon was appointed to the role in December 2018",
+    "date_text": "December 2018",
+    "date": "2018-12",
+    "approximate": false,
+    "track": "role",
+    "phase": "point",
+    "kind": "change",
+    "subject": "other",
+    "object": "Jon Ridgeon",
+    "quote": "Jon Ridgeon was appointed to the role in December 2018"
+   }
+  ]
+ }
+}
