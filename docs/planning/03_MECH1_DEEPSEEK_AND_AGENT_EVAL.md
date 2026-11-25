@@ -110,8 +110,9 @@
 - [x] Phát hiện: 386 chunk "thiếu" đã nạp bù 2026-11-17 (97 + 179 + 110); chunk không mốc ở `test_clean` là 16,5%.
 
 **Cần làm**
-- [ ] Chốt prompt agent (`--prompt`), giữ cho A1 đến A5.
-- [ ] Chốt nơi chạy cross-encoder khi đo thời gian (CPU cục bộ hay GPU từ xa).
+- [ ] Chốt prompt agent (`--prompt`), giữ cho A1 đến A5: **tune `agent_m1`** (mục 10).
+- [ ] Tune `answer_m1` cho 10 pipeline (mục 10).
+- [ ] Chốt nơi chạy cross-encoder khi đo thời gian (CPU cục bộ hay GPU từ xa). Lần thử 10 câu `tune` chạy CPU cục bộ, tắt cache điểm (`evaluate.py --no-score-cache`): rerank trung bình L6 khoảng 0,4 s, L12 0,6 s, bge 2,1 đến 2,9 s mỗi câu.
 - [ ] B2: chạy lại truy xuất 10 cấu hình (e2e, `--top-k 5`) trên kho hiện tại, không gọi LLM; cần file cấu hình mới cho X và 9 cấu hình còn lại.
 - [ ] Ước lượng số lần gọi và USD cho B3 (4.000 lần) và B4 (A1 đến A5), hỏi người dùng duyệt.
 - [ ] B3: sinh đáp án bằng DeepSeek (`--batch 1`, thinking tắt, cache riêng).
@@ -119,4 +120,44 @@
 - [ ] B5: chấm chung (EM, F1, `contains`, từ chối, rò rỉ tương lai); B6: đo độ trễ L6, L12, bge; B7: tổng hợp ra file `docs/eval/` mới.
 - [ ] Sửa `eval/01` mục 7 (ghi chú các chỉ số "đúng năm nhãn", "phủ", "giao" chỉ là gián tiếp); ghi chú vào `planning/02` mục 11.10 nếu cần thêm.
 - [ ] Kiểm vết agent của 166-q2, 093-q1, 125-q2 (Cơ chế 3, e′); viết tổng hợp ba tập cho luận văn.
-- [ ] Commit (người dùng tự làm, lô nhỏ): mã bộ đo + `--temporal-search`; docs.
+
+## 9. Sao lưu trước khi restart Docker (2026-11-25)
+
+Sao lưu **ngoài repo**, tại `~/backups_tam/2026-11-25/` (tức `/home/tmkhoa-1812/backups_tam/2026-11-25/`, khoảng 2,9 GB). Chép khi các container Qdrant và Neo4j đã dừng (để dữ liệu nhất quán), sau đó khởi động lại; `diff -rq` với Qdrant không lệch.
+
+| Thư mục sao lưu | Nguồn gốc | Chứa gì |
+|---|---|---|
+| `qdrant_data/` | `docker/qdrant/qdrant_data` | mọi collection Qdrant (có `tam_chunks_dev_{tune,valid,test_clean}`) |
+| `neo4j/`, `neo4j_m3/`, `neo4j_old/`, `neo4j_dr/` | `data/neo4j`, `data/neo4j_m3`, `data/neo4j_old`, `data/neo4j_dr` | `/data` của `tam-neo4j` (7687), `-m3` (7688), `-old` (7689), `-dr` (7690) |
+| `judge_out/` | `local/ingest_eval/judge_out` | `graph_nodes*.json` (danh sách nút để dựng lại graph), log LLM; ngoài git |
+| `llm_cache/` | `data/llm_cache` | cache LLM (ingest, agent, chấm...) |
+| `extractions/<thư mục output>/` | `output/<thư mục>/*.jsonl` | `extractions.jsonl` (ingest tune `20261024_100929`, test_clean `20261021_230913`, valid `20261021_224334`, `20261021_230615`) và `profiler.jsonl` (tune `20261024_101330`, test_clean `20261024_143251`) |
+
+**Lưu ý khi restart/dựng lại Docker**
+- Dữ liệu Qdrant và Neo4j nằm ở thư mục máy chủ (bind mount) nên restart hay xóa container không làm mất. Không chạy `docker compose down -v` hay `docker volume prune` (volume `pgdata` của dự án Postgres khác nằm trong đó).
+- `docker-compose.yml` trỏ Neo4j tới `./docker/neo4j/neo4j_data`, khác `data/neo4j` mà container hiện chạy: dựng lại bằng file này sẽ ra graph rỗng. Phải mount đúng `data/neo4j*`.
+- Khôi phục: dừng container, chép thư mục tương ứng từ bản sao lưu về nguồn, khởi động lại. Chưa thử khôi phục thực tế.
+- Nạp lại từ JSON (khi mất cả dữ liệu): chunk từ `dataset/full_dataset/pages.jsonl`, mốc từ `extractions.jsonl` (`scripts/ingest.py --recreate`, trúng cache `data/llm_cache/ingest*` nếu khóa còn khớp, chưa kiểm), 386 chunk không mốc bằng `local/ingest_eval/vec_fill.py`; graph bằng `local/ingest_eval/graph_build{,_V,_C}.py` từ `judge_out/graph_nodes*.json`. Chưa thử nạp lại thực tế.
+
+## 10. Prompt Cơ chế 1 và kế hoạch tune (2026-11-25)
+
+**Việc đã làm ngày 2026-11-25 (sau mục 8):**
+- Thử 10 câu `tune` (`dataset/eval/tune10_subset.json`): truy xuất P1–P10 (top-5, e2e, `--no-score-cache`) chạy sạch; trả lời pipeline (DeepSeek, prompt cũ `answer_v1`, 5 câu, 50 lần gọi) sạch; agent A1–A5 (prompt cũ `agent_v3`, 5 câu) sạch: không `llm_error`, không lỗi công cụ, mọi câu dừng bằng `answer`; mỗi cấu hình agent khoảng 0,004 đến 0,006 USD (giá thường). Đây chỉ là kiểm lỗi, không phải kết quả.
+- Đã bắt đầu rồi dừng (bằng PID) lần chạy 100 câu (`tune100`): truy xuất P1–P10 và agent A1–A5 với `agent_v3`; chưa lấy kết quả nào. `output/` giữ nguyên các thư mục chạy dở; cache `data/llm_cache/ds_agent_tune100_*_v3` giữ các lượt đã gọi.
+- Thêm cờ `scripts/evaluate.py --no-score-cache` (tắt `rerank_score_cache` để đo thời gian rerank thật; `temporal_search` của agent đã tắt từ trước).
+- Sao lưu dữ liệu Docker ra ngoài repo (mục 9).
+- **Gom và đổi tên prompt** (chi tiết `src/tam/llm/prompts/README.md`): tên dạng `<vai trò>_<cơ chế>.md`, bản cũ vào `archive/`, lệnh cũ (`--prompt v5`, `--prompt-version v3`) vẫn chạy nhờ `ALIASES`. Các prompt nằm trong script đã tách ra file giống hệt nguyên văn (`ingest_m2`, `pair_m2`, `answer_m2`, `answer_m3`, `update_m3`); `answer_m2_chunk` vào `archive/` (chỉ là đối chứng). Tài liệu cũ khác (`process/04`, `05`, `07`, README của `query/`, `ingestion/`) còn nhắc tên cũ `ingestion_time_v1`, `time_extractor_v1`: đã ánh xạ ở `prompts/README.md`, chưa sửa từng chỗ.
+
+**Prompt của Cơ chế 1 là riêng, viết mới (chốt 2026-11-25):** các prompt cũ `agent_v1..v4` là agent đối chứng (`planning/02`, không thuộc cơ chế nào) và `answer_v1..v4` viết, chọn cho Gemini; không dùng làm mốc so của Cơ chế 1.
+- `answer_m1.md`: **sửa từ `archive/answer_v4.md`** (ghi khoảng hiệu lực chunk trong ngoặc, ba ví dụ giữ nguyên), thêm quy tắc "trạng thái giữ nguyên đến khi đoạn nói nó đổi" và tách "không đoán, không dùng kiến thức ngoài".
+- `agent_m1.md`: **viết lại**, mượn ý từ `agent_v3`, `agent_v4` (nêu giá trị kèm mốc, mốc phủ một phần thì vẫn đưa giá trị, dừng khi hết thông tin mới); thêm "trả lời đúng mốc hỏi", `Answer:` là cụm ngắn nhất, bỏ dòng `Type:`. Không nêu tên công cụ nào.
+- Cả hai viết từ tài liệu và prompt cũ, **chưa dựa trên phân tích lỗi của DeepSeek, chưa chạy lần nào**.
+
+**Quy trình tune (chưa chạy):**
+1. Tập cố định: `dataset/eval/tune50_subset.json` (50 câu đầu của mẫu `tune100`, seed 1, lấy từ `tune_base`, chứa 10 câu của lần thử) để sửa; `tune50b_subset.json` (50 câu còn lại, không giao) chỉ chạy một lần khi chốt. Không dùng `valid`, `test_clean`.
+2. Hệ đại diện: pipeline P1 (dense) và P6 (Temporal); agent A2 (vector) và A4 (vector + `temporal_search`). Truy xuất không gọi LLM.
+3. Vòng 1: chạy `m1` trên `tune50`, phân loại lỗi (từ chối dù có đáp án trong ngữ cảnh, sai mốc, dài dòng làm EM thấp, hết lượt, ít dùng công cụ). Vòng sau: sửa theo nhóm lỗi nhiều nhất, lưu bản cũ vào `archive/` (`answer_m1_v1.md`...). Khoảng 3 phiên bản mỗi loại.
+4. Chốt: chạy bản tốt nhất và bản `m1` đầu trên `tune50b`, so ghép cặp; chỉ đổi khi hơn 2 sai số chuẩn (với 50 câu sai số chuẩn của Δ cỡ 0,05 đến 0,07, chưa đo). Chọn một prompt chung cho 10 pipeline và một cho 5 agent, rồi mới chạy `test_clean`.
+5. Chi phí ước (giá thường, từ lần thử 5 câu, chưa đo lại): vòng 1 khoảng 0,5 đến 1 USD; giá DeepSeek giờ cao tải gấp đôi. Mỗi lần chạy lớn hỏi người dùng trước.
+
+**Chưa kiểm:** `ingest_m2` (bản `p10b`) có đúng là bản nạp graph của cả ba tập không; `pair_m2` lấy từ `local/` (ngoài git) nên không so được với bản gốc trong git.

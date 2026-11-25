@@ -92,11 +92,12 @@ time-aware-agentic-memory/
 │   │   └── graph_tools.py           #     Công cụ graph cho B: timeline, events_of_chunk (Neo4j, chỉ đọc)
 │   ├── agents/                      #   Orchestration (mới; vòng lặp tối giản, không LangGraph)
 │   │   └── loop.py                  #     AgentLoop: gọi LLM (streaming), chạy công cụ, trần bước và token; ghi agent_trace.jsonl và agent_calls.jsonl (prompt, câu trả lời, TTFT/TPOT/token) vào thư mục lần chạy
-│   └── llm/prompts/                 #   Prompt của agent (A và B dùng chung)
-│       ├── agent_v1.md              #     P0: trung tính (đối chứng)
-│       ├── agent_v2.md              #     P1: P0 + diễn giải thời điểm, căn cứ, không đoán, không lan man (125 từ)
-│       ├── agent_v3.md              #     P2: P1 + khoảng bị cắt ngang nêu từng giá trị + đầu ra Answer/Basis/Type (178 từ)
-│       └── agent_v4.md              #     P3: P2 + nới quy tắc căn cứ (ứng viên có căn cứ một phần mốc thì đưa ra, đánh dấu inferred) (219 từ)
+│   └── llm/prompts/                 #   Prompt LLM, tên `<vai trò>_<cơ chế>.md` (README.md trong thư mục: bảng đăng ký, ánh xạ tên cũ, lịch sử)
+│       ├── ingest_m1.md, profiler_m1.md, answer_m1.md, agent_m1.md   #   Cơ chế 1 (answer_m1, agent_m1 là bản nháp chưa tune)
+│       ├── ingest_m2.md, pair_m2.md, answer_m2.md, agent_m2.md       #   Cơ chế 2 (pair_m2 dùng chung với Cơ chế 3)
+│       ├── update_m3.md, answer_m3.md, agent_m3.md                   #   Cơ chế 3
+│       └── archive/                 #     bản cũ: agent_v1..v4, answer_v1..v4, answer_m2_chunk, ingestion_time_v1/v2, time_extractor_v1
+│   (prompt_files.py cạnh prompts/: tìm file, ánh xạ tên cũ như agent_v5, ingestion_time_v3)
 ├── scripts/build_text_corpus.py     # Dựng data/text_corpus từ pages.jsonl và 3 bộ con (không gọi LLM)
 ├── scripts/run_agent_search.py      # Chạy agent kiểu A (mặc định) hoặc B (--kind B, kho Qdrant) trên bộ con câu hỏi (GỌI LLM): --prompt, --pick, --workers, --max-steps (mặc định 5), --no-budget-notice, --no-cache, --repeat-id
 ├── scripts/make_v9_graph_subset.py  # Bộ con câu v9 thuộc trang đã có trong graph (không gọi LLM) -> dataset/eval/v9_graph_subset.json
