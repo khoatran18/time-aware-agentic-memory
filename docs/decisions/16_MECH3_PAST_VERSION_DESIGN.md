@@ -1,6 +1,6 @@
 # 16. Thiết kế bản quá khứ mô phỏng cho Cơ chế 3 (2026-11-18)
 
-**Trạng thái:** thiết kế và bản thử 10 chỗ sửa; chưa chạy cả loạt, chưa nạp vào kho nào. Nối tiếp `12` mục 7.
+**Trạng thái (cập nhật 2026-11-25):** đã chạy xong tune, valid và `test_clean` (kết quả ở các mục sau, mục cuối là `test_clean`). Phần thiết kế bên dưới ghi lúc chưa chạy (2026-11-18). Nối tiếp `12` mục 7.
 
 ## Nguyên tắc
 

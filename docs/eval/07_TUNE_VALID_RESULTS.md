@@ -96,6 +96,8 @@ Cross-encoder chạy sau lọc cứng, nên ablation có cross-encoder và khôn
 
 ## 6. Kết quả `test_clean` (400 câu, chạy một lần, 28 cấu hình, 0 lỗi)
 
+> **Ghi chú 2026-11-25:** các số mục 6 và 7 đo trước khi kho được nạp bù chunk không mốc (2026-11-17; `test_clean` thêm 110 chunk); kho hiện tại khác kho lúc đo. Muốn so với agent hoặc cấu hình mới thì phải chạy lại truy xuất trên kho hiện tại (không gọi LLM). Xem `eval/01` mục 11.
+
 Δ là chênh lệch `mrr` ghép cặp theo câu (± một sai số chuẩn) so với Plain RAG dense và so với Temporal Retrieval không cross-encoder. Rò rỉ = tỉ lệ câu có đáp án lấy từ chunk có `start > T_req`.
 
 | Nhóm | Cấu hình | hit@1 | hit@5 | `mrr` | ans_valid@5 | rò rỉ | Δ so với Plain RAG dense | Δ so với Temporal không CE |

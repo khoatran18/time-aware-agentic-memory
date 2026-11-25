@@ -176,3 +176,38 @@ Hai tình huống khác nhau, cùng biểu hiện "khoảng chunk nhỏ hơn kho
 | Chunk là **nguồn duy nhất** | Chỉ một đoạn nhắc sự việc, và đoạn đó chỉ ghi một nửa thời gian | Không có gì để bổ sung. `Temporal_Score` rơi vào TH2 với `t_req` ngoài khoảng (giảm `exp(-λ·Δ)`); chunk vẫn có thể được chọn nếu điểm ngữ nghĩa cao, vì điểm thời gian chỉ chiếm `W2 = 0.3`. Không sửa mốc của chunk bằng cách đoán |
 
 Quy tắc chung: **không kéo dài mốc của chunk cho vừa nhãn** (mốc sai hại hơn mốc thiếu, xem `decisions/04`). Thay vào đó (1) để điểm thời gian mềm (TH2 không loại cứng), (2) mở rộng chunk lân cận lúc sinh câu trả lời, (3) đo số chunk đáp án rơi vào trường hợp này (nhãn bao chunk nhưng chunk không bao nhãn) để biết quy mô, chưa làm.
+
+## 11. Trạng thái kho hiện tại: tune, valid, test_clean (đếm lại 2026-11-25, không gọi LLM)
+
+Đếm từ payload Qdrant (`tam_chunks_dev_{tune,valid,test_clean}`) và `data/text_corpus`. Các mục 1 đến 10 ở trên là bộ local (37 trang) lúc 2026-10-19, không phải ba tập này.
+
+**Đủ chunk.** Kho vector khớp kho text ở cả ba tập: 5.995 + 5.063 + 5.682 = 16.740 chunk, 0 thiếu. Con số 386 chunk thiếu ở `planning/02` mục 11.10 (2026-11-12) đã được nạp bù ngày 2026-11-17 bằng `local/ingest_eval/vec_fill.py` (không gọi LLM): 97 (tune) + 179 (valid) + 110 (test_clean) = 386, gắn `domain_features.fill = "undated_dropped"`, `start_time` rỗng. Các chunk này là chunk LLM đã loại lúc nạp (`no_time`, `invalid_time`, `llm_error`), không có mốc.
+
+| Tập | Chunk | LLM gán `start` | LLM không gán `start` | Nạp bù (không mốc) | `end` known / unknown / ongoing (trên chunk có `start`) |
+|---|---:|---:|---:|---:|---|
+| tune | 5.995 | 4.865 (81,1%) | 1.033 (17,2%) | 97 (1,6%) | 3.962 / 722 / 181 |
+| valid | 5.063 | 4.138 (81,7%) | 746 (14,7%) | 179 (3,5%) | 3.207 / 782 / 149 |
+| test_clean | 5.682 | 4.744 (83,5%) | 828 (14,6%) | 110 (1,9%) | 3.892 / 721 / 131 |
+
+Hệ quả: 16,5% chunk của `test_clean` không có `start` (828 + 110 = 938). Chúng vào kho nhưng chỉ được chấm điểm thời gian cố định `T_unknown` (`decisions/04`).
+
+**Mốc chunk đáp án so với `t_req` trên `test_clean` (400 câu TimeQA).** Nhãn `time_start`/`time_end` trong dataset là khoảng hiệu lực của sự việc đáp án (`dataset/full_dataset/README.md`), không phải nhãn của chunk, và chunk không cần trùng nhãn (chunk có thể bao rộng hơn, vì một đoạn nói nhiều sự việc). Vì vậy không dùng "start/end đúng năm nhãn" hay "phủ nhãn" làm thước đo đúng sai. Thước đo dùng ở đây: tại `t_req` (điểm giữa khoảng nhãn, `oracle_t_req`; một quy ước, không phải mốc người hỏi nói), mốc chunk đáp án có làm hỏng truy xuất không. Đếm trên Qdrant hiện tại, chunk đáp án lấy theo `gold_chunk_ids`, lấy kết quả tốt nhất nếu câu có nhiều chunk đáp án.
+
+| Chunk đáp án so với `t_req` | Số câu | Tỉ lệ | Ý nghĩa |
+|---|---:|---:|---|
+| `t_req` nằm trong `[start, end]` (TH1) | 241 | 60,2% | điểm thời gian 1.0 |
+| `start <= t_req` nhưng `t_req` sau `end` (TH2) | 107 | 26,8% | qua lọc cứng, bị phạt `exp(-λ·Δ)` |
+| `start > t_req` | 29 | 7,2% | lọc cứng loại mất chunk đáp án |
+| không có `start` | 23 | 5,8% | nhánh không mốc, điểm `T_unknown` |
+
+Chưa tách được nhóm TH2 do `end` LLM gán quá sớm hay do `t_req` điểm giữa rơi sau. Chưa có nhãn mốc thủ công từng chunk, chưa có người đọc thứ hai, chưa có so sánh giữa các mô hình gán mốc.
+
+**Lưu ý khi so với số cũ.** Các số Cơ chế 1 ở `eval/07` mục 6 và 7 (tháng 10) đo trước ngày 2026-11-17, nên kho lúc đó chưa có các chunk nạp bù; kho hiện tại có thêm 110 chunk không mốc ở `test_clean`. Mô hình gán mốc lúc nạp: role `ingestion_time` = Gemini 3.5 flash-lite (`configs/config.dev.yaml`); chưa có lần so sánh nào giữa các mô hình cho việc gán mốc chunk.
+
+
+### Cách đã chỉnh prompt hai bước nạp và Profiler (ghi 2026-11-25, từ `decisions/03`, `eval/05`, `eval/07`)
+
+- **Nạp (`ingestion_time` v1 → v2 → v3):** đọc tay trên mẫu nhỏ (3 trang, 113 chunk, `--dry-run`) bằng phân bố `end_status` và trường `reason_end_date`; rồi so truy xuất ghép cặp trên bộ `real` (399 câu có chunk đáp án): v3 so với v1 `mrr` +0.016 ± 0.029, `hit@5` +0.033 ± 0.036, `ans_valid@5` +0.063 ± 0.042, đều dưới 2 sai số chuẩn. v2 chưa nạp cả bộ. Đây là đo gián tiếp: chưa có nhãn mốc từng chunk.
+- **Profiler (`time_extractor` v1 → v2):** lỗi phát hiện từ 400 câu `real` ("late 1900s" hiểu thành thập niên 1990, 2 câu). Chỉ số: `t_req` nằm trong khoảng `time_start`–`time_end` của câu (391/400 với v1): chỉ kiểm không lệch thời kỳ, vì nhãn là khoảng hiệu lực của sự việc đáp án, không phải mốc người hỏi nêu. Tác động lên truy xuất: oracle `mrr` 0.398 so với e2e 0.386 (+0.012); v2 so với v1 +0.005 ± 0.015.
+- **Tập dùng để chỉnh:** `real` (400 câu, 204 trang) và `local` (40 câu), tháng 10, trước khi tách tune/valid/test_clean (2026-10-24). `eval/07` xếp `real` là cận trên, không dùng để chọn; nên các so sánh prompt trên là trên tập đã xem nhiều lần, không phải tập sạch.
+- **Chưa kiểm:** prompt `ingestion_time` nào đã dựng các kho tune, valid, test_clean hiện tại; `eval/07` mục 6 chạy ở chế độ oracle hay e2e.

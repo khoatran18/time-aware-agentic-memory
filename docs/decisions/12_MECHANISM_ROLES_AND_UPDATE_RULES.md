@@ -27,9 +27,9 @@ flowchart LR
 - **Đo Cơ chế 3:** dùng lại truy xuất Cơ chế 1 (và 2); chỉ khác ở cách nạp (Plain, Replace-all, Keep-all, nạp có xung đột).
 - **Cơ chế 2 cũng cần xử lý xung đột** (bỏ nút `invalidated_at`/bị `CORRECTS`, nhưng không đóng nhầm chuỗi sự nghiệp).
 
-### Thử sau: Cơ chế 1 dùng thêm graph (chưa làm, chưa đo)
+### Cơ chế 1 không dùng graph (người dùng chốt 2026-11-25)
 
-Ý tưởng: trả "giá trị hiện tại" bằng nút cuối của ô (cặp trang, quan hệ), và/hoặc mở rộng sang chunk lân cận qua `TIẾP_THEO`. Cách làm: thêm một biến thể truy xuất dùng graph, đo trên cùng bộ câu và cùng quy tắc chọn như [`eval/07`](../eval/07_TUNE_VALID_RESULTS.md) và [`eval/09`](../eval/09_CAPABILITY_PROBE_RESULTS.md); **nếu tốt hơn thì dùng**. Hiện chưa có chứng cứ về lợi ích. Số liệu Cơ chế 1 hiện tại chưa chứa hiệu ứng của Cơ chế 3 (kho lấy `end_time` từ chính văn bản chunk; `unknown_decay` của cấu hình X là phương án dự phòng khi chưa có chunk thay thế).
+Bỏ ý định cho Cơ chế 1 dùng thêm graph (nút cuối của ô, mở rộng qua `TIẾP_THEO`). Cơ chế 1 giữ nguyên là thuần vector; thứ cần thêm ở Cơ chế 1 là **phương pháp agent** (agent kiểu A và B không có công cụ graph), đo cạnh pipeline cố định. Số liệu Cơ chế 1 hiện tại chưa chứa hiệu ứng của Cơ chế 3 (kho lấy `end_time` từ chính văn bản chunk; `unknown_decay` của cấu hình X là phương án dự phòng khi chưa có chunk thay thế).
 
 ## 2. Đánh dấu "đã cập nhật" trên vector (đề xuất)
 

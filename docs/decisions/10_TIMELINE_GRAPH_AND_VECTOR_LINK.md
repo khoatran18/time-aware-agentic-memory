@@ -1,6 +1,6 @@
 # 10. Cơ chế 2: graph sự kiện, liên kết với VectorDB, cập nhật, và so sánh với vector top-k
 
-**Trạng thái:** Đã thống nhất thiết kế (2026-10-24); chưa code. `design/01` giữ nguyên; các điểm khác với `design/01` ghi ở cuối file.
+**Trạng thái:** Đã thống nhất thiết kế (2026-10-24); đã code và đo (cập nhật 2026-11-25, xem `eval/11`, `eval/12`). `design/01` giữ nguyên; các điểm khác với `design/01` ghi ở cuối file.
 
 ## Bối cảnh
 
