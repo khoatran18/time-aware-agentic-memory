@@ -13,6 +13,7 @@ from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
 from tam.llm.cache import CacheStore
+from tam.llm.prompt_files import prompt_path
 from tam.llm.structured import invoke_structured
 from tam.query.time_range import BEFORE_LOWER_MODES, Bound, expand_range
 from tam.retrieval.temporal.filters import FACET_KEYS
@@ -21,7 +22,7 @@ from tam.schemas.query import ProfiledQuery
 logger = get_logger(__name__)
 
 PROMPT_VERSION = "v2"  # v1 (một điểm) vẫn nằm ở time_extractor_v1.md và query/profiler.py; xem decisions/03
-PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"time_extractor_{PROMPT_VERSION}.md"
+PROMPT_PATH = prompt_path(f"time_extractor_{PROMPT_VERSION}")  # v2 = time_extractor.md (đang dùng); v1 ở prompts/archive/
 
 
 class RangeExtraction(BaseModel):

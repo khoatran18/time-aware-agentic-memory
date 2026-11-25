@@ -41,12 +41,7 @@ SUBSET = os.environ.get("SUBSET", str(REPO / "dataset/eval/v9_graph203_subset.js
 COLLECTION = os.environ.get("COLLECTION", f"tam_chunks_dev_{os.environ.get('M3_SET', 'tune')}")  # kho vector của split (tam_chunks_dev_valid cho valid)
 NODES_FILE = os.environ.get("NODES_FILE", str(REPO / "local/ingest_eval/judge_out/graph_nodes.json"))  # danh sách nút graph của các trang (graph_nodes_V.json cho valid)
 # Prompt của local/ingest_eval/reader.py (sao nguyên văn tại 2026-11-15 để tái hiện được dù file đó đổi; đổi chữ nào là đổi khóa cache).
-SYSTEM = """You answer a question about one subject using ONLY a dated timeline. Each line is "[id] date | text".
-Return in `selected_ids` the ids of the timeline events that answer the question:
-- a question asking to list or summarize: every event needed, in chronological order;
-- a question asking which event came first, last or next: that single event (or all events sharing the same date if the question allows it);
-- a question asking how many years (or months, days) passed between two events: the two events, in order.
-Use only ids that appear in the timeline. Do not invent events. Answer only with the schema."""
+SYSTEM = (Path(__file__).resolve().parents[2] / "src" / "tam" / "llm" / "prompts" / "answer_m2.md").read_text(encoding="utf-8")  # nội dung ở file này (prompts/README.md)
 
 
 class Ans(BaseModel):

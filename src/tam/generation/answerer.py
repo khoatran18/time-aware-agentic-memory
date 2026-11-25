@@ -1,21 +1,21 @@
 """Sinh đáp án ngắn cho một lô câu hỏi (mỗi câu kèm các chunk đã truy xuất) bằng một request LLM.
 
 Một request chứa `batch` câu độc lập; LLM trả `AnswerBatch` (mỗi câu một mục `n` = số thứ tự câu). Phiên bản prompt ở
-`tam/llm/prompts/answer_<v>.md`: v1 chỉ đưa văn bản chunk; v2 thêm khoảng hiệu lực của chunk trước mỗi đoạn; v3, v4 = v1, v2 nới điều kiện từ chối (v1/v2 từ chối cả khi đáp án nằm trong ngữ cảnh). Xem decisions/03.
+`tam/llm/prompts/answer_<v>.md` (m1 = Cơ chế 1 cho DeepSeek; v1 đến v4 ở prompts/archive/, viết cho Gemini): v1 chỉ đưa văn bản chunk; v2 thêm khoảng hiệu lực của chunk trước mỗi đoạn; v3, v4 = v1, v2 nới điều kiện từ chối (v1/v2 từ chối cả khi đáp án nằm trong ngữ cảnh). Xem decisions/03.
 """
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel, Field
 
 from tam.llm.cache import CacheStore
+from tam.llm.prompt_files import prompt_path
 from tam.llm.structured import invoke_structured
 from tam.schemas.chunk import Chunk
 
-PROMPT_DIR = Path(__file__).resolve().parents[1] / "llm" / "prompts"
-PROMPT_VERSIONS = ("v1", "v2", "v3", "v4")
+PROMPT_VERSIONS = ("v1", "v2", "v3", "v4", "m1")
+PERIOD_VERSIONS = ("v2", "v4", "m1")  # bản có ghi khoảng hiệu lực của chunk trước mỗi đoạn
 REFUSALS = {"", "null", "none", "n/a", "unanswerable", "unknown", "not specified", "not mentioned"}
 
 
@@ -45,7 +45,7 @@ def period_label(chunk: Chunk) -> str:
 def build_user_message(questions: list[str], contexts: list[list[Chunk]], version: str) -> str:
     parts = []
     for i, (q, chunks) in enumerate(zip(questions, contexts), 1):
-        lines = [f"[{j}] " + (f"({period_label(c)}) " if version in ("v2", "v4") else "") + c.text.strip().replace("\n", " ")
+        lines = [f"[{j}] " + (f"({period_label(c)}) " if version in PERIOD_VERSIONS else "") + c.text.strip().replace("\n", " ")
                  for j, c in enumerate(chunks, 1)]
         parts.append(f"### Question {i}\n{q}\n\nPassages:\n" + "\n".join(lines))
     return "\n\n".join(parts)
@@ -62,7 +62,7 @@ class Answerer:
             raise ValueError(f"version phải thuộc {PROMPT_VERSIONS}, nhận {version!r}")
         self.version, self._llm, self._cache, self._attempts = version, llm, cache, max_attempts
         self._chain = llm.with_structured_output(AnswerBatch)
-        self._system = (PROMPT_DIR / f"answer_{version}.md").read_text(encoding="utf-8")
+        self._system = prompt_path(f"answer_{version}").read_text(encoding="utf-8")
 
     def answer(self, questions: list[str], contexts: list[list[Chunk]]) -> AnswerBatch | None:
         """AnswerBatch hợp lệ (đủ mọi câu) hoặc None khi LLM trả sai định dạng; lỗi mạng/quota ném `LlmUnavailable`."""

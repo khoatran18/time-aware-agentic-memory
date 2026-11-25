@@ -11,8 +11,8 @@
 | `providers/__init__.py` | Import `anthropic, ollama, openai` để decorator chạy |
 | `providers/anthropic.py`, `openai.py`, `ollama.py` | Mỗi file một hàm `build` → `ChatAnthropic` / `ChatOpenAI` / `ChatOllama` |
 | `providers/_common.py` | `require(profile, key, hint)` (thiếu/rỗng thì báo lỗi), `model_id(profile)` (từ chối giá trị mẫu `<điền ...>`) |
-| `prompts/time_extractor_v1.md` | System prompt của Time Extractor; chỗ `{t_now}`; few-shot 8 ví dụ |
-| `prompts/ingestion_time_v1.md` | System prompt trích mốc lúc ingestion; chỗ `{doc_title}`; few-shot 4 ví dụ |
+| `prompt_files.py` | `prompt_path(stem)`: tìm file prompt trong `prompts/`, rồi `prompts/archive/`; bảng `ALIASES` ánh xạ tên cũ (`agent_v5`, `ingestion_time_v3`...) sang file đang dùng |
+| `prompts/` | Mọi prompt LLM của đồ án, đặt tên `<vai trò>_<cơ chế>.md` (vd `agent_m1.md`, `ingest_m1.md`, `profiler_m1.md`); bản cũ ở `prompts/archive/`. Bảng đầy đủ, ánh xạ tên cũ và lịch sử: `prompts/README.md`. (`time_extractor_v1` nay là `archive/time_extractor_v1.md`; `ingestion_time_v1` là `archive/ingestion_time_v1.md`) |
 
 ## Thứ tự vận hành
 

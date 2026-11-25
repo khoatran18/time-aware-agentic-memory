@@ -278,7 +278,7 @@ def test_prompt_version_selects_file():
     import pytest
 
     from tam.ingestion.time_extraction import prompt_path
-    assert prompt_path("v1").name == "ingestion_time_v1.md" and prompt_path("v3").name == "ingestion_time_v3.md"
+    assert prompt_path("v1").name == "ingestion_time_v1.md" and prompt_path("v3").name == "ingest_m1.md"
     for v in ("v1", "v2", "v3"):
         text = prompt_path(v).read_text(encoding="utf-8")
         assert text.count("{doc_title}") == 1 and text.count("{domains}") == 1

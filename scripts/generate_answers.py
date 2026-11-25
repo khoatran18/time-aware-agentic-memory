@@ -57,7 +57,7 @@ def main() -> None:
     ap.add_argument("--run", required=True, help="thư mục output của lần chạy evaluate.py (có predictions.jsonl)")
     ap.add_argument("--subset", required=True)
     ap.add_argument("--collection", default="", help="tên collection Qdrant (mặc định theo --subset; vd tune_base dùng tam_chunks_dev_tune)")
-    ap.add_argument("--prompt", choices=["v1", "v2", "v3", "v4"], default="v1")
+    ap.add_argument("--prompt", choices=["v1", "v2", "v3", "v4", "m1"], default="v1")
     ap.add_argument("--profile", default="google_35", help="profile LLM trong config (llm.profiles)")
     ap.add_argument("--top-k", type=int, default=15, help="số chunk đưa vào ngữ cảnh mỗi câu")
     ap.add_argument("--batch", type=int, default=4, help="số câu mỗi request")

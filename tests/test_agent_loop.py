@@ -9,7 +9,8 @@ from langchain_core.messages import AIMessage, AIMessageChunk, ToolMessage
 from langchain_core.outputs import ChatGeneration, ChatGenerationChunk, ChatResult
 from pydantic import Field
 
-from tam.agents.loop import PROMPT_DIR, AgentLoop, load_system_prompt
+from tam.agents.loop import AgentLoop, load_system_prompt
+from tam.llm.prompt_files import prompt_path
 from tam.llm.cache import SqliteCache
 from tam.tools.text_corpus import Passage, TextCorpus
 from tam.tools.text_tools import text_tools
@@ -165,7 +166,7 @@ def test_constructor_validation(corpus):
 
 def test_system_prompt_is_neutral():
     """Prompt chung của A và B không được dặn cách xử lý thời gian hay công cụ (nếu không, thiết kế bị nhúng vào agent)."""
-    text = (PROMPT_DIR / "agent_v1.md").read_text(encoding="utf-8").lower()
+    text = prompt_path("agent_v1").read_text(encoding="utf-8").lower()
     assert "{t_now}" in text
     for word in ("filter", "future", "before", "after", "start_time", "latest", "most recent", "grep", "vector"):
         assert word not in text
@@ -294,7 +295,7 @@ def test_no_budget_notice_by_default(corpus):
 
 
 def test_prompt_v2_has_time_reasoning_and_grounding_rules():
-    text = (PROMPT_DIR / "agent_v2.md").read_text(encoding="utf-8")
+    text = prompt_path("agent_v2").read_text(encoding="utf-8")
     assert "{t_now}" in text and "{t_now}" not in load_system_prompt("2026-11-03", "v2")
     for phrase in ("whole year or month", "never guess", "do not re-read"):
         assert phrase in text
@@ -302,7 +303,7 @@ def test_prompt_v2_has_time_reasoning_and_grounding_rules():
 
 
 def test_prompt_variants_v3_v4_differ_only_where_intended():
-    v2, v3, v4 = (( PROMPT_DIR / f"agent_v{n}.md").read_text(encoding="utf-8") for n in (2, 3, 4))
+    v2, v3, v4 = (prompt_path(f"agent_v{n}").read_text(encoding="utf-8") for n in (2, 3, 4))
     for t in (v3, v4):
         assert "{t_now}" in t and "Answer: <the value(s)>" in t and "Type: stated" in t and "spans a change" in t
     assert "spans a change" not in v2 and "Type:" not in v2
@@ -370,7 +371,7 @@ def test_sqlite_cache_threadsafe_from_threads(tmp_path):
 
 
 def test_prompt_v5_is_json_timeline_format_and_tool_neutral():
-    v5 = (PROMPT_DIR / "agent_v5.md").read_text(encoding="utf-8")
+    v5 = prompt_path("agent_v5").read_text(encoding="utf-8")
     assert '"kind": "number" | "events"' in v5 and "{t_now}" in v5 and "do not guess a date" in v5
     for tool in ("grep", "read_page", "list_pages", "vector_search", "read_chunk", "events_of_chunk"):  # không nêu tên công cụ nào: dùng chung cho A, B và B + graph
         assert tool not in v5

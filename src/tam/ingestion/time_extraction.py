@@ -17,6 +17,7 @@ from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
 from tam.ingestion.types import RawChunk, TimeResult, TimeSpan
+from tam.llm import prompt_files
 from tam.llm.cache import CacheStore
 from tam.llm.structured import invoke_structured
 from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize_domains
@@ -24,17 +25,15 @@ from tam.schemas.domains import MAX_DOMAINS_PER_CHUNK, domains_prompt, normalize
 logger = get_logger(__name__)
 
 PROMPT_VERSION = "v1"  # phiên bản mặc định; prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
-PROMPT_DIR = Path(__file__).resolve().parents[1] / "llm" / "prompts"
-PROMPT_PATH = PROMPT_DIR / f"ingestion_time_{PROMPT_VERSION}.md"
+PROMPT_PATH = prompt_files.prompt_path(f"ingestion_time_{PROMPT_VERSION}")
 
 
 def prompt_path(version: str) -> Path:
-    """Đường dẫn file prompt ingestion theo phiên bản (`v1`, `v2`...); không có file thì báo lỗi nêu các phiên bản hiện có."""
-    path = PROMPT_DIR / f"ingestion_time_{version}.md"
-    if not path.is_file():
-        have = sorted(p.stem.removeprefix("ingestion_time_") for p in PROMPT_DIR.glob("ingestion_time_v*.md"))
-        raise ValueError(f"Không có prompt ingestion phiên bản {version!r}; hiện có: {have}")
-    return path
+    """Đường dẫn file prompt ingestion theo phiên bản (`v1`, `v2`, `v3`); `v3` là bản đang dùng (`ingestion_time.md`), bản cũ ở prompts/archive/. Không có thì báo lỗi nêu các phiên bản hiện có."""
+    try:
+        return prompt_files.prompt_path(f"ingestion_time_{version}")
+    except FileNotFoundError:
+        raise ValueError(f"Không có prompt ingestion phiên bản {version!r}; hiện có: {prompt_files.available_versions('ingestion_time')}") from None
 _PARTIAL_DATE = re.compile(r"^(\d{1,4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$")
 # Dấu hiệu "còn hiệu lực" mà câu bằng chứng của `ongoing` phải chứa (heuristic cho tiếng Anh, docs/decisions/02)
 _ONGOING_CUES = re.compile(

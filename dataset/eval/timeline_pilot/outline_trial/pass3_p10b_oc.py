@@ -16,39 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import ingest_post as ip
 
 WINDOW = 8
-PROMPT = """You extract dated events from part of ONE section of a Wikipedia page.
-
-Page title: {title}
-Section: {section}
-
-You receive numbered chunks. Chunks marked "(context only)" are given to help you understand; do NOT extract events from them. Go through the other chunks one by one, and for each chunk return EVERY event of the page's subject that the text dates. Each item:
-- `text`: one short sentence saying what happened. Use only words and numbers that appear in the chunk.
-- `chunk`: the number of the chunk that states it.
-- `date_text`: the time expression exactly as written in the chunk, copied word for word ("24 March 1946", "in 1999", "early 2017", "Q4 2017", "circa 1920", "the 1970s", "June"). null if the event has no time expression at all.
-- `date`: `YYYY`, `YYYY-MM` or `YYYY-MM-DD` with exactly the precision the text gives; never invent a month or a day. Fill it only if one specific year can be found. Take it from `date_text` itself, or, when `date_text` has only a month, a day or a phrase such as "in March", "later that year", "the following year", "at the end of the year", take it from the nearest earlier year in the chunks you received (earlier chunks of this section and the context chunk). Still copy `date_text` word for word. Use null when there is only a decade or century ("the 1970s", "mid-1990s", "19th century") or when no year appears before it in the chunks you received. When the end of a range is written with only two digits or one digit ("1823–27", "1854–5", "1855–70", "1976-77"), `date_text` stays exactly as written ("27", "5", "70", "77") but `date` must be the full year: take the century and the decade of the start year of the same range (1823–27 gives 1827; 1854–5 gives 1855; 1855–70 gives 1870; 1976-77 gives 1977).
-- `approximate`: true when the time is vague: "early/mid/late 2017", "spring of 1910", "circa 1920", "by 1928", "after 1916", "Q4 2017", a season "1999-2000" (then `date` is the single year, e.g. 2017, 1999). Otherwise false.
-
-Rules:
-- Use only the text you receive. Do NOT add dates, numbers or facts from your own knowledge. Every number in `text` must appear in the chunk.
-- Never turn a decade into a single year ("the 1970s" is NOT 1970). Never put a range, a "Q" or an "s" inside `date`.
-- A period with a start and an end ("from 2003 to 2007", "between 1772 and 1774", "1938-01-07 – 1942-06-30: X" in a list, "(Director 1813–1815)", "during the 1935–1977 period", "served until 2001", "term ends 2003") is ALWAYS two separate items, never one. Item 1 is the start: its `date` is the start and its `text` describes only the start ("X became commander"). Item 2 is the end: write it right after item 1, its `date` is the end and its `text` describes only the end ("X's command ended"). Do not put both dates in one item. If only the end is stated (for example "until 2001"), give only the end item.
-- A `date` is when the event HAPPENED. A range of years that only says which years a document, index, volume, list, catalogue or external link COVERS ("indexes of the journal for 1846–1900", "Archive: 1846–1899", "Vol. 1–147") is not an event of the subject: skip it, and do not give it a start item and an end item.
-- Read the heading of a list or table before you read its entries. Results listed under "Runners-up", "Finalists", "Nominations" or "Losses" are not wins: write "was runner-up in …", never "won …". Results under "Wins" or "Champion" are wins.
-- One item per event. If a chunk states several dated events, return each of them. Do not skip events in long chunks.
-- Only events and changes: skip specifications, measurements, statistics, descriptions and states without a change ("had a displacement of", "population decreased by", "was spelled").
-- Events of the subject itself. Also events of other people or things that directly happen to the subject. Skip the biography of other people merely mentioned, appearances of the subject in films, books, advertising or lists of famous people, and years that are only part of the title of a cited work ("2017 Calendar", "chart of 1782"). Keep an event when the text says the subject won, played, published or took part in something whose name contains a year ("winning the 2008 Russian PriFR event" is an event of 2008).
-- Dates inside parentheses, lists, tables and image captions count too: "(1862 and 1875)", "(Director 1813–1815)", "restored in November 2013" in a caption. When one phrase gives several dates, return one item per date.
-- Resolve "the following year", "that year", "later that year" and a bare month ("In September") with the nearest earlier year in the chunks you received (read the chunks in order, and use the context chunk too). Use null only if no earlier year can be found.
-
-Extra labels (add them to EVERY item; they do not change which events you extract: still return every dated event as above):
-- `track`: the kind of change, one of: role (office, term, rank, command, directorship) | affiliation (employer, team, party, organisation, league, joining or leaving an organisation) | location (residence, headquarters, country, moving) | ownership_structure (ownership, operator, parent company, publisher, label, transfer of management) | work (product, building, programme or work made by the subject: release, performance, construction, completion) | naming (official name, renaming) | family (marriage, family) | education (studied at, graduated) | other (everything else: birth, death, award, honour, founding, competition result, event). If unsure prefer role, then affiliation, then work.
-- `phase`: "start" for the first item of a period, "end" for the second item of a period, "point" for a one-off event.
-- `kind`: "change" (a state, role, name, place, owner or membership changes), "occurrence" (a one-off happening or achievement: born, died, won, published, built), "state" (a dated state without a change: "had the rank of"), "result" (the score or outcome of ONE match, race, game or a season standing; winning a title, medal, award or championship is NOT a result: use "occurrence"), "statement" (something said, written or proposed).
-- `subject`: "self" when the event is about the page's subject; "part_of_self" when it is about a member, leader, unit or product of the subject; "other" for another person or thing.
-- `object`: the main named thing of the event copied word for word from the chunk (a name, title or place: "Soviet Square", "Euromaidan", "Hewlett-Packard"), or null if there is none.
-- `quote`: a short verbatim excerpt (under 25 words) from the chunk that states the event, copied exactly. It must contain `date_text` when `date_text` is not null.
-Say each real event ONCE: if the chunks you received state the same event twice, return one item (the one with the most complete date).
-"""
+PROMPT = (Path(__file__).resolve().parents[4] / "src" / "tam" / "llm" / "prompts" / "ingest_m2.md").read_text(encoding="utf-8")  # nội dung ở file này (prompts/README.md)
 
 class Ev(BaseModel):
     text: str

@@ -10,6 +10,7 @@ from pydantic import BaseModel, Field
 
 from tam.config.logging import get_logger
 from tam.llm.cache import CacheStore
+from tam.llm.prompt_files import prompt_path
 from tam.llm.structured import invoke_structured
 from tam.retrieval.temporal.filters import FACET_KEYS
 from tam.schemas.query import ProfiledQuery
@@ -17,7 +18,7 @@ from tam.schemas.query import ProfiledQuery
 logger = get_logger(__name__)
 
 PROMPT_VERSION = "v1"  # prompt đổi thì tạo file phiên bản mới (v2...), không ghi đè v cũ; xem decisions/03
-PROMPT_PATH = Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"time_extractor_{PROMPT_VERSION}.md"
+PROMPT_PATH = prompt_path(f"time_extractor_{PROMPT_VERSION}")  # v2 = time_extractor.md (đang dùng); v1 ở prompts/archive/
 
 
 class Extraction(BaseModel):

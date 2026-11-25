@@ -47,11 +47,11 @@ from langchain_core.messages import (
 from tam.config.logging import get_logger, get_run_dir, query_context
 from tam.generation.scoring import normalize
 from tam.llm.cache import PREVIEW_CHARS, CacheStore
+from tam.llm.prompt_files import prompt_path
 from tam.llm.metrics import retry_reset, retry_stats, stream_collect
 from tam.tools.base import AgentTool, ToolError
 
 logger = get_logger(__name__)
-PROMPT_DIR = Path(__file__).resolve().parents[1] / "llm" / "prompts"
 StopReason = Literal["answer", "max_steps", "max_tokens", "llm_error"]
 PromptLog = Literal["full", "delta", "off"]
 _LOCK = threading.Lock()
@@ -63,8 +63,8 @@ BUDGET_LAST = ("[This is your last call and tools are no longer available. Answe
 
 
 def load_system_prompt(t_now: str, version: str = "v1") -> str:
-    """Prompt của agent (`agent_<version>.md`; v1 trung tính, v2 có hướng dẫn suy luận thời gian) với `{t_now}` thay bằng ngày hiện tại của máy chủ (`str.replace`, vì prompt có thể chứa `{}`)."""
-    return (PROMPT_DIR / f"agent_{version}.md").read_text(encoding="utf-8").replace("{t_now}", t_now)
+    """Prompt của agent (`agent_<version>.md`: m1, m2, m3 theo cơ chế; v1 đến v4 là bản đối chứng cũ trong prompts/archive/) với `{t_now}` thay bằng ngày hiện tại của máy chủ (`str.replace`, vì prompt có thể chứa `{}`)."""
+    return prompt_path(f"agent_{version}").read_text(encoding="utf-8").replace("{t_now}", t_now)
 
 
 def merge_chunks(chunks: list[Any]) -> AIMessage:

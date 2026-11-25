@@ -161,15 +161,12 @@ def real_events(S: str, page: str) -> list[dict]:
     return json.loads((ORG / "graph" / S / "ingest_10b" / f"{page}.json").read_text(encoding="utf-8"))["events"]
 
 
-PAIR_PROMPT_SRC = ROOT / "local" / "ingest_eval" / "judge.py"
+PAIR_PROMPT_FILE = ROOT / "src" / "tam" / "llm" / "prompts" / "pair_m2.md"
 
 
 def pair_prompt() -> str:
-    """PAIR_PROMPT nguyên văn từ local/ingest_eval/judge.py (không chép lại, tránh lệch)."""
-    t = PAIR_PROMPT_SRC.read_text(encoding="utf-8")
-    m = re.search(r'PAIR_PROMPT = """(.*?)"""', t, re.S)
-    assert m
-    return m.group(1)
+    """Prompt gộp cặp sự kiện (`pair_m2.md`, cùng bản với lúc nạp graph Cơ chế 2)."""
+    return PAIR_PROMPT_FILE.read_text(encoding="utf-8")
 
 
 def make_judge(S: str, tag: str = "old_pairs"):
