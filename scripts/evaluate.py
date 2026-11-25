@@ -68,6 +68,7 @@ def main() -> None:
     ap.add_argument("--inferred-factor", type=float, help="ghi đè retrieval.inferred_factor: hệ số (0,1] cho điểm thời gian của chunk có mốc suy luận")
     ap.add_argument("--decay-lambda", type=float, help="ghi đè retrieval.decay_lambda: tốc độ giảm điểm thời gian theo khoảng cách (năm)")
     ap.add_argument("--top-n", type=int, help="ghi đè retrieval.top_n: số ứng viên lấy từ VectorDB trước khi chấm lại")
+    ap.add_argument("--no-score-cache", action="store_true", help="tắt rerank_score_cache (đo thời gian rerank thật, không trúng cache điểm)")
     ap.add_argument("--top-k", type=int, help="ghi đè retrieval.top_k: số chunk trả về (Plain RAG cũng dùng; để vẽ đường cong ngữ cảnh)")
     ap.add_argument("--level", choices=["hard", "easy"], default="hard")
     args = ap.parse_args()
@@ -111,12 +112,12 @@ def main() -> None:
     if settings["time_mode"] == "range" and args.mode != "e2e":
         ap.error("--time-mode range chỉ dùng với --mode e2e")
     if args.method == "temporal":
-        reranker = CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=r.get("rerank_score_cache")) if rerank_model else None
+        reranker = CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=None if args.no_score_cache else r.get("rerank_score_cache")) if rerank_model else None
         retriever = TemporalRetriever(store, reranker=reranker, **settings)
     else:
         retriever = PlainRetriever(store, method=args.method, top_n=settings["top_n"], top_k=settings["top_k"], rrf_k=settings["rrf_k"],
                                    neighbor_window=settings["neighbor_window"],
-                                   reranker=CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=r.get("rerank_score_cache")) if rerank_model else None,
+                                   reranker=CrossEncoderReranker(rerank_model, cache_dir=r.get("rerank_cache_dir"), score_cache=None if args.no_score_cache else r.get("rerank_score_cache")) if rerank_model else None,
                                    rerank_top=settings["rerank_top"], rerank_mode=settings["rerank_mode"], rerank_alpha=settings["rerank_alpha"])
     if args.facets == "boost" and settings["w3"] <= 0:
         ap.error("--facets boost cần --w3 > 0")
