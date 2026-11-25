@@ -14,6 +14,7 @@ import json
 import random
 import sys
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -24,7 +25,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from profile_eval import PacedCache, Pacer  # noqa: E402
 
 from tam.config.loader import Config, load_config  # noqa: E402
-from tam.config.logging import get_logger, get_run_dir, setup_logging  # noqa: E402
+from tam.config.logging import get_logger, get_run_dir, query_context, setup_logging  # noqa: E402
 from tam.embedding.factory import get_embedder  # noqa: E402
 from tam.generation.answerer import Answerer, is_refusal  # noqa: E402
 from tam.generation.scoring import contains, exact_match, f1_score  # noqa: E402
@@ -68,6 +69,7 @@ def main() -> None:
     ap.add_argument("--rpm", type=float, default=12.0, help="tổng số request mỗi phút (hạn mức Gemini 15)")
     ap.add_argument("--max-bad", type=int, default=3, help="dừng khi có chừng này lô sai định dạng")
     ap.add_argument("--label", default="", help="tên hệ thống ghi vào kết quả")
+    ap.add_argument("--cache-dir", default=str(ROOT / "data" / "llm_cache"), help="thư mục chứa cache.sqlite của lần gọi LLM; mỗi lần chạy nên dùng thư mục riêng (khóa cache không chứa extra_body)")
     args = ap.parse_args()
 
     cfg = load_config()
@@ -114,12 +116,14 @@ def main() -> None:
         if stop.is_set():
             return
         if not hasattr(local, "answerer"):
-            local.cache = PacedCache(ROOT / "data" / "llm_cache" / "cache.sqlite", pacer)
+            local.cache = PacedCache(Path(args.cache_dir) / "cache.sqlite", pacer)
             local.answerer = Answerer(get_llm(llm_cfg, args.profile), version=args.prompt, cache=local.cache)
         ctxs = [context(p) for p in batch]
         questions = [cases[p["id"]]["question_hard"] for p in batch]
+        t0 = time.perf_counter()
         try:
-            out = local.answerer.answer(questions, ctxs)
+            with query_context(",".join(str(p["id"]) for p in batch)):  # nối với `query_id` trong llm_calls.jsonl (token, E2E, thử lại)
+                out = local.answerer.answer(questions, ctxs)
         except LlmUnavailable as exc:
             logger.error("LLM chưa dùng được: %s", str(exc)[:150])
             with lock:
@@ -133,6 +137,7 @@ def main() -> None:
                     state["stopped"] = "format"
                     stop.set()
             return
+        llm_wall_s = time.perf_counter() - t0  # cả lô, gồm thử lại và backoff; lần gọi trúng cache gần 0
         by_n = {a.n: a for a in out.answers}
         with lock:
             for k, (p, ctx) in enumerate(zip(batch, ctxs), 1):
@@ -142,6 +147,7 @@ def main() -> None:
                 rows.append({"id": p["id"], "system": args.label or args.run, "prompt": args.prompt, "domain": case["domain"],
                              "question": case["question_hard"], "targets": golds, "answer": a.answer, "refused": is_refusal(a.answer),
                              "evidence": ev, "context_ids": [c.chunk_id for c in ctx],
+                             "batch_size": len(batch), "llm_wall_s": llm_wall_s, "retrieval_ms": p.get("timings_ms"),
                              "em": exact_match(a.answer, golds), "f1": f1_score(a.answer, golds), "contains": contains(a.answer, golds)})
             state["done"] += 1
             if state["done"] % 10 == 0:

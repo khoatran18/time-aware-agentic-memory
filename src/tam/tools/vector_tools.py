@@ -16,11 +16,13 @@ from tam.generation.answerer import period_label
 from tam.retrieval.temporal.expansion import neighbor_ids, split_chunk_id
 from tam.retrieval.temporal.fusion import fuse
 from tam.retrieval.temporal.retriever import TemporalRetriever
+from tam.config.logging import get_logger
 from tam.schemas.chunk import Chunk
 from tam.schemas.query import ProfiledQuery
 from tam.stores.vector.base import BranchHits, VectorFilter, VectorStore
 from tam.tools.base import AgentTool, ToolError, ToolResult
 
+logger = get_logger(__name__)
 DEFAULT_K_CAP = 50
 MAX_NEIGHBORS = 5
 _EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
@@ -107,6 +109,8 @@ class VectorTools:
             raise ToolError("temporal_search không khả dụng")
         res = self._retriever.retrieve(ProfiledQuery(semantic_query=query, t_req=parse_date(t_req)))
         chunks = [s.chunk for s in res.chunks[:min(k, self._cap)]]
+        if res.trace is not None:
+            logger.info("temporal_search timings_ms=%s", {n: round(v, 1) for n, v in res.trace.timings_ms.items()})  # nối với query_id của câu
         return _result(chunks, f"{len(chunks)} chunks ranked by relevance and closeness to {t_req}", self._show_time, False)
 
     def read_chunk(self, chunk_id: str, neighbors: int = 0) -> ToolResult:
