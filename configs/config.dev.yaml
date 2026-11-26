@@ -75,6 +75,18 @@ llm:
       session_header: "x-opencode-session"   # tên header chứa mã phiên ổn định mỗi cuộc hội thoại (agent loop đặt = <lần chạy>-<query_id>); thiếu thì OpenCode trả 400 MissingSessionID. Không phải tham số của provider: scripts/run_agent_search.py đọc khóa này
       extra_body: {thinking: {type: "disabled"}}   # TẮT thinking (người dùng chốt 2026-11-17 và nhắc lại 2026-11-20, áp dụng cho mọi lần chạy). Đủ với deepseek-v4.1-flash (token ra mỗi lượt xuống ~35). Riêng hy4-flash-free BỎ QUA trường này (đã kiểm 2026-11-18): muốn tắt hy4 phải thêm `reasoning_effort: "none"` (chất lượng giảm). Khóa cache KHÔNG chứa extra_body: dùng thư mục cache riêng cho kết quả thinking tắt
       # cache_model: không đặt: khóa cache theo model_id "deepseek-v4.1-flash", khác deepseek_flash ("deepseek-flash"), nên không dùng chung cache với API trực tiếp
+    opencode_glm_5_3:                  # GLM-5.3 qua OpenCode Go (cùng endpoint, header và cơ chế phiên với opencode_deepseek_flash); thêm 2026-11-25, chưa gọi thử
+      provider: "openai"
+      model_id: "glm-5.3"              # tên model theo người dùng; chưa kiểm chứng OpenCode Go dùng đúng id này (kiểm bằng một lần gọi thử trước khi chạy loạt)
+      api_key: "${OPENCODE_API_KEY:-}"
+      base_url: "https://opencode.ai/inference/go/openai/v1"
+      temperature: 0
+      timeout: 120
+      structured_output: false         # như profile DeepSeek: gọi thường kèm schema JSON rồi đọc JSON
+      stream_usage: true               # chưa kiểm chứng; lỗi thì đặt false
+      default_headers: {User-Agent: "tam-thesis-agent-eval/0.1"}
+      session_header: "x-opencode-session"
+      extra_body: {thinking: {type: "disabled"}}   # TẮT thinking (quy tắc chung). Chưa kiểm chứng GLM-5.3 nhận trường này: phải kiểm bằng `output_tokens` của một lần gọi thử; nếu bị bỏ qua (như hy4-flash-free) thì thử `reasoning_effort: "none"`. Khóa cache không chứa extra_body: dùng thư mục cache riêng (`data/llm_cache/glm_*`)
     google_gemma26:                    # Gemma 4 26B (MoE, ~4B tham số hoạt động) gọi thẳng; hạn mức 30 RPM, 16K TPM
       provider: "google"
       model_id: "gemma-4-26b-a4b-it"
@@ -141,8 +153,8 @@ retrieval:
   w3: 0.0                # trọng số Domain_Match (cộng điểm); 0 = tắt
   end_mode: "stored"     # cách chấm chunk ongoing/unknown: stored (C) | open (A) | decay (B) | unknown_decay (chỉ unknown giảm dần); xem decisions/02, 06
   open_decay: 0.1        # chỉ dùng khi end_mode = decay hoặc unknown_decay
-  decay_from: "start"     # mốc tính khoảng cách của chunk đã hết hạn (TH2): start (design 02) | end (decisions/07, đang thử)
-  time_mode: "point"      # point: một điểm t_req (design 02) | range: khoảng [t_req, t_end] (decisions/07 đề xuất 1; cần Profiler khoảng)
+  decay_from: "end"       # mốc tính khoảng cách của chunk đã hết hạn (TH2): start (design 02) | end (chốt mặc định 2026-11-25, như cấu hình X)
+  time_mode: "range"      # range (chốt mặc định 2026-11-25, như cấu hình X; cần Profiler khoảng) | point: một điểm t_req (design 02)
   overlap: "binary"      # chỉ với time_mode = range: binary (giao nhau = 1.0) | coverage (độ phủ |C ∩ Q| / |Q|)
   t_unknown: null        # điểm thời gian của chunk không mốc (vd 0.5); null = tắt nhánh này (decisions/04)
   sparse_weight: 1.0     # trọng số nhánh BM25 trong RRF (dense luôn 1); 0 = bỏ BM25 (docs/eval/04, đợt 1b)
