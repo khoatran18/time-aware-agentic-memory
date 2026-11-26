@@ -1,6 +1,7 @@
 """fastembed: chạy local bằng ONNX, miễn phí, có cả dense lẫn sparse (BM25)."""
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from tam.config.logging import get_logger
@@ -8,6 +9,11 @@ from tam.embedding.base import DenseEmbedder, SparseEmbedder, SparseVec
 from tam.embedding.registry import register_dense, register_sparse
 
 logger = get_logger(__name__)
+
+
+def _threads() -> int | None:
+    """Biến môi trường `TAM_EMBED_THREADS` (mặc định không đặt): số luồng ONNX cho embedding. Không đặt thì ONNX tự ghim luồng lên mọi nhân, bỏ qua `taskset`."""
+    return int(os.environ.get("TAM_EMBED_THREADS", "0")) or None
 
 
 @register_dense("fastembed")
@@ -19,7 +25,7 @@ class FastEmbedDense(DenseEmbedder):
         from fastembed import TextEmbedding  # import trễ: nặng, test không cần
 
         logger.info("Nạp fastembed dense: %s", model_id)
-        self._model = TextEmbedding(model_name=model_id, cache_dir=cache_dir)
+        self._model = TextEmbedding(model_name=model_id, cache_dir=cache_dir, threads=_threads())
         self.dim = len(next(iter(self._model.embed(["dim probe"]))))  # đo số chiều bằng cách embed thử 1 câu
 
     @classmethod
@@ -56,7 +62,7 @@ class FastEmbedSparse(SparseEmbedder):
         from fastembed import SparseTextEmbedding
 
         logger.info("Nạp fastembed sparse: %s", model_id)
-        self._model = SparseTextEmbedding(model_name=model_id, cache_dir=cache_dir)
+        self._model = SparseTextEmbedding(model_name=model_id, cache_dir=cache_dir, threads=_threads())
 
     @classmethod
     def from_profile(cls, profile: dict[str, Any]) -> FastEmbedSparse:

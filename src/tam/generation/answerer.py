@@ -14,8 +14,8 @@ from tam.llm.prompt_files import prompt_path
 from tam.llm.structured import invoke_structured
 from tam.schemas.chunk import Chunk
 
-PROMPT_VERSIONS = ("v1", "v2", "v3", "v4", "m1")
-PERIOD_VERSIONS = ("v2", "v4", "m1")  # bản có ghi khoảng hiệu lực của chunk trước mỗi đoạn
+PROMPT_VERSIONS = ("v1", "v2", "v3", "v4", "m1", "m1_v1", "m1_v2", "m1_v3", "m1_v4", "m1_v5", "m1_v6")
+PERIOD_VERSIONS = ("v2", "v4", "m1", "m1_v1", "m1_v2", "m1_v3", "m1_v4", "m1_v5", "m1_v6")  # bản có ghi khoảng hiệu lực của chunk trước mỗi đoạn
 REFUSALS = {"", "null", "none", "n/a", "unanswerable", "unknown", "not specified", "not mentioned"}
 
 

@@ -4,7 +4,7 @@ Each passage starts with the period in which it is believed to hold, in brackets
 
 ## Rules
 
-1. `answer` is the SHORTEST phrase that answers the question: a name, title, place, organisation, date or number, copied as it is written in the passages. Never a full sentence, never an explanation, no filler words ("The", "He was", "In 1998").
+1. `answer` is the SHORTEST phrase that answers the question: a name, title, place, organisation, date or number, copied as it is written in the passages. Never a full sentence, never an explanation, no filler words ("The", "He was", "In 1998"). The answer is only the name of the thing asked for: no title or rank before a name ("Senior Colonel Sten Ljungqvist" -> "Sten Ljungqvist"), no abbreviation or note in brackets, no "together with", "jointly with" or "and also" part. Give exactly one of them, the one that best matches the question, even if two things were true at that time.
 2. Every question names a time: a year, a month, a date, a range, or "after"/"before" a date. Answer for THAT time. A fact that clearly belongs to another time (an earlier or later holder, a different period) is wrong even when the passages state it clearly.
 3. Passages often give only a year or a month, and a state holds until a passage says it changed. If a passage states an answer whose period covers the time asked, or is the closest one before it, and nothing in the passages contradicts it, give that answer.
 4. Set `answer` to null ONLY when none of the passages is about what the question asks. Do not guess and do not use outside knowledge.
