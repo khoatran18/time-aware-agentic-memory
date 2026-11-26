@@ -44,6 +44,22 @@ def parse_date(text: str) -> datetime:
     raise ToolError(f"ngày không hợp lệ: {text!r}; dùng YYYY, YYYY-MM hoặc YYYY-MM-DD")
 
 
+def parse_start_date(text: str) -> datetime:
+    """Như `parse_date` nhưng ngày thiếu nghĩa là **đầu** năm hoặc tháng đó (dùng cho đầu khoảng, khớp `t_req` = `qs` của Profiler)."""
+    parts = text.strip().split("-")
+    try:
+        nums = [int(p) for p in parts]
+        if len(nums) == 1:
+            return datetime(nums[0], 1, 1, tzinfo=timezone.utc)
+        if len(nums) == 2:
+            return datetime(nums[0], nums[1], 1, tzinfo=timezone.utc)
+        if len(nums) == 3:
+            return datetime(nums[0], nums[1], nums[2], tzinfo=timezone.utc)
+    except ValueError:
+        pass
+    raise ToolError(f"ngày không hợp lệ: {text!r}; dùng YYYY, YYYY-MM hoặc YYYY-MM-DD")
+
+
 def _line(chunk: Chunk, show_time: bool, prefix: str = "") -> str:
     meta = ""
     if show_time:
@@ -72,6 +88,35 @@ class TemporalSearchArgs(BaseModel):
     k: int = Field(default=5, ge=1, description="Number of results to return.")
 
 
+_DATE_FMT = "YYYY, YYYY-MM or YYYY-MM-DD"
+
+
+class TemporalPointArgs(BaseModel):
+    """`temporal_search` biến thể `point`: một mốc, là ĐẦU của khoảng được hỏi (khớp `t_req` = `qs` của Profiler)."""
+    query: str = Field(description="Text to search for.")
+    t_req: str = Field(description=f"Start of the period the question asks about ({_DATE_FMT}; a partial date means its first day). "
+                       "For 'between A and B' use A; for 'before X' or 'after X' use X; for a single year or month use its start.")
+    k: int = Field(default=5, ge=1, description="Number of results to return.")
+
+
+class TemporalRangeArgs(BaseModel):
+    """`temporal_search` biến thể `range`: khoảng `[t_start, t_end]` được hỏi."""
+    query: str = Field(description="Text to search for.")
+    t_start: str = Field(description=f"Start of the period the question asks about ({_DATE_FMT}; a partial date means its first day).")
+    t_end: str = Field(description=f"End of the period the question asks about ({_DATE_FMT}; a partial date means its last day). "
+                       "For a single date or 'before X' use the same date as t_start.")
+    k: int = Field(default=5, ge=1, description="Number of results to return.")
+
+
+class TemporalChoiceArgs(BaseModel):
+    """`temporal_search` biến thể `choice`: `t_req` bắt buộc; có `t_end` thì tìm theo khoảng, không có thì theo một mốc."""
+    query: str = Field(description="Text to search for.")
+    t_req: str = Field(description=f"Start of the period the question asks about ({_DATE_FMT}; a partial date means its first day).")
+    t_end: str | None = Field(default=None, description=f"End of the period ({_DATE_FMT}; a partial date means its last day). Give it when the question "
+                              "covers a period and you want results that overlap the whole period; leave it out to search around the single date t_req.")
+    k: int = Field(default=5, ge=1, description="Number of results to return.")
+
+
 class ReadChunkArgs(BaseModel):
     chunk_id: str = Field(description="Chunk id as shown in search results.")
     neighbors: int = Field(default=0, ge=0, description="Also return this many chunks before and after it in the same page.")
@@ -81,7 +126,10 @@ class VectorTools:
     """Cài đặt ba công cụ trên `store`; `retriever` (tùy chọn) là `TemporalRetriever` dựng với `top_k` = `k_cap`, dùng cho `temporal_search`."""
 
     def __init__(self, store: VectorStore, retriever: TemporalRetriever | None = None, *, k_cap: int = DEFAULT_K_CAP, rrf_k: int = 60,
-                 show_time: bool = True, max_neighbors: int = MAX_NEIGHBORS) -> None:
+                 show_time: bool = True, max_neighbors: int = MAX_NEIGHBORS, temporal_mode: str = "legacy") -> None:
+        if temporal_mode not in ("legacy", "point", "range", "choice"):
+            raise ValueError(f"temporal_mode không hợp lệ: {temporal_mode!r}")
+        self._temporal_mode = temporal_mode
         self._store, self._retriever, self._cap, self._rrf_k, self._show_time = store, retriever, k_cap, rrf_k, show_time
         self._max_neighbors = max_neighbors
 
@@ -113,6 +161,29 @@ class VectorTools:
             logger.info("temporal_search timings_ms=%s", {n: round(v, 1) for n, v in res.trace.timings_ms.items()})  # nối với query_id của câu
         return _result(chunks, f"{len(chunks)} chunks ranked by relevance and closeness to {t_req}", self._show_time, False)
 
+    def _temporal(self, query: str, qs: datetime, qe: datetime | None, label: str, k: int) -> ToolResult:
+        if self._retriever is None:
+            raise ToolError("temporal_search không khả dụng")
+        if qe is not None and qe < qs:
+            raise ToolError("t_end phải không sớm hơn t_start")
+        res = self._retriever.retrieve(ProfiledQuery(semantic_query=query, t_req=qs, t_end=qe))
+        chunks = [s.chunk for s in res.chunks[:min(k, self._cap)]]
+        if res.trace is not None:
+            logger.info("temporal_search timings_ms=%s", {n: round(v, 1) for n, v in res.trace.timings_ms.items()})
+        return _result(chunks, f"{len(chunks)} chunks ranked by relevance and closeness to {label}", self._show_time, False)
+
+    def temporal_point(self, query: str, t_req: str, k: int = 5) -> ToolResult:
+        """Biến thể `point`: `t_req` là đầu khoảng; retriever dựng ở `time_mode=point`."""
+        return self._temporal(query, parse_start_date(t_req), None, t_req, k)
+
+    def temporal_range(self, query: str, t_start: str, t_end: str, k: int = 5) -> ToolResult:
+        """Biến thể `range`: khoảng `[t_start, t_end]`; ngày thiếu: đầu kỳ cho `t_start`, cuối kỳ cho `t_end`."""
+        return self._temporal(query, parse_start_date(t_start), parse_date(t_end), f"{t_start}..{t_end}", k)
+
+    def temporal_choice(self, query: str, t_req: str, t_end: str | None = None, k: int = 5) -> ToolResult:
+        """Biến thể `choice`: có `t_end` thì khoảng, không thì một mốc (retriever `range`; thiếu `t_end` suy biến về một điểm)."""
+        return self._temporal(query, parse_start_date(t_req), parse_date(t_end) if t_end else None, f"{t_req}..{t_end}" if t_end else t_req, k)
+
     def read_chunk(self, chunk_id: str, neighbors: int = 0) -> ToolResult:
         """Chunk theo id, kèm tối đa `MAX_NEIGHBORS` chunk liền kề mỗi phía (cùng trang), xếp theo chỉ số đoạn."""
         ids = [chunk_id, *neighbor_ids([chunk_id], min(neighbors, self._max_neighbors))]
@@ -130,6 +201,10 @@ class VectorTools:
             AgentTool("read_chunk", "Read a chunk by id, optionally with the chunks around it in the same page.", ReadChunkArgs, self.read_chunk),
         ]
         if self._retriever is not None:
-            out.insert(1, AgentTool("temporal_search", "Search the indexed chunks, ranking them by relevance and by how well their validity period "
-                                    "matches a reference date.", TemporalSearchArgs, self.temporal_search))
+            desc = "Search the indexed chunks, ranking them by relevance and by how well their validity period matches the time the question asks about."
+            spec = {"legacy": (TemporalSearchArgs, self.temporal_search), "point": (TemporalPointArgs, self.temporal_point),
+                    "range": (TemporalRangeArgs, self.temporal_range), "choice": (TemporalChoiceArgs, self.temporal_choice)}[self._temporal_mode]
+            if self._temporal_mode == "legacy":
+                desc = "Search the indexed chunks, ranking them by relevance and by how well their validity period matches a reference date."
+            out.insert(1, AgentTool("temporal_search", desc, spec[0], spec[1]))
         return out

@@ -49,14 +49,16 @@ X_SETTINGS = dict(w1=0.7, w2=0.3, decay_lambda=0.25, rrf_k=60, top_n=50, end_mod
 X_RERANK_MODEL = "BAAI/bge-reranker-v2-m3-int8"
 
 
-def build_temporal_retriever(cfg, store, k_cap: int):
+def build_temporal_retriever(cfg, store, k_cap: int, time_mode: str | None = None):
     """TemporalRetriever cấu hình X cho `temporal_search`. Cross-encoder chạy cục bộ trừ khi đặt TAM_RERANK_REMOTE_URL (server GPU); ghi lựa chọn đó vào log lần chạy."""
     from tam.retrieval.temporal.retriever import TemporalRetriever
     from tam.retrieval.temporal.rerank import CrossEncoderReranker
     remote = bool(__import__("os").environ.get("TAM_RERANK_REMOTE_URL"))
     logger.info("temporal_search: cấu hình X, cross-encoder %s (%s)", X_RERANK_MODEL, "server GPU từ xa" if remote else "cục bộ")
     reranker = CrossEncoderReranker(X_RERANK_MODEL, cache_dir=cfg.retrieval.get("rerank_cache_dir"), score_cache=None)
-    return TemporalRetriever(store, top_k=k_cap, reranker=reranker, **X_SETTINGS)
+    settings = dict(X_SETTINGS, **({"time_mode": time_mode} if time_mode else {}))
+    logger.info("temporal_search: time_mode=%s", settings["time_mode"])
+    return TemporalRetriever(store, top_k=k_cap, reranker=reranker, **settings)
 
 
 def build_vector_tools(cfg, cases: list[dict], args):
@@ -71,8 +73,8 @@ def build_vector_tools(cfg, cases: list[dict], args):
     name = args.collection or f"{cfg.vector_store.collection}_{splits.pop()}"
     store = QdrantStore.from_config(cfg, get_embedder(cfg), name)
     logger.info("Kiểu B: collection %s, k_cap=%d, show_time=%s", name, args.k_cap, not args.hide_time)
-    retriever = build_temporal_retriever(cfg, store, args.k_cap) if args.temporal_search else None
-    tools = VectorTools(store, retriever, k_cap=args.k_cap, show_time=not args.hide_time, max_neighbors=args.max_neighbors).tools()
+    retriever = build_temporal_retriever(cfg, store, args.k_cap, "point" if args.temporal_mode == "point" else None) if args.temporal_search else None
+    tools = VectorTools(store, retriever, k_cap=args.k_cap, show_time=not args.hide_time, max_neighbors=args.max_neighbors, temporal_mode=args.temporal_mode).tools()
     if args.graph:
         from tam.stores.graph.neo4j_store import Neo4jStore
         from tam.tools.graph_tools import GraphTools
@@ -105,6 +107,9 @@ def main() -> None:
     ap.add_argument("--neo4j-url", default="", help="kiểu B --graph: bolt URL thay cho graph_store.url của config (vd bolt://127.0.0.1:7688 cho Neo4j m3)")
     ap.add_argument("--graph-only", action="store_true", help="chỉ giữ công cụ graph (timeline, events_of_chunk) và list_pages (chỉ tên trang): câu trả lời chỉ phụ thuộc nút graph (đo trạng thái cơ chế 3); dùng --cache-dir riêng")
     ap.add_argument("--show-state", action="store_true", help="graph: ẩn sự kiện invalidated_at, ghi (ended ...) cho sự kiện có end_time (cơ chế 3)")
+    ap.add_argument("--temporal-mode", choices=["legacy", "point", "range", "choice"], default="range",
+                    help="với --temporal-search (mặc định `range`, chốt 2026-11-25): legacy = một `t_req` (cuối kỳ), retriever range (bản đo đầu tiên của A4); point = `t_req` là ĐẦU khoảng, retriever point; "
+                         "range = agent nêu `t_start`, `t_end`; choice = `t_req` + `t_end` tùy chọn, agent tự quyết")
     ap.add_argument("--temporal-search", action="store_true", help="kiểu B/C: thêm công cụ `temporal_search` (nguyên pipeline Cơ chế 1, cấu hình X, cross-encoder bge-v2-m3) cạnh `vector_search`; dùng --cache-dir riêng")
     ap.add_argument("--hide-time", action="store_true", help="kiểu B: ẩn khoảng hiệu lực của chunk khỏi kết quả (agent chỉ dựa vào văn bản)")
     ap.add_argument("--n", type=int, default=1, help="số câu lấy ngẫu nhiên")
@@ -175,7 +180,7 @@ def main() -> None:
     (run_dir / "run_meta.json").write_text(json.dumps(dict(
         kind=args.kind, graph=args.graph, tools=[t.name for t in tools], thinking="tắt" if args.no_thinking else "theo profile", role=role,
         model=str(profile.get("model_id")), prompt=args.prompt, subset=args.subset, n_cases=len(chosen), workers=args.workers, max_steps=args.max_steps,
-        k_cap=args.k_cap, hide_time=args.hide_time, show_state=args.show_state, cache_dir=None if cache is None else args.cache_dir, t_now=args.t_now), ensure_ascii=False, indent=1), encoding="utf-8")
+        k_cap=args.k_cap, hide_time=args.hide_time, show_state=args.show_state, cache_dir=None if cache is None else args.cache_dir, t_now=args.t_now, temporal_mode=args.temporal_mode if args.temporal_search else None), ensure_ascii=False, indent=1), encoding="utf-8")
 
     def run_one(item):
         i, case = item

@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from tam.generation.scoring import contains, normalize
+from tam.generation.scoring import contains, exact_match, f1_score, normalize
 
 PRICE = {"in": 0.15, "cache": 0.003, "out": 0.60}  # USD / 1M token, DeepSeek V4.1 Flash giờ thấp điểm (gấp đôi giờ cao điểm)
 REFUSAL = re.compile(r"cannot be determined|can't be determined|not enough information|no passage", re.IGNORECASE)
@@ -90,6 +90,11 @@ def main() -> None:
         cached = sum(r["cached_input_tokens"] for r in rows)
         tout = sum(r["output_tokens"] for r in rows)
         usd = ((tin - cached) * PRICE["in"] + cached * PRICE["cache"] + tout * PRICE["out"]) / 1e6
+        lines = [answer_line(r["answer"] or "") for r in rows]
+        em = sum(exact_match(a, r["targets"]) for a, r in zip(lines, rows)) / len(rows)
+        f1 = sum(f1_score(a, r["targets"]) for a, r in zip(lines, rows)) / len(rows)
+        refusal = sum(bool(REFUSAL.search(a)) for a in lines) / len(rows)
+        print(f"  EM {em:.3f}  F1 {f1:.3f}  contains {cnt['correct'] / len(rows):.3f}  từ chối {refusal:.3f}  (chấm dòng Answer, cùng hàm với generate_answers)")
         errs = ", ".join(f"{k}={v}" for k, v in sorted(cnt.items()) if k != "correct")
         print(f"{name:<22}{len(rows):>3}{cnt['correct']:>8}{sum(r['contains_target'] for r in rows):>5.0f}  {errs or '-'} | {sum(r['steps'] for r in rows) / len(rows):.2f}  "
               f"{tin}({cached * 100 // max(tin, 1)}%) {tout}  {usd:.4f}")
