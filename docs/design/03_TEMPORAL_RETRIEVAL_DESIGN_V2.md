@@ -537,7 +537,7 @@ Nhận định (ý kiến, không phải kết quả đo):
 
 ## 10. Việc cần làm tiếp (theo thứ tự đáng làm)
 
-- [ ] Chốt mặc định trong `configs/*.yaml`: `sparse_weight 0`, `t_unknown 0.1`, `decay_from end` (cả ba có bằng chứng cùng chiều).
+- [ ] Chốt mặc định trong `configs/*.yaml`: `sparse_weight 0`, `t_unknown 0.1` (cả hai có bằng chứng cùng chiều). **`decay_from end` đã chốt mặc định 2026-11-25** (`config.dev.yaml`, `config.prod.yaml`; mặc định tham số hàm trong mã vẫn `start`).
 - [ ] Sửa doc 02 (thêm ghi chú trỏ sang doc này) và `CLAUDE.md` (bất biến chunk không mốc).
 - [ ] Đo `ingestion_time_v2`/`v3` bằng chỉ số truy xuất trên collection riêng (đề xuất 9): đây là hướng có trần cao nhất.
 - [ ] Quét `λ`, `W1/W2`, `d`, `t_unknown` trên tập `train`, xác nhận ở `valid`, báo cáo ở `test sạch` đúng một lần (`decisions/08`).
