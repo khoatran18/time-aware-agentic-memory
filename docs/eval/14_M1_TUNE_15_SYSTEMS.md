@@ -261,9 +261,8 @@ Thư mục dở dang không dùng cho bảng (giữ nguyên): `20261125_2352*`, 
 - **Chia phần:** 395 câu chia 4 phần (99, 99, 99, 98 câu), xen kẽ theo domain: `dataset/eval/tunerest1..4_subset.json` (và `tunerest_subset.json` đủ 395 câu để đo thời gian). Để các khâu gối nhau: truy xuất, trả lời, judge chạy song song theo từng phần (`local/scripts/run_rest395.py`).
 - **Cấu hình giữ như 200 câu:** `m1_v4`, top-5, `time_mode = range`, `decay_from = end`, DeepSeek flash (thinking tắt), judge GLM-5.3 (`judge_m1`, thinking tắt), 15 hệ P1 đến P10 và A1 đến A5, mỗi hệ một lần.
 - **Khác 1: cross-encoder chạy trên GPU Kaggle.** Cross-encoder (bge-reranker-v2-m3-int8, MiniLM L6, L12) của P3 đến P5, P7 đến P10 và `temporal_search` của A4, A5 gọi server `/rerank` qua đường hầm Cloudflare (`TAM_RERANK_REMOTE_URL`, `TAM_RERANK_REMOTE_ALL=1`). Điểm fp16 trên GPU khác nhẹ điểm int8 trên CPU của 200 câu cũ (khóa cache điểm riêng `remote:`). Khi gộp 595 câu, xếp hạng trong cùng một hệ có thể lệch nhẹ vì lý do này. Mọi lượt truy xuất đều bật `--no-score-cache`.
-- **Khác 2: judge phần 3 và 4 chỉ chấm một nửa số câu** (50 và 49 câu, chọn xen kẽ theo domain và mã câu, **cùng một nửa cho mọi hệ**, danh sách `local/results/judge_ids_tunerest3.json`, `judge_ids_tunerest4.json`) để giảm 1.470 lần gọi GLM (khoảng 25% của đợt 395 câu). Số câu có judge: 297 trong 395, 497 trong 595. P1 đến P6 phần 3 lỡ được chấm đủ 99 câu trước khi đổi cách; khi tính bảng chỉ lấy đúng nửa đã chọn. Điểm luật (EM, F1, contains, từ chối) vẫn tính trên đủ 395 và 595 câu.
-- **Khác 3: A1, A3 đã chấm lại.** `agent_passages` trong `scripts/judge_answers.py` đã sửa để đọc cả kết quả `read_page` và `grep` (agent kind A, C); chấm lại A1, A3 trên 200 câu cũ và phần 1, 2; phần 3, 4 chấm bằng bản đã sửa. Mục 3 ở trên (mô tả lỗi) vẫn đúng cho lần chấm cũ; **số liệu của A1, A3 trong mục 4 là số cũ, dùng số ở mục 7**. Trên 200 câu cũ: A1 recall 0,000 lên 0,950, grounded 0,000 lên 0,880, lenient 0,620 lên 0,770; A3 recall 0,810 lên 0,970, lenient 0,745 lên 0,795; hallucinated về 0,000 ở cả hai.
-- **Hạn chế 4: A5 chưa chấm lại.** A5 cũng là agent kind C. Phần 200 cũ và phần 1, 2 được chấm bằng cách trích passage cũ (chỉ vector), phần 3, 4 bằng cách mới, nên **điểm judge của A5 (recall, grounded, hallucinated 0,022) trộn hai cách, không đưa vào kết luận**. Điểm luật của A5 không bị ảnh hưởng.
+- **Khác 2: judge GLM-5.3 chấm đủ 395 câu** (phần 3, 4 chấm làm hai đợt, cùng judge, cùng prompt); điểm judge tính trên 395 và 595 câu.
+- **Khác 3: A1, A3, A5 đã chấm lại.** `agent_passages` trong `scripts/judge_answers.py` đã sửa để đọc cả kết quả `read_page` và `grep` (agent kind A, C); chấm lại A1, A3, A5 trên 200 câu cũ và phần 1, 2; phần 3, 4 chấm bằng bản đã sửa. Mục 3 ở trên (mô tả lỗi) vẫn đúng cho lần chấm cũ; **số liệu của A1, A3 trong mục 4 là số cũ, dùng số ở mục 7**. Trên 200 câu cũ: A1 recall 0,000 lên 0,950, grounded 0,000 lên 0,880, lenient 0,620 lên 0,770; A3 recall 0,810 lên 0,970, lenient 0,745 lên 0,795; hallucinated về 0,000 ở cả hai.
 - **Luồng:** DeepSeek 6 luồng, GLM 6 luồng (hạ từ 10 do 429). DeepSeek tự tạm dừng ở khung giá ×2 (mục 7.6).
 - **ONNX mở thừa luồng:** `fastembed` tạo embedding cho câu hỏi bằng ONNX trên CPU, tự ghim luồng lên mọi nhân và bỏ qua `taskset`, làm CPU lên 75–85%. Đã thêm biến `TAM_EMBED_THREADS` (`src/tam/embedding/providers/fastembed.py`), đặt 1 luồng mỗi tiến trình thì CPU còn khoảng 10%. Không đổi model, kết quả không đổi.
 
@@ -275,69 +274,69 @@ Cách đọc cột: `n` là số câu có đáp án (điểm luật); `n judge` 
 
 | Hệ | n | EM | F1 | contains | từ chối | n judge | EM trên câu đã chấm | strict | lenient | partial | grounded | hallucinated | từ chối đúng lúc (n) | recall | precision | bước |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| P1 | 395 | 0.415 | 0.501 | 0.458 | 0.248 | 297 | 0.421 | 0.532 | 0.613 | 0.017 | 0.751 | 0.007 | 0.73 (70) | 0.785 | 0.267 | – |
-| P2 | 395 | 0.405 | 0.491 | 0.453 | 0.271 | 297 | 0.407 | 0.529 | 0.582 | 0.013 | 0.724 | 0.003 | 0.81 (80) | 0.741 | 0.256 | – |
-| P3 | 395 | 0.461 | 0.564 | 0.544 | 0.195 | 297 | 0.455 | 0.599 | 0.670 | 0.010 | 0.798 | 0.003 | 0.74 (58) | 0.822 | 0.275 | – |
-| P4 | 395 | 0.453 | 0.551 | 0.527 | 0.208 | 297 | 0.455 | 0.596 | 0.653 | 0.007 | 0.788 | 0.007 | 0.61 (61) | 0.838 | 0.280 | – |
-| P5 | 395 | 0.458 | 0.561 | 0.537 | 0.172 | 297 | 0.465 | 0.616 | 0.707 | 0.010 | 0.838 | 0.003 | 0.77 (47) | 0.865 | 0.301 | – |
-| P6 | 395 | 0.509 | 0.610 | 0.582 | 0.147 | 297 | 0.505 | 0.646 | 0.731 | 0.013 | 0.842 | 0.003 | 0.67 (46) | 0.879 | 0.322 | – |
-| P7 | 395 | 0.494 | 0.612 | 0.572 | 0.134 | 297 | 0.481 | 0.630 | 0.700 | 0.027 | 0.859 | 0.003 | 0.68 (40) | 0.879 | 0.323 | – |
-| P8 | 395 | 0.496 | 0.612 | 0.567 | 0.147 | 297 | 0.495 | 0.650 | 0.741 | 0.007 | 0.852 | 0.003 | 0.64 (42) | 0.869 | 0.310 | – |
-| P9 | 395 | 0.532 | 0.626 | 0.597 | 0.132 | 297 | 0.529 | 0.663 | 0.747 | 0.013 | 0.862 | 0.003 | 0.62 (40) | 0.923 | 0.337 | – |
-| P10 | 395 | 0.504 | 0.609 | 0.577 | 0.134 | 297 | 0.512 | 0.657 | 0.744 | 0.007 | 0.865 | 0.003 | 0.64 (39) | 0.919 | 0.333 | – |
-| A1 | 395 | 0.496 | 0.611 | 0.595 | 0.152 | 297 | 0.488 | 0.630 | 0.734 | 0.010 | 0.825 | 0.007 | 0.48 (50) | 0.943 | 0.129 | 3.58 |
-| A2 | 395 | 0.534 | 0.661 | 0.641 | 0.114 | 297 | 0.532 | 0.704 | 0.801 | 0.010 | 0.879 | 0.000 | 0.53 (36) | 0.943 | 0.193 | 2.66 |
-| A3 | 395 | 0.532 | 0.635 | 0.623 | 0.144 | 297 | 0.525 | 0.670 | 0.761 | 0.003 | 0.828 | 0.003 | 0.42 (50) | 0.956 | 0.156 | 3.14 |
-| A4 | 395 | 0.527 | 0.649 | 0.625 | 0.101 | 297 | 0.515 | 0.684 | 0.791 | 0.007 | 0.879 | 0.003 | 0.51 (35) | 0.949 | 0.231 | 2.52 |
-| A5 | 395 | 0.527 | 0.649 | 0.633 | 0.106 | 297 | 0.519 | 0.677 | 0.768 | 0.013 | 0.845 | 0.024 | 0.50 (38) | 0.923 | 0.200 | 2.90 |
+| P1 | 395 | 0.415 | 0.501 | 0.458 | 0.248 | 395 | 0.415 | 0.516 | 0.595 | 0.015 | 0.737 | **0.010** | 0.74 (98) | 0.759 | 0.262 | – |
+| P2 | 395 | 0.405 | 0.491 | 0.453 | **0.271** | 395 | 0.405 | 0.522 | 0.582 | 0.013 | 0.722 | 0.005 | **0.80 (107)** | 0.734 | 0.260 | – |
+| P3 | 395 | 0.461 | 0.564 | 0.544 | 0.195 | 395 | 0.461 | 0.600 | 0.673 | 0.010 | 0.797 | 0.003 | 0.73 (77) | 0.815 | 0.279 | – |
+| P4 | 395 | 0.453 | 0.551 | 0.527 | 0.208 | 395 | 0.453 | 0.590 | 0.651 | 0.008 | 0.787 | 0.005 | 0.65 (82) | 0.828 | 0.281 | – |
+| P5 | 395 | 0.458 | 0.561 | 0.537 | 0.172 | 395 | 0.458 | 0.608 | 0.701 | 0.008 | 0.825 | 0.003 | 0.75 (68) | 0.848 | 0.299 | – |
+| P6 | 395 | 0.509 | 0.610 | 0.582 | 0.147 | 395 | 0.509 | 0.651 | 0.744 | 0.013 | 0.851 | 0.003 | 0.67 (58) | 0.871 | 0.313 | – |
+| P7 | 395 | 0.494 | 0.612 | 0.572 | 0.134 | 395 | 0.494 | 0.638 | 0.722 | **0.025** | 0.861 | 0.003 | 0.70 (53) | 0.876 | 0.312 | – |
+| P8 | 395 | 0.496 | 0.612 | 0.567 | 0.147 | 395 | 0.496 | 0.648 | 0.737 | 0.005 | 0.848 | 0.003 | 0.67 (58) | 0.856 | 0.305 | – |
+| P9 | 395 | 0.532 | 0.626 | 0.597 | 0.132 | 395 | 0.532 | 0.666 | 0.754 | 0.013 | 0.866 | 0.003 | 0.65 (52) | 0.911 | **0.334** | – |
+| P10 | 395 | 0.504 | 0.609 | 0.577 | 0.134 | 395 | 0.504 | 0.656 | 0.744 | 0.005 | 0.863 | 0.003 | 0.68 (53) | 0.901 | 0.328 | – |
+| A1 | 395 | 0.496 | 0.611 | 0.595 | 0.152 | 395 | 0.496 | 0.643 | 0.754 | 0.013 | 0.838 | 0.008 | 0.48 (61) | 0.939 | 0.127 | 3.58 |
+| A2 | 395 | **0.534** | **0.661** | **0.641** | 0.114 | 395 | **0.534** | **0.704** | **0.803** | 0.008 | 0.886 | 0.000 | 0.47 (45) | 0.949 | 0.197 | 2.66 |
+| A3 | 395 | 0.532 | 0.635 | 0.623 | 0.144 | 395 | 0.532 | 0.678 | 0.767 | 0.005 | 0.851 | 0.003 | 0.43 (58) | **0.957** | 0.157 | 3.14 |
+| A4 | 395 | 0.527 | 0.649 | 0.625 | 0.101 | 395 | 0.527 | 0.691 | **0.803** | 0.008 | **0.896** | 0.003 | 0.55 (40) | 0.949 | 0.227 | 2.52 |
+| A5 | 395 | 0.527 | 0.649 | 0.633 | 0.106 | 395 | 0.527 | 0.689 | 0.782 | 0.010 | 0.886 | 0.005 | 0.55 (42) | 0.942 | 0.154 | 2.90 |
 
 ### Gộp 595 câu (200 cũ + 395 mới)
 
 | Hệ | n | EM | F1 | contains | từ chối | n judge | EM trên câu đã chấm | strict | lenient | partial | grounded | hallucinated | từ chối đúng lúc (n) | recall | precision | bước |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| P1 | 595 | 0.420 | 0.501 | 0.455 | 0.257 | 497 | 0.425 | 0.517 | 0.608 | 0.012 | 0.738 | 0.006 | 0.78 (125) | 0.759 | 0.262 | – |
-| P2 | 595 | 0.390 | 0.472 | 0.427 | 0.294 | 497 | 0.388 | 0.495 | 0.559 | 0.010 | 0.694 | 0.004 | 0.83 (148) | 0.710 | 0.251 | – |
-| P3 | 595 | 0.477 | 0.565 | 0.541 | 0.198 | 497 | 0.477 | 0.590 | 0.670 | 0.008 | 0.793 | 0.004 | 0.77 (99) | 0.821 | 0.277 | – |
-| P4 | 595 | 0.466 | 0.553 | 0.526 | 0.208 | 497 | 0.469 | 0.592 | 0.660 | 0.006 | 0.789 | 0.004 | 0.70 (103) | 0.821 | 0.280 | – |
-| P5 | 595 | 0.476 | 0.568 | 0.545 | 0.171 | 497 | 0.483 | 0.608 | 0.708 | 0.006 | 0.831 | 0.004 | 0.77 (81) | 0.855 | 0.300 | – |
-| P6 | 595 | 0.541 | 0.631 | 0.602 | 0.136 | 497 | 0.545 | 0.662 | 0.740 | 0.012 | 0.855 | 0.002 | 0.74 (69) | 0.865 | 0.314 | – |
-| P7 | 595 | 0.531 | 0.632 | 0.593 | 0.119 | 497 | 0.531 | 0.648 | 0.726 | 0.024 | 0.879 | 0.002 | 0.71 (58) | 0.879 | 0.319 | – |
-| P8 | 595 | 0.529 | 0.627 | 0.585 | 0.134 | 497 | 0.535 | 0.658 | 0.751 | 0.006 | 0.863 | 0.006 | 0.69 (64) | 0.855 | 0.305 | – |
-| P9 | 595 | 0.565 | 0.650 | 0.622 | 0.114 | 497 | 0.569 | 0.684 | 0.767 | 0.014 | 0.885 | 0.002 | 0.70 (56) | 0.911 | 0.340 | – |
-| P10 | 595 | 0.550 | 0.639 | 0.610 | 0.118 | 497 | 0.563 | 0.682 | 0.761 | 0.008 | 0.883 | 0.004 | 0.73 (56) | 0.911 | 0.336 | – |
-| A1 | 595 | 0.529 | 0.631 | 0.615 | 0.139 | 497 | 0.531 | 0.654 | 0.748 | 0.018 | 0.847 | 0.004 | 0.47 (73) | 0.946 | 0.135 | 3.57 |
-| A2 | 595 | 0.573 | 0.680 | 0.659 | 0.097 | 497 | 0.579 | 0.722 | 0.815 | 0.010 | 0.901 | 0.000 | 0.47 (49) | 0.956 | 0.194 | 2.65 |
-| A3 | 595 | 0.558 | 0.650 | 0.639 | 0.131 | 497 | 0.559 | 0.688 | 0.775 | 0.010 | 0.853 | 0.002 | 0.44 (71) | 0.962 | 0.158 | 3.13 |
-| A4 | 595 | 0.560 | 0.665 | 0.644 | 0.089 | 497 | 0.559 | 0.710 | 0.823 | 0.006 | 0.899 | 0.002 | 0.48 (48) | 0.964 | 0.228 | 2.51 |
-| A5 | 595 | 0.558 | 0.665 | 0.650 | 0.094 | 497 | 0.559 | 0.694 | 0.795 | 0.012 | 0.869 | 0.022 | 0.48 (52) | 0.926 | 0.240 | 2.87 |
+| P1 | 595 | 0.420 | 0.501 | 0.455 | 0.257 | 595 | 0.420 | 0.509 | 0.597 | 0.012 | 0.731 | **0.008** | 0.78 (153) | 0.746 | 0.260 | – |
+| P2 | 595 | 0.390 | 0.472 | 0.427 | **0.294** | 595 | 0.390 | 0.496 | 0.563 | 0.010 | 0.697 | 0.005 | **0.82 (175)** | 0.711 | 0.254 | – |
+| P3 | 595 | 0.477 | 0.565 | 0.541 | 0.198 | 595 | 0.477 | 0.592 | 0.672 | 0.008 | 0.793 | 0.003 | 0.75 (118) | 0.817 | 0.280 | – |
+| P4 | 595 | 0.466 | 0.553 | 0.526 | 0.208 | 595 | 0.466 | 0.588 | 0.657 | 0.007 | 0.788 | 0.003 | 0.71 (124) | 0.817 | 0.281 | – |
+| P5 | 595 | 0.476 | 0.568 | 0.545 | 0.171 | 595 | 0.476 | 0.603 | 0.704 | 0.005 | 0.824 | 0.003 | 0.75 (102) | 0.845 | 0.298 | – |
+| P6 | 595 | 0.541 | 0.631 | 0.602 | 0.136 | 595 | 0.541 | 0.662 | 0.748 | 0.012 | 0.859 | 0.002 | 0.73 (81) | 0.862 | 0.310 | – |
+| P7 | 595 | 0.531 | 0.632 | 0.593 | 0.119 | 595 | 0.531 | 0.650 | 0.736 | **0.024** | 0.877 | 0.002 | 0.72 (71) | 0.877 | 0.313 | – |
+| P8 | 595 | 0.529 | 0.627 | 0.585 | 0.134 | 595 | 0.529 | 0.655 | 0.746 | 0.005 | 0.859 | 0.005 | 0.70 (80) | 0.849 | 0.303 | – |
+| P9 | 595 | 0.565 | 0.650 | 0.622 | 0.114 | 595 | 0.565 | 0.682 | 0.768 | 0.013 | 0.884 | 0.002 | 0.71 (68) | 0.906 | **0.338** | – |
+| P10 | 595 | 0.550 | 0.639 | 0.610 | 0.118 | 595 | 0.550 | 0.677 | 0.758 | 0.007 | 0.879 | 0.003 | 0.74 (70) | 0.901 | 0.331 | – |
+| A1 | 595 | 0.529 | 0.631 | 0.615 | 0.139 | 595 | 0.529 | 0.659 | 0.760 | 0.018 | 0.852 | 0.005 | 0.46 (84) | 0.943 | 0.132 | 3.57 |
+| A2 | 595 | **0.573** | **0.680** | **0.659** | 0.097 | 595 | **0.573** | **0.719** | 0.813 | 0.008 | 0.903 | 0.000 | 0.43 (58) | 0.958 | 0.197 | 2.65 |
+| A3 | 595 | 0.558 | 0.650 | 0.639 | 0.131 | 595 | 0.558 | 0.691 | 0.776 | 0.010 | 0.864 | 0.002 | 0.44 (79) | **0.961** | 0.158 | 3.13 |
+| A4 | 595 | 0.560 | 0.665 | 0.644 | 0.089 | 595 | 0.560 | 0.711 | **0.825** | 0.007 | **0.908** | 0.002 | 0.51 (53) | **0.961** | 0.226 | 2.51 |
+| A5 | 595 | 0.558 | 0.665 | 0.650 | 0.094 | 595 | 0.558 | 0.704 | 0.800 | 0.008 | 0.901 | 0.003 | 0.48 (56) | 0.953 | 0.157 | 2.87 |
 
-### So cặp (strict, trên các câu đã chấm của mọi hệ, 497 câu)
+### So cặp (strict, 595 câu)
 
 | Cặp | n | chênh | z | a hơn | b hơn |
 |---|---|---|---|---|---|
-| P2 − P1 | 497 | -0.022 | -1.17 | 39 | 50 |
-| P3 − P1 | 497 | +0.072 | +3.47 | 73 | 37 |
-| P5 − P3 | 497 | +0.018 | +1.08 | 39 | 30 |
-| P6 − P1 | 497 | +0.145 | +7.60 | 86 | 14 |
-| P6 − P5 | 497 | +0.054 | +3.10 | 52 | 25 |
-| P10 − P6 | 497 | +0.020 | +1.62 | 24 | 14 |
-| P9 − P10 | 497 | +0.002 | +0.20 | 13 | 12 |
-| P10 − P5 | 497 | +0.074 | +4.69 | 51 | 14 |
-| A2 − P10 | 497 | +0.040 | +2.34 | 47 | 27 |
-| A4 − A2 | 497 | -0.012 | -1.06 | 13 | 19 |
-| A5 − A4 | 497 | -0.016 | -1.30 | 15 | 23 |
-| A3 − A2 | 497 | -0.034 | -2.49 | 15 | 32 |
-| A1 − A2 | 497 | -0.068 | -4.73 | 10 | 44 |
-| A4 − P10 | 497 | +0.028 | +1.55 | 48 | 34 |
+| P2 − P1 | 595 | -0.013 | -0.79 | 47 | 55 |
+| P3 − P1 | 595 | +0.082 | +4.34 | 90 | 41 |
+| P5 − P3 | 595 | +0.012 | +0.80 | 42 | 35 |
+| P6 − P1 | 595 | +0.153 | +8.63 | 108 | 17 |
+| P6 − P5 | 595 | +0.059 | +3.67 | 64 | 29 |
+| P10 − P6 | 595 | +0.015 | +1.31 | 28 | 19 |
+| P9 − P10 | 595 | +0.005 | +0.52 | 18 | 15 |
+| P10 − P5 | 595 | +0.074 | +5.09 | 61 | 17 |
+| A2 − P10 | 595 | +0.042 | +2.55 | 61 | 36 |
+| A4 − A2 | 595 | -0.008 | -0.80 | 17 | 22 |
+| A5 − A4 | 595 | -0.007 | -0.62 | 19 | 23 |
+| A3 − A2 | 595 | -0.029 | -2.34 | 18 | 35 |
+| A1 − A2 | 595 | -0.061 | -4.65 | 13 | 49 |
+| A4 − P10 | 595 | +0.034 | +1.97 | 62 | 42 |
 
 ### 7.3 Đọc kết quả
 
-1. **Pipeline lặp lại 200 câu.** P1 và P2 gần nhau (P2 không hơn P1); cross-encoder giúp (P3 − P1 = +0,072, z 3,5); Temporal giúp nhiều nhất (P6 − P1 = +0,145, z 7,6; P6 − P5 = +0,054, z 3,1). **Cấu hình X (P10) hơn P6 chỉ +0,020 (z 1,6)** và P9 ≈ P10: lợi thế của cross-encoder trộn trên Temporal đơn thuần là nhỏ, chưa đủ để kết luận.
-2. **Agent: A2 (vector) tốt nhất.** A2 hơn P10 (+0,040, z 2,3, strict); trên 200 câu cũ chưa phân biệt được. A4 và A5 (thêm `temporal_search`) không hơn A2 (A4 − A2 = −0,012; A5 − A4 = −0,016). Thêm `grep`/`read_page` làm kém đi: A3 − A2 = −0,034 (z −2,5), A1 − A2 = −0,068 (z −4,7).
-3. **Agent đọc đủ bằng chứng nhưng đọc nhiều:** recall 0,93–0,96 nhưng precision chỉ 0,13–0,24 (pipeline 0,25–0,34), vì agent đọc tới 20 đoạn.
-4. **Từ chối:** pipeline từ chối nhiều hơn nhưng phần lớn đúng lúc (0,69–0,82); agent từ chối ít hơn (0,09–0,14) nhưng chỉ 0,44–0,48 là đúng lúc.
-5. **Bịa gần như bằng 0** (≤ 0,006) ở mọi hệ, trừ A5 (0,022, do trộn hai cách trích passage, xem hạn chế 4).
-6. **Sai số:** trên 497 câu, sai số chuẩn của điểm khoảng 0,7 là 0,021 (200 câu: 0,032). Chênh lệch dưới 0,03 vẫn không nên diễn giải.
+1. **Pipeline lặp lại 200 câu.** P1 và P2 gần nhau (P2 không hơn P1); cross-encoder giúp (P3 − P1 = +0,082, z 4,3); Temporal giúp nhiều nhất (P6 − P1 = +0,153, z 8,6; P6 − P5 = +0,059, z 3,7). **Cấu hình X (P10) hơn P6 chỉ +0,015 (z 1,3)** và P9 ≈ P10: lợi thế của cross-encoder trộn trên Temporal đơn thuần là nhỏ, chưa đủ để kết luận.
+2. **Agent: A2 (vector) tốt nhất.** A2 hơn P10 (+0,042, z 2,6, strict); trên 200 câu cũ chưa phân biệt được. A4 và A5 (thêm `temporal_search`) không hơn A2 (A4 − A2 = −0,008; A5 − A4 = −0,007). Thêm `grep`/`read_page` làm kém đi: A3 − A2 = −0,029 (z −2,3), A1 − A2 = −0,061 (z −4,7).
+3. **Agent đọc đủ bằng chứng nhưng đọc nhiều:** recall 0,93–0,96 nhưng precision chỉ 0,13–0,23 (pipeline 0,25–0,34), vì agent đọc tới 20 đoạn.
+4. **Từ chối:** pipeline từ chối nhiều hơn nhưng phần lớn đúng lúc (0,70–0,82); agent từ chối ít hơn (0,09–0,14) nhưng chỉ 0,43–0,51 là đúng lúc.
+5. **Bịa gần như bằng 0** (≤ 0,008) ở mọi hệ.
+6. **Sai số:** trên 595 câu, sai số chuẩn của điểm khoảng 0,7 là 0,019 (200 câu: 0,032). Chênh lệch dưới 0,03 vẫn không nên diễn giải.
 
 ### 7.4 Chi phí
 
@@ -363,7 +362,7 @@ Cách đọc cột: `n` là số câu có đáp án (điểm luật); `n judge` 
 
 Tổng DeepSeek 15 hệ × 395 câu: 1.88 USD
 
-Judge GLM-5.3 (395 câu + chấm lại A1, A3 trên 400 câu): 5164 lần gọi quan sát, vào 14.28M, cache 7.86M, ra 0.87M, 14.84 USD giá niêm yết, 4.7 s/lần. Tổng GLM đã dùng tính cả việc chấm lại A1, A3 (400 câu mỗi hệ) và các lượt chấm lại do dừng giữa chừng; `e2e_net_s` là thời gian không tính chờ sau 429 (lần đo 200 câu trước ghi 20,5 giây mỗi lần là thời gian đồng hồ gồm chờ).
+Judge GLM-5.3 (395 câu đủ + chấm lại A1, A3, A5 trên 400 câu): 6719 lần gọi quan sát, vào 18.80M, cache 10.14M, ra 1.13M, 19.72 USD giá niêm yết, 4.7 s/lần. Tổng GLM đã dùng tính cả việc chấm lại A1, A3 (400 câu mỗi hệ) và các lượt chấm lại do dừng giữa chừng; `e2e_net_s` là thời gian không tính chờ sau 429 (lần đo 200 câu trước ghi 20,5 giây mỗi lần là thời gian đồng hồ gồm chờ).
 
 Giá DeepSeek tính ở hệ số ×1: đợt chạy đã tạm dừng đúng khung ×2 nên mọi lần gọi nằm ngoài khung giá nhân đôi.
 
@@ -433,9 +432,9 @@ A4, A5 trên CPU (200 câu cũ, chạy lúc máy tải nặng, không sạch): t
 
 ### 7.7 Dấu vết
 
-Mọi thư mục dưới `output/` (không xóa). Trạng thái: `local/logs/rest395/status.json` (và `status_timing.json`, `local/logs/rejudge_A/status.json`), log từng việc ở cùng thư mục; điều phối: `local/scripts/run_rest395.py` (chạy chính, `TIMING_ONLY=1` cho pha đo thời gian), `local/scripts/rejudge_A.py` (chấm lại A1, A3). Cache LLM: `data/llm_cache/ds_r395_*` (DeepSeek), `judge_glm_r395_*` và `judge_glm_fixA_*` (judge). Bản cũ của doc này trước khi gộp: `local/results/doc14_before_395.md`; bản cũ của `scripts/judge_answers.py`: `local/scripts/judge_answers.before_fix.py`.
+Mọi thư mục dưới `output/` (không xóa). Trạng thái: `local/logs/rest395/status.json` (và `status_timing.json`, `local/logs/rejudge_A/status.json`, `status_A5.json`, `local/logs/judge_rest98/status.json`), log từng việc ở cùng thư mục; điều phối: `local/scripts/run_rest395.py` (chạy chính, `TIMING_ONLY=1` cho pha đo thời gian), `local/scripts/rejudge_A.py` (chấm lại A1, A3). Cache LLM: `data/llm_cache/ds_r395_*` (DeepSeek), `judge_glm_r395_*` và `judge_glm_fixA_*` (judge). Bản cũ của doc này trước khi gộp: `local/results/doc14_before_395.md`; bản cũ của `scripts/judge_answers.py`: `local/scripts/judge_answers.before_fix.py`.
 
-| Hệ | Phần | Thư mục trả lời / agent | Thư mục truy xuất | Thư mục judge | Judge chấm lại (A1, A3) |
+| Hệ | Phần | Thư mục trả lời / agent | Thư mục truy xuất | Thư mục judge | Judge chấm lại (A1, A3, A5) |
 |---|---|---|---|---|---|
 | P1 | tunerest1 | `output/20261126_110903_2` | `output/20261126_110621` | `output/20261126_112235_5` | `–` |
 | P1 | tunerest2 | `output/20261126_114710` | `output/20261126_111240` | `output/20261126_122510` | `–` |
@@ -493,8 +492,8 @@ Mọi thư mục dưới `output/` (không xóa). Trạng thái: `local/logs/res
 | A4 | tunerest2 | `output/20261126_123126` | `–` | `output/20261126_133311` | `–` |
 | A4 | tunerest3 | `output/20261126_173016_2` | `–` | `output/20261126_174555_2` | `–` |
 | A4 | tunerest4 | `output/20261126_175923` | `–` | `output/20261126_180717` | `–` |
-| A5 | tunerest1 | `output/20261126_114923` | `–` | `output/20261126_124212` | `–` |
-| A5 | tunerest2 | `output/20261126_170118_2` | `–` | `output/20261126_171102` | `–` |
+| A5 | tunerest1 | `output/20261126_114923` | `–` | `output/20261126_124212` | `output/20261128_015007` |
+| A5 | tunerest2 | `output/20261126_170118_2` | `–` | `output/20261126_171102` | `output/20261128_015120` |
 | A5 | tunerest3 | `output/20261126_174212` | `–` | `output/20261126_175230_2` | `–` |
 | A5 | tunerest4 | `output/20261126_180406_2` | `–` | `output/20261126_181212` | `–` |
 
@@ -504,6 +503,12 @@ Chấm lại A1, A3 trên 200 câu cũ: A1_tune100: `output/20261126_135632`, A1
 
 ### 7.8 Việc còn lại
 
-- Chấm lại A5 (khoảng 200 + 99 + 99 câu, ước tính khoảng 1 USD niêm yết) để điểm judge của A5 nhất quán.
 - Đo mức đồng ý judge và người trên mẫu 50 câu mới; đo độ trễ chính thức trên máy rảnh.
-- `valid`, `test_clean` chỉ khi được bảo. Cần commit: `src/tam/embedding/providers/fastembed.py` (`TAM_EMBED_THREADS`) và `scripts/judge_answers.py` (trích passage `read_page`, `grep`).
+- `valid` (399 câu), `test_clean` (400 câu) chỉ khi được bảo. Đã chốt cho `valid` (2026-11-28): chạy đủ 15 hệ; trả lời và agent bằng DeepSeek flash qua OpenCode (`opencode_deepseek_flash`); judge GLM-5.3 qua Surplus (`surplus_glm_5_3`, mục 7.9) với cache local riêng; cross-encoder qua GPU Kaggle (link do người dùng đưa khi chạy). Judge của `valid` khác nền tảng với judge của tune (OpenCode): chênh lệch mới đo trên 10 câu (mục 7.9), nên so điểm judge giữa tune và `valid` chỉ ở mức xu hướng.
+
+### 7.9 Surplus Intelligence (đo ngày 2026-11-28)
+
+- **Kết nối:** tương thích OpenAI, `base_url` `https://api.surplusintelligence.ai/v1`, khóa `inf_...` trong biến `SURPLUS_API_KEY` (`.env`). Profile `surplus_glm_5_3` (`glm-5.3`), `surplus_deepseek_flash_1017` (`deepseek-v4.1-flash-1017`), cả hai ghim `provider: "dashscope-cn"` (Alibaba DashScope, id lấy từ `GET /v1/providers`; 47 provider, 17 không trusted).
+- **Tắt thinking:** với GLM, `thinking: disabled` bị bỏ qua (reasoning 7 token); chỉ `reasoning_effort: "none"` tắt được (0 token). DeepSeek tắt được bằng cả hai. Hai profile đặt cả hai trường.
+- **Giá:** giá mỗi offer do người bán đặt, đổi theo giờ (`GET /api/markets/<model>`; đo lúc 02:00: DashScope giảm 99,9% với GLM, 95–96% với DeepSeek, niêm yết 1,155 / 4,29 và 0,158 / 0,710 USD mỗi triệu token). Tài khoản có **sàn mua tối thiểu giảm giá**; khi offer rơi dưới sàn thì `404 minimum_discount_not_met` (đã gặp với sàn 95%, người dùng hạ xuống dưới 94%). Sàn chỉ đổi được trong cài đặt tài khoản hoặc key, không đổi được qua đường dẫn.
+- **Mẫu 10 lần gọi mỗi model** (so với OpenCode, 99 lần): GLM trung vị 3,4 giây (4,1), 47,8 token/s (40,0), 10/10 một lần gọi (OpenCode 30 lần gọi lại); DeepSeek trung vị 1,64 giây (1,42), 15,5 token/s (18,7). Judge GLM trên 10 câu: 9/10 cùng verdict, strict 0,8 (Surplus) và 0,9 (OpenCode). DeepSeek: 9/10 đáp án giống hệt (câu khác: Surplus từ chối). **Cache provider thấp hơn:** GLM 47,3% (OpenCode 64,1%), DeepSeek 40,4% (44,5%); mẫu nhỏ, OpenCode có `session_header`. Vì vậy dùng cache local riêng (`data/llm_cache/surplus_*` hoặc theo từng lần chạy) để chạy lại không tốn lần gọi mới.

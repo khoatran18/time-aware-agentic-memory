@@ -412,4 +412,6 @@ Chưa có: `judge_correct`, độ trễ chính thức, `valid`, `test_clean`.
 4. **`valid`, `test_clean`:** chỉ khi được bảo; thứ tự `valid` rồi `test_clean`.
 5. Cập nhật tài liệu cũ: `process/04`, `05`, `07`, `eval/01` mục 7.
 
-**Cập nhật chiều 2026-11-26:** đã đo nốt 395 câu `tune` còn lại (tổng 595), A1 và A3 đã chấm lại sau khi sửa trích passage (mục 1 ở trên xong cho A1, A3). Kết quả, chi phí, thời gian chia CPU/GPU, quy tắc giá OpenCode: `docs/eval/14_M1_TUNE_15_SYSTEMS.md` mục 7. Còn: chấm lại A5 (cùng lỗi trích passage, kind C), mục 2 đến 5 ở trên. Khi chạy `valid`: DeepSeek tạm dừng ở khung giá ×2 (thứ 2 đến thứ 6, 08:00–11:00 và 13:00–17:00 giờ Việt Nam); GLM giá cố định; hạn mức tuần đã dùng 51%.
+**Cập nhật chiều 2026-11-26:** đã đo nốt 395 câu `tune` còn lại (tổng 595, judge GLM đủ 595 câu), A1, A3 và A5 đã chấm lại sau khi sửa trích passage (mục 1 ở trên xong). Kết quả, chi phí, thời gian chia CPU/GPU, quy tắc giá OpenCode: `docs/eval/14_M1_TUNE_15_SYSTEMS.md` mục 7. Còn: mục 2 đến 5 ở trên. Khi chạy `valid`: DeepSeek tạm dừng ở khung giá ×2 (thứ 2 đến thứ 6, 08:00–11:00 và 13:00–17:00 giờ Việt Nam); GLM giá cố định; hạn mức tuần đã dùng 51%.
+
+**Cập nhật 2026-11-28:** judge tune xong đủ 595 câu cho 15 hệ (A1, A3, A5 đã chấm lại). Chốt cho `valid`: đủ 15 hệ, DeepSeek qua OpenCode, judge GLM-5.3 qua Surplus (`surplus_glm_5_3`, ghim `dashscope-cn`, thinking tắt bằng `reasoning_effort: none`), cache local riêng, GPU Kaggle do người dùng đưa link. Chi tiết và số đo Surplus: `docs/eval/14_M1_TUNE_15_SYSTEMS.md` mục 7.8, 7.9. Chưa chạy.
