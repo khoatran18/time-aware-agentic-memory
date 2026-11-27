@@ -87,6 +87,28 @@ llm:
       default_headers: {User-Agent: "tam-thesis-agent-eval/0.1"}
       session_header: "x-opencode-session"
       extra_body: {thinking: {type: "disabled"}}   # TẮT thinking (quy tắc chung). Chưa kiểm chứng GLM-5.3 nhận trường này: phải kiểm bằng `output_tokens` của một lần gọi thử; nếu bị bỏ qua (như hy4-flash-free) thì thử `reasoning_effort: "none"`. Khóa cache không chứa extra_body: dùng thư mục cache riêng (`data/llm_cache/glm_*`)
+    surplus_glm_5_3:                   # GLM-5.3 qua Surplus Intelligence (tương thích OpenAI, https://www.surplusintelligence.ai/docs/getting-started/buyer-quickstart); thêm 2026-11-28, chưa gọi thử
+      provider: "openai"
+      model_id: "glm-5.3"
+      api_key: "${SURPLUS_API_KEY:-}"  # khóa dạng inf_...; người dùng đặt biến môi trường này
+      base_url: "https://api.surplusintelligence.ai/v1"
+      temperature: 0
+      timeout: 120
+      structured_output: false         # như các profile OpenCode: gọi thường kèm schema JSON rồi đọc JSON
+      stream_usage: true               # chưa kiểm chứng; lỗi thì đặt false
+      default_headers: {User-Agent: "tam-thesis-agent-eval/0.1"}
+      extra_body: {reasoning_effort: "none", thinking: {type: "disabled"}, provider: "dashscope-cn"}   # provider ghim Alibaba DashScope (id lấy từ GET /v1/providers; người dùng chốt 2026-11-28). TẮT thinking bằng reasoning_effort none (đã kiểm 2026-11-28: reasoning_tokens 0); `thinking: disabled` và `enable_thinking` bị bỏ qua trên Surplus (reasoning_tokens 7). Đã kiểm Surplus chuyển tiếp trường này: kiểm bằng `output_tokens` của một lần gọi thử. Khóa cache KHÔNG chứa extra_body và trùng model_id "glm-5.3" với opencode_glm_5_3: dùng thư mục cache riêng (`data/llm_cache/surplus_*`)
+    surplus_deepseek_flash_1017:       # DeepSeek V4.1 Flash bản 1017 qua Surplus Intelligence; thêm 2026-11-28, chưa gọi thử
+      provider: "openai"
+      model_id: "deepseek-v4.1-flash-1017"
+      api_key: "${SURPLUS_API_KEY:-}"
+      base_url: "https://api.surplusintelligence.ai/v1"
+      temperature: 0
+      timeout: 120
+      structured_output: false
+      stream_usage: true               # chưa kiểm chứng; lỗi thì đặt false
+      default_headers: {User-Agent: "tam-thesis-agent-eval/0.1"}
+      extra_body: {reasoning_effort: "none", thinking: {type: "disabled"}, provider: "dashscope-cn"}   # provider ghim Alibaba DashScope. TẮT thinking (đã kiểm 2026-11-28: cả hai cách đều cho out 2 token, không reasoning). Dùng thư mục cache riêng (`data/llm_cache/surplus_*`)
     google_gemma26:                    # Gemma 4 26B (MoE, ~4B tham số hoạt động) gọi thẳng; hạn mức 30 RPM, 16K TPM
       provider: "google"
       model_id: "gemma-4-26b-a4b-it"
