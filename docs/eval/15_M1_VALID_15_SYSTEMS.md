@@ -1,6 +1,6 @@
 # Cơ chế 1: đo 15 hệ trên `valid` (399 câu)
 
-Đo ngày 2026-11-28 (02:19–06:12 giờ Việt Nam), đủ 15 hệ (pipeline P1–P10, agent A1–A5) trên tập `valid`, cấu hình giữ nguyên như `tune` (`docs/eval/14_M1_TUNE_15_SYSTEMS.md`): prompt `m1_v4`, top-5, `time_mode=range`, `decay_from=end`, không điều chỉnh gì thêm trên `valid`. `test_clean` chưa đo.
+Đo ngày 2026-11-28 (02:19–06:12 giờ Việt Nam), đủ 15 hệ (pipeline P1–P10, agent A1–A5) trên tập `valid`, cấu hình giữ nguyên như `tune` (`docs/eval/14_M1_TUNE_15_SYSTEMS.md`): prompt `m1_v4`, top-5, `time_mode=range`, `decay_from=end`, không điều chỉnh gì thêm trên `valid`. `test_clean` đã đo sau đó: `docs/eval/16_M1_TEST_CLEAN_15_SYSTEMS.md`.
 
 ## 1. Thiết lập
 

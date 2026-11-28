@@ -504,7 +504,7 @@ Chấm lại A1, A3 trên 200 câu cũ: A1_tune100: `output/20261126_135632`, A1
 ### 7.8 Việc còn lại
 
 - Đo mức đồng ý judge và người trên mẫu 50 câu mới; đo độ trễ chính thức trên máy rảnh.
-- `valid` (399 câu), `test_clean` (400 câu) chỉ khi được bảo. Đã chốt cho `valid` (2026-11-28): chạy đủ 15 hệ; trả lời và agent bằng DeepSeek flash qua OpenCode (`opencode_deepseek_flash`); judge GLM-5.3 qua Surplus (`surplus_glm_5_3`, mục 7.9) với cache local riêng; cross-encoder qua GPU Kaggle (link do người dùng đưa khi chạy). Judge của `valid` khác nền tảng với judge của tune (OpenCode): chênh lệch mới đo trên 10 câu (mục 7.9), nên so điểm judge giữa tune và `valid` chỉ ở mức xu hướng. Kết quả `valid` đã đo xong: `docs/eval/15_M1_VALID_15_SYSTEMS.md`.
+- `valid` (399 câu), `test_clean` (400 câu) chỉ khi được bảo. Đã chốt cho `valid` (2026-11-28): chạy đủ 15 hệ; trả lời và agent bằng DeepSeek flash qua OpenCode (`opencode_deepseek_flash`); judge GLM-5.3 qua Surplus (`surplus_glm_5_3`, mục 7.9) với cache local riêng; cross-encoder qua GPU Kaggle (link do người dùng đưa khi chạy). Judge của `valid` khác nền tảng với judge của tune (OpenCode): chênh lệch mới đo trên 10 câu (mục 7.9), nên so điểm judge giữa tune và `valid` chỉ ở mức xu hướng. Kết quả `valid` đã đo xong: `docs/eval/15_M1_VALID_15_SYSTEMS.md`; `test_clean` đã đo xong (2026-11-28, một lần, cấu hình đã khóa): `docs/eval/16_M1_TEST_CLEAN_15_SYSTEMS.md`.
 
 ### 7.9 Surplus Intelligence (đo ngày 2026-11-28)
 
