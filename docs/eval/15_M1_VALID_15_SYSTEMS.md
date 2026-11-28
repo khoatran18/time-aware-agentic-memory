@@ -88,6 +88,8 @@ Chênh lệch = tỷ lệ đúng của hệ thứ nhất trừ hệ thứ hai; z
 - **Judge (strict) giảm 0.012–0.070, lenient giảm 0.018–0.083.** Khoảng cách giữa judge và EM co lại (P10: strict − EM từ 0.127 xuống 0.075), tức judge của `valid` công nhận ít đáp án "đúng khác dạng" hơn.
 - **Truy xuất thật sự thấp hơn trên `valid`:** `hit@5` theo luật (không dùng judge) của P1 0.663 → 0.557, P6 0.790 → 0.715, P10 0.853 → 0.791 (`tune` 395 câu so với `valid`). Vì vậy `recall` của judge giảm phần nào là thật.
 - **Chưa tách được phần do judge:** judge của hai tập là hai nền tảng khác nhau (OpenCode so với Surplus) trên hai tập câu khác nhau. Muốn tách cần chấm lại một tập bằng nền tảng kia (chẳng hạn một phần `tune` bằng Surplus, rẻ vì giá Surplus rất thấp). Chưa làm.
+- **Kiểm nhanh judge:** lấy 10 câu P10 mà Surplus chấm strict sai (4 wrong, 3 alternate_valid, 3 partial), chấm lại bằng GLM-5.3 qua OpenCode: strict giống 10/10, verdict giống 8/10; hai câu lệch đi ngược chiều nhau (một câu Surplus wrong → OpenCode correct, một câu ngược lại). Mẫu nhỏ và chỉ chọn từ câu Surplus chấm sai, chưa kiểm chiều ngược lại. Kết quả: `local/results/xjudge/`.
+- **Overfit:** prompt `m1_v4` (và các tham số top-5, `time_mode`, `decay_from`) được chỉnh trên một phần `tune`; thử chỉnh thêm không nâng được điểm nên chốt bản hiện tại. Vì có chỉnh theo `tune`, `valid` là phép kiểm overfit: EM giữ nguyên (−0,016 đến +0,027) và thứ tự các hệ giữ nguyên, nên chưa thấy overfit đáng kể. Phần giảm của judge và `hit@5` được cho là do tập câu khác, chưa chứng minh.
 
 ## 3. Chi phí, token, thời gian
 
