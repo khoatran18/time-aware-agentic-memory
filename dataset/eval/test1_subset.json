@@ -1,0 +1,2025 @@
+{
+ "seed": 42,
+ "group_by": "domain",
+ "name": "test1",
+ "n_cases": 100,
+ "page_ids": [
+  "/wiki/2/17th_Battalion_(Australia)",
+  "/wiki/6th_Combined_Arms_Army",
+  "/wiki/Agvan_Dorzhiev",
+  "/wiki/Air_Staff_(Sweden)",
+  "/wiki/Alfonso_Carlos_Comín",
+  "/wiki/All_Nippon_Airways",
+  "/wiki/André_Schembri",
+  "/wiki/Arnulf_Øverland",
+  "/wiki/Arseny_Mironov",
+  "/wiki/Audie_Murphy",
+  "/wiki/Bank_of_America_Plaza_(Atlanta)",
+  "/wiki/Bengt_Holmström",
+  "/wiki/Bingolotto",
+  "/wiki/Black_Tiger_(professional_wrestling)",
+  "/wiki/Boris_Nemtsov",
+  "/wiki/British_Vogue",
+  "/wiki/Calcio_Catania",
+  "/wiki/Chicago_Stadium",
+  "/wiki/Clarence_Cannon",
+  "/wiki/Cutty_Sark",
+  "/wiki/DRB_Class_50",
+  "/wiki/Dom-2",
+  "/wiki/Emiliano_Aguirre",
+  "/wiki/Endre_Süli",
+  "/wiki/Fred_Hoiberg",
+  "/wiki/Frederica_Wilson",
+  "/wiki/Friedrich_Guggenberger",
+  "/wiki/Gary_Mills_(footballer,_born_1961)",
+  "/wiki/Georges_Pompidou",
+  "/wiki/German_submarine_U-120_(1940)",
+  "/wiki/German_submarine_U-35_(1936)",
+  "/wiki/Guy_Aldred",
+  "/wiki/Guy_Gabaldon",
+  "/wiki/HMAS_Wollongong_(J172)",
+  "/wiki/Headhunterz",
+  "/wiki/Helen_Clark",
+  "/wiki/Herbert_Schultze",
+  "/wiki/Inter_Milan",
+  "/wiki/Internet_Architecture_Board",
+  "/wiki/Izmail",
+  "/wiki/Jim_Prentice",
+  "/wiki/Jiminy_Cricket",
+  "/wiki/Joachim_Löw",
+  "/wiki/John_Conyers",
+  "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio",
+  "/wiki/Katherine_Maher",
+  "/wiki/Klamath_County,_California",
+  "/wiki/Lana_Turner",
+  "/wiki/Lapland_Ranger_Regiment",
+  "/wiki/Lega_Nord_Piemont",
+  "/wiki/Lotte_Reiniger",
+  "/wiki/Lucy_Wills",
+  "/wiki/Luis_Eduardo_Aute",
+  "/wiki/M_(James_Bond)",
+  "/wiki/Marcus_Ericsson",
+  "/wiki/Mark_Levin",
+  "/wiki/Michael_Cullen_(politician)",
+  "/wiki/Minna_Canth",
+  "/wiki/Mission_San_Miguel_Arcángel",
+  "/wiki/Moeslim_Taher",
+  "/wiki/Myles_Deering",
+  "/wiki/National_Library_of_Serbia",
+  "/wiki/Nick_Saban",
+  "/wiki/Niigata_Prefecture",
+  "/wiki/Oliver_Bulleid",
+  "/wiki/Olivier_Bernard",
+  "/wiki/Ouagadougou",
+  "/wiki/Peter_Beattie",
+  "/wiki/Pinchas_Zukerman",
+  "/wiki/Policy_Planning_Staff_(France)",
+  "/wiki/Pskov",
+  "/wiki/Quim_Torra",
+  "/wiki/Reinhard_Scheer",
+  "/wiki/Rheidol_(locomotive)",
+  "/wiki/Roger_Moore",
+  "/wiki/Roma_Mitchell",
+  "/wiki/Rui_Vitória",
+  "/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4",
+  "/wiki/Sabine_Hossenfelder",
+  "/wiki/Sarta",
+  "/wiki/Sokołowsko",
+  "/wiki/Steve_Sidwell",
+  "/wiki/Svetogorsk",
+  "/wiki/The_Allegory_of_Faith",
+  "/wiki/The_Cycle_(talk_show)",
+  "/wiki/The_Fifer",
+  "/wiki/Tingmissartoq",
+  "/wiki/Twelfth_Air_Force",
+  "/wiki/UD_Las_Palmas",
+  "/wiki/VP-29",
+  "/wiki/VP-42",
+  "/wiki/Vice_President_of_Afghanistan",
+  "/wiki/Walt_Disney's_Comics_and_Stories",
+  "/wiki/Wheel_of_Fortune_(American_game_show)",
+  "/wiki/William_B._Umstead",
+  "/wiki/World_Athletics",
+  "/wiki/Young_Union"
+ ],
+ "note": "phần 1/4 của test_clean (xen kẽ theo domain)",
+ "cases": [
+  {
+   "idx": "/wiki/Bank_of_America_Plaza_(Atlanta)#P127#0",
+   "page_id": "/wiki/Bank_of_America_Plaza_(Atlanta)",
+   "relation": "P127",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What entity owned Bank of American Plaza (Atlanta) in Oct 1991?",
+   "question_easy": "What entity owned Bank of American Plaza (Atlanta) from 1991 to 1992?",
+   "targets": [
+    "NationsBanks"
+   ],
+   "time_start": "1991",
+   "time_end": "1992",
+   "gold_chunk_ids": [
+    "/wiki/Bank_of_America_Plaza_(Atlanta)#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Cutty_Sark#P127#0",
+   "page_id": "/wiki/Cutty_Sark",
+   "relation": "P127",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The vessel the Cutty Sark was ordered and then possessed between Jun 1885 and Jan 1894 by which company?",
+   "question_easy": "The vessel the Cutty Sark was ordered and then possessed from Feb 1870 to Jul 1895 by which company?",
+   "targets": [
+    "Jock Willis Shipping Line"
+   ],
+   "time_start": "Feb 1870",
+   "time_end": "Jul 1895",
+   "gold_chunk_ids": [
+    "/wiki/Cutty_Sark#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/DRB_Class_50#P137#0",
+   "page_id": "/wiki/DRB_Class_50",
+   "relation": "P137",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The German locomotive DRB Class 50 was operated by who in Aug 1940?",
+   "question_easy": "The German locomotive DRB Class 50 was operated by who from 1939 to 1945?",
+   "targets": [
+    "Deutsche Reichsbahn"
+   ],
+   "time_start": "1939",
+   "time_end": "1945",
+   "gold_chunk_ids": [
+    "/wiki/DRB_Class_50#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/HMAS_Wollongong_(J172)#P137#1",
+   "page_id": "/wiki/HMAS_Wollongong_(J172)",
+   "relation": "P137",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who operated the warship HMAS Wollongong between Mar 1946 and May 1948?",
+   "question_easy": "Who operated the warship HMAS Wollongong from Feb 1946 to 1950?",
+   "targets": [
+    "Royal Netherlands Navy"
+   ],
+   "time_start": "Feb 1946",
+   "time_end": "1950",
+   "gold_chunk_ids": [
+    "/wiki/HMAS_Wollongong_(J172)#10"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Internet_Architecture_Board#P488#2",
+   "page_id": "/wiki/Internet_Architecture_Board",
+   "relation": "P488",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who was the leader of the advisory body Internet Architecture Board between Feb 1993 and Dec 1994?",
+   "question_easy": "Who was the leader of the advisory body Internet Architecture Board from 1993 to 1995?",
+   "targets": [
+    "Christian Huitema"
+   ],
+   "time_start": "1993",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/Internet_Architecture_Board#35"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Lega_Nord_Piemont#P488#1",
+   "page_id": "/wiki/Lega_Nord_Piemont",
+   "relation": "P488",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who led the Lega Nord Piemont political party in Feb 2001?",
+   "question_easy": "Who led the Lega Nord Piemont political party from 2001 to 2004?",
+   "targets": [
+    "Oreste Rossi"
+   ],
+   "time_start": "2001",
+   "time_end": "2004",
+   "gold_chunk_ids": [
+    "/wiki/Lega_Nord_Piemont#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/National_Library_of_Serbia#P1037#0",
+   "page_id": "/wiki/National_Library_of_Serbia",
+   "relation": "P1037",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who was one of the managers of the oldest institutional library in Serbia between Sep 1864 and Sep 1865?",
+   "question_easy": "Who was one of the managers of the oldest institutional library in Serbia from 1830 to 1867?",
+   "targets": [
+    "Filip Nikolić"
+   ],
+   "time_start": "1830",
+   "time_end": "1867",
+   "gold_chunk_ids": [
+    "/wiki/National_Library_of_Serbia#16"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Policy_Planning_Staff_(France)#P1037#0",
+   "page_id": "/wiki/Policy_Planning_Staff_(France)",
+   "relation": "P1037",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "France's Policy Planning Staff had which person as its manager or director between Mar 1976 and Oct 1977?",
+   "question_easy": "France's Policy Planning Staff had which person as its manager or director from 1974 to 1978?",
+   "targets": [
+    "Thierry de Montbrial"
+   ],
+   "time_start": "1974",
+   "time_end": "1978",
+   "gold_chunk_ids": [
+    "/wiki/Policy_Planning_Staff_(France)#10"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Policy_Planning_Staff_(France)#P1037#4",
+   "page_id": "/wiki/Policy_Planning_Staff_(France)",
+   "relation": "P1037",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "France's Policy Planning Staff had which person as its manager or director between Oct 1993 and Aug 1994?",
+   "question_easy": "France's Policy Planning Staff had which person as its manager or director from 1993 to 1995?",
+   "targets": [
+    "Bruno Racine"
+   ],
+   "time_start": "1993",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/Policy_Planning_Staff_(France)#10"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Rheidol_(locomotive)#P137#3",
+   "page_id": "/wiki/Rheidol_(locomotive)",
+   "relation": "P137",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The locomotive of Rheidol had which company controlling it in May 1923?",
+   "question_easy": "The locomotive of Rheidol had which company controlling it from 1922 to 1924?",
+   "targets": [
+    "Vale of Rheidol Railway"
+   ],
+   "time_start": "1922",
+   "time_end": "1924",
+   "gold_chunk_ids": [
+    "/wiki/Rheidol_(locomotive)#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/The_Fifer#P127#0",
+   "page_id": "/wiki/The_Fifer",
+   "relation": "P127",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Manet's painting of The Fifer had which person in ownership of it in Jul 1872?",
+   "question_easy": "Manet's painting of The Fifer had which person in ownership of it from 1872 to 1873?",
+   "targets": [
+    "Durand-Ruell"
+   ],
+   "time_start": "1872",
+   "time_end": "1873",
+   "gold_chunk_ids": [
+    "/wiki/The_Fifer#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/The_Fifer#P127#4",
+   "page_id": "/wiki/The_Fifer",
+   "relation": "P127",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Édouard Manet's painting of The Fifer had which person in ownership of it after Mar 1911?",
+   "question_easy": "Édouard Manet's painting of The Fifer had which person in ownership of it from 1911 to 1912?",
+   "targets": [
+    "the French government"
+   ],
+   "time_start": "1911",
+   "time_end": "1912",
+   "gold_chunk_ids": [
+    "/wiki/The_Fifer#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Young_Union#P488#1",
+   "page_id": "/wiki/Young_Union",
+   "relation": "P488",
+   "domain": "business",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Junge Union Deutschlands was headed by what person in Dec 1968?",
+   "question_easy": "The Junge Union Deutschlands was headed by what person from 1963 to 1969?",
+   "targets": [
+    "Egon Klepsch"
+   ],
+   "time_start": "1963",
+   "time_end": "1969",
+   "gold_chunk_ids": [
+    "/wiki/Young_Union#8"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Bengt_Holmström#P108#4",
+   "page_id": "/wiki/Bengt_Holmström",
+   "relation": "P108",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What school was economist Bengt Holmström employed by in Feb 1994?",
+   "question_easy": "What school was economist Bengt Holmström employed by from 1994 to 1995?",
+   "targets": [
+    "M.I.T",
+    "Sloan School of Management"
+   ],
+   "time_start": "1994",
+   "time_end": "1995",
+   "gold_chunk_ids": [
+    "/wiki/Bengt_Holmström#4"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Clarence_Cannon#P106#3",
+   "page_id": "/wiki/Clarence_Cannon",
+   "relation": "P106",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Missourian Clarence Andrew Cannon worked as what between Oct 1922 and Dec 1923?",
+   "question_easy": "The Missourian Clarence Andrew Cannon worked as what from 1920 to 1935?",
+   "targets": [
+    "parliamentarian of the Democratic National Convention"
+   ],
+   "time_start": "1920",
+   "time_end": "1935",
+   "gold_chunk_ids": [
+    "/wiki/Clarence_Cannon#7"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Emiliano_Aguirre#P108#0",
+   "page_id": "/wiki/Emiliano_Aguirre",
+   "relation": "P108",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Spanish paleontologist Emiliano Aguirre worked where in Jul 1965?",
+   "question_easy": "The Spanish paleontologist Emiliano Aguirre worked where from 1965 to 1966?",
+   "targets": [
+    "Escuela Técnica Superior de Caminos"
+   ],
+   "time_start": "1965",
+   "time_end": "1966",
+   "gold_chunk_ids": [
+    "/wiki/Emiliano_Aguirre#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Endre_Süli#P463#0",
+   "page_id": "/wiki/Endre_Süli",
+   "relation": "P463",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The association of what had Süli join it in 2009?",
+   "question_easy": "The association of what had Süli join it in 2009?",
+   "targets": [
+    "Serbian Academy of Sciences and Arts"
+   ],
+   "time_start": "2009",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Endre_Süli#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Frederica_Wilson#P69#1",
+   "page_id": "/wiki/Frederica_Wilson",
+   "relation": "P69",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Which University did the current U.S House representative of Florida, Frederica Wilson went to in Jan 1968?",
+   "question_easy": "Which University did the current U.S House representative of Florida, Frederica Wilson went to from 1963 to 1972?",
+   "targets": [
+    "University of Miami"
+   ],
+   "time_start": "1963",
+   "time_end": "1972",
+   "gold_chunk_ids": [
+    "/wiki/Frederica_Wilson#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Katherine_Maher#P108#1",
+   "page_id": "/wiki/Katherine_Maher",
+   "relation": "P108",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Katherine Maher had a role at which workplace in May 2010?",
+   "question_easy": "Katherine Maher had a role at which workplace from 2010 to 2011?",
+   "targets": [
+    "National Democratic Institute"
+   ],
+   "time_start": "2010",
+   "time_end": "2011",
+   "gold_chunk_ids": [
+    "/wiki/Katherine_Maher#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Lucy_Wills#P69#2",
+   "page_id": "/wiki/Lucy_Wills",
+   "relation": "P69",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Where was English haematologist Lucy Wills a student at after Jul 1920?",
+   "question_easy": "Where was English haematologist Lucy Wills a student at from 1920 to 1921?",
+   "targets": [
+    "the Royal Free"
+   ],
+   "time_start": "1920",
+   "time_end": "1921",
+   "gold_chunk_ids": [
+    "/wiki/Lucy_Wills#14"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Mark_Levin#P106#1",
+   "page_id": "/wiki/Mark_Levin",
+   "relation": "P106",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The main host of the Mark Levin Show worked as what between Dec 2015 and Oct 2016?",
+   "question_easy": "The main host of the Mark Levin Show worked as what from Sep 2015 to Feb 2018?",
+   "targets": [
+    "editor-in-chief of the Conservative Review"
+   ],
+   "time_start": "Sep 2015",
+   "time_end": "Feb 2018",
+   "gold_chunk_ids": [
+    "/wiki/Mark_Levin#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Moeslim_Taher#P69#1",
+   "page_id": "/wiki/Moeslim_Taher",
+   "relation": "P69",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Where was the founder of Jayabaya University studied in Jun 1964?",
+   "question_easy": "Where was the founder of Jayabaya University studied from 1964 to 1965?",
+   "targets": [
+    "Padjadjaran University"
+   ],
+   "time_start": "1965",
+   "time_end": "1968",
+   "gold_chunk_ids": [
+    "/wiki/Moeslim_Taher#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Oliver_Bulleid#P108#6",
+   "page_id": "/wiki/Oliver_Bulleid",
+   "relation": "P108",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The British engineer Oliver Bulleid was an employee of where in 1959?",
+   "question_easy": "The British engineer Oliver Bulleid was an employee of where in 1959?",
+   "targets": [
+    "Córas Iompair Éireann"
+   ],
+   "time_start": "1950",
+   "time_end": "1958",
+   "gold_chunk_ids": [
+    "/wiki/Oliver_Bulleid#17"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Rui_Vitória#P108#4",
+   "page_id": "/wiki/Rui_Vitória",
+   "relation": "P108",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Portuguese Rui Vitória was employed where between Jul 2013 and Apr 2014?",
+   "question_easy": "Portuguese Rui Vitória was employed where from 2011 to 2015?",
+   "targets": [
+    "Vitória de Guimarães"
+   ],
+   "time_start": "2011",
+   "time_end": "2015",
+   "gold_chunk_ids": [
+    "/wiki/Rui_Vitória#4"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Sabine_Hossenfelder#P937#2",
+   "page_id": "/wiki/Sabine_Hossenfelder",
+   "relation": "P937",
+   "domain": "career",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "between Feb 2007 and Sep 2007, which Canadian institution employed Sabine Hossenfelder, a well known German physicist?",
+   "question_easy": "from 2006 to 2009, which Canadian institution employed Sabine Hossenfelder, a well known German physicist?",
+   "targets": [
+    "Perimeter Institute , Canada"
+   ],
+   "time_start": "2006",
+   "time_end": "2009",
+   "gold_chunk_ids": [
+    "/wiki/Sabine_Hossenfelder#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Bingolotto#P449#0",
+   "page_id": "/wiki/Bingolotto",
+   "relation": "P449",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Which channel broadcasted Bingolotto between Mar 1996 and Apr 1996?",
+   "question_easy": "Who was the original broadcaster of Bingolotto from Oct 1991 to 2007?",
+   "targets": [
+    "TV4"
+   ],
+   "time_start": "Oct 1991",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Bingolotto#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Black_Tiger_(professional_wrestling)#P175#2",
+   "page_id": "/wiki/Black_Tiger_(professional_wrestling)",
+   "relation": "P175",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who had a less than successful attempt at performing as Black Tiger (professional wrestling) between Jul 2003 and Aug 2004?",
+   "question_easy": "Black Tiger (professional wrestling) was performed by whom from 2001 to 2005?",
+   "targets": [
+    "César Cuauhtémoc González"
+   ],
+   "time_start": "2001",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/Black_Tiger_(professional_wrestling)#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/British_Vogue#P98#1",
+   "page_id": "/wiki/British_Vogue",
+   "relation": "P98",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who edited the British Vogue in Nov 1923?",
+   "question_easy": "Who was the editor of British Vogue from 1923 to 1926?",
+   "targets": [
+    "Dorothy Todd"
+   ],
+   "time_start": "1923",
+   "time_end": "1926",
+   "gold_chunk_ids": [
+    "/wiki/British_Vogue#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Dom-2#P371#0",
+   "page_id": "/wiki/Dom-2",
+   "relation": "P371",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who hosted the Russian TV show Dom-2 between Nov 2008 and Dec 2008?",
+   "question_easy": "Who was the presenter of Dom-2 from 2004 to Dec 2008?",
+   "targets": [
+    "Kseniya Borodina",
+    "Kseniya Sobchak"
+   ],
+   "time_start": "2004",
+   "time_end": "Dec 2008",
+   "gold_chunk_ids": [
+    "/wiki/Dom-2#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Headhunterz#P264#2",
+   "page_id": "/wiki/Headhunterz",
+   "relation": "P264",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Which record label did Dutch music producer Headhunterz release music under after Sep 2018?",
+   "question_easy": "What was the record label of Headhunterz from 2018 to 2019?",
+   "targets": [
+    "Art of Creation"
+   ],
+   "time_start": "2018",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/Headhunterz#50"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Jiminy_Cricket#P175#4",
+   "page_id": "/wiki/Jiminy_Cricket",
+   "relation": "P175",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Young Crickey, aka Jiminy Cricket, had what person doing its voice between May 2011 and Jul 2013?",
+   "question_easy": "Who performed Jiminy Cricket from 2010 to 2014?",
+   "targets": [
+    "Phil Snyder"
+   ],
+   "time_start": "2010",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/Jiminy_Cricket#8"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Luis_Eduardo_Aute#P264#1",
+   "page_id": "/wiki/Luis_Eduardo_Aute",
+   "relation": "P264",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What label was Spanish musician Luis Aute Gutiérrez recording under between Jan 1976 and Jun 1977?",
+   "question_easy": "What was the record label of Luis Eduardo Aute from 1973 to 1979?",
+   "targets": [
+    "Ariola"
+   ],
+   "time_start": "1973",
+   "time_end": "1979",
+   "gold_chunk_ids": [
+    "/wiki/Luis_Eduardo_Aute#25"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/M_(James_Bond)#P175#3",
+   "page_id": "/wiki/M_(James_Bond)",
+   "relation": "P175",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who acted as M between Aug 2012 and Sep 2012 in James Bond films?",
+   "question_easy": "Who performed M (James Bond) from 2012 to 2013?",
+   "targets": [
+    "Ralph Fiennes"
+   ],
+   "time_start": "2012",
+   "time_end": "2013",
+   "gold_chunk_ids": [
+    "/wiki/M_(James_Bond)#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/The_Allegory_of_Faith#P195#3",
+   "page_id": "/wiki/The_Allegory_of_Faith",
+   "relation": "P195",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Johannes Vermeer's painting of The Allegory of Faith enjoyed ownership by who or what in Jul 1931?",
+   "question_easy": "Which collector owned The Allegory of Faith from 1931 to 1932?",
+   "targets": [
+    "Metropolitan Museum of Art"
+   ],
+   "time_start": "1931",
+   "time_end": "1932",
+   "gold_chunk_ids": [
+    "/wiki/The_Allegory_of_Faith#29"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/The_Cycle_(talk_show)#P371#2",
+   "page_id": "/wiki/The_Cycle_(talk_show)",
+   "relation": "P371",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who hosted the talk show The Cycle from in Jun 2013?",
+   "question_easy": "The Cycle (talk show) was presented by whom in Jun 2013?",
+   "targets": [
+    "Krystal Ball",
+    "Touré",
+    "Ari Melber"
+   ],
+   "time_start": "Jun 2013",
+   "time_end": "Jun 2013",
+   "gold_chunk_ids": [
+    "/wiki/The_Cycle_(talk_show)#5",
+    "/wiki/The_Cycle_(talk_show)#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Tingmissartoq#P608#2",
+   "page_id": "/wiki/Tingmissartoq",
+   "relation": "P608",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "At which museum was the Lockheed Model 8 Sirius flown by Charles and Anne Morrow Lindbergh in the 1930s on display in Apr 1959?",
+   "question_easy": "Where was Tingmissartoq exhibited from 1959 to 1960?",
+   "targets": [
+    "Smithsonian Institution"
+   ],
+   "time_start": "1959",
+   "time_end": "1960",
+   "gold_chunk_ids": [
+    "/wiki/Tingmissartoq#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Walt_Disney's_Comics_and_Stories#P123#1",
+   "page_id": "/wiki/Walt_Disney's_Comics_and_Stories",
+   "relation": "P123",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The anthology comic book by the name of Walt Disney's Comics and Stories had what publishing it in late 1960s?",
+   "question_easy": "What was the publisher of Walt Disney's Comics and Stories from 1962 to 1984?",
+   "targets": [
+    "Gold Key Comics"
+   ],
+   "time_start": "1962",
+   "time_end": "1984",
+   "gold_chunk_ids": [
+    "/wiki/Walt_Disney's_Comics_and_Stories#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Wheel_of_Fortune_(American_game_show)#P371#1",
+   "page_id": "/wiki/Wheel_of_Fortune_(American_game_show)",
+   "relation": "P371",
+   "domain": "media_arts",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "In dec 1981, who became the host of the wheel of fortune?",
+   "question_easy": "Wheel of Fortune (American game show) was presented by whom in Dec 1981?",
+   "targets": [
+    "Pat Sajak"
+   ],
+   "time_start": "Dec 1981",
+   "time_end": "Dec 1981",
+   "gold_chunk_ids": [
+    "/wiki/Wheel_of_Fortune_(American_game_show)#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/2/17th_Battalion_(Australia)#P4791#0",
+   "page_id": "/wiki/2/17th_Battalion_(Australia)",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "C/dev",
+   "source": "C/dev",
+   "question_hard": "Who was the commander of 2/17th Battalion (Australia) in Feb 1941?",
+   "question_easy": "Who commanded 2/17th Battalion (Australia) from Apr 1940 to 1942?",
+   "targets": [
+    "John Crawford"
+   ],
+   "time_start": "Apr 1940",
+   "time_end": "Jan 1942",
+   "gold_chunk_ids": [
+    "/wiki/2/17th_Battalion_(Australia)#37"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Air_Staff_(Sweden)#P4791#3",
+   "page_id": "/wiki/Air_Staff_(Sweden)",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The staff of the Chief of the Swedish Air Force known as the Air Staff was commanded by which Chief between Mar 1958 and Jul 1958?",
+   "question_easy": "Who commanded Air Staff (Sweden) from 1957 to 1960?",
+   "targets": [
+    "Lennart Peyron"
+   ],
+   "time_start": "1957",
+   "time_end": "1960",
+   "gold_chunk_ids": [
+    "/wiki/Air_Staff_(Sweden)#14"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Audie_Murphy#P241#1",
+   "page_id": "/wiki/Audie_Murphy",
+   "relation": "P241",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What branch of the armed service did Audie Murphy serve in between Apr 1955 and Nov 1959?",
+   "question_easy": "Which military brach did Audie Murphy belong to from 1950 to 1966?",
+   "targets": [
+    "Texas Army National Guard"
+   ],
+   "time_start": "1950",
+   "time_end": "1966",
+   "gold_chunk_ids": [
+    "/wiki/Audie_Murphy#44"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Friedrich_Guggenberger#P241#1",
+   "page_id": "/wiki/Friedrich_Guggenberger",
+   "relation": "P241",
+   "domain": "military",
+   "split": "C/dev",
+   "source": "C/dev",
+   "question_hard": "Which military brach did Friedrich Guggenberger belong to in late 1930s?",
+   "question_easy": "Which military brach did Friedrich Guggenberger belong to from Jun 1935 to 1956?",
+   "targets": [
+    "Kriegsmarine"
+   ],
+   "time_start": "Jun 1935",
+   "time_end": "1956",
+   "gold_chunk_ids": [
+    "/wiki/Friedrich_Guggenberger#9"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/German_submarine_U-120_(1940)#P4791#1",
+   "page_id": "/wiki/German_submarine_U-120_(1940)",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who commanded the U-120 between Mar 1941 and Apr 1941?",
+   "question_easy": "Who was the commander of German submarine U-120 (1940) from Nov 1940 to May 1941?",
+   "targets": [
+    "Wolfgang Heyda"
+   ],
+   "time_start": "Nov 1940",
+   "time_end": "May 1941",
+   "gold_chunk_ids": [
+    "/wiki/German_submarine_U-120_(1940)#9"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/German_submarine_U-35_(1936)#P4791#2",
+   "page_id": "/wiki/German_submarine_U-35_(1936)",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "C/dev",
+   "source": "C/dev",
+   "question_hard": "Who was the commander of German submarine U-35 (1936) between Aug 1939 and Sep 1939?",
+   "question_easy": "Who was the commander of German submarine U-35 (1936) from Aug 1937 to Nov 1939?",
+   "targets": [
+    "Werner Lott"
+   ],
+   "time_start": "Aug 1937",
+   "time_end": "Nov 1939",
+   "gold_chunk_ids": [
+    "/wiki/German_submarine_U-35_(1936)#7"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Herbert_Schultze#P241#1",
+   "page_id": "/wiki/Herbert_Schultze",
+   "relation": "P241",
+   "domain": "military",
+   "split": "C/train",
+   "source": "C/train",
+   "question_hard": "What was the military branch of Herbert Schultze in Jul 1935?",
+   "question_easy": "Which military brach did Herbert Schultze belong to from Jun 1935 to May 1945?",
+   "targets": [
+    "Kriegsmarine"
+   ],
+   "time_start": "Jun 1935",
+   "time_end": "May 1945",
+   "gold_chunk_ids": [
+    "/wiki/Herbert_Schultze#30"
+   ],
+   "flags": [
+    "answer_in_heading"
+   ]
+  },
+  {
+   "idx": "/wiki/John_Conyers#P241#0",
+   "page_id": "/wiki/John_Conyers",
+   "relation": "P241",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "John James Conyers Jr.'s military branch in Feb 1949 was what?",
+   "question_easy": "What was the military branch of John Conyers from 1948 to 1950?",
+   "targets": [
+    "Michigan National Guard"
+   ],
+   "time_start": "1948",
+   "time_end": "1950",
+   "gold_chunk_ids": [
+    "/wiki/John_Conyers#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Lapland_Ranger_Regiment#P4791#2",
+   "page_id": "/wiki/Lapland_Ranger_Regiment",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who was the head officer of the Swedish Lapland Ranger Regiment in Jun 1986?",
+   "question_easy": "Who was the commander of Lapland Ranger Regiment from 1984 to 1989?",
+   "targets": [
+    "Sören Jansson"
+   ],
+   "time_start": "1984",
+   "time_end": "1989",
+   "gold_chunk_ids": [
+    "/wiki/Lapland_Ranger_Regiment#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Myles_Deering#P241#1",
+   "page_id": "/wiki/Myles_Deering",
+   "relation": "P241",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Which state National Guard did Myles Deering belong to in May 1975?",
+   "question_easy": "What was the military branch of Myles Deering from 1974 to 1977?",
+   "targets": [
+    "Texas Army National Guard"
+   ],
+   "time_start": "1974",
+   "time_end": "1977",
+   "gold_chunk_ids": [
+    "/wiki/Myles_Deering#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Reinhard_Scheer#P410#3",
+   "page_id": "/wiki/Reinhard_Scheer",
+   "relation": "P410",
+   "domain": "military",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What was Reinhard Scheer's title between Apr 1914 and Oct 1915?",
+   "question_easy": "What military rank did Reinhard Scheer have from Dec 1913 to 1916?",
+   "targets": [
+    "Vizeadmiral"
+   ],
+   "time_start": "Dec 1913",
+   "time_end": "1916",
+   "gold_chunk_ids": [
+    "/wiki/Reinhard_Scheer#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Twelfth_Air_Force#P4791#4",
+   "page_id": "/wiki/Twelfth_Air_Force",
+   "relation": "P4791",
+   "domain": "military",
+   "split": "C/train",
+   "source": "C/train",
+   "question_hard": "Who was the commander of Twelfth Air Force between Jun 1945 and Aug 1945?",
+   "question_easy": "Who was the commander of Twelfth Air Force from May 1945 to Aug 1945?",
+   "targets": [
+    "Charles T . Myers"
+   ],
+   "time_start": "May 1945",
+   "time_end": "Aug 1945",
+   "gold_chunk_ids": [
+    "/wiki/Twelfth_Air_Force#44"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Agvan_Dorzhiev#P27#0",
+   "page_id": "/wiki/Agvan_Dorzhiev",
+   "relation": "P27",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What citizenship did agvan dorzhiev hold after the russian revolution ?",
+   "question_easy": "What citizenship did agvan dorzhiev hold after the russian revolution ?",
+   "targets": [
+    "Russian"
+   ],
+   "time_start": "1916",
+   "time_end": "1917",
+   "gold_chunk_ids": [
+    "/wiki/Agvan_Dorzhiev#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Arnulf_Øverland#P26#0",
+   "page_id": "/wiki/Arnulf_Øverland",
+   "relation": "P26",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who was married to Norwegian poet Øverland between Jun 1923 and Aug 1934?",
+   "question_easy": "Who was married to Norwegian poet Øverland from 1918 to 1939?",
+   "targets": [
+    "Hildur Arntzen"
+   ],
+   "time_start": "1918",
+   "time_end": "1939",
+   "gold_chunk_ids": [
+    "/wiki/Arnulf_Øverland#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Arseny_Mironov#P27#1",
+   "page_id": "/wiki/Arseny_Mironov",
+   "relation": "P27",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Arseny Mironov possessed which citizenship between Oct 1945 and Jul 1952?",
+   "question_easy": "Arseny Mironov possessed which citizenship from 1922 to 1991?",
+   "targets": [
+    "USSR"
+   ],
+   "time_start": "1922",
+   "time_end": "1991",
+   "gold_chunk_ids": [
+    "/wiki/Arseny_Mironov#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Guy_Gabaldon#P551#2",
+   "page_id": "/wiki/Guy_Gabaldon",
+   "relation": "P551",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Guy Gabaldon lived where after Feb 2004?",
+   "question_easy": "Guy Gabaldon lived where from 2003 to Aug 2006?",
+   "targets": [
+    "Old Town , Florida"
+   ],
+   "time_start": "2003",
+   "time_end": "Aug 2006",
+   "gold_chunk_ids": [
+    "/wiki/Guy_Gabaldon#23"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#P551#2",
+   "page_id": "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio",
+   "relation": "P551",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city in Apr 1895?",
+   "question_easy": "The 7th Count de Salis-Soglio, Sir John Francis Charles, resided in what city from 1894 to 1897?",
+   "targets": [
+    "Cairo"
+   ],
+   "time_start": "1894",
+   "time_end": "1897",
+   "gold_chunk_ids": [
+    "/wiki/John_Francis_Charles,_7th_Count_de_Salis-Soglio#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Lana_Turner#P26#1",
+   "page_id": "/wiki/Lana_Turner",
+   "relation": "P26",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Julia Jean Turner, better known as Lana Turner, was married to which man in Apr 1942?",
+   "question_easy": "Julia Jean Turner, better known as Lana Turner, was married to which man from 1942 to 1943?",
+   "targets": [
+    "Joseph Stephen Steve Crane"
+   ],
+   "time_start": "1942",
+   "time_end": "1943",
+   "gold_chunk_ids": [
+    "/wiki/Lana_Turner#41"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Lotte_Reiniger#P551#1",
+   "page_id": "/wiki/Lotte_Reiniger",
+   "relation": "P551",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Film director Lotte Reiniger resided in which location in early 1940s?",
+   "question_easy": "Film director Lotte Reiniger resided in which location from 1939 to 1944?",
+   "targets": [
+    "Rome"
+   ],
+   "time_start": "1939",
+   "time_end": "1944",
+   "gold_chunk_ids": [
+    "/wiki/Lotte_Reiniger#19"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Minna_Canth#P551#1",
+   "page_id": "/wiki/Minna_Canth",
+   "relation": "P551",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Canth lived where in late 1860s?",
+   "question_easy": "Canth lived where from 1863 to 1880?",
+   "targets": [
+    "Jyväskylä"
+   ],
+   "time_start": "1863",
+   "time_end": "1880",
+   "gold_chunk_ids": [
+    "/wiki/Minna_Canth#4"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Pinchas_Zukerman#P26#1",
+   "page_id": "/wiki/Pinchas_Zukerman",
+   "relation": "P26",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Israeli-American violinist Pinchas Zukerman was married to what wife between Oct 1993 and Jun 1994?",
+   "question_easy": "Israeli-American violinist Pinchas Zukerman was married to what wife from 1985 to 1998?",
+   "targets": [
+    "Tuesday Weld"
+   ],
+   "time_start": "1985",
+   "time_end": "1998",
+   "gold_chunk_ids": [
+    "/wiki/Pinchas_Zukerman#7"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Roger_Moore#P26#2",
+   "page_id": "/wiki/Roger_Moore",
+   "relation": "P26",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Roger Moore had which wife between Nov 1975 and May 1983?",
+   "question_easy": "Roger Moore had which wife from 1969 to 1996?",
+   "targets": [
+    "Luisa Mattioli"
+   ],
+   "time_start": "1969",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Roger_Moore#76"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/VP-29#P1448#1",
+   "page_id": "/wiki/VP-29",
+   "relation": "P1448",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Which name was officially given to the U.S. Navy's VP-29 in May 1938?",
+   "question_easy": "Which name was officially given to the U.S. Navy's VP-29 from Sep 1937 to Jul 1939?",
+   "targets": [
+    "Patrol Squadron 14"
+   ],
+   "time_start": "Sep 1937",
+   "time_end": "Jul 1939",
+   "gold_chunk_ids": [
+    "/wiki/VP-29#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/VP-42#P1448#0",
+   "page_id": "/wiki/VP-42",
+   "relation": "P1448",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What was the official name of the VP-42 Patrol Squadron in May 1944?",
+   "question_easy": "What was the official name of the VP-42 Patrol Squadron from Apr 1944 to Oct 1944?",
+   "targets": [
+    "Patrol Squadron 22 ( VP-22"
+   ],
+   "time_start": "Apr 1944",
+   "time_end": "Oct 1944",
+   "gold_chunk_ids": [
+    "/wiki/VP-42#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/World_Athletics#P1448#1",
+   "page_id": "/wiki/World_Athletics",
+   "relation": "P1448",
+   "domain": "person",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The international governing body called World Athletics had which title officially in late 2000s?",
+   "question_easy": "The international governing body called World Athletics had which title officially from 2001 to 2019?",
+   "targets": [
+    "the International Association of Athletics Federations"
+   ],
+   "time_start": "2001",
+   "time_end": "2019",
+   "gold_chunk_ids": [
+    "/wiki/World_Athletics#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/6th_Combined_Arms_Army#P17#0",
+   "page_id": "/wiki/6th_Combined_Arms_Army",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Which nation did the military formation 6th Combined Arms Army belong to between Nov 1960 and Nov 1963?",
+   "question_easy": "Which nation did the military formation 6th Combined Arms Army belong to from 1939 to 1991?",
+   "targets": [
+    "Soviet"
+   ],
+   "time_start": "1939",
+   "time_end": "1991",
+   "gold_chunk_ids": [
+    "/wiki/6th_Combined_Arms_Army#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/All_Nippon_Airways#P121#5",
+   "page_id": "/wiki/All_Nippon_Airways",
+   "relation": "P121",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What had control of the operation of All Nippon Airways between May 2012 and Dec 2013?",
+   "question_easy": "What had control of the operation of All Nippon Airways from 2011 to 2014?",
+   "targets": [
+    "Boeing 787-10s"
+   ],
+   "time_start": "2011",
+   "time_end": "2014",
+   "gold_chunk_ids": [
+    "/wiki/All_Nippon_Airways#44"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Chicago_Stadium#P466#1",
+   "page_id": "/wiki/Chicago_Stadium",
+   "relation": "P466",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Illinois indoor arena known as Chicago Stadium had what team or teams using it in Jul 1961?",
+   "question_easy": "The Illinois indoor arena known as Chicago Stadium had what team or teams using it from 1961 to 1963?",
+   "targets": [
+    "Chicago Blackhawks"
+   ],
+   "time_start": "1961",
+   "time_end": "1963",
+   "gold_chunk_ids": [
+    "/wiki/Chicago_Stadium#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Izmail#P1376#1",
+   "page_id": "/wiki/Izmail",
+   "relation": "P1376",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What region was Izmail the capital of in early 1950s?",
+   "question_easy": "What was the capital of Izmail from Dec 1940 to Feb 1954?",
+   "targets": [
+    "Izmail Oblast"
+   ],
+   "time_start": "Dec 1940",
+   "time_end": "Feb 1954",
+   "gold_chunk_ids": [
+    "/wiki/Izmail#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Klamath_County,_California#P36#0",
+   "page_id": "/wiki/Klamath_County,_California",
+   "relation": "P36",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What was the first capital of the now disestablished county of Klamath, California that lasted before Nov 1852?",
+   "question_easy": "What’s the capital of Klamath County, California from 1851 to 1854?",
+   "targets": [
+    "Trinidad"
+   ],
+   "time_start": "1851",
+   "time_end": "1854",
+   "gold_chunk_ids": [
+    "/wiki/Klamath_County,_California#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Mission_San_Miguel_Arcángel#P1435#2",
+   "page_id": "/wiki/Mission_San_Miguel_Arcángel",
+   "relation": "P1435",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Mission San Miguel Arcángel had where as its designated heritage spot between Jun 2006 and Dec 2006?",
+   "question_easy": "The Mission San Miguel Arcángel had where as its designated heritage spot from Mar 2006 to Mar 2007?",
+   "targets": [
+    "National Historic Landmark"
+   ],
+   "time_start": "Mar 2006",
+   "time_end": "Mar 2007",
+   "gold_chunk_ids": [
+    "/wiki/Mission_San_Miguel_Arcángel#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Ouagadougou#P17#0",
+   "page_id": "/wiki/Ouagadougou",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The city of Ouagadougou was located in what country between Jul 1580 and Aug 1848?",
+   "question_easy": "Which country did Ouagadougou belong to from 1500 to Sep 1896?",
+   "targets": [
+    "Mossi Kingdoms"
+   ],
+   "time_start": "1500",
+   "time_end": "Sep 1896",
+   "gold_chunk_ids": [
+    "/wiki/Ouagadougou#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Pskov#P17#0",
+   "page_id": "/wiki/Pskov",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Can you name the country did a city in northwestern Russia called Pskov was belonged to in Jul 1335?",
+   "question_easy": "Can you name the country did a city in northwestern Russia called Pskov was belonged to from 1136 to 1348?",
+   "targets": [
+    "Novgorod Republic"
+   ],
+   "time_start": "1136",
+   "time_end": "1348",
+   "gold_chunk_ids": [
+    "/wiki/Pskov#2"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#P121#3",
+   "page_id": "/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4",
+   "relation": "P121",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "What routes were run by the Swiss train network between Jan 1971 and Feb 1971?",
+   "question_easy": "SBB-CFF-FFS RAm TEE I and NS DE4 was operated by what from Sep 1969 to Feb 1971?",
+   "targets": [
+    "Bavaria"
+   ],
+   "time_start": "Sep 1969",
+   "time_end": "Feb 1971",
+   "gold_chunk_ids": [
+    "/wiki/SBB-CFF-FFS_RAm_TEE_I_and_NS_DE4#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Sarta#P17#3",
+   "page_id": "/wiki/Sarta",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The town of Sarta was located in what country between Apr 1979 and Oct 1992?",
+   "question_easy": "Which country did Sarta belong to from 1967 to 1994?",
+   "targets": [
+    "Israeli"
+   ],
+   "time_start": "1967",
+   "time_end": "1994",
+   "gold_chunk_ids": [
+    "/wiki/Sarta#8"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Sokołowsko#P17#1",
+   "page_id": "/wiki/Sokołowsko",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The traditional climatic health resort Sokolowsko was owned by what nation between Mar 1643 and Aug 1826?",
+   "question_easy": "Which country did Sokołowsko belong to from 1526 to 1870?",
+   "targets": [
+    "Prussia"
+   ],
+   "time_start": "1526",
+   "time_end": "1870",
+   "gold_chunk_ids": [
+    "/wiki/Sokołowsko#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Svetogorsk#P17#2",
+   "page_id": "/wiki/Svetogorsk",
+   "relation": "P17",
+   "domain": "place",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The industrial town of Svetogorsk was a part of what republic in Dec 1940?",
+   "question_easy": "The industrial town of Svetogorsk was a part of what republic from Mar 1940 to Aug 1941?",
+   "targets": [
+    "Karelian Autonomous Soviet Socialist Republic"
+   ],
+   "time_start": "Mar 1940",
+   "time_end": "Aug 1941",
+   "gold_chunk_ids": [
+    "/wiki/Svetogorsk#4"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Alfonso_Carlos_Comín#P102#0",
+   "page_id": "/wiki/Alfonso_Carlos_Comín",
+   "relation": "P102",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Which popular front of the secular Palestinian Marxist–Leninist political group did the Spanish industrial engineer & politician belong to before Feb 1960?",
+   "question_easy": "Which popular front of the secular Palestinian Marxist–Leninist political group did the Spanish industrial engineer & politician belong to from 1956 to 1962?",
+   "targets": [
+    "Popular Liberation Front"
+   ],
+   "time_start": "1956",
+   "time_end": "1962",
+   "gold_chunk_ids": [
+    "/wiki/Alfonso_Carlos_Comín#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Boris_Nemtsov#P102#3",
+   "page_id": "/wiki/Boris_Nemtsov",
+   "relation": "P102",
+   "domain": "politics",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "The politician Nemtsov was a part of which party after Sep 2012?",
+   "question_easy": "Which party was Boris Nemtsov a member of from Jun 2012 to Jun 2013?",
+   "targets": [
+    "Peoples Freedom Party"
+   ],
+   "time_start": "Jun 2012",
+   "time_end": "Jun 2013",
+   "gold_chunk_ids": [
+    "/wiki/Boris_Nemtsov#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Georges_Pompidou#P39#0",
+   "page_id": "/wiki/Georges_Pompidou",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "French politician Georges Jean Raymond Pompidou held what position in Aug 1963?",
+   "question_easy": "French politician Georges Jean Raymond Pompidou held what position from Apr 1962 to Apr 1967?",
+   "targets": [
+    "Prime Minister of France"
+   ],
+   "time_start": "Apr 1962",
+   "time_end": "Apr 1967",
+   "gold_chunk_ids": [
+    "/wiki/Georges_Pompidou#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Guy_Aldred#P102#2",
+   "page_id": "/wiki/Guy_Aldred",
+   "relation": "P102",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "To which political organization was the British communist Guy Aldred a member between Oct 1934 and Dec 1934?",
+   "question_easy": "To which political organization was the British communist Guy Aldred a member from 1934 to 1935?",
+   "targets": [
+    "United Socialist Movement"
+   ],
+   "time_start": "1934",
+   "time_end": "1935",
+   "gold_chunk_ids": [
+    "/wiki/Guy_Aldred#14"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Helen_Clark#P39#3",
+   "page_id": "/wiki/Helen_Clark",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "in May 2007, Mrs. Clark of the New Zealand Labour Party was elected to which office?",
+   "question_easy": "from Dec 1999 to Nov 2008, Mrs. Clark of the New Zealand Labour Party was elected to which office?",
+   "targets": [
+    "Prime Minister of New Zealand"
+   ],
+   "time_start": "Dec 1999",
+   "time_end": "Nov 2008",
+   "gold_chunk_ids": [
+    "/wiki/Helen_Clark#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Jim_Prentice#P102#1",
+   "page_id": "/wiki/Jim_Prentice",
+   "relation": "P102",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Canadian politician Peter Eric James Prentice had membership in what political party and what political roles after Oct 2006?",
+   "question_easy": "The Canadian politician Peter Eric James Prentice had membership in what political party and what political roles from Dec 2003 to Oct 2016?",
+   "targets": [
+    "candidate of the Conservative Party of Canada",
+    "16th Premier of Alberta",
+    "Minister of Industry"
+   ],
+   "time_start": "Dec 2003",
+   "time_end": "Oct 2016",
+   "gold_chunk_ids": [
+    "/wiki/Jim_Prentice#0",
+    "/wiki/Jim_Prentice#27"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Michael_Cullen_(politician)#P39#0",
+   "page_id": "/wiki/Michael_Cullen_(politician)",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What role did New Zealand politician Michael Cullen have before Aug 1989?",
+   "question_easy": "What role did New Zealand politician Michael Cullen have from 1981 to 1996?",
+   "targets": [
+    "MP for the Dunedin electorate of St Kilda"
+   ],
+   "time_start": "1981",
+   "time_end": "1996",
+   "gold_chunk_ids": [
+    "/wiki/Michael_Cullen_(politician)#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Niigata_Prefecture#P6#2",
+   "page_id": "/wiki/Niigata_Prefecture",
+   "relation": "P6",
+   "domain": "politics",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who governed the Niigata Prefecture after Nov 2018?",
+   "question_easy": "Who was the chair of Niigata Prefecture from Jun 2018 to Jun 2019?",
+   "targets": [
+    "Hideyo Hanazumi"
+   ],
+   "time_start": "Jun 2018",
+   "time_end": "Jun 2019",
+   "gold_chunk_ids": [
+    "/wiki/Niigata_Prefecture#15"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Peter_Beattie#P39#4",
+   "page_id": "/wiki/Peter_Beattie",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Politician Peter Beattie held what Australian office between Dec 2005 and Jan 2006?",
+   "question_easy": "Politician Peter Beattie held what Australian office from Jul 2005 to Feb 2006?",
+   "targets": [
+    "Queensland Parliament as MP for Brisbane Central",
+    "36th Premier of Queensland"
+   ],
+   "time_start": "Jul 2005",
+   "time_end": "Feb 2006",
+   "gold_chunk_ids": [
+    "/wiki/Peter_Beattie#0",
+    "/wiki/Peter_Beattie#11"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Quim_Torra#P39#2",
+   "page_id": "/wiki/Quim_Torra",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Catalan Joaquim Torra i Pla had what titled job in Aug 2018?",
+   "question_easy": "Catalan Joaquim Torra i Pla had what titled job from May 2018 to May 2019?",
+   "targets": [
+    "President of Catalonia"
+   ],
+   "time_start": "May 2018",
+   "time_end": "May 2019",
+   "gold_chunk_ids": [
+    "/wiki/Quim_Torra#17"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Roma_Mitchell#P39#0",
+   "page_id": "/wiki/Roma_Mitchell",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Roma Mitchell had what job between Jun 1981 and Nov 1981?",
+   "question_easy": "Roma Mitchell had what job from Sep 1965 to 1983?",
+   "targets": [
+    "Justice of the Supreme Court of South Australia"
+   ],
+   "time_start": "Sep 1965",
+   "time_end": "1983",
+   "gold_chunk_ids": [
+    "/wiki/Roma_Mitchell#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Vice_President_of_Afghanistan#P1308#1",
+   "page_id": "/wiki/Vice_President_of_Afghanistan",
+   "relation": "P1308",
+   "domain": "politics",
+   "split": "D/train",
+   "source": "D/train",
+   "question_hard": "Who was Afghanistan's Vice President between Apr 2020 and Jun 2020?",
+   "question_easy": "Who was the office holder of Vice President of Afghanistan from Feb 2020 to Feb 2021?",
+   "targets": [
+    "Sarwar Danish"
+   ],
+   "time_start": "Feb 2020",
+   "time_end": "Feb 2021",
+   "gold_chunk_ids": [
+    "/wiki/Vice_President_of_Afghanistan#0"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/William_B._Umstead#P39#1",
+   "page_id": "/wiki/William_B._Umstead",
+   "relation": "P39",
+   "domain": "politics",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What become the placement of William B. Umstead between Jan 1928 and Dec 1928?",
+   "question_easy": "What become the placement of William B. Umstead from 1927 to 1933?",
+   "targets": [
+    "solicitor"
+   ],
+   "time_start": "1927",
+   "time_end": "1933",
+   "gold_chunk_ids": [
+    "/wiki/William_B._Umstead#3"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/André_Schembri#P54#0",
+   "page_id": "/wiki/André_Schembri",
+   "relation": "P54",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What team had Maltese footballer André Schembri on it before Oct 2004?",
+   "question_easy": "What team had Maltese footballer André Schembri on it from 2002 to 2005?",
+   "targets": [
+    "Hibernians"
+   ],
+   "time_start": "2002",
+   "time_end": "2005",
+   "gold_chunk_ids": [
+    "/wiki/André_Schembri#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/André_Schembri#P54#4",
+   "page_id": "/wiki/André_Schembri",
+   "relation": "P54",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What team had Maltese footballer André Schembri on it between Sep 2009 and Oct 2009?",
+   "question_easy": "What team had Maltese footballer André Schembri on it from 2009 to 2010?",
+   "targets": [
+    "Austria Kärnten"
+   ],
+   "time_start": "2009",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/André_Schembri#1"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Calcio_Catania#P286#4",
+   "page_id": "/wiki/Calcio_Catania",
+   "relation": "P286",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "The Italian football club Calcio Catania had which person head coaching it in Apr 2011?",
+   "question_easy": "The Italian football club Calcio Catania had which person head coaching it from 2011 to Jun 2011?",
+   "targets": [
+    "Diego Simeone"
+   ],
+   "time_start": "Jan 2011",
+   "time_end": "Jun 2011",
+   "gold_chunk_ids": [
+    "/wiki/Calcio_Catania#33"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Fred_Hoiberg#P6087#2",
+   "page_id": "/wiki/Fred_Hoiberg",
+   "relation": "P6087",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What basketball team was coached by \"The Mayor\" Hoiberg between Mar 2020 and Mar 2020?",
+   "question_easy": "What basketball team was coached by \"The Mayor\" Hoiberg from Mar 2019 to Mar 2020?",
+   "targets": [
+    "Nebraska Cornhuskers"
+   ],
+   "time_start": "Mar 2019",
+   "time_end": "Mar 2020",
+   "gold_chunk_ids": [
+    "/wiki/Fred_Hoiberg#17"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#3",
+   "page_id": "/wiki/Gary_Mills_(footballer,_born_1961)",
+   "relation": "P6087",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "between Mar 2005 and Jun 2006, what team received coaching from previous pro footballer Gary Mills?",
+   "question_easy": "from 2005 to 2007, what team received coaching from previous pro footballer Gary Mills?",
+   "targets": [
+    "Alfreton Town"
+   ],
+   "time_start": "2005",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Gary_Mills_(footballer,_born_1961)#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Inter_Milan#P286#0",
+   "page_id": "/wiki/Inter_Milan",
+   "relation": "P286",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Who used to be the head educate of the crew Inter Milan between Feb 1979 and Mar 1980?",
+   "question_easy": "Who used to be the head educate of the crew Inter Milan from Jul 1977 to Jun 1982?",
+   "targets": [
+    "Johan Cruyffs"
+   ],
+   "time_start": "Jul 1977",
+   "time_end": "Jun 1982",
+   "gold_chunk_ids": [
+    "/wiki/Inter_Milan#15"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Joachim_Löw#P6087#2",
+   "page_id": "/wiki/Joachim_Löw",
+   "relation": "P6087",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "between Nov 1996 and Aug 1997, which team received coaching from the coach Joachim Low?",
+   "question_easy": "from 1996 to 1998, which team received coaching from the coach Joachim Low?",
+   "targets": [
+    "VfB Stuttgart"
+   ],
+   "time_start": "1996",
+   "time_end": "1998",
+   "gold_chunk_ids": [
+    "/wiki/Joachim_Löw#5"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Marcus_Ericsson#P641#1",
+   "page_id": "/wiki/Marcus_Ericsson",
+   "relation": "P641",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Marcus Ericsson played in which sport between Dec 2009 and 2010?",
+   "question_easy": "Marcus Ericsson played in which sport from 2009 to 2010?",
+   "targets": [
+    "GP2 Asia"
+   ],
+   "time_start": "2009",
+   "time_end": "2010",
+   "gold_chunk_ids": [
+    "/wiki/Marcus_Ericsson#12"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/Nick_Saban#P6087#2",
+   "page_id": "/wiki/Nick_Saban",
+   "relation": "P6087",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What team did American Nicholas Lou Saban Jr. have the coach job for in May 2005?",
+   "question_easy": "What team did American Nicholas Lou Saban Jr. have the coach job for from 2005 to 2006?",
+   "targets": [
+    "Miami Dolphins"
+   ],
+   "time_start": "2005",
+   "time_end": "2006",
+   "gold_chunk_ids": [
+    "/wiki/Nick_Saban#25"
+   ],
+   "flags": [
+    "answer_in_heading"
+   ]
+  },
+  {
+   "idx": "/wiki/Olivier_Bernard#P54#3",
+   "page_id": "/wiki/Olivier_Bernard",
+   "relation": "P54",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "What football team was Olivier Bernard a member of in Jan 2006?",
+   "question_easy": "What football team was Olivier Bernard a member of from 2006 to 2007?",
+   "targets": [
+    "Rangers",
+    "Newcastle United"
+   ],
+   "time_start": "2006",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Olivier_Bernard#6"
+   ],
+   "flags": [
+    "answer_in_heading"
+   ]
+  },
+  {
+   "idx": "/wiki/Steve_Sidwell#P54#2",
+   "page_id": "/wiki/Steve_Sidwell",
+   "relation": "P54",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "English footballer Steve Sidwell was part of what team between Aug 2006 and Dec 2006?",
+   "question_easy": "English footballer Steve Sidwell was part of what team from 2003 to 2007?",
+   "targets": [
+    "Reading"
+   ],
+   "time_start": "2003",
+   "time_end": "2007",
+   "gold_chunk_ids": [
+    "/wiki/Steve_Sidwell#6"
+   ],
+   "flags": []
+  },
+  {
+   "idx": "/wiki/UD_Las_Palmas#P286#2",
+   "page_id": "/wiki/UD_Las_Palmas",
+   "relation": "P286",
+   "domain": "sports",
+   "split": "D/test",
+   "source": "D/test",
+   "question_hard": "Which person was the coach of the Las Palmas team UD Las Palmas between Apr 2017 and May 2017?",
+   "question_easy": "Which person was the coach of the Las Palmas team UD Las Palmas from 2017 to 2018?",
+   "targets": [
+    "Paco Jémez"
+   ],
+   "time_start": "2017",
+   "time_end": "2018",
+   "gold_chunk_ids": [
+    "/wiki/UD_Las_Palmas#18"
+   ],
+   "flags": []
+  }
+ ]
+}
